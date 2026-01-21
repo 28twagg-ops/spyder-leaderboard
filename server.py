@@ -5,34 +5,87 @@ import os
 
 app = Flask(__name__)
 
-SECRET = "SPYDER2026"
-leaderboard = []
+# IMPORTANT:
+# Put your secret in Render Environment Variables as SECRET_KEY
+# (Dashboard -> Service -> Environment -> Add SECRET_KEY)
+# If not set, it falls back to this value.
+SECRET = os.environ.get("SECRET_KEY", "SPYDER2026")
 
-@app.route("/submit", methods=["POST"])
-def submit():
-    data = request.json
+leaderboard = []  # in-memory (resets when the service restarts)
 
-    raw = f"{data['name']}{data['score']}{data['analysis']}{SECRET}"
-    if hashlib.sha256(raw.encode()).hexdigest() != data['sig']:
-        return jsonify({"error": "bad signature"}), 403
+ALLOWED_GAMES = {"blackjack", "holdem"}
 
-    leaderboard.append({
-        "name": data["name"],
-        "score": float(data["score"]),
-        "analysis": data["analysis"],
-        "time": time.time()
+@app.get("/")
+def home():
+    return jsonify({
+        "ok": True,
+        "service": "spyder-leaderboard",
+        "endpoints": ["/submit (POST)", "/leaderboard (GET)"]
     })
 
-    leaderboard.sort(key=lambda x: x["score"], reverse=True)
-    leaderboard[:] = leaderboard[:10]
+def verify_sig(data):
+    # required fields
+    for k in ("name", "score", "mode", "game", "sig"):
+        if k not in data:
+            return False, f"missing field: {k}"
+
+    game = str(data["game"]).lower()
+    if game not in ALLOWED_GAMES:
+        return False, "invalid game"
+
+    name = str(data["name"]).upper()[:3]
+    mode = str(data["mode"]).upper()
+    score = round(float(data["score"]), 2)
+
+    raw = f"{name}{score}{mode}{game}{SECRET}"
+    expected = hashlib.sha256(raw.encode()).hexdigest()
+    return expected == str(data["sig"]), "bad signature"
+
+@app.post("/submit")
+def submit():
+    data = request.json or {}
+
+    ok, msg = verify_sig(data)
+    if not ok:
+        return jsonify({"error": msg}), 403
+
+    game = str(data["game"]).lower()
+    entry = {
+        "name": str(data["name"]).upper()[:3],
+        "score": round(float(data["score"]), 2),
+        "mode": str(data["mode"]).upper(),
+        "game": game,
+        "time": time.time()
+    }
+
+    leaderboard.append(entry)
+
+    # Keep top 10 per game
+    for g in ALLOWED_GAMES:
+        items = [e for e in leaderboard if e["game"] == g]
+        items.sort(key=lambda x: x["score"], reverse=True)
+        items = items[:10]
+
+        # remove old entries for that game, then add trimmed
+        leaderboard[:] = [e for e in leaderboard if e["game"] != g] + items
 
     return jsonify({"ok": True})
 
-@app.route("/leaderboard")
+@app.get("/leaderboard")
 def board():
-    return jsonify(leaderboard)
+    # optional filter: /leaderboard?game=holdem
+    game = request.args.get("game", "").lower().strip()
+    if game in ALLOWED_GAMES:
+        items = [e for e in leaderboard if e["game"] == game]
+        items.sort(key=lambda x: x["score"], reverse=True)
+        return jsonify(items)
 
+    # default: return everything
+    items = leaderboard[:]
+    items.sort(key=lambda x: (x["game"], -x["score"]))
+    return jsonify(items)
 
 if __name__ == "__main__":
-    port = int(os.environ.get("PORT", 10000))
+    # Render provides PORT; fall back to 10000 for local
+    port = int(os.environ.get("PORT", "10000"))
     app.run(host="0.0.0.0", port=port)
