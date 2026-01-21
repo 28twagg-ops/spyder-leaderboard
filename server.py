@@ -1,6 +1,7 @@
 from flask import Flask, request, jsonify
 import hashlib
 import time
+import os
 
 app = Flask(__name__)
 
@@ -31,6 +32,7 @@ def submit():
 def board():
     return jsonify(leaderboard)
 
-if __name__ == "__main__":
-    app.run()
 
+if __name__ == "__main__":
+    port = int(os.environ.get("PORT", 10000))
+    app.run(host="0.0.0.0", port=port)
