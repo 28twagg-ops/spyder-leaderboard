@@ -46,6 +46,13 @@ def board():
 
     data.sort(key=lambda x: x["score"], reverse=True)
     return jsonify(data[:top])
+@app.route("/version")
+def version():
+    return {
+        "server": "spyder-leaderboard",
+        "sig_contract": "sha256(name+score+mode+game+SECRET)",
+        "secret": SECRET,
+    }
 
 if __name__ == "__main__":
     app.run()
