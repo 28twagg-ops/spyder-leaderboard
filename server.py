@@ -2,66 +2,56 @@ from flask import Flask, request, jsonify
 import hashlib
 import time
 import os
-import json
 import threading
+
+import psycopg2
+import psycopg2.extras
 
 app = Flask(__name__)
 
 # -------------------------
 # CONFIG
 # -------------------------
-# Keep your existing default, but allow Render env override
 SECRET = os.environ.get("SPYDER_SECRET", "SPYDER2026")
-
-# Persist leaderboard to a json file
-DATA_FILE = os.environ.get("SPYDER_DATA_FILE", "leaderboard.json")
-
-# Prevent runaway growth
 MAX_ENTRIES = 500
-
 LOCK = threading.Lock()
-leaderboard = []  # list[dict]
+
+DATABASE_URL = os.environ.get("DATABASE_URL")
 
 
 # -------------------------
-# PERSISTENCE
+# DB
 # -------------------------
-def _load_leaderboard():
-    global leaderboard
-    try:
-        if os.path.exists(DATA_FILE):
-            with open(DATA_FILE, "r", encoding="utf-8") as f:
-                data = json.load(f)
-                if isinstance(data, list):
-                    leaderboard = data
-                else:
-                    leaderboard = []
-        else:
-            leaderboard = []
-    except Exception:
-        leaderboard = []
+def get_conn():
+    if not DATABASE_URL:
+        raise RuntimeError("DATABASE_URL not set")
+    # Neon requires SSL; your URL already includes sslmode=require
+    return psycopg2.connect(DATABASE_URL)
 
 
-def _save_leaderboard():
-    # safer write: temp then replace
-    tmp = DATA_FILE + ".tmp"
-    try:
-        with open(tmp, "w", encoding="utf-8") as f:
-            json.dump(leaderboard, f)
-        os.replace(tmp, DATA_FILE)
-    except Exception:
-        try:
-            if os.path.exists(tmp):
-                os.remove(tmp)
-        except Exception:
-            pass
+def init_db():
+    with get_conn() as conn:
+        with conn.cursor() as cur:
+            cur.execute(
+                """
+                CREATE TABLE IF NOT EXISTS leaderboard_entries (
+                    id BIGSERIAL PRIMARY KEY,
+                    name VARCHAR(3) NOT NULL,
+                    score DOUBLE PRECISION NOT NULL,
+                    mode TEXT NOT NULL,
+                    game TEXT NOT NULL,
+                    ts DOUBLE PRECISION NOT NULL
+                );
+                """
+            )
 
 
-_load_leaderboard()
+# Initialize on startup
+init_db()
 
 
 # -------------------------
-# SIGNATURE CONTRACT (yours, unchanged)
+# SIGNATURE CONTRACT
 # sha256(name + score_str + mode + game + SECRET)
 # with deterministic score_str:
 #  - BLACKJACK: 2 decimals
@@ -88,17 +78,23 @@ def make_sig(name, score, mode, game):
 # -------------------------
 @app.route("/", methods=["GET"])
 def root():
-    return jsonify({"ok": True, "service": "spyder-leaderboard", "count": len(leaderboard)})
+    with get_conn() as conn:
+        with conn.cursor() as cur:
+            cur.execute("SELECT COUNT(*) FROM leaderboard_entries;")
+            (count,) = cur.fetchone()
+    return jsonify({"ok": True, "service": "spyder-leaderboard", "count": int(count)})
 
 
 @app.route("/version", methods=["GET"])
 def version():
-    # Don't leak SECRET publicly
-    return jsonify({
-        "server": "spyder-leaderboard",
-        "sig_contract": "sha256(name+score+mode+game+SECRET)",
-        "note": "BLACKJACK score=2 decimals; HOLDEM score=int chips",
-    })
+    return jsonify(
+        {
+            "server": "spyder-leaderboard",
+            "sig_contract": "sha256(name+score+mode+game+SECRET)",
+            "note": "BLACKJACK score=2 decimals; HOLDEM score=int chips",
+            "storage": "postgres",
+        }
+    )
 
 
 @app.route("/submit", methods=["POST"])
@@ -108,37 +104,42 @@ def submit():
     mode = str(data.get("mode", "STANDARD")).upper()
     game = str(data.get("game", "UNKNOWN")).upper()
 
-    # IMPORTANT:
-    # Your server normalizes score BEFORE signing, so client must match.
     score_in = data.get("score", 0)
     if game == "HOLDEM":
         score = int(float(score_in))
     else:
         score = float(score_in)
 
-    # Accept sig in any case (your old code uppercased it; this avoids mismatches)
     sig = str(data.get("sig", "")).strip().lower()
     expected = make_sig(name, score, mode, game).lower()
-
     if expected != sig:
         return jsonify({"error": "bad signature"}), 403
 
-    entry = {
-        "name": name,
-        "score": score,
-        "mode": mode,
-        "game": game,
-        "time": time.time(),
-    }
+    ts = time.time()
 
     with LOCK:
-        leaderboard.append(entry)
+        with get_conn() as conn:
+            with conn.cursor() as cur:
+                cur.execute(
+                    """
+                    INSERT INTO leaderboard_entries (name, score, mode, game, ts)
+                    VALUES (%s, %s, %s, %s, %s);
+                    """,
+                    (name, float(score), mode, game, float(ts)),
+                )
 
-        # Keep only newest MAX_ENTRIES
-        if len(leaderboard) > MAX_ENTRIES:
-            leaderboard[:] = leaderboard[-MAX_ENTRIES:]
-
-        _save_leaderboard()
+                # Keep only newest MAX_ENTRIES rows
+                cur.execute(
+                    """
+                    DELETE FROM leaderboard_entries
+                    WHERE id IN (
+                        SELECT id FROM leaderboard_entries
+                        ORDER BY id DESC
+                        OFFSET %s
+                    );
+                    """,
+                    (MAX_ENTRIES,),
+                )
 
     return jsonify({"ok": True})
 
@@ -152,16 +153,32 @@ def board():
         top = 10
     top = max(1, min(500, top))
 
-    with LOCK:
-        data = leaderboard[:]
+    with get_conn() as conn:
+        with conn.cursor(cursor_factory=psycopg2.extras.RealDictCursor) as cur:
+            if game:
+                cur.execute(
+                    """
+                    SELECT name, score, mode, game, ts AS time
+                    FROM leaderboard_entries
+                    WHERE UPPER(game) = %s
+                    ORDER BY score DESC
+                    LIMIT %s;
+                    """,
+                    (game, top),
+                )
+            else:
+                cur.execute(
+                    """
+                    SELECT name, score, mode, game, ts AS time
+                    FROM leaderboard_entries
+                    ORDER BY score DESC
+                    LIMIT %s;
+                    """,
+                    (top,),
+                )
+            rows = cur.fetchall()
 
-    if game:
-        data = [e for e in data if str(e.get("game", "")).upper() == game]
-
-    # Sort by numeric score desc
-    data.sort(key=lambda x: float(x.get("score", 0)), reverse=True)
-
-    return jsonify(data[:top])
+    return jsonify(rows)
 
 
 if __name__ == "__main__":
