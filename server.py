@@ -1,5 +1,8 @@
 from flask import Flask, request, jsonify
 import hashlib
+import hmac
+import math
+import re
 import time
 import os
 import threading
@@ -12,7 +15,10 @@ app = Flask(__name__)
 # -------------------------
 # CONFIG
 # -------------------------
-SECRET = os.environ.get("SPYDER_SECRET", "SPYDER2026")
+SECRET = os.environ.get("SPYDER_SECRET", "")
+# Do not ship a public fallback secret. Missing configuration disables
+# score submissions instead of authenticating everyone.
+app.config["MAX_CONTENT_LENGTH"] = 4096
 MAX_ENTRIES = 500
 LOCK = threading.Lock()
 
@@ -99,20 +105,28 @@ def version():
 
 @app.route("/submit", methods=["POST"])
 def submit():
-    data = request.json or {}
-    name = str(data.get("name", "")).upper()[:3]
+    if not SECRET:
+        return jsonify({"error": "score submissions unavailable"}), 503
+    data = request.get_json(silent=True)
+    if not isinstance(data, dict):
+        return jsonify({"error": "invalid JSON payload"}), 400
+    name = str(data.get("name", "")).upper()
     mode = str(data.get("mode", "STANDARD")).upper()
     game = str(data.get("game", "UNKNOWN")).upper()
-
-    score_in = data.get("score", 0)
-    if game == "HOLDEM":
-        score = int(float(score_in))
-    else:
-        score = float(score_in)
-
+    if not re.fullmatch(r"[A-Z0-9]{1,3}", name):
+        return jsonify({"error": "invalid player name"}), 400
+    if mode not in {"STANDARD", "ANALYSIS"} or game not in {"BLACKJACK", "HOLDEM"}:
+        return jsonify({"error": "invalid game or mode"}), 400
+    try:
+        score_float = float(data["score"])
+        if not math.isfinite(score_float) or abs(score_float) > 1000000000:
+            raise ValueError("score outside accepted range")
+        score = int(score_float) if game == "HOLDEM" else score_float
+    except (KeyError, ValueError, TypeError, OverflowError):
+        return jsonify({"error": "invalid score"}), 400
     sig = str(data.get("sig", "")).strip().lower()
     expected = make_sig(name, score, mode, game).lower()
-    if expected != sig:
+    if not hmac.compare_digest(expected, sig):
         return jsonify({"error": "bad signature"}), 403
 
     ts = time.time()
