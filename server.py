@@ -126,7 +126,7 @@ def submit():
         return jsonify({"error": "invalid score"}), 400
     sig = str(data.get("sig", "")).strip().lower()
     expected = make_sig(name, score, mode, game).lower()
-    if not hmac.compare_digest(expected, sig):
+    if not re.fullmatch(r"[0-9a-f]{64}", sig) or not hmac.compare_digest(expected, sig):
         return jsonify({"error": "bad signature"}), 403
 
     ts = time.time()
