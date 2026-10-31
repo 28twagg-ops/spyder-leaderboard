@@ -42,6 +42,10 @@ class SubmissionValidationTest(unittest.TestCase):
             "name":"ABC","game":"HOLDEM","mode":"STANDARD",
             "score":100,"sig":"incorrect"})
         self.assertEqual(response.status_code,403)
+        unicode_sig = self.client.post("/submit",json={
+            "name":"ABC","game":"HOLDEM","mode":"STANDARD",
+            "score":100,"sig":"🔐"})
+        self.assertEqual(unicode_sig.status_code,403)
 
     def test_valid_signed_submission_retains_existing_contract(self):
         signature = server.make_sig("ABC",100,"STANDARD","HOLDEM")
