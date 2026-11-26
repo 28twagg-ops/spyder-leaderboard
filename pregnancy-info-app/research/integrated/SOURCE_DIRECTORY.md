@@ -370,3 +370,17 @@
 - **G002** — [European Union herbal monograph on Centella asiatica (L.) Urb., herba, revision 1](https://www.ema.europa.eu/en/documents/herbal-monograph/european-union-herbal-monograph-centella-asiatica-l-urb-herba-revision-1_en.pdf) — regulatory herbal monograph; selected source section or indexed excerpt checked
 - **G003** — [NHS South Yorkshire: Pelvic Health - Exercises](https://www.youtube.com/watch?v=bSmPmsgcq80) — institutional video candidate; selected source section or indexed excerpt checked
 - **G004** — [The Royal Women's Hospital: Exercise after birth](https://www.thewomens.org.au/health-information/pregnancy-and-birth/your-health-after-birth/exercise-after-birth) — institutional video and patient information candidate; selected source section or indexed excerpt checked
+
+## Independent audit additions (2026-11-26)
+
+- IA001 — [Hydroquinone (StatPearls)](https://www.ncbi.nlm.nih.gov/books/NBK539693/) — clinical pharmacology reference; clinical review pending.
+- IA002 — [Exposure to hydroquinone in pregnancy](https://uktis.org/monographs/exposure-to-hydroquinone-in-pregnancy/) — teratology guidance; clinical review pending.
+- IA003 — [Hydroquinone (LactMed)](https://www.ncbi.nlm.nih.gov/books/NBK500669/) — lactation reference; clinical review pending.
+- IA004 — [Prospective, randomized, double-blind assessment of topical bakuchiol and retinol for facial photoageing](https://pubmed.ncbi.nlm.nih.gov/29947134/) — primary trial; clinical review pending.
+- IA005 — [Tretinoin (LactMed)](https://www.ncbi.nlm.nih.gov/books/NBK501419/) — lactation reference; clinical review pending.
+- IA006 — [Maternal choline supplementation during the third trimester of pregnancy improves infant information processing speed: a randomized, double-blind, controlled feeding study](https://pubmed.ncbi.nlm.nih.gov/29217669/) — primary trial; clinical review pending.
+- IA007 — [Prenatal choline supplementation improves child sustained attention: A 7-year follow-up of a randomized controlled feeding trial](https://pubmed.ncbi.nlm.nih.gov/34962672/) — primary trial follow-up; clinical review pending.
+- IA008 — [Effect of Folic Acid and Zinc Supplementation in Men on Semen Quality and Live Birth Among Couples Undergoing Infertility Treatment: A Randomized Clinical Trial](https://pmc.ncbi.nlm.nih.gov/articles/PMC6990807/) — primary trial; clinical review pending.
+- IA009 — [The Postpartum Playbook with Margie Davenport. EP#576](https://bjsmbmj.podbean.com/e/the-postpartum-playbook-with-margie-davenport-ep576/) — educational audio candidate; clinical review pending.
+
+Current registry: 377 mixed resources. S064/N305 refer to the same guideline; IA006/IA007 are one trial cohort.
