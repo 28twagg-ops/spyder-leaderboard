@@ -1,0 +1,331 @@
+[
+  {
+    "id": "M01",
+    "title": "Pelvic floor exercises",
+    "publisher": "NHS",
+    "url": "https://www.youtube.com/watch?v=JFJtUtKQCuM",
+    "topics": [
+      "PELV-001"
+    ],
+    "safety": "prenatal/postpartum; clinician guidance for pain or inability to relax",
+    "type": "direct video",
+    "duration_seconds": null,
+    "caption_status": "not audited",
+    "transcript_status": "not audited",
+    "rights": "link only; embedding/reuse permissions not verified",
+    "verification": "publisher listing/title and topic checked; playback and frame-by-frame clinical audit pending",
+    "checked": "2026-11-26",
+    "publish_status": "candidate; review before promotion"
+  },
+  {
+    "id": "M02",
+    "title": "Prenatal physiotherapy: pelvic floor exercise",
+    "publisher": "Imperial College Healthcare NHS Trust",
+    "url": "https://www.youtube.com/watch?v=APCdcePoMik",
+    "topics": [
+      "PELV-001"
+    ],
+    "safety": "pregnancy; assess suitability",
+    "type": "direct video",
+    "duration_seconds": null,
+    "caption_status": "not audited",
+    "transcript_status": "not audited",
+    "rights": "link only; embedding/reuse permissions not verified",
+    "verification": "publisher listing/title and topic checked; playback and frame-by-frame clinical audit pending",
+    "checked": "2026-11-26",
+    "publish_status": "candidate; review before promotion"
+  },
+  {
+    "id": "M03",
+    "title": "Prenatal and postnatal yoga",
+    "publisher": "NHS",
+    "url": "https://www.nhs.uk/live-well/exercise/pilates-and-yoga/prenatal-and-postnatal-exercise/",
+    "topics": [
+      "FIT-002",
+      "FIT-003"
+    ],
+    "safety": "postpartum only after appropriate clearance; see video safety information",
+    "type": "video page",
+    "duration_seconds": null,
+    "caption_status": "not audited",
+    "transcript_status": "not audited",
+    "rights": "link only; embedding/reuse permissions not verified",
+    "verification": "publisher listing/title and topic checked; playback and frame-by-frame clinical audit pending",
+    "checked": "2026-11-26",
+    "publish_status": "candidate; review before promotion"
+  },
+  {
+    "id": "M04",
+    "title": "Maternity physiotherapy advice videos",
+    "publisher": "University Hospitals Bristol and Weston NHS",
+    "url": "https://www.uhbristol.nhs.uk/patients-and-visitors/your-hospitals/st-michaels-hospital/what-we-do/physiotherapy/advice-videos/",
+    "topics": [
+      "MSK-001",
+      "PELV-001",
+      "BIRTH-001",
+      "FIT-002"
+    ],
+    "safety": "select stage-specific video; symptom suitability",
+    "type": "video collection",
+    "duration_seconds": null,
+    "caption_status": "not audited",
+    "transcript_status": "not audited",
+    "rights": "link only; embedding/reuse permissions not verified",
+    "verification": "publisher listing/title and topic checked; playback and frame-by-frame clinical audit pending",
+    "checked": "2026-11-26",
+    "publish_status": "candidate; review before promotion"
+  },
+  {
+    "id": "M05",
+    "title": "Antenatal perineal massage",
+    "publisher": "Leeds Teaching Hospitals NHS",
+    "url": "https://www.leedsth.nhs.uk/patients/resources/antenatal-perineal-massage/",
+    "topics": [
+      "BIRTH-001"
+    ],
+    "safety": "late pregnancy only, review contraindications with care team",
+    "type": "video page",
+    "duration_seconds": null,
+    "caption_status": "not audited",
+    "transcript_status": "not audited",
+    "rights": "link only; embedding/reuse permissions not verified",
+    "verification": "publisher listing/title and topic checked; playback and frame-by-frame clinical audit pending",
+    "checked": "2026-11-26",
+    "publish_status": "candidate; review before promotion"
+  },
+  {
+    "id": "M06",
+    "title": "Pelvic health video series",
+    "publisher": "POGP",
+    "url": "https://thepogp.co.uk/pelvic_health_videos_-_english.aspx",
+    "topics": [
+      "PELV-001",
+      "FIT-002",
+      "FIT-003"
+    ],
+    "safety": "stage and symptom specific",
+    "type": "video collection",
+    "duration_seconds": null,
+    "caption_status": "not audited",
+    "transcript_status": "not audited",
+    "rights": "link only; embedding/reuse permissions not verified",
+    "verification": "publisher listing/title and topic checked; playback and frame-by-frame clinical audit pending",
+    "checked": "2026-11-26",
+    "publish_status": "candidate; review before promotion"
+  },
+  {
+    "id": "M07",
+    "title": "Supporting your body through pregnancy and after birth",
+    "publisher": "South East London ICS",
+    "url": "https://www.selondonics.org/supporting-your-body-through-pregnancy-and-after-birth/",
+    "topics": [
+      "SCAR-001",
+      "FIT-003",
+      "PELV-001",
+      "MSK-001"
+    ],
+    "safety": "choose matched birth/recovery phase; scar massage only after healing and appropriate assessment",
+    "type": "video collection",
+    "duration_seconds": null,
+    "caption_status": "not audited",
+    "transcript_status": "not audited",
+    "rights": "link only; embedding/reuse permissions not verified",
+    "verification": "publisher listing/title and topic checked; playback and frame-by-frame clinical audit pending",
+    "checked": "2026-11-26",
+    "publish_status": "candidate; review before promotion"
+  },
+  {
+    "id": "M08",
+    "title": "Preparing for and recovering from cesarean birth and scar massage",
+    "publisher": "North West London ICS",
+    "url": "https://www.nwlondonicb.nhs.uk/your-health-services/pregnancy-and-maternity-services/preparing-caesarean-birth-and-after",
+    "topics": [
+      "SCAR-001",
+      "BIRTH-001"
+    ],
+    "safety": "do not massage open or infected wounds",
+    "type": "video collection",
+    "duration_seconds": null,
+    "caption_status": "not audited",
+    "transcript_status": "not audited",
+    "rights": "link only; embedding/reuse permissions not verified",
+    "verification": "publisher listing/title and topic checked; playback and frame-by-frame clinical audit pending",
+    "checked": "2026-11-26",
+    "publish_status": "candidate; review before promotion"
+  },
+  {
+    "id": "M09",
+    "title": "Postnatal physiotherapy",
+    "publisher": "Leeds Teaching Hospitals NHS",
+    "url": "https://www.leedsth.nhs.uk/services/physiotherapy-2/pelvic-health-physiotherapy/urogynaecology-physiotherapy/postnatal/",
+    "topics": [
+      "ABD-001",
+      "FIT-003",
+      "PELV-001",
+      "SCAR-001"
+    ],
+    "safety": "postpartum only, adapt to recovery",
+    "type": "video collection",
+    "duration_seconds": null,
+    "caption_status": "not audited",
+    "transcript_status": "not audited",
+    "rights": "link only; embedding/reuse permissions not verified",
+    "verification": "publisher listing/title and topic checked; playback and frame-by-frame clinical audit pending",
+    "checked": "2026-11-26",
+    "publish_status": "candidate; review before promotion"
+  },
+  {
+    "id": "M10",
+    "title": "Pregnancy nutrition Q&A",
+    "publisher": "UC Davis Children's Hospital",
+    "url": "https://www.youtube.com/watch?v=pozcaggYIWk",
+    "topics": [
+      "NUTR-001"
+    ],
+    "safety": "general education; not individualized nutrient or diet prescription",
+    "type": "direct video",
+    "duration_seconds": null,
+    "caption_status": "not audited",
+    "transcript_status": "not audited",
+    "rights": "link only; embedding/reuse permissions not verified",
+    "verification": "publisher listing/title and topic checked; playback and frame-by-frame clinical audit pending",
+    "checked": "2026-11-26",
+    "publish_status": "candidate; review before promotion"
+  },
+  {
+    "id": "M11",
+    "title": "Decoding folic acid labels",
+    "publisher": "CDC",
+    "url": "https://www.cdc.gov/folic-acid/php/toolkit/decoding-labels.html",
+    "topics": [
+      "NUTR-001",
+      "REPRO-001"
+    ],
+    "safety": "preconception and early pregnancy; individualized high-risk dosing",
+    "type": "video page",
+    "duration_seconds": null,
+    "caption_status": "not audited",
+    "transcript_status": "not audited",
+    "rights": "link only; embedding/reuse permissions not verified",
+    "verification": "publisher listing/title and topic checked; playback and frame-by-frame clinical audit pending",
+    "checked": "2026-11-26",
+    "publish_status": "candidate; review before promotion"
+  },
+  {
+    "id": "M12",
+    "title": "Nutrition and pregnancy video series",
+    "publisher": "MyHealth Alberta",
+    "url": "https://myhealth.alberta.ca/Alberta/Pages/nutrition-pregnancy-video-series.aspx",
+    "topics": [
+      "NUTR-001"
+    ],
+    "safety": "Canada-specific guidance; compare US reference values",
+    "type": "video collection",
+    "duration_seconds": null,
+    "caption_status": "not audited",
+    "transcript_status": "not audited",
+    "rights": "link only; embedding/reuse permissions not verified",
+    "verification": "publisher listing/title and topic checked; playback and frame-by-frame clinical audit pending",
+    "checked": "2026-11-26",
+    "publish_status": "candidate; review before promotion"
+  },
+  {
+    "id": "M13",
+    "title": "Hear Her personal stories",
+    "publisher": "CDC",
+    "url": "https://www.cdc.gov/hearher/personal-stories/index.html",
+    "topics": [
+      "WELL-001",
+      "REPRO-001",
+      "VEIN-001"
+    ],
+    "safety": "lived experience not clinical outcome data; optional, not required viewing",
+    "type": "video collection",
+    "duration_seconds": null,
+    "caption_status": "not audited",
+    "transcript_status": "not audited",
+    "rights": "link only; embedding/reuse permissions not verified",
+    "verification": "publisher listing/title and topic checked; playback and frame-by-frame clinical audit pending",
+    "checked": "2026-11-26",
+    "publish_status": "candidate; review before promotion"
+  },
+  {
+    "id": "M14",
+    "title": "Maternal warning signs video",
+    "publisher": "Maryland maternal health innovation program",
+    "url": "https://maternalwarningsigns.org/",
+    "topics": [
+      "REPRO-001",
+      "WELL-001",
+      "VEIN-001"
+    ],
+    "safety": "urgent guidance must be visible outside video; US context",
+    "type": "video page",
+    "duration_seconds": null,
+    "caption_status": "not audited",
+    "transcript_status": "not audited",
+    "rights": "link only; embedding/reuse permissions not verified",
+    "verification": "publisher listing/title and topic checked; playback and frame-by-frame clinical audit pending",
+    "checked": "2026-11-26",
+    "publish_status": "candidate; review before promotion"
+  },
+  {
+    "id": "M15",
+    "title": "Pelvic health videos in British Sign Language",
+    "publisher": "SignHealth",
+    "url": "https://signhealth.org.uk/videotags/pregnancy/",
+    "topics": [
+      "PELV-001",
+      "BIRTH-001",
+      "FIT-003"
+    ],
+    "safety": "BSL, not ASL; choose applicable phase",
+    "type": "video collection",
+    "duration_seconds": null,
+    "caption_status": "not audited",
+    "transcript_status": "not audited",
+    "rights": "link only; embedding/reuse permissions not verified",
+    "verification": "publisher listing/title and topic checked; playback and frame-by-frame clinical audit pending",
+    "checked": "2026-11-26",
+    "publish_status": "candidate; review before promotion"
+  },
+  {
+    "id": "M16",
+    "title": "Maternity physiotherapy",
+    "publisher": "Nottingham University Hospitals NHS",
+    "url": "https://www.nuh.nhs.uk/physiotherapy-maternity",
+    "topics": [
+      "MSK-001",
+      "FIT-002",
+      "BIRTH-001"
+    ],
+    "safety": "local service context; select relevant video",
+    "type": "video collection",
+    "duration_seconds": null,
+    "caption_status": "not audited",
+    "transcript_status": "not audited",
+    "rights": "link only; embedding/reuse permissions not verified",
+    "verification": "publisher listing/title and topic checked; playback and frame-by-frame clinical audit pending",
+    "checked": "2026-11-26",
+    "publish_status": "candidate; review before promotion"
+  },
+  {
+    "id": "M17",
+    "title": "Evidence Based Birth podcast",
+    "publisher": "Evidence Based Birth",
+    "url": "https://evidencebasedbirth.com/evidence-based-birth-podcast/",
+    "topics": [
+      "BIRTH-001",
+      "EMERG-001"
+    ],
+    "safety": "secondary educational media; verify specific episode claims before featuring",
+    "type": "podcast collection",
+    "duration_seconds": null,
+    "caption_status": "not audited",
+    "transcript_status": "not audited",
+    "rights": "link only; embedding/reuse permissions not verified",
+    "verification": "publisher listing/title and topic checked; playback and frame-by-frame clinical audit pending",
+    "checked": "2026-11-26",
+    "publish_status": "candidate; review before promotion"
+  }
+]

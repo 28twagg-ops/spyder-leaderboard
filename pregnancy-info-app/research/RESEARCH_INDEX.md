@@ -31,3 +31,6 @@ See [progress](RESEARCH_PROGRESS.md) for verification levels and [gaps](RESEARCH
 
 ## Second-pass research
 Read [the continuation audit](continuation/README.md) for the prioritized evidence conflicts, chart data and selected appearance/recovery follow-ups. Do not add supplemental source or study counts to the baseline without deduplication.
+
+## Implementation-ready content and UX research
+See [implementation handoff](implementation-handoff/README.md) for all-topic quick cards, phase summaries, targeted clinical follow-ups, visual learning sources, comparator research, media catalog and structural validation.

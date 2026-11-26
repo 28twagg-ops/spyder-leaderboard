@@ -1,0 +1,7 @@
+# Content-ready handoff for Claude
+
+This directory complements the baseline research and continuation audit. It is a research/UX content layer, not an application architecture. Use QUICK_CARDS.json (22 baseline-derived topic summaries with visible safety and source IDs), TIMELINE_QUICK_VIEW.json (22 phases), CLINICAL_FOLLOWUPS.json (24 targeted checks, some duplicate existing sources), MEDIA_CATALOG.json (17 candidate resource links), COMPETITOR_RESEARCH.json (9 comparator entries), UX_SOURCE_REGISTRY.json (18 UX evidence/guidance records), and the accompanying Markdown analyses.
+
+Read VISUAL_LEARNING_RESEARCH.md, THEME_AND_FORMAT_OPTIONS.md, MEDIA_GUIDE.md, COMPETITOR_ANALYSIS.md, CLINICAL_FOLLOWUPS.md and VALIDATION_AND_TEST_PLAN.md. BASELINE_QA.json provides actual structural findings. Use quick-card navigation tags only for display, never eligibility. Data are research drafts, not medical advice. Original evidence remains authoritative; new follow-ups must be deduplicated and reviewed before changing baseline conclusions. No final styling, architecture, actual video playback audit, human usability test or clinical review completed.
+
+Claude should establish the final schema, app skeleton, visual identity, navigation and components, import/adapt these content files, handle missing records safely and implement validation. Do not replicate comparator branding or copyrighted assets. No public deployment or private health data. Research breadth is sufficient for a functional reference app, but not a finished clinical knowledge base.

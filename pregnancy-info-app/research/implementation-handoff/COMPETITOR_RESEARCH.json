@@ -1,0 +1,74 @@
+[
+  {
+    "name": "Pregnancy+",
+    "url": "https://apps.apple.com/us/app/pregnancy-tracker-app/id505864483",
+    "observed": "interactive 3D fetal models, stage guides, milestone timeline",
+    "opportunity": "Borrow navigable, stage-specific anatomical visualizations; avoid making fetal size or private photos the core of a maternal preparation app.",
+    "method": "public description/page only; no installed-app or authenticated flow testing",
+    "checked": "2026-11-26"
+  },
+  {
+    "name": "BabyCenter",
+    "url": "https://apps.apple.com/us/app/babycenter-pregnancy-tracker/id386022579",
+    "observed": "growth tracking, staged content, community, expert review claimed",
+    "opportunity": "Use phased continuity and concise updates; do not import community anecdotes into clinical evidence.",
+    "method": "public description/page only; no installed-app or authenticated flow testing",
+    "checked": "2026-11-26"
+  },
+  {
+    "name": "Ovia",
+    "url": "https://www.oviahealth.com/pregnancy-app/",
+    "observed": "milestones, symptom and medication/food lookups",
+    "opportunity": "Borrow searchable lookups and context tags; avoid unnecessary data collection and never present app as prescribing authority.",
+    "method": "public description/page only; no installed-app or authenticated flow testing",
+    "checked": "2026-11-26"
+  },
+  {
+    "name": "Ovia app listing",
+    "url": "https://apps.apple.com/us/app/ovia-cycle-pregnancy-tracker/id570244389",
+    "observed": "weekly videos, personalized recovery pathways, partner sharing",
+    "opportunity": "Delivery-specific content and optional sharing; private by default.",
+    "method": "public description/page only; no installed-app or authenticated flow testing",
+    "checked": "2026-11-26"
+  },
+  {
+    "name": "Expecting and Empowered",
+    "url": "https://apps.apple.com/us/app/expecting-and-empowered/id1594936110",
+    "observed": "structured prenatal/postpartum workouts, delivery pathways",
+    "opportunity": "Borrow manageable, phase-appropriate demonstration pattern; marketing efficacy claims not independently verified.",
+    "method": "public description/page only; no installed-app or authenticated flow testing",
+    "checked": "2026-11-26"
+  },
+  {
+    "name": "NHS Best Start in Life",
+    "url": "https://www.nhs.uk/best-start-in-life/pregnancy/week-by-week-guide-to-pregnancy/",
+    "observed": "weekly body/baby information and practical next steps",
+    "opportunity": "Clear stage-based education with visible care links; jurisdiction tag.",
+    "method": "public description/page only; no installed-app or authenticated flow testing",
+    "checked": "2026-11-26"
+  },
+  {
+    "name": "Tommy's PregnancyHub",
+    "url": "https://www.tommys.org/about-us/what-we-do/we-provide-information-make-pregnancy-safer",
+    "observed": "midwife-led information with advisory oversight",
+    "opportunity": "Borrow transparent review and safety escalation.",
+    "method": "public description/page only; no installed-app or authenticated flow testing",
+    "checked": "2026-11-26"
+  },
+  {
+    "name": "Evidence Based Birth",
+    "url": "https://evidencebasedbirth.com/signature-article-directory/",
+    "observed": "topic evidence articles, podcast and handouts",
+    "opportunity": "Borrow layered evidence narratives and optional media; verify original studies independently.",
+    "method": "public description/page only; no installed-app or authenticated flow testing",
+    "checked": "2026-11-26"
+  },
+  {
+    "name": "CDC Hear Her",
+    "url": "https://www.cdc.gov/hearher/",
+    "observed": "urgent warning-sign education and stories",
+    "opportunity": "Borrow visible warning signs and partner escalation, not dramatized appearance messaging.",
+    "method": "public description/page only; no installed-app or authenticated flow testing",
+    "checked": "2026-11-26"
+  }
+]

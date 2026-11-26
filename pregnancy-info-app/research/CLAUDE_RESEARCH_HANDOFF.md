@@ -22,3 +22,6 @@ Begin with [the research index](RESEARCH_INDEX.md), [evidence summary](EVIDENCE_
 
 ## Second-pass audit
 Before implementing conflict charts, consult [continuation](continuation/README.md) and its [structured data](continuation/CONTINUATION_DATA.json). The original first task is partially reconciled: exact four Cochrane trial comparisons, three shared cohort labels, BMI subgroup and nested calcium sensitivity estimates are available. Preserve cohort links, distinguish review estimates from trials, and do not merge overlays without deduplication. See [remaining review](continuation/REMAINING_REVIEW.md) for unresolved extraction and review. No change to publication status.
+
+## Content layer for implementation
+Read [implementation handoff](implementation-handoff/README.md). Import the topic quick cards and timeline views; use media candidates and visual briefs with review gates. New clinical follow-ups supplement, not replace, baseline claims until source matching and review. The UX research supports concise visual-first presentation, not a fixed learning type or universally superior palette. Use the provided test plan, and choose final styling and architecture yourself.

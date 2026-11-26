@@ -1,0 +1,385 @@
+[
+  {
+    "id": "P01",
+    "phase": "36–24 months before conception",
+    "action": "Establish ordinary dental care and a sustainable movement routine. Invite the partner to discuss health goals.",
+    "visible_qualification": "This is a flexible planning window. No direct trial establishes a three-year cosmetic preparation period.",
+    "source_ids": [
+      "S142",
+      "S159",
+      "S191",
+      "S192"
+    ],
+    "topic_ids": [
+      "FIT-001",
+      "REPRO-001",
+      "DENT-001"
+    ],
+    "status": "research preview; clinical review pending"
+  },
+  {
+    "id": "P02",
+    "phase": "24–18 months before conception",
+    "action": "If a chronic condition or future surgery is relevant, discuss how pregnancy might affect the plan.",
+    "visible_qualification": "Changes to prescribed drugs or elective surgery need a clinician who knows the indication.",
+    "source_ids": [
+      "S142",
+      "S180",
+      "S207"
+    ],
+    "topic_ids": [
+      "REPRO-001",
+      "ABD-002"
+    ],
+    "status": "research preview; clinical review pending"
+  },
+  {
+    "id": "P03",
+    "phase": "18–12 months before conception",
+    "action": "Revisit medication, family history and vaccination records if plans change. Continue routine habits.",
+    "visible_qualification": "Merge with the earlier period if there is nothing new to address.",
+    "source_ids": [
+      "S142",
+      "S172"
+    ],
+    "topic_ids": [
+      "REPRO-001"
+    ],
+    "status": "research preview; clinical review pending"
+  },
+  {
+    "id": "P04",
+    "phase": "12–6 months before conception",
+    "action": "Arrange preconception care if diabetes, thyroid disease, medication exposure or reproductive history needs attention.",
+    "visible_qualification": "Visit timing reflects access and complexity. Individual risk determines tests.",
+    "source_ids": [
+      "S142",
+      "S180"
+    ],
+    "topic_ids": [
+      "REPRO-001"
+    ],
+    "status": "research preview; clinical review pending"
+  },
+  {
+    "id": "P05",
+    "phase": "6–3 months before conception",
+    "action": "Review medicines, supplements, acne products and vaccine timing. Check prenatal labels.",
+    "visible_qualification": "Some vaccines are appropriate before pregnancy. Product-specific restrictions need review.",
+    "source_ids": [
+      "S086",
+      "S105",
+      "S142",
+      "S171",
+      "S172"
+    ],
+    "topic_ids": [
+      "REPRO-001",
+      "FACE-001",
+      "NUTR-001"
+    ],
+    "status": "research preview; clinical review pending"
+  },
+  {
+    "id": "P06",
+    "phase": "3–1 months before conception",
+    "action": "If pregnancy is possible, begin or continue average-risk folic acid and review any higher-risk history.",
+    "visible_qualification": "The evidence supports starting at least a month before conception. Do not postpone folic acid until a predicted pregnancy date.",
+    "source_ids": [
+      "S088",
+      "S089"
+    ],
+    "topic_ids": [
+      "NUTR-001"
+    ],
+    "status": "research preview; clinical review pending"
+  },
+  {
+    "id": "P07",
+    "phase": "Final month before conception",
+    "action": "Continue folic acid and confirm the medication plan.",
+    "visible_qualification": "Neural tube development begins before many people know they are pregnant.",
+    "source_ids": [
+      "S085",
+      "S088",
+      "S142"
+    ],
+    "topic_ids": [
+      "NUTR-001",
+      "REPRO-001"
+    ],
+    "status": "research preview; clinical review pending"
+  },
+  {
+    "id": "P08",
+    "phase": "Actively trying",
+    "action": "Use fertile-window information if helpful. Seek fertility evaluation according to age, duration and history.",
+    "visible_qualification": "ASRM suggests 12 months if under 35, 6 months from 35, potentially immediate evaluation over 40 or with known risk factors. Partner assessment may proceed in parallel.",
+    "source_ids": [
+      "S144",
+      "S145",
+      "S146"
+    ],
+    "topic_ids": [
+      "REPRO-001"
+    ],
+    "status": "research preview; clinical review pending"
+  },
+  {
+    "id": "P09",
+    "phase": "Trimester 1 · gestational weeks 1–13",
+    "action": "Arrange prenatal care. Continue folic acid in early pregnancy and seek help if nausea prevents fluid intake.",
+    "visible_qualification": "Gestational age is counted from the last menstrual period in standard dating, roughly two weeks before fertilization in a typical cycle. No automatic supplement stacking.",
+    "source_ids": [
+      "S086",
+      "S088",
+      "S099",
+      "S131",
+      "S140"
+    ],
+    "topic_ids": [
+      "NUTR-001",
+      "NUTR-002",
+      "REPRO-001"
+    ],
+    "status": "research preview; clinical review pending"
+  },
+  {
+    "id": "P10",
+    "phase": "Trimester 2 · weeks 14–27",
+    "action": "Review comfortable activity, nutritional intake and any leakage or pelvic girdle pain.",
+    "visible_qualification": "Assessment can identify who needs pelvic floor relaxation, strengthening or other care.",
+    "source_ids": [
+      "S057",
+      "S059",
+      "S069",
+      "S140",
+      "S193"
+    ],
+    "topic_ids": [
+      "FIT-002",
+      "PELV-001",
+      "MSK-001"
+    ],
+    "status": "research preview; clinical review pending"
+  },
+  {
+    "id": "P11",
+    "phase": "Trimester 3 · week 28 to delivery",
+    "action": "Plan labor support, birth preferences, early recovery help and how to reach the care team.",
+    "visible_qualification": "Optional perineal massage was studied from around week 35. Breech concerns need maternity-team review.",
+    "source_ids": [
+      "S167",
+      "S169",
+      "S170",
+      "S181",
+      "S197"
+    ],
+    "topic_ids": [
+      "BIRTH-001",
+      "EMERG-001",
+      "WELL-001"
+    ],
+    "status": "research preview; clinical review pending"
+  },
+  {
+    "id": "P12",
+    "phase": "Labor and delivery",
+    "action": "Discuss position, analgesia, warm compresses and a chosen support person. Revisit preferences as labor changes.",
+    "visible_qualification": "Clinical circumstances, epidural, consent and delivery route matter. Keep assisted vaginal and cesarean care available.",
+    "source_ids": [
+      "S074",
+      "S079",
+      "S080",
+      "S169",
+      "S181",
+      "S182"
+    ],
+    "topic_ids": [
+      "BIRTH-001"
+    ],
+    "status": "research preview; clinical review pending"
+  },
+  {
+    "id": "P13",
+    "phase": "Immediate postpartum · 0–72 hours",
+    "action": "Prioritize bleeding, blood pressure symptoms, pain control, feeding support and safe mobility with the maternity team.",
+    "visible_qualification": "Emergency symptoms need immediate care. Cesarean, major tears and complications change monitoring and the discharge plan.",
+    "source_ids": [
+      "S123",
+      "S131",
+      "S132",
+      "S189",
+      "S197"
+    ],
+    "topic_ids": [
+      "SCAR-001",
+      "VEIN-001",
+      "WELL-001"
+    ],
+    "status": "research preview; clinical review pending"
+  },
+  {
+    "id": "P14",
+    "phase": "Postpartum · days 4–14",
+    "action": "Check wound symptoms, emotional wellbeing and practical support. Arrange earlier care for problems.",
+    "visible_qualification": "Worsening pain, spreading redness, new wound opening or fever requires prompt contact. Sudden breathlessness, chest pain or severe bleeding need emergency care.",
+    "source_ids": [
+      "S123",
+      "S131",
+      "S132",
+      "S189"
+    ],
+    "topic_ids": [
+      "SCAR-001",
+      "VEIN-001",
+      "WELL-001"
+    ],
+    "status": "research preview; clinical review pending"
+  },
+  {
+    "id": "P15",
+    "phase": "Postpartum · weeks 2–6",
+    "action": "Make contact with the postpartum clinician within three weeks; earlier or more often according to risk. Discuss sleep, feeding, contraception and comfort.",
+    "visible_qualification": "Ongoing care is indicated even after uncomplicated birth. No mandatory date for sex or clearance for strenuous exercise.",
+    "source_ids": [
+      "S173",
+      "S189",
+      "S193",
+      "S200"
+    ],
+    "topic_ids": [
+      "WELL-001",
+      "FIT-003",
+      "PELV-001"
+    ],
+    "status": "research preview; clinical review pending"
+  },
+  {
+    "id": "P16",
+    "phase": "Postpartum · 6 weeks to 3 months",
+    "action": "Complete comprehensive postpartum assessment by 12 weeks. Ask about persistent leakage, heaviness, mood, painful sex or incision symptoms.",
+    "visible_qualification": "Feeding choices, surgical recovery and ongoing conditions alter needs. Painful penetration is a reason to pause and seek care.",
+    "source_ids": [
+      "S173",
+      "S189",
+      "S193",
+      "S200",
+      "S215"
+    ],
+    "topic_ids": [
+      "WELL-001",
+      "PELV-001",
+      "FIT-003"
+    ],
+    "status": "research preview; clinical review pending"
+  },
+  {
+    "id": "P17",
+    "phase": "Postpartum · 3–6 months",
+    "action": "Progress activity as recovery allows. Shedding can peak near month four. Check in about pain, sleep and mood.",
+    "visible_qualification": "Lactation changes nutrient needs and medicine decisions. Running readiness is individual.",
+    "source_ids": [
+      "S064",
+      "S066",
+      "S110",
+      "S117",
+      "S185",
+      "S215"
+    ],
+    "topic_ids": [
+      "HAIR-001",
+      "FIT-003",
+      "WELL-001"
+    ],
+    "status": "research preview; clinical review pending"
+  },
+  {
+    "id": "P18",
+    "phase": "Postpartum · 6–9 months",
+    "action": "If separation, weakness or heaviness affects daily life, ask about pelvic-health rehabilitation.",
+    "visible_qualification": "One strength program was studied at 6–12 months postpartum. It provides no immediate postsurgical clearance.",
+    "source_ids": [
+      "S028",
+      "S064",
+      "S193"
+    ],
+    "topic_ids": [
+      "ABD-001",
+      "PELV-001",
+      "FIT-003"
+    ],
+    "status": "research preview; clinical review pending"
+  },
+  {
+    "id": "P19",
+    "phase": "Postpartum · 9–12 months",
+    "action": "Review persistent hair loss, pelvic symptoms or bothersome scars. Continue primary-care follow-up.",
+    "visible_qualification": "Urgent maternal warning signs remain relevant through one year. Lactation exposure still depends on current feeding.",
+    "source_ids": [
+      "S110",
+      "S121",
+      "S131",
+      "S173"
+    ],
+    "topic_ids": [
+      "HAIR-001",
+      "SCAR-001",
+      "WELL-001"
+    ],
+    "status": "research preview; clinical review pending"
+  },
+  {
+    "id": "P20",
+    "phase": "Postpartum · 12–18 months",
+    "action": "Discuss symptoms that continue to affect function, future pregnancy plans and optional specialist review.",
+    "visible_qualification": "These months organize follow-up. They are not a validated recovery deadline.",
+    "source_ids": [
+      "S035",
+      "S174",
+      "S193"
+    ],
+    "topic_ids": [
+      "ABD-002",
+      "PELV-001",
+      "REPRO-001"
+    ],
+    "status": "research preview; clinical review pending"
+  },
+  {
+    "id": "P21",
+    "phase": "Postpartum · 18–24 months",
+    "action": "Revisit reproductive plans and personally meaningful function goals. Discuss late treatment only if wanted.",
+    "visible_qualification": "Subsequent pregnancy, breastfeeding and surgical history affect individual options.",
+    "source_ids": [
+      "S046",
+      "S174",
+      "S207",
+      "S209"
+    ],
+    "topic_ids": [
+      "BREAST-001",
+      "REPRO-001",
+      "VEIN-001"
+    ],
+    "status": "research preview; clinical review pending"
+  },
+  {
+    "id": "P22",
+    "phase": "Beyond 24 months",
+    "action": "Persistent pain, incontinence or hernia deserves assessment at any time. Specialist care remains optional for appearance changes.",
+    "visible_qualification": "Long-term outcome and safety evidence is often sparse. The care pathway follows current symptoms and goals.",
+    "source_ids": [
+      "S035",
+      "S193",
+      "S207",
+      "S216"
+    ],
+    "topic_ids": [
+      "ABD-002",
+      "PELV-001",
+      "SKIN-003"
+    ],
+    "status": "research preview; clinical review pending"
+  }
+]

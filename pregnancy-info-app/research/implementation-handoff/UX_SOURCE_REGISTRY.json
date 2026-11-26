@@ -1,0 +1,164 @@
+[
+  {
+    "id": "UX01",
+    "title": "Schubbe et al. 2020 pictorial health information review",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/32466864/",
+    "type": "systematic review/meta-analysis",
+    "implication": "Pictures alongside health messages generally improved knowledge and recall; heterogeneity and context limit extrapolation.",
+    "access": "source page or indexed abstract checked",
+    "checked": "2026-11-26"
+  },
+  {
+    "id": "UX02",
+    "title": "Houts et al. 2006",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/16122896/",
+    "type": "review",
+    "implication": "Use meaningful pictures tightly paired with concise captions, not decorative illustrations.",
+    "access": "source page or indexed abstract checked",
+    "checked": "2026-11-26"
+  },
+  {
+    "id": "UX03",
+    "title": "Visual-based interventions and health literacy 2024",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/38862966/",
+    "type": "systematic review/meta-analysis",
+    "implication": "28 eligible studies; visual materials promising, video not clearly better than oral discussion.",
+    "access": "source page or indexed abstract checked",
+    "checked": "2026-11-26"
+  },
+  {
+    "id": "UX04",
+    "title": "Updated healthcare animation review",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/41550351/",
+    "type": "systematic review",
+    "implication": "Positive knowledge findings in 48/60 trials, attitude/cognition in 28/53, behavior in 20/32. Descriptive counts, overlapping outcome sets, not personal probability.",
+    "access": "source page or indexed abstract checked",
+    "checked": "2026-11-26"
+  },
+  {
+    "id": "UX05",
+    "title": "Learning styles: concepts and evidence",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/26162104/",
+    "type": "review",
+    "implication": "Preferences exist; evidence does not support assigning a fixed visual learner type and matching instruction to that type.",
+    "access": "source page or indexed abstract checked",
+    "checked": "2026-11-26"
+  },
+  {
+    "id": "UX06",
+    "title": "Segmenting effect meta-analysis",
+    "url": "https://doi.org/10.1007/S10648-018-9456-4",
+    "type": "meta-analysis",
+    "implication": "Offer user-controlled short chunks. Education evidence indirect to this app.",
+    "access": "source page or indexed abstract checked",
+    "checked": "2026-11-26"
+  },
+  {
+    "id": "UX07",
+    "title": "Guo et al. 2014 video engagement",
+    "url": "https://pure.kaist.ac.kr/en/publications/how-video-production-affects-student-engagement-an-empirical-stud/",
+    "type": "observational MOOC research",
+    "implication": "6.9 million viewing sessions; shorter lessons a reasonable starting hypothesis, not pregnancy-specific evidence or a 30-second prescription.",
+    "access": "source page or indexed abstract checked",
+    "checked": "2026-11-26"
+  },
+  {
+    "id": "UX08",
+    "title": "Cochrane patient decision aids 2024",
+    "url": "https://www.cochrane.org/evidence/CD001431_patient-decision-aids-help-people-who-are-facing-decisions-about-health-treatment-or-screening",
+    "type": "systematic review",
+    "implication": "Knowledge improved MD 11.90/100 (95% CI 10.60–13.19; 107 studies, 25,492 participants). Support option comparison, uncertainty and personal values.",
+    "access": "source page or indexed abstract checked",
+    "checked": "2026-11-26"
+  },
+  {
+    "id": "UX09",
+    "title": "Evidence-based risk communication review",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/25133362/",
+    "type": "systematic review",
+    "implication": "Absolute risks and simple charts help understanding; use comparable denominators and explicit outcomes.",
+    "access": "source page or indexed abstract checked",
+    "checked": "2026-11-26"
+  },
+  {
+    "id": "UX10",
+    "title": "CDC Clear Communication Index",
+    "url": "https://www.cdc.gov/ccindex/tool/index.html",
+    "type": "public health standard",
+    "implication": "Evaluate main message, action, language, design, numbers, risks and uncertainty.",
+    "access": "source page or indexed abstract checked",
+    "checked": "2026-11-26"
+  },
+  {
+    "id": "UX11",
+    "title": "AHRQ PEMAT",
+    "url": "https://www.ahrq.gov/health-literacy/patient-education/pemat.html",
+    "type": "assessment tool",
+    "implication": "Assess understandability and actionability separately; no automatic rating without item-by-item review.",
+    "access": "source page or indexed abstract checked",
+    "checked": "2026-11-26"
+  },
+  {
+    "id": "UX12",
+    "title": "Health Literacy Online",
+    "url": "https://odphp.health.gov/healthliteracyonline/health-literacy-online-glance",
+    "type": "US public health guidance",
+    "implication": "Actionable mobile content, audience involvement, testing, readable visuals.",
+    "access": "source page or indexed abstract checked",
+    "checked": "2026-11-26"
+  },
+  {
+    "id": "UX13",
+    "title": "WCAG 2.2",
+    "url": "https://www.w3.org/TR/WCAG22/",
+    "type": "accessibility standard",
+    "implication": "Contrast, captions, alternatives, keyboard and focus, no color-only information.",
+    "access": "source page or indexed abstract checked",
+    "checked": "2026-11-26"
+  },
+  {
+    "id": "UX14",
+    "title": "Color psychology Elliot and Maier",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/23808916/",
+    "type": "review",
+    "implication": "Color associations matter but context and methodology limit fixed prescriptions.",
+    "access": "source page or indexed abstract checked",
+    "checked": "2026-11-26"
+  },
+  {
+    "id": "UX15",
+    "title": "Color-emotion systematic review 2025",
+    "url": "https://doi.org/10.3758/s13423-024-02615-z",
+    "type": "systematic review",
+    "implication": "132 reports on color–emotion associations; does not establish clinical effectiveness of app palettes.",
+    "access": "source page or indexed abstract checked",
+    "checked": "2026-11-26"
+  },
+  {
+    "id": "UX16",
+    "title": "Pregnancy apps scientific guidance and commercialization",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/39587534/",
+    "type": "2024 app feature study",
+    "implication": "36 apps reviewed; concerns about evidence, commercial incentives and feature creep.",
+    "access": "source page or indexed abstract checked",
+    "checked": "2026-11-26"
+  },
+  {
+    "id": "UX17",
+    "title": "Pregnancy app safety considerations",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/37675058/",
+    "type": "scoping review",
+    "implication": "Evidence transparency, privacy, context and validation are central.",
+    "access": "source page or indexed abstract checked",
+    "checked": "2026-11-26"
+  },
+  {
+    "id": "UX18",
+    "title": "Health literacy interactive graphics guidance",
+    "url": "https://odphp.health.gov/healthliteracyonline/create-actionable-content/engage-people-interactive-content-and-graphics",
+    "type": "guidance",
+    "implication": "Pair visuals with words and alternatives; don't obscure critical facts behind graphics.",
+    "access": "source page or indexed abstract checked",
+    "checked": "2026-11-26"
+  }
+]

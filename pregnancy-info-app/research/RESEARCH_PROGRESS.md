@@ -28,3 +28,6 @@ Publications, guidelines, trials and review outcomes are different units. S091 w
 
 ## Second-pass continuation · 2026-11-26
 A targeted follow-up audited the three prioritized review conflicts and selected appearance/rehabilitation topics. Four trial-level preeclampsia arm comparisons were verified from a Cochrane figure; at least three trial labels overlap with the broader review. Added an omega-3 cohort/chronology map, calcium sensitivity analysis and selected genetic, exercise and cosmetic safety checks. See [continuation](continuation/README.md) and [remaining review](continuation/REMAINING_REVIEW.md). Baseline registry counts are unchanged pending bibliographic reconciliation; no clinical reviews completed. No claim of comprehensive closure.
+
+## Content and UX handoff · 2026-11-26
+Added 22 baseline-derived quick cards, 22 timeline summaries, 24 targeted clinical source checks, 17 candidate educational media links, 9 comparator entries and 18 UX evidence/guidance references. Ran JSON structural checks; see implementation-handoff/BASELINE_QA.json. This is an overlay, not a new independent source count. No human clinical review or live usability/media audit; remaining full trial extraction is documented.
