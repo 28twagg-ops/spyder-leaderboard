@@ -37,3 +37,6 @@ Added 22 baseline-derived quick cards, 22 timeline summaries, 24 targeted clinic
 
 ## Additional source and media audit
 All 66 quick-view fields have selected source links; source/resource registry now 312 records, 69 selected evidence checks. Media candidate pages/titles accessible for 15/17; two failed. No playback or clinical review. Numeric row counts unchanged. See integrated/INTEGRATION_QA.json and MEDIA_LINK_AUDIT.md.
+
+## High audit
+26 targeted checks, 9 scoped funding disclosures, 65 expanded nutrition rows, 8 numeric records, 22 gap statuses. No independent clinical review; no claim of exhaustive completion.

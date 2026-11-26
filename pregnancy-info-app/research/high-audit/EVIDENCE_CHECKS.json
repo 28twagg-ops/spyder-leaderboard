@@ -1,0 +1,679 @@
+[
+  {
+    "id": "HA-001",
+    "topic_id": "NUTR-002",
+    "source_links": [
+      {
+        "source_id": "R001",
+        "title": "SPRING trial",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/30659070/"
+      },
+      {
+        "source_id": "H001",
+        "title": "SPRING study protocol",
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC3585705/"
+      },
+      {
+        "source_id": "H002",
+        "title": "SPRING secondary microbiome analysis and funding",
+        "url": "https://www.sciencedirect.com/science/article/pii/S2210778921000015"
+      },
+      {
+        "source_id": "H003",
+        "title": "SPRING ketone secondary analysis and product donation",
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC6038017/"
+      }
+    ],
+    "locator": "primary abstract; protocol intervention/secondary outcomes; secondary analysis funding/COI",
+    "finding": "SPRING randomized overweight or obese pregnant participants in Brisbane. GG plus BB-12 strains; preeclampsia secondary outcome, 9.2% vs 4.9%, p=.09. NHMRC and hospital foundation support reported; Chr Hansen supplied active/placebo products in same-cohort report.",
+    "limitation": "Primary abstract supports percentages, not complete PE adjudication or funding extraction; do not count secondary reports as new trials.",
+    "content_implication": "Show commercial in-kind support separately from grant funding.",
+    "checked": "2026-11-26",
+    "clinical_review": false
+  },
+  {
+    "id": "HA-002",
+    "topic_id": "NUTR-002",
+    "source_links": [
+      {
+        "source_id": "R002",
+        "title": "Lindsay probiotic trial",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/24646819/"
+      },
+      {
+        "source_id": "H004",
+        "title": "Lindsay 2014 conference report",
+        "url": "https://www.cambridge.org/core/journals/proceedings-of-the-nutrition-society/article/impact-of-probiotics-in-obese-pregnancy-to-reduce-maternal-fasting-glucose-a-randomized-controlled-trial/148C58F917D58383AA680569CC2B76DC"
+      }
+    ],
+    "locator": "primary abstract and conference report methods/funding",
+    "finding": "Dublin trial recruited 175 participants with BMI 30–39.9; 138 completed (63 vs75); L. salivarius UCC118 from weeks 24–28. National Maternity Hospital Medical Fund and Ivo Drury Award in conference disclosure.",
+    "limitation": "Prior Cochrane PE denominators 62/74 differ from completer totals. Do not replace them or transfer funding from Lindsay 2015 GDM treatment trial.",
+    "content_implication": "retain research-draft status",
+    "checked": "2026-11-26",
+    "clinical_review": false
+  },
+  {
+    "id": "HA-003",
+    "topic_id": "NUTR-002",
+    "source_links": [
+      {
+        "source_id": "R003",
+        "title": "HUMBA trial",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/30878323/"
+      },
+      {
+        "source_id": "R018",
+        "title": "HUMBA publisher report",
+        "url": "https://www.sciencedirect.com/science/article/pii/S0002937819304788"
+      },
+      {
+        "source_id": "H031",
+        "title": "HUMBA study protocol",
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC5123375/"
+      }
+    ],
+    "locator": "primary abstract; publisher funding; protocol acknowledgments",
+    "finding": "HUMBA factorial diet/probiotic trial in New Zealand, BMI ≥30, weeks 12–17+6 at randomization; GG and BB12, minimum 6.5 billion CFU in report. Multiple public/charitable/institutional funding sources; Chr Hansen supplied capsules; Roche supplied testing support in protocol.",
+    "limitation": "Protocol dose differs slightly from report; preeclampsia endpoint omission in broader review unresolved. In-kind support is not proof of biased result.",
+    "content_implication": "retain research-draft status",
+    "checked": "2026-11-26",
+    "clinical_review": false
+  },
+  {
+    "id": "HA-004",
+    "topic_id": "NUTR-002",
+    "source_links": [
+      {
+        "source_id": "R004",
+        "title": "Pellonperä fish oil/probiotic trial",
+        "url": "https://diabetesjournals.org/care/article/42/6/1009/36025/Efficacy-of-Fish-Oil-and-or-Probiotic-Intervention"
+      },
+      {
+        "source_id": "H005",
+        "title": "Pellonperä cohort 24-month follow-up",
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC9848211/"
+      }
+    ],
+    "locator": "primary abstract; same-cohort follow-up methods and funding",
+    "finding": "Finnish factorial trial randomized 439, mean gestation 13.9 weeks. HN001 and B. lactis 420 strains; follow-up reports 10^10 CFU each, DuPont identified as product source, academy/hospital/foundation grants.",
+    "limitation": "Funding from follow-up may not capture all primary disclosures; do not infer donation or sponsor role without direct statement.",
+    "content_implication": "retain research-draft status",
+    "checked": "2026-11-26",
+    "clinical_review": false
+  },
+  {
+    "id": "HA-005",
+    "topic_id": "NUTR-002",
+    "source_links": [
+      {
+        "source_id": "S094",
+        "title": "Probiotics to prevent gestational diabetes mellitus | Cochrane",
+        "url": "https://www.cochrane.org/evidence/CD009951_probiotiki-dlya-profilaktiki-gestacionnogo-sakharnogo-diabeta"
+      },
+      {
+        "source_id": "S095",
+        "title": "The effects of probiotics administration during pregnancy on preeclampsia and associated maternal, fetal, and newborn outcomes: a systematic review and meta-analysis",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/38447676/"
+      },
+      {
+        "source_id": "H029",
+        "title": "Probiotics in overweight or obese pregnant women systematic review",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/35871956/"
+      },
+      {
+        "source_id": "H030",
+        "title": "2022 probiotic GDM prevention systematic review",
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC9751955/"
+      },
+      {
+        "source_id": "H006",
+        "title": "New Zealand Medsafe MARC March 2023 remarks",
+        "url": "https://medsafe.govt.nz/profs/PUArticles/June2023/MARCs-remarks-June-2023-meeting.html"
+      }
+    ],
+    "locator": "review abstracts, review funding and committee remarks",
+    "finding": "2021 Cochrane narrow review shows PE RR 1.85 (1.04–3.29); 2024 broader review RR 1.14 (.84–1.53), 11 trials 2401. 2022 overweight/obesity review RR 1.91 (1.03–3.55) for PE including superimposed; 2022 broader GDM-prevention review did not identify significant PE effect. New Zealand MARC March 2023 judged causal link not established. McDougall review funded by Gates Foundation and Harry Secomb Foundation.",
+    "limitation": "Overlapping studies, different inclusion/outcome definitions and certainty; committee assessment predates broader 2024 review. Neither null-significance nor regulatory judgment establishes harmlessness.",
+    "content_implication": "Do not present independent votes or universal harm/safety; no routine supplement recommendation for GDM prevention.",
+    "checked": "2026-11-26",
+    "clinical_review": false
+  },
+  {
+    "id": "HA-006",
+    "topic_id": "NUTR-001",
+    "source_links": [
+      {
+        "source_id": "S092",
+        "title": "Is taking calcium supplements during pregnancy an effective way to prevent blood pressure disorders and related problems? | Cochrane",
+        "url": "https://www.cochrane.org/evidence/CD001059_taking-calcium-supplements-during-pregnancy-effective-way-prevent-blood-pressure-disorders-and"
+      },
+      {
+        "source_id": "S093",
+        "title": "Trial trustworthiness assessment: commentary on the Cochrane 2025 systematic review on calcium supplementation during pregnancy",
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC13312738/"
+      },
+      {
+        "source_id": "H007",
+        "title": "WHO guideline development group: calcium supplementation for prevention of pre-eclampsia",
+        "url": "https://www.who.int/news-room/articles-detail/guideline-development-group-calcium-supplementation-for-the-prevention-of-pre-eclampsia"
+      },
+      {
+        "source_id": "H008",
+        "title": "Calcium supplementation and risk of preeclampsia in Ecuadorian pregnant teenagers",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/9241285/"
+      },
+      {
+        "source_id": "H009",
+        "title": "Calcium supplementation and prevention of pregnancy induced hypertension",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/8987323/"
+      }
+    ],
+    "locator": "2025 DOI-version abstract; critique Figure 1 text; original abstracts; WHO notice",
+    "finding": "2025 review RR .83 (.67–1.04), 6 RCTs 15364; critique adds disputed studies, not independent synthesis. Lopez-Jaramillo trial enrolled pregnant teenagers in Ecuador and tested 2 g/day. Purwar abstract reports PE RR .13 (.01–.64), whereas critique secondary extraction .17 (.04–.77); keep both provenance labels and do not silently substitute. WHO convened guideline development meeting Aug 11–12 2026.",
+    "limitation": "Publisher summary page also exposes obsolete older results; use version-specific DOI. Primary full reports, ethics and denominator reconciliation still outstanding. Meeting announcement is not new final guidance.",
+    "content_implication": "Use DOI version and flag conflicting Purwar estimate; do not turn WHO process into new dosing guidance.",
+    "checked": "2026-11-26",
+    "clinical_review": false
+  },
+  {
+    "id": "HA-007",
+    "topic_id": "NUTR-001",
+    "source_links": [
+      {
+        "source_id": "S224",
+        "title": "[Table, WHO recommendation: calcium supplementation during pregnancy for prevention of pre-eclampsia and its complications []].",
+        "url": "https://www.ncbi.nlm.nih.gov/books/NBK615641/table/part1.tab212/"
+      },
+      {
+        "source_id": "H007",
+        "title": "WHO guideline development group: calcium supplementation for prevention of pre-eclampsia",
+        "url": "https://www.who.int/news-room/articles-detail/guideline-development-group-calcium-supplementation-for-the-prevention-of-pre-eclampsia"
+      },
+      {
+        "source_id": "R012",
+        "title": "Preconception calcium review",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/40965861/"
+      }
+    ],
+    "locator": "WHO 2018 recommendation table; 2026 notice; 2025 review abstract",
+    "finding": "Existing WHO low-intake population recommendation and new review process must be distinguished; before-pregnancy calcium review has one trial, composite PE or pregnancy loss RR .85 (.67–1.07).",
+    "limitation": "No three-year prophylactic indication; updated recommendation not confirmed.",
+    "content_implication": "Show jurisdiction/date and intended outcome.",
+    "checked": "2026-11-26",
+    "clinical_review": false
+  },
+  {
+    "id": "HA-008",
+    "topic_id": "NUTR-001",
+    "source_links": [
+      {
+        "source_id": "R007",
+        "title": "ADORE DHA trial",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/34308309/"
+      },
+      {
+        "source_id": "H028",
+        "title": "ADORE randomized controlled trial protocol",
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC5307851/"
+      },
+      {
+        "source_id": "R005",
+        "title": "ORIP baseline omega-3 analysis",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/32034969/"
+      },
+      {
+        "source_id": "S082",
+        "title": "A Randomized Trial of Prenatal n−3 Fatty Acid Supplementation and Preterm Delivery",
+        "url": "https://www.nejm.org/doi/full/10.1056/NEJMoa1816832"
+      }
+    ],
+    "locator": "ADORE abstract funding; protocol; ORIP secondary abstract",
+    "finding": "ADORE compares 1000 vs 200 mg DHA, not placebo; NICHD funded, DSM supplied all capsules. In high baseline status, early PTB 4/289 vs3/271, posterior probability .57. ORIP baseline subgroup shares primary cohort.",
+    "limitation": "Dose comparator, baseline status and adaptive design matter; no universal supplement protocol.",
+    "content_implication": "Show sponsor/product supply separately; distinguish subgroup vs overall.",
+    "checked": "2026-11-26",
+    "clinical_review": false
+  },
+  {
+    "id": "HA-009",
+    "topic_id": "NUTR-001",
+    "source_links": [
+      {
+        "source_id": "S086",
+        "title": "Office of Dietary Supplements - Dietary Supplements and Life Stages: Pregnancy",
+        "url": "https://ods.od.nih.gov/factsheets/Pregnancy-HealthProfessional/"
+      },
+      {
+        "source_id": "H010",
+        "title": "Stephens et al. protein requirements in early and late gestation",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/25527661/"
+      },
+      {
+        "source_id": "H011",
+        "title": "USDA evidence review protein requirements, Appendix H table 2",
+        "url": "https://www.ncbi.nlm.nih.gov/books/NBK614628/table/apph.tab2/"
+      }
+    ],
+    "locator": "ODS Tables 1–2; primary abstract; USDA table H.2",
+    "finding": "IAAO protein EAR estimate 1.22 g/kg/d (95% CI .79–1.66) at weeks 11–20 (17 analyzed,35 observations); 1.52 (1.28–1.77) at 31–38 weeks (19 analyzed,43 observations).",
+    "limitation": "Small metabolic requirement study; not a clinical outcome trial, not a personalized protein prescription or official replacement DRI.",
+    "content_implication": "Separate research estimate from intake reference.",
+    "checked": "2026-11-26",
+    "clinical_review": false
+  },
+  {
+    "id": "HA-010",
+    "topic_id": "NUTR-001",
+    "source_links": [
+      {
+        "source_id": "S086",
+        "title": "Office of Dietary Supplements - Dietary Supplements and Life Stages: Pregnancy",
+        "url": "https://ods.od.nih.gov/factsheets/Pregnancy-HealthProfessional/"
+      },
+      {
+        "source_id": "H012",
+        "title": "Association of a vegan diet during pregnancy with maternal and child outcomes",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/39408296/"
+      },
+      {
+        "source_id": "H013",
+        "title": "NICHD Understanding Eating Behaviors During Twin Pregnancies",
+        "url": "https://www.nichd.nih.gov/about/org/dir/dir_showcase/diphr-understanding-eating-behaviors-during-twin-pregnancies"
+      },
+      {
+        "source_id": "S215",
+        "title": "Maternal Diet and Breastfeeding | Breastfeeding special circumstances | CDC",
+        "url": "https://www.cdc.gov/breastfeeding-special-circumstances/hcp/diet-micronutrients/maternal-diet.html"
+      }
+    ],
+    "locator": "ODS special considerations; vegan review abstract; NICHD summary; CDC maternal diet",
+    "finding": "Vegetarian/vegan diet requires attention to B12, iron, zinc, iodine, calcium, vitamin D, protein, choline and fatty acids; twin needs differ and evidence for specific targets is limited. CDC lactation iodine 290 mcg and choline 550 mg; additional energy 330–400 kcal/day for well-nourished breastfeeding mothers compared with pre-pregnancy.",
+    "limitation": "Diet context, age, plurality and feeding pattern matter; no automatic supplement or calorie prescription.",
+    "content_implication": "Separate pregnancy, lactation and special-population references.",
+    "checked": "2026-11-26",
+    "clinical_review": false
+  },
+  {
+    "id": "HA-011",
+    "topic_id": "NUTR-001",
+    "source_links": [
+      {
+        "source_id": "S178",
+        "title": "Recommendation: Iron Deficiency and Iron Deficiency Anemia During Pregnancy: Screening and Supplementation | United States Preventive Services Taskforce",
+        "url": "https://www.uspreventiveservicestaskforce.org/uspstf/recommendation/iron-deficiency-anemia-in-pregnant-women-screening-and-supplementation"
+      },
+      {
+        "source_id": "H014",
+        "title": "WHO antenatal iron supplementation",
+        "url": "https://www.who.int/data/nutrition/nlis/info/antenatal-iron-supplementation"
+      },
+      {
+        "source_id": "S222",
+        "title": "Daily oral iron supplementation during pregnancy",
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC11325660/"
+      }
+    ],
+    "locator": "USPSTF recommendation; WHO antenatal iron guidance",
+    "finding": "US USPSTF I statement for routine screening and supplementation in asymptomatic pregnancy concerns clinical outcomes; WHO population prevention guidance recommends 30–60 mg elemental iron with 400 mcg folic acid daily. ODS total intake reference is not a supplemental dose.",
+    "limitation": "Different jurisdiction and clinical question; diagnosed deficiency requires care; do not combine doses or apply a global recommendation automatically.",
+    "content_implication": "retain research-draft status",
+    "checked": "2026-11-26",
+    "clinical_review": false
+  },
+  {
+    "id": "HA-012",
+    "topic_id": "NUTR-002",
+    "source_links": [
+      {
+        "source_id": "H015",
+        "title": "Biophysical effects, safety and efficacy of raspberry leaf in pregnancy",
+        "url": "https://doi.org/10.1186/s12906-021-03230-4"
+      },
+      {
+        "source_id": "S086",
+        "title": "Office of Dietary Supplements - Dietary Supplements and Life Stages: Pregnancy",
+        "url": "https://ods.od.nih.gov/factsheets/Pregnancy-HealthProfessional/"
+      }
+    ],
+    "locator": "integrative review; ODS botanical section",
+    "finding": "Raspberry leaf RCT enrolled 192 low-risk nulliparous women, from week 32; no significant difference in labor duration or birth mode in ODS summary.",
+    "limitation": "Human and animal evidence heterogeneous; no reliable safety or efficacy recommendation.",
+    "content_implication": "Add optional research-only intervention, no dosing instructions.",
+    "checked": "2026-11-26",
+    "clinical_review": false
+  },
+  {
+    "id": "HA-013",
+    "topic_id": "SKIN-001",
+    "source_links": [
+      {
+        "source_id": "S006",
+        "title": "Use of a specific anti-stretch mark cream for preventing or reducing the severity of striae gravidarum. Randomized, double-blind, controlled trial",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/23237514/"
+      },
+      {
+        "source_id": "S001",
+        "title": "Topical preparations for preventing stretch marks in pregnancy | Cochrane",
+        "url": "https://www.cochrane.org/evidence/CD000066_topical-preparations-preventing-stretch-marks-pregnancy"
+      }
+    ],
+    "locator": "primary trial abstract and review",
+    "finding": "Specific cream combines hydroxyprolisilane-C, rosehip oil, Centella triterpenes and vitamin E; overall incidence 37.6% treated vs 33.3% control, nonsignificant.",
+    "limitation": "Subgroup does not demonstrate isolated vitamin E, Centella or shea efficacy; no isolated trial located in targeted search.",
+    "content_implication": "Keep individual ingredient entries uncertain.",
+    "checked": "2026-11-26",
+    "clinical_review": false
+  },
+  {
+    "id": "HA-014",
+    "topic_id": "SKIN-002",
+    "source_links": [
+      {
+        "source_id": "S011",
+        "title": "Effects of Collagen Supplements on Skin Aging: A Systematic Review and Meta-Analysis of Randomized Controlled Trials",
+        "url": "https://www.sciencedirect.com/science/article/pii/S0002934325002839"
+      },
+      {
+        "source_id": "S012",
+        "title": "Oral Collagen Peptides and Skin Rejuvenation: A Systematic Review and an Updated Meta-Analysis of Randomized Controlled Trials.",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/43047141/"
+      },
+      {
+        "source_id": "CL02",
+        "title": "2026 technical reanalysis of collagen reviews",
+        "url": "https://doi.org/10.1111/jocd.71208"
+      },
+      {
+        "source_id": "S015",
+        "title": "Oral supplementation of specific collagen peptides has beneficial effects on human skin physiology: a double-blind, placebo-controlled study.",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/23949208/"
+      },
+      {
+        "source_id": "S014",
+        "title": "The Oral Intake of Specific Bovine-Derived Bioactive Collagen Peptides Has a Stimulatory Effect on Dermal Matrix Synthesis and Improves Various Clinical Skin Parameters",
+        "url": "https://doi.org/10.3390%2Fcosmetics12020079"
+      }
+    ],
+    "locator": "2025 review abstract; 2026 review publisher excerpt; Grimes/Mahto abstract and Fig 1; primary trial abstract",
+    "finding": "2026 technical reanalysis finds inaccurate primary extraction and incompatible measures; dose meta-regression did not establish benefit. Hydration p=.08, elasticity p=.92; heterogeneity 58.8% and 98.6% respectively. Authors report no COI. Proksch 2014: 69 adult women, 23 each across two dose arms and placebo, 8 weeks.",
+    "limitation": "Reanalysis challenges two identified reviews, not proof all trials invalid. Shared placebo and outcome/timepoint correlation matter. No pregnancy prevention endpoint; complete arm means/SD still pending.",
+    "content_implication": "Do not graph funding subgroups as independent estimates or count multiple dose arms as independent controls.",
+    "checked": "2026-11-26",
+    "clinical_review": false
+  },
+  {
+    "id": "HA-015",
+    "topic_id": "SKIN-002",
+    "source_links": [
+      {
+        "source_id": "S014",
+        "title": "The Oral Intake of Specific Bovine-Derived Bioactive Collagen Peptides Has a Stimulatory Effect on Dermal Matrix Synthesis and Improves Various Clinical Skin Parameters",
+        "url": "https://doi.org/10.3390%2Fcosmetics12020079"
+      }
+    ],
+    "locator": "full article abstract, exclusions, funding, COI",
+    "finding": "2025 RCT 66 women aged 35–55, 33 per group; 8 weeks; pregnancy/lactation excluded. Product supplied by GELITA; sponsor role reported limited; author reports supported lectures and patents. No adverse events reported in small adult trial.",
+    "limitation": "No rare-harm or pregnancy safety inference; product-specific adult findings; complete numerical arm extraction not performed.",
+    "content_implication": "Display product supply, author interests and pregnancy exclusion together.",
+    "checked": "2026-11-26",
+    "clinical_review": false
+  },
+  {
+    "id": "HA-016",
+    "topic_id": "ABD-001",
+    "source_links": [
+      {
+        "source_id": "S031",
+        "title": "Effect of hypopressive and conventional abdominal exercises on postpartum diastasis recti: A randomized controlled trial",
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC11637234/"
+      },
+      {
+        "source_id": "S034",
+        "title": "Hypopressive exercises for diastasis recti and pelvic floor symptoms in postpartum women: A randomized trial",
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC12961203/"
+      },
+      {
+        "source_id": "R016",
+        "title": "Diastasis exercise network meta-analysis",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/41224804/"
+      },
+      {
+        "source_id": "H021",
+        "title": "Core muscle strength and stability-oriented breathing training in postpartum women",
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC11889499/"
+      },
+      {
+        "source_id": "H022",
+        "title": "Effect of inspiratory plus expiratory neuromuscular electrical stimulation on postpartum diastasis",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/40426315/"
+      }
+    ],
+    "locator": "primary abstracts and accessible indexed methods",
+    "finding": "2024 hypopressive vs conventional RCT no significant group main effect at two measurement sites; within-condition changes differ. 2026 hypopressive trial reports prone bridge between-group difference 34 s (13–55), side tests 12 s (3–21),16 s (7–25), body appreciation 9 (5–13), pelvic complaints −4 (−6 to −2). 2025 breathing and NMES trials identified.",
+    "limitation": "Separate site, condition and outcome; full samples, timepoints, baseline/harms need extraction. No inference of routine pregnancy NMES safety.",
+    "content_implication": "Prioritize function rather than gap alone; new trials are distinct only after registry/cross-publication check.",
+    "checked": "2026-11-26",
+    "clinical_review": false
+  },
+  {
+    "id": "HA-017",
+    "topic_id": "MSK-001",
+    "source_links": [
+      {
+        "source_id": "S220",
+        "title": "Acupuncture as an adjunct to standard treatment for pelvic girdle pain in pregnant women: randomised double-blinded controlled trial comparing acupuncture with non-penetrating sham acupuncture",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/18947338/"
+      },
+      {
+        "source_id": "S134",
+        "title": "Effects of acupuncture and stabilising exercises as adjunct to standard treatment in pregnant women with pelvic girdle pain: randomised single blind controlled trial",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/15778231/"
+      }
+    ],
+    "locator": "primary sham-trial abstract",
+    "finding": "Sham-controlled trial median pain VAS changed 66 to36 vs69 to41; between-group pain comparison p=.493.",
+    "limitation": "Both arms improved; active vs sham did not establish specific analgesic advantage. Adjunct standard-care comparator is a different question.",
+    "content_implication": "Show sham comparison in acupuncture record.",
+    "checked": "2026-11-26",
+    "clinical_review": false
+  },
+  {
+    "id": "HA-018",
+    "topic_id": "PELV-001",
+    "source_links": [
+      {
+        "source_id": "H016",
+        "title": "Evaluation of postpartum pelvic floor physical therapy on obstetrical anal sphincter injury",
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC8924744/"
+      },
+      {
+        "source_id": "H017",
+        "title": "Obstetric anal sphincter injury and female sexual dysfunction",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/39471303/"
+      },
+      {
+        "source_id": "H018",
+        "title": "Sexual function at 6 and 12 months after OASI and physical therapy",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/37093575/"
+      }
+    ],
+    "locator": "RCT and systematic review excerpts; observational abstract",
+    "finding": "OASI rehabilitation is a separate population. Systematic review describes substantial dyspareunia and sexual dysfunction after severe injury; did not establish significant physical-therapy impact on sexual dysfunction. Observational comparison cannot establish causality.",
+    "limitation": "Bladder/bowel symptoms, quality of life and sexual function are separate endpoints. No universal exercise protocol.",
+    "content_implication": "Offer assessment and symptom-based care; no deadline for resuming sex.",
+    "checked": "2026-11-26",
+    "clinical_review": false
+  },
+  {
+    "id": "HA-019",
+    "topic_id": "FACE-001",
+    "source_links": [
+      {
+        "source_id": "H019",
+        "title": "Double-blind randomized trial of niacinamide 4% vs hydroquinone 4% for melasma",
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC3142702/"
+      },
+      {
+        "source_id": "H020",
+        "title": "Update on Melasma—Part II: Treatment",
+        "url": "https://doi.org/10.1007/s13555-022-00780-4"
+      },
+      {
+        "source_id": "R014",
+        "title": "Visible light protection and melasma relapse",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/25443629/"
+      },
+      {
+        "source_id": "S212",
+        "title": "Evaluation of the effectiveness of a broad-spectrum sunscreen in the prevention of chloasma in pregnant women",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/17567299/"
+      }
+    ],
+    "locator": "split-face trial; review; prior pregnancy cohort",
+    "finding": "4% niacinamide vs 4% hydroquinone trial in melasma is not a pregnancy prevention study. Review describes niacinamide as pregnancy/lactation compatible but direct pregnancy clinical outcome evidence remains limited.",
+    "limitation": "Adult treatment cannot establish prevention or uncommon fetal safety; hydroquinone comparator is not pregnancy recommendation.",
+    "content_implication": "Label treatment vs prevention; review formulation with clinician.",
+    "checked": "2026-11-26",
+    "clinical_review": false
+  },
+  {
+    "id": "HA-020",
+    "topic_id": "HAIR-001",
+    "source_links": [
+      {
+        "source_id": "S111",
+        "title": "The changes in the hair cycle during gestation and the post-partum period.",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/23682615/"
+      },
+      {
+        "source_id": "S110",
+        "title": "Hair loss in new moms: Dermatologist tips",
+        "url": "https://www.aad.org/public/diseases/hair-loss/insider/new-moms"
+      }
+    ],
+    "locator": "primary abstract and AAD guidance context",
+    "finding": "Hair cycle study sampled 116 women at different gestational/postpartum timepoints (28,30,29,29), not repeated longitudinal measurement of each participant.",
+    "limitation": "Cannot estimate individual time to recovery or incidence from cross-sectional groups.",
+    "content_implication": "Keep approximate normal course; evaluate persistent/atypical shedding.",
+    "checked": "2026-11-26",
+    "clinical_review": false
+  },
+  {
+    "id": "HA-021",
+    "topic_id": "SCAR-001",
+    "source_links": [
+      {
+        "source_id": "S208",
+        "title": "Exploring the Effects of Standardized Soft Tissue Mobilization on the Viscoelastic Properties, Pressure Pain Thresholds, and Tactile Pressure Thresholds of the Cesarean Section Scar",
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC9051872/"
+      }
+    ],
+    "locator": "primary article indexed methods",
+    "finding": "Exploratory study examines scar viscoelasticity, pressure pain thresholds and tactile sensitivity; objective tissue properties differ from appearance.",
+    "limitation": "Does not establish durable cosmetic outcomes or use before wound healing.",
+    "content_implication": "Avoid claims that massage removes scars.",
+    "checked": "2026-11-26",
+    "clinical_review": false
+  },
+  {
+    "id": "HA-022",
+    "topic_id": "FIT-002",
+    "source_links": [
+      {
+        "source_id": "CL05",
+        "title": "2025 prenatal resistance training review",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/40610191/"
+      },
+      {
+        "source_id": "H023",
+        "title": "MotherToBaby Exercise fact sheet",
+        "url": "https://www.ncbi.nlm.nih.gov/books/NBK582697/"
+      }
+    ],
+    "locator": "review objective and teratology guidance",
+    "finding": "Resistance training review allows multicomponent interventions; exercise safety depends on pregnancy circumstances and warning signs.",
+    "limitation": "Cannot isolate muscle retention or specific sports by pooled mixed exercise programs.",
+    "content_implication": "Do not infer individual clearance or prescribe maximal lifting.",
+    "checked": "2026-11-26",
+    "clinical_review": false
+  },
+  {
+    "id": "HA-023",
+    "topic_id": "FIT-003",
+    "source_links": [
+      {
+        "source_id": "S067",
+        "title": "Clinical and exercise professional opinion on designing a postpartum return-to-running training programme: an international Delphi study and consensus statement",
+        "url": "https://doi.org/10.1136/bjsports-2023-107490"
+      },
+      {
+        "source_id": "S218",
+        "title": "What are the biopsychosocial risk factors associated with pain in postpartum runners? Development of a clinical decision tool",
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC8360599/"
+      }
+    ],
+    "locator": "consensus rationale and baseline cohort",
+    "finding": "Return-to-running guidance uses general runner data and clinical consensus; postpartum pain risk factors are not prospective injury incidence.",
+    "limitation": "No prospective cesarean/lactation-specific injury rates established in this pass.",
+    "content_implication": "No fixed return date or universal load increase percentage.",
+    "checked": "2026-11-26",
+    "clinical_review": false
+  },
+  {
+    "id": "HA-024",
+    "topic_id": "WELL-001",
+    "source_links": [
+      {
+        "source_id": "S183",
+        "title": "The effectiveness of interventions on improving body image for pregnant and postpartum women: a systematic review of randomized clinical trials",
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC11380436/"
+      }
+    ],
+    "locator": "systematic review eligibility",
+    "finding": "RCT review focuses on body image, a separate outcome from physical appearance; do not equate mental health benefit with body reshaping.",
+    "limitation": "Full effect estimates by intervention and bias not extracted.",
+    "content_implication": "No body score or appearance targets.",
+    "checked": "2026-11-26",
+    "clinical_review": false
+  },
+  {
+    "id": "HA-025",
+    "topic_id": "EMERG-001",
+    "source_links": [
+      {
+        "source_id": "S162",
+        "title": "Cosmetic Dermatology in Pregnancy and Lactation: A Risk–Benefit Framework for Clinical Practice",
+        "url": "https://onlinelibrary.wiley.com/doi/10.1111/ijd.70620"
+      },
+      {
+        "source_id": "S163",
+        "title": "A review of the safety of cosmetic procedures during pregnancy and lactation",
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC5418954/"
+      }
+    ],
+    "locator": "2026 review publisher text; earlier review abstract",
+    "finding": "Newer review distinguishes pregnancy from lactation, describes PRP cosmetic pregnancy evidence as lacking and low-level photobiomodulation as low theoretical exposure with caution.",
+    "limitation": "Narrative recommendations and mechanistic rationale do not establish efficacy or rare safety. Medically necessary procedures differ from elective treatment.",
+    "content_implication": "Keep PRP, LED and other elective devices as research-only, not home protocols.",
+    "checked": "2026-11-26",
+    "clinical_review": false
+  },
+  {
+    "id": "HA-026",
+    "topic_id": "NUTR-001",
+    "source_links": [
+      {
+        "source_id": "H027",
+        "title": "Calcium supplementation other than hypertension prevention: pregnancy and infant outcomes",
+        "url": "https://doi.org/10.1002/14651858.CD007079.pub4"
+      }
+    ],
+    "locator": "2024 Cochrane review abstract",
+    "finding": "Calcium for outcomes other than hypertension: PTB <37 weeks RR .80 (.65–.99), 11 trials 15379; <34 weeks RR 1.03 (.79–1.35), 3 trials 5569.",
+    "limitation": "Different review question and potentially overlapping trials; cannot combine with hypertension synthesis.",
+    "content_implication": "Label outcome and gestational threshold.",
+    "checked": "2026-11-26",
+    "clinical_review": false
+  }
+]

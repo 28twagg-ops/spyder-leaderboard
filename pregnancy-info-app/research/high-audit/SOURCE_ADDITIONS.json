@@ -1,0 +1,529 @@
+[
+  {
+    "id": "H001",
+    "title": "SPRING study protocol",
+    "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC3585705/",
+    "kind": "trial protocol",
+    "topics": [
+      "NUTR-002"
+    ],
+    "source_host": "pmc.ncbi.nlm.nih.gov",
+    "verification_scope": "selected indexed excerpt or source section checked in high pass; see high-audit/EVIDENCE_CHECKS.json",
+    "accessed": "2026-11-26",
+    "current_pass_status": "selected excerpt checked",
+    "funding": null,
+    "conflicts": null,
+    "clinical_review": false,
+    "used_by": []
+  },
+  {
+    "id": "H002",
+    "title": "SPRING secondary microbiome analysis and funding",
+    "url": "https://www.sciencedirect.com/science/article/pii/S2210778921000015",
+    "kind": "same-cohort secondary analysis",
+    "topics": [
+      "NUTR-002"
+    ],
+    "source_host": "www.sciencedirect.com",
+    "verification_scope": "selected indexed excerpt or source section checked in high pass; see high-audit/EVIDENCE_CHECKS.json",
+    "accessed": "2026-11-26",
+    "current_pass_status": "selected excerpt checked",
+    "funding": null,
+    "conflicts": null,
+    "clinical_review": false,
+    "used_by": []
+  },
+  {
+    "id": "H003",
+    "title": "SPRING ketone secondary analysis and product donation",
+    "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC6038017/",
+    "kind": "same-cohort secondary analysis",
+    "topics": [
+      "NUTR-002"
+    ],
+    "source_host": "pmc.ncbi.nlm.nih.gov",
+    "verification_scope": "selected indexed excerpt or source section checked in high pass; see high-audit/EVIDENCE_CHECKS.json",
+    "accessed": "2026-11-26",
+    "current_pass_status": "selected excerpt checked",
+    "funding": null,
+    "conflicts": null,
+    "clinical_review": false,
+    "used_by": []
+  },
+  {
+    "id": "H004",
+    "title": "Lindsay 2014 conference report",
+    "url": "https://www.cambridge.org/core/journals/proceedings-of-the-nutrition-society/article/impact-of-probiotics-in-obese-pregnancy-to-reduce-maternal-fasting-glucose-a-randomized-controlled-trial/148C58F917D58383AA680569CC2B76DC",
+    "kind": "same-cohort conference report",
+    "topics": [
+      "NUTR-002"
+    ],
+    "source_host": "www.cambridge.org",
+    "verification_scope": "selected indexed excerpt or source section checked in high pass; see high-audit/EVIDENCE_CHECKS.json",
+    "accessed": "2026-11-26",
+    "current_pass_status": "selected excerpt checked",
+    "funding": null,
+    "conflicts": null,
+    "clinical_review": false,
+    "used_by": []
+  },
+  {
+    "id": "H005",
+    "title": "Pellonperä cohort 24-month follow-up",
+    "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC9848211/",
+    "kind": "same-cohort secondary analysis",
+    "topics": [
+      "NUTR-002"
+    ],
+    "source_host": "pmc.ncbi.nlm.nih.gov",
+    "verification_scope": "selected indexed excerpt or source section checked in high pass; see high-audit/EVIDENCE_CHECKS.json",
+    "accessed": "2026-11-26",
+    "current_pass_status": "selected excerpt checked",
+    "funding": null,
+    "conflicts": null,
+    "clinical_review": false,
+    "used_by": []
+  },
+  {
+    "id": "H006",
+    "title": "New Zealand Medsafe MARC March 2023 remarks",
+    "url": "https://medsafe.govt.nz/profs/PUArticles/June2023/MARCs-remarks-June-2023-meeting.html",
+    "kind": "regulatory committee assessment",
+    "topics": [
+      "NUTR-002"
+    ],
+    "source_host": "medsafe.govt.nz",
+    "verification_scope": "selected indexed excerpt or source section checked in high pass; see high-audit/EVIDENCE_CHECKS.json",
+    "accessed": "2026-11-26",
+    "current_pass_status": "selected excerpt checked",
+    "funding": null,
+    "conflicts": null,
+    "clinical_review": false,
+    "used_by": []
+  },
+  {
+    "id": "H007",
+    "title": "WHO guideline development group: calcium supplementation for prevention of pre-eclampsia",
+    "url": "https://www.who.int/news-room/articles-detail/guideline-development-group-calcium-supplementation-for-the-prevention-of-pre-eclampsia",
+    "kind": "guideline update announcement",
+    "topics": [
+      "NUTR-001"
+    ],
+    "source_host": "www.who.int",
+    "verification_scope": "selected indexed excerpt or source section checked in high pass; see high-audit/EVIDENCE_CHECKS.json",
+    "accessed": "2026-11-26",
+    "current_pass_status": "selected excerpt checked",
+    "funding": null,
+    "conflicts": null,
+    "clinical_review": false,
+    "used_by": []
+  },
+  {
+    "id": "H008",
+    "title": "Calcium supplementation and risk of preeclampsia in Ecuadorian pregnant teenagers",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/9241285/",
+    "kind": "primary RCT abstract",
+    "topics": [
+      "NUTR-001"
+    ],
+    "source_host": "pubmed.ncbi.nlm.nih.gov",
+    "verification_scope": "selected indexed excerpt or source section checked in high pass; see high-audit/EVIDENCE_CHECKS.json",
+    "accessed": "2026-11-26",
+    "current_pass_status": "selected excerpt checked",
+    "funding": null,
+    "conflicts": null,
+    "clinical_review": false,
+    "used_by": []
+  },
+  {
+    "id": "H009",
+    "title": "Calcium supplementation and prevention of pregnancy induced hypertension",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/8987323/",
+    "kind": "primary RCT abstract",
+    "topics": [
+      "NUTR-001"
+    ],
+    "source_host": "pubmed.ncbi.nlm.nih.gov",
+    "verification_scope": "selected indexed excerpt or source section checked in high pass; see high-audit/EVIDENCE_CHECKS.json",
+    "accessed": "2026-11-26",
+    "current_pass_status": "selected excerpt checked",
+    "funding": null,
+    "conflicts": null,
+    "clinical_review": false,
+    "used_by": []
+  },
+  {
+    "id": "H010",
+    "title": "Stephens et al. protein requirements in early and late gestation",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/25527661/",
+    "kind": "metabolic requirement study",
+    "topics": [
+      "NUTR-001"
+    ],
+    "source_host": "pubmed.ncbi.nlm.nih.gov",
+    "verification_scope": "selected indexed excerpt or source section checked in high pass; see high-audit/EVIDENCE_CHECKS.json",
+    "accessed": "2026-11-26",
+    "current_pass_status": "selected excerpt checked",
+    "funding": null,
+    "conflicts": null,
+    "clinical_review": false,
+    "used_by": []
+  },
+  {
+    "id": "H011",
+    "title": "USDA evidence review protein requirements, Appendix H table 2",
+    "url": "https://www.ncbi.nlm.nih.gov/books/NBK614628/table/apph.tab2/",
+    "kind": "government evidence extraction",
+    "topics": [
+      "NUTR-001"
+    ],
+    "source_host": "www.ncbi.nlm.nih.gov",
+    "verification_scope": "selected indexed excerpt or source section checked in high pass; see high-audit/EVIDENCE_CHECKS.json",
+    "accessed": "2026-11-26",
+    "current_pass_status": "selected excerpt checked",
+    "funding": null,
+    "conflicts": null,
+    "clinical_review": false,
+    "used_by": []
+  },
+  {
+    "id": "H012",
+    "title": "Association of a vegan diet during pregnancy with maternal and child outcomes",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/39408296/",
+    "kind": "systematic review",
+    "topics": [
+      "NUTR-001"
+    ],
+    "source_host": "pubmed.ncbi.nlm.nih.gov",
+    "verification_scope": "selected indexed excerpt or source section checked in high pass; see high-audit/EVIDENCE_CHECKS.json",
+    "accessed": "2026-11-26",
+    "current_pass_status": "selected excerpt checked",
+    "funding": null,
+    "conflicts": null,
+    "clinical_review": false,
+    "used_by": []
+  },
+  {
+    "id": "H013",
+    "title": "NICHD Understanding Eating Behaviors During Twin Pregnancies",
+    "url": "https://www.nichd.nih.gov/about/org/dir/dir_showcase/diphr-understanding-eating-behaviors-during-twin-pregnancies",
+    "kind": "government research summary",
+    "topics": [
+      "NUTR-001"
+    ],
+    "source_host": "www.nichd.nih.gov",
+    "verification_scope": "selected indexed excerpt or source section checked in high pass; see high-audit/EVIDENCE_CHECKS.json",
+    "accessed": "2026-11-26",
+    "current_pass_status": "selected excerpt checked",
+    "funding": null,
+    "conflicts": null,
+    "clinical_review": false,
+    "used_by": []
+  },
+  {
+    "id": "H014",
+    "title": "WHO antenatal iron supplementation",
+    "url": "https://www.who.int/data/nutrition/nlis/info/antenatal-iron-supplementation",
+    "kind": "global public health guidance",
+    "topics": [
+      "NUTR-001"
+    ],
+    "source_host": "www.who.int",
+    "verification_scope": "selected indexed excerpt or source section checked in high pass; see high-audit/EVIDENCE_CHECKS.json",
+    "accessed": "2026-11-26",
+    "current_pass_status": "selected excerpt checked",
+    "funding": null,
+    "conflicts": null,
+    "clinical_review": false,
+    "used_by": []
+  },
+  {
+    "id": "H015",
+    "title": "Biophysical effects, safety and efficacy of raspberry leaf in pregnancy",
+    "url": "https://doi.org/10.1186/s12906-021-03230-4",
+    "kind": "systematic integrative review",
+    "topics": [
+      "NUTR-002"
+    ],
+    "source_host": "doi.org",
+    "verification_scope": "selected indexed excerpt or source section checked in high pass; see high-audit/EVIDENCE_CHECKS.json",
+    "accessed": "2026-11-26",
+    "current_pass_status": "selected excerpt checked",
+    "funding": null,
+    "conflicts": null,
+    "clinical_review": false,
+    "used_by": []
+  },
+  {
+    "id": "H016",
+    "title": "Evaluation of postpartum pelvic floor physical therapy on obstetrical anal sphincter injury",
+    "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC8924744/",
+    "kind": "primary RCT",
+    "topics": [
+      "PELV-001"
+    ],
+    "source_host": "pmc.ncbi.nlm.nih.gov",
+    "verification_scope": "selected indexed excerpt or source section checked in high pass; see high-audit/EVIDENCE_CHECKS.json",
+    "accessed": "2026-11-26",
+    "current_pass_status": "selected excerpt checked",
+    "funding": null,
+    "conflicts": null,
+    "clinical_review": false,
+    "used_by": []
+  },
+  {
+    "id": "H017",
+    "title": "Obstetric anal sphincter injury and female sexual dysfunction",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/39471303/",
+    "kind": "systematic review",
+    "topics": [
+      "PELV-001"
+    ],
+    "source_host": "pubmed.ncbi.nlm.nih.gov",
+    "verification_scope": "selected indexed excerpt or source section checked in high pass; see high-audit/EVIDENCE_CHECKS.json",
+    "accessed": "2026-11-26",
+    "current_pass_status": "selected excerpt checked",
+    "funding": null,
+    "conflicts": null,
+    "clinical_review": false,
+    "used_by": []
+  },
+  {
+    "id": "H018",
+    "title": "Sexual function at 6 and 12 months after OASI and physical therapy",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/37093575/",
+    "kind": "observational study",
+    "topics": [
+      "PELV-001"
+    ],
+    "source_host": "pubmed.ncbi.nlm.nih.gov",
+    "verification_scope": "selected indexed excerpt or source section checked in high pass; see high-audit/EVIDENCE_CHECKS.json",
+    "accessed": "2026-11-26",
+    "current_pass_status": "selected excerpt checked",
+    "funding": null,
+    "conflicts": null,
+    "clinical_review": false,
+    "used_by": []
+  },
+  {
+    "id": "H019",
+    "title": "Double-blind randomized trial of niacinamide 4% vs hydroquinone 4% for melasma",
+    "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC3142702/",
+    "kind": "primary trial",
+    "topics": [
+      "FACE-001"
+    ],
+    "source_host": "pmc.ncbi.nlm.nih.gov",
+    "verification_scope": "selected indexed excerpt or source section checked in high pass; see high-audit/EVIDENCE_CHECKS.json",
+    "accessed": "2026-11-26",
+    "current_pass_status": "selected excerpt checked",
+    "funding": null,
+    "conflicts": null,
+    "clinical_review": false,
+    "used_by": []
+  },
+  {
+    "id": "H020",
+    "title": "Update on Melasma—Part II: Treatment",
+    "url": "https://doi.org/10.1007/s13555-022-00780-4",
+    "kind": "narrative review",
+    "topics": [
+      "FACE-001"
+    ],
+    "source_host": "doi.org",
+    "verification_scope": "selected indexed excerpt or source section checked in high pass; see high-audit/EVIDENCE_CHECKS.json",
+    "accessed": "2026-11-26",
+    "current_pass_status": "selected excerpt checked",
+    "funding": null,
+    "conflicts": null,
+    "clinical_review": false,
+    "used_by": []
+  },
+  {
+    "id": "H021",
+    "title": "Core muscle strength and stability-oriented breathing training in postpartum women",
+    "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC11889499/",
+    "kind": "primary study, methods not fully extracted",
+    "topics": [
+      "ABD-001"
+    ],
+    "source_host": "pmc.ncbi.nlm.nih.gov",
+    "verification_scope": "selected indexed excerpt or source section checked in high pass; see high-audit/EVIDENCE_CHECKS.json",
+    "accessed": "2026-11-26",
+    "current_pass_status": "selected excerpt checked",
+    "funding": null,
+    "conflicts": null,
+    "clinical_review": false,
+    "used_by": []
+  },
+  {
+    "id": "H022",
+    "title": "Effect of inspiratory plus expiratory neuromuscular electrical stimulation on postpartum diastasis",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/40426315/",
+    "kind": "primary RCT abstract",
+    "topics": [
+      "ABD-001"
+    ],
+    "source_host": "pubmed.ncbi.nlm.nih.gov",
+    "verification_scope": "selected indexed excerpt or source section checked in high pass; see high-audit/EVIDENCE_CHECKS.json",
+    "accessed": "2026-11-26",
+    "current_pass_status": "selected excerpt checked",
+    "funding": null,
+    "conflicts": null,
+    "clinical_review": false,
+    "used_by": []
+  },
+  {
+    "id": "H023",
+    "title": "MotherToBaby Exercise fact sheet",
+    "url": "https://www.ncbi.nlm.nih.gov/books/NBK582697/",
+    "kind": "teratology information guidance",
+    "topics": [
+      "FIT-002"
+    ],
+    "source_host": "www.ncbi.nlm.nih.gov",
+    "verification_scope": "selected indexed excerpt or source section checked in high pass; see high-audit/EVIDENCE_CHECKS.json",
+    "accessed": "2026-11-26",
+    "current_pass_status": "selected excerpt checked",
+    "funding": null,
+    "conflicts": null,
+    "clinical_review": false,
+    "used_by": []
+  },
+  {
+    "id": "H024",
+    "title": "OpenStax Anatomy and Physiology 2e preface and licensing",
+    "url": "https://openstax.org/books/anatomy-and-physiology-2e/pages/preface",
+    "kind": "asset licensing guidance",
+    "topics": [
+      "UX"
+    ],
+    "source_host": "openstax.org",
+    "verification_scope": "selected indexed excerpt or source section checked in high pass; see high-audit/EVIDENCE_CHECKS.json",
+    "accessed": "2026-11-26",
+    "current_pass_status": "selected excerpt checked",
+    "funding": null,
+    "conflicts": null,
+    "clinical_review": false,
+    "used_by": []
+  },
+  {
+    "id": "H025",
+    "title": "OpenStax changes during pregnancy, labor and birth",
+    "url": "https://openstax.org/books/anatomy-and-physiology-2e/pages/28-4-changes-during-pregnancy-labor-and-birth",
+    "kind": "anatomy reference",
+    "topics": [
+      "BIRTH-001"
+    ],
+    "source_host": "openstax.org",
+    "verification_scope": "selected indexed excerpt or source section checked in high pass; see high-audit/EVIDENCE_CHECKS.json",
+    "accessed": "2026-11-26",
+    "current_pass_status": "selected excerpt checked",
+    "funding": null,
+    "conflicts": null,
+    "clinical_review": false,
+    "used_by": []
+  },
+  {
+    "id": "H026",
+    "title": "OpenStax lactation",
+    "url": "https://openstax.org/books/anatomy-and-physiology-2e/pages/28-6-lactation",
+    "kind": "anatomy reference",
+    "topics": [
+      "BREAST-001"
+    ],
+    "source_host": "openstax.org",
+    "verification_scope": "selected indexed excerpt or source section checked in high pass; see high-audit/EVIDENCE_CHECKS.json",
+    "accessed": "2026-11-26",
+    "current_pass_status": "selected excerpt checked",
+    "funding": null,
+    "conflicts": null,
+    "clinical_review": false,
+    "used_by": []
+  },
+  {
+    "id": "H027",
+    "title": "Calcium supplementation other than hypertension prevention: pregnancy and infant outcomes",
+    "url": "https://doi.org/10.1002/14651858.CD007079.pub4",
+    "kind": "systematic review",
+    "topics": [
+      "NUTR-001"
+    ],
+    "source_host": "doi.org",
+    "verification_scope": "selected indexed excerpt or source section checked in high pass; see high-audit/EVIDENCE_CHECKS.json",
+    "accessed": "2026-11-26",
+    "current_pass_status": "selected excerpt checked",
+    "funding": null,
+    "conflicts": null,
+    "clinical_review": false,
+    "used_by": []
+  },
+  {
+    "id": "H028",
+    "title": "ADORE randomized controlled trial protocol",
+    "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC5307851/",
+    "kind": "trial protocol",
+    "topics": [
+      "NUTR-001"
+    ],
+    "source_host": "pmc.ncbi.nlm.nih.gov",
+    "verification_scope": "selected indexed excerpt or source section checked in high pass; see high-audit/EVIDENCE_CHECKS.json",
+    "accessed": "2026-11-26",
+    "current_pass_status": "selected excerpt checked",
+    "funding": null,
+    "conflicts": null,
+    "clinical_review": false,
+    "used_by": []
+  },
+  {
+    "id": "H029",
+    "title": "Probiotics in overweight or obese pregnant women systematic review",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/35871956/",
+    "kind": "systematic review",
+    "topics": [
+      "NUTR-002"
+    ],
+    "source_host": "pubmed.ncbi.nlm.nih.gov",
+    "verification_scope": "selected indexed excerpt or source section checked in high pass; see high-audit/EVIDENCE_CHECKS.json",
+    "accessed": "2026-11-26",
+    "current_pass_status": "selected excerpt checked",
+    "funding": null,
+    "conflicts": null,
+    "clinical_review": false,
+    "used_by": []
+  },
+  {
+    "id": "H030",
+    "title": "2022 probiotic GDM prevention systematic review",
+    "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC9751955/",
+    "kind": "systematic review",
+    "topics": [
+      "NUTR-002"
+    ],
+    "source_host": "pmc.ncbi.nlm.nih.gov",
+    "verification_scope": "selected indexed excerpt or source section checked in high pass; see high-audit/EVIDENCE_CHECKS.json",
+    "accessed": "2026-11-26",
+    "current_pass_status": "selected excerpt checked",
+    "funding": null,
+    "conflicts": null,
+    "clinical_review": false,
+    "used_by": []
+  },
+  {
+    "id": "H031",
+    "title": "HUMBA study protocol",
+    "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC5123375/",
+    "kind": "trial protocol",
+    "topics": [
+      "NUTR-002"
+    ],
+    "source_host": "pmc.ncbi.nlm.nih.gov",
+    "verification_scope": "selected indexed excerpt or source section checked in high pass; see high-audit/EVIDENCE_CHECKS.json",
+    "accessed": "2026-11-26",
+    "current_pass_status": "selected excerpt checked",
+    "funding": null,
+    "conflicts": null,
+    "clinical_review": false,
+    "used_by": []
+  }
+]

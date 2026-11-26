@@ -1,0 +1,147 @@
+[
+  {
+    "source_id": "R001",
+    "grant_support": "NHMRC and Royal Brisbane and Women's Hospital Foundation reported in same-cohort secondary analysis",
+    "commercial_or_author_interests": "Chr Hansen supplied active/placebo products in same-cohort publication",
+    "source_links": [
+      {
+        "source_id": "H002",
+        "title": "SPRING secondary microbiome analysis and funding",
+        "url": "https://www.sciencedirect.com/science/article/pii/S2210778921000015"
+      },
+      {
+        "source_id": "H003",
+        "title": "SPRING ketone secondary analysis and product donation",
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC6038017/"
+      }
+    ],
+    "scope": "secondary publication; primary complete disclosure not extracted",
+    "date": "2026-11-26",
+    "independent_label_allowed": false
+  },
+  {
+    "source_id": "R002",
+    "grant_support": "National Maternity Hospital Medical Fund and Ivo Drury Award",
+    "commercial_or_author_interests": "product source/other COI unknown",
+    "source_links": [
+      {
+        "source_id": "H004",
+        "title": "Lindsay 2014 conference report",
+        "url": "https://www.cambridge.org/core/journals/proceedings-of-the-nutrition-society/article/impact-of-probiotics-in-obese-pregnancy-to-reduce-maternal-fasting-glucose-a-randomized-controlled-trial/148C58F917D58383AA680569CC2B76DC"
+      }
+    ],
+    "scope": "conference report funding only",
+    "date": "2026-11-26",
+    "independent_label_allowed": false
+  },
+  {
+    "source_id": "R003",
+    "grant_support": "Cure Kids, Lottery Health Research, University of Auckland, Counties Manukau Health, Mercia Barnes, Nurture and Heart Foundation of NZ",
+    "commercial_or_author_interests": "Chr Hansen probiotic/placebo supply; Roche testing support in protocol",
+    "source_links": [
+      {
+        "source_id": "R018",
+        "title": "HUMBA publisher report",
+        "url": "https://www.sciencedirect.com/science/article/pii/S0002937819304788"
+      },
+      {
+        "source_id": "H031",
+        "title": "HUMBA study protocol",
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC5123375/"
+      }
+    ],
+    "scope": "primary funding excerpt and protocol",
+    "date": "2026-11-26",
+    "independent_label_allowed": false
+  },
+  {
+    "source_id": "R004",
+    "grant_support": "Academy of Finland, state health research funding and foundations",
+    "commercial_or_author_interests": "DuPont strain source; donation not confirmed",
+    "source_links": [
+      {
+        "source_id": "H005",
+        "title": "Pellonperä cohort 24-month follow-up",
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC9848211/"
+      }
+    ],
+    "scope": "same-cohort follow-up",
+    "date": "2026-11-26",
+    "independent_label_allowed": false
+  },
+  {
+    "source_id": "S094",
+    "grant_support": "NIHR Cochrane infrastructure support",
+    "commercial_or_author_interests": "review author declarations not fully extracted",
+    "source_links": [
+      {
+        "source_id": "S094",
+        "title": "Probiotics to prevent gestational diabetes mellitus | Cochrane",
+        "url": "https://www.cochrane.org/evidence/CD009951_probiotiki-dlya-profilaktiki-gestacionnogo-sakharnogo-diabeta"
+      }
+    ],
+    "scope": "indexed PMC disclosure",
+    "date": "2026-11-26",
+    "independent_label_allowed": false
+  },
+  {
+    "source_id": "S095",
+    "grant_support": "Bill & Melinda Gates Foundation INV-038938 and Harry Secomb Foundation IPAP2022/0475",
+    "commercial_or_author_interests": "COI not fully extracted",
+    "source_links": [
+      {
+        "source_id": "S095",
+        "title": "The effects of probiotics administration during pregnancy on preeclampsia and associated maternal, fetal, and newborn outcomes: a systematic review and meta-analysis",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/38447676/"
+      }
+    ],
+    "scope": "publisher funding excerpt",
+    "date": "2026-11-26",
+    "independent_label_allowed": false
+  },
+  {
+    "source_id": "R007",
+    "grant_support": "NICHD",
+    "commercial_or_author_interests": "DSM Nutritional Products supplied all capsules",
+    "source_links": [
+      {
+        "source_id": "R007",
+        "title": "ADORE DHA trial",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/34308309/"
+      }
+    ],
+    "scope": "primary abstract",
+    "date": "2026-11-26",
+    "independent_label_allowed": false
+  },
+  {
+    "source_id": "S014",
+    "grant_support": "GELITA provided product; authors report sponsor did not influence design/conduct/analysis",
+    "commercial_or_author_interests": "Author lectures partly supported by GELITA; coinventor of collagen patents",
+    "source_links": [
+      {
+        "source_id": "S014",
+        "title": "The Oral Intake of Specific Bovine-Derived Bioactive Collagen Peptides Has a Stimulatory Effect on Dermal Matrix Synthesis and Improves Various Clinical Skin Parameters",
+        "url": "https://doi.org/10.3390%2Fcosmetics12020079"
+      }
+    ],
+    "scope": "full text disclosures",
+    "date": "2026-11-26",
+    "independent_label_allowed": false
+  },
+  {
+    "source_id": "CL02",
+    "grant_support": "not extracted",
+    "commercial_or_author_interests": "authors declare no COI",
+    "source_links": [
+      {
+        "source_id": "CL02",
+        "title": "2026 technical reanalysis of collagen reviews",
+        "url": "https://doi.org/10.1111/jocd.71208"
+      }
+    ],
+    "scope": "PubMed COI section",
+    "date": "2026-11-26",
+    "independent_label_allowed": false
+  }
+]

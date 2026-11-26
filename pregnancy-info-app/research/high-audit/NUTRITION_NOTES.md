@@ -1,0 +1,5 @@
+# Expanded nutrition reference
+
+NUTRIENT_REFERENCE_EXPANDED.json transcribes NIH ODS Tables 1–2 (S086) for ages 14–18 and 19–50, splitting adult magnesium by age, plus CDC lactation iodine and choline (S215). Null is unknown/not determinable or not applicable as specified, never zero or unlimited. RDA/AI are intake references, not supplement instructions; UL is not a target. Supplemental-only and preformed-vitamin-A limits must be applied to the correct chemical form and source. Folic acid recommendation is separate from DFE; consult a clinician for high-risk, diagnosed deficiency, multiples, bariatric surgery or restrictive diet. Protein IAAO metabolic estimates remain separate from official DRIs. No automatic dose calculation.
+
+Evidence: [S086](https://ods.od.nih.gov/factsheets/Pregnancy-HealthProfessional/), [S215](https://www.cdc.gov/breastfeeding-special-circumstances/hcp/diet-micronutrients/maternal-diet.html), [H010](https://pubmed.ncbi.nlm.nih.gov/25527661/), [H011](https://www.ncbi.nlm.nih.gov/books/NBK614628/table/apph.tab2/). See HA-006–011 and HA-026 for guideline comparisons.

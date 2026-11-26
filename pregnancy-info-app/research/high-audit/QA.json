@@ -1,0 +1,10 @@
+{
+  "source_records": 343,
+  "source_ids_unique": true,
+  "audit_links_resolved": true,
+  "topic_status_count": 22,
+  "numeric_interval_errors": [],
+  "clinical_review_count": 0,
+  "disclosure_count": 9,
+  "notes": "Only structural checks run; no assertion that every registered URL was reopened. Existing and new records may still represent overlapping publications or cohorts."
+}

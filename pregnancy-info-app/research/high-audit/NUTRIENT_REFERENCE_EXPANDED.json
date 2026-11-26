@@ -1,0 +1,1233 @@
+[
+  {
+    "nutrient": "Biotin",
+    "age": "14–18",
+    "life_stage": "pregnancy",
+    "unit": "mcg",
+    "intake_type": "AI",
+    "intake": 30,
+    "upper_limit": null,
+    "upper_limit_unit": "mcg",
+    "upper_limit_scope": "not determinable",
+    "source": {
+      "source_id": "S086",
+      "title": "Office of Dietary Supplements - Dietary Supplements and Life Stages: Pregnancy",
+      "url": "https://ods.od.nih.gov/factsheets/Pregnancy-HealthProfessional/"
+    },
+    "locator": "Tables 1–2",
+    "basis": "daily total intake reference unless UL scope says otherwise; not a prescribed supplement dose",
+    "clinical_review": false
+  },
+  {
+    "nutrient": "Biotin",
+    "age": "19–50",
+    "life_stage": "pregnancy",
+    "unit": "mcg",
+    "intake_type": "AI",
+    "intake": 30,
+    "upper_limit": null,
+    "upper_limit_unit": "mcg",
+    "upper_limit_scope": "not determinable",
+    "source": {
+      "source_id": "S086",
+      "title": "Office of Dietary Supplements - Dietary Supplements and Life Stages: Pregnancy",
+      "url": "https://ods.od.nih.gov/factsheets/Pregnancy-HealthProfessional/"
+    },
+    "locator": "Tables 1–2",
+    "basis": "daily total intake reference unless UL scope says otherwise; not a prescribed supplement dose",
+    "clinical_review": false
+  },
+  {
+    "nutrient": "Calcium",
+    "age": "14–18",
+    "life_stage": "pregnancy",
+    "unit": "mg",
+    "intake_type": "RDA",
+    "intake": 1300,
+    "upper_limit": 3000,
+    "upper_limit_unit": "mg",
+    "upper_limit_scope": "total",
+    "source": {
+      "source_id": "S086",
+      "title": "Office of Dietary Supplements - Dietary Supplements and Life Stages: Pregnancy",
+      "url": "https://ods.od.nih.gov/factsheets/Pregnancy-HealthProfessional/"
+    },
+    "locator": "Tables 1–2",
+    "basis": "daily total intake reference unless UL scope says otherwise; not a prescribed supplement dose",
+    "clinical_review": false
+  },
+  {
+    "nutrient": "Calcium",
+    "age": "19–50",
+    "life_stage": "pregnancy",
+    "unit": "mg",
+    "intake_type": "RDA",
+    "intake": 1000,
+    "upper_limit": 2500,
+    "upper_limit_unit": "mg",
+    "upper_limit_scope": "total",
+    "source": {
+      "source_id": "S086",
+      "title": "Office of Dietary Supplements - Dietary Supplements and Life Stages: Pregnancy",
+      "url": "https://ods.od.nih.gov/factsheets/Pregnancy-HealthProfessional/"
+    },
+    "locator": "Tables 1–2",
+    "basis": "daily total intake reference unless UL scope says otherwise; not a prescribed supplement dose",
+    "clinical_review": false
+  },
+  {
+    "nutrient": "Chloride",
+    "age": "14–18",
+    "life_stage": "pregnancy",
+    "unit": "g",
+    "intake_type": "AI",
+    "intake": 2.3,
+    "upper_limit": 3.6,
+    "upper_limit_unit": "g",
+    "upper_limit_scope": "total",
+    "source": {
+      "source_id": "S086",
+      "title": "Office of Dietary Supplements - Dietary Supplements and Life Stages: Pregnancy",
+      "url": "https://ods.od.nih.gov/factsheets/Pregnancy-HealthProfessional/"
+    },
+    "locator": "Tables 1–2",
+    "basis": "daily total intake reference unless UL scope says otherwise; not a prescribed supplement dose",
+    "clinical_review": false
+  },
+  {
+    "nutrient": "Chloride",
+    "age": "19–50",
+    "life_stage": "pregnancy",
+    "unit": "g",
+    "intake_type": "AI",
+    "intake": 2.3,
+    "upper_limit": 3.6,
+    "upper_limit_unit": "g",
+    "upper_limit_scope": "total",
+    "source": {
+      "source_id": "S086",
+      "title": "Office of Dietary Supplements - Dietary Supplements and Life Stages: Pregnancy",
+      "url": "https://ods.od.nih.gov/factsheets/Pregnancy-HealthProfessional/"
+    },
+    "locator": "Tables 1–2",
+    "basis": "daily total intake reference unless UL scope says otherwise; not a prescribed supplement dose",
+    "clinical_review": false
+  },
+  {
+    "nutrient": "Choline",
+    "age": "14–18",
+    "life_stage": "pregnancy",
+    "unit": "mg",
+    "intake_type": "AI",
+    "intake": 450,
+    "upper_limit": 3000,
+    "upper_limit_unit": "mg",
+    "upper_limit_scope": "total",
+    "source": {
+      "source_id": "S086",
+      "title": "Office of Dietary Supplements - Dietary Supplements and Life Stages: Pregnancy",
+      "url": "https://ods.od.nih.gov/factsheets/Pregnancy-HealthProfessional/"
+    },
+    "locator": "Tables 1–2",
+    "basis": "daily total intake reference unless UL scope says otherwise; not a prescribed supplement dose",
+    "clinical_review": false
+  },
+  {
+    "nutrient": "Choline",
+    "age": "19–50",
+    "life_stage": "pregnancy",
+    "unit": "mg",
+    "intake_type": "AI",
+    "intake": 450,
+    "upper_limit": 3500,
+    "upper_limit_unit": "mg",
+    "upper_limit_scope": "total",
+    "source": {
+      "source_id": "S086",
+      "title": "Office of Dietary Supplements - Dietary Supplements and Life Stages: Pregnancy",
+      "url": "https://ods.od.nih.gov/factsheets/Pregnancy-HealthProfessional/"
+    },
+    "locator": "Tables 1–2",
+    "basis": "daily total intake reference unless UL scope says otherwise; not a prescribed supplement dose",
+    "clinical_review": false
+  },
+  {
+    "nutrient": "Chromium",
+    "age": "14–18",
+    "life_stage": "pregnancy",
+    "unit": "mcg",
+    "intake_type": "AI",
+    "intake": 29,
+    "upper_limit": null,
+    "upper_limit_unit": "mcg",
+    "upper_limit_scope": "not determinable",
+    "source": {
+      "source_id": "S086",
+      "title": "Office of Dietary Supplements - Dietary Supplements and Life Stages: Pregnancy",
+      "url": "https://ods.od.nih.gov/factsheets/Pregnancy-HealthProfessional/"
+    },
+    "locator": "Tables 1–2",
+    "basis": "daily total intake reference unless UL scope says otherwise; not a prescribed supplement dose",
+    "clinical_review": false
+  },
+  {
+    "nutrient": "Chromium",
+    "age": "19–50",
+    "life_stage": "pregnancy",
+    "unit": "mcg",
+    "intake_type": "AI",
+    "intake": 30,
+    "upper_limit": null,
+    "upper_limit_unit": "mcg",
+    "upper_limit_scope": "not determinable",
+    "source": {
+      "source_id": "S086",
+      "title": "Office of Dietary Supplements - Dietary Supplements and Life Stages: Pregnancy",
+      "url": "https://ods.od.nih.gov/factsheets/Pregnancy-HealthProfessional/"
+    },
+    "locator": "Tables 1–2",
+    "basis": "daily total intake reference unless UL scope says otherwise; not a prescribed supplement dose",
+    "clinical_review": false
+  },
+  {
+    "nutrient": "Copper",
+    "age": "14–18",
+    "life_stage": "pregnancy",
+    "unit": "mcg",
+    "intake_type": "RDA",
+    "intake": 1000,
+    "upper_limit": 8000,
+    "upper_limit_unit": "mcg",
+    "upper_limit_scope": "total",
+    "source": {
+      "source_id": "S086",
+      "title": "Office of Dietary Supplements - Dietary Supplements and Life Stages: Pregnancy",
+      "url": "https://ods.od.nih.gov/factsheets/Pregnancy-HealthProfessional/"
+    },
+    "locator": "Tables 1–2",
+    "basis": "daily total intake reference unless UL scope says otherwise; not a prescribed supplement dose",
+    "clinical_review": false
+  },
+  {
+    "nutrient": "Copper",
+    "age": "19–50",
+    "life_stage": "pregnancy",
+    "unit": "mcg",
+    "intake_type": "RDA",
+    "intake": 1000,
+    "upper_limit": 10000,
+    "upper_limit_unit": "mcg",
+    "upper_limit_scope": "total",
+    "source": {
+      "source_id": "S086",
+      "title": "Office of Dietary Supplements - Dietary Supplements and Life Stages: Pregnancy",
+      "url": "https://ods.od.nih.gov/factsheets/Pregnancy-HealthProfessional/"
+    },
+    "locator": "Tables 1–2",
+    "basis": "daily total intake reference unless UL scope says otherwise; not a prescribed supplement dose",
+    "clinical_review": false
+  },
+  {
+    "nutrient": "Fluoride",
+    "age": "14–18",
+    "life_stage": "pregnancy",
+    "unit": "mg",
+    "intake_type": "AI",
+    "intake": 3,
+    "upper_limit": 10,
+    "upper_limit_unit": "mg",
+    "upper_limit_scope": "total",
+    "source": {
+      "source_id": "S086",
+      "title": "Office of Dietary Supplements - Dietary Supplements and Life Stages: Pregnancy",
+      "url": "https://ods.od.nih.gov/factsheets/Pregnancy-HealthProfessional/"
+    },
+    "locator": "Tables 1–2",
+    "basis": "daily total intake reference unless UL scope says otherwise; not a prescribed supplement dose",
+    "clinical_review": false
+  },
+  {
+    "nutrient": "Fluoride",
+    "age": "19–50",
+    "life_stage": "pregnancy",
+    "unit": "mg",
+    "intake_type": "AI",
+    "intake": 3,
+    "upper_limit": 10,
+    "upper_limit_unit": "mg",
+    "upper_limit_scope": "total",
+    "source": {
+      "source_id": "S086",
+      "title": "Office of Dietary Supplements - Dietary Supplements and Life Stages: Pregnancy",
+      "url": "https://ods.od.nih.gov/factsheets/Pregnancy-HealthProfessional/"
+    },
+    "locator": "Tables 1–2",
+    "basis": "daily total intake reference unless UL scope says otherwise; not a prescribed supplement dose",
+    "clinical_review": false
+  },
+  {
+    "nutrient": "Folate",
+    "age": "14–18",
+    "life_stage": "pregnancy",
+    "unit": "mcg DFE",
+    "intake_type": "RDA",
+    "intake": 600,
+    "upper_limit": 800,
+    "upper_limit_unit": "mcg",
+    "upper_limit_scope": "supplemental folate only; UL unit mcg, not mcg DFE",
+    "source": {
+      "source_id": "S086",
+      "title": "Office of Dietary Supplements - Dietary Supplements and Life Stages: Pregnancy",
+      "url": "https://ods.od.nih.gov/factsheets/Pregnancy-HealthProfessional/"
+    },
+    "locator": "Tables 1–2",
+    "basis": "daily total intake reference unless UL scope says otherwise; not a prescribed supplement dose",
+    "clinical_review": false
+  },
+  {
+    "nutrient": "Folate",
+    "age": "19–50",
+    "life_stage": "pregnancy",
+    "unit": "mcg DFE",
+    "intake_type": "RDA",
+    "intake": 600,
+    "upper_limit": 1000,
+    "upper_limit_unit": "mcg",
+    "upper_limit_scope": "supplemental folate only; UL unit mcg, not mcg DFE",
+    "source": {
+      "source_id": "S086",
+      "title": "Office of Dietary Supplements - Dietary Supplements and Life Stages: Pregnancy",
+      "url": "https://ods.od.nih.gov/factsheets/Pregnancy-HealthProfessional/"
+    },
+    "locator": "Tables 1–2",
+    "basis": "daily total intake reference unless UL scope says otherwise; not a prescribed supplement dose",
+    "clinical_review": false
+  },
+  {
+    "nutrient": "Iodine",
+    "age": "14–18",
+    "life_stage": "pregnancy",
+    "unit": "mcg",
+    "intake_type": "RDA",
+    "intake": 220,
+    "upper_limit": 900,
+    "upper_limit_unit": "mcg",
+    "upper_limit_scope": "total",
+    "source": {
+      "source_id": "S086",
+      "title": "Office of Dietary Supplements - Dietary Supplements and Life Stages: Pregnancy",
+      "url": "https://ods.od.nih.gov/factsheets/Pregnancy-HealthProfessional/"
+    },
+    "locator": "Tables 1–2",
+    "basis": "daily total intake reference unless UL scope says otherwise; not a prescribed supplement dose",
+    "clinical_review": false
+  },
+  {
+    "nutrient": "Iodine",
+    "age": "19–50",
+    "life_stage": "pregnancy",
+    "unit": "mcg",
+    "intake_type": "RDA",
+    "intake": 220,
+    "upper_limit": 1100,
+    "upper_limit_unit": "mcg",
+    "upper_limit_scope": "total",
+    "source": {
+      "source_id": "S086",
+      "title": "Office of Dietary Supplements - Dietary Supplements and Life Stages: Pregnancy",
+      "url": "https://ods.od.nih.gov/factsheets/Pregnancy-HealthProfessional/"
+    },
+    "locator": "Tables 1–2",
+    "basis": "daily total intake reference unless UL scope says otherwise; not a prescribed supplement dose",
+    "clinical_review": false
+  },
+  {
+    "nutrient": "Iron",
+    "age": "14–18",
+    "life_stage": "pregnancy",
+    "unit": "mg",
+    "intake_type": "RDA",
+    "intake": 27,
+    "upper_limit": 45,
+    "upper_limit_unit": "mg",
+    "upper_limit_scope": "total",
+    "source": {
+      "source_id": "S086",
+      "title": "Office of Dietary Supplements - Dietary Supplements and Life Stages: Pregnancy",
+      "url": "https://ods.od.nih.gov/factsheets/Pregnancy-HealthProfessional/"
+    },
+    "locator": "Tables 1–2",
+    "basis": "daily total intake reference unless UL scope says otherwise; not a prescribed supplement dose",
+    "clinical_review": false
+  },
+  {
+    "nutrient": "Iron",
+    "age": "19–50",
+    "life_stage": "pregnancy",
+    "unit": "mg",
+    "intake_type": "RDA",
+    "intake": 27,
+    "upper_limit": 45,
+    "upper_limit_unit": "mg",
+    "upper_limit_scope": "total",
+    "source": {
+      "source_id": "S086",
+      "title": "Office of Dietary Supplements - Dietary Supplements and Life Stages: Pregnancy",
+      "url": "https://ods.od.nih.gov/factsheets/Pregnancy-HealthProfessional/"
+    },
+    "locator": "Tables 1–2",
+    "basis": "daily total intake reference unless UL scope says otherwise; not a prescribed supplement dose",
+    "clinical_review": false
+  },
+  {
+    "nutrient": "Magnesium",
+    "age": "14–18",
+    "life_stage": "pregnancy",
+    "unit": "mg",
+    "intake_type": "RDA",
+    "intake": 400,
+    "upper_limit": 350,
+    "upper_limit_unit": "mg",
+    "upper_limit_scope": "supplemental only; adults split age 19–30 350 and 31–50 360",
+    "source": {
+      "source_id": "S086",
+      "title": "Office of Dietary Supplements - Dietary Supplements and Life Stages: Pregnancy",
+      "url": "https://ods.od.nih.gov/factsheets/Pregnancy-HealthProfessional/"
+    },
+    "locator": "Tables 1–2",
+    "basis": "daily total intake reference unless UL scope says otherwise; not a prescribed supplement dose",
+    "clinical_review": false
+  },
+  {
+    "nutrient": "Magnesium",
+    "age": "19–30",
+    "life_stage": "pregnancy",
+    "unit": "mg",
+    "intake_type": "RDA",
+    "intake": 350,
+    "upper_limit": 350,
+    "upper_limit_unit": "mg",
+    "upper_limit_scope": "supplemental only",
+    "source": {
+      "source_id": "S086",
+      "title": "Office of Dietary Supplements - Dietary Supplements and Life Stages: Pregnancy",
+      "url": "https://ods.od.nih.gov/factsheets/Pregnancy-HealthProfessional/"
+    },
+    "locator": "Tables 1–2",
+    "basis": "daily total intake reference unless UL scope says otherwise; not a prescribed supplement dose",
+    "clinical_review": false
+  },
+  {
+    "nutrient": "Magnesium",
+    "age": "31–50",
+    "life_stage": "pregnancy",
+    "unit": "mg",
+    "intake_type": "RDA",
+    "intake": 360,
+    "upper_limit": 350,
+    "upper_limit_unit": "mg",
+    "upper_limit_scope": "supplemental only",
+    "source": {
+      "source_id": "S086",
+      "title": "Office of Dietary Supplements - Dietary Supplements and Life Stages: Pregnancy",
+      "url": "https://ods.od.nih.gov/factsheets/Pregnancy-HealthProfessional/"
+    },
+    "locator": "Tables 1–2",
+    "basis": "daily total intake reference unless UL scope says otherwise; not a prescribed supplement dose",
+    "clinical_review": false
+  },
+  {
+    "nutrient": "Manganese",
+    "age": "14–18",
+    "life_stage": "pregnancy",
+    "unit": "mg",
+    "intake_type": "AI",
+    "intake": 2,
+    "upper_limit": 9,
+    "upper_limit_unit": "mg",
+    "upper_limit_scope": "total",
+    "source": {
+      "source_id": "S086",
+      "title": "Office of Dietary Supplements - Dietary Supplements and Life Stages: Pregnancy",
+      "url": "https://ods.od.nih.gov/factsheets/Pregnancy-HealthProfessional/"
+    },
+    "locator": "Tables 1–2",
+    "basis": "daily total intake reference unless UL scope says otherwise; not a prescribed supplement dose",
+    "clinical_review": false
+  },
+  {
+    "nutrient": "Manganese",
+    "age": "19–50",
+    "life_stage": "pregnancy",
+    "unit": "mg",
+    "intake_type": "AI",
+    "intake": 2,
+    "upper_limit": 11,
+    "upper_limit_unit": "mg",
+    "upper_limit_scope": "total",
+    "source": {
+      "source_id": "S086",
+      "title": "Office of Dietary Supplements - Dietary Supplements and Life Stages: Pregnancy",
+      "url": "https://ods.od.nih.gov/factsheets/Pregnancy-HealthProfessional/"
+    },
+    "locator": "Tables 1–2",
+    "basis": "daily total intake reference unless UL scope says otherwise; not a prescribed supplement dose",
+    "clinical_review": false
+  },
+  {
+    "nutrient": "Molybdenum",
+    "age": "14–18",
+    "life_stage": "pregnancy",
+    "unit": "mcg",
+    "intake_type": "RDA",
+    "intake": 50,
+    "upper_limit": 1700,
+    "upper_limit_unit": "mcg",
+    "upper_limit_scope": "total",
+    "source": {
+      "source_id": "S086",
+      "title": "Office of Dietary Supplements - Dietary Supplements and Life Stages: Pregnancy",
+      "url": "https://ods.od.nih.gov/factsheets/Pregnancy-HealthProfessional/"
+    },
+    "locator": "Tables 1–2",
+    "basis": "daily total intake reference unless UL scope says otherwise; not a prescribed supplement dose",
+    "clinical_review": false
+  },
+  {
+    "nutrient": "Molybdenum",
+    "age": "19–50",
+    "life_stage": "pregnancy",
+    "unit": "mcg",
+    "intake_type": "RDA",
+    "intake": 50,
+    "upper_limit": 2000,
+    "upper_limit_unit": "mcg",
+    "upper_limit_scope": "total",
+    "source": {
+      "source_id": "S086",
+      "title": "Office of Dietary Supplements - Dietary Supplements and Life Stages: Pregnancy",
+      "url": "https://ods.od.nih.gov/factsheets/Pregnancy-HealthProfessional/"
+    },
+    "locator": "Tables 1–2",
+    "basis": "daily total intake reference unless UL scope says otherwise; not a prescribed supplement dose",
+    "clinical_review": false
+  },
+  {
+    "nutrient": "Niacin",
+    "age": "14–18",
+    "life_stage": "pregnancy",
+    "unit": "mg NE",
+    "intake_type": "RDA",
+    "intake": 18,
+    "upper_limit": 30,
+    "upper_limit_unit": "mg",
+    "upper_limit_scope": "supplemental only; UL unit mg",
+    "source": {
+      "source_id": "S086",
+      "title": "Office of Dietary Supplements - Dietary Supplements and Life Stages: Pregnancy",
+      "url": "https://ods.od.nih.gov/factsheets/Pregnancy-HealthProfessional/"
+    },
+    "locator": "Tables 1–2",
+    "basis": "daily total intake reference unless UL scope says otherwise; not a prescribed supplement dose",
+    "clinical_review": false
+  },
+  {
+    "nutrient": "Niacin",
+    "age": "19–50",
+    "life_stage": "pregnancy",
+    "unit": "mg NE",
+    "intake_type": "RDA",
+    "intake": 18,
+    "upper_limit": 35,
+    "upper_limit_unit": "mg",
+    "upper_limit_scope": "supplemental only; UL unit mg",
+    "source": {
+      "source_id": "S086",
+      "title": "Office of Dietary Supplements - Dietary Supplements and Life Stages: Pregnancy",
+      "url": "https://ods.od.nih.gov/factsheets/Pregnancy-HealthProfessional/"
+    },
+    "locator": "Tables 1–2",
+    "basis": "daily total intake reference unless UL scope says otherwise; not a prescribed supplement dose",
+    "clinical_review": false
+  },
+  {
+    "nutrient": "Omega-3 ALA",
+    "age": "14–18",
+    "life_stage": "pregnancy",
+    "unit": "g",
+    "intake_type": "AI",
+    "intake": 1.4,
+    "upper_limit": null,
+    "upper_limit_unit": "g",
+    "upper_limit_scope": "UL not applicable; not DHA/EPA",
+    "source": {
+      "source_id": "S086",
+      "title": "Office of Dietary Supplements - Dietary Supplements and Life Stages: Pregnancy",
+      "url": "https://ods.od.nih.gov/factsheets/Pregnancy-HealthProfessional/"
+    },
+    "locator": "Tables 1–2",
+    "basis": "daily total intake reference unless UL scope says otherwise; not a prescribed supplement dose",
+    "clinical_review": false
+  },
+  {
+    "nutrient": "Omega-3 ALA",
+    "age": "19–50",
+    "life_stage": "pregnancy",
+    "unit": "g",
+    "intake_type": "AI",
+    "intake": 1.4,
+    "upper_limit": null,
+    "upper_limit_unit": "g",
+    "upper_limit_scope": "UL not applicable; not DHA/EPA",
+    "source": {
+      "source_id": "S086",
+      "title": "Office of Dietary Supplements - Dietary Supplements and Life Stages: Pregnancy",
+      "url": "https://ods.od.nih.gov/factsheets/Pregnancy-HealthProfessional/"
+    },
+    "locator": "Tables 1–2",
+    "basis": "daily total intake reference unless UL scope says otherwise; not a prescribed supplement dose",
+    "clinical_review": false
+  },
+  {
+    "nutrient": "Pantothenic acid",
+    "age": "14–18",
+    "life_stage": "pregnancy",
+    "unit": "mg",
+    "intake_type": "AI",
+    "intake": 6,
+    "upper_limit": null,
+    "upper_limit_unit": "mg",
+    "upper_limit_scope": "not determinable",
+    "source": {
+      "source_id": "S086",
+      "title": "Office of Dietary Supplements - Dietary Supplements and Life Stages: Pregnancy",
+      "url": "https://ods.od.nih.gov/factsheets/Pregnancy-HealthProfessional/"
+    },
+    "locator": "Tables 1–2",
+    "basis": "daily total intake reference unless UL scope says otherwise; not a prescribed supplement dose",
+    "clinical_review": false
+  },
+  {
+    "nutrient": "Pantothenic acid",
+    "age": "19–50",
+    "life_stage": "pregnancy",
+    "unit": "mg",
+    "intake_type": "AI",
+    "intake": 6,
+    "upper_limit": null,
+    "upper_limit_unit": "mg",
+    "upper_limit_scope": "not determinable",
+    "source": {
+      "source_id": "S086",
+      "title": "Office of Dietary Supplements - Dietary Supplements and Life Stages: Pregnancy",
+      "url": "https://ods.od.nih.gov/factsheets/Pregnancy-HealthProfessional/"
+    },
+    "locator": "Tables 1–2",
+    "basis": "daily total intake reference unless UL scope says otherwise; not a prescribed supplement dose",
+    "clinical_review": false
+  },
+  {
+    "nutrient": "Phosphorus",
+    "age": "14–18",
+    "life_stage": "pregnancy",
+    "unit": "mg",
+    "intake_type": "RDA",
+    "intake": 1250,
+    "upper_limit": 3500,
+    "upper_limit_unit": "mg",
+    "upper_limit_scope": "total",
+    "source": {
+      "source_id": "S086",
+      "title": "Office of Dietary Supplements - Dietary Supplements and Life Stages: Pregnancy",
+      "url": "https://ods.od.nih.gov/factsheets/Pregnancy-HealthProfessional/"
+    },
+    "locator": "Tables 1–2",
+    "basis": "daily total intake reference unless UL scope says otherwise; not a prescribed supplement dose",
+    "clinical_review": false
+  },
+  {
+    "nutrient": "Phosphorus",
+    "age": "19–50",
+    "life_stage": "pregnancy",
+    "unit": "mg",
+    "intake_type": "RDA",
+    "intake": 700,
+    "upper_limit": 3500,
+    "upper_limit_unit": "mg",
+    "upper_limit_scope": "total",
+    "source": {
+      "source_id": "S086",
+      "title": "Office of Dietary Supplements - Dietary Supplements and Life Stages: Pregnancy",
+      "url": "https://ods.od.nih.gov/factsheets/Pregnancy-HealthProfessional/"
+    },
+    "locator": "Tables 1–2",
+    "basis": "daily total intake reference unless UL scope says otherwise; not a prescribed supplement dose",
+    "clinical_review": false
+  },
+  {
+    "nutrient": "Potassium",
+    "age": "14–18",
+    "life_stage": "pregnancy",
+    "unit": "mg",
+    "intake_type": "AI",
+    "intake": 2600,
+    "upper_limit": null,
+    "upper_limit_unit": "mg",
+    "upper_limit_scope": "not determinable",
+    "source": {
+      "source_id": "S086",
+      "title": "Office of Dietary Supplements - Dietary Supplements and Life Stages: Pregnancy",
+      "url": "https://ods.od.nih.gov/factsheets/Pregnancy-HealthProfessional/"
+    },
+    "locator": "Tables 1–2",
+    "basis": "daily total intake reference unless UL scope says otherwise; not a prescribed supplement dose",
+    "clinical_review": false
+  },
+  {
+    "nutrient": "Potassium",
+    "age": "19–50",
+    "life_stage": "pregnancy",
+    "unit": "mg",
+    "intake_type": "AI",
+    "intake": 2900,
+    "upper_limit": null,
+    "upper_limit_unit": "mg",
+    "upper_limit_scope": "not determinable",
+    "source": {
+      "source_id": "S086",
+      "title": "Office of Dietary Supplements - Dietary Supplements and Life Stages: Pregnancy",
+      "url": "https://ods.od.nih.gov/factsheets/Pregnancy-HealthProfessional/"
+    },
+    "locator": "Tables 1–2",
+    "basis": "daily total intake reference unless UL scope says otherwise; not a prescribed supplement dose",
+    "clinical_review": false
+  },
+  {
+    "nutrient": "Riboflavin",
+    "age": "14–18",
+    "life_stage": "pregnancy",
+    "unit": "mg",
+    "intake_type": "RDA",
+    "intake": 1.4,
+    "upper_limit": null,
+    "upper_limit_unit": "mg",
+    "upper_limit_scope": "not determinable",
+    "source": {
+      "source_id": "S086",
+      "title": "Office of Dietary Supplements - Dietary Supplements and Life Stages: Pregnancy",
+      "url": "https://ods.od.nih.gov/factsheets/Pregnancy-HealthProfessional/"
+    },
+    "locator": "Tables 1–2",
+    "basis": "daily total intake reference unless UL scope says otherwise; not a prescribed supplement dose",
+    "clinical_review": false
+  },
+  {
+    "nutrient": "Riboflavin",
+    "age": "19–50",
+    "life_stage": "pregnancy",
+    "unit": "mg",
+    "intake_type": "RDA",
+    "intake": 1.4,
+    "upper_limit": null,
+    "upper_limit_unit": "mg",
+    "upper_limit_scope": "not determinable",
+    "source": {
+      "source_id": "S086",
+      "title": "Office of Dietary Supplements - Dietary Supplements and Life Stages: Pregnancy",
+      "url": "https://ods.od.nih.gov/factsheets/Pregnancy-HealthProfessional/"
+    },
+    "locator": "Tables 1–2",
+    "basis": "daily total intake reference unless UL scope says otherwise; not a prescribed supplement dose",
+    "clinical_review": false
+  },
+  {
+    "nutrient": "Selenium",
+    "age": "14–18",
+    "life_stage": "pregnancy",
+    "unit": "mcg",
+    "intake_type": "RDA",
+    "intake": 60,
+    "upper_limit": 400,
+    "upper_limit_unit": "mcg",
+    "upper_limit_scope": "total",
+    "source": {
+      "source_id": "S086",
+      "title": "Office of Dietary Supplements - Dietary Supplements and Life Stages: Pregnancy",
+      "url": "https://ods.od.nih.gov/factsheets/Pregnancy-HealthProfessional/"
+    },
+    "locator": "Tables 1–2",
+    "basis": "daily total intake reference unless UL scope says otherwise; not a prescribed supplement dose",
+    "clinical_review": false
+  },
+  {
+    "nutrient": "Selenium",
+    "age": "19–50",
+    "life_stage": "pregnancy",
+    "unit": "mcg",
+    "intake_type": "RDA",
+    "intake": 60,
+    "upper_limit": 400,
+    "upper_limit_unit": "mcg",
+    "upper_limit_scope": "total",
+    "source": {
+      "source_id": "S086",
+      "title": "Office of Dietary Supplements - Dietary Supplements and Life Stages: Pregnancy",
+      "url": "https://ods.od.nih.gov/factsheets/Pregnancy-HealthProfessional/"
+    },
+    "locator": "Tables 1–2",
+    "basis": "daily total intake reference unless UL scope says otherwise; not a prescribed supplement dose",
+    "clinical_review": false
+  },
+  {
+    "nutrient": "Sodium",
+    "age": "14–18",
+    "life_stage": "pregnancy",
+    "unit": "mg",
+    "intake_type": "AI",
+    "intake": 1500,
+    "upper_limit": null,
+    "upper_limit_unit": "mg",
+    "upper_limit_scope": "UL not determinable; not a treatment target",
+    "source": {
+      "source_id": "S086",
+      "title": "Office of Dietary Supplements - Dietary Supplements and Life Stages: Pregnancy",
+      "url": "https://ods.od.nih.gov/factsheets/Pregnancy-HealthProfessional/"
+    },
+    "locator": "Tables 1–2",
+    "basis": "daily total intake reference unless UL scope says otherwise; not a prescribed supplement dose",
+    "clinical_review": false
+  },
+  {
+    "nutrient": "Sodium",
+    "age": "19–50",
+    "life_stage": "pregnancy",
+    "unit": "mg",
+    "intake_type": "AI",
+    "intake": 1500,
+    "upper_limit": null,
+    "upper_limit_unit": "mg",
+    "upper_limit_scope": "UL not determinable; not a treatment target",
+    "source": {
+      "source_id": "S086",
+      "title": "Office of Dietary Supplements - Dietary Supplements and Life Stages: Pregnancy",
+      "url": "https://ods.od.nih.gov/factsheets/Pregnancy-HealthProfessional/"
+    },
+    "locator": "Tables 1–2",
+    "basis": "daily total intake reference unless UL scope says otherwise; not a prescribed supplement dose",
+    "clinical_review": false
+  },
+  {
+    "nutrient": "Thiamin",
+    "age": "14–18",
+    "life_stage": "pregnancy",
+    "unit": "mg",
+    "intake_type": "RDA",
+    "intake": 1.4,
+    "upper_limit": null,
+    "upper_limit_unit": "mg",
+    "upper_limit_scope": "not determinable",
+    "source": {
+      "source_id": "S086",
+      "title": "Office of Dietary Supplements - Dietary Supplements and Life Stages: Pregnancy",
+      "url": "https://ods.od.nih.gov/factsheets/Pregnancy-HealthProfessional/"
+    },
+    "locator": "Tables 1–2",
+    "basis": "daily total intake reference unless UL scope says otherwise; not a prescribed supplement dose",
+    "clinical_review": false
+  },
+  {
+    "nutrient": "Thiamin",
+    "age": "19–50",
+    "life_stage": "pregnancy",
+    "unit": "mg",
+    "intake_type": "RDA",
+    "intake": 1.4,
+    "upper_limit": null,
+    "upper_limit_unit": "mg",
+    "upper_limit_scope": "not determinable",
+    "source": {
+      "source_id": "S086",
+      "title": "Office of Dietary Supplements - Dietary Supplements and Life Stages: Pregnancy",
+      "url": "https://ods.od.nih.gov/factsheets/Pregnancy-HealthProfessional/"
+    },
+    "locator": "Tables 1–2",
+    "basis": "daily total intake reference unless UL scope says otherwise; not a prescribed supplement dose",
+    "clinical_review": false
+  },
+  {
+    "nutrient": "Vitamin A",
+    "age": "14–18",
+    "life_stage": "pregnancy",
+    "unit": "mcg RAE",
+    "intake_type": "RDA",
+    "intake": 750,
+    "upper_limit": 2800,
+    "upper_limit_unit": "mcg",
+    "upper_limit_scope": "preformed vitamin A only; UL unit mcg",
+    "source": {
+      "source_id": "S086",
+      "title": "Office of Dietary Supplements - Dietary Supplements and Life Stages: Pregnancy",
+      "url": "https://ods.od.nih.gov/factsheets/Pregnancy-HealthProfessional/"
+    },
+    "locator": "Tables 1–2",
+    "basis": "daily total intake reference unless UL scope says otherwise; not a prescribed supplement dose",
+    "clinical_review": false
+  },
+  {
+    "nutrient": "Vitamin A",
+    "age": "19–50",
+    "life_stage": "pregnancy",
+    "unit": "mcg RAE",
+    "intake_type": "RDA",
+    "intake": 770,
+    "upper_limit": 3000,
+    "upper_limit_unit": "mcg",
+    "upper_limit_scope": "preformed vitamin A only; UL unit mcg",
+    "source": {
+      "source_id": "S086",
+      "title": "Office of Dietary Supplements - Dietary Supplements and Life Stages: Pregnancy",
+      "url": "https://ods.od.nih.gov/factsheets/Pregnancy-HealthProfessional/"
+    },
+    "locator": "Tables 1–2",
+    "basis": "daily total intake reference unless UL scope says otherwise; not a prescribed supplement dose",
+    "clinical_review": false
+  },
+  {
+    "nutrient": "Vitamin B12",
+    "age": "14–18",
+    "life_stage": "pregnancy",
+    "unit": "mcg",
+    "intake_type": "RDA",
+    "intake": 2.6,
+    "upper_limit": null,
+    "upper_limit_unit": "mcg",
+    "upper_limit_scope": "not determinable",
+    "source": {
+      "source_id": "S086",
+      "title": "Office of Dietary Supplements - Dietary Supplements and Life Stages: Pregnancy",
+      "url": "https://ods.od.nih.gov/factsheets/Pregnancy-HealthProfessional/"
+    },
+    "locator": "Tables 1–2",
+    "basis": "daily total intake reference unless UL scope says otherwise; not a prescribed supplement dose",
+    "clinical_review": false
+  },
+  {
+    "nutrient": "Vitamin B12",
+    "age": "19–50",
+    "life_stage": "pregnancy",
+    "unit": "mcg",
+    "intake_type": "RDA",
+    "intake": 2.6,
+    "upper_limit": null,
+    "upper_limit_unit": "mcg",
+    "upper_limit_scope": "not determinable",
+    "source": {
+      "source_id": "S086",
+      "title": "Office of Dietary Supplements - Dietary Supplements and Life Stages: Pregnancy",
+      "url": "https://ods.od.nih.gov/factsheets/Pregnancy-HealthProfessional/"
+    },
+    "locator": "Tables 1–2",
+    "basis": "daily total intake reference unless UL scope says otherwise; not a prescribed supplement dose",
+    "clinical_review": false
+  },
+  {
+    "nutrient": "Vitamin B6",
+    "age": "14–18",
+    "life_stage": "pregnancy",
+    "unit": "mg",
+    "intake_type": "RDA",
+    "intake": 1.9,
+    "upper_limit": 80,
+    "upper_limit_unit": "mg",
+    "upper_limit_scope": "total",
+    "source": {
+      "source_id": "S086",
+      "title": "Office of Dietary Supplements - Dietary Supplements and Life Stages: Pregnancy",
+      "url": "https://ods.od.nih.gov/factsheets/Pregnancy-HealthProfessional/"
+    },
+    "locator": "Tables 1–2",
+    "basis": "daily total intake reference unless UL scope says otherwise; not a prescribed supplement dose",
+    "clinical_review": false
+  },
+  {
+    "nutrient": "Vitamin B6",
+    "age": "19–50",
+    "life_stage": "pregnancy",
+    "unit": "mg",
+    "intake_type": "RDA",
+    "intake": 1.9,
+    "upper_limit": 100,
+    "upper_limit_unit": "mg",
+    "upper_limit_scope": "total",
+    "source": {
+      "source_id": "S086",
+      "title": "Office of Dietary Supplements - Dietary Supplements and Life Stages: Pregnancy",
+      "url": "https://ods.od.nih.gov/factsheets/Pregnancy-HealthProfessional/"
+    },
+    "locator": "Tables 1–2",
+    "basis": "daily total intake reference unless UL scope says otherwise; not a prescribed supplement dose",
+    "clinical_review": false
+  },
+  {
+    "nutrient": "Vitamin C",
+    "age": "14–18",
+    "life_stage": "pregnancy",
+    "unit": "mg",
+    "intake_type": "RDA",
+    "intake": 80,
+    "upper_limit": 1800,
+    "upper_limit_unit": "mg",
+    "upper_limit_scope": "total",
+    "source": {
+      "source_id": "S086",
+      "title": "Office of Dietary Supplements - Dietary Supplements and Life Stages: Pregnancy",
+      "url": "https://ods.od.nih.gov/factsheets/Pregnancy-HealthProfessional/"
+    },
+    "locator": "Tables 1–2",
+    "basis": "daily total intake reference unless UL scope says otherwise; not a prescribed supplement dose",
+    "clinical_review": false
+  },
+  {
+    "nutrient": "Vitamin C",
+    "age": "19–50",
+    "life_stage": "pregnancy",
+    "unit": "mg",
+    "intake_type": "RDA",
+    "intake": 85,
+    "upper_limit": 2000,
+    "upper_limit_unit": "mg",
+    "upper_limit_scope": "total",
+    "source": {
+      "source_id": "S086",
+      "title": "Office of Dietary Supplements - Dietary Supplements and Life Stages: Pregnancy",
+      "url": "https://ods.od.nih.gov/factsheets/Pregnancy-HealthProfessional/"
+    },
+    "locator": "Tables 1–2",
+    "basis": "daily total intake reference unless UL scope says otherwise; not a prescribed supplement dose",
+    "clinical_review": false
+  },
+  {
+    "nutrient": "Vitamin D",
+    "age": "14–18",
+    "life_stage": "pregnancy",
+    "unit": "mcg",
+    "intake_type": "RDA",
+    "intake": 15,
+    "upper_limit": 100,
+    "upper_limit_unit": "mcg",
+    "upper_limit_scope": "total",
+    "source": {
+      "source_id": "S086",
+      "title": "Office of Dietary Supplements - Dietary Supplements and Life Stages: Pregnancy",
+      "url": "https://ods.od.nih.gov/factsheets/Pregnancy-HealthProfessional/"
+    },
+    "locator": "Tables 1–2",
+    "basis": "daily total intake reference unless UL scope says otherwise; not a prescribed supplement dose",
+    "clinical_review": false
+  },
+  {
+    "nutrient": "Vitamin D",
+    "age": "19–50",
+    "life_stage": "pregnancy",
+    "unit": "mcg",
+    "intake_type": "RDA",
+    "intake": 15,
+    "upper_limit": 100,
+    "upper_limit_unit": "mcg",
+    "upper_limit_scope": "total",
+    "source": {
+      "source_id": "S086",
+      "title": "Office of Dietary Supplements - Dietary Supplements and Life Stages: Pregnancy",
+      "url": "https://ods.od.nih.gov/factsheets/Pregnancy-HealthProfessional/"
+    },
+    "locator": "Tables 1–2",
+    "basis": "daily total intake reference unless UL scope says otherwise; not a prescribed supplement dose",
+    "clinical_review": false
+  },
+  {
+    "nutrient": "Vitamin E",
+    "age": "14–18",
+    "life_stage": "pregnancy",
+    "unit": "mg alpha-tocopherol",
+    "intake_type": "RDA",
+    "intake": 15,
+    "upper_limit": 800,
+    "upper_limit_unit": "mg alpha-tocopherol",
+    "upper_limit_scope": "supplemental only",
+    "source": {
+      "source_id": "S086",
+      "title": "Office of Dietary Supplements - Dietary Supplements and Life Stages: Pregnancy",
+      "url": "https://ods.od.nih.gov/factsheets/Pregnancy-HealthProfessional/"
+    },
+    "locator": "Tables 1–2",
+    "basis": "daily total intake reference unless UL scope says otherwise; not a prescribed supplement dose",
+    "clinical_review": false
+  },
+  {
+    "nutrient": "Vitamin E",
+    "age": "19–50",
+    "life_stage": "pregnancy",
+    "unit": "mg alpha-tocopherol",
+    "intake_type": "RDA",
+    "intake": 15,
+    "upper_limit": 1000,
+    "upper_limit_unit": "mg alpha-tocopherol",
+    "upper_limit_scope": "supplemental only",
+    "source": {
+      "source_id": "S086",
+      "title": "Office of Dietary Supplements - Dietary Supplements and Life Stages: Pregnancy",
+      "url": "https://ods.od.nih.gov/factsheets/Pregnancy-HealthProfessional/"
+    },
+    "locator": "Tables 1–2",
+    "basis": "daily total intake reference unless UL scope says otherwise; not a prescribed supplement dose",
+    "clinical_review": false
+  },
+  {
+    "nutrient": "Vitamin K",
+    "age": "14–18",
+    "life_stage": "pregnancy",
+    "unit": "mcg",
+    "intake_type": "AI",
+    "intake": 75,
+    "upper_limit": null,
+    "upper_limit_unit": "mcg",
+    "upper_limit_scope": "not determinable",
+    "source": {
+      "source_id": "S086",
+      "title": "Office of Dietary Supplements - Dietary Supplements and Life Stages: Pregnancy",
+      "url": "https://ods.od.nih.gov/factsheets/Pregnancy-HealthProfessional/"
+    },
+    "locator": "Tables 1–2",
+    "basis": "daily total intake reference unless UL scope says otherwise; not a prescribed supplement dose",
+    "clinical_review": false
+  },
+  {
+    "nutrient": "Vitamin K",
+    "age": "19–50",
+    "life_stage": "pregnancy",
+    "unit": "mcg",
+    "intake_type": "AI",
+    "intake": 90,
+    "upper_limit": null,
+    "upper_limit_unit": "mcg",
+    "upper_limit_scope": "not determinable",
+    "source": {
+      "source_id": "S086",
+      "title": "Office of Dietary Supplements - Dietary Supplements and Life Stages: Pregnancy",
+      "url": "https://ods.od.nih.gov/factsheets/Pregnancy-HealthProfessional/"
+    },
+    "locator": "Tables 1–2",
+    "basis": "daily total intake reference unless UL scope says otherwise; not a prescribed supplement dose",
+    "clinical_review": false
+  },
+  {
+    "nutrient": "Zinc",
+    "age": "14–18",
+    "life_stage": "pregnancy",
+    "unit": "mg",
+    "intake_type": "RDA",
+    "intake": 12,
+    "upper_limit": 34,
+    "upper_limit_unit": "mg",
+    "upper_limit_scope": "total",
+    "source": {
+      "source_id": "S086",
+      "title": "Office of Dietary Supplements - Dietary Supplements and Life Stages: Pregnancy",
+      "url": "https://ods.od.nih.gov/factsheets/Pregnancy-HealthProfessional/"
+    },
+    "locator": "Tables 1–2",
+    "basis": "daily total intake reference unless UL scope says otherwise; not a prescribed supplement dose",
+    "clinical_review": false
+  },
+  {
+    "nutrient": "Zinc",
+    "age": "19–50",
+    "life_stage": "pregnancy",
+    "unit": "mg",
+    "intake_type": "RDA",
+    "intake": 11,
+    "upper_limit": 40,
+    "upper_limit_unit": "mg",
+    "upper_limit_scope": "total",
+    "source": {
+      "source_id": "S086",
+      "title": "Office of Dietary Supplements - Dietary Supplements and Life Stages: Pregnancy",
+      "url": "https://ods.od.nih.gov/factsheets/Pregnancy-HealthProfessional/"
+    },
+    "locator": "Tables 1–2",
+    "basis": "daily total intake reference unless UL scope says otherwise; not a prescribed supplement dose",
+    "clinical_review": false
+  },
+  {
+    "nutrient": "Boron",
+    "age": "14–18",
+    "life_stage": "pregnancy",
+    "unit": "mg",
+    "intake_type": null,
+    "intake": null,
+    "upper_limit": 17,
+    "upper_limit_unit": "mg",
+    "upper_limit_scope": "total; no RDA/AI",
+    "source": {
+      "source_id": "S086",
+      "title": "Office of Dietary Supplements - Dietary Supplements and Life Stages: Pregnancy",
+      "url": "https://ods.od.nih.gov/factsheets/Pregnancy-HealthProfessional/"
+    },
+    "locator": "Tables 1–2",
+    "basis": "daily total intake reference unless UL scope says otherwise; not a prescribed supplement dose",
+    "clinical_review": false
+  },
+  {
+    "nutrient": "Boron",
+    "age": "19–50",
+    "life_stage": "pregnancy",
+    "unit": "mg",
+    "intake_type": null,
+    "intake": null,
+    "upper_limit": 20,
+    "upper_limit_unit": "mg",
+    "upper_limit_scope": "total; no RDA/AI",
+    "source": {
+      "source_id": "S086",
+      "title": "Office of Dietary Supplements - Dietary Supplements and Life Stages: Pregnancy",
+      "url": "https://ods.od.nih.gov/factsheets/Pregnancy-HealthProfessional/"
+    },
+    "locator": "Tables 1–2",
+    "basis": "daily total intake reference unless UL scope says otherwise; not a prescribed supplement dose",
+    "clinical_review": false
+  },
+  {
+    "nutrient": "Iodine",
+    "age": "adult reference; special cases individual",
+    "life_stage": "lactation",
+    "unit": "mcg",
+    "intake": 290,
+    "intake_type": "RDA",
+    "upper_limit": null,
+    "source": {
+      "source_id": "S215",
+      "title": "Maternal Diet and Breastfeeding | Breastfeeding special circumstances | CDC",
+      "url": "https://www.cdc.gov/breastfeeding-special-circumstances/hcp/diet-micronutrients/maternal-diet.html"
+    },
+    "locator": "Iodine and choline section",
+    "basis": "daily total intake reference unless UL scope says otherwise; not a prescribed supplement dose",
+    "clinical_review": false
+  },
+  {
+    "nutrient": "Choline",
+    "age": "adult reference; special cases individual",
+    "life_stage": "lactation",
+    "unit": "mg",
+    "intake": 550,
+    "intake_type": "AI",
+    "upper_limit": null,
+    "source": {
+      "source_id": "S215",
+      "title": "Maternal Diet and Breastfeeding | Breastfeeding special circumstances | CDC",
+      "url": "https://www.cdc.gov/breastfeeding-special-circumstances/hcp/diet-micronutrients/maternal-diet.html"
+    },
+    "locator": "Iodine and choline section",
+    "basis": "daily total intake reference unless UL scope says otherwise; not a prescribed supplement dose",
+    "clinical_review": false
+  }
+]

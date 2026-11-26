@@ -40,3 +40,6 @@ Start at [integrated research](integrated/README.md), [source directory](integra
 
 ## Routine content preparation
 See [routine-prep](routine-prep/README.md) for derived content and review queues.
+
+## High-effort audit
+[High audit](high-audit/README.md), [evidence report](high-audit/EVIDENCE_REPORT.md), [source directory](high-audit/SOURCE_DIRECTORY.md).

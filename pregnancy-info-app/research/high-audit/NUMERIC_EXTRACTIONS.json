@@ -1,0 +1,138 @@
+[
+  {
+    "id": "HA-N01",
+    "source": {
+      "source_id": "H010",
+      "title": "Stephens et al. protein requirements in early and late gestation",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/25527661/"
+    },
+    "outcome": "Early gestation protein EAR",
+    "measure": "g/kg/day",
+    "estimate": 1.22,
+    "lower": 0.79,
+    "upper": 1.66,
+    "confidence_level": 95,
+    "n": 17,
+    "note": "metabolic estimate; not intervention effect",
+    "publish_status": "research draft; not imported into main charts"
+  },
+  {
+    "id": "HA-N02",
+    "source": {
+      "source_id": "H010",
+      "title": "Stephens et al. protein requirements in early and late gestation",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/25527661/"
+    },
+    "outcome": "Late gestation protein EAR",
+    "measure": "g/kg/day",
+    "estimate": 1.52,
+    "lower": 1.28,
+    "upper": 1.77,
+    "confidence_level": 95,
+    "n": 19,
+    "note": "metabolic estimate; not intervention effect",
+    "publish_status": "research draft; not imported into main charts"
+  },
+  {
+    "id": "HA-N03",
+    "source": {
+      "source_id": "H009",
+      "title": "Calcium supplementation and prevention of pregnancy induced hypertension",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/8987323/"
+    },
+    "outcome": "Preeclampsia, primary abstract RR",
+    "measure": "RR",
+    "estimate": 0.13,
+    "lower": 0.01,
+    "upper": 0.64,
+    "confidence_level": 95,
+    "n": null,
+    "note": "differs from critique secondary extraction; do not substitute without full-text reconciliation",
+    "publish_status": "research draft; not imported into main charts"
+  },
+  {
+    "id": "HA-N04",
+    "source": {
+      "source_id": "S034",
+      "title": "Hypopressive exercises for diastasis recti and pelvic floor symptoms in postpartum women: A randomized trial",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC12961203/"
+    },
+    "outcome": "Prone bridge function, between-group difference",
+    "measure": "s",
+    "estimate": 34,
+    "lower": 13,
+    "upper": 55,
+    "confidence_level": 95,
+    "n": null,
+    "note": "full timepoint and sample not extracted; no pooling",
+    "publish_status": "research draft; not imported into main charts"
+  },
+  {
+    "id": "HA-N05",
+    "source": {
+      "source_id": "S034",
+      "title": "Hypopressive exercises for diastasis recti and pelvic floor symptoms in postpartum women: A randomized trial",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC12961203/"
+    },
+    "outcome": "Right side bridge difference",
+    "measure": "s",
+    "estimate": 12,
+    "lower": 3,
+    "upper": 21,
+    "confidence_level": 95,
+    "n": null,
+    "note": "same trial; separate outcome",
+    "publish_status": "research draft; not imported into main charts"
+  },
+  {
+    "id": "HA-N06",
+    "source": {
+      "source_id": "S034",
+      "title": "Hypopressive exercises for diastasis recti and pelvic floor symptoms in postpartum women: A randomized trial",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC12961203/"
+    },
+    "outcome": "Left side bridge difference",
+    "measure": "s",
+    "estimate": 16,
+    "lower": 7,
+    "upper": 25,
+    "confidence_level": 95,
+    "n": null,
+    "note": "same trial; separate outcome",
+    "publish_status": "research draft; not imported into main charts"
+  },
+  {
+    "id": "HA-N07",
+    "source": {
+      "source_id": "H027",
+      "title": "Calcium supplementation other than hypertension prevention: pregnancy and infant outcomes",
+      "url": "https://doi.org/10.1002/14651858.CD007079.pub4"
+    },
+    "outcome": "Preterm birth <37 weeks",
+    "measure": "RR",
+    "estimate": 0.8,
+    "lower": 0.65,
+    "upper": 0.99,
+    "confidence_level": 95,
+    "n": 15379,
+    "note": "11 trials; separate review question",
+    "publish_status": "research draft; not imported into main charts"
+  },
+  {
+    "id": "HA-N08",
+    "source": {
+      "source_id": "H027",
+      "title": "Calcium supplementation other than hypertension prevention: pregnancy and infant outcomes",
+      "url": "https://doi.org/10.1002/14651858.CD007079.pub4"
+    },
+    "outcome": "Preterm birth <34 weeks",
+    "measure": "RR",
+    "estimate": 1.03,
+    "lower": 0.79,
+    "upper": 1.35,
+    "confidence_level": 95,
+    "n": 5569,
+    "note": "3 trials; overlapping review possible",
+    "publish_status": "research draft; not imported into main charts"
+  }
+]

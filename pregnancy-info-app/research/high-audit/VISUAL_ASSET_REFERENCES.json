@@ -1,0 +1,34 @@
+[
+  {
+    "id": "VA-01",
+    "title": "Pregnancy and birth anatomy",
+    "source": {
+      "source_id": "H025",
+      "title": "OpenStax changes during pregnancy, labor and birth",
+      "url": "https://openstax.org/books/anatomy-and-physiology-2e/pages/28-4-changes-during-pregnancy-labor-and-birth"
+    },
+    "license": "book-level CC BY-NC-SA 4.0 per preface; verify individual figure credit",
+    "license_source": {
+      "source_id": "H024",
+      "title": "OpenStax Anatomy and Physiology 2e preface and licensing",
+      "url": "https://openstax.org/books/anatomy-and-physiology-2e/pages/preface"
+    },
+    "status": "reference candidate; not downloaded; noncommercial only subject to terms"
+  },
+  {
+    "id": "VA-02",
+    "title": "Lactation anatomy",
+    "source": {
+      "source_id": "H026",
+      "title": "OpenStax lactation",
+      "url": "https://openstax.org/books/anatomy-and-physiology-2e/pages/28-6-lactation"
+    },
+    "license": "book-level CC BY-NC-SA 4.0 per preface; verify individual figure credit",
+    "license_source": {
+      "source_id": "H024",
+      "title": "OpenStax Anatomy and Physiology 2e preface and licensing",
+      "url": "https://openstax.org/books/anatomy-and-physiology-2e/pages/preface"
+    },
+    "status": "reference candidate; not downloaded; noncommercial only subject to terms"
+  }
+]

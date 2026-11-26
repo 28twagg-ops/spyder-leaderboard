@@ -52,6 +52,10 @@
       {
         "kind": "field",
         "record": "SKIN-001.action"
+      },
+      {
+        "kind": "high_audit",
+        "record": "HA-013"
       }
     ]
   },
@@ -237,6 +241,10 @@
       {
         "kind": "study",
         "record": "T006"
+      },
+      {
+        "kind": "high_audit",
+        "record": "HA-013"
       }
     ]
   },
@@ -438,6 +446,10 @@
       {
         "kind": "field",
         "record": "SKIN-002.action"
+      },
+      {
+        "kind": "high_audit",
+        "record": "HA-014"
       }
     ]
   },
@@ -495,6 +507,10 @@
       {
         "kind": "followup",
         "record": "CL01"
+      },
+      {
+        "kind": "high_audit",
+        "record": "HA-014"
       }
     ]
   },
@@ -572,6 +588,14 @@
       {
         "kind": "study",
         "record": "T014"
+      },
+      {
+        "kind": "high_audit",
+        "record": "HA-014"
+      },
+      {
+        "kind": "high_audit",
+        "record": "HA-015"
       }
     ]
   },
@@ -608,6 +632,10 @@
       {
         "kind": "claim",
         "id": "C-SKIN-002"
+      },
+      {
+        "kind": "high_audit",
+        "record": "HA-014"
       }
     ]
   },
@@ -1213,6 +1241,10 @@
       {
         "kind": "claim",
         "id": "C-ABD-001"
+      },
+      {
+        "kind": "high_audit",
+        "record": "HA-016"
       }
     ]
   },
@@ -1325,7 +1357,12 @@
     "current_pass_status": "inherited; not independently rechecked",
     "clinical_review": false,
     "aliases": [],
-    "used_by": []
+    "used_by": [
+      {
+        "kind": "high_audit",
+        "record": "HA-016"
+      }
+    ]
   },
   {
     "id": "S035",
@@ -2597,6 +2634,10 @@
       {
         "kind": "claim",
         "id": "C-FIT-003"
+      },
+      {
+        "kind": "high_audit",
+        "record": "HA-023"
       }
     ]
   },
@@ -3235,6 +3276,10 @@
       {
         "kind": "study",
         "record": "T082"
+      },
+      {
+        "kind": "high_audit",
+        "record": "HA-008"
       }
     ]
   },
@@ -3484,6 +3529,18 @@
       {
         "kind": "field",
         "record": "NUTR-001.safety"
+      },
+      {
+        "kind": "high_audit",
+        "record": "HA-009"
+      },
+      {
+        "kind": "high_audit",
+        "record": "HA-010"
+      },
+      {
+        "kind": "high_audit",
+        "record": "HA-012"
       }
     ]
   },
@@ -3717,6 +3774,10 @@
       {
         "kind": "interval",
         "record": "K-calcium-1"
+      },
+      {
+        "kind": "high_audit",
+        "record": "HA-006"
       }
     ]
   },
@@ -3769,6 +3830,10 @@
       {
         "kind": "interval",
         "record": "K-calcium-4"
+      },
+      {
+        "kind": "high_audit",
+        "record": "HA-006"
       }
     ]
   },
@@ -3849,6 +3914,10 @@
       {
         "kind": "field",
         "record": "NUTR-002.takeaway"
+      },
+      {
+        "kind": "high_audit",
+        "record": "HA-005"
       }
     ]
   },
@@ -3913,6 +3982,10 @@
       {
         "kind": "field",
         "record": "NUTR-002.takeaway"
+      },
+      {
+        "kind": "high_audit",
+        "record": "HA-005"
       }
     ]
   },
@@ -4524,6 +4597,10 @@
       {
         "kind": "field",
         "record": "HAIR-001.action"
+      },
+      {
+        "kind": "high_audit",
+        "record": "HA-020"
       }
     ]
   },
@@ -4565,6 +4642,10 @@
       {
         "kind": "study",
         "record": "T111"
+      },
+      {
+        "kind": "high_audit",
+        "record": "HA-020"
       }
     ]
   },
@@ -5534,6 +5615,10 @@
       {
         "kind": "field",
         "record": "MSK-001.action"
+      },
+      {
+        "kind": "high_audit",
+        "record": "HA-017"
       }
     ]
   },
@@ -6679,6 +6764,10 @@
       {
         "kind": "claim",
         "id": "C-EMERG-001"
+      },
+      {
+        "kind": "high_audit",
+        "record": "HA-025"
       }
     ]
   },
@@ -6716,6 +6805,10 @@
       {
         "kind": "claim",
         "id": "C-EMERG-001"
+      },
+      {
+        "kind": "high_audit",
+        "record": "HA-025"
       }
     ]
   },
@@ -7386,6 +7479,10 @@
       {
         "kind": "claim",
         "id": "C-NUTR-001"
+      },
+      {
+        "kind": "high_audit",
+        "record": "HA-011"
       }
     ]
   },
@@ -7598,6 +7695,10 @@
       {
         "kind": "claim",
         "id": "C-WELL-001"
+      },
+      {
+        "kind": "high_audit",
+        "record": "HA-024"
       }
     ]
   },
@@ -8678,6 +8779,10 @@
       {
         "kind": "claim",
         "id": "C-SCAR-001"
+      },
+      {
+        "kind": "high_audit",
+        "record": "HA-021"
       }
     ]
   },
@@ -8849,6 +8954,10 @@
       {
         "kind": "followup",
         "record": "CL09"
+      },
+      {
+        "kind": "high_audit",
+        "record": "HA-019"
       }
     ]
   },
@@ -8965,6 +9074,10 @@
       {
         "kind": "phase",
         "id": "P17"
+      },
+      {
+        "kind": "high_audit",
+        "record": "HA-010"
       }
     ]
   },
@@ -9082,6 +9195,10 @@
       {
         "kind": "claim",
         "id": "C-FIT-003"
+      },
+      {
+        "kind": "high_audit",
+        "record": "HA-023"
       }
     ]
   },
@@ -9183,6 +9300,10 @@
       {
         "kind": "followup",
         "record": "CL16"
+      },
+      {
+        "kind": "high_audit",
+        "record": "HA-017"
       }
     ]
   },
@@ -9261,6 +9382,10 @@
       {
         "kind": "claim",
         "id": "C-NUTR-001"
+      },
+      {
+        "kind": "high_audit",
+        "record": "HA-011"
       }
     ]
   },
@@ -9333,6 +9458,10 @@
       {
         "kind": "claim",
         "id": "C-NUTR-001"
+      },
+      {
+        "kind": "high_audit",
+        "record": "HA-007"
       }
     ]
   },
@@ -9357,6 +9486,10 @@
       {
         "kind": "followup",
         "record": "CL02"
+      },
+      {
+        "kind": "high_audit",
+        "record": "HA-014"
       }
     ]
   },
@@ -9466,6 +9599,10 @@
       {
         "kind": "followup",
         "record": "CL05"
+      },
+      {
+        "kind": "high_audit",
+        "record": "HA-022"
       }
     ]
   },
@@ -10708,7 +10845,12 @@
     "current_pass_status": "inherited; not independently rechecked",
     "clinical_review": false,
     "aliases": [],
-    "used_by": []
+    "used_by": [
+      {
+        "kind": "high_audit",
+        "record": "HA-001"
+      }
+    ]
   },
   {
     "title": "Lindsay probiotic trial",
@@ -10724,7 +10866,12 @@
     "current_pass_status": "inherited; not independently rechecked",
     "clinical_review": false,
     "aliases": [],
-    "used_by": []
+    "used_by": [
+      {
+        "kind": "high_audit",
+        "record": "HA-002"
+      }
+    ]
   },
   {
     "title": "HUMBA trial",
@@ -10740,7 +10887,12 @@
     "current_pass_status": "inherited; not independently rechecked",
     "clinical_review": false,
     "aliases": [],
-    "used_by": []
+    "used_by": [
+      {
+        "kind": "high_audit",
+        "record": "HA-003"
+      }
+    ]
   },
   {
     "title": "Pellonperä fish oil/probiotic trial",
@@ -10756,7 +10908,12 @@
     "current_pass_status": "inherited; not independently rechecked",
     "clinical_review": false,
     "aliases": [],
-    "used_by": []
+    "used_by": [
+      {
+        "kind": "high_audit",
+        "record": "HA-004"
+      }
+    ]
   },
   {
     "title": "ORIP baseline omega-3 analysis",
@@ -10779,6 +10936,10 @@
       {
         "kind": "interval",
         "record": "K-omega3-3"
+      },
+      {
+        "kind": "high_audit",
+        "record": "HA-008"
       }
     ]
   },
@@ -10828,6 +10989,10 @@
       {
         "kind": "count",
         "record": "K-ADORE-2"
+      },
+      {
+        "kind": "high_audit",
+        "record": "HA-008"
       }
     ]
   },
@@ -10926,6 +11091,10 @@
       {
         "kind": "interval",
         "record": "I305"
+      },
+      {
+        "kind": "high_audit",
+        "record": "HA-007"
       }
     ]
   },
@@ -10962,7 +11131,12 @@
     "current_pass_status": "inherited; not independently rechecked",
     "clinical_review": false,
     "aliases": [],
-    "used_by": []
+    "used_by": [
+      {
+        "kind": "high_audit",
+        "record": "HA-019"
+      }
+    ]
   },
   {
     "title": "HUMBA protocol",
@@ -10994,7 +11168,12 @@
     "current_pass_status": "inherited; not independently rechecked",
     "clinical_review": false,
     "aliases": [],
-    "used_by": []
+    "used_by": [
+      {
+        "kind": "high_audit",
+        "record": "HA-016"
+      }
+    ]
   },
   {
     "title": "SPRING trial registration",
@@ -11026,7 +11205,12 @@
     "current_pass_status": "inherited; not independently rechecked",
     "clinical_review": false,
     "aliases": [],
-    "used_by": []
+    "used_by": [
+      {
+        "kind": "high_audit",
+        "record": "HA-003"
+      }
+    ]
   },
   {
     "title": "McDougall broader probiotic review pre-proof",
@@ -11546,5 +11730,676 @@
       }
     ],
     "aliases": []
+  },
+  {
+    "id": "H001",
+    "title": "SPRING study protocol",
+    "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC3585705/",
+    "kind": "trial protocol",
+    "topics": [
+      "NUTR-002"
+    ],
+    "source_host": "pmc.ncbi.nlm.nih.gov",
+    "verification_scope": "selected indexed excerpt or source section checked in high pass; see high-audit/EVIDENCE_CHECKS.json",
+    "accessed": "2026-11-26",
+    "current_pass_status": "selected excerpt checked",
+    "funding": null,
+    "conflicts": null,
+    "clinical_review": false,
+    "used_by": [
+      {
+        "kind": "high_audit",
+        "record": "HA-001"
+      }
+    ]
+  },
+  {
+    "id": "H002",
+    "title": "SPRING secondary microbiome analysis and funding",
+    "url": "https://www.sciencedirect.com/science/article/pii/S2210778921000015",
+    "kind": "same-cohort secondary analysis",
+    "topics": [
+      "NUTR-002"
+    ],
+    "source_host": "www.sciencedirect.com",
+    "verification_scope": "selected indexed excerpt or source section checked in high pass; see high-audit/EVIDENCE_CHECKS.json",
+    "accessed": "2026-11-26",
+    "current_pass_status": "selected excerpt checked",
+    "funding": null,
+    "conflicts": null,
+    "clinical_review": false,
+    "used_by": [
+      {
+        "kind": "high_audit",
+        "record": "HA-001"
+      }
+    ]
+  },
+  {
+    "id": "H003",
+    "title": "SPRING ketone secondary analysis and product donation",
+    "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC6038017/",
+    "kind": "same-cohort secondary analysis",
+    "topics": [
+      "NUTR-002"
+    ],
+    "source_host": "pmc.ncbi.nlm.nih.gov",
+    "verification_scope": "selected indexed excerpt or source section checked in high pass; see high-audit/EVIDENCE_CHECKS.json",
+    "accessed": "2026-11-26",
+    "current_pass_status": "selected excerpt checked",
+    "funding": null,
+    "conflicts": null,
+    "clinical_review": false,
+    "used_by": [
+      {
+        "kind": "high_audit",
+        "record": "HA-001"
+      }
+    ]
+  },
+  {
+    "id": "H004",
+    "title": "Lindsay 2014 conference report",
+    "url": "https://www.cambridge.org/core/journals/proceedings-of-the-nutrition-society/article/impact-of-probiotics-in-obese-pregnancy-to-reduce-maternal-fasting-glucose-a-randomized-controlled-trial/148C58F917D58383AA680569CC2B76DC",
+    "kind": "same-cohort conference report",
+    "topics": [
+      "NUTR-002"
+    ],
+    "source_host": "www.cambridge.org",
+    "verification_scope": "selected indexed excerpt or source section checked in high pass; see high-audit/EVIDENCE_CHECKS.json",
+    "accessed": "2026-11-26",
+    "current_pass_status": "selected excerpt checked",
+    "funding": null,
+    "conflicts": null,
+    "clinical_review": false,
+    "used_by": [
+      {
+        "kind": "high_audit",
+        "record": "HA-002"
+      }
+    ]
+  },
+  {
+    "id": "H005",
+    "title": "Pellonperä cohort 24-month follow-up",
+    "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC9848211/",
+    "kind": "same-cohort secondary analysis",
+    "topics": [
+      "NUTR-002"
+    ],
+    "source_host": "pmc.ncbi.nlm.nih.gov",
+    "verification_scope": "selected indexed excerpt or source section checked in high pass; see high-audit/EVIDENCE_CHECKS.json",
+    "accessed": "2026-11-26",
+    "current_pass_status": "selected excerpt checked",
+    "funding": null,
+    "conflicts": null,
+    "clinical_review": false,
+    "used_by": [
+      {
+        "kind": "high_audit",
+        "record": "HA-004"
+      }
+    ]
+  },
+  {
+    "id": "H006",
+    "title": "New Zealand Medsafe MARC March 2023 remarks",
+    "url": "https://medsafe.govt.nz/profs/PUArticles/June2023/MARCs-remarks-June-2023-meeting.html",
+    "kind": "regulatory committee assessment",
+    "topics": [
+      "NUTR-002"
+    ],
+    "source_host": "medsafe.govt.nz",
+    "verification_scope": "selected indexed excerpt or source section checked in high pass; see high-audit/EVIDENCE_CHECKS.json",
+    "accessed": "2026-11-26",
+    "current_pass_status": "selected excerpt checked",
+    "funding": null,
+    "conflicts": null,
+    "clinical_review": false,
+    "used_by": [
+      {
+        "kind": "high_audit",
+        "record": "HA-005"
+      }
+    ]
+  },
+  {
+    "id": "H007",
+    "title": "WHO guideline development group: calcium supplementation for prevention of pre-eclampsia",
+    "url": "https://www.who.int/news-room/articles-detail/guideline-development-group-calcium-supplementation-for-the-prevention-of-pre-eclampsia",
+    "kind": "guideline update announcement",
+    "topics": [
+      "NUTR-001"
+    ],
+    "source_host": "www.who.int",
+    "verification_scope": "selected indexed excerpt or source section checked in high pass; see high-audit/EVIDENCE_CHECKS.json",
+    "accessed": "2026-11-26",
+    "current_pass_status": "selected excerpt checked",
+    "funding": null,
+    "conflicts": null,
+    "clinical_review": false,
+    "used_by": [
+      {
+        "kind": "high_audit",
+        "record": "HA-006"
+      },
+      {
+        "kind": "high_audit",
+        "record": "HA-007"
+      }
+    ]
+  },
+  {
+    "id": "H008",
+    "title": "Calcium supplementation and risk of preeclampsia in Ecuadorian pregnant teenagers",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/9241285/",
+    "kind": "primary RCT abstract",
+    "topics": [
+      "NUTR-001"
+    ],
+    "source_host": "pubmed.ncbi.nlm.nih.gov",
+    "verification_scope": "selected indexed excerpt or source section checked in high pass; see high-audit/EVIDENCE_CHECKS.json",
+    "accessed": "2026-11-26",
+    "current_pass_status": "selected excerpt checked",
+    "funding": null,
+    "conflicts": null,
+    "clinical_review": false,
+    "used_by": [
+      {
+        "kind": "high_audit",
+        "record": "HA-006"
+      }
+    ]
+  },
+  {
+    "id": "H009",
+    "title": "Calcium supplementation and prevention of pregnancy induced hypertension",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/8987323/",
+    "kind": "primary RCT abstract",
+    "topics": [
+      "NUTR-001"
+    ],
+    "source_host": "pubmed.ncbi.nlm.nih.gov",
+    "verification_scope": "selected indexed excerpt or source section checked in high pass; see high-audit/EVIDENCE_CHECKS.json",
+    "accessed": "2026-11-26",
+    "current_pass_status": "selected excerpt checked",
+    "funding": null,
+    "conflicts": null,
+    "clinical_review": false,
+    "used_by": [
+      {
+        "kind": "high_audit",
+        "record": "HA-006"
+      }
+    ]
+  },
+  {
+    "id": "H010",
+    "title": "Stephens et al. protein requirements in early and late gestation",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/25527661/",
+    "kind": "metabolic requirement study",
+    "topics": [
+      "NUTR-001"
+    ],
+    "source_host": "pubmed.ncbi.nlm.nih.gov",
+    "verification_scope": "selected indexed excerpt or source section checked in high pass; see high-audit/EVIDENCE_CHECKS.json",
+    "accessed": "2026-11-26",
+    "current_pass_status": "selected excerpt checked",
+    "funding": null,
+    "conflicts": null,
+    "clinical_review": false,
+    "used_by": [
+      {
+        "kind": "high_audit",
+        "record": "HA-009"
+      }
+    ]
+  },
+  {
+    "id": "H011",
+    "title": "USDA evidence review protein requirements, Appendix H table 2",
+    "url": "https://www.ncbi.nlm.nih.gov/books/NBK614628/table/apph.tab2/",
+    "kind": "government evidence extraction",
+    "topics": [
+      "NUTR-001"
+    ],
+    "source_host": "www.ncbi.nlm.nih.gov",
+    "verification_scope": "selected indexed excerpt or source section checked in high pass; see high-audit/EVIDENCE_CHECKS.json",
+    "accessed": "2026-11-26",
+    "current_pass_status": "selected excerpt checked",
+    "funding": null,
+    "conflicts": null,
+    "clinical_review": false,
+    "used_by": [
+      {
+        "kind": "high_audit",
+        "record": "HA-009"
+      }
+    ]
+  },
+  {
+    "id": "H012",
+    "title": "Association of a vegan diet during pregnancy with maternal and child outcomes",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/39408296/",
+    "kind": "systematic review",
+    "topics": [
+      "NUTR-001"
+    ],
+    "source_host": "pubmed.ncbi.nlm.nih.gov",
+    "verification_scope": "selected indexed excerpt or source section checked in high pass; see high-audit/EVIDENCE_CHECKS.json",
+    "accessed": "2026-11-26",
+    "current_pass_status": "selected excerpt checked",
+    "funding": null,
+    "conflicts": null,
+    "clinical_review": false,
+    "used_by": [
+      {
+        "kind": "high_audit",
+        "record": "HA-010"
+      }
+    ]
+  },
+  {
+    "id": "H013",
+    "title": "NICHD Understanding Eating Behaviors During Twin Pregnancies",
+    "url": "https://www.nichd.nih.gov/about/org/dir/dir_showcase/diphr-understanding-eating-behaviors-during-twin-pregnancies",
+    "kind": "government research summary",
+    "topics": [
+      "NUTR-001"
+    ],
+    "source_host": "www.nichd.nih.gov",
+    "verification_scope": "selected indexed excerpt or source section checked in high pass; see high-audit/EVIDENCE_CHECKS.json",
+    "accessed": "2026-11-26",
+    "current_pass_status": "selected excerpt checked",
+    "funding": null,
+    "conflicts": null,
+    "clinical_review": false,
+    "used_by": [
+      {
+        "kind": "high_audit",
+        "record": "HA-010"
+      }
+    ]
+  },
+  {
+    "id": "H014",
+    "title": "WHO antenatal iron supplementation",
+    "url": "https://www.who.int/data/nutrition/nlis/info/antenatal-iron-supplementation",
+    "kind": "global public health guidance",
+    "topics": [
+      "NUTR-001"
+    ],
+    "source_host": "www.who.int",
+    "verification_scope": "selected indexed excerpt or source section checked in high pass; see high-audit/EVIDENCE_CHECKS.json",
+    "accessed": "2026-11-26",
+    "current_pass_status": "selected excerpt checked",
+    "funding": null,
+    "conflicts": null,
+    "clinical_review": false,
+    "used_by": [
+      {
+        "kind": "high_audit",
+        "record": "HA-011"
+      }
+    ]
+  },
+  {
+    "id": "H015",
+    "title": "Biophysical effects, safety and efficacy of raspberry leaf in pregnancy",
+    "url": "https://doi.org/10.1186/s12906-021-03230-4",
+    "kind": "systematic integrative review",
+    "topics": [
+      "NUTR-002"
+    ],
+    "source_host": "doi.org",
+    "verification_scope": "selected indexed excerpt or source section checked in high pass; see high-audit/EVIDENCE_CHECKS.json",
+    "accessed": "2026-11-26",
+    "current_pass_status": "selected excerpt checked",
+    "funding": null,
+    "conflicts": null,
+    "clinical_review": false,
+    "used_by": [
+      {
+        "kind": "high_audit",
+        "record": "HA-012"
+      }
+    ]
+  },
+  {
+    "id": "H016",
+    "title": "Evaluation of postpartum pelvic floor physical therapy on obstetrical anal sphincter injury",
+    "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC8924744/",
+    "kind": "primary RCT",
+    "topics": [
+      "PELV-001"
+    ],
+    "source_host": "pmc.ncbi.nlm.nih.gov",
+    "verification_scope": "selected indexed excerpt or source section checked in high pass; see high-audit/EVIDENCE_CHECKS.json",
+    "accessed": "2026-11-26",
+    "current_pass_status": "selected excerpt checked",
+    "funding": null,
+    "conflicts": null,
+    "clinical_review": false,
+    "used_by": [
+      {
+        "kind": "high_audit",
+        "record": "HA-018"
+      }
+    ]
+  },
+  {
+    "id": "H017",
+    "title": "Obstetric anal sphincter injury and female sexual dysfunction",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/39471303/",
+    "kind": "systematic review",
+    "topics": [
+      "PELV-001"
+    ],
+    "source_host": "pubmed.ncbi.nlm.nih.gov",
+    "verification_scope": "selected indexed excerpt or source section checked in high pass; see high-audit/EVIDENCE_CHECKS.json",
+    "accessed": "2026-11-26",
+    "current_pass_status": "selected excerpt checked",
+    "funding": null,
+    "conflicts": null,
+    "clinical_review": false,
+    "used_by": [
+      {
+        "kind": "high_audit",
+        "record": "HA-018"
+      }
+    ]
+  },
+  {
+    "id": "H018",
+    "title": "Sexual function at 6 and 12 months after OASI and physical therapy",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/37093575/",
+    "kind": "observational study",
+    "topics": [
+      "PELV-001"
+    ],
+    "source_host": "pubmed.ncbi.nlm.nih.gov",
+    "verification_scope": "selected indexed excerpt or source section checked in high pass; see high-audit/EVIDENCE_CHECKS.json",
+    "accessed": "2026-11-26",
+    "current_pass_status": "selected excerpt checked",
+    "funding": null,
+    "conflicts": null,
+    "clinical_review": false,
+    "used_by": [
+      {
+        "kind": "high_audit",
+        "record": "HA-018"
+      }
+    ]
+  },
+  {
+    "id": "H019",
+    "title": "Double-blind randomized trial of niacinamide 4% vs hydroquinone 4% for melasma",
+    "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC3142702/",
+    "kind": "primary trial",
+    "topics": [
+      "FACE-001"
+    ],
+    "source_host": "pmc.ncbi.nlm.nih.gov",
+    "verification_scope": "selected indexed excerpt or source section checked in high pass; see high-audit/EVIDENCE_CHECKS.json",
+    "accessed": "2026-11-26",
+    "current_pass_status": "selected excerpt checked",
+    "funding": null,
+    "conflicts": null,
+    "clinical_review": false,
+    "used_by": [
+      {
+        "kind": "high_audit",
+        "record": "HA-019"
+      }
+    ]
+  },
+  {
+    "id": "H020",
+    "title": "Update on Melasma—Part II: Treatment",
+    "url": "https://doi.org/10.1007/s13555-022-00780-4",
+    "kind": "narrative review",
+    "topics": [
+      "FACE-001"
+    ],
+    "source_host": "doi.org",
+    "verification_scope": "selected indexed excerpt or source section checked in high pass; see high-audit/EVIDENCE_CHECKS.json",
+    "accessed": "2026-11-26",
+    "current_pass_status": "selected excerpt checked",
+    "funding": null,
+    "conflicts": null,
+    "clinical_review": false,
+    "used_by": [
+      {
+        "kind": "high_audit",
+        "record": "HA-019"
+      }
+    ]
+  },
+  {
+    "id": "H021",
+    "title": "Core muscle strength and stability-oriented breathing training in postpartum women",
+    "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC11889499/",
+    "kind": "primary study, methods not fully extracted",
+    "topics": [
+      "ABD-001"
+    ],
+    "source_host": "pmc.ncbi.nlm.nih.gov",
+    "verification_scope": "selected indexed excerpt or source section checked in high pass; see high-audit/EVIDENCE_CHECKS.json",
+    "accessed": "2026-11-26",
+    "current_pass_status": "selected excerpt checked",
+    "funding": null,
+    "conflicts": null,
+    "clinical_review": false,
+    "used_by": [
+      {
+        "kind": "high_audit",
+        "record": "HA-016"
+      }
+    ]
+  },
+  {
+    "id": "H022",
+    "title": "Effect of inspiratory plus expiratory neuromuscular electrical stimulation on postpartum diastasis",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/40426315/",
+    "kind": "primary RCT abstract",
+    "topics": [
+      "ABD-001"
+    ],
+    "source_host": "pubmed.ncbi.nlm.nih.gov",
+    "verification_scope": "selected indexed excerpt or source section checked in high pass; see high-audit/EVIDENCE_CHECKS.json",
+    "accessed": "2026-11-26",
+    "current_pass_status": "selected excerpt checked",
+    "funding": null,
+    "conflicts": null,
+    "clinical_review": false,
+    "used_by": [
+      {
+        "kind": "high_audit",
+        "record": "HA-016"
+      }
+    ]
+  },
+  {
+    "id": "H023",
+    "title": "MotherToBaby Exercise fact sheet",
+    "url": "https://www.ncbi.nlm.nih.gov/books/NBK582697/",
+    "kind": "teratology information guidance",
+    "topics": [
+      "FIT-002"
+    ],
+    "source_host": "www.ncbi.nlm.nih.gov",
+    "verification_scope": "selected indexed excerpt or source section checked in high pass; see high-audit/EVIDENCE_CHECKS.json",
+    "accessed": "2026-11-26",
+    "current_pass_status": "selected excerpt checked",
+    "funding": null,
+    "conflicts": null,
+    "clinical_review": false,
+    "used_by": [
+      {
+        "kind": "high_audit",
+        "record": "HA-022"
+      }
+    ]
+  },
+  {
+    "id": "H024",
+    "title": "OpenStax Anatomy and Physiology 2e preface and licensing",
+    "url": "https://openstax.org/books/anatomy-and-physiology-2e/pages/preface",
+    "kind": "asset licensing guidance",
+    "topics": [
+      "UX"
+    ],
+    "source_host": "openstax.org",
+    "verification_scope": "selected indexed excerpt or source section checked in high pass; see high-audit/EVIDENCE_CHECKS.json",
+    "accessed": "2026-11-26",
+    "current_pass_status": "selected excerpt checked",
+    "funding": null,
+    "conflicts": null,
+    "clinical_review": false,
+    "used_by": []
+  },
+  {
+    "id": "H025",
+    "title": "OpenStax changes during pregnancy, labor and birth",
+    "url": "https://openstax.org/books/anatomy-and-physiology-2e/pages/28-4-changes-during-pregnancy-labor-and-birth",
+    "kind": "anatomy reference",
+    "topics": [
+      "BIRTH-001"
+    ],
+    "source_host": "openstax.org",
+    "verification_scope": "selected indexed excerpt or source section checked in high pass; see high-audit/EVIDENCE_CHECKS.json",
+    "accessed": "2026-11-26",
+    "current_pass_status": "selected excerpt checked",
+    "funding": null,
+    "conflicts": null,
+    "clinical_review": false,
+    "used_by": []
+  },
+  {
+    "id": "H026",
+    "title": "OpenStax lactation",
+    "url": "https://openstax.org/books/anatomy-and-physiology-2e/pages/28-6-lactation",
+    "kind": "anatomy reference",
+    "topics": [
+      "BREAST-001"
+    ],
+    "source_host": "openstax.org",
+    "verification_scope": "selected indexed excerpt or source section checked in high pass; see high-audit/EVIDENCE_CHECKS.json",
+    "accessed": "2026-11-26",
+    "current_pass_status": "selected excerpt checked",
+    "funding": null,
+    "conflicts": null,
+    "clinical_review": false,
+    "used_by": []
+  },
+  {
+    "id": "H027",
+    "title": "Calcium supplementation other than hypertension prevention: pregnancy and infant outcomes",
+    "url": "https://doi.org/10.1002/14651858.CD007079.pub4",
+    "kind": "systematic review",
+    "topics": [
+      "NUTR-001"
+    ],
+    "source_host": "doi.org",
+    "verification_scope": "selected indexed excerpt or source section checked in high pass; see high-audit/EVIDENCE_CHECKS.json",
+    "accessed": "2026-11-26",
+    "current_pass_status": "selected excerpt checked",
+    "funding": null,
+    "conflicts": null,
+    "clinical_review": false,
+    "used_by": [
+      {
+        "kind": "high_audit",
+        "record": "HA-026"
+      }
+    ]
+  },
+  {
+    "id": "H028",
+    "title": "ADORE randomized controlled trial protocol",
+    "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC5307851/",
+    "kind": "trial protocol",
+    "topics": [
+      "NUTR-001"
+    ],
+    "source_host": "pmc.ncbi.nlm.nih.gov",
+    "verification_scope": "selected indexed excerpt or source section checked in high pass; see high-audit/EVIDENCE_CHECKS.json",
+    "accessed": "2026-11-26",
+    "current_pass_status": "selected excerpt checked",
+    "funding": null,
+    "conflicts": null,
+    "clinical_review": false,
+    "used_by": [
+      {
+        "kind": "high_audit",
+        "record": "HA-008"
+      }
+    ]
+  },
+  {
+    "id": "H029",
+    "title": "Probiotics in overweight or obese pregnant women systematic review",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/35871956/",
+    "kind": "systematic review",
+    "topics": [
+      "NUTR-002"
+    ],
+    "source_host": "pubmed.ncbi.nlm.nih.gov",
+    "verification_scope": "selected indexed excerpt or source section checked in high pass; see high-audit/EVIDENCE_CHECKS.json",
+    "accessed": "2026-11-26",
+    "current_pass_status": "selected excerpt checked",
+    "funding": null,
+    "conflicts": null,
+    "clinical_review": false,
+    "used_by": [
+      {
+        "kind": "high_audit",
+        "record": "HA-005"
+      }
+    ]
+  },
+  {
+    "id": "H030",
+    "title": "2022 probiotic GDM prevention systematic review",
+    "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC9751955/",
+    "kind": "systematic review",
+    "topics": [
+      "NUTR-002"
+    ],
+    "source_host": "pmc.ncbi.nlm.nih.gov",
+    "verification_scope": "selected indexed excerpt or source section checked in high pass; see high-audit/EVIDENCE_CHECKS.json",
+    "accessed": "2026-11-26",
+    "current_pass_status": "selected excerpt checked",
+    "funding": null,
+    "conflicts": null,
+    "clinical_review": false,
+    "used_by": [
+      {
+        "kind": "high_audit",
+        "record": "HA-005"
+      }
+    ]
+  },
+  {
+    "id": "H031",
+    "title": "HUMBA study protocol",
+    "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC5123375/",
+    "kind": "trial protocol",
+    "topics": [
+      "NUTR-002"
+    ],
+    "source_host": "pmc.ncbi.nlm.nih.gov",
+    "verification_scope": "selected indexed excerpt or source section checked in high pass; see high-audit/EVIDENCE_CHECKS.json",
+    "accessed": "2026-11-26",
+    "current_pass_status": "selected excerpt checked",
+    "funding": null,
+    "conflicts": null,
+    "clinical_review": false,
+    "used_by": [
+      {
+        "kind": "high_audit",
+        "record": "HA-003"
+      }
+    ]
   }
 ]

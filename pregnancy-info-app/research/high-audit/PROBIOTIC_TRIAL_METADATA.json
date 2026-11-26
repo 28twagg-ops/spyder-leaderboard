@@ -1,0 +1,112 @@
+[
+  {
+    "cohort": "SPRING",
+    "source": {
+      "source_id": "R001",
+      "title": "SPRING trial",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/30659070/"
+    },
+    "registry": "ACTRN12611001208998",
+    "country": "Australia",
+    "population": "overweight/obese",
+    "strains": [
+      "L. rhamnosus GG",
+      "B. animalis subsp. lactis BB-12"
+    ],
+    "primary_outcome": "GDM",
+    "preeclampsia": "secondary; 9.2% vs 4.9%, p=.09",
+    "sources": [
+      {
+        "source_id": "H001",
+        "title": "SPRING study protocol",
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC3585705/"
+      },
+      {
+        "source_id": "H002",
+        "title": "SPRING secondary microbiome analysis and funding",
+        "url": "https://www.sciencedirect.com/science/article/pii/S2210778921000015"
+      },
+      {
+        "source_id": "H003",
+        "title": "SPRING ketone secondary analysis and product donation",
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC6038017/"
+      }
+    ]
+  },
+  {
+    "cohort": "Lindsay 2014",
+    "source": {
+      "source_id": "R002",
+      "title": "Lindsay probiotic trial",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/24646819/"
+    },
+    "registry": null,
+    "country": "Ireland",
+    "population": "BMI 30–39.9; 175 recruited; 138 completed",
+    "strains": [
+      "L. salivarius UCC118"
+    ],
+    "primary_outcome": "fasting glucose",
+    "preeclampsia": "prior review arm denominators differ from completers",
+    "sources": [
+      {
+        "source_id": "H004",
+        "title": "Lindsay 2014 conference report",
+        "url": "https://www.cambridge.org/core/journals/proceedings-of-the-nutrition-society/article/impact-of-probiotics-in-obese-pregnancy-to-reduce-maternal-fasting-glucose-a-randomized-controlled-trial/148C58F917D58383AA680569CC2B76DC"
+      }
+    ]
+  },
+  {
+    "cohort": "HUMBA",
+    "source": {
+      "source_id": "R003",
+      "title": "HUMBA trial",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/30878323/"
+    },
+    "registry": "ACTRN12615000400561",
+    "country": "New Zealand",
+    "population": "BMI ≥30, 12 to 17+6 weeks",
+    "strains": [
+      "L. rhamnosus GG",
+      "B. lactis BB12"
+    ],
+    "primary_outcome": "gestational weight gain and birthweight",
+    "preeclampsia": "prior review extraction retained; broader review discrepancy unresolved",
+    "sources": [
+      {
+        "source_id": "R018",
+        "title": "HUMBA publisher report",
+        "url": "https://www.sciencedirect.com/science/article/pii/S0002937819304788"
+      },
+      {
+        "source_id": "H031",
+        "title": "HUMBA study protocol",
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC5123375/"
+      }
+    ]
+  },
+  {
+    "cohort": "Pellonperä",
+    "source": {
+      "source_id": "R004",
+      "title": "Pellonperä fish oil/probiotic trial",
+      "url": "https://diabetesjournals.org/care/article/42/6/1009/36025/Efficacy-of-Fish-Oil-and-or-Probiotic-Intervention"
+    },
+    "registry": "NCT01922791",
+    "country": "Finland",
+    "population": "overweight/obese; 439 randomized in factorial trial",
+    "strains": [
+      "L. rhamnosus HN001",
+      "B. animalis subsp. lactis 420"
+    ],
+    "primary_outcome": "GDM and glucose",
+    "preeclampsia": "prior review extraction; primary diagnostic definition pending",
+    "sources": [
+      {
+        "source_id": "H005",
+        "title": "Pellonperä cohort 24-month follow-up",
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC9848211/"
+      }
+    ]
+  }
+]

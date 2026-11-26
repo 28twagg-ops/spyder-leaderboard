@@ -40,3 +40,6 @@ Read routine-prep/README.md for derived search, FAQ, phase content, visual brief
 
 ## Medium content pass
 Read medium-prep/README.md and INTERVENTIONS.json for individual intervention-level drafts, comparison groups and phase browsing. Keep all safety notes and original citations. Do not rank unlike outcomes or infer medical eligibility from navigation tags.
+
+## High-effort evidence audit
+Read high-audit/README.md and EVIDENCE_REPORT.md. Use targeted findings and expanded age-specific nutrient table as research drafts; preserve exact source, outcome and scope, and keep new numerical extractions separate until independently reviewed. WHO calcium guideline update process and discrepant Purwar primary abstract estimate are important. No automated treatment or supplemental dose. Scope limits and open gaps in GAP_STATUS.json.

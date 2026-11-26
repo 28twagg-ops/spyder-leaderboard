@@ -1,0 +1,112 @@
+[
+  {
+    "topic": "SKIN-001",
+    "status": "HA-013: formula-level incidence checked; isolated ingredients and adverse-event denominators unresolved.",
+    "closed": false
+  },
+  {
+    "topic": "SKIN-002",
+    "status": "HA-014/015: methodological challenge and funding/eligibility rechecked; full arm data and subgroup interaction still open.",
+    "closed": false
+  },
+  {
+    "topic": "SKIN-003",
+    "status": "Device guidance indirect; skin-type harms and long-term durability still open.",
+    "closed": false
+  },
+  {
+    "topic": "ABD-001",
+    "status": "HA-016: additional exercise/function evidence; matched sites/timepoints and complete outcomes open.",
+    "closed": false
+  },
+  {
+    "topic": "ABD-002",
+    "status": "Prior binder analysis retained; thresholds and harms open.",
+    "closed": false
+  },
+  {
+    "topic": "BREAST-001",
+    "status": "No representative prospective pre-pregnancy shape cohort established; no causal feeding inference.",
+    "closed": false
+  },
+  {
+    "topic": "FIT-001",
+    "status": "Partner-specific and resistance-specific preconception trials open.",
+    "closed": false
+  },
+  {
+    "topic": "FIT-002",
+    "status": "HA-022: resistance-specific attribution limitations; sport-specific outcomes open.",
+    "closed": false
+  },
+  {
+    "topic": "FIT-003",
+    "status": "HA-023: no verified prospective injury incidence.",
+    "closed": false
+  },
+  {
+    "topic": "PELV-001",
+    "status": "HA-018: OASI sexual function vs other symptoms; detailed RCT extraction open.",
+    "closed": false
+  },
+  {
+    "topic": "BIRTH-001",
+    "status": "Prior BUMPES and pushing comparisons retained; assisted birth outcomes open.",
+    "closed": false
+  },
+  {
+    "topic": "NUTR-001",
+    "status": "HA-006–011/026: calcium, omega-3, iron, protein, vegan, twins and intake/UL tables; individual clinical applicability and full lactation/other-stage reference data remain open.",
+    "closed": false
+  },
+  {
+    "topic": "NUTR-002",
+    "status": "HA-001–005/012: primary strain and funding metadata plus raspberry leaf; PE adjudication and unpublished safety open.",
+    "closed": false
+  },
+  {
+    "topic": "FACE-001",
+    "status": "HA-019: niacinamide indirect adult treatment; direct pregnancy and lactation evidence open.",
+    "closed": false
+  },
+  {
+    "topic": "HAIR-001",
+    "status": "HA-020: cross-sectional hair-cycle design clarified; longitudinal recovery open.",
+    "closed": false
+  },
+  {
+    "topic": "SCAR-001",
+    "status": "HA-021: outcomes distinguished; durable effects and harms open.",
+    "closed": false
+  },
+  {
+    "topic": "VEIN-001",
+    "status": "Prior compression studies retained; later vascular treatment and adherence open.",
+    "closed": false
+  },
+  {
+    "topic": "MSK-001",
+    "status": "HA-017: sham pain result extracted; ergonomics and other subtopics open.",
+    "closed": false
+  },
+  {
+    "topic": "REPRO-001",
+    "status": "Current schedules and indicated thyroid/genetic screening not comprehensively rechecked.",
+    "closed": false
+  },
+  {
+    "topic": "WELL-001",
+    "status": "HA-024: outcome distinction; detailed body-image and partner effects open.",
+    "closed": false
+  },
+  {
+    "topic": "DENT-001",
+    "status": "Prior trial comparisons retained; disease severity and access subgroup open.",
+    "closed": false
+  },
+  {
+    "topic": "EMERG-001",
+    "status": "HA-025: pregnancy/lactation device framework; direct procedure harms and long-term outcomes open.",
+    "closed": false
+  }
+]
