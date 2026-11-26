@@ -17,3 +17,6 @@ Canonical source registry and directory now hold 364 resource records. The earli
 
 ## External audit overlay
 See ../external-audits/grok/README.md for targeted verified Grok additions and duplicates. The canonical registry now has 368 mixed records. Older QA counts remain historical; do not auto-promote new overlays.
+
+## Independent audit overlay
+Read ../external-audits/independent/RECONCILIATION.json for seven findings and eight interval records. Registry now has 377 mixed resources, including nine IA records. The guideline S064/N305 is a publication-location duplicate, not independent evidence. Existing imports have not been regenerated; candidate interventions/media and numeric records remain explicit overlays. Clinical review remains pending.
