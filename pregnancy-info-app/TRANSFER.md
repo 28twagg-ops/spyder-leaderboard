@@ -38,7 +38,7 @@ The staged audit was committed in `0c44dac7a82c53101195a9df7822399c89b61c13`. Do
 
 ## Next task: Gemini reconciliation
 
-Status: Gemini assignment is prepared; no completed Gemini research report has been supplied or imported as of this checkpoint. Do not claim it has been reviewed.
+Status: User supplied Gemini report on 2026-11-26; selected independent checks and crosswalk are saved in [Gemini reconciliation](research/external-audits/gemini/README.md). Eight candidate records and ten numerical candidates remain staged; the supplied report did not include its announced JSON registry. No canonical records, counts or exports changed. Preserve all earlier holds and the new GE-H01–08 safety constraints; do not treat candidates as independent trials or reviewed clinical advice.
 
 When the user provides the report:
 1. Save the supplied report, with provenance and date, in a new audit folder; do not silently accept AI-generated claims.
@@ -53,3 +53,6 @@ All clinical materials remain research drafts. No comprehensive independent syst
 ## Copyable fresh-chat instruction
 
 Continue Pregnancy Info App from https://github.com/28twagg-ops/spyder-leaderboard/tree/main/pregnancy-info-app. Read TRANSFER.md and START_HERE.md, then the relevant original research files. I may supply Gemini's research results. Verify, deduplicate and integrate the new evidence using the checkpoint workflow, preserve all clinical safety holds, commit actual changes to GitHub, and update transfer documentation. Do not repeat completed work or rely on previous chat history. Claude owns architecture and design. No recurring monitoring. If repository or full-text access is unavailable, report the limitation.
+
+## Gemini reconciliation update
+Read [structured audit](research/external-audits/gemini/RECONCILIATION.json) before importing clinical content. Priority: ADORE secondary cohort and Bayesian intervals, 2026 vitamin D dose-regimen review, correct postpartum depression/anxiety outcomes, folic acid guidance, medication-specific safety. The older export manifest/import blob mismatch remains unresolved; regenerate and validate exports on next canonical change. No clinical review or app tests performed.

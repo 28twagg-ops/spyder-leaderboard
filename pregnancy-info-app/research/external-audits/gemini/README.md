@@ -1,0 +1,8 @@
+# Gemini reconciliation — 26 November 2026
+
+The user supplied a Gemini report spanning eight domains. Gemini explicitly had no GitHub access. It provided prose and 13 references; the announced structured JSON was absent from the supplied text. This is a curated reconciliation, not an archived verbatim copy. See [RECONCILIATION.json](RECONCILIATION.json) for eight selected candidate records (some identity-only), ten checked numerical candidates, duplicate crosswalk, safety corrections and remaining leads. No new independent trial count is implied.
+
+## Decision
+Keep as staged research, not canonical clinical content. The most important new source is GE001 (October 2026 ADORE FADS secondary analysis; public NIH funding, authors report no conflicts). GE002 is a November 2026 Cochrane vitamin D regimen review independently discovered during this pass. GE003 fixes swapped depression/anxiety outcome labels. GE005 adds dose-comparison trial details without changing guidelines. GE006 is a follow-up from an existing CBT-I cohort. GE007 separates pregnancy avoidance and nursing warnings. GE004 and GE008 require deeper outcome extraction.
+
+Read existing deep-research audit and all safety holds. Missing retrieval in Gemini does not equal missing evidence in this repository. Do not apply genotype-directed DHA dosing, folate substitution, generic heavy lifting clearance or vendor protocol instructions. Do not infer proof of safety from nonsignificant findings. All source records require final identity/cohort reconciliation and appropriate human review. No canonical or export changes in this pass; regenerate derived exports when inputs change. Existing export manifest/import SHA mismatch remains an open QA issue.

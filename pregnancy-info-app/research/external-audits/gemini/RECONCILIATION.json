@@ -1,0 +1,538 @@
+{
+  "date": "2026-11-26",
+  "provenance": "User-pasted Gemini Independent Scientific Investigation for the Pregnancy Info App: Evidence Synthesis, Gap Audit, and Structured Study Registry. Gemini could not inspect repository. The supplied text stops at 13 references; no actual JSON payload was included. This file is an independently checked reconciliation, not a verbatim transcript.",
+  "scope": "Selected source checks and registry crosswalk; staged overlay only. No full systematic screening or clinical review.",
+  "source_candidates": [
+    {
+      "id": "GE001",
+      "title": "Genotype-informed docosahexaenoic acid dosing based on the FADS Indel to reduce preterm and prolonged gestation: A secondary analysis of the ADORE randomized trial",
+      "url": "https://doi.org/10.1371/journal.pmed.1005274",
+      "topics": [
+        "NUTR-001"
+      ],
+      "design": "post hoc secondary analysis of randomized trial",
+      "checked_locator": "Publisher full text, abstract, Results Fig 3 and S8–S10, funding/COI",
+      "finding": "761 of 1032 ADORE participants genotyped. I-allele group early preterm birth: 2/205 vs 9/214; total preterm 19/205 vs 31/214, higher vs lower DHA. D/D group prolonged gestation 49/191 vs 23/151.",
+      "limitations": "Small event counts, selection into genotyping, post hoc subgroup. Not independent replication; no race-based or genetic dosing recommendations. Week 40 or later is study definition, not standard postterm birth.",
+      "funding": "NIH R01HD083292; authors report funder had no role",
+      "conflicts": "Authors declare none",
+      "clinical_review": false,
+      "auto_publish": false,
+      "correction_retraction_status": "comprehensive independent check pending",
+      "doi": "10.1371/journal.pmed.1005274",
+      "publication_year": 2026,
+      "authors": "Li YN, Kothapalli KSD, Carlson SE, Gajewski BJ, DeFranco EA, Brenna JT",
+      "journal": "PLOS Medicine",
+      "registry": "NCT02626299",
+      "cohort_links": [
+        "R007",
+        "H028"
+      ],
+      "provenance": "Gemini lead; independently checked publisher"
+    },
+    {
+      "id": "GE002",
+      "title": "Regimens of vitamin D supplementation for women during pregnancy",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/43012372/",
+      "topics": [
+        "NUTR-001"
+      ],
+      "design": "Cochrane review of dose regimens",
+      "checked_locator": "Indexed PubMed abstract; April 2026 search",
+      "finding": "Higher-dose comparisons show little or no clear difference in several obstetric outcomes; separate question from vitamin D versus placebo.",
+      "limitations": "Not a substitute for deficiency care or nutritional intake guidance. Full text, DOI, funding and overlap pending.",
+      "funding": null,
+      "conflicts": null,
+      "clinical_review": false,
+      "auto_publish": false,
+      "correction_retraction_status": "comprehensive independent check pending",
+      "pmid": "43012372",
+      "publication_year": 2026,
+      "related_sources": [
+        "S090"
+      ],
+      "provenance": "Additional research discovered during Gemini reconciliation"
+    },
+    {
+      "id": "GE003",
+      "title": "Impact of postpartum physical activity on maternal depression and anxiety: a systematic review and meta-analysis",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/39500542/",
+      "topics": [
+        "WELL-001",
+        "FIT-003"
+      ],
+      "design": "systematic review/meta-analysis",
+      "checked_locator": "PubMed indexed abstract",
+      "finding": "Exercise-only interventions reduced depressive symptom severity and anxiety severity; lower odds of postpartum depression.",
+      "limitations": "Depression symptom heterogeneity high; not replacement for indicated mental health treatment; exercise-only subset differs from total review.",
+      "funding": null,
+      "conflicts": null,
+      "clinical_review": false,
+      "auto_publish": false,
+      "correction_retraction_status": "comprehensive independent check pending",
+      "pmid": "39500542",
+      "doi": "10.1136/bjsports-2024-108478",
+      "publication_year": 2025
+    },
+    {
+      "id": "GE004",
+      "title": "Impact of postpartum physical activity on cardiometabolic health, breastfeeding, injury and infant growth and development: a systematic review and meta-analysis",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/39375006/",
+      "topics": [
+        "FIT-003",
+        "BREAST-001"
+      ],
+      "design": "systematic review/meta-analysis",
+      "checked_locator": "PubMed indexed title/eligibility; outcome details need further extraction",
+      "finding": "Relevant review identified. Gemini reports no adverse lactation signal and cardiometabolic benefits; hold precise estimates until results checked.",
+      "limitations": "Do not infer universal safety or equivalence, or cosmetic breast outcomes.",
+      "funding": null,
+      "conflicts": null,
+      "clinical_review": false,
+      "auto_publish": false,
+      "correction_retraction_status": "comprehensive independent check pending",
+      "pmid": "39375006",
+      "doi": "10.1136/bjsports-2024-108483",
+      "publication_year": 2025
+    },
+    {
+      "id": "GE005",
+      "title": "Two Randomized Trials of Low-Dose Calcium Supplementation in Pregnancy",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/38197817/",
+      "topics": [
+        "NUTR-001"
+      ],
+      "design": "two randomized noninferiority trials",
+      "checked_locator": "PubMed indexed abstract, preterm results",
+      "finding": "500 versus 1500 mg/day: preterm birth India RR .89 (.80–.98); Tanzania RR 1.07 (.95–1.21). Tanzania did not establish noninferiority.",
+      "limitations": "No placebo comparison. Noninferiority outcome-specific; do not replace guideline or prescribe a dose. Crosslink two trial cohorts to DR003 and S092/S093 where eligible.",
+      "funding": null,
+      "conflicts": null,
+      "clinical_review": false,
+      "auto_publish": false,
+      "correction_retraction_status": "comprehensive independent check pending",
+      "pmid": "38197817",
+      "publication_year": 2024,
+      "related_sources": [
+        "S092",
+        "S093",
+        "DR003"
+      ]
+    },
+    {
+      "id": "GE006",
+      "title": "Randomized controlled trial of digital cognitive behavior therapy for prenatal insomnia symptoms: effects on postpartum insomnia and mental health",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/34850238/",
+      "topics": [
+        "WELL-001"
+      ],
+      "design": "secondary follow-up of RCT",
+      "checked_locator": "PubMed indexed abstract, 3-month depression outcome",
+      "finding": "Probable major depression at 3 months postpartum 4% intervention vs 18% standard care; subgroup with minimal baseline symptoms 0% vs 18%.",
+      "limitations": "Screening-defined outcome, subgroup, no new independent trial; not substitute for mental health care. Extract denominators, confidence intervals, attrition and commercial involvement.",
+      "funding": null,
+      "conflicts": null,
+      "clinical_review": false,
+      "auto_publish": false,
+      "correction_retraction_status": "comprehensive independent check pending",
+      "pmid": "34850238",
+      "registry": "NCT02805998",
+      "cohort_links": [
+        "CL18"
+      ]
+    },
+    {
+      "id": "GE007",
+      "title": "Acitretin capsule prescribing information",
+      "url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=993a5325-cd10-4450-b5ea-1c0a90510df6",
+      "topics": [
+        "REPRO-001",
+        "FACE-001"
+      ],
+      "design": "US prescribing information",
+      "checked_locator": "DailyMed pregnancy/nursing warnings",
+      "finding": "Avoid pregnancy during therapy and at least three years after stopping; nursing restriction is separate.",
+      "limitations": "Do not infer an identical fixed three-year breastfeeding washout from pregnancy warning. Prescriber handles medication plans.",
+      "funding": null,
+      "conflicts": null,
+      "clinical_review": false,
+      "auto_publish": false,
+      "correction_retraction_status": "comprehensive independent check pending",
+      "provenance": "Gemini lead; independently checked US label"
+    },
+    {
+      "id": "GE008",
+      "title": "Efficacy of topical silicone gel in scar management: A systematic review and meta-analysis of randomised controlled trials",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/32119763/",
+      "topics": [
+        "SCAR-001"
+      ],
+      "design": "systematic review/meta-analysis",
+      "checked_locator": "Indexed PubMed title; numerical details pending",
+      "finding": "Relevant scar review identified; Gemini reports VSS pigmentation, height and pliability improvements.",
+      "limitations": "Mixed scar populations; no automatic transfer to cesarean-specific outcomes or open wounds.",
+      "funding": null,
+      "conflicts": null,
+      "clinical_review": false,
+      "auto_publish": false,
+      "correction_retraction_status": "comprehensive independent check pending",
+      "pmid": "32119763",
+      "publication_year": 2020
+    }
+  ],
+  "interval_candidates": [
+    {
+      "id": "GE-N01",
+      "source_id": "GE001",
+      "outcome": "early preterm birth <34 weeks, I allele",
+      "measure": "RR",
+      "estimate": 0.25,
+      "lower": 0.03,
+      "upper": 0.87,
+      "level": 95,
+      "interval_type": "credible",
+      "event_count": 11,
+      "n": null,
+      "locator": "Fig 3a; 2/205 vs 9/214",
+      "clinical_review": false,
+      "auto_publish": false
+    },
+    {
+      "id": "GE-N02",
+      "source_id": "GE001",
+      "outcome": "preterm birth <37 weeks, I allele",
+      "measure": "RR",
+      "estimate": 0.64,
+      "lower": 0.36,
+      "upper": 1.08,
+      "level": 95,
+      "interval_type": "credible",
+      "event_count": 50,
+      "n": null,
+      "locator": "Fig 3a; 19/205 vs 31/214",
+      "clinical_review": false,
+      "auto_publish": false
+    },
+    {
+      "id": "GE-N03",
+      "source_id": "GE002",
+      "outcome": "preeclampsia, >600 vs <=600 IU/day",
+      "measure": "RR",
+      "estimate": 0.9,
+      "lower": 0.65,
+      "upper": 1.25,
+      "level": 95,
+      "interval_type": "confidence",
+      "event_count": null,
+      "n": 2629,
+      "locator": "8 studies; low certainty",
+      "clinical_review": false,
+      "auto_publish": false
+    },
+    {
+      "id": "GE-N04",
+      "source_id": "GE002",
+      "outcome": "GDM, >600 vs <=600 IU/day",
+      "measure": "RR",
+      "estimate": 0.85,
+      "lower": 0.52,
+      "upper": 1.4,
+      "level": 95,
+      "interval_type": "confidence",
+      "event_count": null,
+      "n": 2373,
+      "locator": "6 studies; low certainty",
+      "clinical_review": false,
+      "auto_publish": false
+    },
+    {
+      "id": "GE-N05",
+      "source_id": "GE002",
+      "outcome": "preterm birth, >600 vs <=600 IU/day",
+      "measure": "RR",
+      "estimate": 1.02,
+      "lower": 0.78,
+      "upper": 1.32,
+      "level": 95,
+      "interval_type": "confidence",
+      "event_count": null,
+      "n": 3411,
+      "locator": "7 studies; low certainty",
+      "clinical_review": false,
+      "auto_publish": false
+    },
+    {
+      "id": "GE-N06",
+      "source_id": "GE003",
+      "outcome": "postpartum depressive symptom severity",
+      "measure": "SMD",
+      "estimate": -0.52,
+      "lower": -0.8,
+      "upper": -0.24,
+      "level": 95,
+      "interval_type": "confidence",
+      "event_count": null,
+      "n": 1778,
+      "locator": "19 RCTs; I2=86%; moderate certainty",
+      "clinical_review": false,
+      "auto_publish": false
+    },
+    {
+      "id": "GE-N07",
+      "source_id": "GE003",
+      "outcome": "postpartum anxiety symptom severity",
+      "measure": "SMD",
+      "estimate": -0.25,
+      "lower": -0.43,
+      "upper": -0.08,
+      "level": 95,
+      "interval_type": "confidence",
+      "event_count": null,
+      "n": 513,
+      "locator": "2 RCTs; I2=0%; moderate certainty",
+      "clinical_review": false,
+      "auto_publish": false
+    },
+    {
+      "id": "GE-N08",
+      "source_id": "GE003",
+      "outcome": "odds postpartum depression",
+      "measure": "OR",
+      "estimate": 0.55,
+      "lower": 0.32,
+      "upper": 0.95,
+      "level": 95,
+      "interval_type": "confidence",
+      "event_count": null,
+      "n": 303,
+      "locator": "4 RCTs; I2=0%",
+      "clinical_review": false,
+      "auto_publish": false
+    },
+    {
+      "id": "GE-N09",
+      "source_id": "GE005",
+      "outcome": "preterm birth India",
+      "measure": "RR",
+      "estimate": 0.89,
+      "lower": 0.8,
+      "upper": 0.98,
+      "level": 95,
+      "interval_type": "confidence",
+      "event_count": null,
+      "n": null,
+      "locator": "noninferiority margin 1.16",
+      "clinical_review": false,
+      "auto_publish": false
+    },
+    {
+      "id": "GE-N10",
+      "source_id": "GE005",
+      "outcome": "preterm birth Tanzania",
+      "measure": "RR",
+      "estimate": 1.07,
+      "lower": 0.95,
+      "upper": 1.21,
+      "level": 95,
+      "interval_type": "confidence",
+      "event_count": null,
+      "n": null,
+      "locator": "noninferiority not established, margin 1.16",
+      "clinical_review": false,
+      "auto_publish": false
+    }
+  ],
+  "duplicate_or_existing": [
+    {
+      "domain": "skin",
+      "ids": [
+        "S001",
+        "S004",
+        "S005",
+        "S006",
+        "S008",
+        "S009",
+        "S010",
+        "RP003",
+        "RP004"
+      ],
+      "note": "Cochrane and older topical trials already present; almond and coconut studies exist despite Gemini retrieval gaps. Keep limitations and nonpregnant treatment distinction."
+    },
+    {
+      "domain": "breast",
+      "ids": [
+        "S044",
+        "S045",
+        "S046",
+        "S202",
+        "S203"
+      ],
+      "note": "Existing observational breast appearance and support evidence; no causal feeding advice."
+    },
+    {
+      "domain": "exercise/recovery",
+      "ids": [
+        "S032",
+        "S036",
+        "S037",
+        "S040",
+        "S066",
+        "S067",
+        "S068",
+        "H033",
+        "H034",
+        "H035",
+        "H036"
+      ],
+      "note": "Beamish, binder reviews, Prevett and acute heavy-load studies already represented. Do not add duplicate trial counts."
+    },
+    {
+      "domain": "nutrition",
+      "ids": [
+        "S083",
+        "S085",
+        "S088",
+        "S090",
+        "S092",
+        "S093",
+        "S094",
+        "S095",
+        "R005",
+        "R007",
+        "IA006",
+        "IA007",
+        "S190"
+      ],
+      "note": "Cochrane omega-3, folate, 2024 vitamin D, calcium, probiotics, choline, ORIP/ADORE and emerging human creatine study already in registry. No source retrieval by Gemini does not establish absence of human evidence."
+    },
+    {
+      "domain": "preconception and male",
+      "ids": [
+        "DR003",
+        "DR021",
+        "DR022",
+        "DR023",
+        "DR024",
+        "DR025",
+        "DR027",
+        "S192",
+        "CL22",
+        "IA008"
+      ],
+      "note": "Prior staged calcium IPD and fertility retraction dependency audit remain controlling; Gemini did not complete these. DR027 CDC folate guidance already staged."
+    },
+    {
+      "domain": "clinical and derm",
+      "ids": [
+        "S076",
+        "S077",
+        "S170",
+        "S120",
+        "S127",
+        "S129",
+        "S153",
+        "CL17",
+        "CL18",
+        "IA003",
+        "DR026",
+        "DR017"
+      ],
+      "note": "Perineal massage, cesarean laser comparator, compression trial, venous/periodontal Cochrane, CBT-I, hydroquinone lactation and perineal PBM already covered or staged."
+    }
+  ],
+  "safety_corrections": [
+    {
+      "id": "GE-H01",
+      "topic": "NUTR-001",
+      "status": "hold unsupported substitution",
+      "source": "https://www.cdc.gov/folic-acid/data-research/mthfr/",
+      "finding": "Common MTHFR variants do not establish need to replace folic acid with 5-MTHF; CDC recommends folic acid, which has direct NTD prevention evidence. DHFR substitution claim unverified. CDC clinician guidance starts at least one month before conception; three months can be planning preference not universal minimum.",
+      "related": [
+        "S085",
+        "S088",
+        "DR027"
+      ]
+    },
+    {
+      "id": "GE-H02",
+      "topic": "FIT-002",
+      "status": "hold universal clearance",
+      "source": "https://pmc.ncbi.nlm.nih.gov/articles/PMC12406897/",
+      "finding": "Acute fetal hemodynamic outcomes and self-selected lifting survey cannot establish universal heavy-lifting, Valsalva or supine exercise safety. No home fetal heart-rate thresholds or blanket clearance.",
+      "related": [
+        "H035",
+        "H036"
+      ]
+    },
+    {
+      "id": "GE-H03",
+      "topic": "REPRO-001",
+      "status": "stage-specific labeling",
+      "source": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=993a5325-cd10-4450-b5ea-1c0a90510df6",
+      "finding": "Acitretin pregnancy avoidance period is at least 3 years; nursing warning separate. Do not promise safe conception solely from an elapsed isotretinoin washout."
+    },
+    {
+      "id": "GE-H04",
+      "topic": "NUTR-001",
+      "status": "research only",
+      "source": "https://doi.org/10.1371/journal.pmed.1005274",
+      "finding": "No personalized genotype/race-based DHA dose or testing recommendation. Bayesian posterior probabilities are not individual benefit probabilities; credible intervals differ from confidence intervals."
+    },
+    {
+      "id": "GE-H05",
+      "topic": "WELL-001",
+      "status": "correct outcome labels",
+      "source": "https://pubmed.ncbi.nlm.nih.gov/39500542/",
+      "finding": "Gemini conflates anxiety and depression effect sizes. Depression SMD -.52; anxiety -.25; maintain separate outcomes."
+    },
+    {
+      "id": "GE-H06",
+      "topic": "FACE-001",
+      "status": "avoid blanket safety claims",
+      "source": "https://www.ncbi.nlm.nih.gov/books/NBK500669/",
+      "finding": "LactMed reports lack of breastfeeding hydroquinone studies, not proven harm; distinguish precaution/unknown from established contraindication. Retain pregnancy avoidance and existing retinoid holds."
+    },
+    {
+      "id": "GE-H07",
+      "topic": "NUTR-001",
+      "status": "preserve guidance",
+      "source": "https://pubmed.ncbi.nlm.nih.gov/39077939/",
+      "finding": "Vitamin D 2024 review addresses uncertainty of supplementation for obstetric outcomes; 2026 dose comparison is distinct. Do not infer dietary requirement or deficiency treatment is unnecessary."
+    },
+    {
+      "id": "GE-H08",
+      "topic": "VEIN-001",
+      "status": "correct comparator",
+      "source": "https://pubmed.ncbi.nlm.nih.gov/26477632/",
+      "finding": "Pneumatic compression vs rest is not a stocking-prevention trial; existing S127 evaluates stockings. Distinguish symptom relief, structural prevention and VTE care."
+    }
+  ],
+  "unverified_leads": [
+    "PBM nipple lesions meta-analysis and lactation-specific harms; verify exact DOI and comparator; vendor energy limits excluded as clinical guidance.",
+    "Moolyk heavy lifting and Norwegian athlete cohort; check H033–H036 and underlying cohorts before adding.",
+    "Iron alternate-day absorption populations, ferritin thresholds and IV iron eligibility; verify current obstetric guidelines, do not import editorial thresholds as universal.",
+    "Paternal exposure epigenetics and offspring outcomes; separate animals and observational humans; no causal risk forecasts.",
+    "Scar microneedling, CaHA/MFU and general telogen effluvium ferritin cutoffs; extract primary population and safety.",
+    "Felder 2020 original and follow-up linkage, 2026 CBT-I trial registration, missing full structured registry.",
+    "Perineal massage, bariatric intervals, multiple pregnancies, protein, acne/lactation medications, supplement harms, unresolved primary reports; use existing backlog and targeted audit rather than assume missing evidence."
+  ],
+  "existing_holds": [
+    "RP001",
+    "RP005",
+    "DR023",
+    "DR024",
+    "DR025",
+    "DR021",
+    "DR022"
+  ],
+  "hold_rule": "Exclude retracted trials DR023–025; hold affected male-fertility pooled estimates DR021/022, not entire review unrelated outcomes. Preserve prior release holds and all clinical-review gates. No auto-publish or automatic dosing.",
+  "qa": {
+    "candidate_records": 8,
+    "numeric_candidates": 10,
+    "unique_candidate_ids": 8,
+    "invalid_intervals": [],
+    "clinical_reviews": 0,
+    "runtime_tests_executed": 0,
+    "canonical_counts_changed": false
+  }
+}
