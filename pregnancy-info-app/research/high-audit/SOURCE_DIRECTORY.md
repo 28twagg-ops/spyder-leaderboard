@@ -1,33 +1,56 @@
 # High-pass source directory
 
-- H001 — [SPRING study protocol](https://pmc.ncbi.nlm.nih.gov/articles/PMC3585705/)
-- H002 — [SPRING secondary microbiome analysis and funding](https://www.sciencedirect.com/science/article/pii/S2210778921000015)
-- H003 — [SPRING ketone secondary analysis and product donation](https://pmc.ncbi.nlm.nih.gov/articles/PMC6038017/)
-- H004 — [Lindsay 2014 conference report](https://www.cambridge.org/core/journals/proceedings-of-the-nutrition-society/article/impact-of-probiotics-in-obese-pregnancy-to-reduce-maternal-fasting-glucose-a-randomized-controlled-trial/148C58F917D58383AA680569CC2B76DC)
-- H005 — [Pellonperä cohort 24-month follow-up](https://pmc.ncbi.nlm.nih.gov/articles/PMC9848211/)
-- H006 — [New Zealand Medsafe MARC March 2023 remarks](https://medsafe.govt.nz/profs/PUArticles/June2023/MARCs-remarks-June-2023-meeting.html)
-- H007 — [WHO guideline development group: calcium supplementation for prevention of pre-eclampsia](https://www.who.int/news-room/articles-detail/guideline-development-group-calcium-supplementation-for-the-prevention-of-pre-eclampsia)
-- H008 — [Calcium supplementation and risk of preeclampsia in Ecuadorian pregnant teenagers](https://pubmed.ncbi.nlm.nih.gov/9241285/)
-- H009 — [Calcium supplementation and prevention of pregnancy induced hypertension](https://pubmed.ncbi.nlm.nih.gov/8987323/)
-- H010 — [Stephens et al. protein requirements in early and late gestation](https://pubmed.ncbi.nlm.nih.gov/25527661/)
-- H011 — [USDA evidence review protein requirements, Appendix H table 2](https://www.ncbi.nlm.nih.gov/books/NBK614628/table/apph.tab2/)
-- H012 — [Association of a vegan diet during pregnancy with maternal and child outcomes](https://pubmed.ncbi.nlm.nih.gov/39408296/)
-- H013 — [NICHD Understanding Eating Behaviors During Twin Pregnancies](https://www.nichd.nih.gov/about/org/dir/dir_showcase/diphr-understanding-eating-behaviors-during-twin-pregnancies)
-- H014 — [WHO antenatal iron supplementation](https://www.who.int/data/nutrition/nlis/info/antenatal-iron-supplementation)
-- H015 — [Biophysical effects, safety and efficacy of raspberry leaf in pregnancy](https://doi.org/10.1186/s12906-021-03230-4)
-- H016 — [Evaluation of postpartum pelvic floor physical therapy on obstetrical anal sphincter injury](https://pmc.ncbi.nlm.nih.gov/articles/PMC8924744/)
-- H017 — [Obstetric anal sphincter injury and female sexual dysfunction](https://pubmed.ncbi.nlm.nih.gov/39471303/)
-- H018 — [Sexual function at 6 and 12 months after OASI and physical therapy](https://pubmed.ncbi.nlm.nih.gov/37093575/)
-- H019 — [Double-blind randomized trial of niacinamide 4% vs hydroquinone 4% for melasma](https://pmc.ncbi.nlm.nih.gov/articles/PMC3142702/)
-- H020 — [Update on Melasma—Part II: Treatment](https://doi.org/10.1007/s13555-022-00780-4)
-- H021 — [Core muscle strength and stability-oriented breathing training in postpartum women](https://pmc.ncbi.nlm.nih.gov/articles/PMC11889499/)
-- H022 — [Effect of inspiratory plus expiratory neuromuscular electrical stimulation on postpartum diastasis](https://pubmed.ncbi.nlm.nih.gov/40426315/)
-- H023 — [MotherToBaby Exercise fact sheet](https://www.ncbi.nlm.nih.gov/books/NBK582697/)
-- H024 — [OpenStax Anatomy and Physiology 2e preface and licensing](https://openstax.org/books/anatomy-and-physiology-2e/pages/preface)
-- H025 — [OpenStax changes during pregnancy, labor and birth](https://openstax.org/books/anatomy-and-physiology-2e/pages/28-4-changes-during-pregnancy-labor-and-birth)
-- H026 — [OpenStax lactation](https://openstax.org/books/anatomy-and-physiology-2e/pages/28-6-lactation)
-- H027 — [Calcium supplementation other than hypertension prevention: pregnancy and infant outcomes](https://doi.org/10.1002/14651858.CD007079.pub4)
-- H028 — [ADORE randomized controlled trial protocol](https://pmc.ncbi.nlm.nih.gov/articles/PMC5307851/)
-- H029 — [Probiotics in overweight or obese pregnant women systematic review](https://pubmed.ncbi.nlm.nih.gov/35871956/)
-- H030 — [2022 probiotic GDM prevention systematic review](https://pmc.ncbi.nlm.nih.gov/articles/PMC9751955/)
-- H031 — [HUMBA study protocol](https://pmc.ncbi.nlm.nih.gov/articles/PMC5123375/)
+- **H001** — [SPRING study protocol](https://pmc.ncbi.nlm.nih.gov/articles/PMC3585705/) — trial protocol
+- **H002** — [SPRING secondary microbiome analysis and funding](https://www.sciencedirect.com/science/article/pii/S2210778921000015) — same-cohort secondary analysis
+- **H003** — [SPRING ketone secondary analysis and product donation](https://pmc.ncbi.nlm.nih.gov/articles/PMC6038017/) — same-cohort secondary analysis
+- **H004** — [Lindsay 2014 conference report](https://www.cambridge.org/core/journals/proceedings-of-the-nutrition-society/article/impact-of-probiotics-in-obese-pregnancy-to-reduce-maternal-fasting-glucose-a-randomized-controlled-trial/148C58F917D58383AA680569CC2B76DC) — same-cohort conference report
+- **H005** — [Pellonperä cohort 24-month follow-up](https://pmc.ncbi.nlm.nih.gov/articles/PMC9848211/) — same-cohort secondary analysis
+- **H006** — [New Zealand Medsafe MARC March 2023 remarks](https://medsafe.govt.nz/profs/PUArticles/June2023/MARCs-remarks-June-2023-meeting.html) — regulatory committee assessment
+- **H007** — [WHO guideline development group: calcium supplementation for prevention of pre-eclampsia](https://www.who.int/news-room/articles-detail/guideline-development-group-calcium-supplementation-for-the-prevention-of-pre-eclampsia) — guideline update announcement
+- **H008** — [Calcium supplementation and risk of preeclampsia in Ecuadorian pregnant teenagers](https://pubmed.ncbi.nlm.nih.gov/9241285/) — primary RCT abstract
+- **H009** — [Calcium supplementation and prevention of pregnancy induced hypertension](https://pubmed.ncbi.nlm.nih.gov/8987323/) — primary RCT abstract
+- **H010** — [Stephens et al. protein requirements in early and late gestation](https://pubmed.ncbi.nlm.nih.gov/25527661/) — metabolic requirement study
+- **H011** — [USDA evidence review protein requirements, Appendix H table 2](https://www.ncbi.nlm.nih.gov/books/NBK614628/table/apph.tab2/) — government evidence extraction
+- **H012** — [Association of a vegan diet during pregnancy with maternal and child outcomes](https://pubmed.ncbi.nlm.nih.gov/39408296/) — systematic review
+- **H013** — [NICHD Understanding Eating Behaviors During Twin Pregnancies](https://www.nichd.nih.gov/about/org/dir/dir_showcase/diphr-understanding-eating-behaviors-during-twin-pregnancies) — government research summary
+- **H014** — [WHO antenatal iron supplementation](https://www.who.int/data/nutrition/nlis/info/antenatal-iron-supplementation) — global public health guidance
+- **H015** — [Biophysical effects, safety and efficacy of raspberry leaf in pregnancy](https://doi.org/10.1186/s12906-021-03230-4) — systematic integrative review
+- **H016** — [Evaluation of postpartum pelvic floor physical therapy on obstetrical anal sphincter injury](https://pmc.ncbi.nlm.nih.gov/articles/PMC8924744/) — primary RCT
+- **H017** — [Obstetric anal sphincter injury and female sexual dysfunction](https://pubmed.ncbi.nlm.nih.gov/39471303/) — systematic review
+- **H018** — [Sexual function at 6 and 12 months after OASI and physical therapy](https://pubmed.ncbi.nlm.nih.gov/37093575/) — observational study
+- **H019** — [Double-blind randomized trial of niacinamide 4% vs hydroquinone 4% for melasma](https://pmc.ncbi.nlm.nih.gov/articles/PMC3142702/) — primary trial
+- **H020** — [Update on Melasma—Part II: Treatment](https://doi.org/10.1007/s13555-022-00780-4) — narrative review
+- **H021** — [Core muscle strength and stability-oriented breathing training in postpartum women](https://pmc.ncbi.nlm.nih.gov/articles/PMC11889499/) — primary study, methods not fully extracted
+- **H022** — [Effect of inspiratory plus expiratory neuromuscular electrical stimulation on postpartum diastasis](https://pubmed.ncbi.nlm.nih.gov/40426315/) — primary RCT abstract
+- **H023** — [MotherToBaby Exercise fact sheet](https://www.ncbi.nlm.nih.gov/books/NBK582697/) — teratology information guidance
+- **H024** — [OpenStax Anatomy and Physiology 2e preface and licensing](https://openstax.org/books/anatomy-and-physiology-2e/pages/preface) — asset licensing guidance
+- **H025** — [OpenStax changes during pregnancy, labor and birth](https://openstax.org/books/anatomy-and-physiology-2e/pages/28-4-changes-during-pregnancy-labor-and-birth) — anatomy reference
+- **H026** — [OpenStax lactation](https://openstax.org/books/anatomy-and-physiology-2e/pages/28-6-lactation) — anatomy reference
+- **H027** — [Calcium supplementation other than hypertension prevention: pregnancy and infant outcomes](https://doi.org/10.1002/14651858.CD007079.pub4) — systematic review
+- **H028** — [ADORE randomized controlled trial protocol](https://pmc.ncbi.nlm.nih.gov/articles/PMC5307851/) — trial protocol
+- **H029** — [Probiotics in overweight or obese pregnant women systematic review](https://pubmed.ncbi.nlm.nih.gov/35871956/) — systematic review
+- **H030** — [2022 probiotic GDM prevention systematic review](https://pmc.ncbi.nlm.nih.gov/articles/PMC9751955/) — systematic review
+- **H031** — [HUMBA study protocol](https://pmc.ncbi.nlm.nih.gov/articles/PMC5123375/) — trial protocol
+- **H032** — [Assessment of breast volume changes during human pregnancy: prospective CGATE study](https://pubmed.ncbi.nlm.nih.gov/24100511/) — prospective measurement study
+- **H033** — [Maternal and fetal responses to acute high-intensity resistance exercise during pregnancy](https://pubmed.ncbi.nlm.nih.gov/39694629/) — acute physiology study
+- **H034** — [Maternal and foetal cardiovascular responses to moderate-to-high intensity resistance exercise](https://pubmed.ncbi.nlm.nih.gov/41017756/) — acute physiology study
+- **H035** — [Pushing limits: acute heavy-load resistance and supine exercise fetal well-being](https://pubmed.ncbi.nlm.nih.gov/40909193/) — acute physiology study
+- **H036** — [Impact of heavy resistance training on pregnancy and postpartum health outcomes](https://pubmed.ncbi.nlm.nih.gov/36331580/) — observational study
+- **H037** — [Microneedling as standalone treatment for striae rubrae and albae](https://pubmed.ncbi.nlm.nih.gov/41401824/) — comparative cosmetic study
+- **H038** — [Evaluating microneedling technique for striae alba lesions](https://pubmed.ncbi.nlm.nih.gov/36934160/) — small treatment study
+- **H039** — [Ablative fractional CO2 laser with rhEGF versus aloe vera for striae alba](https://pubmed.ncbi.nlm.nih.gov/30614013/) — split-area randomized trial
+- **H040** — [EVA trial: lateral episiotomy or no episiotomy in vacuum assisted delivery](https://www.bmj.com/content/385/bmj-2023-079014) — primary RCT
+- **H041** — [Contemporary trends in operative vaginal delivery and obstetric anal sphincter injuries 2016–2023](https://pubmed.ncbi.nlm.nih.gov/40959760/) — observational register study
+- **H042** — [Management of pregnancy-related pelvic girdle pain: international Delphi study](https://pubmed.ncbi.nlm.nih.gov/35202976/) — consensus
+- **H043** — [Management of symphysis pubis dysfunction during pregnancy using exercise and pelvic support belts](https://pubmed.ncbi.nlm.nih.gov/16305268/) — clinical trial
+- **H044** — [CDC guidelines for vaccinating pregnant women](https://www.cdc.gov/vaccines-pregnancy/hcp/vaccination-guidelines/) — US clinical guidance
+- **H045** — [ACOG carrier screening for genetic conditions](https://www.acog.org/clinical/clinical-guidance/committee-opinion/articles/2017/03/carrier-screening-for-genetic-conditions) — US clinical guidance
+- **H046** — [Online education of men's reproductive health before childbearing: randomized trial](https://pubmed.ncbi.nlm.nih.gov/40575499/) — primary RCT
+- **H047** — [Preconception care for men: scoping review](https://pubmed.ncbi.nlm.nih.gov/41558839/) — scoping review
+- **H048** — [Group parenting intervention for male postpartum depression: cluster RCT](https://pubmed.ncbi.nlm.nih.gov/39356541/) — cluster RCT
+- **H049** — [NCI skin anatomy illustration (Don Bliss)](https://commons.wikimedia.org/wiki/File:Anatomy_The_Skin_-_NCI_Visuals_Online.jpg) — asset license record
+- **H050** — [OpenStax 2016 muscles of pelvic floor illustration](https://commons.wikimedia.org/wiki/File:Pelvic_Floor_Muscles.jpg) — asset license record
+- **H051** — [NCI female pelvis illustration](https://commons.wikimedia.org/wiki/File:Pelvis_(female).jpg) — asset license record
+- **H052** — [Effectiveness of physiotherapy interventions for pregnancy-related lumbopelvic pain](https://pubmed.ncbi.nlm.nih.gov/42431130/) — systematic review
+
+Some records are secondary reports or alternative publication locations, not additional independent cohorts. Do not treat source count as study count.

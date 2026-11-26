@@ -525,5 +525,494 @@
     "conflicts": null,
     "clinical_review": false,
     "used_by": []
+  },
+  {
+    "id": "H032",
+    "title": "Assessment of breast volume changes during human pregnancy: prospective CGATE study",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/24100511/",
+    "kind": "prospective measurement study",
+    "topics": [
+      "BREAST-001"
+    ],
+    "pmid": "24100511",
+    "doi": null,
+    "source_host": "pubmed.ncbi.nlm.nih.gov",
+    "accessed": "2026-11-26",
+    "current_pass_status": "selected public source section or indexed excerpt checked",
+    "verification_scope": "see high-audit/EVIDENCE_CHECKS.json or asset reference",
+    "funding": null,
+    "conflicts": null,
+    "clinical_review": false,
+    "used_by": [
+      {
+        "kind": "high_audit",
+        "record": "HA-027"
+      }
+    ]
+  },
+  {
+    "id": "H033",
+    "title": "Maternal and fetal responses to acute high-intensity resistance exercise during pregnancy",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/39694629/",
+    "kind": "acute physiology study",
+    "topics": [
+      "FIT-002"
+    ],
+    "pmid": "39694629",
+    "doi": null,
+    "source_host": "pubmed.ncbi.nlm.nih.gov",
+    "accessed": "2026-11-26",
+    "current_pass_status": "selected public source section or indexed excerpt checked",
+    "verification_scope": "see high-audit/EVIDENCE_CHECKS.json or asset reference",
+    "funding": null,
+    "conflicts": null,
+    "clinical_review": false,
+    "used_by": [
+      {
+        "kind": "high_audit",
+        "record": "HA-028"
+      }
+    ]
+  },
+  {
+    "id": "H034",
+    "title": "Maternal and foetal cardiovascular responses to moderate-to-high intensity resistance exercise",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/41017756/",
+    "kind": "acute physiology study",
+    "topics": [
+      "FIT-002"
+    ],
+    "pmid": "41017756",
+    "doi": null,
+    "source_host": "pubmed.ncbi.nlm.nih.gov",
+    "accessed": "2026-11-26",
+    "current_pass_status": "selected public source section or indexed excerpt checked",
+    "verification_scope": "see high-audit/EVIDENCE_CHECKS.json or asset reference",
+    "funding": null,
+    "conflicts": null,
+    "clinical_review": false,
+    "used_by": [
+      {
+        "kind": "high_audit",
+        "record": "HA-028"
+      }
+    ]
+  },
+  {
+    "id": "H035",
+    "title": "Pushing limits: acute heavy-load resistance and supine exercise fetal well-being",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/40909193/",
+    "kind": "acute physiology study",
+    "topics": [
+      "FIT-002"
+    ],
+    "pmid": "40909193",
+    "doi": null,
+    "source_host": "pubmed.ncbi.nlm.nih.gov",
+    "accessed": "2026-11-26",
+    "current_pass_status": "selected public source section or indexed excerpt checked",
+    "verification_scope": "see high-audit/EVIDENCE_CHECKS.json or asset reference",
+    "funding": null,
+    "conflicts": null,
+    "clinical_review": false,
+    "used_by": [
+      {
+        "kind": "high_audit",
+        "record": "HA-028"
+      }
+    ]
+  },
+  {
+    "id": "H036",
+    "title": "Impact of heavy resistance training on pregnancy and postpartum health outcomes",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/36331580/",
+    "kind": "observational study",
+    "topics": [
+      "FIT-002"
+    ],
+    "pmid": "36331580",
+    "doi": null,
+    "source_host": "pubmed.ncbi.nlm.nih.gov",
+    "accessed": "2026-11-26",
+    "current_pass_status": "selected public source section or indexed excerpt checked",
+    "verification_scope": "see high-audit/EVIDENCE_CHECKS.json or asset reference",
+    "funding": null,
+    "conflicts": null,
+    "clinical_review": false,
+    "used_by": [
+      {
+        "kind": "high_audit",
+        "record": "HA-028"
+      }
+    ]
+  },
+  {
+    "id": "H037",
+    "title": "Microneedling as standalone treatment for striae rubrae and albae",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/41401824/",
+    "kind": "comparative cosmetic study",
+    "topics": [
+      "SKIN-003"
+    ],
+    "pmid": "41401824",
+    "doi": null,
+    "source_host": "pubmed.ncbi.nlm.nih.gov",
+    "accessed": "2026-11-26",
+    "current_pass_status": "selected public source section or indexed excerpt checked",
+    "verification_scope": "see high-audit/EVIDENCE_CHECKS.json or asset reference",
+    "funding": null,
+    "conflicts": null,
+    "clinical_review": false,
+    "used_by": [
+      {
+        "kind": "high_audit",
+        "record": "HA-029"
+      }
+    ]
+  },
+  {
+    "id": "H038",
+    "title": "Evaluating microneedling technique for striae alba lesions",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/36934160/",
+    "kind": "small treatment study",
+    "topics": [
+      "SKIN-003"
+    ],
+    "pmid": "36934160",
+    "doi": null,
+    "source_host": "pubmed.ncbi.nlm.nih.gov",
+    "accessed": "2026-11-26",
+    "current_pass_status": "selected public source section or indexed excerpt checked",
+    "verification_scope": "see high-audit/EVIDENCE_CHECKS.json or asset reference",
+    "funding": null,
+    "conflicts": null,
+    "clinical_review": false,
+    "used_by": [
+      {
+        "kind": "high_audit",
+        "record": "HA-029"
+      }
+    ]
+  },
+  {
+    "id": "H039",
+    "title": "Ablative fractional CO2 laser with rhEGF versus aloe vera for striae alba",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/30614013/",
+    "kind": "split-area randomized trial",
+    "topics": [
+      "SKIN-003"
+    ],
+    "pmid": "30614013",
+    "doi": null,
+    "source_host": "pubmed.ncbi.nlm.nih.gov",
+    "accessed": "2026-11-26",
+    "current_pass_status": "selected public source section or indexed excerpt checked",
+    "verification_scope": "see high-audit/EVIDENCE_CHECKS.json or asset reference",
+    "funding": null,
+    "conflicts": null,
+    "clinical_review": false,
+    "used_by": [
+      {
+        "kind": "high_audit",
+        "record": "HA-029"
+      }
+    ]
+  },
+  {
+    "id": "H040",
+    "title": "EVA trial: lateral episiotomy or no episiotomy in vacuum assisted delivery",
+    "url": "https://www.bmj.com/content/385/bmj-2023-079014",
+    "kind": "primary RCT",
+    "topics": [
+      "BIRTH-001"
+    ],
+    "pmid": "38886011",
+    "doi": "10.1136/bmj-2023-079014",
+    "source_host": "www.bmj.com",
+    "accessed": "2026-11-26",
+    "current_pass_status": "selected public source section or indexed excerpt checked",
+    "verification_scope": "see high-audit/EVIDENCE_CHECKS.json or asset reference",
+    "funding": null,
+    "conflicts": null,
+    "clinical_review": false,
+    "used_by": [
+      {
+        "kind": "high_audit",
+        "record": "HA-032"
+      }
+    ]
+  },
+  {
+    "id": "H041",
+    "title": "Contemporary trends in operative vaginal delivery and obstetric anal sphincter injuries 2016–2023",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/40959760/",
+    "kind": "observational register study",
+    "topics": [
+      "BIRTH-001"
+    ],
+    "pmid": "40959760",
+    "doi": null,
+    "source_host": "pubmed.ncbi.nlm.nih.gov",
+    "accessed": "2026-11-26",
+    "current_pass_status": "selected public source section or indexed excerpt checked",
+    "verification_scope": "see high-audit/EVIDENCE_CHECKS.json or asset reference",
+    "funding": null,
+    "conflicts": null,
+    "clinical_review": false,
+    "used_by": [
+      {
+        "kind": "high_audit",
+        "record": "HA-032"
+      }
+    ]
+  },
+  {
+    "id": "H042",
+    "title": "Management of pregnancy-related pelvic girdle pain: international Delphi study",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/35202976/",
+    "kind": "consensus",
+    "topics": [
+      "MSK-001"
+    ],
+    "pmid": "35202976",
+    "doi": null,
+    "source_host": "pubmed.ncbi.nlm.nih.gov",
+    "accessed": "2026-11-26",
+    "current_pass_status": "selected public source section or indexed excerpt checked",
+    "verification_scope": "see high-audit/EVIDENCE_CHECKS.json or asset reference",
+    "funding": null,
+    "conflicts": null,
+    "clinical_review": false,
+    "used_by": [
+      {
+        "kind": "high_audit",
+        "record": "HA-033"
+      }
+    ]
+  },
+  {
+    "id": "H043",
+    "title": "Management of symphysis pubis dysfunction during pregnancy using exercise and pelvic support belts",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/16305268/",
+    "kind": "clinical trial",
+    "topics": [
+      "MSK-001"
+    ],
+    "pmid": "16305268",
+    "doi": null,
+    "source_host": "pubmed.ncbi.nlm.nih.gov",
+    "accessed": "2026-11-26",
+    "current_pass_status": "selected public source section or indexed excerpt checked",
+    "verification_scope": "see high-audit/EVIDENCE_CHECKS.json or asset reference",
+    "funding": null,
+    "conflicts": null,
+    "clinical_review": false,
+    "used_by": [
+      {
+        "kind": "high_audit",
+        "record": "HA-033"
+      }
+    ]
+  },
+  {
+    "id": "H044",
+    "title": "CDC guidelines for vaccinating pregnant women",
+    "url": "https://www.cdc.gov/vaccines-pregnancy/hcp/vaccination-guidelines/",
+    "kind": "US clinical guidance",
+    "topics": [
+      "REPRO-001"
+    ],
+    "pmid": null,
+    "doi": null,
+    "source_host": "www.cdc.gov",
+    "accessed": "2026-11-26",
+    "current_pass_status": "selected public source section or indexed excerpt checked",
+    "verification_scope": "see high-audit/EVIDENCE_CHECKS.json or asset reference",
+    "funding": null,
+    "conflicts": null,
+    "clinical_review": false,
+    "used_by": [
+      {
+        "kind": "high_audit",
+        "record": "HA-034"
+      }
+    ]
+  },
+  {
+    "id": "H045",
+    "title": "ACOG carrier screening for genetic conditions",
+    "url": "https://www.acog.org/clinical/clinical-guidance/committee-opinion/articles/2017/03/carrier-screening-for-genetic-conditions",
+    "kind": "US clinical guidance",
+    "topics": [
+      "REPRO-001"
+    ],
+    "pmid": null,
+    "doi": null,
+    "source_host": "www.acog.org",
+    "accessed": "2026-11-26",
+    "current_pass_status": "selected public source section or indexed excerpt checked",
+    "verification_scope": "see high-audit/EVIDENCE_CHECKS.json or asset reference",
+    "funding": null,
+    "conflicts": null,
+    "clinical_review": false,
+    "used_by": [
+      {
+        "kind": "high_audit",
+        "record": "HA-034"
+      }
+    ]
+  },
+  {
+    "id": "H046",
+    "title": "Online education of men's reproductive health before childbearing: randomized trial",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/40575499/",
+    "kind": "primary RCT",
+    "topics": [
+      "REPRO-001"
+    ],
+    "pmid": "40575499",
+    "doi": null,
+    "source_host": "pubmed.ncbi.nlm.nih.gov",
+    "accessed": "2026-11-26",
+    "current_pass_status": "selected public source section or indexed excerpt checked",
+    "verification_scope": "see high-audit/EVIDENCE_CHECKS.json or asset reference",
+    "funding": null,
+    "conflicts": null,
+    "clinical_review": false,
+    "used_by": [
+      {
+        "kind": "high_audit",
+        "record": "HA-035"
+      }
+    ]
+  },
+  {
+    "id": "H047",
+    "title": "Preconception care for men: scoping review",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/41558839/",
+    "kind": "scoping review",
+    "topics": [
+      "FIT-001"
+    ],
+    "pmid": "41558839",
+    "doi": null,
+    "source_host": "pubmed.ncbi.nlm.nih.gov",
+    "accessed": "2026-11-26",
+    "current_pass_status": "selected public source section or indexed excerpt checked",
+    "verification_scope": "see high-audit/EVIDENCE_CHECKS.json or asset reference",
+    "funding": null,
+    "conflicts": null,
+    "clinical_review": false,
+    "used_by": [
+      {
+        "kind": "high_audit",
+        "record": "HA-035"
+      }
+    ]
+  },
+  {
+    "id": "H048",
+    "title": "Group parenting intervention for male postpartum depression: cluster RCT",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/39356541/",
+    "kind": "cluster RCT",
+    "topics": [
+      "WELL-001"
+    ],
+    "pmid": "39356541",
+    "doi": null,
+    "source_host": "pubmed.ncbi.nlm.nih.gov",
+    "accessed": "2026-11-26",
+    "current_pass_status": "selected public source section or indexed excerpt checked",
+    "verification_scope": "see high-audit/EVIDENCE_CHECKS.json or asset reference",
+    "funding": null,
+    "conflicts": null,
+    "clinical_review": false,
+    "used_by": [
+      {
+        "kind": "high_audit",
+        "record": "HA-036"
+      }
+    ]
+  },
+  {
+    "id": "H049",
+    "title": "NCI skin anatomy illustration (Don Bliss)",
+    "url": "https://commons.wikimedia.org/wiki/File:Anatomy_The_Skin_-_NCI_Visuals_Online.jpg",
+    "kind": "asset license record",
+    "topics": [
+      "SKIN-001"
+    ],
+    "pmid": null,
+    "doi": null,
+    "source_host": "commons.wikimedia.org",
+    "accessed": "2026-11-26",
+    "current_pass_status": "selected public source section or indexed excerpt checked",
+    "verification_scope": "see high-audit/EVIDENCE_CHECKS.json or asset reference",
+    "funding": null,
+    "conflicts": null,
+    "clinical_review": false,
+    "used_by": []
+  },
+  {
+    "id": "H050",
+    "title": "OpenStax 2016 muscles of pelvic floor illustration",
+    "url": "https://commons.wikimedia.org/wiki/File:Pelvic_Floor_Muscles.jpg",
+    "kind": "asset license record",
+    "topics": [
+      "PELV-001"
+    ],
+    "pmid": null,
+    "doi": null,
+    "source_host": "commons.wikimedia.org",
+    "accessed": "2026-11-26",
+    "current_pass_status": "selected public source section or indexed excerpt checked",
+    "verification_scope": "see high-audit/EVIDENCE_CHECKS.json or asset reference",
+    "funding": null,
+    "conflicts": null,
+    "clinical_review": false,
+    "used_by": []
+  },
+  {
+    "id": "H051",
+    "title": "NCI female pelvis illustration",
+    "url": "https://commons.wikimedia.org/wiki/File:Pelvis_(female).jpg",
+    "kind": "asset license record",
+    "topics": [
+      "REPRO-001"
+    ],
+    "pmid": null,
+    "doi": null,
+    "source_host": "commons.wikimedia.org",
+    "accessed": "2026-11-26",
+    "current_pass_status": "selected public source section or indexed excerpt checked",
+    "verification_scope": "see high-audit/EVIDENCE_CHECKS.json or asset reference",
+    "funding": null,
+    "conflicts": null,
+    "clinical_review": false,
+    "used_by": []
+  },
+  {
+    "id": "H052",
+    "title": "Effectiveness of physiotherapy interventions for pregnancy-related lumbopelvic pain",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/42431130/",
+    "kind": "systematic review",
+    "topics": [
+      "MSK-001"
+    ],
+    "pmid": "42431130",
+    "doi": null,
+    "source_host": "pubmed.ncbi.nlm.nih.gov",
+    "accessed": "2026-11-26",
+    "current_pass_status": "selected public source section or indexed excerpt checked",
+    "verification_scope": "see high-audit/EVIDENCE_CHECKS.json or asset reference",
+    "funding": null,
+    "conflicts": null,
+    "clinical_review": false,
+    "used_by": [
+      {
+        "kind": "high_audit",
+        "record": "HA-033"
+      }
+    ]
   }
 ]

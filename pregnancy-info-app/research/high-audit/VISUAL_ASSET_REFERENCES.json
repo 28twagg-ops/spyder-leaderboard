@@ -30,5 +30,59 @@
       "url": "https://openstax.org/books/anatomy-and-physiology-2e/pages/preface"
     },
     "status": "reference candidate; not downloaded; noncommercial only subject to terms"
+  },
+  {
+    "id": "VA-03",
+    "title": "NCI skin anatomy illustration (Don Bliss)",
+    "source": {
+      "source_id": "H049",
+      "title": "NCI skin anatomy illustration (Don Bliss)",
+      "url": "https://commons.wikimedia.org/wiki/File:Anatomy_The_Skin_-_NCI_Visuals_Online.jpg"
+    },
+    "creator": "Don Bliss / National Cancer Institute",
+    "license": "Public domain as marked on file page; credit creator and NCI",
+    "license_source": {
+      "source_id": "H049",
+      "title": "NCI skin anatomy illustration (Don Bliss)",
+      "url": "https://commons.wikimedia.org/wiki/File:Anatomy_The_Skin_-_NCI_Visuals_Online.jpg"
+    },
+    "suggested_use": "Skin cross-section; normal anatomy, not direct illustration of striae.",
+    "status": "file-page credit and license inspected; not downloaded or clinically reviewed"
+  },
+  {
+    "id": "VA-04",
+    "title": "OpenStax 2016 muscles of pelvic floor illustration",
+    "source": {
+      "source_id": "H050",
+      "title": "OpenStax 2016 muscles of pelvic floor illustration",
+      "url": "https://commons.wikimedia.org/wiki/File:Pelvic_Floor_Muscles.jpg"
+    },
+    "creator": "OpenStax (2016 version 8.25)",
+    "license": "CC BY 4.0, https://creativecommons.org/licenses/by/4.0/; credit, license link and change notice",
+    "license_source": {
+      "source_id": "H050",
+      "title": "OpenStax 2016 muscles of pelvic floor illustration",
+      "url": "https://commons.wikimedia.org/wiki/File:Pelvic_Floor_Muscles.jpg"
+    },
+    "suggested_use": "Pelvic floor muscle anatomy; distinguish this older file's license from current 2e book license.",
+    "status": "file-page credit and license inspected; not downloaded or clinically reviewed"
+  },
+  {
+    "id": "VA-05",
+    "title": "NCI female pelvis illustration",
+    "source": {
+      "source_id": "H051",
+      "title": "NCI female pelvis illustration",
+      "url": "https://commons.wikimedia.org/wiki/File:Pelvis_(female).jpg"
+    },
+    "creator": "National Cancer Institute, unknown illustrator",
+    "license": "Public domain as marked on file page; credit NCI",
+    "license_source": {
+      "source_id": "H051",
+      "title": "NCI female pelvis illustration",
+      "url": "https://commons.wikimedia.org/wiki/File:Pelvis_(female).jpg"
+    },
+    "suggested_use": "Female reproductive anatomy; use for orientation, not diagnosis.",
+    "status": "file-page credit and license inspected; not downloaded or clinically reviewed"
   }
 ]

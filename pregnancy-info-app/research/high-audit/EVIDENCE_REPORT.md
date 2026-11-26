@@ -1,6 +1,6 @@
 # High-effort targeted evidence audit — 2026-11-26
 
-Scope: indexed primary/review excerpts, selected full-text sections, and official tables. Not a systematic review or exhaustive clinical appraisal. All conclusions are limited to the stated population, comparator and outcome. Source labels link directly to publications.
+Scope: indexed primary/review excerpts, selected full-text sections, and official tables. Not a systematic review or exhaustive clinical appraisal. All conclusions limited to population, comparator and outcome. Source labels link to original publications.
 
 ## HA-001 — NUTR-002
 SPRING randomized overweight or obese pregnant participants in Brisbane. GG plus BB-12 strains; preeclampsia secondary outcome, 9.2% vs 4.9%, p=.09. NHMRC and hospital foundation support reported; Chr Hansen supplied active/placebo products in same-cohort report.
@@ -235,3 +235,111 @@ Calcium for outcomes other than hypertension: PTB <37 weeks RR .80 (.65–.99), 
 **Implication:** Label outcome and gestational threshold.
 
 Sources: [H027: Calcium supplementation other than hypertension prevention: pregnancy and infant outcomes](https://doi.org/10.1002/14651858.CD007079.pub4). Locator: 2024 Cochrane review abstract.
+
+## HA-027 — BREAST-001
+CGATE provides prospective three-dimensional breast volume measurements during pregnancy. The separate aesthetics study found no independent association of breastfeeding with ptosis.
+
+**Limitations:** Volume during pregnancy is not post-lactation shape or causal prevention evidence; representative preconception-to-post-weaning measurement remains absent from this audit.
+
+**Implication:** Do not imply either feeding choice preserves shape.
+
+Sources: [H032: Assessment of breast volume changes during human pregnancy: prospective CGATE study](https://pubmed.ncbi.nlm.nih.gov/24100511/); [S044: The effect of breastfeeding on breast aesthetics.](https://pubmed.ncbi.nlm.nih.gov/19083576/). Locator: prospective study abstract; retrospective ptosis abstract.
+
+## HA-028 — FIT-002
+Recent monitored resistance sessions include moderate-to-high intensity and trained participants. One supine-exercise participant had vena cava syndrome symptoms; acute studies generally report tolerability in studied populations. Heavy-training observational findings do not prove safety.
+
+**Limitations:** Short-term fetal/maternal measurements and self-selected participants cannot establish rare-event or long-term safety, specific load limits or clearance for high-risk pregnancies.
+
+**Implication:** Represent findings as exercise research, not a recommendation for heavy lifting or Valsalva.
+
+Sources: [H033: Maternal and fetal responses to acute high-intensity resistance exercise during pregnancy](https://pubmed.ncbi.nlm.nih.gov/39694629/); [H034: Maternal and foetal cardiovascular responses to moderate-to-high intensity resistance exercise](https://pubmed.ncbi.nlm.nih.gov/41017756/); [H035: Pushing limits: acute heavy-load resistance and supine exercise fetal well-being](https://pubmed.ncbi.nlm.nih.gov/40909193/); [H036: Impact of heavy resistance training on pregnancy and postpartum health outcomes](https://pubmed.ncbi.nlm.nih.gov/36331580/); [CL05: 2025 prenatal resistance training review](https://pubmed.ncbi.nlm.nih.gov/40610191/). Locator: acute exercise abstracts; observational study conclusion; review.
+
+## HA-029 — SKIN-003
+Small microneedling comparison follows early and mature striae to six months. Separate 32-patient microneedling study reports 7 pigment changes and 1 infection (25% overall complications). In a fractional CO2 laser plus topical treatment trial, pigment change was reported in 95.8% of participants, decreasing by six months.
+
+**Limitations:** Different devices, populations and ascertainment; rates not comparable head-to-head. Long-term follow-up beyond one year and pregnancy-specific safety unestablished.
+
+**Implication:** Display pigment/infection risks and skin-type context; do not present these rates as general risks.
+
+Sources: [H037: Microneedling as standalone treatment for striae rubrae and albae](https://pubmed.ncbi.nlm.nih.gov/41401824/); [H038: Evaluating microneedling technique for striae alba lesions](https://pubmed.ncbi.nlm.nih.gov/36934160/); [H039: Ablative fractional CO2 laser with rhEGF versus aloe vera for striae alba](https://pubmed.ncbi.nlm.nih.gov/30614013/); [S018: Efficacy of Microneedling Versus Fractional Non-ablative Laser to Treat Striae Alba: A Randomized Study](https://pubmed.ncbi.nlm.nih.gov/30618025/). Locator: primary indexed results and methods.
+
+## HA-030 — ABD-002
+Binder meta-analysis reports postoperative pain WMD −1.13 (−2.15 to −.10) at 6h, −1.48 (−2.90 to −.06) at 12h, −.95 (−1.49 to −.41) at 24h and −.70 (−1.17 to −.22) at 48h.
+
+**Limitations:** Same review, time-specific estimates may share participants. Full scales, adverse event counts, risk of bias and clinical importance not independently extracted.
+
+**Implication:** Separate short-term pain from long-term shaping or gap closure.
+
+Sources: [S036: The efficacy of abdominal binder in women undergoing cesarean delivery: A meta-analysis of randomized controlled trials.](https://pubmed.ncbi.nlm.nih.gov/39793406/); [S038: The effect of an abdominal binder on pain, bleeding and breastfeeding success after cesarean delivery: A randomized controlled trial](https://pubmed.ncbi.nlm.nih.gov/39780504/); [S039: A randomized controlled trial of abdominal binders for the management of postoperative pain and distress after cesarean delivery](https://pubmed.ncbi.nlm.nih.gov/26892694/). Locator: 2025 review abstract.
+
+## HA-031 — VEIN-001
+60 pregnant participants randomized 30 per group in stocking trial; intervention group had smaller calf and ankle diameter increases. Earlier trial did not establish prevention of new varicose veins.
+
+**Limitations:** Edema circumference and cosmetic vein formation differ; adherence and uncommon harms not fully appraised.
+
+**Implication:** Separate symptom relief from cosmetic prevention and urgent clot symptoms.
+
+Sources: [S130: Positive perception and efficacy of compression stockings for prevention of lower limb edema in pregnant women](https://pubmed.ncbi.nlm.nih.gov/35399341/); [S127: Compression stockings prophylaxis of emergent varicose veins in pregnancy: a prospective randomised controlled study](https://pubmed.ncbi.nlm.nih.gov/11835115/). Locator: primary abstracts.
+
+## HA-032 — BIRTH-001
+EVA trial 717 randomized, 702 primary analysis; lateral episiotomy 21/344 OASI versus 47/358 no episiotomy, RR .46 (96% CI .28–.78). Wound infection and dehiscence more common in intervention arm. US observational register comparison shows association of operative delivery with higher OASI odds.
+
+**Limitations:** Specific nulliparous patients needing vacuum extraction; cannot extend to spontaneous vaginal delivery or select delivery mode based on observational odds. Interim analysis requires 96% CI.
+
+**Implication:** Present benefit and wound tradeoffs with consent; not a universal episiotomy recommendation.
+
+Sources: [H040: EVA trial: lateral episiotomy or no episiotomy in vacuum assisted delivery](https://www.bmj.com/content/385/bmj-2023-079014); [H041: Contemporary trends in operative vaginal delivery and obstetric anal sphincter injuries 2016–2023](https://pubmed.ncbi.nlm.nih.gov/40959760/). Locator: EVA primary abstract and indexed table; register study abstract.
+
+## HA-033 — MSK-001
+Consensus includes ergonomics, education, strengthening, psychosocial factors and support aids. Trial found rigid/nonrigid belts did not add to exercise and advice in studied population. Recent review rates exercise evidence for medium-term pain/function as low certainty.
+
+**Limitations:** Consensus is not proof of efficacy; belt outcomes and diagnoses differ; no individual treatment or ergonomics protocol established.
+
+**Implication:** Keep support belts optional and symptom-specific; no permanent posture correction claims.
+
+Sources: [H042: Management of pregnancy-related pelvic girdle pain: international Delphi study](https://pubmed.ncbi.nlm.nih.gov/35202976/); [H043: Management of symphysis pubis dysfunction during pregnancy using exercise and pelvic support belts](https://pubmed.ncbi.nlm.nih.gov/16305268/); [H052: Effectiveness of physiotherapy interventions for pregnancy-related lumbopelvic pain](https://pubmed.ncbi.nlm.nih.gov/42431130/). Locator: consensus abstract; trial conclusion; review conclusion.
+
+## HA-034 — REPRO-001
+US vaccine guidance is stage-, product-, risk- and season-specific; carrier screening ideally discussed before pregnancy to allow informed reproductive choices.
+
+**Limitations:** CDC schedule and product recommendations may change; individual eligibility not established. No automated vaccination or testing advice.
+
+**Implication:** Use current official links and clinician discussion rather than static schedule three years ahead.
+
+Sources: [S171: Vaccine Recommendations Before, During, and After Pregnancy | Pregnancy & Vaccines | CDC](https://www.cdc.gov/vaccines-pregnancy/recommended-vaccines/); [H044: CDC guidelines for vaccinating pregnant women](https://www.cdc.gov/vaccines-pregnancy/hcp/vaccination-guidelines/); [H045: ACOG carrier screening for genetic conditions](https://www.acog.org/clinical/clinical-guidance/committee-opinion/articles/2017/03/carrier-screening-for-genetic-conditions); [S142: Prepregnancy Counseling | ACOG](https://www.acog.org/clinical/clinical-guidance/committee-opinion/articles/2019/01/prepregnancy-counseling). Locator: CDC current public page and vaccination guidelines; ACOG preconception and carrier guidance.
+
+## HA-035 — FIT-001
+Iran couples education RCT (168 couples) tested four weekly sessions; male preconception education may improve knowledge/behaviors. Scoping review identifies low awareness and sparse intervention research.
+
+**Limitations:** Educational outcomes do not demonstrate higher live birth; infertility-specific lifestyle evidence cannot be applied to all couples.
+
+**Implication:** Partner education and general health habits, not speculative supplements or fertility guarantees.
+
+Sources: [H046: Online education of men's reproductive health before childbearing: randomized trial](https://pubmed.ncbi.nlm.nih.gov/40575499/); [H047: Preconception care for men: scoping review](https://pubmed.ncbi.nlm.nih.gov/41558839/); [S051: Preconception lifestyle advice for people with infertility](https://pmc.ncbi.nlm.nih.gov/articles/PMC8092458/). Locator: trial abstract; scoping review abstract; Cochrane review.
+
+## HA-036 — WELL-001
+Group parenting intervention in fathers with postpartum depression reported improved depression at four months (group difference ratio .66, 95% CI .47–.91) and other outcomes.
+
+**Limitations:** Selected symptomatic fathers; treatment rather than universal prevention; design, population and outcome scale need full extraction.
+
+**Implication:** Include partner mental health as optional support pathway; no universal program or diagnostic score.
+
+Sources: [H048: Group parenting intervention for male postpartum depression: cluster RCT](https://pubmed.ncbi.nlm.nih.gov/39356541/). Locator: cluster RCT abstract.
+
+## HA-037 — DENT-001
+Updated systematic review reports PTB RR .85 (.71–1.02), moderate certainty as graded by authors; absolute estimate 20 fewer per 1000 (39 fewer to 3 more).
+
+**Limitations:** CI spans no effect; heterogeneity, disease severity and overlap not fully extracted. Earlier larger RCTs did not establish obstetric benefit.
+
+**Implication:** Maintain dental care for oral health, acknowledge possible but uncertain obstetric benefit.
+
+Sources: [S154: Effect of dental treatments on reduction of preterm birth: a systematic review and meta-analysis](https://doi.org/10.1016/j.ajogmf.2025.101884); [S152: Treatment of periodontal disease and the risk of preterm birth.](https://pubmed.ncbi.nlm.nih.gov/17079762/); [S155: Treatment of periodontal disease during pregnancy: a randomized controlled trial](https://pubmed.ncbi.nlm.nih.gov/19935025/). Locator: updated review abstract and earlier trial context.
+
+## HA-038 — FIT-003
+Prior injury, novice status, fatigue and incontinence associated with running pain in selected postpartum runners; this is not prospective injury incidence.
+
+**Limitations:** Self-selection and confounding; do not use regression odds as an individual injury prediction or show automatic readiness score.
+
+**Implication:** Continue symptom-based, individualized progression.
+
+Sources: [S218: What are the biopsychosocial risk factors associated with pain in postpartum runners? Development of a clinical decision tool](https://pmc.ncbi.nlm.nih.gov/articles/PMC8360599/); [S067: Clinical and exercise professional opinion on designing a postpartum return-to-running training programme: an international Delphi study and consensus statement](https://doi.org/10.1136/bjsports-2023-107490). Locator: postpartum runner survey abstract; consensus.

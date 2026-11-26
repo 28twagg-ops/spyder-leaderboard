@@ -11,7 +11,7 @@
   },
   {
     "topic": "SKIN-003",
-    "status": "Device guidance indirect; skin-type harms and long-term durability still open.",
+    "status": "HA-029: selected pigment and infection rates extracted; not comparable across devices; long-term durability open.",
     "closed": false
   },
   {
@@ -21,27 +21,27 @@
   },
   {
     "topic": "ABD-002",
-    "status": "Prior binder analysis retained; thresholds and harms open.",
+    "status": "HA-030: binder time-specific pain review extracted; adverse events and thresholds open.",
     "closed": false
   },
   {
     "topic": "BREAST-001",
-    "status": "No representative prospective pre-pregnancy shape cohort established; no causal feeding inference.",
+    "status": "HA-027: prospective gestational breast volume study identified, not a representative preconception-to-postweaning shape study.",
     "closed": false
   },
   {
     "topic": "FIT-001",
-    "status": "Partner-specific and resistance-specific preconception trials open.",
+    "status": "HA-035: male education trial and scoping review; fertility outcomes and specific resistance studies open.",
     "closed": false
   },
   {
     "topic": "FIT-002",
-    "status": "HA-022: resistance-specific attribution limitations; sport-specific outcomes open.",
+    "status": "HA-028: acute high-intensity physiology and observational heavy training studies; long-term safety open.",
     "closed": false
   },
   {
     "topic": "FIT-003",
-    "status": "HA-023: no verified prospective injury incidence.",
+    "status": "HA-038: survey risk factors; prospective injury incidence open.",
     "closed": false
   },
   {
@@ -51,7 +51,7 @@
   },
   {
     "topic": "BIRTH-001",
-    "status": "Prior BUMPES and pushing comparisons retained; assisted birth outcomes open.",
+    "status": "HA-032: EVA specific randomized result and wound complication tradeoff; broader patient-valued outcomes open.",
     "closed": false
   },
   {
@@ -81,27 +81,27 @@
   },
   {
     "topic": "VEIN-001",
-    "status": "Prior compression studies retained; later vascular treatment and adherence open.",
+    "status": "HA-031: edema circumference outcomes separated from vein prevention; adherence and treatment open.",
     "closed": false
   },
   {
     "topic": "MSK-001",
-    "status": "HA-017: sham pain result extracted; ergonomics and other subtopics open.",
+    "status": "HA-033: ergonomics consensus, belt trial and newer physiotherapy review; specific harms open.",
     "closed": false
   },
   {
     "topic": "REPRO-001",
-    "status": "Current schedules and indicated thyroid/genetic screening not comprehensively rechecked.",
+    "status": "HA-034: CDC guidance and genetic counseling checked; future dates, indication-specific thyroid work remain open.",
     "closed": false
   },
   {
     "topic": "WELL-001",
-    "status": "HA-024: outcome distinction; detailed body-image and partner effects open.",
+    "status": "HA-036: father-specific depression treatment RCT; prevention, body-image effect detail open.",
     "closed": false
   },
   {
     "topic": "DENT-001",
-    "status": "Prior trial comparisons retained; disease severity and access subgroup open.",
+    "status": "HA-037: updated periodontal review effect and absolute difference; subgroup/overlap open.",
     "closed": false
   },
   {

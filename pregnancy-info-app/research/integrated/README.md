@@ -11,3 +11,6 @@ All 66 quick-view fields now have selected source links plus original context. M
 
 ## Reproducible structural checks
 From this directory run `python3 validate_import.py`. This is dependency-free and checks source IDs/URLs, aliases, quick fields and chart constraints; it does not certify scientific validity. A current-pass JavaScript equivalent checked 1,578 nested links across the principal clinical, topic, timeline and media records, with zero mismatches. The Python script has been authored but not executed in this GitHub-only pass. Matching chart numbers are explicitly flagged; preserve overlap rules.
+
+## Latest high-pass supplement
+Canonical source registry and directory now hold 364 resource records. The earlier baseline QA counts describe the previous integration. Read ../high-audit/README.md and EVIDENCE_REPORT.md for additional research; all new numerical estimates and expanded nutrient data remain an explicit overlay. Do not silently replace or pool existing evidence.

@@ -675,5 +675,319 @@
     "content_implication": "Label outcome and gestational threshold.",
     "checked": "2026-11-26",
     "clinical_review": false
+  },
+  {
+    "id": "HA-027",
+    "topic_id": "BREAST-001",
+    "source_links": [
+      {
+        "source_id": "H032",
+        "title": "Assessment of breast volume changes during human pregnancy: prospective CGATE study",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/24100511/"
+      },
+      {
+        "source_id": "S044",
+        "title": "The effect of breastfeeding on breast aesthetics.",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/19083576/"
+      }
+    ],
+    "locator": "prospective study abstract; retrospective ptosis abstract",
+    "finding": "CGATE provides prospective three-dimensional breast volume measurements during pregnancy. The separate aesthetics study found no independent association of breastfeeding with ptosis.",
+    "limitation": "Volume during pregnancy is not post-lactation shape or causal prevention evidence; representative preconception-to-post-weaning measurement remains absent from this audit.",
+    "content_implication": "Do not imply either feeding choice preserves shape.",
+    "checked": "2026-11-26",
+    "clinical_review": false
+  },
+  {
+    "id": "HA-028",
+    "topic_id": "FIT-002",
+    "source_links": [
+      {
+        "source_id": "H033",
+        "title": "Maternal and fetal responses to acute high-intensity resistance exercise during pregnancy",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/39694629/"
+      },
+      {
+        "source_id": "H034",
+        "title": "Maternal and foetal cardiovascular responses to moderate-to-high intensity resistance exercise",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/41017756/"
+      },
+      {
+        "source_id": "H035",
+        "title": "Pushing limits: acute heavy-load resistance and supine exercise fetal well-being",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/40909193/"
+      },
+      {
+        "source_id": "H036",
+        "title": "Impact of heavy resistance training on pregnancy and postpartum health outcomes",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/36331580/"
+      },
+      {
+        "source_id": "CL05",
+        "title": "2025 prenatal resistance training review",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/40610191/"
+      }
+    ],
+    "locator": "acute exercise abstracts; observational study conclusion; review",
+    "finding": "Recent monitored resistance sessions include moderate-to-high intensity and trained participants. One supine-exercise participant had vena cava syndrome symptoms; acute studies generally report tolerability in studied populations. Heavy-training observational findings do not prove safety.",
+    "limitation": "Short-term fetal/maternal measurements and self-selected participants cannot establish rare-event or long-term safety, specific load limits or clearance for high-risk pregnancies.",
+    "content_implication": "Represent findings as exercise research, not a recommendation for heavy lifting or Valsalva.",
+    "checked": "2026-11-26",
+    "clinical_review": false
+  },
+  {
+    "id": "HA-029",
+    "topic_id": "SKIN-003",
+    "source_links": [
+      {
+        "source_id": "H037",
+        "title": "Microneedling as standalone treatment for striae rubrae and albae",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/41401824/"
+      },
+      {
+        "source_id": "H038",
+        "title": "Evaluating microneedling technique for striae alba lesions",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/36934160/"
+      },
+      {
+        "source_id": "H039",
+        "title": "Ablative fractional CO2 laser with rhEGF versus aloe vera for striae alba",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/30614013/"
+      },
+      {
+        "source_id": "S018",
+        "title": "Efficacy of Microneedling Versus Fractional Non-ablative Laser to Treat Striae Alba: A Randomized Study",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/30618025/"
+      }
+    ],
+    "locator": "primary indexed results and methods",
+    "finding": "Small microneedling comparison follows early and mature striae to six months. Separate 32-patient microneedling study reports 7 pigment changes and 1 infection (25% overall complications). In a fractional CO2 laser plus topical treatment trial, pigment change was reported in 95.8% of participants, decreasing by six months.",
+    "limitation": "Different devices, populations and ascertainment; rates not comparable head-to-head. Long-term follow-up beyond one year and pregnancy-specific safety unestablished.",
+    "content_implication": "Display pigment/infection risks and skin-type context; do not present these rates as general risks.",
+    "checked": "2026-11-26",
+    "clinical_review": false
+  },
+  {
+    "id": "HA-030",
+    "topic_id": "ABD-002",
+    "source_links": [
+      {
+        "source_id": "S036",
+        "title": "The efficacy of abdominal binder in women undergoing cesarean delivery: A meta-analysis of randomized controlled trials.",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/39793406/"
+      },
+      {
+        "source_id": "S038",
+        "title": "The effect of an abdominal binder on pain, bleeding and breastfeeding success after cesarean delivery: A randomized controlled trial",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/39780504/"
+      },
+      {
+        "source_id": "S039",
+        "title": "A randomized controlled trial of abdominal binders for the management of postoperative pain and distress after cesarean delivery",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/26892694/"
+      }
+    ],
+    "locator": "2025 review abstract",
+    "finding": "Binder meta-analysis reports postoperative pain WMD −1.13 (−2.15 to −.10) at 6h, −1.48 (−2.90 to −.06) at 12h, −.95 (−1.49 to −.41) at 24h and −.70 (−1.17 to −.22) at 48h.",
+    "limitation": "Same review, time-specific estimates may share participants. Full scales, adverse event counts, risk of bias and clinical importance not independently extracted.",
+    "content_implication": "Separate short-term pain from long-term shaping or gap closure.",
+    "checked": "2026-11-26",
+    "clinical_review": false
+  },
+  {
+    "id": "HA-031",
+    "topic_id": "VEIN-001",
+    "source_links": [
+      {
+        "source_id": "S130",
+        "title": "Positive perception and efficacy of compression stockings for prevention of lower limb edema in pregnant women",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/35399341/"
+      },
+      {
+        "source_id": "S127",
+        "title": "Compression stockings prophylaxis of emergent varicose veins in pregnancy: a prospective randomised controlled study",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/11835115/"
+      }
+    ],
+    "locator": "primary abstracts",
+    "finding": "60 pregnant participants randomized 30 per group in stocking trial; intervention group had smaller calf and ankle diameter increases. Earlier trial did not establish prevention of new varicose veins.",
+    "limitation": "Edema circumference and cosmetic vein formation differ; adherence and uncommon harms not fully appraised.",
+    "content_implication": "Separate symptom relief from cosmetic prevention and urgent clot symptoms.",
+    "checked": "2026-11-26",
+    "clinical_review": false
+  },
+  {
+    "id": "HA-032",
+    "topic_id": "BIRTH-001",
+    "source_links": [
+      {
+        "source_id": "H040",
+        "title": "EVA trial: lateral episiotomy or no episiotomy in vacuum assisted delivery",
+        "url": "https://www.bmj.com/content/385/bmj-2023-079014"
+      },
+      {
+        "source_id": "H041",
+        "title": "Contemporary trends in operative vaginal delivery and obstetric anal sphincter injuries 2016–2023",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/40959760/"
+      }
+    ],
+    "locator": "EVA primary abstract and indexed table; register study abstract",
+    "finding": "EVA trial 717 randomized, 702 primary analysis; lateral episiotomy 21/344 OASI versus 47/358 no episiotomy, RR .46 (96% CI .28–.78). Wound infection and dehiscence more common in intervention arm. US observational register comparison shows association of operative delivery with higher OASI odds.",
+    "limitation": "Specific nulliparous patients needing vacuum extraction; cannot extend to spontaneous vaginal delivery or select delivery mode based on observational odds. Interim analysis requires 96% CI.",
+    "content_implication": "Present benefit and wound tradeoffs with consent; not a universal episiotomy recommendation.",
+    "checked": "2026-11-26",
+    "clinical_review": false
+  },
+  {
+    "id": "HA-033",
+    "topic_id": "MSK-001",
+    "source_links": [
+      {
+        "source_id": "H042",
+        "title": "Management of pregnancy-related pelvic girdle pain: international Delphi study",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/35202976/"
+      },
+      {
+        "source_id": "H043",
+        "title": "Management of symphysis pubis dysfunction during pregnancy using exercise and pelvic support belts",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/16305268/"
+      },
+      {
+        "source_id": "H052",
+        "title": "Effectiveness of physiotherapy interventions for pregnancy-related lumbopelvic pain",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/42431130/"
+      }
+    ],
+    "locator": "consensus abstract; trial conclusion; review conclusion",
+    "finding": "Consensus includes ergonomics, education, strengthening, psychosocial factors and support aids. Trial found rigid/nonrigid belts did not add to exercise and advice in studied population. Recent review rates exercise evidence for medium-term pain/function as low certainty.",
+    "limitation": "Consensus is not proof of efficacy; belt outcomes and diagnoses differ; no individual treatment or ergonomics protocol established.",
+    "content_implication": "Keep support belts optional and symptom-specific; no permanent posture correction claims.",
+    "checked": "2026-11-26",
+    "clinical_review": false
+  },
+  {
+    "id": "HA-034",
+    "topic_id": "REPRO-001",
+    "source_links": [
+      {
+        "source_id": "S171",
+        "title": "Vaccine Recommendations Before, During, and After Pregnancy | Pregnancy & Vaccines | CDC",
+        "url": "https://www.cdc.gov/vaccines-pregnancy/recommended-vaccines/"
+      },
+      {
+        "source_id": "H044",
+        "title": "CDC guidelines for vaccinating pregnant women",
+        "url": "https://www.cdc.gov/vaccines-pregnancy/hcp/vaccination-guidelines/"
+      },
+      {
+        "source_id": "H045",
+        "title": "ACOG carrier screening for genetic conditions",
+        "url": "https://www.acog.org/clinical/clinical-guidance/committee-opinion/articles/2017/03/carrier-screening-for-genetic-conditions"
+      },
+      {
+        "source_id": "S142",
+        "title": "Prepregnancy Counseling | ACOG",
+        "url": "https://www.acog.org/clinical/clinical-guidance/committee-opinion/articles/2019/01/prepregnancy-counseling"
+      }
+    ],
+    "locator": "CDC current public page and vaccination guidelines; ACOG preconception and carrier guidance",
+    "finding": "US vaccine guidance is stage-, product-, risk- and season-specific; carrier screening ideally discussed before pregnancy to allow informed reproductive choices.",
+    "limitation": "CDC schedule and product recommendations may change; individual eligibility not established. No automated vaccination or testing advice.",
+    "content_implication": "Use current official links and clinician discussion rather than static schedule three years ahead.",
+    "checked": "2026-11-26",
+    "clinical_review": false
+  },
+  {
+    "id": "HA-035",
+    "topic_id": "FIT-001",
+    "source_links": [
+      {
+        "source_id": "H046",
+        "title": "Online education of men's reproductive health before childbearing: randomized trial",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/40575499/"
+      },
+      {
+        "source_id": "H047",
+        "title": "Preconception care for men: scoping review",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/41558839/"
+      },
+      {
+        "source_id": "S051",
+        "title": "Preconception lifestyle advice for people with infertility",
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC8092458/"
+      }
+    ],
+    "locator": "trial abstract; scoping review abstract; Cochrane review",
+    "finding": "Iran couples education RCT (168 couples) tested four weekly sessions; male preconception education may improve knowledge/behaviors. Scoping review identifies low awareness and sparse intervention research.",
+    "limitation": "Educational outcomes do not demonstrate higher live birth; infertility-specific lifestyle evidence cannot be applied to all couples.",
+    "content_implication": "Partner education and general health habits, not speculative supplements or fertility guarantees.",
+    "checked": "2026-11-26",
+    "clinical_review": false
+  },
+  {
+    "id": "HA-036",
+    "topic_id": "WELL-001",
+    "source_links": [
+      {
+        "source_id": "H048",
+        "title": "Group parenting intervention for male postpartum depression: cluster RCT",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/39356541/"
+      }
+    ],
+    "locator": "cluster RCT abstract",
+    "finding": "Group parenting intervention in fathers with postpartum depression reported improved depression at four months (group difference ratio .66, 95% CI .47–.91) and other outcomes.",
+    "limitation": "Selected symptomatic fathers; treatment rather than universal prevention; design, population and outcome scale need full extraction.",
+    "content_implication": "Include partner mental health as optional support pathway; no universal program or diagnostic score.",
+    "checked": "2026-11-26",
+    "clinical_review": false
+  },
+  {
+    "id": "HA-037",
+    "topic_id": "DENT-001",
+    "source_links": [
+      {
+        "source_id": "S154",
+        "title": "Effect of dental treatments on reduction of preterm birth: a systematic review and meta-analysis",
+        "url": "https://doi.org/10.1016/j.ajogmf.2025.101884"
+      },
+      {
+        "source_id": "S152",
+        "title": "Treatment of periodontal disease and the risk of preterm birth.",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/17079762/"
+      },
+      {
+        "source_id": "S155",
+        "title": "Treatment of periodontal disease during pregnancy: a randomized controlled trial",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/19935025/"
+      }
+    ],
+    "locator": "updated review abstract and earlier trial context",
+    "finding": "Updated systematic review reports PTB RR .85 (.71–1.02), moderate certainty as graded by authors; absolute estimate 20 fewer per 1000 (39 fewer to 3 more).",
+    "limitation": "CI spans no effect; heterogeneity, disease severity and overlap not fully extracted. Earlier larger RCTs did not establish obstetric benefit.",
+    "content_implication": "Maintain dental care for oral health, acknowledge possible but uncertain obstetric benefit.",
+    "checked": "2026-11-26",
+    "clinical_review": false
+  },
+  {
+    "id": "HA-038",
+    "topic_id": "FIT-003",
+    "source_links": [
+      {
+        "source_id": "S218",
+        "title": "What are the biopsychosocial risk factors associated with pain in postpartum runners? Development of a clinical decision tool",
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC8360599/"
+      },
+      {
+        "source_id": "S067",
+        "title": "Clinical and exercise professional opinion on designing a postpartum return-to-running training programme: an international Delphi study and consensus statement",
+        "url": "https://doi.org/10.1136/bjsports-2023-107490"
+      }
+    ],
+    "locator": "postpartum runner survey abstract; consensus",
+    "finding": "Prior injury, novice status, fatigue and incontinence associated with running pain in selected postpartum runners; this is not prospective injury incidence.",
+    "limitation": "Self-selection and confounding; do not use regression odds as an individual injury prediction or show automatic readiness score.",
+    "content_implication": "Continue symptom-based, individualized progression.",
+    "checked": "2026-11-26",
+    "clinical_review": false
   }
 ]

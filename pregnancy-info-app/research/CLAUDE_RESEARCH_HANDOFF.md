@@ -43,3 +43,6 @@ Read medium-prep/README.md and INTERVENTIONS.json for individual intervention-le
 
 ## High-effort evidence audit
 Read high-audit/README.md and EVIDENCE_REPORT.md. Use targeted findings and expanded age-specific nutrient table as research drafts; preserve exact source, outcome and scope, and keep new numerical extractions separate until independently reviewed. WHO calcium guideline update process and discrepant Purwar primary abstract estimate are important. No automated treatment or supplemental dose. Scope limits and open gaps in GAP_STATUS.json.
+
+## Extended high-pass import notes
+High audit now covers 38 targeted findings and 14 numerical records. Use source IDs from the canonical registry, not a second source identity. Compare matched outcome and stage only. EVA 96% interval is intentional. File-level illustration licenses in high-audit/VISUAL_ASSET_REFERENCES.json; do not copy book figures under an incompatible license. Remaining review gates remain explicit.

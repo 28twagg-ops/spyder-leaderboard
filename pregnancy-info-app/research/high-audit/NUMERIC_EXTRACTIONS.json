@@ -134,5 +134,112 @@
     "n": 5569,
     "note": "3 trials; overlapping review possible",
     "publish_status": "research draft; not imported into main charts"
+  },
+  {
+    "id": "HA-N09",
+    "source": {
+      "source_id": "H040",
+      "title": "EVA trial: lateral episiotomy or no episiotomy in vacuum assisted delivery",
+      "url": "https://www.bmj.com/content/385/bmj-2023-079014"
+    },
+    "outcome": "Obstetric anal sphincter injury, lateral episiotomy vs no episiotomy in nulliparous vacuum extraction",
+    "measure": "RR",
+    "estimate": 0.46,
+    "lower": 0.28,
+    "upper": 0.78,
+    "confidence_level": 96,
+    "n": 702,
+    "note": "Primary trial, interim-adjusted confidence level. Wound complications separate.",
+    "publish_status": "research draft; not imported into main charts",
+    "intervention_events": 21,
+    "intervention_n": 344,
+    "control_events": 47,
+    "control_n": 358,
+    "registry": "NCT02643108"
+  },
+  {
+    "id": "HA-N10",
+    "source": {
+      "source_id": "S154",
+      "title": "Effect of dental treatments on reduction of preterm birth: a systematic review and meta-analysis",
+      "url": "https://doi.org/10.1016/j.ajogmf.2025.101884"
+    },
+    "outcome": "Preterm birth, periodontal treatment vs minimal/no treatment",
+    "measure": "RR",
+    "estimate": 0.85,
+    "lower": 0.71,
+    "upper": 1.02,
+    "confidence_level": 95,
+    "n": null,
+    "note": "Review; moderate certainty as graded by authors; CI includes null.",
+    "publish_status": "research draft; not imported into main charts"
+  },
+  {
+    "id": "HA-N11",
+    "source": {
+      "source_id": "S036",
+      "title": "The efficacy of abdominal binder in women undergoing cesarean delivery: A meta-analysis of randomized controlled trials.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/39793406/"
+    },
+    "outcome": "Postcesarean pain at 6 hours, binder vs control",
+    "measure": "WMD",
+    "estimate": -1.13,
+    "lower": -2.15,
+    "upper": -0.1,
+    "confidence_level": 95,
+    "n": null,
+    "note": "Timepoints from same review; exact outcome scale and trial overlap need full-text check.",
+    "publish_status": "research draft; not imported into main charts"
+  },
+  {
+    "id": "HA-N12",
+    "source": {
+      "source_id": "S036",
+      "title": "The efficacy of abdominal binder in women undergoing cesarean delivery: A meta-analysis of randomized controlled trials.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/39793406/"
+    },
+    "outcome": "Postcesarean pain at 12 hours, binder vs control",
+    "measure": "WMD",
+    "estimate": -1.48,
+    "lower": -2.9,
+    "upper": -0.06,
+    "confidence_level": 95,
+    "n": null,
+    "note": "Timepoints from same review; exact outcome scale and trial overlap need full-text check.",
+    "publish_status": "research draft; not imported into main charts"
+  },
+  {
+    "id": "HA-N13",
+    "source": {
+      "source_id": "S036",
+      "title": "The efficacy of abdominal binder in women undergoing cesarean delivery: A meta-analysis of randomized controlled trials.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/39793406/"
+    },
+    "outcome": "Postcesarean pain at 24 hours, binder vs control",
+    "measure": "WMD",
+    "estimate": -0.95,
+    "lower": -1.49,
+    "upper": -0.41,
+    "confidence_level": 95,
+    "n": null,
+    "note": "Timepoints from same review; exact outcome scale and trial overlap need full-text check.",
+    "publish_status": "research draft; not imported into main charts"
+  },
+  {
+    "id": "HA-N14",
+    "source": {
+      "source_id": "S036",
+      "title": "The efficacy of abdominal binder in women undergoing cesarean delivery: A meta-analysis of randomized controlled trials.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/39793406/"
+    },
+    "outcome": "Postcesarean pain at 48 hours, binder vs control",
+    "measure": "WMD",
+    "estimate": -0.7,
+    "lower": -1.17,
+    "upper": -0.22,
+    "confidence_level": 95,
+    "n": null,
+    "note": "Timepoints from same review; exact outcome scale and trial overlap need full-text check.",
+    "publish_status": "research draft; not imported into main charts"
   }
 ]

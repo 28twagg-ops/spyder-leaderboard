@@ -40,3 +40,6 @@ All 66 quick-view fields have selected source links; source/resource registry no
 
 ## High audit
 26 targeted checks, 9 scoped funding disclosures, 65 expanded nutrition rows, 8 numeric records, 22 gap statuses. No independent clinical review; no claim of exhaustive completion.
+
+## Extended high audit
+38 total selected evidence checks in high pass; 14 numerical records; 364 source/resource records; 5 visual reference candidates; 22 topic gap statuses. No clinical review or full systematic audit.

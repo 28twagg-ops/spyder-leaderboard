@@ -1,5 +1,5 @@
 {
-  "source_records": 312,
+  "source_records": 364,
   "baseline": 223,
   "checked_records": 69,
   "distinct_checked": 69,
@@ -56,5 +56,8 @@
       ]
     }
   ],
-  "chart_review_note": "Matching numbers flagged, not automatically collapsed. No independent trial count generated from chart rows."
+  "chart_review_note": "Matching numbers flagged, not automatically collapsed. No independent trial count generated from chart rows.",
+  "high_pass_source_records_added": 52,
+  "high_pass_audit_checks": 38,
+  "high_pass_note": "Prior baseline integration check counts remain historical; high-audit/QA.json validates new linked evidence. New estimates remain in overlay pending review."
 }
