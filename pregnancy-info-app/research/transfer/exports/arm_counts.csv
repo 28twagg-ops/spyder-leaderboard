@@ -1,0 +1,8 @@
+"id","source_id","study_id","outcome","comparison","denominator_type","intervention_events","intervention_n","control_events","control_n","source_url","denominator_source_id","original_file","clinical_review","show_as_independent_trial"
+"H09","CL03","","Cure of established postpartum SUI after 3 months","Supervised PFMT plus biofeedback vs PFMT alone","","45","223","20","229","https://pmc.ncbi.nlm.nih.gov/articles/PMC11539013/","","integrated/CHART_DATA_LINKED.json","false","false"
+"H10","CL03","","Improvement of established postpartum SUI after 3 months","Same cohort as H09; different outcome","","132","223","102","229","https://pmc.ncbi.nlm.nih.gov/articles/PMC11539013/","","integrated/CHART_DATA_LINKED.json","false","false"
+"H11","S212","","New melasma cases during sunscreen study","Single cohort; historical control not equivalent to randomized comparator","","","","","","https://pubmed.ncbi.nlm.nih.gov/17567299/","","integrated/CHART_DATA_LINKED.json","false","false"
+"K-ADORE-1","R007","","","1000mg vs 200mg DHA","","9","540","12","492","https://pubmed.ncbi.nlm.nih.gov/34308309/","","integrated/CHART_DATA_LINKED.json","false","false"
+"K-ADORE-2","R007","","","","","5","249","9","219","https://pubmed.ncbi.nlm.nih.gov/34308309/","","integrated/CHART_DATA_LINKED.json","false","false"
+"K-striae-cohort","R008","","","","","","","","","https://pubmed.ncbi.nlm.nih.gov/41083953/","","integrated/CHART_DATA_LINKED.json","false","false"
+"GA-ARM-T009","S009","T009","","","valid analyzed cases; original randomization totals unknown","14","41","22","39","https://pubmed.ncbi.nlm.nih.gov/19291041/","S001","external-audits/grok/TRIAL_ARMS.json","false","false"

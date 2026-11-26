@@ -1,0 +1,285 @@
+{
+  "schema_version": 1,
+  "purpose": "Derived portability views; canonical JSON/Markdown/SVG remain authoritative.",
+  "input_files": [
+    {
+      "key": "manifest",
+      "path": "release-prep/FINAL_RESEARCH_IMPORT.json",
+      "git_blob_sha": "9cdcc43d520723655838455b117f764705402315"
+    },
+    {
+      "key": "sources",
+      "path": "integrated/CANONICAL_SOURCE_REGISTRY.json",
+      "git_blob_sha": "ce3f5cd03c5e35d426d99b3f637b9ea7adf295c0"
+    },
+    {
+      "key": "topics",
+      "path": "integrated/TOPIC_BUNDLES.json",
+      "git_blob_sha": "e9cbe8cc139d23dfa7420a002264f731f40dab44"
+    },
+    {
+      "key": "claims",
+      "path": "CLAIMS.json",
+      "git_blob_sha": "887c35c1cc5c844eb1cc975aa7bb5790c01e146a"
+    },
+    {
+      "key": "assessments",
+      "path": "EVIDENCE_ASSESSMENTS.json",
+      "git_blob_sha": "6aceb640e0dab35c20c0be2a7bd8b064147867e8"
+    },
+    {
+      "key": "safety_assessments",
+      "path": "SAFETY_ASSESSMENTS.json",
+      "git_blob_sha": "a6983a74f7ea76bdecc0a4809779320347046f45"
+    },
+    {
+      "key": "timeline",
+      "path": "TIMELINE.json",
+      "git_blob_sha": "6807ab51d78c2d7185575bfd702a0f7ec93c9309"
+    },
+    {
+      "key": "studies",
+      "path": "integrated/STUDIES_LINKED.json",
+      "git_blob_sha": "29688509f46aa88e226862b47805beb6f71854ed"
+    },
+    {
+      "key": "interventions",
+      "path": "medium-prep/INTERVENTIONS.json",
+      "git_blob_sha": "4b200620b1068254dc430db67fbd3e95c43dc81b"
+    },
+    {
+      "key": "nutrients",
+      "path": "high-audit/NUTRIENT_REFERENCE_EXPANDED.json",
+      "git_blob_sha": "b40b75878b123a4dd8e4f279167b0be1e1de6eb0"
+    },
+    {
+      "key": "tests",
+      "path": "release-prep/SAFETY_TEST_SUITE.json",
+      "git_blob_sha": "fdad4fad751d87ddaec38b385094de332bad84a8"
+    },
+    {
+      "key": "latest",
+      "path": "release-prep/LATEST_SAFETY_AND_EVIDENCE_CHECKS.json",
+      "git_blob_sha": "ee5f7b29bdf0239ea0b183dd652c2d6de6f7650e"
+    },
+    {
+      "key": "visual",
+      "path": "release-prep/VISUAL_EDUCATION_SPEC.json",
+      "git_blob_sha": "4eff09af61d1f6a446c0f4ed237b49a1c56c4816"
+    },
+    {
+      "key": "acceptance",
+      "path": "release-prep/RELEASE_ACCEPTANCE.json",
+      "git_blob_sha": "416b7c3a55f0d83358a9e63e74fcb3e54dd1cff5"
+    }
+  ],
+  "counts": {
+    "sources": 382,
+    "unique_source_ids": 382,
+    "topics": 22,
+    "claims": 53,
+    "baseline_studies": 37,
+    "timeline_phases": 22,
+    "baseline_interventions": 101,
+    "intervention_candidates": 10,
+    "nutrients": 65,
+    "intervals": 91,
+    "arm_counts": 7,
+    "media_candidates": 20,
+    "safety_scenarios": 68,
+    "prompt_variants": 204,
+    "p0_scenarios": 49,
+    "latest_audit_checks": 5,
+    "visual_briefs": 12,
+    "svg_assets": 4,
+    "acceptance_requirements": 14
+  },
+  "outputs": [
+    {
+      "file": "sources.csv",
+      "format": "CSV",
+      "count": 382,
+      "origin": "integrated/CANONICAL_SOURCE_REGISTRY.json",
+      "lossless": false
+    },
+    {
+      "file": "interval_estimates.csv",
+      "format": "CSV",
+      "count": 91,
+      "origin": "release-prep/FINAL_RESEARCH_IMPORT.json",
+      "lossless": false
+    },
+    {
+      "file": "arm_counts.csv",
+      "format": "CSV",
+      "count": 7,
+      "origin": "release-prep/FINAL_RESEARCH_IMPORT.json",
+      "lossless": false
+    },
+    {
+      "file": "nutrients.csv",
+      "format": "CSV",
+      "count": 65,
+      "origin": "high-audit/NUTRIENT_REFERENCE_EXPANDED.json",
+      "lossless": false
+    },
+    {
+      "file": "intervention_index.csv",
+      "format": "CSV",
+      "count": 101,
+      "origin": "medium-prep/INTERVENTIONS.json",
+      "lossless": false
+    },
+    {
+      "file": "claim_index.csv",
+      "format": "CSV",
+      "count": 53,
+      "origin": "CLAIMS.json",
+      "lossless": false
+    },
+    {
+      "file": "sources.jsonl",
+      "format": "JSONL",
+      "count": 382,
+      "origin": "integrated/CANONICAL_SOURCE_REGISTRY.json",
+      "lossless": true
+    },
+    {
+      "file": "topics.jsonl",
+      "format": "JSONL",
+      "count": 22,
+      "origin": "integrated/TOPIC_BUNDLES.json",
+      "lossless": true
+    },
+    {
+      "file": "claims.jsonl",
+      "format": "JSONL",
+      "count": 53,
+      "origin": "CLAIMS.json",
+      "lossless": true
+    },
+    {
+      "file": "evidence_assessments.jsonl",
+      "format": "JSONL",
+      "count": 53,
+      "origin": "EVIDENCE_ASSESSMENTS.json",
+      "lossless": true
+    },
+    {
+      "file": "safety_assessments.jsonl",
+      "format": "JSONL",
+      "count": 22,
+      "origin": "SAFETY_ASSESSMENTS.json",
+      "lossless": true
+    },
+    {
+      "file": "timeline.jsonl",
+      "format": "JSONL",
+      "count": 22,
+      "origin": "TIMELINE.json",
+      "lossless": true
+    },
+    {
+      "file": "studies.jsonl",
+      "format": "JSONL",
+      "count": 37,
+      "origin": "integrated/STUDIES_LINKED.json",
+      "lossless": true
+    },
+    {
+      "file": "interventions.jsonl",
+      "format": "JSONL",
+      "count": 101,
+      "origin": "medium-prep/INTERVENTIONS.json",
+      "lossless": true
+    },
+    {
+      "file": "intervention_candidates.jsonl",
+      "format": "JSONL",
+      "count": 10,
+      "origin": "release-prep/FINAL_RESEARCH_IMPORT.json#intervention_candidates",
+      "lossless": true
+    },
+    {
+      "file": "nutrients.jsonl",
+      "format": "JSONL",
+      "count": 65,
+      "origin": "high-audit/NUTRIENT_REFERENCE_EXPANDED.json",
+      "lossless": true
+    },
+    {
+      "file": "interval_estimates.jsonl",
+      "format": "JSONL",
+      "count": 91,
+      "origin": "release-prep/FINAL_RESEARCH_IMPORT.json#numerics.intervals",
+      "lossless": true
+    },
+    {
+      "file": "arm_counts.jsonl",
+      "format": "JSONL",
+      "count": 7,
+      "origin": "release-prep/FINAL_RESEARCH_IMPORT.json#numerics.counts",
+      "lossless": true
+    },
+    {
+      "file": "safety_tests.jsonl",
+      "format": "JSONL",
+      "count": 68,
+      "origin": "release-prep/SAFETY_TEST_SUITE.json#scenarios",
+      "lossless": true
+    },
+    {
+      "file": "media_candidates.jsonl",
+      "format": "JSONL",
+      "count": 20,
+      "origin": "release-prep/FINAL_RESEARCH_IMPORT.json#media_candidates",
+      "lossless": true
+    },
+    {
+      "file": "latest_checks.jsonl",
+      "format": "JSONL",
+      "count": 5,
+      "origin": "release-prep/LATEST_SAFETY_AND_EVIDENCE_CHECKS.json#checks",
+      "lossless": true
+    },
+    {
+      "file": "visual_briefs.jsonl",
+      "format": "JSONL",
+      "count": 12,
+      "origin": "release-prep/VISUAL_EDUCATION_SPEC.json#items",
+      "lossless": true
+    },
+    {
+      "file": "TOPIC_NAVIGATOR.md",
+      "format": "Markdown",
+      "count": 22,
+      "origin": [
+        "integrated/TOPIC_BUNDLES.json",
+        "CLAIMS.json",
+        "medium-prep/INTERVENTIONS.json"
+      ],
+      "lossless": false
+    },
+    {
+      "file": "bibliography.ris",
+      "format": "RIS",
+      "count": 231,
+      "origin": "integrated/CANONICAL_SOURCE_REGISTRY.json",
+      "lossless": false,
+      "scope": "DOI or PMID present; generic type intentionally, author text retained in note; not verified reference-manager metadata"
+    }
+  ],
+  "qa": {
+    "missing_selected_source_refs": [],
+    "duplicate_source_ids": 0,
+    "clinical_review_count": 0,
+    "clinical_runtime_tests_executed": 0
+  },
+  "rules": [
+    "JSONL preserves each source record object; origin identifies input, generated record_id is an export key not necessarily canonical.",
+    "CSV is a selected projection; arrays/objects are JSON strings, null and missing both blank, formula-like strings prefixed with an apostrophe for spreadsheet safety.",
+    "RIS only includes records with DOI or PMID; mixed publication types; no independently validated metadata.",
+    "No automatic merging of overlapping estimates; retain alias and cohort rules from final import.",
+    "Do not use these exports as a substitute for latest audits, full original dossiers or clinical review."
+  ]
+}
