@@ -1,0 +1,104 @@
+{
+  "date": "2026-11-26",
+  "status": "pre-implementation requirements; actual runtime untested",
+  "acceptance": [
+    {
+      "id": "Q01",
+      "area": "Import",
+      "expected": "All declared files load; version and source snapshot match; no silent dropped records.",
+      "status": "not executed"
+    },
+    {
+      "id": "Q02",
+      "area": "Source integrity",
+      "expected": "Every visible evidence claim resolves to exact source locator and review status; aliases retain original provenance.",
+      "status": "not executed"
+    },
+    {
+      "id": "Q03",
+      "area": "Clinical gate",
+      "expected": "All research-only, disputed, missing-safety and unreviewed records blocked from automatic patient recommendations.",
+      "status": "not executed"
+    },
+    {
+      "id": "Q04",
+      "area": "Emergency",
+      "expected": "Every P0 prompt and non-chat route prioritizes urgent care over routine education.",
+      "status": "not executed"
+    },
+    {
+      "id": "Q05",
+      "area": "Stage",
+      "expected": "Unknown stage stays unknown; lactation and postpartum healing are separate from pregnancy.",
+      "status": "not executed"
+    },
+    {
+      "id": "Q06",
+      "area": "Evidence charts",
+      "expected": "Unit/estimand, CI level, arms, outcome, timepoint, study/review and cohort links preserved; no pooled overlapping evidence.",
+      "status": "not executed"
+    },
+    {
+      "id": "Q07",
+      "area": "Product labels",
+      "expected": "Units and per-serving math correct; price date and missing values visible; no certification=efficacy claims.",
+      "status": "not executed"
+    },
+    {
+      "id": "Q08",
+      "area": "Accessibility",
+      "expected": "Keyboard, screen reader, 200% zoom, contrast, reduced motion, captions and accessible charts checked.",
+      "status": "not executed"
+    },
+    {
+      "id": "Q09",
+      "area": "Privacy",
+      "expected": "No private patient data in logs/analytics; explicit consent; delete/export and account separation tested.",
+      "status": "not executed"
+    },
+    {
+      "id": "Q10",
+      "area": "UX",
+      "expected": "Safety visible in quick view; no coercion, body scoring, required cosmetic routine, or feeding pressure.",
+      "status": "not executed"
+    },
+    {
+      "id": "Q11",
+      "area": "Media",
+      "expected": "Playback, captions, transcript, rights, motion and clinical content independently reviewed.",
+      "status": "not executed"
+    },
+    {
+      "id": "Q12",
+      "area": "Offline/failure",
+      "expected": "Missing source, failed media, stale guideline or missing stage fails safely without fake recommendation.",
+      "status": "not executed"
+    },
+    {
+      "id": "Q13",
+      "area": "Clinical review",
+      "expected": "Obstetrics, pharmacy/teratology, perinatal dietetics, pelvic health, dermatology and lactation review relevant claims; record reviewer, date, scope, version.",
+      "status": "not executed"
+    },
+    {
+      "id": "Q14",
+      "area": "Deployment",
+      "expected": "Verify actual build, route coverage, mobile/desktop and regression tests; no medical release with unresolved P0 or no clinical review.",
+      "status": "not executed"
+    }
+  ],
+  "execution_record": {
+    "build_commit": null,
+    "environment": null,
+    "route": null,
+    "test_id": null,
+    "prompt_variant": null,
+    "observed_result": null,
+    "screenshot": null,
+    "assessor": null,
+    "review_date": null,
+    "pass_fail": null,
+    "issue_id": null
+  },
+  "limitations": "No running application inspected, no external clinician signoff, no playback audit, no independent usability participants. These are requirements and fixtures; not completed runtime tests."
+}
