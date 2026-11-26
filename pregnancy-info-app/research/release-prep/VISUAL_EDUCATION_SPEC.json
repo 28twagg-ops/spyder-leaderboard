@@ -1,0 +1,270 @@
+{
+  "scope": "12 prioritized original visual production briefs supplement existing 22 storyboards. Actual editable conceptual SVG assets are separate; no anatomy is presented as diagnostic, and no third-party figure copied. Clinical and accessibility review required.",
+  "items": [
+    {
+      "id": "V01",
+      "topic_id": "SKIN-001",
+      "title": "Skin surface comfort versus dermal striae",
+      "source_ids": [
+        "S001",
+        "S216",
+        "RP003",
+        "RP004"
+      ],
+      "composition": "Two-panel schematic, not to scale: surface barrier and deeper dermal connective tissue, surface moisturizing layer remains distinct from dermal change. Show varied natural skin tones, no before-after promises.",
+      "alt_text": "A moisturizer can help dryness; it cannot be shown to prevent all deeper stretch marks.",
+      "visible_safety": "No depiction of cream penetrating or repairing collagen as established fact; note coconut oil evidence is preliminary. No appearance rating.",
+      "motion_spec": "Illustrate a drop resting on a surface then highlight a separate deeper region; no animated healing.",
+      "status": "original production brief; not clinically approved",
+      "design_authority": "Claude",
+      "accessibility": [
+        "Readable without audio, hover, color, or animation",
+        "Plain language labels; source details separate",
+        "Static equivalent; reduced motion and pause",
+        "No body-size scoring or misleading transformations"
+      ]
+    },
+    {
+      "id": "V02",
+      "topic_id": "ABD-001",
+      "title": "Inter-rectus distance is not the same as strength",
+      "source_ids": [
+        "S028",
+        "S030",
+        "S032"
+      ],
+      "composition": "Paired frontal conceptual abdominal wall drawings with same measured separation marker and independent strength icon; not to scale. In second frame display measured study endpoints separately.",
+      "alt_text": "Gap measurement and muscle performance can change independently.",
+      "visible_safety": "No self-diagnosis threshold or requirement to close gap; no immediate postpartum curl-up tutorial.",
+      "motion_spec": "Keep width marker fixed and change illustrative strength meter; use actual trial values only in separate chart.",
+      "status": "original production brief; not clinically approved",
+      "design_authority": "Claude",
+      "accessibility": [
+        "Readable without audio, hover, color, or animation",
+        "Plain language labels; source details separate",
+        "Static equivalent; reduced motion and pause",
+        "No body-size scoring or misleading transformations"
+      ]
+    },
+    {
+      "id": "V03",
+      "topic_id": "PELV-001",
+      "title": "Pelvic floor contraction and relaxation",
+      "source_ids": [
+        "S069",
+        "S193",
+        "S194"
+      ],
+      "composition": "Simplified lateral pelvis schematic with bladder, uterus if relevant, rectum and pelvic floor labeled, distinguish muscle contraction and relaxation with arrows in opposite directions. Clinician/PT approval of anatomy and movement needed.",
+      "alt_text": "Pelvic floor training can include coordination and relaxation, not just strengthening.",
+      "visible_safety": "Do not imply Kegels are appropriate with pain/high tone; no universal repetition counts or internal exam instructions.",
+      "motion_spec": "Two equally important frames for coordinated contraction and release; provide pause/stop and text equivalent.",
+      "status": "original production brief; not clinically approved",
+      "design_authority": "Claude",
+      "accessibility": [
+        "Readable without audio, hover, color, or animation",
+        "Plain language labels; source details separate",
+        "Static equivalent; reduced motion and pause",
+        "No body-size scoring or misleading transformations"
+      ]
+    },
+    {
+      "id": "V04",
+      "topic_id": "FIT-003",
+      "title": "Progressive postpartum activity",
+      "source_ids": [
+        "S064",
+        "N305",
+        "S131"
+      ],
+      "composition": "Decision map rather than fixed calendar: current healing and symptoms → appropriate light movement or clinician input → gradual progression if tolerated. Warning signs bypass exercise path.",
+      "alt_text": "Recovery varies; symptoms, healing and complications matter more than a calendar milestone.",
+      "visible_safety": "No automatic medical clearance. Bleeding increase, incision pain and urgent warning signs remain visible.",
+      "motion_spec": "Reveal each step on tap; never animate a user through worsening symptoms.",
+      "status": "original production brief; not clinically approved",
+      "design_authority": "Claude",
+      "accessibility": [
+        "Readable without audio, hover, color, or animation",
+        "Plain language labels; source details separate",
+        "Static equivalent; reduced motion and pause",
+        "No body-size scoring or misleading transformations"
+      ]
+    },
+    {
+      "id": "V05",
+      "topic_id": "NUTR-001",
+      "title": "Daily total intake vs supplement amount",
+      "source_ids": [
+        "S086",
+        "S215",
+        "IA007"
+      ],
+      "composition": "Use separate blocks for food and supplement; both contribute to total. Show choline reference 450 mg pregnancy/550 mg lactation separately from 930 mg research arm; preserve units and stage.",
+      "alt_text": "A nutrient reference is about total intake, not a universal supplement prescription.",
+      "visible_safety": "Do not use an experimental dose as a target, or imply a product fills all needs.",
+      "motion_spec": "On toggle, show stage-specific reference without automatically calculating a prescription.",
+      "status": "original production brief; not clinically approved",
+      "design_authority": "Claude",
+      "accessibility": [
+        "Readable without audio, hover, color, or animation",
+        "Plain language labels; source details separate",
+        "Static equivalent; reduced motion and pause",
+        "No body-size scoring or misleading transformations"
+      ]
+    },
+    {
+      "id": "V06",
+      "topic_id": "FACE-001",
+      "title": "Pregnancy and lactation ingredient distinctions",
+      "source_ids": [
+        "IA001",
+        "IA002",
+        "IA003",
+        "IA004",
+        "IA005",
+        "S204",
+        "RP001",
+        "RP005"
+      ],
+      "composition": "Stage columns for pregnancy/lactation; separate oral isotretinoin, topical retinoids, hydroquinone and bakuchiol. Use text statuses and rationale, not green/red alone.",
+      "alt_text": "Exposure route, stage and evidence quality matter.",
+      "visible_safety": "Pregnancy elective topical retinoids avoid; lactation topical tretinoin separate; bakuchiol unknown. No universal product safety stamp.",
+      "motion_spec": "Tap a compound for evidence and caveats; no patient-specific eligibility.",
+      "status": "original production brief; not clinically approved",
+      "design_authority": "Claude",
+      "accessibility": [
+        "Readable without audio, hover, color, or animation",
+        "Plain language labels; source details separate",
+        "Static equivalent; reduced motion and pause",
+        "No body-size scoring or misleading transformations"
+      ]
+    },
+    {
+      "id": "V07",
+      "topic_id": "BREAST-001",
+      "title": "Feeding choices and support",
+      "source_ids": [
+        "S044",
+        "S046",
+        "N316"
+      ],
+      "composition": "Neutral illustration of breastfeeding, expressed milk and formula preparation as alternatives chosen by family and clinician as appropriate. Optional support garment shown independently.",
+      "alt_text": "Choose feeding based on health, preference and support, not appearance pressure.",
+      "visible_safety": "Do not depict a feeding choice as cosmetically superior or shame any choice.",
+      "motion_spec": "Show options at equal visual weight; no default or ranking.",
+      "status": "original production brief; not clinically approved",
+      "design_authority": "Claude",
+      "accessibility": [
+        "Readable without audio, hover, color, or animation",
+        "Plain language labels; source details separate",
+        "Static equivalent; reduced motion and pause",
+        "No body-size scoring or misleading transformations"
+      ]
+    },
+    {
+      "id": "V08",
+      "topic_id": "VEIN-001",
+      "title": "Routine swelling versus urgent symptom pattern",
+      "source_ids": [
+        "S131",
+        "S130"
+      ],
+      "composition": "Simple two-leg diagram highlighting a one-sided new painful swollen area versus generalized mild swelling; no diagnosis from appearance alone.",
+      "alt_text": "New one-sided swelling and pain during pregnancy or postpartum requires immediate assessment.",
+      "visible_safety": "Do not show compression, massage or exercise as replacement for evaluation.",
+      "motion_spec": "Urgent message is static and immediately readable; no gating behind animation.",
+      "status": "original production brief; not clinically approved",
+      "design_authority": "Claude",
+      "accessibility": [
+        "Readable without audio, hover, color, or animation",
+        "Plain language labels; source details separate",
+        "Static equivalent; reduced motion and pause",
+        "No body-size scoring or misleading transformations"
+      ]
+    },
+    {
+      "id": "V09",
+      "topic_id": "REPRO-001",
+      "title": "Male supplement trial: live birth",
+      "source_ids": [
+        "IA008"
+      ],
+      "composition": "Two proportion bars with same zero origin and 0–100% scale, exact counts, CI for reported risk difference in caption. No product logo.",
+      "alt_text": "High-dose folic acid plus zinc did not improve live birth in this trial of infertility-treatment couples.",
+      "visible_safety": "No claim about maternal folic acid or correction of deficiency.",
+      "motion_spec": "Static accessible comparison; never use animation that exaggerates a one-point difference.",
+      "status": "original production brief; not clinically approved",
+      "design_authority": "Claude",
+      "accessibility": [
+        "Readable without audio, hover, color, or animation",
+        "Plain language labels; source details separate",
+        "Static equivalent; reduced motion and pause",
+        "No body-size scoring or misleading transformations"
+      ]
+    },
+    {
+      "id": "V10",
+      "topic_id": "SKIN-002",
+      "title": "Why a research result may not apply to pregnancy",
+      "source_ids": [
+        "S011",
+        "S015",
+        "CL02"
+      ],
+      "composition": "Population → studied endpoint → different target outcome. Show adult forearm elasticity separate from pregnancy striae prevention; avoid implication of proven mechanism.",
+      "alt_text": "An adult skin measurement is not a pregnancy prevention outcome.",
+      "visible_safety": "No multiyear collagen regimen from adult study; unresolved placebo-exclusion discrepancy.",
+      "motion_spec": "Sequential reveal of population, outcome and directness; show source link and uncertainty before CTA.",
+      "status": "original production brief; not clinically approved",
+      "design_authority": "Claude",
+      "accessibility": [
+        "Readable without audio, hover, color, or animation",
+        "Plain language labels; source details separate",
+        "Static equivalent; reduced motion and pause",
+        "No body-size scoring or misleading transformations"
+      ]
+    },
+    {
+      "id": "V11",
+      "topic_id": "SCAR-001",
+      "title": "Healing comes before scar treatment",
+      "source_ids": [
+        "S131",
+        "S198"
+      ],
+      "composition": "Two conceptual stages: healing wound and closed healed skin; clinician-review gate separates them. Do not illustrate procedural technique or exact timelines.",
+      "alt_text": "New drainage, fever or worsening pain calls for clinical assessment, not cosmetic treatment.",
+      "visible_safety": "No scar massage on open wound; no home microneedling.",
+      "motion_spec": "Static visual with text labels; no animation showing accelerated healing.",
+      "status": "original production brief; not clinically approved",
+      "design_authority": "Claude",
+      "accessibility": [
+        "Readable without audio, hover, color, or animation",
+        "Plain language labels; source details separate",
+        "Static equivalent; reduced motion and pause",
+        "No body-size scoring or misleading transformations"
+      ]
+    },
+    {
+      "id": "V12",
+      "topic_id": "WELL-001",
+      "title": "Partner support and urgent mental health",
+      "source_ids": [
+        "S131",
+        "H048"
+      ],
+      "composition": "Partner support examples: listening, meals, childcare, rest opportunities, help arranging clinical support. Separate visible urgent warning for immediate harm risk.",
+      "alt_text": "Support the pregnant/postpartum person's autonomy and access to care.",
+      "visible_safety": "No appearance scoring, coerced routines, surveillance or diagnosis; urgent risk bypasses self-help.",
+      "motion_spec": "Gentle reveal of supportive tasks; crisis information always visible.",
+      "status": "original production brief; not clinically approved",
+      "design_authority": "Claude",
+      "accessibility": [
+        "Readable without audio, hover, color, or animation",
+        "Plain language labels; source details separate",
+        "Static equivalent; reduced motion and pause",
+        "No body-size scoring or misleading transformations"
+      ]
+    }
+  ]
+}
