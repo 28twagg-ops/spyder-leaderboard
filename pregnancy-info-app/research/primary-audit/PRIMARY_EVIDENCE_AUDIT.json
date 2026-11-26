@@ -1,0 +1,195 @@
+{
+  "date": "2026-11-26",
+  "baseline_commit": "4bf5d95c0220c62b4c2ac2d0d21b3e0becf1ac9f",
+  "scope": "Targeted primary-report and discrepancy audit; not clinical review or systematic publication-status clearance.",
+  "checks": [
+    {
+      "id": "PA-001",
+      "topic": "SKIN-002",
+      "source_id": "S015",
+      "doi": "10.1159/000351376",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/23949208/",
+      "access_copy": "https://www.orling.cz/uploads/files/gelita-proksch-2013-skin-pharmacology-and-physiology.pdf",
+      "locator": "pp 48–51, Tables 1–2, Fig 1 and Results; image inspected pp 48–50",
+      "population": "69 healthy women 35–55, Fitzpatrick I–IV, self-reported dry forearms; pregnancy and breastfeeding excluded",
+      "site": "volar forearm",
+      "arms": [
+        {
+          "label": "porcine type I collagen peptides",
+          "dose_g_day": 2.5,
+          "randomized": 23,
+          "age_under_50": 14,
+          "age_50_plus": 9
+        },
+        {
+          "label": "same collagen peptides",
+          "dose_g_day": 5,
+          "randomized": 23,
+          "age_under_50": 15,
+          "age_50_plus": 8
+        },
+        {
+          "label": "maltodextrin placebo",
+          "dose_g_day": 2.5,
+          "randomized": 23,
+          "age_under_50": 13,
+          "age_50_plus": 9
+        }
+      ],
+      "duration_weeks": 8,
+      "followup_weeks_after_stop": 4,
+      "dropouts": 7,
+      "excluded_no_postbaseline": 1,
+      "adverse_events": "No discomfort or adverse reactions reported; exact event ascertainment denominators not provided; product tolerance checked during study.",
+      "commercial_support": "GELITA provided branded VERISOL product; cash funding and full sponsor role not established from inspected text.",
+      "outcomes": [
+        {
+          "outcome": "Cutometer R5 net elasticity",
+          "time_weeks": [
+            4,
+            8
+          ],
+          "estimate": "authors describe mean 7% relative-to-placebo improvement",
+          "p": "<0.05 for both arms at both time points",
+          "dispersion": "SEM in figure; no exact arm means or arm-specific SD extracted",
+          "note": "not absolute risk or percentage-point stretch mark reduction"
+        },
+        {
+          "outcome": "hydration",
+          "p_week4": 0.9,
+          "p_week8": 0.96
+        },
+        {
+          "outcome": "transepidermal water loss",
+          "p_week4": 0.88,
+          "p_week8": 0.9
+        },
+        {
+          "outcome": "roughness",
+          "p_week4": 0.61,
+          "p_week8": 0.63
+        }
+      ],
+      "limitations": "Shared placebo; subgroup sample small; figure caption n≥9 conflicts with 5 g age-50-plus table n=8; per-visit missingness handling unclear; no pregnancy, abdominal skin, striae or multiyear prevention endpoint. Do not infer individual benefit or use a dose recommendation."
+    },
+    {
+      "id": "PA-002",
+      "topic": "SKIN-002",
+      "source_ids": [
+        "CL02",
+        "S015"
+      ],
+      "urls": [
+        "https://doi.org/10.1111/jocd.71208",
+        "https://doi.org/10.1159/000351376"
+      ],
+      "locator": "Grimes/Mahto Table 1 and reference 11; Proksch Table 1 and Subjects, Fig 1",
+      "finding": "The reanalysis says the cited Proksch trial did not compare collagen to placebo; the exact cited primary study explicitly randomized 23 to maltodextrin and reports placebo-relative comparisons. It may lack recoverable separate arm endpoint means or variance; that is different from no placebo comparison. Reason for exclusion requires author clarification and supplementary code review.",
+      "status": "unresolved discrepancy; no allegation of misconduct or retraction; do not invalidate the entire reanalysis or reinclude trial automatically"
+    },
+    {
+      "id": "PA-003",
+      "topic": "SKIN-002",
+      "source_id": "CL02",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC13618891/",
+      "locator": "Table 1, Table 2, Fig 1",
+      "finding": "Technical critique targets the 2021 de Miranda and 2023 Pu reviews, not the 2025 funding-stratified or July 2026 updated review. Dose slopes are not the same estimand as pooled treatment effects. Reports SEM/SD mix-ups, modality mixing and extracted sample issues. Reanalysis is also subject to verification, including PA-002.",
+      "numeric": [
+        {
+          "outcome": "hydration",
+          "measure": "dose coefficient, Pu eligible studies",
+          "n_studies": 16,
+          "estimate": 0.07,
+          "lower": -0.01,
+          "upper": 0.14,
+          "p": 0.08,
+          "i2_percent": 58.8
+        },
+        {
+          "outcome": "elasticity",
+          "measure": "dose coefficient, Pu eligible studies",
+          "n_studies": 18,
+          "estimate": 0.02,
+          "lower": -0.35,
+          "upper": 0.39,
+          "p": 0.92,
+          "i2_percent": 98.6
+        }
+      ],
+      "chart_rule": "Do not plot dose coefficient alongside treatment SMD as interchangeable; interval level to verify from model output."
+    },
+    {
+      "id": "PA-004",
+      "topic": "SKIN-002",
+      "source_id": "S012",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/43047141/",
+      "locator": "abstract and conflict statement",
+      "population": "healthy adults",
+      "n_trials": 35,
+      "n_participants": 2534,
+      "interval_level": 0.95,
+      "numeric": [
+        {
+          "outcome": "hydration",
+          "measure": "SMD",
+          "estimate": 0.44,
+          "lower": 0.15,
+          "upper": 0.73
+        },
+        {
+          "outcome": "elasticity",
+          "measure": "SMD",
+          "estimate": 0.62,
+          "lower": 0.15,
+          "upper": 1.1
+        },
+        {
+          "outcome": "transepidermal water loss",
+          "measure": "SMD",
+          "estimate": -0.39,
+          "lower": -0.62,
+          "upper": -0.16
+        }
+      ],
+      "funding": "Authors declare no conflicts; cash funding not established from abstract; primary funding not thereby established.",
+      "limitations": "No direct pregnancy outcomes; review overlap likely; structural wrinkle, density and roughness findings unstable in sensitivity analyses. Full PMC access blocked; primary extraction remains incomplete."
+    },
+    {
+      "id": "PA-005",
+      "topic": "NUTR-002",
+      "source_ids": [
+        "S094",
+        "S095",
+        "H029",
+        "H031"
+      ],
+      "urls": [
+        "https://www.cochrane.org/evidence/CD009951_probiotics-prevent-gestational-diabetes-mellitus",
+        "https://pubmed.ncbi.nlm.nih.gov/38447676/",
+        "https://pubmed.ncbi.nlm.nih.gov/35871956/",
+        "https://pmc.ncbi.nlm.nih.gov/articles/PMC5123375/"
+      ],
+      "locator": "Cochrane summary/indexed review; broader review abstracts; HUMBA protocol serious adverse event definitions",
+      "finding": "Protocol serious events include maternal/infant death and ICU admission plus other serious events referred to independent monitoring. This does not establish complete adverse-event reporting in final paper. Cochrane identifies ongoing/unpublished studies; this does not establish receipt of unpublished PE events. No change to existing PE denominators.",
+      "status": "open; no new pooled estimate; distinguish serious adverse event collection from preeclampsia adjudication"
+    }
+  ],
+  "publication_status": {
+    "scope": "Targeted title/PMID and correction/retraction keyword searches for S015 and CL02 plus accessible article metadata for S012. No correction/retraction notice located in inspected results; S015 and 2025 review PubMed direct opens blocked, no Crossmark or Retraction Watch database-wide verification. Not cleared.",
+    "reviewed": [
+      "S015",
+      "CL02",
+      "S012"
+    ],
+    "complete": false
+  },
+  "qa": {
+    "new_canonical_sources": 0,
+    "new_clinical_reviews": 0,
+    "checks": 5,
+    "existing_sources_reused": true,
+    "raw_arm_means_available": false,
+    "auto_publish": false
+  },
+  "next": "Obtain supplementary code for CL02, re-evaluate inclusion of S015 and exact covariance/arm data; resolve HUMBA PE endpoint and Lindsay registry; perform systematic DOI status checks and independent clinical review."
+}
