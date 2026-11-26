@@ -1,0 +1,170 @@
+[
+  {
+    "followup_id": "CL01",
+    "baseline_id": "S012",
+    "url": "https://doi.org/10.1111/jocd.71041",
+    "matching_status": "bibliographic match identified; reuse baseline ID",
+    "verification": "full article sections read"
+  },
+  {
+    "followup_id": "CL02",
+    "baseline_id": null,
+    "url": "https://doi.org/10.1111/jocd.71208",
+    "matching_status": "candidate separate source; full registry and cohort reconciliation still required",
+    "verification": "indexed article sections"
+  },
+  {
+    "followup_id": "CL03",
+    "baseline_id": null,
+    "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC11539013/",
+    "matching_status": "candidate separate source; full registry and cohort reconciliation still required",
+    "verification": "full article methods and abstract"
+  },
+  {
+    "followup_id": "CL04",
+    "baseline_id": null,
+    "url": "https://pubmed.ncbi.nlm.nih.gov/41984478/",
+    "matching_status": "candidate separate source; full registry and cohort reconciliation still required",
+    "verification": "abstract and disclosures"
+  },
+  {
+    "followup_id": "CL05",
+    "baseline_id": null,
+    "url": "https://pubmed.ncbi.nlm.nih.gov/40610191/",
+    "matching_status": "candidate separate source; full registry and cohort reconciliation still required",
+    "verification": "abstract and disclosures"
+  },
+  {
+    "followup_id": "CL06",
+    "baseline_id": "S080",
+    "url": "https://www.bmj.com/content/359/bmj.j4471",
+    "matching_status": "bibliographic match identified; reuse baseline ID",
+    "verification": "article and summary"
+  },
+  {
+    "followup_id": "CL07",
+    "baseline_id": null,
+    "url": "https://jamanetwork.com/journals/jama/fullarticle/2706136",
+    "matching_status": "candidate separate source; full registry and cohort reconciliation still required",
+    "verification": "article summary"
+  },
+  {
+    "followup_id": "CL08",
+    "baseline_id": null,
+    "url": "https://www.acog.org/clinical/clinical-guidance/clinical-practice-guideline/articles/2024/01/first-and-second-stage-labor-management",
+    "matching_status": "candidate separate source; full registry and cohort reconciliation still required",
+    "verification": "guidance excerpt"
+  },
+  {
+    "followup_id": "CL09",
+    "baseline_id": "S212",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/17567299/",
+    "matching_status": "bibliographic match identified; reuse baseline ID",
+    "verification": "abstract"
+  },
+  {
+    "followup_id": "CL10",
+    "baseline_id": "S044",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/19083576/",
+    "matching_status": "bibliographic match identified; reuse baseline ID",
+    "verification": "abstract"
+  },
+  {
+    "followup_id": "CL11",
+    "baseline_id": "S114",
+    "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC10846762/",
+    "matching_status": "bibliographic match identified; reuse baseline ID",
+    "verification": "indexed methods"
+  },
+  {
+    "followup_id": "CL12",
+    "baseline_id": "S113",
+    "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC11107900/",
+    "matching_status": "bibliographic match identified; reuse baseline ID",
+    "verification": "indexed methods"
+  },
+  {
+    "followup_id": "CL13",
+    "baseline_id": "S121",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/34564840/",
+    "matching_status": "bibliographic match identified; reuse baseline ID",
+    "verification": "abstract/indexed"
+  },
+  {
+    "followup_id": "CL14",
+    "baseline_id": "S119",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/30095630/",
+    "matching_status": "bibliographic match identified; reuse baseline ID",
+    "verification": "indexed abstract; full text blocked"
+  },
+  {
+    "followup_id": "CL15",
+    "baseline_id": "S129",
+    "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC7050615/",
+    "matching_status": "bibliographic match identified; reuse baseline ID",
+    "verification": "indexed full article"
+  },
+  {
+    "followup_id": "CL16",
+    "baseline_id": "S220",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/18947338/",
+    "matching_status": "bibliographic match identified; reuse baseline ID",
+    "verification": "indexed abstract; source page blocked"
+  },
+  {
+    "followup_id": "CL17",
+    "baseline_id": null,
+    "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC6485299/",
+    "matching_status": "candidate separate source; full registry and cohort reconciliation still required",
+    "verification": "indexed full article"
+  },
+  {
+    "followup_id": "CL18",
+    "baseline_id": null,
+    "url": "https://jamanetwork.com/journals/jamapsychiatry/fullarticle/2758827",
+    "matching_status": "candidate separate source; full registry and cohort reconciliation still required",
+    "verification": "indexed article"
+  },
+  {
+    "followup_id": "CL19",
+    "baseline_id": null,
+    "url": "https://pubmed.ncbi.nlm.nih.gov/39721768/",
+    "matching_status": "candidate separate source; full registry and cohort reconciliation still required",
+    "verification": "indexed abstract"
+  },
+  {
+    "followup_id": "CL20",
+    "baseline_id": "S154",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/41421601/",
+    "matching_status": "bibliographic match identified; reuse baseline ID",
+    "verification": "indexed abstract; full text blocked"
+  },
+  {
+    "followup_id": "CL21",
+    "baseline_id": "S142",
+    "url": "https://www.acog.org/clinical/clinical-guidance/committee-opinion/articles/2019/01/prepregnancy-counseling",
+    "matching_status": "bibliographic match identified; reuse baseline ID",
+    "verification": "guideline excerpt"
+  },
+  {
+    "followup_id": "CL22",
+    "baseline_id": null,
+    "url": "https://pubmed.ncbi.nlm.nih.gov/42417057/",
+    "matching_status": "candidate separate source; full registry and cohort reconciliation still required",
+    "verification": "indexed abstract"
+  },
+  {
+    "followup_id": "CL23",
+    "baseline_id": "S199",
+    "url": "https://www.fda.gov/medical-devices/aesthetic-cosmetic-devices/microneedling-devices",
+    "matching_status": "bibliographic match identified; reuse baseline ID",
+    "verification": "public guidance"
+  },
+  {
+    "followup_id": "CL24",
+    "baseline_id": null,
+    "url": "https://pubmed.ncbi.nlm.nih.gov/42430734/",
+    "matching_status": "candidate separate source; full registry and cohort reconciliation still required",
+    "verification": "indexed abstract"
+  }
+]

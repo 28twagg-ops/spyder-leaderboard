@@ -25,3 +25,6 @@ Before implementing conflict charts, consult [continuation](continuation/README.
 
 ## Content layer for implementation
 Read [implementation handoff](implementation-handoff/README.md). Import the topic quick cards and timeline views; use media candidates and visual briefs with review gates. New clinical follow-ups supplement, not replace, baseline claims until source matching and review. The UX research supports concise visual-first presentation, not a fixed learning type or universally superior palette. Use the provided test plan, and choose final styling and architecture yourself.
+
+## Final content prep
+Use [mobile microcopy](implementation-handoff/MOBILE_MICROCOPY.json) for compact topic previews, [storyboards](implementation-handoff/STORYBOARD_LIBRARY.md) for original visuals, [supplemental chart records](implementation-handoff/SUPPLEMENTAL_CHART_DATA.json) and [source reconciliation](implementation-handoff/SOURCE_RECONCILIATION.json) for integration. Full quick cards and deep articles remain available. Never infer safety from phase navigation. Review actual content, accessibility and scientific interpretation before publication.

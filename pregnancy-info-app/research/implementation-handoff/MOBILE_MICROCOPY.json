@@ -1,0 +1,791 @@
+[
+  {
+    "id": "SKIN-001",
+    "title": "Can creams prevent stretch marks?",
+    "takeaway": "Moisturizers can help dryness. Reliable stretch-mark prevention is not established.",
+    "action": "Moisturize for comfort, not as a required prevention routine.",
+    "safety_visible": "During pregnancy, check ingredients, especially retinoids. Stop irritating products. Prevention studies give little information about uncommon adverse effects.",
+    "visual_storyboard": "Show a skin cross-section with a surface moisture layer and deeper striae; avoid showing guaranteed prevention.",
+    "alt_text_brief": "Show a skin cross-section with a surface moisture layer and deeper striae; avoid showing guaranteed prevention.",
+    "source_ids": [
+      "S001",
+      "S002",
+      "S004",
+      "S006",
+      "S008",
+      "S009",
+      "S010",
+      "S204",
+      "S206",
+      "S216"
+    ],
+    "deep_claim_id": "C-SKIN-001",
+    "phase_navigation_ids": [],
+    "status": "research preview; no automatic eligibility; professional review pending",
+    "script": {
+      "format": "optional original narrated micro-explainer, not an existing video",
+      "duration_target_seconds": [
+        15,
+        30
+      ],
+      "narration": "Moisturizers can help dryness. Reliable stretch-mark prevention is not established. Moisturize for comfort, not as a required prevention routine.",
+      "closing": "Check the safety note and see the evidence if you want more detail."
+    },
+    "evidence_detail_ref": "E-SKIN-001"
+  },
+  {
+    "id": "SKIN-002",
+    "title": "Is collagen worth it?",
+    "takeaway": "Adult skin studies disagree. Pregnancy stretch-mark prevention is unproven.",
+    "action": "Keep collagen off the required checklist.",
+    "safety_visible": "Before conception, adult cosmetic findings apply only to similar populations. During pregnancy and lactation, product-specific safety and benefit for this indication remain unestablished.",
+    "visual_storyboard": "Show adult skin measurements versus the pregnancy outcome, then the evidence disagreement.",
+    "alt_text_brief": "Show adult skin measurements versus the pregnancy outcome, then the evidence disagreement.",
+    "source_ids": [
+      "S011",
+      "S013",
+      "S014",
+      "S015",
+      "S016",
+      "S201"
+    ],
+    "deep_claim_id": "C-SKIN-002",
+    "phase_navigation_ids": [],
+    "status": "research preview; no automatic eligibility; professional review pending",
+    "script": {
+      "format": "optional original narrated micro-explainer, not an existing video",
+      "duration_target_seconds": [
+        15,
+        30
+      ],
+      "narration": "Adult skin studies disagree. Pregnancy stretch-mark prevention is unproven. Keep collagen off the required checklist.",
+      "closing": "Check the safety note and see the evidence if you want more detail."
+    },
+    "evidence_detail_ref": "E-SKIN-002"
+  },
+  {
+    "id": "SKIN-003",
+    "title": "Can stretch marks fade?",
+    "takeaway": "Treatments may improve existing marks, but complete removal is not guaranteed.",
+    "action": "Consider a dermatologist after recovery if the marks bother you.",
+    "safety_visible": "Defer elective procedures during pregnancy. Later assessment must account for healing, site, skin type and lactation. RF microneedling has a device-specific FDA harm warning.",
+    "visual_storyboard": "Show variation in color and texture without idealized before/after comparisons.",
+    "alt_text_brief": "Show variation in color and texture without idealized before/after comparisons.",
+    "source_ids": [
+      "S018",
+      "S019",
+      "S020",
+      "S024",
+      "S027",
+      "S162",
+      "S198",
+      "S216"
+    ],
+    "deep_claim_id": "C-SKIN-003",
+    "phase_navigation_ids": [
+      "P22"
+    ],
+    "status": "research preview; no automatic eligibility; professional review pending",
+    "script": {
+      "format": "optional original narrated micro-explainer, not an existing video",
+      "duration_target_seconds": [
+        15,
+        30
+      ],
+      "narration": "Treatments may improve existing marks, but complete removal is not guaranteed. Consider a dermatologist after recovery if the marks bother you.",
+      "closing": "Check the safety note and see the evidence if you want more detail."
+    },
+    "evidence_detail_ref": "E-SKIN-003"
+  },
+  {
+    "id": "ABD-001",
+    "title": "Will my core recover?",
+    "takeaway": "Strength can improve even when the abdominal gap stays similar.",
+    "action": "Discuss gradual strengthening after birth.",
+    "safety_visible": "The exercise trial does not establish immediate postpartum readiness. Wound problems, pain and pelvic heaviness warrant individual assessment.",
+    "visual_storyboard": "Show abdominal muscles and connective tissue; label width and function as different measures.",
+    "alt_text_brief": "Show abdominal muscles and connective tissue; label width and function as different measures.",
+    "source_ids": [
+      "S028",
+      "S030",
+      "S031",
+      "S032",
+      "S033"
+    ],
+    "deep_claim_id": "C-ABD-001",
+    "phase_navigation_ids": [
+      "P18"
+    ],
+    "status": "research preview; no automatic eligibility; professional review pending",
+    "script": {
+      "format": "optional original narrated micro-explainer, not an existing video",
+      "duration_target_seconds": [
+        15,
+        30
+      ],
+      "narration": "Strength can improve even when the abdominal gap stays similar. Discuss gradual strengthening after birth.",
+      "closing": "Check the safety note and see the evidence if you want more detail."
+    },
+    "evidence_detail_ref": "E-ABD-001"
+  },
+  {
+    "id": "ABD-002",
+    "title": "Do belly binders work?",
+    "takeaway": "A binder may help early discomfort. Permanent reshaping is unproven.",
+    "action": "Ask about support if recovering from cesarean birth.",
+    "safety_visible": "After cesarean, clinician review of incision, fit and symptoms is appropriate. Rectus diastasis, hernia and wound separation require different evaluations.",
+    "visual_storyboard": "Show a removable support garment versus the underlying abdominal wall.",
+    "alt_text_brief": "Show a removable support garment versus the underlying abdominal wall.",
+    "source_ids": [
+      "S035",
+      "S036",
+      "S038",
+      "S039",
+      "S041",
+      "S207"
+    ],
+    "deep_claim_id": "C-ABD-002",
+    "phase_navigation_ids": [
+      "P02",
+      "P20",
+      "P22"
+    ],
+    "status": "research preview; no automatic eligibility; professional review pending",
+    "script": {
+      "format": "optional original narrated micro-explainer, not an existing video",
+      "duration_target_seconds": [
+        15,
+        30
+      ],
+      "narration": "A binder may help early discomfort. Permanent reshaping is unproven. Ask about support if recovering from cesarean birth.",
+      "closing": "Check the safety note and see the evidence if you want more detail."
+    },
+    "evidence_detail_ref": "E-ABD-002"
+  },
+  {
+    "id": "BREAST-001",
+    "title": "What changes breast shape?",
+    "takeaway": "Pregnancy changes breast tissue. Research does not establish a cosmetic reason to avoid breastfeeding.",
+    "action": "Choose comfortable support and the feeding approach you prefer.",
+    "safety_visible": "Support may be chosen across stages for comfort. A cosmetic procedure during recovery or lactation needs specialist assessment. Do not frame formula, breastfeeding or combined feeding as a cosmetic intervention.",
+    "visual_storyboard": "Show tissue, skin and support structures; never depict one feeding method as cosmetically superior.",
+    "alt_text_brief": "Show tissue, skin and support structures; never depict one feeding method as cosmetically superior.",
+    "source_ids": [
+      "S044",
+      "S045",
+      "S046",
+      "S202",
+      "S203"
+    ],
+    "deep_claim_id": "C-BREAST-001",
+    "phase_navigation_ids": [
+      "P21"
+    ],
+    "status": "research preview; no automatic eligibility; professional review pending",
+    "script": {
+      "format": "optional original narrated micro-explainer, not an existing video",
+      "duration_target_seconds": [
+        15,
+        30
+      ],
+      "narration": "Pregnancy changes breast tissue. Research does not establish a cosmetic reason to avoid breastfeeding. Choose comfortable support and the feeding approach you prefer.",
+      "closing": "Check the safety note and see the evidence if you want more detail."
+    },
+    "evidence_detail_ref": "E-BREAST-001"
+  },
+  {
+    "id": "FIT-001",
+    "title": "What should I do years ahead?",
+    "takeaway": "Build strength and fitness with habits you can keep.",
+    "action": "Choose movement you enjoy and can sustain.",
+    "safety_visible": "Before conception, avoid imposing trial weight-loss programs on general users. Once pregnant use pregnancy-specific exercise guidance.",
+    "visual_storyboard": "Three simple activity illustrations: strength, aerobic movement and rest.",
+    "alt_text_brief": "Three simple activity illustrations: strength, aerobic movement and rest.",
+    "source_ids": [
+      "S049",
+      "S050",
+      "S052",
+      "S055",
+      "S056",
+      "S059"
+    ],
+    "deep_claim_id": "C-FIT-001",
+    "phase_navigation_ids": [
+      "P01"
+    ],
+    "status": "research preview; no automatic eligibility; professional review pending",
+    "script": {
+      "format": "optional original narrated micro-explainer, not an existing video",
+      "duration_target_seconds": [
+        15,
+        30
+      ],
+      "narration": "Build strength and fitness with habits you can keep. Choose movement you enjoy and can sustain.",
+      "closing": "Check the safety note and see the evidence if you want more detail."
+    },
+    "evidence_detail_ref": "E-FIT-001"
+  },
+  {
+    "id": "FIT-002",
+    "title": "Can I exercise while pregnant?",
+    "takeaway": "Activity is generally beneficial in uncomplicated pregnancy, with individual adjustments.",
+    "action": "Discuss a comfortable movement plan with your care team.",
+    "safety_visible": "Across trimesters adapt for comfort, balance and medical conditions. Stop and seek care for bleeding, painful contractions or fluid leakage. No calorie-deficit goal.",
+    "visual_storyboard": "Use a stage-based movement illustration with a visible stop-and-seek-care note.",
+    "alt_text_brief": "Use a stage-based movement illustration with a visible stop-and-seek-care note.",
+    "source_ids": [
+      "S057",
+      "S058",
+      "S059",
+      "S062",
+      "S187",
+      "S188"
+    ],
+    "deep_claim_id": "C-FIT-002",
+    "phase_navigation_ids": [
+      "P10"
+    ],
+    "status": "research preview; no automatic eligibility; professional review pending",
+    "script": {
+      "format": "optional original narrated micro-explainer, not an existing video",
+      "duration_target_seconds": [
+        15,
+        30
+      ],
+      "narration": "Activity is generally beneficial in uncomplicated pregnancy, with individual adjustments. Discuss a comfortable movement plan with your care team.",
+      "closing": "Check the safety note and see the evidence if you want more detail."
+    },
+    "evidence_detail_ref": "E-FIT-002"
+  },
+  {
+    "id": "FIT-003",
+    "title": "When can I exercise again?",
+    "takeaway": "Healing and symptoms matter more than a fixed recovery date.",
+    "action": "Progress gradually and seek assessment for persistent symptoms.",
+    "safety_visible": "Immediate recovery after uncomplicated vaginal birth differs from major tearing, assisted birth, cesarean or medical complications. Progress individually in every pathway.",
+    "visual_storyboard": "Use a branching recovery path instead of a rigid week-to-week countdown.",
+    "alt_text_brief": "Use a branching recovery path instead of a rigid week-to-week countdown.",
+    "source_ids": [
+      "S064",
+      "S066",
+      "S067",
+      "S068",
+      "S173",
+      "S196",
+      "S211",
+      "S218",
+      "S221"
+    ],
+    "deep_claim_id": "C-FIT-003",
+    "phase_navigation_ids": [
+      "P15",
+      "P16",
+      "P17",
+      "P18"
+    ],
+    "status": "research preview; no automatic eligibility; professional review pending",
+    "script": {
+      "format": "optional original narrated micro-explainer, not an existing video",
+      "duration_target_seconds": [
+        15,
+        30
+      ],
+      "narration": "Healing and symptoms matter more than a fixed recovery date. Progress gradually and seek assessment for persistent symptoms.",
+      "closing": "Check the safety note and see the evidence if you want more detail."
+    },
+    "evidence_detail_ref": "E-FIT-003"
+  },
+  {
+    "id": "PELV-001",
+    "title": "Should I train my pelvic floor?",
+    "takeaway": "Both contraction and relaxation matter. Pain needs tailored assessment.",
+    "action": "Ask a pelvic-health clinician about technique.",
+    "safety_visible": "During pregnancy or recovery, supervision is useful for pain or difficulty contracting/relaxing. Discuss contraception before sex if pregnancy is undesired, including while breastfeeding.",
+    "visual_storyboard": "Show contract versus release using neutral anatomy; avoid universally prescribing repetitions.",
+    "alt_text_brief": "Show contract versus release using neutral anatomy; avoid universally prescribing repetitions.",
+    "source_ids": [
+      "S069",
+      "S070",
+      "S071",
+      "S072",
+      "S193",
+      "S194",
+      "S200"
+    ],
+    "deep_claim_id": "C-PELV-001",
+    "phase_navigation_ids": [
+      "P10",
+      "P15",
+      "P16",
+      "P18",
+      "P20",
+      "P22"
+    ],
+    "status": "research preview; no automatic eligibility; professional review pending",
+    "script": {
+      "format": "optional original narrated micro-explainer, not an existing video",
+      "duration_target_seconds": [
+        15,
+        30
+      ],
+      "narration": "Both contraction and relaxation matter. Pain needs tailored assessment. Ask a pelvic-health clinician about technique.",
+      "closing": "Check the safety note and see the evidence if you want more detail."
+    },
+    "evidence_detail_ref": "E-PELV-001"
+  },
+  {
+    "id": "BIRTH-001",
+    "title": "Can I prepare for birth?",
+    "takeaway": "Support and some perineal care options have evidence. No technique guarantees a particular outcome.",
+    "action": "Discuss late-pregnancy options with your maternity team.",
+    "safety_visible": "Antenatal measures belong in late pregnancy with maternity-team advice. Intrapartum techniques require consent. Compare planned vaginal, assisted and cesarean pathways with individual clinical indications and preferences.",
+    "visual_storyboard": "Use a care-choice diagram with separate position, support and perineal care lanes.",
+    "alt_text_brief": "Use a care-choice diagram with separate position, support and perineal care lanes.",
+    "source_ids": [
+      "S074",
+      "S077",
+      "S079",
+      "S080",
+      "S169",
+      "S170",
+      "S181",
+      "S182"
+    ],
+    "deep_claim_id": "C-BIRTH-001",
+    "phase_navigation_ids": [
+      "P11",
+      "P12"
+    ],
+    "status": "research preview; no automatic eligibility; professional review pending",
+    "script": {
+      "format": "optional original narrated micro-explainer, not an existing video",
+      "duration_target_seconds": [
+        15,
+        30
+      ],
+      "narration": "Support and some perineal care options have evidence. No technique guarantees a particular outcome. Discuss late-pregnancy options with your maternity team.",
+      "closing": "Check the safety note and see the evidence if you want more detail."
+    },
+    "evidence_detail_ref": "E-BIRTH-001"
+  },
+  {
+    "id": "NUTR-001",
+    "title": "What nutrients matter most?",
+    "takeaway": "Folic acid matters before conception. Other nutrient needs depend on your diet and stage.",
+    "action": "Review supplements and their labels with your care team.",
+    "safety_visible": "Review diet, existing supplements, deficiencies, interactions and overlapping products with the clinician. Avoid excessive preformed vitamin A. Choose lower-mercury fish using FDA species guidance. Review lactation needs separately.",
+    "visual_storyboard": "Show the early development timeline and a supplement label with clearly marked units.",
+    "alt_text_brief": "Show the early development timeline and a supplement label with clearly marked units.",
+    "source_ids": [
+      "S082",
+      "S083",
+      "S085",
+      "S086",
+      "S087",
+      "S088",
+      "S089",
+      "S090",
+      "S092",
+      "S093",
+      "S176",
+      "S177",
+      "S178",
+      "S179",
+      "S195",
+      "S214",
+      "S215",
+      "S222",
+      "S223",
+      "S224"
+    ],
+    "deep_claim_id": "C-NUTR-001",
+    "phase_navigation_ids": [
+      "P05",
+      "P06",
+      "P07",
+      "P09"
+    ],
+    "status": "research preview; no automatic eligibility; professional review pending",
+    "script": {
+      "format": "optional original narrated micro-explainer, not an existing video",
+      "duration_target_seconds": [
+        15,
+        30
+      ],
+      "narration": "Folic acid matters before conception. Other nutrient needs depend on your diet and stage. Review supplements and their labels with your care team.",
+      "closing": "Check the safety note and see the evidence if you want more detail."
+    },
+    "evidence_detail_ref": "E-NUTR-001"
+  },
+  {
+    "id": "NUTR-002",
+    "title": "Are natural supplements safe?",
+    "takeaway": "Evidence varies widely by product, dose and intended benefit.",
+    "action": "Discuss concentrated supplements before using them in pregnancy.",
+    "safety_visible": "Culinary intake differs from concentrated products. Do not infer rare fetal safety from short trials. Report product, timing and symptoms to clinician. Third-party testing addresses aspects of product quality, not clinical benefit.",
+    "visual_storyboard": "Show a benefit/evidence/safety comparison without shopping buttons.",
+    "alt_text_brief": "Show a benefit/evidence/safety comparison without shopping buttons.",
+    "source_ids": [
+      "S086",
+      "S094",
+      "S095",
+      "S096",
+      "S098",
+      "S099",
+      "S100",
+      "S102",
+      "S131",
+      "S190",
+      "S201"
+    ],
+    "deep_claim_id": "C-NUTR-002",
+    "phase_navigation_ids": [
+      "P09"
+    ],
+    "status": "research preview; no automatic eligibility; professional review pending",
+    "script": {
+      "format": "optional original narrated micro-explainer, not an existing video",
+      "duration_target_seconds": [
+        15,
+        30
+      ],
+      "narration": "Evidence varies widely by product, dose and intended benefit. Discuss concentrated supplements before using them in pregnancy.",
+      "closing": "Check the safety note and see the evidence if you want more detail."
+    },
+    "evidence_detail_ref": "E-NUTR-002"
+  },
+  {
+    "id": "FACE-001",
+    "title": "How can I protect my skin?",
+    "takeaway": "Sun protection and reviewing acne ingredients are practical steps.",
+    "action": "Use appropriate sun protection and review retinoids before trying.",
+    "safety_visible": "Review retinoids before trying. Contact the prescriber promptly about any pregnancy exposure, distinguishing oral from topical. Check lactation and infant contact separately for each treatment.",
+    "visual_storyboard": "Show shade, clothing and sunscreen, with an ingredients review reminder.",
+    "alt_text_brief": "Show shade, clothing and sunscreen, with an ingredients review reminder.",
+    "source_ids": [
+      "S104",
+      "S105",
+      "S106",
+      "S107",
+      "S108",
+      "S109",
+      "S204",
+      "S212"
+    ],
+    "deep_claim_id": "C-FACE-001",
+    "phase_navigation_ids": [
+      "P05"
+    ],
+    "status": "research preview; no automatic eligibility; professional review pending",
+    "script": {
+      "format": "optional original narrated micro-explainer, not an existing video",
+      "duration_target_seconds": [
+        15,
+        30
+      ],
+      "narration": "Sun protection and reviewing acne ingredients are practical steps. Use appropriate sun protection and review retinoids before trying.",
+      "closing": "Check the safety note and see the evidence if you want more detail."
+    },
+    "evidence_detail_ref": "E-FACE-001"
+  },
+  {
+    "id": "HAIR-001",
+    "title": "Will my hair grow back?",
+    "takeaway": "Postpartum shedding is often temporary, but persistent or unusual loss needs assessment.",
+    "action": "Use gentle care and seek help for unusual or persistent changes.",
+    "safety_visible": "Medication decisions differ in pregnancy and lactation. Minoxidil needs a product- and infant-specific assessment. Typical postpartum shedding does not establish deficiency.",
+    "visual_storyboard": "Show a hair-cycle diagram and approximate timeline, not guaranteed regrowth.",
+    "alt_text_brief": "Show a hair-cycle diagram and approximate timeline, not guaranteed regrowth.",
+    "source_ids": [
+      "S110",
+      "S111",
+      "S112",
+      "S114",
+      "S115",
+      "S117",
+      "S205"
+    ],
+    "deep_claim_id": "C-HAIR-001",
+    "phase_navigation_ids": [
+      "P17",
+      "P19"
+    ],
+    "status": "research preview; no automatic eligibility; professional review pending",
+    "script": {
+      "format": "optional original narrated micro-explainer, not an existing video",
+      "duration_target_seconds": [
+        15,
+        30
+      ],
+      "narration": "Postpartum shedding is often temporary, but persistent or unusual loss needs assessment. Use gentle care and seek help for unusual or persistent changes.",
+      "closing": "Check the safety note and see the evidence if you want more detail."
+    },
+    "evidence_detail_ref": "E-HAIR-001"
+  },
+  {
+    "id": "SCAR-001",
+    "title": "When can I care for scars?",
+    "takeaway": "Wounds need to heal before cosmetic scar treatments.",
+    "action": "Contact maternity care for concerning wound changes.",
+    "safety_visible": "Immediate postpartum: wound and infection assessment. Following closure: discuss silicone or scar therapy if symptomatic. Delay massage or elective devices until healing is assessed. Severe bleeding or systemic illness needs urgent care.",
+    "visual_storyboard": "Show healing versus fully closed scar; separate urgent concerns from later scar care.",
+    "alt_text_brief": "Show healing versus fully closed scar; separate urgent concerns from later scar care.",
+    "source_ids": [
+      "S118",
+      "S119",
+      "S121",
+      "S123",
+      "S124",
+      "S125",
+      "S126",
+      "S131",
+      "S189",
+      "S208"
+    ],
+    "deep_claim_id": "C-SCAR-001",
+    "phase_navigation_ids": [
+      "P13",
+      "P14",
+      "P19"
+    ],
+    "status": "research preview; no automatic eligibility; professional review pending",
+    "script": {
+      "format": "optional original narrated micro-explainer, not an existing video",
+      "duration_target_seconds": [
+        15,
+        30
+      ],
+      "narration": "Wounds need to heal before cosmetic scar treatments. Contact maternity care for concerning wound changes.",
+      "closing": "Check the safety note and see the evidence if you want more detail."
+    },
+    "evidence_detail_ref": "E-SCAR-001"
+  },
+  {
+    "id": "VEIN-001",
+    "title": "Are swollen legs normal?",
+    "takeaway": "Some swelling occurs, but one-sided painful swelling needs urgent assessment.",
+    "action": "Seek immediate care for one-sided painful swelling; emergency help for chest pain or sudden breathlessness.",
+    "safety_visible": "Pregnancy and postpartum: urgent symptoms override comfort advice. A stocking is not a diagnostic test or a substitute for prescribed thromboprophylaxis. Later vein procedures require vascular review.",
+    "visual_storyboard": "Use separate urgent-warning and ordinary-comfort panels; do not use color alone.",
+    "alt_text_brief": "Use separate urgent-warning and ordinary-comfort panels; do not use color alone.",
+    "source_ids": [
+      "S127",
+      "S128",
+      "S129",
+      "S130",
+      "S131",
+      "S132",
+      "S133",
+      "S209"
+    ],
+    "deep_claim_id": "C-VEIN-001",
+    "phase_navigation_ids": [
+      "P13",
+      "P14",
+      "P21"
+    ],
+    "status": "research preview; no automatic eligibility; professional review pending",
+    "script": {
+      "format": "optional original narrated micro-explainer, not an existing video",
+      "duration_target_seconds": [
+        15,
+        30
+      ],
+      "narration": "Some swelling occurs, but one-sided painful swelling needs urgent assessment. Seek immediate care for one-sided painful swelling; emergency help for chest pain or sudden breathlessness.",
+      "closing": "Check the safety note and see the evidence if you want more detail."
+    },
+    "evidence_detail_ref": "E-VEIN-001"
+  },
+  {
+    "id": "MSK-001",
+    "title": "What about back and hip pain?",
+    "takeaway": "Pregnancy-related pelvic pain can affect everyday movement.",
+    "action": "Ask for individualized physiotherapy if ordinary activities hurt.",
+    "safety_visible": "Antenatal treatment should be adapted to pregnancy by trained clinicians. Persistent postpartum pain or impaired mobility should prompt reassessment; provocative self-testing is unnecessary.",
+    "visual_storyboard": "Show neutral body landmarks and examples of daily activities, not self-diagnosis tests.",
+    "alt_text_brief": "Show neutral body landmarks and examples of daily activities, not self-diagnosis tests.",
+    "source_ids": [
+      "S134",
+      "S135",
+      "S136",
+      "S137",
+      "S139",
+      "S140",
+      "S213",
+      "S220"
+    ],
+    "deep_claim_id": "C-MSK-001",
+    "phase_navigation_ids": [
+      "P10"
+    ],
+    "status": "research preview; no automatic eligibility; professional review pending",
+    "script": {
+      "format": "optional original narrated micro-explainer, not an existing video",
+      "duration_target_seconds": [
+        15,
+        30
+      ],
+      "narration": "Pregnancy-related pelvic pain can affect everyday movement. Ask for individualized physiotherapy if ordinary activities hurt.",
+      "closing": "Check the safety note and see the evidence if you want more detail."
+    },
+    "evidence_detail_ref": "E-MSK-001"
+  },
+  {
+    "id": "REPRO-001",
+    "title": "What should I check before trying?",
+    "takeaway": "Review health, medications and vaccines before pregnancy.",
+    "action": "Bring a medication list and family history to a preconception visit.",
+    "safety_visible": "Do not stop needed medicines independently. Some vaccines belong before conception, others during pregnancy. Local schedules, products and seasonal timing need current clinical review.",
+    "visual_storyboard": "Show a simple appointment checklist with flexible dates.",
+    "alt_text_brief": "Show a simple appointment checklist with flexible dates.",
+    "source_ids": [
+      "S142",
+      "S144",
+      "S145",
+      "S146",
+      "S171",
+      "S172",
+      "S180",
+      "S191",
+      "S192",
+      "S219"
+    ],
+    "deep_claim_id": "C-REPRO-001",
+    "phase_navigation_ids": [
+      "P01",
+      "P02",
+      "P03",
+      "P04",
+      "P05",
+      "P07",
+      "P08",
+      "P09",
+      "P20",
+      "P21"
+    ],
+    "status": "research preview; no automatic eligibility; professional review pending",
+    "script": {
+      "format": "optional original narrated micro-explainer, not an existing video",
+      "duration_target_seconds": [
+        15,
+        30
+      ],
+      "narration": "Review health, medications and vaccines before pregnancy. Bring a medication list and family history to a preconception visit.",
+      "closing": "Check the safety note and see the evidence if you want more detail."
+    },
+    "evidence_detail_ref": "E-REPRO-001"
+  },
+  {
+    "id": "WELL-001",
+    "title": "How can we make recovery easier?",
+    "takeaway": "Practical help, rest and appropriate mental-health care matter.",
+    "action": "Choose a few ways your partner can help.",
+    "safety_visible": "During pregnancy and the year after delivery, thoughts of harming oneself or the baby need immediate help. Severe confusion or loss of contact with reality requires emergency assessment. Postpartum follow-up is an ongoing process.",
+    "visual_storyboard": "Show optional shared tasks for meals, rest, appointments and support.",
+    "alt_text_brief": "Show optional shared tasks for meals, rest, appointments and support.",
+    "source_ids": [
+      "S131",
+      "S147",
+      "S148",
+      "S149",
+      "S150",
+      "S173",
+      "S175",
+      "S183",
+      "S184",
+      "S185",
+      "S197",
+      "S217"
+    ],
+    "deep_claim_id": "C-WELL-001",
+    "phase_navigation_ids": [
+      "P11",
+      "P13",
+      "P14",
+      "P15",
+      "P16",
+      "P17",
+      "P19"
+    ],
+    "status": "research preview; no automatic eligibility; professional review pending",
+    "script": {
+      "format": "optional original narrated micro-explainer, not an existing video",
+      "duration_target_seconds": [
+        15,
+        30
+      ],
+      "narration": "Practical help, rest and appropriate mental-health care matter. Choose a few ways your partner can help.",
+      "closing": "Check the safety note and see the evidence if you want more detail."
+    },
+    "evidence_detail_ref": "E-WELL-001"
+  },
+  {
+    "id": "DENT-001",
+    "title": "Does dental care matter?",
+    "takeaway": "Dental treatment helps oral health; preventing preterm birth is a separate claim.",
+    "action": "Keep up ordinary dental care and tell your dentist about pregnancy.",
+    "safety_visible": "Preventive, diagnostic and necessary restorative treatment may be provided during pregnancy according to ADA guidance. Individual medications and medical complications need coordination.",
+    "visual_storyboard": "Show gum health and a separate evidence note about pregnancy outcomes.",
+    "alt_text_brief": "Show gum health and a separate evidence note about pregnancy outcomes.",
+    "source_ids": [
+      "S152",
+      "S153",
+      "S155",
+      "S156",
+      "S159",
+      "S160"
+    ],
+    "deep_claim_id": "C-DENT-001",
+    "phase_navigation_ids": [
+      "P01"
+    ],
+    "status": "research preview; no automatic eligibility; professional review pending",
+    "script": {
+      "format": "optional original narrated micro-explainer, not an existing video",
+      "duration_target_seconds": [
+        15,
+        30
+      ],
+      "narration": "Dental treatment helps oral health; preventing preterm birth is a separate claim. Keep up ordinary dental care and tell your dentist about pregnancy.",
+      "closing": "Check the safety note and see the evidence if you want more detail."
+    },
+    "evidence_detail_ref": "E-DENT-001"
+  },
+  {
+    "id": "EMERG-001",
+    "title": "What about newer treatments?",
+    "takeaway": "A promising mechanism does not prove clinical benefit or safety.",
+    "action": "Keep experimental or elective procedures out of routine pregnancy plans.",
+    "safety_visible": "No home procedure instructions. FDA reports serious injuries with certain RF microneedling uses. Specialist review is needed after healing and during lactation; regulatory clearance depends on device and indication.",
+    "visual_storyboard": "Compare intended outcome, evidence and safety; no device settings or procedure demonstrations.",
+    "alt_text_brief": "Compare intended outcome, evidence and safety; no device settings or procedure demonstrations.",
+    "source_ids": [
+      "S162",
+      "S163",
+      "S164",
+      "S165",
+      "S166",
+      "S167",
+      "S168",
+      "S186",
+      "S198",
+      "S199",
+      "S210"
+    ],
+    "deep_claim_id": "C-EMERG-001",
+    "phase_navigation_ids": [
+      "P11"
+    ],
+    "status": "research preview; no automatic eligibility; professional review pending",
+    "script": {
+      "format": "optional original narrated micro-explainer, not an existing video",
+      "duration_target_seconds": [
+        15,
+        30
+      ],
+      "narration": "A promising mechanism does not prove clinical benefit or safety. Keep experimental or elective procedures out of routine pregnancy plans.",
+      "closing": "Check the safety note and see the evidence if you want more detail."
+    },
+    "evidence_detail_ref": "E-EMERG-001"
+  }
+]
