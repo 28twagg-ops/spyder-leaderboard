@@ -1,0 +1,179 @@
+{
+  "scope": "Illustrative commercial label and price research only. Neither a shopping recommendation nor a clinical ranking. Three prenatal options, one moisturizer, one binder. Full product library, all ingredients, current lot-specific recalls and certification directory audit remain open.",
+  "rules": [
+    "Keep product facts separate from clinical evidence and claims. No affiliate links, sponsored placement, or score implying pregnancy safety.",
+    "Use exact brand, country, SKU, serving count, label version, date, label URL, ingredient form and units. Use null if absent or not extracted; distinguish unlisted from confirmed zero.",
+    "Compare cost per full serving, not tablet count. Track promotions separately; refresh before display.",
+    "Never equate percent DV, RDA/AI, supplement dose or UL. Total diet, age, medical diagnoses and multiple gestation matter. Preserve folic acid vs DFE vs methylfolate distinctions.",
+    "Quality certification is not proof of efficacy or FDA premarket approval; verify current certifier directory and exact SKU. Check FDA recall archive and lot number; lack of a search result is not clearance.",
+    "Pregnancy/lactation product eligibility must be separately reviewed, even if ingredients are familiar. Keep label information and clinician guidance separate."
+  ],
+  "references": [
+    {
+      "url": "https://www.fda.gov/food/dietary-supplements/information-consumers-using-dietary-supplements",
+      "scope": "FDA role and risks"
+    },
+    {
+      "url": "https://www.fda.gov/safety/recalls-market-withdrawals-safety-alerts",
+      "scope": "recall search"
+    },
+    {
+      "url": "https://www.usp.org/verification-services/dietary-supplements-verification-program",
+      "scope": "verification program reference; direct directory match pending"
+    },
+    {
+      "source_id": "S086",
+      "scope": "nutrient reference"
+    },
+    {
+      "source_id": "S088",
+      "scope": "folic acid prevention evidence"
+    }
+  ],
+  "products": [
+    {
+      "id": "PR-001",
+      "category": "prenatal multivitamin",
+      "name": "Nature Made Prenatal Folic Acid + DHA, 60 softgels",
+      "brand_source": "https://www.naturemade.com/products/nature-made-prenatal-multi-dha-softgels",
+      "price_source": "https://www.target.com/p/-/A-1012267856",
+      "price_usd": 18.19,
+      "servings": 60,
+      "units_per_serving": 1,
+      "folic_acid_mcg": 800,
+      "folate_dfe_mcg": 1330,
+      "iron_mg": 27,
+      "iodine_mcg": 150,
+      "vitamin_d_mcg": 25,
+      "choline_mg": null,
+      "choline_status": "not listed on retrieved label; do not infer measured zero",
+      "dha_mg": 200,
+      "quality": "USP Verified claimed on manufacturer/retailer page; current directory/SKU confirmation pending",
+      "evidence_source_ids": [
+        "S086",
+        "S088",
+        "S201"
+      ],
+      "notes": "Food intake contributes to totals. Not a product-level clinical outcome trial.",
+      "price_checked": "2026-11-26",
+      "market": "US",
+      "price_excludes_shipping_tax": true,
+      "cost_per_serving_usd": 0.3032,
+      "clinical_review": false,
+      "recommendation": false,
+      "price_status": "one-time listed price; stock and promotions not guaranteed",
+      "recall_check_status": "not SKU/lot verified"
+    },
+    {
+      "id": "PR-002",
+      "category": "prenatal multivitamin",
+      "name": "One A Day Prenatal Advanced Multi, 60 softgels + 60 tablets",
+      "brand_source": "https://www.oneaday.com/vitamins/prenatal-pregnancy-vitamins/prenatal-advanced-multi",
+      "price_source": "https://www.target.com/p/-/A-78461834",
+      "price_usd": 31.49,
+      "servings": 60,
+      "units_per_serving": 2,
+      "folic_acid_mcg": 800,
+      "folate_dfe_mcg": null,
+      "iron_mg": null,
+      "iodine_mcg": null,
+      "vitamin_d_mcg": null,
+      "choline_mg": 110,
+      "dha_mg": 200,
+      "quality": "Manufacturer reports quality checks; independent certification not verified",
+      "evidence_source_ids": [
+        "S086",
+        "S088",
+        "IA007"
+      ],
+      "notes": "Full label not transcribed, null means not extracted; not zero. No demonstrated superior child cognition for this brand.",
+      "price_checked": "2026-11-26",
+      "market": "US",
+      "price_excludes_shipping_tax": true,
+      "cost_per_serving_usd": 0.5248,
+      "clinical_review": false,
+      "recommendation": false,
+      "price_status": "one-time listed price; stock and promotions not guaranteed",
+      "recall_check_status": "not SKU/lot verified"
+    },
+    {
+      "id": "PR-003",
+      "category": "prenatal multivitamin",
+      "name": "Nature Made Prenatal Multi + Choline, 60 softgels + 60 capsules",
+      "brand_source": "https://www.naturemade.com/products/prenatal-multi-softgels-choline-capsules?parent=new-products/products/choline-gummies",
+      "price_source": "https://www.target.com/p/nature-made-prenatal-choline-softgel-capsule-120ct/-/A-89694478",
+      "price_usd": 33.99,
+      "servings": 60,
+      "units_per_serving": 2,
+      "folic_acid_mcg": 800,
+      "folate_dfe_mcg": 1330,
+      "iron_mg": 27,
+      "iodine_mcg": 150,
+      "vitamin_d_mcg": 25,
+      "choline_mg": 265,
+      "dha_mg": 200,
+      "quality": "Exact duo pack independent certification not verified",
+      "evidence_source_ids": [
+        "S086",
+        "S088",
+        "IA007"
+      ],
+      "notes": "Choline is a contribution toward total diet; not evidence of superiority of the brand or experimental 930 mg intake.",
+      "price_checked": "2026-11-26",
+      "market": "US",
+      "price_excludes_shipping_tax": true,
+      "cost_per_serving_usd": 0.5665,
+      "clinical_review": false,
+      "recommendation": false,
+      "price_status": "one-time listed price; stock and promotions not guaranteed",
+      "recall_check_status": "not SKU/lot verified"
+    },
+    {
+      "id": "PR-004",
+      "category": "moisturizer",
+      "name": "Vanicream Moisturizing Cream with Pump, 16 oz",
+      "brand_source": "https://www.vanicream.com/product/vanicream-moisturizing-cream",
+      "price_source": "https://www.ulta.com/p/moisturizing-cream-with-pump-sensitive-skin-pimprod2042406",
+      "price_usd": 19.94,
+      "package_oz": 16,
+      "formulation": "fragrance-free per manufacturer",
+      "evidence_source_ids": [
+        "S001",
+        "S204"
+      ],
+      "notes": "Comfort/dryness, not proven prevention of pregnancy striae. Price varies; no product-specific prevention trial checked.",
+      "price_checked": "2026-11-26",
+      "market": "US",
+      "price_excludes_shipping_tax": true,
+      "cost_per_serving_usd": null,
+      "clinical_review": false,
+      "recommendation": false,
+      "price_status": "one-time listed price; stock and promotions not guaranteed",
+      "recall_check_status": "not SKU/lot verified"
+    },
+    {
+      "id": "PR-005",
+      "category": "recovery equipment",
+      "name": "Motif Medical Postpartum Abdominal Binder",
+      "brand_source": "https://motifmedical.com/abdominal-binder",
+      "price_source": "https://motifmedical.com/abdominal-binder",
+      "price_usd": 20.99,
+      "regular_price_usd": 39.99,
+      "formulation": "adjustable 9-inch coverage per manufacturer",
+      "evidence_source_ids": [
+        "S036",
+        "S038",
+        "S064"
+      ],
+      "notes": "Class-level evidence for selected short-term postoperative comfort, not brand evidence, permanent reshaping or eligibility for compression. Clinician assessment of wound, fit and symptoms.",
+      "price_checked": "2026-11-26",
+      "market": "US",
+      "price_excludes_shipping_tax": true,
+      "cost_per_serving_usd": null,
+      "clinical_review": false,
+      "recommendation": false,
+      "price_status": "one-time listed price; stock and promotions not guaranteed",
+      "recall_check_status": "not SKU/lot verified"
+    }
+  ]
+}
