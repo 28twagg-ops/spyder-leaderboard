@@ -1,6 +1,6 @@
 # Targeted evidence checks — 2026-11-26
 
-Indexed abstracts and publisher/guidance excerpts, not a comprehensive full-text audit.
+Indexed abstracts and publisher/guideline excerpts; not comprehensive full-text appraisal.
 
 ## S001 — Topical preparations for preventing stretch marks in pregnancy | Cochrane
 Reliable topical prevention not established; combination products cannot isolate ingredients.
@@ -326,3 +326,23 @@ Route and infant age matter; avoid infant contact with treated skin. Individual 
 Seek early assessment and tailored physiotherapy; severe pain or limited mobility may require additional medical care.
 
 [Original source](https://www.rcog.org.uk/for-the-public/browse-our-patient-information/pelvic-girdle-pain-and-pregnancy/) · Treatment guidance · indexed excerpt or public guidance; not full-text appraisal.
+
+## N323 — Collagen Peptides: MedlinePlus Supplements
+Reliable safety information is insufficient for collagen peptide supplements during pregnancy and breastfeeding. Lack of evidence is not demonstrated harm or safety.
+
+[Original source](https://www.medlineplus.gov/druginfo/natural/1606.html) · Pregnancy and breastfeeding safety section · public guidance or indexed source excerpt.
+
+## N324 — Collagen supplements clinical review
+Limited evidence warrants caution in pregnancy and lactation; adult cosmetic data not pregnancy prevention evidence.
+
+[Original source](https://doi.org/10.1071/HC15947) · Review conclusion · public guidance or indexed source excerpt.
+
+## N325 — Support for You
+Trusted support for meals and rest is a practical option; not a quantified medical effect.
+
+[Original source](https://www.hhs.gov/healthcare/maternal-health/newborn-supply-kit/support-for-you/index.html) · Support and recovery · public guidance or indexed source excerpt.
+
+## N326 — Providing Support for Pregnant or Postpartum Women
+Listen to concerns, offer help, support timely medical assessment.
+
+[Original source](https://www.cdc.gov/hearher/caring/) · Partner/family support · public guidance or indexed source excerpt.

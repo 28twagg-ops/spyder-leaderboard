@@ -1,15 +1,12 @@
 {
-  "source_records": 306,
+  "source_records": 312,
   "baseline": 223,
-  "checked_records": 65,
-  "distinct_checked": 65,
+  "checked_records": 69,
+  "distinct_checked": 69,
   "topics": 22,
   "claims": 53,
   "phases": 22,
-  "fields_without_selected_checks": [
-    "SKIN-002.safety",
-    "WELL-001.action"
-  ],
+  "fields_without_selected_checks": [],
   "unresolved_source_links": [],
   "clinical_reviews": 0,
   "scope": "structural join and targeted indexed checks only; not comprehensive full-text or clinical review",
@@ -19,5 +16,13 @@
   "study_rows": 37,
   "invalid_interval_ids": [],
   "unresolved_numeric_source_ids": [],
-  "invalid_urls": []
+  "invalid_urls": [],
+  "media_candidates": 17,
+  "media_pages_loaded_or_title_verified": 15,
+  "media_fetch_failed": [
+    "M02",
+    "M10"
+  ],
+  "media_playback_audited": 0,
+  "media_alias_url_mismatch": []
 }

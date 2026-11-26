@@ -34,3 +34,6 @@ Added 22 baseline-derived quick cards, 22 timeline summaries, 24 targeted clinic
 
 ## Citation integration · 2026-11-26
 306 source/resource records (mixed types, not independent medical study count), 65 selected evidence checks, 22 topic bundles, 63 linked interval rows and 6 count records, 12 nutrient rows, 37 study rows. Integration QA is structural only. Original full research gaps, clinical review and complete source appraisal remain outstanding.
+
+## Additional source and media audit
+All 66 quick-view fields have selected source links; source/resource registry now 312 records, 69 selected evidence checks. Media candidate pages/titles accessible for 15/17; two failed. No playback or clinical review. Numeric row counts unchanged. See integrated/INTEGRATION_QA.json and MEDIA_LINK_AUDIT.md.

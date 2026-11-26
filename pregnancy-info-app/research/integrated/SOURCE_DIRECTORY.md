@@ -1,6 +1,6 @@
 # Source directory
 
-Stable IDs, direct links, scope and verification. Includes clinical, UX, media and comparator records, not independent medical-study count. DOI and PMID in registry where available.
+Stable IDs and original publisher links. Contains clinical, UX, media and comparator records, not an independent medical-study count. DOI and PMID in JSON where available. Verification is limited to the stated scope.
 
 | ID | Original source | Current-pass status |
 |---|---|---|
@@ -256,20 +256,20 @@ Stable IDs, direct links, scope and verification. Includes clinical, UX, media a
 | UX16 | [Pregnancy apps scientific guidance and commercialization](https://pubmed.ncbi.nlm.nih.gov/39587534/) | selected finding or identity checked |
 | UX17 | [Pregnancy app safety considerations](https://pubmed.ncbi.nlm.nih.gov/37675058/) | inherited; not independently rechecked |
 | UX18 | [Health literacy interactive graphics guidance](https://odphp.health.gov/healthliteracyonline/create-actionable-content/engage-people-interactive-content-and-graphics) | inherited; not independently rechecked |
-| M01 | [Pelvic floor exercises](https://www.youtube.com/watch?v=JFJtUtKQCuM) | inherited; not independently rechecked |
-| M03 | [Prenatal and postnatal yoga](https://www.nhs.uk/live-well/exercise/pilates-and-yoga/prenatal-and-postnatal-exercise/) | inherited; not independently rechecked |
-| M04 | [Maternity physiotherapy advice videos](https://www.uhbristol.nhs.uk/patients-and-visitors/your-hospitals/st-michaels-hospital/what-we-do/physiotherapy/advice-videos/) | inherited; not independently rechecked |
-| M05 | [Antenatal perineal massage](https://www.leedsth.nhs.uk/patients/resources/antenatal-perineal-massage/) | inherited; not independently rechecked |
-| M06 | [Pelvic health video series](https://thepogp.co.uk/pelvic_health_videos_-_english.aspx) | inherited; not independently rechecked |
-| M07 | [Supporting your body through pregnancy and after birth](https://www.selondonics.org/supporting-your-body-through-pregnancy-and-after-birth/) | inherited; not independently rechecked |
-| M08 | [Preparing for and recovering from cesarean birth and scar massage](https://www.nwlondonicb.nhs.uk/your-health-services/pregnancy-and-maternity-services/preparing-caesarean-birth-and-after) | inherited; not independently rechecked |
-| M09 | [Postnatal physiotherapy](https://www.leedsth.nhs.uk/services/physiotherapy-2/pelvic-health-physiotherapy/urogynaecology-physiotherapy/postnatal/) | inherited; not independently rechecked |
-| M11 | [Decoding folic acid labels](https://www.cdc.gov/folic-acid/php/toolkit/decoding-labels.html) | inherited; not independently rechecked |
-| M12 | [Nutrition and pregnancy video series](https://myhealth.alberta.ca/Alberta/Pages/nutrition-pregnancy-video-series.aspx) | inherited; not independently rechecked |
-| M13 | [Hear Her personal stories](https://www.cdc.gov/hearher/personal-stories/index.html) | inherited; not independently rechecked |
-| M14 | [Maternal warning signs video](https://maternalwarningsigns.org/) | inherited; not independently rechecked |
-| M15 | [Pelvic health videos in British Sign Language](https://signhealth.org.uk/videotags/pregnancy/) | inherited; not independently rechecked |
-| M17 | [Evidence Based Birth podcast](https://evidencebasedbirth.com/evidence-based-birth-podcast/) | inherited; not independently rechecked |
+| M01 | [Pelvic floor exercises](https://www.youtube.com/watch?v=JFJtUtKQCuM) | Title verified on YouTube; playback not audited |
+| M03 | [Prenatal and postnatal yoga](https://www.nhs.uk/live-well/exercise/pilates-and-yoga/prenatal-and-postnatal-exercise/) | NHS page verified; publisher lists 45-minute video, reviewed 13 May 2025 |
+| M04 | [Maternity physiotherapy advice videos](https://www.uhbristol.nhs.uk/patients-and-visitors/your-hospitals/st-michaels-hospital/what-we-do/physiotherapy/advice-videos/) | Hospital advice videos page loaded; individual playback not checked |
+| M05 | [Antenatal perineal massage](https://www.leedsth.nhs.uk/patients/resources/antenatal-perineal-massage/) | Hospital antenatal perineal massage page loaded; video presence/playback not independently confirmed |
+| M06 | [Pelvic health video series](https://thepogp.co.uk/pelvic_health_videos_-_english.aspx) | POGP video collection page loaded; individual playback not checked |
+| M07 | [Supporting your body through pregnancy and after birth](https://www.selondonics.org/supporting-your-body-through-pregnancy-and-after-birth/) | ICS short video collection page loaded; individual playback not checked |
+| M08 | [Preparing for and recovering from cesarean birth and scar massage](https://www.nwlondonicb.nhs.uk/your-health-services/pregnancy-and-maternity-services/preparing-caesarean-birth-and-after) | ICS cesarean recovery page loaded; individual playback not checked |
+| M09 | [Postnatal physiotherapy](https://www.leedsth.nhs.uk/services/physiotherapy-2/pelvic-health-physiotherapy/urogynaecology-physiotherapy/postnatal/) | Hospital postnatal physiotherapy page loaded; individual playback not checked |
+| M11 | [Decoding folic acid labels](https://www.cdc.gov/folic-acid/php/toolkit/decoding-labels.html) | CDC video toolkit page loaded; duration not supplied |
+| M12 | [Nutrition and pregnancy video series](https://myhealth.alberta.ca/Alberta/Pages/nutrition-pregnancy-video-series.aspx) | Alberta video collection page loaded; individual playback not checked |
+| M13 | [Hear Her personal stories](https://www.cdc.gov/hearher/personal-stories/index.html) | CDC personal story collection page loaded; individual playback not checked |
+| M14 | [Maternal warning signs video](https://maternalwarningsigns.org/) | Maternal warning signs page loaded; individual playback not checked |
+| M15 | [Pelvic health videos in British Sign Language](https://signhealth.org.uk/videotags/pregnancy/) | SignHealth pregnancy resource collection loaded; individual playback not checked |
+| M17 | [Evidence Based Birth podcast](https://evidencebasedbirth.com/evidence-based-birth-podcast/) | Evidence Based Birth podcast collection loaded; episode claims not audited |
 | COMP01 | [Pregnancy+](https://apps.apple.com/us/app/pregnancy-tracker-app/id505864483) | inherited; not independently rechecked |
 | COMP02 | [BabyCenter](https://apps.apple.com/us/app/babycenter-pregnancy-tracker/id386022579) | inherited; not independently rechecked |
 | COMP03 | [Ovia](https://www.oviahealth.com/pregnancy-app/) | inherited; not independently rechecked |
@@ -310,3 +310,9 @@ Stable IDs, direct links, scope and verification. Includes clinical, UX, media a
 | N320 | [MotherToBaby ginger](https://mothertobaby.org/fact-sheets/ginger-pregnancy/) | selected finding or identity checked |
 | N321 | [LactMed minoxidil](https://www.ncbi.nlm.nih.gov/books/NBK501032/) | selected finding or identity checked |
 | N322 | [RCOG pelvic girdle pain and pregnancy](https://www.rcog.org.uk/for-the-public/browse-our-patient-information/pelvic-girdle-pain-and-pregnancy/) | selected finding or identity checked |
+| M02 | [Prenatal physiotherapy: pelvic floor exercise](https://www.youtube.com/watch?v=APCdcePoMik) | Fetch failed; title/publisher not reverified; keep unavailable candidate |
+| M10 | [Pregnancy nutrition Q&A](https://www.youtube.com/watch?v=pozcaggYIWk) | Fetch failed; title/publisher not reverified; keep unavailable candidate |
+| N323 | [Collagen Peptides: MedlinePlus Supplements](https://www.medlineplus.gov/druginfo/natural/1606.html) | selected finding checked |
+| N324 | [Collagen supplements clinical review](https://doi.org/10.1071/HC15947) | selected finding checked |
+| N325 | [Support for You](https://www.hhs.gov/healthcare/maternal-health/newborn-supply-kit/support-for-you/index.html) | selected finding checked |
+| N326 | [Providing Support for Pregnant or Postpartum Women](https://www.cdc.gov/hearher/caring/) | selected finding checked |

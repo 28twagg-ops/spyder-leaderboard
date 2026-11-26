@@ -1,6 +1,6 @@
 # Topic citation guide
 
-Selected checks are partial, not exhaustive clause-level appraisal. Context links remain visible.
+Selected checks support identified parts of each field; not exhaustive clause-level appraisal or medical clearance. Context remains visible.
 
 ## SKIN-001: Can creams prevent stretch marks?
 **takeaway:** Moisturizers can help dryness. Reliable stretch-mark prevention is not established.
@@ -28,7 +28,7 @@ Selected sources: [S011](https://www.sciencedirect.com/science/article/pii/S0002
 
 **safety:** Before conception, adult cosmetic findings apply only to similar populations. During pregnancy and lactation, product-specific safety and benefit for this indication remain unestablished.
 
-Selected sources: not independently checked at field level; see context below.
+Selected sources: [N323](https://www.medlineplus.gov/druginfo/natural/1606.html), [N324](https://doi.org/10.1071/HC15947).
 
 Context: [S011](https://www.sciencedirect.com/science/article/pii/S0002934325002839), [S013](https://pubmed.ncbi.nlm.nih.gov/37432180/), [S014](https://doi.org/10.3390%2Fcosmetics12020079), [S015](https://pubmed.ncbi.nlm.nih.gov/23949208/), [S016](https://pubmed.ncbi.nlm.nih.gov/26362110/), [S201](https://ods.od.nih.gov/factsheets/WYNTK-Consumer/).
 
@@ -294,7 +294,7 @@ Selected sources: [S147](https://www.uspreventiveservicestaskforce.org/uspstf/re
 
 **action:** Choose a few ways your partner can help.
 
-Selected sources: not independently checked at field level; see context below.
+Selected sources: [N325](https://www.hhs.gov/healthcare/maternal-health/newborn-supply-kit/support-for-you/index.html), [N326](https://www.cdc.gov/hearher/caring/).
 
 **safety:** During pregnancy and the year after delivery, thoughts of harming oneself or the baby need immediate help. Severe confusion or loss of contact with reality requires emergency assessment. Postpartum follow-up is an ongoing process.
 

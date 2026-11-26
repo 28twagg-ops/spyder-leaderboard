@@ -8145,7 +8145,9 @@
         "kind": "media",
         "record": "M16"
       }
-    ]
+    ],
+    "media_link_check": "Hospital maternity physiotherapy page loaded; individual playback not checked",
+    "media_checked_date": "2026-11-26"
   },
   {
     "id": "S197",
@@ -9984,26 +9986,17 @@
     "source_host": "www.youtube.com",
     "pmid": null,
     "doi": null,
-    "current_pass_status": "inherited; not independently rechecked",
+    "current_pass_status": "Title verified on YouTube; playback not audited",
     "clinical_review": false,
-    "aliases": [
-      "M02",
-      "M10"
-    ],
+    "aliases": [],
     "used_by": [
       {
         "kind": "media",
         "record": "M01"
-      },
-      {
-        "kind": "media",
-        "record": "M02"
-      },
-      {
-        "kind": "media",
-        "record": "M10"
       }
-    ]
+    ],
+    "media_link_check": "Title verified on YouTube; playback not audited",
+    "media_checked_date": "2026-11-26"
   },
   {
     "id": "M03",
@@ -10027,7 +10020,7 @@
     "source_host": "www.nhs.uk",
     "pmid": null,
     "doi": null,
-    "current_pass_status": "inherited; not independently rechecked",
+    "current_pass_status": "NHS page verified; publisher lists 45-minute video, reviewed 13 May 2025",
     "clinical_review": false,
     "aliases": [],
     "used_by": [
@@ -10039,7 +10032,9 @@
         "kind": "media",
         "record": "M03"
       }
-    ]
+    ],
+    "media_link_check": "NHS page verified; publisher lists 45-minute video, reviewed 13 May 2025",
+    "media_checked_date": "2026-11-26"
   },
   {
     "id": "M04",
@@ -10065,7 +10060,7 @@
     "source_host": "www.uhbristol.nhs.uk",
     "pmid": null,
     "doi": null,
-    "current_pass_status": "inherited; not independently rechecked",
+    "current_pass_status": "Hospital advice videos page loaded; individual playback not checked",
     "clinical_review": false,
     "aliases": [],
     "used_by": [
@@ -10085,7 +10080,9 @@
         "kind": "media",
         "record": "M04"
       }
-    ]
+    ],
+    "media_link_check": "Hospital advice videos page loaded; individual playback not checked",
+    "media_checked_date": "2026-11-26"
   },
   {
     "id": "M05",
@@ -10108,7 +10105,7 @@
     "source_host": "www.leedsth.nhs.uk",
     "pmid": null,
     "doi": null,
-    "current_pass_status": "inherited; not independently rechecked",
+    "current_pass_status": "Hospital antenatal perineal massage page loaded; video presence/playback not independently confirmed",
     "clinical_review": false,
     "aliases": [],
     "used_by": [
@@ -10116,7 +10113,9 @@
         "kind": "media",
         "record": "M05"
       }
-    ]
+    ],
+    "media_link_check": "Hospital antenatal perineal massage page loaded; video presence/playback not independently confirmed",
+    "media_checked_date": "2026-11-26"
   },
   {
     "id": "M06",
@@ -10141,7 +10140,7 @@
     "source_host": "thepogp.co.uk",
     "pmid": null,
     "doi": null,
-    "current_pass_status": "inherited; not independently rechecked",
+    "current_pass_status": "POGP video collection page loaded; individual playback not checked",
     "clinical_review": false,
     "aliases": [],
     "used_by": [
@@ -10157,7 +10156,9 @@
         "kind": "media",
         "record": "M06"
       }
-    ]
+    ],
+    "media_link_check": "POGP video collection page loaded; individual playback not checked",
+    "media_checked_date": "2026-11-26"
   },
   {
     "id": "M07",
@@ -10183,7 +10184,7 @@
     "source_host": "www.selondonics.org",
     "pmid": null,
     "doi": null,
-    "current_pass_status": "inherited; not independently rechecked",
+    "current_pass_status": "ICS short video collection page loaded; individual playback not checked",
     "clinical_review": false,
     "aliases": [],
     "used_by": [
@@ -10203,7 +10204,9 @@
         "kind": "media",
         "record": "M07"
       }
-    ]
+    ],
+    "media_link_check": "ICS short video collection page loaded; individual playback not checked",
+    "media_checked_date": "2026-11-26"
   },
   {
     "id": "M08",
@@ -10227,7 +10230,7 @@
     "source_host": "www.nwlondonicb.nhs.uk",
     "pmid": null,
     "doi": null,
-    "current_pass_status": "inherited; not independently rechecked",
+    "current_pass_status": "ICS cesarean recovery page loaded; individual playback not checked",
     "clinical_review": false,
     "aliases": [],
     "used_by": [
@@ -10239,7 +10242,9 @@
         "kind": "media",
         "record": "M08"
       }
-    ]
+    ],
+    "media_link_check": "ICS cesarean recovery page loaded; individual playback not checked",
+    "media_checked_date": "2026-11-26"
   },
   {
     "id": "M09",
@@ -10265,7 +10270,7 @@
     "source_host": "www.leedsth.nhs.uk",
     "pmid": null,
     "doi": null,
-    "current_pass_status": "inherited; not independently rechecked",
+    "current_pass_status": "Hospital postnatal physiotherapy page loaded; individual playback not checked",
     "clinical_review": false,
     "aliases": [],
     "used_by": [
@@ -10285,7 +10290,9 @@
         "kind": "media",
         "record": "M09"
       }
-    ]
+    ],
+    "media_link_check": "Hospital postnatal physiotherapy page loaded; individual playback not checked",
+    "media_checked_date": "2026-11-26"
   },
   {
     "id": "M11",
@@ -10309,7 +10316,7 @@
     "source_host": "www.cdc.gov",
     "pmid": null,
     "doi": null,
-    "current_pass_status": "inherited; not independently rechecked",
+    "current_pass_status": "CDC video toolkit page loaded; duration not supplied",
     "clinical_review": false,
     "aliases": [],
     "used_by": [
@@ -10321,7 +10328,9 @@
         "kind": "media",
         "record": "M11"
       }
-    ]
+    ],
+    "media_link_check": "CDC video toolkit page loaded; duration not supplied",
+    "media_checked_date": "2026-11-26"
   },
   {
     "id": "M12",
@@ -10344,7 +10353,7 @@
     "source_host": "myhealth.alberta.ca",
     "pmid": null,
     "doi": null,
-    "current_pass_status": "inherited; not independently rechecked",
+    "current_pass_status": "Alberta video collection page loaded; individual playback not checked",
     "clinical_review": false,
     "aliases": [],
     "used_by": [
@@ -10352,7 +10361,9 @@
         "kind": "media",
         "record": "M12"
       }
-    ]
+    ],
+    "media_link_check": "Alberta video collection page loaded; individual playback not checked",
+    "media_checked_date": "2026-11-26"
   },
   {
     "id": "M13",
@@ -10377,7 +10388,7 @@
     "source_host": "www.cdc.gov",
     "pmid": null,
     "doi": null,
-    "current_pass_status": "inherited; not independently rechecked",
+    "current_pass_status": "CDC personal story collection page loaded; individual playback not checked",
     "clinical_review": false,
     "aliases": [],
     "used_by": [
@@ -10393,7 +10404,9 @@
         "kind": "media",
         "record": "M13"
       }
-    ]
+    ],
+    "media_link_check": "CDC personal story collection page loaded; individual playback not checked",
+    "media_checked_date": "2026-11-26"
   },
   {
     "id": "M14",
@@ -10418,7 +10431,7 @@
     "source_host": "maternalwarningsigns.org",
     "pmid": null,
     "doi": null,
-    "current_pass_status": "inherited; not independently rechecked",
+    "current_pass_status": "Maternal warning signs page loaded; individual playback not checked",
     "clinical_review": false,
     "aliases": [],
     "used_by": [
@@ -10434,7 +10447,9 @@
         "kind": "media",
         "record": "M14"
       }
-    ]
+    ],
+    "media_link_check": "Maternal warning signs page loaded; individual playback not checked",
+    "media_checked_date": "2026-11-26"
   },
   {
     "id": "M15",
@@ -10459,7 +10474,7 @@
     "source_host": "signhealth.org.uk",
     "pmid": null,
     "doi": null,
-    "current_pass_status": "inherited; not independently rechecked",
+    "current_pass_status": "SignHealth pregnancy resource collection loaded; individual playback not checked",
     "clinical_review": false,
     "aliases": [],
     "used_by": [
@@ -10475,7 +10490,9 @@
         "kind": "media",
         "record": "M15"
       }
-    ]
+    ],
+    "media_link_check": "SignHealth pregnancy resource collection loaded; individual playback not checked",
+    "media_checked_date": "2026-11-26"
   },
   {
     "id": "M17",
@@ -10499,7 +10516,7 @@
     "source_host": "evidencebasedbirth.com",
     "pmid": null,
     "doi": null,
-    "current_pass_status": "inherited; not independently rechecked",
+    "current_pass_status": "Evidence Based Birth podcast collection loaded; episode claims not audited",
     "clinical_review": false,
     "aliases": [],
     "used_by": [
@@ -10511,7 +10528,9 @@
         "kind": "media",
         "record": "M17"
       }
-    ]
+    ],
+    "media_link_check": "Evidence Based Birth podcast collection loaded; episode claims not audited",
+    "media_checked_date": "2026-11-26"
   },
   {
     "name": "Pregnancy+",
@@ -11356,6 +11375,176 @@
     "checked_url": "https://www.rcog.org.uk/for-the-public/browse-our-patient-information/pelvic-girdle-pain-and-pregnancy/",
     "checked_locator": "Treatment guidance",
     "checked_date": "2026-11-26",
+    "aliases": []
+  },
+  {
+    "id": "M02",
+    "title": "Prenatal physiotherapy: pelvic floor exercise",
+    "publisher": "Imperial College Healthcare NHS Trust",
+    "url": "https://www.youtube.com/watch?v=APCdcePoMik",
+    "topics": [
+      "PELV-001"
+    ],
+    "safety": "pregnancy; assess suitability",
+    "type": "direct video",
+    "duration_seconds": null,
+    "caption_status": "not audited",
+    "transcript_status": "not audited",
+    "rights": "link only; embedding/reuse permissions not verified",
+    "verification": "publisher listing/title and topic checked; playback and frame-by-frame clinical audit pending",
+    "checked": "2026-11-26",
+    "publish_status": "candidate; review before promotion",
+    "kind": "candidate media; not efficacy evidence",
+    "source_host": "www.youtube.com",
+    "pmid": null,
+    "doi": null,
+    "current_pass_status": "Fetch failed; title/publisher not reverified; keep unavailable candidate",
+    "clinical_review": false,
+    "used_by": [
+      {
+        "kind": "media",
+        "record": "M02"
+      }
+    ],
+    "media_link_check": "Fetch failed; title/publisher not reverified; keep unavailable candidate",
+    "media_checked_date": "2026-11-26",
+    "aliases": []
+  },
+  {
+    "id": "M10",
+    "title": "Pregnancy nutrition Q&A",
+    "publisher": "UC Davis Children's Hospital",
+    "url": "https://www.youtube.com/watch?v=pozcaggYIWk",
+    "topics": [
+      "NUTR-001"
+    ],
+    "safety": "general education; not individualized nutrient or diet prescription",
+    "type": "direct video",
+    "duration_seconds": null,
+    "caption_status": "not audited",
+    "transcript_status": "not audited",
+    "rights": "link only; embedding/reuse permissions not verified",
+    "verification": "publisher listing/title and topic checked; playback and frame-by-frame clinical audit pending",
+    "checked": "2026-11-26",
+    "publish_status": "candidate; review before promotion",
+    "kind": "candidate media; not efficacy evidence",
+    "source_host": "www.youtube.com",
+    "pmid": null,
+    "doi": null,
+    "current_pass_status": "Fetch failed; title/publisher not reverified; keep unavailable candidate",
+    "clinical_review": false,
+    "used_by": [
+      {
+        "kind": "media",
+        "record": "M10"
+      }
+    ],
+    "media_link_check": "Fetch failed; title/publisher not reverified; keep unavailable candidate",
+    "media_checked_date": "2026-11-26",
+    "aliases": []
+  },
+  {
+    "id": "N323",
+    "title": "Collagen Peptides: MedlinePlus Supplements",
+    "url": "https://www.medlineplus.gov/druginfo/natural/1606.html",
+    "topics": [
+      "SKIN-002"
+    ],
+    "kind": "clinical guidance or review",
+    "source_host": "www.medlineplus.gov",
+    "doi": null,
+    "pmid": null,
+    "current_pass_status": "selected finding checked",
+    "checked_url": "https://www.medlineplus.gov/druginfo/natural/1606.html",
+    "checked_locator": "Pregnancy and breastfeeding safety section",
+    "checked_date": "2026-11-26",
+    "clinical_review": false,
+    "funding": null,
+    "conflicts": null,
+    "used_by": [
+      {
+        "kind": "field",
+        "record": "SKIN-002.safety"
+      }
+    ],
+    "aliases": []
+  },
+  {
+    "id": "N324",
+    "title": "Collagen supplements clinical review",
+    "url": "https://doi.org/10.1071/HC15947",
+    "topics": [
+      "SKIN-002"
+    ],
+    "kind": "clinical guidance or review",
+    "source_host": "doi.org",
+    "doi": "10.1071/HC15947",
+    "pmid": null,
+    "current_pass_status": "selected finding checked",
+    "checked_url": "https://doi.org/10.1071/HC15947",
+    "checked_locator": "Review conclusion",
+    "checked_date": "2026-11-26",
+    "clinical_review": false,
+    "funding": null,
+    "conflicts": null,
+    "used_by": [
+      {
+        "kind": "field",
+        "record": "SKIN-002.safety"
+      }
+    ],
+    "aliases": []
+  },
+  {
+    "id": "N325",
+    "title": "Support for You",
+    "url": "https://www.hhs.gov/healthcare/maternal-health/newborn-supply-kit/support-for-you/index.html",
+    "topics": [
+      "WELL-001"
+    ],
+    "kind": "clinical guidance or review",
+    "source_host": "www.hhs.gov",
+    "doi": null,
+    "pmid": null,
+    "current_pass_status": "selected finding checked",
+    "checked_url": "https://www.hhs.gov/healthcare/maternal-health/newborn-supply-kit/support-for-you/index.html",
+    "checked_locator": "Support and recovery",
+    "checked_date": "2026-11-26",
+    "clinical_review": false,
+    "funding": null,
+    "conflicts": null,
+    "used_by": [
+      {
+        "kind": "field",
+        "record": "WELL-001.action"
+      }
+    ],
+    "aliases": []
+  },
+  {
+    "id": "N326",
+    "title": "Providing Support for Pregnant or Postpartum Women",
+    "url": "https://www.cdc.gov/hearher/caring/",
+    "topics": [
+      "WELL-001"
+    ],
+    "kind": "clinical guidance or review",
+    "source_host": "www.cdc.gov",
+    "doi": null,
+    "pmid": null,
+    "current_pass_status": "selected finding checked",
+    "checked_url": "https://www.cdc.gov/hearher/caring/",
+    "checked_locator": "Partner/family support",
+    "checked_date": "2026-11-26",
+    "clinical_review": false,
+    "funding": null,
+    "conflicts": null,
+    "used_by": [
+      {
+        "kind": "field",
+        "record": "WELL-001.action"
+      }
+    ],
     "aliases": []
   }
 ]

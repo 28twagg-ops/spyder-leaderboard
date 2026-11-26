@@ -583,5 +583,41 @@
     "finding": "Seek early assessment and tailored physiotherapy; severe pain or limited mobility may require additional medical care.",
     "date": "2026-11-26",
     "access": "indexed excerpt or public guidance; not full-text appraisal"
+  },
+  {
+    "source_id": "N323",
+    "original_id": "N323",
+    "checked_url": "https://www.medlineplus.gov/druginfo/natural/1606.html",
+    "locator": "Pregnancy and breastfeeding safety section",
+    "finding": "Reliable safety information is insufficient for collagen peptide supplements during pregnancy and breastfeeding. Lack of evidence is not demonstrated harm or safety.",
+    "date": "2026-11-26",
+    "access": "public guidance or indexed source excerpt"
+  },
+  {
+    "source_id": "N324",
+    "original_id": "N324",
+    "checked_url": "https://doi.org/10.1071/HC15947",
+    "locator": "Review conclusion",
+    "finding": "Limited evidence warrants caution in pregnancy and lactation; adult cosmetic data not pregnancy prevention evidence.",
+    "date": "2026-11-26",
+    "access": "public guidance or indexed source excerpt"
+  },
+  {
+    "source_id": "N325",
+    "original_id": "N325",
+    "checked_url": "https://www.hhs.gov/healthcare/maternal-health/newborn-supply-kit/support-for-you/index.html",
+    "locator": "Support and recovery",
+    "finding": "Trusted support for meals and rest is a practical option; not a quantified medical effect.",
+    "date": "2026-11-26",
+    "access": "public guidance or indexed source excerpt"
+  },
+  {
+    "source_id": "N326",
+    "original_id": "N326",
+    "checked_url": "https://www.cdc.gov/hearher/caring/",
+    "locator": "Partner/family support",
+    "finding": "Listen to concerns, offer help, support timely medical assessment.",
+    "date": "2026-11-26",
+    "access": "public guidance or indexed source excerpt"
   }
 ]

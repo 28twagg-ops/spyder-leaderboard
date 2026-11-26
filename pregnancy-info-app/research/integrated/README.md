@@ -5,3 +5,6 @@ Use this architecture-neutral layer for Claude. It connects 22 topic bundles, 53
 
 ## Numeric and study data
 Use CHART_DATA_LINKED.json, NUTRIENT_LINKED.json and STUDIES_LINKED.json for citation-linked numerical records and trial metadata. Each row includes direct source URL, original ID, measure/outcome and review status where available. Preserve source aliases; review overlap and missing values. Source directory and source check log are human-readable and machine-readable, respectively. Clinical review remains zero. The structural integration is not medical certification.
+
+## Final source-link pass
+All 66 quick-view fields now have selected source links plus original context. MEDIA_LINK_AUDIT.md documents link checks and two inaccessible candidate videos. Video query IDs are preserved. Source registry includes 312 source/resource records across different types; not a count of unique medical studies. No clinician review or complete primary full-text audit. Use current integration QA and review queue for the actual status.

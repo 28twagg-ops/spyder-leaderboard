@@ -859,7 +859,26 @@
       },
       "safety": {
         "text": "Before conception, adult cosmetic findings apply only to similar populations. During pregnancy and lactation, product-specific safety and benefit for this indication remain unestablished.",
-        "selected_links": [],
+        "selected_links": [
+          {
+            "source_id": "N323",
+            "title": "Collagen Peptides: MedlinePlus Supplements",
+            "url": "https://www.medlineplus.gov/druginfo/natural/1606.html",
+            "doi": null,
+            "pmid": null,
+            "role": "source supports identified part of field; other clauses require review",
+            "verification": "selected finding checked"
+          },
+          {
+            "source_id": "N324",
+            "title": "Collagen supplements clinical review",
+            "url": "https://doi.org/10.1071/HC15947",
+            "doi": "10.1071/HC15947",
+            "pmid": null,
+            "role": "source supports identified part of field; other clauses require review",
+            "verification": "selected finding checked"
+          }
+        ],
         "context_links": [
           {
             "source_id": "S011",
@@ -1063,6 +1082,24 @@
         "finding": "Updated adult review exists; precise sensitivity estimates not re-extracted.",
         "date": "2026-11-26",
         "access": "indexed excerpt or public guidance; not full-text appraisal"
+      },
+      {
+        "source_id": "N323",
+        "original_id": "N323",
+        "checked_url": "https://www.medlineplus.gov/druginfo/natural/1606.html",
+        "locator": "Pregnancy and breastfeeding safety section",
+        "finding": "Reliable safety information is insufficient for collagen peptide supplements during pregnancy and breastfeeding. Lack of evidence is not demonstrated harm or safety.",
+        "date": "2026-11-26",
+        "access": "public guidance or indexed source excerpt"
+      },
+      {
+        "source_id": "N324",
+        "original_id": "N324",
+        "checked_url": "https://doi.org/10.1071/HC15947",
+        "locator": "Review conclusion",
+        "finding": "Limited evidence warrants caution in pregnancy and lactation; adult cosmetic data not pregnancy prevention evidence.",
+        "date": "2026-11-26",
+        "access": "public guidance or indexed source excerpt"
       }
     ],
     "followups": [
@@ -2153,9 +2190,11 @@
           "url": "https://www.leedsth.nhs.uk/services/physiotherapy-2/pelvic-health-physiotherapy/urogynaecology-physiotherapy/postnatal/",
           "doi": null,
           "pmid": null,
-          "role": "media candidate; not efficacy",
-          "verification": "inherited; not independently rechecked"
-        }
+          "role": "media candidate; not clinical efficacy",
+          "verification": "Hospital postnatal physiotherapy page loaded; individual playback not checked"
+        },
+        "link_check": "Hospital postnatal physiotherapy page loaded; individual playback not checked",
+        "playback_verified": false
       }
     ],
     "visual": {
@@ -3968,7 +4007,7 @@
         ],
         "safety": "postpartum only after appropriate clearance; see video safety information",
         "type": "video page",
-        "duration_seconds": null,
+        "duration_seconds": 2700,
         "caption_status": "not audited",
         "transcript_status": "not audited",
         "rights": "link only; embedding/reuse permissions not verified",
@@ -3981,9 +4020,11 @@
           "url": "https://www.nhs.uk/live-well/exercise/pilates-and-yoga/prenatal-and-postnatal-exercise/",
           "doi": null,
           "pmid": null,
-          "role": "media candidate; not efficacy",
-          "verification": "inherited; not independently rechecked"
-        }
+          "role": "media candidate; not clinical efficacy",
+          "verification": "NHS page verified; publisher lists 45-minute video, reviewed 13 May 2025"
+        },
+        "link_check": "NHS page verified; publisher lists 45-minute video, reviewed 13 May 2025",
+        "playback_verified": false
       },
       {
         "id": "M04",
@@ -4011,9 +4052,11 @@
           "url": "https://www.uhbristol.nhs.uk/patients-and-visitors/your-hospitals/st-michaels-hospital/what-we-do/physiotherapy/advice-videos/",
           "doi": null,
           "pmid": null,
-          "role": "media candidate; not efficacy",
-          "verification": "inherited; not independently rechecked"
-        }
+          "role": "media candidate; not clinical efficacy",
+          "verification": "Hospital advice videos page loaded; individual playback not checked"
+        },
+        "link_check": "Hospital advice videos page loaded; individual playback not checked",
+        "playback_verified": false
       },
       {
         "id": "M06",
@@ -4040,9 +4083,11 @@
           "url": "https://thepogp.co.uk/pelvic_health_videos_-_english.aspx",
           "doi": null,
           "pmid": null,
-          "role": "media candidate; not efficacy",
-          "verification": "inherited; not independently rechecked"
-        }
+          "role": "media candidate; not clinical efficacy",
+          "verification": "POGP video collection page loaded; individual playback not checked"
+        },
+        "link_check": "POGP video collection page loaded; individual playback not checked",
+        "playback_verified": false
       },
       {
         "id": "M16",
@@ -4069,9 +4114,11 @@
           "url": "https://www.nuh.nhs.uk/physiotherapy-maternity/",
           "doi": null,
           "pmid": null,
-          "role": "media candidate; not efficacy",
+          "role": "media candidate; not clinical efficacy",
           "verification": "inherited; not independently rechecked"
-        }
+        },
+        "link_check": "Hospital maternity physiotherapy page loaded; individual playback not checked",
+        "playback_verified": false
       }
     ],
     "visual": {
@@ -4640,7 +4687,7 @@
         ],
         "safety": "postpartum only after appropriate clearance; see video safety information",
         "type": "video page",
-        "duration_seconds": null,
+        "duration_seconds": 2700,
         "caption_status": "not audited",
         "transcript_status": "not audited",
         "rights": "link only; embedding/reuse permissions not verified",
@@ -4653,9 +4700,11 @@
           "url": "https://www.nhs.uk/live-well/exercise/pilates-and-yoga/prenatal-and-postnatal-exercise/",
           "doi": null,
           "pmid": null,
-          "role": "media candidate; not efficacy",
-          "verification": "inherited; not independently rechecked"
-        }
+          "role": "media candidate; not clinical efficacy",
+          "verification": "NHS page verified; publisher lists 45-minute video, reviewed 13 May 2025"
+        },
+        "link_check": "NHS page verified; publisher lists 45-minute video, reviewed 13 May 2025",
+        "playback_verified": false
       },
       {
         "id": "M06",
@@ -4682,9 +4731,11 @@
           "url": "https://thepogp.co.uk/pelvic_health_videos_-_english.aspx",
           "doi": null,
           "pmid": null,
-          "role": "media candidate; not efficacy",
-          "verification": "inherited; not independently rechecked"
-        }
+          "role": "media candidate; not clinical efficacy",
+          "verification": "POGP video collection page loaded; individual playback not checked"
+        },
+        "link_check": "POGP video collection page loaded; individual playback not checked",
+        "playback_verified": false
       },
       {
         "id": "M07",
@@ -4712,9 +4763,11 @@
           "url": "https://www.selondonics.org/supporting-your-body-through-pregnancy-and-after-birth/",
           "doi": null,
           "pmid": null,
-          "role": "media candidate; not efficacy",
-          "verification": "inherited; not independently rechecked"
-        }
+          "role": "media candidate; not clinical efficacy",
+          "verification": "ICS short video collection page loaded; individual playback not checked"
+        },
+        "link_check": "ICS short video collection page loaded; individual playback not checked",
+        "playback_verified": false
       },
       {
         "id": "M09",
@@ -4742,9 +4795,11 @@
           "url": "https://www.leedsth.nhs.uk/services/physiotherapy-2/pelvic-health-physiotherapy/urogynaecology-physiotherapy/postnatal/",
           "doi": null,
           "pmid": null,
-          "role": "media candidate; not efficacy",
-          "verification": "inherited; not independently rechecked"
-        }
+          "role": "media candidate; not clinical efficacy",
+          "verification": "Hospital postnatal physiotherapy page loaded; individual playback not checked"
+        },
+        "link_check": "Hospital postnatal physiotherapy page loaded; individual playback not checked",
+        "playback_verified": false
       },
       {
         "id": "M15",
@@ -4771,9 +4826,11 @@
           "url": "https://signhealth.org.uk/videotags/pregnancy/",
           "doi": null,
           "pmid": null,
-          "role": "media candidate; not efficacy",
-          "verification": "inherited; not independently rechecked"
-        }
+          "role": "media candidate; not clinical efficacy",
+          "verification": "SignHealth pregnancy resource collection loaded; individual playback not checked"
+        },
+        "link_check": "SignHealth pregnancy resource collection loaded; individual playback not checked",
+        "playback_verified": false
       }
     ],
     "visual": {
@@ -5419,9 +5476,11 @@
           "url": "https://www.youtube.com/watch?v=JFJtUtKQCuM",
           "doi": null,
           "pmid": null,
-          "role": "media candidate; not efficacy",
-          "verification": "inherited; not independently rechecked"
-        }
+          "role": "media candidate; not clinical efficacy",
+          "verification": "Title verified on YouTube; playback not audited"
+        },
+        "link_check": "Title verified on YouTube; playback not audited",
+        "playback_verified": false
       },
       {
         "id": "M02",
@@ -5439,16 +5498,18 @@
         "rights": "link only; embedding/reuse permissions not verified",
         "verification": "publisher listing/title and topic checked; playback and frame-by-frame clinical audit pending",
         "checked": "2026-11-26",
-        "publish_status": "candidate; review before promotion",
+        "publish_status": "unavailable candidate; do not promote",
         "source": {
-          "source_id": "M01",
-          "title": "Pelvic floor exercises",
-          "url": "https://www.youtube.com/watch?v=JFJtUtKQCuM",
+          "source_id": "M02",
+          "title": "Prenatal physiotherapy: pelvic floor exercise",
+          "url": "https://www.youtube.com/watch?v=APCdcePoMik",
           "doi": null,
           "pmid": null,
-          "role": "media candidate; not efficacy",
-          "verification": "inherited; not independently rechecked"
-        }
+          "role": "media candidate; not clinical efficacy",
+          "verification": "Fetch failed; title/publisher not reverified; keep unavailable candidate"
+        },
+        "link_check": "Fetch failed; title/publisher not reverified; keep unavailable candidate",
+        "playback_verified": false
       },
       {
         "id": "M04",
@@ -5476,9 +5537,11 @@
           "url": "https://www.uhbristol.nhs.uk/patients-and-visitors/your-hospitals/st-michaels-hospital/what-we-do/physiotherapy/advice-videos/",
           "doi": null,
           "pmid": null,
-          "role": "media candidate; not efficacy",
-          "verification": "inherited; not independently rechecked"
-        }
+          "role": "media candidate; not clinical efficacy",
+          "verification": "Hospital advice videos page loaded; individual playback not checked"
+        },
+        "link_check": "Hospital advice videos page loaded; individual playback not checked",
+        "playback_verified": false
       },
       {
         "id": "M06",
@@ -5505,9 +5568,11 @@
           "url": "https://thepogp.co.uk/pelvic_health_videos_-_english.aspx",
           "doi": null,
           "pmid": null,
-          "role": "media candidate; not efficacy",
-          "verification": "inherited; not independently rechecked"
-        }
+          "role": "media candidate; not clinical efficacy",
+          "verification": "POGP video collection page loaded; individual playback not checked"
+        },
+        "link_check": "POGP video collection page loaded; individual playback not checked",
+        "playback_verified": false
       },
       {
         "id": "M07",
@@ -5535,9 +5600,11 @@
           "url": "https://www.selondonics.org/supporting-your-body-through-pregnancy-and-after-birth/",
           "doi": null,
           "pmid": null,
-          "role": "media candidate; not efficacy",
-          "verification": "inherited; not independently rechecked"
-        }
+          "role": "media candidate; not clinical efficacy",
+          "verification": "ICS short video collection page loaded; individual playback not checked"
+        },
+        "link_check": "ICS short video collection page loaded; individual playback not checked",
+        "playback_verified": false
       },
       {
         "id": "M09",
@@ -5565,9 +5632,11 @@
           "url": "https://www.leedsth.nhs.uk/services/physiotherapy-2/pelvic-health-physiotherapy/urogynaecology-physiotherapy/postnatal/",
           "doi": null,
           "pmid": null,
-          "role": "media candidate; not efficacy",
-          "verification": "inherited; not independently rechecked"
-        }
+          "role": "media candidate; not clinical efficacy",
+          "verification": "Hospital postnatal physiotherapy page loaded; individual playback not checked"
+        },
+        "link_check": "Hospital postnatal physiotherapy page loaded; individual playback not checked",
+        "playback_verified": false
       },
       {
         "id": "M15",
@@ -5594,9 +5663,11 @@
           "url": "https://signhealth.org.uk/videotags/pregnancy/",
           "doi": null,
           "pmid": null,
-          "role": "media candidate; not efficacy",
-          "verification": "inherited; not independently rechecked"
-        }
+          "role": "media candidate; not clinical efficacy",
+          "verification": "SignHealth pregnancy resource collection loaded; individual playback not checked"
+        },
+        "link_check": "SignHealth pregnancy resource collection loaded; individual playback not checked",
+        "playback_verified": false
       }
     ],
     "visual": {
@@ -6274,9 +6345,11 @@
           "url": "https://www.uhbristol.nhs.uk/patients-and-visitors/your-hospitals/st-michaels-hospital/what-we-do/physiotherapy/advice-videos/",
           "doi": null,
           "pmid": null,
-          "role": "media candidate; not efficacy",
-          "verification": "inherited; not independently rechecked"
-        }
+          "role": "media candidate; not clinical efficacy",
+          "verification": "Hospital advice videos page loaded; individual playback not checked"
+        },
+        "link_check": "Hospital advice videos page loaded; individual playback not checked",
+        "playback_verified": false
       },
       {
         "id": "M05",
@@ -6287,7 +6360,7 @@
           "BIRTH-001"
         ],
         "safety": "late pregnancy only, review contraindications with care team",
-        "type": "video page",
+        "type": "patient education page; video not confirmed",
         "duration_seconds": null,
         "caption_status": "not audited",
         "transcript_status": "not audited",
@@ -6301,9 +6374,11 @@
           "url": "https://www.leedsth.nhs.uk/patients/resources/antenatal-perineal-massage/",
           "doi": null,
           "pmid": null,
-          "role": "media candidate; not efficacy",
-          "verification": "inherited; not independently rechecked"
-        }
+          "role": "media candidate; not clinical efficacy",
+          "verification": "Hospital antenatal perineal massage page loaded; video presence/playback not independently confirmed"
+        },
+        "link_check": "Hospital antenatal perineal massage page loaded; video presence/playback not independently confirmed",
+        "playback_verified": false
       },
       {
         "id": "M08",
@@ -6329,9 +6404,11 @@
           "url": "https://www.nwlondonicb.nhs.uk/your-health-services/pregnancy-and-maternity-services/preparing-caesarean-birth-and-after",
           "doi": null,
           "pmid": null,
-          "role": "media candidate; not efficacy",
-          "verification": "inherited; not independently rechecked"
-        }
+          "role": "media candidate; not clinical efficacy",
+          "verification": "ICS cesarean recovery page loaded; individual playback not checked"
+        },
+        "link_check": "ICS cesarean recovery page loaded; individual playback not checked",
+        "playback_verified": false
       },
       {
         "id": "M15",
@@ -6358,9 +6435,11 @@
           "url": "https://signhealth.org.uk/videotags/pregnancy/",
           "doi": null,
           "pmid": null,
-          "role": "media candidate; not efficacy",
-          "verification": "inherited; not independently rechecked"
-        }
+          "role": "media candidate; not clinical efficacy",
+          "verification": "SignHealth pregnancy resource collection loaded; individual playback not checked"
+        },
+        "link_check": "SignHealth pregnancy resource collection loaded; individual playback not checked",
+        "playback_verified": false
       },
       {
         "id": "M16",
@@ -6387,9 +6466,11 @@
           "url": "https://www.nuh.nhs.uk/physiotherapy-maternity/",
           "doi": null,
           "pmid": null,
-          "role": "media candidate; not efficacy",
+          "role": "media candidate; not clinical efficacy",
           "verification": "inherited; not independently rechecked"
-        }
+        },
+        "link_check": "Hospital maternity physiotherapy page loaded; individual playback not checked",
+        "playback_verified": false
       },
       {
         "id": "M17",
@@ -6415,9 +6496,11 @@
           "url": "https://evidencebasedbirth.com/evidence-based-birth-podcast/",
           "doi": null,
           "pmid": null,
-          "role": "media candidate; not efficacy",
-          "verification": "inherited; not independently rechecked"
-        }
+          "role": "media candidate; not clinical efficacy",
+          "verification": "Evidence Based Birth podcast collection loaded; episode claims not audited"
+        },
+        "link_check": "Evidence Based Birth podcast collection loaded; episode claims not audited",
+        "playback_verified": false
       }
     ],
     "visual": {
@@ -7554,16 +7637,18 @@
         "rights": "link only; embedding/reuse permissions not verified",
         "verification": "publisher listing/title and topic checked; playback and frame-by-frame clinical audit pending",
         "checked": "2026-11-26",
-        "publish_status": "candidate; review before promotion",
+        "publish_status": "unavailable candidate; do not promote",
         "source": {
-          "source_id": "M01",
-          "title": "Pelvic floor exercises",
-          "url": "https://www.youtube.com/watch?v=JFJtUtKQCuM",
+          "source_id": "M10",
+          "title": "Pregnancy nutrition Q&A",
+          "url": "https://www.youtube.com/watch?v=pozcaggYIWk",
           "doi": null,
           "pmid": null,
-          "role": "media candidate; not efficacy",
-          "verification": "inherited; not independently rechecked"
-        }
+          "role": "media candidate; not clinical efficacy",
+          "verification": "Fetch failed; title/publisher not reverified; keep unavailable candidate"
+        },
+        "link_check": "Fetch failed; title/publisher not reverified; keep unavailable candidate",
+        "playback_verified": false
       },
       {
         "id": "M11",
@@ -7589,9 +7674,11 @@
           "url": "https://www.cdc.gov/folic-acid/php/toolkit/decoding-labels.html",
           "doi": null,
           "pmid": null,
-          "role": "media candidate; not efficacy",
-          "verification": "inherited; not independently rechecked"
-        }
+          "role": "media candidate; not clinical efficacy",
+          "verification": "CDC video toolkit page loaded; duration not supplied"
+        },
+        "link_check": "CDC video toolkit page loaded; duration not supplied",
+        "playback_verified": false
       },
       {
         "id": "M12",
@@ -7616,9 +7703,11 @@
           "url": "https://myhealth.alberta.ca/Alberta/Pages/nutrition-pregnancy-video-series.aspx",
           "doi": null,
           "pmid": null,
-          "role": "media candidate; not efficacy",
-          "verification": "inherited; not independently rechecked"
-        }
+          "role": "media candidate; not clinical efficacy",
+          "verification": "Alberta video collection page loaded; individual playback not checked"
+        },
+        "link_check": "Alberta video collection page loaded; individual playback not checked",
+        "playback_verified": false
       }
     ],
     "visual": {
@@ -10331,9 +10420,11 @@
           "url": "https://www.selondonics.org/supporting-your-body-through-pregnancy-and-after-birth/",
           "doi": null,
           "pmid": null,
-          "role": "media candidate; not efficacy",
-          "verification": "inherited; not independently rechecked"
-        }
+          "role": "media candidate; not clinical efficacy",
+          "verification": "ICS short video collection page loaded; individual playback not checked"
+        },
+        "link_check": "ICS short video collection page loaded; individual playback not checked",
+        "playback_verified": false
       },
       {
         "id": "M08",
@@ -10359,9 +10450,11 @@
           "url": "https://www.nwlondonicb.nhs.uk/your-health-services/pregnancy-and-maternity-services/preparing-caesarean-birth-and-after",
           "doi": null,
           "pmid": null,
-          "role": "media candidate; not efficacy",
-          "verification": "inherited; not independently rechecked"
-        }
+          "role": "media candidate; not clinical efficacy",
+          "verification": "ICS cesarean recovery page loaded; individual playback not checked"
+        },
+        "link_check": "ICS cesarean recovery page loaded; individual playback not checked",
+        "playback_verified": false
       },
       {
         "id": "M09",
@@ -10389,9 +10482,11 @@
           "url": "https://www.leedsth.nhs.uk/services/physiotherapy-2/pelvic-health-physiotherapy/urogynaecology-physiotherapy/postnatal/",
           "doi": null,
           "pmid": null,
-          "role": "media candidate; not efficacy",
-          "verification": "inherited; not independently rechecked"
-        }
+          "role": "media candidate; not clinical efficacy",
+          "verification": "Hospital postnatal physiotherapy page loaded; individual playback not checked"
+        },
+        "link_check": "Hospital postnatal physiotherapy page loaded; individual playback not checked",
+        "playback_verified": false
       }
     ],
     "visual": {
@@ -11012,9 +11107,11 @@
           "url": "https://www.cdc.gov/hearher/personal-stories/index.html",
           "doi": null,
           "pmid": null,
-          "role": "media candidate; not efficacy",
-          "verification": "inherited; not independently rechecked"
-        }
+          "role": "media candidate; not clinical efficacy",
+          "verification": "CDC personal story collection page loaded; individual playback not checked"
+        },
+        "link_check": "CDC personal story collection page loaded; individual playback not checked",
+        "playback_verified": false
       },
       {
         "id": "M14",
@@ -11041,9 +11138,11 @@
           "url": "https://maternalwarningsigns.org/",
           "doi": null,
           "pmid": null,
-          "role": "media candidate; not efficacy",
-          "verification": "inherited; not independently rechecked"
-        }
+          "role": "media candidate; not clinical efficacy",
+          "verification": "Maternal warning signs page loaded; individual playback not checked"
+        },
+        "link_check": "Maternal warning signs page loaded; individual playback not checked",
+        "playback_verified": false
       }
     ],
     "visual": {
@@ -11658,9 +11757,11 @@
           "url": "https://www.uhbristol.nhs.uk/patients-and-visitors/your-hospitals/st-michaels-hospital/what-we-do/physiotherapy/advice-videos/",
           "doi": null,
           "pmid": null,
-          "role": "media candidate; not efficacy",
-          "verification": "inherited; not independently rechecked"
-        }
+          "role": "media candidate; not clinical efficacy",
+          "verification": "Hospital advice videos page loaded; individual playback not checked"
+        },
+        "link_check": "Hospital advice videos page loaded; individual playback not checked",
+        "playback_verified": false
       },
       {
         "id": "M07",
@@ -11688,9 +11789,11 @@
           "url": "https://www.selondonics.org/supporting-your-body-through-pregnancy-and-after-birth/",
           "doi": null,
           "pmid": null,
-          "role": "media candidate; not efficacy",
-          "verification": "inherited; not independently rechecked"
-        }
+          "role": "media candidate; not clinical efficacy",
+          "verification": "ICS short video collection page loaded; individual playback not checked"
+        },
+        "link_check": "ICS short video collection page loaded; individual playback not checked",
+        "playback_verified": false
       },
       {
         "id": "M16",
@@ -11717,9 +11820,11 @@
           "url": "https://www.nuh.nhs.uk/physiotherapy-maternity/",
           "doi": null,
           "pmid": null,
-          "role": "media candidate; not efficacy",
+          "role": "media candidate; not clinical efficacy",
           "verification": "inherited; not independently rechecked"
-        }
+        },
+        "link_check": "Hospital maternity physiotherapy page loaded; individual playback not checked",
+        "playback_verified": false
       }
     ],
     "visual": {
@@ -12423,9 +12528,11 @@
           "url": "https://www.cdc.gov/folic-acid/php/toolkit/decoding-labels.html",
           "doi": null,
           "pmid": null,
-          "role": "media candidate; not efficacy",
-          "verification": "inherited; not independently rechecked"
-        }
+          "role": "media candidate; not clinical efficacy",
+          "verification": "CDC video toolkit page loaded; duration not supplied"
+        },
+        "link_check": "CDC video toolkit page loaded; duration not supplied",
+        "playback_verified": false
       },
       {
         "id": "M13",
@@ -12452,9 +12559,11 @@
           "url": "https://www.cdc.gov/hearher/personal-stories/index.html",
           "doi": null,
           "pmid": null,
-          "role": "media candidate; not efficacy",
-          "verification": "inherited; not independently rechecked"
-        }
+          "role": "media candidate; not clinical efficacy",
+          "verification": "CDC personal story collection page loaded; individual playback not checked"
+        },
+        "link_check": "CDC personal story collection page loaded; individual playback not checked",
+        "playback_verified": false
       },
       {
         "id": "M14",
@@ -12481,9 +12590,11 @@
           "url": "https://maternalwarningsigns.org/",
           "doi": null,
           "pmid": null,
-          "role": "media candidate; not efficacy",
-          "verification": "inherited; not independently rechecked"
-        }
+          "role": "media candidate; not clinical efficacy",
+          "verification": "Maternal warning signs page loaded; individual playback not checked"
+        },
+        "link_check": "Maternal warning signs page loaded; individual playback not checked",
+        "playback_verified": false
       }
     ],
     "visual": {
@@ -12736,7 +12847,26 @@
       },
       "action": {
         "text": "Choose a few ways your partner can help.",
-        "selected_links": [],
+        "selected_links": [
+          {
+            "source_id": "N325",
+            "title": "Support for You",
+            "url": "https://www.hhs.gov/healthcare/maternal-health/newborn-supply-kit/support-for-you/index.html",
+            "doi": null,
+            "pmid": null,
+            "role": "source supports identified part of field; other clauses require review",
+            "verification": "selected finding checked"
+          },
+          {
+            "source_id": "N326",
+            "title": "Providing Support for Pregnant or Postpartum Women",
+            "url": "https://www.cdc.gov/hearher/caring/",
+            "doi": null,
+            "pmid": null,
+            "role": "source supports identified part of field; other clauses require review",
+            "verification": "selected finding checked"
+          }
+        ],
         "context_links": [
           {
             "source_id": "S131",
@@ -13221,6 +13351,24 @@
         "finding": "Counseling RR .61 (.47–.78), 17 trials 3094; possible small-study effect.",
         "date": "2026-11-26",
         "access": "indexed excerpt or public guidance; not full-text appraisal"
+      },
+      {
+        "source_id": "N325",
+        "original_id": "N325",
+        "checked_url": "https://www.hhs.gov/healthcare/maternal-health/newborn-supply-kit/support-for-you/index.html",
+        "locator": "Support and recovery",
+        "finding": "Trusted support for meals and rest is a practical option; not a quantified medical effect.",
+        "date": "2026-11-26",
+        "access": "public guidance or indexed source excerpt"
+      },
+      {
+        "source_id": "N326",
+        "original_id": "N326",
+        "checked_url": "https://www.cdc.gov/hearher/caring/",
+        "locator": "Partner/family support",
+        "finding": "Listen to concerns, offer help, support timely medical assessment.",
+        "date": "2026-11-26",
+        "access": "public guidance or indexed source excerpt"
       }
     ],
     "followups": [
@@ -13293,9 +13441,11 @@
           "url": "https://www.cdc.gov/hearher/personal-stories/index.html",
           "doi": null,
           "pmid": null,
-          "role": "media candidate; not efficacy",
-          "verification": "inherited; not independently rechecked"
-        }
+          "role": "media candidate; not clinical efficacy",
+          "verification": "CDC personal story collection page loaded; individual playback not checked"
+        },
+        "link_check": "CDC personal story collection page loaded; individual playback not checked",
+        "playback_verified": false
       },
       {
         "id": "M14",
@@ -13322,9 +13472,11 @@
           "url": "https://maternalwarningsigns.org/",
           "doi": null,
           "pmid": null,
-          "role": "media candidate; not efficacy",
-          "verification": "inherited; not independently rechecked"
-        }
+          "role": "media candidate; not clinical efficacy",
+          "verification": "Maternal warning signs page loaded; individual playback not checked"
+        },
+        "link_check": "Maternal warning signs page loaded; individual playback not checked",
+        "playback_verified": false
       }
     ],
     "visual": {
@@ -14673,9 +14825,11 @@
           "url": "https://evidencebasedbirth.com/evidence-based-birth-podcast/",
           "doi": null,
           "pmid": null,
-          "role": "media candidate; not efficacy",
-          "verification": "inherited; not independently rechecked"
-        }
+          "role": "media candidate; not clinical efficacy",
+          "verification": "Evidence Based Birth podcast collection loaded; episode claims not audited"
+        },
+        "link_check": "Evidence Based Birth podcast collection loaded; episode claims not audited",
+        "playback_verified": false
       }
     ],
     "visual": {
