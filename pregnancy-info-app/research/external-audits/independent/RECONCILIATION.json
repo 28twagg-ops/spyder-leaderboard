@@ -1,0 +1,370 @@
+{
+  "date": "2026-11-26",
+  "input": "User-pasted independent audit, external repository access failed",
+  "scope": "Reconcile seven findings with existing registry/interventions/chart/media; verify selected original sources, not full review",
+  "checks": [
+    {
+      "id": "IA-A1",
+      "topic": "FACE-001",
+      "sources": [
+        "IA001",
+        "IA002",
+        "IA003",
+        "H019",
+        "S204"
+      ],
+      "status": "new safety references; existing adult comparator not new",
+      "finding": "StatPearls reports 35–45% systemic absorption of topical 2% hydroquinone; not an absorbed fetal dose. UKTIS v3 advises against use during pregnancy because reproductive data are limited; inadvertent exposure is not usually grounds for termination. LactMed distinguishes unstudied breastfeeding exposure from formal contraindication; some experts advise against prolonged use, avoid infant contact/ingestion. Avoid elective use pending individualized advice.",
+      "rejected": "Do not infer mercury exposure from hydroquinone itself; external mercury report not independently verified and contamination is formulation-specific. Do not use adult concentration/duration as pregnancy guidance.",
+      "locators": [
+        "IA001 pharmacokinetics",
+        "IA002 public summary",
+        "IA003 lactation summary"
+      ]
+    },
+    {
+      "id": "IA-A2",
+      "topic": "FACE-001",
+      "sources": [
+        "IA004",
+        "IA005",
+        "S204"
+      ],
+      "status": "new primary trial and lactation reference",
+      "finding": "44 adults randomized; 12 weeks; 0.5% bakuchiol twice daily versus 0.5% retinol once daily. Both improved photoaging outcomes; no significant between-group difference, retinol more scaling/stinging. Pregnancy and breastfeeding explicitly excluded. Not an equivalence or reproductive safety trial. Mechanism does not establish safety.",
+      "safety": "Bakuchiol research-only, not proven safe in pregnancy or lactation. Avoid topical retinoids in pregnancy; do not blanket-label all retinoids contraindicated in lactation. LactMed considers topical tretinoin low risk owing to poor absorption but no direct lactation study; avoid nipple/areola and infant skin contact. Oral retinoids require separate rules.",
+      "funding": "See IA004"
+    },
+    {
+      "id": "IA-B1",
+      "topics": [
+        "FIT-003",
+        "ABD-001",
+        "PELV-001",
+        "WELL-001"
+      ],
+      "sources": [
+        "S064",
+        "N305",
+        "S032"
+      ],
+      "status": "existing guideline and review; N305 is publication-location alias of S064, retain both IDs for existing references; no new independent source",
+      "finding": "Canadian 2025 guideline: build toward ≥120 minutes moderate-to-vigorous activity/week across ≥4 days, aerobic and resistance, gradual symptom-based return. Encourage starting within 12 weeks where appropriate, not universal clearance or deadline. Daily PFMT with technique support; tailor for pain/overactivity. Sedentary ≤8h and recreational screens ≤3h conditional, very low certainty; sleep hygiene rather than strict sleep dose. Unstable BP >140/90 is a screening item, not emergency threshold or sole clinical rule. Wound, bleeding, dyspnea, chest pain, fainting and other symptoms require differentiated triage. No automated eligibility.",
+      "numeric_notes": "Beamish odds outcomes distinguish PFMT-only versus broader interventions; POP single trial, not severity or guaranteed prevention; IRD does not establish DRA resolution. Guideline and its companion review share evidence."
+    },
+    {
+      "id": "IA-B2",
+      "topic": "NUTR-001",
+      "sources": [
+        "IA006",
+        "IA007",
+        "S086",
+        "S215"
+      ],
+      "interventions": [
+        "INT-052"
+      ],
+      "status": "new publications, one cohort",
+      "finding": "Third trimester total choline 930 vs 480 mg/day; 26 original completers, 21 re-recruited, 20 analyzed at age seven (11 vs 9). SAT means 0.71 vs 0.56, SE 0.04 each; difference 0.15 (95% CI .03–.27), p=.02. Overall hit percentage main effect not significant (84 vs 76%, p=.12); specific vigilance interaction reported separately. Not IQ, not absolute probability of improved child cognition.",
+      "limitations": "Small cohort, attrition, multiple outcomes, replication required; mixed public/commercial funding. 450 mg/day pregnancy and 550 mg/day lactation are total-intake AIs, not supplement doses; no routine 930 mg recommendation."
+    },
+    {
+      "id": "IA-D1",
+      "topic": "ABD-001",
+      "sources": [
+        "S028",
+        "R009",
+        "S032",
+        "S030"
+      ],
+      "interventions": [
+        "INT-014"
+      ],
+      "status": "both publications already registered; expand existing extraction",
+      "finding": "S028 T028 70 participants, 6–12 months postpartum, 12 weeks. Existing O002 (IRD +1 mm, CI −1 to +4) and O003 (strength +9 Nm, CI 3–16) retained, new thickness +0.7 mm (CI .1–1.3). R009 Benjamin review MD −.43 cm (CI −.82 to −.05), six trials n161 moderate certainty. Do not infer early postpartum readiness, severe DRA safety or mandatory avoidance of curl-ups. Doming may prompt individualized modification, not validated standalone contraindication.",
+      "overlap": "Review estimates are not independent trials; exact cohort crosswalk pending."
+    },
+    {
+      "id": "IA-D2",
+      "topic": "REPRO-001",
+      "sources": [
+        "IA008"
+      ],
+      "interventions": [
+        "INT-086"
+      ],
+      "status": "new primary trial",
+      "finding": "2370 couples seeking infertility treatment; male 5 mg folic acid+30 mg elemental zinc daily vs placebo for six months. Live births 404/1185 vs 416/1185, adjusted/reported RD −0.9 percentage points (95% CI −4.7 to 2.8); DNA fragmentation +2.4 pp (CI .5–4.4), 29.7 vs 27.2. GI events more frequent. 1629 semen samples at six months, 1773 visits, complete live birth follow-up.",
+      "limitations": "Does not apply to treatment of deficiencies, all supplements or maternal periconception folic acid; not healthy male population. Do not recommend tested high doses or infer causality beyond tested combination and population."
+    },
+    {
+      "id": "IA-E1",
+      "sources": [
+        "IA009",
+        "S064"
+      ],
+      "status": "new audio candidate",
+      "finding": "Official BJSM publisher listing July 11 2025; secondary discussion, not independent clinical evidence. No playback, transcript, duration or reuse verification; not substitute for visuals."
+    }
+  ],
+  "numeric_records": [
+    {
+      "id": "IA-N01",
+      "source_id": "S032",
+      "outcome": "Urinary incontinence odds",
+      "comparison": "PFMT-only vs control",
+      "measure": "OR",
+      "estimate": 0.63,
+      "lower": 0.41,
+      "upper": 0.97,
+      "confidence_level": 95,
+      "reported_sample": 1930,
+      "locator": "Abstract; seven RCTs",
+      "clinical_review": false,
+      "publication_status": "research overlay only",
+      "show_as_independent_trial": false,
+      "contributing_studies": 7,
+      "certainty": "moderate",
+      "i2_percent": 72,
+      "level": "review estimate",
+      "axis": "log",
+      "null_value": 1
+    },
+    {
+      "id": "IA-N02",
+      "source_id": "S032",
+      "outcome": "Pelvic organ prolapse odds",
+      "comparison": "PFMT vs control",
+      "measure": "OR",
+      "estimate": 0.44,
+      "lower": 0.21,
+      "upper": 0.91,
+      "confidence_level": 95,
+      "reported_sample": 123,
+      "locator": "Abstract; one RCT",
+      "clinical_review": false,
+      "publication_status": "research overlay only",
+      "show_as_independent_trial": false,
+      "contributing_studies": 1,
+      "certainty": "moderate",
+      "level": "review estimate",
+      "axis": "log",
+      "null_value": 1
+    },
+    {
+      "id": "IA-N03",
+      "source_id": "S032",
+      "outcome": "Inter-rectus distance at rest",
+      "comparison": "Abdominal training vs control",
+      "measure": "MD (cm)",
+      "estimate": -0.52,
+      "lower": -0.99,
+      "upper": -0.05,
+      "confidence_level": 95,
+      "reported_sample": 173,
+      "locator": "Fig 6; versioned publisher text",
+      "clinical_review": false,
+      "publication_status": "research overlay only",
+      "show_as_independent_trial": false,
+      "contributing_studies": 5,
+      "certainty": "low",
+      "i2_percent": 91,
+      "level": "review estimate",
+      "axis": "linear",
+      "null_value": 0
+    },
+    {
+      "id": "IA-N04",
+      "source_id": "S028",
+      "outcome": "Rectus abdominis thickness",
+      "comparison": "Home exercise vs control, 12 weeks",
+      "measure": "MD (mm)",
+      "estimate": 0.7,
+      "lower": 0.1,
+      "upper": 1.3,
+      "confidence_level": 95,
+      "reported_sample": 70,
+      "locator": "Abstract results",
+      "clinical_review": false,
+      "publication_status": "research overlay only",
+      "show_as_independent_trial": false,
+      "study_id": "T028",
+      "level": "primary trial",
+      "axis": "linear",
+      "null_value": 0
+    },
+    {
+      "id": "IA-N05",
+      "source_id": "R009",
+      "outcome": "Inter-recti distance",
+      "comparison": "Abdominal exercise vs usual care",
+      "measure": "MD (cm)",
+      "estimate": -0.43,
+      "lower": -0.82,
+      "upper": -0.05,
+      "confidence_level": 95,
+      "reported_sample": 161,
+      "locator": "Abstract results",
+      "clinical_review": false,
+      "publication_status": "research overlay only",
+      "show_as_independent_trial": false,
+      "contributing_studies": 6,
+      "certainty": "moderate",
+      "level": "review estimate",
+      "axis": "linear",
+      "null_value": 0
+    },
+    {
+      "id": "IA-N06",
+      "source_id": "IA007",
+      "outcome": "Age-seven SAT score",
+      "comparison": "930 vs 480 mg/day total maternal choline",
+      "measure": "MD (SAT score units)",
+      "estimate": 0.15,
+      "lower": 0.03,
+      "upper": 0.27,
+      "confidence_level": 95,
+      "reported_sample": 20,
+      "locator": "Results 3.3, Fig 3; estimate difference of rounded reported LS means",
+      "clinical_review": false,
+      "publication_status": "research overlay only",
+      "show_as_independent_trial": false,
+      "cohort_id": "CHOLINE-CORNELL",
+      "arm_n": [
+        11,
+        9
+      ],
+      "p": 0.02,
+      "level": "follow-up",
+      "axis": "linear",
+      "null_value": 0
+    },
+    {
+      "id": "IA-N07",
+      "source_id": "IA008",
+      "outcome": "Live birth",
+      "comparison": "Male folic acid+zinc vs placebo",
+      "measure": "RD (percentage points)",
+      "estimate": -0.9,
+      "lower": -4.7,
+      "upper": 2.8,
+      "confidence_level": 95,
+      "reported_sample": 2370,
+      "locator": "Abstract results",
+      "clinical_review": false,
+      "publication_status": "research overlay only",
+      "show_as_independent_trial": false,
+      "arm_events": [
+        404,
+        416
+      ],
+      "arm_n": [
+        1185,
+        1185
+      ],
+      "level": "primary trial",
+      "axis": "linear",
+      "null_value": 0
+    },
+    {
+      "id": "IA-N08",
+      "source_id": "IA008",
+      "outcome": "Sperm DNA fragmentation",
+      "comparison": "Male folic acid+zinc vs placebo",
+      "measure": "MD (percentage points)",
+      "estimate": 2.4,
+      "lower": 0.5,
+      "upper": 4.4,
+      "confidence_level": 95,
+      "reported_sample": null,
+      "locator": "Abstract results; exact COMET assay denominator not extracted",
+      "clinical_review": false,
+      "publication_status": "research overlay only",
+      "show_as_independent_trial": false,
+      "arm_means": [
+        29.7,
+        27.2
+      ],
+      "level": "primary trial",
+      "axis": "linear",
+      "null_value": 0
+    }
+  ],
+  "cohort_groups": [
+    {
+      "id": "CHOLINE-CORNELL",
+      "source_ids": [
+        "IA006",
+        "IA007"
+      ],
+      "rule": "one randomized cohort; distinct outcome ages"
+    },
+    {
+      "source_ids": [
+        "S064",
+        "N305"
+      ],
+      "rule": "same guideline publication; keep aliases until references migrated"
+    }
+  ],
+  "intervention_candidates": [
+    {
+      "id": "IA-C01",
+      "name": "Hydroquinone",
+      "topic": "FACE-001",
+      "sources": [
+        "IA001",
+        "IA002",
+        "IA003"
+      ],
+      "status": "safety-only; no auto schedule"
+    },
+    {
+      "id": "IA-C02",
+      "name": "Bakuchiol",
+      "topic": "FACE-001",
+      "sources": [
+        "IA004"
+      ],
+      "status": "research only; pregnancy/lactation safety unknown"
+    },
+    {
+      "id": "IA-C03",
+      "name": "Male high-dose folic acid plus zinc",
+      "topic": "REPRO-001",
+      "sources": [
+        "IA008"
+      ],
+      "status": "negative trial; not recommended for infertility on this evidence"
+    }
+  ],
+  "media_candidates": [
+    {
+      "id": "IA-M01",
+      "source_id": "IA009",
+      "type": "audio",
+      "duration_seconds": null,
+      "transcript_status": "not checked",
+      "rights": "link candidate; reuse not verified",
+      "publish_status": "candidate; clinical/playback review pending"
+    }
+  ],
+  "unverified_leads": [
+    {
+      "url": "https://www.crd.york.ac.uk/PROSPERO/view/CRD42023423944",
+      "note": "protocol lead only, not results; not promoted"
+    },
+    {
+      "url": "https://repositori.uic.es/bitstream/handle/20.500.12328/5153/GRIMALT%2C%20Ramon%5Bet%20al.%5D_Dual%20Topical%20Therapy_2025.pdf?sequence=1&isAllowed=y",
+      "note": "external striae treatment lead, no full text appraisal this pass; no treatment advice"
+    }
+  ],
+  "qa": {
+    "new_records": 9,
+    "new_independent_trial_cohorts": 3,
+    "existing_records_reused": true,
+    "clinical_review_count": 0,
+    "auto_publish": false,
+    "source_status_audit_complete": false
+  }
+}
