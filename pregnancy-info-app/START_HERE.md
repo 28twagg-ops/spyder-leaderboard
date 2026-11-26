@@ -50,3 +50,6 @@ For application work: Claude reads this and implements according to blueprint; c
 
 ## Copyable new-chat prompt
 Continue the Pregnancy Info App project from https://github.com/28twagg-ops/spyder-leaderboard/tree/main/pregnancy-info-app. Read START_HERE.md and follow the linked source-of-truth manifest. The repository contains the full project handoff; do not rely on earlier chats or duplicate prior research. Inspect current GitHub main and report actual state, execute the next requested work inside pregnancy-info-app only, preserve medical review gates and source provenance, commit substantive changes, regenerate derived exports when inputs change, and update project status. Claude owns architectural/design decisions; research work must not alter the legacy leaderboard. Do not start recurring monitoring. If GitHub access is unavailable, say so and ask for the folder or archive rather than inventing repository state.
+
+## New targeted scientific audit (after the release snapshot)
+See [research/deep-research/README.md](research/deep-research/README.md) for staged results and the complementary Gemini prompt. Critical male-fertility retraction dependency and new calcium IPD review; do not promote affected numerical estimates. Canonical snapshot counts are unchanged until reconciliation.

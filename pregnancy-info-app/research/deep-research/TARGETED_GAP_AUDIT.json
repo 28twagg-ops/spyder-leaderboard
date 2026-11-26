@@ -1,0 +1,1092 @@
+{
+  "date": "2026-11-26",
+  "scope": "Targeted multidisciplinary search pass, indexed abstracts and selected full-text sections, not systematic screening. Registry checked by normalized title, DOI, PMID and exact URL. Staged overlay deliberately preserves the 382-record authoritative release snapshot; review matches and full source metadata before promotion. Not independent studies count.",
+  "baseline_registry_blob_sha": "ce3f5cd03c5e35d426d99b3f637b9ea7adf295c0",
+  "source_candidates": [
+    {
+      "id": "DR001",
+      "title": "Preconception lifestyle interventions for women—a systematic review and meta-analysis of intervention characteristics and behaviour change techniques",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/40847529/",
+      "pmid": "40847529",
+      "doi": "10.1093/humupd/dmaf021",
+      "publication_year": 2026,
+      "topics": [
+        "FIT-001",
+        "REPRO-001",
+        "NUTR-001"
+      ],
+      "design": "Systematic review of RCTs",
+      "checked_locator": "Abstract; indexed full-text results",
+      "finding": "24 trials/7795 women; most infertility populations; not all contributed to each outcome. Clinical pregnancy and live birth intervals include null.",
+      "funding": null,
+      "conflicts": null,
+      "clinical_review": false,
+      "auto_publish": false,
+      "correction_retraction_status": "not comprehensively checked",
+      "registry_matches": []
+    },
+    {
+      "id": "DR002",
+      "title": "Preconception Interventions in Women at High Risk of Developing Gestational Diabetes: A Systematic Review",
+      "url": "https://link.springer.com/article/10.1007/s10995-026-04236-5",
+      "pmid": null,
+      "doi": "10.1007/s10995-026-04236-5",
+      "publication_year": 2026,
+      "topics": [
+        "FIT-001",
+        "NUTR-001",
+        "REPRO-001"
+      ],
+      "design": "Systematic review of RCTs",
+      "checked_locator": "Abstract, methods and results",
+      "finding": "Six RCTs/nine reports; 909 participants, five underpowered for GDM, no significant GDM effect in any trial; four continued into pregnancy. No proof that prevention impossible.",
+      "funding": null,
+      "conflicts": null,
+      "clinical_review": false,
+      "auto_publish": false,
+      "correction_retraction_status": "not comprehensively checked",
+      "registry_matches": []
+    },
+    {
+      "id": "DR003",
+      "title": "Calcium supplementation for prevention of pre-eclampsia: a systematic review and individual participant data meta-analysis of randomised trials",
+      "url": "https://doi.org/10.1016/S3050-5038(26)00191-3",
+      "pmid": null,
+      "doi": "10.1016/S3050-5038(26)00191-3",
+      "publication_year": 2026,
+      "topics": [
+        "NUTR-001",
+        "NUTR-002"
+      ],
+      "design": "IPD meta-analysis",
+      "checked_locator": "Indexed publisher abstract and Birmingham institutional record; publisher full page blocked",
+      "finding": "Allotey et al. October 2026. Five IPD trials n=14763 for PE, three n=13413 for early PE. No clear reduction or observed effect modification; no independent cohort count relative to S092. WHO process is not automatically an updated recommendation.",
+      "funding": null,
+      "conflicts": null,
+      "clinical_review": false,
+      "auto_publish": false,
+      "correction_retraction_status": "not comprehensively checked",
+      "registry_matches": []
+    },
+    {
+      "id": "DR004",
+      "title": "Calcium supplementation for prevention of pre-eclampsia in high-risk women: study protocol for a randomised triple-blind placebo-controlled trial (CaPE)",
+      "url": "https://link.springer.com/article/10.1186/s13063-026-09513-w",
+      "pmid": null,
+      "doi": "10.1186/s13063-026-09513-w",
+      "publication_year": 2026,
+      "topics": [
+        "NUTR-001",
+        "NUTR-002"
+      ],
+      "design": "Trial protocol; no results",
+      "checked_locator": "Protocol; funding section indexed",
+      "finding": "NIHR HTA funded; high-risk women eligible for aspirin; calcium vs placebo added to usual care. Not an efficacy result or recommendation.",
+      "funding": "NIHR HTA",
+      "conflicts": null,
+      "clinical_review": false,
+      "auto_publish": false,
+      "correction_retraction_status": "not comprehensively checked",
+      "registry_matches": []
+    },
+    {
+      "id": "DR005",
+      "title": "Does probiotic ingestion reduce the risk of preeclampsia? A systematic review",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/37844331/",
+      "pmid": "37844331",
+      "doi": null,
+      "publication_year": 2024,
+      "topics": [
+        "NUTR-002"
+      ],
+      "design": "Systematic review",
+      "checked_locator": "Indexed abstract",
+      "finding": "Search through February 2022; RR 1.12 (0.83–1.53), I² 0%, six comparisons inferred from df=5; exact n and overlap not extracted. Do not pool as independent with S094/S095.",
+      "funding": null,
+      "conflicts": null,
+      "clinical_review": false,
+      "auto_publish": false,
+      "correction_retraction_status": "not comprehensively checked",
+      "registry_matches": []
+    },
+    {
+      "id": "DR006",
+      "title": "Omega-3 supplementation in addition to prenatal vitamins during pregnancy is associated with lower rates of preterm birth and small for gestational age",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/41567325/",
+      "pmid": "41567325",
+      "doi": "10.3389/fnut.2025.1693844",
+      "publication_year": 2026,
+      "topics": [
+        "NUTR-001",
+        "NUTR-002"
+      ],
+      "design": "Secondary observational cohort",
+      "checked_locator": "Indexed abstract",
+      "finding": "nuMoM2b parent cohort 9461 nulliparous participants; actual analysis denominator not extracted; observational association, not randomized dose or causal proof.",
+      "funding": null,
+      "conflicts": null,
+      "clinical_review": false,
+      "auto_publish": false,
+      "correction_retraction_status": "not comprehensively checked",
+      "registry_matches": []
+    },
+    {
+      "id": "DR007",
+      "title": "A prospective study of breast anthropomorphic measurements, volume and ptosis in 605 Asian patients with breast cancer or benign breast disease",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC5305059/",
+      "pmid": null,
+      "doi": null,
+      "publication_year": 2017,
+      "topics": [
+        "BREAST-001"
+      ],
+      "design": "Prospectively recruited cross-sectional surgical sample",
+      "checked_locator": "Abstract, methods, Table 4",
+      "finding": "605 breast-surgery patients; breastfeeding history associated with more severe ptosis in adjusted models; no prepregnancy measurements, no randomized feeding choice; differs from Rinker S044/S045; not a representative longitudinal pregnancy cohort.",
+      "funding": null,
+      "conflicts": null,
+      "clinical_review": false,
+      "auto_publish": false,
+      "correction_retraction_status": "not comprehensively checked",
+      "registry_matches": []
+    },
+    {
+      "id": "DR008",
+      "title": "Quantitative Changes in Breast Density and Mammographic Features Induced by Pregnancy and Lactation: A Longitudinal Study",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/40249390/",
+      "pmid": "40249390",
+      "doi": null,
+      "publication_year": 2025,
+      "topics": [
+        "BREAST-001"
+      ],
+      "design": "Retrospective longitudinal radiology sample",
+      "checked_locator": "Indexed abstract and full-text methods/limitations",
+      "finding": "Three mammography timepoints: prepregnancy, lactation, postweaning. Density/compression are not external breast shape or ptosis; selection, therapy and weight confounding. Does not establish cosmetic prevention.",
+      "funding": null,
+      "conflicts": null,
+      "clinical_review": false,
+      "auto_publish": false,
+      "correction_retraction_status": "not comprehensively checked",
+      "registry_matches": []
+    },
+    {
+      "id": "DR009",
+      "title": "Vastus Lateralis Architecture Changes During Pregnancy – A Longitudinal Study",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/31572213/",
+      "pmid": "31572213",
+      "doi": null,
+      "publication_year": 2019,
+      "topics": [
+        "FIT-002",
+        "FIT-003",
+        "MSK-001"
+      ],
+      "design": "Longitudinal observational study",
+      "checked_locator": "Full-text abstract, methods, discussion",
+      "finding": "19 pregnant, 15 nonpregnant controls; 16±4 and 29±4 gestational weeks, 32±9 weeks postpartum. Knee extensor strength stable; thickness and pennation increased late then returned; hydration confounding. No training assignment; only two prepregnancy measures.",
+      "funding": null,
+      "conflicts": null,
+      "clinical_review": false,
+      "auto_publish": false,
+      "correction_retraction_status": "not comprehensively checked",
+      "registry_matches": []
+    },
+    {
+      "id": "DR010",
+      "title": "Safety and efficacy of supervised strength training adopted in pregnancy",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/21487130/",
+      "pmid": "21487130",
+      "doi": "10.1123/jpah.8.3.309",
+      "publication_year": 2011,
+      "topics": [
+        "FIT-002"
+      ],
+      "design": "Supervised training study",
+      "checked_locator": "Indexed abstract/full-text excerpt",
+      "finding": "Small supervised strength-training cohort over 12 weeks; primary full text blocked at open. Not evidence of maximal load safety or preservation of whole-body muscle mass.",
+      "funding": null,
+      "conflicts": null,
+      "clinical_review": false,
+      "auto_publish": false,
+      "correction_retraction_status": "not comprehensively checked",
+      "registry_matches": []
+    },
+    {
+      "id": "DR011",
+      "title": "Effect of a Mobile App-Based Exercise Program on Diastasis Recti Abdominis, Muscle Strength, Anthropometric Measures, and Satisfaction Among Post-Cesarean Primiparous Mothers: A Randomized Controlled Trial",
+      "url": "https://www.mdpi.com/2227-9032/13/23/3103",
+      "pmid": "41373320",
+      "doi": "10.3390/healthcare13233103",
+      "publication_year": 2025,
+      "topics": [
+        "ABD-001",
+        "FIT-003"
+      ],
+      "design": "Small RCT",
+      "checked_locator": "Full text Results 3.2.1–2; ethics/funding",
+      "finding": "40 primiparous post-CS women, 20 each app vs traditional exercise. Above navel post medians .89 vs 1.10 cm (p<.001); below 1.19 vs 1.30 cm (p=.122). Baseline above both 1.32; below 1.58 vs 1.44. Manual test medians 8 vs 7 after both started at 4; near/perfect separation and retrospective registration NCT07001046 merit scrutiny. No equivalence to this app, self-directed clearance or long-term efficacy. Funding PNURSP2025R785.",
+      "funding": "Princess Nourah bint Abdulrahman University PNURSP2025R785",
+      "conflicts": null,
+      "clinical_review": false,
+      "auto_publish": false,
+      "correction_retraction_status": "not comprehensively checked",
+      "registry_matches": []
+    },
+    {
+      "id": "DR012",
+      "title": "Effects of Pilates on inter-recti distance, thickness of rectus abdominis, waist circumference and abdominal muscle endurance in primiparous women",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC10680311/",
+      "pmid": "38008749",
+      "doi": "10.1186/s12905-023-02775-5",
+      "publication_year": 2023,
+      "topics": [
+        "ABD-001",
+        "FIT-003"
+      ],
+      "design": "Controlled exercise study; allocation not independently confirmed",
+      "checked_locator": "Indexed full-text results",
+      "finding": "20 exercise/15 controls analyzed; four weeks, 50 min/day five days/week. Reported improved gap, circumference, endurance; exact between-arm difference and attrition not extracted. No assertion of randomization, superiority or prevention.",
+      "funding": null,
+      "conflicts": null,
+      "clinical_review": false,
+      "auto_publish": false,
+      "correction_retraction_status": "not comprehensively checked",
+      "registry_matches": []
+    },
+    {
+      "id": "DR013",
+      "title": "Pregnant women may exercise both abdominal and pelvic floor muscles during pregnancy without increasing the diastasis recti abdominis: a randomised trial",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/38472049/",
+      "pmid": "38472049",
+      "doi": null,
+      "publication_year": 2024,
+      "topics": [
+        "ABD-001",
+        "FIT-002",
+        "PELV-001"
+      ],
+      "design": "RCT",
+      "checked_locator": "Indexed abstract/title",
+      "finding": "12-week prenatal intervention in women with DRA; immediate and 6-week postpartum IRD assessment. Obtain exact confidence intervals, measurement site, sample and harms before charting. No unrestricted clearance.",
+      "funding": null,
+      "conflicts": null,
+      "clinical_review": false,
+      "auto_publish": false,
+      "correction_retraction_status": "not comprehensively checked",
+      "registry_matches": []
+    },
+    {
+      "id": "DR014",
+      "title": "An open single-arm clinical study of microneedle radiofrequency technology for addressing abdominal skin laxity in postpartum women",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/41255263/",
+      "pmid": "41255263",
+      "doi": "10.1080/09546634.2025.2581744",
+      "publication_year": 2025,
+      "topics": [
+        "SKIN-003",
+        "EMERG-001",
+        "ABD-002"
+      ],
+      "design": "Uncontrolled device study",
+      "checked_locator": "Indexed abstract and publisher methods; full page blocked",
+      "finding": "17 women, mean 7.63±7.88 years after birth (range 1.75–37). Not early postpartum recovery; no comparator, no reliable causal or durability conclusion. FDA RF microneedling warning retains precedence.",
+      "funding": null,
+      "conflicts": null,
+      "clinical_review": false,
+      "auto_publish": false,
+      "correction_retraction_status": "not comprehensively checked",
+      "registry_matches": []
+    },
+    {
+      "id": "DR015",
+      "title": "Reduction of abdominal skin laxity in women postvaginal delivery using the synergistic emission of radiofrequency and targeted pressure energies",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/30146709/",
+      "pmid": "30146709",
+      "doi": null,
+      "publication_year": 2018,
+      "topics": [
+        "SKIN-003",
+        "EMERG-001",
+        "ABD-002"
+      ],
+      "design": "RCT reported",
+      "checked_locator": "Indexed abstract",
+      "finding": "Combined device after vaginal delivery; authors report improved signs, but exact n, between-arm effect and funding/harms not extracted. Not standalone RF, not microneedling, not pregnancy prevention.",
+      "funding": null,
+      "conflicts": null,
+      "clinical_review": false,
+      "auto_publish": false,
+      "correction_retraction_status": "not comprehensively checked",
+      "registry_matches": []
+    },
+    {
+      "id": "DR016",
+      "title": "Electrical stimulation and biofeedback combined with pelvic floor muscle training for pelvic floor dysfunction in postpartum women: a systematic review and meta-analysis",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/42769172/",
+      "pmid": "42769172",
+      "doi": null,
+      "publication_year": 2026,
+      "topics": [
+        "PELV-001"
+      ],
+      "design": "Systematic review of RCTs",
+      "checked_locator": "Indexed abstract; full-text access blocked",
+      "finding": "Triple combination vs PFMT alone; reported SUI RR .36 (.26–.49), sexual-function MD 4.38 (3.41–5.34); exact outcome scales, n, bias, overlap and reporting not fully extracted; no universal strengthening/device schedule.",
+      "funding": null,
+      "conflicts": null,
+      "clinical_review": false,
+      "auto_publish": false,
+      "correction_retraction_status": "not comprehensively checked",
+      "registry_matches": []
+    },
+    {
+      "id": "DR017",
+      "title": "Effects from a single application of photobiomodulation on pain intensity from perineal trauma related to childbirth: A randomized controlled trial",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/41255349/",
+      "pmid": "41255349",
+      "doi": null,
+      "publication_year": 2026,
+      "topics": [
+        "EMERG-001",
+        "SCAR-001",
+        "BIRTH-001"
+      ],
+      "design": "Two-center double-blind sham RCT",
+      "checked_locator": "Indexed abstract",
+      "finding": "60 postpartum participants with perineal trauma and NRS≥4. NRS at 30min 3.63±2.57 vs 2.53±2.15 p=.089; healing score no clear difference. Does not establish equivalence or repeated-session effects. Registry U1111-1279-3594.",
+      "funding": null,
+      "conflicts": null,
+      "clinical_review": false,
+      "auto_publish": false,
+      "correction_retraction_status": "not comprehensively checked",
+      "registry_matches": []
+    },
+    {
+      "id": "DR018",
+      "title": "Physical Rehabilitation for Postpartum Perineal Morbidity After Episiotomy and Childbirth-Related Perineal Trauma: A Systematic Review and Meta-analysis of Randomized Controlled Trials",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC13652543/",
+      "pmid": null,
+      "doi": null,
+      "publication_year": 2026,
+      "topics": [
+        "EMERG-001",
+        "SCAR-001",
+        "BIRTH-001"
+      ],
+      "design": "Systematic review of RCTs",
+      "checked_locator": "Indexed full-text Results Figure 3",
+      "finding": "Two laser vs sham RCTs n119: pain SMD -.16 (-.52,.19), p=.37. Trial overlap with DR017 not confirmed; do not combine as independent. Not evidence about other light doses or indications.",
+      "funding": null,
+      "conflicts": null,
+      "clinical_review": false,
+      "auto_publish": false,
+      "correction_retraction_status": "not comprehensively checked",
+      "registry_matches": []
+    },
+    {
+      "id": "DR019",
+      "title": "Pregnancy, birth outcomes, and postpartum injury in elite to world-class runners: a mixed methods study",
+      "url": "https://link.springer.com/article/10.1186/s12884-026-09984-4",
+      "pmid": null,
+      "doi": "10.1186/s12884-026-09984-4",
+      "publication_year": 2026,
+      "topics": [
+        "FIT-003",
+        "FIT-002"
+      ],
+      "design": "Mixed methods study",
+      "checked_locator": "Publisher accepted manuscript; abstract",
+      "finding": "Published 2026-09-18; elite runner sample, version subject to final edits; do not generalize to all postpartum people. Exact injury denominators, training exposure and ascertainment pending.",
+      "funding": null,
+      "conflicts": null,
+      "clinical_review": false,
+      "auto_publish": false,
+      "correction_retraction_status": "not comprehensively checked",
+      "registry_matches": []
+    },
+    {
+      "id": "DR020",
+      "title": "Mediterranean Diet, Semen Quality, and Medically Assisted Reproductive Outcomes in the Male Population: A Systematic Review and Meta-Analysis",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC12276387/",
+      "pmid": null,
+      "doi": null,
+      "publication_year": 2025,
+      "topics": [
+        "REPRO-001",
+        "NUTR-001"
+      ],
+      "design": "Systematic review, observational meta-analysis",
+      "checked_locator": "Full text abstract and quantitative analysis",
+      "finding": "11 articles/2558 individuals; eight observational studies n1835 pooled, two RCTs separately described. Semen parameters associated with adherence; only one prospective medically assisted reproduction outcome study, no association. Surrogates not live birth. PROSPERO CRD42024584003.",
+      "funding": null,
+      "conflicts": null,
+      "clinical_review": false,
+      "auto_publish": false,
+      "correction_retraction_status": "not comprehensively checked",
+      "registry_matches": []
+    },
+    {
+      "id": "DR021",
+      "title": "Effectiveness of Exercise Training on Male Factor Infertility: A Systematic Review and Network Meta-analysis",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC9214906/",
+      "pmid": "34806474",
+      "doi": "10.1177/19417381211055399",
+      "publication_year": 2022,
+      "topics": [
+        "REPRO-001",
+        "FIT-001"
+      ],
+      "design": "Network meta-analysis; hold",
+      "checked_locator": "Full text Results, references 8,9,11",
+      "finding": "Seven RCTs/2641; includes three explicitly retracted reports DR023–025. Do not import pooled effects, ranks, or fertility claims until reanalysis removes invalid trials. No assertion NMA itself formally retracted.",
+      "funding": null,
+      "conflicts": null,
+      "clinical_review": false,
+      "auto_publish": false,
+      "correction_retraction_status": "dependency hold; review not established formally retracted",
+      "registry_matches": []
+    },
+    {
+      "id": "DR022",
+      "title": "Exercise intervention improves fertility outcomes in females and males: an umbrella review of meta-analyses",
+      "url": "https://jogh.org/2026/jogh-16-04282",
+      "pmid": "42661515",
+      "doi": null,
+      "publication_year": 2026,
+      "topics": [
+        "REPRO-001",
+        "FIT-001"
+      ],
+      "design": "Umbrella review; dependent estimate hold",
+      "checked_locator": "Publisher Table 1 and reference 34",
+      "finding": "Includes DR021 as seven trials/2641, assigns low risk/moderate quality; no retraction discussion located in targeted page find. Hold DR021-derived male estimates, not unrelated female results; independent overlap and retraction-aware reassessment needed.",
+      "funding": null,
+      "conflicts": null,
+      "clinical_review": false,
+      "auto_publish": false,
+      "correction_retraction_status": "dependency hold; review not established formally retracted",
+      "registry_matches": []
+    },
+    {
+      "id": "DR023",
+      "title": "Moderate aerobic exercise training for improving reproductive function in infertile patients: A randomized controlled trial",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/28092795/",
+      "pmid": "28092795",
+      "doi": "10.1016/j.cyto.2017.01.007",
+      "publication_year": 2017,
+      "topics": [
+        "REPRO-001"
+      ],
+      "design": "Retracted trial",
+      "checked_locator": "PubMed Retraction in / publication type",
+      "finding": "Retraction notice PMID 38030527 (2024 issue; online 2023-11-28). Exclude from clinical evidence; provenance only. DR021 ref9.",
+      "funding": null,
+      "conflicts": null,
+      "clinical_review": false,
+      "auto_publish": false,
+      "correction_retraction_status": "retracted; exclude",
+      "registry_matches": []
+    },
+    {
+      "id": "DR024",
+      "title": "High-intensity interval training modulates male factor infertility through anti-inflammatory and antioxidative mechanisms in infertile men: A randomized controlled trial",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/31569012/",
+      "pmid": "31569012",
+      "doi": null,
+      "publication_year": 2020,
+      "topics": [
+        "REPRO-001"
+      ],
+      "design": "Retracted trial",
+      "checked_locator": "PubMed retracted title, linked notice",
+      "finding": "Retraction notice PMID 37277302. Exclude from clinical evidence; provenance only. DR021 ref8.",
+      "funding": null,
+      "conflicts": null,
+      "clinical_review": false,
+      "auto_publish": false,
+      "correction_retraction_status": "retracted; exclude",
+      "registry_matches": []
+    },
+    {
+      "id": "DR025",
+      "title": "Effects of Aerobic, Resistance, and Combined Exercise on Markers of Male Reproduction in Healthy Human Subjects: A Randomized Controlled Trial",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/30913204/",
+      "pmid": "30913204",
+      "doi": "10.1519/JSC.0000000000002864",
+      "publication_year": 2019,
+      "topics": [
+        "REPRO-001"
+      ],
+      "design": "Retracted trial",
+      "checked_locator": "PubMed retracted publication and publisher notice",
+      "finding": "Retraction DOI 10.1519/JSC.0000000000004451 (July 2023). Exclude from clinical evidence; provenance only. DR021 ref11.",
+      "funding": null,
+      "conflicts": null,
+      "clinical_review": false,
+      "auto_publish": false,
+      "correction_retraction_status": "retracted; exclude",
+      "registry_matches": []
+    },
+    {
+      "id": "DR026",
+      "title": "Sleeping for Two: a randomized controlled trial of cognitive behavioral therapy for insomnia in pregnancy",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/39436396/",
+      "pmid": "39436396",
+      "doi": "10.5664/jcsm.11396",
+      "publication_year": 2025,
+      "topics": [
+        "WELL-001"
+      ],
+      "design": "RCT",
+      "checked_locator": "Indexed full-text study impact",
+      "finding": "Pregnancy-adapted CBT-I improved insomnia symptoms with benefits maintained up to six months postpartum per authors. Not generic sleep hygiene or a substitute for mental-health care. Secondary depression report PMID39029668 likely same cohort; verify.",
+      "funding": null,
+      "conflicts": null,
+      "clinical_review": false,
+      "auto_publish": false,
+      "correction_retraction_status": "not comprehensively checked",
+      "registry_matches": []
+    },
+    {
+      "id": "DR027",
+      "title": "Folic Acid: Facts for Clinicians",
+      "url": "https://www.cdc.gov/folic-acid/hcp/clinical-overview/",
+      "pmid": null,
+      "doi": null,
+      "publication_year": 2026,
+      "topics": [
+        "NUTR-001",
+        "REPRO-001"
+      ],
+      "design": "US clinical guidance",
+      "checked_locator": "CDC patient counseling section",
+      "finding": "People planning pregnancy not already taking folic acid: begin at least one month before conception and continue during pregnancy; general prevention guidance, not individualized high-risk dosing.",
+      "funding": null,
+      "conflicts": null,
+      "clinical_review": false,
+      "auto_publish": false,
+      "correction_retraction_status": "not comprehensively checked",
+      "registry_matches": []
+    },
+    {
+      "id": "DR028",
+      "title": "Planning to Get Pregnant? Plan to See Your Ob-Gyn",
+      "url": "https://www.acog.org/womens-health/experts-and-stories/the-latest/planning-to-get-pregnant-plan-to-see-your-obgyn",
+      "pmid": null,
+      "doi": null,
+      "publication_year": null,
+      "topics": [
+        "REPRO-001",
+        "FIT-001"
+      ],
+      "design": "US patient guidance",
+      "checked_locator": "Indexed ACOG article",
+      "finding": "Prepregnancy visit at least three months ahead and up to one year ahead suggested; does not establish exact three-year intervention efficacy.",
+      "funding": null,
+      "conflicts": null,
+      "clinical_review": false,
+      "auto_publish": false,
+      "correction_retraction_status": "not comprehensively checked",
+      "registry_matches": []
+    },
+    {
+      "id": "DR029",
+      "title": "Factors influencing breast changes after pregnancy",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/23022745/",
+      "pmid": "23022745",
+      "doi": null,
+      "publication_year": 2013,
+      "topics": [
+        "BREAST-001"
+      ],
+      "design": "Questionnaire cohort",
+      "checked_locator": "Indexed abstract",
+      "finding": "559 responses from 5991 eligible births; selection/nonresponse major limitation; exact effect direction and adjusted estimates not extracted, candidate only.",
+      "funding": null,
+      "conflicts": null,
+      "clinical_review": false,
+      "auto_publish": false,
+      "correction_retraction_status": "not comprehensively checked",
+      "registry_matches": []
+    },
+    {
+      "id": "DR030",
+      "title": "Breastfeeding and perceived changes in the appearance of the breasts: a retrospective study",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/15499956/",
+      "pmid": "15499956",
+      "doi": null,
+      "publication_year": 2004,
+      "topics": [
+        "BREAST-001"
+      ],
+      "design": "Retrospective interview study",
+      "checked_locator": "Indexed abstract",
+      "finding": "496 first-time mothers interviewed ~18 months after birth; no observed association with breastfeeding per authors. Self-perceived appearance, not objective change. Conflict with DR007 does not establish causal benefit or harm.",
+      "funding": null,
+      "conflicts": null,
+      "clinical_review": false,
+      "auto_publish": false,
+      "correction_retraction_status": "not comprehensively checked",
+      "registry_matches": []
+    },
+    {
+      "id": "DR031",
+      "title": "Graduated compression stockings effects on chronic venous disease signs and symptoms during pregnancy",
+      "url": "https://doi.org/10.1177/0268355519846740",
+      "pmid": null,
+      "doi": "10.1177/0268355519846740",
+      "publication_year": 2020,
+      "topics": [
+        "VEIN-001"
+      ],
+      "design": "RCT",
+      "checked_locator": "Indexed publisher abstract",
+      "finding": "60 women (30/30); vein diameter and symptoms reported; distinguish within-arm changes, edema and persistent cosmetic vein outcomes. Potential same cohort as PMID32659162, not separate until confirmed.",
+      "funding": null,
+      "conflicts": null,
+      "clinical_review": false,
+      "auto_publish": false,
+      "correction_retraction_status": "not comprehensively checked",
+      "registry_matches": []
+    },
+    {
+      "id": "DR032",
+      "title": "Compression stocking prevents increased venous retrograde flow time in the lower limbs of pregnant women",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/32659162/",
+      "pmid": "32659162",
+      "doi": null,
+      "publication_year": 2020,
+      "topics": [
+        "VEIN-001"
+      ],
+      "design": "RCT report",
+      "checked_locator": "Indexed abstract",
+      "finding": "60 women (30/30), vein reflux measurements; possible shared cohort DR031. No prevention of long-term spider veins established.",
+      "funding": null,
+      "conflicts": null,
+      "clinical_review": false,
+      "auto_publish": false,
+      "correction_retraction_status": "not comprehensively checked",
+      "registry_matches": [
+        "S128"
+      ]
+    },
+    {
+      "id": "DR033",
+      "title": "Preconception nutritional supplementation and behavioral interventions and their association with maternal and neonatal health: A systematic review and meta-analysis",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/42684922/",
+      "pmid": "42684922",
+      "doi": "10.1177/02601060261483862",
+      "publication_year": 2026,
+      "topics": [
+        "FIT-001",
+        "NUTR-001",
+        "REPRO-001"
+      ],
+      "design": "Mixed-design systematic review",
+      "checked_locator": "Indexed abstract and publisher methods",
+      "finding": "24 studies; RCTs and nonrandomized designs. No pooled estimate combining intervention classes; abstract supports outcome-specific assessment. Publisher total n and listed arm totals differ; do not infer pooled sample until reconciled.",
+      "funding": null,
+      "conflicts": null,
+      "clinical_review": false,
+      "auto_publish": false,
+      "correction_retraction_status": "not comprehensively checked",
+      "registry_matches": []
+    }
+  ],
+  "interval_candidates": [
+    {
+      "id": "DR-N01",
+      "source_id": "DR001",
+      "outcome": "Clinical pregnancy",
+      "measure": "OR",
+      "estimate": 1.06,
+      "lower": 0.84,
+      "upper": 1.35,
+      "confidence_level": 95,
+      "reported_sample": null,
+      "i2_percent": 24.22,
+      "comparison": "Lifestyle vs minimal/no intervention",
+      "locator": "Review abstract; total review N7795 not outcome N",
+      "axis": "log",
+      "null_value": 1,
+      "clinical_review": false,
+      "auto_publish": false,
+      "publication_status": "research overlay only; no automatic chart import",
+      "show_as_independent_trial": false
+    },
+    {
+      "id": "DR-N02",
+      "source_id": "DR001",
+      "outcome": "Live birth",
+      "measure": "OR",
+      "estimate": 1.17,
+      "lower": 0.82,
+      "upper": 1.67,
+      "confidence_level": 95,
+      "reported_sample": null,
+      "i2_percent": 48.73,
+      "comparison": "Lifestyle vs minimal/no intervention",
+      "locator": "Review abstract; outcome denominator not extracted",
+      "axis": "log",
+      "null_value": 1,
+      "clinical_review": false,
+      "auto_publish": false,
+      "publication_status": "research overlay only; no automatic chart import",
+      "show_as_independent_trial": false
+    },
+    {
+      "id": "DR-N03",
+      "source_id": "DR003",
+      "outcome": "Preeclampsia",
+      "measure": "OR",
+      "estimate": 0.89,
+      "lower": 0.73,
+      "upper": 1.07,
+      "confidence_level": 95,
+      "reported_sample": 14763,
+      "i2_percent": null,
+      "comparison": "Calcium supplementation vs comparator; IPD trials",
+      "locator": "5 trials; indexed publisher abstract",
+      "axis": "log",
+      "null_value": 1,
+      "clinical_review": false,
+      "auto_publish": false,
+      "publication_status": "research overlay only; no automatic chart import",
+      "show_as_independent_trial": false
+    },
+    {
+      "id": "DR-N04",
+      "source_id": "DR003",
+      "outcome": "Early-onset preeclampsia",
+      "measure": "OR",
+      "estimate": 0.9,
+      "lower": 0.25,
+      "upper": 3.27,
+      "confidence_level": 95,
+      "reported_sample": 13413,
+      "i2_percent": null,
+      "comparison": "Calcium supplementation vs comparator; IPD trials",
+      "locator": "3 trials; indexed publisher abstract",
+      "axis": "log",
+      "null_value": 1,
+      "clinical_review": false,
+      "auto_publish": false,
+      "publication_status": "research overlay only; no automatic chart import",
+      "show_as_independent_trial": false
+    },
+    {
+      "id": "DR-N05",
+      "source_id": "DR005",
+      "outcome": "Preeclampsia",
+      "measure": "RR",
+      "estimate": 1.12,
+      "lower": 0.83,
+      "upper": 1.53,
+      "confidence_level": 95,
+      "reported_sample": null,
+      "i2_percent": 0,
+      "comparison": "Probiotic vs comparator",
+      "locator": "Abstract; denominator and exact overlap unresolved",
+      "axis": "log",
+      "null_value": 1,
+      "clinical_review": false,
+      "auto_publish": false,
+      "publication_status": "research overlay only; no automatic chart import",
+      "show_as_independent_trial": false
+    },
+    {
+      "id": "DR-N06",
+      "source_id": "DR007",
+      "outcome": "Breast ptosis severity (LH scale)",
+      "measure": "OR",
+      "estimate": 4.136,
+      "lower": 1.579,
+      "upper": 10.838,
+      "confidence_level": 95,
+      "reported_sample": null,
+      "i2_percent": null,
+      "comparison": "7–12 months breastfeeding vs none",
+      "locator": "Table 4; adjusted association, selected surgical sample, not causal",
+      "axis": "log",
+      "null_value": 1,
+      "clinical_review": false,
+      "auto_publish": false,
+      "publication_status": "research overlay only; no automatic chart import",
+      "show_as_independent_trial": false
+    },
+    {
+      "id": "DR-N07",
+      "source_id": "DR007",
+      "outcome": "Breast ptosis severity (LH scale)",
+      "measure": "OR",
+      "estimate": 6.934,
+      "lower": 2.643,
+      "upper": 18.194,
+      "confidence_level": 95,
+      "reported_sample": null,
+      "i2_percent": null,
+      "comparison": "≥13 months breastfeeding vs none",
+      "locator": "Table 4; adjusted association, selected surgical sample, not causal",
+      "axis": "log",
+      "null_value": 1,
+      "clinical_review": false,
+      "auto_publish": false,
+      "publication_status": "research overlay only; no automatic chart import",
+      "show_as_independent_trial": false
+    },
+    {
+      "id": "DR-N08",
+      "source_id": "DR018",
+      "outcome": "Perineal pain",
+      "measure": "SMD",
+      "estimate": -0.16,
+      "lower": -0.52,
+      "upper": 0.19,
+      "confidence_level": 95,
+      "reported_sample": 119,
+      "i2_percent": null,
+      "comparison": "Low-level laser vs sham",
+      "locator": "Figure 3; two RCTs",
+      "axis": "linear",
+      "null_value": 0,
+      "clinical_review": false,
+      "auto_publish": false,
+      "publication_status": "research overlay only; no automatic chart import",
+      "show_as_independent_trial": false
+    },
+    {
+      "id": "DR-N09",
+      "source_id": "S032",
+      "outcome": "Postpartum sexual function (FSFI change)",
+      "measure": "SMD",
+      "estimate": 0.31,
+      "lower": -0.96,
+      "upper": 1.58,
+      "confidence_level": 95,
+      "reported_sample": 118,
+      "i2_percent": 91,
+      "comparison": "PFMT with/without cointervention vs control",
+      "locator": "2 RCTs; supplemental Figure 77; heterogeneous, not proof of no benefit",
+      "axis": "linear",
+      "null_value": 0,
+      "clinical_review": false,
+      "auto_publish": false,
+      "publication_status": "research overlay only; no automatic chart import",
+      "show_as_independent_trial": false
+    },
+    {
+      "id": "DR-N10",
+      "source_id": "DR016",
+      "outcome": "Stress urinary incontinence",
+      "measure": "RR",
+      "estimate": 0.36,
+      "lower": 0.26,
+      "upper": 0.49,
+      "confidence_level": 95,
+      "reported_sample": null,
+      "i2_percent": null,
+      "comparison": "Electrical stimulation + biofeedback + PFMT vs PFMT alone",
+      "locator": "Abstract only; outcome ascertainment and overlap not verified",
+      "axis": "log",
+      "null_value": 1,
+      "clinical_review": false,
+      "auto_publish": false,
+      "publication_status": "research overlay only; no automatic chart import",
+      "show_as_independent_trial": false
+    }
+  ],
+  "topic_status": [
+    {
+      "topic": "SKIN-001",
+      "status": "Rechecked S001, S006, S009, R008, RP003/RP004; vitamin E present in combination not isolated; targeted shea/vitamin E searches did not identify an isolated robust pregnancy prevention RCT.",
+      "next": "Gemini: isolate ingredient-specific trials, old thesis/registry and adverse events; do not imply absence proved.",
+      "closed": false
+    },
+    {
+      "topic": "SKIN-002",
+      "status": "S011/S012 disagreement rechecked; full publisher indexed S012 time/dose subgroup; adult elasticity not pregnancy striae. Full funding interaction, shared placebo, arm data still unresolved.",
+      "next": "Gemini: obtain primary data and subgroup interaction, independent sponsorship definitions and reanalysis code.",
+      "closed": false
+    },
+    {
+      "topic": "SKIN-003",
+      "status": "DR014/015 device studies; long time since birth and different modalities, no long-term prevention evidence.",
+      "next": "Gemini: durability ≥12mo, skin type and adverse event denominators, surgery vs spontaneous recovery.",
+      "closed": false
+    },
+    {
+      "topic": "ABD-001",
+      "status": "DR011–013 plus S028/S030; app-based and Pilates studies, prenatal abdominal trial; separate site and function.",
+      "next": "Gemini: exact randomized arm data and matched timepoints, registration discrepancies and overlap.",
+      "closed": false
+    },
+    {
+      "topic": "ABD-002",
+      "status": "DR014/015 pertain to skin, not abdominal wall; binder and hernia thresholds still open.",
+      "next": "Gemini: binder adverse events, functional outcomes, hernia/surgical recurrence after subsequent pregnancy.",
+      "closed": false
+    },
+    {
+      "topic": "BREAST-001",
+      "status": "DR007–008, DR029–030 conflict/context. Surgical association differs from older subjective reports; objective mammography is not ptosis.",
+      "next": "Gemini: longitudinal external shape, support garments, adjustment and cohort representativeness.",
+      "closed": false
+    },
+    {
+      "topic": "FIT-001",
+      "status": "DR001/002/027/028/033 and fertility hold DR021–025; ordinary habits vs tested preconception clinical interventions.",
+      "next": "Gemini: preconception RCT duration, long-term cohort and resistance-specific outcomes, time-to-pregnancy not body target.",
+      "closed": false
+    },
+    {
+      "topic": "FIT-002",
+      "status": "DR009/010/013; acute and longitudinal muscle data distinct from training effectiveness. Existing CL05 and H033–036.",
+      "next": "Gemini: strength/hypertrophy, prenatal high-load trials, adverse events, trimester and diagnosis.",
+      "closed": false
+    },
+    {
+      "topic": "FIT-003",
+      "status": "DR011/019; athlete study not generalizable, injury denominator open.",
+      "next": "Gemini: prospective injuries, lactation/cesarean and energy availability.",
+      "closed": false
+    },
+    {
+      "topic": "PELV-001",
+      "status": "DR016 and S032 FSFI result; intervention types differ. No universal pelvic floor strengthening.",
+      "next": "Gemini: high tone, dyspareunia, diagnostic groups, clinical importance and device harms.",
+      "closed": false
+    },
+    {
+      "topic": "BIRTH-001",
+      "status": "DR017/018 perineal trauma rehabilitation; no clear sham pain benefit. Birth injury prevention remains separate.",
+      "next": "Gemini: assisted birth, perineal compresses, delayed pushing and patient-valued harms.",
+      "closed": false
+    },
+    {
+      "topic": "NUTR-001",
+      "status": "DR003/004/006/027; calcium IPD and timing; S215 lactation choline 550 mg and iodine 290 mcg daily total intake. Not automatic dose.",
+      "next": "Gemini: lactation age-specific tables, protein, iron screening/treatment, vegan and multiple pregnancies, current guideline status.",
+      "closed": false
+    },
+    {
+      "topic": "NUTR-002",
+      "status": "DR003–006; new review comparisons; trial-level HUMBA endpoint and shared cohorts unresolved; no new recommendations.",
+      "next": "Gemini: original PE adjudication, unpublished safety, calcium disputed trials, omega-3 baseline and arm data.",
+      "closed": false
+    },
+    {
+      "topic": "FACE-001",
+      "status": "Existing S212 and S104 located again; no new controlled tinted-vs-untinted pregnancy trial established. RP001/RP005 held.",
+      "next": "Gemini: extract S212 design and pregnancy studies; separate treatment and prevention.",
+      "closed": false
+    },
+    {
+      "topic": "HAIR-001",
+      "status": "Existing S112/S117/N321 reidentified; no longitudinal recovery study established in search. No new minoxidil recommendation.",
+      "next": "Gemini: persistent shedding diagnosis, lactation infant reports, treatment and nails.",
+      "closed": false
+    },
+    {
+      "topic": "SCAR-001",
+      "status": "DR017/018 perineal wound pain; not long-term cesarean scar appearance evidence.",
+      "next": "Gemini: silicone/massage, healed wound, recurrence, long-term harms.",
+      "closed": false
+    },
+    {
+      "topic": "VEIN-001",
+      "status": "DR031/032 possible common cohort; symptoms and reflux vs long-term spider veins.",
+      "next": "Gemini: registry overlap, adherence and postpartum durability.",
+      "closed": false
+    },
+    {
+      "topic": "MSK-001",
+      "status": "Existing H052/S138 identified; no new reliable comparative modality ranking. DR009 relevant to muscle adaptation only.",
+      "next": "Gemini: sham acupuncture, belt/manual therapy and function harms.",
+      "closed": false
+    },
+    {
+      "topic": "REPRO-001",
+      "status": "DR001/002/020–025/027/028/033; male exercise integrity warning; no automatic conception claims.",
+      "next": "Gemini: retraction-aware male evidence, thyroid/vaccine timing, environmental exposures and screening.",
+      "closed": false
+    },
+    {
+      "topic": "WELL-001",
+      "status": "DR026 pregnancy CBT-I; same cohort secondary depression report not independently counted.",
+      "next": "Gemini: postpartum prevention vs treatment, longer outcomes, partner burden and body image.",
+      "closed": false
+    },
+    {
+      "topic": "DENT-001",
+      "status": "Existing H dental review reidentified (PMID41421601), no new subgroup extraction. Dental treatment appropriate for oral health, not guarantee obstetric outcome.",
+      "next": "Gemini: baseline severity, intervention overlap and harms.",
+      "closed": false
+    },
+    {
+      "topic": "EMERG-001",
+      "status": "DR014/015/017/018; differentiate RF, microneedling and photobiomodulation; no home procedures.",
+      "next": "Gemini: light, PRP, ultrasound, peptides and device-specific safety; direct vs indirect.",
+      "closed": false
+    }
+  ],
+  "integrity_hold": {
+    "exclude_sources": [
+      "DR023",
+      "DR024",
+      "DR025"
+    ],
+    "dependent_sources": [
+      "DR021",
+      "DR022"
+    ],
+    "rule": "Retraction chain documented: DR021 Results explicitly includes refs 8,9,11, which are DR024,DR023,DR025 respectively. DR022 Table 1/ref34 includes DR021. Do not promote affected estimates until outcome-specific reanalysis; no claim of formal retraction of either synthesis. Search other reviews and guidelines for the same trial IDs."
+  },
+  "preconception_timing": [
+    {
+      "stage": "36–12 months before intended conception",
+      "status": "planning framework only, not trial-proven optimal lead time",
+      "action": "General health maintenance, enjoyable sustainable activity and ordinary dental care; avoid cosmetic or supplement schedules claimed to prevent changes.",
+      "sources": [
+        "S143",
+        "DR001",
+        "DR028"
+      ]
+    },
+    {
+      "stage": "12–3 months before",
+      "status": "guidance window, not universal deadline",
+      "action": "Consider individualized prepregnancy visit and medication, immunization, health and partner risk review.",
+      "sources": [
+        "DR028",
+        "S143"
+      ]
+    },
+    {
+      "stage": "at least 1 month before",
+      "status": "specific public-health timing for folic acid",
+      "action": "Use current CDC guidance and clinician review for high-risk situations; no individualized dosing.",
+      "sources": [
+        "DR027"
+      ]
+    }
+  ],
+  "qa": {
+    "baseline_count": 382,
+    "candidate_count": 33,
+    "matched_existing": [
+      [
+        "DR032",
+        [
+          "S128"
+        ]
+      ]
+    ],
+    "unresolved_numeric_sources": [],
+    "invalid_intervals": [],
+    "clinical_reviews": 0,
+    "auto_publish": false
+  },
+  "limitations": "No comprehensive publication status check, dual screening, full texts where blocked, original arm-data reconstruction, pooled recalculation or clinical review; funding/COI null is unknown. All 22 gaps stay open. Search results not a complete list. Numeric source candidates use provisional DR IDs, do not merge with final import until deliberate reconciliation."
+}

@@ -72,3 +72,6 @@ Start with [release-prep/README.md](release-prep/README.md) and [FINAL_RESEARCH_
 
 ## Standalone transfer and portable formats
 See [START_HERE.md](../START_HERE.md) and [research transfer](transfer/README.md). Current inventory is computed from source files in [EXPORT_MANIFEST.json](transfer/exports/EXPORT_MANIFEST.json); previous counts are historical. No prior chat required. No recurring research monitoring is authorized.
+
+## Additional targeted research — 2026-11-26
+Read [deep-research/README.md](deep-research/README.md) and [TARGETED_GAP_AUDIT.json](deep-research/TARGETED_GAP_AUDIT.json) before promoting fertility or calcium findings. Retraction dependency chain DR021–025 requires quarantine. This overlay contains 33 provisional source records and 10 candidate intervals; no canonical import or export count change. Existing clinical review gates and open gaps remain. Gemini complementary prompt is stored beside it.
