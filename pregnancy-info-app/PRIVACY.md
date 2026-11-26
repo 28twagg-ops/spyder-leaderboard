@@ -1,0 +1,5 @@
+# Privacy and security requirements
+
+This repository is public at transfer time. It must contain no real health records, identifiers, photographs, reproductive history, personal timelines, journal entries, secrets, tokens or private account data. Use generic demonstration fixtures only, clearly labeled. A private repository is advisable before adding sensitive project material, but never use Git for storing actual personal records even if private.
+
+Design for local-first sensitive storage, explicit consent for any transfer, minimal collection, export and deletion, optional tracking disabled by default, secure storage appropriate to the platform, and separate public research data. Avoid advertising and unnecessary analytics. Document dependencies and external services. Do not enable cloud sync, deploy the app or transmit private data without explicit approval. Add suitable ignore rules and secret checks. Use safe generic sample records and keep credentials in approved secret management, never in code.

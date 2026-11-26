@@ -1,0 +1,9 @@
+# Evidence and controversy standards
+
+Use GRADE-informed outcome-specific certainty (high/moderate/low/very low or not assessed), with transparent reasons. Consumer classifications: established, supported, promising, contested, unestablished, evidence against. Safety is independent: appropriate for phase where supported, discuss with clinician, avoid/contraindicated, or unknown. Potential harm may exist at any efficacy grade. A lack of evidence is not proof of safety or ineffectiveness.
+
+For controversy visualizations, classify actual eligible independent studies for a precisely defined claim/outcome as supporting, not supporting, inconclusive, mixed or harm signal (harm may be separate). Define categories and inclusion criteria; show denominator, study counts, participants, quality and funding. Do not double count reviews and their primary trials, overlapping cohorts or multiple publications. A study vote is descriptive, not certainty or individual probability. Do not equate a nonsignificant finding with a null effect. If insufficient comparable data, show that rather than inventing percentages.
+
+Use forest plots with correct scales, confidence intervals and no-effect lines. Prefer actual effect sizes and absolute risk when baseline risk is defensible; label relative risks and percentage points correctly. Do not pool incompatible outcomes or studies without appropriate methods. Provide plain-language conclusions, limitations, and drilldowns for study design, higher-quality, pregnancy-specific, independent and industry-funded evidence. Avoid false balance. No arbitrary AI-generated confidence percentages.
+
+Claude should implement testable chart utilities and document calculations; reviewers verify against original studies. Visualize hypothetical data only in clearly labeled isolated demo fixtures, never as medical evidence.
