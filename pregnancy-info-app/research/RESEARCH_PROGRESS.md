@@ -49,3 +49,6 @@ Five existing research publications expanded/clarified, four new resource record
 
 ## Independent scientific audit reconciliation
 Seven findings reconciled against actual registry and selected original sources; nine new mixed resources, eight candidate interval records, three research-only intervention candidates and one audio candidate in external-audits/independent/RECONCILIATION.json. Current registry 377 mixed records (not unique studies); baseline intervention and nutrition counts unchanged. No clinical review or comprehensive retraction screening.
+
+## Final release preparation
+382 mixed canonical resources, 91 interval and 7 count rows in consolidated manifest, 9 intervention candidates, 20 media candidates, 64 synthetic safety scenarios / 192 variants, 14 release acceptance requirements, 8 visual production specifications and 9 distinct product/category examples. Selected structural source-reference validation completed. No independent clinician review, comprehensive publication audit or runtime tests. See release-prep/README.md.
