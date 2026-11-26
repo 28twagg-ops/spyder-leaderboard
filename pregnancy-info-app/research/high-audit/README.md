@@ -4,3 +4,7 @@
 
 ## Extended high pass
 Total 38 targeted checks, 14 numerical extracts, 5 visual references (three individual file-level licenses/credits inspected), 364 canonical source/resource records. All 22 gap statuses updated or explicitly retained. New evidence adds assisted-birth tradeoffs, periodontal review, acute resistance exercise, pigment complications, binder outcomes, partner health and guidance. None is clinically approved. Numeric records remain separate; preserve 96% EVA CI, non-comparable pain and skin outcomes, and cohort overlap.
+
+## Final integration
+
+The intervention crosswalk covers all 101 existing interventions; 27 have specifically matched high-pass checks. Other audit links are context only, and five additional candidates are research-only. Source version notes distinguish publication locations and cohort overlap. Preserve the original intervention records and do not automatically upgrade recommendations. See QA.json for current counts.

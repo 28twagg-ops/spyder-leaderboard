@@ -1,0 +1,112 @@
+[
+  {
+    "candidate_id": "HC-001",
+    "name": "Raspberry leaf products",
+    "topic_id": "NUTR-002",
+    "audit_id": "HA-012",
+    "scope": "Botanical research only; no established benefit or routine recommendation",
+    "source_links": [
+      {
+        "source_id": "H015",
+        "title": "Biophysical effects, safety and efficacy of raspberry leaf in pregnancy",
+        "url": "https://doi.org/10.1186/s12906-021-03230-4"
+      },
+      {
+        "source_id": "S086",
+        "title": "Office of Dietary Supplements - Dietary Supplements and Life Stages: Pregnancy",
+        "url": "https://ods.od.nih.gov/factsheets/Pregnancy-HealthProfessional/"
+      }
+    ],
+    "eligibility": "requires separate clinical and evidence review",
+    "status": "research-only candidate; not a phase recommendation"
+  },
+  {
+    "candidate_id": "HC-002",
+    "name": "Lateral episiotomy during vacuum extraction",
+    "topic_id": "BIRTH-001",
+    "audit_id": "HA-032",
+    "scope": "Specific clinical decision for nulliparous vacuum-assisted birth; balance OASI reduction with wound harms; never a self-directed intervention",
+    "source_links": [
+      {
+        "source_id": "H040",
+        "title": "EVA trial: lateral episiotomy or no episiotomy in vacuum assisted delivery",
+        "url": "https://www.bmj.com/content/385/bmj-2023-079014"
+      },
+      {
+        "source_id": "H041",
+        "title": "Contemporary trends in operative vaginal delivery and obstetric anal sphincter injuries 2016–2023",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/40959760/"
+      }
+    ],
+    "eligibility": "requires separate clinical and evidence review",
+    "status": "research-only candidate; not a phase recommendation"
+  },
+  {
+    "candidate_id": "HC-003",
+    "name": "Targeted rehabilitation after obstetric anal sphincter injury",
+    "topic_id": "PELV-001",
+    "audit_id": "HA-018",
+    "scope": "Clinician-led, symptom-specific assessment; evidence for sexual function uncertain",
+    "source_links": [
+      {
+        "source_id": "H016",
+        "title": "Evaluation of postpartum pelvic floor physical therapy on obstetrical anal sphincter injury",
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC8924744/"
+      },
+      {
+        "source_id": "H017",
+        "title": "Obstetric anal sphincter injury and female sexual dysfunction",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/39471303/"
+      },
+      {
+        "source_id": "H018",
+        "title": "Sexual function at 6 and 12 months after OASI and physical therapy",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/37093575/"
+      }
+    ],
+    "eligibility": "requires separate clinical and evidence review",
+    "status": "research-only candidate; not a phase recommendation"
+  },
+  {
+    "candidate_id": "HC-004",
+    "name": "Male preconception education",
+    "topic_id": "FIT-001",
+    "audit_id": "HA-035",
+    "scope": "Knowledge and behavioral outcomes, not established fertility or pregnancy outcome benefit",
+    "source_links": [
+      {
+        "source_id": "H046",
+        "title": "Online education of men's reproductive health before childbearing: randomized trial",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/40575499/"
+      },
+      {
+        "source_id": "H047",
+        "title": "Preconception care for men: scoping review",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/41558839/"
+      },
+      {
+        "source_id": "S051",
+        "title": "Preconception lifestyle advice for people with infertility",
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC8092458/"
+      }
+    ],
+    "eligibility": "requires separate clinical and evidence review",
+    "status": "research-only candidate; not a phase recommendation"
+  },
+  {
+    "candidate_id": "HC-005",
+    "name": "Clinician-led group intervention for fathers with postpartum depression",
+    "topic_id": "WELL-001",
+    "audit_id": "HA-036",
+    "scope": "Treatment research for symptomatic fathers, not prevention",
+    "source_links": [
+      {
+        "source_id": "H048",
+        "title": "Group parenting intervention for male postpartum depression: cluster RCT",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/39356541/"
+      }
+    ],
+    "eligibility": "requires separate clinical and evidence review",
+    "status": "research-only candidate; not a phase recommendation"
+  }
+]

@@ -1,0 +1,1860 @@
+[
+  {
+    "intervention_id": "INT-001",
+    "name": "Moisturizer",
+    "topic_id": "SKIN-001",
+    "intervention_specific_audit_ids": [],
+    "related_context_only_audit_ids": [
+      "HA-013"
+    ],
+    "specific_source_links": [],
+    "review_status": "research draft; no automatic promotion or overwrite",
+    "note": "A matched audit may provide uncertainty, harm, or lack of direct efficacy; context links are not intervention-specific proof. Preserve population, outcomes, phase, access and clinical review limitations."
+  },
+  {
+    "intervention_id": "INT-002",
+    "name": "Cocoa butter",
+    "topic_id": "SKIN-001",
+    "intervention_specific_audit_ids": [],
+    "related_context_only_audit_ids": [
+      "HA-013"
+    ],
+    "specific_source_links": [],
+    "review_status": "research draft; no automatic promotion or overwrite",
+    "note": "A matched audit may provide uncertainty, harm, or lack of direct efficacy; context links are not intervention-specific proof. Preserve population, outcomes, phase, access and clinical review limitations."
+  },
+  {
+    "intervention_id": "INT-003",
+    "name": "Olive oil",
+    "topic_id": "SKIN-001",
+    "intervention_specific_audit_ids": [],
+    "related_context_only_audit_ids": [
+      "HA-013"
+    ],
+    "specific_source_links": [],
+    "review_status": "research draft; no automatic promotion or overwrite",
+    "note": "A matched audit may provide uncertainty, harm, or lack of direct efficacy; context links are not intervention-specific proof. Preserve population, outcomes, phase, access and clinical review limitations."
+  },
+  {
+    "intervention_id": "INT-004",
+    "name": "Shea butter",
+    "topic_id": "SKIN-001",
+    "intervention_specific_audit_ids": [],
+    "related_context_only_audit_ids": [
+      "HA-013"
+    ],
+    "specific_source_links": [],
+    "review_status": "research draft; no automatic promotion or overwrite",
+    "note": "A matched audit may provide uncertainty, harm, or lack of direct efficacy; context links are not intervention-specific proof. Preserve population, outcomes, phase, access and clinical review limitations."
+  },
+  {
+    "intervention_id": "INT-005",
+    "name": "Vitamin E topical",
+    "topic_id": "SKIN-001",
+    "intervention_specific_audit_ids": [
+      "HA-013"
+    ],
+    "related_context_only_audit_ids": [],
+    "specific_source_links": [
+      {
+        "source_id": "S006",
+        "title": "Use of a specific anti-stretch mark cream for preventing or reducing the severity of striae gravidarum. Randomized, double-blind, controlled trial",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/23237514/"
+      },
+      {
+        "source_id": "S001",
+        "title": "Topical preparations for preventing stretch marks in pregnancy | Cochrane",
+        "url": "https://www.cochrane.org/evidence/CD000066_topical-preparations-preventing-stretch-marks-pregnancy"
+      }
+    ],
+    "review_status": "research draft; no automatic promotion or overwrite",
+    "note": "A matched audit may provide uncertainty, harm, or lack of direct efficacy; context links are not intervention-specific proof. Preserve population, outcomes, phase, access and clinical review limitations."
+  },
+  {
+    "intervention_id": "INT-006",
+    "name": "Centella-containing cream",
+    "topic_id": "SKIN-001",
+    "intervention_specific_audit_ids": [
+      "HA-013"
+    ],
+    "related_context_only_audit_ids": [],
+    "specific_source_links": [
+      {
+        "source_id": "S006",
+        "title": "Use of a specific anti-stretch mark cream for preventing or reducing the severity of striae gravidarum. Randomized, double-blind, controlled trial",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/23237514/"
+      },
+      {
+        "source_id": "S001",
+        "title": "Topical preparations for preventing stretch marks in pregnancy | Cochrane",
+        "url": "https://www.cochrane.org/evidence/CD000066_topical-preparations-preventing-stretch-marks-pregnancy"
+      }
+    ],
+    "review_status": "research draft; no automatic promotion or overwrite",
+    "note": "A matched audit may provide uncertainty, harm, or lack of direct efficacy; context links are not intervention-specific proof. Preserve population, outcomes, phase, access and clinical review limitations."
+  },
+  {
+    "intervention_id": "INT-007",
+    "name": "Hyaluronic acid cream",
+    "topic_id": "SKIN-001",
+    "intervention_specific_audit_ids": [],
+    "related_context_only_audit_ids": [
+      "HA-013"
+    ],
+    "specific_source_links": [],
+    "review_status": "research draft; no automatic promotion or overwrite",
+    "note": "A matched audit may provide uncertainty, harm, or lack of direct efficacy; context links are not intervention-specific proof. Preserve population, outcomes, phase, access and clinical review limitations."
+  },
+  {
+    "intervention_id": "INT-008",
+    "name": "Bitter almond oil with massage",
+    "topic_id": "SKIN-001",
+    "intervention_specific_audit_ids": [],
+    "related_context_only_audit_ids": [
+      "HA-013"
+    ],
+    "specific_source_links": [],
+    "review_status": "research draft; no automatic promotion or overwrite",
+    "note": "A matched audit may provide uncertainty, harm, or lack of direct efficacy; context links are not intervention-specific proof. Preserve population, outcomes, phase, access and clinical review limitations."
+  },
+  {
+    "intervention_id": "INT-009",
+    "name": "Oral collagen peptides",
+    "topic_id": "SKIN-002",
+    "intervention_specific_audit_ids": [
+      "HA-014",
+      "HA-015"
+    ],
+    "related_context_only_audit_ids": [],
+    "specific_source_links": [
+      {
+        "source_id": "S011",
+        "title": "Effects of Collagen Supplements on Skin Aging: A Systematic Review and Meta-Analysis of Randomized Controlled Trials",
+        "url": "https://www.sciencedirect.com/science/article/pii/S0002934325002839"
+      },
+      {
+        "source_id": "S012",
+        "title": "Oral Collagen Peptides and Skin Rejuvenation: A Systematic Review and an Updated Meta-Analysis of Randomized Controlled Trials.",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/43047141/"
+      },
+      {
+        "source_id": "CL02",
+        "title": "2026 technical reanalysis of collagen reviews",
+        "url": "https://doi.org/10.1111/jocd.71208"
+      },
+      {
+        "source_id": "S015",
+        "title": "Oral supplementation of specific collagen peptides has beneficial effects on human skin physiology: a double-blind, placebo-controlled study.",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/23949208/"
+      },
+      {
+        "source_id": "S014",
+        "title": "The Oral Intake of Specific Bovine-Derived Bioactive Collagen Peptides Has a Stimulatory Effect on Dermal Matrix Synthesis and Improves Various Clinical Skin Parameters",
+        "url": "https://doi.org/10.3390%2Fcosmetics12020079"
+      }
+    ],
+    "review_status": "research draft; no automatic promotion or overwrite",
+    "note": "A matched audit may provide uncertainty, harm, or lack of direct efficacy; context links are not intervention-specific proof. Preserve population, outcomes, phase, access and clinical review limitations."
+  },
+  {
+    "intervention_id": "INT-010",
+    "name": "Conventional microneedling",
+    "topic_id": "SKIN-003",
+    "intervention_specific_audit_ids": [
+      "HA-029"
+    ],
+    "related_context_only_audit_ids": [],
+    "specific_source_links": [
+      {
+        "source_id": "H037",
+        "title": "Microneedling as standalone treatment for striae rubrae and albae",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/41401824/"
+      },
+      {
+        "source_id": "H038",
+        "title": "Evaluating microneedling technique for striae alba lesions",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/36934160/"
+      },
+      {
+        "source_id": "H039",
+        "title": "Ablative fractional CO2 laser with rhEGF versus aloe vera for striae alba",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/30614013/"
+      },
+      {
+        "source_id": "S018",
+        "title": "Efficacy of Microneedling Versus Fractional Non-ablative Laser to Treat Striae Alba: A Randomized Study",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/30618025/"
+      }
+    ],
+    "review_status": "research draft; no automatic promotion or overwrite",
+    "note": "A matched audit may provide uncertainty, harm, or lack of direct efficacy; context links are not intervention-specific proof. Preserve population, outcomes, phase, access and clinical review limitations."
+  },
+  {
+    "intervention_id": "INT-011",
+    "name": "Fractional nonablative laser",
+    "topic_id": "SKIN-003",
+    "intervention_specific_audit_ids": [
+      "HA-029"
+    ],
+    "related_context_only_audit_ids": [],
+    "specific_source_links": [
+      {
+        "source_id": "H037",
+        "title": "Microneedling as standalone treatment for striae rubrae and albae",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/41401824/"
+      },
+      {
+        "source_id": "H038",
+        "title": "Evaluating microneedling technique for striae alba lesions",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/36934160/"
+      },
+      {
+        "source_id": "H039",
+        "title": "Ablative fractional CO2 laser with rhEGF versus aloe vera for striae alba",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/30614013/"
+      },
+      {
+        "source_id": "S018",
+        "title": "Efficacy of Microneedling Versus Fractional Non-ablative Laser to Treat Striae Alba: A Randomized Study",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/30618025/"
+      }
+    ],
+    "review_status": "research draft; no automatic promotion or overwrite",
+    "note": "A matched audit may provide uncertainty, harm, or lack of direct efficacy; context links are not intervention-specific proof. Preserve population, outcomes, phase, access and clinical review limitations."
+  },
+  {
+    "intervention_id": "INT-012",
+    "name": "Fractional CO2 laser",
+    "topic_id": "SKIN-003",
+    "intervention_specific_audit_ids": [
+      "HA-029"
+    ],
+    "related_context_only_audit_ids": [],
+    "specific_source_links": [
+      {
+        "source_id": "H037",
+        "title": "Microneedling as standalone treatment for striae rubrae and albae",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/41401824/"
+      },
+      {
+        "source_id": "H038",
+        "title": "Evaluating microneedling technique for striae alba lesions",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/36934160/"
+      },
+      {
+        "source_id": "H039",
+        "title": "Ablative fractional CO2 laser with rhEGF versus aloe vera for striae alba",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/30614013/"
+      },
+      {
+        "source_id": "S018",
+        "title": "Efficacy of Microneedling Versus Fractional Non-ablative Laser to Treat Striae Alba: A Randomized Study",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/30618025/"
+      }
+    ],
+    "review_status": "research draft; no automatic promotion or overwrite",
+    "note": "A matched audit may provide uncertainty, harm, or lack of direct efficacy; context links are not intervention-specific proof. Preserve population, outcomes, phase, access and clinical review limitations."
+  },
+  {
+    "intervention_id": "INT-013",
+    "name": "Topical tretinoin for striae",
+    "topic_id": "SKIN-003",
+    "intervention_specific_audit_ids": [],
+    "related_context_only_audit_ids": [
+      "HA-029"
+    ],
+    "specific_source_links": [],
+    "review_status": "research draft; no automatic promotion or overwrite",
+    "note": "A matched audit may provide uncertainty, harm, or lack of direct efficacy; context links are not intervention-specific proof. Preserve population, outcomes, phase, access and clinical review limitations."
+  },
+  {
+    "intervention_id": "INT-014",
+    "name": "Curl-up strengthening",
+    "topic_id": "ABD-001",
+    "intervention_specific_audit_ids": [],
+    "related_context_only_audit_ids": [
+      "HA-016"
+    ],
+    "specific_source_links": [],
+    "review_status": "research draft; no automatic promotion or overwrite",
+    "note": "A matched audit may provide uncertainty, harm, or lack of direct efficacy; context links are not intervention-specific proof. Preserve population, outcomes, phase, access and clinical review limitations."
+  },
+  {
+    "intervention_id": "INT-015",
+    "name": "Hypopressive exercise",
+    "topic_id": "ABD-001",
+    "intervention_specific_audit_ids": [
+      "HA-016"
+    ],
+    "related_context_only_audit_ids": [],
+    "specific_source_links": [
+      {
+        "source_id": "S031",
+        "title": "Effect of hypopressive and conventional abdominal exercises on postpartum diastasis recti: A randomized controlled trial",
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC11637234/"
+      },
+      {
+        "source_id": "S034",
+        "title": "Hypopressive exercises for diastasis recti and pelvic floor symptoms in postpartum women: A randomized trial",
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC12961203/"
+      },
+      {
+        "source_id": "R016",
+        "title": "Diastasis exercise network meta-analysis",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/41224804/"
+      },
+      {
+        "source_id": "H021",
+        "title": "Core muscle strength and stability-oriented breathing training in postpartum women",
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC11889499/"
+      },
+      {
+        "source_id": "H022",
+        "title": "Effect of inspiratory plus expiratory neuromuscular electrical stimulation on postpartum diastasis",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/40426315/"
+      }
+    ],
+    "review_status": "research draft; no automatic promotion or overwrite",
+    "note": "A matched audit may provide uncertainty, harm, or lack of direct efficacy; context links are not intervention-specific proof. Preserve population, outcomes, phase, access and clinical review limitations."
+  },
+  {
+    "intervention_id": "INT-016",
+    "name": "Transversus abdominis training",
+    "topic_id": "ABD-001",
+    "intervention_specific_audit_ids": [],
+    "related_context_only_audit_ids": [
+      "HA-016"
+    ],
+    "specific_source_links": [],
+    "review_status": "research draft; no automatic promotion or overwrite",
+    "note": "A matched audit may provide uncertainty, harm, or lack of direct efficacy; context links are not intervention-specific proof. Preserve population, outcomes, phase, access and clinical review limitations."
+  },
+  {
+    "intervention_id": "INT-017",
+    "name": "Pilates",
+    "topic_id": "ABD-001",
+    "intervention_specific_audit_ids": [],
+    "related_context_only_audit_ids": [
+      "HA-016"
+    ],
+    "specific_source_links": [],
+    "review_status": "research draft; no automatic promotion or overwrite",
+    "note": "A matched audit may provide uncertainty, harm, or lack of direct efficacy; context links are not intervention-specific proof. Preserve population, outcomes, phase, access and clinical review limitations."
+  },
+  {
+    "intervention_id": "INT-018",
+    "name": "Graded resistance training",
+    "topic_id": "ABD-001",
+    "intervention_specific_audit_ids": [],
+    "related_context_only_audit_ids": [
+      "HA-016"
+    ],
+    "specific_source_links": [],
+    "review_status": "research draft; no automatic promotion or overwrite",
+    "note": "A matched audit may provide uncertainty, harm, or lack of direct efficacy; context links are not intervention-specific proof. Preserve population, outcomes, phase, access and clinical review limitations."
+  },
+  {
+    "intervention_id": "INT-019",
+    "name": "Abdominal binder after cesarean",
+    "topic_id": "ABD-002",
+    "intervention_specific_audit_ids": [
+      "HA-030"
+    ],
+    "related_context_only_audit_ids": [],
+    "specific_source_links": [
+      {
+        "source_id": "S036",
+        "title": "The efficacy of abdominal binder in women undergoing cesarean delivery: A meta-analysis of randomized controlled trials.",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/39793406/"
+      },
+      {
+        "source_id": "S038",
+        "title": "The effect of an abdominal binder on pain, bleeding and breastfeeding success after cesarean delivery: A randomized controlled trial",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/39780504/"
+      },
+      {
+        "source_id": "S039",
+        "title": "A randomized controlled trial of abdominal binders for the management of postoperative pain and distress after cesarean delivery",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/26892694/"
+      }
+    ],
+    "review_status": "research draft; no automatic promotion or overwrite",
+    "note": "A matched audit may provide uncertainty, harm, or lack of direct efficacy; context links are not intervention-specific proof. Preserve population, outcomes, phase, access and clinical review limitations."
+  },
+  {
+    "intervention_id": "INT-020",
+    "name": "Abdominal binder for diastasis",
+    "topic_id": "ABD-002",
+    "intervention_specific_audit_ids": [],
+    "related_context_only_audit_ids": [
+      "HA-030"
+    ],
+    "specific_source_links": [],
+    "review_status": "research draft; no automatic promotion or overwrite",
+    "note": "A matched audit may provide uncertainty, harm, or lack of direct efficacy; context links are not intervention-specific proof. Preserve population, outcomes, phase, access and clinical review limitations."
+  },
+  {
+    "intervention_id": "INT-021",
+    "name": "Abdominal wall surgical assessment",
+    "topic_id": "ABD-002",
+    "intervention_specific_audit_ids": [],
+    "related_context_only_audit_ids": [
+      "HA-030"
+    ],
+    "specific_source_links": [],
+    "review_status": "research draft; no automatic promotion or overwrite",
+    "note": "A matched audit may provide uncertainty, harm, or lack of direct efficacy; context links are not intervention-specific proof. Preserve population, outcomes, phase, access and clinical review limitations."
+  },
+  {
+    "intervention_id": "INT-022",
+    "name": "Supportive sports bra",
+    "topic_id": "BREAST-001",
+    "intervention_specific_audit_ids": [],
+    "related_context_only_audit_ids": [
+      "HA-027"
+    ],
+    "specific_source_links": [],
+    "review_status": "research draft; no automatic promotion or overwrite",
+    "note": "A matched audit may provide uncertainty, harm, or lack of direct efficacy; context links are not intervention-specific proof. Preserve population, outcomes, phase, access and clinical review limitations."
+  },
+  {
+    "intervention_id": "INT-023",
+    "name": "Breastfeeding choice",
+    "topic_id": "BREAST-001",
+    "intervention_specific_audit_ids": [
+      "HA-027"
+    ],
+    "related_context_only_audit_ids": [],
+    "specific_source_links": [
+      {
+        "source_id": "H032",
+        "title": "Assessment of breast volume changes during human pregnancy: prospective CGATE study",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/24100511/"
+      },
+      {
+        "source_id": "S044",
+        "title": "The effect of breastfeeding on breast aesthetics.",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/19083576/"
+      }
+    ],
+    "review_status": "research draft; no automatic promotion or overwrite",
+    "note": "A matched audit may provide uncertainty, harm, or lack of direct efficacy; context links are not intervention-specific proof. Preserve population, outcomes, phase, access and clinical review limitations."
+  },
+  {
+    "intervention_id": "INT-024",
+    "name": "Breast reduction consultation",
+    "topic_id": "BREAST-001",
+    "intervention_specific_audit_ids": [],
+    "related_context_only_audit_ids": [
+      "HA-027"
+    ],
+    "specific_source_links": [],
+    "review_status": "research draft; no automatic promotion or overwrite",
+    "note": "A matched audit may provide uncertainty, harm, or lack of direct efficacy; context links are not intervention-specific proof. Preserve population, outcomes, phase, access and clinical review limitations."
+  },
+  {
+    "intervention_id": "INT-025",
+    "name": "Preconception aerobic activity",
+    "topic_id": "FIT-001",
+    "intervention_specific_audit_ids": [],
+    "related_context_only_audit_ids": [
+      "HA-035"
+    ],
+    "specific_source_links": [],
+    "review_status": "research draft; no automatic promotion or overwrite",
+    "note": "A matched audit may provide uncertainty, harm, or lack of direct efficacy; context links are not intervention-specific proof. Preserve population, outcomes, phase, access and clinical review limitations."
+  },
+  {
+    "intervention_id": "INT-026",
+    "name": "Preconception strength training",
+    "topic_id": "FIT-001",
+    "intervention_specific_audit_ids": [],
+    "related_context_only_audit_ids": [
+      "HA-035"
+    ],
+    "specific_source_links": [],
+    "review_status": "research draft; no automatic promotion or overwrite",
+    "note": "A matched audit may provide uncertainty, harm, or lack of direct efficacy; context links are not intervention-specific proof. Preserve population, outcomes, phase, access and clinical review limitations."
+  },
+  {
+    "intervention_id": "INT-027",
+    "name": "Intensive preconception weight loss",
+    "topic_id": "FIT-001",
+    "intervention_specific_audit_ids": [],
+    "related_context_only_audit_ids": [
+      "HA-035"
+    ],
+    "specific_source_links": [],
+    "review_status": "research draft; no automatic promotion or overwrite",
+    "note": "A matched audit may provide uncertainty, harm, or lack of direct efficacy; context links are not intervention-specific proof. Preserve population, outcomes, phase, access and clinical review limitations."
+  },
+  {
+    "intervention_id": "INT-028",
+    "name": "Moderate aerobic activity",
+    "topic_id": "FIT-002",
+    "intervention_specific_audit_ids": [],
+    "related_context_only_audit_ids": [
+      "HA-022",
+      "HA-028"
+    ],
+    "specific_source_links": [],
+    "review_status": "research draft; no automatic promotion or overwrite",
+    "note": "A matched audit may provide uncertainty, harm, or lack of direct efficacy; context links are not intervention-specific proof. Preserve population, outcomes, phase, access and clinical review limitations."
+  },
+  {
+    "intervention_id": "INT-029",
+    "name": "Prenatal resistance exercise",
+    "topic_id": "FIT-002",
+    "intervention_specific_audit_ids": [
+      "HA-022",
+      "HA-028"
+    ],
+    "related_context_only_audit_ids": [],
+    "specific_source_links": [
+      {
+        "source_id": "CL05",
+        "title": "2025 prenatal resistance training review",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/40610191/"
+      },
+      {
+        "source_id": "H023",
+        "title": "MotherToBaby Exercise fact sheet",
+        "url": "https://www.ncbi.nlm.nih.gov/books/NBK582697/"
+      },
+      {
+        "source_id": "H033",
+        "title": "Maternal and fetal responses to acute high-intensity resistance exercise during pregnancy",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/39694629/"
+      },
+      {
+        "source_id": "H034",
+        "title": "Maternal and foetal cardiovascular responses to moderate-to-high intensity resistance exercise",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/41017756/"
+      },
+      {
+        "source_id": "H035",
+        "title": "Pushing limits: acute heavy-load resistance and supine exercise fetal well-being",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/40909193/"
+      },
+      {
+        "source_id": "H036",
+        "title": "Impact of heavy resistance training on pregnancy and postpartum health outcomes",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/36331580/"
+      }
+    ],
+    "review_status": "research draft; no automatic promotion or overwrite",
+    "note": "A matched audit may provide uncertainty, harm, or lack of direct efficacy; context links are not intervention-specific proof. Preserve population, outcomes, phase, access and clinical review limitations."
+  },
+  {
+    "intervention_id": "INT-030",
+    "name": "Gestational weight-gain counseling",
+    "topic_id": "FIT-002",
+    "intervention_specific_audit_ids": [],
+    "related_context_only_audit_ids": [
+      "HA-022",
+      "HA-028"
+    ],
+    "specific_source_links": [],
+    "review_status": "research draft; no automatic promotion or overwrite",
+    "note": "A matched audit may provide uncertainty, harm, or lack of direct efficacy; context links are not intervention-specific proof. Preserve population, outcomes, phase, access and clinical review limitations."
+  },
+  {
+    "intervention_id": "INT-031",
+    "name": "Gentle postpartum walking",
+    "topic_id": "FIT-003",
+    "intervention_specific_audit_ids": [],
+    "related_context_only_audit_ids": [
+      "HA-023",
+      "HA-038"
+    ],
+    "specific_source_links": [],
+    "review_status": "research draft; no automatic promotion or overwrite",
+    "note": "A matched audit may provide uncertainty, harm, or lack of direct efficacy; context links are not intervention-specific proof. Preserve population, outcomes, phase, access and clinical review limitations."
+  },
+  {
+    "intervention_id": "INT-032",
+    "name": "Return to running",
+    "topic_id": "FIT-003",
+    "intervention_specific_audit_ids": [
+      "HA-023",
+      "HA-038"
+    ],
+    "related_context_only_audit_ids": [],
+    "specific_source_links": [
+      {
+        "source_id": "S067",
+        "title": "Clinical and exercise professional opinion on designing a postpartum return-to-running training programme: an international Delphi study and consensus statement",
+        "url": "https://doi.org/10.1136/bjsports-2023-107490"
+      },
+      {
+        "source_id": "S218",
+        "title": "What are the biopsychosocial risk factors associated with pain in postpartum runners? Development of a clinical decision tool",
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC8360599/"
+      }
+    ],
+    "review_status": "research draft; no automatic promotion or overwrite",
+    "note": "A matched audit may provide uncertainty, harm, or lack of direct efficacy; context links are not intervention-specific proof. Preserve population, outcomes, phase, access and clinical review limitations."
+  },
+  {
+    "intervention_id": "INT-033",
+    "name": "Return to lifting",
+    "topic_id": "FIT-003",
+    "intervention_specific_audit_ids": [],
+    "related_context_only_audit_ids": [
+      "HA-023",
+      "HA-038"
+    ],
+    "specific_source_links": [],
+    "review_status": "research draft; no automatic promotion or overwrite",
+    "note": "A matched audit may provide uncertainty, harm, or lack of direct efficacy; context links are not intervention-specific proof. Preserve population, outcomes, phase, access and clinical review limitations."
+  },
+  {
+    "intervention_id": "INT-034",
+    "name": "Antenatal pelvic floor training",
+    "topic_id": "PELV-001",
+    "intervention_specific_audit_ids": [],
+    "related_context_only_audit_ids": [
+      "HA-018"
+    ],
+    "specific_source_links": [],
+    "review_status": "research draft; no automatic promotion or overwrite",
+    "note": "A matched audit may provide uncertainty, harm, or lack of direct efficacy; context links are not intervention-specific proof. Preserve population, outcomes, phase, access and clinical review limitations."
+  },
+  {
+    "intervention_id": "INT-035",
+    "name": "Postpartum pelvic floor training",
+    "topic_id": "PELV-001",
+    "intervention_specific_audit_ids": [],
+    "related_context_only_audit_ids": [
+      "HA-018"
+    ],
+    "specific_source_links": [],
+    "review_status": "research draft; no automatic promotion or overwrite",
+    "note": "A matched audit may provide uncertainty, harm, or lack of direct efficacy; context links are not intervention-specific proof. Preserve population, outcomes, phase, access and clinical review limitations."
+  },
+  {
+    "intervention_id": "INT-036",
+    "name": "Pressure biofeedback",
+    "topic_id": "PELV-001",
+    "intervention_specific_audit_ids": [],
+    "related_context_only_audit_ids": [
+      "HA-018"
+    ],
+    "specific_source_links": [],
+    "review_status": "research draft; no automatic promotion or overwrite",
+    "note": "A matched audit may provide uncertainty, harm, or lack of direct efficacy; context links are not intervention-specific proof. Preserve population, outcomes, phase, access and clinical review limitations."
+  },
+  {
+    "intervention_id": "INT-037",
+    "name": "Pelvic floor relaxation",
+    "topic_id": "PELV-001",
+    "intervention_specific_audit_ids": [],
+    "related_context_only_audit_ids": [
+      "HA-018"
+    ],
+    "specific_source_links": [],
+    "review_status": "research draft; no automatic promotion or overwrite",
+    "note": "A matched audit may provide uncertainty, harm, or lack of direct efficacy; context links are not intervention-specific proof. Preserve population, outcomes, phase, access and clinical review limitations."
+  },
+  {
+    "intervention_id": "INT-038",
+    "name": "Pelvic organ prolapse rehabilitation",
+    "topic_id": "PELV-001",
+    "intervention_specific_audit_ids": [],
+    "related_context_only_audit_ids": [
+      "HA-018"
+    ],
+    "specific_source_links": [],
+    "review_status": "research draft; no automatic promotion or overwrite",
+    "note": "A matched audit may provide uncertainty, harm, or lack of direct efficacy; context links are not intervention-specific proof. Preserve population, outcomes, phase, access and clinical review limitations."
+  },
+  {
+    "intervention_id": "INT-039",
+    "name": "Return to sexual activity",
+    "topic_id": "PELV-001",
+    "intervention_specific_audit_ids": [],
+    "related_context_only_audit_ids": [
+      "HA-018"
+    ],
+    "specific_source_links": [],
+    "review_status": "research draft; no automatic promotion or overwrite",
+    "note": "A matched audit may provide uncertainty, harm, or lack of direct efficacy; context links are not intervention-specific proof. Preserve population, outcomes, phase, access and clinical review limitations."
+  },
+  {
+    "intervention_id": "INT-040",
+    "name": "Antenatal perineal massage",
+    "topic_id": "BIRTH-001",
+    "intervention_specific_audit_ids": [],
+    "related_context_only_audit_ids": [
+      "HA-032"
+    ],
+    "specific_source_links": [],
+    "review_status": "research draft; no automatic promotion or overwrite",
+    "note": "A matched audit may provide uncertainty, harm, or lack of direct efficacy; context links are not intervention-specific proof. Preserve population, outcomes, phase, access and clinical review limitations."
+  },
+  {
+    "intervention_id": "INT-041",
+    "name": "Warm perineal compress",
+    "topic_id": "BIRTH-001",
+    "intervention_specific_audit_ids": [],
+    "related_context_only_audit_ids": [
+      "HA-032"
+    ],
+    "specific_source_links": [],
+    "review_status": "research draft; no automatic promotion or overwrite",
+    "note": "A matched audit may provide uncertainty, harm, or lack of direct efficacy; context links are not intervention-specific proof. Preserve population, outcomes, phase, access and clinical review limitations."
+  },
+  {
+    "intervention_id": "INT-042",
+    "name": "Continuous labor support",
+    "topic_id": "BIRTH-001",
+    "intervention_specific_audit_ids": [],
+    "related_context_only_audit_ids": [
+      "HA-032"
+    ],
+    "specific_source_links": [],
+    "review_status": "research draft; no automatic promotion or overwrite",
+    "note": "A matched audit may provide uncertainty, harm, or lack of direct efficacy; context links are not intervention-specific proof. Preserve population, outcomes, phase, access and clinical review limitations."
+  },
+  {
+    "intervention_id": "INT-043",
+    "name": "Second-stage birth position",
+    "topic_id": "BIRTH-001",
+    "intervention_specific_audit_ids": [],
+    "related_context_only_audit_ids": [
+      "HA-032"
+    ],
+    "specific_source_links": [],
+    "review_status": "research draft; no automatic promotion or overwrite",
+    "note": "A matched audit may provide uncertainty, harm, or lack of direct efficacy; context links are not intervention-specific proof. Preserve population, outcomes, phase, access and clinical review limitations."
+  },
+  {
+    "intervention_id": "INT-044",
+    "name": "Immediate versus delayed pushing",
+    "topic_id": "BIRTH-001",
+    "intervention_specific_audit_ids": [],
+    "related_context_only_audit_ids": [
+      "HA-032"
+    ],
+    "specific_source_links": [],
+    "review_status": "research draft; no automatic promotion or overwrite",
+    "note": "A matched audit may provide uncertainty, harm, or lack of direct efficacy; context links are not intervention-specific proof. Preserve population, outcomes, phase, access and clinical review limitations."
+  },
+  {
+    "intervention_id": "INT-045",
+    "name": "Cesarean versus vaginal delivery discussion",
+    "topic_id": "BIRTH-001",
+    "intervention_specific_audit_ids": [],
+    "related_context_only_audit_ids": [
+      "HA-032"
+    ],
+    "specific_source_links": [],
+    "review_status": "research draft; no automatic promotion or overwrite",
+    "note": "A matched audit may provide uncertainty, harm, or lack of direct efficacy; context links are not intervention-specific proof. Preserve population, outcomes, phase, access and clinical review limitations."
+  },
+  {
+    "intervention_id": "INT-046",
+    "name": "Folic acid",
+    "topic_id": "NUTR-001",
+    "intervention_specific_audit_ids": [],
+    "related_context_only_audit_ids": [
+      "HA-006",
+      "HA-007",
+      "HA-008",
+      "HA-009",
+      "HA-010",
+      "HA-011",
+      "HA-026"
+    ],
+    "specific_source_links": [],
+    "review_status": "research draft; no automatic promotion or overwrite",
+    "note": "A matched audit may provide uncertainty, harm, or lack of direct efficacy; context links are not intervention-specific proof. Preserve population, outcomes, phase, access and clinical review limitations."
+  },
+  {
+    "intervention_id": "INT-047",
+    "name": "Iron",
+    "topic_id": "NUTR-001",
+    "intervention_specific_audit_ids": [
+      "HA-011"
+    ],
+    "related_context_only_audit_ids": [
+      "HA-006",
+      "HA-007",
+      "HA-008",
+      "HA-009",
+      "HA-010",
+      "HA-026"
+    ],
+    "specific_source_links": [
+      {
+        "source_id": "S178",
+        "title": "Recommendation: Iron Deficiency and Iron Deficiency Anemia During Pregnancy: Screening and Supplementation | United States Preventive Services Taskforce",
+        "url": "https://www.uspreventiveservicestaskforce.org/uspstf/recommendation/iron-deficiency-anemia-in-pregnant-women-screening-and-supplementation"
+      },
+      {
+        "source_id": "H014",
+        "title": "WHO antenatal iron supplementation",
+        "url": "https://www.who.int/data/nutrition/nlis/info/antenatal-iron-supplementation"
+      },
+      {
+        "source_id": "S222",
+        "title": "Daily oral iron supplementation during pregnancy",
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC11325660/"
+      }
+    ],
+    "review_status": "research draft; no automatic promotion or overwrite",
+    "note": "A matched audit may provide uncertainty, harm, or lack of direct efficacy; context links are not intervention-specific proof. Preserve population, outcomes, phase, access and clinical review limitations."
+  },
+  {
+    "intervention_id": "INT-048",
+    "name": "Calcium",
+    "topic_id": "NUTR-001",
+    "intervention_specific_audit_ids": [
+      "HA-006",
+      "HA-007",
+      "HA-026"
+    ],
+    "related_context_only_audit_ids": [
+      "HA-008",
+      "HA-009",
+      "HA-010",
+      "HA-011"
+    ],
+    "specific_source_links": [
+      {
+        "source_id": "S092",
+        "title": "Is taking calcium supplements during pregnancy an effective way to prevent blood pressure disorders and related problems? | Cochrane",
+        "url": "https://www.cochrane.org/evidence/CD001059_taking-calcium-supplements-during-pregnancy-effective-way-prevent-blood-pressure-disorders-and"
+      },
+      {
+        "source_id": "S093",
+        "title": "Trial trustworthiness assessment: commentary on the Cochrane 2025 systematic review on calcium supplementation during pregnancy",
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC13312738/"
+      },
+      {
+        "source_id": "H007",
+        "title": "WHO guideline development group: calcium supplementation for prevention of pre-eclampsia",
+        "url": "https://www.who.int/news-room/articles-detail/guideline-development-group-calcium-supplementation-for-the-prevention-of-pre-eclampsia"
+      },
+      {
+        "source_id": "H008",
+        "title": "Calcium supplementation and risk of preeclampsia in Ecuadorian pregnant teenagers",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/9241285/"
+      },
+      {
+        "source_id": "H009",
+        "title": "Calcium supplementation and prevention of pregnancy induced hypertension",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/8987323/"
+      },
+      {
+        "source_id": "S224",
+        "title": "[Table, WHO recommendation: calcium supplementation during pregnancy for prevention of pre-eclampsia and its complications []].",
+        "url": "https://www.ncbi.nlm.nih.gov/books/NBK615641/table/part1.tab212/"
+      },
+      {
+        "source_id": "R012",
+        "title": "Preconception calcium review",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/40965861/"
+      },
+      {
+        "source_id": "H027",
+        "title": "Calcium supplementation other than hypertension prevention: pregnancy and infant outcomes",
+        "url": "https://doi.org/10.1002/14651858.CD007079.pub4"
+      }
+    ],
+    "review_status": "research draft; no automatic promotion or overwrite",
+    "note": "A matched audit may provide uncertainty, harm, or lack of direct efficacy; context links are not intervention-specific proof. Preserve population, outcomes, phase, access and clinical review limitations."
+  },
+  {
+    "intervention_id": "INT-049",
+    "name": "Omega-3 DHA/EPA",
+    "topic_id": "NUTR-001",
+    "intervention_specific_audit_ids": [
+      "HA-008"
+    ],
+    "related_context_only_audit_ids": [
+      "HA-006",
+      "HA-007",
+      "HA-009",
+      "HA-010",
+      "HA-011",
+      "HA-026"
+    ],
+    "specific_source_links": [
+      {
+        "source_id": "R007",
+        "title": "ADORE DHA trial",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/34308309/"
+      },
+      {
+        "source_id": "H028",
+        "title": "ADORE randomized controlled trial protocol",
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC5307851/"
+      },
+      {
+        "source_id": "R005",
+        "title": "ORIP baseline omega-3 analysis",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/32034969/"
+      },
+      {
+        "source_id": "S082",
+        "title": "A Randomized Trial of Prenatal n−3 Fatty Acid Supplementation and Preterm Delivery",
+        "url": "https://www.nejm.org/doi/full/10.1056/NEJMoa1816832"
+      }
+    ],
+    "review_status": "research draft; no automatic promotion or overwrite",
+    "note": "A matched audit may provide uncertainty, harm, or lack of direct efficacy; context links are not intervention-specific proof. Preserve population, outcomes, phase, access and clinical review limitations."
+  },
+  {
+    "intervention_id": "INT-050",
+    "name": "Vitamin D",
+    "topic_id": "NUTR-001",
+    "intervention_specific_audit_ids": [],
+    "related_context_only_audit_ids": [
+      "HA-006",
+      "HA-007",
+      "HA-008",
+      "HA-009",
+      "HA-010",
+      "HA-011",
+      "HA-026"
+    ],
+    "specific_source_links": [],
+    "review_status": "research draft; no automatic promotion or overwrite",
+    "note": "A matched audit may provide uncertainty, harm, or lack of direct efficacy; context links are not intervention-specific proof. Preserve population, outcomes, phase, access and clinical review limitations."
+  },
+  {
+    "intervention_id": "INT-051",
+    "name": "Vitamin B12",
+    "topic_id": "NUTR-001",
+    "intervention_specific_audit_ids": [],
+    "related_context_only_audit_ids": [
+      "HA-010",
+      "HA-006",
+      "HA-007",
+      "HA-008",
+      "HA-009",
+      "HA-011",
+      "HA-026"
+    ],
+    "specific_source_links": [],
+    "review_status": "research draft; no automatic promotion or overwrite",
+    "note": "A matched audit may provide uncertainty, harm, or lack of direct efficacy; context links are not intervention-specific proof. Preserve population, outcomes, phase, access and clinical review limitations."
+  },
+  {
+    "intervention_id": "INT-052",
+    "name": "Choline",
+    "topic_id": "NUTR-001",
+    "intervention_specific_audit_ids": [],
+    "related_context_only_audit_ids": [
+      "HA-010",
+      "HA-006",
+      "HA-007",
+      "HA-008",
+      "HA-009",
+      "HA-011",
+      "HA-026"
+    ],
+    "specific_source_links": [],
+    "review_status": "research draft; no automatic promotion or overwrite",
+    "note": "A matched audit may provide uncertainty, harm, or lack of direct efficacy; context links are not intervention-specific proof. Preserve population, outcomes, phase, access and clinical review limitations."
+  },
+  {
+    "intervention_id": "INT-053",
+    "name": "Iodine",
+    "topic_id": "NUTR-001",
+    "intervention_specific_audit_ids": [],
+    "related_context_only_audit_ids": [
+      "HA-010",
+      "HA-006",
+      "HA-007",
+      "HA-008",
+      "HA-009",
+      "HA-011",
+      "HA-026"
+    ],
+    "specific_source_links": [],
+    "review_status": "research draft; no automatic promotion or overwrite",
+    "note": "A matched audit may provide uncertainty, harm, or lack of direct efficacy; context links are not intervention-specific proof. Preserve population, outcomes, phase, access and clinical review limitations."
+  },
+  {
+    "intervention_id": "INT-054",
+    "name": "Vitamin C",
+    "topic_id": "NUTR-001",
+    "intervention_specific_audit_ids": [],
+    "related_context_only_audit_ids": [
+      "HA-006",
+      "HA-007",
+      "HA-008",
+      "HA-009",
+      "HA-010",
+      "HA-011",
+      "HA-026"
+    ],
+    "specific_source_links": [],
+    "review_status": "research draft; no automatic promotion or overwrite",
+    "note": "A matched audit may provide uncertainty, harm, or lack of direct efficacy; context links are not intervention-specific proof. Preserve population, outcomes, phase, access and clinical review limitations."
+  },
+  {
+    "intervention_id": "INT-055",
+    "name": "Magnesium",
+    "topic_id": "NUTR-001",
+    "intervention_specific_audit_ids": [],
+    "related_context_only_audit_ids": [
+      "HA-006",
+      "HA-007",
+      "HA-008",
+      "HA-009",
+      "HA-010",
+      "HA-011",
+      "HA-026"
+    ],
+    "specific_source_links": [],
+    "review_status": "research draft; no automatic promotion or overwrite",
+    "note": "A matched audit may provide uncertainty, harm, or lack of direct efficacy; context links are not intervention-specific proof. Preserve population, outcomes, phase, access and clinical review limitations."
+  },
+  {
+    "intervention_id": "INT-056",
+    "name": "Zinc",
+    "topic_id": "NUTR-001",
+    "intervention_specific_audit_ids": [],
+    "related_context_only_audit_ids": [
+      "HA-006",
+      "HA-007",
+      "HA-008",
+      "HA-009",
+      "HA-010",
+      "HA-011",
+      "HA-026"
+    ],
+    "specific_source_links": [],
+    "review_status": "research draft; no automatic promotion or overwrite",
+    "note": "A matched audit may provide uncertainty, harm, or lack of direct efficacy; context links are not intervention-specific proof. Preserve population, outcomes, phase, access and clinical review limitations."
+  },
+  {
+    "intervention_id": "INT-057",
+    "name": "Lower-mercury fish",
+    "topic_id": "NUTR-001",
+    "intervention_specific_audit_ids": [],
+    "related_context_only_audit_ids": [
+      "HA-006",
+      "HA-007",
+      "HA-008",
+      "HA-009",
+      "HA-010",
+      "HA-011",
+      "HA-026"
+    ],
+    "specific_source_links": [],
+    "review_status": "research draft; no automatic promotion or overwrite",
+    "note": "A matched audit may provide uncertainty, harm, or lack of direct efficacy; context links are not intervention-specific proof. Preserve population, outcomes, phase, access and clinical review limitations."
+  },
+  {
+    "intervention_id": "INT-058",
+    "name": "Ginger",
+    "topic_id": "NUTR-002",
+    "intervention_specific_audit_ids": [],
+    "related_context_only_audit_ids": [
+      "HA-001",
+      "HA-002",
+      "HA-003",
+      "HA-004",
+      "HA-005",
+      "HA-012"
+    ],
+    "specific_source_links": [],
+    "review_status": "research draft; no automatic promotion or overwrite",
+    "note": "A matched audit may provide uncertainty, harm, or lack of direct efficacy; context links are not intervention-specific proof. Preserve population, outcomes, phase, access and clinical review limitations."
+  },
+  {
+    "intervention_id": "INT-059",
+    "name": "Probiotic supplements",
+    "topic_id": "NUTR-002",
+    "intervention_specific_audit_ids": [
+      "HA-001",
+      "HA-002",
+      "HA-003",
+      "HA-004",
+      "HA-005"
+    ],
+    "related_context_only_audit_ids": [
+      "HA-012"
+    ],
+    "specific_source_links": [
+      {
+        "source_id": "R001",
+        "title": "SPRING trial",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/30659070/"
+      },
+      {
+        "source_id": "H001",
+        "title": "SPRING study protocol",
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC3585705/"
+      },
+      {
+        "source_id": "H002",
+        "title": "SPRING secondary microbiome analysis and funding",
+        "url": "https://www.sciencedirect.com/science/article/pii/S2210778921000015"
+      },
+      {
+        "source_id": "H003",
+        "title": "SPRING ketone secondary analysis and product donation",
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC6038017/"
+      },
+      {
+        "source_id": "R002",
+        "title": "Lindsay probiotic trial",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/24646819/"
+      },
+      {
+        "source_id": "H004",
+        "title": "Lindsay 2014 conference report",
+        "url": "https://www.cambridge.org/core/journals/proceedings-of-the-nutrition-society/article/impact-of-probiotics-in-obese-pregnancy-to-reduce-maternal-fasting-glucose-a-randomized-controlled-trial/148C58F917D58383AA680569CC2B76DC"
+      },
+      {
+        "source_id": "R003",
+        "title": "HUMBA trial",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/30878323/"
+      },
+      {
+        "source_id": "R018",
+        "title": "HUMBA publisher report",
+        "url": "https://www.sciencedirect.com/science/article/pii/S0002937819304788"
+      },
+      {
+        "source_id": "H031",
+        "title": "HUMBA study protocol",
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC5123375/"
+      },
+      {
+        "source_id": "R004",
+        "title": "Pellonperä fish oil/probiotic trial",
+        "url": "https://diabetesjournals.org/care/article/42/6/1009/36025/Efficacy-of-Fish-Oil-and-or-Probiotic-Intervention"
+      },
+      {
+        "source_id": "H005",
+        "title": "Pellonperä cohort 24-month follow-up",
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC9848211/"
+      },
+      {
+        "source_id": "S094",
+        "title": "Probiotics to prevent gestational diabetes mellitus | Cochrane",
+        "url": "https://www.cochrane.org/evidence/CD009951_probiotiki-dlya-profilaktiki-gestacionnogo-sakharnogo-diabeta"
+      },
+      {
+        "source_id": "S095",
+        "title": "The effects of probiotics administration during pregnancy on preeclampsia and associated maternal, fetal, and newborn outcomes: a systematic review and meta-analysis",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/38447676/"
+      },
+      {
+        "source_id": "H029",
+        "title": "Probiotics in overweight or obese pregnant women systematic review",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/35871956/"
+      },
+      {
+        "source_id": "H030",
+        "title": "2022 probiotic GDM prevention systematic review",
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC9751955/"
+      },
+      {
+        "source_id": "H006",
+        "title": "New Zealand Medsafe MARC March 2023 remarks",
+        "url": "https://medsafe.govt.nz/profs/PUArticles/June2023/MARCs-remarks-June-2023-meeting.html"
+      }
+    ],
+    "review_status": "research draft; no automatic promotion or overwrite",
+    "note": "A matched audit may provide uncertainty, harm, or lack of direct efficacy; context links are not intervention-specific proof. Preserve population, outcomes, phase, access and clinical review limitations."
+  },
+  {
+    "intervention_id": "INT-060",
+    "name": "Creatine",
+    "topic_id": "NUTR-002",
+    "intervention_specific_audit_ids": [],
+    "related_context_only_audit_ids": [
+      "HA-001",
+      "HA-002",
+      "HA-003",
+      "HA-004",
+      "HA-005",
+      "HA-012"
+    ],
+    "specific_source_links": [],
+    "review_status": "research draft; no automatic promotion or overwrite",
+    "note": "A matched audit may provide uncertainty, harm, or lack of direct efficacy; context links are not intervention-specific proof. Preserve population, outcomes, phase, access and clinical review limitations."
+  },
+  {
+    "intervention_id": "INT-061",
+    "name": "Third-party supplement testing",
+    "topic_id": "NUTR-002",
+    "intervention_specific_audit_ids": [],
+    "related_context_only_audit_ids": [
+      "HA-001",
+      "HA-002",
+      "HA-003",
+      "HA-004",
+      "HA-005",
+      "HA-012"
+    ],
+    "specific_source_links": [],
+    "review_status": "research draft; no automatic promotion or overwrite",
+    "note": "A matched audit may provide uncertainty, harm, or lack of direct efficacy; context links are not intervention-specific proof. Preserve population, outcomes, phase, access and clinical review limitations."
+  },
+  {
+    "intervention_id": "INT-062",
+    "name": "Broad-spectrum sunscreen",
+    "topic_id": "FACE-001",
+    "intervention_specific_audit_ids": [],
+    "related_context_only_audit_ids": [
+      "HA-019"
+    ],
+    "specific_source_links": [],
+    "review_status": "research draft; no automatic promotion or overwrite",
+    "note": "A matched audit may provide uncertainty, harm, or lack of direct efficacy; context links are not intervention-specific proof. Preserve population, outcomes, phase, access and clinical review limitations."
+  },
+  {
+    "intervention_id": "INT-063",
+    "name": "Tinted sunscreen",
+    "topic_id": "FACE-001",
+    "intervention_specific_audit_ids": [],
+    "related_context_only_audit_ids": [
+      "HA-019"
+    ],
+    "specific_source_links": [],
+    "review_status": "research draft; no automatic promotion or overwrite",
+    "note": "A matched audit may provide uncertainty, harm, or lack of direct efficacy; context links are not intervention-specific proof. Preserve population, outcomes, phase, access and clinical review limitations."
+  },
+  {
+    "intervention_id": "INT-064",
+    "name": "Azelaic acid",
+    "topic_id": "FACE-001",
+    "intervention_specific_audit_ids": [],
+    "related_context_only_audit_ids": [
+      "HA-019"
+    ],
+    "specific_source_links": [],
+    "review_status": "research draft; no automatic promotion or overwrite",
+    "note": "A matched audit may provide uncertainty, harm, or lack of direct efficacy; context links are not intervention-specific proof. Preserve population, outcomes, phase, access and clinical review limitations."
+  },
+  {
+    "intervention_id": "INT-065",
+    "name": "Benzoyl peroxide",
+    "topic_id": "FACE-001",
+    "intervention_specific_audit_ids": [],
+    "related_context_only_audit_ids": [
+      "HA-019"
+    ],
+    "specific_source_links": [],
+    "review_status": "research draft; no automatic promotion or overwrite",
+    "note": "A matched audit may provide uncertainty, harm, or lack of direct efficacy; context links are not intervention-specific proof. Preserve population, outcomes, phase, access and clinical review limitations."
+  },
+  {
+    "intervention_id": "INT-066",
+    "name": "Niacinamide",
+    "topic_id": "FACE-001",
+    "intervention_specific_audit_ids": [
+      "HA-019"
+    ],
+    "related_context_only_audit_ids": [],
+    "specific_source_links": [
+      {
+        "source_id": "H019",
+        "title": "Double-blind randomized trial of niacinamide 4% vs hydroquinone 4% for melasma",
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC3142702/"
+      },
+      {
+        "source_id": "H020",
+        "title": "Update on Melasma—Part II: Treatment",
+        "url": "https://doi.org/10.1007/s13555-022-00780-4"
+      },
+      {
+        "source_id": "R014",
+        "title": "Visible light protection and melasma relapse",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/25443629/"
+      },
+      {
+        "source_id": "S212",
+        "title": "Evaluation of the effectiveness of a broad-spectrum sunscreen in the prevention of chloasma in pregnant women",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/17567299/"
+      }
+    ],
+    "review_status": "research draft; no automatic promotion or overwrite",
+    "note": "A matched audit may provide uncertainty, harm, or lack of direct efficacy; context links are not intervention-specific proof. Preserve population, outcomes, phase, access and clinical review limitations."
+  },
+  {
+    "intervention_id": "INT-067",
+    "name": "Topical retinoids",
+    "topic_id": "FACE-001",
+    "intervention_specific_audit_ids": [],
+    "related_context_only_audit_ids": [
+      "HA-019"
+    ],
+    "specific_source_links": [],
+    "review_status": "research draft; no automatic promotion or overwrite",
+    "note": "A matched audit may provide uncertainty, harm, or lack of direct efficacy; context links are not intervention-specific proof. Preserve population, outcomes, phase, access and clinical review limitations."
+  },
+  {
+    "intervention_id": "INT-068",
+    "name": "Gentle hair care",
+    "topic_id": "HAIR-001",
+    "intervention_specific_audit_ids": [],
+    "related_context_only_audit_ids": [
+      "HA-020"
+    ],
+    "specific_source_links": [],
+    "review_status": "research draft; no automatic promotion or overwrite",
+    "note": "A matched audit may provide uncertainty, harm, or lack of direct efficacy; context links are not intervention-specific proof. Preserve population, outcomes, phase, access and clinical review limitations."
+  },
+  {
+    "intervention_id": "INT-069",
+    "name": "Minoxidil",
+    "topic_id": "HAIR-001",
+    "intervention_specific_audit_ids": [],
+    "related_context_only_audit_ids": [
+      "HA-020"
+    ],
+    "specific_source_links": [],
+    "review_status": "research draft; no automatic promotion or overwrite",
+    "note": "A matched audit may provide uncertainty, harm, or lack of direct efficacy; context links are not intervention-specific proof. Preserve population, outcomes, phase, access and clinical review limitations."
+  },
+  {
+    "intervention_id": "INT-070",
+    "name": "Deficiency assessment",
+    "topic_id": "HAIR-001",
+    "intervention_specific_audit_ids": [],
+    "related_context_only_audit_ids": [
+      "HA-020"
+    ],
+    "specific_source_links": [],
+    "review_status": "research draft; no automatic promotion or overwrite",
+    "note": "A matched audit may provide uncertainty, harm, or lack of direct efficacy; context links are not intervention-specific proof. Preserve population, outcomes, phase, access and clinical review limitations."
+  },
+  {
+    "intervention_id": "INT-071",
+    "name": "Wound assessment",
+    "topic_id": "SCAR-001",
+    "intervention_specific_audit_ids": [],
+    "related_context_only_audit_ids": [
+      "HA-021"
+    ],
+    "specific_source_links": [],
+    "review_status": "research draft; no automatic promotion or overwrite",
+    "note": "A matched audit may provide uncertainty, harm, or lack of direct efficacy; context links are not intervention-specific proof. Preserve population, outcomes, phase, access and clinical review limitations."
+  },
+  {
+    "intervention_id": "INT-072",
+    "name": "Silicone gel",
+    "topic_id": "SCAR-001",
+    "intervention_specific_audit_ids": [],
+    "related_context_only_audit_ids": [
+      "HA-021"
+    ],
+    "specific_source_links": [],
+    "review_status": "research draft; no automatic promotion or overwrite",
+    "note": "A matched audit may provide uncertainty, harm, or lack of direct efficacy; context links are not intervention-specific proof. Preserve population, outcomes, phase, access and clinical review limitations."
+  },
+  {
+    "intervention_id": "INT-073",
+    "name": "Silicone sheet",
+    "topic_id": "SCAR-001",
+    "intervention_specific_audit_ids": [],
+    "related_context_only_audit_ids": [
+      "HA-021"
+    ],
+    "specific_source_links": [],
+    "review_status": "research draft; no automatic promotion or overwrite",
+    "note": "A matched audit may provide uncertainty, harm, or lack of direct efficacy; context links are not intervention-specific proof. Preserve population, outcomes, phase, access and clinical review limitations."
+  },
+  {
+    "intervention_id": "INT-074",
+    "name": "Scar massage",
+    "topic_id": "SCAR-001",
+    "intervention_specific_audit_ids": [
+      "HA-021"
+    ],
+    "related_context_only_audit_ids": [],
+    "specific_source_links": [
+      {
+        "source_id": "S208",
+        "title": "Exploring the Effects of Standardized Soft Tissue Mobilization on the Viscoelastic Properties, Pressure Pain Thresholds, and Tactile Pressure Thresholds of the Cesarean Section Scar",
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC9051872/"
+      }
+    ],
+    "review_status": "research draft; no automatic promotion or overwrite",
+    "note": "A matched audit may provide uncertainty, harm, or lack of direct efficacy; context links are not intervention-specific proof. Preserve population, outcomes, phase, access and clinical review limitations."
+  },
+  {
+    "intervention_id": "INT-075",
+    "name": "Perineal resuturing assessment",
+    "topic_id": "SCAR-001",
+    "intervention_specific_audit_ids": [],
+    "related_context_only_audit_ids": [
+      "HA-021"
+    ],
+    "specific_source_links": [],
+    "review_status": "research draft; no automatic promotion or overwrite",
+    "note": "A matched audit may provide uncertainty, harm, or lack of direct efficacy; context links are not intervention-specific proof. Preserve population, outcomes, phase, access and clinical review limitations."
+  },
+  {
+    "intervention_id": "INT-076",
+    "name": "Compression stockings",
+    "topic_id": "VEIN-001",
+    "intervention_specific_audit_ids": [
+      "HA-031"
+    ],
+    "related_context_only_audit_ids": [],
+    "specific_source_links": [
+      {
+        "source_id": "S130",
+        "title": "Positive perception and efficacy of compression stockings for prevention of lower limb edema in pregnant women",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/35399341/"
+      },
+      {
+        "source_id": "S127",
+        "title": "Compression stockings prophylaxis of emergent varicose veins in pregnancy: a prospective randomised controlled study",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/11835115/"
+      }
+    ],
+    "review_status": "research draft; no automatic promotion or overwrite",
+    "note": "A matched audit may provide uncertainty, harm, or lack of direct efficacy; context links are not intervention-specific proof. Preserve population, outcomes, phase, access and clinical review limitations."
+  },
+  {
+    "intervention_id": "INT-077",
+    "name": "Vascular assessment",
+    "topic_id": "VEIN-001",
+    "intervention_specific_audit_ids": [],
+    "related_context_only_audit_ids": [
+      "HA-031"
+    ],
+    "specific_source_links": [],
+    "review_status": "research draft; no automatic promotion or overwrite",
+    "note": "A matched audit may provide uncertainty, harm, or lack of direct efficacy; context links are not intervention-specific proof. Preserve population, outcomes, phase, access and clinical review limitations."
+  },
+  {
+    "intervention_id": "INT-078",
+    "name": "Individualized physiotherapy",
+    "topic_id": "MSK-001",
+    "intervention_specific_audit_ids": [
+      "HA-033"
+    ],
+    "related_context_only_audit_ids": [
+      "HA-017"
+    ],
+    "specific_source_links": [
+      {
+        "source_id": "H042",
+        "title": "Management of pregnancy-related pelvic girdle pain: international Delphi study",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/35202976/"
+      },
+      {
+        "source_id": "H043",
+        "title": "Management of symphysis pubis dysfunction during pregnancy using exercise and pelvic support belts",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/16305268/"
+      },
+      {
+        "source_id": "H052",
+        "title": "Effectiveness of physiotherapy interventions for pregnancy-related lumbopelvic pain",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/42431130/"
+      }
+    ],
+    "review_status": "research draft; no automatic promotion or overwrite",
+    "note": "A matched audit may provide uncertainty, harm, or lack of direct efficacy; context links are not intervention-specific proof. Preserve population, outcomes, phase, access and clinical review limitations."
+  },
+  {
+    "intervention_id": "INT-079",
+    "name": "Nonrigid pelvic support belt",
+    "topic_id": "MSK-001",
+    "intervention_specific_audit_ids": [
+      "HA-033"
+    ],
+    "related_context_only_audit_ids": [
+      "HA-017"
+    ],
+    "specific_source_links": [
+      {
+        "source_id": "H042",
+        "title": "Management of pregnancy-related pelvic girdle pain: international Delphi study",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/35202976/"
+      },
+      {
+        "source_id": "H043",
+        "title": "Management of symphysis pubis dysfunction during pregnancy using exercise and pelvic support belts",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/16305268/"
+      },
+      {
+        "source_id": "H052",
+        "title": "Effectiveness of physiotherapy interventions for pregnancy-related lumbopelvic pain",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/42431130/"
+      }
+    ],
+    "review_status": "research draft; no automatic promotion or overwrite",
+    "note": "A matched audit may provide uncertainty, harm, or lack of direct efficacy; context links are not intervention-specific proof. Preserve population, outcomes, phase, access and clinical review limitations."
+  },
+  {
+    "intervention_id": "INT-080",
+    "name": "Acupuncture",
+    "topic_id": "MSK-001",
+    "intervention_specific_audit_ids": [
+      "HA-017"
+    ],
+    "related_context_only_audit_ids": [
+      "HA-033"
+    ],
+    "specific_source_links": [
+      {
+        "source_id": "S220",
+        "title": "Acupuncture as an adjunct to standard treatment for pelvic girdle pain in pregnant women: randomised double-blinded controlled trial comparing acupuncture with non-penetrating sham acupuncture",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/18947338/"
+      },
+      {
+        "source_id": "S134",
+        "title": "Effects of acupuncture and stabilising exercises as adjunct to standard treatment in pregnant women with pelvic girdle pain: randomised single blind controlled trial",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/15778231/"
+      }
+    ],
+    "review_status": "research draft; no automatic promotion or overwrite",
+    "note": "A matched audit may provide uncertainty, harm, or lack of direct efficacy; context links are not intervention-specific proof. Preserve population, outcomes, phase, access and clinical review limitations."
+  },
+  {
+    "intervention_id": "INT-081",
+    "name": "Footwear adaptation",
+    "topic_id": "MSK-001",
+    "intervention_specific_audit_ids": [],
+    "related_context_only_audit_ids": [
+      "HA-017",
+      "HA-033"
+    ],
+    "specific_source_links": [],
+    "review_status": "research draft; no automatic promotion or overwrite",
+    "note": "A matched audit may provide uncertainty, harm, or lack of direct efficacy; context links are not intervention-specific proof. Preserve population, outcomes, phase, access and clinical review limitations."
+  },
+  {
+    "intervention_id": "INT-082",
+    "name": "Preconception medication review",
+    "topic_id": "REPRO-001",
+    "intervention_specific_audit_ids": [],
+    "related_context_only_audit_ids": [
+      "HA-034"
+    ],
+    "specific_source_links": [],
+    "review_status": "research draft; no automatic promotion or overwrite",
+    "note": "A matched audit may provide uncertainty, harm, or lack of direct efficacy; context links are not intervention-specific proof. Preserve population, outcomes, phase, access and clinical review limitations."
+  },
+  {
+    "intervention_id": "INT-083",
+    "name": "Vaccination review",
+    "topic_id": "REPRO-001",
+    "intervention_specific_audit_ids": [
+      "HA-034"
+    ],
+    "related_context_only_audit_ids": [],
+    "specific_source_links": [
+      {
+        "source_id": "S171",
+        "title": "Vaccine Recommendations Before, During, and After Pregnancy | Pregnancy & Vaccines | CDC",
+        "url": "https://www.cdc.gov/vaccines-pregnancy/recommended-vaccines/"
+      },
+      {
+        "source_id": "H044",
+        "title": "CDC guidelines for vaccinating pregnant women",
+        "url": "https://www.cdc.gov/vaccines-pregnancy/hcp/vaccination-guidelines/"
+      },
+      {
+        "source_id": "H045",
+        "title": "ACOG carrier screening for genetic conditions",
+        "url": "https://www.acog.org/clinical/clinical-guidance/committee-opinion/articles/2017/03/carrier-screening-for-genetic-conditions"
+      },
+      {
+        "source_id": "S142",
+        "title": "Prepregnancy Counseling | ACOG",
+        "url": "https://www.acog.org/clinical/clinical-guidance/committee-opinion/articles/2019/01/prepregnancy-counseling"
+      }
+    ],
+    "review_status": "research draft; no automatic promotion or overwrite",
+    "note": "A matched audit may provide uncertainty, harm, or lack of direct efficacy; context links are not intervention-specific proof. Preserve population, outcomes, phase, access and clinical review limitations."
+  },
+  {
+    "intervention_id": "INT-084",
+    "name": "Ovulation testing",
+    "topic_id": "REPRO-001",
+    "intervention_specific_audit_ids": [],
+    "related_context_only_audit_ids": [
+      "HA-034"
+    ],
+    "specific_source_links": [],
+    "review_status": "research draft; no automatic promotion or overwrite",
+    "note": "A matched audit may provide uncertainty, harm, or lack of direct efficacy; context links are not intervention-specific proof. Preserve population, outcomes, phase, access and clinical review limitations."
+  },
+  {
+    "intervention_id": "INT-085",
+    "name": "Thyroid assessment",
+    "topic_id": "REPRO-001",
+    "intervention_specific_audit_ids": [],
+    "related_context_only_audit_ids": [
+      "HA-034"
+    ],
+    "specific_source_links": [],
+    "review_status": "research draft; no automatic promotion or overwrite",
+    "note": "A matched audit may provide uncertainty, harm, or lack of direct efficacy; context links are not intervention-specific proof. Preserve population, outcomes, phase, access and clinical review limitations."
+  },
+  {
+    "intervention_id": "INT-086",
+    "name": "Partner health discussion",
+    "topic_id": "REPRO-001",
+    "intervention_specific_audit_ids": [
+      "HA-035"
+    ],
+    "related_context_only_audit_ids": [
+      "HA-034"
+    ],
+    "specific_source_links": [
+      {
+        "source_id": "H046",
+        "title": "Online education of men's reproductive health before childbearing: randomized trial",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/40575499/"
+      },
+      {
+        "source_id": "H047",
+        "title": "Preconception care for men: scoping review",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/41558839/"
+      },
+      {
+        "source_id": "S051",
+        "title": "Preconception lifestyle advice for people with infertility",
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC8092458/"
+      }
+    ],
+    "review_status": "research draft; no automatic promotion or overwrite",
+    "note": "A matched audit may provide uncertainty, harm, or lack of direct efficacy; context links are not intervention-specific proof. Preserve population, outcomes, phase, access and clinical review limitations."
+  },
+  {
+    "intervention_id": "INT-087",
+    "name": "Preventive counseling",
+    "topic_id": "WELL-001",
+    "intervention_specific_audit_ids": [],
+    "related_context_only_audit_ids": [
+      "HA-024",
+      "HA-036"
+    ],
+    "specific_source_links": [],
+    "review_status": "research draft; no automatic promotion or overwrite",
+    "note": "A matched audit may provide uncertainty, harm, or lack of direct efficacy; context links are not intervention-specific proof. Preserve population, outcomes, phase, access and clinical review limitations."
+  },
+  {
+    "intervention_id": "INT-088",
+    "name": "Peer support",
+    "topic_id": "WELL-001",
+    "intervention_specific_audit_ids": [],
+    "related_context_only_audit_ids": [
+      "HA-024",
+      "HA-036"
+    ],
+    "specific_source_links": [],
+    "review_status": "research draft; no automatic promotion or overwrite",
+    "note": "A matched audit may provide uncertainty, harm, or lack of direct efficacy; context links are not intervention-specific proof. Preserve population, outcomes, phase, access and clinical review limitations."
+  },
+  {
+    "intervention_id": "INT-089",
+    "name": "CBT-I",
+    "topic_id": "WELL-001",
+    "intervention_specific_audit_ids": [],
+    "related_context_only_audit_ids": [
+      "HA-024",
+      "HA-036"
+    ],
+    "specific_source_links": [],
+    "review_status": "research draft; no automatic promotion or overwrite",
+    "note": "A matched audit may provide uncertainty, harm, or lack of direct efficacy; context links are not intervention-specific proof. Preserve population, outcomes, phase, access and clinical review limitations."
+  },
+  {
+    "intervention_id": "INT-090",
+    "name": "Practical partner support",
+    "topic_id": "WELL-001",
+    "intervention_specific_audit_ids": [],
+    "related_context_only_audit_ids": [
+      "HA-024",
+      "HA-036"
+    ],
+    "specific_source_links": [],
+    "review_status": "research draft; no automatic promotion or overwrite",
+    "note": "A matched audit may provide uncertainty, harm, or lack of direct efficacy; context links are not intervention-specific proof. Preserve population, outcomes, phase, access and clinical review limitations."
+  },
+  {
+    "intervention_id": "INT-091",
+    "name": "Body-image intervention",
+    "topic_id": "WELL-001",
+    "intervention_specific_audit_ids": [
+      "HA-024"
+    ],
+    "related_context_only_audit_ids": [
+      "HA-036"
+    ],
+    "specific_source_links": [
+      {
+        "source_id": "S183",
+        "title": "The effectiveness of interventions on improving body image for pregnant and postpartum women: a systematic review of randomized clinical trials",
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC11380436/"
+      }
+    ],
+    "review_status": "research draft; no automatic promotion or overwrite",
+    "note": "A matched audit may provide uncertainty, harm, or lack of direct efficacy; context links are not intervention-specific proof. Preserve population, outcomes, phase, access and clinical review limitations."
+  },
+  {
+    "intervention_id": "INT-092",
+    "name": "Routine dental care",
+    "topic_id": "DENT-001",
+    "intervention_specific_audit_ids": [],
+    "related_context_only_audit_ids": [
+      "HA-037"
+    ],
+    "specific_source_links": [],
+    "review_status": "research draft; no automatic promotion or overwrite",
+    "note": "A matched audit may provide uncertainty, harm, or lack of direct efficacy; context links are not intervention-specific proof. Preserve population, outcomes, phase, access and clinical review limitations."
+  },
+  {
+    "intervention_id": "INT-093",
+    "name": "Periodontal treatment",
+    "topic_id": "DENT-001",
+    "intervention_specific_audit_ids": [
+      "HA-037"
+    ],
+    "related_context_only_audit_ids": [],
+    "specific_source_links": [
+      {
+        "source_id": "S154",
+        "title": "Effect of dental treatments on reduction of preterm birth: a systematic review and meta-analysis",
+        "url": "https://doi.org/10.1016/j.ajogmf.2025.101884"
+      },
+      {
+        "source_id": "S152",
+        "title": "Treatment of periodontal disease and the risk of preterm birth.",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/17079762/"
+      },
+      {
+        "source_id": "S155",
+        "title": "Treatment of periodontal disease during pregnancy: a randomized controlled trial",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/19935025/"
+      }
+    ],
+    "review_status": "research draft; no automatic promotion or overwrite",
+    "note": "A matched audit may provide uncertainty, harm, or lack of direct efficacy; context links are not intervention-specific proof. Preserve population, outcomes, phase, access and clinical review limitations."
+  },
+  {
+    "intervention_id": "INT-094",
+    "name": "RF microneedling",
+    "topic_id": "EMERG-001",
+    "intervention_specific_audit_ids": [],
+    "related_context_only_audit_ids": [
+      "HA-025"
+    ],
+    "specific_source_links": [],
+    "review_status": "research draft; no automatic promotion or overwrite",
+    "note": "A matched audit may provide uncertainty, harm, or lack of direct efficacy; context links are not intervention-specific proof. Preserve population, outcomes, phase, access and clinical review limitations."
+  },
+  {
+    "intervention_id": "INT-095",
+    "name": "PRP",
+    "topic_id": "EMERG-001",
+    "intervention_specific_audit_ids": [
+      "HA-025"
+    ],
+    "related_context_only_audit_ids": [],
+    "specific_source_links": [
+      {
+        "source_id": "S162",
+        "title": "Cosmetic Dermatology in Pregnancy and Lactation: A Risk–Benefit Framework for Clinical Practice",
+        "url": "https://onlinelibrary.wiley.com/doi/10.1111/ijd.70620"
+      },
+      {
+        "source_id": "S163",
+        "title": "A review of the safety of cosmetic procedures during pregnancy and lactation",
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC5418954/"
+      }
+    ],
+    "review_status": "research draft; no automatic promotion or overwrite",
+    "note": "A matched audit may provide uncertainty, harm, or lack of direct efficacy; context links are not intervention-specific proof. Preserve population, outcomes, phase, access and clinical review limitations."
+  },
+  {
+    "intervention_id": "INT-096",
+    "name": "Red or near-infrared light",
+    "topic_id": "EMERG-001",
+    "intervention_specific_audit_ids": [
+      "HA-025"
+    ],
+    "related_context_only_audit_ids": [],
+    "specific_source_links": [
+      {
+        "source_id": "S162",
+        "title": "Cosmetic Dermatology in Pregnancy and Lactation: A Risk–Benefit Framework for Clinical Practice",
+        "url": "https://onlinelibrary.wiley.com/doi/10.1111/ijd.70620"
+      },
+      {
+        "source_id": "S163",
+        "title": "A review of the safety of cosmetic procedures during pregnancy and lactation",
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC5418954/"
+      }
+    ],
+    "review_status": "research draft; no automatic promotion or overwrite",
+    "note": "A matched audit may provide uncertainty, harm, or lack of direct efficacy; context links are not intervention-specific proof. Preserve population, outcomes, phase, access and clinical review limitations."
+  },
+  {
+    "intervention_id": "INT-097",
+    "name": "Ultrasound body contouring",
+    "topic_id": "EMERG-001",
+    "intervention_specific_audit_ids": [],
+    "related_context_only_audit_ids": [
+      "HA-025"
+    ],
+    "specific_source_links": [],
+    "review_status": "research draft; no automatic promotion or overwrite",
+    "note": "A matched audit may provide uncertainty, harm, or lack of direct efficacy; context links are not intervention-specific proof. Preserve population, outcomes, phase, access and clinical review limitations."
+  },
+  {
+    "intervention_id": "INT-098",
+    "name": "Injectable regenerative peptides",
+    "topic_id": "EMERG-001",
+    "intervention_specific_audit_ids": [],
+    "related_context_only_audit_ids": [
+      "HA-025"
+    ],
+    "specific_source_links": [],
+    "review_status": "research draft; no automatic promotion or overwrite",
+    "note": "A matched audit may provide uncertainty, harm, or lack of direct efficacy; context links are not intervention-specific proof. Preserve population, outcomes, phase, access and clinical review limitations."
+  },
+  {
+    "intervention_id": "INT-099",
+    "name": "Moxibustion",
+    "topic_id": "EMERG-001",
+    "intervention_specific_audit_ids": [],
+    "related_context_only_audit_ids": [
+      "HA-025"
+    ],
+    "specific_source_links": [],
+    "review_status": "research draft; no automatic promotion or overwrite",
+    "note": "A matched audit may provide uncertainty, harm, or lack of direct efficacy; context links are not intervention-specific proof. Preserve population, outcomes, phase, access and clinical review limitations."
+  },
+  {
+    "intervention_id": "INT-100",
+    "name": "TENS during labor",
+    "topic_id": "EMERG-001",
+    "intervention_specific_audit_ids": [],
+    "related_context_only_audit_ids": [
+      "HA-025"
+    ],
+    "specific_source_links": [],
+    "review_status": "research draft; no automatic promotion or overwrite",
+    "note": "A matched audit may provide uncertainty, harm, or lack of direct efficacy; context links are not intervention-specific proof. Preserve population, outcomes, phase, access and clinical review limitations."
+  },
+  {
+    "intervention_id": "INT-101",
+    "name": "Electrical muscle stimulation",
+    "topic_id": "EMERG-001",
+    "intervention_specific_audit_ids": [],
+    "related_context_only_audit_ids": [
+      "HA-016",
+      "HA-025"
+    ],
+    "specific_source_links": [],
+    "review_status": "research draft; no automatic promotion or overwrite",
+    "note": "A matched audit may provide uncertainty, harm, or lack of direct efficacy; context links are not intervention-specific proof. Preserve population, outcomes, phase, access and clinical review limitations."
+  }
+]

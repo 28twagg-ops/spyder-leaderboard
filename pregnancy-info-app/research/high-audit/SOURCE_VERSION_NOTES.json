@@ -1,0 +1,80 @@
+{
+  "note": "Publication-location and cohort cautions; not a merged registry or independent-study count. Keep existing source IDs. Verify exact version, endpoint and denominators prior to charting.",
+  "version_specific": [
+    {
+      "source_id": "S092",
+      "url": "https://doi.org/10.1002/14651858.CD001059.pub6",
+      "note": "2025 calcium review; version-specific result rather than mixed historical landing page"
+    },
+    {
+      "source_id": "S094",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC8094741/",
+      "note": "Cochrane probiotics review; indexed excerpts, direct access blocked during pass"
+    },
+    {
+      "source_id": "S095",
+      "url": "https://www.sciencedirect.com/science/article/pii/S258993332400048X",
+      "note": "Indexed publisher funding excerpt; direct access blocked"
+    },
+    {
+      "source_id": "CL02",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/43047302/",
+      "note": "Technical reanalysis"
+    },
+    {
+      "source_id": "R004",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/30967436/",
+      "note": "Primary Finnish trial"
+    },
+    {
+      "source_id": "S014",
+      "url": "https://www.mdpi.com/2079-9284/12/2/79",
+      "note": "Full text funding and interests"
+    },
+    {
+      "source_id": "H040",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC11307825/",
+      "note": "EVA report; 96% CI intentionally retained"
+    }
+  ],
+  "publication_location_groups": [
+    [
+      "R015",
+      "H031"
+    ],
+    [
+      "R003",
+      "R018"
+    ],
+    [
+      "S206",
+      "R010"
+    ],
+    [
+      "S095",
+      "R019"
+    ]
+  ],
+  "cohort_overlap_groups": [
+    [
+      "R001",
+      "H001",
+      "H002",
+      "H003"
+    ],
+    [
+      "R004",
+      "H005"
+    ],
+    [
+      "R007",
+      "H028"
+    ],
+    [
+      "S082",
+      "R005",
+      "R006"
+    ]
+  ],
+  "rule": "Do not sum records or pool overlapping estimates as independent observations; check exact identity before merging aliases."
+}

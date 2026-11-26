@@ -46,3 +46,7 @@ Read high-audit/README.md and EVIDENCE_REPORT.md. Use targeted findings and expa
 
 ## Extended high-pass import notes
 High audit now covers 38 targeted findings and 14 numerical records. Use source IDs from the canonical registry, not a second source identity. Compare matched outcome and stage only. EVA 96% interval is intentional. File-level illustration licenses in high-audit/VISUAL_ASSET_REFERENCES.json; do not copy book figures under an incompatible license. Remaining review gates remain explicit.
+
+## High-pass integration
+
+Read `high-audit/README.md`, `high-audit/EVIDENCE_REPORT.md`, `high-audit/INTERVENTION_EVIDENCE_CROSSWALK.json`, and `high-audit/QA.json` before rendering the updated library. The crosswalk links all 101 intervention records to specific or related checks where applicable; context is not efficacy proof. Expanded nutrient references, 14 numerical extractions and the five research-only candidate interventions are overlays, not automatic clinical recommendations. Use `SOURCE_VERSION_NOTES.json` for overlapping cohorts and version-specific results; retain visible source, funding and uncertainty labels. No clinical review has occurred.

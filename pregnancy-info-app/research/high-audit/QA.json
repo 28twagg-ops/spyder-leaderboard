@@ -9,5 +9,9 @@
   "notes": "Selected indexed or publisher excerpts; source registry entries are mixed resource types, not independent studies. Full primary appraisal, clinical and playback review pending.",
   "evidence_checks": 38,
   "numeric_records": 14,
-  "visual_asset_references": 5
+  "visual_asset_references": 5,
+  "intervention_crosswalk_count": 101,
+  "intervention_specific_count": 27,
+  "research_only_candidates": 5,
+  "crosswalk_audit_ids_resolve": true
 }
