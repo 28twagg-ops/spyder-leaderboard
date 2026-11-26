@@ -1,5 +1,7 @@
 # Cursor / Claude — implementation handoff
 
+**Latest research checkpoint:** [TRANSFER.md](TRANSFER.md) documents the staged deep-research audit and Gemini reconciliation. Apply its fertility retraction holds and preserve the existing consolidated import until verification; development can proceed.
+
 This is the initial development assignment, not a description of a completed app. Open the repository in Cursor, work inside pregnancy-info-app/, and preserve the legacy leaderboard outside this folder. No previous conversation is required.
 
 ## Required reading
