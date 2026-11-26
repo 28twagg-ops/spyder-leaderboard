@@ -13110,5 +13110,229 @@
       }
     ],
     "verification_scope": "Official page loaded, includes pelvic floor video; original Grok class-series URL failed. No playback or license review; page contains a simplified impact-readiness test that must not be copied as universal clearance."
+  },
+  {
+    "id": "IA001",
+    "title": "Hydroquinone (StatPearls)",
+    "url": "https://www.ncbi.nlm.nih.gov/books/NBK539693/",
+    "topics": [
+      "FACE-001"
+    ],
+    "kind": "clinical pharmacology reference",
+    "source_host": "www.ncbi.nlm.nih.gov",
+    "accessed": "2026-11-26",
+    "current_pass_status": "selected finding or identity checked",
+    "clinical_review": false,
+    "correction_retraction_status": "independent registry check pending",
+    "checked_locator": "Pharmacokinetics; pregnancy and breastfeeding considerations",
+    "verification_scope": "indexed monograph excerpt",
+    "used_by": [
+      {
+        "kind": "external_audit",
+        "record": "IA-A1"
+      }
+    ]
+  },
+  {
+    "id": "IA002",
+    "title": "Exposure to hydroquinone in pregnancy",
+    "url": "https://uktis.org/monographs/exposure-to-hydroquinone-in-pregnancy/",
+    "topics": [
+      "FACE-001"
+    ],
+    "kind": "teratology guidance",
+    "source_host": "uktis.org",
+    "accessed": "2026-11-26",
+    "current_pass_status": "selected finding or identity checked",
+    "clinical_review": false,
+    "correction_retraction_status": "independent registry check pending",
+    "publication_details": "October 2024 v3",
+    "checked_locator": "Public summary only; full monograph requires login",
+    "rights": "UKTIS specifies commercial linking/reproduction permission; review before commercial use",
+    "used_by": [
+      {
+        "kind": "external_audit",
+        "record": "IA-A1"
+      }
+    ]
+  },
+  {
+    "id": "IA003",
+    "title": "Hydroquinone (LactMed)",
+    "url": "https://www.ncbi.nlm.nih.gov/books/NBK500669/",
+    "topics": [
+      "FACE-001"
+    ],
+    "kind": "lactation reference",
+    "source_host": "www.ncbi.nlm.nih.gov",
+    "accessed": "2026-11-26",
+    "current_pass_status": "selected finding or identity checked",
+    "clinical_review": false,
+    "correction_retraction_status": "independent registry check pending",
+    "checked_locator": "Summary of use during lactation",
+    "used_by": [
+      {
+        "kind": "external_audit",
+        "record": "IA-A1"
+      }
+    ]
+  },
+  {
+    "id": "IA004",
+    "title": "Prospective, randomized, double-blind assessment of topical bakuchiol and retinol for facial photoageing",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/29947134/",
+    "topics": [
+      "FACE-001"
+    ],
+    "kind": "primary trial",
+    "source_host": "pubmed.ncbi.nlm.nih.gov",
+    "accessed": "2026-11-26",
+    "current_pass_status": "selected finding or identity checked",
+    "clinical_review": false,
+    "correction_retraction_status": "independent registry check pending",
+    "pmid": "29947134",
+    "doi": "10.1111/bjd.16918",
+    "publication_year": 2019,
+    "checked_url": "https://onlinelibrary.wiley.com/doi/full/10.1111/bjd.16918",
+    "checked_locator": "Methods, Results, funding and conflicts",
+    "funding": "UC Davis Department of Dermatology",
+    "conflicts": "R.K. Sivamani advisor Dermveda; consultant Burt's Bees and Dermala",
+    "used_by": [
+      {
+        "kind": "external_audit",
+        "record": "IA-A2"
+      }
+    ]
+  },
+  {
+    "id": "IA005",
+    "title": "Tretinoin (LactMed)",
+    "url": "https://www.ncbi.nlm.nih.gov/books/NBK501419/",
+    "topics": [
+      "FACE-001",
+      "SKIN-003"
+    ],
+    "kind": "lactation reference",
+    "source_host": "www.ncbi.nlm.nih.gov",
+    "accessed": "2026-11-26",
+    "current_pass_status": "selected finding or identity checked",
+    "clinical_review": false,
+    "correction_retraction_status": "independent registry check pending",
+    "checked_locator": "Summary of use during lactation",
+    "used_by": [
+      {
+        "kind": "external_audit",
+        "record": "IA-A2"
+      }
+    ]
+  },
+  {
+    "id": "IA006",
+    "title": "Maternal choline supplementation during the third trimester of pregnancy improves infant information processing speed: a randomized, double-blind, controlled feeding study",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/29217669/",
+    "topics": [
+      "NUTR-001"
+    ],
+    "kind": "primary trial",
+    "source_host": "pubmed.ncbi.nlm.nih.gov",
+    "accessed": "2026-11-26",
+    "current_pass_status": "selected finding or identity checked",
+    "clinical_review": false,
+    "correction_retraction_status": "independent registry check pending",
+    "pmid": "29217669",
+    "doi": "10.1096/fj.201700692RR",
+    "publication_year": 2018,
+    "checked_locator": "Abstract; cohort link verified via IA007",
+    "cohort_id": "CHOLINE-CORNELL",
+    "used_by": [
+      {
+        "kind": "external_audit",
+        "record": "IA-B2"
+      }
+    ]
+  },
+  {
+    "id": "IA007",
+    "title": "Prenatal choline supplementation improves child sustained attention: A 7-year follow-up of a randomized controlled feeding trial",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/34962672/",
+    "topics": [
+      "NUTR-001"
+    ],
+    "kind": "primary trial follow-up",
+    "source_host": "pubmed.ncbi.nlm.nih.gov",
+    "accessed": "2026-11-26",
+    "current_pass_status": "selected finding or identity checked",
+    "clinical_review": false,
+    "correction_retraction_status": "independent registry check pending",
+    "pmid": "34962672",
+    "doi": "10.1096/fj.202101217R",
+    "publication_year": 2022,
+    "checked_url": "https://faseb.onlinelibrary.wiley.com/doi/full/10.1096/fj.202101217R",
+    "checked_locator": "Results 3.1–3.4, Table 3, acknowledgments and disclosures",
+    "cohort_id": "CHOLINE-CORNELL",
+    "funding": "NIFA/USDA Hatch 1007195 and Balchem Corp; individual support NICHD traineeship and Egg Nutrition Center award",
+    "conflicts": "Authors declare none; funders reported no role in design, collection, analysis or interpretation",
+    "used_by": [
+      {
+        "kind": "external_audit",
+        "record": "IA-B2"
+      }
+    ]
+  },
+  {
+    "id": "IA008",
+    "title": "Effect of Folic Acid and Zinc Supplementation in Men on Semen Quality and Live Birth Among Couples Undergoing Infertility Treatment: A Randomized Clinical Trial",
+    "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC6990807/",
+    "topics": [
+      "REPRO-001",
+      "NUTR-001"
+    ],
+    "kind": "primary trial",
+    "source_host": "pmc.ncbi.nlm.nih.gov",
+    "accessed": "2026-11-26",
+    "current_pass_status": "selected finding or identity checked",
+    "clinical_review": false,
+    "correction_retraction_status": "independent registry check pending",
+    "pmid": "31910279",
+    "doi": "10.1001/jama.2019.18714",
+    "publication_year": 2020,
+    "registry": "NCT01857310",
+    "checked_locator": "Abstract, funding/support and disclosures",
+    "funding": "NICHD intramural contracts HHSN275201200007C and HHSN275201300026I",
+    "conflicts": "Hotaling reported consulting, patent pending and industry grants; no other disclosures reported",
+    "used_by": [
+      {
+        "kind": "external_audit",
+        "record": "IA-D2"
+      }
+    ]
+  },
+  {
+    "id": "IA009",
+    "title": "The Postpartum Playbook with Margie Davenport. EP#576",
+    "url": "https://bjsmbmj.podbean.com/e/the-postpartum-playbook-with-margie-davenport-ep576/",
+    "topics": [
+      "FIT-003",
+      "PELV-001",
+      "WELL-001"
+    ],
+    "kind": "educational audio candidate",
+    "source_host": "bjsmbmj.podbean.com",
+    "accessed": "2026-11-26",
+    "current_pass_status": "selected finding or identity checked",
+    "clinical_review": false,
+    "correction_retraction_status": "independent registry check pending",
+    "publication_details": "2025-07-11",
+    "checked_locator": "Official BJSM podcast listing",
+    "aliases": [
+      "https://podcasts.apple.com/cy/podcast/the-postpartum-playbook-with-margie-davenport-ep-576/id330966919?i=1000716846220&l=tr"
+    ],
+    "rights": "Link candidate only; no reuse license verified",
+    "used_by": [
+      {
+        "kind": "external_audit",
+        "record": "IA-E1"
+      }
+    ]
   }
 ]
