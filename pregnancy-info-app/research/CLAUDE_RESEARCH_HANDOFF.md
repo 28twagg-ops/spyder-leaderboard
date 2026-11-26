@@ -37,3 +37,6 @@ Begin with research/integrated/README.md. This layer connects all 22 topics and 
 
 ## Routine preparation pass
 Read routine-prep/README.md for derived search, FAQ, phase content, visual briefs, glossary, review queues, appointment questions, related-topic links and acceptance specifications. Use as import aids, not a replacement for canonical integrated records. No new medical verification is implied.
+
+## Medium content pass
+Read medium-prep/README.md and INTERVENTIONS.json for individual intervention-level drafts, comparison groups and phase browsing. Keep all safety notes and original citations. Do not rank unlike outcomes or infer medical eligibility from navigation tags.
