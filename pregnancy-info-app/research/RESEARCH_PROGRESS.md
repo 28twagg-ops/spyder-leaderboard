@@ -31,3 +31,6 @@ A targeted follow-up audited the three prioritized review conflicts and selected
 
 ## Content and UX handoff · 2026-11-26
 Added 22 baseline-derived quick cards, 22 timeline summaries, 24 targeted clinical source checks, 17 candidate educational media links, 9 comparator entries and 18 UX evidence/guidance references. Ran JSON structural checks; see implementation-handoff/BASELINE_QA.json. This is an overlay, not a new independent source count. No human clinical review or live usability/media audit; remaining full trial extraction is documented.
+
+## Citation integration · 2026-11-26
+306 source/resource records (mixed types, not independent medical study count), 65 selected evidence checks, 22 topic bundles, 63 linked interval rows and 6 count records, 12 nutrient rows, 37 study rows. Integration QA is structural only. Original full research gaps, clinical review and complete source appraisal remain outstanding.

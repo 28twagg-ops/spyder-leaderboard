@@ -1,8 +1,8 @@
 # Source directory
 
-Stable IDs, direct links, current-pass verification. Includes clinical, UX, media and product records; not an independent medical study count.
+Stable IDs, direct links, scope and verification. Includes clinical, UX, media and comparator records, not independent medical-study count. DOI and PMID in registry where available.
 
-| ID | Publication / resource | Status |
+| ID | Original source | Current-pass status |
 |---|---|---|
 | S001 | [Topical preparations for preventing stretch marks in pregnancy / Cochrane](https://www.cochrane.org/evidence/CD000066_topical-preparations-preventing-stretch-marks-pregnancy) | selected finding or identity checked |
 | S002 | [Stretch marks during pregnancy: a review of topical prevention](https://pubmed.ncbi.nlm.nih.gov/25255817/) | inherited; not independently rechecked |
@@ -42,8 +42,8 @@ Stable IDs, direct links, current-pass verification. Includes clinical, UX, medi
 | S036 | [The efficacy of abdominal binder in women undergoing cesarean delivery: A meta-analysis of randomized controlled trials.](https://pubmed.ncbi.nlm.nih.gov/39793406/) | inherited; not independently rechecked |
 | S037 | [The efficacy of abdominal binders in reducing postoperative pain and distress after cesarean delivery: A meta-analysis of randomized controlled trials](https://www.sciencedirect.com/science/article/pii/S0301211521002293) | inherited; not independently rechecked |
 | S038 | [The effect of an abdominal binder on pain, bleeding and breastfeeding success after cesarean delivery: A randomized controlled trial](https://pubmed.ncbi.nlm.nih.gov/39780504/) | inherited; not independently rechecked |
-| S039 | [A randomized controlled trial of abdominal binders for the management of postoperative pain and distress after cesarean delivery](https://pubmed.ncbi.nlm.nih.gov/26892694/) | inherited; not independently rechecked |
-| S040 | [The effectiveness of the abdominal binder in relieving pain after cesarean delivery: A systematic review and meta-analysis of randomized controlled trials](https://obgyn.onlinelibrary.wiley.com/doi/10.1002/ijgo.13607) | inherited; not independently rechecked |
+| S039 | [A randomized controlled trial of abdominal binders for the management of postoperative pain and distress after cesarean delivery](https://pubmed.ncbi.nlm.nih.gov/26892694/) | selected finding or identity checked |
+| S040 | [The effectiveness of the abdominal binder in relieving pain after cesarean delivery: A systematic review and meta-analysis of randomized controlled trials](https://obgyn.onlinelibrary.wiley.com/doi/10.1002/ijgo.13607) | selected finding or identity checked |
 | S041 | [The impact of exercise therapy and abdominal binding in the management of diastasis recti abdominis in the early post-partum period: a pilot randomized controlled trial.](https://pubmed.ncbi.nlm.nih.gov/31642725/) | inherited; not independently rechecked |
 | S042 | [Effectiveness of Early Postpartum Rectus Abdominis versus Transversus Abdominis Training in Patients with Diastasis of the Rectus Abdominis Muscles: A Pilot Randomized Controlled Trial](https://pubmed.ncbi.nlm.nih.gov/38037580/) | inherited; not independently rechecked |
 | S043 | [Diastasis Recti Abdominis Rehabilitation in the Postpartum Period: A Scoping Review of Current Clinical Practice](https://link.springer.com/content/pdf/10.1007/s00192-024-05727-1.pdf) | inherited; not independently rechecked |
@@ -195,7 +195,7 @@ Stable IDs, direct links, current-pass verification. Includes clinical, UX, medi
 | S190 | [Open label, dose escalation trial of creatine monohydrate in pregnancy](https://pmc.ncbi.nlm.nih.gov/articles/PMC12291183/) | inherited; not independently rechecked |
 | S191 | [Origins of lifetime health around the time of conception: causes and consequences](https://pmc.ncbi.nlm.nih.gov/articles/PMC5975952/) | inherited; not independently rechecked |
 | S192 | [More equitable preconception health: paternal life course opportunities for better pregnancy, child, and family outcomes.](https://pubmed.ncbi.nlm.nih.gov/41856159/) | inherited; not independently rechecked |
-| S193 | [Recommendations / Pelvic floor dysfunction: prevention and non-surgical management  / Guidance / NICE](https://www.nice.org.uk/guidance/ng210/chapter/Recommendations) | inherited; not independently rechecked |
+| S193 | [Recommendations / Pelvic floor dysfunction: prevention and non-surgical management  / Guidance / NICE](https://www.nice.org.uk/guidance/ng210/chapter/Recommendations) | selected finding or identity checked |
 | S194 | [A Treatment Algorithm for High-Tone Pelvic Floor Dysfunction](https://pmc.ncbi.nlm.nih.gov/articles/PMC10953682/) | inherited; not independently rechecked |
 | S195 | [Read "Dietary Reference Intakes for Water, Potassium, Sodium, Chloride, and Sulfate" at NAP.edu](https://www.nationalacademies.org/read/10925/chapter/25) | inherited; not independently rechecked |
 | S196 | [Physiotherapy Maternity / NUH](https://www.nuh.nhs.uk/physiotherapy-maternity/) | inherited; not independently rechecked |
@@ -303,3 +303,10 @@ Stable IDs, direct links, current-pass verification. Includes clinical, UX, medi
 | N305 | [2025 Canadian guideline for postpartum physical activity](https://bjsm.bmj.com/content/59/8/515/) | selected finding or identity checked |
 | N308 | [Periodontal Infections and Prematurity Study](https://pubmed.ncbi.nlm.nih.gov/20113691/) | selected finding or identity checked |
 | N311 | [Topical retinoids pregnancy guidance](https://www.medicinesinpregnancy.org/leaflets-a-z/isotretinoin-gel/) | selected finding or identity checked |
+| N315 | [NHS cesarean recovery](https://www.nhs.uk/tests-and-treatments/caesarean-section/recovery/) | selected finding or identity checked |
+| N316 | [CDC breast surgery and breastfeeding](https://www.cdc.gov/breastfeeding-special-circumstances/hcp/illnesses-conditions/breast-surgery.html) | selected finding or identity checked |
+| N318 | [Perineal massage guide](https://www.nct.org.uk/information/labour-birth/planning-birth/how-do-perineal-massage-step-step-guide) | selected finding or identity checked |
+| N319 | [MotherToBaby herbal products](https://mothertobaby.org/fact-sheets/herbal-products-pregnancy/) | selected finding or identity checked |
+| N320 | [MotherToBaby ginger](https://mothertobaby.org/fact-sheets/ginger-pregnancy/) | selected finding or identity checked |
+| N321 | [LactMed minoxidil](https://www.ncbi.nlm.nih.gov/books/NBK501032/) | selected finding or identity checked |
+| N322 | [RCOG pelvic girdle pain and pregnancy](https://www.rcog.org.uk/for-the-public/browse-our-patient-information/pelvic-girdle-pain-and-pregnancy/) | selected finding or identity checked |

@@ -40,6 +40,18 @@
       {
         "kind": "claim",
         "id": "C-O001"
+      },
+      {
+        "kind": "interval",
+        "record": "O001"
+      },
+      {
+        "kind": "field",
+        "record": "SKIN-001.takeaway"
+      },
+      {
+        "kind": "field",
+        "record": "SKIN-001.action"
       }
     ]
   },
@@ -144,6 +156,10 @@
       {
         "kind": "claim",
         "id": "C-SKIN-001"
+      },
+      {
+        "kind": "study",
+        "record": "T004"
       }
     ]
   },
@@ -176,7 +192,12 @@
     "current_pass_status": "inherited; not independently rechecked",
     "clinical_review": false,
     "aliases": [],
-    "used_by": []
+    "used_by": [
+      {
+        "kind": "study",
+        "record": "T005"
+      }
+    ]
   },
   {
     "id": "S006",
@@ -212,6 +233,10 @@
       {
         "kind": "claim",
         "id": "C-SKIN-001"
+      },
+      {
+        "kind": "study",
+        "record": "T006"
       }
     ]
   },
@@ -280,6 +305,10 @@
       {
         "kind": "claim",
         "id": "C-SKIN-001"
+      },
+      {
+        "kind": "study",
+        "record": "T008"
       }
     ]
   },
@@ -317,6 +346,10 @@
       {
         "kind": "claim",
         "id": "C-SKIN-001"
+      },
+      {
+        "kind": "study",
+        "record": "T009"
       }
     ]
   },
@@ -354,6 +387,10 @@
       {
         "kind": "claim",
         "id": "C-SKIN-001"
+      },
+      {
+        "kind": "study",
+        "record": "T010"
       }
     ]
   },
@@ -393,6 +430,14 @@
       {
         "kind": "claim",
         "id": "C-SKIN-002"
+      },
+      {
+        "kind": "field",
+        "record": "SKIN-002.takeaway"
+      },
+      {
+        "kind": "field",
+        "record": "SKIN-002.action"
       }
     ]
   },
@@ -430,7 +475,28 @@
     "aliases": [
       "CL01"
     ],
-    "used_by": []
+    "used_by": [
+      {
+        "kind": "interval",
+        "record": "H01"
+      },
+      {
+        "kind": "interval",
+        "record": "H02"
+      },
+      {
+        "kind": "interval",
+        "record": "H03"
+      },
+      {
+        "kind": "field",
+        "record": "SKIN-002.takeaway"
+      },
+      {
+        "kind": "followup",
+        "record": "CL01"
+      }
+    ]
   },
   {
     "id": "S013",
@@ -502,6 +568,10 @@
       {
         "kind": "claim",
         "id": "C-SKIN-002"
+      },
+      {
+        "kind": "study",
+        "record": "T014"
       }
     ]
   },
@@ -646,6 +716,14 @@
       {
         "kind": "claim",
         "id": "C-SKIN-003"
+      },
+      {
+        "kind": "field",
+        "record": "SKIN-003.takeaway"
+      },
+      {
+        "kind": "field",
+        "record": "SKIN-003.action"
       }
     ]
   },
@@ -683,6 +761,10 @@
       {
         "kind": "claim",
         "id": "C-SKIN-003"
+      },
+      {
+        "kind": "study",
+        "record": "T019"
       }
     ]
   },
@@ -1000,6 +1082,22 @@
       {
         "kind": "phase",
         "id": "P18"
+      },
+      {
+        "kind": "interval",
+        "record": "O002"
+      },
+      {
+        "kind": "interval",
+        "record": "O003"
+      },
+      {
+        "kind": "study",
+        "record": "T028"
+      },
+      {
+        "kind": "field",
+        "record": "ABD-001.takeaway"
       }
     ]
   },
@@ -1154,6 +1252,10 @@
       {
         "kind": "claim",
         "id": "C-ABD-001"
+      },
+      {
+        "kind": "field",
+        "record": "ABD-001.action"
       }
     ]
   },
@@ -1371,6 +1473,10 @@
       {
         "kind": "claim",
         "id": "C-ABD-002"
+      },
+      {
+        "kind": "study",
+        "record": "T038"
       }
     ]
   },
@@ -1400,15 +1506,24 @@
       "claim support or context"
     ],
     "kind": "clinical research/guidance",
-    "current_pass_status": "inherited; not independently rechecked",
+    "current_pass_status": "selected finding or identity checked",
     "clinical_review": false,
-    "aliases": [],
+    "aliases": [
+      "N314"
+    ],
     "used_by": [
       {
         "kind": "claim",
         "id": "C-ABD-002"
+      },
+      {
+        "kind": "field",
+        "record": "ABD-002.takeaway"
       }
-    ]
+    ],
+    "checked_url": "https://pubmed.ncbi.nlm.nih.gov/26892694/",
+    "checked_locator": "Abstract results",
+    "checked_date": "2026-11-26"
   },
   {
     "id": "S040",
@@ -1436,10 +1551,32 @@
       "screened reference for further extraction"
     ],
     "kind": "clinical research/guidance",
-    "current_pass_status": "inherited; not independently rechecked",
+    "current_pass_status": "selected finding or identity checked",
     "clinical_review": false,
-    "aliases": [],
-    "used_by": []
+    "aliases": [
+      "N313"
+    ],
+    "used_by": [
+      {
+        "kind": "interval",
+        "record": "I306"
+      },
+      {
+        "kind": "interval",
+        "record": "I307"
+      },
+      {
+        "kind": "field",
+        "record": "ABD-002.takeaway"
+      },
+      {
+        "kind": "field",
+        "record": "ABD-002.action"
+      }
+    ],
+    "checked_url": "https://pubmed.ncbi.nlm.nih.gov/33471362/",
+    "checked_locator": "Abstract results",
+    "checked_date": "2026-11-26"
   },
   {
     "id": "S041",
@@ -1475,6 +1612,10 @@
       {
         "kind": "claim",
         "id": "C-ABD-002"
+      },
+      {
+        "kind": "study",
+        "record": "T041"
       }
     ]
   },
@@ -1579,6 +1720,22 @@
       {
         "kind": "claim",
         "id": "C-BREAST-001"
+      },
+      {
+        "kind": "study",
+        "record": "T044"
+      },
+      {
+        "kind": "field",
+        "record": "BREAST-001.takeaway"
+      },
+      {
+        "kind": "field",
+        "record": "BREAST-001.action"
+      },
+      {
+        "kind": "followup",
+        "record": "CL10"
       }
     ]
   },
@@ -1797,6 +1954,14 @@
       {
         "kind": "claim",
         "id": "C-O004"
+      },
+      {
+        "kind": "interval",
+        "record": "O004"
+      },
+      {
+        "kind": "study",
+        "record": "T050"
       }
     ]
   },
@@ -2082,6 +2247,10 @@
       {
         "kind": "claim",
         "id": "C-O005"
+      },
+      {
+        "kind": "interval",
+        "record": "O005"
       }
     ]
   },
@@ -2129,6 +2298,22 @@
       {
         "kind": "phase",
         "id": "P10"
+      },
+      {
+        "kind": "field",
+        "record": "FIT-001.safety"
+      },
+      {
+        "kind": "field",
+        "record": "FIT-002.takeaway"
+      },
+      {
+        "kind": "field",
+        "record": "FIT-002.action"
+      },
+      {
+        "kind": "field",
+        "record": "FIT-002.safety"
       }
     ]
   },
@@ -2505,6 +2690,26 @@
       {
         "kind": "phase",
         "id": "P10"
+      },
+      {
+        "kind": "interval",
+        "record": "O006"
+      },
+      {
+        "kind": "interval",
+        "record": "O007"
+      },
+      {
+        "kind": "interval",
+        "record": "O008"
+      },
+      {
+        "kind": "field",
+        "record": "PELV-001.takeaway"
+      },
+      {
+        "kind": "field",
+        "record": "PELV-001.action"
       }
     ]
   },
@@ -2542,6 +2747,10 @@
       {
         "kind": "claim",
         "id": "C-PELV-001"
+      },
+      {
+        "kind": "study",
+        "record": "T070"
       }
     ]
   },
@@ -2615,6 +2824,10 @@
       {
         "kind": "claim",
         "id": "C-PELV-001"
+      },
+      {
+        "kind": "study",
+        "record": "T072"
       }
     ]
   },
@@ -2696,6 +2909,22 @@
       {
         "kind": "phase",
         "id": "P12"
+      },
+      {
+        "kind": "interval",
+        "record": "O009"
+      },
+      {
+        "kind": "field",
+        "record": "BIRTH-001.takeaway"
+      },
+      {
+        "kind": "field",
+        "record": "BIRTH-001.action"
+      },
+      {
+        "kind": "field",
+        "record": "BIRTH-001.safety"
       }
     ]
   },
@@ -2909,6 +3138,18 @@
       {
         "kind": "phase",
         "id": "P12"
+      },
+      {
+        "kind": "interval",
+        "record": "H07"
+      },
+      {
+        "kind": "study",
+        "record": "T080"
+      },
+      {
+        "kind": "followup",
+        "record": "CL06"
       }
     ]
   },
@@ -2982,6 +3223,18 @@
       {
         "kind": "claim",
         "id": "C-O010"
+      },
+      {
+        "kind": "interval",
+        "record": "O010"
+      },
+      {
+        "kind": "interval",
+        "record": "K-omega3-2"
+      },
+      {
+        "kind": "study",
+        "record": "T082"
       }
     ]
   },
@@ -3027,6 +3280,18 @@
       {
         "kind": "claim",
         "id": "C-O012"
+      },
+      {
+        "kind": "interval",
+        "record": "O011"
+      },
+      {
+        "kind": "interval",
+        "record": "O012"
+      },
+      {
+        "kind": "interval",
+        "record": "K-omega3-1"
       }
     ]
   },
@@ -3103,6 +3368,10 @@
       {
         "kind": "phase",
         "id": "P07"
+      },
+      {
+        "kind": "interval",
+        "record": "O013"
       }
     ]
   },
@@ -3155,6 +3424,66 @@
       {
         "kind": "phase",
         "id": "P09"
+      },
+      {
+        "kind": "nutrient",
+        "record": "Calcium"
+      },
+      {
+        "kind": "nutrient",
+        "record": "Choline"
+      },
+      {
+        "kind": "nutrient",
+        "record": "Folate"
+      },
+      {
+        "kind": "nutrient",
+        "record": "Iodine"
+      },
+      {
+        "kind": "nutrient",
+        "record": "Iron"
+      },
+      {
+        "kind": "nutrient",
+        "record": "Magnesium (ages 19–30)"
+      },
+      {
+        "kind": "nutrient",
+        "record": "Magnesium (ages 31–50)"
+      },
+      {
+        "kind": "nutrient",
+        "record": "Omega-3 as ALA"
+      },
+      {
+        "kind": "nutrient",
+        "record": "Vitamin B12"
+      },
+      {
+        "kind": "nutrient",
+        "record": "Vitamin C"
+      },
+      {
+        "kind": "nutrient",
+        "record": "Vitamin D"
+      },
+      {
+        "kind": "nutrient",
+        "record": "Zinc"
+      },
+      {
+        "kind": "field",
+        "record": "NUTR-001.takeaway"
+      },
+      {
+        "kind": "field",
+        "record": "NUTR-001.action"
+      },
+      {
+        "kind": "field",
+        "record": "NUTR-001.safety"
       }
     ]
   },
@@ -3192,6 +3521,10 @@
       {
         "kind": "claim",
         "id": "C-NUTR-001"
+      },
+      {
+        "kind": "study",
+        "record": "T087"
       }
     ]
   },
@@ -3243,6 +3576,14 @@
       {
         "kind": "phase",
         "id": "P09"
+      },
+      {
+        "kind": "field",
+        "record": "NUTR-001.takeaway"
+      },
+      {
+        "kind": "field",
+        "record": "NUTR-001.action"
       }
     ]
   },
@@ -3289,6 +3630,14 @@
       {
         "kind": "phase",
         "id": "P06"
+      },
+      {
+        "kind": "interval",
+        "record": "O014"
+      },
+      {
+        "kind": "study",
+        "record": "T089"
       }
     ]
   },
@@ -3364,6 +3713,10 @@
       {
         "kind": "claim",
         "id": "C-NUTR-001"
+      },
+      {
+        "kind": "interval",
+        "record": "K-calcium-1"
       }
     ]
   },
@@ -3404,6 +3757,18 @@
       {
         "kind": "claim",
         "id": "C-NUTR-001"
+      },
+      {
+        "kind": "interval",
+        "record": "K-calcium-2"
+      },
+      {
+        "kind": "interval",
+        "record": "K-calcium-3"
+      },
+      {
+        "kind": "interval",
+        "record": "K-calcium-4"
       }
     ]
   },
@@ -3452,6 +3817,38 @@
       {
         "kind": "claim",
         "id": "C-O016"
+      },
+      {
+        "kind": "interval",
+        "record": "O015"
+      },
+      {
+        "kind": "interval",
+        "record": "O016"
+      },
+      {
+        "kind": "interval",
+        "record": "K-probiotic-review-1"
+      },
+      {
+        "kind": "interval",
+        "record": "K-probiotic-trial-1"
+      },
+      {
+        "kind": "interval",
+        "record": "K-probiotic-trial-2"
+      },
+      {
+        "kind": "interval",
+        "record": "K-probiotic-trial-3"
+      },
+      {
+        "kind": "interval",
+        "record": "K-probiotic-trial-4"
+      },
+      {
+        "kind": "field",
+        "record": "NUTR-002.takeaway"
       }
     ]
   },
@@ -3496,6 +3893,26 @@
       {
         "kind": "claim",
         "id": "C-O017"
+      },
+      {
+        "kind": "interval",
+        "record": "O017"
+      },
+      {
+        "kind": "interval",
+        "record": "K-probiotic-review-2"
+      },
+      {
+        "kind": "interval",
+        "record": "K-probiotic-review-3"
+      },
+      {
+        "kind": "interval",
+        "record": "K-probiotic-review-4"
+      },
+      {
+        "kind": "field",
+        "record": "NUTR-002.takeaway"
       }
     ]
   },
@@ -3642,6 +4059,10 @@
       {
         "kind": "phase",
         "id": "P09"
+      },
+      {
+        "kind": "study",
+        "record": "T099"
       }
     ]
   },
@@ -3684,6 +4105,14 @@
       {
         "kind": "claim",
         "id": "C-O018"
+      },
+      {
+        "kind": "interval",
+        "record": "O018"
+      },
+      {
+        "kind": "study",
+        "record": "T100"
       }
     ]
   },
@@ -3901,6 +4330,14 @@
       {
         "kind": "claim",
         "id": "C-FACE-001"
+      },
+      {
+        "kind": "field",
+        "record": "SKIN-003.takeaway"
+      },
+      {
+        "kind": "field",
+        "record": "SKIN-003.action"
       }
     ]
   },
@@ -3942,6 +4379,10 @@
       {
         "kind": "claim",
         "id": "C-O019"
+      },
+      {
+        "kind": "interval",
+        "record": "O019"
       }
     ]
   },
@@ -3984,6 +4425,14 @@
       {
         "kind": "claim",
         "id": "C-O030"
+      },
+      {
+        "kind": "interval",
+        "record": "O030"
+      },
+      {
+        "kind": "study",
+        "record": "T108"
       }
     ]
   },
@@ -4067,6 +4516,14 @@
       {
         "kind": "phase",
         "id": "P19"
+      },
+      {
+        "kind": "field",
+        "record": "HAIR-001.takeaway"
+      },
+      {
+        "kind": "field",
+        "record": "HAIR-001.action"
       }
     ]
   },
@@ -4104,6 +4561,10 @@
       {
         "kind": "claim",
         "id": "C-HAIR-001"
+      },
+      {
+        "kind": "study",
+        "record": "T111"
       }
     ]
   },
@@ -4175,7 +4636,12 @@
     "aliases": [
       "CL12"
     ],
-    "used_by": []
+    "used_by": [
+      {
+        "kind": "followup",
+        "record": "CL12"
+      }
+    ]
   },
   {
     "id": "S114",
@@ -4213,6 +4679,10 @@
       {
         "kind": "claim",
         "id": "C-HAIR-001"
+      },
+      {
+        "kind": "followup",
+        "record": "CL11"
       }
     ]
   },
@@ -4359,6 +4829,10 @@
       {
         "kind": "claim",
         "id": "C-SCAR-001"
+      },
+      {
+        "kind": "study",
+        "record": "T118"
       }
     ]
   },
@@ -4397,6 +4871,10 @@
       {
         "kind": "claim",
         "id": "C-SCAR-001"
+      },
+      {
+        "kind": "followup",
+        "record": "CL14"
       }
     ]
   },
@@ -4473,6 +4951,14 @@
       {
         "kind": "phase",
         "id": "P19"
+      },
+      {
+        "kind": "field",
+        "record": "SCAR-001.takeaway"
+      },
+      {
+        "kind": "followup",
+        "record": "CL13"
       }
     ]
   },
@@ -4591,6 +5077,14 @@
       {
         "kind": "claim",
         "id": "C-O020"
+      },
+      {
+        "kind": "interval",
+        "record": "O020"
+      },
+      {
+        "kind": "study",
+        "record": "T124"
       }
     ]
   },
@@ -4704,6 +5198,14 @@
       {
         "kind": "claim",
         "id": "C-VEIN-001"
+      },
+      {
+        "kind": "study",
+        "record": "T127"
+      },
+      {
+        "kind": "field",
+        "record": "VEIN-001.safety"
       }
     ]
   },
@@ -4778,6 +5280,10 @@
       {
         "kind": "claim",
         "id": "C-VEIN-001"
+      },
+      {
+        "kind": "followup",
+        "record": "CL15"
       }
     ]
   },
@@ -4881,6 +5387,26 @@
       {
         "kind": "phase",
         "id": "P19"
+      },
+      {
+        "kind": "field",
+        "record": "SCAR-001.safety"
+      },
+      {
+        "kind": "field",
+        "record": "VEIN-001.takeaway"
+      },
+      {
+        "kind": "field",
+        "record": "VEIN-001.action"
+      },
+      {
+        "kind": "field",
+        "record": "VEIN-001.safety"
+      },
+      {
+        "kind": "field",
+        "record": "WELL-001.safety"
       }
     ]
   },
@@ -5000,6 +5526,14 @@
       {
         "kind": "claim",
         "id": "C-MSK-001"
+      },
+      {
+        "kind": "field",
+        "record": "MSK-001.takeaway"
+      },
+      {
+        "kind": "field",
+        "record": "MSK-001.action"
       }
     ]
   },
@@ -5177,6 +5711,10 @@
       {
         "kind": "claim",
         "id": "C-MSK-001"
+      },
+      {
+        "kind": "study",
+        "record": "T139"
       }
     ]
   },
@@ -5318,6 +5856,34 @@
       {
         "kind": "phase",
         "id": "P07"
+      },
+      {
+        "kind": "field",
+        "record": "FIT-001.takeaway"
+      },
+      {
+        "kind": "field",
+        "record": "FIT-001.action"
+      },
+      {
+        "kind": "field",
+        "record": "FIT-001.safety"
+      },
+      {
+        "kind": "field",
+        "record": "REPRO-001.takeaway"
+      },
+      {
+        "kind": "field",
+        "record": "REPRO-001.action"
+      },
+      {
+        "kind": "field",
+        "record": "REPRO-001.safety"
+      },
+      {
+        "kind": "followup",
+        "record": "CL21"
       }
     ]
   },
@@ -5510,6 +6076,10 @@
       {
         "kind": "claim",
         "id": "C-WELL-001"
+      },
+      {
+        "kind": "field",
+        "record": "WELL-001.takeaway"
       }
     ]
   },
@@ -5556,6 +6126,10 @@
       {
         "kind": "claim",
         "id": "C-O021"
+      },
+      {
+        "kind": "interval",
+        "record": "O021"
       }
     ]
   },
@@ -5629,6 +6203,10 @@
       {
         "kind": "claim",
         "id": "C-WELL-001"
+      },
+      {
+        "kind": "study",
+        "record": "T150"
       }
     ]
   },
@@ -5705,6 +6283,18 @@
       {
         "kind": "claim",
         "id": "C-O022"
+      },
+      {
+        "kind": "interval",
+        "record": "O022"
+      },
+      {
+        "kind": "study",
+        "record": "T152"
+      },
+      {
+        "kind": "field",
+        "record": "DENT-001.takeaway"
       }
     ]
   },
@@ -5775,7 +6365,12 @@
     "aliases": [
       "CL20"
     ],
-    "used_by": []
+    "used_by": [
+      {
+        "kind": "followup",
+        "record": "CL20"
+      }
+    ]
   },
   {
     "id": "S155",
@@ -5816,6 +6411,14 @@
       {
         "kind": "claim",
         "id": "C-O023"
+      },
+      {
+        "kind": "interval",
+        "record": "O023"
+      },
+      {
+        "kind": "study",
+        "record": "T155"
       }
     ]
   },
@@ -5957,6 +6560,18 @@
       {
         "kind": "phase",
         "id": "P01"
+      },
+      {
+        "kind": "field",
+        "record": "DENT-001.takeaway"
+      },
+      {
+        "kind": "field",
+        "record": "DENT-001.action"
+      },
+      {
+        "kind": "field",
+        "record": "DENT-001.safety"
       }
     ]
   },
@@ -6179,6 +6794,14 @@
       {
         "kind": "claim",
         "id": "C-O024"
+      },
+      {
+        "kind": "interval",
+        "record": "O024"
+      },
+      {
+        "kind": "study",
+        "record": "T165"
       }
     ]
   },
@@ -6221,6 +6844,14 @@
       {
         "kind": "claim",
         "id": "C-O025"
+      },
+      {
+        "kind": "interval",
+        "record": "O025"
+      },
+      {
+        "kind": "study",
+        "record": "T166"
       }
     ]
   },
@@ -6270,6 +6901,14 @@
       {
         "kind": "phase",
         "id": "P11"
+      },
+      {
+        "kind": "interval",
+        "record": "O026"
+      },
+      {
+        "kind": "interval",
+        "record": "O027"
       }
     ]
   },
@@ -6307,6 +6946,10 @@
       {
         "kind": "claim",
         "id": "C-EMERG-001"
+      },
+      {
+        "kind": "study",
+        "record": "T168"
       }
     ]
   },
@@ -6356,6 +6999,10 @@
       {
         "kind": "phase",
         "id": "P12"
+      },
+      {
+        "kind": "interval",
+        "record": "O028"
       }
     ]
   },
@@ -6404,6 +7051,18 @@
       {
         "kind": "phase",
         "id": "P11"
+      },
+      {
+        "kind": "interval",
+        "record": "O029"
+      },
+      {
+        "kind": "field",
+        "record": "BIRTH-001.takeaway"
+      },
+      {
+        "kind": "field",
+        "record": "BIRTH-001.action"
       }
     ]
   },
@@ -6766,6 +7425,14 @@
       {
         "kind": "claim",
         "id": "C-NUTR-001"
+      },
+      {
+        "kind": "interval",
+        "record": "I302"
+      },
+      {
+        "kind": "interval",
+        "record": "I303"
       }
     ]
   },
@@ -7314,9 +7981,11 @@
       "claim support or context"
     ],
     "kind": "clinical research/guidance",
-    "current_pass_status": "inherited; not independently rechecked",
+    "current_pass_status": "selected finding or identity checked",
     "clinical_review": false,
-    "aliases": [],
+    "aliases": [
+      "N317"
+    ],
     "used_by": [
       {
         "kind": "claim",
@@ -7345,8 +8014,15 @@
       {
         "kind": "phase",
         "id": "P22"
+      },
+      {
+        "kind": "field",
+        "record": "PELV-001.safety"
       }
-    ]
+    ],
+    "checked_url": "https://www.nice.org.uk/guidance/ng210/chapter/Recommendations",
+    "checked_locator": "Recommendation 1.3.16",
+    "checked_date": "2026-11-26"
   },
   {
     "id": "S194",
@@ -7456,6 +8132,18 @@
       {
         "kind": "claim",
         "id": "C-FIT-003"
+      },
+      {
+        "kind": "media",
+        "record": "M16"
+      },
+      {
+        "kind": "media",
+        "record": "M16"
+      },
+      {
+        "kind": "media",
+        "record": "M16"
       }
     ]
   },
@@ -7543,6 +8231,22 @@
       {
         "kind": "claim",
         "id": "C-EMERG-001"
+      },
+      {
+        "kind": "field",
+        "record": "SKIN-003.safety"
+      },
+      {
+        "kind": "field",
+        "record": "EMERG-001.takeaway"
+      },
+      {
+        "kind": "field",
+        "record": "EMERG-001.action"
+      },
+      {
+        "kind": "field",
+        "record": "EMERG-001.safety"
       }
     ]
   },
@@ -7584,6 +8288,22 @@
       {
         "kind": "claim",
         "id": "C-EMERG-001"
+      },
+      {
+        "kind": "field",
+        "record": "SKIN-003.safety"
+      },
+      {
+        "kind": "field",
+        "record": "EMERG-001.takeaway"
+      },
+      {
+        "kind": "field",
+        "record": "EMERG-001.safety"
+      },
+      {
+        "kind": "followup",
+        "record": "CL23"
       }
     ]
   },
@@ -7783,6 +8503,22 @@
       {
         "kind": "claim",
         "id": "C-FACE-001"
+      },
+      {
+        "kind": "field",
+        "record": "SKIN-001.safety"
+      },
+      {
+        "kind": "field",
+        "record": "FACE-001.takeaway"
+      },
+      {
+        "kind": "field",
+        "record": "FACE-001.action"
+      },
+      {
+        "kind": "field",
+        "record": "FACE-001.safety"
       }
     ]
   },
@@ -8095,6 +8831,22 @@
       {
         "kind": "claim",
         "id": "C-FACE-001"
+      },
+      {
+        "kind": "count",
+        "record": "H11"
+      },
+      {
+        "kind": "study",
+        "record": "T212"
+      },
+      {
+        "kind": "field",
+        "record": "FACE-001.takeaway"
+      },
+      {
+        "kind": "followup",
+        "record": "CL09"
       }
     ]
   },
@@ -8371,6 +9123,14 @@
       {
         "kind": "claim",
         "id": "C-O031"
+      },
+      {
+        "kind": "interval",
+        "record": "O031"
+      },
+      {
+        "kind": "study",
+        "record": "T219"
       }
     ]
   },
@@ -8413,6 +9173,14 @@
       {
         "kind": "claim",
         "id": "C-MSK-001"
+      },
+      {
+        "kind": "study",
+        "record": "T220"
+      },
+      {
+        "kind": "followup",
+        "record": "CL16"
       }
     ]
   },
@@ -8450,6 +9218,10 @@
       {
         "kind": "claim",
         "id": "C-FIT-003"
+      },
+      {
+        "kind": "study",
+        "record": "T221"
       }
     ]
   },
@@ -8579,7 +9351,12 @@
     "doi": "10.1111/jocd.71208",
     "current_pass_status": "inherited; not independently rechecked",
     "aliases": [],
-    "used_by": []
+    "used_by": [
+      {
+        "kind": "followup",
+        "record": "CL02"
+      }
+    ]
   },
   {
     "id": "CL03",
@@ -8601,7 +9378,28 @@
     "checked_locator": "Results",
     "checked_date": "2026-11-26",
     "aliases": [],
-    "used_by": []
+    "used_by": [
+      {
+        "kind": "count",
+        "record": "H09"
+      },
+      {
+        "kind": "count",
+        "record": "H10"
+      },
+      {
+        "kind": "field",
+        "record": "PELV-001.takeaway"
+      },
+      {
+        "kind": "field",
+        "record": "PELV-001.action"
+      },
+      {
+        "kind": "followup",
+        "record": "CL03"
+      }
+    ]
   },
   {
     "id": "CL04",
@@ -8623,7 +9421,16 @@
     "checked_locator": "Indexed identity",
     "checked_date": "2026-11-26",
     "aliases": [],
-    "used_by": []
+    "used_by": [
+      {
+        "kind": "interval",
+        "record": "H04"
+      },
+      {
+        "kind": "followup",
+        "record": "CL04"
+      }
+    ]
   },
   {
     "id": "CL05",
@@ -8645,7 +9452,20 @@
     "checked_locator": "Indexed scope",
     "checked_date": "2026-11-26",
     "aliases": [],
-    "used_by": []
+    "used_by": [
+      {
+        "kind": "interval",
+        "record": "H05"
+      },
+      {
+        "kind": "interval",
+        "record": "H06"
+      },
+      {
+        "kind": "followup",
+        "record": "CL05"
+      }
+    ]
   },
   {
     "id": "CL07",
@@ -8664,7 +9484,16 @@
     "doi": null,
     "current_pass_status": "inherited; not independently rechecked",
     "aliases": [],
-    "used_by": []
+    "used_by": [
+      {
+        "kind": "interval",
+        "record": "H08"
+      },
+      {
+        "kind": "followup",
+        "record": "CL07"
+      }
+    ]
   },
   {
     "id": "CL08",
@@ -8683,7 +9512,12 @@
     "doi": null,
     "current_pass_status": "inherited; not independently rechecked",
     "aliases": [],
-    "used_by": []
+    "used_by": [
+      {
+        "kind": "followup",
+        "record": "CL08"
+      }
+    ]
   },
   {
     "id": "CL17",
@@ -8705,7 +9539,12 @@
     "checked_locator": "Abstract results",
     "checked_date": "2026-11-26",
     "aliases": [],
-    "used_by": []
+    "used_by": [
+      {
+        "kind": "followup",
+        "record": "CL17"
+      }
+    ]
   },
   {
     "id": "CL18",
@@ -8724,7 +9563,12 @@
     "doi": null,
     "current_pass_status": "inherited; not independently rechecked",
     "aliases": [],
-    "used_by": []
+    "used_by": [
+      {
+        "kind": "followup",
+        "record": "CL18"
+      }
+    ]
   },
   {
     "id": "CL19",
@@ -8743,7 +9587,12 @@
     "doi": null,
     "current_pass_status": "inherited; not independently rechecked",
     "aliases": [],
-    "used_by": []
+    "used_by": [
+      {
+        "kind": "followup",
+        "record": "CL19"
+      }
+    ]
   },
   {
     "id": "CL22",
@@ -8762,7 +9611,12 @@
     "doi": null,
     "current_pass_status": "inherited; not independently rechecked",
     "aliases": [],
-    "used_by": []
+    "used_by": [
+      {
+        "kind": "followup",
+        "record": "CL22"
+      }
+    ]
   },
   {
     "id": "CL24",
@@ -8781,7 +9635,12 @@
     "doi": null,
     "current_pass_status": "inherited; not independently rechecked",
     "aliases": [],
-    "used_by": []
+    "used_by": [
+      {
+        "kind": "followup",
+        "record": "CL24"
+      }
+    ]
   },
   {
     "id": "UX01",
@@ -9131,7 +9990,20 @@
       "M02",
       "M10"
     ],
-    "used_by": []
+    "used_by": [
+      {
+        "kind": "media",
+        "record": "M01"
+      },
+      {
+        "kind": "media",
+        "record": "M02"
+      },
+      {
+        "kind": "media",
+        "record": "M10"
+      }
+    ]
   },
   {
     "id": "M03",
@@ -9158,7 +10030,16 @@
     "current_pass_status": "inherited; not independently rechecked",
     "clinical_review": false,
     "aliases": [],
-    "used_by": []
+    "used_by": [
+      {
+        "kind": "media",
+        "record": "M03"
+      },
+      {
+        "kind": "media",
+        "record": "M03"
+      }
+    ]
   },
   {
     "id": "M04",
@@ -9187,7 +10068,24 @@
     "current_pass_status": "inherited; not independently rechecked",
     "clinical_review": false,
     "aliases": [],
-    "used_by": []
+    "used_by": [
+      {
+        "kind": "media",
+        "record": "M04"
+      },
+      {
+        "kind": "media",
+        "record": "M04"
+      },
+      {
+        "kind": "media",
+        "record": "M04"
+      },
+      {
+        "kind": "media",
+        "record": "M04"
+      }
+    ]
   },
   {
     "id": "M05",
@@ -9213,7 +10111,12 @@
     "current_pass_status": "inherited; not independently rechecked",
     "clinical_review": false,
     "aliases": [],
-    "used_by": []
+    "used_by": [
+      {
+        "kind": "media",
+        "record": "M05"
+      }
+    ]
   },
   {
     "id": "M06",
@@ -9241,7 +10144,20 @@
     "current_pass_status": "inherited; not independently rechecked",
     "clinical_review": false,
     "aliases": [],
-    "used_by": []
+    "used_by": [
+      {
+        "kind": "media",
+        "record": "M06"
+      },
+      {
+        "kind": "media",
+        "record": "M06"
+      },
+      {
+        "kind": "media",
+        "record": "M06"
+      }
+    ]
   },
   {
     "id": "M07",
@@ -9270,7 +10186,24 @@
     "current_pass_status": "inherited; not independently rechecked",
     "clinical_review": false,
     "aliases": [],
-    "used_by": []
+    "used_by": [
+      {
+        "kind": "media",
+        "record": "M07"
+      },
+      {
+        "kind": "media",
+        "record": "M07"
+      },
+      {
+        "kind": "media",
+        "record": "M07"
+      },
+      {
+        "kind": "media",
+        "record": "M07"
+      }
+    ]
   },
   {
     "id": "M08",
@@ -9297,7 +10230,16 @@
     "current_pass_status": "inherited; not independently rechecked",
     "clinical_review": false,
     "aliases": [],
-    "used_by": []
+    "used_by": [
+      {
+        "kind": "media",
+        "record": "M08"
+      },
+      {
+        "kind": "media",
+        "record": "M08"
+      }
+    ]
   },
   {
     "id": "M09",
@@ -9326,7 +10268,24 @@
     "current_pass_status": "inherited; not independently rechecked",
     "clinical_review": false,
     "aliases": [],
-    "used_by": []
+    "used_by": [
+      {
+        "kind": "media",
+        "record": "M09"
+      },
+      {
+        "kind": "media",
+        "record": "M09"
+      },
+      {
+        "kind": "media",
+        "record": "M09"
+      },
+      {
+        "kind": "media",
+        "record": "M09"
+      }
+    ]
   },
   {
     "id": "M11",
@@ -9353,7 +10312,16 @@
     "current_pass_status": "inherited; not independently rechecked",
     "clinical_review": false,
     "aliases": [],
-    "used_by": []
+    "used_by": [
+      {
+        "kind": "media",
+        "record": "M11"
+      },
+      {
+        "kind": "media",
+        "record": "M11"
+      }
+    ]
   },
   {
     "id": "M12",
@@ -9379,7 +10347,12 @@
     "current_pass_status": "inherited; not independently rechecked",
     "clinical_review": false,
     "aliases": [],
-    "used_by": []
+    "used_by": [
+      {
+        "kind": "media",
+        "record": "M12"
+      }
+    ]
   },
   {
     "id": "M13",
@@ -9407,7 +10380,20 @@
     "current_pass_status": "inherited; not independently rechecked",
     "clinical_review": false,
     "aliases": [],
-    "used_by": []
+    "used_by": [
+      {
+        "kind": "media",
+        "record": "M13"
+      },
+      {
+        "kind": "media",
+        "record": "M13"
+      },
+      {
+        "kind": "media",
+        "record": "M13"
+      }
+    ]
   },
   {
     "id": "M14",
@@ -9435,7 +10421,20 @@
     "current_pass_status": "inherited; not independently rechecked",
     "clinical_review": false,
     "aliases": [],
-    "used_by": []
+    "used_by": [
+      {
+        "kind": "media",
+        "record": "M14"
+      },
+      {
+        "kind": "media",
+        "record": "M14"
+      },
+      {
+        "kind": "media",
+        "record": "M14"
+      }
+    ]
   },
   {
     "id": "M15",
@@ -9463,7 +10462,20 @@
     "current_pass_status": "inherited; not independently rechecked",
     "clinical_review": false,
     "aliases": [],
-    "used_by": []
+    "used_by": [
+      {
+        "kind": "media",
+        "record": "M15"
+      },
+      {
+        "kind": "media",
+        "record": "M15"
+      },
+      {
+        "kind": "media",
+        "record": "M15"
+      }
+    ]
   },
   {
     "id": "M17",
@@ -9490,7 +10502,16 @@
     "current_pass_status": "inherited; not independently rechecked",
     "clinical_review": false,
     "aliases": [],
-    "used_by": []
+    "used_by": [
+      {
+        "kind": "media",
+        "record": "M17"
+      },
+      {
+        "kind": "media",
+        "record": "M17"
+      }
+    ]
   },
   {
     "name": "Pregnancy+",
@@ -9735,7 +10756,12 @@
     "checked_locator": "Abstract",
     "checked_date": "2026-11-26",
     "aliases": [],
-    "used_by": []
+    "used_by": [
+      {
+        "kind": "interval",
+        "record": "K-omega3-3"
+      }
+    ]
   },
   {
     "title": "ORIP later exploratory analysis",
@@ -9751,7 +10777,12 @@
     "current_pass_status": "inherited; not independently rechecked",
     "clinical_review": false,
     "aliases": [],
-    "used_by": []
+    "used_by": [
+      {
+        "kind": "interval",
+        "record": "K-omega3-4"
+      }
+    ]
   },
   {
     "title": "ADORE DHA trial",
@@ -9770,7 +10801,16 @@
     "checked_locator": "Abstract/disclosures",
     "checked_date": "2026-11-26",
     "aliases": [],
-    "used_by": []
+    "used_by": [
+      {
+        "kind": "count",
+        "record": "K-ADORE-1"
+      },
+      {
+        "kind": "count",
+        "record": "K-ADORE-2"
+      }
+    ]
   },
   {
     "title": "Pregnancy striae cohort",
@@ -9786,7 +10826,12 @@
     "current_pass_status": "inherited; not independently rechecked",
     "clinical_review": false,
     "aliases": [],
-    "used_by": []
+    "used_by": [
+      {
+        "kind": "count",
+        "record": "K-striae-cohort"
+      }
+    ]
   },
   {
     "title": "Conservative diastasis synthesis",
@@ -9802,7 +10847,12 @@
     "current_pass_status": "inherited; not independently rechecked",
     "clinical_review": false,
     "aliases": [],
-    "used_by": []
+    "used_by": [
+      {
+        "kind": "interval",
+        "record": "K-abdominal-distance"
+      }
+    ]
   },
   {
     "title": "Stretch mark GWAS",
@@ -9853,7 +10903,12 @@
     "checked_locator": "Abstract synthesis",
     "checked_date": "2026-11-26",
     "aliases": [],
-    "used_by": []
+    "used_by": [
+      {
+        "kind": "interval",
+        "record": "I305"
+      }
+    ]
   },
   {
     "title": "Exercise versus abdominal binding review",
@@ -9987,7 +11042,12 @@
     "checked_locator": "Abstract results",
     "checked_date": "2026-11-26",
     "aliases": [],
-    "used_by": []
+    "used_by": [
+      {
+        "kind": "interval",
+        "record": "I301"
+      }
+    ]
   },
   {
     "title": "IUGA International Guidelines on Obstetric Anal Sphincter Injuries",
@@ -10025,7 +11085,28 @@
     "checked_locator": "Recommendations",
     "checked_date": "2026-11-26",
     "aliases": [],
-    "used_by": []
+    "used_by": [
+      {
+        "kind": "field",
+        "record": "ABD-001.action"
+      },
+      {
+        "kind": "field",
+        "record": "ABD-001.safety"
+      },
+      {
+        "kind": "field",
+        "record": "FIT-003.takeaway"
+      },
+      {
+        "kind": "field",
+        "record": "FIT-003.action"
+      },
+      {
+        "kind": "field",
+        "record": "FIT-003.safety"
+      }
+    ]
   },
   {
     "title": "Periodontal Infections and Prematurity Study",
@@ -10044,7 +11125,16 @@
     "checked_locator": "Abstract results",
     "checked_date": "2026-11-26",
     "aliases": [],
-    "used_by": []
+    "used_by": [
+      {
+        "kind": "interval",
+        "record": "I304"
+      },
+      {
+        "kind": "field",
+        "record": "DENT-001.takeaway"
+      }
+    ]
   },
   {
     "title": "Topical retinoids pregnancy guidance",
@@ -10063,6 +11153,209 @@
     "checked_locator": "Guidance",
     "checked_date": "2026-11-26",
     "aliases": [],
-    "used_by": []
+    "used_by": [
+      {
+        "kind": "field",
+        "record": "FACE-001.safety"
+      }
+    ]
+  },
+  {
+    "id": "N315",
+    "title": "NHS cesarean recovery",
+    "url": "https://www.nhs.uk/tests-and-treatments/caesarean-section/recovery/",
+    "topics": [
+      "SCAR-001"
+    ],
+    "kind": "clinical guidance or research",
+    "source_host": "www.nhs.uk",
+    "pmid": null,
+    "doi": null,
+    "funding": null,
+    "conflicts": null,
+    "clinical_review": false,
+    "used_by": [
+      {
+        "kind": "field",
+        "record": "ABD-002.action"
+      },
+      {
+        "kind": "field",
+        "record": "ABD-002.safety"
+      },
+      {
+        "kind": "field",
+        "record": "SCAR-001.action"
+      }
+    ],
+    "current_pass_status": "selected finding or identity checked",
+    "checked_url": "https://www.nhs.uk/tests-and-treatments/caesarean-section/recovery/",
+    "checked_locator": "Looking after wound; when to seek advice",
+    "checked_date": "2026-11-26",
+    "aliases": []
+  },
+  {
+    "id": "N316",
+    "title": "CDC breast surgery and breastfeeding",
+    "url": "https://www.cdc.gov/breastfeeding-special-circumstances/hcp/illnesses-conditions/breast-surgery.html",
+    "topics": [
+      "BREAST-001"
+    ],
+    "kind": "clinical guidance or research",
+    "source_host": "www.cdc.gov",
+    "pmid": null,
+    "doi": null,
+    "funding": null,
+    "conflicts": null,
+    "clinical_review": false,
+    "used_by": [
+      {
+        "kind": "field",
+        "record": "BREAST-001.safety"
+      }
+    ],
+    "current_pass_status": "selected finding or identity checked",
+    "checked_url": "https://www.cdc.gov/breastfeeding-special-circumstances/hcp/illnesses-conditions/breast-surgery.html",
+    "checked_locator": "Clinical support section",
+    "checked_date": "2026-11-26",
+    "aliases": []
+  },
+  {
+    "id": "N318",
+    "title": "Perineal massage guide",
+    "url": "https://www.nct.org.uk/information/labour-birth/planning-birth/how-do-perineal-massage-step-step-guide",
+    "topics": [
+      "BIRTH-001"
+    ],
+    "kind": "clinical guidance or research",
+    "source_host": "www.nct.org.uk",
+    "pmid": null,
+    "doi": null,
+    "funding": null,
+    "conflicts": null,
+    "clinical_review": false,
+    "used_by": [
+      {
+        "kind": "field",
+        "record": "BIRTH-001.safety"
+      }
+    ],
+    "current_pass_status": "selected finding or identity checked",
+    "checked_url": "https://www.nct.org.uk/information/labour-birth/planning-birth/how-do-perineal-massage-step-step-guide",
+    "checked_locator": "Safety and timing",
+    "checked_date": "2026-11-26",
+    "aliases": []
+  },
+  {
+    "id": "N319",
+    "title": "MotherToBaby herbal products",
+    "url": "https://mothertobaby.org/fact-sheets/herbal-products-pregnancy/",
+    "topics": [
+      "NUTR-002"
+    ],
+    "kind": "clinical guidance or research",
+    "source_host": "mothertobaby.org",
+    "pmid": null,
+    "doi": null,
+    "funding": null,
+    "conflicts": null,
+    "clinical_review": false,
+    "used_by": [
+      {
+        "kind": "field",
+        "record": "NUTR-002.action"
+      },
+      {
+        "kind": "field",
+        "record": "NUTR-002.safety"
+      }
+    ],
+    "current_pass_status": "selected finding or identity checked",
+    "checked_url": "https://mothertobaby.org/fact-sheets/herbal-products-pregnancy/",
+    "checked_locator": "Pregnancy and breastfeeding guidance",
+    "checked_date": "2026-11-26",
+    "aliases": []
+  },
+  {
+    "id": "N320",
+    "title": "MotherToBaby ginger",
+    "url": "https://mothertobaby.org/fact-sheets/ginger-pregnancy/",
+    "topics": [
+      "NUTR-002"
+    ],
+    "kind": "clinical guidance or research",
+    "source_host": "mothertobaby.org",
+    "pmid": null,
+    "doi": null,
+    "funding": null,
+    "conflicts": null,
+    "clinical_review": false,
+    "used_by": [
+      {
+        "kind": "field",
+        "record": "NUTR-002.action"
+      },
+      {
+        "kind": "field",
+        "record": "NUTR-002.safety"
+      }
+    ],
+    "current_pass_status": "selected finding or identity checked",
+    "checked_url": "https://mothertobaby.org/fact-sheets/ginger-pregnancy/",
+    "checked_locator": "Breastfeeding section",
+    "checked_date": "2026-11-26",
+    "aliases": []
+  },
+  {
+    "id": "N321",
+    "title": "LactMed minoxidil",
+    "url": "https://www.ncbi.nlm.nih.gov/books/NBK501032/",
+    "topics": [
+      "HAIR-001"
+    ],
+    "kind": "clinical guidance or research",
+    "source_host": "www.ncbi.nlm.nih.gov",
+    "pmid": null,
+    "doi": null,
+    "funding": null,
+    "conflicts": null,
+    "clinical_review": false,
+    "used_by": [
+      {
+        "kind": "field",
+        "record": "HAIR-001.safety"
+      }
+    ],
+    "current_pass_status": "selected finding or identity checked",
+    "checked_url": "https://www.ncbi.nlm.nih.gov/books/NBK501032/",
+    "checked_locator": "Summary of use during lactation",
+    "checked_date": "2026-11-26",
+    "aliases": []
+  },
+  {
+    "id": "N322",
+    "title": "RCOG pelvic girdle pain and pregnancy",
+    "url": "https://www.rcog.org.uk/for-the-public/browse-our-patient-information/pelvic-girdle-pain-and-pregnancy/",
+    "topics": [
+      "MSK-001"
+    ],
+    "kind": "clinical guidance or research",
+    "source_host": "www.rcog.org.uk",
+    "pmid": null,
+    "doi": null,
+    "funding": null,
+    "conflicts": null,
+    "clinical_review": false,
+    "used_by": [
+      {
+        "kind": "field",
+        "record": "MSK-001.safety"
+      }
+    ],
+    "current_pass_status": "selected finding or identity checked",
+    "checked_url": "https://www.rcog.org.uk/for-the-public/browse-our-patient-information/pelvic-girdle-pain-and-pregnancy/",
+    "checked_locator": "Treatment guidance",
+    "checked_date": "2026-11-26",
+    "aliases": []
   }
 ]

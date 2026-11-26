@@ -2229,7 +2229,26 @@
     "quick": {
       "takeaway": {
         "text": "A binder may help early discomfort. Permanent reshaping is unproven.",
-        "selected_links": [],
+        "selected_links": [
+          {
+            "source_id": "S040",
+            "title": "The effectiveness of the abdominal binder in relieving pain after cesarean delivery: A systematic review and meta-analysis of randomized controlled trials",
+            "url": "https://obgyn.onlinelibrary.wiley.com/doi/10.1002/ijgo.13607",
+            "doi": "10.1002/ijgo.13607",
+            "pmid": "33471362",
+            "role": "selected source supports part of field; other clauses remain research draft",
+            "verification": "selected finding or identity checked"
+          },
+          {
+            "source_id": "S039",
+            "title": "A randomized controlled trial of abdominal binders for the management of postoperative pain and distress after cesarean delivery",
+            "url": "https://pubmed.ncbi.nlm.nih.gov/26892694/",
+            "doi": "10.1016/j.ijgo.2015.08.026",
+            "pmid": "26892694",
+            "role": "selected source supports part of field; other clauses remain research draft",
+            "verification": "selected finding or identity checked"
+          }
+        ],
         "context_links": [
           {
             "source_id": "S035",
@@ -2290,7 +2309,26 @@
       },
       "action": {
         "text": "Ask about support if recovering from cesarean birth.",
-        "selected_links": [],
+        "selected_links": [
+          {
+            "source_id": "S040",
+            "title": "The effectiveness of the abdominal binder in relieving pain after cesarean delivery: A systematic review and meta-analysis of randomized controlled trials",
+            "url": "https://obgyn.onlinelibrary.wiley.com/doi/10.1002/ijgo.13607",
+            "doi": "10.1002/ijgo.13607",
+            "pmid": "33471362",
+            "role": "selected source supports part of field; other clauses remain research draft",
+            "verification": "selected finding or identity checked"
+          },
+          {
+            "source_id": "N315",
+            "title": "NHS cesarean recovery",
+            "url": "https://www.nhs.uk/tests-and-treatments/caesarean-section/recovery/",
+            "doi": null,
+            "pmid": null,
+            "role": "selected source supports part of field; other clauses remain research draft",
+            "verification": "selected finding or identity checked"
+          }
+        ],
         "context_links": [
           {
             "source_id": "S035",
@@ -2351,7 +2389,17 @@
       },
       "safety": {
         "text": "After cesarean, clinician review of incision, fit and symptoms is appropriate. Rectus diastasis, hernia and wound separation require different evaluations.",
-        "selected_links": [],
+        "selected_links": [
+          {
+            "source_id": "N315",
+            "title": "NHS cesarean recovery",
+            "url": "https://www.nhs.uk/tests-and-treatments/caesarean-section/recovery/",
+            "doi": null,
+            "pmid": null,
+            "role": "selected source supports part of field; other clauses remain research draft",
+            "verification": "selected finding or identity checked"
+          }
+        ],
         "context_links": [
           {
             "source_id": "S035",
@@ -2569,6 +2617,24 @@
         "finding": "Below umbilicus MD -.31 (-.53 to -.10); above .22 (-1.43 to 1.88); verify units/endpoint before charting.",
         "date": "2026-11-26",
         "access": "indexed excerpt or public guidance; not full-text appraisal"
+      },
+      {
+        "source_id": "S040",
+        "original_id": "N313",
+        "checked_url": "https://pubmed.ncbi.nlm.nih.gov/33471362/",
+        "locator": "Abstract results",
+        "finding": "Pooled 24h pain MD -1.76 (95% CI -3.14 to -.39), 48h MD -1.21 (-1.51 to -.90). Short-term pain, not permanent shape.",
+        "date": "2026-11-26",
+        "access": "indexed excerpt or public guidance; not full-text appraisal"
+      },
+      {
+        "source_id": "S039",
+        "original_id": "N314",
+        "checked_url": "https://pubmed.ncbi.nlm.nih.gov/26892694/",
+        "locator": "Abstract results",
+        "finding": "No significant differences in pain or distress on day 1 or 2 in this trial. It may overlap pooled evidence; do not count separately as independent of the review.",
+        "date": "2026-11-26",
+        "access": "indexed excerpt or public guidance; not full-text appraisal"
       }
     ],
     "followups": [],
@@ -2779,7 +2845,17 @@
       },
       "safety": {
         "text": "Support may be chosen across stages for comfort. A cosmetic procedure during recovery or lactation needs specialist assessment. Do not frame formula, breastfeeding or combined feeding as a cosmetic intervention.",
-        "selected_links": [],
+        "selected_links": [
+          {
+            "source_id": "N316",
+            "title": "CDC breast surgery and breastfeeding",
+            "url": "https://www.cdc.gov/breastfeeding-special-circumstances/hcp/illnesses-conditions/breast-surgery.html",
+            "doi": null,
+            "pmid": null,
+            "role": "selected source supports part of field; other clauses remain research draft",
+            "verification": "selected finding or identity checked"
+          }
+        ],
         "context_links": [
           {
             "source_id": "S044",
@@ -2956,6 +3032,15 @@
         "checked_url": "https://pubmed.ncbi.nlm.nih.gov/19083576/",
         "locator": "Abstract methods/conclusion",
         "finding": "Retrospective selected cohort; breastfeeding not independent predictor of ptosis.",
+        "date": "2026-11-26",
+        "access": "indexed excerpt or public guidance; not full-text appraisal"
+      },
+      {
+        "source_id": "N316",
+        "original_id": "N316",
+        "checked_url": "https://www.cdc.gov/breastfeeding-special-circumstances/hcp/illnesses-conditions/breast-surgery.html",
+        "locator": "Clinical support section",
+        "finding": "Prior breast surgery can affect feeding; offer lactation support and individual assessment.",
         "date": "2026-11-26",
         "access": "indexed excerpt or public guidance; not full-text appraisal"
       }
@@ -4979,7 +5064,17 @@
       },
       "safety": {
         "text": "During pregnancy or recovery, supervision is useful for pain or difficulty contracting/relaxing. Discuss contraception before sex if pregnancy is undesired, including while breastfeeding.",
-        "selected_links": [],
+        "selected_links": [
+          {
+            "source_id": "S193",
+            "title": "Recommendations | Pelvic floor dysfunction: prevention and non-surgical management  | Guidance | NICE",
+            "url": "https://www.nice.org.uk/guidance/ng210/chapter/Recommendations",
+            "doi": null,
+            "pmid": null,
+            "role": "selected source supports part of field; other clauses remain research draft",
+            "verification": "selected finding or identity checked"
+          }
+        ],
         "context_links": [
           {
             "source_id": "S069",
@@ -5243,6 +5338,15 @@
         "checked_url": "https://pubmed.ncbi.nlm.nih.gov/41984478/",
         "locator": "Indexed identity",
         "finding": "PEFLOW prevention trial exists; exact results not re-extracted.",
+        "date": "2026-11-26",
+        "access": "indexed excerpt or public guidance; not full-text appraisal"
+      },
+      {
+        "source_id": "S193",
+        "original_id": "N317",
+        "checked_url": "https://www.nice.org.uk/guidance/ng210/chapter/Recommendations",
+        "locator": "Recommendation 1.3.16",
+        "finding": "Supervised training should be tailored to ability to contract and relax, discomfort and goals.",
         "date": "2026-11-26",
         "access": "indexed excerpt or public guidance; not full-text appraisal"
       }
@@ -5785,7 +5889,26 @@
       },
       "safety": {
         "text": "Antenatal measures belong in late pregnancy with maternity-team advice. Intrapartum techniques require consent. Compare planned vaginal, assisted and cesarean pathways with individual clinical indications and preferences.",
-        "selected_links": [],
+        "selected_links": [
+          {
+            "source_id": "N318",
+            "title": "Perineal massage guide",
+            "url": "https://www.nct.org.uk/information/labour-birth/planning-birth/how-do-perineal-massage-step-step-guide",
+            "doi": null,
+            "pmid": null,
+            "role": "selected source supports part of field; other clauses remain research draft",
+            "verification": "selected finding or identity checked"
+          },
+          {
+            "source_id": "S074",
+            "title": "What are the benefits and risks of different perineal techniques during the second stage of labour for preventing post-birth injury? | Cochrane",
+            "url": "https://www.cochrane.org/evidence/CD016148_what-are-benefits-and-risks-different-perineal-techniques-during-second-stage-labour-preventing-post",
+            "doi": "10.1002/14651858.CD016148",
+            "pmid": null,
+            "role": "selected source supports part of field; other clauses remain research draft",
+            "verification": "selected finding or identity checked"
+          }
+        ],
         "context_links": [
           {
             "source_id": "S074",
@@ -6046,6 +6169,15 @@
         "checked_url": "https://doi.org/10.1002/14651858.CD016148",
         "locator": "Review scope",
         "finding": "Intrapartum techniques distinct from antenatal massage.",
+        "date": "2026-11-26",
+        "access": "indexed excerpt or public guidance; not full-text appraisal"
+      },
+      {
+        "source_id": "N318",
+        "original_id": "N318",
+        "checked_url": "https://www.nct.org.uk/information/labour-birth/planning-birth/how-do-perineal-massage-step-step-guide",
+        "locator": "Safety and timing",
+        "finding": "Late pregnancy; suspected infection requires discussion before massage. Secondary educational source.",
         "date": "2026-11-26",
         "access": "indexed excerpt or public guidance; not full-text appraisal"
       }
@@ -7823,7 +7955,26 @@
       },
       "action": {
         "text": "Discuss concentrated supplements before using them in pregnancy.",
-        "selected_links": [],
+        "selected_links": [
+          {
+            "source_id": "N319",
+            "title": "MotherToBaby herbal products",
+            "url": "https://mothertobaby.org/fact-sheets/herbal-products-pregnancy/",
+            "doi": null,
+            "pmid": null,
+            "role": "selected source supports part of field; other clauses remain research draft",
+            "verification": "selected finding or identity checked"
+          },
+          {
+            "source_id": "N320",
+            "title": "MotherToBaby ginger",
+            "url": "https://mothertobaby.org/fact-sheets/ginger-pregnancy/",
+            "doi": null,
+            "pmid": null,
+            "role": "selected source supports part of field; other clauses remain research draft",
+            "verification": "selected finding or identity checked"
+          }
+        ],
         "context_links": [
           {
             "source_id": "S086",
@@ -7929,7 +8080,26 @@
       },
       "safety": {
         "text": "Culinary intake differs from concentrated products. Do not infer rare fetal safety from short trials. Report product, timing and symptoms to clinician. Third-party testing addresses aspects of product quality, not clinical benefit.",
-        "selected_links": [],
+        "selected_links": [
+          {
+            "source_id": "N319",
+            "title": "MotherToBaby herbal products",
+            "url": "https://mothertobaby.org/fact-sheets/herbal-products-pregnancy/",
+            "doi": null,
+            "pmid": null,
+            "role": "selected source supports part of field; other clauses remain research draft",
+            "verification": "selected finding or identity checked"
+          },
+          {
+            "source_id": "N320",
+            "title": "MotherToBaby ginger",
+            "url": "https://mothertobaby.org/fact-sheets/ginger-pregnancy/",
+            "doi": null,
+            "pmid": null,
+            "role": "selected source supports part of field; other clauses remain research draft",
+            "verification": "selected finding or identity checked"
+          }
+        ],
         "context_links": [
           {
             "source_id": "S086",
@@ -8255,6 +8425,24 @@
         "checked_url": "https://pubmed.ncbi.nlm.nih.gov/38447676/",
         "locator": "Abstract results",
         "finding": "PE RR 1.14 (.84–1.53), eleven trials 2401; low certainty.",
+        "date": "2026-11-26",
+        "access": "indexed excerpt or public guidance; not full-text appraisal"
+      },
+      {
+        "source_id": "N319",
+        "original_id": "N319",
+        "checked_url": "https://mothertobaby.org/fact-sheets/herbal-products-pregnancy/",
+        "locator": "Pregnancy and breastfeeding guidance",
+        "finding": "Review concentrated supplements with clinician; lack of data and variability in formulations.",
+        "date": "2026-11-26",
+        "access": "indexed excerpt or public guidance; not full-text appraisal"
+      },
+      {
+        "source_id": "N320",
+        "original_id": "N320",
+        "checked_url": "https://mothertobaby.org/fact-sheets/ginger-pregnancy/",
+        "locator": "Breastfeeding section",
+        "finding": "Insufficient data for supplemental ginger during breastfeeding; culinary exposure distinct.",
         "date": "2026-11-26",
         "access": "indexed excerpt or public guidance; not full-text appraisal"
       }
@@ -9151,7 +9339,17 @@
       },
       "safety": {
         "text": "Medication decisions differ in pregnancy and lactation. Minoxidil needs a product- and infant-specific assessment. Typical postpartum shedding does not establish deficiency.",
-        "selected_links": [],
+        "selected_links": [
+          {
+            "source_id": "N321",
+            "title": "LactMed minoxidil",
+            "url": "https://www.ncbi.nlm.nih.gov/books/NBK501032/",
+            "doi": null,
+            "pmid": null,
+            "role": "selected source supports part of field; other clauses remain research draft",
+            "verification": "selected finding or identity checked"
+          }
+        ],
         "context_links": [
           {
             "source_id": "S110",
@@ -9370,6 +9568,15 @@
         "checked_url": "https://www.aad.org/public/diseases/hair-loss/insider/new-moms",
         "locator": "Patient guidance",
         "finding": "Postpartum shedding commonly temporary; persistent loss warrants evaluation.",
+        "date": "2026-11-26",
+        "access": "indexed excerpt or public guidance; not full-text appraisal"
+      },
+      {
+        "source_id": "N321",
+        "original_id": "N321",
+        "checked_url": "https://www.ncbi.nlm.nih.gov/books/NBK501032/",
+        "locator": "Summary of use during lactation",
+        "finding": "Route and infant age matter; avoid infant contact with treated skin. Individual medication review.",
         "date": "2026-11-26",
         "access": "indexed excerpt or public guidance; not full-text appraisal"
       }
@@ -9616,7 +9823,17 @@
       },
       "action": {
         "text": "Contact maternity care for concerning wound changes.",
-        "selected_links": [],
+        "selected_links": [
+          {
+            "source_id": "N315",
+            "title": "NHS cesarean recovery",
+            "url": "https://www.nhs.uk/tests-and-treatments/caesarean-section/recovery/",
+            "doi": null,
+            "pmid": null,
+            "role": "selected source supports part of field; other clauses remain research draft",
+            "verification": "selected finding or identity checked"
+          }
+        ],
         "context_links": [
           {
             "source_id": "S118",
@@ -10030,6 +10247,15 @@
         "checked_url": "https://www.cdc.gov/hearher/maternal-warning-signs/index.html",
         "locator": "Warning signs",
         "finding": "Urgent symptoms during pregnancy and year after delivery, including unilateral limb symptoms and chest pain/breathlessness.",
+        "date": "2026-11-26",
+        "access": "indexed excerpt or public guidance; not full-text appraisal"
+      },
+      {
+        "source_id": "N315",
+        "original_id": "N315",
+        "checked_url": "https://www.nhs.uk/tests-and-treatments/caesarean-section/recovery/",
+        "locator": "Looking after wound; when to seek advice",
+        "finding": "Wound care and assessment for signs of infection or blood clot. No scar treatment on open wounds.",
         "date": "2026-11-26",
         "access": "indexed excerpt or public guidance; not full-text appraisal"
       }
@@ -11098,7 +11324,17 @@
       },
       "safety": {
         "text": "Antenatal treatment should be adapted to pregnancy by trained clinicians. Persistent postpartum pain or impaired mobility should prompt reassessment; provocative self-testing is unnecessary.",
-        "selected_links": [],
+        "selected_links": [
+          {
+            "source_id": "N322",
+            "title": "RCOG pelvic girdle pain and pregnancy",
+            "url": "https://www.rcog.org.uk/for-the-public/browse-our-patient-information/pelvic-girdle-pain-and-pregnancy/",
+            "doi": null,
+            "pmid": null,
+            "role": "selected source supports part of field; other clauses remain research draft",
+            "verification": "selected finding or identity checked"
+          }
+        ],
         "context_links": [
           {
             "source_id": "S134",
@@ -11359,6 +11595,15 @@
         "checked_url": "https://pubmed.ncbi.nlm.nih.gov/18947338/",
         "locator": "Indexed objective",
         "finding": "Sham comparison identity; full results not extracted.",
+        "date": "2026-11-26",
+        "access": "indexed excerpt or public guidance; not full-text appraisal"
+      },
+      {
+        "source_id": "N322",
+        "original_id": "N322",
+        "checked_url": "https://www.rcog.org.uk/for-the-public/browse-our-patient-information/pelvic-girdle-pain-and-pregnancy/",
+        "locator": "Treatment guidance",
+        "finding": "Seek early assessment and tailored physiotherapy; severe pain or limited mobility may require additional medical care.",
         "date": "2026-11-26",
         "access": "indexed excerpt or public guidance; not full-text appraisal"
       }

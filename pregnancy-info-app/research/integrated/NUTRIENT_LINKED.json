@@ -1,0 +1,254 @@
+[
+  {
+    "nutrient": "Calcium",
+    "amount": 1000,
+    "unit": "mg",
+    "intake_type": "RDA",
+    "life_stage": "pregnancy",
+    "age": "19–50 unless row specifies narrower age",
+    "basis": "total daily intake; not a supplemental dose",
+    "source_id": "S086",
+    "locator": "Table 1",
+    "source": {
+      "source_id": "S086",
+      "title": "Office of Dietary Supplements - Dietary Supplements and Life Stages: Pregnancy",
+      "url": "https://ods.od.nih.gov/factsheets/Pregnancy-HealthProfessional/",
+      "doi": null,
+      "pmid": null,
+      "role": "nutrient reference; not supplement prescription",
+      "verification": "selected finding or identity checked"
+    },
+    "clinical_review": false
+  },
+  {
+    "nutrient": "Choline",
+    "amount": 450,
+    "unit": "mg",
+    "intake_type": "AI",
+    "life_stage": "pregnancy",
+    "age": "19–50 unless row specifies narrower age",
+    "basis": "total daily intake; not a supplemental dose",
+    "source_id": "S086",
+    "locator": "Table 1",
+    "source": {
+      "source_id": "S086",
+      "title": "Office of Dietary Supplements - Dietary Supplements and Life Stages: Pregnancy",
+      "url": "https://ods.od.nih.gov/factsheets/Pregnancy-HealthProfessional/",
+      "doi": null,
+      "pmid": null,
+      "role": "nutrient reference; not supplement prescription",
+      "verification": "selected finding or identity checked"
+    },
+    "clinical_review": false
+  },
+  {
+    "nutrient": "Folate",
+    "amount": 600,
+    "unit": "mcg DFE",
+    "intake_type": "RDA",
+    "life_stage": "pregnancy",
+    "age": "19–50 unless row specifies narrower age",
+    "basis": "total daily intake; not a supplemental dose",
+    "source_id": "S086",
+    "locator": "Table 1",
+    "source": {
+      "source_id": "S086",
+      "title": "Office of Dietary Supplements - Dietary Supplements and Life Stages: Pregnancy",
+      "url": "https://ods.od.nih.gov/factsheets/Pregnancy-HealthProfessional/",
+      "doi": null,
+      "pmid": null,
+      "role": "nutrient reference; not supplement prescription",
+      "verification": "selected finding or identity checked"
+    },
+    "clinical_review": false
+  },
+  {
+    "nutrient": "Iodine",
+    "amount": 220,
+    "unit": "mcg",
+    "intake_type": "RDA",
+    "life_stage": "pregnancy",
+    "age": "19–50 unless row specifies narrower age",
+    "basis": "total daily intake; not a supplemental dose",
+    "source_id": "S086",
+    "locator": "Table 1",
+    "source": {
+      "source_id": "S086",
+      "title": "Office of Dietary Supplements - Dietary Supplements and Life Stages: Pregnancy",
+      "url": "https://ods.od.nih.gov/factsheets/Pregnancy-HealthProfessional/",
+      "doi": null,
+      "pmid": null,
+      "role": "nutrient reference; not supplement prescription",
+      "verification": "selected finding or identity checked"
+    },
+    "clinical_review": false
+  },
+  {
+    "nutrient": "Iron",
+    "amount": 27,
+    "unit": "mg",
+    "intake_type": "RDA",
+    "life_stage": "pregnancy",
+    "age": "19–50 unless row specifies narrower age",
+    "basis": "total daily intake; not a supplemental dose",
+    "source_id": "S086",
+    "locator": "Table 1",
+    "source": {
+      "source_id": "S086",
+      "title": "Office of Dietary Supplements - Dietary Supplements and Life Stages: Pregnancy",
+      "url": "https://ods.od.nih.gov/factsheets/Pregnancy-HealthProfessional/",
+      "doi": null,
+      "pmid": null,
+      "role": "nutrient reference; not supplement prescription",
+      "verification": "selected finding or identity checked"
+    },
+    "clinical_review": false
+  },
+  {
+    "nutrient": "Magnesium (ages 19–30)",
+    "amount": 350,
+    "unit": "mg",
+    "intake_type": "RDA",
+    "life_stage": "pregnancy",
+    "age": "19–50 unless row specifies narrower age",
+    "basis": "total daily intake; not a supplemental dose",
+    "source_id": "S086",
+    "locator": "Table 1",
+    "source": {
+      "source_id": "S086",
+      "title": "Office of Dietary Supplements - Dietary Supplements and Life Stages: Pregnancy",
+      "url": "https://ods.od.nih.gov/factsheets/Pregnancy-HealthProfessional/",
+      "doi": null,
+      "pmid": null,
+      "role": "nutrient reference; not supplement prescription",
+      "verification": "selected finding or identity checked"
+    },
+    "clinical_review": false
+  },
+  {
+    "nutrient": "Magnesium (ages 31–50)",
+    "amount": 360,
+    "unit": "mg",
+    "intake_type": "RDA",
+    "life_stage": "pregnancy",
+    "age": "19–50 unless row specifies narrower age",
+    "basis": "total daily intake; not a supplemental dose",
+    "source_id": "S086",
+    "locator": "Table 1",
+    "source": {
+      "source_id": "S086",
+      "title": "Office of Dietary Supplements - Dietary Supplements and Life Stages: Pregnancy",
+      "url": "https://ods.od.nih.gov/factsheets/Pregnancy-HealthProfessional/",
+      "doi": null,
+      "pmid": null,
+      "role": "nutrient reference; not supplement prescription",
+      "verification": "selected finding or identity checked"
+    },
+    "clinical_review": false
+  },
+  {
+    "nutrient": "Omega-3 as ALA",
+    "amount": 1.4,
+    "unit": "g",
+    "intake_type": "AI",
+    "life_stage": "pregnancy",
+    "age": "19–50 unless row specifies narrower age",
+    "basis": "total daily intake; not a supplemental dose",
+    "source_id": "S086",
+    "locator": "Table 1",
+    "source": {
+      "source_id": "S086",
+      "title": "Office of Dietary Supplements - Dietary Supplements and Life Stages: Pregnancy",
+      "url": "https://ods.od.nih.gov/factsheets/Pregnancy-HealthProfessional/",
+      "doi": null,
+      "pmid": null,
+      "role": "nutrient reference; not supplement prescription",
+      "verification": "selected finding or identity checked"
+    },
+    "clinical_review": false
+  },
+  {
+    "nutrient": "Vitamin B12",
+    "amount": 2.6,
+    "unit": "mcg",
+    "intake_type": "RDA",
+    "life_stage": "pregnancy",
+    "age": "19–50 unless row specifies narrower age",
+    "basis": "total daily intake; not a supplemental dose",
+    "source_id": "S086",
+    "locator": "Table 1",
+    "source": {
+      "source_id": "S086",
+      "title": "Office of Dietary Supplements - Dietary Supplements and Life Stages: Pregnancy",
+      "url": "https://ods.od.nih.gov/factsheets/Pregnancy-HealthProfessional/",
+      "doi": null,
+      "pmid": null,
+      "role": "nutrient reference; not supplement prescription",
+      "verification": "selected finding or identity checked"
+    },
+    "clinical_review": false
+  },
+  {
+    "nutrient": "Vitamin C",
+    "amount": 85,
+    "unit": "mg",
+    "intake_type": "RDA",
+    "life_stage": "pregnancy",
+    "age": "19–50 unless row specifies narrower age",
+    "basis": "total daily intake; not a supplemental dose",
+    "source_id": "S086",
+    "locator": "Table 1",
+    "source": {
+      "source_id": "S086",
+      "title": "Office of Dietary Supplements - Dietary Supplements and Life Stages: Pregnancy",
+      "url": "https://ods.od.nih.gov/factsheets/Pregnancy-HealthProfessional/",
+      "doi": null,
+      "pmid": null,
+      "role": "nutrient reference; not supplement prescription",
+      "verification": "selected finding or identity checked"
+    },
+    "clinical_review": false
+  },
+  {
+    "nutrient": "Vitamin D",
+    "amount": 15,
+    "unit": "mcg",
+    "intake_type": "RDA",
+    "life_stage": "pregnancy",
+    "age": "19–50 unless row specifies narrower age",
+    "basis": "total daily intake; not a supplemental dose",
+    "source_id": "S086",
+    "locator": "Table 1",
+    "source": {
+      "source_id": "S086",
+      "title": "Office of Dietary Supplements - Dietary Supplements and Life Stages: Pregnancy",
+      "url": "https://ods.od.nih.gov/factsheets/Pregnancy-HealthProfessional/",
+      "doi": null,
+      "pmid": null,
+      "role": "nutrient reference; not supplement prescription",
+      "verification": "selected finding or identity checked"
+    },
+    "clinical_review": false
+  },
+  {
+    "nutrient": "Zinc",
+    "amount": 11,
+    "unit": "mg",
+    "intake_type": "RDA",
+    "life_stage": "pregnancy",
+    "age": "19–50 unless row specifies narrower age",
+    "basis": "total daily intake; not a supplemental dose",
+    "source_id": "S086",
+    "locator": "Table 1",
+    "source": {
+      "source_id": "S086",
+      "title": "Office of Dietary Supplements - Dietary Supplements and Life Stages: Pregnancy",
+      "url": "https://ods.od.nih.gov/factsheets/Pregnancy-HealthProfessional/",
+      "doi": null,
+      "pmid": null,
+      "role": "nutrient reference; not supplement prescription",
+      "verification": "selected finding or identity checked"
+    },
+    "clinical_review": false
+  }
+]

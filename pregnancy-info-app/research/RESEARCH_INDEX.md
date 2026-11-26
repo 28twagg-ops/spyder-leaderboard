@@ -34,3 +34,6 @@ Read [the continuation audit](continuation/README.md) for the prioritized eviden
 
 ## Implementation-ready content and UX research
 See [implementation handoff](implementation-handoff/README.md) for all-topic quick cards, phase summaries, targeted clinical follow-ups, visual learning sources, comparator research, media catalog and structural validation.
+
+## Integrated source and content layer
+Start at [integrated research](integrated/README.md), [source directory](integrated/SOURCE_DIRECTORY.md) and [topic citations](integrated/TOPIC_CITATION_GUIDE.md). All topic, claim, timeline, study, chart, nutrient, UX and media records now have traceable source links. See the [review queue](integrated/OPEN_REVIEW_QUEUE.md) for scientific limits.

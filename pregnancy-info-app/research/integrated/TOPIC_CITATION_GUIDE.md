@@ -65,15 +65,15 @@ Context: [S028](https://pubmed.ncbi.nlm.nih.gov/37286390/), [S030](https://doi.o
 ## ABD-002: Do belly binders work?
 **takeaway:** A binder may help early discomfort. Permanent reshaping is unproven.
 
-Selected sources: not independently checked at field level; see context below.
+Selected sources: [S040](https://obgyn.onlinelibrary.wiley.com/doi/10.1002/ijgo.13607), [S039](https://pubmed.ncbi.nlm.nih.gov/26892694/).
 
 **action:** Ask about support if recovering from cesarean birth.
 
-Selected sources: not independently checked at field level; see context below.
+Selected sources: [S040](https://obgyn.onlinelibrary.wiley.com/doi/10.1002/ijgo.13607), [N315](https://www.nhs.uk/tests-and-treatments/caesarean-section/recovery/).
 
 **safety:** After cesarean, clinician review of incision, fit and symptoms is appropriate. Rectus diastasis, hernia and wound separation require different evaluations.
 
-Selected sources: not independently checked at field level; see context below.
+Selected sources: [N315](https://www.nhs.uk/tests-and-treatments/caesarean-section/recovery/).
 
 Context: [S035](https://pmc.ncbi.nlm.nih.gov/articles/PMC10364860/), [S036](https://pubmed.ncbi.nlm.nih.gov/39793406/), [S038](https://pubmed.ncbi.nlm.nih.gov/39780504/), [S039](https://pubmed.ncbi.nlm.nih.gov/26892694/), [S041](https://pubmed.ncbi.nlm.nih.gov/31642725/), [S207](https://pubmed.ncbi.nlm.nih.gov/37266593/).
 
@@ -88,7 +88,7 @@ Selected sources: [S044](https://pubmed.ncbi.nlm.nih.gov/19083576/).
 
 **safety:** Support may be chosen across stages for comfort. A cosmetic procedure during recovery or lactation needs specialist assessment. Do not frame formula, breastfeeding or combined feeding as a cosmetic intervention.
 
-Selected sources: not independently checked at field level; see context below.
+Selected sources: [N316](https://www.cdc.gov/breastfeeding-special-circumstances/hcp/illnesses-conditions/breast-surgery.html).
 
 Context: [S044](https://pubmed.ncbi.nlm.nih.gov/19083576/), [S045](https://pubmed.ncbi.nlm.nih.gov/20354434/), [S046](https://physicianguidetobreastfeeding.org/wp-content/uploads/2021/09/Krautsystemicreviewbreastfeedingafterreduction.pdf), [S202](https://www.jwomenssportsmed.org/index.php/jwsm/article/view/49), [S203](https://irep.ntu.ac.uk/id/eprint/53662/1/2386876_Griggs.pdf).
 
@@ -148,7 +148,7 @@ Selected sources: [S069](https://www.cochrane.org/evidence/CD007471_how-effectiv
 
 **safety:** During pregnancy or recovery, supervision is useful for pain or difficulty contracting/relaxing. Discuss contraception before sex if pregnancy is undesired, including while breastfeeding.
 
-Selected sources: not independently checked at field level; see context below.
+Selected sources: [S193](https://www.nice.org.uk/guidance/ng210/chapter/Recommendations).
 
 Context: [S069](https://www.cochrane.org/evidence/CD007471_how-effective-pelvic-floor-muscle-training-undertaken-during-pregnancy-or-after-birth-preventing-or), [S070](https://pubmed.ncbi.nlm.nih.gov/12576255/), [S071](https://pubmed.ncbi.nlm.nih.gov/36418566/), [S072](https://pubmed.ncbi.nlm.nih.gov/24983687/), [S193](https://www.nice.org.uk/guidance/ng210/chapter/Recommendations), [S194](https://pmc.ncbi.nlm.nih.gov/articles/PMC10953682/), [S200](https://www.nhs.uk/baby/support-and-services/sex-and-contraception-after-birth/).
 
@@ -163,7 +163,7 @@ Selected sources: [S170](https://www.cochrane.org/evidence/CD005123_antenatal-pe
 
 **safety:** Antenatal measures belong in late pregnancy with maternity-team advice. Intrapartum techniques require consent. Compare planned vaginal, assisted and cesarean pathways with individual clinical indications and preferences.
 
-Selected sources: not independently checked at field level; see context below.
+Selected sources: [N318](https://www.nct.org.uk/information/labour-birth/planning-birth/how-do-perineal-massage-step-step-guide), [S074](https://www.cochrane.org/evidence/CD016148_what-are-benefits-and-risks-different-perineal-techniques-during-second-stage-labour-preventing-post).
 
 Context: [S074](https://www.cochrane.org/evidence/CD016148_what-are-benefits-and-risks-different-perineal-techniques-during-second-stage-labour-preventing-post), [S077](https://pmc.ncbi.nlm.nih.gov/articles/PMC31922/), [S079](https://www.cochrane.org/evidence/CD009124_pushing-methods-second-stage-labour), [S080](https://www.bmj.com/content/359/bmj.j4471), [S169](https://www.cochrane.org/evidence/CD003766_continuous-support-women-during-childbirth), [S170](https://www.cochrane.org/evidence/CD005123_antenatal-perineal-massage-reducing-perineal-trauma), [S181](https://www.rcog.org.uk/for-the-public/browse-our-patient-information/considering-a-caesarean-birth), [S182](https://www.nice.org.uk/guidance/ng192/resources/caesarean-birth-pdf-66142078788805).
 
@@ -189,11 +189,11 @@ Selected sources: [S094](https://www.cochrane.org/evidence/CD009951_probiotiki-d
 
 **action:** Discuss concentrated supplements before using them in pregnancy.
 
-Selected sources: not independently checked at field level; see context below.
+Selected sources: [N319](https://mothertobaby.org/fact-sheets/herbal-products-pregnancy/), [N320](https://mothertobaby.org/fact-sheets/ginger-pregnancy/).
 
 **safety:** Culinary intake differs from concentrated products. Do not infer rare fetal safety from short trials. Report product, timing and symptoms to clinician. Third-party testing addresses aspects of product quality, not clinical benefit.
 
-Selected sources: not independently checked at field level; see context below.
+Selected sources: [N319](https://mothertobaby.org/fact-sheets/herbal-products-pregnancy/), [N320](https://mothertobaby.org/fact-sheets/ginger-pregnancy/).
 
 Context: [S086](https://ods.od.nih.gov/factsheets/Pregnancy-HealthProfessional/), [S094](https://www.cochrane.org/evidence/CD009951_probiotiki-dlya-profilaktiki-gestacionnogo-sakharnogo-diabeta), [S095](https://pubmed.ncbi.nlm.nih.gov/38447676/), [S096](https://www.cochrane.org/evidence/CD012970_probiotics-added-treatment-gestational-diabetes-improve-mother-and-baby-outcomes), [S098](https://pmc.ncbi.nlm.nih.gov/articles/PMC10657457/), [S099](https://pubmed.ncbi.nlm.nih.gov/11275030/), [S100](https://pubmed.ncbi.nlm.nih.gov/15051552/), [S102](https://pmc.ncbi.nlm.nih.gov/articles/PMC11536023/), [S131](https://www.cdc.gov/hearher/maternal-warning-signs/index.html?itid=cb_box_KFOSGTLGLBECXDG2D3EHKHZARA_1), [S190](https://pmc.ncbi.nlm.nih.gov/articles/PMC12291183/), [S201](https://ods.od.nih.gov/factsheets/WYNTK-Consumer/).
 
@@ -223,7 +223,7 @@ Selected sources: [S110](https://www.aad.org/public/diseases/hair-loss/insider/n
 
 **safety:** Medication decisions differ in pregnancy and lactation. Minoxidil needs a product- and infant-specific assessment. Typical postpartum shedding does not establish deficiency.
 
-Selected sources: not independently checked at field level; see context below.
+Selected sources: [N321](https://www.ncbi.nlm.nih.gov/books/NBK501032/).
 
 Context: [S110](https://www.aad.org/public/diseases/hair-loss/insider/new-moms), [S111](https://pubmed.ncbi.nlm.nih.gov/23682615/), [S112](https://pubmed.ncbi.nlm.nih.gov/43048788/), [S114](https://pmc.ncbi.nlm.nih.gov/articles/PMC10846762/), [S115](https://pmc.ncbi.nlm.nih.gov/articles/PMC9274946/), [S117](https://www.ncbi.nlm.nih.gov/sites/books/NBK501032/), [S205](https://www.medlineplus.gov/ency/patientinstructions/000611.htm).
 
@@ -234,7 +234,7 @@ Selected sources: [S121](https://www.cochrane.org/hr/evidence/CD013357_silicone-
 
 **action:** Contact maternity care for concerning wound changes.
 
-Selected sources: not independently checked at field level; see context below.
+Selected sources: [N315](https://www.nhs.uk/tests-and-treatments/caesarean-section/recovery/).
 
 **safety:** Immediate postpartum: wound and infection assessment. Following closure: discuss silicone or scar therapy if symptomatic. Delay massage or elective devices until healing is assessed. Severe bleeding or systemic illness needs urgent care.
 
@@ -268,7 +268,7 @@ Selected sources: [S134](https://pubmed.ncbi.nlm.nih.gov/15778231/).
 
 **safety:** Antenatal treatment should be adapted to pregnancy by trained clinicians. Persistent postpartum pain or impaired mobility should prompt reassessment; provocative self-testing is unnecessary.
 
-Selected sources: not independently checked at field level; see context below.
+Selected sources: [N322](https://www.rcog.org.uk/for-the-public/browse-our-patient-information/pelvic-girdle-pain-and-pregnancy/).
 
 Context: [S134](https://pubmed.ncbi.nlm.nih.gov/15778231/), [S135](https://doi.org/10.1097/jwh.0000000000000236), [S136](https://obgyn.onlinelibrary.wiley.com/doi/10.1111/1471-0528.70171), [S137](https://obgyn.onlinelibrary.wiley.com/doi/pdfdirect/10.1111/aogs.12681), [S139](https://pubmed.ncbi.nlm.nih.gov/23117270/), [S140](https://www.nice.org.uk/guidance/ng201/resources/antenatal-care-pdf-66143709695941), [S213](https://publications.ersnet.org/lookup/doi/10.1183/20734735.008615), [S220](https://pubmed.ncbi.nlm.nih.gov/18947338/).
 

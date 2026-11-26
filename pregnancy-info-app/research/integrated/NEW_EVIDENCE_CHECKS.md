@@ -1,6 +1,6 @@
 # Targeted evidence checks — 2026-11-26
 
-Selected indexed abstracts and public guidance, not full-text review.
+Indexed abstracts and publisher/guidance excerpts, not a comprehensive full-text audit.
 
 ## S001 — Topical preparations for preventing stretch marks in pregnancy | Cochrane
 Reliable topical prevention not established; combination products cannot isolate ingredients.
@@ -276,3 +276,53 @@ Knowledge MD 11.90/100 (10.60–13.19), 107 studies 25492.
 36 apps assessed for guidance, commercialization and user perceptions.
 
 [Original source](https://pubmed.ncbi.nlm.nih.gov/39587534/) · Abstract · indexed excerpt or public guidance; not full-text appraisal.
+
+## S040 — The effectiveness of the abdominal binder in relieving pain after cesarean delivery: A systematic review and meta-analysis of randomized controlled trials
+Pooled 24h pain MD -1.76 (95% CI -3.14 to -.39), 48h MD -1.21 (-1.51 to -.90). Short-term pain, not permanent shape.
+
+[Original source](https://pubmed.ncbi.nlm.nih.gov/33471362/) · Abstract results · indexed excerpt or public guidance; not full-text appraisal.
+
+## S039 — A randomized controlled trial of abdominal binders for the management of postoperative pain and distress after cesarean delivery
+No significant differences in pain or distress on day 1 or 2 in this trial. It may overlap pooled evidence; do not count separately as independent of the review.
+
+[Original source](https://pubmed.ncbi.nlm.nih.gov/26892694/) · Abstract results · indexed excerpt or public guidance; not full-text appraisal.
+
+## N315 — NHS cesarean recovery
+Wound care and assessment for signs of infection or blood clot. No scar treatment on open wounds.
+
+[Original source](https://www.nhs.uk/tests-and-treatments/caesarean-section/recovery/) · Looking after wound; when to seek advice · indexed excerpt or public guidance; not full-text appraisal.
+
+## N316 — CDC breast surgery and breastfeeding
+Prior breast surgery can affect feeding; offer lactation support and individual assessment.
+
+[Original source](https://www.cdc.gov/breastfeeding-special-circumstances/hcp/illnesses-conditions/breast-surgery.html) · Clinical support section · indexed excerpt or public guidance; not full-text appraisal.
+
+## S193 — Recommendations | Pelvic floor dysfunction: prevention and non-surgical management  | Guidance | NICE
+Supervised training should be tailored to ability to contract and relax, discomfort and goals.
+
+[Original source](https://www.nice.org.uk/guidance/ng210/chapter/Recommendations) · Recommendation 1.3.16 · indexed excerpt or public guidance; not full-text appraisal.
+
+## N318 — Perineal massage guide
+Late pregnancy; suspected infection requires discussion before massage. Secondary educational source.
+
+[Original source](https://www.nct.org.uk/information/labour-birth/planning-birth/how-do-perineal-massage-step-step-guide) · Safety and timing · indexed excerpt or public guidance; not full-text appraisal.
+
+## N319 — MotherToBaby herbal products
+Review concentrated supplements with clinician; lack of data and variability in formulations.
+
+[Original source](https://mothertobaby.org/fact-sheets/herbal-products-pregnancy/) · Pregnancy and breastfeeding guidance · indexed excerpt or public guidance; not full-text appraisal.
+
+## N320 — MotherToBaby ginger
+Insufficient data for supplemental ginger during breastfeeding; culinary exposure distinct.
+
+[Original source](https://mothertobaby.org/fact-sheets/ginger-pregnancy/) · Breastfeeding section · indexed excerpt or public guidance; not full-text appraisal.
+
+## N321 — LactMed minoxidil
+Route and infant age matter; avoid infant contact with treated skin. Individual medication review.
+
+[Original source](https://www.ncbi.nlm.nih.gov/books/NBK501032/) · Summary of use during lactation · indexed excerpt or public guidance; not full-text appraisal.
+
+## N322 — RCOG pelvic girdle pain and pregnancy
+Seek early assessment and tailored physiotherapy; severe pain or limited mobility may require additional medical care.
+
+[Original source](https://www.rcog.org.uk/for-the-public/browse-our-patient-information/pelvic-girdle-pain-and-pregnancy/) · Treatment guidance · indexed excerpt or public guidance; not full-text appraisal.

@@ -28,3 +28,6 @@ Read [implementation handoff](implementation-handoff/README.md). Import the topi
 
 ## Final content prep
 Use [mobile microcopy](implementation-handoff/MOBILE_MICROCOPY.json) for compact topic previews, [storyboards](implementation-handoff/STORYBOARD_LIBRARY.md) for original visuals, [supplemental chart records](implementation-handoff/SUPPLEMENTAL_CHART_DATA.json) and [source reconciliation](implementation-handoff/SOURCE_RECONCILIATION.json) for integration. Full quick cards and deep articles remain available. Never infer safety from phase navigation. Review actual content, accessibility and scientific interpretation before publication.
+
+## Preferred import layer
+Use integrated/README.md and the integrated JSON files rather than manually joining disparate prior data. Use canonical IDs for visible claim/chart/phase citations, source details and reverse navigation. Distinguish selected source checks from inherited claims and media candidates. Do not count overlapping study rows as independent or promote unreviewed medical content. Claude retains architecture and design authority.

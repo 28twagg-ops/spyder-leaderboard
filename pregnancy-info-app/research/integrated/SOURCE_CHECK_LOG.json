@@ -493,5 +493,95 @@
     "finding": "36 apps assessed for guidance, commercialization and user perceptions.",
     "date": "2026-11-26",
     "access": "indexed excerpt or public guidance; not full-text appraisal"
+  },
+  {
+    "source_id": "S040",
+    "original_id": "N313",
+    "checked_url": "https://pubmed.ncbi.nlm.nih.gov/33471362/",
+    "locator": "Abstract results",
+    "finding": "Pooled 24h pain MD -1.76 (95% CI -3.14 to -.39), 48h MD -1.21 (-1.51 to -.90). Short-term pain, not permanent shape.",
+    "date": "2026-11-26",
+    "access": "indexed excerpt or public guidance; not full-text appraisal"
+  },
+  {
+    "source_id": "S039",
+    "original_id": "N314",
+    "checked_url": "https://pubmed.ncbi.nlm.nih.gov/26892694/",
+    "locator": "Abstract results",
+    "finding": "No significant differences in pain or distress on day 1 or 2 in this trial. It may overlap pooled evidence; do not count separately as independent of the review.",
+    "date": "2026-11-26",
+    "access": "indexed excerpt or public guidance; not full-text appraisal"
+  },
+  {
+    "source_id": "N315",
+    "original_id": "N315",
+    "checked_url": "https://www.nhs.uk/tests-and-treatments/caesarean-section/recovery/",
+    "locator": "Looking after wound; when to seek advice",
+    "finding": "Wound care and assessment for signs of infection or blood clot. No scar treatment on open wounds.",
+    "date": "2026-11-26",
+    "access": "indexed excerpt or public guidance; not full-text appraisal"
+  },
+  {
+    "source_id": "N316",
+    "original_id": "N316",
+    "checked_url": "https://www.cdc.gov/breastfeeding-special-circumstances/hcp/illnesses-conditions/breast-surgery.html",
+    "locator": "Clinical support section",
+    "finding": "Prior breast surgery can affect feeding; offer lactation support and individual assessment.",
+    "date": "2026-11-26",
+    "access": "indexed excerpt or public guidance; not full-text appraisal"
+  },
+  {
+    "source_id": "S193",
+    "original_id": "N317",
+    "checked_url": "https://www.nice.org.uk/guidance/ng210/chapter/Recommendations",
+    "locator": "Recommendation 1.3.16",
+    "finding": "Supervised training should be tailored to ability to contract and relax, discomfort and goals.",
+    "date": "2026-11-26",
+    "access": "indexed excerpt or public guidance; not full-text appraisal"
+  },
+  {
+    "source_id": "N318",
+    "original_id": "N318",
+    "checked_url": "https://www.nct.org.uk/information/labour-birth/planning-birth/how-do-perineal-massage-step-step-guide",
+    "locator": "Safety and timing",
+    "finding": "Late pregnancy; suspected infection requires discussion before massage. Secondary educational source.",
+    "date": "2026-11-26",
+    "access": "indexed excerpt or public guidance; not full-text appraisal"
+  },
+  {
+    "source_id": "N319",
+    "original_id": "N319",
+    "checked_url": "https://mothertobaby.org/fact-sheets/herbal-products-pregnancy/",
+    "locator": "Pregnancy and breastfeeding guidance",
+    "finding": "Review concentrated supplements with clinician; lack of data and variability in formulations.",
+    "date": "2026-11-26",
+    "access": "indexed excerpt or public guidance; not full-text appraisal"
+  },
+  {
+    "source_id": "N320",
+    "original_id": "N320",
+    "checked_url": "https://mothertobaby.org/fact-sheets/ginger-pregnancy/",
+    "locator": "Breastfeeding section",
+    "finding": "Insufficient data for supplemental ginger during breastfeeding; culinary exposure distinct.",
+    "date": "2026-11-26",
+    "access": "indexed excerpt or public guidance; not full-text appraisal"
+  },
+  {
+    "source_id": "N321",
+    "original_id": "N321",
+    "checked_url": "https://www.ncbi.nlm.nih.gov/books/NBK501032/",
+    "locator": "Summary of use during lactation",
+    "finding": "Route and infant age matter; avoid infant contact with treated skin. Individual medication review.",
+    "date": "2026-11-26",
+    "access": "indexed excerpt or public guidance; not full-text appraisal"
+  },
+  {
+    "source_id": "N322",
+    "original_id": "N322",
+    "checked_url": "https://www.rcog.org.uk/for-the-public/browse-our-patient-information/pelvic-girdle-pain-and-pregnancy/",
+    "locator": "Treatment guidance",
+    "finding": "Seek early assessment and tailored physiotherapy; severe pain or limited mobility may require additional medical care.",
+    "date": "2026-11-26",
+    "access": "indexed excerpt or public guidance; not full-text appraisal"
   }
 ]
