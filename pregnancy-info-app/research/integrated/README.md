@@ -8,3 +8,6 @@ Use CHART_DATA_LINKED.json, NUTRIENT_LINKED.json and STUDIES_LINKED.json for cit
 
 ## Final source-link pass
 All 66 quick-view fields now have selected source links plus original context. MEDIA_LINK_AUDIT.md documents link checks and two inaccessible candidate videos. Video query IDs are preserved. Source registry includes 312 source/resource records across different types; not a count of unique medical studies. No clinician review or complete primary full-text audit. Use current integration QA and review queue for the actual status.
+
+## Reproducible structural checks
+From this directory run `python3 validate_import.py`. This is dependency-free and checks source IDs/URLs, aliases, quick fields and chart constraints; it does not certify scientific validity. A current-pass JavaScript equivalent checked 1,578 nested links across the principal clinical, topic, timeline and media records, with zero mismatches. The Python script has been authored but not executed in this GitHub-only pass. Matching chart numbers are explicitly flagged; preserve overlap rules.

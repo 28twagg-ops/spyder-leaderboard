@@ -32,7 +32,9 @@
       "primary_source": null,
       "clinical_review": false,
       "publication_status": "research preview only",
-      "overlap_warning": "Do not pool or count this row as independent until cohort/outcome identity checked"
+      "overlap_warning": "Do not pool or count this row as independent until cohort/outcome identity checked",
+      "possible_duplicate_interval_ids": [],
+      "show_as_independent_trial": false
     },
     {
       "id": "O002",
@@ -66,7 +68,9 @@
       "primary_source": null,
       "clinical_review": false,
       "publication_status": "research preview only",
-      "overlap_warning": "Do not pool or count this row as independent until cohort/outcome identity checked"
+      "overlap_warning": "Do not pool or count this row as independent until cohort/outcome identity checked",
+      "possible_duplicate_interval_ids": [],
+      "show_as_independent_trial": false
     },
     {
       "id": "O003",
@@ -100,7 +104,9 @@
       "primary_source": null,
       "clinical_review": false,
       "publication_status": "research preview only",
-      "overlap_warning": "Do not pool or count this row as independent until cohort/outcome identity checked"
+      "overlap_warning": "Do not pool or count this row as independent until cohort/outcome identity checked",
+      "possible_duplicate_interval_ids": [],
+      "show_as_independent_trial": false
     },
     {
       "id": "O004",
@@ -134,7 +140,9 @@
       "primary_source": null,
       "clinical_review": false,
       "publication_status": "research preview only",
-      "overlap_warning": "Do not pool or count this row as independent until cohort/outcome identity checked"
+      "overlap_warning": "Do not pool or count this row as independent until cohort/outcome identity checked",
+      "possible_duplicate_interval_ids": [],
+      "show_as_independent_trial": false
     },
     {
       "id": "O005",
@@ -168,7 +176,9 @@
       "primary_source": null,
       "clinical_review": false,
       "publication_status": "research preview only",
-      "overlap_warning": "Do not pool or count this row as independent until cohort/outcome identity checked"
+      "overlap_warning": "Do not pool or count this row as independent until cohort/outcome identity checked",
+      "possible_duplicate_interval_ids": [],
+      "show_as_independent_trial": false
     },
     {
       "id": "O006",
@@ -202,7 +212,9 @@
       "primary_source": null,
       "clinical_review": false,
       "publication_status": "research preview only",
-      "overlap_warning": "Do not pool or count this row as independent until cohort/outcome identity checked"
+      "overlap_warning": "Do not pool or count this row as independent until cohort/outcome identity checked",
+      "possible_duplicate_interval_ids": [],
+      "show_as_independent_trial": false
     },
     {
       "id": "O007",
@@ -236,7 +248,9 @@
       "primary_source": null,
       "clinical_review": false,
       "publication_status": "research preview only",
-      "overlap_warning": "Do not pool or count this row as independent until cohort/outcome identity checked"
+      "overlap_warning": "Do not pool or count this row as independent until cohort/outcome identity checked",
+      "possible_duplicate_interval_ids": [],
+      "show_as_independent_trial": false
     },
     {
       "id": "O008",
@@ -270,7 +284,9 @@
       "primary_source": null,
       "clinical_review": false,
       "publication_status": "research preview only",
-      "overlap_warning": "Do not pool or count this row as independent until cohort/outcome identity checked"
+      "overlap_warning": "Do not pool or count this row as independent until cohort/outcome identity checked",
+      "possible_duplicate_interval_ids": [],
+      "show_as_independent_trial": false
     },
     {
       "id": "O009",
@@ -304,7 +320,9 @@
       "primary_source": null,
       "clinical_review": false,
       "publication_status": "research preview only",
-      "overlap_warning": "Do not pool or count this row as independent until cohort/outcome identity checked"
+      "overlap_warning": "Do not pool or count this row as independent until cohort/outcome identity checked",
+      "possible_duplicate_interval_ids": [],
+      "show_as_independent_trial": false
     },
     {
       "id": "O010",
@@ -338,7 +356,9 @@
       "primary_source": null,
       "clinical_review": false,
       "publication_status": "research preview only",
-      "overlap_warning": "Do not pool or count this row as independent until cohort/outcome identity checked"
+      "overlap_warning": "Do not pool or count this row as independent until cohort/outcome identity checked",
+      "possible_duplicate_interval_ids": [],
+      "show_as_independent_trial": false
     },
     {
       "id": "O011",
@@ -372,7 +392,9 @@
       "primary_source": null,
       "clinical_review": false,
       "publication_status": "research preview only",
-      "overlap_warning": "Do not pool or count this row as independent until cohort/outcome identity checked"
+      "overlap_warning": "Do not pool or count this row as independent until cohort/outcome identity checked",
+      "possible_duplicate_interval_ids": [],
+      "show_as_independent_trial": false
     },
     {
       "id": "O012",
@@ -406,7 +428,9 @@
       "primary_source": null,
       "clinical_review": false,
       "publication_status": "research preview only",
-      "overlap_warning": "Do not pool or count this row as independent until cohort/outcome identity checked"
+      "overlap_warning": "Do not pool or count this row as independent until cohort/outcome identity checked",
+      "possible_duplicate_interval_ids": [],
+      "show_as_independent_trial": false
     },
     {
       "id": "O013",
@@ -440,7 +464,9 @@
       "primary_source": null,
       "clinical_review": false,
       "publication_status": "research preview only",
-      "overlap_warning": "Do not pool or count this row as independent until cohort/outcome identity checked"
+      "overlap_warning": "Do not pool or count this row as independent until cohort/outcome identity checked",
+      "possible_duplicate_interval_ids": [],
+      "show_as_independent_trial": false
     },
     {
       "id": "O014",
@@ -474,7 +500,9 @@
       "primary_source": null,
       "clinical_review": false,
       "publication_status": "research preview only",
-      "overlap_warning": "Do not pool or count this row as independent until cohort/outcome identity checked"
+      "overlap_warning": "Do not pool or count this row as independent until cohort/outcome identity checked",
+      "possible_duplicate_interval_ids": [],
+      "show_as_independent_trial": false
     },
     {
       "id": "O015",
@@ -508,7 +536,9 @@
       "primary_source": null,
       "clinical_review": false,
       "publication_status": "research preview only",
-      "overlap_warning": "Do not pool or count this row as independent until cohort/outcome identity checked"
+      "overlap_warning": "Do not pool or count this row as independent until cohort/outcome identity checked",
+      "possible_duplicate_interval_ids": [],
+      "show_as_independent_trial": false
     },
     {
       "id": "O016",
@@ -542,7 +572,9 @@
       "primary_source": null,
       "clinical_review": false,
       "publication_status": "research preview only",
-      "overlap_warning": "Do not pool or count this row as independent until cohort/outcome identity checked"
+      "overlap_warning": "Do not pool or count this row as independent until cohort/outcome identity checked",
+      "possible_duplicate_interval_ids": [],
+      "show_as_independent_trial": false
     },
     {
       "id": "O017",
@@ -576,7 +608,9 @@
       "primary_source": null,
       "clinical_review": false,
       "publication_status": "research preview only",
-      "overlap_warning": "Do not pool or count this row as independent until cohort/outcome identity checked"
+      "overlap_warning": "Do not pool or count this row as independent until cohort/outcome identity checked",
+      "possible_duplicate_interval_ids": [],
+      "show_as_independent_trial": false
     },
     {
       "id": "O018",
@@ -610,7 +644,9 @@
       "primary_source": null,
       "clinical_review": false,
       "publication_status": "research preview only",
-      "overlap_warning": "Do not pool or count this row as independent until cohort/outcome identity checked"
+      "overlap_warning": "Do not pool or count this row as independent until cohort/outcome identity checked",
+      "possible_duplicate_interval_ids": [],
+      "show_as_independent_trial": false
     },
     {
       "id": "O019",
@@ -644,7 +680,9 @@
       "primary_source": null,
       "clinical_review": false,
       "publication_status": "research preview only",
-      "overlap_warning": "Do not pool or count this row as independent until cohort/outcome identity checked"
+      "overlap_warning": "Do not pool or count this row as independent until cohort/outcome identity checked",
+      "possible_duplicate_interval_ids": [],
+      "show_as_independent_trial": false
     },
     {
       "id": "O020",
@@ -678,7 +716,9 @@
       "primary_source": null,
       "clinical_review": false,
       "publication_status": "research preview only",
-      "overlap_warning": "Do not pool or count this row as independent until cohort/outcome identity checked"
+      "overlap_warning": "Do not pool or count this row as independent until cohort/outcome identity checked",
+      "possible_duplicate_interval_ids": [],
+      "show_as_independent_trial": false
     },
     {
       "id": "O021",
@@ -712,7 +752,9 @@
       "primary_source": null,
       "clinical_review": false,
       "publication_status": "research preview only",
-      "overlap_warning": "Do not pool or count this row as independent until cohort/outcome identity checked"
+      "overlap_warning": "Do not pool or count this row as independent until cohort/outcome identity checked",
+      "possible_duplicate_interval_ids": [],
+      "show_as_independent_trial": false
     },
     {
       "id": "O022",
@@ -746,7 +788,9 @@
       "primary_source": null,
       "clinical_review": false,
       "publication_status": "research preview only",
-      "overlap_warning": "Do not pool or count this row as independent until cohort/outcome identity checked"
+      "overlap_warning": "Do not pool or count this row as independent until cohort/outcome identity checked",
+      "possible_duplicate_interval_ids": [],
+      "show_as_independent_trial": false
     },
     {
       "id": "O023",
@@ -780,7 +824,9 @@
       "primary_source": null,
       "clinical_review": false,
       "publication_status": "research preview only",
-      "overlap_warning": "Do not pool or count this row as independent until cohort/outcome identity checked"
+      "overlap_warning": "Do not pool or count this row as independent until cohort/outcome identity checked",
+      "possible_duplicate_interval_ids": [],
+      "show_as_independent_trial": false
     },
     {
       "id": "O024",
@@ -814,7 +860,9 @@
       "primary_source": null,
       "clinical_review": false,
       "publication_status": "research preview only",
-      "overlap_warning": "Do not pool or count this row as independent until cohort/outcome identity checked"
+      "overlap_warning": "Do not pool or count this row as independent until cohort/outcome identity checked",
+      "possible_duplicate_interval_ids": [],
+      "show_as_independent_trial": false
     },
     {
       "id": "O025",
@@ -848,7 +896,9 @@
       "primary_source": null,
       "clinical_review": false,
       "publication_status": "research preview only",
-      "overlap_warning": "Do not pool or count this row as independent until cohort/outcome identity checked"
+      "overlap_warning": "Do not pool or count this row as independent until cohort/outcome identity checked",
+      "possible_duplicate_interval_ids": [],
+      "show_as_independent_trial": false
     },
     {
       "id": "O026",
@@ -882,7 +932,9 @@
       "primary_source": null,
       "clinical_review": false,
       "publication_status": "research preview only",
-      "overlap_warning": "Do not pool or count this row as independent until cohort/outcome identity checked"
+      "overlap_warning": "Do not pool or count this row as independent until cohort/outcome identity checked",
+      "possible_duplicate_interval_ids": [],
+      "show_as_independent_trial": false
     },
     {
       "id": "O027",
@@ -916,7 +968,9 @@
       "primary_source": null,
       "clinical_review": false,
       "publication_status": "research preview only",
-      "overlap_warning": "Do not pool or count this row as independent until cohort/outcome identity checked"
+      "overlap_warning": "Do not pool or count this row as independent until cohort/outcome identity checked",
+      "possible_duplicate_interval_ids": [],
+      "show_as_independent_trial": false
     },
     {
       "id": "O028",
@@ -950,7 +1004,9 @@
       "primary_source": null,
       "clinical_review": false,
       "publication_status": "research preview only",
-      "overlap_warning": "Do not pool or count this row as independent until cohort/outcome identity checked"
+      "overlap_warning": "Do not pool or count this row as independent until cohort/outcome identity checked",
+      "possible_duplicate_interval_ids": [],
+      "show_as_independent_trial": false
     },
     {
       "id": "O029",
@@ -984,7 +1040,9 @@
       "primary_source": null,
       "clinical_review": false,
       "publication_status": "research preview only",
-      "overlap_warning": "Do not pool or count this row as independent until cohort/outcome identity checked"
+      "overlap_warning": "Do not pool or count this row as independent until cohort/outcome identity checked",
+      "possible_duplicate_interval_ids": [],
+      "show_as_independent_trial": false
     },
     {
       "id": "O030",
@@ -1018,7 +1076,9 @@
       "primary_source": null,
       "clinical_review": false,
       "publication_status": "research preview only",
-      "overlap_warning": "Do not pool or count this row as independent until cohort/outcome identity checked"
+      "overlap_warning": "Do not pool or count this row as independent until cohort/outcome identity checked",
+      "possible_duplicate_interval_ids": [],
+      "show_as_independent_trial": false
     },
     {
       "id": "O031",
@@ -1052,7 +1112,9 @@
       "primary_source": null,
       "clinical_review": false,
       "publication_status": "research preview only",
-      "overlap_warning": "Do not pool or count this row as independent until cohort/outcome identity checked"
+      "overlap_warning": "Do not pool or count this row as independent until cohort/outcome identity checked",
+      "possible_duplicate_interval_ids": [],
+      "show_as_independent_trial": false
     },
     {
       "id": "H01",
@@ -1083,7 +1145,9 @@
       "primary_source": null,
       "clinical_review": false,
       "publication_status": "research preview only",
-      "overlap_warning": "Do not pool or count this row as independent until cohort/outcome identity checked"
+      "overlap_warning": "Do not pool or count this row as independent until cohort/outcome identity checked",
+      "possible_duplicate_interval_ids": [],
+      "show_as_independent_trial": false
     },
     {
       "id": "H02",
@@ -1114,7 +1178,9 @@
       "primary_source": null,
       "clinical_review": false,
       "publication_status": "research preview only",
-      "overlap_warning": "Do not pool or count this row as independent until cohort/outcome identity checked"
+      "overlap_warning": "Do not pool or count this row as independent until cohort/outcome identity checked",
+      "possible_duplicate_interval_ids": [],
+      "show_as_independent_trial": false
     },
     {
       "id": "H03",
@@ -1144,7 +1210,9 @@
       "primary_source": null,
       "clinical_review": false,
       "publication_status": "research preview only",
-      "overlap_warning": "Do not pool or count this row as independent until cohort/outcome identity checked"
+      "overlap_warning": "Do not pool or count this row as independent until cohort/outcome identity checked",
+      "possible_duplicate_interval_ids": [],
+      "show_as_independent_trial": false
     },
     {
       "id": "H04",
@@ -1180,7 +1248,9 @@
       "primary_source": null,
       "clinical_review": false,
       "publication_status": "research preview only",
-      "overlap_warning": "Do not pool or count this row as independent until cohort/outcome identity checked"
+      "overlap_warning": "Do not pool or count this row as independent until cohort/outcome identity checked",
+      "possible_duplicate_interval_ids": [],
+      "show_as_independent_trial": false
     },
     {
       "id": "H05",
@@ -1210,7 +1280,9 @@
       "primary_source": null,
       "clinical_review": false,
       "publication_status": "research preview only",
-      "overlap_warning": "Do not pool or count this row as independent until cohort/outcome identity checked"
+      "overlap_warning": "Do not pool or count this row as independent until cohort/outcome identity checked",
+      "possible_duplicate_interval_ids": [],
+      "show_as_independent_trial": false
     },
     {
       "id": "H06",
@@ -1240,7 +1312,9 @@
       "primary_source": null,
       "clinical_review": false,
       "publication_status": "research preview only",
-      "overlap_warning": "Do not pool or count this row as independent until cohort/outcome identity checked"
+      "overlap_warning": "Do not pool or count this row as independent until cohort/outcome identity checked",
+      "possible_duplicate_interval_ids": [],
+      "show_as_independent_trial": false
     },
     {
       "id": "H07",
@@ -1274,7 +1348,9 @@
       "primary_source": null,
       "clinical_review": false,
       "publication_status": "research preview only",
-      "overlap_warning": "Do not pool or count this row as independent until cohort/outcome identity checked"
+      "overlap_warning": "Do not pool or count this row as independent until cohort/outcome identity checked",
+      "possible_duplicate_interval_ids": [],
+      "show_as_independent_trial": false
     },
     {
       "id": "H08",
@@ -1308,7 +1384,9 @@
       "primary_source": null,
       "clinical_review": false,
       "publication_status": "research preview only",
-      "overlap_warning": "Do not pool or count this row as independent until cohort/outcome identity checked"
+      "overlap_warning": "Do not pool or count this row as independent until cohort/outcome identity checked",
+      "possible_duplicate_interval_ids": [],
+      "show_as_independent_trial": false
     },
     {
       "label": "Cochrane 2021",
@@ -1340,7 +1418,14 @@
       "primary_source": null,
       "clinical_review": false,
       "publication_status": "research preview only",
-      "overlap_warning": "Do not pool or count this row as independent until cohort/outcome identity checked"
+      "overlap_warning": "Do not pool or count this row as independent until cohort/outcome identity checked",
+      "outcome": "Preeclampsia",
+      "display_group": "probiotic-preeclampsia",
+      "possible_duplicate_interval_ids": [
+        "O016"
+      ],
+      "show_as_independent_trial": false,
+      "display_note": "Matching source and numbers; select one after confirming same outcome. Do not double count."
     },
     {
       "label": "McDougall 2024",
@@ -1372,7 +1457,14 @@
       "primary_source": null,
       "clinical_review": false,
       "publication_status": "research preview only",
-      "overlap_warning": "Do not pool or count this row as independent until cohort/outcome identity checked"
+      "overlap_warning": "Do not pool or count this row as independent until cohort/outcome identity checked",
+      "outcome": "Preeclampsia",
+      "display_group": "probiotic-preeclampsia",
+      "possible_duplicate_interval_ids": [
+        "O017"
+      ],
+      "show_as_independent_trial": false,
+      "display_note": "Matching source and numbers; select one after confirming same outcome. Do not double count."
     },
     {
       "label": "BMI-selected subgroup",
@@ -1403,7 +1495,11 @@
       "primary_source": null,
       "clinical_review": false,
       "publication_status": "research preview only",
-      "overlap_warning": "Do not pool or count this row as independent until cohort/outcome identity checked"
+      "overlap_warning": "Do not pool or count this row as independent until cohort/outcome identity checked",
+      "outcome": "Preeclampsia",
+      "display_group": "probiotic-preeclampsia",
+      "possible_duplicate_interval_ids": [],
+      "show_as_independent_trial": false
     },
     {
       "label": "Not selected by BMI",
@@ -1434,7 +1530,11 @@
       "primary_source": null,
       "clinical_review": false,
       "publication_status": "research preview only",
-      "overlap_warning": "Do not pool or count this row as independent until cohort/outcome identity checked"
+      "overlap_warning": "Do not pool or count this row as independent until cohort/outcome identity checked",
+      "outcome": "Preeclampsia",
+      "display_group": "probiotic-preeclampsia",
+      "possible_duplicate_interval_ids": [],
+      "show_as_independent_trial": false
     },
     {
       "label": "Cochrane 2018",
@@ -1463,7 +1563,14 @@
       "primary_source": null,
       "clinical_review": false,
       "publication_status": "research preview only",
-      "overlap_warning": "Do not pool or count this row as independent until cohort/outcome identity checked"
+      "overlap_warning": "Do not pool or count this row as independent until cohort/outcome identity checked",
+      "outcome": "Birth before 34 weeks",
+      "display_group": "omega3-early-preterm-birth",
+      "possible_duplicate_interval_ids": [
+        "O011"
+      ],
+      "show_as_independent_trial": false,
+      "display_note": "Matching source and numbers; select one after confirming same outcome. Do not double count."
     },
     {
       "label": "ORIP primary",
@@ -1497,7 +1604,14 @@
       "primary_source": null,
       "clinical_review": false,
       "publication_status": "research preview only",
-      "overlap_warning": "Do not pool or count this row as independent until cohort/outcome identity checked"
+      "overlap_warning": "Do not pool or count this row as independent until cohort/outcome identity checked",
+      "outcome": "Birth before 34 weeks",
+      "display_group": "omega3-early-preterm-birth",
+      "possible_duplicate_interval_ids": [
+        "O010"
+      ],
+      "show_as_independent_trial": false,
+      "display_note": "Matching source and numbers; select one after confirming same outcome. Do not double count."
     },
     {
       "label": "ORIP 2020 low baseline status",
@@ -1529,7 +1643,11 @@
       "primary_source": null,
       "clinical_review": false,
       "publication_status": "research preview only",
-      "overlap_warning": "Do not pool or count this row as independent until cohort/outcome identity checked"
+      "overlap_warning": "Do not pool or count this row as independent until cohort/outcome identity checked",
+      "outcome": "Birth before 34 weeks",
+      "display_group": "omega3-early-preterm-birth",
+      "possible_duplicate_interval_ids": [],
+      "show_as_independent_trial": false
     },
     {
       "label": "ORIP 2023 low baseline status",
@@ -1559,7 +1677,11 @@
       "primary_source": null,
       "clinical_review": false,
       "publication_status": "research preview only",
-      "overlap_warning": "Do not pool or count this row as independent until cohort/outcome identity checked"
+      "overlap_warning": "Do not pool or count this row as independent until cohort/outcome identity checked",
+      "outcome": "Birth before 34 weeks",
+      "display_group": "omega3-early-preterm-birth",
+      "possible_duplicate_interval_ids": [],
+      "show_as_independent_trial": false
     },
     {
       "label": "2025 Cochrane",
@@ -1590,7 +1712,11 @@
       "primary_source": null,
       "clinical_review": false,
       "publication_status": "research preview only",
-      "overlap_warning": "Do not pool or count this row as independent until cohort/outcome identity checked"
+      "overlap_warning": "Do not pool or count this row as independent until cohort/outcome identity checked",
+      "outcome": "Preeclampsia",
+      "display_group": "calcium-preeclampsia",
+      "possible_duplicate_interval_ids": [],
+      "show_as_independent_trial": false
     },
     {
       "label": "2026 critique sensitivity analysis",
@@ -1621,7 +1747,11 @@
       "primary_source": null,
       "clinical_review": false,
       "publication_status": "research preview only",
-      "overlap_warning": "Do not pool or count this row as independent until cohort/outcome identity checked"
+      "overlap_warning": "Do not pool or count this row as independent until cohort/outcome identity checked",
+      "outcome": "Preeclampsia",
+      "display_group": "calcium-preeclampsia",
+      "possible_duplicate_interval_ids": [],
+      "show_as_independent_trial": false
     },
     {
       "label": "Lopez-Jaramillo 1997",
@@ -1654,7 +1784,11 @@
       "primary_source": null,
       "clinical_review": false,
       "publication_status": "research preview only",
-      "overlap_warning": "Do not pool or count this row as independent until cohort/outcome identity checked"
+      "overlap_warning": "Do not pool or count this row as independent until cohort/outcome identity checked",
+      "outcome": "Preeclampsia",
+      "display_group": "calcium-preeclampsia",
+      "possible_duplicate_interval_ids": [],
+      "show_as_independent_trial": false
     },
     {
       "label": "Purwar 1996",
@@ -1683,7 +1817,11 @@
       "primary_source": null,
       "clinical_review": false,
       "publication_status": "research preview only",
-      "overlap_warning": "Do not pool or count this row as independent until cohort/outcome identity checked"
+      "overlap_warning": "Do not pool or count this row as independent until cohort/outcome identity checked",
+      "outcome": "Preeclampsia",
+      "display_group": "calcium-preeclampsia",
+      "possible_duplicate_interval_ids": [],
+      "show_as_independent_trial": false
     },
     {
       "label": "Callaway 2019",
@@ -1729,7 +1867,10 @@
       },
       "clinical_review": false,
       "publication_status": "research preview only",
-      "overlap_warning": "Do not pool or count this row as independent until cohort/outcome identity checked"
+      "overlap_warning": "Do not pool or count this row as independent until cohort/outcome identity checked",
+      "display_group": "probiotic-preeclampsia",
+      "possible_duplicate_interval_ids": [],
+      "show_as_independent_trial": false
     },
     {
       "label": "Lindsay 2014",
@@ -1775,7 +1916,10 @@
       },
       "clinical_review": false,
       "publication_status": "research preview only",
-      "overlap_warning": "Do not pool or count this row as independent until cohort/outcome identity checked"
+      "overlap_warning": "Do not pool or count this row as independent until cohort/outcome identity checked",
+      "display_group": "probiotic-preeclampsia",
+      "possible_duplicate_interval_ids": [],
+      "show_as_independent_trial": false
     },
     {
       "label": "Okesene-Gafa 2019",
@@ -1821,7 +1965,10 @@
       },
       "clinical_review": false,
       "publication_status": "research preview only",
-      "overlap_warning": "Do not pool or count this row as independent until cohort/outcome identity checked"
+      "overlap_warning": "Do not pool or count this row as independent until cohort/outcome identity checked",
+      "display_group": "probiotic-preeclampsia",
+      "possible_duplicate_interval_ids": [],
+      "show_as_independent_trial": false
     },
     {
       "label": "Pellonpera 2019",
@@ -1867,7 +2014,10 @@
       },
       "clinical_review": false,
       "publication_status": "research preview only",
-      "overlap_warning": "Do not pool or count this row as independent until cohort/outcome identity checked"
+      "overlap_warning": "Do not pool or count this row as independent until cohort/outcome identity checked",
+      "display_group": "probiotic-preeclampsia",
+      "possible_duplicate_interval_ids": [],
+      "show_as_independent_trial": false
     },
     {
       "source": {
@@ -1896,7 +2046,10 @@
       "primary_source": null,
       "clinical_review": false,
       "publication_status": "research preview only",
-      "overlap_warning": "Do not pool or count this row as independent until cohort/outcome identity checked"
+      "overlap_warning": "Do not pool or count this row as independent until cohort/outcome identity checked",
+      "display_group": "abdominal-distance",
+      "possible_duplicate_interval_ids": [],
+      "show_as_independent_trial": false
     },
     {
       "id": "I301",
@@ -1926,7 +2079,9 @@
       },
       "primary_source": null,
       "publication_status": "research preview only",
-      "overlap_warning": "Do not pool or count this row as independent until cohort/outcome identity checked"
+      "overlap_warning": "Do not pool or count this row as independent until cohort/outcome identity checked",
+      "possible_duplicate_interval_ids": [],
+      "show_as_independent_trial": false
     },
     {
       "id": "I302",
@@ -1956,7 +2111,9 @@
       },
       "primary_source": null,
       "publication_status": "research preview only",
-      "overlap_warning": "Do not pool or count this row as independent until cohort/outcome identity checked"
+      "overlap_warning": "Do not pool or count this row as independent until cohort/outcome identity checked",
+      "possible_duplicate_interval_ids": [],
+      "show_as_independent_trial": false
     },
     {
       "id": "I303",
@@ -1986,7 +2143,9 @@
       },
       "primary_source": null,
       "publication_status": "research preview only",
-      "overlap_warning": "Do not pool or count this row as independent until cohort/outcome identity checked"
+      "overlap_warning": "Do not pool or count this row as independent until cohort/outcome identity checked",
+      "possible_duplicate_interval_ids": [],
+      "show_as_independent_trial": false
     },
     {
       "id": "I304",
@@ -2016,7 +2175,9 @@
       },
       "primary_source": null,
       "publication_status": "research preview only",
-      "overlap_warning": "Do not pool or count this row as independent until cohort/outcome identity checked"
+      "overlap_warning": "Do not pool or count this row as independent until cohort/outcome identity checked",
+      "possible_duplicate_interval_ids": [],
+      "show_as_independent_trial": false
     },
     {
       "id": "I305",
@@ -2046,7 +2207,9 @@
       },
       "primary_source": null,
       "publication_status": "research preview only",
-      "overlap_warning": "Do not pool or count this row as independent until cohort/outcome identity checked"
+      "overlap_warning": "Do not pool or count this row as independent until cohort/outcome identity checked",
+      "possible_duplicate_interval_ids": [],
+      "show_as_independent_trial": false
     },
     {
       "id": "I306",
@@ -2076,7 +2239,9 @@
       },
       "primary_source": null,
       "publication_status": "research preview only",
-      "overlap_warning": "Do not pool or count this row as independent until cohort/outcome identity checked"
+      "overlap_warning": "Do not pool or count this row as independent until cohort/outcome identity checked",
+      "possible_duplicate_interval_ids": [],
+      "show_as_independent_trial": false
     },
     {
       "id": "I307",
@@ -2106,7 +2271,9 @@
       },
       "primary_source": null,
       "publication_status": "research preview only",
-      "overlap_warning": "Do not pool or count this row as independent until cohort/outcome identity checked"
+      "overlap_warning": "Do not pool or count this row as independent until cohort/outcome identity checked",
+      "possible_duplicate_interval_ids": [],
+      "show_as_independent_trial": false
     }
   ],
   "counts": [
@@ -2477,5 +2644,38 @@
     ],
     "status": "prior trial extraction; current pass confirms pooled estimates and four study names, not individual arm counts"
   },
-  "rules": "Ratios log, differences linear. Do not treat row count as number of independent trials. No pooled estimates created. No auto publication."
+  "rules": "Ratios log, differences linear. Do not treat row count as number of independent trials. No pooled estimates created. No auto publication.",
+  "research_panels": {
+    "probiotic": {
+      "ids": [
+        "K-probiotic-review-1",
+        "K-probiotic-review-2",
+        "K-probiotic-review-3",
+        "K-probiotic-review-4",
+        "K-probiotic-trial-1",
+        "K-probiotic-trial-2",
+        "K-probiotic-trial-3",
+        "K-probiotic-trial-4"
+      ],
+      "rule": "Compare narrow and broad reviews as context; separate trial-level data and review estimates. Prior trial arm counts not independently reread."
+    },
+    "calcium": {
+      "ids": [
+        "K-calcium-1",
+        "K-calcium-2",
+        "K-calcium-3",
+        "K-calcium-4"
+      ],
+      "rule": "Nested sensitivity and disputed trial secondary extraction; do not combine."
+    },
+    "omega3": {
+      "ids": [
+        "K-omega3-1",
+        "K-omega3-2",
+        "K-omega3-3",
+        "K-omega3-4"
+      ],
+      "rule": "ORIP primary and exploratory results share a cohort. ADORE separate adaptive trial and active comparator."
+    }
+  }
 }

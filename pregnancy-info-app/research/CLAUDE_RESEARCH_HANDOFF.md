@@ -31,3 +31,6 @@ Use [mobile microcopy](implementation-handoff/MOBILE_MICROCOPY.json) for compact
 
 ## Preferred import layer
 Use integrated/README.md and the integrated JSON files rather than manually joining disparate prior data. Use canonical IDs for visible claim/chart/phase citations, source details and reverse navigation. Distinguish selected source checks from inherited claims and media candidates. Do not count overlapping study rows as independent or promote unreviewed medical content. Claude retains architecture and design authority.
+
+## Final import entrypoint
+Begin with research/integrated/README.md. This layer connects all 22 topics and the 66 quick-view fields to stable source IDs, original URLs, selected evidence checks, linked charts and media statuses. Read INTEGRATION_QA.json, and run validate_import.py locally. Do not repeat basic citation joins. Preserve the review gates and unresolved scientific limitations; design and architecture remain yours.

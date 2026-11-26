@@ -24,5 +24,37 @@
     "M10"
   ],
   "media_playback_audited": 0,
-  "media_alias_url_mismatch": []
+  "media_alias_url_mismatch": [],
+  "all_nested_source_link_checks": 1578,
+  "nested_link_errors": [],
+  "duplicate_registry_ids": 0,
+  "unresolved_aliases": [],
+  "chart_rows_missing_outcome": [],
+  "possible_duplicate_interval_rows": [
+    {
+      "id": "K-probiotic-review-1",
+      "matches": [
+        "O016"
+      ]
+    },
+    {
+      "id": "K-probiotic-review-2",
+      "matches": [
+        "O017"
+      ]
+    },
+    {
+      "id": "K-omega3-1",
+      "matches": [
+        "O011"
+      ]
+    },
+    {
+      "id": "K-omega3-2",
+      "matches": [
+        "O010"
+      ]
+    }
+  ],
+  "chart_review_note": "Matching numbers flagged, not automatically collapsed. No independent trial count generated from chart rows."
 }
