@@ -1,0 +1,163 @@
+{
+  "date": "2026-11-26",
+  "scope": "Illustrative US retail label snapshots, not a ranking, medical endorsement, live inventory or personal regimen. Separate commercial label/price data from clinical sources. No affiliate links.",
+  "clinical_context": [
+    {
+      "id": "S086",
+      "url": "https://ods.od.nih.gov/factsheets/Pregnancy-HealthProfessional/",
+      "rule": "Assess food plus supplement; distinguish folic acid from DFE, elemental iron from compound mass, DHA from total omega-3, and AI/RDA from UL."
+    },
+    {
+      "id": "S204",
+      "url": "https://www.aad.org/public/everyday-care/skin-care-secrets/routine/pregnancy-skin-care",
+      "rule": "Stage-specific ingredient review and photoprotection."
+    },
+    {
+      "url": "https://www.fda.gov/consumers/consumer-updates/fda-101-dietary-supplements",
+      "rule": "Supplements not preapproved for safety and effectiveness; quality mark does not establish clinical efficacy."
+    }
+  ],
+  "products": [
+    {
+      "id": "PR-01",
+      "category": "prenatal",
+      "name": "Nature Made Prenatal Multivitamin Folic Acid + DHA Softgels",
+      "label_url": "https://www.naturemade.com/products/nature-made-prenatal-multi-dha-softgels",
+      "serving": "1 softgel",
+      "nutrients": {
+        "folic_acid_mcg": 800,
+        "folate_dfe_mcg": 1330,
+        "iron_mg": 27,
+        "iodine_mcg": 150,
+        "calcium_mg": 150,
+        "omega3_total_mg": 260,
+        "choline_mg": null
+      },
+      "quality": "USP Verified per manufacturer; independent certificate not checked",
+      "price": null,
+      "notes": "Choline not listed in retrieved label; do not silently convert missing to zero. DHA separately verify for exact SKU."
+    },
+    {
+      "id": "PR-02",
+      "category": "prenatal",
+      "name": "Nature Made Prenatal Multivitamins Softgels + Choline Capsules",
+      "label_url": "https://www.naturemade.com/products/prenatal-multi-softgels-choline-capsules",
+      "serving": "1 softgel + 1 capsule",
+      "nutrients": {
+        "folic_acid_mcg": 800,
+        "folate_dfe_mcg": 1330,
+        "iron_mg": 27,
+        "iodine_mcg": 150,
+        "calcium_mg": 150,
+        "DHA_mg": 200,
+        "EPA_mg": 60,
+        "choline_mg": 265
+      },
+      "price": {
+        "usd": 52.99,
+        "servings": 60,
+        "cost_per_30_days_usd": 26.5,
+        "source": "manufacturer one-time price; 120 total pieces",
+        "tax_shipping_excluded": true
+      },
+      "quality": "Not independently checked for this combination SKU",
+      "notes": "Not 120 daily servings."
+    },
+    {
+      "id": "PR-03",
+      "category": "prenatal",
+      "name": "One A Day Prenatal Advanced Multi",
+      "label_url": "https://www.oneaday.com/vitamins/prenatal-pregnancy-vitamins/prenatal-advanced-multi",
+      "serving": "1 softgel + 1 tablet",
+      "nutrients": {
+        "folic_acid_mcg": 800,
+        "DHA_mg": 200,
+        "choline_mg": 110,
+        "iron_mg": null,
+        "iodine_mcg": null
+      },
+      "price": {
+        "usd": 31.49,
+        "servings": 60,
+        "cost_per_30_days_usd": 15.75,
+        "url": "https://www.target.com/p/-/A-80364306",
+        "tax_shipping_excluded": true
+      },
+      "quality": "Certification not independently verified",
+      "notes": "Other nutrient amounts not extracted from label image."
+    },
+    {
+      "id": "PR-04",
+      "category": "prenatal",
+      "name": "Thorne Basic Prenatal",
+      "label_url": "https://www.thorne.com/products/dp/basic-prenatal/",
+      "secondary_label_url": "https://www.vitacost.com/thorne-basic-prenatal",
+      "serving": "3 capsules",
+      "nutrients": {
+        "methylfolate_mcg": 1000,
+        "folate_dfe_mcg": 1700,
+        "folic_acid_mcg": null,
+        "choline_mg": 110,
+        "iodine_mcg": 150,
+        "iron_mg": 45,
+        "DHA_mg": null
+      },
+      "price": {
+        "usd": 37,
+        "servings": 30,
+        "cost_per_30_days_usd": 37,
+        "tax_shipping_excluded": true
+      },
+      "quality": "NSF Certified for Sport claimed on brand site; independent directory not checked",
+      "notes": "Choline, iodine and iron cross-check retailer label; iron equals adult pregnancy UL of 45 mg/day from all sources, not a routine recommendation. 5-MTHF not equivalent evidence to folic acid for neural tube defect prevention. Separate DHA product not included. NIH DSLD page inaccessible; packaging verification pending."
+    },
+    {
+      "id": "PR-05",
+      "category": "moisturizer",
+      "name": "CeraVe Moisturizing Cream",
+      "label_url": "https://www.cerave.com/skincare/moisturizers/moisturizing-cream",
+      "ingredients_selected": [
+        "ceramides",
+        "hyaluronic acid",
+        "petrolatum",
+        "dimethicone"
+      ],
+      "price": null,
+      "notes": "Fragrance-free per manufacturer. Comfort/skin barrier category; no proof this product prevents striae. Check full label and personal irritation."
+    },
+    {
+      "id": "PR-06",
+      "category": "sunscreen",
+      "name": "EltaMD UV Physical Broad-Spectrum SPF 41",
+      "label_url": "https://eltamd.com/collections/sun-care-recommended-for-active-use/products/eltamd-uv-physical-broad-spectrum-spf-41",
+      "active_ingredients_percent": {
+        "zinc oxide": 9,
+        "titanium dioxide": 7
+      },
+      "price": {
+        "usd": 50,
+        "servings": null,
+        "notes": "Manufacturer listing; other URL variant displayed different price; verify current exact SKU"
+      },
+      "notes": "Tinted mineral photoprotection example; no product-specific pregnancy melasma prevention efficacy established. No universal tint match."
+    },
+    {
+      "id": "PR-07",
+      "category": "recovery support",
+      "name": "Belly Bandit postpartum recovery wraps",
+      "label_url": "https://bellybandit.com/collections/postpartum-recovery",
+      "price": null,
+      "notes": "Category example only; product-specific trials, price and size not checked. Comfort/support rather than permanent reshaping; clinician assessment of incision, fit, breathing and symptoms. Never auto-schedule."
+    }
+  ],
+  "schema_requirements": [
+    "exact product name and SKU/UPC, jurisdiction, label version and checked date",
+    "manufacturer label and separate merchant source; package size and servings, one-time price excluding taxes and shipping",
+    "ingredient name, form, unit, amount, serving; missing values null",
+    "independent quality directory and exact product status; manufacturer claims distinct",
+    "clinical source IDs for ingredient/category evidence, never product-specific efficacy without direct trial",
+    "contraindications, allergies, lactation contact, medication interactions and cumulative intake review",
+    "no automatically calculated supplemental doses; no universal rank or affiliate-based preference"
+  ],
+  "limitations": "Illustrative selection only; no broad market survey, complete ingredient extraction, independent lab testing, verified certification directory or individual eligibility review."
+}
