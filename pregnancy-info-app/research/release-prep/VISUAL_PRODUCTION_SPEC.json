@@ -1,0 +1,146 @@
+{
+  "date": "2026-11-26",
+  "scope": "Original visual teaching specifications; not final anatomy, playback-ready assets or clinical review. Use existing 22 storyboard briefs and VA-01–05 references. No unsafe exercise demonstration without clinician-approved motion.",
+  "items": [
+    {
+      "id": "V-01",
+      "topic": "SKIN-001",
+      "title": "Surface moisture is not striae prevention",
+      "frames": [
+        "Cross-section: epidermis above dermis; label surface barrier",
+        "Apply stylized moisturizer layer only to surface",
+        "Highlight deeper dermal striae as separate phenomenon"
+      ],
+      "alt": "A simplified skin cross-section separates surface hydration from changes deeper in skin.",
+      "sources": [
+        "S001",
+        "S216",
+        "H049"
+      ],
+      "safety": "No guaranteed prevention or before/after transformation; schematic not to scale."
+    },
+    {
+      "id": "V-02",
+      "topic": "ABD-001",
+      "title": "Gap and strength are different",
+      "frames": [
+        "Front schematic of paired rectus muscles and linea alba",
+        "Mark an illustrative distance at a stated measurement site",
+        "Show separate strength and gap outcomes, not proportional geometry"
+      ],
+      "alt": "Two abdominal muscle columns are separated by connective tissue; width and muscle function are different measurements.",
+      "sources": [
+        "S028",
+        "S030",
+        "S032"
+      ],
+      "safety": "Not a self-diagnosis method, not a cutoff or exercise clearance."
+    },
+    {
+      "id": "V-03",
+      "topic": "PELV-001",
+      "title": "Contract and release",
+      "frames": [
+        "Orient pelvis and pelvic floor using licensed VA-04 if appropriate",
+        "Conceptual upward movement and full release with two distinct arrows",
+        "Show pain or inability to relax as reason for assessment"
+      ],
+      "alt": "A conceptual pelvic floor illustration depicts contraction and relaxation as separate motions.",
+      "sources": [
+        "S032",
+        "H050"
+      ],
+      "safety": "No universal strengthening routine, no instruction to test by stopping urine; therapist review required."
+    },
+    {
+      "id": "V-04",
+      "topic": "FIT-003",
+      "title": "Symptom-guided return to activity",
+      "frames": [
+        "Healing and comfortable movement",
+        "Gradual increases when tolerated",
+        "Pause and seek guidance for warning signs; urgent symptoms bypass plan"
+      ],
+      "alt": "A non-linear path from recovery to activity with a separate safety exit.",
+      "sources": [
+        "S064",
+        "S131"
+      ],
+      "safety": "Not fixed dates or automatic eligibility; urgent symptoms require immediate care."
+    },
+    {
+      "id": "V-05",
+      "topic": "NUTR-001",
+      "title": "Read the prenatal label",
+      "frames": [
+        "Show fictitious label with serving size",
+        "Separate food plus supplement, DFE vs folic acid, and DHA vs omega-3",
+        "Flag missing or duplicated nutrients without generating dose"
+      ],
+      "alt": "A fictional supplement label highlights the serving size and units that must be checked.",
+      "sources": [
+        "S086"
+      ],
+      "safety": "No product recommendation or dose calculation."
+    },
+    {
+      "id": "V-06",
+      "topic": "FACE-001",
+      "title": "Same ingredient, different pregnancy stage",
+      "frames": [
+        "Separate trying, pregnancy, lactation, and later",
+        "Highlight hydroquinone pregnancy avoidance and unknown lactation exposure",
+        "Bakuchiol evidence gap and topical vs oral retinoids separated"
+      ],
+      "alt": "A stage timeline shows that skin ingredient evidence changes by pregnancy and breastfeeding status.",
+      "sources": [
+        "IA001",
+        "IA002",
+        "IA003",
+        "IA004",
+        "IA005"
+      ],
+      "safety": "No green safe badge for unknown; individualized exposure advice."
+    },
+    {
+      "id": "V-07",
+      "topic": "BREAST-001",
+      "title": "Pregnancy tissue changes and feeding autonomy",
+      "frames": [
+        "Use schematic glandular tissue and support structures",
+        "Show variation rather than idealized shape",
+        "Feeding choices based on informed preference, not unsupported cosmetic promise"
+      ],
+      "alt": "A simplified breast anatomy schematic explains variation without ranking feeding choices.",
+      "sources": [
+        "S044",
+        "S045",
+        "H026"
+      ],
+      "safety": "No appearance rating; anatomy and license review before use."
+    },
+    {
+      "id": "V-08",
+      "topic": "VEIN-001",
+      "title": "Swelling versus warning signs",
+      "frames": [
+        "Show ordinary bilateral swelling as possible, not diagnostic",
+        "Separate one-sided painful swelling and breathing symptoms",
+        "Prominent immediate assessment exit"
+      ],
+      "alt": "A comparison illustrates why one-sided painful swelling and breathing symptoms need urgent assessment.",
+      "sources": [
+        "S131"
+      ],
+      "safety": "Do not classify symptoms as harmless using a graphic."
+    }
+  ],
+  "production_acceptance": [
+    "Plain-language text alternative and captions; essential safety outside player",
+    "No meaning solely through color; WCAG contrast, zoom and reduced-motion fallback",
+    "One concept per frame; no idealized bodies or promises; no invented percentages",
+    "Medical illustrator or relevant clinician checks labels, tissue layers and movement; confirm source evidence and rights",
+    "Original editable art; no copied noncommercial figures in commercial app without permission",
+    "Do not treat a visual brief as a reviewed demonstration or embed an unreviewed video"
+  ]
+}
