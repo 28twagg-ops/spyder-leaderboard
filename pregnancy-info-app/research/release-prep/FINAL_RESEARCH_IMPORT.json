@@ -4388,12 +4388,13 @@
       "verification": "publisher listing/title and topic checked; playback and frame-by-frame clinical audit pending",
       "checked": "2026-11-26",
       "publish_status": "candidate; review before promotion",
-      "source_id": "M16",
+      "source_id": "S196",
       "origin": "implementation-handoff/MEDIA_CATALOG.json",
-      "source_url": null,
+      "source_url": "https://www.nuh.nhs.uk/physiotherapy-maternity/",
       "clinical_review": false,
       "playback_verified": false,
-      "release_status": "candidate; playback, accessibility and rights review pending"
+      "release_status": "candidate; playback, accessibility and rights review pending",
+      "source_identity_note": "M16 is media catalog ID, not a canonical source ID; mapped to S196 (same hospital URL, trailing slash normalization)."
     },
     {
       "id": "M17",
@@ -4523,21 +4524,27 @@
     "count_records": 7,
     "media_candidates": 20,
     "safety_scenarios": 64,
-    "safety_prompt_variants": 192
+    "safety_prompt_variants": 192,
+    "topics": 22,
+    "baseline_interventions": 101,
+    "expanded_nutrient_reference_rows": 65,
+    "baseline_study_rows": 37,
+    "potential_duplicate_interval_groups": 4
   },
   "qa": {
-    "missing_source_refs": [
-      {
-        "media": "M16",
-        "source_id": "M16"
-      }
-    ],
+    "missing_source_refs": [],
     "invalid_interval_records": [],
     "duplicate_source_ids": 0,
     "duplicate_interval_ids": 0,
     "clinical_reviews": 0,
     "safety_tests_executed": 0,
-    "warning": "Selected source-reference, interval and ID checks; not whole-repository or clinical validation."
+    "warning": "Selected source-reference, interval and ID checks; not whole-repository or clinical validation.",
+    "repaired_source_refs": [
+      {
+        "media": "M16",
+        "source_id": "S196"
+      }
+    ]
   },
   "import_policy": "Do not load original chart interval files plus consolidated intervals again. Prefer expanded nutrient table for its covered scope; retain legacy as context only. Unknown/different units, indication, timepoints, sources, population or uncertainty are not interchangeable. No patient data. Clinical review and app-level tests required before medical release."
 }
