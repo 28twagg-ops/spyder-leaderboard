@@ -52,3 +52,6 @@ Seven findings reconciled against actual registry and selected original sources;
 
 ## Final release preparation
 382 mixed canonical resources, 91 interval and 7 count rows in consolidated manifest, 9 intervention candidates, 20 media candidates, 64 synthetic safety scenarios / 192 variants, 14 release acceptance requirements, 8 visual production specifications and 9 distinct product/category examples. Selected structural source-reference validation completed. No independent clinician review, comprehensive publication audit or runtime tests. See release-prep/README.md.
+
+### Final release-preparation expansion
+382 mixed source records; 10 research-only intervention candidates; 68 scenarios / 204 prompt variants; 12 visual briefs and four original editable conceptual SVGs. Nine deduplicated commercial product/category examples. Selected structural checks completed; clinician review and application runtime tests pending. See release-prep/README.md.
