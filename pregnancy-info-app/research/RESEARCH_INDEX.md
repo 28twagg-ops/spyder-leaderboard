@@ -28,3 +28,6 @@ Start with [the timeline](TIMELINE_RECOMMENDATIONS.md), [evidence summary](EVIDE
 | EMERG-001 | [Traditional therapies and elective devices](topics/emerg-001-traditional-therapies-and-elective-devices/README.md) |
 
 See [progress](RESEARCH_PROGRESS.md) for verification levels and [gaps](RESEARCH_GAPS.md) for the next searches.
+
+## Second-pass research
+Read [the continuation audit](continuation/README.md) for the prioritized evidence conflicts, chart data and selected appearance/recovery follow-ups. Do not add supplemental source or study counts to the baseline without deduplication.
