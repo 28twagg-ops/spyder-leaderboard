@@ -1,0 +1,104 @@
+{
+  "date": "2026-11-26",
+  "scope": "Targeted unresolved audit leads and current safety update; not exhaustive review",
+  "checks": [
+    {
+      "id": "RP-C01",
+      "topic": "SKIN-001",
+      "sources": [
+        "RP001",
+        "S204",
+        "N311",
+        "S108"
+      ],
+      "status": "critical safety conflict; quarantine recommendation",
+      "finding": "Rosell and Grimalt review recommends topical tretinoin in pregnant patients in abstract, conclusion and Table 1. AAD and UKTIS guidance advise avoidance in pregnancy. Do not implement the review's pregnancy prevention advice; observational reassurance about inadvertent topical exposure does not establish safety for elective use. Avoid conflating topical exposure with oral isotretinoin risk.",
+      "limitation": "Not a finding of fraud or retraction. No claim of intentional error; author clarification needed."
+    },
+    {
+      "id": "RP-C02",
+      "topics": [
+        "FACE-001",
+        "REPRO-001"
+      ],
+      "sources": [
+        "RP002"
+      ],
+      "status": "new regulatory update",
+      "finding": "FDA confirms US oral isotretinoin iPLEDGE modifications implemented November 15 2026. Required pretreatment pregnancy testing remains in a medical setting; prescriber may permit subsequent testing outside medical setting. Requirements differ by patient category. Link current FDA guidance; do not implement independent medication eligibility or dosing."
+    },
+    {
+      "id": "RP-C03",
+      "topic": "SKIN-001",
+      "sources": [
+        "RP003",
+        "RP004",
+        "S003",
+        "S005",
+        "S007"
+      ],
+      "status": "new review and primary trial; promising but not recommendation",
+      "finding": "2026 review of four RCTs, 671 pregnant participants, identifies promising coconut oil results and inconsistent/limited olive oil benefit. Includes existing S003 and new RP004; no independence between review and trial. RP004 reports 200 randomized in second trimester; incidence 25% versus 45% for coconut oil vs standard emollient, p<.05; severity mean scores 1.8 vs 2.6 at 32 weeks and 1.4 vs 2.2 at six weeks postpartum. No adverse events reported, not proof of safety. Exact analysis denominators, variability, allocation and blinded assessment not extracted from primary abstract. No recommendation of essential oils as a class; topical carrier oils and concentrated essential oils are different.",
+      "numeric_status": "descriptive reported percentages/means only; no inferred counts or CIs",
+      "protocol_note": "RP003 has registration CRD42025630586, not the original external lead CRD42023423944; no verified results linked to the latter in this pass."
+    },
+    {
+      "id": "RP-C04",
+      "topic": "FACE-001",
+      "sources": [
+        "RP005",
+        "S108",
+        "S204",
+        "N311"
+      ],
+      "status": "critical extraction discrepancy; quarantine all new pooled charts",
+      "finding": "2026 meta-analysis narrative/abstract reports MCM RR 0.83 (95% CI .64–1.07), Table 2 reports .97 (.75–1.26). Spontaneous abortion narrative .99 (.68–1.43), Table 3 .97 (.62–1.51). Nordic primary study S108 is included; its estimate also differs between narrative and table. Preserve each locator rather than choose one; require primary outcome/adjustment comparison and reproducible analysis. Neither reported pooled result excludes all clinically meaningful harm. Avoid elective topical retinoids during pregnancy; inadvertent exposure warrants proportionate counseling, not deterministic harm claims.",
+      "numerics": [
+        {
+          "outcome": "MCM",
+          "locator": "abstract/results text",
+          "estimate": 0.83,
+          "lower": 0.64,
+          "upper": 1.07
+        },
+        {
+          "outcome": "MCM",
+          "locator": "Table 2 pooled",
+          "estimate": 0.97,
+          "lower": 0.75,
+          "upper": 1.26
+        },
+        {
+          "outcome": "spontaneous abortion",
+          "locator": "Results text",
+          "estimate": 0.99,
+          "lower": 0.68,
+          "upper": 1.43
+        },
+        {
+          "outcome": "spontaneous abortion",
+          "locator": "Table 3 pooled",
+          "estimate": 0.97,
+          "lower": 0.62,
+          "upper": 1.51
+        }
+      ],
+      "measure": "RR",
+      "confidence_level": 95,
+      "chart_status": "HOLD; do not add these as independent interval records"
+    },
+    {
+      "id": "RP-C05",
+      "topic": "NUTR-001",
+      "sources": [
+        "H007",
+        "S092"
+      ],
+      "status": "no final replacement guidance verified",
+      "finding": "WHO guideline development meeting/announcement remains a process notice; October 2026 WHO preeclampsia fact sheet still references 2018 calcium recommendation. No newer final recommendation established in targeted search.",
+      "url": "https://www.who.int/news-room/fact-sheets/detail/pre-eclampsia"
+    }
+  ],
+  "clinical_review": false,
+  "auto_publish": false
+}
