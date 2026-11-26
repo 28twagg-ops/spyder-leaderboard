@@ -13,7 +13,11 @@ Warm ivory paper, muted sage/eucalyptus, terracotta/clay accents, near-black tex
 Bottom tabs: Home, Timeline, Explore, Research, Library (optional structure).
 
 ## App experience
-See [platform requirements](../PLATFORM_REQUIREMENTS.md): iPhone first, Home Screen launch mandatory, responsive tablet/Android/desktop access. Claude owns architecture and final visual decisions. The original generated collage is an image in the chat; this document captures its direction independently of chat history. A repository visual preview may be added separately.
+See [platform requirements](../PLATFORM_REQUIREMENTS.md): iPhone first, Home Screen launch mandatory, responsive tablet/Android/desktop access. Claude owns architecture and final visual decisions. The original generated collage is an image in the chat; this document captures its direction independently of chat history. A compressed 320-pixel thumbnail of the actual generated image is stored below; the original full-resolution file remains in the chat.
 
 ## Reference
 [Editable schematic recreation](everwell-concept.svg) — a compact approximation of the four-screen concept, not the original generated image or final product.
+
+![Original generated concept, compressed thumbnail](everwell-original-preview.webp)
+
+The thumbnail preserves the original overall visual direction but is not suitable for reading small UI text. Use the written concept and SVG for details.
