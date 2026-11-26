@@ -14,3 +14,6 @@ From this directory run `python3 validate_import.py`. This is dependency-free an
 
 ## Latest high-pass supplement
 Canonical source registry and directory now hold 364 resource records. The earlier baseline QA counts describe the previous integration. Read ../high-audit/README.md and EVIDENCE_REPORT.md for additional research; all new numerical estimates and expanded nutrient data remain an explicit overlay. Do not silently replace or pool existing evidence.
+
+## External audit overlay
+See ../external-audits/grok/README.md for targeted verified Grok additions and duplicates. The canonical registry now has 368 mixed records. Older QA counts remain historical; do not auto-promote new overlays.

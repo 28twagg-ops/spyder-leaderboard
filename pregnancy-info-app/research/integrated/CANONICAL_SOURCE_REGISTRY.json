@@ -56,8 +56,21 @@
       {
         "kind": "high_audit",
         "record": "HA-013"
+      },
+      {
+        "kind": "external_audit",
+        "record": "GA-003"
+      },
+      {
+        "kind": "external_audit",
+        "record": "GA-004"
       }
-    ]
+    ],
+    "original_review_publication_year": 2012,
+    "original_review_pmid": "23152199",
+    "original_review_url": "https://pubmed.ncbi.nlm.nih.gov/23152199/",
+    "review_search_cutoff": "2011-10-31",
+    "publication_date_note": "Existing 2022 Cochrane summary citation retained as site version; original PubMed record dated 2012 with same DOI. Do not infer newer search from summary date."
   },
   {
     "id": "S002",
@@ -245,6 +258,10 @@
       {
         "kind": "high_audit",
         "record": "HA-013"
+      },
+      {
+        "kind": "external_audit",
+        "record": "GA-005"
       }
     ]
   },
@@ -336,9 +353,9 @@
     "pmid": "19291041",
     "formal_citation_if_supplied": null,
     "access": "source page text retrieved",
-    "verification_scope": "bibliographic identity and topical relevance; outcome extraction only where separately linked",
+    "verification_scope": "primary abstract plus indexed Cochrane trial-characteristics table",
     "accessed": "2026-11-26",
-    "funding": null,
+    "funding": "Cochrane reviewers did not identify a funding source; primary full-text disclosure not independently verified",
     "conflicts": null,
     "correction_retraction_status": "independent registry check pending",
     "publisher_or_organization": null,
@@ -358,6 +375,10 @@
       {
         "kind": "study",
         "record": "T009"
+      },
+      {
+        "kind": "external_audit",
+        "record": "GA-004"
       }
     ]
   },
@@ -1177,16 +1198,16 @@
     "topics": [
       "ABD-001"
     ],
-    "authors": null,
+    "authors": "Lyons G et al.",
     "journal": null,
     "source_host": "doi.org",
-    "publication_year": null,
+    "publication_year": 2026,
     "publication_details": null,
     "doi": "10.1007/s10029-026-03660-4",
     "pmid": "41995773",
     "formal_citation_if_supplied": null,
     "access": "indexed source passage or abstract",
-    "verification_scope": "bibliographic identity and topical relevance; outcome extraction only where separately linked",
+    "verification_scope": "Publisher abstract and registration; full text subscription restricted",
     "accessed": "2026-11-26",
     "funding": null,
     "conflicts": null,
@@ -1196,15 +1217,20 @@
       "claim support or context"
     ],
     "kind": "clinical research/guidance",
-    "current_pass_status": "inherited; not independently rechecked",
+    "current_pass_status": "abstract results rechecked in Grok reconciliation",
     "clinical_review": false,
     "aliases": [],
     "used_by": [
       {
         "kind": "claim",
         "id": "C-ABD-001"
+      },
+      {
+        "kind": "external_audit",
+        "record": "GA-001"
       }
-    ]
+    ],
+    "prospero": "CRD420251276159"
   },
   {
     "id": "S031",
@@ -10357,6 +10383,10 @@
       {
         "kind": "media",
         "record": "M06"
+      },
+      {
+        "kind": "external_media_audit",
+        "record": "GM01"
       }
     ],
     "media_link_check": "POGP video collection page loaded; individual playback not checked",
@@ -11220,7 +11250,7 @@
     "used_by": []
   },
   {
-    "title": "Diastasis exercise network meta-analysis",
+    "title": "An evidence-based comparison of rehabilitation strategies for diastasis recti abdominis in postpartum women: a systematic review and network meta-analysis",
     "url": "https://pubmed.ncbi.nlm.nih.gov/41224804/",
     "topics": [
       "ABD-001"
@@ -11229,16 +11259,26 @@
     "id": "R016",
     "source_host": "pubmed.ncbi.nlm.nih.gov",
     "pmid": "41224804",
-    "doi": null,
-    "current_pass_status": "inherited; not independently rechecked",
+    "doi": "10.1038/s41598-025-22574-2",
+    "current_pass_status": "selected full-text sections rechecked in Grok reconciliation",
     "clinical_review": false,
     "aliases": [],
     "used_by": [
       {
         "kind": "high_audit",
         "record": "HA-016"
+      },
+      {
+        "kind": "external_audit",
+        "record": "GA-002"
       }
-    ]
+    ],
+    "publication_year": 2025,
+    "authors": "Bigdeli N, Yalfani A, Doosti-Irani A, Qodrati A",
+    "funding": "Authors report no funding for this review.",
+    "conflicts": "Authors report no competing interests.",
+    "prospero": "CRD42024593155",
+    "verification_scope": "Publisher HTML results, limitations and disclosures; appendices not fully extracted"
   },
   {
     "title": "SPRING trial registration",
@@ -12512,6 +12552,10 @@
       {
         "kind": "high_audit",
         "record": "HA-028"
+      },
+      {
+        "kind": "external_audit",
+        "record": "GA-007"
       }
     ]
   },
@@ -12536,6 +12580,10 @@
       {
         "kind": "high_audit",
         "record": "HA-028"
+      },
+      {
+        "kind": "external_audit",
+        "record": "GA-007"
       }
     ]
   },
@@ -12560,6 +12608,10 @@
       {
         "kind": "high_audit",
         "record": "HA-028"
+      },
+      {
+        "kind": "external_audit",
+        "record": "GA-007"
       }
     ]
   },
@@ -12584,6 +12636,10 @@
       {
         "kind": "high_audit",
         "record": "HA-028"
+      },
+      {
+        "kind": "external_audit",
+        "record": "GA-007"
       }
     ]
   },
@@ -12955,5 +13011,104 @@
         "record": "HA-033"
       }
     ]
+  },
+  {
+    "id": "G001",
+    "title": "Postpartum stretchmarks: repairing activity of an oral Centella asiatica supplementation (Centellicum®)",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/30293400/",
+    "kind": "observational comparative registry study",
+    "topics": [
+      "SKIN-003"
+    ],
+    "source_host": "pubmed.ncbi.nlm.nih.gov",
+    "accessed": "2026-11-26",
+    "current_pass_status": "selected source section or indexed excerpt checked",
+    "funding": null,
+    "conflicts": null,
+    "clinical_review": false,
+    "used_by": [
+      {
+        "kind": "external_audit",
+        "record": "GA-006"
+      }
+    ],
+    "pmid": "30293400",
+    "doi": "10.23736/S0026-4784.18.04254-5",
+    "authors": "Hu S, Belcaro G, Hosoi M, Feragalli B, Luzzi R, Dugall M",
+    "publication_year": 2018,
+    "verification_scope": "PubMed and publisher abstract; full text blocked; product-specific funding and breastfeeding status not verified"
+  },
+  {
+    "id": "G002",
+    "title": "European Union herbal monograph on Centella asiatica (L.) Urb., herba, revision 1",
+    "url": "https://www.ema.europa.eu/en/documents/herbal-monograph/european-union-herbal-monograph-centella-asiatica-l-urb-herba-revision-1_en.pdf",
+    "kind": "regulatory herbal monograph",
+    "topics": [
+      "SKIN-001",
+      "SKIN-003",
+      "NUTR-002"
+    ],
+    "source_host": "www.ema.europa.eu",
+    "accessed": "2026-11-26",
+    "current_pass_status": "selected source section or indexed excerpt checked",
+    "funding": null,
+    "conflicts": null,
+    "clinical_review": false,
+    "used_by": [
+      {
+        "kind": "external_audit",
+        "record": "GA-006"
+      }
+    ],
+    "publication_year": 2022,
+    "authors": "EMA Committee on Herbal Medicinal Products",
+    "verification_scope": "Section 4.6, printed page 6 of 7; page image inspected; pertains to specified cutaneous herbal medicinal preparations, not all cosmetic products or oral supplements"
+  },
+  {
+    "id": "G003",
+    "title": "NHS South Yorkshire: Pelvic Health - Exercises",
+    "url": "https://www.youtube.com/watch?v=bSmPmsgcq80",
+    "kind": "institutional video candidate",
+    "topics": [
+      "PELV-001"
+    ],
+    "source_host": "www.youtube.com",
+    "accessed": "2026-11-26",
+    "current_pass_status": "selected source section or indexed excerpt checked",
+    "funding": null,
+    "conflicts": null,
+    "clinical_review": false,
+    "used_by": [
+      {
+        "kind": "external_media_audit",
+        "record": "GM02"
+      }
+    ],
+    "verification_scope": "Video title/description and official NHS parent page confirmed; playback, duration, captioning, rights and clinical review pending",
+    "parent_url": "https://sybhealthiertogether.nhs.uk/pregnancy/pelvic-health-pregnancy-and-after-birth"
+  },
+  {
+    "id": "G004",
+    "title": "The Royal Women's Hospital: Exercise after birth",
+    "url": "https://www.thewomens.org.au/health-information/pregnancy-and-birth/your-health-after-birth/exercise-after-birth",
+    "kind": "institutional video and patient information candidate",
+    "topics": [
+      "FIT-003",
+      "ABD-001",
+      "PELV-001"
+    ],
+    "source_host": "www.thewomens.org.au",
+    "accessed": "2026-11-26",
+    "current_pass_status": "selected source section or indexed excerpt checked",
+    "funding": null,
+    "conflicts": null,
+    "clinical_review": false,
+    "used_by": [
+      {
+        "kind": "external_media_audit",
+        "record": "GM03"
+      }
+    ],
+    "verification_scope": "Official page loaded, includes pelvic floor video; original Grok class-series URL failed. No playback or license review; page contains a simplified impact-readiness test that must not be copied as universal clearance."
   }
 ]

@@ -1,0 +1,21 @@
+[
+  {
+    "study_id": "T009",
+    "source": {
+      "source_id": "S009",
+      "title": "Prophylaxis of Striae gravidarum with a topical formulation. A double blind trial",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/19291041/"
+    },
+    "denominator_source": {
+      "source_id": "S001",
+      "title": "Topical preparations for preventing stretch marks in pregnancy | Cochrane",
+      "url": "https://www.cochrane.org/evidence/CD000066_topical-preparations-preventing-stretch-marks-pregnancy"
+    },
+    "intervention_events": 14,
+    "intervention_n": 41,
+    "control_events": 22,
+    "control_n": 39,
+    "denominator_type": "valid analyzed cases; original randomization totals unknown",
+    "clinical_review": false
+  }
+]

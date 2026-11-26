@@ -50,3 +50,7 @@ High audit now covers 38 targeted findings and 14 numerical records. Use source 
 ## High-pass integration
 
 Read `high-audit/README.md`, `high-audit/EVIDENCE_REPORT.md`, `high-audit/INTERVENTION_EVIDENCE_CROSSWALK.json`, and `high-audit/QA.json` before rendering the updated library. The crosswalk links all 101 intervention records to specific or related checks where applicable; context is not efficacy proof. Expanded nutrient references, 14 numerical extractions and the five research-only candidate interventions are overlays, not automatic clinical recommendations. Use `SOURCE_VERSION_NOTES.json` for overlapping cohorts and version-specific results; retain visible source, funding and uncertainty labels. No clinical review has occurred.
+
+## Independent model audit: Grok
+
+Read `external-audits/grok/README.md` and linked JSON files. Reuse S030/R016/S001/S009/S006 rather than create duplicates. Six new interval records and one analyzed-arm extraction are separate research overlays; do not pool with overlapping reviews. G001/G002 support research-only Centella discussion and safety context; G003/G004 are media candidates. Existing M06 playlist alias is not a new independent series. No auto recommendation, media approval or clinical clearance.

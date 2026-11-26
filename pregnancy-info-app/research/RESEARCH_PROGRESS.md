@@ -43,3 +43,6 @@ All 66 quick-view fields have selected source links; source/resource registry no
 
 ## Extended high audit
 38 total selected evidence checks in high pass; 14 numerical records; 364 source/resource records; 5 visual reference candidates; 22 topic gap statuses. No clinical review or full systematic audit.
+
+## Grok reconciliation
+Five existing research publications expanded/clarified, four new resource records, six interval records and one analyzed trial-arm record. Two new institutional media candidates and one alias. Current canonical registry 368 mixed records; previous QA counts are historical. No clinical review.

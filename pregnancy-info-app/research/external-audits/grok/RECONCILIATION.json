@@ -1,0 +1,139 @@
+[
+  {
+    "id": "GA-001",
+    "topic": "ABD-001",
+    "source_links": [
+      {
+        "source_id": "S030",
+        "title": "What is the evidence for abdominal and pelvic floor muscle training to treat diastasis recti abdominis postpartum? An updated systematic review and meta-analysis of randomized clinical trials and trial sequential analysis",
+        "url": "https://doi.org/10.1007/s10029-026-03660-4"
+      }
+    ],
+    "disposition": "existing source; new extraction",
+    "finding": "15 eligible studies, 803 participants overall; only 3 sufficiently similar studies contributed to pooled TrA-focused exercise vs minimal/no intervention. MD −0.06 cm (95% CI −1.19 to 1.08), p=.92.",
+    "limitations": "Considerable heterogeneity, pooled sample not available from abstract, full text paywalled. Not proof that all exercise is ineffective; anatomical distance is distinct from strength, function or symptoms.",
+    "locator": "Springer abstract Results, Conclusion, registration",
+    "clinical_review": false
+  },
+  {
+    "id": "GA-002",
+    "topic": "ABD-001",
+    "source_links": [
+      {
+        "source_id": "R016",
+        "title": "An evidence-based comparison of rehabilitation strategies for diastasis recti abdominis in postpartum women: a systematic review and network meta-analysis",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/41224804/"
+      }
+    ],
+    "disposition": "existing source; new extraction",
+    "finding": "27 RCTs, 1340 participants, 39 interventions; 26 studies in main network. 42 pairwise comparisons, only 2 replicated in more than one study. 17 low risk, 8 high risk, 2 unclear per authors. Highest ranked TCMEB+KT estimate had low confidence; very early initiation raises natural-recovery concern. Other selected combinations rated higher confidence by authors.",
+    "limitations": "Indirect comparisons and sparse replication; no independent pooled comparison with Lyons; different intervention definitions and timing; not a safety or functional outcome ranking. SUCRA is a ranking metric, not probability of individual success. Authors could not search EMBASE, CINAHL, PEDro. No claim that individual components independently work.",
+    "locator": "Publisher abstract, Results, Strengths and limitations, Funding, Competing interest",
+    "clinical_review": false
+  },
+  {
+    "id": "GA-003",
+    "topic": "SKIN-001",
+    "source_links": [
+      {
+        "source_id": "S001",
+        "title": "Topical preparations for preventing stretch marks in pregnancy | Cochrane",
+        "url": "https://www.cochrane.org/evidence/CD000066_topical-preparations-preventing-stretch-marks-pregnancy"
+      }
+    ],
+    "disposition": "already extracted; clarify dates and denominator",
+    "finding": "Original review published 2012, search ended Oct 31 2011; 6 studies/800 total, 5 studies/474 for incidence RR .74 (.53–1.03), I² 65%.",
+    "limitations": "Summary site date does not demonstrate refreshed search. Existing O001 retained, not duplicated. Heterogeneous formulations; no clear pooled prevention benefit.",
+    "locator": "PubMed 23152199 abstract",
+    "clinical_review": false
+  },
+  {
+    "id": "GA-004",
+    "topic": "SKIN-001",
+    "source_links": [
+      {
+        "source_id": "S009",
+        "title": "Prophylaxis of Striae gravidarum with a topical formulation. A double blind trial",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/19291041/"
+      },
+      {
+        "source_id": "S001",
+        "title": "Topical preparations for preventing stretch marks in pregnancy | Cochrane",
+        "url": "https://www.cochrane.org/evidence/CD000066_topical-preparations-preventing-stretch-marks-pregnancy"
+      }
+    ],
+    "disposition": "existing trial; arm denominator expansion",
+    "finding": "Combination cream 14/41 vs vehicle 22/39 analyzed/valid cases. Trial reports severity means 1.42 (SD .5) vs 2.13 (SD 1.32), p=.014, using nonvalidated 0–3 score; exact severity analysis denominator not known.",
+    "limitations": "Randomized totals not stated in Cochrane extraction; no funding identified by reviewers, not verified absence. Multiple ingredients, small trial, subgroup and adverse-event details incomplete; no isolated Centella effect.",
+    "locator": "Primary abstract; Cochrane Characteristics of included studies, Mallol 1991 (indexed excerpt)",
+    "clinical_review": false
+  },
+  {
+    "id": "GA-005",
+    "topic": "SKIN-001",
+    "source_links": [
+      {
+        "source_id": "S006",
+        "title": "Use of a specific anti-stretch mark cream for preventing or reducing the severity of striae gravidarum. Randomized, double-blind, controlled trial",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/23237514/"
+      }
+    ],
+    "disposition": "existing trial; subgroup precision and severity expansion",
+    "finding": "Overall incidence 37.6% vs 33.3% treated/control, not significant. No prior striae subgroup 5.6% vs 35%, reported OR 9.2 (95% CI 1.0–83.3), p=.031; direction corresponds to higher odds in control. New-striae severity change control .47 (SD .57) vs treatment .14 (SD .60), p=.031. Previous-striae severity increase 17.8% control vs 6.3% treated; within-group significance is not direct between-group evidence.",
+    "limitations": "Subgroup denominator, pre-specification, complete harms and funding not extracted; extremely wide CI; no ingredient isolation. Preserve reported OR direction, do not relabel as treatment/control. Not evidence of routine prevention.",
+    "locator": "PubMed abstract results",
+    "clinical_review": false
+  },
+  {
+    "id": "GA-006",
+    "topic": "SKIN-003",
+    "source_links": [
+      {
+        "source_id": "G001",
+        "title": "Postpartum stretchmarks: repairing activity of an oral Centella asiatica supplementation (Centellicum®)",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/30293400/"
+      },
+      {
+        "source_id": "G002",
+        "title": "European Union herbal monograph on Centella asiatica (L.) Urb., herba, revision 1",
+        "url": "https://www.ema.europa.eu/en/documents/herbal-monograph/european-union-herbal-monograph-centella-asiatica-l-urb-herba-revision-1_en.pdf"
+      }
+    ],
+    "disposition": "new study and safety reference; research-only candidate",
+    "finding": "78 healthy participants at least 6 months postpartum; 25 used branded topical cream, 28 hydrating control, 25 hydrating cream plus oral Centella. Six weeks; authors report better instrument and appearance outcomes with combination and no observed side effects.",
+    "limitations": "Comparative registry, randomization/blinding not established, multiple outcomes, absolute effect sizes unavailable, funding/COI and lactation status unknown. No general safety or causal benefit. EMA cutaneous monograph section 4.6 advises against covered medicinal use in pregnancy/lactation due to inadequate data; does not directly establish oral risk.",
+    "locator": "PubMed and publisher abstract; EMA section 4.6 p6 (image inspected)",
+    "clinical_review": false
+  },
+  {
+    "id": "GA-007",
+    "topic": "FIT-002",
+    "source_links": [
+      {
+        "source_id": "H033",
+        "title": "Maternal and fetal responses to acute high-intensity resistance exercise during pregnancy",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/39694629/"
+      },
+      {
+        "source_id": "H034",
+        "title": "Maternal and foetal cardiovascular responses to moderate-to-high intensity resistance exercise",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/41017756/"
+      },
+      {
+        "source_id": "H035",
+        "title": "Pushing limits: acute heavy-load resistance and supine exercise fetal well-being",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/40909193/"
+      },
+      {
+        "source_id": "H036",
+        "title": "Impact of heavy resistance training on pregnancy and postpartum health outcomes",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/36331580/"
+      }
+    ],
+    "disposition": "already investigated; no new primary source supplied",
+    "finding": "Grok's high-load training suggestion overlaps earlier research.",
+    "limitations": "No new miscarriage comparison or denominator supplied; no claim of equivalent miscarriage risk accepted. Selected acute and observational studies cannot establish long-term safety.",
+    "locator": "Prior high-audit HA-028; Grok lead only",
+    "clinical_review": false
+  }
+]

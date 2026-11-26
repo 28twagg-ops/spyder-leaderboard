@@ -1,0 +1,24 @@
+{
+  "id": "GC001",
+  "name": "Oral Centella asiatica supplement for mature postpartum striae",
+  "topic_id": "SKIN-003",
+  "intent": "experimental",
+  "source_links": [
+    {
+      "source_id": "G001",
+      "title": "Postpartum stretchmarks: repairing activity of an oral Centella asiatica supplementation (Centellicum®)",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/30293400/"
+    },
+    {
+      "source_id": "G002",
+      "title": "European Union herbal monograph on Centella asiatica (L.) Urb., herba, revision 1",
+      "url": "https://www.ema.europa.eu/en/documents/herbal-monograph/european-union-herbal-monograph-centella-asiatica-l-urb-herba-revision-1_en.pdf"
+    }
+  ],
+  "audit_id": "GA-006",
+  "research_population": "At least six months postpartum; lactation status not established",
+  "summary": "Small comparative registry suggests possible improvement; no established causal effect or pregnancy/lactation safety.",
+  "clinical_review": false,
+  "auto_schedule": false,
+  "status": "research only; no consumer dosing or recommendation"
+}

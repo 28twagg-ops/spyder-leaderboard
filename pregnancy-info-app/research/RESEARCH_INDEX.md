@@ -43,3 +43,6 @@ See [routine-prep](routine-prep/README.md) for derived content and review queues
 
 ## High-effort audit
 [High audit](high-audit/README.md), [evidence report](high-audit/EVIDENCE_REPORT.md), [source directory](high-audit/SOURCE_DIRECTORY.md).
+
+## External model audits
+[Grok reconciliation](external-audits/grok/README.md) — existing source expansions, new research-only lead and media candidates.

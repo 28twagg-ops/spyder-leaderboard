@@ -1,0 +1,64 @@
+[
+  {
+    "id": "GM01",
+    "source": {
+      "source_id": "M06",
+      "title": "Pelvic health video series",
+      "url": "https://thepogp.co.uk/pelvic_health_videos_-_english.aspx"
+    },
+    "alternate_url": "https://www.youtube.com/playlist?list=PLg2gGgcnXKzpP33hOAiL-CmF5MtERkHZ8",
+    "verification_url": "https://pthb.nhs.wales/services/adult-and-older-peoples-community-services/physiotherapy-services/pelvic-health-physiotherapy-service/pelvichealthadvicesupport/postnatal-advice-resources/nhs-poster-pelvic-health-and-wellbeing-during-pregnancy-and-after-birth/",
+    "publisher": "NHS London/MyHealthLondon; existing POGP listing",
+    "disposition": "same series already represented by M06; add direct playlist alias, not new independent series",
+    "topics": [
+      "PELV-001",
+      "ABD-001",
+      "MSK-001",
+      "FIT-002",
+      "FIT-003",
+      "BIRTH-001"
+    ],
+    "duration_seconds": null,
+    "playback_verified": false,
+    "license": "not established; link only",
+    "clinical_review": false
+  },
+  {
+    "id": "GM02",
+    "source": {
+      "source_id": "G003",
+      "title": "NHS South Yorkshire: Pelvic Health - Exercises",
+      "url": "https://www.youtube.com/watch?v=bSmPmsgcq80"
+    },
+    "publisher": "NHS South Yorkshire",
+    "disposition": "new video candidate; NHS parent page and title/description checked",
+    "topics": [
+      "PELV-001"
+    ],
+    "duration_seconds": null,
+    "playback_verified": false,
+    "license": "not established; link only",
+    "clinical_review": false
+  },
+  {
+    "id": "GM03",
+    "source": {
+      "source_id": "G004",
+      "title": "The Royal Women's Hospital: Exercise after birth",
+      "url": "https://www.thewomens.org.au/health-information/pregnancy-and-birth/your-health-after-birth/exercise-after-birth"
+    },
+    "publisher": "Royal Women's Hospital Australia",
+    "disposition": "substitute verified official page for Grok URL that failed; not confirmation of claimed 45-minute class",
+    "original_unavailable_url": "https://www.thewomens.org.au/patients-visitors/clinics-and-services/support-services/physiotherapy/postnatal-physiotherapy-education",
+    "topics": [
+      "FIT-003",
+      "ABD-001",
+      "PELV-001"
+    ],
+    "duration_seconds": null,
+    "playback_verified": false,
+    "license": "not established; link only",
+    "clinical_review": false,
+    "safety_note": "Do not adopt simplified full-bladder jump/cough test as universal impact clearance; reconcile with S064/S067 and individual symptoms."
+  }
+]

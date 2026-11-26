@@ -1,0 +1,133 @@
+[
+  {
+    "id": "GA-N01",
+    "source": {
+      "source_id": "S030",
+      "title": "What is the evidence for abdominal and pelvic floor muscle training to treat diastasis recti abdominis postpartum? An updated systematic review and meta-analysis of randomized clinical trials and trial sequential analysis",
+      "url": "https://doi.org/10.1007/s10029-026-03660-4"
+    },
+    "outcome": "Postpartum inter-recti distance",
+    "comparison": "TrA-focused exercise vs minimal/no intervention",
+    "estimate": -0.06,
+    "lower": -1.19,
+    "upper": 1.08,
+    "measure": "MD",
+    "unit": "cm",
+    "confidence_level": 95,
+    "contributing_studies": 3,
+    "review_total_n": 803,
+    "pooled_n": null,
+    "axis": "linear",
+    "null_value": 0,
+    "locator": "Publisher abstract",
+    "clinical_review": false
+  },
+  {
+    "id": "GA-N02",
+    "source": {
+      "source_id": "R016",
+      "title": "An evidence-based comparison of rehabilitation strategies for diastasis recti abdominis in postpartum women: a systematic review and network meta-analysis",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/41224804/"
+    },
+    "outcome": "Postpartum inter-recti distance",
+    "comparison": "TCMEB + KT vs RL (no treatment)",
+    "estimate": -26.25,
+    "lower": -29.41,
+    "upper": -23.09,
+    "measure": "MD",
+    "unit": "mm",
+    "confidence_level": 95,
+    "sucra": 0.96,
+    "confidence": "low confidence per authors",
+    "axis": "linear",
+    "null_value": 0,
+    "locator": "Publisher abstract and discussion",
+    "clinical_review": false
+  },
+  {
+    "id": "GA-N03",
+    "source": {
+      "source_id": "R016",
+      "title": "An evidence-based comparison of rehabilitation strategies for diastasis recti abdominis in postpartum women: a systematic review and network meta-analysis",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/41224804/"
+    },
+    "outcome": "Postpartum inter-recti distance",
+    "comparison": "TCME + BPFM + NMES vs RL (no treatment)",
+    "estimate": -25.94,
+    "lower": -32.33,
+    "upper": -19.54,
+    "measure": "MD",
+    "unit": "mm",
+    "confidence_level": 95,
+    "sucra": 0.95,
+    "confidence": "higher confidence per authors",
+    "axis": "linear",
+    "null_value": 0,
+    "locator": "Publisher abstract and discussion",
+    "clinical_review": false
+  },
+  {
+    "id": "GA-N04",
+    "source": {
+      "source_id": "R016",
+      "title": "An evidence-based comparison of rehabilitation strategies for diastasis recti abdominis in postpartum women: a systematic review and network meta-analysis",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/41224804/"
+    },
+    "outcome": "Postpartum inter-recti distance",
+    "comparison": "NMES + TCME + MMT vs RL (no treatment)",
+    "estimate": -24.62,
+    "lower": -29.78,
+    "upper": -19.47,
+    "measure": "MD",
+    "unit": "mm",
+    "confidence_level": 95,
+    "sucra": 0.92,
+    "confidence": "higher confidence per authors",
+    "axis": "linear",
+    "null_value": 0,
+    "locator": "Publisher abstract and discussion",
+    "clinical_review": false
+  },
+  {
+    "id": "GA-N05",
+    "source": {
+      "source_id": "R016",
+      "title": "An evidence-based comparison of rehabilitation strategies for diastasis recti abdominis in postpartum women: a systematic review and network meta-analysis",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/41224804/"
+    },
+    "outcome": "Postpartum inter-recti distance",
+    "comparison": "NMES + TCME vs RL (no treatment)",
+    "estimate": -22.62,
+    "lower": -26.58,
+    "upper": -18.67,
+    "measure": "MD",
+    "unit": "mm",
+    "confidence_level": 95,
+    "sucra": 0.88,
+    "confidence": "comparison-specific rating not extracted in this pass",
+    "axis": "linear",
+    "null_value": 0,
+    "locator": "Publisher abstract and discussion",
+    "clinical_review": false
+  },
+  {
+    "id": "GA-N06",
+    "source": {
+      "source_id": "S006",
+      "title": "Use of a specific anti-stretch mark cream for preventing or reducing the severity of striae gravidarum. Randomized, double-blind, controlled trial",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/23237514/"
+    },
+    "outcome": "New striae in subgroup without prior striae",
+    "comparison": "Control vs treated (direction inferred from reported event percentages)",
+    "estimate": 9.2,
+    "lower": 1,
+    "upper": 83.3,
+    "measure": "OR",
+    "unit": null,
+    "confidence_level": 95,
+    "axis": "log",
+    "null_value": 1,
+    "locator": "PubMed abstract; subgroup denominators unavailable",
+    "clinical_review": false
+  }
+]

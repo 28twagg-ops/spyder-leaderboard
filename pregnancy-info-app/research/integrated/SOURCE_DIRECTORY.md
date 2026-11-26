@@ -1,6 +1,6 @@
 # Canonical source directory
 
-364 source/resource records, mixed types including overlapping studies and asset references. Source ID is stable; link is original publication or publisher/reference page. Source availability is not proof of validity.
+368 mixed resource records; not an independent-study count. Source links and scope do not imply clinical clearance.
 
 - **S001** — [Topical preparations for preventing stretch marks in pregnancy | Cochrane](https://www.cochrane.org/evidence/CD000066_topical-preparations-preventing-stretch-marks-pregnancy) — clinical research/guidance; selected finding or identity checked
 - **S002** — [Stretch marks during pregnancy: a review of topical prevention](https://pubmed.ncbi.nlm.nih.gov/25255817/) — clinical research/guidance; inherited; not independently rechecked
@@ -31,7 +31,7 @@
 - **S027** — [Low-dose tretinoin does not improve striae distensae: a double-blind, placebo-controlled study](https://pubmed.ncbi.nlm.nih.gov/7956336/) — clinical research/guidance; inherited; not independently rechecked
 - **S028** — [Curl-up exercises improve abdominal muscle strength without worsening inter-recti distance in women with diastasis recti abdominis postpartum: a randomised controlled trial](https://pubmed.ncbi.nlm.nih.gov/37286390/) — clinical research/guidance; selected finding or identity checked
 - **S029** — [Effects of conservative approaches for treating diastasis recti abdominis in postpartum women: A systematic review and meta-analysis](https://pmc.ncbi.nlm.nih.gov/articles/PMC12151038/) — clinical research/guidance; selected finding or identity checked
-- **S030** — [What is the evidence for abdominal and pelvic floor muscle training to treat diastasis recti abdominis postpartum? An updated systematic review and meta-analysis of randomized clinical trials and trial sequential analysis](https://doi.org/10.1007/s10029-026-03660-4) — clinical research/guidance; inherited; not independently rechecked
+- **S030** — [What is the evidence for abdominal and pelvic floor muscle training to treat diastasis recti abdominis postpartum? An updated systematic review and meta-analysis of randomized clinical trials and trial sequential analysis](https://doi.org/10.1007/s10029-026-03660-4) — clinical research/guidance; abstract results rechecked in Grok reconciliation
 - **S031** — [Effect of hypopressive and conventional abdominal exercises on postpartum diastasis recti: A randomized controlled trial](https://pmc.ncbi.nlm.nih.gov/articles/PMC11637234/) — clinical research/guidance; selected finding or identity checked
 - **S032** — [Impact of postpartum exercise on pelvic floor disorders and diastasis recti abdominis: a systematic review and meta-analysis](https://bjsm.bmj.com/content/59/8/562) — clinical research/guidance; selected finding or identity checked
 - **S033** — [Effect of a Postpartum Training Program on the Prevalence of Diastasis Recti Abdominis in Postpartum Primiparous Women: A Randomized Controlled Trial](https://pubmed.ncbi.nlm.nih.gov/29351646/) — clinical research/guidance; inherited; not independently rechecked
@@ -292,7 +292,7 @@
 - **R013** — [Exercise versus abdominal binding review](https://pubmed.ncbi.nlm.nih.gov/40018828/) — clinical continuation source; selected finding or identity checked
 - **R014** — [Visible light protection and melasma relapse](https://pubmed.ncbi.nlm.nih.gov/25443629/) — clinical continuation source; inherited; not independently rechecked
 - **R015** — [HUMBA protocol](https://pubmed.ncbi.nlm.nih.gov/27884128/) — clinical continuation source; inherited; not independently rechecked
-- **R016** — [Diastasis exercise network meta-analysis](https://pubmed.ncbi.nlm.nih.gov/41224804/) — clinical continuation source; inherited; not independently rechecked
+- **R016** — [An evidence-based comparison of rehabilitation strategies for diastasis recti abdominis in postpartum women: a systematic review and network meta-analysis](https://pubmed.ncbi.nlm.nih.gov/41224804/) — clinical continuation source; selected full-text sections rechecked in Grok reconciliation
 - **R017** — [SPRING trial registration](https://www.anzctr.org.au/Trial/Registration/TrialReview.aspx?id=347738) — clinical continuation source; inherited; not independently rechecked
 - **R018** — [HUMBA publisher report](https://www.sciencedirect.com/science/article/pii/S0002937819304788) — clinical continuation source; inherited; not independently rechecked
 - **R019** — [McDougall broader probiotic review pre-proof](https://www.ajogmfm.org/article/S258993332400048X/pdf) — clinical continuation source; inherited; not independently rechecked
@@ -366,3 +366,7 @@
 - **H050** — [OpenStax 2016 muscles of pelvic floor illustration](https://commons.wikimedia.org/wiki/File:Pelvic_Floor_Muscles.jpg) — asset license record; selected public source section or indexed excerpt checked
 - **H051** — [NCI female pelvis illustration](https://commons.wikimedia.org/wiki/File:Pelvis_(female).jpg) — asset license record; selected public source section or indexed excerpt checked
 - **H052** — [Effectiveness of physiotherapy interventions for pregnancy-related lumbopelvic pain](https://pubmed.ncbi.nlm.nih.gov/42431130/) — systematic review; selected public source section or indexed excerpt checked
+- **G001** — [Postpartum stretchmarks: repairing activity of an oral Centella asiatica supplementation (Centellicum®)](https://pubmed.ncbi.nlm.nih.gov/30293400/) — observational comparative registry study; selected source section or indexed excerpt checked
+- **G002** — [European Union herbal monograph on Centella asiatica (L.) Urb., herba, revision 1](https://www.ema.europa.eu/en/documents/herbal-monograph/european-union-herbal-monograph-centella-asiatica-l-urb-herba-revision-1_en.pdf) — regulatory herbal monograph; selected source section or indexed excerpt checked
+- **G003** — [NHS South Yorkshire: Pelvic Health - Exercises](https://www.youtube.com/watch?v=bSmPmsgcq80) — institutional video candidate; selected source section or indexed excerpt checked
+- **G004** — [The Royal Women's Hospital: Exercise after birth](https://www.thewomens.org.au/health-information/pregnancy-and-birth/your-health-after-birth/exercise-after-birth) — institutional video and patient information candidate; selected source section or indexed excerpt checked
