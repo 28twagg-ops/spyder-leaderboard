@@ -3582,7 +3582,9 @@
         "clinical_review": false,
         "id": "GA-ARM-T009",
         "original_file": "external-audits/grok/TRIAL_ARMS.json",
-        "show_as_independent_trial": false
+        "show_as_independent_trial": false,
+        "source_id": "S009",
+        "denominator_source_id": "S001"
       }
     ],
     "potential_duplicate_interval_groups": [
@@ -4556,15 +4558,13 @@
     ],
     "current_pass": {
       "source_id_count": 382,
-      "source_ref_missing_in_intervals_counts_safety_visuals": [
-        {
-          "record": "GA-ARM-T009"
-        }
-      ],
+      "source_ref_missing_in_intervals_counts_safety_visuals": [],
       "safety_prompt_variants": 192,
       "safety_cases": 64,
       "verified_at": "2026-11-26",
-      "scope": "Selected structural validation; no clinical review, runtime execution, full publication-status audit or full product testing"
+      "scope": "Selected structural validation; no clinical review, runtime execution, full publication-status audit or full product testing",
+      "repaired_nested_count_source": "GA-ARM-T009 retains S009 primary report and S001 denominator source; no numeric changes",
+      "count_rows_valid": true
     }
   },
   "import_policy": "Do not load original chart interval files plus consolidated intervals again. Prefer expanded nutrient table for its covered scope; retain legacy as context only. Unknown/different units, indication, timepoints, sources, population or uncertainty are not interchangeable. No patient data. Clinical review and app-level tests required before medical release. Release-safety audit RP-C01–05 controls over older claims wherever scope overlaps; quarantine RP001 and hold RP005 numerical charts. Product comparisons use family alias mapping; visual specifications are drafts.",
