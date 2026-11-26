@@ -1,5 +1,7 @@
 # START HERE — standalone transfer for any new chat or research agent
 
+**Developing in Cursor with Claude?** Start with [CURSOR_HANDOFF.md](CURSOR_HANDOFF.md), the standalone implementation assignment.
+
 **Snapshot:** 2026-11-26. Repository: https://github.com/28twagg-ops/spyder-leaderboard/tree/main/pregnancy-info-app. Research input snapshot commit `23bfa3cff6b73397090e1cff378528dbb0ff8415`; portable exports commit `bb8e822def3bff7ac9b886c93fb73ad424fc9d0b`. Read current main before making changes. All project-specific decisions and research needed to resume are in this folder; no prior chat transcript, assistant memory, or personal health information is required.
 
 ## Mission and decisions
