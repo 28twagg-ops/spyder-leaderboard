@@ -1,0 +1,134 @@
+[
+  {
+    "nutrient": "Calcium",
+    "amount": 1000,
+    "unit": "mg",
+    "intake_type": "RDA",
+    "life_stage": "pregnancy",
+    "age": "19–50 unless row specifies narrower age",
+    "basis": "total daily intake; not a supplemental dose",
+    "source_id": "S086",
+    "locator": "Table 1"
+  },
+  {
+    "nutrient": "Choline",
+    "amount": 450,
+    "unit": "mg",
+    "intake_type": "AI",
+    "life_stage": "pregnancy",
+    "age": "19–50 unless row specifies narrower age",
+    "basis": "total daily intake; not a supplemental dose",
+    "source_id": "S086",
+    "locator": "Table 1"
+  },
+  {
+    "nutrient": "Folate",
+    "amount": 600,
+    "unit": "mcg DFE",
+    "intake_type": "RDA",
+    "life_stage": "pregnancy",
+    "age": "19–50 unless row specifies narrower age",
+    "basis": "total daily intake; not a supplemental dose",
+    "source_id": "S086",
+    "locator": "Table 1"
+  },
+  {
+    "nutrient": "Iodine",
+    "amount": 220,
+    "unit": "mcg",
+    "intake_type": "RDA",
+    "life_stage": "pregnancy",
+    "age": "19–50 unless row specifies narrower age",
+    "basis": "total daily intake; not a supplemental dose",
+    "source_id": "S086",
+    "locator": "Table 1"
+  },
+  {
+    "nutrient": "Iron",
+    "amount": 27,
+    "unit": "mg",
+    "intake_type": "RDA",
+    "life_stage": "pregnancy",
+    "age": "19–50 unless row specifies narrower age",
+    "basis": "total daily intake; not a supplemental dose",
+    "source_id": "S086",
+    "locator": "Table 1"
+  },
+  {
+    "nutrient": "Magnesium (ages 19–30)",
+    "amount": 350,
+    "unit": "mg",
+    "intake_type": "RDA",
+    "life_stage": "pregnancy",
+    "age": "19–50 unless row specifies narrower age",
+    "basis": "total daily intake; not a supplemental dose",
+    "source_id": "S086",
+    "locator": "Table 1"
+  },
+  {
+    "nutrient": "Magnesium (ages 31–50)",
+    "amount": 360,
+    "unit": "mg",
+    "intake_type": "RDA",
+    "life_stage": "pregnancy",
+    "age": "19–50 unless row specifies narrower age",
+    "basis": "total daily intake; not a supplemental dose",
+    "source_id": "S086",
+    "locator": "Table 1"
+  },
+  {
+    "nutrient": "Omega-3 as ALA",
+    "amount": 1.4,
+    "unit": "g",
+    "intake_type": "AI",
+    "life_stage": "pregnancy",
+    "age": "19–50 unless row specifies narrower age",
+    "basis": "total daily intake; not a supplemental dose",
+    "source_id": "S086",
+    "locator": "Table 1"
+  },
+  {
+    "nutrient": "Vitamin B12",
+    "amount": 2.6,
+    "unit": "mcg",
+    "intake_type": "RDA",
+    "life_stage": "pregnancy",
+    "age": "19–50 unless row specifies narrower age",
+    "basis": "total daily intake; not a supplemental dose",
+    "source_id": "S086",
+    "locator": "Table 1"
+  },
+  {
+    "nutrient": "Vitamin C",
+    "amount": 85,
+    "unit": "mg",
+    "intake_type": "RDA",
+    "life_stage": "pregnancy",
+    "age": "19–50 unless row specifies narrower age",
+    "basis": "total daily intake; not a supplemental dose",
+    "source_id": "S086",
+    "locator": "Table 1"
+  },
+  {
+    "nutrient": "Vitamin D",
+    "amount": 15,
+    "unit": "mcg",
+    "intake_type": "RDA",
+    "life_stage": "pregnancy",
+    "age": "19–50 unless row specifies narrower age",
+    "basis": "total daily intake; not a supplemental dose",
+    "source_id": "S086",
+    "locator": "Table 1"
+  },
+  {
+    "nutrient": "Zinc",
+    "amount": 11,
+    "unit": "mg",
+    "intake_type": "RDA",
+    "life_stage": "pregnancy",
+    "age": "19–50 unless row specifies narrower age",
+    "basis": "total daily intake; not a supplemental dose",
+    "source_id": "S086",
+    "locator": "Table 1"
+  }
+]

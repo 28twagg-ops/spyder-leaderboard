@@ -7,3 +7,7 @@ Not completed: actual app code, stack choice, final design system, database, sou
 Required next documents from Claude: ARCHITECTURE.md, DESIGN_SYSTEM.md, COMPONENT_LIBRARY.md, CONTENT_AUTHORING_GUIDE.md, SOURCE_VERIFICATION.md, QUALITY_ASSURANCE.md, IMPLEMENTATION_BACKLOG.md. Also add ROADMAP.md, SOURCE_REGISTRY.md, CHANGELOG.md and executable setup/test documentation as useful. Do not confuse requirements with completed implementation.
 
 Legacy backend: original root files intentionally preserved. No attempt to rename repository or modify its settings/deployment is made by this documentation package.
+
+## Research update · 26 November 2026
+
+The initial transfer description above records the state before the research assignment. The [research index](research/RESEARCH_INDEX.md) now links 22 topic dossiers, the full stage timeline, a checked source registry and selected study extractions. Review [research progress](research/RESEARCH_PROGRESS.md) for the verification levels and [Claude’s research handoff](research/CLAUDE_RESEARCH_HANDOFF.md) for the data relationships. Clinical review and the remaining study-level work are pending.

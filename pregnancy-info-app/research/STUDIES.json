@@ -1,0 +1,565 @@
+[
+  {
+    "id": "T004",
+    "source_ids": [
+      "S004"
+    ],
+    "design": "Double-blind RCT",
+    "enrollment_or_allocation": 210,
+    "analyzed_or_completed": 175,
+    "population": "Nulliparous, first trimester",
+    "comparison_and_duration": "Cocoa butter lotion vs vehicle, daily until delivery",
+    "findings": "New striae at postpartum assessment: 45.1% vs 48.8%, P=.730.",
+    "limitations": "35 did not complete. Wide uncertainty remains; vehicle may moisturize.",
+    "funding": null,
+    "conflicts": null
+  },
+  {
+    "id": "T008",
+    "source_ids": [
+      "S008"
+    ],
+    "design": "Double-blind RCT",
+    "enrollment_or_allocation": 300,
+    "analyzed_or_completed": null,
+    "population": "Pregnant participants from 16 weeks",
+    "comparison_and_duration": "Cocoa butter cream vs placebo cream through delivery",
+    "findings": "New striae: 44% vs 55%, P=.09.",
+    "limitations": "150 allocated per arm. Verify analyzed denominators before converting percentages to counts.",
+    "funding": null,
+    "conflicts": null
+  },
+  {
+    "id": "T009",
+    "source_ids": [
+      "S009"
+    ],
+    "design": "Double-blind trial",
+    "enrollment_or_allocation": 80,
+    "analyzed_or_completed": null,
+    "population": "Pregnant participants",
+    "comparison_and_duration": "Centella-containing combination cream vs vehicle",
+    "findings": "New striae in 14 treated (34%) and 22 controls (56%).",
+    "limitations": "Multiple ingredients; small study and nonstandard severity score.",
+    "funding": null,
+    "conflicts": null
+  },
+  {
+    "id": "T006",
+    "source_ids": [
+      "S006"
+    ],
+    "design": "Randomized comparative trial",
+    "enrollment_or_allocation": null,
+    "analyzed_or_completed": null,
+    "population": "Pregnant participants with and without previous striae",
+    "comparison_and_duration": "Multi-ingredient cream vs base cream",
+    "findings": "Overall new striae: 37.6% vs 33.3%. In those without previous marks: 5.6% vs 35%.",
+    "limitations": "Subgroup precision poor; do not substitute subgroup for overall outcome.",
+    "funding": null,
+    "conflicts": null
+  },
+  {
+    "id": "T010",
+    "source_ids": [
+      "S010"
+    ],
+    "design": "Quasi-experimental comparison",
+    "enrollment_or_allocation": 141,
+    "analyzed_or_completed": null,
+    "population": "First pregnancy, single center in Turkey",
+    "comparison_and_duration": "Almond oil plus massage vs oil alone vs usual care",
+    "findings": "Striae frequencies were 20%, 38.8% and 41.2%, respectively.",
+    "limitations": "Groups of 47, 48 and 46. Allocation and co-intervention limit causal attribution.",
+    "funding": null,
+    "conflicts": null
+  },
+  {
+    "id": "T014",
+    "source_ids": [
+      "S014"
+    ],
+    "design": "Double-blind RCT",
+    "enrollment_or_allocation": 66,
+    "analyzed_or_completed": null,
+    "population": "Women aged 35–55, cosmetic skin-aging study",
+    "comparison_and_duration": "Branded bovine collagen peptides vs placebo, eight weeks",
+    "findings": "Investigators reported improved hydration, elasticity and eye wrinkles.",
+    "limitations": "Pregnancy and striae outcomes absent. Separate fibroblast experiment.",
+    "funding": "GELITA supplied the collagen product.",
+    "conflicts": "An author reported industry-supported lectures and collagen-related patents."
+  },
+  {
+    "id": "T019",
+    "source_ids": [
+      "S019"
+    ],
+    "design": "Paired split-body study",
+    "enrollment_or_allocation": 22,
+    "analyzed_or_completed": null,
+    "population": "People with existing striae",
+    "comparison_and_duration": "Microneedling plus ascorbic acid vs fractional CO2 laser plus ascorbic acid",
+    "findings": "Physician ratings and patient satisfaction favored the laser side.",
+    "limitations": "Twenty-two people, not 44 independent participants. No untreated side.",
+    "funding": null,
+    "conflicts": null
+  },
+  {
+    "id": "T028",
+    "source_ids": [
+      "S028"
+    ],
+    "design": "Assessor-blinded RCT",
+    "enrollment_or_allocation": 70,
+    "analyzed_or_completed": null,
+    "population": "Diastasis, 6–12 months postpartum",
+    "comparison_and_duration": "Home abdominal exercises five days/week for 12 weeks vs no program",
+    "findings": "Strength increased by 9 Nm; resting gap difference was 1 mm.",
+    "limitations": "Gap assessed 2 cm above umbilicus. One protocol and population.",
+    "funding": null,
+    "conflicts": null,
+    "registration": "NCT04122924"
+  },
+  {
+    "id": "T038",
+    "source_ids": [
+      "S038"
+    ],
+    "design": "RCT",
+    "enrollment_or_allocation": null,
+    "analyzed_or_completed": 128,
+    "population": "First 48 hours after cesarean at one Turkish hospital",
+    "comparison_and_duration": "Abdominal binder vs control",
+    "findings": "Lower reported incisional and uterine pain in binder group.",
+    "limitations": "64 completers per arm. Short follow-up, subjective outcomes.",
+    "funding": null,
+    "conflicts": null
+  },
+  {
+    "id": "T044",
+    "source_ids": [
+      "S044"
+    ],
+    "design": "Retrospective surgical consultation sample",
+    "enrollment_or_allocation": null,
+    "analyzed_or_completed": 93,
+    "population": "Previously pregnant people seeking breast aesthetic surgery",
+    "comparison_and_duration": "History of breastfeeding vs none",
+    "findings": "Breastfeeding was not independently associated with ptosis. Fifty-four reported breastfeeding.",
+    "limitations": "Selected surgical population, recall, possible residual confounding.",
+    "funding": null,
+    "conflicts": null
+  },
+  {
+    "id": "T050",
+    "source_ids": [
+      "S050"
+    ],
+    "design": "Open-label multicenter RCT",
+    "enrollment_or_allocation": 379,
+    "analyzed_or_completed": 379,
+    "population": "BMI ≥30 and unexplained infertility, nine US centers",
+    "comparison_and_duration": "16-week intensive weight-loss program vs increased activity before standardized infertility therapy",
+    "findings": "Healthy live birth in 23/188 vs 29/191.",
+    "limitations": "Intervention bundled diet, activity and medication. Primary analysis by allocation.",
+    "funding": "NIH/NICHD and NCATS grants. Nutrisystem discounted food and Fitbit discounted trackers.",
+    "conflicts": "Several authors disclosed external research or consulting relationships. See the report for individual declarations.",
+    "linked_secondary_publications": [
+      "S055"
+    ]
+  },
+  {
+    "id": "T070",
+    "source_ids": [
+      "S070"
+    ],
+    "design": "Single-blind RCT",
+    "enrollment_or_allocation": null,
+    "analyzed_or_completed": 301,
+    "population": "Pregnant participants in antenatal training study",
+    "comparison_and_duration": "Supervised pelvic floor training vs usual care",
+    "findings": "Leakage at 36 weeks: 48/148 vs 74/153. At three months postpartum: 29/148 vs 49/153.",
+    "limitations": "Self-reported symptoms; keep follow-ups within one study.",
+    "funding": null,
+    "conflicts": null
+  },
+  {
+    "id": "T072",
+    "source_ids": [
+      "S072"
+    ],
+    "design": "Assessor-blinded RCT",
+    "enrollment_or_allocation": 175,
+    "analyzed_or_completed": null,
+    "population": "First birth, training began 6–8 weeks postpartum",
+    "comparison_and_duration": "Four months of pelvic floor training vs control; both taught a correct contraction",
+    "findings": "No clear difference in prolapse after the intervention.",
+    "limitations": "Broad interval. This outcome differs from prevention of leakage.",
+    "funding": null,
+    "conflicts": null,
+    "registration": "NCT01069484"
+  },
+  {
+    "id": "T080",
+    "source_ids": [
+      "S080"
+    ],
+    "design": "Pragmatic multicenter RCT",
+    "enrollment_or_allocation": 3093,
+    "analyzed_or_completed": null,
+    "population": "First birth, singleton cephalic at term, epidural, second stage",
+    "comparison_and_duration": "Upright vs lying down position",
+    "findings": "Spontaneous vaginal birth was more frequent in the lying-down group.",
+    "limitations": "Open label; cannot generalize to birth without epidural.",
+    "funding": null,
+    "conflicts": null
+  },
+  {
+    "id": "T082",
+    "source_ids": [
+      "S082"
+    ],
+    "design": "Double-blind multicenter RCT",
+    "enrollment_or_allocation": 5544,
+    "analyzed_or_completed": 5486,
+    "population": "Pregnancies randomized in Australia; 5,517 individuals",
+    "comparison_and_duration": "Prenatal n-3 long-chain fatty acids vs control",
+    "findings": "Birth before 34 weeks: 61/2734 vs 55/2752.",
+    "limitations": "Unit is pregnancy. This later trial is independent of the earlier review search.",
+    "funding": "Australian NHMRC and Thyne Reid Foundation; capsules donated by Croda UK and Efamol/Wassen UK.",
+    "conflicts": "Suppliers reported to have no other trial role.",
+    "sample_unit": "pregnancies; 5517 unique women"
+  },
+  {
+    "id": "T087",
+    "source_ids": [
+      "S087"
+    ],
+    "design": "Randomized prevention trial",
+    "enrollment_or_allocation": null,
+    "analyzed_or_completed": 4156,
+    "population": "People planning pregnancy, primarily first occurrence rather than recurrence",
+    "comparison_and_duration": "Periconceptional multivitamin vs trace elements",
+    "findings": "Six neural-tube defects in controls and none in the vitamin group.",
+    "limitations": "Known outcomes for 2,104 vitamin and 2,052 control pregnancies; combination formulation.",
+    "funding": null,
+    "conflicts": null
+  },
+  {
+    "id": "T089",
+    "source_ids": [
+      "S089"
+    ],
+    "design": "Multicenter double-blind factorial RCT",
+    "enrollment_or_allocation": 1817,
+    "analyzed_or_completed": 1195,
+    "population": "Previous neural-tube defect pregnancy",
+    "comparison_and_duration": "Folic acid-containing groups vs groups without folic acid",
+    "findings": "Six affected pregnancies vs 21.",
+    "limitations": "Known-outcome completed pregnancies denominator; high baseline recurrence risk.",
+    "funding": null,
+    "conflicts": null
+  },
+  {
+    "id": "T099",
+    "source_ids": [
+      "S099"
+    ],
+    "design": "Double-masked placebo RCT",
+    "enrollment_or_allocation": 70,
+    "analyzed_or_completed": 67,
+    "population": "Early pregnancy with nausea and vomiting",
+    "comparison_and_duration": "Ginger vs placebo over four days",
+    "findings": "Nausea improved in 28/32 vs 10/35.",
+    "limitations": "Short symptom trial, inadequate for rare fetal outcomes.",
+    "funding": null,
+    "conflicts": null
+  },
+  {
+    "id": "T100",
+    "source_ids": [
+      "S100"
+    ],
+    "design": "Randomized equivalence trial",
+    "enrollment_or_allocation": 291,
+    "analyzed_or_completed": null,
+    "population": "Pregnant before 16 weeks with nausea or vomiting",
+    "comparison_and_duration": "Ginger vs vitamin B6 over three weeks",
+    "findings": "Average nausea difference 0.2 with 90% CI −0.3 to 0.8.",
+    "limitations": "Equivalence design and 90% interval; do not label it a 95% interval.",
+    "funding": null,
+    "conflicts": null
+  },
+  {
+    "id": "T111",
+    "source_ids": [
+      "S111"
+    ],
+    "design": "Observational hair-cycle comparison",
+    "enrollment_or_allocation": 116,
+    "analyzed_or_completed": null,
+    "population": "Pregnancy and postpartum timepoint groups",
+    "comparison_and_duration": "Sixth and ninth months of pregnancy vs fourth month postpartum",
+    "findings": "Higher fraction of resting hairs at four months postpartum.",
+    "limitations": "Hair-cycle measurement differs from diagnosis of permanent hair loss.",
+    "funding": null,
+    "conflicts": null
+  },
+  {
+    "id": "T118",
+    "source_ids": [
+      "S118"
+    ],
+    "design": "Split-incision randomized comparison",
+    "enrollment_or_allocation": null,
+    "analyzed_or_completed": null,
+    "population": "Horizontal cesarean incision",
+    "comparison_and_duration": "Silicone sheet vs paper tape on opposite halves for three months",
+    "findings": "Patient-rated appearance favored silicone at 6 and 12 months; Vancouver Scar Scale differences were unclear.",
+    "limitations": "Paired halves, different outcome instruments; clinical importance uncertain.",
+    "funding": null,
+    "conflicts": null
+  },
+  {
+    "id": "T124",
+    "source_ids": [
+      "S124"
+    ],
+    "design": "Pilot feasibility RCT",
+    "enrollment_or_allocation": 34,
+    "analyzed_or_completed": 33,
+    "population": "Dehisced perineal wound after vaginal birth",
+    "comparison_and_duration": "Resuturing vs expectant management",
+    "findings": "Early healing favored resuturing; by 6–8 weeks all but one wound had healed.",
+    "limitations": "Few events and very wide interval; strong treatment preferences affected recruitment.",
+    "funding": null,
+    "conflicts": null
+  },
+  {
+    "id": "T127",
+    "source_ids": [
+      "S127"
+    ],
+    "design": "Prospective randomized trial",
+    "enrollment_or_allocation": 42,
+    "analyzed_or_completed": null,
+    "population": "Uncomplicated pregnancy, enrolled before 12 weeks",
+    "comparison_and_duration": "Compression stockings vs no stockings",
+    "findings": "Leg symptoms improved in 7/27 vs 0/15; no convincing prevention of new visible varicose veins.",
+    "limitations": "Small groups; reflux, appearance and comfort are different endpoints.",
+    "funding": null,
+    "conflicts": null
+  },
+  {
+    "id": "T139",
+    "source_ids": [
+      "S139"
+    ],
+    "design": "Longitudinal cohort",
+    "enrollment_or_allocation": null,
+    "analyzed_or_completed": 49,
+    "population": "Pregnant participants measured again postpartum",
+    "comparison_and_duration": "Within-person baseline vs postpartum foot measurements",
+    "findings": "Mean arch height and rigidity fell and foot length increased.",
+    "limitations": "Eleven discontinued. No randomized intervention or individual prediction.",
+    "funding": null,
+    "conflicts": null
+  },
+  {
+    "id": "T150",
+    "source_ids": [
+      "S150"
+    ],
+    "design": "Multisite randomized trial",
+    "enrollment_or_allocation": null,
+    "analyzed_or_completed": 612,
+    "population": "Postpartum people at elevated depression risk",
+    "comparison_and_duration": "Telephone peer support vs usual care",
+    "findings": "EPDS score >12 at 12 weeks: 40/297 vs 78/315. Difference unclear at 24 weeks.",
+    "limitations": "612 assessed at 12 weeks. Screening threshold is not a diagnostic interview.",
+    "funding": null,
+    "conflicts": null
+  },
+  {
+    "id": "T152",
+    "source_ids": [
+      "S152"
+    ],
+    "design": "Multicenter RCT",
+    "enrollment_or_allocation": 823,
+    "analyzed_or_completed": 812,
+    "population": "Periodontitis, randomized at 13–17 weeks",
+    "comparison_and_duration": "Scaling/root planing before 21 weeks vs after birth",
+    "findings": "Preterm births: 49/407 vs 52/405; periodontal measures improved.",
+    "limitations": "Outcome includes losses as defined by investigators. Distinguish births from live births.",
+    "funding": null,
+    "conflicts": null
+  },
+  {
+    "id": "T155",
+    "source_ids": [
+      "S155"
+    ],
+    "design": "Randomized trial",
+    "enrollment_or_allocation": 1082,
+    "analyzed_or_completed": null,
+    "population": "Periodontal disease in pregnancy, Western Australia",
+    "comparison_and_duration": "Periodontal care starting near 20 weeks vs after pregnancy",
+    "findings": "Preterm birth 9.7% vs 9.3%.",
+    "limitations": "Single study across six obstetric sites, no clear obstetric benefit.",
+    "funding": null,
+    "conflicts": null
+  },
+  {
+    "id": "T165",
+    "source_ids": [
+      "S165"
+    ],
+    "design": "Randomized trial",
+    "enrollment_or_allocation": 260,
+    "analyzed_or_completed": 260,
+    "population": "First pregnancy with breech presentation in late gestation",
+    "comparison_and_duration": "Moxibustion plus usual care vs usual care",
+    "findings": "Cephalic at birth: 98/130 vs 81/130.",
+    "limitations": "External cephalic version after allocation occurred in 1 vs 24; interpretation depends on subsequent care.",
+    "funding": null,
+    "conflicts": null
+  },
+  {
+    "id": "T166",
+    "source_ids": [
+      "S166"
+    ],
+    "design": "Single-blind placebo-controlled RCT",
+    "enrollment_or_allocation": 328,
+    "analyzed_or_completed": null,
+    "population": "Breech at 33+4 to 35+4 weeks",
+    "comparison_and_duration": "Moxibustion and acupuncture vs inactive laser",
+    "findings": "Breech at 37+2 weeks: 72.0% vs 63.4%.",
+    "limitations": "Different comparator, combined therapy and earlier endpoint than S165.",
+    "funding": null,
+    "conflicts": null
+  },
+  {
+    "id": "T168",
+    "source_ids": [
+      "S168"
+    ],
+    "design": "Randomized trial",
+    "enrollment_or_allocation": 200,
+    "analyzed_or_completed": null,
+    "population": "Breech after week 33, stratified by parity",
+    "comparison_and_duration": "Moxibustion vs no moxibustion",
+    "findings": "No clear evidence of improved version in either parity group.",
+    "limitations": "Parity strata must not be misread as treatment arms.",
+    "funding": "Authors reported no funding.",
+    "conflicts": null,
+    "registration": "NCT02251886"
+  },
+  {
+    "id": "T212",
+    "source_ids": [
+      "S212"
+    ],
+    "design": "Prospective single-arm study with historical comparison",
+    "enrollment_or_allocation": null,
+    "analyzed_or_completed": 185,
+    "population": "Pregnant sunscreen users in Morocco",
+    "comparison_and_duration": "Broad-spectrum sunscreen, historical local estimate as comparator",
+    "findings": "Five new cases of melasma among 185 completers.",
+    "limitations": "Historical incidence is not a concurrent control; no causal risk reduction can be calculated.",
+    "funding": null,
+    "conflicts": null
+  },
+  {
+    "id": "T005",
+    "source_ids": [
+      "S005"
+    ],
+    "design": "Randomized pregnancy trial",
+    "enrollment_or_allocation": 100,
+    "analyzed_or_completed": null,
+    "population": "Nulliparous pregnant participants in Tehran",
+    "comparison_and_duration": "Olive oil on abdomen without massage vs no topical from enrollment to delivery",
+    "findings": "No clear difference in incidence or severity of new marks.",
+    "limitations": "Small unblinded comparison; baseline susceptibility and adherence matter.",
+    "funding": null,
+    "conflicts": null
+  },
+  {
+    "id": "T219",
+    "source_ids": [
+      "S219"
+    ],
+    "design": "Follow-up of home-based randomized trial",
+    "enrollment_or_allocation": 844,
+    "analyzed_or_completed": null,
+    "population": "People aged 18–40 attempting conception",
+    "comparison_and_duration": "Connected urine hormone testing vs no test over up to two cycles",
+    "findings": "Reported cumulative live birth 24.5% vs 17.5%.",
+    "limitations": "Pregnancy outcomes available for 198 of 247 reported pregnancies. Commercial involvement and missing outcomes matter.",
+    "funding": "SPD Development Company Limited, a subsidiary of SPD Swiss Precision Diagnostics.",
+    "conflicts": "The follow-up report identifies four authors as company employees.",
+    "registration": "NCT03424590"
+  },
+  {
+    "id": "T220",
+    "source_ids": [
+      "S220"
+    ],
+    "design": "Sham-controlled randomized trial",
+    "enrollment_or_allocation": 115,
+    "analyzed_or_completed": null,
+    "population": "Pregnant with pelvic girdle pain and baseline pain ≥50/100",
+    "comparison_and_duration": "Standard care plus acupuncture vs standard care plus nonpenetrating sham for eight weeks",
+    "findings": "Median pain fell from 66 to 36 and 69 to 41, respectively; between-group P=.493.",
+    "limitations": "Sham may have contextual effects; change within either arm does not isolate needling.",
+    "funding": null,
+    "conflicts": null
+  },
+  {
+    "id": "T221",
+    "source_ids": [
+      "S221"
+    ],
+    "design": "Randomized exercise trial",
+    "enrollment_or_allocation": 33,
+    "analyzed_or_completed": null,
+    "population": "Exclusively breastfeeding at 6–8 weeks postpartum",
+    "comparison_and_duration": "Structured aerobic training vs control over 12 weeks",
+    "findings": "Fitness improved without a detectable difference in milk output, composition or infant weight gain.",
+    "limitations": "Small selected group; cannot exclude rare harms or generalize to restricted energy intake.",
+    "funding": null,
+    "conflicts": null
+  },
+  {
+    "id": "T041",
+    "source_ids": [
+      "S041"
+    ],
+    "design": "Pilot randomized trial",
+    "enrollment_or_allocation": 32,
+    "analyzed_or_completed": null,
+    "population": "First birth with early postpartum diastasis",
+    "comparison_and_duration": "Exercise, binding or combined therapy vs no intervention",
+    "findings": "At six months the authors estimated small to moderate standardized effects on body image in the binding groups and d=0.7 on trunk strength with combined therapy.",
+    "limitations": "16% attrition and small groups. Feasibility evidence, not a definitive cosmetic effect.",
+    "funding": null,
+    "conflicts": null
+  },
+  {
+    "id": "T108",
+    "source_ids": [
+      "S108"
+    ],
+    "design": "Nordic population register cohort",
+    "enrollment_or_allocation": null,
+    "analyzed_or_completed": null,
+    "population": "Infants following first-trimester topical retinoid exposure in prescription registers",
+    "comparison_and_duration": "Topical retinoids vs unexposed; active comparator analyzed separately",
+    "findings": "Major congenital malformations in 71/2172 exposed and 111404/3671023 unexposed. Adjusted RR 1.10, 95% CI 0.87 to 1.38.",
+    "limitations": "Dispensing is not proof of use. Birth-based ascertainment can miss early pregnancy losses.",
+    "funding": null,
+    "conflicts": null
+  }
+]

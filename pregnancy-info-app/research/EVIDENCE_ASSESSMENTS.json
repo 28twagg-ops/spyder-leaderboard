@@ -1,0 +1,869 @@
+[
+  {
+    "id": "E-SKIN-001",
+    "claim_id": "C-SKIN-001",
+    "outcome_ids": [
+      "O001"
+    ],
+    "study_ids": [
+      "T004",
+      "T008",
+      "T009",
+      "T006",
+      "T010",
+      "T005"
+    ],
+    "rationale": "Low for prevention across different formulations. Cocoa-butter trials were inconclusive. One Centella-containing mixture had a positive trial, while another had a favorable subgroup despite no overall reduction. Massage plus almond oil was studied without secure randomization.",
+    "stage_safety": "During pregnancy, check ingredients, especially retinoids. Stop irritating products. Prevention studies give little information about uncommon adverse effects.",
+    "limitations": "Verify shea-only, vitamin E alone, genetic association and adverse-event reporting.",
+    "review_status": "research draft; independent clinical review pending",
+    "review_date": "2026-11-26"
+  },
+  {
+    "id": "E-SKIN-002",
+    "claim_id": "C-SKIN-002",
+    "outcome_ids": [],
+    "study_ids": [
+      "T014"
+    ],
+    "rationale": "Very low for pregnancy prevention due to indirectness. A 23-trial adult synthesis found favorable pooled results, but benefits did not persist in the stratum without pharmaceutical-company funding. The subgroup is observational and may also reflect study quality or product differences.",
+    "stage_safety": "Before conception, adult cosmetic findings apply only to similar populations. During pregnancy and lactation, product-specific safety and benefit for this indication remain unestablished.",
+    "limitations": "Retrieve arm-level means, dispersions, funding definitions and pre-registered endpoints before plotting sponsor subgroups.",
+    "review_status": "research draft; independent clinical review pending",
+    "review_date": "2026-11-26"
+  },
+  {
+    "id": "E-SKIN-003",
+    "claim_id": "C-SKIN-003",
+    "outcome_ids": [],
+    "study_ids": [
+      "T019"
+    ],
+    "rationale": "Low for comparative cosmetic benefit. Small active-comparator trials, variable phototypes, follow-up and physician rating scales limit estimates.",
+    "stage_safety": "Defer elective procedures during pregnancy. Later assessment must account for healing, site, skin type and lactation. RF microneedling has a device-specific FDA harm warning.",
+    "limitations": "Extract pigmentation harms by skin type and durability beyond one year. Separate contour surgery and loose skin.",
+    "review_status": "research draft; independent clinical review pending",
+    "review_date": "2026-11-26"
+  },
+  {
+    "id": "E-ABD-001",
+    "claim_id": "C-ABD-001",
+    "outcome_ids": [
+      "O002",
+      "O003"
+    ],
+    "study_ids": [
+      "T028"
+    ],
+    "rationale": "Moderate for strength in that specific trial population. Lower certainty about an optimal program or durable improvement in pain. Within-group changes during early recovery can include natural healing.",
+    "stage_safety": "The exercise trial does not establish immediate postpartum readiness. Wound problems, pain and pelvic heaviness warrant individual assessment.",
+    "limitations": "Compare breathing, Pilates, loaded lifting and patient-reported function at the same timepoints.",
+    "review_status": "research draft; independent clinical review pending",
+    "review_date": "2026-11-26"
+  },
+  {
+    "id": "E-ABD-002",
+    "claim_id": "C-ABD-002",
+    "outcome_ids": [],
+    "study_ids": [
+      "T038",
+      "T041"
+    ],
+    "rationale": "Supported for some short-term pain outcomes, with limited blinding and inconsistent timepoints. Very low for permanent gap closure, excess skin or long-term cosmetic change.",
+    "stage_safety": "After cesarean, clinician review of incision, fit and symptoms is appropriate. Rectus diastasis, hernia and wound separation require different evaluations.",
+    "limitations": "Verify functional thresholds, binder adverse events, surgical indications and subsequent pregnancies.",
+    "review_status": "research draft; independent clinical review pending",
+    "review_date": "2026-11-26"
+  },
+  {
+    "id": "E-BREAST-001",
+    "claim_id": "C-BREAST-001",
+    "outcome_ids": [],
+    "study_ids": [
+      "T044"
+    ],
+    "rationale": "Low for causal effects on appearance. Surgical literature is observational with varied definitions of feeding success. Sports bra studies concern movement and discomfort.",
+    "stage_safety": "Support may be chosen across stages for comfort. A cosmetic procedure during recovery or lactation needs specialist assessment. Do not frame formula, breastfeeding or combined feeding as a cosmetic intervention.",
+    "limitations": "Find prospective cohorts with pre-pregnancy measures, representative recruitment and objective shape outcomes.",
+    "review_status": "research draft; independent clinical review pending",
+    "review_date": "2026-11-26"
+  },
+  {
+    "id": "E-FIT-001",
+    "claim_id": "C-FIT-001",
+    "outcome_ids": [
+      "O004"
+    ],
+    "study_ids": [
+      "T050"
+    ],
+    "rationale": "Low for an exact exercise prescription that improves fecundability. Direct trial evidence is specific to an infertility population and an active comparator.",
+    "stage_safety": "Before conception, avoid imposing trial weight-loss programs on general users. Once pregnant use pregnancy-specific exercise guidance.",
+    "limitations": "Quantify resistance training specifically and identify partner-specific trials.",
+    "review_status": "research draft; independent clinical review pending",
+    "review_date": "2026-11-26"
+  },
+  {
+    "id": "E-FIT-002",
+    "claim_id": "C-FIT-002",
+    "outcome_ids": [
+      "O005"
+    ],
+    "study_ids": [],
+    "rationale": "Moderate for a modest mean reduction in gain. Pooling different programs limits attribution to exercise alone. Data in high-risk groups require separate assessment.",
+    "stage_safety": "Across trimesters adapt for comfort, balance and medical conditions. Stop and seek care for bleeding, painful contractions or fluid leakage. No calorie-deficit goal.",
+    "limitations": "Extract sport-specific evidence, muscle retention, mobility and contraindications by diagnosis.",
+    "review_status": "research draft; independent clinical review pending",
+    "review_date": "2026-11-26"
+  },
+  {
+    "id": "E-FIT-003",
+    "claim_id": "C-FIT-003",
+    "outcome_ids": [],
+    "study_ids": [
+      "T221"
+    ],
+    "rationale": "Supported for gradual activity after birth. Low or unassessed for specific readiness tests, exact lifting limits and universal return dates.",
+    "stage_safety": "Immediate recovery after uncomplicated vaginal birth differs from major tearing, assisted birth, cesarean or medical complications. Progress individually in every pathway.",
+    "limitations": "Obtain prospective injury data for return to running/lifting, including lactating athletes and cesarean subgroups.",
+    "review_status": "research draft; independent clinical review pending",
+    "review_date": "2026-11-26"
+  },
+  {
+    "id": "E-PELV-001",
+    "claim_id": "C-PELV-001",
+    "outcome_ids": [
+      "O006",
+      "O007",
+      "O008"
+    ],
+    "study_ids": [
+      "T070",
+      "T072"
+    ],
+    "rationale": "Moderate for prevention of late pregnancy leakage and high for the 3–6 month postpartum outcome in the Cochrane review. Evidence is less certain for treatment, prolapse and later follow-up.",
+    "stage_safety": "During pregnancy or recovery, supervision is useful for pain or difficulty contracting/relaxing. Discuss contraception before sex if pregnancy is undesired, including while breastfeeding.",
+    "limitations": "Extract assisted-birth, biofeedback, dyspareunia and prolapse treatment trials by baseline symptoms.",
+    "review_status": "research draft; independent clinical review pending",
+    "review_date": "2026-11-26"
+  },
+  {
+    "id": "E-BIRTH-001",
+    "claim_id": "C-BIRTH-001",
+    "outcome_ids": [
+      "O009",
+      "O028",
+      "O029"
+    ],
+    "study_ids": [
+      "T080"
+    ],
+    "rationale": "Moderate for severe tears with warm compresses. Lower certainty for many other intrapartum techniques and continuous-support outcomes. Less suturing does not guarantee an intact perineum.",
+    "stage_safety": "Antenatal measures belong in late pregnancy with maternity-team advice. Intrapartum techniques require consent. Compare planned vaginal, assisted and cesarean pathways with individual clinical indications and preferences.",
+    "limitations": "Complete delayed pushing, epidural-stratified position trials, assisted birth harms and patient-valued outcomes.",
+    "review_status": "research draft; independent clinical review pending",
+    "review_date": "2026-11-26"
+  },
+  {
+    "id": "E-NUTR-001",
+    "claim_id": "C-NUTR-001",
+    "outcome_ids": [
+      "O010",
+      "O011",
+      "O012",
+      "O013",
+      "O014"
+    ],
+    "study_ids": [
+      "T082",
+      "T087",
+      "T089"
+    ],
+    "rationale": "High for periconceptional folate and neural-tube defects. Iron studies can show better hematologic indices without resolving population-wide maternal/infant clinical benefit. A newer calcium review challenges older preeclampsia estimates after trustworthiness checks. Omega-3 review estimates and the later ORIP trial differ.",
+    "stage_safety": "Review diet, existing supplements, deficiencies, interactions and overlapping products with the clinician. Avoid excessive preformed vitamin A. Choose lower-mercury fish using FDA species guidance. Review lactation needs separately.",
+    "limitations": "Reconcile current calcium guideline jurisdiction and intake, iron screening vs treatment, trimester protein, vegan diets, multiples, adolescent and lactation targets.",
+    "review_status": "research draft; independent clinical review pending",
+    "review_date": "2026-11-26"
+  },
+  {
+    "id": "E-NUTR-002",
+    "claim_id": "C-NUTR-002",
+    "outcome_ids": [
+      "O015",
+      "O016",
+      "O017",
+      "O018"
+    ],
+    "study_ids": [
+      "T099",
+      "T100"
+    ],
+    "rationale": "Limited support for short-term nausea relief. Conflicting preeclampsia evidence and uncertain GDM prevention. Insufficient outcome and safety evidence for routine prenatal creatine.",
+    "stage_safety": "Culinary intake differs from concentrated products. Do not infer rare fetal safety from short trials. Report product, timing and symptoms to clinician. Third-party testing addresses aspects of product quality, not clinical benefit.",
+    "limitations": "Reconcile strains, metabolic risk, duplicate cohorts, adverse-event collection, purity and commercial involvement.",
+    "review_status": "research draft; independent clinical review pending",
+    "review_date": "2026-11-26"
+  },
+  {
+    "id": "E-FACE-001",
+    "claim_id": "C-FACE-001",
+    "outcome_ids": [
+      "O019",
+      "O030"
+    ],
+    "study_ids": [
+      "T212",
+      "T108"
+    ],
+    "rationale": "Guidance supports photoprotection and avoidance of retinoids during pregnancy. Limited observational precision for specific topical compounds, exposure intensity and rare outcomes.",
+    "stage_safety": "Review retinoids before trying. Contact the prescriber promptly about any pregnancy exposure, distinguishing oral from topical. Check lactation and infant contact separately for each treatment.",
+    "limitations": "Extract tinted vs untinted sunscreen trials by population and niacinamide-specific evidence, dose and lactation exposure.",
+    "review_status": "research draft; independent clinical review pending",
+    "review_date": "2026-11-26"
+  },
+  {
+    "id": "E-HAIR-001",
+    "claim_id": "C-HAIR-001",
+    "outcome_ids": [],
+    "study_ids": [
+      "T111"
+    ],
+    "rationale": "Supported for the broad natural history. Precise incidence, predictors and supplement benefit are uncertain. Questionnaire studies have recall and selection bias.",
+    "stage_safety": "Medication decisions differ in pregnancy and lactation. Minoxidil needs a product- and infant-specific assessment. Typical postpartum shedding does not establish deficiency.",
+    "limitations": "Quantify longitudinal recovery by baseline diagnosis and verify treatment data for persistent shedding and nail changes.",
+    "review_status": "research draft; independent clinical review pending",
+    "review_date": "2026-11-26"
+  },
+  {
+    "id": "E-SCAR-001",
+    "claim_id": "C-SCAR-001",
+    "outcome_ids": [
+      "O020"
+    ],
+    "study_ids": [
+      "T118",
+      "T124"
+    ],
+    "rationale": "Guideline-supported wound assessment. Low or very low certainty for many silicone outcomes; comparator, scar age and measurement scale matter. Pilot resuturing findings require larger trials.",
+    "stage_safety": "Immediate postpartum: wound and infection assessment. Following closure: discuss silicone or scar therapy if symptomatic. Delay massage or elective devices until healing is assessed. Severe bleeding or systemic illness needs urgent care.",
+    "limitations": "Extract wound-healing time, recurrence, comfort, silicone adherence, massage and post-closure sun protection.",
+    "review_status": "research draft; independent clinical review pending",
+    "review_date": "2026-11-26"
+  },
+  {
+    "id": "E-VEIN-001",
+    "claim_id": "C-VEIN-001",
+    "outcome_ids": [],
+    "study_ids": [
+      "T127"
+    ],
+    "rationale": "Limited small-trial evidence for symptom relief. Insufficient evidence for cosmetic prevention. Clinical safety guidance takes priority when symptoms suggest thrombosis.",
+    "stage_safety": "Pregnancy and postpartum: urgent symptoms override comfort advice. A stocking is not a diagnostic test or a substitute for prescribed thromboprophylaxis. Later vein procedures require vascular review.",
+    "limitations": "Extract compression adherence, later treatment, postpartum risk factors and evidence for spider veins.",
+    "review_status": "research draft; independent clinical review pending",
+    "review_date": "2026-11-26"
+  },
+  {
+    "id": "E-MSK-001",
+    "claim_id": "C-MSK-001",
+    "outcome_ids": [],
+    "study_ids": [
+      "T139",
+      "T220"
+    ],
+    "rationale": "Low-to-moderate depending on pain outcome and comparator. A longitudinal cohort of 49 completers measured lower average arch height and greater foot length after pregnancy, with individual variation.",
+    "stage_safety": "Antenatal treatment should be adapted to pregnancy by trained clinicians. Persistent postpartum pain or impaired mobility should prompt reassessment; provocative self-testing is unnecessary.",
+    "limitations": "Extract acupuncture sham comparison, rib discomfort, ergonomics, falls, hypermobility and postpartum rehabilitation.",
+    "review_status": "research draft; independent clinical review pending",
+    "review_date": "2026-11-26"
+  },
+  {
+    "id": "E-REPRO-001",
+    "claim_id": "C-REPRO-001",
+    "outcome_ids": [
+      "O031"
+    ],
+    "study_ids": [
+      "T219"
+    ],
+    "rationale": "Guideline-based preconception care. Moderate certainty for the specific urinary-test population, with substantial manufacturer sponsorship. Fertility probabilities vary with age and duration of trying.",
+    "stage_safety": "Do not stop needed medicines independently. Some vaccines belong before conception, others during pregnancy. Local schedules, products and seasonal timing need current clinical review.",
+    "limitations": "Recheck US schedules near publication; research dental/genetic referrals, paternal exposures, multiple pregnancy, thyroid-specific indications and outcomes.",
+    "review_status": "research draft; independent clinical review pending",
+    "review_date": "2026-11-26"
+  },
+  {
+    "id": "E-WELL-001",
+    "claim_id": "C-WELL-001",
+    "outcome_ids": [
+      "O021"
+    ],
+    "study_ids": [
+      "T150"
+    ],
+    "rationale": "Moderate support for preventive counseling in higher-risk populations. Peer support is promising for defined settings. Body-image and sleep evidence varies by intervention, timing and measure.",
+    "stage_safety": "During pregnancy and the year after delivery, thoughts of harming oneself or the baby need immediate help. Severe confusion or loss of contact with reality requires emergency assessment. Postpartum follow-up is an ongoing process.",
+    "limitations": "Extract sleep interventions, treatment versus prevention, body-image measures, barriers and non-birthing partner outcomes.",
+    "review_status": "research draft; independent clinical review pending",
+    "review_date": "2026-11-26"
+  },
+  {
+    "id": "E-DENT-001",
+    "claim_id": "C-DENT-001",
+    "outcome_ids": [
+      "O022",
+      "O023"
+    ],
+    "study_ids": [
+      "T152",
+      "T155"
+    ],
+    "rationale": "Supported for treating periodontal disease. Larger randomized trials do not establish meaningful obstetric protection. Their intervals leave room for smaller effects.",
+    "stage_safety": "Preventive, diagnostic and necessary restorative treatment may be provided during pregnancy according to ADA guidance. Individual medications and medical complications need coordination.",
+    "limitations": "Complete subgroup extraction for severe disease, baseline risk, treatment response and dental access.",
+    "review_status": "research draft; independent clinical review pending",
+    "review_date": "2026-11-26"
+  },
+  {
+    "id": "E-EMERG-001",
+    "claim_id": "C-EMERG-001",
+    "outcome_ids": [
+      "O024",
+      "O025",
+      "O026",
+      "O027"
+    ],
+    "study_ids": [
+      "T165",
+      "T166",
+      "T168"
+    ],
+    "rationale": "Moderate certainty for some breech presentation outcomes, uncertain harms. Pregnancy-specific efficacy and safety for the listed elective cosmetic indications remain insufficient in this set. Case series of medically necessary laser care have limited applicability.",
+    "stage_safety": "No home procedure instructions. FDA reports serious injuries with certain RF microneedling uses. Specialist review is needed after healing and during lactation; regulatory clearance depends on device and indication.",
+    "limitations": "Extract device-specific energy, indication, adverse events and skin type in appropriate settings. Review PRP, peptides, light, ultrasound and late surgery separately.",
+    "review_status": "research draft; independent clinical review pending",
+    "review_date": "2026-11-26"
+  },
+  {
+    "id": "E-O001",
+    "claim_id": "C-O001",
+    "outcome_ids": [
+      "O001"
+    ],
+    "study_ids": [],
+    "source_ids": [
+      "S001"
+    ],
+    "certainty": "low",
+    "rationale": "heterogeneous formulations; interval crosses no effect",
+    "limitation": "Heterogeneous preparations, I² 65%.",
+    "safety": "See stage-specific topic assessment; an efficacy estimate does not establish safety.",
+    "review_status": "professional review pending"
+  },
+  {
+    "id": "E-O002",
+    "claim_id": "C-O002",
+    "outcome_ids": [
+      "O002"
+    ],
+    "study_ids": [
+      "T028"
+    ],
+    "source_ids": [
+      "S028"
+    ],
+    "certainty": "not assessed",
+    "rationale": "Estimate checked; complete independent outcome-level risk-of-bias and certainty appraisal pending.",
+    "limitation": "Positive values mean wider separation.",
+    "safety": "See stage-specific topic assessment; an efficacy estimate does not establish safety.",
+    "review_status": "professional review pending"
+  },
+  {
+    "id": "E-O003",
+    "claim_id": "C-O003",
+    "outcome_ids": [
+      "O003"
+    ],
+    "study_ids": [
+      "T028"
+    ],
+    "source_ids": [
+      "S028"
+    ],
+    "certainty": "moderate",
+    "rationale": "small direct randomized trial; limited generalization",
+    "limitation": "Positive values mean greater torque.",
+    "safety": "See stage-specific topic assessment; an efficacy estimate does not establish safety.",
+    "review_status": "professional review pending"
+  },
+  {
+    "id": "E-O004",
+    "claim_id": "C-O004",
+    "outcome_ids": [
+      "O004"
+    ],
+    "study_ids": [
+      "T050"
+    ],
+    "source_ids": [
+      "S050"
+    ],
+    "certainty": "not assessed",
+    "rationale": "Estimate checked; complete independent outcome-level risk-of-bias and certainty appraisal pending.",
+    "limitation": "Composite healthy term live birth.",
+    "safety": "See stage-specific topic assessment; an efficacy estimate does not establish safety.",
+    "review_status": "professional review pending"
+  },
+  {
+    "id": "E-O005",
+    "claim_id": "C-O005",
+    "outcome_ids": [
+      "O005"
+    ],
+    "study_ids": [],
+    "source_ids": [
+      "S058"
+    ],
+    "certainty": "not assessed",
+    "rationale": "Estimate checked; complete independent outcome-level risk-of-bias and certainty appraisal pending.",
+    "limitation": "117 trials, 34,546 across whole review; endpoint denominator unextracted.",
+    "safety": "See stage-specific topic assessment; an efficacy estimate does not establish safety.",
+    "review_status": "professional review pending"
+  },
+  {
+    "id": "E-O006",
+    "claim_id": "C-O006",
+    "outcome_ids": [
+      "O006"
+    ],
+    "study_ids": [],
+    "source_ids": [
+      "S069"
+    ],
+    "certainty": "moderate",
+    "rationale": "review grades differ by follow-up, as recorded on individual data row",
+    "limitation": "Moderate certainty in review.",
+    "safety": "See stage-specific topic assessment; an efficacy estimate does not establish safety.",
+    "review_status": "professional review pending"
+  },
+  {
+    "id": "E-O007",
+    "claim_id": "C-O007",
+    "outcome_ids": [
+      "O007"
+    ],
+    "study_ids": [],
+    "source_ids": [
+      "S069"
+    ],
+    "certainty": "high",
+    "rationale": "review grades differ by follow-up, as recorded on individual data row",
+    "limitation": "High certainty in review.",
+    "safety": "See stage-specific topic assessment; an efficacy estimate does not establish safety.",
+    "review_status": "professional review pending"
+  },
+  {
+    "id": "E-O008",
+    "claim_id": "C-O008",
+    "outcome_ids": [
+      "O008"
+    ],
+    "study_ids": [],
+    "source_ids": [
+      "S069"
+    ],
+    "certainty": "low",
+    "rationale": "review grades differ by follow-up, as recorded on individual data row",
+    "limitation": "Low certainty in review.",
+    "safety": "See stage-specific topic assessment; an efficacy estimate does not establish safety.",
+    "review_status": "professional review pending"
+  },
+  {
+    "id": "E-O009",
+    "claim_id": "C-O009",
+    "outcome_ids": [
+      "O009"
+    ],
+    "study_ids": [],
+    "source_ids": [
+      "S074"
+    ],
+    "certainty": "moderate",
+    "rationale": "certainty assigned by review",
+    "limitation": "Moderate certainty in review.",
+    "safety": "See stage-specific topic assessment; an efficacy estimate does not establish safety.",
+    "review_status": "professional review pending"
+  },
+  {
+    "id": "E-O010",
+    "claim_id": "C-O010",
+    "outcome_ids": [
+      "O010"
+    ],
+    "study_ids": [
+      "T082"
+    ],
+    "source_ids": [
+      "S082"
+    ],
+    "certainty": "not assessed",
+    "rationale": "Estimate checked; complete independent outcome-level risk-of-bias and certainty appraisal pending.",
+    "limitation": "Pregnancies analyzed, not distinct people.",
+    "safety": "See stage-specific topic assessment; an efficacy estimate does not establish safety.",
+    "review_status": "professional review pending"
+  },
+  {
+    "id": "E-O011",
+    "claim_id": "C-O011",
+    "outcome_ids": [
+      "O011"
+    ],
+    "study_ids": [],
+    "source_ids": [
+      "S083"
+    ],
+    "certainty": "not assessed",
+    "rationale": "Estimate checked; complete independent outcome-level risk-of-bias and certainty appraisal pending.",
+    "limitation": "Prior review; compare S082 separately.",
+    "safety": "See stage-specific topic assessment; an efficacy estimate does not establish safety.",
+    "review_status": "professional review pending"
+  },
+  {
+    "id": "E-O012",
+    "claim_id": "C-O012",
+    "outcome_ids": [
+      "O012"
+    ],
+    "study_ids": [],
+    "source_ids": [
+      "S083"
+    ],
+    "certainty": "not assessed",
+    "rationale": "Estimate checked; complete independent outcome-level risk-of-bias and certainty appraisal pending.",
+    "limitation": "High certainty assigned by original review.",
+    "safety": "See stage-specific topic assessment; an efficacy estimate does not establish safety.",
+    "review_status": "professional review pending"
+  },
+  {
+    "id": "E-O013",
+    "claim_id": "C-O013",
+    "outcome_ids": [
+      "O013"
+    ],
+    "study_ids": [],
+    "source_ids": [
+      "S085"
+    ],
+    "certainty": "high",
+    "rationale": "direct trial synthesis; baseline recurrence risk varies",
+    "limitation": "Births with known outcome; includes recurrence trials.",
+    "safety": "See stage-specific topic assessment; an efficacy estimate does not establish safety.",
+    "review_status": "professional review pending"
+  },
+  {
+    "id": "E-O014",
+    "claim_id": "C-O014",
+    "outcome_ids": [
+      "O014"
+    ],
+    "study_ids": [
+      "T089"
+    ],
+    "source_ids": [
+      "S089"
+    ],
+    "certainty": "not assessed",
+    "rationale": "Estimate checked; complete independent outcome-level risk-of-bias and certainty appraisal pending.",
+    "limitation": "Contributes to S085; cannot be counted again.",
+    "safety": "See stage-specific topic assessment; an efficacy estimate does not establish safety.",
+    "review_status": "professional review pending"
+  },
+  {
+    "id": "E-O015",
+    "claim_id": "C-O015",
+    "outcome_ids": [
+      "O015"
+    ],
+    "study_ids": [],
+    "source_ids": [
+      "S094"
+    ],
+    "certainty": "low",
+    "rationale": "heterogeneity and imprecision",
+    "limitation": "Low certainty in review.",
+    "safety": "See stage-specific topic assessment; an efficacy estimate does not establish safety.",
+    "review_status": "professional review pending"
+  },
+  {
+    "id": "E-O016",
+    "claim_id": "C-O016",
+    "outcome_ids": [
+      "O016"
+    ],
+    "study_ids": [],
+    "source_ids": [
+      "S094"
+    ],
+    "certainty": "high",
+    "rationale": "rating of this review for these prevention trials only",
+    "limitation": "Harm signal. Review rated high for this comparison.",
+    "safety": "See stage-specific topic assessment; an efficacy estimate does not establish safety.",
+    "review_status": "professional review pending"
+  },
+  {
+    "id": "E-O017",
+    "claim_id": "C-O017",
+    "outcome_ids": [
+      "O017"
+    ],
+    "study_ids": [],
+    "source_ids": [
+      "S095"
+    ],
+    "certainty": "low",
+    "rationale": "broader population and imprecision",
+    "limitation": "Low certainty; may overlap S094.",
+    "safety": "See stage-specific topic assessment; an efficacy estimate does not establish safety.",
+    "review_status": "professional review pending"
+  },
+  {
+    "id": "E-O018",
+    "claim_id": "C-O018",
+    "outcome_ids": [
+      "O018"
+    ],
+    "study_ids": [
+      "T100"
+    ],
+    "source_ids": [
+      "S100"
+    ],
+    "certainty": "not assessed",
+    "rationale": "Estimate checked; complete independent outcome-level risk-of-bias and certainty appraisal pending.",
+    "limitation": "90% equivalence interval.",
+    "safety": "See stage-specific topic assessment; an efficacy estimate does not establish safety.",
+    "review_status": "professional review pending"
+  },
+  {
+    "id": "E-O019",
+    "claim_id": "C-O019",
+    "outcome_ids": [
+      "O019"
+    ],
+    "study_ids": [],
+    "source_ids": [
+      "S107"
+    ],
+    "certainty": "not assessed",
+    "rationale": "Estimate checked; complete independent outcome-level risk-of-bias and certainty appraisal pending.",
+    "limitation": "654 exposed and 1,375 controls; accidental exposure.",
+    "safety": "See stage-specific topic assessment; an efficacy estimate does not establish safety.",
+    "review_status": "professional review pending"
+  },
+  {
+    "id": "E-O020",
+    "claim_id": "C-O020",
+    "outcome_ids": [
+      "O020"
+    ],
+    "study_ids": [
+      "T124"
+    ],
+    "source_ids": [
+      "S124"
+    ],
+    "certainty": "not assessed",
+    "rationale": "Estimate checked; complete independent outcome-level risk-of-bias and certainty appraisal pending.",
+    "limitation": "Pilot trial. Wide interval; exact outcome denominator to verify.",
+    "safety": "See stage-specific topic assessment; an efficacy estimate does not establish safety.",
+    "review_status": "professional review pending"
+  },
+  {
+    "id": "E-O021",
+    "claim_id": "C-O021",
+    "outcome_ids": [
+      "O021"
+    ],
+    "study_ids": [],
+    "source_ids": [
+      "S148"
+    ],
+    "certainty": "not assessed",
+    "rationale": "Estimate checked; complete independent outcome-level risk-of-bias and certainty appraisal pending.",
+    "limitation": "I² 39%; higher risk predominated.",
+    "safety": "See stage-specific topic assessment; an efficacy estimate does not establish safety.",
+    "review_status": "professional review pending"
+  },
+  {
+    "id": "E-O022",
+    "claim_id": "C-O022",
+    "outcome_ids": [
+      "O022"
+    ],
+    "study_ids": [
+      "T152"
+    ],
+    "source_ids": [
+      "S152"
+    ],
+    "certainty": "not assessed",
+    "rationale": "Estimate checked; complete independent outcome-level risk-of-bias and certainty appraisal pending.",
+    "limitation": "Time-to-event estimate.",
+    "safety": "See stage-specific topic assessment; an efficacy estimate does not establish safety.",
+    "review_status": "professional review pending"
+  },
+  {
+    "id": "E-O023",
+    "claim_id": "C-O023",
+    "outcome_ids": [
+      "O023"
+    ],
+    "study_ids": [
+      "T155"
+    ],
+    "source_ids": [
+      "S155"
+    ],
+    "certainty": "not assessed",
+    "rationale": "Estimate checked; complete independent outcome-level risk-of-bias and certainty appraisal pending.",
+    "limitation": "Do not pool directly with S152 HR.",
+    "safety": "See stage-specific topic assessment; an efficacy estimate does not establish safety.",
+    "review_status": "professional review pending"
+  },
+  {
+    "id": "E-O024",
+    "claim_id": "C-O024",
+    "outcome_ids": [
+      "O024"
+    ],
+    "study_ids": [
+      "T165"
+    ],
+    "source_ids": [
+      "S165"
+    ],
+    "certainty": "not assessed",
+    "rationale": "Estimate checked; complete independent outcome-level risk-of-bias and certainty appraisal pending.",
+    "limitation": "Positive event; differs from breech/non-cephalic.",
+    "safety": "See stage-specific topic assessment; an efficacy estimate does not establish safety.",
+    "review_status": "professional review pending"
+  },
+  {
+    "id": "E-O025",
+    "claim_id": "C-O025",
+    "outcome_ids": [
+      "O025"
+    ],
+    "study_ids": [
+      "T166"
+    ],
+    "source_ids": [
+      "S166"
+    ],
+    "certainty": "not assessed",
+    "rationale": "Estimate checked; complete independent outcome-level risk-of-bias and certainty appraisal pending.",
+    "limitation": "Negative event; do not reverse to obtain cephalic RR. Verify endpoint denominator before arm-count display.",
+    "safety": "See stage-specific topic assessment; an efficacy estimate does not establish safety.",
+    "review_status": "professional review pending"
+  },
+  {
+    "id": "E-O026",
+    "claim_id": "C-O026",
+    "outcome_ids": [
+      "O026"
+    ],
+    "study_ids": [],
+    "source_ids": [
+      "S167"
+    ],
+    "certainty": "moderate",
+    "rationale": "review grade; some between-study inconsistency",
+    "limitation": "Moderate certainty in review.",
+    "safety": "See stage-specific topic assessment; an efficacy estimate does not establish safety.",
+    "review_status": "professional review pending"
+  },
+  {
+    "id": "E-O027",
+    "claim_id": "C-O027",
+    "outcome_ids": [
+      "O027"
+    ],
+    "study_ids": [],
+    "source_ids": [
+      "S167"
+    ],
+    "certainty": "moderate",
+    "rationale": "review grade for this endpoint",
+    "limitation": "Moderate certainty in review.",
+    "safety": "See stage-specific topic assessment; an efficacy estimate does not establish safety.",
+    "review_status": "professional review pending"
+  },
+  {
+    "id": "E-O028",
+    "claim_id": "C-O028",
+    "outcome_ids": [
+      "O028"
+    ],
+    "study_ids": [],
+    "source_ids": [
+      "S169"
+    ],
+    "certainty": "low",
+    "rationale": "review grade; support models and settings vary",
+    "limitation": "Low certainty in review.",
+    "safety": "See stage-specific topic assessment; an efficacy estimate does not establish safety.",
+    "review_status": "professional review pending"
+  },
+  {
+    "id": "E-O029",
+    "claim_id": "C-O029",
+    "outcome_ids": [
+      "O029"
+    ],
+    "study_ids": [],
+    "source_ids": [
+      "S170"
+    ],
+    "certainty": "not assessed",
+    "rationale": "Estimate checked; complete independent outcome-level risk-of-bias and certainty appraisal pending.",
+    "limitation": "Subgroup signal among those without prior vaginal birth.",
+    "safety": "See stage-specific topic assessment; an efficacy estimate does not establish safety.",
+    "review_status": "professional review pending"
+  },
+  {
+    "id": "E-O030",
+    "claim_id": "C-O030",
+    "outcome_ids": [
+      "O030"
+    ],
+    "study_ids": [
+      "T108"
+    ],
+    "source_ids": [
+      "S108"
+    ],
+    "certainty": "not assessed",
+    "rationale": "Estimate checked; complete independent outcome-level risk-of-bias and certainty appraisal pending.",
+    "limitation": "Birth-based cohort; see arm denominators in T108.",
+    "safety": "See stage-specific topic assessment; an efficacy estimate does not establish safety.",
+    "review_status": "professional review pending"
+  },
+  {
+    "id": "E-O031",
+    "claim_id": "C-O031",
+    "outcome_ids": [
+      "O031"
+    ],
+    "study_ids": [
+      "T219"
+    ],
+    "source_ids": [
+      "S219"
+    ],
+    "certainty": "not assessed",
+    "rationale": "Estimate checked; complete independent outcome-level risk-of-bias and certainty appraisal pending.",
+    "limitation": "Open-label commercial product study; pregnancy outcome follow-up incomplete.",
+    "safety": "See stage-specific topic assessment; an efficacy estimate does not establish safety.",
+    "review_status": "professional review pending"
+  }
+]

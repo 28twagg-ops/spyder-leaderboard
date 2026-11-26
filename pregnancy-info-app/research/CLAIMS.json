@@ -1,0 +1,1173 @@
+[
+  {
+    "id": "C-SKIN-001",
+    "topic": "SKIN-001",
+    "statement": "No cream reliably prevents pregnancy stretch marks. Moisturizer can be a comfort choice.",
+    "action": "Use a tolerated moisturizer if skin feels dry. There is no evidence-based need to start a product years ahead.",
+    "safety": "During pregnancy, check ingredients, especially retinoids. Stop irritating products. Prevention studies give little information about uncommon adverse effects.",
+    "source_ids": [
+      "S001",
+      "S002",
+      "S004",
+      "S006",
+      "S008",
+      "S009",
+      "S010",
+      "S204",
+      "S206",
+      "S216"
+    ],
+    "evidence_assessment_id": "E-SKIN-001",
+    "review_status": "research draft; independent clinical review pending",
+    "timeline_phase_ids": [],
+    "effort_and_cost": "Daily application until delivery in T004, with no clear prevention benefit. Buying a product solely for prevention is optional.",
+    "safety_assessment_ids": [
+      "SAFE-SKIN-001"
+    ]
+  },
+  {
+    "id": "C-SKIN-002",
+    "topic": "SKIN-002",
+    "statement": "Adult skin studies give conflicting results. Pregnancy stretch-mark prevention remains unproven.",
+    "action": "A collagen supplement has no established place on a pregnancy prevention checklist. Review any supplement with the prenatal clinician.",
+    "safety": "Before conception, adult cosmetic findings apply only to similar populations. During pregnancy and lactation, product-specific safety and benefit for this indication remain unestablished.",
+    "source_ids": [
+      "S011",
+      "S013",
+      "S014",
+      "S015",
+      "S016",
+      "S201"
+    ],
+    "evidence_assessment_id": "E-SKIN-002",
+    "review_status": "research draft; independent clinical review pending",
+    "timeline_phase_ids": [],
+    "effort_and_cost": "Eight weeks in T014. No pregnancy-specific benefit or price-effectiveness estimate.",
+    "safety_assessment_ids": [
+      "SAFE-SKIN-002"
+    ]
+  },
+  {
+    "id": "C-SKIN-003",
+    "topic": "SKIN-003",
+    "statement": "Mature stretch marks may change with treatment. Trials rarely measure how much improvement matters to the patient.",
+    "action": "If marks remain bothersome after recovery, a dermatologist can discuss observation and procedure tradeoffs, including changes in pigmentation.",
+    "safety": "Defer elective procedures during pregnancy. Later assessment must account for healing, site, skin type and lactation. RF microneedling has a device-specific FDA harm warning.",
+    "source_ids": [
+      "S018",
+      "S019",
+      "S020",
+      "S024",
+      "S027",
+      "S162",
+      "S198",
+      "S216"
+    ],
+    "evidence_assessment_id": "E-SKIN-003",
+    "review_status": "research draft; independent clinical review pending",
+    "timeline_phase_ids": [
+      "P22"
+    ],
+    "effort_and_cost": "Procedures involve appointments and follow-up. Local prices and retreatment frequency need verification.",
+    "safety_assessment_ids": [
+      "SAFE-SKIN-003"
+    ]
+  },
+  {
+    "id": "C-ABD-001",
+    "topic": "ABD-001",
+    "statement": "Strength can improve even when the measured gap stays the same.",
+    "action": "Discuss graded strengthening for everyday tasks. Use symptoms and function alongside any ultrasound measurement.",
+    "safety": "The exercise trial does not establish immediate postpartum readiness. Wound problems, pain and pelvic heaviness warrant individual assessment.",
+    "source_ids": [
+      "S028",
+      "S030",
+      "S031",
+      "S032",
+      "S033"
+    ],
+    "evidence_assessment_id": "E-ABD-001",
+    "review_status": "research draft; independent clinical review pending",
+    "timeline_phase_ids": [
+      "P18"
+    ],
+    "effort_and_cost": "T028 used five home sessions per week for 12 weeks. Session duration was not extracted.",
+    "safety_assessment_ids": [
+      "SAFE-ABD-001"
+    ]
+  },
+  {
+    "id": "C-ABD-002",
+    "topic": "ABD-002",
+    "statement": "A binder may ease early cesarean discomfort. Permanent reshaping is a separate question.",
+    "action": "Ask the maternity team about optional short-term support after surgery. Seek assessment of a persistent or painful bulge.",
+    "safety": "After cesarean, clinician review of incision, fit and symptoms is appropriate. Rectus diastasis, hernia and wound separation require different evaluations.",
+    "source_ids": [
+      "S035",
+      "S036",
+      "S038",
+      "S039",
+      "S041",
+      "S207"
+    ],
+    "evidence_assessment_id": "E-ABD-002",
+    "review_status": "research draft; independent clinical review pending",
+    "timeline_phase_ids": [
+      "P02",
+      "P20",
+      "P22"
+    ],
+    "effort_and_cost": "Acute binder outcomes were assessed in the first 48 hours in T038. Actual wearer time and replacement costs are unknown.",
+    "safety_assessment_ids": [
+      "SAFE-ABD-002"
+    ]
+  },
+  {
+    "id": "C-BREAST-001",
+    "topic": "BREAST-001",
+    "statement": "The available evidence gives no sound cosmetic reason to change a feeding decision.",
+    "action": "Choose comfortable support for activity and a feeding approach that fits the family. Discuss future lactation goals before considering reduction surgery.",
+    "safety": "Support may be chosen across stages for comfort. A cosmetic procedure during recovery or lactation needs specialist assessment. Do not frame formula, breastfeeding or combined feeding as a cosmetic intervention.",
+    "source_ids": [
+      "S044",
+      "S045",
+      "S046",
+      "S202",
+      "S203"
+    ],
+    "evidence_assessment_id": "E-BREAST-001",
+    "review_status": "research draft; independent clinical review pending",
+    "timeline_phase_ids": [
+      "P21"
+    ],
+    "effort_and_cost": "Support garment costs vary by size and access. No preventive cosmetic regimen was established.",
+    "safety_assessment_ids": [
+      "SAFE-BREAST-001"
+    ]
+  },
+  {
+    "id": "C-FIT-001",
+    "topic": "FIT-001",
+    "statement": "Build an activity routine you can sustain. A weight-loss target is a poor proxy for a healthy birth.",
+    "action": "Use the long preparation window for enjoyable aerobic and strength activity adapted to current ability. Bring menstrual changes or fertility concerns to a clinician.",
+    "safety": "Before conception, avoid imposing trial weight-loss programs on general users. Once pregnant use pregnancy-specific exercise guidance.",
+    "source_ids": [
+      "S049",
+      "S050",
+      "S052",
+      "S055",
+      "S056",
+      "S059"
+    ],
+    "evidence_assessment_id": "E-FIT-001",
+    "review_status": "research draft; independent clinical review pending",
+    "timeline_phase_ids": [
+      "P01"
+    ],
+    "effort_and_cost": "The FIT-PLESE intervention lasted 16 weeks and included supplies and medication. Trial burden exceeds ordinary walking.",
+    "safety_assessment_ids": [
+      "SAFE-FIT-001"
+    ]
+  },
+  {
+    "id": "C-FIT-002",
+    "topic": "FIT-002",
+    "statement": "For uncomplicated pregnancies, regular activity can continue with adjustments. Weight-gain goals depend on the pregnancy.",
+    "action": "Discuss an activity plan. ACOG uses at least 150 minutes of moderate aerobic activity per week in uncomplicated pregnancies. Use pre-pregnancy BMI and singleton or twin status with the care team for weight guidance.",
+    "safety": "Across trimesters adapt for comfort, balance and medical conditions. Stop and seek care for bleeding, painful contractions or fluid leakage. No calorie-deficit goal.",
+    "source_ids": [
+      "S057",
+      "S058",
+      "S059",
+      "S062",
+      "S187",
+      "S188"
+    ],
+    "evidence_assessment_id": "E-FIT-002",
+    "review_status": "research draft; independent clinical review pending",
+    "timeline_phase_ids": [
+      "P10"
+    ],
+    "effort_and_cost": "Guideline target for eligible uncomplicated pregnancy is 150 minutes/week of moderate aerobic activity. Walking can fit this without specialized equipment.",
+    "safety_assessment_ids": [
+      "SAFE-FIT-002"
+    ]
+  },
+  {
+    "id": "C-FIT-003",
+    "topic": "FIT-003",
+    "statement": "Recovery follows symptoms and healing. A date alone cannot clear someone to run.",
+    "action": "Start with tolerable movement, then build duration and load. Seek pelvic-health or obstetric input for pain, leakage, heaviness, bleeding or surgical concerns.",
+    "safety": "Immediate recovery after uncomplicated vaginal birth differs from major tearing, assisted birth, cesarean or medical complications. Progress individually in every pathway.",
+    "source_ids": [
+      "S064",
+      "S066",
+      "S067",
+      "S068",
+      "S173",
+      "S196",
+      "S211",
+      "S218",
+      "S221"
+    ],
+    "evidence_assessment_id": "E-FIT-003",
+    "review_status": "research draft; independent clinical review pending",
+    "timeline_phase_ids": [
+      "P15",
+      "P16",
+      "P17",
+      "P18"
+    ],
+    "effort_and_cost": "The Canadian first-year guideline uses a gradual, individualized progression toward 120 minutes/week of moderate-to-vigorous activity over four or more days. Early healing and contraindications take precedence.",
+    "safety_assessment_ids": [
+      "SAFE-FIT-003"
+    ]
+  },
+  {
+    "id": "C-PELV-001",
+    "topic": "PELV-001",
+    "statement": "Learning to contract and relax can help. Pain or difficulty relaxing calls for tailored care.",
+    "action": "Ask a pelvic-health clinician about technique. Resume intimacy when wanted and comfortable. Persistent pain, bulging or leakage deserves assessment.",
+    "safety": "During pregnancy or recovery, supervision is useful for pain or difficulty contracting/relaxing. Discuss contraception before sex if pregnancy is undesired, including while breastfeeding.",
+    "source_ids": [
+      "S069",
+      "S070",
+      "S071",
+      "S072",
+      "S193",
+      "S194",
+      "S200"
+    ],
+    "evidence_assessment_id": "E-PELV-001",
+    "review_status": "research draft; independent clinical review pending",
+    "timeline_phase_ids": [
+      "P10",
+      "P15",
+      "P16",
+      "P18",
+      "P20",
+      "P22"
+    ],
+    "effort_and_cost": "T072 involved four months of training. Supervision and therapist access vary. This protocol addressed prolapse in one population.",
+    "safety_assessment_ids": [
+      "SAFE-PELV-001"
+    ]
+  },
+  {
+    "id": "C-BIRTH-001",
+    "topic": "BIRTH-001",
+    "statement": "A chosen support person and a conversation about perineal comfort are reasonable parts of a birth plan.",
+    "action": "Discuss late-pregnancy perineal massage, optional warm compresses during pushing, preferred support and birth position. Preferences can change during labor.",
+    "safety": "Antenatal measures belong in late pregnancy with maternity-team advice. Intrapartum techniques require consent. Compare planned vaginal, assisted and cesarean pathways with individual clinical indications and preferences.",
+    "source_ids": [
+      "S074",
+      "S077",
+      "S079",
+      "S080",
+      "S169",
+      "S170",
+      "S181",
+      "S182"
+    ],
+    "evidence_assessment_id": "E-BIRTH-001",
+    "review_status": "research draft; independent clinical review pending",
+    "timeline_phase_ids": [
+      "P11",
+      "P12"
+    ],
+    "effort_and_cost": "S170 describes antenatal trials beginning around week 35, including schedules as infrequent as once or twice weekly. Continuous support requires a person available through labor.",
+    "safety_assessment_ids": [
+      "SAFE-BIRTH-001"
+    ]
+  },
+  {
+    "id": "C-NUTR-001",
+    "topic": "NUTR-001",
+    "statement": "Start folic acid before conception. Check what your prenatal actually contains.",
+    "action": "For average-risk people who could become pregnant, USPSTF recommends 400–800 micrograms of folic acid daily starting at least one month before conception through the first two to three months of pregnancy. Prior neural-tube defect or certain medicines require an individual plan.",
+    "safety": "Review diet, existing supplements, deficiencies, interactions and overlapping products with the clinician. Avoid excessive preformed vitamin A. Choose lower-mercury fish using FDA species guidance. Review lactation needs separately.",
+    "source_ids": [
+      "S082",
+      "S083",
+      "S085",
+      "S086",
+      "S087",
+      "S088",
+      "S089",
+      "S090",
+      "S092",
+      "S093",
+      "S176",
+      "S177",
+      "S178",
+      "S179",
+      "S195",
+      "S214",
+      "S215",
+      "S222",
+      "S223",
+      "S224"
+    ],
+    "evidence_assessment_id": "E-NUTR-001",
+    "review_status": "research draft; independent clinical review pending",
+    "timeline_phase_ids": [
+      "P05",
+      "P06",
+      "P07",
+      "P09"
+    ],
+    "effort_and_cost": "A US manufacturer listed 250 tablets containing 400 micrograms folic acid for $6.99, about $0.028/tablet before tax or shipping. Price snapshot only. [Manufacturer listing](https://www.naturemade.com/products/nature-made-folic-acid-tablets)",
+    "safety_assessment_ids": [
+      "SAFE-NUTR-001"
+    ]
+  },
+  {
+    "id": "C-NUTR-002",
+    "topic": "NUTR-002",
+    "statement": "“Natural” covers products with very different evidence. Ginger has symptom trials. Creatine remains investigational in pregnancy.",
+    "action": "For nausea, discuss options with prenatal care. If unable to keep fluids down, seek prompt medical assessment. Review concentrated extracts and supplements individually.",
+    "safety": "Culinary intake differs from concentrated products. Do not infer rare fetal safety from short trials. Report product, timing and symptoms to clinician. Third-party testing addresses aspects of product quality, not clinical benefit.",
+    "source_ids": [
+      "S086",
+      "S094",
+      "S095",
+      "S096",
+      "S098",
+      "S099",
+      "S100",
+      "S102",
+      "S131",
+      "S190",
+      "S201"
+    ],
+    "evidence_assessment_id": "E-NUTR-002",
+    "review_status": "research draft; independent clinical review pending",
+    "timeline_phase_ids": [
+      "P09"
+    ],
+    "effort_and_cost": "Ginger symptom trials lasted four days or three weeks. Product standardization and dose differ.",
+    "safety_assessment_ids": [
+      "SAFE-NUTR-002"
+    ]
+  },
+  {
+    "id": "C-FACE-001",
+    "topic": "FACE-001",
+    "statement": "Protect skin from the sun and check acne products for retinoids when planning pregnancy.",
+    "action": "Review prescription and over-the-counter products. Ask about azelaic acid for acne. Consider shade, protective clothing and an appropriate broad-spectrum sunscreen.",
+    "safety": "Review retinoids before trying. Contact the prescriber promptly about any pregnancy exposure, distinguishing oral from topical. Check lactation and infant contact separately for each treatment.",
+    "source_ids": [
+      "S104",
+      "S105",
+      "S106",
+      "S107",
+      "S108",
+      "S109",
+      "S204",
+      "S212"
+    ],
+    "evidence_assessment_id": "E-FACE-001",
+    "review_status": "research draft; independent clinical review pending",
+    "timeline_phase_ids": [
+      "P05"
+    ],
+    "effort_and_cost": "Sunscreen use is recurrent. No pooled US cost for a tolerated product was extracted.",
+    "safety_assessment_ids": [
+      "SAFE-FACE-001"
+    ]
+  },
+  {
+    "id": "C-HAIR-001",
+    "topic": "HAIR-001",
+    "statement": "Shedding often peaks around four months after birth and usually improves over the first year.",
+    "action": "Use gentle hair care if desired. Seek dermatology advice for patchy loss, scalp symptoms, persistent loss or failure to regain fullness by about a year.",
+    "safety": "Medication decisions differ in pregnancy and lactation. Minoxidil needs a product- and infant-specific assessment. Typical postpartum shedding does not establish deficiency.",
+    "source_ids": [
+      "S110",
+      "S111",
+      "S112",
+      "S114",
+      "S115",
+      "S117",
+      "S205"
+    ],
+    "evidence_assessment_id": "E-HAIR-001",
+    "review_status": "research draft; independent clinical review pending",
+    "timeline_phase_ids": [
+      "P17",
+      "P19"
+    ],
+    "effort_and_cost": "Observation is an option for typical shedding. Evaluating persistent symptoms involves a clinical visit.",
+    "safety_assessment_ids": [
+      "SAFE-HAIR-001"
+    ]
+  },
+  {
+    "id": "C-SCAR-001",
+    "topic": "SCAR-001",
+    "statement": "A wound opening needs maternity care. Cosmetic scar care comes after healing.",
+    "action": "Contact maternity care for wound separation, new bleeding, discharge, worsening pain or feeling unwell. Discuss scar appearance after the wound has closed.",
+    "safety": "Immediate postpartum: wound and infection assessment. Following closure: discuss silicone or scar therapy if symptomatic. Delay massage or elective devices until healing is assessed. Severe bleeding or systemic illness needs urgent care.",
+    "source_ids": [
+      "S118",
+      "S119",
+      "S121",
+      "S123",
+      "S124",
+      "S125",
+      "S126",
+      "S131",
+      "S189",
+      "S208"
+    ],
+    "evidence_assessment_id": "E-SCAR-001",
+    "review_status": "research draft; independent clinical review pending",
+    "timeline_phase_ids": [
+      "P13",
+      "P14",
+      "P19"
+    ],
+    "effort_and_cost": "In T118, participants used assigned dressings for three months. Costs depend on dressing dimensions and changes.",
+    "safety_assessment_ids": [
+      "SAFE-SCAR-001"
+    ]
+  },
+  {
+    "id": "C-VEIN-001",
+    "topic": "VEIN-001",
+    "statement": "One painful, swollen leg needs urgent assessment during pregnancy or after birth.",
+    "action": "Seek immediate care for one-sided swelling, redness or pain. Call emergency services for sudden breathlessness or chest pain. For ordinary leg discomfort, ask whether compression is appropriate.",
+    "safety": "Pregnancy and postpartum: urgent symptoms override comfort advice. A stocking is not a diagnostic test or a substitute for prescribed thromboprophylaxis. Later vein procedures require vascular review.",
+    "source_ids": [
+      "S127",
+      "S128",
+      "S129",
+      "S130",
+      "S131",
+      "S132",
+      "S133",
+      "S209"
+    ],
+    "evidence_assessment_id": "E-VEIN-001",
+    "review_status": "research draft; independent clinical review pending",
+    "timeline_phase_ids": [
+      "P13",
+      "P14",
+      "P21"
+    ],
+    "effort_and_cost": "Compression entails fitting and repeat wear. The trial did not establish a price or cost per new vein prevented.",
+    "safety_assessment_ids": [
+      "SAFE-VEIN-001"
+    ]
+  },
+  {
+    "id": "C-MSK-001",
+    "topic": "MSK-001",
+    "statement": "If walking, turning in bed or climbing stairs hurts, ask for a pelvic-health assessment.",
+    "action": "Discuss individualized physiotherapy, activity modification and a trial of a non-rigid support belt where appropriate. Seek clinical review for new severe or disabling symptoms.",
+    "safety": "Antenatal treatment should be adapted to pregnancy by trained clinicians. Persistent postpartum pain or impaired mobility should prompt reassessment; provocative self-testing is unnecessary.",
+    "source_ids": [
+      "S134",
+      "S135",
+      "S136",
+      "S137",
+      "S139",
+      "S140",
+      "S213",
+      "S220"
+    ],
+    "evidence_assessment_id": "E-MSK-001",
+    "review_status": "research draft; independent clinical review pending",
+    "timeline_phase_ids": [
+      "P10"
+    ],
+    "effort_and_cost": "The sham-controlled acupuncture trial studied eight weeks. Access and session prices vary.",
+    "safety_assessment_ids": [
+      "SAFE-MSK-001"
+    ]
+  },
+  {
+    "id": "C-REPRO-001",
+    "topic": "REPRO-001",
+    "statement": "The highest-value early step is reviewing health, medicines and vaccines before trying.",
+    "action": "Bring medication and supplement lists, vaccination history and family history. Include partner concerns. Optional urine ovulation tests may help some couples. Discuss evaluation sooner for known fertility risks.",
+    "safety": "Do not stop needed medicines independently. Some vaccines belong before conception, others during pregnancy. Local schedules, products and seasonal timing need current clinical review.",
+    "source_ids": [
+      "S142",
+      "S144",
+      "S145",
+      "S146",
+      "S171",
+      "S172",
+      "S180",
+      "S191",
+      "S192",
+      "S219"
+    ],
+    "evidence_assessment_id": "E-REPRO-001",
+    "review_status": "research draft; independent clinical review pending",
+    "timeline_phase_ids": [
+      "P01",
+      "P02",
+      "P03",
+      "P04",
+      "P05",
+      "P07",
+      "P08",
+      "P09",
+      "P20",
+      "P21"
+    ],
+    "effort_and_cost": "Optional US retail example: 10 digital ovulation tests listed at $29.99 ($3.00/test) before tax or shipping. The number used per cycle varies. [Retail listing](https://www.walgreens.com/q/ovulation-tests)",
+    "safety_assessment_ids": [
+      "SAFE-REPRO-001"
+    ]
+  },
+  {
+    "id": "C-WELL-001",
+    "topic": "WELL-001",
+    "statement": "Ask for practical help early. Counseling can lower depression risk for people at increased risk.",
+    "action": "Choose who can protect rest time, bring meals, take calls or help with appointments. Ask about preventive counseling if at increased risk. Concerning mood symptoms warrant assessment now.",
+    "safety": "During pregnancy and the year after delivery, thoughts of harming oneself or the baby need immediate help. Severe confusion or loss of contact with reality requires emergency assessment. Postpartum follow-up is an ongoing process.",
+    "source_ids": [
+      "S131",
+      "S147",
+      "S148",
+      "S149",
+      "S150",
+      "S173",
+      "S175",
+      "S183",
+      "S184",
+      "S185",
+      "S197",
+      "S217"
+    ],
+    "evidence_assessment_id": "E-WELL-001",
+    "review_status": "research draft; independent clinical review pending",
+    "timeline_phase_ids": [
+      "P11",
+      "P13",
+      "P14",
+      "P15",
+      "P16",
+      "P17",
+      "P19"
+    ],
+    "effort_and_cost": "Counseling requires appointments; telephone peer support is a different intervention. No transferable fee per participant verified.",
+    "safety_assessment_ids": [
+      "SAFE-WELL-001"
+    ]
+  },
+  {
+    "id": "C-DENT-001",
+    "topic": "DENT-001",
+    "statement": "Treat gum and tooth problems for oral health. Preventing preterm birth is a separate claim.",
+    "action": "Maintain routine dental care and tell the dental team about pregnancy, medications and symptoms. Needed dental treatment can be arranged during pregnancy.",
+    "safety": "Preventive, diagnostic and necessary restorative treatment may be provided during pregnancy according to ADA guidance. Individual medications and medical complications need coordination.",
+    "source_ids": [
+      "S152",
+      "S153",
+      "S155",
+      "S156",
+      "S159",
+      "S160"
+    ],
+    "evidence_assessment_id": "E-DENT-001",
+    "review_status": "research draft; independent clinical review pending",
+    "timeline_phase_ids": [
+      "P01"
+    ],
+    "effort_and_cost": "T152 included monthly polishing and oral-hygiene instruction after periodontal treatment. Dental coverage and procedure fees vary.",
+    "safety_assessment_ids": [
+      "SAFE-DENT-001"
+    ]
+  },
+  {
+    "id": "C-EMERG-001",
+    "topic": "EMERG-001",
+    "statement": "A plausible mechanism is only a starting point. Ask what was measured, at which stage, and what harm was checked.",
+    "action": "For breech presentation discuss options with the obstetric team. Keep elective devices, injections and investigational procedures out of routine pregnancy plans.",
+    "safety": "No home procedure instructions. FDA reports serious injuries with certain RF microneedling uses. Specialist review is needed after healing and during lactation; regulatory clearance depends on device and indication.",
+    "source_ids": [
+      "S162",
+      "S163",
+      "S164",
+      "S165",
+      "S166",
+      "S167",
+      "S168",
+      "S186",
+      "S198",
+      "S199",
+      "S210"
+    ],
+    "evidence_assessment_id": "E-EMERG-001",
+    "review_status": "research draft; independent clinical review pending",
+    "timeline_phase_ids": [
+      "P11"
+    ],
+    "effort_and_cost": "Clinical time, device model, indication and follow-up differ substantially. No defensible common price for these interventions.",
+    "safety_assessment_ids": [
+      "SAFE-EMERG-001"
+    ]
+  },
+  {
+    "id": "C-O001",
+    "topic": "SKIN-001",
+    "statement": "New stretch marks: RR 0.74 (95% CI 0.53 to 1.03).",
+    "comparison": "Topical active ingredients vs vehicle/no treatment",
+    "timepoint": "During pregnancy",
+    "outcome_ids": [
+      "O001"
+    ],
+    "source_ids": [
+      "S001"
+    ],
+    "evidence_assessment_id": "E-O001",
+    "review_status": "research only",
+    "safety_assessment_ids": [
+      "SAFE-SKIN-001"
+    ]
+  },
+  {
+    "id": "C-O002",
+    "topic": "ABD-001",
+    "statement": "Inter-rectus distance at rest 2 cm above navel: MD (mm) 1 (95% CI -1 to 4).",
+    "comparison": "Home exercise vs no program",
+    "timepoint": "After 12 weeks",
+    "outcome_ids": [
+      "O002"
+    ],
+    "source_ids": [
+      "S028"
+    ],
+    "evidence_assessment_id": "E-O002",
+    "review_status": "research only",
+    "safety_assessment_ids": [
+      "SAFE-ABD-001"
+    ]
+  },
+  {
+    "id": "C-O003",
+    "topic": "ABD-001",
+    "statement": "Abdominal strength at 10 degrees: MD (Nm) 9 (95% CI 3 to 16).",
+    "comparison": "Home exercise vs no program",
+    "timepoint": "After 12 weeks",
+    "outcome_ids": [
+      "O003"
+    ],
+    "source_ids": [
+      "S028"
+    ],
+    "evidence_assessment_id": "E-O003",
+    "review_status": "research only",
+    "safety_assessment_ids": [
+      "SAFE-ABD-001"
+    ]
+  },
+  {
+    "id": "C-O004",
+    "topic": "FIT-001",
+    "statement": "Healthy live birth: rate ratio 0.81 (95% CI 0.48 to 1.34).",
+    "comparison": "Intensive lifestyle vs activity program",
+    "timepoint": "After infertility therapy",
+    "outcome_ids": [
+      "O004"
+    ],
+    "source_ids": [
+      "S050"
+    ],
+    "evidence_assessment_id": "E-O004",
+    "review_status": "research only",
+    "safety_assessment_ids": [
+      "SAFE-FIT-001"
+    ]
+  },
+  {
+    "id": "C-O005",
+    "topic": "FIT-002",
+    "statement": "Gestational weight gain: MD (kg) -1.15 (95% CI -1.4 to -0.91).",
+    "comparison": "Antenatal lifestyle intervention vs routine care",
+    "timepoint": "Pregnancy",
+    "outcome_ids": [
+      "O005"
+    ],
+    "source_ids": [
+      "S058"
+    ],
+    "evidence_assessment_id": "E-O005",
+    "review_status": "research only",
+    "safety_assessment_ids": [
+      "SAFE-FIT-002"
+    ]
+  },
+  {
+    "id": "C-O006",
+    "topic": "PELV-001",
+    "statement": "Urinary incontinence; continent at entry: RR 0.38 (95% CI 0.2 to 0.72).",
+    "comparison": "Antenatal pelvic floor training vs usual care",
+    "timepoint": "Late pregnancy",
+    "outcome_ids": [
+      "O006"
+    ],
+    "source_ids": [
+      "S069"
+    ],
+    "evidence_assessment_id": "E-O006",
+    "review_status": "research only",
+    "safety_assessment_ids": [
+      "SAFE-PELV-001"
+    ]
+  },
+  {
+    "id": "C-O007",
+    "topic": "PELV-001",
+    "statement": "Urinary incontinence; continent at entry: RR 0.71 (95% CI 0.54 to 0.95).",
+    "comparison": "Antenatal pelvic floor training vs usual care",
+    "timepoint": ">3 to 6 months postpartum",
+    "outcome_ids": [
+      "O007"
+    ],
+    "source_ids": [
+      "S069"
+    ],
+    "evidence_assessment_id": "E-O007",
+    "review_status": "research only",
+    "safety_assessment_ids": [
+      "SAFE-PELV-001"
+    ]
+  },
+  {
+    "id": "C-O008",
+    "topic": "PELV-001",
+    "statement": "Urinary incontinence; continent at entry: RR 1.2 (95% CI 0.65 to 2.21).",
+    "comparison": "Antenatal pelvic floor training vs usual care",
+    "timepoint": ">6 to 12 months postpartum",
+    "outcome_ids": [
+      "O008"
+    ],
+    "source_ids": [
+      "S069"
+    ],
+    "evidence_assessment_id": "E-O008",
+    "review_status": "research only",
+    "safety_assessment_ids": [
+      "SAFE-PELV-001"
+    ]
+  },
+  {
+    "id": "C-O009",
+    "topic": "BIRTH-001",
+    "statement": "Third- or fourth-degree tear: RR 0.46 (95% CI 0.27 to 0.79).",
+    "comparison": "Warm compress vs control",
+    "timepoint": "Second stage",
+    "outcome_ids": [
+      "O009"
+    ],
+    "source_ids": [
+      "S074"
+    ],
+    "evidence_assessment_id": "E-O009",
+    "review_status": "research only",
+    "safety_assessment_ids": [
+      "SAFE-BIRTH-001"
+    ]
+  },
+  {
+    "id": "C-O010",
+    "topic": "NUTR-001",
+    "statement": "Birth before 34 weeks: adjusted RR 1.13 (95% CI 0.79 to 1.63).",
+    "comparison": "Prenatal n-3 supplementation vs control",
+    "timepoint": "Delivery",
+    "outcome_ids": [
+      "O010"
+    ],
+    "source_ids": [
+      "S082"
+    ],
+    "evidence_assessment_id": "E-O010",
+    "review_status": "research only",
+    "safety_assessment_ids": [
+      "SAFE-NUTR-001"
+    ]
+  },
+  {
+    "id": "C-O011",
+    "topic": "NUTR-001",
+    "statement": "Birth before 34 weeks: RR 0.58 (95% CI 0.44 to 0.77).",
+    "comparison": "Omega-3 long-chain fatty acids vs no omega-3",
+    "timepoint": "Delivery",
+    "outcome_ids": [
+      "O011"
+    ],
+    "source_ids": [
+      "S083"
+    ],
+    "evidence_assessment_id": "E-O011",
+    "review_status": "research only",
+    "safety_assessment_ids": [
+      "SAFE-NUTR-001"
+    ]
+  },
+  {
+    "id": "C-O012",
+    "topic": "NUTR-001",
+    "statement": "Birth before 37 weeks: RR 0.89 (95% CI 0.81 to 0.97).",
+    "comparison": "Omega-3 long-chain fatty acids vs no omega-3",
+    "timepoint": "Delivery",
+    "outcome_ids": [
+      "O012"
+    ],
+    "source_ids": [
+      "S083"
+    ],
+    "evidence_assessment_id": "E-O012",
+    "review_status": "research only",
+    "safety_assessment_ids": [
+      "SAFE-NUTR-001"
+    ]
+  },
+  {
+    "id": "C-O013",
+    "topic": "NUTR-001",
+    "statement": "Neural-tube defects: RR 0.31 (95% CI 0.17 to 0.58).",
+    "comparison": "Periconceptional folate with/without other nutrients vs no folate",
+    "timepoint": "Pregnancy outcome",
+    "outcome_ids": [
+      "O013"
+    ],
+    "source_ids": [
+      "S085"
+    ],
+    "evidence_assessment_id": "E-O013",
+    "review_status": "research only",
+    "safety_assessment_ids": [
+      "SAFE-NUTR-001"
+    ]
+  },
+  {
+    "id": "C-O014",
+    "topic": "NUTR-001",
+    "statement": "Neural-tube defect recurrence: RR 0.28 (95% CI 0.12 to 0.71).",
+    "comparison": "Folic acid factorial arms vs no folic acid",
+    "timepoint": "Completed pregnancy with known outcome",
+    "outcome_ids": [
+      "O014"
+    ],
+    "source_ids": [
+      "S089"
+    ],
+    "evidence_assessment_id": "E-O014",
+    "review_status": "research only",
+    "safety_assessment_ids": [
+      "SAFE-NUTR-001"
+    ]
+  },
+  {
+    "id": "C-O015",
+    "topic": "NUTR-002",
+    "statement": "Gestational diabetes: RR 0.8 (95% CI 0.54 to 1.2).",
+    "comparison": "Probiotics vs placebo in GDM prevention trials",
+    "timepoint": "Pregnancy",
+    "outcome_ids": [
+      "O015"
+    ],
+    "source_ids": [
+      "S094"
+    ],
+    "evidence_assessment_id": "E-O015",
+    "review_status": "research only",
+    "safety_assessment_ids": [
+      "SAFE-NUTR-002"
+    ]
+  },
+  {
+    "id": "C-O016",
+    "topic": "NUTR-002",
+    "statement": "Preeclampsia: RR 1.85 (95% CI 1.04 to 3.29).",
+    "comparison": "Probiotics vs placebo in GDM prevention trials",
+    "timepoint": "Pregnancy",
+    "outcome_ids": [
+      "O016"
+    ],
+    "source_ids": [
+      "S094"
+    ],
+    "evidence_assessment_id": "E-O016",
+    "review_status": "research only",
+    "safety_assessment_ids": [
+      "SAFE-NUTR-002"
+    ]
+  },
+  {
+    "id": "C-O017",
+    "topic": "NUTR-002",
+    "statement": "Preeclampsia: RR 1.14 (95% CI 0.84 to 1.53).",
+    "comparison": "Prenatal probiotics vs comparator in broader review",
+    "timepoint": "Pregnancy",
+    "outcome_ids": [
+      "O017"
+    ],
+    "source_ids": [
+      "S095"
+    ],
+    "evidence_assessment_id": "E-O017",
+    "review_status": "research only",
+    "safety_assessment_ids": [
+      "SAFE-NUTR-002"
+    ]
+  },
+  {
+    "id": "C-O018",
+    "topic": "NUTR-002",
+    "statement": "Change in nausea score: MD (score) 0.2 (90% CI -0.3 to 0.8).",
+    "comparison": "Ginger vs vitamin B6",
+    "timepoint": "Over three weeks",
+    "outcome_ids": [
+      "O018"
+    ],
+    "source_ids": [
+      "S100"
+    ],
+    "evidence_assessment_id": "E-O018",
+    "review_status": "research only",
+    "safety_assessment_ids": [
+      "SAFE-NUTR-002"
+    ]
+  },
+  {
+    "id": "C-O019",
+    "topic": "FACE-001",
+    "statement": "Major congenital malformations: OR 1.22 (95% CI 0.65 to 2.29).",
+    "comparison": "First-trimester topical retinoid exposure vs unexposed",
+    "timepoint": "Pregnancy outcome",
+    "outcome_ids": [
+      "O019"
+    ],
+    "source_ids": [
+      "S107"
+    ],
+    "evidence_assessment_id": "E-O019",
+    "review_status": "research only",
+    "safety_assessment_ids": [
+      "SAFE-FACE-001"
+    ]
+  },
+  {
+    "id": "C-O020",
+    "topic": "SCAR-001",
+    "statement": "Healed perineal wound: OR 20 (95% CI 2.04 to 196.37).",
+    "comparison": "Resuturing vs expectant management",
+    "timepoint": "Two weeks",
+    "outcome_ids": [
+      "O020"
+    ],
+    "source_ids": [
+      "S124"
+    ],
+    "evidence_assessment_id": "E-O020",
+    "review_status": "research only",
+    "safety_assessment_ids": [
+      "SAFE-SCAR-001"
+    ]
+  },
+  {
+    "id": "C-O021",
+    "topic": "WELL-001",
+    "statement": "Onset of perinatal depression: RR 0.61 (95% CI 0.47 to 0.78).",
+    "comparison": "Preventive counseling vs control",
+    "timepoint": "Trial-specific follow-up",
+    "outcome_ids": [
+      "O021"
+    ],
+    "source_ids": [
+      "S148"
+    ],
+    "evidence_assessment_id": "E-O021",
+    "review_status": "research only",
+    "safety_assessment_ids": [
+      "SAFE-WELL-001"
+    ]
+  },
+  {
+    "id": "C-O022",
+    "topic": "DENT-001",
+    "statement": "Preterm delivery: HR 0.93 (95% CI 0.63 to 1.37).",
+    "comparison": "Periodontal treatment vs delayed care",
+    "timepoint": "Before 37 weeks",
+    "outcome_ids": [
+      "O022"
+    ],
+    "source_ids": [
+      "S152"
+    ],
+    "evidence_assessment_id": "E-O022",
+    "review_status": "research only",
+    "safety_assessment_ids": [
+      "SAFE-DENT-001"
+    ]
+  },
+  {
+    "id": "C-O023",
+    "topic": "DENT-001",
+    "statement": "Preterm birth: OR 1.05 (95% CI 0.7 to 1.58).",
+    "comparison": "Periodontal treatment vs delayed care",
+    "timepoint": "Before 37 weeks",
+    "outcome_ids": [
+      "O023"
+    ],
+    "source_ids": [
+      "S155"
+    ],
+    "evidence_assessment_id": "E-O023",
+    "review_status": "research only",
+    "safety_assessment_ids": [
+      "SAFE-DENT-001"
+    ]
+  },
+  {
+    "id": "C-O024",
+    "topic": "EMERG-001",
+    "statement": "Cephalic presentation: RR 1.21 (95% CI 1.02 to 1.43).",
+    "comparison": "Moxibustion plus usual care vs usual care",
+    "timepoint": "Birth",
+    "outcome_ids": [
+      "O024"
+    ],
+    "source_ids": [
+      "S165"
+    ],
+    "evidence_assessment_id": "E-O024",
+    "review_status": "research only",
+    "safety_assessment_ids": [
+      "SAFE-EMERG-001"
+    ]
+  },
+  {
+    "id": "C-O025",
+    "topic": "EMERG-001",
+    "statement": "Breech presentation: RR 1.13 (95% CI 0.98 to 1.32).",
+    "comparison": "Moxibustion plus acupuncture vs inactive laser",
+    "timepoint": "37+2 weeks",
+    "outcome_ids": [
+      "O025"
+    ],
+    "source_ids": [
+      "S166"
+    ],
+    "evidence_assessment_id": "E-O025",
+    "review_status": "research only",
+    "safety_assessment_ids": [
+      "SAFE-EMERG-001"
+    ]
+  },
+  {
+    "id": "C-O026",
+    "topic": "EMERG-001",
+    "statement": "Non-cephalic presentation: RR 0.87 (95% CI 0.78 to 0.99).",
+    "comparison": "Moxibustion plus usual care vs usual care",
+    "timepoint": "Birth",
+    "outcome_ids": [
+      "O026"
+    ],
+    "source_ids": [
+      "S167"
+    ],
+    "evidence_assessment_id": "E-O026",
+    "review_status": "research only",
+    "safety_assessment_ids": [
+      "SAFE-EMERG-001"
+    ]
+  },
+  {
+    "id": "C-O027",
+    "topic": "EMERG-001",
+    "statement": "Cesarean birth: RR 0.94 (95% CI 0.83 to 1.05).",
+    "comparison": "Moxibustion plus usual care vs usual care",
+    "timepoint": "Birth",
+    "outcome_ids": [
+      "O027"
+    ],
+    "source_ids": [
+      "S167"
+    ],
+    "evidence_assessment_id": "E-O027",
+    "review_status": "research only",
+    "safety_assessment_ids": [
+      "SAFE-EMERG-001"
+    ]
+  },
+  {
+    "id": "C-O028",
+    "topic": "BIRTH-001",
+    "statement": "Spontaneous vaginal birth: RR 1.08 (95% CI 1.04 to 1.12).",
+    "comparison": "Continuous labor support vs usual care",
+    "timepoint": "Birth",
+    "outcome_ids": [
+      "O028"
+    ],
+    "source_ids": [
+      "S169"
+    ],
+    "evidence_assessment_id": "E-O028",
+    "review_status": "research only",
+    "safety_assessment_ids": [
+      "SAFE-BIRTH-001"
+    ]
+  },
+  {
+    "id": "C-O029",
+    "topic": "BIRTH-001",
+    "statement": "Trauma requiring suturing: RR 0.91 (95% CI 0.86 to 0.96).",
+    "comparison": "Antenatal digital perineal massage vs control",
+    "timepoint": "Birth",
+    "outcome_ids": [
+      "O029"
+    ],
+    "source_ids": [
+      "S170"
+    ],
+    "evidence_assessment_id": "E-O029",
+    "review_status": "research only",
+    "safety_assessment_ids": [
+      "SAFE-BIRTH-001"
+    ]
+  },
+  {
+    "id": "C-O030",
+    "topic": "FACE-001",
+    "statement": "Major congenital malformations: adjusted RR 1.1 (95% CI 0.87 to 1.38).",
+    "comparison": "Topical retinoids vs unexposed",
+    "timepoint": "First-trimester exposure, birth cohort",
+    "outcome_ids": [
+      "O030"
+    ],
+    "source_ids": [
+      "S108"
+    ],
+    "evidence_assessment_id": "E-O030",
+    "review_status": "research only",
+    "safety_assessment_ids": [
+      "SAFE-FACE-001"
+    ]
+  },
+  {
+    "id": "C-O031",
+    "topic": "REPRO-001",
+    "statement": "Live birth: OR 1.53 (95% CI 1.07 to 2.19).",
+    "comparison": "Connected urine ovulation test vs no test",
+    "timepoint": "Two cycles combined",
+    "outcome_ids": [
+      "O031"
+    ],
+    "source_ids": [
+      "S219"
+    ],
+    "evidence_assessment_id": "E-O031",
+    "review_status": "research only",
+    "safety_assessment_ids": [
+      "SAFE-REPRO-001"
+    ]
+  }
+]
