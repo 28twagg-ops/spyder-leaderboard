@@ -1,3 +1,5 @@
 # New chat prompt
 
+**Latest cross-chat checkpoint:** [TRANSFER.md](../../TRANSFER.md) includes the most recent targeted audit, safety holds and next research task.
+
 Continue the Pregnancy Info App project from https://github.com/28twagg-ops/spyder-leaderboard/tree/main/pregnancy-info-app. Read [START_HERE.md](../../START_HERE.md) first, then its required files. Treat the current GitHub repo as source of truth; inspect main, do not rely on the prior conversation, and do not repeat completed work. Continue the requested task, commit focused changes inside pregnancy-info-app, preserve the legacy leaderboard, update status and regenerate the derived research exports when their authoritative inputs change. Preserve clinical review gates and source provenance; Claude owns architecture and implementation decisions. No continuous monitoring or deployment without new authorization. If repo access fails, state the blocker and ask for the relevant original files or archive.
