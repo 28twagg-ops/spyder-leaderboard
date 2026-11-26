@@ -11,3 +11,6 @@ Legacy backend: original root files intentionally preserved. No attempt to renam
 ## Research update · 26 November 2026
 
 The initial transfer description above records the state before the research assignment. The [research index](research/RESEARCH_INDEX.md) now links 22 topic dossiers, the full stage timeline, a checked source registry and selected study extractions. Review [research progress](research/RESEARCH_PROGRESS.md) for the verification levels and [Claude’s research handoff](research/CLAUDE_RESEARCH_HANDOFF.md) for the data relationships. Clinical review and the remaining study-level work are pending.
+
+## Current standalone transfer (2026-11-26)
+Read [START_HERE.md](START_HERE.md) for verified counts and next actions. The research foundation and 25 derived portable export files are committed; the actual app stack/build/runtime tests, clinical review and final assets remain open. Monitoring paused at user request. Historical initial status is not current research inventory.

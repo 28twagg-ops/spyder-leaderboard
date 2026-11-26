@@ -51,3 +51,6 @@ See [routine-prep](routine-prep/README.md) for derived content and review queues
 
 ## Final release preparation
 [Start here: final research and QA package](release-prep/README.md).
+
+## Standalone transfer and portable formats
+See [START_HERE.md](../START_HERE.md) and [research transfer](transfer/README.md). Current inventory is computed from source files in [EXPORT_MANIFEST.json](transfer/exports/EXPORT_MANIFEST.json); previous counts are historical. No prior chat required. No recurring research monitoring is authorized.

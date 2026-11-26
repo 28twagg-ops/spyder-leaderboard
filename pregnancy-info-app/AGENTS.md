@@ -1,5 +1,7 @@
 # Shared agent instructions
 
+**Current transfer:** Read [START_HERE.md](START_HERE.md) first, then the [final research import](research/release-prep/FINAL_RESEARCH_IMPORT.json). Use [portable research exports](research/transfer/README.md) if useful. No prior conversation is required; no recurring monitoring is authorized. The existing research foundation supersedes the original seed scope.
+
 Read README.md and CLAUDE.md first. The project lives in pregnancy-info-app/; do not alter the legacy server, its dependencies or external deployment.
 
 Claude owns core architecture, design and complex implementation. Secondary agents own research expansion and routine implementation once the foundation is ready. Follow the documented stack, schema, design tokens, components, validation and medical safety rules. Do not replace established systems without a documented proposal and review.

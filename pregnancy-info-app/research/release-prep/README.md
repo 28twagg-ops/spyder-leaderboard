@@ -16,9 +16,12 @@ Start with [FINAL_RESEARCH_IMPORT.json](FINAL_RESEARCH_IMPORT.json). It is the s
 Use latest safety checks RP-C01–05 and IA-A1/A2 when older drafts conflict within their scope. Unknown safety remains unknown. Execute safety fixtures on both chat and non-chat paths, recording build version and observed result. P0 failures block release. Keep essential warnings outside media and require accessibility, license and clinical checks. No individualized dosing, automatic schedules or clinical release of unreviewed research.
 
 ## Limitations
-No running app tested, independent clinician review, comprehensive retraction/full-text screening, finished clinical illustrations, product-lot verification or media playback review. Price and label snapshots expire. Open scientific gaps remain in ../RESEARCH_GAPS.md. Weekly research monitoring is active on Mondays; findings require review before changes to recommendations.
+No running app tested, independent clinician review, comprehensive retraction/full-text screening, finished clinical illustrations, product-lot verification or media playback review. Price and label snapshots expire. Open scientific gaps remain in ../RESEARCH_GAPS.md. Recurring pregnancy research monitoring is paused at the user's request; do not resume without new authorization.
 
 ### Final expansion (2026-11-26)
 - [Visual education briefs](VISUAL_EDUCATION_SPEC.json): 12 briefs; [editable conceptual SVGs](visual-assets/): four draft educational graphics.
 - [Product label research](PRODUCT_LABEL_RESEARCH.json): five dated examples, nine deduplicated product/category examples across both product files.
 - Final counts: 382 mixed resources, 10 research-only intervention candidates, 68 safety cases / 204 variants. Clinical review and runtime test execution remain pending.
+
+## Fresh-chat transfer
+Start at [START_HERE.md](../../START_HERE.md) and [portable research formats](../transfer/README.md). The [export manifest](../transfer/exports/EXPORT_MANIFEST.json) contains counts calculated from actual stored data; older snapshots are historical. Final safety count is 68 cases / 204 variants (49 P0); 10 research-only candidates; 12 briefs / 4 SVG concepts. No clinical review or runtime execution.

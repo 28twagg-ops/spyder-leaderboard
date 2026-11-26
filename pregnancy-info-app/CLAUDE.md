@@ -1,5 +1,7 @@
 # Claude — lead architect assignment
 
+**Current transfer:** Read [START_HERE.md](START_HERE.md) first, then the [final research import](research/release-prep/FINAL_RESEARCH_IMPORT.json). Use [portable research exports](research/transfer/README.md) if useful. No prior conversation is required; no recurring monitoring is authorized. The existing research foundation supersedes the original seed scope.
+
 You are the lead architect working in Cursor. Read README.md, MASTER_BLUEPRINT.md and all linked standards before implementation. This folder is isolated from the legacy SPYDER service; preserve the root backend and its dependencies.
 
 Build a maintainable, mobile-first educational pregnancy-preparation, pregnancy and postpartum research app. A low-reading user should understand the key takeaway within 5–15 seconds and the current priorities in 30–60 seconds; a research-oriented user must be able to inspect full studies, uncertainty and sources. Use progressive disclosure, visuals with clear labels, and a simple daily/weekly view.

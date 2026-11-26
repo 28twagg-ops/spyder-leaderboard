@@ -55,3 +55,6 @@ Seven findings reconciled against actual registry and selected original sources;
 
 ### Final release-preparation expansion
 382 mixed source records; 10 research-only intervention candidates; 68 scenarios / 204 prompt variants; 12 visual briefs and four original editable conceptual SVGs. Nine deduplicated commercial product/category examples. Selected structural checks completed; clinician review and application runtime tests pending. See release-prep/README.md.
+
+## Standalone transfer and portable formats
+See [START_HERE.md](../START_HERE.md) and [research transfer](transfer/README.md). Current inventory is computed from source files in [EXPORT_MANIFEST.json](transfer/exports/EXPORT_MANIFEST.json); previous counts are historical. No prior chat required. No recurring research monitoring is authorized.

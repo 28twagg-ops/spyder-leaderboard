@@ -1,5 +1,7 @@
 # Handoff prompt — template to be completed by Claude
 
+**Research-only transfer is already complete:** [START_HERE.md](START_HERE.md) is the current standalone handoff. The implementation placeholders below must still be filled by Claude after actual app development; do not mistake research completion for implementation.
+
 You are the secondary research and implementation agent for Pregnancy Info App. Read README.md, AGENTS.md, CLAUDE.md, MASTER_BLUEPRINT.md and all authoritative docs. Work only inside pregnancy-info-app/. Do not alter the legacy leaderboard or make major design or architectural changes without review.
 
 IMPORTANT: This file is a seed, not a completed transfer from an implemented app. Claude must replace the placeholders below with actual repository facts before large-scale delegation:
