@@ -4576,8 +4576,8 @@
     "current_pass": {
       "source_id_count": 382,
       "source_ref_missing_in_intervals_counts_safety_visuals": [],
-      "safety_prompt_variants": 192,
-      "safety_cases": 64,
+      "safety_prompt_variants": 204,
+      "safety_cases": 68,
       "verified_at": "2026-11-26",
       "scope": "Selected structural validation; no clinical review, runtime execution, full publication-status audit or full product testing",
       "repaired_nested_count_source": "GA-ARM-T009 retains S009 primary report and S001 denominator source; no numeric changes",
