@@ -1,0 +1,27 @@
+{
+  "source_records": 299,
+  "baseline": 223,
+  "checked_records": 55,
+  "distinct_checked": 55,
+  "topics": 22,
+  "claims": 53,
+  "phases": 22,
+  "fields_without_selected_checks": [
+    "SKIN-002.safety",
+    "ABD-002.takeaway",
+    "ABD-002.action",
+    "ABD-002.safety",
+    "BREAST-001.safety",
+    "PELV-001.safety",
+    "BIRTH-001.safety",
+    "NUTR-002.action",
+    "NUTR-002.safety",
+    "HAIR-001.safety",
+    "SCAR-001.action",
+    "MSK-001.safety",
+    "WELL-001.action"
+  ],
+  "unresolved_source_links": [],
+  "clinical_reviews": 0,
+  "scope": "structural join and targeted indexed checks only; not comprehensive full-text or clinical review"
+}

@@ -1,0 +1,497 @@
+[
+  {
+    "source_id": "S001",
+    "original_id": "S001",
+    "checked_url": "https://www.cochrane.org/evidence/CD000066_topical-preparations-preventing-stretch-marks-pregnancy",
+    "locator": "Results",
+    "finding": "Reliable topical prevention not established; combination products cannot isolate ingredients.",
+    "date": "2026-11-26",
+    "access": "indexed excerpt or public guidance; not full-text appraisal"
+  },
+  {
+    "source_id": "S011",
+    "original_id": "S011",
+    "checked_url": "https://pubmed.ncbi.nlm.nih.gov/40324552/",
+    "locator": "Abstract funding subgroup",
+    "finding": "Studies without pharmaceutical-company funding did not establish adult skin benefit; no direct pregnancy prevention evidence.",
+    "date": "2026-11-26",
+    "access": "indexed excerpt or public guidance; not full-text appraisal"
+  },
+  {
+    "source_id": "S012",
+    "original_id": "S012",
+    "checked_url": "https://pubmed.ncbi.nlm.nih.gov/43047141/",
+    "locator": "Indexed abstract identity",
+    "finding": "Updated adult review exists; precise sensitivity estimates not re-extracted.",
+    "date": "2026-11-26",
+    "access": "indexed excerpt or public guidance; not full-text appraisal"
+  },
+  {
+    "source_id": "S028",
+    "original_id": "S028",
+    "checked_url": "https://pubmed.ncbi.nlm.nih.gov/37286390/",
+    "locator": "Abstract results",
+    "finding": "Strength MD 9 Nm (95% CI 3–16); distinct from gap and appearance.",
+    "date": "2026-11-26",
+    "access": "indexed excerpt or public guidance; not full-text appraisal"
+  },
+  {
+    "source_id": "S032",
+    "original_id": "S032",
+    "checked_url": "https://bjsm.bmj.com/content/59/8/562/",
+    "locator": "Results",
+    "finding": "65 distinct studies; postpartum interventions and outcomes heterogeneous.",
+    "date": "2026-11-26",
+    "access": "indexed excerpt or public guidance; not full-text appraisal"
+  },
+  {
+    "source_id": "S044",
+    "original_id": "S044",
+    "checked_url": "https://pubmed.ncbi.nlm.nih.gov/19083576/",
+    "locator": "Abstract methods/conclusion",
+    "finding": "Retrospective selected cohort; breastfeeding not independent predictor of ptosis.",
+    "date": "2026-11-26",
+    "access": "indexed excerpt or public guidance; not full-text appraisal"
+  },
+  {
+    "source_id": "S059",
+    "original_id": "S059",
+    "checked_url": "https://www.acog.org/clinical/clinical-guidance/committee-opinion/articles/2020/04/physical-activity-and-exercise-during-pregnancy-and-the-postpartum-period",
+    "locator": "Recommendations",
+    "finding": "150 min/week moderate aerobic activity in uncomplicated pregnancy; contraindications and warning signs.",
+    "date": "2026-11-26",
+    "access": "indexed excerpt or public guidance; not full-text appraisal"
+  },
+  {
+    "source_id": "S069",
+    "original_id": "S069",
+    "checked_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC7203602/",
+    "locator": "Abstract results",
+    "finding": "Initially continent antenatal group late pregnancy UI RR .38 (.20–.72), six trials 624.",
+    "date": "2026-11-26",
+    "access": "indexed excerpt or public guidance; not full-text appraisal"
+  },
+  {
+    "source_id": "S170",
+    "original_id": "S170",
+    "checked_url": "https://www.cochrane.org/evidence/CD005123_antenatal-perineal-massage-reducing-perineal-trauma",
+    "locator": "Results",
+    "finding": "Four trials 2497; late pregnancy massage reduced some trauma outcomes.",
+    "date": "2026-11-26",
+    "access": "indexed excerpt or public guidance; not full-text appraisal"
+  },
+  {
+    "source_id": "S086",
+    "original_id": "S086",
+    "checked_url": "https://ods.od.nih.gov/factsheets/Pregnancy-HealthProfessional/",
+    "locator": "Nutrients and folic acid",
+    "finding": "Intake reference values distinct from supplemental doses.",
+    "date": "2026-11-26",
+    "access": "indexed excerpt or public guidance; not full-text appraisal"
+  },
+  {
+    "source_id": "S088",
+    "original_id": "S088",
+    "checked_url": "https://www.uspreventiveservicestaskforce.org/uspstf/recommendation/folic-acid-for-the-prevention-of-neural-tube-defects-preventive-medication",
+    "locator": "Recommendation/timing",
+    "finding": "Average risk 400–800 mcg daily at least one month before conception through first 2–3 months.",
+    "date": "2026-11-26",
+    "access": "indexed excerpt or public guidance; not full-text appraisal"
+  },
+  {
+    "source_id": "S092",
+    "original_id": "S092",
+    "checked_url": "https://doi.org/10.1002/14651858.CD001059.pub6",
+    "locator": "2025 updated results",
+    "finding": "PE RR .83 (.67–1.04), six trials 15364; low certainty.",
+    "date": "2026-11-26",
+    "access": "indexed excerpt or public guidance; not full-text appraisal"
+  },
+  {
+    "source_id": "S093",
+    "original_id": "S093",
+    "checked_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC13312738/",
+    "locator": "Figure 1 text",
+    "finding": "Nested sensitivity RR .63 (.45–.90); not independent.",
+    "date": "2026-11-26",
+    "access": "indexed excerpt or public guidance; not full-text appraisal"
+  },
+  {
+    "source_id": "S094",
+    "original_id": "S094",
+    "checked_url": "https://www.cochrane.org/evidence/CD009951_probiotics-prevent-gestational-diabetes-mellitus",
+    "locator": "Results",
+    "finding": "PE RR 1.85 (1.04–3.29), four trials 955; high certainty as graded by review. Arm counts inherited, not rechecked.",
+    "date": "2026-11-26",
+    "access": "indexed excerpt or public guidance; not full-text appraisal"
+  },
+  {
+    "source_id": "S095",
+    "original_id": "S095",
+    "checked_url": "https://pubmed.ncbi.nlm.nih.gov/38447676/",
+    "locator": "Abstract results",
+    "finding": "PE RR 1.14 (.84–1.53), eleven trials 2401; low certainty.",
+    "date": "2026-11-26",
+    "access": "indexed excerpt or public guidance; not full-text appraisal"
+  },
+  {
+    "source_id": "S110",
+    "original_id": "S110",
+    "checked_url": "https://www.aad.org/public/diseases/hair-loss/insider/new-moms",
+    "locator": "Patient guidance",
+    "finding": "Postpartum shedding commonly temporary; persistent loss warrants evaluation.",
+    "date": "2026-11-26",
+    "access": "indexed excerpt or public guidance; not full-text appraisal"
+  },
+  {
+    "source_id": "S121",
+    "original_id": "S121",
+    "checked_url": "https://www.cochrane.org/evidence/CD013357_silicone-gel-sheeting-treating-hypertrophic-scars",
+    "locator": "Review results",
+    "finding": "Limited evidence for hypertrophic scar treatment; not all cesarean scar prevention.",
+    "date": "2026-11-26",
+    "access": "indexed excerpt or public guidance; not full-text appraisal"
+  },
+  {
+    "source_id": "S127",
+    "original_id": "S127",
+    "checked_url": "https://pubmed.ncbi.nlm.nih.gov/11835115/",
+    "locator": "Abstract conclusion",
+    "finding": "Compression improved symptoms/reflux but did not prevent new gestational varicose veins.",
+    "date": "2026-11-26",
+    "access": "indexed excerpt or public guidance; not full-text appraisal"
+  },
+  {
+    "source_id": "S131",
+    "original_id": "S131",
+    "checked_url": "https://www.cdc.gov/hearher/maternal-warning-signs/index.html",
+    "locator": "Warning signs",
+    "finding": "Urgent symptoms during pregnancy and year after delivery, including unilateral limb symptoms and chest pain/breathlessness.",
+    "date": "2026-11-26",
+    "access": "indexed excerpt or public guidance; not full-text appraisal"
+  },
+  {
+    "source_id": "S134",
+    "original_id": "S134",
+    "checked_url": "https://pubmed.ncbi.nlm.nih.gov/15778231/",
+    "locator": "Abstract",
+    "finding": "Stabilization exercises and acupuncture as adjuncts for pelvic girdle pain.",
+    "date": "2026-11-26",
+    "access": "indexed excerpt or public guidance; not full-text appraisal"
+  },
+  {
+    "source_id": "S142",
+    "original_id": "S142",
+    "checked_url": "https://www.acog.org/clinical/clinical-guidance/committee-opinion/articles/2019/01/prepregnancy-counseling",
+    "locator": "Counseling",
+    "finding": "Health, medication and exercise review before conception.",
+    "date": "2026-11-26",
+    "access": "indexed excerpt or public guidance; not full-text appraisal"
+  },
+  {
+    "source_id": "S152",
+    "original_id": "S152",
+    "checked_url": "https://pubmed.ncbi.nlm.nih.gov/17079762/",
+    "locator": "Abstract conclusion",
+    "finding": "Periodontal care improved disease without significant preterm birth reduction.",
+    "date": "2026-11-26",
+    "access": "indexed excerpt or public guidance; not full-text appraisal"
+  },
+  {
+    "source_id": "S159",
+    "original_id": "S159",
+    "checked_url": "https://www.ada.org/resources/ada-library/oral-health-topics/pregnancy",
+    "locator": "Policy",
+    "finding": "Needed dental care appropriate during pregnancy.",
+    "date": "2026-11-26",
+    "access": "indexed excerpt or public guidance; not full-text appraisal"
+  },
+  {
+    "source_id": "S178",
+    "original_id": "S178",
+    "checked_url": "https://www.uspreventiveservicestaskforce.org/uspstf/recommendation/iron-deficiency-anemia-in-pregnant-women-screening-and-supplementation",
+    "locator": "I statement",
+    "finding": "Insufficient clinical-outcome evidence for routine screening/supplementation in asymptomatic population; not against treating diagnosed deficiency.",
+    "date": "2026-11-26",
+    "access": "indexed excerpt or public guidance; not full-text appraisal"
+  },
+  {
+    "source_id": "S179",
+    "original_id": "S179",
+    "checked_url": "https://jamanetwork.com/journals/jama/fullarticle/2822560",
+    "locator": "Abstract",
+    "finding": "Iron deficiency anemia at term RR .40 (.26–.61), four trials 2230; hematologic endpoint.",
+    "date": "2026-11-26",
+    "access": "indexed excerpt or public guidance; not full-text appraisal"
+  },
+  {
+    "source_id": "S198",
+    "original_id": "S198",
+    "checked_url": "https://www.fda.gov/medical-devices/safety-communications/potential-risks-certain-uses-radiofrequency-rf-microneedling-fda-safety-communication",
+    "locator": "Safety communication",
+    "finding": "Serious harm reports; no population denominator.",
+    "date": "2026-11-26",
+    "access": "indexed excerpt or public guidance; not full-text appraisal"
+  },
+  {
+    "source_id": "S199",
+    "original_id": "S199",
+    "checked_url": "https://www.fda.gov/medical-devices/aesthetic-cosmetic-devices/microneedling-devices",
+    "locator": "Authorization",
+    "finding": "Indication-specific authorization, not blanket pregnancy approval.",
+    "date": "2026-11-26",
+    "access": "indexed excerpt or public guidance; not full-text appraisal"
+  },
+  {
+    "source_id": "S204",
+    "original_id": "S204",
+    "checked_url": "https://www.aad.org/public/everyday-care/skin-care-secrets/routine/pregnancy-skin-care",
+    "locator": "Avoid ingredients",
+    "finding": "Avoid retinoids during pregnancy; review with clinician.",
+    "date": "2026-11-26",
+    "access": "indexed excerpt or public guidance; not full-text appraisal"
+  },
+  {
+    "source_id": "S212",
+    "original_id": "S212",
+    "checked_url": "https://pubmed.ncbi.nlm.nih.gov/17567299/",
+    "locator": "Abstract results",
+    "finding": "5/185 new melasma cases; historical comparator, not randomized.",
+    "date": "2026-11-26",
+    "access": "indexed excerpt or public guidance; not full-text appraisal"
+  },
+  {
+    "source_id": "S220",
+    "original_id": "S220",
+    "checked_url": "https://pubmed.ncbi.nlm.nih.gov/18947338/",
+    "locator": "Indexed objective",
+    "finding": "Sham comparison identity; full results not extracted.",
+    "date": "2026-11-26",
+    "access": "indexed excerpt or public guidance; not full-text appraisal"
+  },
+  {
+    "source_id": "CL03",
+    "original_id": "CL03",
+    "checked_url": "https://doi.org/10.1001/jamanetworkopen.2024.42925",
+    "locator": "Results",
+    "finding": "Postpartum SUI cure 45/223 vs 20/229 and improvement 132/223 vs 102/229; supervised PFMT ± device.",
+    "date": "2026-11-26",
+    "access": "indexed excerpt or public guidance; not full-text appraisal"
+  },
+  {
+    "source_id": "CL04",
+    "original_id": "CL04",
+    "checked_url": "https://pubmed.ncbi.nlm.nih.gov/41984478/",
+    "locator": "Indexed identity",
+    "finding": "PEFLOW prevention trial exists; exact results not re-extracted.",
+    "date": "2026-11-26",
+    "access": "indexed excerpt or public guidance; not full-text appraisal"
+  },
+  {
+    "source_id": "CL05",
+    "original_id": "CL05",
+    "checked_url": "https://pubmed.ncbi.nlm.nih.gov/40610191/",
+    "locator": "Indexed scope",
+    "finding": "Resistance training alone or multicomponent; isolate effects cautiously.",
+    "date": "2026-11-26",
+    "access": "indexed excerpt or public guidance; not full-text appraisal"
+  },
+  {
+    "source_id": "CL17",
+    "original_id": "CL17",
+    "checked_url": "https://pubmed.ncbi.nlm.nih.gov/30969203/",
+    "locator": "Abstract results",
+    "finding": "CBT-I improved prenatal insomnia severity.",
+    "date": "2026-11-26",
+    "access": "indexed excerpt or public guidance; not full-text appraisal"
+  },
+  {
+    "source_id": "R005",
+    "original_id": "R005",
+    "checked_url": "https://pubmed.ncbi.nlm.nih.gov/32034969/",
+    "locator": "Abstract",
+    "finding": "ORIP baseline status secondary analysis, not independent cohort.",
+    "date": "2026-11-26",
+    "access": "indexed excerpt or public guidance; not full-text appraisal"
+  },
+  {
+    "source_id": "R007",
+    "original_id": "R007",
+    "checked_url": "https://pubmed.ncbi.nlm.nih.gov/34308309/",
+    "locator": "Abstract/disclosures",
+    "finding": "ADORE distinct adaptive DHA dose trial; DSM supplied capsules.",
+    "date": "2026-11-26",
+    "access": "indexed excerpt or public guidance; not full-text appraisal"
+  },
+  {
+    "source_id": "R012",
+    "original_id": "R012",
+    "checked_url": "https://pubmed.ncbi.nlm.nih.gov/40965861/",
+    "locator": "Abstract synthesis",
+    "finding": "Preconception calcium composite PE or pregnancy loss RR .85 (.67–1.07), one trial 1355.",
+    "date": "2026-11-26",
+    "access": "indexed excerpt or public guidance; not full-text appraisal"
+  },
+  {
+    "source_id": "R013",
+    "original_id": "R013",
+    "checked_url": "https://pubmed.ncbi.nlm.nih.gov/40018828/",
+    "locator": "Abstract results",
+    "finding": "Below umbilicus MD -.31 (-.53 to -.10); above .22 (-1.43 to 1.88); verify units/endpoint before charting.",
+    "date": "2026-11-26",
+    "access": "indexed excerpt or public guidance; not full-text appraisal"
+  },
+  {
+    "source_id": "N301",
+    "original_id": "N301",
+    "checked_url": "https://pubmed.ncbi.nlm.nih.gov/41995887/",
+    "locator": "Abstract results",
+    "finding": "9 RCTs 450 participants, IRD MD -8.05 mm (-10.43 to -5.68); overlapping review.",
+    "date": "2026-11-26",
+    "access": "indexed excerpt or public guidance; not full-text appraisal"
+  },
+  {
+    "source_id": "S031",
+    "original_id": "N302",
+    "checked_url": "https://pubmed.ncbi.nlm.nih.gov/39666696/",
+    "locator": "Abstract conclusion",
+    "finding": "Both exercise groups reduced IRD; not proof of superiority or prevention.",
+    "date": "2026-11-26",
+    "access": "indexed excerpt or public guidance; not full-text appraisal"
+  },
+  {
+    "source_id": "S106",
+    "original_id": "N303",
+    "checked_url": "https://www.acog.org/womens-health/faqs/skin-conditions-during-pregnancy",
+    "locator": "Skin changes",
+    "finding": "Striae often fade but may persist.",
+    "date": "2026-11-26",
+    "access": "indexed excerpt or public guidance; not full-text appraisal"
+  },
+  {
+    "source_id": "N304",
+    "original_id": "N304",
+    "checked_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC13486146/",
+    "locator": "Guideline summary",
+    "finding": "Warm compress review RR .46 (.27–.79) for OASI; contextual, not independent trial.",
+    "date": "2026-11-26",
+    "access": "indexed excerpt or public guidance; not full-text appraisal"
+  },
+  {
+    "source_id": "N305",
+    "original_id": "N305",
+    "checked_url": "https://bjsm.bmj.com/content/59/8/515/",
+    "locator": "Recommendations",
+    "finding": "Risk/symptom-based postpartum progression; not automatic clearance.",
+    "date": "2026-11-26",
+    "access": "indexed excerpt or public guidance; not full-text appraisal"
+  },
+  {
+    "source_id": "S147",
+    "original_id": "N306",
+    "checked_url": "https://www.uspreventiveservicestaskforce.org/uspstf/recommendation/perinatal-depression-preventive-interventions",
+    "locator": "Recommendation",
+    "finding": "Preventive counseling for increased-risk population.",
+    "date": "2026-11-26",
+    "access": "indexed excerpt or public guidance; not full-text appraisal"
+  },
+  {
+    "source_id": "S148",
+    "original_id": "N307",
+    "checked_url": "https://www.uspreventiveservicestaskforce.org/uspstf/document/evidence-summary/perinatal-depression-preventive-interventions",
+    "locator": "Evidence table",
+    "finding": "Counseling RR .61 (.47–.78), 17 trials 3094; possible small-study effect.",
+    "date": "2026-11-26",
+    "access": "indexed excerpt or public guidance; not full-text appraisal"
+  },
+  {
+    "source_id": "N308",
+    "original_id": "N308",
+    "checked_url": "https://pubmed.ncbi.nlm.nih.gov/20113691/",
+    "locator": "Abstract results",
+    "finding": "Spontaneous PTB <35 weeks RR 1.19 (.62–2.28).",
+    "date": "2026-11-26",
+    "access": "indexed excerpt or public guidance; not full-text appraisal"
+  },
+  {
+    "source_id": "S018",
+    "original_id": "N309",
+    "checked_url": "https://pubmed.ncbi.nlm.nih.gov/30618025/",
+    "locator": "Abstract methods",
+    "finding": "Split abdomen trial, 20 women skin types III–IV; no prenatal safety evidence.",
+    "date": "2026-11-26",
+    "access": "indexed excerpt or public guidance; not full-text appraisal"
+  },
+  {
+    "source_id": "S074",
+    "original_id": "N310",
+    "checked_url": "https://doi.org/10.1002/14651858.CD016148",
+    "locator": "Review scope",
+    "finding": "Intrapartum techniques distinct from antenatal massage.",
+    "date": "2026-11-26",
+    "access": "indexed excerpt or public guidance; not full-text appraisal"
+  },
+  {
+    "source_id": "N311",
+    "original_id": "N311",
+    "checked_url": "https://www.medicinesinpregnancy.org/leaflets-a-z/isotretinoin-gel/",
+    "locator": "Guidance",
+    "finding": "Avoid topical retinoids in pregnancy; discuss before trying.",
+    "date": "2026-11-26",
+    "access": "indexed excerpt or public guidance; not full-text appraisal"
+  },
+  {
+    "source_id": "S029",
+    "original_id": "N312",
+    "checked_url": "https://pubmed.ncbi.nlm.nih.gov/40489856/",
+    "locator": "Abstract results",
+    "finding": "34 RCTs; measured gap evidence, not prenatal electrical stimulation indication.",
+    "date": "2026-11-26",
+    "access": "indexed excerpt or public guidance; not full-text appraisal"
+  },
+  {
+    "source_id": "UX01",
+    "original_id": "UX01",
+    "checked_url": "https://pubmed.ncbi.nlm.nih.gov/32466864/",
+    "locator": "Indexed review",
+    "finding": "Pictures in health communication; context matters.",
+    "date": "2026-11-26",
+    "access": "indexed excerpt or public guidance; not full-text appraisal"
+  },
+  {
+    "source_id": "UX02",
+    "original_id": "UX02",
+    "checked_url": "https://pubmed.ncbi.nlm.nih.gov/16122896/",
+    "locator": "Indexed review",
+    "finding": "Pair relevant images with concise explanation.",
+    "date": "2026-11-26",
+    "access": "indexed excerpt or public guidance; not full-text appraisal"
+  },
+  {
+    "source_id": "UX04",
+    "original_id": "UX04",
+    "checked_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC12808424/",
+    "locator": "Results",
+    "finding": "Positive findings 48/60 knowledge, 28/53 attitudes, 20/32 behavior; overlapping sets.",
+    "date": "2026-11-26",
+    "access": "indexed excerpt or public guidance; not full-text appraisal"
+  },
+  {
+    "source_id": "UX08",
+    "original_id": "UX08",
+    "checked_url": "https://www.cochrane.org/evidence/CD001431_patient-decision-aids-help-people-who-are-facing-decisions-about-health-treatment-or-screening",
+    "locator": "Results",
+    "finding": "Knowledge MD 11.90/100 (10.60–13.19), 107 studies 25492.",
+    "date": "2026-11-26",
+    "access": "indexed excerpt or public guidance; not full-text appraisal"
+  },
+  {
+    "source_id": "UX16",
+    "original_id": "UX16",
+    "checked_url": "https://pubmed.ncbi.nlm.nih.gov/39587534/",
+    "locator": "Abstract",
+    "finding": "36 apps assessed for guidance, commercialization and user perceptions.",
+    "date": "2026-11-26",
+    "access": "indexed excerpt or public guidance; not full-text appraisal"
+  }
+]

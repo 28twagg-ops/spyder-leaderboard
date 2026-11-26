@@ -1,0 +1,3 @@
+# Integrated research import
+
+Use this architecture-neutral layer for Claude. It connects 22 topic bundles, 53 baseline claims, 22 timeline phases, canonical IDs, original source links, UX/media/comparator records and selected current-pass checks. Show citation labels beside individual facts, safety notes and charts; source detail includes title, original site, DOI/PMID when available, locator, disclosures when known and verification status. Context citations are not proof of every clause. Keep all material as research previews, not individualized medical recommendations; no clinical review completed. Existing records stay intact. Do not count sources as independent studies or silently pool overlapping outcomes. See INTEGRATION_QA.json and NEW_EVIDENCE_CHECKS.md.

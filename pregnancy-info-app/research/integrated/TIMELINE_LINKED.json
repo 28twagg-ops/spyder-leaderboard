@@ -1,0 +1,1234 @@
+[
+  {
+    "id": "P01",
+    "phase": "36–24 months before conception",
+    "action": "Establish ordinary dental care and a sustainable movement routine. Invite the partner to discuss health goals.",
+    "qualification": "This is a flexible planning window. No direct trial establishes a three-year cosmetic preparation period.",
+    "source_ids": [
+      "S142",
+      "S159",
+      "S191",
+      "S192"
+    ],
+    "topic_ids": [
+      "FIT-001",
+      "REPRO-001",
+      "DENT-001"
+    ],
+    "source_links": [
+      {
+        "source_id": "S142",
+        "title": "Prepregnancy Counseling | ACOG",
+        "url": "https://www.acog.org/clinical/clinical-guidance/committee-opinion/articles/2019/01/prepregnancy-counseling",
+        "doi": null,
+        "pmid": null,
+        "role": "context citation; individual clause appraisal may remain",
+        "verification": "selected finding or identity checked"
+      },
+      {
+        "source_id": "S159",
+        "title": "Pregnancy | American Dental Association",
+        "url": "https://www.ada.org/resources/ada-library/oral-health-topics/pregnancy",
+        "doi": null,
+        "pmid": null,
+        "role": "context citation; individual clause appraisal may remain",
+        "verification": "selected finding or identity checked"
+      },
+      {
+        "source_id": "S191",
+        "title": "Origins of lifetime health around the time of conception: causes and consequences",
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC5975952/",
+        "doi": "10.1016/S0140-6736(18)30312-X",
+        "pmid": "29673874",
+        "role": "context citation; individual clause appraisal may remain",
+        "verification": "inherited; not independently rechecked"
+      },
+      {
+        "source_id": "S192",
+        "title": "More equitable preconception health: paternal life course opportunities for better pregnancy, child, and family outcomes.",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/41856159/",
+        "doi": "10.1016/S0140-6736(26)00148-0",
+        "pmid": "41856159",
+        "role": "context citation; individual clause appraisal may remain",
+        "verification": "inherited; not independently rechecked"
+      }
+    ],
+    "eligibility": "navigation only, not individual medical eligibility",
+    "clinical_review": false
+  },
+  {
+    "id": "P02",
+    "phase": "24–18 months before conception",
+    "action": "If a chronic condition or future surgery is relevant, discuss how pregnancy might affect the plan.",
+    "qualification": "Changes to prescribed drugs or elective surgery need a clinician who knows the indication.",
+    "source_ids": [
+      "S142",
+      "S180",
+      "S207"
+    ],
+    "topic_ids": [
+      "REPRO-001",
+      "ABD-002"
+    ],
+    "source_links": [
+      {
+        "source_id": "S142",
+        "title": "Prepregnancy Counseling | ACOG",
+        "url": "https://www.acog.org/clinical/clinical-guidance/committee-opinion/articles/2019/01/prepregnancy-counseling",
+        "doi": null,
+        "pmid": null,
+        "role": "context citation; individual clause appraisal may remain",
+        "verification": "selected finding or identity checked"
+      },
+      {
+        "source_id": "S180",
+        "title": "American Thyroid Association 2026 Guidelines for Thyroid Disease in Preconception, Pregnancy, and Postpartum",
+        "url": "https://journals.sagepub.com/doi/full/10.1177/10507256261445624",
+        "doi": "10.1177/10507256261445624",
+        "pmid": "42219800",
+        "role": "context citation; individual clause appraisal may remain",
+        "verification": "inherited; not independently rechecked"
+      },
+      {
+        "source_id": "S207",
+        "title": "The Safety and Effects of Pregnancy after Abdominoplasty: A Systematic Review of the Literature.",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/37266593/",
+        "doi": "10.1007/s00266-023-03423-x",
+        "pmid": "37266593",
+        "role": "context citation; individual clause appraisal may remain",
+        "verification": "inherited; not independently rechecked"
+      }
+    ],
+    "eligibility": "navigation only, not individual medical eligibility",
+    "clinical_review": false
+  },
+  {
+    "id": "P03",
+    "phase": "18–12 months before conception",
+    "action": "Revisit medication, family history and vaccination records if plans change. Continue routine habits.",
+    "qualification": "Merge with the earlier period if there is nothing new to address.",
+    "source_ids": [
+      "S142",
+      "S172"
+    ],
+    "topic_ids": [
+      "REPRO-001"
+    ],
+    "source_links": [
+      {
+        "source_id": "S142",
+        "title": "Prepregnancy Counseling | ACOG",
+        "url": "https://www.acog.org/clinical/clinical-guidance/committee-opinion/articles/2019/01/prepregnancy-counseling",
+        "doi": null,
+        "pmid": null,
+        "role": "context citation; individual clause appraisal may remain",
+        "verification": "selected finding or identity checked"
+      },
+      {
+        "source_id": "S172",
+        "title": "Current recommendations for vaccines for patients planning pregnancy: a committee opinion (2024)",
+        "url": "https://www.asrm.org/practice-guidance/practice-committee-documents/current-recommendations-for-vaccines-for-patients-planning-pregnancy/",
+        "doi": "10.1016/j.fertnstert.2024.02.027",
+        "pmid": "38897685",
+        "role": "context citation; individual clause appraisal may remain",
+        "verification": "inherited; not independently rechecked"
+      }
+    ],
+    "eligibility": "navigation only, not individual medical eligibility",
+    "clinical_review": false
+  },
+  {
+    "id": "P04",
+    "phase": "12–6 months before conception",
+    "action": "Arrange preconception care if diabetes, thyroid disease, medication exposure or reproductive history needs attention.",
+    "qualification": "Visit timing reflects access and complexity. Individual risk determines tests.",
+    "source_ids": [
+      "S142",
+      "S180"
+    ],
+    "topic_ids": [
+      "REPRO-001"
+    ],
+    "source_links": [
+      {
+        "source_id": "S142",
+        "title": "Prepregnancy Counseling | ACOG",
+        "url": "https://www.acog.org/clinical/clinical-guidance/committee-opinion/articles/2019/01/prepregnancy-counseling",
+        "doi": null,
+        "pmid": null,
+        "role": "context citation; individual clause appraisal may remain",
+        "verification": "selected finding or identity checked"
+      },
+      {
+        "source_id": "S180",
+        "title": "American Thyroid Association 2026 Guidelines for Thyroid Disease in Preconception, Pregnancy, and Postpartum",
+        "url": "https://journals.sagepub.com/doi/full/10.1177/10507256261445624",
+        "doi": "10.1177/10507256261445624",
+        "pmid": "42219800",
+        "role": "context citation; individual clause appraisal may remain",
+        "verification": "inherited; not independently rechecked"
+      }
+    ],
+    "eligibility": "navigation only, not individual medical eligibility",
+    "clinical_review": false
+  },
+  {
+    "id": "P05",
+    "phase": "6–3 months before conception",
+    "action": "Review medicines, supplements, acne products and vaccine timing. Check prenatal labels.",
+    "qualification": "Some vaccines are appropriate before pregnancy. Product-specific restrictions need review.",
+    "source_ids": [
+      "S086",
+      "S105",
+      "S142",
+      "S171",
+      "S172"
+    ],
+    "topic_ids": [
+      "REPRO-001",
+      "FACE-001",
+      "NUTR-001"
+    ],
+    "source_links": [
+      {
+        "source_id": "S086",
+        "title": "Office of Dietary Supplements - Dietary Supplements and Life Stages: Pregnancy",
+        "url": "https://ods.od.nih.gov/factsheets/Pregnancy-HealthProfessional/",
+        "doi": null,
+        "pmid": null,
+        "role": "context citation; individual clause appraisal may remain",
+        "verification": "selected finding or identity checked"
+      },
+      {
+        "source_id": "S105",
+        "title": "Topical Acne Treatments",
+        "url": "https://mothertobaby.org/fact-sheets/topical-acne-treatments-pregnancy/pdf/",
+        "doi": null,
+        "pmid": null,
+        "role": "context citation; individual clause appraisal may remain",
+        "verification": "inherited; not independently rechecked"
+      },
+      {
+        "source_id": "S142",
+        "title": "Prepregnancy Counseling | ACOG",
+        "url": "https://www.acog.org/clinical/clinical-guidance/committee-opinion/articles/2019/01/prepregnancy-counseling",
+        "doi": null,
+        "pmid": null,
+        "role": "context citation; individual clause appraisal may remain",
+        "verification": "selected finding or identity checked"
+      },
+      {
+        "source_id": "S171",
+        "title": "Vaccine Recommendations Before, During, and After Pregnancy | Pregnancy & Vaccines | CDC",
+        "url": "https://www.cdc.gov/vaccines-pregnancy/recommended-vaccines/",
+        "doi": null,
+        "pmid": null,
+        "role": "context citation; individual clause appraisal may remain",
+        "verification": "inherited; not independently rechecked"
+      },
+      {
+        "source_id": "S172",
+        "title": "Current recommendations for vaccines for patients planning pregnancy: a committee opinion (2024)",
+        "url": "https://www.asrm.org/practice-guidance/practice-committee-documents/current-recommendations-for-vaccines-for-patients-planning-pregnancy/",
+        "doi": "10.1016/j.fertnstert.2024.02.027",
+        "pmid": "38897685",
+        "role": "context citation; individual clause appraisal may remain",
+        "verification": "inherited; not independently rechecked"
+      }
+    ],
+    "eligibility": "navigation only, not individual medical eligibility",
+    "clinical_review": false
+  },
+  {
+    "id": "P06",
+    "phase": "3–1 months before conception",
+    "action": "If pregnancy is possible, begin or continue average-risk folic acid and review any higher-risk history.",
+    "qualification": "The evidence supports starting at least a month before conception. Do not postpone folic acid until a predicted pregnancy date.",
+    "source_ids": [
+      "S088",
+      "S089"
+    ],
+    "topic_ids": [
+      "NUTR-001"
+    ],
+    "source_links": [
+      {
+        "source_id": "S088",
+        "title": "Recommendation: Folic Acid Supplementation to Prevent Neural Tube Defects: Preventive Medication | United States Preventive Services Taskforce",
+        "url": "https://www.uspreventiveservicestaskforce.org/uspstf/recommendation/folic-acid-for-the-prevention-of-neural-tube-defects-preventive-medication",
+        "doi": null,
+        "pmid": null,
+        "role": "context citation; individual clause appraisal may remain",
+        "verification": "selected finding or identity checked"
+      },
+      {
+        "source_id": "S089",
+        "title": "Prevention of neural tube defects: Results of the Medical Research Council Vitamin Study",
+        "url": "https://www.sciencedirect.com/science/article/pii/014067369190133A",
+        "doi": null,
+        "pmid": "1677062",
+        "role": "context citation; individual clause appraisal may remain",
+        "verification": "inherited; not independently rechecked"
+      }
+    ],
+    "eligibility": "navigation only, not individual medical eligibility",
+    "clinical_review": false
+  },
+  {
+    "id": "P07",
+    "phase": "Final month before conception",
+    "action": "Continue folic acid and confirm the medication plan.",
+    "qualification": "Neural tube development begins before many people know they are pregnant.",
+    "source_ids": [
+      "S085",
+      "S088",
+      "S142"
+    ],
+    "topic_ids": [
+      "NUTR-001",
+      "REPRO-001"
+    ],
+    "source_links": [
+      {
+        "source_id": "S085",
+        "title": "Folic acid supplements before conception and in early pregnancy (up to 12 weeks) for the prevention of birth defects | Cochrane",
+        "url": "https://www.cochrane.org/evidence/CD007950_folic-acid-supplements-conception-and-early-pregnancy-12-weeks-prevention-birth-defects",
+        "doi": "10.1002/14651858.CD007950.pub3",
+        "pmid": null,
+        "role": "context citation; individual clause appraisal may remain",
+        "verification": "inherited; not independently rechecked"
+      },
+      {
+        "source_id": "S088",
+        "title": "Recommendation: Folic Acid Supplementation to Prevent Neural Tube Defects: Preventive Medication | United States Preventive Services Taskforce",
+        "url": "https://www.uspreventiveservicestaskforce.org/uspstf/recommendation/folic-acid-for-the-prevention-of-neural-tube-defects-preventive-medication",
+        "doi": null,
+        "pmid": null,
+        "role": "context citation; individual clause appraisal may remain",
+        "verification": "selected finding or identity checked"
+      },
+      {
+        "source_id": "S142",
+        "title": "Prepregnancy Counseling | ACOG",
+        "url": "https://www.acog.org/clinical/clinical-guidance/committee-opinion/articles/2019/01/prepregnancy-counseling",
+        "doi": null,
+        "pmid": null,
+        "role": "context citation; individual clause appraisal may remain",
+        "verification": "selected finding or identity checked"
+      }
+    ],
+    "eligibility": "navigation only, not individual medical eligibility",
+    "clinical_review": false
+  },
+  {
+    "id": "P08",
+    "phase": "Actively trying",
+    "action": "Use fertile-window information if helpful. Seek fertility evaluation according to age, duration and history.",
+    "qualification": "ASRM suggests 12 months if under 35, 6 months from 35, potentially immediate evaluation over 40 or with known risk factors. Partner assessment may proceed in parallel.",
+    "source_ids": [
+      "S144",
+      "S145",
+      "S146"
+    ],
+    "topic_ids": [
+      "REPRO-001"
+    ],
+    "source_links": [
+      {
+        "source_id": "S144",
+        "title": "Optimizing natural fertility: a committee opinion (2022)",
+        "url": "https://www.asrm.org/practice-guidance/practice-committee-documents/optimizing-natural-fertility-a-committee-opinion-2021/?_t_hit.id=ASRM_Models_Pages_ContentPage%2F_e8b0b6a7-6cba-4683-86db-d137a0e55dca_en&_t_hit.pos=39&_t_tags=siteid%3A01216f06-3dc9-4ac9-96da-555740dd020c%2Clanguage%3Aen",
+        "doi": null,
+        "pmid": null,
+        "role": "context citation; individual clause appraisal may remain",
+        "verification": "inherited; not independently rechecked"
+      },
+      {
+        "source_id": "S145",
+        "title": "Fertility evaluation of infertile women: a committee opinion (2026)",
+        "url": "https://www.asrm.org/practice-guidance/practice-committee-documents/fertility-evaluation-of-infertile-women-a-committee-opinion-2026",
+        "doi": null,
+        "pmid": null,
+        "role": "context citation; individual clause appraisal may remain",
+        "verification": "inherited; not independently rechecked"
+      },
+      {
+        "source_id": "S146",
+        "title": "Timed intercourse for couples trying to conceive | Cochrane",
+        "url": "https://www.cochrane.org/evidence/CD011345_timed-intercourse-couples-trying-conceive",
+        "doi": "10.1002/14651858.CD011345.pub3",
+        "pmid": null,
+        "role": "context citation; individual clause appraisal may remain",
+        "verification": "inherited; not independently rechecked"
+      }
+    ],
+    "eligibility": "navigation only, not individual medical eligibility",
+    "clinical_review": false
+  },
+  {
+    "id": "P09",
+    "phase": "Trimester 1 · gestational weeks 1–13",
+    "action": "Arrange prenatal care. Continue folic acid in early pregnancy and seek help if nausea prevents fluid intake.",
+    "qualification": "Gestational age is counted from the last menstrual period in standard dating, roughly two weeks before fertilization in a typical cycle. No automatic supplement stacking.",
+    "source_ids": [
+      "S086",
+      "S088",
+      "S099",
+      "S131",
+      "S140"
+    ],
+    "topic_ids": [
+      "NUTR-001",
+      "NUTR-002",
+      "REPRO-001"
+    ],
+    "source_links": [
+      {
+        "source_id": "S086",
+        "title": "Office of Dietary Supplements - Dietary Supplements and Life Stages: Pregnancy",
+        "url": "https://ods.od.nih.gov/factsheets/Pregnancy-HealthProfessional/",
+        "doi": null,
+        "pmid": null,
+        "role": "context citation; individual clause appraisal may remain",
+        "verification": "selected finding or identity checked"
+      },
+      {
+        "source_id": "S088",
+        "title": "Recommendation: Folic Acid Supplementation to Prevent Neural Tube Defects: Preventive Medication | United States Preventive Services Taskforce",
+        "url": "https://www.uspreventiveservicestaskforce.org/uspstf/recommendation/folic-acid-for-the-prevention-of-neural-tube-defects-preventive-medication",
+        "doi": null,
+        "pmid": null,
+        "role": "context citation; individual clause appraisal may remain",
+        "verification": "selected finding or identity checked"
+      },
+      {
+        "source_id": "S099",
+        "title": "Ginger for nausea and vomiting in pregnancy: randomized, double-masked, placebo-controlled trial",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/11275030/",
+        "doi": "10.1016/s0029-7844(00)01228-x",
+        "pmid": "11275030",
+        "role": "context citation; individual clause appraisal may remain",
+        "verification": "inherited; not independently rechecked"
+      },
+      {
+        "source_id": "S131",
+        "title": "Urgent Maternal Warning Signs and Symptoms | HEAR HER Campaign | CDC",
+        "url": "https://www.cdc.gov/hearher/maternal-warning-signs/index.html?itid=cb_box_KFOSGTLGLBECXDG2D3EHKHZARA_1",
+        "doi": null,
+        "pmid": null,
+        "role": "context citation; individual clause appraisal may remain",
+        "verification": "selected finding or identity checked"
+      },
+      {
+        "source_id": "S140",
+        "title": "Antenatal care",
+        "url": "https://www.nice.org.uk/guidance/ng201/resources/antenatal-care-pdf-66143709695941",
+        "doi": null,
+        "pmid": null,
+        "role": "context citation; individual clause appraisal may remain",
+        "verification": "inherited; not independently rechecked"
+      }
+    ],
+    "eligibility": "navigation only, not individual medical eligibility",
+    "clinical_review": false
+  },
+  {
+    "id": "P10",
+    "phase": "Trimester 2 · weeks 14–27",
+    "action": "Review comfortable activity, nutritional intake and any leakage or pelvic girdle pain.",
+    "qualification": "Assessment can identify who needs pelvic floor relaxation, strengthening or other care.",
+    "source_ids": [
+      "S057",
+      "S059",
+      "S069",
+      "S140",
+      "S193"
+    ],
+    "topic_ids": [
+      "FIT-002",
+      "PELV-001",
+      "MSK-001"
+    ],
+    "source_links": [
+      {
+        "source_id": "S057",
+        "title": "2019 Canadian guideline for physical activity throughout pregnancy",
+        "url": "https://bjsm.bmj.com/content/52/21/1339/",
+        "doi": "10.1136/bjsports-2018-100056",
+        "pmid": "30337460",
+        "role": "context citation; individual clause appraisal may remain",
+        "verification": "inherited; not independently rechecked"
+      },
+      {
+        "source_id": "S059",
+        "title": "Physical Activity and Exercise During Pregnancy and the Postpartum Period | ACOG",
+        "url": "https://www.acog.org/clinical/clinical-guidance/committee-opinion/articles/2020/04/physical-activity-and-exercise-during-pregnancy-and-the-postpartum-period",
+        "doi": "10.1097/AOG.0000000000003772",
+        "pmid": "32217980",
+        "role": "context citation; individual clause appraisal may remain",
+        "verification": "selected finding or identity checked"
+      },
+      {
+        "source_id": "S069",
+        "title": "How effective is pelvic floor muscle training undertaken during pregnancy or after birth for preventing or treating incontinence? | Cochrane",
+        "url": "https://www.cochrane.org/evidence/CD007471_how-effective-pelvic-floor-muscle-training-undertaken-during-pregnancy-or-after-birth-preventing-or",
+        "doi": "10.1002/14651858.CD007471.pub4",
+        "pmid": null,
+        "role": "context citation; individual clause appraisal may remain",
+        "verification": "selected finding or identity checked"
+      },
+      {
+        "source_id": "S140",
+        "title": "Antenatal care",
+        "url": "https://www.nice.org.uk/guidance/ng201/resources/antenatal-care-pdf-66143709695941",
+        "doi": null,
+        "pmid": null,
+        "role": "context citation; individual clause appraisal may remain",
+        "verification": "inherited; not independently rechecked"
+      },
+      {
+        "source_id": "S193",
+        "title": "Recommendations | Pelvic floor dysfunction: prevention and non-surgical management  | Guidance | NICE",
+        "url": "https://www.nice.org.uk/guidance/ng210/chapter/Recommendations",
+        "doi": null,
+        "pmid": null,
+        "role": "context citation; individual clause appraisal may remain",
+        "verification": "inherited; not independently rechecked"
+      }
+    ],
+    "eligibility": "navigation only, not individual medical eligibility",
+    "clinical_review": false
+  },
+  {
+    "id": "P11",
+    "phase": "Trimester 3 · week 28 to delivery",
+    "action": "Plan labor support, birth preferences, early recovery help and how to reach the care team.",
+    "qualification": "Optional perineal massage was studied from around week 35. Breech concerns need maternity-team review.",
+    "source_ids": [
+      "S167",
+      "S169",
+      "S170",
+      "S181",
+      "S197"
+    ],
+    "topic_ids": [
+      "BIRTH-001",
+      "EMERG-001",
+      "WELL-001"
+    ],
+    "source_links": [
+      {
+        "source_id": "S167",
+        "title": "Moxibustion for turning a baby in breech position | Cochrane",
+        "url": "https://www.cochrane.org/evidence/CD003928_moxibustion-turning-baby-breech-position",
+        "doi": "10.1002/14651858.CD003928.pub4",
+        "pmid": null,
+        "role": "context citation; individual clause appraisal may remain",
+        "verification": "inherited; not independently rechecked"
+      },
+      {
+        "source_id": "S169",
+        "title": "Continuous support for women during childbirth | Cochrane",
+        "url": "https://www.cochrane.org/evidence/CD003766_continuous-support-women-during-childbirth",
+        "doi": "10.1002/14651858.CD003766.pub6",
+        "pmid": null,
+        "role": "context citation; individual clause appraisal may remain",
+        "verification": "inherited; not independently rechecked"
+      },
+      {
+        "source_id": "S170",
+        "title": "Antenatal perineal massage for reducing perineal trauma | Cochrane",
+        "url": "https://www.cochrane.org/evidence/CD005123_antenatal-perineal-massage-reducing-perineal-trauma",
+        "doi": "10.1002/14651858.CD005123.pub3",
+        "pmid": null,
+        "role": "context citation; individual clause appraisal may remain",
+        "verification": "selected finding or identity checked"
+      },
+      {
+        "source_id": "S181",
+        "title": "Considering a caesarean birth | RCOG",
+        "url": "https://www.rcog.org.uk/for-the-public/browse-our-patient-information/considering-a-caesarean-birth",
+        "doi": null,
+        "pmid": null,
+        "role": "context citation; individual clause appraisal may remain",
+        "verification": "inherited; not independently rechecked"
+      },
+      {
+        "source_id": "S197",
+        "title": "WHO recommendations on maternal and newborn care for a positive postnatal experience",
+        "url": "https://www.who.int/publications/i/item/9789240045989",
+        "doi": null,
+        "pmid": null,
+        "role": "context citation; individual clause appraisal may remain",
+        "verification": "inherited; not independently rechecked"
+      }
+    ],
+    "eligibility": "navigation only, not individual medical eligibility",
+    "clinical_review": false
+  },
+  {
+    "id": "P12",
+    "phase": "Labor and delivery",
+    "action": "Discuss position, analgesia, warm compresses and a chosen support person. Revisit preferences as labor changes.",
+    "qualification": "Clinical circumstances, epidural, consent and delivery route matter. Keep assisted vaginal and cesarean care available.",
+    "source_ids": [
+      "S074",
+      "S079",
+      "S080",
+      "S169",
+      "S181",
+      "S182"
+    ],
+    "topic_ids": [
+      "BIRTH-001"
+    ],
+    "source_links": [
+      {
+        "source_id": "S074",
+        "title": "What are the benefits and risks of different perineal techniques during the second stage of labour for preventing post-birth injury? | Cochrane",
+        "url": "https://www.cochrane.org/evidence/CD016148_what-are-benefits-and-risks-different-perineal-techniques-during-second-stage-labour-preventing-post",
+        "doi": "10.1002/14651858.CD016148",
+        "pmid": null,
+        "role": "context citation; individual clause appraisal may remain",
+        "verification": "selected finding or identity checked"
+      },
+      {
+        "source_id": "S079",
+        "title": "Pushing methods for the second stage of labour | Cochrane",
+        "url": "https://www.cochrane.org/evidence/CD009124_pushing-methods-second-stage-labour",
+        "doi": "10.1002/14651858.CD009124.pub3",
+        "pmid": null,
+        "role": "context citation; individual clause appraisal may remain",
+        "verification": "inherited; not independently rechecked"
+      },
+      {
+        "source_id": "S080",
+        "title": "Upright versus lying down position in second stage of labour in nulliparous women with low dose epidural: BUMPES randomised controlled trial",
+        "url": "https://www.bmj.com/content/359/bmj.j4471",
+        "doi": "10.1136/bmj.j4471",
+        "pmid": "29046273",
+        "role": "context citation; individual clause appraisal may remain",
+        "verification": "inherited; not independently rechecked"
+      },
+      {
+        "source_id": "S169",
+        "title": "Continuous support for women during childbirth | Cochrane",
+        "url": "https://www.cochrane.org/evidence/CD003766_continuous-support-women-during-childbirth",
+        "doi": "10.1002/14651858.CD003766.pub6",
+        "pmid": null,
+        "role": "context citation; individual clause appraisal may remain",
+        "verification": "inherited; not independently rechecked"
+      },
+      {
+        "source_id": "S181",
+        "title": "Considering a caesarean birth | RCOG",
+        "url": "https://www.rcog.org.uk/for-the-public/browse-our-patient-information/considering-a-caesarean-birth",
+        "doi": null,
+        "pmid": null,
+        "role": "context citation; individual clause appraisal may remain",
+        "verification": "inherited; not independently rechecked"
+      },
+      {
+        "source_id": "S182",
+        "title": "Caesarean birth",
+        "url": "https://www.nice.org.uk/guidance/ng192/resources/caesarean-birth-pdf-66142078788805",
+        "doi": null,
+        "pmid": null,
+        "role": "context citation; individual clause appraisal may remain",
+        "verification": "inherited; not independently rechecked"
+      }
+    ],
+    "eligibility": "navigation only, not individual medical eligibility",
+    "clinical_review": false
+  },
+  {
+    "id": "P13",
+    "phase": "Immediate postpartum · 0–72 hours",
+    "action": "Prioritize bleeding, blood pressure symptoms, pain control, feeding support and safe mobility with the maternity team.",
+    "qualification": "Emergency symptoms need immediate care. Cesarean, major tears and complications change monitoring and the discharge plan.",
+    "source_ids": [
+      "S123",
+      "S131",
+      "S132",
+      "S189",
+      "S197"
+    ],
+    "topic_ids": [
+      "SCAR-001",
+      "VEIN-001",
+      "WELL-001"
+    ],
+    "source_links": [
+      {
+        "source_id": "S123",
+        "title": "Perineal wound breakdown | RCOG",
+        "url": "https://www.rcog.org.uk/for-the-public/perineal-tears-and-episiotomies-in-childbirth/perineal-wound-breakdown",
+        "doi": null,
+        "pmid": null,
+        "role": "context citation; individual clause appraisal may remain",
+        "verification": "inherited; not independently rechecked"
+      },
+      {
+        "source_id": "S131",
+        "title": "Urgent Maternal Warning Signs and Symptoms | HEAR HER Campaign | CDC",
+        "url": "https://www.cdc.gov/hearher/maternal-warning-signs/index.html?itid=cb_box_KFOSGTLGLBECXDG2D3EHKHZARA_1",
+        "doi": null,
+        "pmid": null,
+        "role": "context citation; individual clause appraisal may remain",
+        "verification": "selected finding or identity checked"
+      },
+      {
+        "source_id": "S132",
+        "title": "Diagnosis and treatment of venous thrombosis in pregnancy and after birth | RCOG",
+        "url": "https://www.rcog.org.uk/for-the-public/browse-our-patient-information/diagnosis-and-treatment-of-venous-thrombosis-in-pregnancy-and-after-birth/",
+        "doi": null,
+        "pmid": null,
+        "role": "context citation; individual clause appraisal may remain",
+        "verification": "inherited; not independently rechecked"
+      },
+      {
+        "source_id": "S189",
+        "title": "Recommendations | Postnatal care | Guidance | NICE",
+        "url": "https://www.dejavu.org/cgi-bin/get.cgi?url=https%3A%2F%2Fwww.nice.org.uk%2Fguidance%2Fng194%2Fchapter%2FRecommendations%23postnatal-care-of-the-baby&ver=95",
+        "doi": null,
+        "pmid": null,
+        "role": "context citation; individual clause appraisal may remain",
+        "verification": "inherited; not independently rechecked"
+      },
+      {
+        "source_id": "S197",
+        "title": "WHO recommendations on maternal and newborn care for a positive postnatal experience",
+        "url": "https://www.who.int/publications/i/item/9789240045989",
+        "doi": null,
+        "pmid": null,
+        "role": "context citation; individual clause appraisal may remain",
+        "verification": "inherited; not independently rechecked"
+      }
+    ],
+    "eligibility": "navigation only, not individual medical eligibility",
+    "clinical_review": false
+  },
+  {
+    "id": "P14",
+    "phase": "Postpartum · days 4–14",
+    "action": "Check wound symptoms, emotional wellbeing and practical support. Arrange earlier care for problems.",
+    "qualification": "Worsening pain, spreading redness, new wound opening or fever requires prompt contact. Sudden breathlessness, chest pain or severe bleeding need emergency care.",
+    "source_ids": [
+      "S123",
+      "S131",
+      "S132",
+      "S189"
+    ],
+    "topic_ids": [
+      "SCAR-001",
+      "VEIN-001",
+      "WELL-001"
+    ],
+    "source_links": [
+      {
+        "source_id": "S123",
+        "title": "Perineal wound breakdown | RCOG",
+        "url": "https://www.rcog.org.uk/for-the-public/perineal-tears-and-episiotomies-in-childbirth/perineal-wound-breakdown",
+        "doi": null,
+        "pmid": null,
+        "role": "context citation; individual clause appraisal may remain",
+        "verification": "inherited; not independently rechecked"
+      },
+      {
+        "source_id": "S131",
+        "title": "Urgent Maternal Warning Signs and Symptoms | HEAR HER Campaign | CDC",
+        "url": "https://www.cdc.gov/hearher/maternal-warning-signs/index.html?itid=cb_box_KFOSGTLGLBECXDG2D3EHKHZARA_1",
+        "doi": null,
+        "pmid": null,
+        "role": "context citation; individual clause appraisal may remain",
+        "verification": "selected finding or identity checked"
+      },
+      {
+        "source_id": "S132",
+        "title": "Diagnosis and treatment of venous thrombosis in pregnancy and after birth | RCOG",
+        "url": "https://www.rcog.org.uk/for-the-public/browse-our-patient-information/diagnosis-and-treatment-of-venous-thrombosis-in-pregnancy-and-after-birth/",
+        "doi": null,
+        "pmid": null,
+        "role": "context citation; individual clause appraisal may remain",
+        "verification": "inherited; not independently rechecked"
+      },
+      {
+        "source_id": "S189",
+        "title": "Recommendations | Postnatal care | Guidance | NICE",
+        "url": "https://www.dejavu.org/cgi-bin/get.cgi?url=https%3A%2F%2Fwww.nice.org.uk%2Fguidance%2Fng194%2Fchapter%2FRecommendations%23postnatal-care-of-the-baby&ver=95",
+        "doi": null,
+        "pmid": null,
+        "role": "context citation; individual clause appraisal may remain",
+        "verification": "inherited; not independently rechecked"
+      }
+    ],
+    "eligibility": "navigation only, not individual medical eligibility",
+    "clinical_review": false
+  },
+  {
+    "id": "P15",
+    "phase": "Postpartum · weeks 2–6",
+    "action": "Make contact with the postpartum clinician within three weeks; earlier or more often according to risk. Discuss sleep, feeding, contraception and comfort.",
+    "qualification": "Ongoing care is indicated even after uncomplicated birth. No mandatory date for sex or clearance for strenuous exercise.",
+    "source_ids": [
+      "S173",
+      "S189",
+      "S193",
+      "S200"
+    ],
+    "topic_ids": [
+      "WELL-001",
+      "FIT-003",
+      "PELV-001"
+    ],
+    "source_links": [
+      {
+        "source_id": "S173",
+        "title": "ACOG Committee Opinion No. 736: Optimizing Postpartum Care",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/29683911/",
+        "doi": "10.1097/AOG.0000000000002849",
+        "pmid": "29683911",
+        "role": "context citation; individual clause appraisal may remain",
+        "verification": "inherited; not independently rechecked"
+      },
+      {
+        "source_id": "S189",
+        "title": "Recommendations | Postnatal care | Guidance | NICE",
+        "url": "https://www.dejavu.org/cgi-bin/get.cgi?url=https%3A%2F%2Fwww.nice.org.uk%2Fguidance%2Fng194%2Fchapter%2FRecommendations%23postnatal-care-of-the-baby&ver=95",
+        "doi": null,
+        "pmid": null,
+        "role": "context citation; individual clause appraisal may remain",
+        "verification": "inherited; not independently rechecked"
+      },
+      {
+        "source_id": "S193",
+        "title": "Recommendations | Pelvic floor dysfunction: prevention and non-surgical management  | Guidance | NICE",
+        "url": "https://www.nice.org.uk/guidance/ng210/chapter/Recommendations",
+        "doi": null,
+        "pmid": null,
+        "role": "context citation; individual clause appraisal may remain",
+        "verification": "inherited; not independently rechecked"
+      },
+      {
+        "source_id": "S200",
+        "title": "Sex and contraception after birth - NHS",
+        "url": "https://www.nhs.uk/baby/support-and-services/sex-and-contraception-after-birth/",
+        "doi": null,
+        "pmid": null,
+        "role": "context citation; individual clause appraisal may remain",
+        "verification": "inherited; not independently rechecked"
+      }
+    ],
+    "eligibility": "navigation only, not individual medical eligibility",
+    "clinical_review": false
+  },
+  {
+    "id": "P16",
+    "phase": "Postpartum · 6 weeks to 3 months",
+    "action": "Complete comprehensive postpartum assessment by 12 weeks. Ask about persistent leakage, heaviness, mood, painful sex or incision symptoms.",
+    "qualification": "Feeding choices, surgical recovery and ongoing conditions alter needs. Painful penetration is a reason to pause and seek care.",
+    "source_ids": [
+      "S173",
+      "S189",
+      "S193",
+      "S200",
+      "S215"
+    ],
+    "topic_ids": [
+      "WELL-001",
+      "PELV-001",
+      "FIT-003"
+    ],
+    "source_links": [
+      {
+        "source_id": "S173",
+        "title": "ACOG Committee Opinion No. 736: Optimizing Postpartum Care",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/29683911/",
+        "doi": "10.1097/AOG.0000000000002849",
+        "pmid": "29683911",
+        "role": "context citation; individual clause appraisal may remain",
+        "verification": "inherited; not independently rechecked"
+      },
+      {
+        "source_id": "S189",
+        "title": "Recommendations | Postnatal care | Guidance | NICE",
+        "url": "https://www.dejavu.org/cgi-bin/get.cgi?url=https%3A%2F%2Fwww.nice.org.uk%2Fguidance%2Fng194%2Fchapter%2FRecommendations%23postnatal-care-of-the-baby&ver=95",
+        "doi": null,
+        "pmid": null,
+        "role": "context citation; individual clause appraisal may remain",
+        "verification": "inherited; not independently rechecked"
+      },
+      {
+        "source_id": "S193",
+        "title": "Recommendations | Pelvic floor dysfunction: prevention and non-surgical management  | Guidance | NICE",
+        "url": "https://www.nice.org.uk/guidance/ng210/chapter/Recommendations",
+        "doi": null,
+        "pmid": null,
+        "role": "context citation; individual clause appraisal may remain",
+        "verification": "inherited; not independently rechecked"
+      },
+      {
+        "source_id": "S200",
+        "title": "Sex and contraception after birth - NHS",
+        "url": "https://www.nhs.uk/baby/support-and-services/sex-and-contraception-after-birth/",
+        "doi": null,
+        "pmid": null,
+        "role": "context citation; individual clause appraisal may remain",
+        "verification": "inherited; not independently rechecked"
+      },
+      {
+        "source_id": "S215",
+        "title": "Maternal Diet and Breastfeeding | Breastfeeding special circumstances | CDC",
+        "url": "https://www.cdc.gov/breastfeeding-special-circumstances/hcp/diet-micronutrients/maternal-diet.html",
+        "doi": null,
+        "pmid": null,
+        "role": "context citation; individual clause appraisal may remain",
+        "verification": "inherited; not independently rechecked"
+      }
+    ],
+    "eligibility": "navigation only, not individual medical eligibility",
+    "clinical_review": false
+  },
+  {
+    "id": "P17",
+    "phase": "Postpartum · 3–6 months",
+    "action": "Progress activity as recovery allows. Shedding can peak near month four. Check in about pain, sleep and mood.",
+    "qualification": "Lactation changes nutrient needs and medicine decisions. Running readiness is individual.",
+    "source_ids": [
+      "S064",
+      "S066",
+      "S110",
+      "S117",
+      "S185",
+      "S215"
+    ],
+    "topic_ids": [
+      "HAIR-001",
+      "FIT-003",
+      "WELL-001"
+    ],
+    "source_links": [
+      {
+        "source_id": "S064",
+        "title": "2025 Canadian guideline for physical activity, sedentary behaviour and sleep throughout the first year post partum",
+        "url": "https://bjsm.bmj.com/content/early/2025/03/22/bjsports-2025-109785",
+        "doi": "10.1136/bjsports-2025-109785",
+        "pmid": "40139673",
+        "role": "context citation; individual clause appraisal may remain",
+        "verification": "inherited; not independently rechecked"
+      },
+      {
+        "source_id": "S066",
+        "title": "Clinical and exercise professional opinion of return-to-running readiness after childbirth: an international Delphi study and consensus statement",
+        "url": "https://doi.org/10.1136/bjsports-2023-107489",
+        "doi": "10.1136/bjsports-2023-107489",
+        "pmid": "38148108",
+        "role": "context citation; individual clause appraisal may remain",
+        "verification": "inherited; not independently rechecked"
+      },
+      {
+        "source_id": "S110",
+        "title": "Hair loss in new moms: Dermatologist tips",
+        "url": "https://www.aad.org/public/diseases/hair-loss/insider/new-moms",
+        "doi": null,
+        "pmid": null,
+        "role": "context citation; individual clause appraisal may remain",
+        "verification": "selected finding or identity checked"
+      },
+      {
+        "source_id": "S117",
+        "title": "Minoxidil",
+        "url": "https://www.ncbi.nlm.nih.gov/sites/books/NBK501032/",
+        "doi": null,
+        "pmid": null,
+        "role": "context citation; individual clause appraisal may remain",
+        "verification": "inherited; not independently rechecked"
+      },
+      {
+        "source_id": "S185",
+        "title": "Impact of sleep on postpartum health outcomes: a systematic review and meta-analysis",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/40011016/",
+        "doi": "10.1136/bjsports-2024-109604",
+        "pmid": "40011016",
+        "role": "context citation; individual clause appraisal may remain",
+        "verification": "inherited; not independently rechecked"
+      },
+      {
+        "source_id": "S215",
+        "title": "Maternal Diet and Breastfeeding | Breastfeeding special circumstances | CDC",
+        "url": "https://www.cdc.gov/breastfeeding-special-circumstances/hcp/diet-micronutrients/maternal-diet.html",
+        "doi": null,
+        "pmid": null,
+        "role": "context citation; individual clause appraisal may remain",
+        "verification": "inherited; not independently rechecked"
+      }
+    ],
+    "eligibility": "navigation only, not individual medical eligibility",
+    "clinical_review": false
+  },
+  {
+    "id": "P18",
+    "phase": "Postpartum · 6–9 months",
+    "action": "If separation, weakness or heaviness affects daily life, ask about pelvic-health rehabilitation.",
+    "qualification": "One strength program was studied at 6–12 months postpartum. It provides no immediate postsurgical clearance.",
+    "source_ids": [
+      "S028",
+      "S064",
+      "S193"
+    ],
+    "topic_ids": [
+      "ABD-001",
+      "PELV-001",
+      "FIT-003"
+    ],
+    "source_links": [
+      {
+        "source_id": "S028",
+        "title": "Curl-up exercises improve abdominal muscle strength without worsening inter-recti distance in women with diastasis recti abdominis postpartum: a randomised controlled trial",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/37286390/",
+        "doi": "10.1016/j.jphys.2023.05.017",
+        "pmid": "37286390",
+        "role": "context citation; individual clause appraisal may remain",
+        "verification": "selected finding or identity checked"
+      },
+      {
+        "source_id": "S064",
+        "title": "2025 Canadian guideline for physical activity, sedentary behaviour and sleep throughout the first year post partum",
+        "url": "https://bjsm.bmj.com/content/early/2025/03/22/bjsports-2025-109785",
+        "doi": "10.1136/bjsports-2025-109785",
+        "pmid": "40139673",
+        "role": "context citation; individual clause appraisal may remain",
+        "verification": "inherited; not independently rechecked"
+      },
+      {
+        "source_id": "S193",
+        "title": "Recommendations | Pelvic floor dysfunction: prevention and non-surgical management  | Guidance | NICE",
+        "url": "https://www.nice.org.uk/guidance/ng210/chapter/Recommendations",
+        "doi": null,
+        "pmid": null,
+        "role": "context citation; individual clause appraisal may remain",
+        "verification": "inherited; not independently rechecked"
+      }
+    ],
+    "eligibility": "navigation only, not individual medical eligibility",
+    "clinical_review": false
+  },
+  {
+    "id": "P19",
+    "phase": "Postpartum · 9–12 months",
+    "action": "Review persistent hair loss, pelvic symptoms or bothersome scars. Continue primary-care follow-up.",
+    "qualification": "Urgent maternal warning signs remain relevant through one year. Lactation exposure still depends on current feeding.",
+    "source_ids": [
+      "S110",
+      "S121",
+      "S131",
+      "S173"
+    ],
+    "topic_ids": [
+      "HAIR-001",
+      "SCAR-001",
+      "WELL-001"
+    ],
+    "source_links": [
+      {
+        "source_id": "S110",
+        "title": "Hair loss in new moms: Dermatologist tips",
+        "url": "https://www.aad.org/public/diseases/hair-loss/insider/new-moms",
+        "doi": null,
+        "pmid": null,
+        "role": "context citation; individual clause appraisal may remain",
+        "verification": "selected finding or identity checked"
+      },
+      {
+        "source_id": "S121",
+        "title": "Silicone gel sheeting for treating hypertrophic scars | Cochrane",
+        "url": "https://www.cochrane.org/hr/evidence/CD013357_silicone-gel-sheeting-treating-hypertrophic-scars",
+        "doi": "10.1002/14651858.CD013357.pub2",
+        "pmid": "34564840",
+        "role": "context citation; individual clause appraisal may remain",
+        "verification": "selected finding or identity checked"
+      },
+      {
+        "source_id": "S131",
+        "title": "Urgent Maternal Warning Signs and Symptoms | HEAR HER Campaign | CDC",
+        "url": "https://www.cdc.gov/hearher/maternal-warning-signs/index.html?itid=cb_box_KFOSGTLGLBECXDG2D3EHKHZARA_1",
+        "doi": null,
+        "pmid": null,
+        "role": "context citation; individual clause appraisal may remain",
+        "verification": "selected finding or identity checked"
+      },
+      {
+        "source_id": "S173",
+        "title": "ACOG Committee Opinion No. 736: Optimizing Postpartum Care",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/29683911/",
+        "doi": "10.1097/AOG.0000000000002849",
+        "pmid": "29683911",
+        "role": "context citation; individual clause appraisal may remain",
+        "verification": "inherited; not independently rechecked"
+      }
+    ],
+    "eligibility": "navigation only, not individual medical eligibility",
+    "clinical_review": false
+  },
+  {
+    "id": "P20",
+    "phase": "Postpartum · 12–18 months",
+    "action": "Discuss symptoms that continue to affect function, future pregnancy plans and optional specialist review.",
+    "qualification": "These months organize follow-up. They are not a validated recovery deadline.",
+    "source_ids": [
+      "S035",
+      "S174",
+      "S193"
+    ],
+    "topic_ids": [
+      "ABD-002",
+      "PELV-001",
+      "REPRO-001"
+    ],
+    "source_links": [
+      {
+        "source_id": "S035",
+        "title": "European Hernia Society guidelines on management of rectus diastasis",
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC10364860/",
+        "doi": "10.1093/bjs/znab128",
+        "pmid": "34595502",
+        "role": "context citation; individual clause appraisal may remain",
+        "verification": "inherited; not independently rechecked"
+      },
+      {
+        "source_id": "S174",
+        "title": "Interpregnancy Care | ACOG",
+        "url": "https://www.acog.org/clinical/clinical-guidance/obstetric-care-consensus/articles/2019/01/interpregnancy-care",
+        "doi": null,
+        "pmid": null,
+        "role": "context citation; individual clause appraisal may remain",
+        "verification": "inherited; not independently rechecked"
+      },
+      {
+        "source_id": "S193",
+        "title": "Recommendations | Pelvic floor dysfunction: prevention and non-surgical management  | Guidance | NICE",
+        "url": "https://www.nice.org.uk/guidance/ng210/chapter/Recommendations",
+        "doi": null,
+        "pmid": null,
+        "role": "context citation; individual clause appraisal may remain",
+        "verification": "inherited; not independently rechecked"
+      }
+    ],
+    "eligibility": "navigation only, not individual medical eligibility",
+    "clinical_review": false
+  },
+  {
+    "id": "P21",
+    "phase": "Postpartum · 18–24 months",
+    "action": "Revisit reproductive plans and personally meaningful function goals. Discuss late treatment only if wanted.",
+    "qualification": "Subsequent pregnancy, breastfeeding and surgical history affect individual options.",
+    "source_ids": [
+      "S046",
+      "S174",
+      "S207",
+      "S209"
+    ],
+    "topic_ids": [
+      "BREAST-001",
+      "REPRO-001",
+      "VEIN-001"
+    ],
+    "source_links": [
+      {
+        "source_id": "S046",
+        "title": "The impact of breast reduction surgery on breastfeeding: Systematic review of observational studies",
+        "url": "https://physicianguidetobreastfeeding.org/wp-content/uploads/2021/09/Krautsystemicreviewbreastfeedingafterreduction.pdf",
+        "doi": "10.1371/journal.pone.0186591",
+        "pmid": "29049351",
+        "role": "context citation; individual clause appraisal may remain",
+        "verification": "inherited; not independently rechecked"
+      },
+      {
+        "source_id": "S174",
+        "title": "Interpregnancy Care | ACOG",
+        "url": "https://www.acog.org/clinical/clinical-guidance/obstetric-care-consensus/articles/2019/01/interpregnancy-care",
+        "doi": null,
+        "pmid": null,
+        "role": "context citation; individual clause appraisal may remain",
+        "verification": "inherited; not independently rechecked"
+      },
+      {
+        "source_id": "S207",
+        "title": "The Safety and Effects of Pregnancy after Abdominoplasty: A Systematic Review of the Literature.",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/37266593/",
+        "doi": "10.1007/s00266-023-03423-x",
+        "pmid": "37266593",
+        "role": "context citation; individual clause appraisal may remain",
+        "verification": "inherited; not independently rechecked"
+      },
+      {
+        "source_id": "S209",
+        "title": "Varicose veins: diagnosis and management",
+        "url": "https://www.nice.org.uk/guidance/cg168/resources/varicose-veins-diagnosis-and-management-pdf-35109698485957",
+        "doi": null,
+        "pmid": null,
+        "role": "context citation; individual clause appraisal may remain",
+        "verification": "inherited; not independently rechecked"
+      }
+    ],
+    "eligibility": "navigation only, not individual medical eligibility",
+    "clinical_review": false
+  },
+  {
+    "id": "P22",
+    "phase": "Beyond 24 months",
+    "action": "Persistent pain, incontinence or hernia deserves assessment at any time. Specialist care remains optional for appearance changes.",
+    "qualification": "Long-term outcome and safety evidence is often sparse. The care pathway follows current symptoms and goals.",
+    "source_ids": [
+      "S035",
+      "S193",
+      "S207",
+      "S216"
+    ],
+    "topic_ids": [
+      "ABD-002",
+      "PELV-001",
+      "SKIN-003"
+    ],
+    "source_links": [
+      {
+        "source_id": "S035",
+        "title": "European Hernia Society guidelines on management of rectus diastasis",
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC10364860/",
+        "doi": "10.1093/bjs/znab128",
+        "pmid": "34595502",
+        "role": "context citation; individual clause appraisal may remain",
+        "verification": "inherited; not independently rechecked"
+      },
+      {
+        "source_id": "S193",
+        "title": "Recommendations | Pelvic floor dysfunction: prevention and non-surgical management  | Guidance | NICE",
+        "url": "https://www.nice.org.uk/guidance/ng210/chapter/Recommendations",
+        "doi": null,
+        "pmid": null,
+        "role": "context citation; individual clause appraisal may remain",
+        "verification": "inherited; not independently rechecked"
+      },
+      {
+        "source_id": "S207",
+        "title": "The Safety and Effects of Pregnancy after Abdominoplasty: A Systematic Review of the Literature.",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/37266593/",
+        "doi": "10.1007/s00266-023-03423-x",
+        "pmid": "37266593",
+        "role": "context citation; individual clause appraisal may remain",
+        "verification": "inherited; not independently rechecked"
+      },
+      {
+        "source_id": "S216",
+        "title": "Stretch marks: Why they appear and how to get rid of them",
+        "url": "https://www.aad.org/public/cosmetic/scars-stretch-marks/stretch-marks-why-appear",
+        "doi": null,
+        "pmid": null,
+        "role": "context citation; individual clause appraisal may remain",
+        "verification": "inherited; not independently rechecked"
+      }
+    ],
+    "eligibility": "navigation only, not individual medical eligibility",
+    "clinical_review": false
+  }
+]
