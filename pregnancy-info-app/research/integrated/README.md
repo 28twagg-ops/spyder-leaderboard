@@ -20,3 +20,6 @@ See ../external-audits/grok/README.md for targeted verified Grok additions and d
 
 ## Independent audit overlay
 Read ../external-audits/independent/RECONCILIATION.json for seven findings and eight interval records. Registry now has 377 mixed resources, including nine IA records. The guideline S064/N305 is a publication-location duplicate, not independent evidence. Existing imports have not been regenerated; candidate interventions/media and numeric records remain explicit overlays. Clinical review remains pending.
+
+### Current consolidated import
+Use [the final research import](../release-prep/FINAL_RESEARCH_IMPORT.json) rather than separately importing overlapping bundles. Registry now contains 382 mixed resource records. See [release preparation](../release-prep/README.md) for safety, product, visual and acceptance files. Clinical review pending.
