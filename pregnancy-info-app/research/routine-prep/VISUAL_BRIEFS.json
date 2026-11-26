@@ -1,0 +1,2081 @@
+[
+  {
+    "id": "SKIN-001",
+    "storyboard": "Show a skin cross-section with a surface moisture layer and deeper striae; avoid showing guaranteed prevention.",
+    "script": {
+      "format": "optional original narrated micro-explainer, not an existing video",
+      "duration_target_seconds": [
+        15,
+        30
+      ],
+      "narration": "Moisturizers can help dryness. Reliable stretch-mark prevention is not established. Moisturize for comfort, not as a required prevention routine.",
+      "closing": "Check the safety note and see the evidence if you want more detail."
+    },
+    "source_links": [
+      {
+        "source_id": "S001",
+        "title": "Topical preparations for preventing stretch marks in pregnancy | Cochrane",
+        "url": "https://www.cochrane.org/evidence/CD000066_topical-preparations-preventing-stretch-marks-pregnancy",
+        "doi": "10.1002/14651858.CD000066.pub2",
+        "pmid": null,
+        "role": "context citation; individual clause appraisal may remain",
+        "verification": "selected finding or identity checked"
+      },
+      {
+        "source_id": "S002",
+        "title": "Stretch marks during pregnancy: a review of topical prevention",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/25255817/",
+        "doi": "10.1111/bjd.13426",
+        "pmid": "25255817",
+        "role": "context citation; individual clause appraisal may remain",
+        "verification": "inherited; not independently rechecked"
+      },
+      {
+        "source_id": "S004",
+        "title": "Cocoa butter lotion for prevention of striae gravidarum: a double-blind, randomised and placebo-controlled trial",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/18715434/",
+        "doi": "10.1111/j.1471-0528.2008.01796.x",
+        "pmid": "18715434",
+        "role": "context citation; individual clause appraisal may remain",
+        "verification": "inherited; not independently rechecked"
+      },
+      {
+        "source_id": "S006",
+        "title": "Use of a specific anti-stretch mark cream for preventing or reducing the severity of striae gravidarum. Randomized, double-blind, controlled trial",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/23237514/",
+        "doi": "10.1111/ics.12029",
+        "pmid": "23237514",
+        "role": "context citation; individual clause appraisal may remain",
+        "verification": "inherited; not independently rechecked"
+      },
+      {
+        "source_id": "S008",
+        "title": "Prevention of striae gravidarum with cocoa butter cream",
+        "url": "https://www.sciencedirect.com/science/article/pii/S0020729209004366",
+        "doi": "10.1016/j.ijgo.2009.08.008",
+        "pmid": "19793585",
+        "role": "context citation; individual clause appraisal may remain",
+        "verification": "inherited; not independently rechecked"
+      },
+      {
+        "source_id": "S009",
+        "title": "Prophylaxis of Striae gravidarum with a topical formulation. A double blind trial",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/19291041/",
+        "doi": "10.1111/j.1467-2494.1991.tb00547.x",
+        "pmid": "19291041",
+        "role": "context citation; individual clause appraisal may remain",
+        "verification": "inherited; not independently rechecked"
+      },
+      {
+        "source_id": "S010",
+        "title": "The effect of bitter almond oil and massaging on striae gravidarum in primiparaous women",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/22594386/",
+        "doi": "10.1111/j.1365-2702.2012.04087.x",
+        "pmid": "22594386",
+        "role": "context citation; individual clause appraisal may remain",
+        "verification": "inherited; not independently rechecked"
+      },
+      {
+        "source_id": "S204",
+        "title": "Dermatologist-approved pregnancy skin care",
+        "url": "https://www.aad.org/public/everyday-care/skin-care-secrets/routine/pregnancy-skin-care",
+        "doi": null,
+        "pmid": null,
+        "role": "context citation; individual clause appraisal may remain",
+        "verification": "selected finding or identity checked"
+      },
+      {
+        "source_id": "S206",
+        "title": "Genome-wide association analysis implicates elastic microfibrils in the development of nonsyndromic striae distensae.",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/23633020/",
+        "doi": "10.1038/jid.2013.196",
+        "pmid": "23633020",
+        "role": "context citation; individual clause appraisal may remain",
+        "verification": "inherited; not independently rechecked"
+      },
+      {
+        "source_id": "S216",
+        "title": "Stretch marks: Why they appear and how to get rid of them",
+        "url": "https://www.aad.org/public/cosmetic/scars-stretch-marks/stretch-marks-why-appear",
+        "doi": null,
+        "pmid": null,
+        "role": "context citation; individual clause appraisal may remain",
+        "verification": "inherited; not independently rechecked"
+      }
+    ],
+    "alt_text_draft": "Can creams prevent stretch marks? — educational illustration; see adjacent explanation.",
+    "asset_status": "brief only; no image generated or licensed",
+    "clinical_review": false
+  },
+  {
+    "id": "SKIN-002",
+    "storyboard": "Show adult skin measurements versus the pregnancy outcome, then the evidence disagreement.",
+    "script": {
+      "format": "optional original narrated micro-explainer, not an existing video",
+      "duration_target_seconds": [
+        15,
+        30
+      ],
+      "narration": "Adult skin studies disagree. Pregnancy stretch-mark prevention is unproven. Keep collagen off the required checklist.",
+      "closing": "Check the safety note and see the evidence if you want more detail."
+    },
+    "source_links": [
+      {
+        "source_id": "S011",
+        "title": "Effects of Collagen Supplements on Skin Aging: A Systematic Review and Meta-Analysis of Randomized Controlled Trials",
+        "url": "https://www.sciencedirect.com/science/article/pii/S0002934325002839",
+        "doi": "10.1016/j.amjmed.2025.04.034",
+        "pmid": "40324552",
+        "role": "context citation; individual clause appraisal may remain",
+        "verification": "selected finding or identity checked"
+      },
+      {
+        "source_id": "S013",
+        "title": "Effects of Oral Collagen for Skin Anti-Aging: A Systematic Review and Meta-Analysis",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/37432180/",
+        "doi": null,
+        "pmid": "37432180",
+        "role": "context citation; individual clause appraisal may remain",
+        "verification": "inherited; not independently rechecked"
+      },
+      {
+        "source_id": "S014",
+        "title": "The Oral Intake of Specific Bovine-Derived Bioactive Collagen Peptides Has a Stimulatory Effect on Dermal Matrix Synthesis and Improves Various Clinical Skin Parameters",
+        "url": "https://doi.org/10.3390%2Fcosmetics12020079",
+        "doi": "10.3390/cosmetics12020079",
+        "pmid": null,
+        "role": "context citation; individual clause appraisal may remain",
+        "verification": "inherited; not independently rechecked"
+      },
+      {
+        "source_id": "S015",
+        "title": "Oral supplementation of specific collagen peptides has beneficial effects on human skin physiology: a double-blind, placebo-controlled study.",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/23949208/",
+        "doi": "10.1159/000351376",
+        "pmid": "23949208",
+        "role": "context citation; individual clause appraisal may remain",
+        "verification": "inherited; not independently rechecked"
+      },
+      {
+        "source_id": "S016",
+        "title": "The effect of oral collagen peptide supplementation on skin moisture and the dermal collagen network: evidence from an ex vivo model and randomized, placebo-controlled clinical trials",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/26362110/",
+        "doi": "10.1111/jocd.12174",
+        "pmid": "26362110",
+        "role": "context citation; individual clause appraisal may remain",
+        "verification": "inherited; not independently rechecked"
+      },
+      {
+        "source_id": "S201",
+        "title": "Office of Dietary Supplements - Dietary Supplements: What You Need to Know",
+        "url": "https://ods.od.nih.gov/factsheets/WYNTK-Consumer/",
+        "doi": null,
+        "pmid": null,
+        "role": "context citation; individual clause appraisal may remain",
+        "verification": "inherited; not independently rechecked"
+      }
+    ],
+    "alt_text_draft": "Is collagen worth it? — educational illustration; see adjacent explanation.",
+    "asset_status": "brief only; no image generated or licensed",
+    "clinical_review": false
+  },
+  {
+    "id": "SKIN-003",
+    "storyboard": "Show variation in color and texture without idealized before/after comparisons.",
+    "script": {
+      "format": "optional original narrated micro-explainer, not an existing video",
+      "duration_target_seconds": [
+        15,
+        30
+      ],
+      "narration": "Treatments may improve existing marks, but complete removal is not guaranteed. Consider a dermatologist after recovery if the marks bother you.",
+      "closing": "Check the safety note and see the evidence if you want more detail."
+    },
+    "source_links": [
+      {
+        "source_id": "S018",
+        "title": "Efficacy of Microneedling Versus Fractional Non-ablative Laser to Treat Striae Alba: A Randomized Study",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/30618025/",
+        "doi": "10.1007/s40257-018-0415-0",
+        "pmid": "30618025",
+        "role": "context citation; individual clause appraisal may remain",
+        "verification": "selected finding or identity checked"
+      },
+      {
+        "source_id": "S019",
+        "title": "A Comparison Between the Therapeutic Efficacy and Safety of Microneedling With Ascorbic Acid Versus CO2 Fractional Laser With Ascorbic Acid in the Treatment of Striae",
+        "url": "https://onlinelibrary.wiley.com/doi/10.1155/dth/2453160",
+        "doi": "10.1155/dth/2453160",
+        "pmid": null,
+        "role": "context citation; individual clause appraisal may remain",
+        "verification": "inherited; not independently rechecked"
+      },
+      {
+        "source_id": "S020",
+        "title": "Comparing Energy-Based Devices for Striae Improvement: A Systematic Review and Network Meta-Analysis of Randomized Controlled Trials.",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/38820425/",
+        "doi": "10.1097/DSS.0000000000004252",
+        "pmid": "38820425",
+        "role": "context citation; individual clause appraisal may remain",
+        "verification": "inherited; not independently rechecked"
+      },
+      {
+        "source_id": "S024",
+        "title": "Comparative study of treatment for striae alba stage striae gravidarum: 1565-nm non-ablative fractional laser versus fractional microneedle radiofrequency.",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/33411130/",
+        "doi": "10.1007/s10103-020-03203-y",
+        "pmid": "33411130",
+        "role": "context citation; individual clause appraisal may remain",
+        "verification": "inherited; not independently rechecked"
+      },
+      {
+        "source_id": "S027",
+        "title": "Low-dose tretinoin does not improve striae distensae: a double-blind, placebo-controlled study",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/7956336/",
+        "doi": null,
+        "pmid": "7956336",
+        "role": "context citation; individual clause appraisal may remain",
+        "verification": "inherited; not independently rechecked"
+      },
+      {
+        "source_id": "S162",
+        "title": "Cosmetic Dermatology in Pregnancy and Lactation: A Risk–Benefit Framework for Clinical Practice",
+        "url": "https://onlinelibrary.wiley.com/doi/10.1111/ijd.70620",
+        "doi": "10.1111/ijd.70620",
+        "pmid": "42634996",
+        "role": "context citation; individual clause appraisal may remain",
+        "verification": "inherited; not independently rechecked"
+      },
+      {
+        "source_id": "S198",
+        "title": "Potential Risks with Certain Uses of Radiofrequency (RF) Microneedling – FDA Safety Communication | FDA",
+        "url": "https://www.fda.gov/medical-devices/safety-communications/potential-risks-certain-uses-radiofrequency-rf-microneedling-fda-safety-communication",
+        "doi": null,
+        "pmid": null,
+        "role": "context citation; individual clause appraisal may remain",
+        "verification": "selected finding or identity checked"
+      },
+      {
+        "source_id": "S216",
+        "title": "Stretch marks: Why they appear and how to get rid of them",
+        "url": "https://www.aad.org/public/cosmetic/scars-stretch-marks/stretch-marks-why-appear",
+        "doi": null,
+        "pmid": null,
+        "role": "context citation; individual clause appraisal may remain",
+        "verification": "inherited; not independently rechecked"
+      }
+    ],
+    "alt_text_draft": "Can stretch marks fade? — educational illustration; see adjacent explanation.",
+    "asset_status": "brief only; no image generated or licensed",
+    "clinical_review": false
+  },
+  {
+    "id": "ABD-001",
+    "storyboard": "Show abdominal muscles and connective tissue; label width and function as different measures.",
+    "script": {
+      "format": "optional original narrated micro-explainer, not an existing video",
+      "duration_target_seconds": [
+        15,
+        30
+      ],
+      "narration": "Strength can improve even when the abdominal gap stays similar. Discuss gradual strengthening after birth.",
+      "closing": "Check the safety note and see the evidence if you want more detail."
+    },
+    "source_links": [
+      {
+        "source_id": "S028",
+        "title": "Curl-up exercises improve abdominal muscle strength without worsening inter-recti distance in women with diastasis recti abdominis postpartum: a randomised controlled trial",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/37286390/",
+        "doi": "10.1016/j.jphys.2023.05.017",
+        "pmid": "37286390",
+        "role": "context citation; individual clause appraisal may remain",
+        "verification": "selected finding or identity checked"
+      },
+      {
+        "source_id": "S030",
+        "title": "What is the evidence for abdominal and pelvic floor muscle training to treat diastasis recti abdominis postpartum? An updated systematic review and meta-analysis of randomized clinical trials and trial sequential analysis",
+        "url": "https://doi.org/10.1007/s10029-026-03660-4",
+        "doi": "10.1007/s10029-026-03660-4",
+        "pmid": "41995773",
+        "role": "context citation; individual clause appraisal may remain",
+        "verification": "inherited; not independently rechecked"
+      },
+      {
+        "source_id": "S031",
+        "title": "Effect of hypopressive and conventional abdominal exercises on postpartum diastasis recti: A randomized controlled trial",
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC11637234/",
+        "doi": "10.1371/journal.pone.0314274",
+        "pmid": "39666696",
+        "role": "context citation; individual clause appraisal may remain",
+        "verification": "selected finding or identity checked"
+      },
+      {
+        "source_id": "S032",
+        "title": "Impact of postpartum exercise on pelvic floor disorders and diastasis recti abdominis: a systematic review and meta-analysis",
+        "url": "https://bjsm.bmj.com/content/59/8/562",
+        "doi": "10.1136/bjsports-2024-108619",
+        "pmid": "39694630",
+        "role": "context citation; individual clause appraisal may remain",
+        "verification": "selected finding or identity checked"
+      },
+      {
+        "source_id": "S033",
+        "title": "Effect of a Postpartum Training Program on the Prevalence of Diastasis Recti Abdominis in Postpartum Primiparous Women: A Randomized Controlled Trial",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/29351646/",
+        "doi": "10.1093/ptj/pzy008",
+        "pmid": "29351646",
+        "role": "context citation; individual clause appraisal may remain",
+        "verification": "inherited; not independently rechecked"
+      }
+    ],
+    "alt_text_draft": "Will my core recover? — educational illustration; see adjacent explanation.",
+    "asset_status": "brief only; no image generated or licensed",
+    "clinical_review": false
+  },
+  {
+    "id": "ABD-002",
+    "storyboard": "Show a removable support garment versus the underlying abdominal wall.",
+    "script": {
+      "format": "optional original narrated micro-explainer, not an existing video",
+      "duration_target_seconds": [
+        15,
+        30
+      ],
+      "narration": "A binder may help early discomfort. Permanent reshaping is unproven. Ask about support if recovering from cesarean birth.",
+      "closing": "Check the safety note and see the evidence if you want more detail."
+    },
+    "source_links": [
+      {
+        "source_id": "S035",
+        "title": "European Hernia Society guidelines on management of rectus diastasis",
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC10364860/",
+        "doi": "10.1093/bjs/znab128",
+        "pmid": "34595502",
+        "role": "context citation; individual clause appraisal may remain",
+        "verification": "inherited; not independently rechecked"
+      },
+      {
+        "source_id": "S036",
+        "title": "The efficacy of abdominal binder in women undergoing cesarean delivery: A meta-analysis of randomized controlled trials.",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/39793406/",
+        "doi": "10.1016/j.midw.2024.104281",
+        "pmid": "39793406",
+        "role": "context citation; individual clause appraisal may remain",
+        "verification": "inherited; not independently rechecked"
+      },
+      {
+        "source_id": "S038",
+        "title": "The effect of an abdominal binder on pain, bleeding and breastfeeding success after cesarean delivery: A randomized controlled trial",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/39780504/",
+        "doi": "10.1080/03630242.2024.2448514",
+        "pmid": "39780504",
+        "role": "context citation; individual clause appraisal may remain",
+        "verification": "inherited; not independently rechecked"
+      },
+      {
+        "source_id": "S039",
+        "title": "A randomized controlled trial of abdominal binders for the management of postoperative pain and distress after cesarean delivery",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/26892694/",
+        "doi": "10.1016/j.ijgo.2015.08.026",
+        "pmid": "26892694",
+        "role": "context citation; individual clause appraisal may remain",
+        "verification": "inherited; not independently rechecked"
+      },
+      {
+        "source_id": "S041",
+        "title": "The impact of exercise therapy and abdominal binding in the management of diastasis recti abdominis in the early post-partum period: a pilot randomized controlled trial.",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/31642725/",
+        "doi": "10.1080/09593985.2019.1675207",
+        "pmid": "31642725",
+        "role": "context citation; individual clause appraisal may remain",
+        "verification": "inherited; not independently rechecked"
+      },
+      {
+        "source_id": "S207",
+        "title": "The Safety and Effects of Pregnancy after Abdominoplasty: A Systematic Review of the Literature.",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/37266593/",
+        "doi": "10.1007/s00266-023-03423-x",
+        "pmid": "37266593",
+        "role": "context citation; individual clause appraisal may remain",
+        "verification": "inherited; not independently rechecked"
+      }
+    ],
+    "alt_text_draft": "Do belly binders work? — educational illustration; see adjacent explanation.",
+    "asset_status": "brief only; no image generated or licensed",
+    "clinical_review": false
+  },
+  {
+    "id": "BREAST-001",
+    "storyboard": "Show tissue, skin and support structures; never depict one feeding method as cosmetically superior.",
+    "script": {
+      "format": "optional original narrated micro-explainer, not an existing video",
+      "duration_target_seconds": [
+        15,
+        30
+      ],
+      "narration": "Pregnancy changes breast tissue. Research does not establish a cosmetic reason to avoid breastfeeding. Choose comfortable support and the feeding approach you prefer.",
+      "closing": "Check the safety note and see the evidence if you want more detail."
+    },
+    "source_links": [
+      {
+        "source_id": "S044",
+        "title": "The effect of breastfeeding on breast aesthetics.",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/19083576/",
+        "doi": "10.1016/j.asj.2008.07.004",
+        "pmid": "19083576",
+        "role": "context citation; individual clause appraisal may remain",
+        "verification": "selected finding or identity checked"
+      },
+      {
+        "source_id": "S045",
+        "title": "Breast ptosis: causes and cure",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/20354434/",
+        "doi": "10.1097/SAP.0b013e3181c39377",
+        "pmid": "20354434",
+        "role": "context citation; individual clause appraisal may remain",
+        "verification": "inherited; not independently rechecked"
+      },
+      {
+        "source_id": "S046",
+        "title": "The impact of breast reduction surgery on breastfeeding: Systematic review of observational studies",
+        "url": "https://physicianguidetobreastfeeding.org/wp-content/uploads/2021/09/Krautsystemicreviewbreastfeedingafterreduction.pdf",
+        "doi": "10.1371/journal.pone.0186591",
+        "pmid": "29049351",
+        "role": "context citation; individual clause appraisal may remain",
+        "verification": "inherited; not independently rechecked"
+      },
+      {
+        "source_id": "S202",
+        "title": "The Impact of Breasts and Bras on Physical Activity Amongst Women and Girls: A Systematic Review and Meta-Analysis",
+        "url": "https://www.jwomenssportsmed.org/index.php/jwsm/article/view/49",
+        "doi": null,
+        "pmid": null,
+        "role": "context citation; individual clause appraisal may remain",
+        "verification": "inherited; not independently rechecked"
+      },
+      {
+        "source_id": "S203",
+        "title": "Changes in Physical Activity and Breast-Related Factors During and After Pregnancy",
+        "url": "https://irep.ntu.ac.uk/id/eprint/53662/1/2386876_Griggs.pdf",
+        "doi": null,
+        "pmid": null,
+        "role": "context citation; individual clause appraisal may remain",
+        "verification": "inherited; not independently rechecked"
+      }
+    ],
+    "alt_text_draft": "What changes breast shape? — educational illustration; see adjacent explanation.",
+    "asset_status": "brief only; no image generated or licensed",
+    "clinical_review": false
+  },
+  {
+    "id": "FIT-001",
+    "storyboard": "Three simple activity illustrations: strength, aerobic movement and rest.",
+    "script": {
+      "format": "optional original narrated micro-explainer, not an existing video",
+      "duration_target_seconds": [
+        15,
+        30
+      ],
+      "narration": "Build strength and fitness with habits you can keep. Choose movement you enjoy and can sustain.",
+      "closing": "Check the safety note and see the evidence if you want more detail."
+    },
+    "source_links": [
+      {
+        "source_id": "S049",
+        "title": "A prospective cohort study of physical activity and time-to-pregnancy",
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC3340509/",
+        "doi": "10.1016/j.fertnstert.2012.02.025",
+        "pmid": "22425198",
+        "role": "context citation; individual clause appraisal may remain",
+        "verification": "inherited; not independently rechecked"
+      },
+      {
+        "source_id": "S050",
+        "title": "Effects of preconception lifestyle intervention in infertile women with obesity: The FIT-PLESE randomized controlled trial",
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC8765626/",
+        "doi": "10.1371/journal.pmed.1003883",
+        "pmid": "35041662",
+        "role": "context citation; individual clause appraisal may remain",
+        "verification": "inherited; not independently rechecked"
+      },
+      {
+        "source_id": "S052",
+        "title": "A prospective study of physical activity and fecundability in women with a history of pregnancy loss",
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC6012250/",
+        "doi": "10.1093/humrep/dey086",
+        "pmid": "29648647",
+        "role": "context citation; individual clause appraisal may remain",
+        "verification": "inherited; not independently rechecked"
+      },
+      {
+        "source_id": "S055",
+        "title": "Moderate and increased physical activity is not detrimental to live birth rates among women with unexplained infertility and obesity",
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC10504528/",
+        "doi": "10.1016/j.xfre.2023.06.004",
+        "pmid": "37719091",
+        "role": "context citation; individual clause appraisal may remain",
+        "verification": "inherited; not independently rechecked"
+      },
+      {
+        "source_id": "S056",
+        "title": "Randomized Trial of a Lifestyle Program in Obese Infertile Women",
+        "url": "https://www.nejm.org/doi/pdf/10.1056/NEJMoa1505297",
+        "doi": "10.1056/NEJMoa1505297",
+        "pmid": "27192672",
+        "role": "context citation; individual clause appraisal may remain",
+        "verification": "inherited; not independently rechecked"
+      },
+      {
+        "source_id": "S059",
+        "title": "Physical Activity and Exercise During Pregnancy and the Postpartum Period | ACOG",
+        "url": "https://www.acog.org/clinical/clinical-guidance/committee-opinion/articles/2020/04/physical-activity-and-exercise-during-pregnancy-and-the-postpartum-period",
+        "doi": "10.1097/AOG.0000000000003772",
+        "pmid": "32217980",
+        "role": "context citation; individual clause appraisal may remain",
+        "verification": "selected finding or identity checked"
+      }
+    ],
+    "alt_text_draft": "What should I do years ahead? — educational illustration; see adjacent explanation.",
+    "asset_status": "brief only; no image generated or licensed",
+    "clinical_review": false
+  },
+  {
+    "id": "FIT-002",
+    "storyboard": "Use a stage-based movement illustration with a visible stop-and-seek-care note.",
+    "script": {
+      "format": "optional original narrated micro-explainer, not an existing video",
+      "duration_target_seconds": [
+        15,
+        30
+      ],
+      "narration": "Activity is generally beneficial in uncomplicated pregnancy, with individual adjustments. Discuss a comfortable movement plan with your care team.",
+      "closing": "Check the safety note and see the evidence if you want more detail."
+    },
+    "source_links": [
+      {
+        "source_id": "S057",
+        "title": "2019 Canadian guideline for physical activity throughout pregnancy",
+        "url": "https://bjsm.bmj.com/content/52/21/1339/",
+        "doi": "10.1136/bjsports-2018-100056",
+        "pmid": "30337460",
+        "role": "context citation; individual clause appraisal may remain",
+        "verification": "inherited; not independently rechecked"
+      },
+      {
+        "source_id": "S058",
+        "title": "Association of Antenatal Diet and Physical Activity-Based Interventions With Gestational Weight Gain and Pregnancy Outcomes: A Systematic Review and Meta-analysis.",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/34928300/",
+        "doi": "10.1001/jamainternmed.2021.6373",
+        "pmid": "34928300",
+        "role": "context citation; individual clause appraisal may remain",
+        "verification": "inherited; not independently rechecked"
+      },
+      {
+        "source_id": "S059",
+        "title": "Physical Activity and Exercise During Pregnancy and the Postpartum Period | ACOG",
+        "url": "https://www.acog.org/clinical/clinical-guidance/committee-opinion/articles/2020/04/physical-activity-and-exercise-during-pregnancy-and-the-postpartum-period",
+        "doi": "10.1097/AOG.0000000000003772",
+        "pmid": "32217980",
+        "role": "context citation; individual clause appraisal may remain",
+        "verification": "selected finding or identity checked"
+      },
+      {
+        "source_id": "S062",
+        "title": "Effect of diet and physical activity based interventions in pregnancy on gestational weight gain and pregnancy outcomes: meta-analysis of individual participant data from randomised trials",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/28724518/",
+        "doi": "10.1136/bmj.j3119",
+        "pmid": "28724518",
+        "role": "context citation; individual clause appraisal may remain",
+        "verification": "inherited; not independently rechecked"
+      },
+      {
+        "source_id": "S187",
+        "title": "Weight Gain During Pregnancy | Maternal Infant Health | CDC",
+        "url": "https://www.cdc.gov/maternal-infant-health/pregnancy-weight/index.html",
+        "doi": null,
+        "pmid": null,
+        "role": "context citation; individual clause appraisal may remain",
+        "verification": "inherited; not independently rechecked"
+      },
+      {
+        "source_id": "S188",
+        "title": "Exercise in pregnancy - NHS",
+        "url": "https://www.nhs.uk/pregnancy/keeping-well/exercise/",
+        "doi": null,
+        "pmid": null,
+        "role": "context citation; individual clause appraisal may remain",
+        "verification": "inherited; not independently rechecked"
+      }
+    ],
+    "alt_text_draft": "Can I exercise while pregnant? — educational illustration; see adjacent explanation.",
+    "asset_status": "brief only; no image generated or licensed",
+    "clinical_review": false
+  },
+  {
+    "id": "FIT-003",
+    "storyboard": "Use a branching recovery path instead of a rigid week-to-week countdown.",
+    "script": {
+      "format": "optional original narrated micro-explainer, not an existing video",
+      "duration_target_seconds": [
+        15,
+        30
+      ],
+      "narration": "Healing and symptoms matter more than a fixed recovery date. Progress gradually and seek assessment for persistent symptoms.",
+      "closing": "Check the safety note and see the evidence if you want more detail."
+    },
+    "source_links": [
+      {
+        "source_id": "S064",
+        "title": "2025 Canadian guideline for physical activity, sedentary behaviour and sleep throughout the first year post partum",
+        "url": "https://bjsm.bmj.com/content/early/2025/03/22/bjsports-2025-109785",
+        "doi": "10.1136/bjsports-2025-109785",
+        "pmid": "40139673",
+        "role": "context citation; individual clause appraisal may remain",
+        "verification": "inherited; not independently rechecked"
+      },
+      {
+        "source_id": "S066",
+        "title": "Clinical and exercise professional opinion of return-to-running readiness after childbirth: an international Delphi study and consensus statement",
+        "url": "https://doi.org/10.1136/bjsports-2023-107489",
+        "doi": "10.1136/bjsports-2023-107489",
+        "pmid": "38148108",
+        "role": "context citation; individual clause appraisal may remain",
+        "verification": "inherited; not independently rechecked"
+      },
+      {
+        "source_id": "S067",
+        "title": "Clinical and exercise professional opinion on designing a postpartum return-to-running training programme: an international Delphi study and consensus statement",
+        "url": "https://doi.org/10.1136/bjsports-2023-107490",
+        "doi": "10.1136/bjsports-2023-107490",
+        "pmid": "38191239",
+        "role": "context citation; individual clause appraisal may remain",
+        "verification": "inherited; not independently rechecked"
+      },
+      {
+        "source_id": "S068",
+        "title": "Return to Running for Postpartum Elite and Subelite Athletes",
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC11569573/",
+        "doi": "10.1177/19417381241256973",
+        "pmid": "38864285",
+        "role": "context citation; individual clause appraisal may remain",
+        "verification": "inherited; not independently rechecked"
+      },
+      {
+        "source_id": "S173",
+        "title": "ACOG Committee Opinion No. 736: Optimizing Postpartum Care",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/29683911/",
+        "doi": "10.1097/AOG.0000000000002849",
+        "pmid": "29683911",
+        "role": "context citation; individual clause appraisal may remain",
+        "verification": "inherited; not independently rechecked"
+      },
+      {
+        "source_id": "S196",
+        "title": "Physiotherapy Maternity | NUH",
+        "url": "https://www.nuh.nhs.uk/physiotherapy-maternity/",
+        "doi": null,
+        "pmid": null,
+        "role": "context citation; individual clause appraisal may remain",
+        "verification": "inherited; not independently rechecked"
+      },
+      {
+        "source_id": "S211",
+        "title": "Breast-feeding and postpartum weight retention: a systematic review and meta-analysis",
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC10271764/",
+        "doi": "10.1017/S1368980015000828",
+        "pmid": "25895506",
+        "role": "context citation; individual clause appraisal may remain",
+        "verification": "inherited; not independently rechecked"
+      },
+      {
+        "source_id": "S218",
+        "title": "What are the biopsychosocial risk factors associated with pain in postpartum runners? Development of a clinical decision tool",
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC8360599/",
+        "doi": "10.1371/journal.pone.0255383",
+        "pmid": "34383792",
+        "role": "context citation; individual clause appraisal may remain",
+        "verification": "inherited; not independently rechecked"
+      },
+      {
+        "source_id": "S221",
+        "title": "A randomized study of the effects of aerobic exercise by lactating women on breast-milk volume and composition",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/8289849/",
+        "doi": "10.1056/NEJM199402173300701",
+        "pmid": "8289849",
+        "role": "context citation; individual clause appraisal may remain",
+        "verification": "inherited; not independently rechecked"
+      }
+    ],
+    "alt_text_draft": "When can I exercise again? — educational illustration; see adjacent explanation.",
+    "asset_status": "brief only; no image generated or licensed",
+    "clinical_review": false
+  },
+  {
+    "id": "PELV-001",
+    "storyboard": "Show contract versus release using neutral anatomy; avoid universally prescribing repetitions.",
+    "script": {
+      "format": "optional original narrated micro-explainer, not an existing video",
+      "duration_target_seconds": [
+        15,
+        30
+      ],
+      "narration": "Both contraction and relaxation matter. Pain needs tailored assessment. Ask a pelvic-health clinician about technique.",
+      "closing": "Check the safety note and see the evidence if you want more detail."
+    },
+    "source_links": [
+      {
+        "source_id": "S069",
+        "title": "How effective is pelvic floor muscle training undertaken during pregnancy or after birth for preventing or treating incontinence? | Cochrane",
+        "url": "https://www.cochrane.org/evidence/CD007471_how-effective-pelvic-floor-muscle-training-undertaken-during-pregnancy-or-after-birth-preventing-or",
+        "doi": "10.1002/14651858.CD007471.pub4",
+        "pmid": null,
+        "role": "context citation; individual clause appraisal may remain",
+        "verification": "selected finding or identity checked"
+      },
+      {
+        "source_id": "S070",
+        "title": "Pelvic floor muscle training during pregnancy to prevent urinary incontinence: a single-blind randomized controlled trial",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/12576255/",
+        "doi": "10.1016/s0029-7844(02)02711-4",
+        "pmid": "12576255",
+        "role": "context citation; individual clause appraisal may remain",
+        "verification": "inherited; not independently rechecked"
+      },
+      {
+        "source_id": "S071",
+        "title": "Postpartum pelvic floor muscle training, levator ani avulsion and levator hiatus area: a randomized trial",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/36418566/",
+        "doi": "10.1007/s00192-022-05406-z",
+        "pmid": "36418566",
+        "role": "context citation; individual clause appraisal may remain",
+        "verification": "inherited; not independently rechecked"
+      },
+      {
+        "source_id": "S072",
+        "title": "Postpartum pelvic floor muscle training and pelvic organ prolapse--a randomized trial of primiparous women",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/24983687/",
+        "doi": "10.1016/j.ajog.2014.06.049",
+        "pmid": "24983687",
+        "role": "context citation; individual clause appraisal may remain",
+        "verification": "inherited; not independently rechecked"
+      },
+      {
+        "source_id": "S193",
+        "title": "Recommendations | Pelvic floor dysfunction: prevention and non-surgical management  | Guidance | NICE",
+        "url": "https://www.nice.org.uk/guidance/ng210/chapter/Recommendations",
+        "doi": null,
+        "pmid": null,
+        "role": "context citation; individual clause appraisal may remain",
+        "verification": "inherited; not independently rechecked"
+      },
+      {
+        "source_id": "S194",
+        "title": "A Treatment Algorithm for High-Tone Pelvic Floor Dysfunction",
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC10953682/",
+        "doi": "10.1097/AOG.0000000000005536",
+        "pmid": "38387036",
+        "role": "context citation; individual clause appraisal may remain",
+        "verification": "inherited; not independently rechecked"
+      },
+      {
+        "source_id": "S200",
+        "title": "Sex and contraception after birth - NHS",
+        "url": "https://www.nhs.uk/baby/support-and-services/sex-and-contraception-after-birth/",
+        "doi": null,
+        "pmid": null,
+        "role": "context citation; individual clause appraisal may remain",
+        "verification": "inherited; not independently rechecked"
+      }
+    ],
+    "alt_text_draft": "Should I train my pelvic floor? — educational illustration; see adjacent explanation.",
+    "asset_status": "brief only; no image generated or licensed",
+    "clinical_review": false
+  },
+  {
+    "id": "BIRTH-001",
+    "storyboard": "Use a care-choice diagram with separate position, support and perineal care lanes.",
+    "script": {
+      "format": "optional original narrated micro-explainer, not an existing video",
+      "duration_target_seconds": [
+        15,
+        30
+      ],
+      "narration": "Support and some perineal care options have evidence. No technique guarantees a particular outcome. Discuss late-pregnancy options with your maternity team.",
+      "closing": "Check the safety note and see the evidence if you want more detail."
+    },
+    "source_links": [
+      {
+        "source_id": "S074",
+        "title": "What are the benefits and risks of different perineal techniques during the second stage of labour for preventing post-birth injury? | Cochrane",
+        "url": "https://www.cochrane.org/evidence/CD016148_what-are-benefits-and-risks-different-perineal-techniques-during-second-stage-labour-preventing-post",
+        "doi": "10.1002/14651858.CD016148",
+        "pmid": null,
+        "role": "context citation; individual clause appraisal may remain",
+        "verification": "selected finding or identity checked"
+      },
+      {
+        "source_id": "S077",
+        "title": "Perineal massage in labour and prevention of perineal trauma: randomised controlled trial",
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC31922/",
+        "doi": "10.1136/bmj.322.7297.1277",
+        "pmid": "11375230",
+        "role": "context citation; individual clause appraisal may remain",
+        "verification": "inherited; not independently rechecked"
+      },
+      {
+        "source_id": "S079",
+        "title": "Pushing methods for the second stage of labour | Cochrane",
+        "url": "https://www.cochrane.org/evidence/CD009124_pushing-methods-second-stage-labour",
+        "doi": "10.1002/14651858.CD009124.pub3",
+        "pmid": null,
+        "role": "context citation; individual clause appraisal may remain",
+        "verification": "inherited; not independently rechecked"
+      },
+      {
+        "source_id": "S080",
+        "title": "Upright versus lying down position in second stage of labour in nulliparous women with low dose epidural: BUMPES randomised controlled trial",
+        "url": "https://www.bmj.com/content/359/bmj.j4471",
+        "doi": "10.1136/bmj.j4471",
+        "pmid": "29046273",
+        "role": "context citation; individual clause appraisal may remain",
+        "verification": "inherited; not independently rechecked"
+      },
+      {
+        "source_id": "S169",
+        "title": "Continuous support for women during childbirth | Cochrane",
+        "url": "https://www.cochrane.org/evidence/CD003766_continuous-support-women-during-childbirth",
+        "doi": "10.1002/14651858.CD003766.pub6",
+        "pmid": null,
+        "role": "context citation; individual clause appraisal may remain",
+        "verification": "inherited; not independently rechecked"
+      },
+      {
+        "source_id": "S170",
+        "title": "Antenatal perineal massage for reducing perineal trauma | Cochrane",
+        "url": "https://www.cochrane.org/evidence/CD005123_antenatal-perineal-massage-reducing-perineal-trauma",
+        "doi": "10.1002/14651858.CD005123.pub3",
+        "pmid": null,
+        "role": "context citation; individual clause appraisal may remain",
+        "verification": "selected finding or identity checked"
+      },
+      {
+        "source_id": "S181",
+        "title": "Considering a caesarean birth | RCOG",
+        "url": "https://www.rcog.org.uk/for-the-public/browse-our-patient-information/considering-a-caesarean-birth",
+        "doi": null,
+        "pmid": null,
+        "role": "context citation; individual clause appraisal may remain",
+        "verification": "inherited; not independently rechecked"
+      },
+      {
+        "source_id": "S182",
+        "title": "Caesarean birth",
+        "url": "https://www.nice.org.uk/guidance/ng192/resources/caesarean-birth-pdf-66142078788805",
+        "doi": null,
+        "pmid": null,
+        "role": "context citation; individual clause appraisal may remain",
+        "verification": "inherited; not independently rechecked"
+      }
+    ],
+    "alt_text_draft": "Can I prepare for birth? — educational illustration; see adjacent explanation.",
+    "asset_status": "brief only; no image generated or licensed",
+    "clinical_review": false
+  },
+  {
+    "id": "NUTR-001",
+    "storyboard": "Show the early development timeline and a supplement label with clearly marked units.",
+    "script": {
+      "format": "optional original narrated micro-explainer, not an existing video",
+      "duration_target_seconds": [
+        15,
+        30
+      ],
+      "narration": "Folic acid matters before conception. Other nutrient needs depend on your diet and stage. Review supplements and their labels with your care team.",
+      "closing": "Check the safety note and see the evidence if you want more detail."
+    },
+    "source_links": [
+      {
+        "source_id": "S082",
+        "title": "A Randomized Trial of Prenatal n−3 Fatty Acid Supplementation and Preterm Delivery",
+        "url": "https://www.nejm.org/doi/full/10.1056/NEJMoa1816832",
+        "doi": "10.1056/NEJMoa1816832",
+        "pmid": "31509674",
+        "role": "context citation; individual clause appraisal may remain",
+        "verification": "inherited; not independently rechecked"
+      },
+      {
+        "source_id": "S083",
+        "title": "Omega-3 fatty acid addition during pregnancy | Cochrane",
+        "url": "https://www.cochrane.org/evidence/CD003402_omega-3-fatty-acid-addition-during-pregnancy",
+        "doi": "10.1002/14651858.CD003402.pub3",
+        "pmid": null,
+        "role": "context citation; individual clause appraisal may remain",
+        "verification": "inherited; not independently rechecked"
+      },
+      {
+        "source_id": "S085",
+        "title": "Folic acid supplements before conception and in early pregnancy (up to 12 weeks) for the prevention of birth defects | Cochrane",
+        "url": "https://www.cochrane.org/evidence/CD007950_folic-acid-supplements-conception-and-early-pregnancy-12-weeks-prevention-birth-defects",
+        "doi": "10.1002/14651858.CD007950.pub3",
+        "pmid": null,
+        "role": "context citation; individual clause appraisal may remain",
+        "verification": "inherited; not independently rechecked"
+      },
+      {
+        "source_id": "S086",
+        "title": "Office of Dietary Supplements - Dietary Supplements and Life Stages: Pregnancy",
+        "url": "https://ods.od.nih.gov/factsheets/Pregnancy-HealthProfessional/",
+        "doi": null,
+        "pmid": null,
+        "role": "context citation; individual clause appraisal may remain",
+        "verification": "selected finding or identity checked"
+      },
+      {
+        "source_id": "S087",
+        "title": "Prevention of the first occurrence of neural-tube defects by periconceptional vitamin supplementation",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/1307234/",
+        "doi": "10.1056/NEJM199212243272602",
+        "pmid": "1307234",
+        "role": "context citation; individual clause appraisal may remain",
+        "verification": "inherited; not independently rechecked"
+      },
+      {
+        "source_id": "S088",
+        "title": "Recommendation: Folic Acid Supplementation to Prevent Neural Tube Defects: Preventive Medication | United States Preventive Services Taskforce",
+        "url": "https://www.uspreventiveservicestaskforce.org/uspstf/recommendation/folic-acid-for-the-prevention-of-neural-tube-defects-preventive-medication",
+        "doi": null,
+        "pmid": null,
+        "role": "context citation; individual clause appraisal may remain",
+        "verification": "selected finding or identity checked"
+      },
+      {
+        "source_id": "S089",
+        "title": "Prevention of neural tube defects: Results of the Medical Research Council Vitamin Study",
+        "url": "https://www.sciencedirect.com/science/article/pii/014067369190133A",
+        "doi": null,
+        "pmid": "1677062",
+        "role": "context citation; individual clause appraisal may remain",
+        "verification": "inherited; not independently rechecked"
+      },
+      {
+        "source_id": "S090",
+        "title": "Does vitamin D supplementation benefit, harm, or have no effects on pregnant women or their babies? | Cochrane",
+        "url": "https://www.cochrane.org/evidence/CD008873_does-vitamin-d-supplementation-benefit-harm-or-have-no-effects-pregnant-women-or-their-babies",
+        "doi": "10.1002/14651858.CD008873.pub5",
+        "pmid": null,
+        "role": "context citation; individual clause appraisal may remain",
+        "verification": "inherited; not independently rechecked"
+      },
+      {
+        "source_id": "S092",
+        "title": "Is taking calcium supplements during pregnancy an effective way to prevent blood pressure disorders and related problems? | Cochrane",
+        "url": "https://www.cochrane.org/evidence/CD001059_taking-calcium-supplements-during-pregnancy-effective-way-prevent-blood-pressure-disorders-and",
+        "doi": "10.1002/14651858.CD001059.pub6",
+        "pmid": null,
+        "role": "context citation; individual clause appraisal may remain",
+        "verification": "selected finding or identity checked"
+      },
+      {
+        "source_id": "S093",
+        "title": "Trial trustworthiness assessment: commentary on the Cochrane 2025 systematic review on calcium supplementation during pregnancy",
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC13312738/",
+        "doi": "10.1186/s12978-026-02395-w",
+        "pmid": "42374462",
+        "role": "context citation; individual clause appraisal may remain",
+        "verification": "selected finding or identity checked"
+      },
+      {
+        "source_id": "S176",
+        "title": "Advice about Eating Fish | FDA",
+        "url": "https://www.fda.gov/food/consumers/advice-about-eating-fish",
+        "doi": null,
+        "pmid": null,
+        "role": "context citation; individual clause appraisal may remain",
+        "verification": "inherited; not independently rechecked"
+      },
+      {
+        "source_id": "S177",
+        "title": "Healthy Eating During Pregnancy | ACOG",
+        "url": "https://www.acog.org/womens-health/faqs/healthy-eating-during-pregnancy",
+        "doi": null,
+        "pmid": null,
+        "role": "context citation; individual clause appraisal may remain",
+        "verification": "inherited; not independently rechecked"
+      },
+      {
+        "source_id": "S178",
+        "title": "Recommendation: Iron Deficiency and Iron Deficiency Anemia During Pregnancy: Screening and Supplementation | United States Preventive Services Taskforce",
+        "url": "https://www.uspreventiveservicestaskforce.org/uspstf/recommendation/iron-deficiency-anemia-in-pregnant-women-screening-and-supplementation",
+        "doi": null,
+        "pmid": null,
+        "role": "context citation; individual clause appraisal may remain",
+        "verification": "selected finding or identity checked"
+      },
+      {
+        "source_id": "S179",
+        "title": "Evidence Summary: Iron Deficiency and Iron Deficiency Anemia During Pregnancy: Screening and Supplementation | United States Preventive Services Taskforce",
+        "url": "https://www.uspreventiveservicestaskforce.org/uspstf/index.php/document/final-evidence-summary/iron-deficiency-anemia-in-pregnant-women-screening-and-supplementation",
+        "doi": null,
+        "pmid": null,
+        "role": "context citation; individual clause appraisal may remain",
+        "verification": "selected finding or identity checked"
+      },
+      {
+        "source_id": "S195",
+        "title": "Read \"Dietary Reference Intakes for Water, Potassium, Sodium, Chloride, and Sulfate\" at NAP.edu",
+        "url": "https://www.nationalacademies.org/read/10925/chapter/25",
+        "doi": null,
+        "pmid": null,
+        "role": "context citation; individual clause appraisal may remain",
+        "verification": "inherited; not independently rechecked"
+      },
+      {
+        "source_id": "S214",
+        "title": "Vitamin C supplementation in pregnancy | Cochrane",
+        "url": "https://www.cochrane.org/evidence/CD004072_vitamin-c-supplementation-pregnancy",
+        "doi": "10.1002/14651858.CD004072.pub3",
+        "pmid": null,
+        "role": "context citation; individual clause appraisal may remain",
+        "verification": "inherited; not independently rechecked"
+      },
+      {
+        "source_id": "S215",
+        "title": "Maternal Diet and Breastfeeding | Breastfeeding special circumstances | CDC",
+        "url": "https://www.cdc.gov/breastfeeding-special-circumstances/hcp/diet-micronutrients/maternal-diet.html",
+        "doi": null,
+        "pmid": null,
+        "role": "context citation; individual clause appraisal may remain",
+        "verification": "inherited; not independently rechecked"
+      },
+      {
+        "source_id": "S222",
+        "title": "Daily oral iron supplementation during pregnancy",
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC11325660/",
+        "doi": "10.1002/14651858.CD004736.pub6",
+        "pmid": "39145520",
+        "role": "context citation; individual clause appraisal may remain",
+        "verification": "inherited; not independently rechecked"
+      },
+      {
+        "source_id": "S223",
+        "title": "Daily iron and folic acid supplementation during pregnancy",
+        "url": "https://www.who.int/tools/elena/interventions/daily-iron-pregnancy",
+        "doi": null,
+        "pmid": null,
+        "role": "context citation; individual clause appraisal may remain",
+        "verification": "inherited; not independently rechecked"
+      },
+      {
+        "source_id": "S224",
+        "title": "[Table, WHO recommendation: calcium supplementation during pregnancy for prevention of pre-eclampsia and its complications []].",
+        "url": "https://www.ncbi.nlm.nih.gov/books/NBK615641/table/part1.tab212/",
+        "doi": null,
+        "pmid": null,
+        "role": "context citation; individual clause appraisal may remain",
+        "verification": "inherited; not independently rechecked"
+      }
+    ],
+    "alt_text_draft": "What nutrients matter most? — educational illustration; see adjacent explanation.",
+    "asset_status": "brief only; no image generated or licensed",
+    "clinical_review": false
+  },
+  {
+    "id": "NUTR-002",
+    "storyboard": "Show a benefit/evidence/safety comparison without shopping buttons.",
+    "script": {
+      "format": "optional original narrated micro-explainer, not an existing video",
+      "duration_target_seconds": [
+        15,
+        30
+      ],
+      "narration": "Evidence varies widely by product, dose and intended benefit. Discuss concentrated supplements before using them in pregnancy.",
+      "closing": "Check the safety note and see the evidence if you want more detail."
+    },
+    "source_links": [
+      {
+        "source_id": "S086",
+        "title": "Office of Dietary Supplements - Dietary Supplements and Life Stages: Pregnancy",
+        "url": "https://ods.od.nih.gov/factsheets/Pregnancy-HealthProfessional/",
+        "doi": null,
+        "pmid": null,
+        "role": "context citation; individual clause appraisal may remain",
+        "verification": "selected finding or identity checked"
+      },
+      {
+        "source_id": "S094",
+        "title": "Probiotics to prevent gestational diabetes mellitus | Cochrane",
+        "url": "https://www.cochrane.org/evidence/CD009951_probiotiki-dlya-profilaktiki-gestacionnogo-sakharnogo-diabeta",
+        "doi": "10.1002/14651858.CD009951.pub3",
+        "pmid": null,
+        "role": "context citation; individual clause appraisal may remain",
+        "verification": "selected finding or identity checked"
+      },
+      {
+        "source_id": "S095",
+        "title": "The effects of probiotics administration during pregnancy on preeclampsia and associated maternal, fetal, and newborn outcomes: a systematic review and meta-analysis",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/38447676/",
+        "doi": "10.1016/j.ajogmf.2024.101322",
+        "pmid": "38447676",
+        "role": "context citation; individual clause appraisal may remain",
+        "verification": "selected finding or identity checked"
+      },
+      {
+        "source_id": "S096",
+        "title": "Probiotics as an added treatment for gestational diabetes to improve mother and baby outcomes | Cochrane",
+        "url": "https://www.cochrane.org/evidence/CD012970_probiotics-added-treatment-gestational-diabetes-improve-mother-and-baby-outcomes",
+        "doi": "10.1002/14651858.CD012970.pub2",
+        "pmid": null,
+        "role": "context citation; individual clause appraisal may remain",
+        "verification": "inherited; not independently rechecked"
+      },
+      {
+        "source_id": "S098",
+        "title": "Creatine for women in pregnancy for neuroprotection of the fetus",
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC10657457/",
+        "doi": "10.1002/14651858.CD010846.pub2",
+        "pmid": "25523279",
+        "role": "context citation; individual clause appraisal may remain",
+        "verification": "inherited; not independently rechecked"
+      },
+      {
+        "source_id": "S099",
+        "title": "Ginger for nausea and vomiting in pregnancy: randomized, double-masked, placebo-controlled trial",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/11275030/",
+        "doi": "10.1016/s0029-7844(00)01228-x",
+        "pmid": "11275030",
+        "role": "context citation; individual clause appraisal may remain",
+        "verification": "inherited; not independently rechecked"
+      },
+      {
+        "source_id": "S100",
+        "title": "A randomized controlled trial of ginger to treat nausea and vomiting in pregnancy",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/15051552/",
+        "doi": "10.1097/01.AOG.0000118307.19798.ec",
+        "pmid": "15051552",
+        "role": "context citation; individual clause appraisal may remain",
+        "verification": "inherited; not independently rechecked"
+      },
+      {
+        "source_id": "S102",
+        "title": "The Use of Ginger Bioactive Compounds in Pregnancy: An Evidence Scan and Umbrella Review of Existing Meta-Analyses",
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC11536023/",
+        "doi": "10.1016/j.advnut.2024.100308",
+        "pmid": "39343171",
+        "role": "context citation; individual clause appraisal may remain",
+        "verification": "inherited; not independently rechecked"
+      },
+      {
+        "source_id": "S131",
+        "title": "Urgent Maternal Warning Signs and Symptoms | HEAR HER Campaign | CDC",
+        "url": "https://www.cdc.gov/hearher/maternal-warning-signs/index.html?itid=cb_box_KFOSGTLGLBECXDG2D3EHKHZARA_1",
+        "doi": null,
+        "pmid": null,
+        "role": "context citation; individual clause appraisal may remain",
+        "verification": "selected finding or identity checked"
+      },
+      {
+        "source_id": "S190",
+        "title": "Open label, dose escalation trial of creatine monohydrate in pregnancy",
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC12291183/",
+        "doi": "10.1080/15502783.2025.2533652",
+        "pmid": null,
+        "role": "context citation; individual clause appraisal may remain",
+        "verification": "inherited; not independently rechecked"
+      },
+      {
+        "source_id": "S201",
+        "title": "Office of Dietary Supplements - Dietary Supplements: What You Need to Know",
+        "url": "https://ods.od.nih.gov/factsheets/WYNTK-Consumer/",
+        "doi": null,
+        "pmid": null,
+        "role": "context citation; individual clause appraisal may remain",
+        "verification": "inherited; not independently rechecked"
+      }
+    ],
+    "alt_text_draft": "Are natural supplements safe? — educational illustration; see adjacent explanation.",
+    "asset_status": "brief only; no image generated or licensed",
+    "clinical_review": false
+  },
+  {
+    "id": "FACE-001",
+    "storyboard": "Show shade, clothing and sunscreen, with an ingredients review reminder.",
+    "script": {
+      "format": "optional original narrated micro-explainer, not an existing video",
+      "duration_target_seconds": [
+        15,
+        30
+      ],
+      "narration": "Sun protection and reviewing acne ingredients are practical steps. Use appropriate sun protection and review retinoids before trying.",
+      "closing": "Check the safety note and see the evidence if you want more detail."
+    },
+    "source_links": [
+      {
+        "source_id": "S104",
+        "title": "Photoprotection in pregnancy: addressing safety concerns and optimizing skin health",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/40212279/",
+        "doi": "10.3389/fmed.2025.1563369",
+        "pmid": "40212279",
+        "role": "context citation; individual clause appraisal may remain",
+        "verification": "inherited; not independently rechecked"
+      },
+      {
+        "source_id": "S105",
+        "title": "Topical Acne Treatments",
+        "url": "https://mothertobaby.org/fact-sheets/topical-acne-treatments-pregnancy/pdf/",
+        "doi": null,
+        "pmid": null,
+        "role": "context citation; individual clause appraisal may remain",
+        "verification": "inherited; not independently rechecked"
+      },
+      {
+        "source_id": "S106",
+        "title": "Skin Conditions During Pregnancy | ACOG",
+        "url": "https://www.acog.org/womens-health/faqs/skin-conditions-during-pregnancy",
+        "doi": null,
+        "pmid": null,
+        "role": "context citation; individual clause appraisal may remain",
+        "verification": "selected finding or identity checked"
+      },
+      {
+        "source_id": "S107",
+        "title": "Pregnancy outcomes following first-trimester exposure to topical retinoids: a systematic review and meta-analysis",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/26215715/",
+        "doi": "10.1111/bjd.14053",
+        "pmid": "26215715",
+        "role": "context citation; individual clause appraisal may remain",
+        "verification": "inherited; not independently rechecked"
+      },
+      {
+        "source_id": "S108",
+        "title": "Topical retinoid use in women of reproductive age and risk of major congenital malformations in exposed pregnancies: a Nordic cohort study",
+        "url": "https://academic.oup.com/bjd/article/194/4/640/8375699",
+        "doi": "10.1093/bjd/ljaf500",
+        "pmid": "41365815",
+        "role": "context citation; individual clause appraisal may remain",
+        "verification": "inherited; not independently rechecked"
+      },
+      {
+        "source_id": "S109",
+        "title": "Pregnancy outcome following exposure to topical retinoids: a multicenter prospective study.",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/22174426/",
+        "doi": "10.1177/0091270011429566",
+        "pmid": "22174426",
+        "role": "context citation; individual clause appraisal may remain",
+        "verification": "inherited; not independently rechecked"
+      },
+      {
+        "source_id": "S204",
+        "title": "Dermatologist-approved pregnancy skin care",
+        "url": "https://www.aad.org/public/everyday-care/skin-care-secrets/routine/pregnancy-skin-care",
+        "doi": null,
+        "pmid": null,
+        "role": "context citation; individual clause appraisal may remain",
+        "verification": "selected finding or identity checked"
+      },
+      {
+        "source_id": "S212",
+        "title": "Evaluation of the effectiveness of a broad-spectrum sunscreen in the prevention of chloasma in pregnant women",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/17567299/",
+        "doi": "10.1111/j.1468-3083.2007.02185.x",
+        "pmid": "17567299",
+        "role": "context citation; individual clause appraisal may remain",
+        "verification": "selected finding or identity checked"
+      }
+    ],
+    "alt_text_draft": "How can I protect my skin? — educational illustration; see adjacent explanation.",
+    "asset_status": "brief only; no image generated or licensed",
+    "clinical_review": false
+  },
+  {
+    "id": "HAIR-001",
+    "storyboard": "Show a hair-cycle diagram and approximate timeline, not guaranteed regrowth.",
+    "script": {
+      "format": "optional original narrated micro-explainer, not an existing video",
+      "duration_target_seconds": [
+        15,
+        30
+      ],
+      "narration": "Postpartum shedding is often temporary, but persistent or unusual loss needs assessment. Use gentle care and seek help for unusual or persistent changes.",
+      "closing": "Check the safety note and see the evidence if you want more detail."
+    },
+    "source_links": [
+      {
+        "source_id": "S110",
+        "title": "Hair loss in new moms: Dermatologist tips",
+        "url": "https://www.aad.org/public/diseases/hair-loss/insider/new-moms",
+        "doi": null,
+        "pmid": null,
+        "role": "context citation; individual clause appraisal may remain",
+        "verification": "selected finding or identity checked"
+      },
+      {
+        "source_id": "S111",
+        "title": "The changes in the hair cycle during gestation and the post-partum period.",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/23682615/",
+        "doi": "10.1111/jdv.12188",
+        "pmid": "23682615",
+        "role": "context citation; individual clause appraisal may remain",
+        "verification": "inherited; not independently rechecked"
+      },
+      {
+        "source_id": "S112",
+        "title": "Treating hair loss related to pregnancy and lactation: A literature review.",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/43048788/",
+        "doi": "10.25251/r5n7w9cz",
+        "pmid": "43048788",
+        "role": "context citation; individual clause appraisal may remain",
+        "verification": "inherited; not independently rechecked"
+      },
+      {
+        "source_id": "S114",
+        "title": "Investigation of exacerbating factors for postpartum hair loss: a questionnaire-based cross-sectional study",
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC10846762/",
+        "doi": "10.1097/JW9.0000000000000084",
+        "pmid": "38323220",
+        "role": "context citation; individual clause appraisal may remain",
+        "verification": "inherited; not independently rechecked"
+      },
+      {
+        "source_id": "S115",
+        "title": "Postpartum Telogen Effluvium Unmasking Traction Alopecia",
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC9274946/",
+        "doi": "10.1159/000521705",
+        "pmid": "35983466",
+        "role": "context citation; individual clause appraisal may remain",
+        "verification": "inherited; not independently rechecked"
+      },
+      {
+        "source_id": "S117",
+        "title": "Minoxidil",
+        "url": "https://www.ncbi.nlm.nih.gov/sites/books/NBK501032/",
+        "doi": null,
+        "pmid": null,
+        "role": "context citation; individual clause appraisal may remain",
+        "verification": "inherited; not independently rechecked"
+      },
+      {
+        "source_id": "S205",
+        "title": "Skin and hair changes during pregnancy: MedlinePlus Medical Encyclopedia",
+        "url": "https://www.medlineplus.gov/ency/patientinstructions/000611.htm",
+        "doi": null,
+        "pmid": null,
+        "role": "context citation; individual clause appraisal may remain",
+        "verification": "inherited; not independently rechecked"
+      }
+    ],
+    "alt_text_draft": "Will my hair grow back? — educational illustration; see adjacent explanation.",
+    "asset_status": "brief only; no image generated or licensed",
+    "clinical_review": false
+  },
+  {
+    "id": "SCAR-001",
+    "storyboard": "Show healing versus fully closed scar; separate urgent concerns from later scar care.",
+    "script": {
+      "format": "optional original narrated micro-explainer, not an existing video",
+      "duration_target_seconds": [
+        15,
+        30
+      ],
+      "narration": "Wounds need to heal before cosmetic scar treatments. Contact maternity care for concerning wound changes.",
+      "closing": "Check the safety note and see the evidence if you want more detail."
+    },
+    "source_links": [
+      {
+        "source_id": "S118",
+        "title": "Comparison of Silicone Sheets and Paper Tape for the Management of Postoperative Scars: A Randomized Comparative Study.",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/32427792/",
+        "doi": "10.1097/01.ASW.0000661932.67974.7d",
+        "pmid": "32427792",
+        "role": "context citation; individual clause appraisal may remain",
+        "verification": "inherited; not independently rechecked"
+      },
+      {
+        "source_id": "S119",
+        "title": "Does the form of dressings matter?: A comparison of the efficacy in the management of postoperative scars between silicone sheets and silicone gel: a randomized controlled trial",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/30095630/",
+        "doi": "10.1097/MD.0000000000011767",
+        "pmid": "30095630",
+        "role": "context citation; individual clause appraisal may remain",
+        "verification": "inherited; not independently rechecked"
+      },
+      {
+        "source_id": "S121",
+        "title": "Silicone gel sheeting for treating hypertrophic scars | Cochrane",
+        "url": "https://www.cochrane.org/hr/evidence/CD013357_silicone-gel-sheeting-treating-hypertrophic-scars",
+        "doi": "10.1002/14651858.CD013357.pub2",
+        "pmid": "34564840",
+        "role": "context citation; individual clause appraisal may remain",
+        "verification": "selected finding or identity checked"
+      },
+      {
+        "source_id": "S123",
+        "title": "Perineal wound breakdown | RCOG",
+        "url": "https://www.rcog.org.uk/for-the-public/perineal-tears-and-episiotomies-in-childbirth/perineal-wound-breakdown",
+        "doi": null,
+        "pmid": null,
+        "role": "context citation; individual clause appraisal may remain",
+        "verification": "inherited; not independently rechecked"
+      },
+      {
+        "source_id": "S124",
+        "title": "Perineal resuturing versus expectant management following vaginal delivery complicated by a dehisced wound (PREVIEW): a pilot and feasibility randomised controlled trial",
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/5306527/",
+        "doi": "10.1136/bmjopen-2016-012766",
+        "pmid": "28188151",
+        "role": "context citation; individual clause appraisal may remain",
+        "verification": "inherited; not independently rechecked"
+      },
+      {
+        "source_id": "S125",
+        "title": "IUGA International Guidelines on Obstetric Anal Sphincter Injuries",
+        "url": "https://link.springer.com/article/10.1007/s00192-026-06642-3",
+        "doi": "10.1007/s00192-026-06642-3",
+        "pmid": "42429937",
+        "role": "context citation; individual clause appraisal may remain",
+        "verification": "inherited; not independently rechecked"
+      },
+      {
+        "source_id": "S126",
+        "title": "Clinical guidance paper VVOG-CRGOLFB prevention and management of obstetrical perineal trauma",
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC12369434/",
+        "doi": "10.1016/j.eurox.2025.100416",
+        "pmid": "40852404",
+        "role": "context citation; individual clause appraisal may remain",
+        "verification": "inherited; not independently rechecked"
+      },
+      {
+        "source_id": "S131",
+        "title": "Urgent Maternal Warning Signs and Symptoms | HEAR HER Campaign | CDC",
+        "url": "https://www.cdc.gov/hearher/maternal-warning-signs/index.html?itid=cb_box_KFOSGTLGLBECXDG2D3EHKHZARA_1",
+        "doi": null,
+        "pmid": null,
+        "role": "context citation; individual clause appraisal may remain",
+        "verification": "selected finding or identity checked"
+      },
+      {
+        "source_id": "S189",
+        "title": "Recommendations | Postnatal care | Guidance | NICE",
+        "url": "https://www.dejavu.org/cgi-bin/get.cgi?url=https%3A%2F%2Fwww.nice.org.uk%2Fguidance%2Fng194%2Fchapter%2FRecommendations%23postnatal-care-of-the-baby&ver=95",
+        "doi": null,
+        "pmid": null,
+        "role": "context citation; individual clause appraisal may remain",
+        "verification": "inherited; not independently rechecked"
+      },
+      {
+        "source_id": "S208",
+        "title": "Exploring the Effects of Standardized Soft Tissue Mobilization on the Viscoelastic Properties, Pressure Pain Thresholds, and Tactile Pressure Thresholds of the Cesarean Section Scar",
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC9051872/",
+        "doi": "10.1089/jicm.2021.0178",
+        "pmid": "35426735",
+        "role": "context citation; individual clause appraisal may remain",
+        "verification": "inherited; not independently rechecked"
+      }
+    ],
+    "alt_text_draft": "When can I care for scars? — educational illustration; see adjacent explanation.",
+    "asset_status": "brief only; no image generated or licensed",
+    "clinical_review": false
+  },
+  {
+    "id": "VEIN-001",
+    "storyboard": "Use separate urgent-warning and ordinary-comfort panels; do not use color alone.",
+    "script": {
+      "format": "optional original narrated micro-explainer, not an existing video",
+      "duration_target_seconds": [
+        15,
+        30
+      ],
+      "narration": "Some swelling occurs, but one-sided painful swelling needs urgent assessment. Seek immediate care for one-sided painful swelling; emergency help for chest pain or sudden breathlessness.",
+      "closing": "Check the safety note and see the evidence if you want more detail."
+    },
+    "source_links": [
+      {
+        "source_id": "S127",
+        "title": "Compression stockings prophylaxis of emergent varicose veins in pregnancy: a prospective randomised controlled study",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/11835115/",
+        "doi": "10.4414/smw.2001.09805",
+        "pmid": "11835115",
+        "role": "context citation; individual clause appraisal may remain",
+        "verification": "selected finding or identity checked"
+      },
+      {
+        "source_id": "S128",
+        "title": "Compression stocking prevents increased venous retrograde flow time in the lower limbs of pregnant women.",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/32659162/",
+        "doi": "10.1177/0268355520939371",
+        "pmid": "32659162",
+        "role": "context citation; individual clause appraisal may remain",
+        "verification": "inherited; not independently rechecked"
+      },
+      {
+        "source_id": "S129",
+        "title": "Interventions for varicose veins and leg oedema in pregnancy",
+        "url": "https://www.kaypahoito.fi/evd05547",
+        "doi": "10.1002/14651858.CD001066.pub3",
+        "pmid": "26477632",
+        "role": "context citation; individual clause appraisal may remain",
+        "verification": "inherited; not independently rechecked"
+      },
+      {
+        "source_id": "S130",
+        "title": "Positive perception and efficacy of compression stockings for prevention of lower limb edema in pregnant women",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/35399341/",
+        "doi": "10.1590/1677-5449.210101",
+        "pmid": "35399341",
+        "role": "context citation; individual clause appraisal may remain",
+        "verification": "inherited; not independently rechecked"
+      },
+      {
+        "source_id": "S131",
+        "title": "Urgent Maternal Warning Signs and Symptoms | HEAR HER Campaign | CDC",
+        "url": "https://www.cdc.gov/hearher/maternal-warning-signs/index.html?itid=cb_box_KFOSGTLGLBECXDG2D3EHKHZARA_1",
+        "doi": null,
+        "pmid": null,
+        "role": "context citation; individual clause appraisal may remain",
+        "verification": "selected finding or identity checked"
+      },
+      {
+        "source_id": "S132",
+        "title": "Diagnosis and treatment of venous thrombosis in pregnancy and after birth | RCOG",
+        "url": "https://www.rcog.org.uk/for-the-public/browse-our-patient-information/diagnosis-and-treatment-of-venous-thrombosis-in-pregnancy-and-after-birth/",
+        "doi": null,
+        "pmid": null,
+        "role": "context citation; individual clause appraisal may remain",
+        "verification": "inherited; not independently rechecked"
+      },
+      {
+        "source_id": "S133",
+        "title": "Understanding Your Risk for Blood Clots with Pregnancy | Venous Thromboembolism (Blood Clots) | CDC",
+        "url": "https://www.cdc.gov/blood-clots/risk-factors/pregnancy.html",
+        "doi": null,
+        "pmid": null,
+        "role": "context citation; individual clause appraisal may remain",
+        "verification": "inherited; not independently rechecked"
+      },
+      {
+        "source_id": "S209",
+        "title": "Varicose veins: diagnosis and management",
+        "url": "https://www.nice.org.uk/guidance/cg168/resources/varicose-veins-diagnosis-and-management-pdf-35109698485957",
+        "doi": null,
+        "pmid": null,
+        "role": "context citation; individual clause appraisal may remain",
+        "verification": "inherited; not independently rechecked"
+      }
+    ],
+    "alt_text_draft": "Are swollen legs normal? — educational illustration; see adjacent explanation.",
+    "asset_status": "brief only; no image generated or licensed",
+    "clinical_review": false
+  },
+  {
+    "id": "MSK-001",
+    "storyboard": "Show neutral body landmarks and examples of daily activities, not self-diagnosis tests.",
+    "script": {
+      "format": "optional original narrated micro-explainer, not an existing video",
+      "duration_target_seconds": [
+        15,
+        30
+      ],
+      "narration": "Pregnancy-related pelvic pain can affect everyday movement. Ask for individualized physiotherapy if ordinary activities hurt.",
+      "closing": "Check the safety note and see the evidence if you want more detail."
+    },
+    "source_links": [
+      {
+        "source_id": "S134",
+        "title": "Effects of acupuncture and stabilising exercises as adjunct to standard treatment in pregnant women with pelvic girdle pain: randomised single blind controlled trial",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/15778231/",
+        "doi": "10.1136/bmj.38397.507014.E0",
+        "pmid": "15778231",
+        "role": "context citation; individual clause appraisal may remain",
+        "verification": "selected finding or identity checked"
+      },
+      {
+        "source_id": "S135",
+        "title": "Clinical Practice Guidelines for Pelvic Girdle Pain in the Postpartum Population",
+        "url": "https://doi.org/10.1097/jwh.0000000000000236",
+        "doi": "10.1097/jwh.0000000000000236",
+        "pmid": null,
+        "role": "context citation; individual clause appraisal may remain",
+        "verification": "inherited; not independently rechecked"
+      },
+      {
+        "source_id": "S136",
+        "title": "Supervised, Individualised Exercise Across Pregnancy and Postpartum for Pregnancy-Related Lumbopelvic Pain: A Multicentre Pragmatic, Site-Allocated Cluster Trial",
+        "url": "https://obgyn.onlinelibrary.wiley.com/doi/10.1111/1471-0528.70171",
+        "doi": "10.1111/1471-0528.70171",
+        "pmid": "41612579",
+        "role": "context citation; individual clause appraisal may remain",
+        "verification": "inherited; not independently rechecked"
+      },
+      {
+        "source_id": "S137",
+        "title": "Treatments for pregnancy‐related lumbopelvic pain: a systematic review of physiotherapy modalities",
+        "url": "https://obgyn.onlinelibrary.wiley.com/doi/pdfdirect/10.1111/aogs.12681",
+        "doi": "10.1111/aogs.12681",
+        "pmid": "26018758",
+        "role": "context citation; individual clause appraisal may remain",
+        "verification": "inherited; not independently rechecked"
+      },
+      {
+        "source_id": "S139",
+        "title": "Pregnancy leads to lasting changes in foot structure",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/23117270/",
+        "doi": "10.1097/PHM.0b013e31827443a9",
+        "pmid": "23117270",
+        "role": "context citation; individual clause appraisal may remain",
+        "verification": "inherited; not independently rechecked"
+      },
+      {
+        "source_id": "S140",
+        "title": "Antenatal care",
+        "url": "https://www.nice.org.uk/guidance/ng201/resources/antenatal-care-pdf-66143709695941",
+        "doi": null,
+        "pmid": null,
+        "role": "context citation; individual clause appraisal may remain",
+        "verification": "inherited; not independently rechecked"
+      },
+      {
+        "source_id": "S213",
+        "title": "Respiratory physiology of pregnancy: Physiology masterclass",
+        "url": "https://publications.ersnet.org/lookup/doi/10.1183/20734735.008615",
+        "doi": "10.1183/20734735.008615",
+        "pmid": "27066123",
+        "role": "context citation; individual clause appraisal may remain",
+        "verification": "inherited; not independently rechecked"
+      },
+      {
+        "source_id": "S220",
+        "title": "Acupuncture as an adjunct to standard treatment for pelvic girdle pain in pregnant women: randomised double-blinded controlled trial comparing acupuncture with non-penetrating sham acupuncture",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/18947338/",
+        "doi": "10.1111/j.1471-0528.2008.01904.x",
+        "pmid": "18947338",
+        "role": "context citation; individual clause appraisal may remain",
+        "verification": "selected finding or identity checked"
+      }
+    ],
+    "alt_text_draft": "What about back and hip pain? — educational illustration; see adjacent explanation.",
+    "asset_status": "brief only; no image generated or licensed",
+    "clinical_review": false
+  },
+  {
+    "id": "REPRO-001",
+    "storyboard": "Show a simple appointment checklist with flexible dates.",
+    "script": {
+      "format": "optional original narrated micro-explainer, not an existing video",
+      "duration_target_seconds": [
+        15,
+        30
+      ],
+      "narration": "Review health, medications and vaccines before pregnancy. Bring a medication list and family history to a preconception visit.",
+      "closing": "Check the safety note and see the evidence if you want more detail."
+    },
+    "source_links": [
+      {
+        "source_id": "S142",
+        "title": "Prepregnancy Counseling | ACOG",
+        "url": "https://www.acog.org/clinical/clinical-guidance/committee-opinion/articles/2019/01/prepregnancy-counseling",
+        "doi": null,
+        "pmid": null,
+        "role": "context citation; individual clause appraisal may remain",
+        "verification": "selected finding or identity checked"
+      },
+      {
+        "source_id": "S144",
+        "title": "Optimizing natural fertility: a committee opinion (2022)",
+        "url": "https://www.asrm.org/practice-guidance/practice-committee-documents/optimizing-natural-fertility-a-committee-opinion-2021/?_t_hit.id=ASRM_Models_Pages_ContentPage%2F_e8b0b6a7-6cba-4683-86db-d137a0e55dca_en&_t_hit.pos=39&_t_tags=siteid%3A01216f06-3dc9-4ac9-96da-555740dd020c%2Clanguage%3Aen",
+        "doi": null,
+        "pmid": null,
+        "role": "context citation; individual clause appraisal may remain",
+        "verification": "inherited; not independently rechecked"
+      },
+      {
+        "source_id": "S145",
+        "title": "Fertility evaluation of infertile women: a committee opinion (2026)",
+        "url": "https://www.asrm.org/practice-guidance/practice-committee-documents/fertility-evaluation-of-infertile-women-a-committee-opinion-2026",
+        "doi": null,
+        "pmid": null,
+        "role": "context citation; individual clause appraisal may remain",
+        "verification": "inherited; not independently rechecked"
+      },
+      {
+        "source_id": "S146",
+        "title": "Timed intercourse for couples trying to conceive | Cochrane",
+        "url": "https://www.cochrane.org/evidence/CD011345_timed-intercourse-couples-trying-conceive",
+        "doi": "10.1002/14651858.CD011345.pub3",
+        "pmid": null,
+        "role": "context citation; individual clause appraisal may remain",
+        "verification": "inherited; not independently rechecked"
+      },
+      {
+        "source_id": "S171",
+        "title": "Vaccine Recommendations Before, During, and After Pregnancy | Pregnancy & Vaccines | CDC",
+        "url": "https://www.cdc.gov/vaccines-pregnancy/recommended-vaccines/",
+        "doi": null,
+        "pmid": null,
+        "role": "context citation; individual clause appraisal may remain",
+        "verification": "inherited; not independently rechecked"
+      },
+      {
+        "source_id": "S172",
+        "title": "Current recommendations for vaccines for patients planning pregnancy: a committee opinion (2024)",
+        "url": "https://www.asrm.org/practice-guidance/practice-committee-documents/current-recommendations-for-vaccines-for-patients-planning-pregnancy/",
+        "doi": "10.1016/j.fertnstert.2024.02.027",
+        "pmid": "38897685",
+        "role": "context citation; individual clause appraisal may remain",
+        "verification": "inherited; not independently rechecked"
+      },
+      {
+        "source_id": "S180",
+        "title": "American Thyroid Association 2026 Guidelines for Thyroid Disease in Preconception, Pregnancy, and Postpartum",
+        "url": "https://journals.sagepub.com/doi/full/10.1177/10507256261445624",
+        "doi": "10.1177/10507256261445624",
+        "pmid": "42219800",
+        "role": "context citation; individual clause appraisal may remain",
+        "verification": "inherited; not independently rechecked"
+      },
+      {
+        "source_id": "S191",
+        "title": "Origins of lifetime health around the time of conception: causes and consequences",
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC5975952/",
+        "doi": "10.1016/S0140-6736(18)30312-X",
+        "pmid": "29673874",
+        "role": "context citation; individual clause appraisal may remain",
+        "verification": "inherited; not independently rechecked"
+      },
+      {
+        "source_id": "S192",
+        "title": "More equitable preconception health: paternal life course opportunities for better pregnancy, child, and family outcomes.",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/41856159/",
+        "doi": "10.1016/S0140-6736(26)00148-0",
+        "pmid": "41856159",
+        "role": "context citation; individual clause appraisal may remain",
+        "verification": "inherited; not independently rechecked"
+      },
+      {
+        "source_id": "S219",
+        "title": "Increased Chance of Live Birth Following Use of Connected Ovulation Test System: Outcome Results from a Randomized Controlled Trial",
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC8812496/",
+        "doi": "10.1089/whr.2021.0102",
+        "pmid": "35136878",
+        "role": "context citation; individual clause appraisal may remain",
+        "verification": "inherited; not independently rechecked"
+      }
+    ],
+    "alt_text_draft": "What should I check before trying? — educational illustration; see adjacent explanation.",
+    "asset_status": "brief only; no image generated or licensed",
+    "clinical_review": false
+  },
+  {
+    "id": "WELL-001",
+    "storyboard": "Show optional shared tasks for meals, rest, appointments and support.",
+    "script": {
+      "format": "optional original narrated micro-explainer, not an existing video",
+      "duration_target_seconds": [
+        15,
+        30
+      ],
+      "narration": "Practical help, rest and appropriate mental-health care matter. Choose a few ways your partner can help.",
+      "closing": "Check the safety note and see the evidence if you want more detail."
+    },
+    "source_links": [
+      {
+        "source_id": "S131",
+        "title": "Urgent Maternal Warning Signs and Symptoms | HEAR HER Campaign | CDC",
+        "url": "https://www.cdc.gov/hearher/maternal-warning-signs/index.html?itid=cb_box_KFOSGTLGLBECXDG2D3EHKHZARA_1",
+        "doi": null,
+        "pmid": null,
+        "role": "context citation; individual clause appraisal may remain",
+        "verification": "selected finding or identity checked"
+      },
+      {
+        "source_id": "S147",
+        "title": "Recommendation: Perinatal Depression: Preventive Interventions | United States Preventive Services Taskforce",
+        "url": "https://www.uspreventiveservicestaskforce.org/uspstf/recommendation/perinatal-depression-preventive-interventions",
+        "doi": null,
+        "pmid": null,
+        "role": "context citation; individual clause appraisal may remain",
+        "verification": "selected finding or identity checked"
+      },
+      {
+        "source_id": "S148",
+        "title": "Evidence Summary: Perinatal Depression: Preventive Interventions | United States Preventive Services Taskforce",
+        "url": "https://www.uspreventiveservicestaskforce.org/uspstf/document/evidence-summary/perinatal-depression-preventive-interventions",
+        "doi": null,
+        "pmid": null,
+        "role": "context citation; individual clause appraisal may remain",
+        "verification": "selected finding or identity checked"
+      },
+      {
+        "source_id": "S149",
+        "title": "The effect of peer support on postpartum depression: a pilot randomized controlled trial",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/12655910/",
+        "doi": "10.1177/070674370304800209",
+        "pmid": "12655910",
+        "role": "context citation; individual clause appraisal may remain",
+        "verification": "inherited; not independently rechecked"
+      },
+      {
+        "source_id": "S150",
+        "title": "Effect of peer support on prevention of postnatal depression among high risk women: multisite randomised controlled trial",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/19147637/",
+        "doi": "10.1136/bmj.a3064",
+        "pmid": "19147637",
+        "role": "context citation; individual clause appraisal may remain",
+        "verification": "inherited; not independently rechecked"
+      },
+      {
+        "source_id": "S173",
+        "title": "ACOG Committee Opinion No. 736: Optimizing Postpartum Care",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/29683911/",
+        "doi": "10.1097/AOG.0000000000002849",
+        "pmid": "29683911",
+        "role": "context citation; individual clause appraisal may remain",
+        "verification": "inherited; not independently rechecked"
+      },
+      {
+        "source_id": "S175",
+        "title": "Implementing Perinatal Mental Health Screening | ACOG",
+        "url": "https://www.acog.org/programs/perinatal-mental-health/implementing-perinatal-mental-health-screening",
+        "doi": null,
+        "pmid": null,
+        "role": "context citation; individual clause appraisal may remain",
+        "verification": "inherited; not independently rechecked"
+      },
+      {
+        "source_id": "S183",
+        "title": "The effectiveness of interventions on improving body image for pregnant and postpartum women: a systematic review of randomized clinical trials",
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC11380436/",
+        "doi": "10.1186/s12884-024-06787-3",
+        "pmid": "39242994",
+        "role": "context citation; individual clause appraisal may remain",
+        "verification": "inherited; not independently rechecked"
+      },
+      {
+        "source_id": "S184",
+        "title": "A systematic review of social and interpersonal factors associated with perinatal body image and eating concerns",
+        "url": "https://doi.org/10.1016/j.bodyim.2025.101998",
+        "doi": "10.1016/j.bodyim.2025.101998",
+        "pmid": "41237450",
+        "role": "context citation; individual clause appraisal may remain",
+        "verification": "inherited; not independently rechecked"
+      },
+      {
+        "source_id": "S185",
+        "title": "Impact of sleep on postpartum health outcomes: a systematic review and meta-analysis",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/40011016/",
+        "doi": "10.1136/bjsports-2024-109604",
+        "pmid": "40011016",
+        "role": "context citation; individual clause appraisal may remain",
+        "verification": "inherited; not independently rechecked"
+      },
+      {
+        "source_id": "S197",
+        "title": "WHO recommendations on maternal and newborn care for a positive postnatal experience",
+        "url": "https://www.who.int/publications/i/item/9789240045989",
+        "doi": null,
+        "pmid": null,
+        "role": "context citation; individual clause appraisal may remain",
+        "verification": "inherited; not independently rechecked"
+      },
+      {
+        "source_id": "S217",
+        "title": "Postpartum psychosis - NHS",
+        "url": "https://www.nhs.uk/mental-health/conditions/post-partum-psychosis/",
+        "doi": null,
+        "pmid": null,
+        "role": "context citation; individual clause appraisal may remain",
+        "verification": "inherited; not independently rechecked"
+      }
+    ],
+    "alt_text_draft": "How can we make recovery easier? — educational illustration; see adjacent explanation.",
+    "asset_status": "brief only; no image generated or licensed",
+    "clinical_review": false
+  },
+  {
+    "id": "DENT-001",
+    "storyboard": "Show gum health and a separate evidence note about pregnancy outcomes.",
+    "script": {
+      "format": "optional original narrated micro-explainer, not an existing video",
+      "duration_target_seconds": [
+        15,
+        30
+      ],
+      "narration": "Dental treatment helps oral health; preventing preterm birth is a separate claim. Keep up ordinary dental care and tell your dentist about pregnancy.",
+      "closing": "Check the safety note and see the evidence if you want more detail."
+    },
+    "source_links": [
+      {
+        "source_id": "S152",
+        "title": "Treatment of periodontal disease and the risk of preterm birth.",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/17079762/",
+        "doi": "10.1056/NEJMoa062249",
+        "pmid": "17079762",
+        "role": "context citation; individual clause appraisal may remain",
+        "verification": "selected finding or identity checked"
+      },
+      {
+        "source_id": "S153",
+        "title": "Treating gum disease to prevent adverse birth outcomes in pregnant women | Cochrane",
+        "url": "https://www.cochrane.org/evidence/CD005297_treating-gum-disease-prevent-adverse-birth-outcomes-pregnant-women",
+        "doi": "10.1002/14651858.CD005297.pub3",
+        "pmid": null,
+        "role": "context citation; individual clause appraisal may remain",
+        "verification": "inherited; not independently rechecked"
+      },
+      {
+        "source_id": "S155",
+        "title": "Treatment of periodontal disease during pregnancy: a randomized controlled trial",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/19935025/",
+        "doi": "10.1097/AOG.0b013e3181c15b40",
+        "pmid": "19935025",
+        "role": "context citation; individual clause appraisal may remain",
+        "verification": "inherited; not independently rechecked"
+      },
+      {
+        "source_id": "S156",
+        "title": "The effects of periodontal treatment on pregnancy outcomes.",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/23631579/",
+        "doi": "10.1902/jop.2013.1340014",
+        "pmid": "23631579",
+        "role": "context citation; individual clause appraisal may remain",
+        "verification": "inherited; not independently rechecked"
+      },
+      {
+        "source_id": "S159",
+        "title": "Pregnancy | American Dental Association",
+        "url": "https://www.ada.org/resources/ada-library/oral-health-topics/pregnancy",
+        "doi": null,
+        "pmid": null,
+        "role": "context citation; individual clause appraisal may remain",
+        "verification": "selected finding or identity checked"
+      },
+      {
+        "source_id": "S160",
+        "title": "Oral Health Care During Pregnancy and Through the Lifespan | ACOG",
+        "url": "https://www.acog.org/clinical/clinical-guidance/committee-opinion/articles/2013/08/oral-health-care-during-pregnancy-and-through-the-lifespan",
+        "doi": null,
+        "pmid": null,
+        "role": "context citation; individual clause appraisal may remain",
+        "verification": "inherited; not independently rechecked"
+      }
+    ],
+    "alt_text_draft": "Does dental care matter? — educational illustration; see adjacent explanation.",
+    "asset_status": "brief only; no image generated or licensed",
+    "clinical_review": false
+  },
+  {
+    "id": "EMERG-001",
+    "storyboard": "Compare intended outcome, evidence and safety; no device settings or procedure demonstrations.",
+    "script": {
+      "format": "optional original narrated micro-explainer, not an existing video",
+      "duration_target_seconds": [
+        15,
+        30
+      ],
+      "narration": "A promising mechanism does not prove clinical benefit or safety. Keep experimental or elective procedures out of routine pregnancy plans.",
+      "closing": "Check the safety note and see the evidence if you want more detail."
+    },
+    "source_links": [
+      {
+        "source_id": "S162",
+        "title": "Cosmetic Dermatology in Pregnancy and Lactation: A Risk–Benefit Framework for Clinical Practice",
+        "url": "https://onlinelibrary.wiley.com/doi/10.1111/ijd.70620",
+        "doi": "10.1111/ijd.70620",
+        "pmid": "42634996",
+        "role": "context citation; individual clause appraisal may remain",
+        "verification": "inherited; not independently rechecked"
+      },
+      {
+        "source_id": "S163",
+        "title": "A review of the safety of cosmetic procedures during pregnancy and lactation",
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC5418954/",
+        "doi": "10.1016/j.ijwd.2017.01.005",
+        "pmid": "28492048",
+        "role": "context citation; individual clause appraisal may remain",
+        "verification": "inherited; not independently rechecked"
+      },
+      {
+        "source_id": "S164",
+        "title": "Dermatologic and Cosmetic Procedures in Pregnancy",
+        "url": "https://doi.org/10.4103/jcas.jcas_226_20",
+        "doi": "10.4103/JCAS.JCAS_226_20",
+        "pmid": "35965909",
+        "role": "context citation; individual clause appraisal may remain",
+        "verification": "inherited; not independently rechecked"
+      },
+      {
+        "source_id": "S165",
+        "title": "Moxibustion for Correction of Breech Presentation: A Randomized Controlled Trial",
+        "url": "https://jamanetwork.com/journals/jama/fullarticle/188144",
+        "doi": "10.1001/jama.280.18.1580",
+        "pmid": "9820259",
+        "role": "context citation; individual clause appraisal may remain",
+        "verification": "inherited; not independently rechecked"
+      },
+      {
+        "source_id": "S166",
+        "title": "Version of breech fetuses by moxibustion with acupuncture: a randomized controlled trial",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/24901279/",
+        "doi": "10.1097/AOG.0000000000000303",
+        "pmid": "24901279",
+        "role": "context citation; individual clause appraisal may remain",
+        "verification": "inherited; not independently rechecked"
+      },
+      {
+        "source_id": "S167",
+        "title": "Moxibustion for turning a baby in breech position | Cochrane",
+        "url": "https://www.cochrane.org/evidence/CD003928_moxibustion-turning-baby-breech-position",
+        "doi": "10.1002/14651858.CD003928.pub4",
+        "pmid": null,
+        "role": "context citation; individual clause appraisal may remain",
+        "verification": "inherited; not independently rechecked"
+      },
+      {
+        "source_id": "S168",
+        "title": "Moxibustion did not have an effect in a randomised clinical trial for version of breech position",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/26836801/",
+        "doi": null,
+        "pmid": "26836801",
+        "role": "context citation; individual clause appraisal may remain",
+        "verification": "inherited; not independently rechecked"
+      },
+      {
+        "source_id": "S186",
+        "title": "TENS (transcutaneous nerve stimulation) for pain relief in labour | Cochrane",
+        "url": "https://www.cochrane.org/evidence/CD007214_tens-transcutaneous-nerve-stimulation-pain-relief-labour",
+        "doi": "10.1002/14651858.CD007214.pub2",
+        "pmid": null,
+        "role": "context citation; individual clause appraisal may remain",
+        "verification": "inherited; not independently rechecked"
+      },
+      {
+        "source_id": "S198",
+        "title": "Potential Risks with Certain Uses of Radiofrequency (RF) Microneedling – FDA Safety Communication | FDA",
+        "url": "https://www.fda.gov/medical-devices/safety-communications/potential-risks-certain-uses-radiofrequency-rf-microneedling-fda-safety-communication",
+        "doi": null,
+        "pmid": null,
+        "role": "context citation; individual clause appraisal may remain",
+        "verification": "selected finding or identity checked"
+      },
+      {
+        "source_id": "S199",
+        "title": "Microneedling Devices | FDA",
+        "url": "https://www.fda.gov/medical-devices/aesthetic-cosmetic-devices/microneedling-devices",
+        "doi": null,
+        "pmid": null,
+        "role": "context citation; individual clause appraisal may remain",
+        "verification": "selected finding or identity checked"
+      },
+      {
+        "source_id": "S210",
+        "title": "Non-Invasive Body Contouring Technologies | FDA",
+        "url": "https://www.fda.gov/medical-devices/aesthetic-cosmetic-devices/non-invasive-body-contouring-technologies",
+        "doi": null,
+        "pmid": null,
+        "role": "context citation; individual clause appraisal may remain",
+        "verification": "inherited; not independently rechecked"
+      }
+    ],
+    "alt_text_draft": "What about newer treatments? — educational illustration; see adjacent explanation.",
+    "asset_status": "brief only; no image generated or licensed",
+    "clinical_review": false
+  }
+]

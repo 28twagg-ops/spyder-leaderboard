@@ -1,0 +1,753 @@
+[
+  {
+    "id": "SKIN-001",
+    "title": "Can creams prevent stretch marks?",
+    "tags": [
+      "stretch marks",
+      "striae",
+      "cream",
+      "cocoa butter",
+      "oil",
+      "moisturizer"
+    ],
+    "claim_ids": [
+      "C-SKIN-001",
+      "C-O001"
+    ],
+    "phase_ids": [],
+    "source_ids": [
+      "S001",
+      "S002",
+      "S004",
+      "S006",
+      "S008",
+      "S009",
+      "S010",
+      "S204",
+      "S206",
+      "S216"
+    ],
+    "media_ids": [],
+    "clinical_review": false
+  },
+  {
+    "id": "SKIN-002",
+    "title": "Is collagen worth it?",
+    "tags": [
+      "collagen",
+      "peptides",
+      "elasticity",
+      "supplement"
+    ],
+    "claim_ids": [
+      "C-SKIN-002"
+    ],
+    "phase_ids": [],
+    "source_ids": [
+      "S011",
+      "S013",
+      "S014",
+      "S015",
+      "S016",
+      "S201"
+    ],
+    "media_ids": [],
+    "clinical_review": false
+  },
+  {
+    "id": "SKIN-003",
+    "title": "Can stretch marks fade?",
+    "tags": [
+      "striae",
+      "laser",
+      "microneedling",
+      "skin texture"
+    ],
+    "claim_ids": [
+      "C-SKIN-003"
+    ],
+    "phase_ids": [
+      "P22"
+    ],
+    "source_ids": [
+      "S018",
+      "S019",
+      "S020",
+      "S024",
+      "S027",
+      "S162",
+      "S198",
+      "S216"
+    ],
+    "media_ids": [],
+    "clinical_review": false
+  },
+  {
+    "id": "ABD-001",
+    "title": "Will my core recover?",
+    "tags": [
+      "diastasis recti",
+      "abdominal separation",
+      "core",
+      "linea alba"
+    ],
+    "claim_ids": [
+      "C-ABD-001",
+      "C-O002",
+      "C-O003"
+    ],
+    "phase_ids": [
+      "P18"
+    ],
+    "source_ids": [
+      "S028",
+      "S030",
+      "S031",
+      "S032",
+      "S033"
+    ],
+    "media_ids": [
+      "M09"
+    ],
+    "clinical_review": false
+  },
+  {
+    "id": "ABD-002",
+    "title": "Do belly binders work?",
+    "tags": [
+      "binder",
+      "belly wrap",
+      "compression",
+      "cesarean"
+    ],
+    "claim_ids": [
+      "C-ABD-002"
+    ],
+    "phase_ids": [
+      "P02",
+      "P20",
+      "P22"
+    ],
+    "source_ids": [
+      "S035",
+      "S036",
+      "S038",
+      "S039",
+      "S041",
+      "S207"
+    ],
+    "media_ids": [],
+    "clinical_review": false
+  },
+  {
+    "id": "BREAST-001",
+    "title": "What changes breast shape?",
+    "tags": [
+      "breast shape",
+      "ptosis",
+      "sagging",
+      "feeding",
+      "bra"
+    ],
+    "claim_ids": [
+      "C-BREAST-001"
+    ],
+    "phase_ids": [
+      "P21"
+    ],
+    "source_ids": [
+      "S044",
+      "S045",
+      "S046",
+      "S202",
+      "S203"
+    ],
+    "media_ids": [],
+    "clinical_review": false
+  },
+  {
+    "id": "FIT-001",
+    "title": "What should I do years ahead?",
+    "tags": [
+      "preconception",
+      "fitness",
+      "strength",
+      "habits"
+    ],
+    "claim_ids": [
+      "C-FIT-001",
+      "C-O004"
+    ],
+    "phase_ids": [
+      "P01"
+    ],
+    "source_ids": [
+      "S049",
+      "S050",
+      "S052",
+      "S055",
+      "S056",
+      "S059"
+    ],
+    "media_ids": [],
+    "clinical_review": false
+  },
+  {
+    "id": "FIT-002",
+    "title": "Can I exercise while pregnant?",
+    "tags": [
+      "prenatal exercise",
+      "walking",
+      "resistance",
+      "activity"
+    ],
+    "claim_ids": [
+      "C-FIT-002",
+      "C-O005"
+    ],
+    "phase_ids": [
+      "P10"
+    ],
+    "source_ids": [
+      "S057",
+      "S058",
+      "S059",
+      "S062",
+      "S187",
+      "S188"
+    ],
+    "media_ids": [
+      "M03",
+      "M04",
+      "M06",
+      "M16"
+    ],
+    "clinical_review": false
+  },
+  {
+    "id": "FIT-003",
+    "title": "When can I exercise again?",
+    "tags": [
+      "postpartum exercise",
+      "running",
+      "lifting",
+      "recovery"
+    ],
+    "claim_ids": [
+      "C-FIT-003"
+    ],
+    "phase_ids": [
+      "P15",
+      "P16",
+      "P17",
+      "P18"
+    ],
+    "source_ids": [
+      "S064",
+      "S066",
+      "S067",
+      "S068",
+      "S173",
+      "S196",
+      "S211",
+      "S218",
+      "S221"
+    ],
+    "media_ids": [
+      "M03",
+      "M06",
+      "M07",
+      "M09",
+      "M15"
+    ],
+    "clinical_review": false
+  },
+  {
+    "id": "PELV-001",
+    "title": "Should I train my pelvic floor?",
+    "tags": [
+      "pelvic floor",
+      "kegel",
+      "incontinence",
+      "prolapse",
+      "pain"
+    ],
+    "claim_ids": [
+      "C-PELV-001",
+      "C-O006",
+      "C-O007",
+      "C-O008"
+    ],
+    "phase_ids": [
+      "P10",
+      "P15",
+      "P16",
+      "P18",
+      "P20",
+      "P22"
+    ],
+    "source_ids": [
+      "S069",
+      "S070",
+      "S071",
+      "S072",
+      "S193",
+      "S194",
+      "S200"
+    ],
+    "media_ids": [
+      "M01",
+      "M02",
+      "M04",
+      "M06",
+      "M07",
+      "M09",
+      "M15"
+    ],
+    "clinical_review": false
+  },
+  {
+    "id": "BIRTH-001",
+    "title": "Can I prepare for birth?",
+    "tags": [
+      "birth",
+      "perineal massage",
+      "tear",
+      "labor",
+      "doula"
+    ],
+    "claim_ids": [
+      "C-BIRTH-001",
+      "C-O009",
+      "C-O028",
+      "C-O029"
+    ],
+    "phase_ids": [
+      "P11",
+      "P12"
+    ],
+    "source_ids": [
+      "S074",
+      "S077",
+      "S079",
+      "S080",
+      "S169",
+      "S170",
+      "S181",
+      "S182"
+    ],
+    "media_ids": [
+      "M04",
+      "M05",
+      "M08",
+      "M15",
+      "M16",
+      "M17"
+    ],
+    "clinical_review": false
+  },
+  {
+    "id": "NUTR-001",
+    "title": "What nutrients matter most?",
+    "tags": [
+      "nutrition",
+      "folate",
+      "iron",
+      "prenatal",
+      "vitamins"
+    ],
+    "claim_ids": [
+      "C-NUTR-001",
+      "C-O010",
+      "C-O011",
+      "C-O012",
+      "C-O013",
+      "C-O014"
+    ],
+    "phase_ids": [
+      "P05",
+      "P06",
+      "P07",
+      "P09"
+    ],
+    "source_ids": [
+      "S082",
+      "S083",
+      "S085",
+      "S086",
+      "S087",
+      "S088",
+      "S089",
+      "S090",
+      "S092",
+      "S093",
+      "S176",
+      "S177",
+      "S178",
+      "S179",
+      "S195",
+      "S214",
+      "S215",
+      "S222",
+      "S223",
+      "S224"
+    ],
+    "media_ids": [
+      "M10",
+      "M11",
+      "M12"
+    ],
+    "clinical_review": false
+  },
+  {
+    "id": "NUTR-002",
+    "title": "Are natural supplements safe?",
+    "tags": [
+      "ginger",
+      "probiotics",
+      "creatine",
+      "herbal",
+      "supplements"
+    ],
+    "claim_ids": [
+      "C-NUTR-002",
+      "C-O015",
+      "C-O016",
+      "C-O017",
+      "C-O018"
+    ],
+    "phase_ids": [
+      "P09"
+    ],
+    "source_ids": [
+      "S086",
+      "S094",
+      "S095",
+      "S096",
+      "S098",
+      "S099",
+      "S100",
+      "S102",
+      "S131",
+      "S190",
+      "S201"
+    ],
+    "media_ids": [],
+    "clinical_review": false
+  },
+  {
+    "id": "FACE-001",
+    "title": "How can I protect my skin?",
+    "tags": [
+      "melasma",
+      "acne",
+      "sunscreen",
+      "retinoid",
+      "pigmentation"
+    ],
+    "claim_ids": [
+      "C-FACE-001",
+      "C-O019",
+      "C-O030"
+    ],
+    "phase_ids": [
+      "P05"
+    ],
+    "source_ids": [
+      "S104",
+      "S105",
+      "S106",
+      "S107",
+      "S108",
+      "S109",
+      "S204",
+      "S212"
+    ],
+    "media_ids": [],
+    "clinical_review": false
+  },
+  {
+    "id": "HAIR-001",
+    "title": "Will my hair grow back?",
+    "tags": [
+      "hair loss",
+      "shedding",
+      "telogen effluvium"
+    ],
+    "claim_ids": [
+      "C-HAIR-001"
+    ],
+    "phase_ids": [
+      "P17",
+      "P19"
+    ],
+    "source_ids": [
+      "S110",
+      "S111",
+      "S112",
+      "S114",
+      "S115",
+      "S117",
+      "S205"
+    ],
+    "media_ids": [],
+    "clinical_review": false
+  },
+  {
+    "id": "SCAR-001",
+    "title": "When can I care for scars?",
+    "tags": [
+      "scar",
+      "silicone",
+      "wound",
+      "cesarean",
+      "perineum"
+    ],
+    "claim_ids": [
+      "C-SCAR-001",
+      "C-O020"
+    ],
+    "phase_ids": [
+      "P13",
+      "P14",
+      "P19"
+    ],
+    "source_ids": [
+      "S118",
+      "S119",
+      "S121",
+      "S123",
+      "S124",
+      "S125",
+      "S126",
+      "S131",
+      "S189",
+      "S208"
+    ],
+    "media_ids": [
+      "M07",
+      "M08",
+      "M09"
+    ],
+    "clinical_review": false
+  },
+  {
+    "id": "VEIN-001",
+    "title": "Are swollen legs normal?",
+    "tags": [
+      "swelling",
+      "edema",
+      "varicose",
+      "compression",
+      "clot"
+    ],
+    "claim_ids": [
+      "C-VEIN-001"
+    ],
+    "phase_ids": [
+      "P13",
+      "P14",
+      "P21"
+    ],
+    "source_ids": [
+      "S127",
+      "S128",
+      "S129",
+      "S130",
+      "S131",
+      "S132",
+      "S133",
+      "S209"
+    ],
+    "media_ids": [
+      "M13",
+      "M14"
+    ],
+    "clinical_review": false
+  },
+  {
+    "id": "MSK-001",
+    "title": "What about back and hip pain?",
+    "tags": [
+      "back pain",
+      "hip pain",
+      "pelvic girdle",
+      "physiotherapy"
+    ],
+    "claim_ids": [
+      "C-MSK-001"
+    ],
+    "phase_ids": [
+      "P10"
+    ],
+    "source_ids": [
+      "S134",
+      "S135",
+      "S136",
+      "S137",
+      "S139",
+      "S140",
+      "S213",
+      "S220"
+    ],
+    "media_ids": [
+      "M04",
+      "M07",
+      "M16"
+    ],
+    "clinical_review": false
+  },
+  {
+    "id": "REPRO-001",
+    "title": "What should I check before trying?",
+    "tags": [
+      "fertility",
+      "medication",
+      "vaccination",
+      "preconception"
+    ],
+    "claim_ids": [
+      "C-REPRO-001",
+      "C-O031"
+    ],
+    "phase_ids": [
+      "P01",
+      "P02",
+      "P03",
+      "P04",
+      "P05",
+      "P07",
+      "P08",
+      "P09",
+      "P20",
+      "P21"
+    ],
+    "source_ids": [
+      "S142",
+      "S144",
+      "S145",
+      "S146",
+      "S171",
+      "S172",
+      "S180",
+      "S191",
+      "S192",
+      "S219"
+    ],
+    "media_ids": [
+      "M11",
+      "M13",
+      "M14"
+    ],
+    "clinical_review": false
+  },
+  {
+    "id": "WELL-001",
+    "title": "How can we make recovery easier?",
+    "tags": [
+      "sleep",
+      "depression",
+      "partner",
+      "stress",
+      "support"
+    ],
+    "claim_ids": [
+      "C-WELL-001",
+      "C-O021"
+    ],
+    "phase_ids": [
+      "P11",
+      "P13",
+      "P14",
+      "P15",
+      "P16",
+      "P17",
+      "P19"
+    ],
+    "source_ids": [
+      "S131",
+      "S147",
+      "S148",
+      "S149",
+      "S150",
+      "S173",
+      "S175",
+      "S183",
+      "S184",
+      "S185",
+      "S197",
+      "S217"
+    ],
+    "media_ids": [
+      "M13",
+      "M14"
+    ],
+    "clinical_review": false
+  },
+  {
+    "id": "DENT-001",
+    "title": "Does dental care matter?",
+    "tags": [
+      "dental",
+      "gum",
+      "periodontal",
+      "teeth"
+    ],
+    "claim_ids": [
+      "C-DENT-001",
+      "C-O022",
+      "C-O023"
+    ],
+    "phase_ids": [
+      "P01"
+    ],
+    "source_ids": [
+      "S152",
+      "S153",
+      "S155",
+      "S156",
+      "S159",
+      "S160"
+    ],
+    "media_ids": [],
+    "clinical_review": false
+  },
+  {
+    "id": "EMERG-001",
+    "title": "What about newer treatments?",
+    "tags": [
+      "radiofrequency",
+      "laser",
+      "PRP",
+      "acupuncture",
+      "experimental"
+    ],
+    "claim_ids": [
+      "C-EMERG-001",
+      "C-O024",
+      "C-O025",
+      "C-O026",
+      "C-O027"
+    ],
+    "phase_ids": [
+      "P11"
+    ],
+    "source_ids": [
+      "S162",
+      "S163",
+      "S164",
+      "S165",
+      "S166",
+      "S167",
+      "S168",
+      "S186",
+      "S198",
+      "S199",
+      "S210"
+    ],
+    "media_ids": [
+      "M17"
+    ],
+    "clinical_review": false
+  }
+]

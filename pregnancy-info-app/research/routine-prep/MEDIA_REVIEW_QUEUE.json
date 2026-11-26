@@ -1,0 +1,240 @@
+[
+  {
+    "id": "M01",
+    "title": "Pelvic floor exercises",
+    "url": "https://www.youtube.com/watch?v=JFJtUtKQCuM",
+    "link_check": "Title verified on YouTube; playback not audited",
+    "checks_remaining": [
+      "playback",
+      "clinical accuracy",
+      "captions",
+      "license or embedding permission",
+      "duration"
+    ],
+    "publish": false
+  },
+  {
+    "id": "M02",
+    "title": "Prenatal physiotherapy: pelvic floor exercise",
+    "url": "https://www.youtube.com/watch?v=APCdcePoMik",
+    "link_check": "Fetch failed; title/publisher not reverified; keep unavailable candidate",
+    "checks_remaining": [
+      "playback",
+      "clinical accuracy",
+      "captions",
+      "license or embedding permission",
+      "duration"
+    ],
+    "publish": false
+  },
+  {
+    "id": "M03",
+    "title": "Prenatal and postnatal yoga",
+    "url": "https://www.nhs.uk/live-well/exercise/pilates-and-yoga/prenatal-and-postnatal-exercise/",
+    "link_check": "NHS page verified; publisher lists 45-minute video, reviewed 13 May 2025",
+    "checks_remaining": [
+      "playback",
+      "clinical accuracy",
+      "captions",
+      "license or embedding permission",
+      "duration"
+    ],
+    "publish": false
+  },
+  {
+    "id": "M04",
+    "title": "Maternity physiotherapy advice videos",
+    "url": "https://www.uhbristol.nhs.uk/patients-and-visitors/your-hospitals/st-michaels-hospital/what-we-do/physiotherapy/advice-videos/",
+    "link_check": "Hospital advice videos page loaded; individual playback not checked",
+    "checks_remaining": [
+      "playback",
+      "clinical accuracy",
+      "captions",
+      "license or embedding permission",
+      "duration"
+    ],
+    "publish": false
+  },
+  {
+    "id": "M05",
+    "title": "Antenatal perineal massage",
+    "url": "https://www.leedsth.nhs.uk/patients/resources/antenatal-perineal-massage/",
+    "link_check": "Hospital antenatal perineal massage page loaded; video presence/playback not independently confirmed",
+    "checks_remaining": [
+      "playback",
+      "clinical accuracy",
+      "captions",
+      "license or embedding permission",
+      "duration"
+    ],
+    "publish": false
+  },
+  {
+    "id": "M06",
+    "title": "Pelvic health video series",
+    "url": "https://thepogp.co.uk/pelvic_health_videos_-_english.aspx",
+    "link_check": "POGP video collection page loaded; individual playback not checked",
+    "checks_remaining": [
+      "playback",
+      "clinical accuracy",
+      "captions",
+      "license or embedding permission",
+      "duration"
+    ],
+    "publish": false
+  },
+  {
+    "id": "M07",
+    "title": "Supporting your body through pregnancy and after birth",
+    "url": "https://www.selondonics.org/supporting-your-body-through-pregnancy-and-after-birth/",
+    "link_check": "ICS short video collection page loaded; individual playback not checked",
+    "checks_remaining": [
+      "playback",
+      "clinical accuracy",
+      "captions",
+      "license or embedding permission",
+      "duration"
+    ],
+    "publish": false
+  },
+  {
+    "id": "M08",
+    "title": "Preparing for and recovering from cesarean birth and scar massage",
+    "url": "https://www.nwlondonicb.nhs.uk/your-health-services/pregnancy-and-maternity-services/preparing-caesarean-birth-and-after",
+    "link_check": "ICS cesarean recovery page loaded; individual playback not checked",
+    "checks_remaining": [
+      "playback",
+      "clinical accuracy",
+      "captions",
+      "license or embedding permission",
+      "duration"
+    ],
+    "publish": false
+  },
+  {
+    "id": "M09",
+    "title": "Postnatal physiotherapy",
+    "url": "https://www.leedsth.nhs.uk/services/physiotherapy-2/pelvic-health-physiotherapy/urogynaecology-physiotherapy/postnatal/",
+    "link_check": "Hospital postnatal physiotherapy page loaded; individual playback not checked",
+    "checks_remaining": [
+      "playback",
+      "clinical accuracy",
+      "captions",
+      "license or embedding permission",
+      "duration"
+    ],
+    "publish": false
+  },
+  {
+    "id": "M10",
+    "title": "Pregnancy nutrition Q&A",
+    "url": "https://www.youtube.com/watch?v=pozcaggYIWk",
+    "link_check": "Fetch failed; title/publisher not reverified; keep unavailable candidate",
+    "checks_remaining": [
+      "playback",
+      "clinical accuracy",
+      "captions",
+      "license or embedding permission",
+      "duration"
+    ],
+    "publish": false
+  },
+  {
+    "id": "M11",
+    "title": "Decoding folic acid labels",
+    "url": "https://www.cdc.gov/folic-acid/php/toolkit/decoding-labels.html",
+    "link_check": "CDC video toolkit page loaded; duration not supplied",
+    "checks_remaining": [
+      "playback",
+      "clinical accuracy",
+      "captions",
+      "license or embedding permission",
+      "duration"
+    ],
+    "publish": false
+  },
+  {
+    "id": "M12",
+    "title": "Nutrition and pregnancy video series",
+    "url": "https://myhealth.alberta.ca/Alberta/Pages/nutrition-pregnancy-video-series.aspx",
+    "link_check": "Alberta video collection page loaded; individual playback not checked",
+    "checks_remaining": [
+      "playback",
+      "clinical accuracy",
+      "captions",
+      "license or embedding permission",
+      "duration"
+    ],
+    "publish": false
+  },
+  {
+    "id": "M13",
+    "title": "Hear Her personal stories",
+    "url": "https://www.cdc.gov/hearher/personal-stories/index.html",
+    "link_check": "CDC personal story collection page loaded; individual playback not checked",
+    "checks_remaining": [
+      "playback",
+      "clinical accuracy",
+      "captions",
+      "license or embedding permission",
+      "duration"
+    ],
+    "publish": false
+  },
+  {
+    "id": "M14",
+    "title": "Maternal warning signs video",
+    "url": "https://maternalwarningsigns.org/",
+    "link_check": "Maternal warning signs page loaded; individual playback not checked",
+    "checks_remaining": [
+      "playback",
+      "clinical accuracy",
+      "captions",
+      "license or embedding permission",
+      "duration"
+    ],
+    "publish": false
+  },
+  {
+    "id": "M15",
+    "title": "Pelvic health videos in British Sign Language",
+    "url": "https://signhealth.org.uk/videotags/pregnancy/",
+    "link_check": "SignHealth pregnancy resource collection loaded; individual playback not checked",
+    "checks_remaining": [
+      "playback",
+      "clinical accuracy",
+      "captions",
+      "license or embedding permission",
+      "duration"
+    ],
+    "publish": false
+  },
+  {
+    "id": "M16",
+    "title": "Maternity physiotherapy",
+    "url": "https://www.nuh.nhs.uk/physiotherapy-maternity",
+    "link_check": "Hospital maternity physiotherapy page loaded; individual playback not checked",
+    "checks_remaining": [
+      "playback",
+      "clinical accuracy",
+      "captions",
+      "license or embedding permission",
+      "duration"
+    ],
+    "publish": false
+  },
+  {
+    "id": "M17",
+    "title": "Evidence Based Birth podcast",
+    "url": "https://evidencebasedbirth.com/evidence-based-birth-podcast/",
+    "link_check": "Evidence Based Birth podcast collection loaded; episode claims not audited",
+    "checks_remaining": [
+      "playback",
+      "clinical accuracy",
+      "captions",
+      "license or embedding permission",
+      "duration"
+    ],
+    "publish": false
+  }
+]

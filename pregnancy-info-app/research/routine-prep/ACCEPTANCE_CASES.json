@@ -1,0 +1,92 @@
+[
+  {
+    "id": "QA-1",
+    "expected": "Every quick field opens its own sources",
+    "status": "acceptance specification; not executed against app"
+  },
+  {
+    "id": "QA-2",
+    "expected": "Unknown funding is not shown as independent",
+    "status": "acceptance specification; not executed against app"
+  },
+  {
+    "id": "QA-3",
+    "expected": "Research draft cannot become clinical recommendation automatically",
+    "status": "acceptance specification; not executed against app"
+  },
+  {
+    "id": "QA-4",
+    "expected": "Changing conception date preserves relative chronology",
+    "status": "acceptance specification; not executed against app"
+  },
+  {
+    "id": "QA-5",
+    "expected": "Timeline phase does not imply medical eligibility",
+    "status": "acceptance specification; not executed against app"
+  },
+  {
+    "id": "QA-6",
+    "expected": "Urgent safety note remains visible when details collapse",
+    "status": "acceptance specification; not executed against app"
+  },
+  {
+    "id": "QA-7",
+    "expected": "Ratio chart uses log scale and null 1",
+    "status": "acceptance specification; not executed against app"
+  },
+  {
+    "id": "QA-8",
+    "expected": "Mean difference chart uses null 0",
+    "status": "acceptance specification; not executed against app"
+  },
+  {
+    "id": "QA-9",
+    "expected": "Overlapping reviews not counted as independent trials",
+    "status": "acceptance specification; not executed against app"
+  },
+  {
+    "id": "QA-10",
+    "expected": "Unavailable video is not promoted",
+    "status": "acceptance specification; not executed against app"
+  },
+  {
+    "id": "QA-11",
+    "expected": "Video IDs preserve query strings",
+    "status": "acceptance specification; not executed against app"
+  },
+  {
+    "id": "QA-12",
+    "expected": "No private health data in repository",
+    "status": "acceptance specification; not executed against app"
+  },
+  {
+    "id": "QA-13",
+    "expected": "Feeding choice never penalized for appearance",
+    "status": "acceptance specification; not executed against app"
+  },
+  {
+    "id": "QA-14",
+    "expected": "Search aliases return matching topics",
+    "status": "acceptance specification; not executed against app"
+  },
+  {
+    "id": "QA-15",
+    "expected": "Keyboard navigation and screen reader labels",
+    "status": "acceptance specification; not executed against app"
+  },
+  {
+    "id": "QA-16",
+    "expected": "Reduced motion preference respected",
+    "status": "acceptance specification; not executed against app"
+  },
+  {
+    "id": "QA-17",
+    "expected": "Missing data displayed as unknown",
+    "status": "acceptance specification; not executed against app"
+  },
+  {
+    "id": "QA-18",
+    "expected": "Legacy leaderboard unchanged",
+    "status": "acceptance specification; not executed against app"
+  }
+]

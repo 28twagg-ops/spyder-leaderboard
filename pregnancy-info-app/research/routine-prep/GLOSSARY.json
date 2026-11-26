@@ -1,0 +1,271 @@
+[
+  {
+    "term": "Striae gravidarum",
+    "definition": "Pregnancy-associated stretch marks.",
+    "topic_id": "SKIN-001",
+    "context_source_ids": [
+      "S001",
+      "S002",
+      "S004",
+      "S006",
+      "S008",
+      "S009",
+      "S010",
+      "S204",
+      "S206",
+      "S216"
+    ],
+    "status": "editorial definition draft; direct definition citation pending"
+  },
+  {
+    "term": "Diastasis recti",
+    "definition": "Widening of the connective tissue between the rectus abdominal muscles.",
+    "topic_id": "ABD-001",
+    "context_source_ids": [
+      "S028",
+      "S030",
+      "S031",
+      "S032",
+      "S033"
+    ],
+    "status": "editorial definition draft; direct definition citation pending"
+  },
+  {
+    "term": "Linea alba",
+    "definition": "Midline connective tissue joining the abdominal muscle sheaths.",
+    "topic_id": "ABD-001",
+    "context_source_ids": [
+      "S028",
+      "S030",
+      "S031",
+      "S032",
+      "S033"
+    ],
+    "status": "editorial definition draft; direct definition citation pending"
+  },
+  {
+    "term": "Ptosis",
+    "definition": "Drooping of breast tissue.",
+    "topic_id": "BREAST-001",
+    "context_source_ids": [
+      "S044",
+      "S045",
+      "S046",
+      "S202",
+      "S203"
+    ],
+    "status": "editorial definition draft; direct definition citation pending"
+  },
+  {
+    "term": "Pelvic floor",
+    "definition": "Muscles and connective tissues supporting pelvic organs.",
+    "topic_id": "PELV-001",
+    "context_source_ids": [
+      "S069",
+      "S070",
+      "S071",
+      "S072",
+      "S193",
+      "S194",
+      "S200"
+    ],
+    "status": "editorial definition draft; direct definition citation pending"
+  },
+  {
+    "term": "Urinary incontinence",
+    "definition": "Involuntary leakage of urine.",
+    "topic_id": "PELV-001",
+    "context_source_ids": [
+      "S069",
+      "S070",
+      "S071",
+      "S072",
+      "S193",
+      "S194",
+      "S200"
+    ],
+    "status": "editorial definition draft; direct definition citation pending"
+  },
+  {
+    "term": "Perineum",
+    "definition": "Area between the vaginal opening and anus in this context.",
+    "topic_id": "BIRTH-001",
+    "context_source_ids": [
+      "S074",
+      "S077",
+      "S079",
+      "S080",
+      "S169",
+      "S170",
+      "S181",
+      "S182"
+    ],
+    "status": "editorial definition draft; direct definition citation pending"
+  },
+  {
+    "term": "Melasma",
+    "definition": "Acquired patches of increased skin pigmentation.",
+    "topic_id": "FACE-001",
+    "context_source_ids": [
+      "S104",
+      "S105",
+      "S106",
+      "S107",
+      "S108",
+      "S109",
+      "S204",
+      "S212"
+    ],
+    "status": "editorial definition draft; direct definition citation pending"
+  },
+  {
+    "term": "Telogen effluvium",
+    "definition": "Diffuse hair shedding associated with changes in the hair growth cycle.",
+    "topic_id": "HAIR-001",
+    "context_source_ids": [
+      "S110",
+      "S111",
+      "S112",
+      "S114",
+      "S115",
+      "S117",
+      "S205"
+    ],
+    "status": "editorial definition draft; direct definition citation pending"
+  },
+  {
+    "term": "Edema",
+    "definition": "Swelling caused by fluid accumulation in tissues.",
+    "topic_id": "VEIN-001",
+    "context_source_ids": [
+      "S127",
+      "S128",
+      "S129",
+      "S130",
+      "S131",
+      "S132",
+      "S133",
+      "S209"
+    ],
+    "status": "editorial definition draft; direct definition citation pending"
+  },
+  {
+    "term": "Pelvic girdle pain",
+    "definition": "Pain involving the joints and region of the pelvis.",
+    "topic_id": "MSK-001",
+    "context_source_ids": [
+      "S134",
+      "S135",
+      "S136",
+      "S137",
+      "S139",
+      "S140",
+      "S213",
+      "S220"
+    ],
+    "status": "editorial definition draft; direct definition citation pending"
+  },
+  {
+    "term": "Preeclampsia",
+    "definition": "Pregnancy-associated hypertensive disorder that can involve organ dysfunction.",
+    "topic_id": "NUTR-002",
+    "context_source_ids": [
+      "S086",
+      "S094",
+      "S095",
+      "S096",
+      "S098",
+      "S099",
+      "S100",
+      "S102",
+      "S131",
+      "S190",
+      "S201"
+    ],
+    "status": "editorial definition draft; direct definition citation pending"
+  },
+  {
+    "term": "Neural tube defect",
+    "definition": "Developmental defect involving the embryonic neural tube.",
+    "topic_id": "NUTR-001",
+    "context_source_ids": [
+      "S082",
+      "S083",
+      "S085",
+      "S086",
+      "S087",
+      "S088",
+      "S089",
+      "S090",
+      "S092",
+      "S093",
+      "S176",
+      "S177",
+      "S178",
+      "S179",
+      "S195",
+      "S214",
+      "S215",
+      "S222",
+      "S223",
+      "S224"
+    ],
+    "status": "editorial definition draft; direct definition citation pending"
+  },
+  {
+    "term": "Periodontitis",
+    "definition": "Inflammatory disease affecting the supporting tissues of teeth.",
+    "topic_id": "DENT-001",
+    "context_source_ids": [
+      "S152",
+      "S153",
+      "S155",
+      "S156",
+      "S159",
+      "S160"
+    ],
+    "status": "editorial definition draft; direct definition citation pending"
+  },
+  {
+    "term": "Randomized controlled trial",
+    "definition": "Study assigning participants to interventions by chance.",
+    "topic_id": null,
+    "context_source_ids": [],
+    "status": "editorial definition draft; direct definition citation pending"
+  },
+  {
+    "term": "Confidence interval",
+    "definition": "Interval calculated by a statistical procedure with specified long-run coverage.",
+    "topic_id": null,
+    "context_source_ids": [],
+    "status": "editorial definition draft; direct definition citation pending"
+  },
+  {
+    "term": "Relative risk",
+    "definition": "Ratio of outcome risks between groups.",
+    "topic_id": null,
+    "context_source_ids": [],
+    "status": "editorial definition draft; direct definition citation pending"
+  },
+  {
+    "term": "Mean difference",
+    "definition": "Difference between group means.",
+    "topic_id": null,
+    "context_source_ids": [],
+    "status": "editorial definition draft; direct definition citation pending"
+  },
+  {
+    "term": "Confounding",
+    "definition": "Distortion of an association by other factors.",
+    "topic_id": null,
+    "context_source_ids": [],
+    "status": "editorial definition draft; direct definition citation pending"
+  },
+  {
+    "term": "Conflict of interest",
+    "definition": "Interest that could influence professional judgment.",
+    "topic_id": null,
+    "context_source_ids": [],
+    "status": "editorial definition draft; direct definition citation pending"
+  }
+]
