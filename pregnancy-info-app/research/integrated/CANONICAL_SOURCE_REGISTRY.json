@@ -13334,5 +13334,137 @@
         "record": "IA-E1"
       }
     ]
+  },
+  {
+    "id": "RP001",
+    "title": "Dual Topical Therapy. The Future of Stretch Marks?",
+    "url": "https://onlinelibrary.wiley.com/doi/full/10.1002/jvc2.70234",
+    "topics": [
+      "SKIN-001",
+      "SKIN-003",
+      "FACE-001"
+    ],
+    "source_host": "onlinelibrary.wiley.com",
+    "kind": "clinical research/guidance",
+    "accessed": "2026-11-26",
+    "clinical_review": false,
+    "current_pass_status": "selected source passage checked; research only",
+    "correction_retraction_status": "independent registry check pending",
+    "doi": "10.1002/jvc2.70234",
+    "publication_year": 2026,
+    "publication_details": "Online 2025-11-19; issue 2026",
+    "checked_locator": "Abstract, Conclusion, Table 1, Conflicts of Interest",
+    "conflicts": "Authors declare none",
+    "verification_scope": "Safety conflict documented; not endorsed for clinical use",
+    "status": "QUARANTINE: unsafe pregnancy recommendation; research context only",
+    "used_by": [
+      {
+        "kind": "release_preparation",
+        "record": "RP-C01"
+      }
+    ]
+  },
+  {
+    "id": "RP002",
+    "title": "iPLEDGE Risk Evaluation and Mitigation Strategy (REMS)",
+    "url": "https://www.fda.gov/drugs/postmarket-drug-safety-information-patients-and-providers/ipledge-risk-evaluation-and-mitigation-strategy-rems",
+    "topics": [
+      "FACE-001",
+      "REPRO-001"
+    ],
+    "source_host": "www.fda.gov",
+    "kind": "FDA regulatory guidance",
+    "accessed": "2026-11-26",
+    "clinical_review": false,
+    "current_pass_status": "selected source passage checked; research only",
+    "correction_retraction_status": "independent registry check pending",
+    "publication_details": "Implementation November 15, 2026",
+    "checked_locator": "iPLEDGE modifications implemented; patient and prescriber information",
+    "verification_scope": "US-specific oral isotretinoin rules; no relaxation of pregnancy avoidance",
+    "used_by": [
+      {
+        "kind": "release_preparation",
+        "record": "RP-C02"
+      }
+    ]
+  },
+  {
+    "id": "RP003",
+    "title": "Effect of Aromatherapy Oil Applications on Striae Gravidarum: A Systematic Review",
+    "url": "https://onlinelibrary.wiley.com/doi/full/10.1111/srt.70354",
+    "topics": [
+      "SKIN-001"
+    ],
+    "source_host": "onlinelibrary.wiley.com",
+    "kind": "clinical research/guidance",
+    "accessed": "2026-11-26",
+    "clinical_review": false,
+    "current_pass_status": "selected source passage checked; research only",
+    "correction_retraction_status": "independent registry check pending",
+    "doi": "10.1111/srt.70354",
+    "pmid": "41988841",
+    "publication_year": 2026,
+    "checked_locator": "Abstract, trial summaries, Conclusion, Funding and Conflicts",
+    "funding": "Authors have nothing to report",
+    "conflicts": "Authors declare none",
+    "registry": "CRD42025630586",
+    "used_by": [
+      {
+        "kind": "release_preparation",
+        "record": "RP-C03"
+      }
+    ]
+  },
+  {
+    "id": "RP004",
+    "title": "The Effect of Topical Virgin Coconut Oil on Striae Gravidarum Prevention and Severity: A Randomized Controlled Trial",
+    "url": "https://doi.org/10.37275/ehi.v5i3.124",
+    "topics": [
+      "SKIN-001"
+    ],
+    "source_host": "doi.org",
+    "kind": "clinical research/guidance",
+    "accessed": "2026-11-26",
+    "clinical_review": false,
+    "current_pass_status": "selected source passage checked; research only",
+    "correction_retraction_status": "independent registry check pending",
+    "doi": "10.37275/ehi.v5i3.124",
+    "publication_year": 2024,
+    "checked_locator": "Original publisher abstract",
+    "verification_scope": "Randomization reported; allocation, denominators, exact interval, funding and harms ascertainment not fully appraised",
+    "used_by": [
+      {
+        "kind": "release_preparation",
+        "record": "RP-C03"
+      }
+    ]
+  },
+  {
+    "id": "RP005",
+    "title": "Topical retinoids and risk of major congenital malformations and spontaneous abortion: a systematic review and meta-analysis",
+    "url": "https://www.frontiersin.org/journals/drug-safety-and-regulation/articles/10.3389/fdsfr.2026.1864872/full",
+    "topics": [
+      "FACE-001",
+      "SKIN-003"
+    ],
+    "source_host": "www.frontiersin.org",
+    "kind": "clinical research/guidance",
+    "accessed": "2026-11-26",
+    "clinical_review": false,
+    "current_pass_status": "selected source passage checked; research only",
+    "correction_retraction_status": "independent registry check pending",
+    "doi": "10.3389/fdsfr.2026.1864872",
+    "pmid": "42564875",
+    "publication_year": 2026,
+    "checked_locator": "Results narrative, Tables 2–3, Funding and Conflicts",
+    "funding": "Authors declare no financial support",
+    "conflicts": "Authors declare no commercial/financial relationship",
+    "status": "Numerical inconsistency; hold charts; no change to pregnancy avoidance",
+    "used_by": [
+      {
+        "kind": "release_preparation",
+        "record": "RP-C04"
+      }
+    ]
   }
 ]
