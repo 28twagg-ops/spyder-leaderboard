@@ -1,0 +1,283 @@
+[
+  {
+    "id": "SKIN-001",
+    "related": [
+      {
+        "id": "SKIN-003",
+        "shared_source_ids": [
+          "S216"
+        ]
+      },
+      {
+        "id": "FACE-001",
+        "shared_source_ids": [
+          "S204"
+        ]
+      }
+    ],
+    "rule": "shared references only; not clinical equivalence"
+  },
+  {
+    "id": "SKIN-002",
+    "related": [
+      {
+        "id": "NUTR-002",
+        "shared_source_ids": [
+          "S201"
+        ]
+      }
+    ],
+    "rule": "shared references only; not clinical equivalence"
+  },
+  {
+    "id": "SKIN-003",
+    "related": [
+      {
+        "id": "EMERG-001",
+        "shared_source_ids": [
+          "S162",
+          "S198"
+        ]
+      },
+      {
+        "id": "SKIN-001",
+        "shared_source_ids": [
+          "S216"
+        ]
+      }
+    ],
+    "rule": "shared references only; not clinical equivalence"
+  },
+  {
+    "id": "ABD-001",
+    "related": [],
+    "rule": "shared references only; not clinical equivalence"
+  },
+  {
+    "id": "ABD-002",
+    "related": [],
+    "rule": "shared references only; not clinical equivalence"
+  },
+  {
+    "id": "BREAST-001",
+    "related": [],
+    "rule": "shared references only; not clinical equivalence"
+  },
+  {
+    "id": "FIT-001",
+    "related": [
+      {
+        "id": "FIT-002",
+        "shared_source_ids": [
+          "S059"
+        ]
+      }
+    ],
+    "rule": "shared references only; not clinical equivalence"
+  },
+  {
+    "id": "FIT-002",
+    "related": [
+      {
+        "id": "FIT-001",
+        "shared_source_ids": [
+          "S059"
+        ]
+      }
+    ],
+    "rule": "shared references only; not clinical equivalence"
+  },
+  {
+    "id": "FIT-003",
+    "related": [
+      {
+        "id": "WELL-001",
+        "shared_source_ids": [
+          "S173"
+        ]
+      }
+    ],
+    "rule": "shared references only; not clinical equivalence"
+  },
+  {
+    "id": "PELV-001",
+    "related": [],
+    "rule": "shared references only; not clinical equivalence"
+  },
+  {
+    "id": "BIRTH-001",
+    "related": [],
+    "rule": "shared references only; not clinical equivalence"
+  },
+  {
+    "id": "NUTR-001",
+    "related": [
+      {
+        "id": "NUTR-002",
+        "shared_source_ids": [
+          "S086"
+        ]
+      }
+    ],
+    "rule": "shared references only; not clinical equivalence"
+  },
+  {
+    "id": "NUTR-002",
+    "related": [
+      {
+        "id": "SKIN-002",
+        "shared_source_ids": [
+          "S201"
+        ]
+      },
+      {
+        "id": "NUTR-001",
+        "shared_source_ids": [
+          "S086"
+        ]
+      },
+      {
+        "id": "SCAR-001",
+        "shared_source_ids": [
+          "S131"
+        ]
+      },
+      {
+        "id": "VEIN-001",
+        "shared_source_ids": [
+          "S131"
+        ]
+      },
+      {
+        "id": "WELL-001",
+        "shared_source_ids": [
+          "S131"
+        ]
+      }
+    ],
+    "rule": "shared references only; not clinical equivalence"
+  },
+  {
+    "id": "FACE-001",
+    "related": [
+      {
+        "id": "SKIN-001",
+        "shared_source_ids": [
+          "S204"
+        ]
+      }
+    ],
+    "rule": "shared references only; not clinical equivalence"
+  },
+  {
+    "id": "HAIR-001",
+    "related": [],
+    "rule": "shared references only; not clinical equivalence"
+  },
+  {
+    "id": "SCAR-001",
+    "related": [
+      {
+        "id": "NUTR-002",
+        "shared_source_ids": [
+          "S131"
+        ]
+      },
+      {
+        "id": "VEIN-001",
+        "shared_source_ids": [
+          "S131"
+        ]
+      },
+      {
+        "id": "WELL-001",
+        "shared_source_ids": [
+          "S131"
+        ]
+      }
+    ],
+    "rule": "shared references only; not clinical equivalence"
+  },
+  {
+    "id": "VEIN-001",
+    "related": [
+      {
+        "id": "NUTR-002",
+        "shared_source_ids": [
+          "S131"
+        ]
+      },
+      {
+        "id": "SCAR-001",
+        "shared_source_ids": [
+          "S131"
+        ]
+      },
+      {
+        "id": "WELL-001",
+        "shared_source_ids": [
+          "S131"
+        ]
+      }
+    ],
+    "rule": "shared references only; not clinical equivalence"
+  },
+  {
+    "id": "MSK-001",
+    "related": [],
+    "rule": "shared references only; not clinical equivalence"
+  },
+  {
+    "id": "REPRO-001",
+    "related": [],
+    "rule": "shared references only; not clinical equivalence"
+  },
+  {
+    "id": "WELL-001",
+    "related": [
+      {
+        "id": "FIT-003",
+        "shared_source_ids": [
+          "S173"
+        ]
+      },
+      {
+        "id": "NUTR-002",
+        "shared_source_ids": [
+          "S131"
+        ]
+      },
+      {
+        "id": "SCAR-001",
+        "shared_source_ids": [
+          "S131"
+        ]
+      },
+      {
+        "id": "VEIN-001",
+        "shared_source_ids": [
+          "S131"
+        ]
+      }
+    ],
+    "rule": "shared references only; not clinical equivalence"
+  },
+  {
+    "id": "DENT-001",
+    "related": [],
+    "rule": "shared references only; not clinical equivalence"
+  },
+  {
+    "id": "EMERG-001",
+    "related": [
+      {
+        "id": "SKIN-003",
+        "shared_source_ids": [
+          "S162",
+          "S198"
+        ]
+      }
+    ],
+    "rule": "shared references only; not clinical equivalence"
+  }
+]

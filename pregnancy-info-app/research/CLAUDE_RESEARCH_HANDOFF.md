@@ -34,3 +34,6 @@ Use integrated/README.md and the integrated JSON files rather than manually join
 
 ## Final import entrypoint
 Begin with research/integrated/README.md. This layer connects all 22 topics and the 66 quick-view fields to stable source IDs, original URLs, selected evidence checks, linked charts and media statuses. Read INTEGRATION_QA.json, and run validate_import.py locally. Do not repeat basic citation joins. Preserve the review gates and unresolved scientific limitations; design and architecture remain yours.
+
+## Routine preparation pass
+Read routine-prep/README.md for derived search, FAQ, phase content, visual briefs, glossary, review queues, appointment questions, related-topic links and acceptance specifications. Use as import aids, not a replacement for canonical integrated records. No new medical verification is implied.

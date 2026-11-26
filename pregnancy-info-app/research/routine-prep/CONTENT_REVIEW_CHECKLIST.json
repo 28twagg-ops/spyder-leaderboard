@@ -1,0 +1,57 @@
+[
+  {
+    "id": "CR-1",
+    "task": "Confirm source identity",
+    "completed": false
+  },
+  {
+    "id": "CR-2",
+    "task": "Check direct support for each clause",
+    "completed": false
+  },
+  {
+    "id": "CR-3",
+    "task": "Check population and phase",
+    "completed": false
+  },
+  {
+    "id": "CR-4",
+    "task": "Check outcome and comparator",
+    "completed": false
+  },
+  {
+    "id": "CR-5",
+    "task": "Check dose and duration if applicable",
+    "completed": false
+  },
+  {
+    "id": "CR-6",
+    "task": "Check adverse events and contraindications",
+    "completed": false
+  },
+  {
+    "id": "CR-7",
+    "task": "Record funding and conflicts without guessing",
+    "completed": false
+  },
+  {
+    "id": "CR-8",
+    "task": "Check overlapping cohorts",
+    "completed": false
+  },
+  {
+    "id": "CR-9",
+    "task": "Confirm plain language preserves uncertainty",
+    "completed": false
+  },
+  {
+    "id": "CR-10",
+    "task": "Keep safety visible",
+    "completed": false
+  },
+  {
+    "id": "CR-11",
+    "task": "Confirm clinician review before medical publication",
+    "completed": false
+  }
+]

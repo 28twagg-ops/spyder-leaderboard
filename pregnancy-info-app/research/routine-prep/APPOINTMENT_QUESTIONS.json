@@ -1,0 +1,453 @@
+[
+  {
+    "topic_id": "SKIN-001",
+    "question": "Can creams prevent stretch marks?",
+    "followup_questions": [
+      "Does the evidence apply to my current stage and circumstances?",
+      "What benefits, risks and alternatives should I consider?",
+      "What symptoms would require assessment?"
+    ],
+    "source_ids": [
+      "S001",
+      "S002",
+      "S004",
+      "S006",
+      "S008",
+      "S009",
+      "S010",
+      "S204",
+      "S206",
+      "S216"
+    ],
+    "status": "conversation prompts, not clinical advice"
+  },
+  {
+    "topic_id": "SKIN-002",
+    "question": "Is collagen worth it?",
+    "followup_questions": [
+      "Does the evidence apply to my current stage and circumstances?",
+      "What benefits, risks and alternatives should I consider?",
+      "What symptoms would require assessment?"
+    ],
+    "source_ids": [
+      "S011",
+      "S013",
+      "S014",
+      "S015",
+      "S016",
+      "S201"
+    ],
+    "status": "conversation prompts, not clinical advice"
+  },
+  {
+    "topic_id": "SKIN-003",
+    "question": "Can stretch marks fade?",
+    "followup_questions": [
+      "Does the evidence apply to my current stage and circumstances?",
+      "What benefits, risks and alternatives should I consider?",
+      "What symptoms would require assessment?"
+    ],
+    "source_ids": [
+      "S018",
+      "S019",
+      "S020",
+      "S024",
+      "S027",
+      "S162",
+      "S198",
+      "S216"
+    ],
+    "status": "conversation prompts, not clinical advice"
+  },
+  {
+    "topic_id": "ABD-001",
+    "question": "Will my core recover?",
+    "followup_questions": [
+      "Does the evidence apply to my current stage and circumstances?",
+      "What benefits, risks and alternatives should I consider?",
+      "What symptoms would require assessment?"
+    ],
+    "source_ids": [
+      "S028",
+      "S030",
+      "S031",
+      "S032",
+      "S033"
+    ],
+    "status": "conversation prompts, not clinical advice"
+  },
+  {
+    "topic_id": "ABD-002",
+    "question": "Do belly binders work?",
+    "followup_questions": [
+      "Does the evidence apply to my current stage and circumstances?",
+      "What benefits, risks and alternatives should I consider?",
+      "What symptoms would require assessment?"
+    ],
+    "source_ids": [
+      "S035",
+      "S036",
+      "S038",
+      "S039",
+      "S041",
+      "S207"
+    ],
+    "status": "conversation prompts, not clinical advice"
+  },
+  {
+    "topic_id": "BREAST-001",
+    "question": "What changes breast shape?",
+    "followup_questions": [
+      "Does the evidence apply to my current stage and circumstances?",
+      "What benefits, risks and alternatives should I consider?",
+      "What symptoms would require assessment?"
+    ],
+    "source_ids": [
+      "S044",
+      "S045",
+      "S046",
+      "S202",
+      "S203"
+    ],
+    "status": "conversation prompts, not clinical advice"
+  },
+  {
+    "topic_id": "FIT-001",
+    "question": "What should I do years ahead?",
+    "followup_questions": [
+      "Does the evidence apply to my current stage and circumstances?",
+      "What benefits, risks and alternatives should I consider?",
+      "What symptoms would require assessment?"
+    ],
+    "source_ids": [
+      "S049",
+      "S050",
+      "S052",
+      "S055",
+      "S056",
+      "S059"
+    ],
+    "status": "conversation prompts, not clinical advice"
+  },
+  {
+    "topic_id": "FIT-002",
+    "question": "Can I exercise while pregnant?",
+    "followup_questions": [
+      "Does the evidence apply to my current stage and circumstances?",
+      "What benefits, risks and alternatives should I consider?",
+      "What symptoms would require assessment?"
+    ],
+    "source_ids": [
+      "S057",
+      "S058",
+      "S059",
+      "S062",
+      "S187",
+      "S188"
+    ],
+    "status": "conversation prompts, not clinical advice"
+  },
+  {
+    "topic_id": "FIT-003",
+    "question": "When can I exercise again?",
+    "followup_questions": [
+      "Does the evidence apply to my current stage and circumstances?",
+      "What benefits, risks and alternatives should I consider?",
+      "What symptoms would require assessment?"
+    ],
+    "source_ids": [
+      "S064",
+      "S066",
+      "S067",
+      "S068",
+      "S173",
+      "S196",
+      "S211",
+      "S218",
+      "S221"
+    ],
+    "status": "conversation prompts, not clinical advice"
+  },
+  {
+    "topic_id": "PELV-001",
+    "question": "Should I train my pelvic floor?",
+    "followup_questions": [
+      "Does the evidence apply to my current stage and circumstances?",
+      "What benefits, risks and alternatives should I consider?",
+      "What symptoms would require assessment?"
+    ],
+    "source_ids": [
+      "S069",
+      "S070",
+      "S071",
+      "S072",
+      "S193",
+      "S194",
+      "S200"
+    ],
+    "status": "conversation prompts, not clinical advice"
+  },
+  {
+    "topic_id": "BIRTH-001",
+    "question": "Can I prepare for birth?",
+    "followup_questions": [
+      "Does the evidence apply to my current stage and circumstances?",
+      "What benefits, risks and alternatives should I consider?",
+      "What symptoms would require assessment?"
+    ],
+    "source_ids": [
+      "S074",
+      "S077",
+      "S079",
+      "S080",
+      "S169",
+      "S170",
+      "S181",
+      "S182"
+    ],
+    "status": "conversation prompts, not clinical advice"
+  },
+  {
+    "topic_id": "NUTR-001",
+    "question": "What nutrients matter most?",
+    "followup_questions": [
+      "Does the evidence apply to my current stage and circumstances?",
+      "What benefits, risks and alternatives should I consider?",
+      "What symptoms would require assessment?"
+    ],
+    "source_ids": [
+      "S082",
+      "S083",
+      "S085",
+      "S086",
+      "S087",
+      "S088",
+      "S089",
+      "S090",
+      "S092",
+      "S093",
+      "S176",
+      "S177",
+      "S178",
+      "S179",
+      "S195",
+      "S214",
+      "S215",
+      "S222",
+      "S223",
+      "S224"
+    ],
+    "status": "conversation prompts, not clinical advice"
+  },
+  {
+    "topic_id": "NUTR-002",
+    "question": "Are natural supplements safe?",
+    "followup_questions": [
+      "Does the evidence apply to my current stage and circumstances?",
+      "What benefits, risks and alternatives should I consider?",
+      "What symptoms would require assessment?"
+    ],
+    "source_ids": [
+      "S086",
+      "S094",
+      "S095",
+      "S096",
+      "S098",
+      "S099",
+      "S100",
+      "S102",
+      "S131",
+      "S190",
+      "S201"
+    ],
+    "status": "conversation prompts, not clinical advice"
+  },
+  {
+    "topic_id": "FACE-001",
+    "question": "How can I protect my skin?",
+    "followup_questions": [
+      "Does the evidence apply to my current stage and circumstances?",
+      "What benefits, risks and alternatives should I consider?",
+      "What symptoms would require assessment?"
+    ],
+    "source_ids": [
+      "S104",
+      "S105",
+      "S106",
+      "S107",
+      "S108",
+      "S109",
+      "S204",
+      "S212"
+    ],
+    "status": "conversation prompts, not clinical advice"
+  },
+  {
+    "topic_id": "HAIR-001",
+    "question": "Will my hair grow back?",
+    "followup_questions": [
+      "Does the evidence apply to my current stage and circumstances?",
+      "What benefits, risks and alternatives should I consider?",
+      "What symptoms would require assessment?"
+    ],
+    "source_ids": [
+      "S110",
+      "S111",
+      "S112",
+      "S114",
+      "S115",
+      "S117",
+      "S205"
+    ],
+    "status": "conversation prompts, not clinical advice"
+  },
+  {
+    "topic_id": "SCAR-001",
+    "question": "When can I care for scars?",
+    "followup_questions": [
+      "Does the evidence apply to my current stage and circumstances?",
+      "What benefits, risks and alternatives should I consider?",
+      "What symptoms would require assessment?"
+    ],
+    "source_ids": [
+      "S118",
+      "S119",
+      "S121",
+      "S123",
+      "S124",
+      "S125",
+      "S126",
+      "S131",
+      "S189",
+      "S208"
+    ],
+    "status": "conversation prompts, not clinical advice"
+  },
+  {
+    "topic_id": "VEIN-001",
+    "question": "Are swollen legs normal?",
+    "followup_questions": [
+      "Does the evidence apply to my current stage and circumstances?",
+      "What benefits, risks and alternatives should I consider?",
+      "What symptoms would require assessment?"
+    ],
+    "source_ids": [
+      "S127",
+      "S128",
+      "S129",
+      "S130",
+      "S131",
+      "S132",
+      "S133",
+      "S209"
+    ],
+    "status": "conversation prompts, not clinical advice"
+  },
+  {
+    "topic_id": "MSK-001",
+    "question": "What about back and hip pain?",
+    "followup_questions": [
+      "Does the evidence apply to my current stage and circumstances?",
+      "What benefits, risks and alternatives should I consider?",
+      "What symptoms would require assessment?"
+    ],
+    "source_ids": [
+      "S134",
+      "S135",
+      "S136",
+      "S137",
+      "S139",
+      "S140",
+      "S213",
+      "S220"
+    ],
+    "status": "conversation prompts, not clinical advice"
+  },
+  {
+    "topic_id": "REPRO-001",
+    "question": "What should I check before trying?",
+    "followup_questions": [
+      "Does the evidence apply to my current stage and circumstances?",
+      "What benefits, risks and alternatives should I consider?",
+      "What symptoms would require assessment?"
+    ],
+    "source_ids": [
+      "S142",
+      "S144",
+      "S145",
+      "S146",
+      "S171",
+      "S172",
+      "S180",
+      "S191",
+      "S192",
+      "S219"
+    ],
+    "status": "conversation prompts, not clinical advice"
+  },
+  {
+    "topic_id": "WELL-001",
+    "question": "How can we make recovery easier?",
+    "followup_questions": [
+      "Does the evidence apply to my current stage and circumstances?",
+      "What benefits, risks and alternatives should I consider?",
+      "What symptoms would require assessment?"
+    ],
+    "source_ids": [
+      "S131",
+      "S147",
+      "S148",
+      "S149",
+      "S150",
+      "S173",
+      "S175",
+      "S183",
+      "S184",
+      "S185",
+      "S197",
+      "S217"
+    ],
+    "status": "conversation prompts, not clinical advice"
+  },
+  {
+    "topic_id": "DENT-001",
+    "question": "Does dental care matter?",
+    "followup_questions": [
+      "Does the evidence apply to my current stage and circumstances?",
+      "What benefits, risks and alternatives should I consider?",
+      "What symptoms would require assessment?"
+    ],
+    "source_ids": [
+      "S152",
+      "S153",
+      "S155",
+      "S156",
+      "S159",
+      "S160"
+    ],
+    "status": "conversation prompts, not clinical advice"
+  },
+  {
+    "topic_id": "EMERG-001",
+    "question": "What about newer treatments?",
+    "followup_questions": [
+      "Does the evidence apply to my current stage and circumstances?",
+      "What benefits, risks and alternatives should I consider?",
+      "What symptoms would require assessment?"
+    ],
+    "source_ids": [
+      "S162",
+      "S163",
+      "S164",
+      "S165",
+      "S166",
+      "S167",
+      "S168",
+      "S186",
+      "S198",
+      "S199",
+      "S210"
+    ],
+    "status": "conversation prompts, not clinical advice"
+  }
+]
