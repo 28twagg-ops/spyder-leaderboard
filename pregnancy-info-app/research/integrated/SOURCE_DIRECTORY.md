@@ -384,3 +384,11 @@
 - IA009 — [The Postpartum Playbook with Margie Davenport. EP#576](https://bjsmbmj.podbean.com/e/the-postpartum-playbook-with-margie-davenport-ep576/) — educational audio candidate; clinical review pending.
 
 Current registry: 377 mixed resources. S064/N305 refer to the same guideline; IA006/IA007 are one trial cohort.
+
+## Release-preparation additions (2026-11-26)
+- RP001 — [Dual Topical Therapy](https://doi.org/10.1002/jvc2.70234), safety-conflicting recommendation quarantined.
+- RP002 — [FDA iPLEDGE REMS](https://www.fda.gov/drugs/postmarket-drug-safety-information-patients-and-providers/ipledge-risk-evaluation-and-mitigation-strategy-rems), November 2026 implementation.
+- RP003 — [Aromatherapy oil systematic review](https://doi.org/10.1111/srt.70354).
+- RP004 — [Virgin coconut oil trial](https://doi.org/10.37275/ehi.v5i3.124), abstract-level extraction only.
+- RP005 — [Topical retinoids meta-analysis](https://doi.org/10.3389/fdsfr.2026.1864872), numerical inconsistency; charts on hold.
+Current registry: 382 mixed records; clinical and comprehensive publication-status review pending.
