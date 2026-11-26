@@ -46,3 +46,5 @@ See [routine-prep](routine-prep/README.md) for derived content and review queues
 
 ## External model audits
 [Grok reconciliation](external-audits/grok/README.md) — existing source expansions, new research-only lead and media candidates.
+
+[Independent scientific audit reconciliation](external-audits/independent/RECONCILIATION.json) — safety qualifications, choline cohort, FAZST trial, postpartum guideline and DRA statistics, audio candidate.
