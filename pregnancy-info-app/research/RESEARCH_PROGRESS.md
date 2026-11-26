@@ -46,3 +46,6 @@ All 66 quick-view fields have selected source links; source/resource registry no
 
 ## Grok reconciliation
 Five existing research publications expanded/clarified, four new resource records, six interval records and one analyzed trial-arm record. Two new institutional media candidates and one alias. Current canonical registry 368 mixed records; previous QA counts are historical. No clinical review.
+
+## Independent scientific audit reconciliation
+Seven findings reconciled against actual registry and selected original sources; nine new mixed resources, eight candidate interval records, three research-only intervention candidates and one audio candidate in external-audits/independent/RECONCILIATION.json. Current registry 377 mixed records (not unique studies); baseline intervention and nutrition counts unchanged. No clinical review or comprehensive retraction screening.
