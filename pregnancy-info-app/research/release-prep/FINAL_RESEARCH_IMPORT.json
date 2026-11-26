@@ -3992,6 +3992,19 @@
       "clinical_review": false,
       "auto_schedule": false,
       "release_status": "research-only; not a recommendation"
+    },
+    {
+      "id": "RP-IC01",
+      "name": "Virgin coconut oil for prevention of pregnancy striae",
+      "topic_id": "SKIN-001",
+      "sources": [
+        "RP003",
+        "RP004"
+      ],
+      "origin": "release-prep/LATEST_SAFETY_AND_EVIDENCE_CHECKS.json",
+      "clinical_review": false,
+      "auto_schedule": false,
+      "release_status": "research only; preliminary formulation-specific evidence; not a recommendation"
     }
   ],
   "media_candidates": [
@@ -4526,12 +4539,12 @@
   },
   "counts": {
     "source_records": 382,
-    "candidate_interventions": 9,
+    "candidate_interventions": 10,
     "interval_records": 91,
     "count_records": 7,
     "media_candidates": 20,
-    "safety_scenarios": 64,
-    "safety_prompt_variants": 192,
+    "safety_scenarios": 68,
+    "safety_prompt_variants": 204,
     "topics": 22,
     "baseline_interventions": 101,
     "expanded_nutrient_reference_rows": 65,
@@ -4540,7 +4553,11 @@
     "release_safety_checks": 5,
     "visual_production_specs": 8,
     "release_acceptance_requirements": 14,
-    "product_examples_deduplicated": 9
+    "product_examples_deduplicated": 9,
+    "latest_targeted_checks": 5,
+    "product_label_snapshots": 5,
+    "visual_briefs": 12,
+    "original_editable_svg_assets": 4
   },
   "qa": {
     "missing_source_refs": [],
@@ -4565,7 +4582,14 @@
       "scope": "Selected structural validation; no clinical review, runtime execution, full publication-status audit or full product testing",
       "repaired_nested_count_source": "GA-ARM-T009 retains S009 primary report and S001 denominator source; no numeric changes",
       "count_rows_valid": true
-    }
+    },
+    "source_link_scope": "Recursive source_id/source_ids/evidence_source_ids and string-array sources checks on final import, safety, latest, product, visual, baseline expanded nutrients/interventions/topics/studies. Other repository files not exhaustively checked.",
+    "source_registry_count": 382,
+    "tested_at": "2026-11-26",
+    "hold_source_ids": [
+      "RP001",
+      "RP005"
+    ]
   },
   "import_policy": "Do not load original chart interval files plus consolidated intervals again. Prefer expanded nutrient table for its covered scope; retain legacy as context only. Unknown/different units, indication, timepoints, sources, population or uncertainty are not interchangeable. No patient data. Clinical review and app-level tests required before medical release. Release-safety audit RP-C01–05 controls over older claims wherever scope overlaps; quarantine RP001 and hold RP005 numerical charts. Product comparisons use family alias mapping; visual specifications are drafts.",
   "product_catalog_reconciliation": {
@@ -4590,5 +4614,19 @@
       "PR-005"
     ],
     "rule": "Three duplicate product families; do not duplicate catalog cards. Retain both time-stamped price observations if package/merchant differs; never infer same SKU without matching pack and label. Product IDs are not clinical source IDs. Seven plus five minus three = nine product/category examples."
-  }
+  },
+  "latest_checks_path": "release-prep/LATEST_SAFETY_AND_EVIDENCE_CHECKS.json",
+  "product_label_research_path": "release-prep/PRODUCT_LABEL_RESEARCH.json",
+  "visual_spec_path": "release-prep/VISUAL_EDUCATION_SPEC.json",
+  "visual_assets": [
+    "release-prep/visual-assets/skin-layers-concept.svg",
+    "release-prep/visual-assets/dra-gap-vs-strength.svg",
+    "release-prep/visual-assets/male-fertility-trial.svg",
+    "release-prep/visual-assets/total-intake-concept.svg"
+  ],
+  "hold_source_ids": [
+    "RP001",
+    "RP005"
+  ],
+  "hold_rule": "RP001 contains an unsafe pregnancy recommendation. RP005 has text/table discrepancies. Neither may drive automated advice or chart publication; retain evidence context."
 }
