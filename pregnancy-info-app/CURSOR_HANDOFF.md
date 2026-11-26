@@ -23,3 +23,6 @@ The latest research snapshot contains 382 mixed source/resource records, 22 topi
 - Do not publish or deploy, introduce external health-data services, or create recurring monitoring without explicit authorization. Independent clinical review, live application testing and finished clinical visual review remain pending.
 
 Claude owns the architectural and design decisions; this handoff defines outcomes and safeguards, not an imposed technology stack.
+
+## Current platform and visual checkpoint · 2026-11-26
+**iPhone-first and Home Screen launch are mandatory**, with responsive iPad, Android and desktop/browser access. Read [PLATFORM_REQUIREMENTS.md](PLATFORM_REQUIREMENTS.md) for install, offline, accessibility and test acceptance. The user liked the [optional Everwell design concept](design/OPTIONAL_CONCEPT.md); Claude retains full architectural and visual freedom. No app, physical-device test, deployment, cloud sync or clinical approval has yet been completed or authorized. Read [TRANSFER.md](TRANSFER.md) for staged Gemini findings and preserve all safety holds. Canonical research counts and derived exports remain unchanged; manifest/export freshness issue remains open.

@@ -75,3 +75,6 @@ See [START_HERE.md](../START_HERE.md) and [research transfer](transfer/README.md
 
 ## Additional targeted research — 2026-11-26
 Read [deep-research/README.md](deep-research/README.md) and [TARGETED_GAP_AUDIT.json](deep-research/TARGETED_GAP_AUDIT.json) before promoting fertility or calcium findings. Retraction dependency chain DR021–025 requires quarantine. This overlay contains 33 provisional source records and 10 candidate intervals; no canonical import or export count change. Existing clinical review gates and open gaps remain. Gemini complementary prompt is stored beside it.
+
+## Current platform and visual checkpoint · 2026-11-26
+**iPhone-first and Home Screen launch are mandatory**, with responsive iPad, Android and desktop/browser access. Read [PLATFORM_REQUIREMENTS.md](../PLATFORM_REQUIREMENTS.md) for install, offline, accessibility and test acceptance. The user liked the [optional Everwell design concept](../design/OPTIONAL_CONCEPT.md); Claude retains full architectural and visual freedom. No app, physical-device test, deployment, cloud sync or clinical approval has yet been completed or authorized. Read [TRANSFER.md](../TRANSFER.md) for staged Gemini findings and preserve all safety holds. Canonical research counts and derived exports remain unchanged; manifest/export freshness issue remains open.

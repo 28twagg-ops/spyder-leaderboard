@@ -1,4 +1,4 @@
-# Project status — initial transfer
+# Project status — research handoff; implementation pending
 
 Completed: initial project brief, Claude/agent roles, UX direction, timeline and topic scope, research/evidence/safety/privacy standards, conceptual schema, starter research backlog and handoff template.
 
@@ -14,3 +14,6 @@ The initial transfer description above records the state before the research ass
 
 ## Current standalone transfer (2026-11-26)
 Read [START_HERE.md](START_HERE.md) for verified counts and next actions. The research foundation and 25 derived portable export files are committed; the actual app stack/build/runtime tests, clinical review and final assets remain open. Monitoring paused at user request. Historical initial status is not current research inventory.
+
+## Current platform and visual checkpoint · 2026-11-26
+**iPhone-first and Home Screen launch are mandatory**, with responsive iPad, Android and desktop/browser access. Read [PLATFORM_REQUIREMENTS.md](PLATFORM_REQUIREMENTS.md) for install, offline, accessibility and test acceptance. The user liked the [optional Everwell design concept](design/OPTIONAL_CONCEPT.md); Claude retains full architectural and visual freedom. No app, physical-device test, deployment, cloud sync or clinical approval has yet been completed or authorized. Read [TRANSFER.md](TRANSFER.md) for staged Gemini findings and preserve all safety holds. Canonical research counts and derived exports remain unchanged; manifest/export freshness issue remains open.

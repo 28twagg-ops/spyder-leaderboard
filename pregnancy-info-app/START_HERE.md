@@ -1,6 +1,6 @@
 # START HERE — standalone transfer for any new chat or research agent
 
-**Latest cross-chat checkpoint:** [TRANSFER.md](TRANSFER.md) includes the most recent targeted audit, safety holds and next research task.
+**Latest cross-chat checkpoint:** [TRANSFER.md](TRANSFER.md) includes the staged Gemini reconciliation, safety holds, and new iPhone/Home Screen requirements.
 
 **Developing in Cursor with Claude?** Start with [CURSOR_HANDOFF.md](CURSOR_HANDOFF.md), the standalone implementation assignment.
 
@@ -55,3 +55,6 @@ Continue the Pregnancy Info App project from https://github.com/28twagg-ops/spyd
 
 ## New targeted scientific audit (after the release snapshot)
 See [research/deep-research/README.md](research/deep-research/README.md) for staged results and the complementary Gemini prompt. Critical male-fertility retraction dependency and new calcium IPD review; do not promote affected numerical estimates. Canonical snapshot counts are unchanged until reconciliation.
+
+## Current platform and visual checkpoint · 2026-11-26
+**iPhone-first and Home Screen launch are mandatory**, with responsive iPad, Android and desktop/browser access. Read [PLATFORM_REQUIREMENTS.md](PLATFORM_REQUIREMENTS.md) for install, offline, accessibility and test acceptance. The user liked the [optional Everwell design concept](design/OPTIONAL_CONCEPT.md); Claude retains full architectural and visual freedom. No app, physical-device test, deployment, cloud sync or clinical approval has yet been completed or authorized. Read [TRANSFER.md](TRANSFER.md) for staged Gemini findings and preserve all safety holds. Canonical research counts and derived exports remain unchanged; manifest/export freshness issue remains open.

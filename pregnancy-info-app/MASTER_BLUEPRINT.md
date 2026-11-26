@@ -35,3 +35,6 @@ Claude determines the stack after inspecting environment (TypeScript/React/Next.
 
 ## Definition of initial completion
 Working skeleton; responsive navigation; timeline; quick/expanded views; source-backed reference content; data model; reusable scientific visualization; source registry and validation; design system; research and implementation backlogs; privacy/security and medical review workflow; tested representative routes; actual tailored handoff prompt. No claim of complete research library at this stage.
+
+## Current platform and visual checkpoint · 2026-11-26
+**iPhone-first and Home Screen launch are mandatory**, with responsive iPad, Android and desktop/browser access. Read [PLATFORM_REQUIREMENTS.md](PLATFORM_REQUIREMENTS.md) for install, offline, accessibility and test acceptance. The user liked the [optional Everwell design concept](design/OPTIONAL_CONCEPT.md); Claude retains full architectural and visual freedom. No app, physical-device test, deployment, cloud sync or clinical approval has yet been completed or authorized. Read [TRANSFER.md](TRANSFER.md) for staged Gemini findings and preserve all safety holds. Canonical research counts and derived exports remain unchanged; manifest/export freshness issue remains open.

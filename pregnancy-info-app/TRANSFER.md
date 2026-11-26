@@ -36,7 +36,7 @@ The staged audit was committed in `0c44dac7a82c53101195a9df7822399c89b61c13`. Do
 4. [Open research gaps](research/RESEARCH_GAPS.md), [detailed gap status](research/high-audit/GAP_STATUS.json) and [remaining trial review](research/continuation/REMAINING_REVIEW.md).
 5. [Canonical source registry](research/integrated/CANONICAL_SOURCE_REGISTRY.json), [research index](research/RESEARCH_INDEX.md), [research handoff](research/CLAUDE_RESEARCH_HANDOFF.md) and [portable exports](research/transfer/README.md).
 
-## Next task: Gemini reconciliation
+## Research continuation: Gemini reconciliation (staged; additional verification pending)
 
 Status: User supplied Gemini report on 2026-11-26; selected independent checks and crosswalk are saved in [Gemini reconciliation](research/external-audits/gemini/README.md). Eight candidate records and ten numerical candidates remain staged; the supplied report did not include its announced JSON registry. No canonical records, counts or exports changed. Preserve all earlier holds and the new GE-H01–08 safety constraints; do not treat candidates as independent trials or reviewed clinical advice.
 
@@ -56,3 +56,6 @@ Continue Pregnancy Info App from https://github.com/28twagg-ops/spyder-leaderboa
 
 ## Gemini reconciliation update
 Read [structured audit](research/external-audits/gemini/RECONCILIATION.json) before importing clinical content. Priority: ADORE secondary cohort and Bayesian intervals, 2026 vitamin D dose-regimen review, correct postpartum depression/anxiety outcomes, folic acid guidance, medication-specific safety. The older export manifest/import blob mismatch remains unresolved; regenerate and validate exports on next canonical change. No clinical review or app tests performed.
+
+## Current platform and visual checkpoint · 2026-11-26
+**iPhone-first and Home Screen launch are mandatory**, with responsive iPad, Android and desktop/browser access. Read [PLATFORM_REQUIREMENTS.md](PLATFORM_REQUIREMENTS.md) for install, offline, accessibility and test acceptance. The user liked the [optional Everwell design concept](design/OPTIONAL_CONCEPT.md); Claude retains full architectural and visual freedom. No app, physical-device test, deployment, cloud sync or clinical approval has yet been completed or authorized. Read [TRANSFER.md](TRANSFER.md) for staged Gemini findings and preserve all safety holds. Canonical research counts and derived exports remain unchanged; manifest/export freshness issue remains open.
