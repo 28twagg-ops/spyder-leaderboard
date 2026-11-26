@@ -54,3 +54,7 @@ Read `high-audit/README.md`, `high-audit/EVIDENCE_REPORT.md`, `high-audit/INTERV
 ## Independent model audit: Grok
 
 Read `external-audits/grok/README.md` and linked JSON files. Reuse S030/R016/S001/S009/S006 rather than create duplicates. Six new interval records and one analyzed-arm extraction are separate research overlays; do not pool with overlapping reviews. G001/G002 support research-only Centella discussion and safety context; G003/G004 are media candidates. Existing M06 playlist alias is not a new independent series. No auto recommendation, media approval or clinical clearance.
+
+## Primary-report audit — 26 November 2026
+
+Read [PRIMARY_EVIDENCE_AUDIT.json](primary-audit/PRIMARY_EVIDENCE_AUDIT.json) before rendering collagen comparisons. Five targeted checks preserve the same canonical source IDs. PA-002 documents a specific inconsistency between CL02 Table 1/reference 11 and S015: the exact primary trial reports a randomized maltodextrin placebo group. This does not settle data extractability or validate the other review results. Keep the discrepancy visible pending supplementary-code review. The primary trial excludes pregnancy and breastfeeding, measures forearm skin rather than striae, and has shared placebo and incomplete arm-level variance data. Do not turn adult elasticity estimates into pregnancy prevention advice. PA-005 leaves the HUMBA safety endpoint and unpublished-data question open. No new clinical review or systematic retraction clearance. Registry count remains 368 mixed records.
