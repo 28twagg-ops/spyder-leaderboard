@@ -1,0 +1,26 @@
+{
+  "date": "2026-11-26",
+  "baseline": "ec168c849d666a53986ff448baec67f6d53c0d86",
+  "inventory": {
+    "canonical_mixed_records": 382,
+    "canonical_funding_field_nonempty": 28,
+    "canonical_conflicts_field_nonempty": 12,
+    "pediatric_study_reports": 18,
+    "pediatric_funding_field_nonempty": 9,
+    "pediatric_conflicts_field_nonempty": 2,
+    "pediatric_adverse_events_field_nonempty": 5,
+    "note": "Nonempty fields can explicitly say unknown or partial. Mixed source denominator includes guidelines and nonstudies; not a verified funding completion rate."
+  },
+  "source_candidates": 13,
+  "visual_candidates": 9,
+  "unique_source_ids": 13,
+  "unique_visual_ids": 9,
+  "explicit_retraction_exclusions": 3,
+  "release_holds": 2,
+  "dependent_holds": 3,
+  "gemini_constraints": 8,
+  "checks": "JSON object construction and ID uniqueness; selected primary/indexed source passages reviewed. Full validators not run.",
+  "clinical_review": 0,
+  "canonical_changed": false,
+  "next_stage": "2; user approval required"
+}

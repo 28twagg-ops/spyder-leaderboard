@@ -1,0 +1,133 @@
+{
+  "version": 1,
+  "date": "2026-11-26",
+  "baseline_commit": "ec168c849d666a53986ff448baec67f6d53c0d86",
+  "default": "research only; no clinical publication or automation without qualified review",
+  "scope": "Additive index, not replacement for original safety records; most restrictive applicable rule wins.",
+  "explicit_source_exclusions": [
+    {
+      "id": "DR023",
+      "reason": "retracted trial; provenance only"
+    },
+    {
+      "id": "DR024",
+      "reason": "retracted trial; provenance only"
+    },
+    {
+      "id": "DR025",
+      "reason": "retracted trial; provenance only"
+    }
+  ],
+  "existing_release_holds": [
+    {
+      "id": "RP001",
+      "rule": "RP001 contains an unsafe pregnancy recommendation. RP005 has text/table discrepancies. Neither may drive automated advice or chart publication; retain evidence context."
+    },
+    {
+      "id": "RP005",
+      "rule": "RP001 contains an unsafe pregnancy recommendation. RP005 has text/table discrepancies. Neither may drive automated advice or chart publication; retain evidence context."
+    }
+  ],
+  "dependent_outcome_holds": [
+    {
+      "id": "DR021",
+      "rule": "Block affected estimates dependent on retracted trials pending outcome-specific reanalysis; not a formal retraction claim."
+    },
+    {
+      "id": "DR022",
+      "rule": "Block affected estimates dependent on retracted trials pending outcome-specific reanalysis; not a formal retraction claim."
+    },
+    {
+      "id": "PED-FERTILITY-HOLD",
+      "doi": "10.5534/wjmh.230106",
+      "rule": "Block pregnancy and live birth pooled effects and downstream use; includes DR023. Do not automatically invalidate unrelated semen outcomes."
+    }
+  ],
+  "claim_constraints": [
+    {
+      "id": "GE-H01",
+      "topic": "NUTR-001",
+      "status": "hold unsupported substitution",
+      "source": "https://www.cdc.gov/folic-acid/data-research/mthfr/",
+      "finding": "Common MTHFR variants do not establish need to replace folic acid with 5-MTHF; CDC recommends folic acid, which has direct NTD prevention evidence. DHFR substitution claim unverified. CDC clinician guidance starts at least one month before conception; three months can be planning preference not universal minimum.",
+      "related": [
+        "S085",
+        "S088",
+        "DR027"
+      ]
+    },
+    {
+      "id": "GE-H02",
+      "topic": "FIT-002",
+      "status": "hold universal clearance",
+      "source": "https://pmc.ncbi.nlm.nih.gov/articles/PMC12406897/",
+      "finding": "Acute fetal hemodynamic outcomes and self-selected lifting survey cannot establish universal heavy-lifting, Valsalva or supine exercise safety. No home fetal heart-rate thresholds or blanket clearance.",
+      "related": [
+        "H035",
+        "H036"
+      ]
+    },
+    {
+      "id": "GE-H03",
+      "topic": "REPRO-001",
+      "status": "stage-specific labeling",
+      "source": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=993a5325-cd10-4450-b5ea-1c0a90510df6",
+      "finding": "Acitretin pregnancy avoidance period is at least 3 years; nursing warning separate. Do not promise safe conception solely from an elapsed isotretinoin washout."
+    },
+    {
+      "id": "GE-H04",
+      "topic": "NUTR-001",
+      "status": "research only",
+      "source": "https://doi.org/10.1371/journal.pmed.1005274",
+      "finding": "No personalized genotype/race-based DHA dose or testing recommendation. Bayesian posterior probabilities are not individual benefit probabilities; credible intervals differ from confidence intervals."
+    },
+    {
+      "id": "GE-H05",
+      "topic": "WELL-001",
+      "status": "correct outcome labels",
+      "source": "https://pubmed.ncbi.nlm.nih.gov/39500542/",
+      "finding": "Gemini conflates anxiety and depression effect sizes. Depression SMD -.52; anxiety -.25; maintain separate outcomes."
+    },
+    {
+      "id": "GE-H06",
+      "topic": "FACE-001",
+      "status": "avoid blanket safety claims",
+      "source": "https://www.ncbi.nlm.nih.gov/books/NBK500669/",
+      "finding": "LactMed reports lack of breastfeeding hydroquinone studies, not proven harm; distinguish precaution/unknown from established contraindication. Retain pregnancy avoidance and existing retinoid holds."
+    },
+    {
+      "id": "GE-H07",
+      "topic": "NUTR-001",
+      "status": "preserve guidance",
+      "source": "https://pubmed.ncbi.nlm.nih.gov/39077939/",
+      "finding": "Vitamin D 2024 review addresses uncertainty of supplementation for obstetric outcomes; 2026 dose comparison is distinct. Do not infer dietary requirement or deficiency treatment is unnecessary."
+    },
+    {
+      "id": "GE-H08",
+      "topic": "VEIN-001",
+      "status": "correct comparator",
+      "source": "https://pubmed.ncbi.nlm.nih.gov/26477632/",
+      "finding": "Pneumatic compression vs rest is not a stocking-prevention trial; existing S127 evaluates stockings. Distinguish symptom relief, structural prevention and VTE care."
+    }
+  ],
+  "additional_constraints": [
+    {
+      "id": "P1-FEED",
+      "rule": "Commercial formula claim evidence must not be used to infer nutritional equivalence to human milk or superiority without direct credible evidence; regulated age-appropriate formula remains a safe and necessary feeding option when needed. No homemade, diluted or unregulated substitutes."
+    },
+    {
+      "id": "P1-DIAPER",
+      "rule": "No causal claim that disposable diapers delay independent continence or that cloth or assisted infant toileting prevents disorders without appropriate evidence; distinguish cue recognition, assisted dryness and independent toileting. No forced or punitive training."
+    }
+  ],
+  "mandatory_source_policies": [
+    "research/child-health/SAFETY.md",
+    "MEDICAL_SAFETY.md",
+    "research/release-prep/FINAL_RESEARCH_IMPORT.json",
+    "research/deep-research/TARGETED_GAP_AUDIT.json",
+    "research/external-audits/gemini/RECONCILIATION.json",
+    "research/child-health/integrity-and-overlap.md"
+  ],
+  "clinical_review": false,
+  "runtime_enforcement": "not implemented; Claude must implement and test before any release"
+}

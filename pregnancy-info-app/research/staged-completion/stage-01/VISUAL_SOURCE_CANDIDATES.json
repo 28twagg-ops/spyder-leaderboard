@@ -1,0 +1,92 @@
+[
+  {
+    "id": "V1",
+    "topic": "Skin anatomy",
+    "asset": "OpenStax A&P 2e, figure 5.2",
+    "url": "https://openstax.org/books/anatomy-and-physiology-2e/pages/5-1-layers-of-the-skin",
+    "rights": "Current edition CC BY-NC-SA 4.0; inspect individual credits; commercial use not cleared",
+    "clinical_review": false,
+    "redistribution_cleared": false,
+    "status": "reference candidate; verify exact asset before use"
+  },
+  {
+    "id": "V2",
+    "topic": "Abdominal muscles and pelvic floor",
+    "asset": "OpenStax A&P first edition, section 11.4, figures 11.16 and 11.19",
+    "url": "https://openstax.org/books/anatomy-and-physiology/pages/11-4-axial-muscles-of-the-abdominal-wall-and-thorax",
+    "rights": "Exact edition/figure license and credits pending; reference only",
+    "clinical_review": false,
+    "redistribution_cleared": false,
+    "status": "reference candidate; verify exact asset before use"
+  },
+  {
+    "id": "V3",
+    "topic": "Female reproductive anatomy and cycles",
+    "asset": "OpenStax A&P 2e section 27.2",
+    "url": "https://openstax.org/books/anatomy-and-physiology-2e/pages/27-2-anatomy-and-physiology-of-the-ovarian-reproductive-system",
+    "rights": "CC BY-NC-SA 4.0 book; figure credits pending",
+    "clinical_review": false,
+    "redistribution_cleared": false,
+    "status": "reference candidate; verify exact asset before use"
+  },
+  {
+    "id": "V4",
+    "topic": "Embryology and germ layers",
+    "asset": "OpenStax A&P 2e figures 28.9–10",
+    "url": "https://openstax.org/books/anatomy-and-physiology-2e/pages/28-2-embryonic-development",
+    "rights": "CC BY-NC-SA 4.0 book; individual credits pending",
+    "clinical_review": false,
+    "redistribution_cleared": false,
+    "status": "reference candidate; verify exact asset before use"
+  },
+  {
+    "id": "V5",
+    "topic": "Fetal circulation and development",
+    "asset": "OpenStax A&P 2e figures 28.16–17",
+    "url": "https://openstax.org/books/anatomy-and-physiology-2e/pages/28-3-fetal-development",
+    "rights": "CC BY-NC-SA 4.0 book; individual credits pending",
+    "clinical_review": false,
+    "redistribution_cleared": false,
+    "status": "reference candidate; verify exact asset before use"
+  },
+  {
+    "id": "V6",
+    "topic": "Safe sleep",
+    "asset": "NIH NICHD Safe to Sleep social/digital media",
+    "url": "https://safetosleep.nichd.nih.gov/resources/social-digital",
+    "rights": "Use original approved images where permitted; check asset terms; logo restricted",
+    "clinical_review": false,
+    "redistribution_cleared": false,
+    "status": "reference candidate; verify exact asset before use"
+  },
+  {
+    "id": "V7",
+    "topic": "Motor milestone distributions",
+    "asset": "WHO motor development milestones",
+    "url": "https://www.who.int/tools/child-growth-standards/standards/motor-development-milestones",
+    "rights": "Reference/link; exact chart license and reuse terms pending",
+    "clinical_review": false,
+    "redistribution_cleared": false,
+    "status": "reference candidate; verify exact asset before use"
+  },
+  {
+    "id": "V8",
+    "topic": "Open textbook alternative",
+    "asset": "Oregon State University A&P 2e adaptation",
+    "url": "https://open.oregonstate.education/anatomy2e/",
+    "rights": "Book states adapted from CC BY work; verify adaptation and specific image credit/license",
+    "clinical_review": false,
+    "redistribution_cleared": false,
+    "status": "reference candidate; verify exact asset before use"
+  },
+  {
+    "id": "V9",
+    "topic": "Open textbook alternative",
+    "asset": "LibreTexts A&P 2e collection",
+    "url": "https://med.libretexts.org/Bookshelves/Anatomy_and_Physiology/Anatomy_and_Physiology_2e_%28OpenStax%29",
+    "rights": "Collection states CC BY 4.0; check exact edition and individual figure licenses",
+    "clinical_review": false,
+    "redistribution_cleared": false,
+    "status": "reference candidate; verify exact asset before use"
+  }
+]

@@ -1,0 +1,145 @@
+[
+  {
+    "id": "P1-01",
+    "title": "Industry sponsorship and research outcome",
+    "url": "https://doi.org/10.1002/14651858.MR000033.pub3",
+    "design": "2017 Cochrane methods review",
+    "finding": "Efficacy favorable RR 1.27 (95% CI 1.17–1.37); conclusions favorable RR 1.34 (1.19–1.51); harms RR 1.37 (.64–2.93). Drug/device studies, not a universal correction.",
+    "access": "publisher indexed results",
+    "funding": "review funding/COI extraction pending",
+    "clinical_review": false,
+    "status": "staged methodological evidence or research lead; no automatic publication"
+  },
+  {
+    "id": "P1-02",
+    "title": "Association of Industry Sponsorship With Outcomes of Nutrition Studies",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/27802480/",
+    "design": "2016 systematic review/meta-analysis",
+    "finding": "Favorable conclusions RR 1.31 (.99–1.72); uncertainty includes null; nutrition evidence not equivalent to drug/device evidence.",
+    "access": "indexed abstract",
+    "funding": "pending",
+    "clinical_review": false,
+    "status": "staged methodological evidence or research lead; no automatic publication"
+  },
+  {
+    "id": "P1-03",
+    "title": "Conduct and reporting of formula milk trials",
+    "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC8513520/",
+    "design": "2021 systematic review; 125 recent trials",
+    "finding": "100/125 high RoB; 5/125 low RoB; 98/117 with reported funding industry-supported; 60/81 with clear role industry involved analysis/report; 17/125 low COI by review criteria. Effect size not related to commercial involvement in superiority subset, high RoB associated with favorable conclusions.",
+    "access": "PMC Results Tables 2–3; disclosure indexed",
+    "funding": "Imperial Health Charity support; lead author declared outside-work ties including expert witness formula claims and personal fees; full disclosures to extract",
+    "clinical_review": false,
+    "status": "staged methodological evidence or research lead; no automatic publication"
+  },
+  {
+    "id": "P1-04",
+    "title": "Assessing conflict of interest reporting and quality of clinical trials on infant formula",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/38432526/",
+    "design": "2024 systematic review",
+    "finding": "Fortified formula trials often high risk of bias; overlap with P1-03 unresolved.",
+    "access": "indexed abstract",
+    "funding": "pending",
+    "clinical_review": false,
+    "status": "staged methodological evidence or research lead; no automatic publication"
+  },
+  {
+    "id": "P1-05",
+    "title": "Health and nutrition claims for infant formula: international cross sectional survey",
+    "url": "https://doi.org/10.1136/bmj-2022-071075",
+    "design": "2023 cross-sectional marketing survey",
+    "finding": "Many claims lack robust clinical support; distinguish marketing claim evidence from nutritional adequacy. Not a clinical outcome study.",
+    "access": "indexed publisher/PMC; full access blocked",
+    "funding": "pending",
+    "clinical_review": false,
+    "status": "staged methodological evidence or research lead; no automatic publication"
+  },
+  {
+    "id": "P1-06",
+    "title": "Effects of Early Toilet Training and Elimination Communication With Respect to Diaper Types",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/36852780/",
+    "design": "2023 observational study",
+    "finding": "Cloth and more diaper-free time associated with earlier toilet training. Confounding and definitions require extraction.",
+    "access": "indexed abstract",
+    "funding": "pending",
+    "clinical_review": false,
+    "status": "staged methodological evidence or research lead; no automatic publication"
+  },
+  {
+    "id": "P1-07",
+    "title": "Do disposable diapers reduce urination elimination signals in non-toilet-trained children?",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/41099785/",
+    "design": "2025 prospective pilot",
+    "finding": "23 of 28 complete; reduced urination signals wearing diapers; not actual age of training completion.",
+    "access": "indexed abstract",
+    "funding": "pending; check possible overlap with P1-08",
+    "clinical_review": false,
+    "status": "staged methodological evidence or research lead; no automatic publication"
+  },
+  {
+    "id": "P1-08",
+    "title": "Measuring the impact of disposable diapers on urination elimination signals in non-toilet-trained children",
+    "url": "https://www.sciencedirect.com/science/article/pii/S1477513125003341",
+    "design": "2025 crossover pilot",
+    "finding": "Observe with and without diaper. Check sample identity with P1-07; no independent count yet.",
+    "access": "indexed publisher funding and abstract",
+    "funding": "authors report no specific grant, no competing interests (indexed PMID 40640001)",
+    "clinical_review": false,
+    "status": "staged methodological evidence or research lead; no automatic publication"
+  },
+  {
+    "id": "P1-09",
+    "title": "Assisted Infant Toilet Training and Bladder and Bowel Health: A Global Integrative Review",
+    "url": "https://doi.org/10.1007/s10995-025-04160-0",
+    "design": "2025 integrative review",
+    "finding": "Observational findings potentially protective but serious risk of bias. Review reports cultural variation and evidence gaps.",
+    "access": "publisher full text methods/discussion/disclosures",
+    "funding": "open access support CAUL/member institutions; no declared COI",
+    "clinical_review": false,
+    "status": "staged methodological evidence or research lead; no automatic publication"
+  },
+  {
+    "id": "P1-10",
+    "title": "Assisted infant toilet training and the prevalence of functional gastrointestinal disorders up to the age of 9 months: a randomised, controlled trial",
+    "url": "https://doi.org/10.1136/archdischild-2025-328792",
+    "design": "BABITT ongoing Swedish RCT, early endpoint",
+    "finding": "Early assisted training at moderate frequency did not reduce functional GI disorders by nine months. Long-term continence outcomes not established.",
+    "access": "indexed publisher results and funding; full page blocked",
+    "funding": "Region Dalarna, Regional Research Council Uppsala–Örebro, Mayflower Association, Samaritan Foundation for Paediatric Research, Swedish Enuresis Academy; full COI pending",
+    "clinical_review": false,
+    "status": "staged methodological evidence or research lead; no automatic publication"
+  },
+  {
+    "id": "P1-11",
+    "title": "Does the development and use of modern disposable diapers affect bladder control? A systematic review",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/34099398/",
+    "design": "2021 review",
+    "finding": "Relevant historical and clinical synthesis; full funding statement and study membership needed before interpretation.",
+    "access": "indexed abstract/disclosure excerpt",
+    "funding": "commercial involvement flagged in indexed disclosure; exact sponsor and role pending",
+    "clinical_review": false,
+    "status": "staged methodological evidence or research lead; no automatic publication"
+  },
+  {
+    "id": "P1-12",
+    "title": "A child-oriented approach to toilet training",
+    "url": "https://publications.aap.org/pediatrics/article/29/1/121/77640/A-CHILD-ORIENTED-APPROACH-TO-TOILET-TRAINING",
+    "design": "1962 historical pediatric practice series",
+    "finding": "1170 records; mean daytime training 28.5 months; cannot infer historical causal diaper effect.",
+    "access": "indexed abstract",
+    "funding": "historical funding and later industry ties must be documented separately",
+    "clinical_review": false,
+    "status": "staged methodological evidence or research lead; no automatic publication"
+  },
+  {
+    "id": "P1-13",
+    "title": "Choosing an Infant Formula",
+    "url": "https://www.cdc.gov/infant-toddler-nutrition/formula-feeding/choosing-a-formula.html",
+    "design": "US authoritative guidance",
+    "finding": "Regulated commercial infant formula meets minimum nutrient and safety requirements; homemade formula unsafe.",
+    "access": "indexed CDC guidance",
+    "funding": "government guidance; panel/underlying evidence review separate",
+    "clinical_review": false,
+    "status": "staged methodological evidence or research lead; no automatic publication"
+  }
+]
