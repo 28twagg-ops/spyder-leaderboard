@@ -39,7 +39,7 @@ export const THEME_OPTIONS: ThemeOption[] = [
   },
 ]
 
-export const DEFAULT_THEME: ThemeId = 'soft-fog'
+export const DEFAULT_THEME: ThemeId = 'morning-stone'
 
 export function isThemeId(value: string | null | undefined): value is ThemeId {
   return THEME_OPTIONS.some((theme) => theme.id === value)
