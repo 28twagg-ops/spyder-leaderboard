@@ -3,8 +3,8 @@
   "date": "2026-11-27",
   "target": 50,
   "candidates": 78,
-  "retained": 76,
-  "exact_matches": 2,
+  "retained": 75,
+  "exact_matches": 3,
   "baselines": [
     {
       "path": "app/src/data/imported/source_index.json",
@@ -41,10 +41,30 @@
     {
       "path": "research/development/media/stage-03/BATCH_02_INTERNATIONAL.json",
       "sha": "e87df2ec9ed4e18327e0aef417fdbfd310f59839"
+    },
+    {
+      "path": "research/development/international/stage-01/BATCH_01.json",
+      "sha": "0f9dda9a26950a996f2412c2c222ee3ab02fe834"
+    },
+    {
+      "path": "research/development/international/stage-01/BATCH_02.json",
+      "sha": "876c2df0159d50a831aa0a926f71f154a2583a12"
+    },
+    {
+      "path": "research/development/international/stage-01/BATCH_03.json",
+      "sha": "ab80c1e5bf987b18998831fe4fe853b35501f96a"
+    },
+    {
+      "path": "research/development/international/stage-01/BATCH_04.json",
+      "sha": "092292e86974b620c91ac62a1e69123ba05f9561"
+    },
+    {
+      "path": "research/development/international/stage-01/BATCH_05.json",
+      "sha": "5f72d81710034957d52c0da4ed28c7231ccef4d0"
     }
   ],
   "baseline_failures": [],
-  "methods": "Web-indexed original repository and trial registry search, selected abstract verification. Normalized URL and exposed DOI/PMID/registry identifiers checked against listed archives. Stage 1 batch files require additional pass; trial family and journal/thesis version dedup incomplete. Registry records without extracted results are discovery leads, not clinical outcome evidence. Full-text and sponsor assessment pending.",
+  "methods": "Web-indexed original repository and trial registry search, selected abstract verification. Normalized URL and exposed DOI/PMID/registry identifiers checked against listed archives. Stage 1 batch files require additional pass; trial family and journal/thesis version dedup incomplete. Registry records without extracted results are discovery leads, not clinical outcome evidence. Full-text and sponsor assessment pending. Completed Stage 1 five-batch baseline checks. Confirmed same MINT preprint through PMC alias in earlier international archive and removed it from retained count. Linked journal versions for Chinese acupuncture, Nigerian castor oil and Bangladesh balanced-plate studies. Unknown sponsorship and unextracted results remain explicitly marked.",
   "records": [
     {
       "url": "https://etheses.whiterose.ac.uk/id/eprint/36044/",
@@ -756,15 +776,16 @@
       "language": "en",
       "type": "registry",
       "title_short": "Castor oil and formal labor induction",
-      "screening_note": "Indexed registry says no results posted. Does not establish unpublished journal status; high-risk clinician-only topic, no self-induction.",
-      "study_family": null,
-      "source_status": "registered record; no clinical outcome extracted",
+      "screening_note": "Regional journal article located, matching intervention and Abakaliki institution; registration relationship needs confirmation. No outcome extraction or home-induction recommendation.",
+      "study_family": "NCT06841939 / Nigerian Health Journal report (title and institution match; verify registry link)",
+      "source_status": "published journal counterpart identified; registry is companion",
       "funding": "Unknown/unverified; repository affiliation is not evidence of independence",
       "verification_scope": "web-indexed source title and excerpt; selected original abstract pages opened; no complete full-text review",
       "clinical_review": false,
       "publish": false,
       "automation_allowed": false,
-      "id": "UP4-045"
+      "id": "UP4-045",
+      "linked_publication": "https://www.ajol.info/index.php/nhj/article/view/310873"
     },
     {
       "url": "https://clinicaltrials.gov/study/NCT07710911",
@@ -880,19 +901,20 @@
     },
     {
       "url": "https://clinicaltrials.gov/study/NCT04401384",
-      "setting": "Setting pending",
+      "setting": "China",
       "language": "en",
       "type": "registry",
       "title_short": "Acupuncture and doxylamine/pyridoxine",
-      "screening_note": "Registry comparison for moderate/severe nausea; publication and outcomes pending; no alternative to necessary care.",
-      "study_family": null,
-      "source_status": "registered record; no clinical outcome extracted",
-      "funding": "Unknown/unverified; repository affiliation is not evidence of independence",
+      "screening_note": "13 mainland Chinese hospitals, 352 participants. Acupuncture vs sham MD −0.7 PUQE (95% CI −1.3 to −0.1); doxylamine-pyridoxine vs placebo MD −1.0 (−1.6 to −0.4); combination vs dual placebo MD −1.6 (−2.2 to −0.9). Clinical importance and adverse effects require full review; no substitute for indicated treatment.",
+      "study_family": "NCT04401384 / PMID37335994",
+      "source_status": "published journal counterpart identified; registry is companion",
+      "funding": "Published abstract: National Key R&D Program of China and Heilongjiang Province TouYan Innovation Team; full COI and sponsor role pending.",
       "verification_scope": "web-indexed source title and excerpt; selected original abstract pages opened; no complete full-text review",
       "clinical_review": false,
       "publish": false,
       "automation_allowed": false,
-      "id": "UP4-053"
+      "id": "UP4-053",
+      "linked_publication": "https://pubmed.ncbi.nlm.nih.gov/37335994/"
     },
     {
       "url": "https://clinicaltrials.gov/study/NCT06520735",
@@ -932,10 +954,10 @@
       "language": "en",
       "type": "registry",
       "title_short": "Frozen product for pregnancy nausea",
-      "screening_note": "Registry search shows results posted; direct results page blocked, numbers not extracted. Secondary registry mirror indicates terminated; verify reason/participant flow before synthesis.",
+      "screening_note": "Sponsor and terminated status verified from indexed registry. Results-posted flag visible but direct results tab inaccessible. Do not infer efficacy, reasons for termination, or absence of harms.",
       "study_family": null,
-      "source_status": "registered record; no clinical outcome extracted",
-      "funding": "Unknown/unverified; repository affiliation is not evidence of independence",
+      "source_status": "terminated; results posted in registry index, actual outcome data inaccessible",
+      "funding": "Registry sponsor The Hospital for Sick Children; product donation, sponsor role and funding not verified.",
       "verification_scope": "web-indexed source title and excerpt; selected original abstract pages opened; no complete full-text review",
       "clinical_review": false,
       "publish": false,
@@ -1119,36 +1141,21 @@
       "id": "UP4-067"
     },
     {
-      "url": "https://www.medrxiv.org/content/10.64898/2026.07.02.26357185v1",
-      "setting": "Nepal",
-      "language": "en",
-      "type": "preprint",
-      "title_short": "Fortified energy-protein and infant neurodevelopment",
-      "screening_note": "Community RCT; likely MINT parent trial already in international archive; new endpoint not independent replication. Full page 403, indexed abstract only.",
-      "study_family": "MINT (prior archive; companion endpoint)",
-      "source_status": "preprint version; journal status pending",
-      "funding": "Unknown/unverified; repository affiliation is not evidence of independence",
-      "verification_scope": "web-indexed source title and excerpt; selected original abstract pages opened; no complete full-text review",
-      "clinical_review": false,
-      "publish": false,
-      "automation_allowed": false,
-      "id": "UP4-068"
-    },
-    {
       "url": "https://www.medrxiv.org/content/10.1101/2022.05.28.22275719v3",
       "setting": "Bangladesh",
       "language": "en",
       "type": "preprint",
       "title_short": "Balanced plate prenatal nutrition and birthweight",
-      "screening_note": "Cluster RCT, preprint version 3 only; journal counterpart search pending, no independent counts for versions.",
-      "study_family": null,
-      "source_status": "preprint version; journal status pending",
+      "screening_note": "Journal publication located. Community balanced-plate education reported improved birthweight; extract peer-reviewed estimates and cluster adjustment; do not count preprint versions separately.",
+      "study_family": "Balanced Plate Bangladesh / PMID36364949",
+      "source_status": "published journal counterpart identified; preprint is earlier version",
       "funding": "Unknown/unverified; repository affiliation is not evidence of independence",
       "verification_scope": "web-indexed source title and excerpt; selected original abstract pages opened; no complete full-text review",
       "clinical_review": false,
       "publish": false,
       "automation_allowed": false,
-      "id": "UP4-069"
+      "id": "UP4-069",
+      "linked_publication": "https://pubmed.ncbi.nlm.nih.gov/36364949/"
     },
     {
       "url": "https://www.medrxiv.org/content/10.64898/2026.08.28.26361604v1",
@@ -1298,6 +1305,26 @@
       "automation_allowed": false,
       "existing_matches": [
         "app/src/data/imported/source_index.json"
+      ]
+    },
+    {
+      "url": "https://www.medrxiv.org/content/10.64898/2026.07.02.26357185v1",
+      "setting": "Nepal",
+      "language": "en",
+      "type": "preprint",
+      "title_short": "Fortified energy-protein and infant neurodevelopment",
+      "screening_note": "Community RCT; likely MINT parent trial already in international archive; new endpoint not independent replication. Full page 403, indexed abstract only.",
+      "study_family": "MINT; same preprint already represented in prior international archive as PMC13370556",
+      "source_status": "preprint; indexed PMID42465878 / PMC13370556, not evidence of peer review",
+      "funding": "Bill & Melinda Gates Foundation OPP11599195, Thrasher Research Fund TRF01278, NICHD R01HD109385; indexed funder-role statement reports no role in design, implementation or analysis; other disclosures pending.",
+      "verification_scope": "web-indexed source title and excerpt; selected original abstract pages opened; no complete full-text review",
+      "clinical_review": false,
+      "publish": false,
+      "automation_allowed": false,
+      "id": "UP4-068",
+      "linked_publication": "https://pmc.ncbi.nlm.nih.gov/articles/PMC13370556/",
+      "existing_matches": [
+        "research/development/international/INTERNATIONAL_SOURCE_LEADS.json: PMC13370556"
       ]
     }
   ]
