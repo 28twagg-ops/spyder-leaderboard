@@ -2,6 +2,9 @@
 description: Everwell mandatory handoff and independent evidence appraisal
 alwaysApply: true
 ---
+
+**First action for Everwell (owner update 2026-11-26):** Read CURSOR_USAGE_STRATEGY.md. Start with Auto as orchestrator, audit actual remaining included usage and available models, then plan and dynamically delegate to named models/subagents where supported. Cap cumulative work at 90% of starting remaining allowance in each current-cycle pool, protect 10%, include in-flight usage, and do not spend extra or assume a model switch succeeded. If telemetry is inaccessible, ask for one owner snapshot before substantive work. This overrides older model-routing/reserve language; independent scientific and safety requirements remain mandatory.
+
 For Everwell/pregnancy-info-app tasks only, before research or implementation read the repository-root CLAUDE.md (if present), project CLAUDE.md, research/INDEPENDENT_EVIDENCE_REVIEW.md, research/staged-completion/stage-11/FINAL_CLAUDE_PROMPT.md, START_HERE.md and the linked safety/publication gate. Paths are relative to pregnancy-info-app/ (or the current workspace if opened there). Prior AI interpretations are comparison-only, never guidance; independently verify original sources, funding, conflicts, methods, uncertainty and harms before comparing. Preserve all safety holds. Do not modify the unrelated legacy SPYDER project. No deployment or clinical publication without qualified review and owner approval.
 
 
