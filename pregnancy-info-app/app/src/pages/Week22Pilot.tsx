@@ -108,7 +108,8 @@ const sizeReferences={
  30:{cm:'39.9',inch:'15.7',food:'Cabbage',source:'https://www.nhs.uk/best-start-in-life/pregnancy/week-by-week-guide-to-pregnancy/3rd-trimester/week-30/'},
  31:{cm:'41.1',inch:'16.2',food:'Coconut',source:'https://www.nhs.uk/best-start-in-life/pregnancy/week-by-week-guide-to-pregnancy/3rd-trimester/week-31/'}
 } as const
-function BabySize({week}:{week:Exclude<PilotWeek,1|2|3>}){
+function BabySize({week}:{week:PilotWeek}){
+ if(week===1||week===2||week===3)return null
  const info=sizeReferences[week]
  return <figure className="baby-size" aria-label={'Approximate size at week '+week}>
  <style>{`

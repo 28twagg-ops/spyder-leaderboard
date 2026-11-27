@@ -54,10 +54,10 @@ describe('week 22 visual directory',()=>{
   expect(await screen.findByRole('heading',{name:'Muscles are developing'})).toBeVisible()
  })
  it('applies the approved candidate to weeks 1–40 with a birth transition',async()=>{
-  view('/timeline/week/1')
+  view('/timeline/week/1?subject=baby')
   expect(screen.getByRole('heading',{name:'Before conception'})).toBeVisible()
   expect(screen.queryByRole('heading',{name:'How big is your baby?'})).not.toBeInTheDocument()
-  for(let week=2;week<=40;week++){fireEvent.click(screen.getByRole('link',{name:'Next',exact:true}));expect(await screen.findByRole('heading',{name:'Week '+week})).toBeVisible()}
+  for(let week=2;week<=40;week++){fireEvent.click(screen.getByRole('link',{name:'Next'}));expect(await screen.findByRole('heading',{name:'Week '+week})).toBeVisible()}
   expect(screen.queryByRole('link',{name:'Next week'})).not.toBeInTheDocument()
   expect(screen.getByRole('link',{name:'Birth & newborn'})).toHaveAttribute('href','/timeline/shared_birth')
  },15000)
