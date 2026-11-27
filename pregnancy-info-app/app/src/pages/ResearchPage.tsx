@@ -1,19 +1,20 @@
 import { Link, useParams } from 'react-router-dom'
 import { DraftBanner } from '../components/DraftBanner'
 import { maySurfaceAsGuidance } from '../data/publicationGate'
-import { articleBundle, articles } from '../data/researchCatalog'
+import { articleBundle } from '../data/researchCatalog'
 import { editorialPriorityLabel } from '../data/researchGate'
 
 export function ResearchPage() {
   const { topicId } = useParams()
-  const articleId = topicId && articles.some((a) => a.id === topicId) ? topicId : articles[0]?.id
-  const bundle = articleId ? articleBundle(articleId) : null
+  const bundle = topicId ? articleBundle(topicId) : null
 
   if (!bundle) {
     return (
       <div className="stack-lg">
         <DraftBanner status="research_only" />
-        <p>No research article found.</p>
+        <h1>Research article not found</h1>
+        <p>The requested article is unavailable. Choose a topic from the library.</p>
+        <Link className="btn btn-ghost" to="/library">Browse library</Link>
       </div>
     )
   }
@@ -54,10 +55,10 @@ export function ResearchPage() {
       </details>
 
       <details className="panel disclosure">
-        <summary>Related actions ({relatedActions.length})</summary>
+        <summary>Archived draft actions ({relatedActions.length})</summary>
         <p className="muted">
-          Actions are educational prompts. Effective automation after gates remains blocked until
-          clinical release.
+          These are unreviewed comparison records, not instructions to follow or a personal care plan.
+          Automation remains blocked.
         </p>
         <ul className="list-clean">
           {relatedActions.map((action) => (
@@ -84,6 +85,11 @@ export function ResearchPage() {
               <div className="muted" style={{ marginTop: '0.25rem' }}>
                 {faq.short_answer}
               </div>
+              {faq.visible_safety && (
+                <p className="muted" style={{ margin: '0.25rem 0 0', fontSize: '0.85rem' }}>
+                  Draft safety context: {faq.visible_safety}
+                </p>
+              )}
             </li>
           ))}
         </ul>
