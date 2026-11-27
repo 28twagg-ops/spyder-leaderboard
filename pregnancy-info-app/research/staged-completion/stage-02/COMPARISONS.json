@@ -1,0 +1,110 @@
+[
+  {
+    "topic": "Breastfeeding vs formula vs combination",
+    "evidence": "Human milk distinct biological properties; PROBIT breastfeeding support lowers some early infections; long-term cognition uncertain after confounding; AHRQ broader associations.",
+    "sources": [
+      "PED-PROBIT",
+      "P2-01",
+      "P2-02",
+      "P2-04",
+      "P2-06",
+      "P2-28"
+    ],
+    "safety": "Support feeding adequacy, informed preferences, clinician/lactation help; no homemade or diluted formula; no feeding guilt.",
+    "clinical_review": false,
+    "publication_status": "draft"
+  },
+  {
+    "topic": "HMO-fortified vs standard formula",
+    "evidence": "Specific trial promising secondary infection outcomes; Nestlé direct support and employment; independent replication needed.",
+    "sources": [
+      "P2-09",
+      "P2-07"
+    ],
+    "safety": "No formula switch based on marketing or extrapolation to preterm infants.",
+    "clinical_review": false,
+    "publication_status": "draft"
+  },
+  {
+    "topic": "DHA/ARA added formula",
+    "evidence": "Biological role does not imply proven incremental IQ gains; older review/IPD null developmental results.",
+    "sources": [
+      "P2-10",
+      "P2-11"
+    ],
+    "safety": "Do not remove required nutrients or manipulate formula.",
+    "clinical_review": false,
+    "publication_status": "draft"
+  },
+  {
+    "topic": "Hydrolyzed formula",
+    "evidence": "Allergy prevention evidence inconsistent; treatment of diagnosed allergy distinct.",
+    "sources": [
+      "P2-12"
+    ],
+    "safety": "Specialty formula clinician-directed.",
+    "clinical_review": false,
+    "publication_status": "draft"
+  },
+  {
+    "topic": "Cloth vs disposable vs hybrid",
+    "evidence": "Cues and timing observational; rash comparative evidence limited; both feasible. Cloth requires washing, dry storage and caregiver time; disposable has recurring cost/waste; hybrid can reduce logistical burden.",
+    "sources": [
+      "P2-14",
+      "P2-16",
+      "P2-23",
+      "P2-27",
+      "P2-31"
+    ],
+    "safety": "Prompt changes and skin care; no diaper reduction that compromises hygiene.",
+    "clinical_review": false,
+    "publication_status": "draft"
+  },
+  {
+    "topic": "Elimination communication vs readiness-led toilet learning",
+    "evidence": "Caregiver-assisted practices documented; historical training onset shifts not necessarily bladder-control shifts; BABITT early GI outcome null; independent continence unknown.",
+    "sources": [
+      "P2-13",
+      "P2-17",
+      "P2-19",
+      "P2-20",
+      "P2-22"
+    ],
+    "safety": "Optional gentle cue response; no forced sitting, restraint, pressure, punishment, fluid restriction, milestone targets or withholding.",
+    "clinical_review": false,
+    "publication_status": "draft"
+  },
+  {
+    "topic": "Responsive carrying",
+    "evidence": "Small historical randomized trial suggests less crying; no premium carrier benefit established.",
+    "sources": [
+      "P2-24",
+      "P2-30"
+    ],
+    "safety": "Airway open; never use carrier as routine sleep surface; follow product guidance.",
+    "clinical_review": false,
+    "publication_status": "draft"
+  },
+  {
+    "topic": "Behavioral sleep vs responsive settling",
+    "evidence": "No marked long-term harm/benefit detected in one follow-up; not universal safety or necessary intervention.",
+    "sources": [
+      "P2-25",
+      "PED-SETTLE",
+      "PED-SLEEP"
+    ],
+    "safety": "Safe sleep independent; no newborn sleep training prescription or ignoring feeding/illness cues.",
+    "clinical_review": false,
+    "publication_status": "draft"
+  },
+  {
+    "topic": "Infant massage",
+    "evidence": "Low-quality evidence for broad developmental effects; optional bonding practice not a treatment.",
+    "sources": [
+      "P2-26"
+    ],
+    "safety": "No pressure techniques, essential oils or preterm home therapy recommendations.",
+    "clinical_review": false,
+    "publication_status": "draft"
+  }
+]

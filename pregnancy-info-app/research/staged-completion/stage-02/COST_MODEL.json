@@ -1,0 +1,11 @@
+{
+  "status": "Illustrative inputs only; no market prices verified; no user financial data",
+  "formulas": {
+    "disposable": "units/day * 365 * unit price",
+    "cloth": "initial stash + covers + replacements + wash loads/week*52*cost/load + detergent + drying + caregiver time (optional) - resale",
+    "hybrid": "disposable units/day*365*unit price + cloth system expenses",
+    "formula": "daily prepared volume * verified cost/prepared volume * days; avoid assuming feeding volume or altering dilution",
+    "breastfeeding": "pump, supplies, lactation visits, time and any lost wages; not zero-cost by assumption"
+  },
+  "constraints": "Cost models must not select feeding amounts, delay changing diapers, or rank clinical safety. Actual label/model/price/recall and household utility data needed."
+}

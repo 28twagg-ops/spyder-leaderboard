@@ -1,0 +1,83 @@
+[
+  {
+    "id": "P2-V01",
+    "title": "WHO medical textbook chapter on infant and young child feeding",
+    "url": "https://www.who.int/publications/b/80612",
+    "notes": "Physiology, positioning and attachment; original source preferred; inspect edition, license, individual figure and training context",
+    "redistribution_cleared": false,
+    "clinical_review": false,
+    "status": "link-only candidate; not downloaded/copied"
+  },
+  {
+    "id": "P2-V02",
+    "title": "WHO IYCF counselling cards, integrated course",
+    "url": "https://www.who.int/publications/i/item/9789240035560",
+    "notes": "Existing counseling illustrations; retrieve cards and verify permission, edition and exact figure before embedding",
+    "redistribution_cleared": false,
+    "clinical_review": false,
+    "status": "link-only candidate; not downloaded/copied"
+  },
+  {
+    "id": "P2-V03",
+    "title": "WHO participant manual, second edition",
+    "url": "https://www.who.int/publications/i/item/9789240032408",
+    "notes": "Feeding positioning and counseling illustrations; verify individual asset terms",
+    "redistribution_cleared": false,
+    "clinical_review": false,
+    "status": "link-only candidate; not downloaded/copied"
+  },
+  {
+    "id": "P2-V04",
+    "title": "CDC diaper changing at home",
+    "url": "https://www.cdc.gov/hygiene/about/healthy-habits-diaper-changing-steps-at-home.html",
+    "notes": "Home hygiene reference; check individual images and CDC reuse terms",
+    "redistribution_cleared": false,
+    "clinical_review": false,
+    "status": "link-only candidate; not downloaded/copied"
+  },
+  {
+    "id": "P2-V05",
+    "title": "PROBIT figures and flowchart",
+    "url": "https://journals.plos.org/plosmedicine/article/figures?id=10.1371%2Fjournal.pmed.1002554",
+    "notes": "Fig 1 cohort linkage, tables for effect estimates; confirm article license and third-party credits",
+    "redistribution_cleared": false,
+    "clinical_review": false,
+    "status": "link-only candidate; not downloaded/copied"
+  },
+  {
+    "id": "P2-V06",
+    "title": "CPSC Safe Sleep Education Center",
+    "url": "https://www.cpsc.gov/SafeSleep",
+    "notes": "Original safe-sleep education and posters; verify asset-specific rights and current guidance",
+    "redistribution_cleared": false,
+    "clinical_review": false,
+    "status": "link-only candidate; not downloaded/copied"
+  },
+  {
+    "id": "P2-V07",
+    "title": "CDC formula preparation",
+    "url": "https://www.cdc.gov/infant-toddler-nutrition/formula-feeding/preparation-and-storage.html",
+    "notes": "Use original instructions and any eligible images; age-specific preparation and label constraints",
+    "redistribution_cleared": false,
+    "clinical_review": false,
+    "status": "link-only candidate; not downloaded/copied"
+  },
+  {
+    "id": "P2-V08",
+    "title": "BABITT primary report",
+    "url": "https://adc.bmj.com/content/111/3/238",
+    "notes": "Original study figures/diaper-use graph for reference; exact chart extraction and rights pending",
+    "redistribution_cleared": false,
+    "clinical_review": false,
+    "status": "link-only candidate; not downloaded/copied"
+  },
+  {
+    "id": "P2-V09",
+    "title": "Antwerp crossover pilot methods",
+    "url": "https://doi.org/10.1016/j.jpurol.2025.06.029",
+    "notes": "Observation and sensor methods figure; use link only until licensing; do not reuse child images",
+    "redistribution_cleared": false,
+    "clinical_review": false,
+    "status": "link-only candidate; not downloaded/copied"
+  }
+]

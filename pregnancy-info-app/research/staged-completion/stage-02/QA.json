@@ -1,0 +1,22 @@
+{
+  "baseline_commit": "6d6dc99ad8d935e605aebf946efa5b405db389ae",
+  "date": "2026-11-26",
+  "records": 34,
+  "numeric_records": 16,
+  "comparisons": 9,
+  "visuals": 9,
+  "source_id_unique": true,
+  "numeric_id_unique": true,
+  "unresolved_numeric_source_ids": [],
+  "interval_errors": [],
+  "explicit_overlap_links": [
+    "PROBIT",
+    "NLSY possible",
+    "Antwerp pilot probable",
+    "BABITT protocol/results",
+    "Stage 1 aliases"
+  ],
+  "verification": "Targeted indexed and selected full publisher passages only; no formal exhaustive database search, independent double extraction, source-level full retraction sweep or clinical approval. No full repo validator or app tests run.",
+  "canonical_changed": false,
+  "stage_3_authorized": false
+}
