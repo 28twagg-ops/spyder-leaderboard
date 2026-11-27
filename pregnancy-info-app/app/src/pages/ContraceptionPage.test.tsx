@@ -2,9 +2,33 @@ import {cleanup,fireEvent,render,screen,within} from '@testing-library/react'
 import {MemoryRouter} from 'react-router-dom'
 import {afterEach,describe,expect,it} from 'vitest'
 import App from '../App'
+import {contraception} from '../data/contraception'
 afterEach(()=>{cleanup();localStorage.clear()})
 describe('preconception contraception navigation',()=>{
- it('offers outcome-specific comparisons and source-linked pain evidence',async()=>{
+ it('puts all research graphs on the overview with compact method navigation',async()=>{
+  render(<MemoryRouter initialEntries={['/timeline/preconception']}><App/></MemoryRouter>)
+  fireEvent.click(screen.getByRole('link',{name:/Birth control & preparing for pregnancy/}))
+  expect(await screen.findByRole('heading',{name:'Birth control & family planning'})).toBeVisible()
+  const research=screen.getByRole('region',{name:'Research comparisons'})
+  expect(within(research).getByRole('region',{name:'Pregnancy prevention in everyday use'})).toBeVisible()
+  for(const p of contraception.evidencePanels)expect(within(research).getByRole('region',{name:p.title})).toBeVisible()
+  const directory=screen.getByRole('region',{name:'Explore individual methods'})
+  expect(within(directory).getAllByRole('link')).toHaveLength(8)
+  fireEvent.click(within(directory).getByRole('button',{name:/Show all 15 methods/}))
+  expect(within(directory).getAllByRole('link')).toHaveLength(15)
+  fireEvent.click(within(directory).getByRole('button',{name:'No hormones'}))
+  expect(within(directory).getByRole('link',{name:'Explore Copper IUD'})).toBeVisible()
+  expect(within(directory).queryByRole('link',{name:'Explore LNG IUD'})).not.toBeInTheDocument()
+  fireEvent.click(within(directory).getByRole('link',{name:'Explore Copper IUD'}))
+  expect(await screen.findByRole('heading',{name:'Copper IUD',level:1})).toBeVisible()
+  expect(screen.getByRole('heading',{name:'Cost & comfort'})).toBeVisible()
+  expect(screen.getByText('$0–$1,800')).toBeVisible()
+  expect(screen.getByRole('heading',{name:'Advantages'})).toBeVisible()
+  expect(screen.getByRole('heading',{name:'Trade-offs'})).toBeVisible()
+  fireEvent.click(screen.getByRole('button',{name:'Back'}))
+  expect(await screen.findByRole('heading',{name:'Birth control & family planning'})).toBeVisible()
+ })
+ it('keeps the existing priority guide and pain evidence routes',async()=>{
   render(<MemoryRouter initialEntries={['/contraception/decision-guide']}><App/></MemoryRouter>)
   expect(await screen.findByRole('heading',{name:'Decision guide: compare your priorities'})).toBeVisible()
   const guide=screen.getByRole('region',{name:'Compare priorities'})
@@ -15,10 +39,8 @@ describe('preconception contraception navigation',()=>{
   expect(await screen.findByRole('region',{name:'IUD insertion pain: 2018 randomized trial'})).toBeVisible()
   expect(screen.getByText('33/100 (3.3/10 equivalent)')).toBeVisible()
  })
- it('opens from preparation and filters comparison without ranking individual suitability',async()=>{
-  render(<MemoryRouter initialEntries={['/timeline/preconception']}><App/></MemoryRouter>)
-  fireEvent.click(screen.getByRole('link',{name:/Birth control & preparing for pregnancy/}))
-  fireEvent.click(await screen.findByRole('link',{name:/Compare every reversible method/}))
+ it('filters the existing comparison route',async()=>{
+  render(<MemoryRouter initialEntries={['/contraception/compare']}><App/></MemoryRouter>)
   expect(await screen.findByRole('heading',{name:'Compare birth control methods'})).toBeVisible()
   fireEvent.change(screen.getByLabelText('Filter by hormone exposure'),{target:{value:'none'}})
   expect(screen.getByRole('link',{name:/Copper IUD\s*0\.8%/})).toBeVisible()

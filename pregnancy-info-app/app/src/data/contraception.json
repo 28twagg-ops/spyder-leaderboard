@@ -649,6 +649,156 @@
       "certainty": "Provisional outcome appraisal; no formal GRADE",
       "sponsorRole": "Not fully established; protocol, data ownership and sponsor influence still to be audited",
       "integrity": "Correction/retraction and registry linkage not comprehensively checked"
+    },
+    {
+      "id": "CT-41",
+      "title": "HealthCare.gov: birth control benefits",
+      "url": "https://www.healthcare.gov/coverage/birth-control-benefits/",
+      "design": "US consumer cost and access information; not a comparative clinical study",
+      "finding": "Marketplace plans cover prescribed approved methods and counseling without cost sharing in network, subject to applicable exceptions; confirm actual plan and product.",
+      "funding": "US federal publisher",
+      "coi": "Policy source; no clinical trial COI assessment",
+      "bias": "Illustrative price or coverage policy only; not a representative price survey, not applicable to every insurer, product or location. Not evidence of efficacy or clinical safety.",
+      "access": "Original full page",
+      "verified": "2026-11-27",
+      "certainty": "Descriptive access information, not clinical certainty",
+      "sponsorRole": "No study sponsorship inferred; page-level funding details not available",
+      "integrity": "Price and coverage may change; recheck before purchase"
+    },
+    {
+      "id": "CT-42",
+      "title": "Planned Parenthood: IUD cost",
+      "url": "https://www.plannedparenthood.org/learn/birth-control/iud/how-can-i-get-an-iud",
+      "design": "US consumer cost and access information; not a comparative clinical study",
+      "finding": "Advertised range $0–$1,800 for getting an IUD.",
+      "funding": "Nonprofit health-care provider publishes its own consumer education; funding for page not disclosed in retrieved text",
+      "coi": "Provider also offers contraceptive care; commercial and institutional incentives not fully audited",
+      "bias": "Illustrative price or coverage policy only; not a representative price survey, not applicable to every insurer, product or location. Not evidence of efficacy or clinical safety.",
+      "access": "Publisher-indexed original cost page; full page blocked/not retrieved",
+      "verified": "2026-11-27",
+      "certainty": "Descriptive access information, not clinical certainty",
+      "sponsorRole": "No study sponsorship inferred; page-level funding details not available",
+      "integrity": "Price and coverage may change; recheck before purchase"
+    },
+    {
+      "id": "CT-43",
+      "title": "Planned Parenthood: implant cost",
+      "url": "https://www.plannedparenthood.org/learn/birth-control/birth-control-implant-nexplanon/how-can-i-get-the-birth-control-implant",
+      "design": "US consumer cost and access information; not a comparative clinical study",
+      "finding": "Advertised range $0–$2,300 for getting an implant.",
+      "funding": "Nonprofit health-care provider publishes its own consumer education; funding for page not disclosed in retrieved text",
+      "coi": "Provider also offers contraceptive care; commercial and institutional incentives not fully audited",
+      "bias": "Illustrative price or coverage policy only; not a representative price survey, not applicable to every insurer, product or location. Not evidence of efficacy or clinical safety.",
+      "access": "Publisher-indexed original cost page; full page blocked/not retrieved",
+      "verified": "2026-11-27",
+      "certainty": "Descriptive access information, not clinical certainty",
+      "sponsorRole": "No study sponsorship inferred; page-level funding details not available",
+      "integrity": "Price and coverage may change; recheck before purchase"
+    },
+    {
+      "id": "CT-44",
+      "title": "Planned Parenthood: injection cost",
+      "url": "https://www.plannedparenthood.org/learn/birth-control/birth-control-shot/how-much-does-the-birth-control-shot-cost",
+      "design": "US consumer cost and access information; not a comparative clinical study",
+      "finding": "Advertised range $0–$150 per shot.",
+      "funding": "Nonprofit health-care provider publishes its own consumer education; funding for page not disclosed in retrieved text",
+      "coi": "Provider also offers contraceptive care; commercial and institutional incentives not fully audited",
+      "bias": "Illustrative price or coverage policy only; not a representative price survey, not applicable to every insurer, product or location. Not evidence of efficacy or clinical safety.",
+      "access": "Publisher-indexed original cost page; full page blocked/not retrieved",
+      "verified": "2026-11-27",
+      "certainty": "Descriptive access information, not clinical certainty",
+      "sponsorRole": "No study sponsorship inferred; page-level funding details not available",
+      "integrity": "Price and coverage may change; recheck before purchase"
+    },
+    {
+      "id": "CT-45",
+      "title": "Planned Parenthood: birth control pill cost",
+      "url": "https://www.plannedparenthood.org/learn/birth-control/birth-control-pill/how-do-i-get-birth-control-pills",
+      "design": "US consumer cost and access information; not a comparative clinical study",
+      "finding": "Advertised $0–$50 per pack, usually one month; varies by product.",
+      "funding": "Nonprofit health-care provider publishes its own consumer education; funding for page not disclosed in retrieved text",
+      "coi": "Provider also offers contraceptive care; commercial and institutional incentives not fully audited",
+      "bias": "Illustrative price or coverage policy only; not a representative price survey, not applicable to every insurer, product or location. Not evidence of efficacy or clinical safety.",
+      "access": "Publisher-indexed original cost page; full page blocked/not retrieved",
+      "verified": "2026-11-27",
+      "certainty": "Descriptive access information, not clinical certainty",
+      "sponsorRole": "No study sponsorship inferred; page-level funding details not available",
+      "integrity": "Price and coverage may change; recheck before purchase"
+    },
+    {
+      "id": "CT-46",
+      "title": "Planned Parenthood: patch cost",
+      "url": "https://www.plannedparenthood.org/learn/birth-control/birth-control-patch/how-do-i-get-birth-control-patch",
+      "design": "US consumer cost and access information; not a comparative clinical study",
+      "finding": "Advertised $0–$150 per pack of patches.",
+      "funding": "Nonprofit health-care provider publishes its own consumer education; funding for page not disclosed in retrieved text",
+      "coi": "Provider also offers contraceptive care; commercial and institutional incentives not fully audited",
+      "bias": "Illustrative price or coverage policy only; not a representative price survey, not applicable to every insurer, product or location. Not evidence of efficacy or clinical safety.",
+      "access": "Publisher-indexed original cost page; full page blocked/not retrieved",
+      "verified": "2026-11-27",
+      "certainty": "Descriptive access information, not clinical certainty",
+      "sponsorRole": "No study sponsorship inferred; page-level funding details not available",
+      "integrity": "Price and coverage may change; recheck before purchase"
+    },
+    {
+      "id": "CT-47",
+      "title": "Planned Parenthood: vaginal ring cost",
+      "url": "https://www.plannedparenthood.org/learn/birth-control/birth-control-vaginal-ring-nuvaring/how-do-i-get-nuvaring",
+      "design": "US consumer cost and access information; not a comparative clinical study",
+      "finding": "Advertised $0–$200 per NuvaRing; $0–$2,200 per year-long Annovera ring; not comparable units.",
+      "funding": "Nonprofit health-care provider publishes its own consumer education; funding for page not disclosed in retrieved text",
+      "coi": "Provider also offers contraceptive care; commercial and institutional incentives not fully audited",
+      "bias": "Illustrative price or coverage policy only; not a representative price survey, not applicable to every insurer, product or location. Not evidence of efficacy or clinical safety.",
+      "access": "Publisher-indexed original cost page; full page blocked/not retrieved",
+      "verified": "2026-11-27",
+      "certainty": "Descriptive access information, not clinical certainty",
+      "sponsorRole": "No study sponsorship inferred; page-level funding details not available",
+      "integrity": "Price and coverage may change; recheck before purchase"
+    },
+    {
+      "id": "CT-48",
+      "title": "Planned Parenthood: external condom cost",
+      "url": "https://www.plannedparenthood.org/learn/birth-control/condom/how-do-i-get-condoms",
+      "design": "US consumer cost and access information; not a comparative clinical study",
+      "finding": "About $1 each on average according to provider; free options available.",
+      "funding": "Nonprofit health-care provider publishes its own consumer education; funding for page not disclosed in retrieved text",
+      "coi": "Provider also offers contraceptive care; commercial and institutional incentives not fully audited",
+      "bias": "Illustrative price or coverage policy only; not a representative price survey, not applicable to every insurer, product or location. Not evidence of efficacy or clinical safety.",
+      "access": "Publisher-indexed original cost page; full page blocked/not retrieved",
+      "verified": "2026-11-27",
+      "certainty": "Descriptive access information, not clinical certainty",
+      "sponsorRole": "No study sponsorship inferred; page-level funding details not available",
+      "integrity": "Price and coverage may change; recheck before purchase"
+    },
+    {
+      "id": "CT-49",
+      "title": "Planned Parenthood: internal condom cost",
+      "url": "https://www.plannedparenthood.org/learn/birth-control/internal-condom/how-do-i-buy-internal-condoms",
+      "design": "US consumer cost and access information; not a comparative clinical study",
+      "finding": "Advertised $2–$3 each without insurance.",
+      "funding": "Nonprofit health-care provider publishes its own consumer education; funding for page not disclosed in retrieved text",
+      "coi": "Provider also offers contraceptive care; commercial and institutional incentives not fully audited",
+      "bias": "Illustrative price or coverage policy only; not a representative price survey, not applicable to every insurer, product or location. Not evidence of efficacy or clinical safety.",
+      "access": "Publisher-indexed original cost page; full page blocked/not retrieved",
+      "verified": "2026-11-27",
+      "certainty": "Descriptive access information, not clinical certainty",
+      "sponsorRole": "No study sponsorship inferred; page-level funding details not available",
+      "integrity": "Price and coverage may change; recheck before purchase"
+    },
+    {
+      "id": "CT-50",
+      "title": "Planned Parenthood: diaphragm cost",
+      "url": "https://www.plannedparenthood.org/learn/birth-control/diaphragm/how-do-i-get-a-diaphragm",
+      "design": "US consumer cost and access information; not a comparative clinical study",
+      "finding": "Advertised $0–about $250 including exam, fitting and device; spermicide is an additional consumable.",
+      "funding": "Nonprofit health-care provider publishes its own consumer education; funding for page not disclosed in retrieved text",
+      "coi": "Provider also offers contraceptive care; commercial and institutional incentives not fully audited",
+      "bias": "Illustrative price or coverage policy only; not a representative price survey, not applicable to every insurer, product or location. Not evidence of efficacy or clinical safety.",
+      "access": "Publisher-indexed original cost page; full page blocked/not retrieved",
+      "verified": "2026-11-27",
+      "certainty": "Descriptive access information, not clinical certainty",
+      "sponsorRole": "No study sponsorship inferred; page-level funding details not available",
+      "integrity": "Price and coverage may change; recheck before purchase"
     }
   ],
   "sections": [
@@ -1400,7 +1550,17 @@
         "CT-24",
         "CT-25",
         "CT-27"
-      ]
+      ],
+      "slug": "copper-iud",
+      "art": "iud",
+      "short": "No hormones",
+      "pro": "Long-acting without daily remembering; low pregnancy failure estimate.",
+      "con": "Heavier periods and cramps; clinician placement/removal; no STI protection.",
+      "price": "$0–$1,800",
+      "priceContext": "Initial IUD visit example; ask about insertion, anesthesia, follow-up and removal charges.",
+      "costId": "CT-42",
+      "pain": "IUD placement can be painful. Individual pain varies; the trials compared anesthetic approaches, not IUD types.",
+      "related": "placement-pain"
     },
     {
       "name": "LNG IUD",
@@ -1422,7 +1582,17 @@
         "CT-25",
         "CT-32",
         "CT-34"
-      ]
+      ],
+      "slug": "hormonal-iud",
+      "art": "iud",
+      "short": "Local progestin",
+      "pro": "Low typical-use pregnancy rate; often lighter periods.",
+      "con": "Progestin reaches blood; spotting, device procedure and uncertain rare long-term associations.",
+      "price": "$0–$1,800",
+      "priceContext": "Initial IUD visit example; verify device, pain-control and removal coverage.",
+      "costId": "CT-42",
+      "pain": "Same general uterine placement procedure as copper IUD; no reliable pain ranking between devices.",
+      "related": "placement-pain"
     },
     {
       "name": "Arm implant",
@@ -1443,7 +1613,17 @@
         "CT-24",
         "CT-34",
         "CT-35"
-      ]
+      ],
+      "slug": "implant",
+      "art": "implant",
+      "short": "Systemic progestin",
+      "pro": "Long-acting, low typical-use pregnancy rate; reversible by removal.",
+      "con": "Irregular bleeding; systemic progestin; procedure to remove it.",
+      "price": "$0–$2,300",
+      "priceContext": "Initial implant example; confirm placement and later removal charges.",
+      "costId": "CT-43",
+      "pain": "Skin insertion and removal with local anesthesia; no comparable numeric pain estimate for ranking against IUD placement.",
+      "related": "implant-injection"
     },
     {
       "name": "Injection",
@@ -1465,7 +1645,17 @@
         "CT-30",
         "CT-31",
         "CT-32"
-      ]
+      ],
+      "slug": "injection",
+      "art": "injection",
+      "short": "Systemic progestin",
+      "pro": "No daily pill or implanted device.",
+      "con": "Cannot undo an administered dose; bone-density and weight considerations; longer fertility delay.",
+      "price": "$0–$150",
+      "priceContext": "Per shot, not per year; visit and administration fees may vary.",
+      "costId": "CT-44",
+      "pain": "Injection discomfort varies; no reliable comparable numeric score.",
+      "related": "implant-injection"
     },
     {
       "name": "Combined pill",
@@ -1487,7 +1677,17 @@
         "CT-12",
         "CT-13",
         "CT-35"
-      ]
+      ],
+      "slug": "combined-pill",
+      "art": "pill",
+      "short": "Estrogen + progestin",
+      "pro": "No placement; user can discontinue; may help cycle-related symptoms.",
+      "con": "Daily adherence; estrogen-related clot and vascular eligibility; systemic exposure.",
+      "price": "$0–$50",
+      "priceContext": "Per pack, usually a month; confirm product and prescription fees.",
+      "costId": "CT-45",
+      "pain": "No device insertion; headache, cramps or other symptoms are different from procedural pain.",
+      "related": "pill-patch-ring"
     },
     {
       "name": "Patch",
@@ -1509,7 +1709,17 @@
         "CT-12",
         "CT-13",
         "CT-35"
-      ]
+      ],
+      "slug": "patch",
+      "art": "patch",
+      "short": "Estrogen + progestin",
+      "pro": "No uterine placement; scheduled changes instead of daily pill.",
+      "con": "Systemic estrogen and progestin; adherence, skin irritation and vascular eligibility.",
+      "price": "$0–$150",
+      "priceContext": "Per pack of patches; confirm pack size and product.",
+      "costId": "CT-46",
+      "pain": "Applied to skin; no invasive placement. Skin irritation may occur.",
+      "related": "pill-patch-ring"
     },
     {
       "name": "Vaginal ring",
@@ -1531,7 +1741,17 @@
         "CT-12",
         "CT-13",
         "CT-35"
-      ]
+      ],
+      "slug": "ring",
+      "art": "ring",
+      "short": "Estrogen + progestin",
+      "pro": "Self-placed and removable; no daily pill.",
+      "con": "Systemic hormone exposure; vaginal discomfort or handling concerns; estrogen eligibility.",
+      "price": "$0–$200",
+      "priceContext": "Per NuvaRing example; Annovera has a separate year-long price range of $0–$2,200.",
+      "costId": "CT-47",
+      "pain": "Self-insertion; possible local discomfort; not equivalent to IUD insertion.",
+      "related": "pill-patch-ring"
     },
     {
       "name": "Progestin-only pill",
@@ -1553,7 +1773,17 @@
         "CT-12",
         "CT-34",
         "CT-35"
-      ]
+      ],
+      "slug": "mini-pill",
+      "art": "pill",
+      "short": "Systemic progestin",
+      "pro": "No estrogen and no placement; user can discontinue.",
+      "con": "Daily adherence; unscheduled bleeding; systemic progestin effects remain possible.",
+      "price": "$0–$50",
+      "priceContext": "General pill-pack example, not a specific mini-pill price; usually a month.",
+      "costId": "CT-45",
+      "pain": "No placement procedure; symptoms may occur without insertion pain.",
+      "related": "mini-pill"
     },
     {
       "name": "External condom",
@@ -1570,7 +1800,17 @@
       "profileSources": [
         "CT-01",
         "CT-03"
-      ]
+      ],
+      "slug": "external-condom",
+      "art": "barrier",
+      "short": "No hormones",
+      "pro": "No clinician placement; appropriate condoms reduce STI transmission.",
+      "con": "Used each time; breakage, slippage or material sensitivity.",
+      "price": "About $1 each",
+      "priceContext": "Illustrative per-unit price; free options and pack prices vary.",
+      "costId": "CT-48",
+      "pain": "No invasive procedure; friction or material sensitivity may affect comfort.",
+      "related": "barriers"
     },
     {
       "name": "Internal condom",
@@ -1587,7 +1827,17 @@
       "profileSources": [
         "CT-01",
         "CT-03"
-      ]
+      ],
+      "slug": "internal-condom",
+      "art": "barrier",
+      "short": "No hormones",
+      "pro": "No systemic hormone exposure; may reduce STI transmission.",
+      "con": "Requires correct placement each time; supply and comfort may vary.",
+      "price": "$2–$3 each",
+      "priceContext": "Illustrative uninsured price; free or covered supply may be available.",
+      "costId": "CT-49",
+      "pain": "Self-placed; possible discomfort; no comparable pain scale.",
+      "related": "barriers"
     },
     {
       "name": "Diaphragm",
@@ -1604,7 +1854,17 @@
       "profileSources": [
         "CT-01",
         "CT-03"
-      ]
+      ],
+      "slug": "diaphragm",
+      "art": "cup",
+      "short": "No hormones",
+      "pro": "Reusable barrier; no systemic hormone exposure.",
+      "con": "Requires fitting and spermicide; pregnancy prevention depends on correct use.",
+      "price": "$0–about $250",
+      "priceContext": "Example includes exam, fitting and device; recurring spermicide extra.",
+      "costId": "CT-50",
+      "pain": "Self-insertion after fitting; no invasive placement; possible local discomfort.",
+      "related": "barriers"
     },
     {
       "name": "Cervical cap",
@@ -1621,7 +1881,17 @@
       "profileSources": [
         "CT-01",
         "CT-03"
-      ]
+      ],
+      "slug": "cervical-cap",
+      "art": "cup",
+      "short": "No hormones",
+      "pro": "Reusable barrier; no added hormones.",
+      "con": "Fitting, spermicide and correct use; higher typical-use failure estimate.",
+      "price": "Check local price",
+      "priceContext": "Device, fitting and recurring spermicide costs; no verified comparable quote.",
+      "costId": "CT-41",
+      "pain": "Self-insertion after fitting; possible local discomfort.",
+      "related": "barriers"
     },
     {
       "name": "Sponge",
@@ -1638,7 +1908,17 @@
       "profileSources": [
         "CT-01",
         "CT-03"
-      ]
+      ],
+      "slug": "sponge",
+      "art": "cup",
+      "short": "No hormones",
+      "pro": "No systemic hormones; no clinician placement.",
+      "con": "Single-use; local irritation possible; availability varies.",
+      "price": "Check local price",
+      "priceContext": "Per-use supply; product availability and price not verified.",
+      "costId": "CT-41",
+      "pain": "Self-placed; irritation or discomfort possible.",
+      "related": "barriers"
     },
     {
       "name": "Spermicide / pH regulator",
@@ -1655,7 +1935,17 @@
       "profileSources": [
         "CT-01",
         "CT-03"
-      ]
+      ],
+      "slug": "gel",
+      "art": "gel",
+      "short": "No hormones",
+      "pro": "No systemic contraceptive hormones or implanted device.",
+      "con": "Use around sex; irritation possible; products differ and are not interchangeable.",
+      "price": "Check local price",
+      "priceContext": "Per-use supply; prescription pH gel and OTC spermicide have different costs.",
+      "costId": "CT-41",
+      "pain": "No invasive procedure; local burning or irritation may occur.",
+      "related": "barriers"
     },
     {
       "name": "Fertility-awareness methods",
@@ -1672,7 +1962,17 @@
       "profileSources": [
         "CT-01",
         "CT-09"
-      ]
+      ],
+      "slug": "fertility-awareness",
+      "art": "cycle",
+      "short": "No hormones",
+      "pro": "No drug exposure, invasive procedure or pharmacologic delay.",
+      "con": "Training and adherence required; estimates vary greatly; cycle changes complicate use.",
+      "price": "Varies by approach",
+      "priceContext": "May involve instruction, thermometer, tests or app; no single verified price.",
+      "costId": "CT-41",
+      "pain": "No insertion; burden is tracking and behavior, not procedure pain.",
+      "related": "fertility-awareness"
     }
   ],
   "evidencePanels": [
