@@ -1,10 +1,10 @@
 import {Link} from 'react-router-dom'
 import type {ReactNode} from 'react'
 import {useViewState} from '../hooks/useViewMemory'
-export const week22Base='/timeline/week/22'
+const week22Base='/timeline/week/22'
 type Crumb={label:string;to:string}
 export function WeekContext({subject,topic,section}:{subject:'mother'|'baby';topic?:Crumb;section?:Crumb}){
- return <nav className="week-context" aria-label="Week 22 context"><Link to={week22Base+'?subject='+subject}>Week 22 · {subject==='mother'?'Mother':'Baby'}</Link>{topic&&<><span aria-hidden="true">/</span><Link to={topic.to}>{topic.label}</Link></>}{section&&<><span aria-hidden="true">/</span><Link to={section.to}>{section.label}</Link></>}</nav>
+ return <nav className="week-context" aria-label="Week 22 context"><Link to={week22Base+'?subject='+subject}>Week 22 · {subject==='mother'?'Mother':'Baby'}</Link>{topic&&<><span aria-hidden="true">/</span><Link to={topic.to} aria-label={'All '+topic.label+' topics'}>{topic.label}</Link></>}{section&&<><span aria-hidden="true">/</span><Link to={section.to} aria-label={'All '+section.label+' readings'}>{section.label}</Link></>}</nav>
 }
 export function WeekDisclosure({id,title,children}:{id:string;title:string;children:ReactNode}){
  const [open,setOpen]=useViewState('week22.reading.'+id,false)
