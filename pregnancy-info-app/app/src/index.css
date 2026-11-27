@@ -795,3 +795,28 @@ button.reader-back:focus-visible{outline-offset:3px}
 /* Short setup sheets retain a visible dismissal control. */
 .phase-dialog .sheet-skip{position:sticky;bottom:0;background:var(--bg-elevated);border-top:1px solid var(--line);border-radius:8px;min-height:44px}
 @media(max-height:700px){.phase-dialog .choice-row{min-height:48px;padding:.3rem .6rem}.phase-dialog .sheet-options{gap:.25rem}.phase-dialog .page-title{font-size:1.45rem}.phase-dialog p{margin:.3rem 0 .45rem}}
+
+/* Editorial reading layers — maintain Morning Stone and accessible native disclosure. */
+.reader-page{gap:.85rem}
+.reader-page .reader-heading{padding-bottom:0}
+.reader-heading .page-title{font-size:clamp(1.72rem,6.5vw,2.15rem);line-height:1.12}
+.reader-page .safety-panel{padding:.65rem .8rem}
+.reader-page .safety-panel p{font-size:.84rem;line-height:1.5}
+.reader-overview{display:grid;gap:.6rem}
+.reader-overview h2,.reader-purpose{margin:0}
+.reader-purpose{font-size:.96rem;line-height:1.55}
+.topic-map{margin:0;padding:.85rem .65rem;background:var(--bg-elevated);border:1px solid var(--line);border-radius:14px;display:grid;gap:.45rem}
+.topic-map figcaption{font:500 1.1rem/1.3 var(--font-display);text-align:center;color:var(--ink)}
+.topic-map-branches{display:grid;gap:0;color:var(--accent-text)}
+.topic-map-branches>svg{display:block;width:100%;height:25px}
+.topic-map-nodes{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:.4rem}
+.topic-map-node{display:grid;align-content:start;justify-items:center;text-align:center;gap:.25rem;padding:.45rem .3rem;border-radius:9px;background:var(--accent-soft);min-width:0}
+.topic-map-node>span{font-size:1.45rem;line-height:1}
+.topic-map-node strong{font-size:.78rem;line-height:1.35;font-weight:600;color:var(--ink);overflow-wrap:anywhere}
+.topic-map>small{text-align:center;font-size:.7rem;color:var(--ink-muted)}
+.reader-visual-entry{display:grid;gap:.45rem}
+.reader-visual-entry .visual-source-row{min-height:56px}
+.visual-source-row svg{width:20px;height:20px;color:var(--accent-text)}
+.reader-visual-entry .btn{justify-self:start}
+.reader-visual-entry p{margin:0}
+@media(max-width:360px){.topic-map-node strong{font-size:.72rem}.topic-map-node{padding:.4rem .2rem}.reader-purpose{font-size:.91rem}}

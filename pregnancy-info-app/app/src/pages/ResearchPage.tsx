@@ -1,4 +1,5 @@
 import { Glyph } from '../components/Glyph'
+import { TopicOverview } from '../components/TopicOverview'
 import { useAppBack } from '../hooks/navigationContext'
 import { safeVisualUrl } from '../data/visualCatalog'
 import { domainLabels } from '../data/browseState'
@@ -38,14 +39,12 @@ export function ResearchPage() {
       <div className="reader-toolbar"><button type="button" className="reader-back" onClick={back}><Glyph name="back"/>Back</button><div className="reader-tools"><button type="button" className="header-action plain-icon" aria-label={prefs.bookmarks.includes(article.id)?'Remove bookmark':'Save bookmark'} aria-pressed={prefs.bookmarks.includes(article.id)} onClick={()=>toggleBookmark(article.id)}><Glyph name="bookmark"/><span>{prefs.bookmarks.includes(article.id)?'Saved':'Save'}</span></button><button type="button" className="header-action plain-icon" disabled={prefs.readArticles.includes(article.id)} onClick={()=>markRead(article.id)}><Glyph name="check"/><span>{prefs.readArticles.includes(article.id)?'Read':'Mark read'}</span></button></div></div>
       <header className="screen-heading reader-heading">
         <div className="eyebrow">
-          {domainLabels[article.domain]??article.domain} · {editorialPriorityLabel(article.priority)}
+          {domainLabels[article.domain]??article.domain}
         </div>
         <h1 className="page-title">
           {article.title}
         </h1>
-        <p className="lede" style={{ margin: 0 }}>
-          Research draft · independent clinical review pending.
-        </p>
+        <p className="small-copy muted">Research draft · clinical review pending</p>
       </header>
 
       <DraftBanner status="research_only" />
@@ -54,7 +53,8 @@ export function ResearchPage() {
         <p style={{ margin: 0 }}>{article.visible_safety}</p>
       </section>
 
-      <h2 className="section-title">Read &amp; explore</h2>
+      <TopicOverview key={article.id} id={article.id} visuals={visuals}/>
+      <h2 className="section-title">Research in detail</h2>
       <div className="surface-list reader-sections">
       <details className="panel disclosure reader-section">
         <summary>Archived AI summary for comparison</summary>
