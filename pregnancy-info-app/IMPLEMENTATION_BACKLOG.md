@@ -1,12 +1,14 @@
 # Implementation backlog
 
+**Current continuation:** See [STAGED_DEVELOPMENT.md](STAGED_DEVELOPMENT.md) for the owner-approved staged roadmap and Stage 1 static audit. The software foundation is implemented, but feature completeness, execution verification and clinical release remain pending.
+
 ## Done (software foundation + gated research integration)
 
 - [x] Usage audit baseline (Free plan; 90% of Agent 89; no paid usage)
 - [x] Architecture decision: Vite React TS PWA
 - [x] Private prototype routes + draft banners + urgent signs
 - [x] Fail-closed publication gate helpers + tests
-- [x] Design tokens (mineral teal / slate)
+- [x] Design tokens (Morning Stone default; Soft Fog alternative)
 - [x] Core docs: ARCHITECTURE, DESIGN_SYSTEM, COMPONENT_LIBRARY, etc.
 - [x] Sync + integrate stage-09/10 research drafts into app UI (gated)
 - [x] Held/excluded source filtering on article source panels
