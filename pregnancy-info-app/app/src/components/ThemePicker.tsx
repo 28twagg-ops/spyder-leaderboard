@@ -15,7 +15,7 @@ export function ThemePicker({
           Choose a calmer theme
         </h2>
         <p className="muted" style={{ margin: 0, fontSize: '0.92rem' }}>
-          Four inviting directions — saved on this device only. Soft Fog is the new default.
+          Four inviting directions — saved on this device only. Morning Stone is the default; Soft Fog remains available.
         </p>
       </div>
       <div className="theme-grid" role="group" aria-label="Theme options">
