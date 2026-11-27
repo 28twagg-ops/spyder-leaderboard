@@ -1,3 +1,5 @@
+> **Controlling owner directive — 2026-11-27:** Read [AGENT_WORKFLOW.md](AGENT_WORKFLOW.md), [design/VISUAL_ACCEPTANCE_STANDARD.md](design/VISUAL_ACCEPTANCE_STANDARD.md), and [COMPLETION_CHECKLIST.md](COMPLETION_CHECKLIST.md) before any work. Morning Stone and approved editorial composition are locked; prior grants of unconstrained visual freedom are superseded. Current app code is on `everwell-iphone-preview`; main holds research/governance. Existing authenticated private preview is authorized for owner testing only. Actual rendered screenshot review and owner acceptance are required, not just successful build. Independent workers where available; no invented agents or results. Clinical publication locks and budget requirements remain controlling. Update the checklist after each verified batch.
+
 # Everwell design system
 
 ## Direction
