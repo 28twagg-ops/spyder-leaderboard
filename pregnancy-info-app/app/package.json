@@ -15,7 +15,7 @@
     "test": "vitest run",
     "test:watch": "vitest",
     "validate:research": "node scripts/run-research-validators.mjs",
-    "postbuild": "node scripts/check-production-media.mjs",
+    "postbuild": "node scripts/check-production-media.mjs && node scripts/check-production-privacy.mjs",
     "build:portable": "node scripts/build-portable.mjs",
     "prebuild:portable": "node scripts/sync-research.mjs",
     "audit:dependencies": "node scripts/audit-dependencies.mjs"

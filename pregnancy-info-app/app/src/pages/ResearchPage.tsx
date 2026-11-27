@@ -1,6 +1,7 @@
 import { Glyph } from '../components/Glyph'
 import { plainReading } from '../data/plainReading'
 import { readingOverview } from '../data/readingOverviews'
+import { RememberedReadingDetails } from '../components/RememberedReadingDetails'
 import { TopicOverview } from '../components/TopicOverview'
 import { useAppBack } from '../hooks/navigationContext'
 import { safeVisualUrl } from '../data/visualCatalog'
@@ -66,7 +67,7 @@ export function ResearchPage() {
 
       {urgent&&why}
       <TopicOverview key={article.id} id={article.id} visuals={visuals}>
-        {plain&&<details className="panel disclosure reader-understand" id="understand-more"><summary><span><strong>Understand more</strong><small>How it works, what studies found and what is still uncertain.</small></span></summary><p className="small-copy muted">Unreviewed research summary, not medical advice.</p><p>{plain.detail}</p><Link className="topic-link" to={{hash:"#research-details"}}>Explore the science ›</Link></details>}
+        {plain&&<RememberedReadingDetails articleId={article.id}><p className="small-copy muted">Unreviewed research summary, not medical advice.</p><p>{plain.detail}</p><Link className="topic-link" to={{hash:"#research-details"}}>Explore the science ›</Link></RememberedReadingDetails>
       </TopicOverview>
       <h2 className="section-title" id="research-details">Explore the science</h2>
       <div className="surface-list reader-sections">

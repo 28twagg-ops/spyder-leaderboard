@@ -1,5 +1,5 @@
 import type { ReactNode } from 'react'
-import { useState } from 'react'
+import { useViewState } from '../hooks/useViewMemory'
 import { Link } from 'react-router-dom'
 import { readingOverview,textbookLinks } from '../data/readingOverviews'
 import { safeVisualUrl, type VisualRecord } from '../data/visualCatalog'
@@ -10,7 +10,7 @@ import { ConceptArt } from './ConceptArt'
 /** A topic map organizes the article's reading subjects, not biological pathways or a care sequence. */
 export function TopicOverview({id,visuals,children}:{id:string;visuals:VisualRecord[];children?:ReactNode}){
  const overview=readingOverview(id)
- const [expanded,setExpanded]=useState(false)
+ const [expanded,setExpanded]=useViewState('reader.'+id+'.visuals',false)
  if(!overview)return null
  const external=textbookLinks[id]??[]
  return <section className="reader-overview" aria-label="Visual topic overview">
