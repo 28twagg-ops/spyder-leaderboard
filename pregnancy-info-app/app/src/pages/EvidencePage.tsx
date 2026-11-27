@@ -1,5 +1,6 @@
 import { useState } from 'react'
-import { Link } from 'react-router-dom'
+import { Link, useParams, useNavigate } from 'react-router-dom'
+import { ScreenHeading, FeatureCard } from '../components/ReadingUI'
 import { DraftBanner } from '../components/DraftBanner'
 import {
   evidenceStats, filterNutrients, filterOutcomes, getEvidenceSource, nutrients, paginate,
@@ -60,7 +61,9 @@ function PageControls({ page, pages, first, last, total, setPage }: {
 
 export function EvidencePage() {
   const stats = evidenceStats()
-  const [mode, setMode] = useState<'outcomes' | 'nutrients'>('outcomes')
+  const {collection}=useParams()
+  const navigate=useNavigate()
+  const mode=collection==='nutrients'?'nutrients':'outcomes'
   const [query, setQuery] = useState('')
   const [hold, setHold] = useState<HoldFilter>('all')
   const [lifeStage, setLifeStage] = useState('all')
@@ -69,17 +72,10 @@ export function EvidencePage() {
   const nutrientPage = paginate(filterNutrients({ query, hold, lifeStage }), page, pageSize)
   const current = mode === 'outcomes' ? outcomePage : nutrientPage
 
+  if(!collection) return <div className="stack-lg"><ScreenHeading title="Research & sources" subtitle="Explore the science behind Everwell." back="/explore" backLabel="Explore"/><FeatureCard to="/evidence/outcomes" title="Scientific outcomes" subtitle={`${stats.outcomes} research records · ${stats.heldOutcomes} held`} icon="chart"/><FeatureCard to="/evidence/nutrients" title="Nutrition references" subtitle={`${stats.nutrients} reference records · ${stats.heldNutrients} held`} icon="leaf"/><section className="panel stack"><h2 className="section-title">Understanding the evidence</h2><p className="muted">Records are not independent study counts. Held values are hidden. Other records are unverified drafts, not individual risk estimates or supplement prescriptions.</p><p className="muted">Original sources and funding information are available within each record.</p></section><DraftBanner status="research_only"/></div>
   return (
     <div className="stack-lg">
-      <Link className="reader-back" to="/explore">‹ Explore</Link>
-      <header className="screen-heading">
-        <div className="eyebrow">Evidence library</div>
-        <h1 className="page-title">Outcomes & nutrients</h1>
-        <p className="lede" style={{ margin: 0 }}>
-          Explore the complete draft evidence inventory. Records are not independent study counts.
-          Clinical charting, individualized dosing, ranking and automated recommendations remain blocked.
-        </p>
-      </header>
+      <ScreenHeading title={mode==='outcomes'?'Scientific outcomes':'Nutrition references'} subtitle="Browse draft records and their original sources." back="/evidence" backLabel="Research & sources"/>
       <DraftBanner status="research_only" />
       <details className="panel disclosure">
         <summary>Research inventory</summary>
@@ -94,12 +90,13 @@ export function EvidencePage() {
       <section className="panel stack" aria-labelledby="evidence-filters">
         <h2 id="evidence-filters" style={{ margin: 0, fontSize: '1.1rem' }}>Browse records</h2>
         <label htmlFor="evidence-kind">Record type</label>
-        <select id="evidence-kind" value={mode} onChange={(event) => { setMode(event.target.value === 'nutrients' ? 'nutrients' : 'outcomes'); setPage(1) }} style={{ minHeight: 44 }}>
+        <select id="evidence-kind" value={mode} onChange={(event) => { navigate('/evidence/'+event.target.value); setPage(1) }} style={{ minHeight: 44 }}>
           <option value="outcomes">Scientific outcomes</option>
           <option value="nutrients">Nutrient reference intakes</option>
         </select>
         <label htmlFor="evidence-query">Search records or sources</label>
         <input id="evidence-query" type="search" value={query} onChange={(event) => { setQuery(event.target.value); setPage(1) }} placeholder="Topic, source ID, DOI, PMID…" style={{ minHeight: 44 }} />
+        <details className="disclosure filter-disclosure"><summary>More filters</summary>
         <label htmlFor="evidence-hold">Review hold</label>
         <select id="evidence-hold" value={hold} onChange={(event) => { setHold(event.target.value as HoldFilter); setPage(1) }} style={{ minHeight: 44 }}>
           <option value="all">All records</option>
@@ -114,17 +111,17 @@ export function EvidencePage() {
           </select>
         </>}
         <button className="btn btn-ghost" type="button" onClick={() => { setQuery(''); setHold('all'); setLifeStage('all'); setPage(1) }}>Clear filters</button>
+        </details>
         <PageControls page={current.page} pages={current.pages} first={current.first} last={current.last} total={current.total} setPage={setPage} />
       </section>
       {current.total === 0 && <p role="status">No matching records. Try clearing or changing the filters.</p>}
 
       {mode === 'outcomes' ? (
-        <section className="stack" aria-label="Scientific outcome records">
+        <section className="surface-list evidence-list" aria-label="Scientific outcome records">
           {outcomePage.rows.map((row) => (
-            <article className="panel stack" key={row.id}>
+            <details className="disclosure evidence-record" key={row.id}><summary><span>
               <div className={`section-label ${row.held ? 'warn' : ''}`.trim()}>{row.displayNote}</div>
-              <h2 style={{ margin: 0, fontSize: '1.05rem' }}>{row.outcome}</h2>
-              <p className="muted">{row.id} · Source {row.source_id}</p>
+              <strong>{row.outcome}</strong><small>{row.id} · Source {row.source_id}</small></span></summary><div className="stack record-detail">
               {row.held ? <p>Numerical results withheld pending review.</p> : <>
                 <p>Measure: {displayValue(row.measure)} · Estimate: {displayValue(row.estimate)}</p>
                 <p>Reported bounds: {displayValue(row.lower)} to {displayValue(row.upper)} · Interval label (as recorded): {displayValue(row.interval)}</p>
@@ -133,24 +130,25 @@ export function EvidencePage() {
                 <p className="muted">No pooled interpretation or individual risk estimate. Interval labels are preserved as reported, not assumed to be confidence intervals.</p>
               </>}
               <Provenance sourceId={row.source_id} origin={row.origin} blob={row.origin_blob_sha} index={row.index} locator={row.held ? undefined : row.record?.locator ?? row.record?.source_locator} />
-            </article>
+              </div>
+            </details>
           ))}
         </section>
       ) : (
-        <section className="stack" aria-label="Nutrient reference records">
+        <section className="surface-list evidence-list" aria-label="Nutrient reference records">
           <p className="muted">These are reference records, not supplement prescriptions. Upper limits are not targets. Scope, units and life stage matter; missing limits do not establish safety.</p>
           {nutrientPage.rows.map((row) => (
-            <article className="panel stack" key={row.id}>
+            <details className="disclosure evidence-record" key={row.id}><summary><span>
               <div className={`section-label ${row.held || row.isDoseClaim ? 'warn' : ''}`.trim()}>{row.displayNote}</div>
-              <h2 style={{ margin: 0, fontSize: '1.05rem' }}>{row.nutrient} · {displayValue(row.life_stage)}</h2>
-              <p className="muted">{row.id} · Age: {displayValue(row.age)}</p>
+              <strong>{row.nutrient} · {displayValue(row.life_stage)}</strong><small>{row.id} · Age: {displayValue(row.age)}</small></span></summary><div className="stack record-detail">
               {row.held || row.isDoseClaim ? <p>Numerical values withheld pending review.</p> : <>
                 <p>Reference type: {displayValue(row.intake_type)} · Intake: {displayValue(row.intake)} {row.intake != null ? row.unit : ''}</p>
                 <p>Upper limit: {displayValue(row.upper_limit)} {row.upper_limit != null ? displayValue(row.upper_limit_unit) : ''}</p>
                 <p>Upper-limit scope: {displayValue(row.upper_limit_scope)}</p>
               </>}
               <Provenance sourceId={row.source_id} origin={row.origin} blob={row.origin_blob_sha} index={row.index} locator={row.held || row.isDoseClaim ? undefined : row.record?.locator} />
-            </article>
+              </div>
+            </details>
           ))}
         </section>
       )}

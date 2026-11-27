@@ -18,7 +18,7 @@ export function BodyMap() {
         <h2 id="body-map-heading" className="section-title">Explore by body area</h2>
         <p className="muted">A stylized topic navigator, not an anatomical diagram or symptom checker.</p>
       </div>
-      <div className="body-compact"><figure className="panel body-map-figure">
+      <div className="body-feature"><figure className="panel body-map-figure">
         <svg viewBox="0 0 320 265" aria-hidden="true" focusable="false">
           <g stroke="var(--accent)" fill="var(--bg-soft)" strokeWidth="1.6" strokeLinejoin="round">
             <ellipse cx="160" cy="29" rx="22" ry="25" />

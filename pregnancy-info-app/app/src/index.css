@@ -667,3 +667,85 @@ body{line-height:1.42}
 .reader-section{background:var(--bg-elevated);padding:.4rem .85rem}
 .reader-section summary{font-size:.96rem}
 @media(max-width:360px){.journey-card,.feature-link{grid-template-columns:44px minmax(0,1fr) auto;gap:.55rem}.journey-emblem{width:44px;height:44px}.explore-grid .discover-tile{padding:.6rem}}
+
+/* Match the approved compact editorial mockup. No palette or typeface changes. */
+.app-shell{max-width:600px;padding:calc(18px + var(--safe-top)) 20px calc(var(--nav-h) + 18px + var(--safe-bottom))}
+:root{--nav-h:6.5rem}
+body{background:var(--bg)}
+.editorial-home{gap:1rem;max-width:100%}
+.editorial-masthead{border:0;padding:0;gap:.35rem}
+.editorial-masthead .brand{font-size:2rem;font-weight:500}
+.editorial-home .header-action{font-size:.69rem}
+.home-intro{min-height:104px;padding:.2rem 0;display:flex;flex-direction:column;justify-content:center}
+.home-intro h2{font-size:clamp(1.95rem,8vw,2.6rem);line-height:1.06;letter-spacing:-.045em;max-width:75%;margin:0}
+.home-intro p{font-size:.83rem;line-height:1.45;margin:.6rem 0 0;max-width:90%}
+.home-botanical{width:40%;right:0;top:0;max-height:130px;opacity:.8}
+.editorial-home .phase-feature{background:var(--bg-elevated);padding:.9rem 1rem;border-radius:14px;min-height:112px}
+.editorial-home .phase-feature h2{font-size:1.3rem;margin:.25rem 0}
+.phase-footer{gap:.15rem;align-items:center}
+.phase-footer a{flex:1;gap:.45rem;font-weight:500;font-size:.85rem}
+.phase-footer a span{margin-left:auto}
+.phase-footer .phase-change{font-size:.74rem}
+.discover-heading,.section-title{font-family:var(--font-display);font-weight:500;letter-spacing:-.02em;font-size:1.3rem}
+.discover-grid{gap:.6rem}
+.discover-grid .discover-tile{display:flex;flex-direction:column;align-items:flex-start;justify-content:center;gap:.6rem;min-height:88px;padding:.8rem 1rem;border-radius:13px}
+.discover-grid .discover-tile svg{width:26px;height:26px}
+.discover-grid .discover-tile strong{font-weight:600;font-size:.9rem}
+.editorial-home .draft-compact{padding:.45rem .65rem}
+.screen-heading{border:0;padding:.15rem 0 .35rem;gap:.35rem}
+.screen-heading .page-title,.reader-page .page-title{font-size:clamp(1.9rem,7vw,2.5rem);font-weight:500;letter-spacing:-.04em}
+.screen-heading .reader-back{min-height:44px;margin:0}
+.screen-subtitle{font-size:.88rem;margin:.1rem 0}
+.journey-card,.feature-link{border-radius:13px;background:var(--bg-elevated);min-height:72px;padding:.65rem .85rem}
+.journey-card strong,.feature-link strong{font-size:1.13rem;font-weight:500}
+.journey-card .journey-emblem,.feature-link .journey-emblem{width:44px;height:44px}
+.journey-emblem svg{width:25px;height:25px}
+.journey-card small,.feature-link small{font-size:.76rem}
+.explore-grid .discover-tile{min-height:82px;padding:.7rem .8rem}
+.explore-grid .discover-tile svg{width:22px;height:22px}
+.explore-grid .discover-tile small{font-size:.73rem}
+.bottom-nav{padding:.15rem 0 calc(.25rem + var(--safe-bottom));background:var(--bg-elevated)}
+.bottom-nav-inner{max-width:600px;gap:0;margin:auto;padding:0 .65rem}
+.global-urgent{font-size:.74rem;min-height:44px;border-bottom:1px solid var(--line);font-weight:600}
+.nav-link{min-height:48px;font-size:.73rem;font-weight:500}
+.nav-link.active{font-weight:700;color:var(--accent-text)}
+.nav-link.active .icon{color:var(--accent-text)}
+.reader-toolbar{display:flex;align-items:center;justify-content:space-between;gap:.5rem;border-bottom:1px solid var(--line)}
+.reader-tools{display:flex;gap:.3rem;align-items:center}
+.reader-toolbar .reader-back{gap:.25rem}
+.reader-toolbar .reader-back svg{width:18px;height:18px}
+.plain-icon{border:0;background:transparent;cursor:pointer}
+.plain-icon:disabled{opacity:.8}
+.plain-icon[aria-pressed=true] svg{fill:var(--accent-soft);stroke-width:2.5}
+.reader-sections>.reader-section{border:0;border-bottom:1px solid var(--line);border-radius:0;background:transparent;padding:.35rem .85rem;box-shadow:none}
+.reader-sections>.reader-section:last-child{border-bottom:0}
+.reader-sections summary{font-weight:650;min-height:52px}
+.evidence-list>.evidence-record{padding:.35rem .85rem;border-bottom:1px solid var(--line)}
+.evidence-list>.evidence-record:last-child{border-bottom:0}
+.evidence-record summary{min-height:56px}
+.evidence-record summary strong{display:block;font-size:.94rem;line-height:1.4}
+.evidence-record summary small{display:block;font-size:.75rem;font-weight:450;color:var(--ink-muted)}
+.evidence-record .section-label{font-size:.7rem;margin-bottom:.15rem}
+.record-detail{padding:.3rem 0 .7rem}
+.record-detail p{margin:.2rem 0;font-size:.88rem}
+.evidence-list>p{padding:.75rem;margin:0;font-size:.8rem;border-bottom:1px solid var(--line)}
+.filter-disclosure[open]{display:grid;gap:.45rem}
+.visual-result{display:grid;grid-template-columns:44px minmax(0,1fr) auto;gap:.65rem;align-items:center;padding:.7rem .75rem;border-bottom:1px solid var(--line);min-height:68px}
+.visual-result:last-child{border-bottom:0}
+.visual-result .journey-emblem{width:44px;height:44px}
+.visual-result h3{font-family:var(--font-body);font-size:.92rem;line-height:1.4;font-weight:650;margin:0}
+.visual-result small{color:var(--ink-muted);font-size:.73rem;display:block}
+.body-feature{display:grid;gap:.5rem;background:var(--hero-bg);padding:.7rem;border:1px solid var(--line);border-radius:14px}
+.body-feature .body-map-figure{background:transparent;border:0;padding:.2rem;box-shadow:none}
+.body-feature .body-map-figure svg{max-width:300px;max-height:230px}
+.body-feature .region-grid{grid-template-columns:repeat(2,minmax(0,1fr));gap:.4rem}
+.body-feature .region-grid button{background:var(--bg-elevated);font-size:.8rem}
+.body-feature .region-grid button[aria-pressed=true]{background:var(--accent-soft);border-color:var(--accent)}
+.search-input-wrap{position:relative}
+.search-input-wrap svg{position:absolute;left:.75rem;top:50%;transform:translateY(-50%);color:var(--accent-text);width:20px;height:20px;pointer-events:none}
+.search-input-wrap input{padding-left:2.5rem;border-color:var(--line);border-radius:12px;min-height:48px}
+.phase-dialog{border-radius:24px 24px 0 0;padding:12px 20px calc(18px + var(--safe-bottom))}
+.phase-dialog .choice-row{background:var(--bg-elevated);min-height:60px}
+.phase-dialog .sheet-skip{border:0;color:var(--accent-text)}
+@media(max-width:360px){.app-shell{padding-left:16px;padding-right:16px}.home-intro h2{font-size:1.85rem}.home-intro{min-height:96px}.discover-grid .discover-tile{min-height:78px}}
+@media(min-width:600px){.phase-dialog{border-radius:24px}}

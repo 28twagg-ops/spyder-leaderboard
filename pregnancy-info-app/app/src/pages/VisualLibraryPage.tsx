@@ -1,8 +1,10 @@
 import { useState } from 'react'
-import { Link } from 'react-router-dom'
+import { Link, useParams } from 'react-router-dom'
+import { Glyph } from '../components/Glyph'
+import { ScreenHeading } from '../components/ReadingUI'
 import { DraftBanner } from '../components/DraftBanner'
 import { VisualCard } from '../components/VisualCard'
-import { searchVisuals, visualCatalog } from '../data/visualCatalog'
+import { getVisual, searchVisuals, visualCatalog } from '../data/visualCatalog'
 
 const topics = [...new Set(visualCatalog.map((record) => record.topic))].sort()
 
@@ -12,14 +14,12 @@ export function VisualLibraryPage() {
   const [page,setPage]=useState(1)
   const records = searchVisuals(query, topic)
   const pages=Math.max(1,Math.ceil(records.length/8)),current=Math.min(page,pages)
+  const {visualId}=useParams()
+  const selected=visualId?getVisual(visualId):undefined
+  if(visualId)return <div className="stack-lg"><ScreenHeading title={selected?.title??'Reference not found'} subtitle="Original reference · review library" back="/visuals" backLabel="Visual references"/>{selected?<VisualCard record={selected}/>:<p>Choose an available reference from the library.</p>}<DraftBanner status="research_only"/></div>
   return (
     <div className="stack-lg">
-      <Link className="reader-back" to="/explore">‹ Explore</Link>
-      <header className="screen-heading">
-        <div className="eyebrow">Explore · Visual references</div>
-        <h1 className="page-title">See the science</h1>
-        <p className="lede">Explore original anatomy diagrams, scientific figures, development resources and educational videos. This is a review library, not a treatment guide.</p>
-      </header>
+      <ScreenHeading title="See the science" subtitle="Original illustrations, figures and educational resources." back="/explore" backLabel="Explore"/>
       <DraftBanner status="research_only" />
       <section className="panel stack" aria-label="Filter visual references">
         <label htmlFor="visual-query">Search visual references</label>
@@ -32,8 +32,8 @@ export function VisualLibraryPage() {
         <p role="status">{records.length} of {visualCatalog.length} visual references</p>
         <p className="muted">Original links open only when selected. Videos and unapproved external images are not embedded. Review flags do not constitute publication clearance.</p>
       </section>
-      <div className="topic-grid">
-        {records.slice((current-1)*8,current*8).map((record) => <VisualCard key={record.id} record={record} />)}
+      <div className="surface-list visual-results">
+        {records.slice((current-1)*8,current*8).map(record=><Link className="visual-result" key={record.id} to={`/visuals/${record.id}`}><span className="journey-emblem"><Glyph name="image"/></span><span><h3>{record.title}</h3><small>{record.topic.replaceAll('/',' / ')} · Review reference</small></span><span aria-hidden="true">›</span></Link>)}
       </div>
       {pages>1&&<div className="page-controls"><button className="btn btn-ghost" disabled={current===1} onClick={()=>setPage(current-1)}>Previous</button><span style={{textAlign:'center'}}>{current} / {pages}</span><button className="btn btn-ghost" disabled={current===pages} onClick={()=>setPage(current+1)}>Next</button></div>}
       {!records.length && <p>No matching visual references.</p>}

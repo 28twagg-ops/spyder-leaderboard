@@ -1,6 +1,7 @@
 import { Glyph } from '../components/Glyph'
 import { domainLabels } from './LibraryPage'
-import { VisualCard } from '../components/VisualCard'
+import { ReadingRow } from '../components/ReadingUI'
+import { articlesByDomain } from '../data/researchCatalog'
 import { articleVisuals } from '../data/visualCatalog'
 import { useLocalPrefs } from '../hooks/useLocalPrefs'
 import { Link, useParams, useNavigate, useLocation } from 'react-router-dom'
@@ -34,8 +35,8 @@ export function ResearchPage() {
 
   return (
     <div className="stack-lg reader-page">
-      <button type="button" className="reader-back" onClick={back}>‹ Back</button>
-      <header className="stack">
+      <div className="reader-toolbar"><button type="button" className="reader-back" onClick={back}><Glyph name="back"/>Back</button><div className="reader-tools"><button type="button" className="header-action plain-icon" aria-label={prefs.bookmarks.includes(article.id)?'Remove bookmark':'Save bookmark'} aria-pressed={prefs.bookmarks.includes(article.id)} onClick={()=>toggleBookmark(article.id)}><Glyph name="bookmark"/><span>{prefs.bookmarks.includes(article.id)?'Saved':'Save'}</span></button><button type="button" className="header-action plain-icon" disabled={prefs.readArticles.includes(article.id)} onClick={()=>markRead(article.id)}><Glyph name="check"/><span>{prefs.readArticles.includes(article.id)?'Read':'Mark read'}</span></button></div></div>
+      <header className="screen-heading reader-heading">
         <div className="eyebrow">
           {domainLabels[article.domain]??article.domain} · {editorialPriorityLabel(article.priority)}
         </div>
@@ -48,18 +49,13 @@ export function ResearchPage() {
       </header>
 
       <DraftBanner status="research_only" />
-      <div className="reader-actions">
-        <button type="button" className="btn btn-ghost" aria-pressed={prefs.bookmarks.includes(article.id)} onClick={() => toggleBookmark(article.id)}><Glyph name="bookmark"/>{prefs.bookmarks.includes(article.id) ? 'Remove bookmark' : 'Save bookmark'}</button>
-        <button type="button" className="btn btn-ghost" disabled={prefs.readArticles.includes(article.id)} onClick={() => markRead(article.id)}>{prefs.readArticles.includes(article.id) ? 'Marked read' : 'Mark as read'}</button>
-      </div>
-      <p className="muted small-copy">Reading markers stay on this device; not medical recommendations.</p>
-
       <section className="panel stack safety-panel">
         <div className="section-label danger">Visible safety</div>
         <p style={{ margin: 0 }}>{article.visible_safety}</p>
       </section>
 
-      <h2 className="section-title">Read & explore</h2>
+      <h2 className="section-title">Read &amp; explore</h2>
+      <div className="surface-list reader-sections">
       <details className="panel disclosure reader-section">
         <summary>Archived AI summary for comparison</summary>
         <p>Independent appraisal and clinical review are pending. This draft is for research comparison only.</p>
@@ -111,7 +107,7 @@ export function ResearchPage() {
       {visuals.length > 0 && <details className="panel disclosure reader-section">
         <summary>Visual references ({visuals.length})</summary>
         <p className="muted">Original illustrations and source links for review. Not evidence of treatment effectiveness or individual development.</p>
-        <div className="stack">{visuals.map((record) => <VisualCard key={record.id} record={record} />)}</div>
+        <div className="stack">{visuals.map(record=><ReadingRow key={record.id} to={`/visuals/${record.id}`} title={record.title} subtitle="Original reference · approval pending"/>)}</div>
       </details>}
       <details className="panel disclosure reader-section">
         <summary>Sources & funding context</summary>
@@ -145,6 +141,8 @@ export function ResearchPage() {
         </ul>
       </details>
 
+      </div>
+      <section className="stack"><h2 className="section-title">Related reading</h2><div className="surface-list">{articlesByDomain(article.domain).filter(a=>a.id!==article.id).slice(0,3).map(a=><ReadingRow key={a.id} to={`/research/${a.id}`} title={a.title}/>)}</div></section>
       <p className="muted" style={{ fontSize: '0.85rem' }}>
         Stage-09 curated text is archived AI comparison/navigation material until independent
         appraisal and qualified clinical review.

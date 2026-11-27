@@ -65,11 +65,13 @@ export default function App() {
             <Route path="/research" element={<Navigate to="/library" replace />} />
             <Route path="/research/:topicId" element={<ResearchPage />} />
             <Route path="/evidence" element={<EvidencePage />} />
+            <Route path="/evidence/:collection" element={<EvidencePage />} />
             <Route path="/library" element={<LibraryPage browse={browse} setBrowse={setBrowse}/>} />
             <Route path="/saved" element={<LibraryPage browse={browse} setBrowse={setBrowse}/>} />
             <Route path="/settings" element={<SettingsPage onClear={()=>setBrowse(emptyBrowse)}/>} />
             <Route path="/urgent" element={<UrgentPage/>} />
             <Route path="/visuals" element={<VisualLibraryPage />} />
+            <Route path="/visuals/:visualId" element={<VisualLibraryPage />} />
             <Route path="/install" element={<InstallPage />} />
             <Route path="*" element={<Navigate to="/" replace />} />
           </Routes>

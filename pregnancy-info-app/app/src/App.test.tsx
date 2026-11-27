@@ -87,8 +87,20 @@ describe('Everwell shell', () => {
     expect(screen.queryAllByRole('img')).toHaveLength(0)
     fireEvent.change(screen.getByLabelText('Search visual references'), { target: { value: 'pelvic floor' } })
     expect(screen.getByRole('heading', { name: 'Muscles of the pelvic floor' })).toBeInTheDocument()
+    fireEvent.click(screen.getByRole('link',{name:/Muscles of the pelvic floor/}))
+    expect(await screen.findByRole('heading',{name:'Muscles of the pelvic floor',level:1})).toBeInTheDocument()
+    expect(screen.queryAllByRole('img')).toHaveLength(0)
   })
 
+  it('opens scientific collections as focused destinations',async()=>{
+    render(<MemoryRouter initialEntries={['/evidence']}><App/></MemoryRouter>)
+    expect(await screen.findByRole('heading',{name:'Research & sources'})).toBeInTheDocument()
+    fireEvent.click(screen.getByRole('link',{name:/Scientific outcomes/}))
+    expect(await screen.findByRole('heading',{name:'Scientific outcomes'})).toBeInTheDocument()
+    const rows=document.querySelectorAll('.evidence-record')
+    expect(rows.length).toBeGreaterThan(0)
+    expect(Array.from(rows).every(row=>!row.hasAttribute('open'))).toBe(true)
+  })
   it('shows install help for Home Screen', () => {
     render(
       <MemoryRouter initialEntries={['/install']}>
