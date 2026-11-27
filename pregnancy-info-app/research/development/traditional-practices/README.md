@@ -16,3 +16,6 @@ See [EXPANDED_DISCOVERY_REGISTER.md](EXPANDED_DISCOVERY_REGISTER.md) for 120 dis
 
 ## Evidence continuation · 2026-11-27
 [Evidence continuation](EVIDENCE_CONTINUATION.md) maps all 120 questions to a research disposition. 61 new topic notes (28 preliminary source-linked, 27 contextual/indirect, 6 safety-held) plus 59 carried-forward records; 57 source/report records, not distinct underlying studies. All 120 have a source or context match, but context-only questions and earlier records still require direct appraisal. No clinical clearance or app publication. Funding, bias and overlap checks remain incomplete; use the source ledger and editorial handoff for further work.
+
+## Second expansion · 200 total discovery questions
+[Additional discovery TX-121–200](ADDITIONAL_DISCOVERY_121_200.md) adds 80 entries, 36 preliminary source records, 42 source-linked topics, 12 context-only topics, 12 safety holds and 14 unscreened leads. Counts are distinct question entries across these two registers, not globally new articles or fully audited interventions. Preserve research-only status and reconcile sources and claims before integration.
