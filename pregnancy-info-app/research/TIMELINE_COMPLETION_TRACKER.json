@@ -7,7 +7,7 @@
     "tracker": "research/TIMELINE_COMPLETION_TRACKER.md",
     "base_week_data": "research/staged-completion/stage-09/GESTATIONAL_WEEKS.json",
     "base_phase_data": "research/staged-completion/stage-09/TIMELINE.json",
-    "preview_candidate": "b163680f2c207640e3ea5c272bd83a77015d45ce"
+    "preview_candidate": "2fec078e1a42de4714b5877d47ddac8c8bf5188d"
   },
   "weeks": [
     {
@@ -4805,7 +4805,7 @@
   ],
   "latest_batch": {
     "date": "2026-11-27",
-    "scope": "subsection quality and nutrient/medication guide",
+    "scope": "priority-first nutrient prevalence and timing",
     "all_candidate_weeks": [
       1,
       2,
@@ -4849,12 +4849,12 @@
       40
     ],
     "feature_count": 239,
-    "focused_readings_total": 97,
-    "focused_readings_added": 14,
-    "reference_records": 86,
+    "focused_readings_total": 98,
+    "focused_readings_added": 1,
+    "reference_records": 90,
     "unique_week_route_types": 169,
     "static_route_validation": "239 featured routes, 248 related links, 29 connected-topic links, 19 guide destinations and source keys checked without missing IDs; not full browser traversal.",
-    "actual_build": "READY: 356/356 tests, 15 files, TypeScript/Vite, production privacy/media validation passed; 4 lint warnings, 4 moderate toolchain dependency findings, 0 runtime findings.",
+    "actual_build": "Latest 2fec078e1a42de4714b5877d47ddac8c8bf5188d not yet listed; preceding b163680 READY, 356/356 tests. New tests added, exact candidate pending verification.",
     "complete_weeks": 0,
     "complete_phases": 0,
     "next_proposed_batch": "Verify full production build and protected iPhone PWA, then prioritize detailed evidence review, visual QA and remaining life-stage chapters.",

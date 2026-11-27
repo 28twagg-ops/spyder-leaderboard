@@ -193,3 +193,6 @@ All 40 weekly chapters are implemented candidates at fdab0e359a4a347e2e4cc492b7d
 
 ### Nutrient and medication research directory
 Add a compact link from each Mother week (also Nutrition/Checkups), not a repeated supplement schedule. Group individual nutrient roles, clinical medication indications/safety, emerging claims and product quality. Quick summary first; more detailed evidence and material funding/COI where warranted; practical clinician question; canonical shared reading. Stage timing only where supported. No personal dose, medication start/stop, automatic schedule or product ranking. See [subsection readiness audit](../research/SUBPAGE_READINESS_AUDIT.md). Maintain clinical gates.
+
+### Prioritize before listing
+For nutrient/medication guides show stage-sensitive established prevention, common intake gaps with actual population statistics, separate lab-defined deficiency metrics, other critical nutrients, and expandable full directory. Never conflate below AI, below EAR, biomarker status, anemia or personal treatment. Cite source, sample, timeframe, definition and limitations; material industry support disclosed. See research/SUBPAGE_READINESS_AUDIT.md. Clinical gates remain in place.
