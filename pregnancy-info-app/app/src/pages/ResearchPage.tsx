@@ -58,7 +58,7 @@ export function ResearchPage() {
       <section className="panel stack safety-panel">
         <div className="section-label danger">Visible safety</div>
         <p style={{ margin: 0 }}>{plain?.safety??article.visible_safety}</p>
-        {plain&&<details className="disclosure"><summary>Full safety note</summary><p>{article.visible_safety}</p></details>
+        {plain&&<details className="disclosure"><summary>Full safety note</summary><p>{article.visible_safety}</p></details>}
       </section>
 
       {urgent&&why}
