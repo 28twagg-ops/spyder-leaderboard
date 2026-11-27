@@ -1,0 +1,1611 @@
+{
+ "date": "2026-11-27",
+ "scope": "Reconcile all previously exposed identifier matches and archived family tags into transitive candidate groups; no auto-merging or inference of independent cohorts. Only selected original-source relationships independently checked.",
+ "identity_groups": [
+  {
+   "group": "IDG-001",
+   "ids": [
+    "P3-01",
+    "S001"
+   ],
+   "status": "candidate shared source or version; do not independently count until adjudicated"
+  },
+  {
+   "group": "IDG-002",
+   "ids": [
+    "P3-02",
+    "S004"
+   ],
+   "status": "candidate shared source or version; do not independently count until adjudicated"
+  },
+  {
+   "group": "IDG-003",
+   "ids": [
+    "P3-03",
+    "S010"
+   ],
+   "status": "candidate shared source or version; do not independently count until adjudicated"
+  },
+  {
+   "group": "IDG-004",
+   "ids": [
+    "P3-05",
+    "S011"
+   ],
+   "status": "candidate shared source or version; do not independently count until adjudicated"
+  },
+  {
+   "group": "IDG-005",
+   "ids": [
+    "P3-07",
+    "S012"
+   ],
+   "status": "candidate shared source or version; do not independently count until adjudicated"
+  },
+  {
+   "group": "IDG-006",
+   "ids": [
+    "P3-10",
+    "S028"
+   ],
+   "status": "candidate shared source or version; do not independently count until adjudicated"
+  },
+  {
+   "group": "IDG-007",
+   "ids": [
+    "P3-12",
+    "S030"
+   ],
+   "status": "candidate shared source or version; do not independently count until adjudicated"
+  },
+  {
+   "group": "IDG-008",
+   "ids": [
+    "P3-35",
+    "S031"
+   ],
+   "status": "candidate shared source or version; do not independently count until adjudicated"
+  },
+  {
+   "group": "IDG-009",
+   "ids": [
+    "P3-11",
+    "S032"
+   ],
+   "status": "candidate shared source or version; do not independently count until adjudicated"
+  },
+  {
+   "group": "IDG-010",
+   "ids": [
+    "P3-23",
+    "S036"
+   ],
+   "status": "candidate shared source or version; do not independently count until adjudicated"
+  },
+  {
+   "group": "IDG-011",
+   "ids": [
+    "P3-08",
+    "S044"
+   ],
+   "status": "candidate shared source or version; do not independently count until adjudicated"
+  },
+  {
+   "group": "IDG-012",
+   "ids": [
+    "P3-33",
+    "S059"
+   ],
+   "status": "candidate shared source or version; do not independently count until adjudicated"
+  },
+  {
+   "group": "IDG-013",
+   "ids": [
+    "N305",
+    "P3-19",
+    "S064"
+   ],
+   "status": "candidate shared source or version; do not independently count until adjudicated"
+  },
+  {
+   "group": "IDG-014",
+   "ids": [
+    "P5-14",
+    "S082"
+   ],
+   "status": "candidate shared source or version; do not independently count until adjudicated"
+  },
+  {
+   "group": "IDG-015",
+   "ids": [
+    "P5-01",
+    "S085"
+   ],
+   "status": "candidate shared source or version; do not independently count until adjudicated"
+  },
+  {
+   "group": "IDG-016",
+   "ids": [
+    "P5-28",
+    "S086"
+   ],
+   "status": "candidate shared source or version; do not independently count until adjudicated"
+  },
+  {
+   "group": "IDG-017",
+   "ids": [
+    "P5-03",
+    "S088"
+   ],
+   "status": "candidate shared source or version; do not independently count until adjudicated"
+  },
+  {
+   "group": "IDG-018",
+   "ids": [
+    "P5-02",
+    "S089"
+   ],
+   "status": "candidate shared source or version; do not independently count until adjudicated"
+  },
+  {
+   "group": "IDG-019",
+   "ids": [
+    "P5-17",
+    "S090"
+   ],
+   "status": "candidate shared source or version; do not independently count until adjudicated"
+  },
+  {
+   "group": "IDG-020",
+   "ids": [
+    "P5-05",
+    "S092"
+   ],
+   "status": "candidate shared source or version; do not independently count until adjudicated"
+  },
+  {
+   "group": "IDG-021",
+   "ids": [
+    "P5-06",
+    "S093"
+   ],
+   "status": "candidate shared source or version; do not independently count until adjudicated"
+  },
+  {
+   "group": "IDG-022",
+   "ids": [
+    "P5-11",
+    "S094"
+   ],
+   "status": "candidate shared source or version; do not independently count until adjudicated"
+  },
+  {
+   "group": "IDG-023",
+   "ids": [
+    "P5-12",
+    "S095"
+   ],
+   "status": "candidate shared source or version; do not independently count until adjudicated"
+  },
+  {
+   "group": "IDG-024",
+   "ids": [
+    "P7-01",
+    "S102"
+   ],
+   "status": "candidate shared source or version; do not independently count until adjudicated"
+  },
+  {
+   "group": "IDG-025",
+   "ids": [
+    "P3-29",
+    "S114"
+   ],
+   "status": "candidate shared source or version; do not independently count until adjudicated"
+  },
+  {
+   "group": "IDG-026",
+   "ids": [
+    "P3-24",
+    "S118"
+   ],
+   "status": "candidate shared source or version; do not independently count until adjudicated"
+  },
+  {
+   "group": "IDG-027",
+   "ids": [
+    "P3-27",
+    "S127"
+   ],
+   "status": "candidate shared source or version; do not independently count until adjudicated"
+  },
+  {
+   "group": "IDG-028",
+   "ids": [
+    "DR032",
+    "S128"
+   ],
+   "status": "candidate shared source or version; do not independently count until adjudicated"
+  },
+  {
+   "group": "IDG-029",
+   "ids": [
+    "P3-21",
+    "S134"
+   ],
+   "status": "candidate shared source or version; do not independently count until adjudicated"
+  },
+  {
+   "group": "IDG-030",
+   "ids": [
+    "P7-11",
+    "S165"
+   ],
+   "status": "candidate shared source or version; do not independently count until adjudicated"
+  },
+  {
+   "group": "IDG-031",
+   "ids": [
+    "P7-09",
+    "S167"
+   ],
+   "status": "candidate shared source or version; do not independently count until adjudicated"
+  },
+  {
+   "group": "IDG-032",
+   "ids": [
+    "P7-10",
+    "S168"
+   ],
+   "status": "candidate shared source or version; do not independently count until adjudicated"
+  },
+  {
+   "group": "IDG-033",
+   "ids": [
+    "P7-12",
+    "S169"
+   ],
+   "status": "candidate shared source or version; do not independently count until adjudicated"
+  },
+  {
+   "group": "IDG-034",
+   "ids": [
+    "P3-20",
+    "S170"
+   ],
+   "status": "candidate shared source or version; do not independently count until adjudicated"
+  },
+  {
+   "group": "IDG-035",
+   "ids": [
+    "P9-G10",
+    "S171"
+   ],
+   "status": "candidate shared source or version; do not independently count until adjudicated"
+  },
+  {
+   "group": "IDG-036",
+   "ids": [
+    "P5-29",
+    "P6-06",
+    "S176"
+   ],
+   "status": "candidate shared source or version; do not independently count until adjudicated"
+  },
+  {
+   "group": "IDG-037",
+   "ids": [
+    "P5-23",
+    "S190"
+   ],
+   "status": "candidate shared source or version; do not independently count until adjudicated"
+  },
+  {
+   "group": "IDG-038",
+   "ids": [
+    "P3-31",
+    "P7-38",
+    "S198"
+   ],
+   "status": "candidate shared source or version; do not independently count until adjudicated"
+  },
+  {
+   "group": "IDG-039",
+   "ids": [
+    "P3-28",
+    "S212"
+   ],
+   "status": "candidate shared source or version; do not independently count until adjudicated"
+  },
+  {
+   "group": "IDG-040",
+   "ids": [
+    "P3-22",
+    "S220"
+   ],
+   "status": "candidate shared source or version; do not independently count until adjudicated"
+  },
+  {
+   "group": "IDG-041",
+   "ids": [
+    "P5-19",
+    "S222"
+   ],
+   "status": "candidate shared source or version; do not independently count until adjudicated"
+  },
+  {
+   "group": "IDG-042",
+   "ids": [
+    "CL02",
+    "P3-06"
+   ],
+   "status": "candidate shared source or version; do not independently count until adjudicated"
+  },
+  {
+   "group": "IDG-043",
+   "ids": [
+    "P5-13",
+    "R001"
+   ],
+   "status": "candidate shared source or version; do not independently count until adjudicated"
+  },
+  {
+   "group": "IDG-044",
+   "ids": [
+    "P5-15",
+    "R007"
+   ],
+   "status": "candidate shared source or version; do not independently count until adjudicated"
+  },
+  {
+   "group": "IDG-045",
+   "ids": [
+    "P5-08",
+    "R012"
+   ],
+   "status": "candidate shared source or version; do not independently count until adjudicated"
+  },
+  {
+   "group": "IDG-046",
+   "ids": [
+    "N301",
+    "P3-13"
+   ],
+   "status": "candidate shared source or version; do not independently count until adjudicated"
+  },
+  {
+   "group": "IDG-047",
+   "ids": [
+    "N319",
+    "P7-63"
+   ],
+   "status": "candidate shared source or version; do not independently count until adjudicated"
+  },
+  {
+   "group": "IDG-048",
+   "ids": [
+    "H015",
+    "P7-06"
+   ],
+   "status": "candidate shared source or version; do not independently count until adjudicated"
+  },
+  {
+   "group": "IDG-049",
+   "ids": [
+    "H016",
+    "P3-16"
+   ],
+   "status": "candidate shared source or version; do not independently count until adjudicated"
+  },
+  {
+   "group": "IDG-050",
+   "ids": [
+    "H032",
+    "P3-09"
+   ],
+   "status": "candidate shared source or version; do not independently count until adjudicated"
+  },
+  {
+   "group": "IDG-051",
+   "ids": [
+    "H035",
+    "P3-18"
+   ],
+   "status": "candidate shared source or version; do not independently count until adjudicated"
+  },
+  {
+   "group": "IDG-052",
+   "ids": [
+    "IA006",
+    "P4-08"
+   ],
+   "status": "candidate shared source or version; do not independently count until adjudicated"
+  },
+  {
+   "group": "IDG-053",
+   "ids": [
+    "IA007",
+    "P4-09"
+   ],
+   "status": "candidate shared source or version; do not independently count until adjudicated"
+  },
+  {
+   "group": "IDG-054",
+   "ids": [
+    "P3-04",
+    "RP004"
+   ],
+   "status": "candidate shared source or version; do not independently count until adjudicated"
+  },
+  {
+   "group": "IDG-055",
+   "ids": [
+    "P7-58",
+    "PED-iKMC"
+   ],
+   "status": "candidate shared source or version; do not independently count until adjudicated"
+  },
+  {
+   "group": "IDG-056",
+   "ids": [
+    "P4-20",
+    "PED-MOTOR"
+   ],
+   "status": "candidate shared source or version; do not independently count until adjudicated"
+  },
+  {
+   "group": "IDG-057",
+   "ids": [
+    "P4-01",
+    "PED-PARENT"
+   ],
+   "status": "candidate shared source or version; do not independently count until adjudicated"
+  },
+  {
+   "group": "IDG-058",
+   "ids": [
+    "P2-29",
+    "P6-G03",
+    "PED-FORMULA"
+   ],
+   "status": "candidate shared source or version; do not independently count until adjudicated"
+  },
+  {
+   "group": "IDG-059",
+   "ids": [
+    "P4-06",
+    "PED-AUDITORY"
+   ],
+   "status": "candidate shared source or version; do not independently count until adjudicated"
+  },
+  {
+   "group": "IDG-060",
+   "ids": [
+    "DR003",
+    "P5-07"
+   ],
+   "status": "candidate shared source or version; do not independently count until adjudicated"
+  },
+  {
+   "group": "IDG-061",
+   "ids": [
+    "DR013",
+    "P3-14"
+   ],
+   "status": "candidate shared source or version; do not independently count until adjudicated"
+  },
+  {
+   "group": "IDG-062",
+   "ids": [
+    "DR014",
+    "P7-35"
+   ],
+   "status": "candidate shared source or version; do not independently count until adjudicated"
+  },
+  {
+   "group": "IDG-063",
+   "ids": [
+    "DR015",
+    "P7-36"
+   ],
+   "status": "candidate shared source or version; do not independently count until adjudicated"
+  },
+  {
+   "group": "IDG-064",
+   "ids": [
+    "GE001",
+    "P5-16"
+   ],
+   "status": "candidate shared source or version; do not independently count until adjudicated"
+  },
+  {
+   "group": "IDG-065",
+   "ids": [
+    "GE002",
+    "P5-18"
+   ],
+   "status": "candidate shared source or version; do not independently count until adjudicated"
+  },
+  {
+   "group": "IDG-066",
+   "ids": [
+    "GE005",
+    "P5-09"
+   ],
+   "status": "candidate shared source or version; do not independently count until adjudicated"
+  },
+  {
+   "group": "IDG-067",
+   "ids": [
+    "GE008",
+    "P3-25"
+   ],
+   "status": "candidate shared source or version; do not independently count until adjudicated"
+  },
+  {
+   "group": "IDG-068",
+   "ids": [
+    "P1-05",
+    "P2-08"
+   ],
+   "status": "candidate shared source or version; do not independently count until adjudicated"
+  },
+  {
+   "group": "IDG-069",
+   "ids": [
+    "P1-06",
+    "P2-14"
+   ],
+   "status": "candidate shared source or version; do not independently count until adjudicated"
+  },
+  {
+   "group": "IDG-070",
+   "ids": [
+    "P1-07",
+    "P2-16"
+   ],
+   "status": "candidate shared source or version; do not independently count until adjudicated"
+  },
+  {
+   "group": "IDG-071",
+   "ids": [
+    "P1-09",
+    "P2-19"
+   ],
+   "status": "candidate shared source or version; do not independently count until adjudicated"
+  },
+  {
+   "group": "IDG-072",
+   "ids": [
+    "P1-10",
+    "P2-17"
+   ],
+   "status": "candidate shared source or version; do not independently count until adjudicated"
+  },
+  {
+   "group": "IDG-073",
+   "ids": [
+    "P1-11",
+    "P2-21"
+   ],
+   "status": "candidate shared source or version; do not independently count until adjudicated"
+  },
+  {
+   "group": "IDG-074",
+   "ids": [
+    "P1-13",
+    "P2-28"
+   ],
+   "status": "candidate shared source or version; do not independently count until adjudicated"
+  },
+  {
+   "group": "IDG-075",
+   "ids": [
+    "VIS6-058",
+    "VIS6-059"
+   ],
+   "status": "candidate shared source or version; do not independently count until adjudicated"
+  }
+ ],
+ "study_families": [
+  {
+   "label": "ORIP",
+   "ids": [
+    "S082",
+    "R005",
+    "R006",
+    "P5-14"
+   ],
+   "rules": [
+    "Parent trial and subgroup records; verify original membership."
+   ],
+   "status": "archived relationship or provisional label; not verified independent cohort; no automatic synthesis"
+  },
+  {
+   "label": "Calcium",
+   "ids": [
+    "S092",
+    "S093",
+    "DR003",
+    "P5-05",
+    "P5-06",
+    "P5-07",
+    "P5-09"
+   ],
+   "rules": [
+    "Review versions, commentary, IPD and dose trial; compare membership and outcome."
+   ],
+   "status": "archived relationship or provisional label; not verified independent cohort; no automatic synthesis"
+  },
+  {
+   "label": "Pregnancy probiotics",
+   "ids": [
+    "S094",
+    "S095",
+    "P5-11",
+    "P5-12",
+    "P5-13"
+   ],
+   "rules": [
+    "Overlapping reviews and trial; eligibility differs; preserve safety signal."
+   ],
+   "status": "archived relationship or provisional label; not verified independent cohort; no automatic synthesis"
+  },
+  {
+   "label": "SPRING",
+   "ids": [
+    "R001",
+    "H001",
+    "H002",
+    "H003",
+    "P5-13"
+   ],
+   "rules": [
+    "Parent cohort and associated reports; product donation and negative findings retained."
+   ],
+   "status": "archived relationship or provisional label; not verified independent cohort; no automatic synthesis"
+  },
+  {
+   "label": "ADORE",
+   "ids": [
+    "R007",
+    "H028",
+    "GE001",
+    "P5-15",
+    "P5-16"
+   ],
+   "rules": [
+    "Same randomized cohort and post hoc genotype analysis."
+   ],
+   "status": "archived relationship or provisional label; not verified independent cohort; no automatic synthesis"
+  },
+  {
+   "label": "Cornell choline",
+   "ids": [
+    "IA006",
+    "IA007",
+    "P4-08",
+    "P4-09",
+    "P4-11"
+   ],
+   "rules": [
+    "Original, follow-up and protocol. Protocol has no outcome data."
+   ],
+   "status": "archived relationship or provisional label; not verified independent cohort; no automatic synthesis"
+  },
+  {
+   "label": "LEAP",
+   "ids": [
+    "PED-LEAP",
+    "PED-CORRECTION",
+    "PED-LEAPFOLLOW"
+   ],
+   "rules": [
+    "Original, follow-up and erratum. Correction is distinct publication, not extra cohort."
+   ],
+   "status": "archived relationship or provisional label; not verified independent cohort; no automatic synthesis"
+  },
+  {
+   "label": "iKMC",
+   "ids": [
+    "PED-iKMC",
+    "P7-58"
+   ],
+   "rules": [
+    "Same original trial. OMWaNA separate trial; reviews overlap."
+   ],
+   "status": "archived relationship or provisional label; not verified independent cohort; no automatic synthesis"
+  },
+  {
+   "label": "WHO motor",
+   "ids": [
+    "PED-MOTOR",
+    "PED-WINDOW",
+    "P4-20"
+   ],
+   "rules": [
+    "Reference study and companion table; no independent efficacy trial."
+   ],
+   "status": "archived relationship or provisional label; not verified independent cohort; no automatic synthesis"
+  },
+  {
+   "label": "PROBIT",
+   "ids": [
+    "PED-PROBIT",
+    "P2-02",
+    "P2-03"
+   ],
+   "rules": [
+    "One breastfeeding-promotion randomized cohort, follow-up reports; not randomized formula assignment."
+   ],
+   "status": "archived relationship or provisional label; not verified independent cohort; no automatic synthesis"
+  },
+  {
+   "label": "Fertility retraction chain",
+   "ids": [
+    "PED-FERTILITY-HOLD",
+    "DR021",
+    "DR022",
+    "DR023",
+    "DR024",
+    "DR025"
+   ],
+   "rules": [
+    "Excluded retracted trials; dependent outcome hold; not all reviews retracted."
+   ],
+   "status": "archived relationship or provisional label; not verified independent cohort; no automatic synthesis"
+  },
+  {
+   "label": "MATISSE",
+   "ids": [
+    "PED-MATISSE",
+    "PED-RSVLABEL"
+   ],
+   "rules": [
+    "Trial and label; 90/180-day cumulative endpoints; 99.5% and 97.58% CI retained; HARMONIE separate."
+   ],
+   "status": "archived relationship or provisional label; not verified independent cohort; no automatic synthesis"
+  },
+  {
+   "label": "BLISS",
+   "ids": [
+    "PED-BLISSGROW",
+    "PED-BLISSCHOKE",
+    "I1-B03-013",
+    "I1-B03-014",
+    "I1-B03-015",
+    "I1-B03-016",
+    "I1-B03-017"
+   ],
+   "rules": [
+    "One trial, distinct growth and choking outcomes."
+   ],
+   "status": "archived relationship or provisional label; not verified independent cohort; no automatic synthesis"
+  },
+  {
+   "label": "Disposable diaper cues",
+   "ids": [
+    "P1-07",
+    "P1-08",
+    "P2-15",
+    "P2-16"
+   ],
+   "rules": [
+    "Methods and result possible same cohort; verify."
+   ],
+   "status": "archived relationship or provisional label; not verified independent cohort; no automatic synthesis"
+  },
+  {
+   "label": "BABITT",
+   "ids": [
+    "P1-10",
+    "P2-17",
+    "P2-18"
+   ],
+   "rules": [
+    "Trial result and protocol; no separate efficacy from protocol."
+   ],
+   "status": "archived relationship or provisional label; not verified independent cohort; no automatic synthesis"
+  },
+  {
+   "label": "Pakistan Lady Health Worker",
+   "ids": [
+    "P4-17",
+    "P4-18"
+   ],
+   "rules": [
+    "Same original and 4-year follow-up."
+   ],
+   "status": "archived relationship or provisional label; not verified independent cohort; no automatic synthesis"
+  },
+  {
+   "label": "CHAMACOS",
+   "ids": [
+    "P6-07",
+    "P6-08"
+   ],
+   "rules": [
+    "Original and secondary analysis."
+   ],
+   "status": "archived relationship or provisional label; not verified independent cohort; no automatic synthesis"
+  },
+  {
+   "label": "Phthalate pooled cohorts and ECHO",
+   "ids": [
+    "P6-21",
+    "P6-22",
+    "P6-23",
+    "P6-24"
+   ],
+   "rules": [
+    "Partial overlap, not identical populations; no pooled total."
+   ],
+   "status": "archived relationship or provisional label; not verified independent cohort; no automatic synthesis"
+  },
+  {
+   "label": "UGAAR",
+   "ids": [
+    "P6-37",
+    "P6-38",
+    "I1-B04-001",
+    "I1-B04-002",
+    "I1-B04-003",
+    "I1-B04-004",
+    "I1-B04-005",
+    "I1-B04-006",
+    "I1-B04-007"
+   ],
+   "rules": [
+    "Growth and cognitive follow-up."
+   ],
+   "status": "archived relationship or provisional label; not verified independent cohort; no automatic synthesis"
+  },
+  {
+   "label": "HAPIN",
+   "ids": [
+    "P6-39",
+    "P6-40",
+    "I1-B04-008",
+    "I1-B04-009",
+    "I1-B04-010",
+    "I1-B04-011",
+    "I1-B04-012",
+    "I1-B04-013",
+    "I1-B04-014",
+    "I1-B04-015",
+    "I1-B04-016",
+    "I1-B04-017"
+   ],
+   "rules": [
+    "Birthweight and infant stunting follow-up."
+   ],
+   "status": "archived relationship or provisional label; not verified independent cohort; no automatic synthesis"
+  },
+  {
+   "label": "Colic probiotics",
+   "ids": [
+    "P7-40",
+    "P7-41",
+    "P7-42"
+   ],
+   "rules": [
+    "IPD includes trials; not independent aggregate."
+   ],
+   "status": "archived relationship or provisional label; not verified independent cohort; no automatic synthesis"
+  },
+  {
+   "label": "MELASMA-MA-historical",
+   "ids": [
+    "I1-B01-001"
+   ],
+   "rules": [],
+   "status": "archived relationship or provisional label; not verified independent cohort; no automatic synthesis"
+  },
+  {
+   "label": "MINT",
+   "ids": [
+    "I1-B01-005"
+   ],
+   "rules": [],
+   "status": "archived relationship or provisional label; not verified independent cohort; no automatic synthesis"
+  },
+  {
+   "label": "MINIMat",
+   "ids": [
+    "I1-B01-007",
+    "I1-B01-008",
+    "I1-B01-009",
+    "I1-B01-010"
+   ],
+   "rules": [],
+   "status": "archived relationship or provisional label; not verified independent cohort; no automatic synthesis"
+  },
+  {
+   "label": "Rang-Din",
+   "ids": [
+    "I1-B01-012"
+   ],
+   "rules": [],
+   "status": "archived relationship or provisional label; not verified independent cohort; no automatic synthesis"
+  },
+  {
+   "label": "Mumta",
+   "ids": [
+    "I1-B01-014"
+   ],
+   "rules": [],
+   "status": "archived relationship or provisional label; not verified independent cohort; no automatic synthesis"
+  },
+  {
+   "label": "JECS",
+   "ids": [
+    "I1-B01-015",
+    "I1-B01-016"
+   ],
+   "rules": [],
+   "status": "archived relationship or provisional label; not verified independent cohort; no automatic synthesis"
+  },
+  {
+   "label": "Big-CHENS",
+   "ids": [
+    "I1-B01-017"
+   ],
+   "rules": [],
+   "status": "archived relationship or provisional label; not verified independent cohort; no automatic synthesis"
+  },
+  {
+   "label": "Korean national cohort overlap pending",
+   "ids": [
+    "I1-B01-018"
+   ],
+   "rules": [],
+   "status": "archived relationship or provisional label; not verified independent cohort; no automatic synthesis"
+  },
+  {
+   "label": "Korean children's environmental health cohort",
+   "ids": [
+    "I1-B01-019"
+   ],
+   "rules": [],
+   "status": "archived relationship or provisional label; not verified independent cohort; no automatic synthesis"
+  },
+  {
+   "label": "Taiwan maternal child database",
+   "ids": [
+    "I1-B01-020"
+   ],
+   "rules": [],
+   "status": "archived relationship or provisional label; not verified independent cohort; no automatic synthesis"
+  },
+  {
+   "label": "FERTINUTS",
+   "ids": [
+    "I1-B01-021",
+    "I1-B01-022"
+   ],
+   "rules": [],
+   "status": "archived relationship or provisional label; not verified independent cohort; no automatic synthesis"
+  },
+  {
+   "label": "MoBa",
+   "ids": [
+    "I1-B01-023"
+   ],
+   "rules": [],
+   "status": "archived relationship or provisional label; not verified independent cohort; no automatic synthesis"
+  },
+  {
+   "label": "Iodine India-Thailand",
+   "ids": [
+    "I1-B01-025"
+   ],
+   "rules": [],
+   "status": "archived relationship or provisional label; not verified independent cohort; no automatic synthesis"
+  },
+  {
+   "label": "St Carlos",
+   "ids": [
+    "I1-B01-027",
+    "I1-B01-029",
+    "I1-B01-030",
+    "I1-B01-031"
+   ],
+   "rules": [],
+   "status": "archived relationship or provisional label; not verified independent cohort; no automatic synthesis"
+  },
+  {
+   "label": "ESTEEM",
+   "ids": [
+    "I1-B01-028"
+   ],
+   "rules": [],
+   "status": "archived relationship or provisional label; not verified independent cohort; no automatic synthesis"
+  },
+  {
+   "label": "St Carlos implementation",
+   "ids": [
+    "I1-B01-032"
+   ],
+   "rules": [],
+   "status": "archived relationship or provisional label; not verified independent cohort; no automatic synthesis"
+  },
+  {
+   "label": "ABA-feed",
+   "ids": [
+    "I1-B01-036"
+   ],
+   "rules": [],
+   "status": "archived relationship or provisional label; not verified independent cohort; no automatic synthesis"
+  },
+  {
+   "label": "Pakistan LHW stimulation",
+   "ids": [
+    "I1-B01-037"
+   ],
+   "rules": [],
+   "status": "archived relationship or provisional label; not verified independent cohort; no automatic synthesis"
+  },
+  {
+   "label": "FAMI",
+   "ids": [
+    "I1-B01-041"
+   ],
+   "rules": [],
+   "status": "archived relationship or provisional label; not verified independent cohort; no automatic synthesis"
+  },
+  {
+   "label": "Jamaica stimulation",
+   "ids": [
+    "I1-B01-042"
+   ],
+   "rules": [],
+   "status": "archived relationship or provisional label; not verified independent cohort; no automatic synthesis"
+  },
+  {
+   "label": "BEEP",
+   "ids": [
+    "I1-B01-043"
+   ],
+   "rules": [],
+   "status": "archived relationship or provisional label; not verified independent cohort; no automatic synthesis"
+  },
+  {
+   "label": "PreventADALL",
+   "ids": [
+    "I1-B01-044",
+    "I1-B01-045"
+   ],
+   "rules": [],
+   "status": "archived relationship or provisional label; not verified independent cohort; no automatic synthesis"
+  },
+  {
+   "label": "Bangalore B12",
+   "ids": [
+    "I1-B01-050",
+    "I1-B01-051",
+    "I1-B01-052",
+    "I1-B01-053"
+   ],
+   "rules": [],
+   "status": "archived relationship or provisional label; not verified independent cohort; no automatic synthesis"
+  },
+  {
+   "label": "MATCOBIND",
+   "ids": [
+    "I1-B01-054",
+    "I1-B01-055"
+   ],
+   "rules": [],
+   "status": "archived relationship or provisional label; not verified independent cohort; no automatic synthesis"
+  },
+  {
+   "label": "AViDD",
+   "ids": [
+    "I1-B01-056"
+   ],
+   "rules": [],
+   "status": "archived relationship or provisional label; not verified independent cohort; no automatic synthesis"
+  },
+  {
+   "label": "MDIG",
+   "ids": [
+    "I1-B01-057",
+    "I1-B01-058",
+    "I1-B01-059"
+   ],
+   "rules": [],
+   "status": "archived relationship or provisional label; not verified independent cohort; no automatic synthesis"
+  },
+  {
+   "label": "Ronneby PFAS",
+   "ids": [
+    "I1-B01-060",
+    "I1-B01-061"
+   ],
+   "rules": [],
+   "status": "archived relationship or provisional label; not verified independent cohort; no automatic synthesis"
+  },
+  {
+   "label": "Odense Child Cohort",
+   "ids": [
+    "I1-B01-062"
+   ],
+   "rules": [],
+   "status": "archived relationship or provisional label; not verified independent cohort; no automatic synthesis"
+  },
+  {
+   "label": "DNBC/ABC/SBC/MISA/ACCEPT",
+   "ids": [
+    "I1-B01-063"
+   ],
+   "rules": [],
+   "status": "archived relationship or provisional label; not verified independent cohort; no automatic synthesis"
+  },
+  {
+   "label": "PROMISE-EBF",
+   "ids": [
+    "I1-B01-065",
+    "I1-B01-066",
+    "I1-B01-068",
+    "I1-B01-069",
+    "I1-B01-070",
+    "I1-B01-071"
+   ],
+   "rules": [],
+   "status": "archived relationship or provisional label; not verified independent cohort; no automatic synthesis"
+  },
+  {
+   "label": "Philani",
+   "ids": [
+    "I1-B01-072",
+    "I1-B01-073",
+    "I1-B01-074"
+   ],
+   "rules": [],
+   "status": "archived relationship or provisional label; not verified independent cohort; no automatic synthesis"
+  },
+  {
+   "label": "iLiNS-DYAD Ghana",
+   "ids": [
+    "I1-B01-075",
+    "I1-B01-076",
+    "I1-B01-077",
+    "I1-B01-078",
+    "I1-B01-079",
+    "I1-B01-080",
+    "I1-B01-081"
+   ],
+   "rules": [],
+   "status": "archived relationship or provisional label; not verified independent cohort; no automatic synthesis"
+  },
+  {
+   "label": "iLiNS-DYAD Malawi",
+   "ids": [
+    "I1-B01-082"
+   ],
+   "rules": [],
+   "status": "archived relationship or provisional label; not verified independent cohort; no automatic synthesis"
+  },
+  {
+   "label": "iLiNS-DYAD Ghana/Malawi",
+   "ids": [
+    "I1-B01-083",
+    "I1-B01-084"
+   ],
+   "rules": [],
+   "status": "archived relationship or provisional label; not verified independent cohort; no automatic synthesis"
+  },
+  {
+   "label": "COPSAC2010 fish oil",
+   "ids": [
+    "I1-B01-085",
+    "I1-B01-086",
+    "I1-B01-087",
+    "I1-B01-088",
+    "I1-B01-089",
+    "I1-B01-090"
+   ],
+   "rules": [],
+   "status": "archived relationship or provisional label; not verified independent cohort; no automatic synthesis"
+  },
+  {
+   "label": "DOMInO",
+   "ids": [
+    "I1-B01-091",
+    "CS5-075",
+    "CS5-077",
+    "CS5-081"
+   ],
+   "rules": [],
+   "status": "archived relationship or provisional label; not verified independent cohort; no automatic synthesis"
+  },
+  {
+   "label": "MoBa/DIPP/COPSAC2010",
+   "ids": [
+    "I1-B01-092"
+   ],
+   "rules": [],
+   "status": "archived relationship or provisional label; not verified independent cohort; no automatic synthesis"
+  },
+  {
+   "label": "Tanzania zinc-A",
+   "ids": [
+    "I1-B02-009"
+   ],
+   "rules": [],
+   "status": "archived relationship or provisional label; not verified independent cohort; no automatic synthesis"
+  },
+  {
+   "label": "Tanzania zinc-A/iron",
+   "ids": [
+    "I1-B02-010"
+   ],
+   "rules": [],
+   "status": "archived relationship or provisional label; not verified independent cohort; no automatic synthesis"
+  },
+  {
+   "label": "CHiMINCs",
+   "ids": [
+    "I1-B02-013"
+   ],
+   "rules": [],
+   "status": "archived relationship or provisional label; not verified independent cohort; no automatic synthesis"
+  },
+  {
+   "label": "PRECONCEPT Vietnam",
+   "ids": [
+    "I1-B02-014",
+    "I1-B02-015",
+    "I1-B02-016",
+    "I1-B02-017",
+    "I1-B02-018",
+    "I1-B02-019",
+    "I1-B02-020",
+    "I1-B02-021",
+    "I1-B02-022",
+    "I1-B02-024"
+   ],
+   "rules": [],
+   "status": "archived relationship or provisional label; not verified independent cohort; no automatic synthesis"
+  },
+  {
+   "label": "POSGRAD",
+   "ids": [
+    "I1-B02-025",
+    "I1-B02-026",
+    "I1-B02-027",
+    "I1-B02-028",
+    "I1-B02-029",
+    "I1-B02-030",
+    "I1-B02-031"
+   ],
+   "rules": [],
+   "status": "archived relationship or provisional label; not verified independent cohort; no automatic synthesis"
+  },
+  {
+   "label": "BeBo Poland",
+   "ids": [
+    "I1-B03-001"
+   ],
+   "rules": [],
+   "status": "archived relationship or provisional label; not verified independent cohort; no automatic synthesis"
+  },
+  {
+   "label": "Bump2Baby and Me",
+   "ids": [
+    "I1-B03-007"
+   ],
+   "rules": [],
+   "status": "archived relationship or provisional label; not verified independent cohort; no automatic synthesis"
+  },
+  {
+   "label": "NELIP",
+   "ids": [
+    "I1-B03-008"
+   ],
+   "rules": [],
+   "status": "archived relationship or provisional label; not verified independent cohort; no automatic synthesis"
+  },
+  {
+   "label": "Parents and Babies",
+   "ids": [
+    "I1-B03-009"
+   ],
+   "rules": [],
+   "status": "archived relationship or provisional label; not verified independent cohort; no automatic synthesis"
+  },
+  {
+   "label": "MOVIN",
+   "ids": [
+    "I1-B03-010"
+   ],
+   "rules": [],
+   "status": "archived relationship or provisional label; not verified independent cohort; no automatic synthesis"
+  },
+  {
+   "label": "Wahakura trial",
+   "ids": [
+    "I1-B03-011",
+    "I1-B03-012"
+   ],
+   "rules": [],
+   "status": "archived relationship or provisional label; not verified independent cohort; no automatic synthesis"
+  },
+  {
+   "label": "POI",
+   "ids": [
+    "I1-B03-018",
+    "I1-B03-019",
+    "I1-B03-020",
+    "I1-B03-021"
+   ],
+   "rules": [],
+   "status": "archived relationship or provisional label; not verified independent cohort; no automatic synthesis"
+  },
+  {
+   "label": "Moemoeā",
+   "ids": [
+    "I1-B03-022"
+   ],
+   "rules": [],
+   "status": "archived relationship or provisional label; not verified independent cohort; no automatic synthesis"
+  },
+  {
+   "label": "PROMPTS",
+   "ids": [
+    "I1-B03-025"
+   ],
+   "rules": [],
+   "status": "archived relationship or provisional label; not verified independent cohort; no automatic synthesis"
+  },
+  {
+   "label": "WASH Benefits Kenya",
+   "ids": [
+    "I1-B03-028"
+   ],
+   "rules": [],
+   "status": "archived relationship or provisional label; not verified independent cohort; no automatic synthesis"
+  },
+  {
+   "label": "GeMuKi",
+   "ids": [
+    "I1-B04-018"
+   ],
+   "rules": [],
+   "status": "archived relationship or provisional label; not verified independent cohort; no automatic synthesis"
+  },
+  {
+   "label": "GeliS",
+   "ids": [
+    "I1-B04-019",
+    "I1-B04-020",
+    "I1-B04-021"
+   ],
+   "rules": [],
+   "status": "archived relationship or provisional label; not verified independent cohort; no automatic synthesis"
+  },
+  {
+   "label": "Smarter Pregnancy",
+   "ids": [
+    "I1-B04-023"
+   ],
+   "rules": [],
+   "status": "archived relationship or provisional label; not verified independent cohort; no automatic synthesis"
+  },
+  {
+   "label": "Pleasure and Pregnancy",
+   "ids": [
+    "I1-B04-024"
+   ],
+   "rules": [],
+   "status": "archived relationship or provisional label; not verified independent cohort; no automatic synthesis"
+  },
+  {
+   "label": "SCRaTCH-OFO",
+   "ids": [
+    "I1-B04-025"
+   ],
+   "rules": [],
+   "status": "archived relationship or provisional label; not verified independent cohort; no automatic synthesis"
+  },
+  {
+   "label": "NiPPeR",
+   "ids": [
+    "I1-B04-026",
+    "I1-B04-027",
+    "I1-B04-028"
+   ],
+   "rules": [],
+   "status": "archived relationship or provisional label; not verified independent cohort; no automatic synthesis"
+  },
+  {
+   "label": "OPTIMISE",
+   "ids": [
+    "I1-B05-009"
+   ],
+   "rules": [],
+   "status": "archived relationship or provisional label; not verified independent cohort; no automatic synthesis"
+  },
+  {
+   "label": "Lao comparative ethnobotany (possible overlap)",
+   "ids": [
+    "TH2-037",
+    "TH2-040"
+   ],
+   "rules": [],
+   "status": "archived relationship or provisional label; not verified independent cohort; no automatic synthesis"
+  },
+  {
+   "label": "Dhaka preterm emollients (provisional)",
+   "ids": [
+    "TH2-068",
+    "TH2-072",
+    "TH2-073"
+   ],
+   "rules": [],
+   "status": "archived relationship or provisional label; not verified independent cohort; no automatic synthesis"
+  },
+  {
+   "label": "Sarlahi oil trial (provisional)",
+   "ids": [
+    "TH2-074",
+    "TH2-075"
+   ],
+   "rules": [],
+   "status": "archived relationship or provisional label; not verified independent cohort; no automatic synthesis"
+  },
+  {
+   "label": "Guerrero cultural safety (provisional)",
+   "ids": [
+    "TH2-079",
+    "TH2-080",
+    "TH2-087"
+   ],
+   "rules": [],
+   "status": "archived relationship or provisional label; not verified independent cohort; no automatic synthesis"
+  },
+  {
+   "label": "multinational herbal-use survey (provisional)",
+   "ids": [
+    "TH2-100",
+    "TH2-101"
+   ],
+   "rules": [],
+   "status": "archived relationship or provisional label; not verified independent cohort; no automatic synthesis"
+  },
+  {
+   "label": "BLISS (prior archive; companion record)",
+   "ids": [
+    "UP4-035",
+    "UP4-036",
+    "UP4-039"
+   ],
+   "rules": [],
+   "status": "archived relationship or provisional label; not verified independent cohort; no automatic synthesis"
+  },
+  {
+   "label": "NCT06841939 / Nigerian Health Journal report (title and institution match; verify registry link)",
+   "ids": [
+    "UP4-045"
+   ],
+   "rules": [],
+   "status": "archived relationship or provisional label; not verified independent cohort; no automatic synthesis"
+  },
+  {
+   "label": "NCT03041246 / PMID39593622",
+   "ids": [
+    "UP4-052"
+   ],
+   "rules": [],
+   "status": "archived relationship or provisional label; not verified independent cohort; no automatic synthesis"
+  },
+  {
+   "label": "NCT04401384 / PMID37335994",
+   "ids": [
+    "UP4-053"
+   ],
+   "rules": [],
+   "status": "archived relationship or provisional label; not verified independent cohort; no automatic synthesis"
+  },
+  {
+   "label": "NCT05456438 / PMID36763614",
+   "ids": [
+    "UP4-060"
+   ],
+   "rules": [],
+   "status": "archived relationship or provisional label; not verified independent cohort; no automatic synthesis"
+  },
+  {
+   "label": "Balanced Plate Bangladesh / PMID36364949",
+   "ids": [
+    "UP4-069"
+   ],
+   "rules": [],
+   "status": "archived relationship or provisional label; not verified independent cohort; no automatic synthesis"
+  },
+  {
+   "label": "OPPTIMUM",
+   "ids": [
+    "CS5-007",
+    "CS5-008"
+   ],
+   "rules": [],
+   "status": "archived relationship or provisional label; not verified independent cohort; no automatic synthesis"
+  },
+  {
+   "label": "VDAART",
+   "ids": [
+    "CS5-011",
+    "CS5-016"
+   ],
+   "rules": [],
+   "status": "archived relationship or provisional label; not verified independent cohort; no automatic synthesis"
+  },
+  {
+   "label": "Adelaide nausea trial (possible overlap)",
+   "ids": [
+    "CS5-043",
+    "CS5-045"
+   ],
+   "rules": [],
+   "status": "archived relationship or provisional label; not verified independent cohort; no automatic synthesis"
+  },
+  {
+   "label": "MBM",
+   "ids": [
+    "CS5-061",
+    "CS5-063"
+   ],
+   "rules": [],
+   "status": "archived relationship or provisional label; not verified independent cohort; no automatic synthesis"
+  },
+  {
+   "label": "Helsinki 1998 cohort (possible overlap)",
+   "ids": [
+    "CS5-068",
+    "CS5-072"
+   ],
+   "rules": [],
+   "status": "archived relationship or provisional label; not verified independent cohort; no automatic synthesis"
+  }
+ ],
+ "selected_verified_relationships": [
+  {
+   "ids": [
+    "S092",
+    "P5-05"
+   ],
+   "relationship": "Same Cochrane review update, DOI 10.1002/14651858.CD001059.pub6; PMID 41330480. Use versioned DOI rather than changing plain-language page."
+  },
+  {
+   "ids": [
+    "S093",
+    "P5-06"
+   ],
+   "relationship": "Same commentary DOI 10.1186/s12978-026-02395-w; PMID 42374462; PMC13312738."
+  },
+  {
+   "ids": [
+    "S094",
+    "P5-11"
+   ],
+   "relationship": "Translated/English pages of Cochrane review CD009951.pub3; PMID 33870484."
+  },
+  {
+   "ids": [
+    "PED-PROBIT",
+    "P2-02"
+   ],
+   "relationship": "Distinct reports of same Belarus PROBIT cohort; 31 maternity hospitals, 17046 mother-infant pairs, randomized breastfeeding promotion rather than assigned milk type."
+  }
+ ],
+ "prior_verified_alias": {
+  "ids": [
+   "S001",
+   "P3-01"
+  ],
+  "relationship": "Same Cochrane review per batch 01"
+ },
+ "clinical_review": false,
+ "publish": false
+}
