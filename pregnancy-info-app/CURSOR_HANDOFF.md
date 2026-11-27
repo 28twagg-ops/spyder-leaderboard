@@ -64,3 +64,6 @@ Read [visual catalog](research/staged-completion/stage-08/ASSET_CATALOG.json), [
 
 ## Stage 9 practical content checkpoint · 2026-11-26
 Read [Stage 9 content packet](research/staged-completion/stage-09/README.md), [content contract](research/staged-completion/stage-09/CONTENT_CONTRACT.md), [articles](research/staged-completion/stage-09/ARTICLES.json), [parallel timelines](research/staged-completion/stage-09/TIMELINE.json) and [source crosswalk](research/staged-completion/stage-09/SOURCE_LINKS.json). 52 articles, 52 actions, 52 FAQs, 28 phases with featured starting points, 40 gestational rows and 9 optional routines; 217 source IDs. Grade 7–8 target, safety always visible, no clinical clearance or automated tasks; separate chronological and corrected age. Preserve earlier content and holds. Stage 10 requires explicit authorization. No full database integration or app build performed.
+
+
+Budget-aware execution: read CURSOR_USAGE_STRATEGY.md before planning work. Confirm actual remaining included usage and reset dates, choose models by task and available pool, reserve premium capacity, and never incur additional charges without explicit owner approval. If you cannot switch models or read usage, request the owner's selection or dashboard snapshot. Scientific and clinical safety gates remain mandatory.
