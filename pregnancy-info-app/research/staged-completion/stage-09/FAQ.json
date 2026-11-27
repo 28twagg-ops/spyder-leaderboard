@@ -1,0 +1,841 @@
+[
+  {
+    "id": "EV-FAQ-001",
+    "article_id": "EV-ART-001",
+    "question": "Do we need to start three years ahead?",
+    "short_answer": "No. The timeline is optional planning space, not a biological requirement.",
+    "visible_safety": "No fixed preparation deadline or fertility guarantee. Never stop prescribed medicine on your own.",
+    "source_ids": [
+      "P9-G01",
+      "P9-G13",
+      "P6-G04"
+    ],
+    "clinical_review": false,
+    "publish": false
+  },
+  {
+    "id": "EV-FAQ-002",
+    "article_id": "EV-ART-002",
+    "question": "Is methylfolate always better?",
+    "short_answer": "No. Better absorption claims do not establish better prevention of birth defects.",
+    "visible_safety": "Higher-risk dosing belongs with a clinician; no methylfolate substitution claim or automatic dose.",
+    "source_ids": [
+      "P5-01",
+      "P5-02",
+      "P5-03",
+      "P5-04",
+      "P5-30"
+    ],
+    "clinical_review": false,
+    "publish": false
+  },
+  {
+    "id": "EV-FAQ-003",
+    "article_id": "EV-ART-003",
+    "question": "Do both parents need a strict fertility routine?",
+    "short_answer": "No. Reduce known hazards and seek care for concerns rather than chasing perfect sperm or egg scores.",
+    "visible_safety": "No fixed washout period, fertility supplement protocol or use of retracted exercise estimates.",
+    "source_ids": [
+      "P6-42",
+      "P6-43",
+      "P6-44",
+      "P6-G04",
+      "P6-G05"
+    ],
+    "clinical_review": false,
+    "publish": false
+  },
+  {
+    "id": "EV-FAQ-004",
+    "article_id": "EV-ART-004",
+    "question": "Can acupuncture guarantee IVF success?",
+    "short_answer": "No. A pregnancy test and a live birth are different outcomes, and the live-birth benefit is uncertain.",
+    "visible_safety": "No fertility treatment protocol or pregnancy probability. Retraction holds for paternal exercise remain active.",
+    "source_ids": [
+      "P7-20",
+      "P7-21",
+      "P7-22"
+    ],
+    "clinical_review": false,
+    "publish": false
+  },
+  {
+    "id": "EV-FAQ-005",
+    "article_id": "EV-ART-005",
+    "question": "Should I take every nutrient at its upper limit?",
+    "short_answer": "No. An upper limit is a safety boundary, not a target.",
+    "visible_safety": "No calorie restriction, cosmetic weight targets, nutrient stacking or automatic calculations.",
+    "source_ids": [
+      "P5-28",
+      "P5-19",
+      "P5-21",
+      "P5-29"
+    ],
+    "clinical_review": false,
+    "publish": false
+  },
+  {
+    "id": "EV-FAQ-006",
+    "article_id": "EV-ART-006",
+    "question": "Does a premium prenatal guarantee quality?",
+    "short_answer": "No. Price and marketing do not prove label accuracy.",
+    "visible_safety": "Do not stop indicated prenatal care because of an anonymous product audit; no brand ranking or dose calculator.",
+    "source_ids": [
+      "P5-24",
+      "P5-25",
+      "P5-26",
+      "P5-27",
+      "P5-28",
+      "P5-31"
+    ],
+    "clinical_review": false,
+    "publish": false
+  },
+  {
+    "id": "EV-FAQ-007",
+    "article_id": "EV-ART-007",
+    "question": "Does more DHA always improve development?",
+    "short_answer": "No. Meeting needs and taking extra supplements are different questions.",
+    "visible_safety": "Avoid high-mercury choices; no genetic dosing or IQ promises.",
+    "source_ids": [
+      "P4-12",
+      "P5-14",
+      "P5-15",
+      "P5-16",
+      "P5-29"
+    ],
+    "clinical_review": false,
+    "publish": false
+  },
+  {
+    "id": "EV-FAQ-008",
+    "article_id": "EV-ART-008",
+    "question": "Will choline make my baby smarter?",
+    "short_answer": "It is important to get enough; extra intake has uncertain long-term cognitive benefits.",
+    "visible_safety": "No experimental high-dose regimens or infant dosing.",
+    "source_ids": [
+      "P4-08",
+      "P4-09",
+      "P4-10",
+      "P5-21",
+      "P5-28"
+    ],
+    "clinical_review": false,
+    "publish": false
+  },
+  {
+    "id": "EV-FAQ-009",
+    "article_id": "EV-ART-009",
+    "question": "Is more of every supplement better?",
+    "short_answer": "No. Benefit depends on the nutrient, baseline status and outcome; some extra products may cause harm.",
+    "visible_safety": "Do not change prescribed calcium, iron or vitamin D. No routine probiotic prevention advice. Preserve all numeric holds.",
+    "source_ids": [
+      "P5-05",
+      "P5-06",
+      "P5-07",
+      "P5-10",
+      "P5-11",
+      "P5-12",
+      "P5-17",
+      "P5-18",
+      "P5-19"
+    ],
+    "clinical_review": false,
+    "publish": false
+  },
+  {
+    "id": "EV-FAQ-010",
+    "article_id": "EV-ART-010",
+    "question": "Do we need to replace everything in our house?",
+    "short_answer": "No. Target documented hazards first.",
+    "visible_safety": "Suspected CO poisoning: leave and seek emergency help. No DIY lead removal or detox.",
+    "source_ids": [
+      "P6-02",
+      "P6-03",
+      "P6-05",
+      "P6-G04",
+      "P6-G13",
+      "P6-G18"
+    ],
+    "clinical_review": false,
+    "publish": false
+  },
+  {
+    "id": "EV-FAQ-011",
+    "article_id": "EV-ART-011",
+    "question": "Are glass bottles proven to make babies healthier?",
+    "short_answer": "No. They can be a practical choice, but clinical superiority is unproven; breakage matters.",
+    "visible_safety": "Never change formula sanitation, dilution or safe water requirements for plastic reduction; no detox or automatic breastfeeding cessation.",
+    "source_ids": [
+      "P6-12",
+      "P6-13",
+      "P6-19",
+      "P6-25",
+      "P6-26",
+      "P6-33",
+      "P6-35",
+      "P6-G03"
+    ],
+    "clinical_review": false,
+    "publish": false
+  },
+  {
+    "id": "EV-FAQ-012",
+    "article_id": "EV-ART-012",
+    "question": "Is organic food necessary?",
+    "short_answer": "No. It is optional; do not reduce healthy food intake because of cost or fear.",
+    "visible_safety": "No soap on food; avoid ozone generators; heat illness or breathing difficulty needs care.",
+    "source_ids": [
+      "P6-09",
+      "P6-10",
+      "P6-G11",
+      "P6-G12",
+      "P6-G08",
+      "P6-G09",
+      "P6-G10"
+    ],
+    "clinical_review": false,
+    "publish": false
+  },
+  {
+    "id": "EV-FAQ-013",
+    "article_id": "EV-ART-013",
+    "question": "Can a weekly app checklist replace visits?",
+    "short_answer": "No. It can help prepare questions but cannot examine or diagnose you.",
+    "visible_safety": "No automatic vaccine schedule, test interpretation, screening clearance or delayed emergency care.",
+    "source_ids": [
+      "P9-G02",
+      "P9-G10",
+      "P9-G13",
+      "P9-G04"
+    ],
+    "clinical_review": false,
+    "publish": false
+  },
+  {
+    "id": "EV-FAQ-014",
+    "article_id": "EV-ART-014",
+    "question": "Can a fetus learn music?",
+    "short_answer": "Some familiar sounds may be recognized after birth; higher intelligence is not established.",
+    "visible_safety": "No fetal diagnosis, growth prediction or home heartbeat reassurance. Reduced movement or warning signs need care.",
+    "source_ids": [
+      "PED-GESTATION",
+      "PED-FETUS",
+      "P4-06",
+      "P4-07",
+      "P9-G04"
+    ],
+    "clinical_review": false,
+    "publish": false
+  },
+  {
+    "id": "EV-FAQ-015",
+    "article_id": "EV-ART-015",
+    "question": "Should I avoid all fish and dairy?",
+    "short_answer": "No. Choose lower-mercury fish and appropriate pasteurized dairy if tolerated.",
+    "visible_safety": "Symptoms after suspected foodborne exposure may require prompt clinician contact; no universal restrictive diet.",
+    "source_ids": [
+      "P9-G06",
+      "P5-29",
+      "P5-28"
+    ],
+    "clinical_review": false,
+    "publish": false
+  },
+  {
+    "id": "EV-FAQ-016",
+    "article_id": "EV-ART-016",
+    "question": "Can I continue lifting weights?",
+    "short_answer": "Often activity is possible, but an athlete study cannot clear every exercise or pregnancy.",
+    "visible_safety": "Bleeding, chest pain, severe dizziness, fluid leakage or other warning signs override activity; no automatic exercise clearance.",
+    "source_ids": [
+      "P3-18",
+      "P3-33",
+      "P9-G04"
+    ],
+    "clinical_review": false,
+    "publish": false
+  },
+  {
+    "id": "EV-FAQ-017",
+    "article_id": "EV-ART-017",
+    "question": "Can ginger replace medical treatment?",
+    "short_answer": "No. Severe or persistent symptoms should not be managed with home remedies alone.",
+    "visible_safety": "If unable to keep fluids down or signs of dehydration occur, seek care promptly. No experimental herbal dose.",
+    "source_ids": [
+      "P7-01",
+      "P7-02",
+      "P7-04",
+      "P7-63"
+    ],
+    "clinical_review": false,
+    "publish": false
+  },
+  {
+    "id": "EV-FAQ-018",
+    "article_id": "EV-ART-018",
+    "question": "Can I prevent all stretch marks?",
+    "short_answer": "No. Many changes are normal and not fully controllable.",
+    "visible_safety": "Avoid elective pregnancy retinoids; no bitter almond oil protocol, guaranteed prevention or body scoring.",
+    "source_ids": [
+      "P3-01",
+      "P3-02",
+      "P3-03",
+      "P3-04",
+      "P3-05",
+      "P3-06",
+      "P3-30"
+    ],
+    "clinical_review": false,
+    "publish": false
+  },
+  {
+    "id": "EV-FAQ-019",
+    "article_id": "EV-ART-019",
+    "question": "Should I avoid breastfeeding to prevent sagging?",
+    "short_answer": "Evidence does not support choosing feeding solely to prevent breast shape changes.",
+    "visible_safety": "No feeding pressure or appearance scoring; clinician assessment for concerning symptoms.",
+    "source_ids": [
+      "P3-08",
+      "P3-09"
+    ],
+    "clinical_review": false,
+    "publish": false
+  },
+  {
+    "id": "EV-FAQ-020",
+    "article_id": "EV-ART-020",
+    "question": "Should everyone do more Kegels?",
+    "short_answer": "No. Some people need help relaxing or treating pain, not more contractions.",
+    "visible_safety": "No universal Kegel routine, internal massage instructions or birth-injury guarantee.",
+    "source_ids": [
+      "P3-11",
+      "P3-16",
+      "P3-20",
+      "P3-21",
+      "P3-22"
+    ],
+    "clinical_review": false,
+    "publish": false
+  },
+  {
+    "id": "EV-FAQ-021",
+    "article_id": "EV-ART-021",
+    "question": "Does a doula guarantee vaginal birth?",
+    "short_answer": "No. Support can be valuable, but outcomes vary and clinical decisions matter.",
+    "visible_safety": "No home induction protocol, pressure to avoid cesarean or analgesia.",
+    "source_ids": [
+      "P7-12",
+      "P7-13",
+      "P7-14",
+      "P7-17",
+      "P7-18"
+    ],
+    "clinical_review": false,
+    "publish": false
+  },
+  {
+    "id": "EV-FAQ-022",
+    "article_id": "EV-ART-022",
+    "question": "Are dates a guaranteed way to avoid induction?",
+    "short_answer": "No. They are food, not a proven home induction treatment.",
+    "visible_safety": "No castor oil, herbal self-induction, DIY moxibustion or delayed breech assessment.",
+    "source_ids": [
+      "P7-05",
+      "P7-06",
+      "P7-07",
+      "P7-08",
+      "P7-09",
+      "P7-10"
+    ],
+    "clinical_review": false,
+    "publish": false
+  },
+  {
+    "id": "EV-FAQ-023",
+    "article_id": "EV-ART-023",
+    "question": "Can skin-to-skin replace hospital treatment?",
+    "short_answer": "No. It is valuable supportive care within the appropriate clinical plan.",
+    "visible_safety": "Do not replace resuscitation, neonatal care, vitamin K or screening with alternative practices.",
+    "source_ids": [
+      "PED-CORDTERM",
+      "PED-CORDUPDATE",
+      "PED-VK",
+      "PED-NBS",
+      "PED-HEARING",
+      "PED-iKMC",
+      "P7-58",
+      "P7-60"
+    ],
+    "clinical_review": false,
+    "publish": false
+  },
+  {
+    "id": "EV-FAQ-024",
+    "article_id": "EV-ART-024",
+    "question": "Can I wait until my postpartum appointment?",
+    "short_answer": "Not for urgent symptoms. Seek care now.",
+    "visible_safety": "Call 911 in the US for life-threatening symptoms or imminent danger. Do not wait for a checklist or routine visit.",
+    "source_ids": [
+      "P9-G04",
+      "P3-32"
+    ],
+    "clinical_review": false,
+    "publish": false
+  },
+  {
+    "id": "EV-FAQ-025",
+    "article_id": "EV-ART-025",
+    "question": "Am I fully recovered at six weeks?",
+    "short_answer": "Not necessarily. Recovery varies; the visit is not automatic clearance.",
+    "visible_safety": "Complications may require much earlier review; warning signs always override the schedule.",
+    "source_ids": [
+      "P9-G03",
+      "P9-G04"
+    ],
+    "clinical_review": false,
+    "publish": false
+  },
+  {
+    "id": "EV-FAQ-026",
+    "article_id": "EV-ART-026",
+    "question": "Will a binder permanently flatten my stomach?",
+    "short_answer": "No. Evidence mainly concerns short-term symptoms.",
+    "visible_safety": "No silicone on open wounds or unreviewed massage/device use. Worsening pain, fever or opening needs prompt assessment.",
+    "source_ids": [
+      "P3-23",
+      "P3-24",
+      "P3-25",
+      "P7-29",
+      "P7-33",
+      "P9-G04"
+    ],
+    "clinical_review": false,
+    "publish": false
+  },
+  {
+    "id": "EV-FAQ-027",
+    "article_id": "EV-ART-027",
+    "question": "Do I have to close the gap completely?",
+    "short_answer": "No. Strength, comfort and function are meaningful recovery outcomes.",
+    "visible_safety": "No self-diagnosis cutoff, universal curl-up ban or early postpartum exercise clearance.",
+    "source_ids": [
+      "P3-10",
+      "P3-11",
+      "P3-12",
+      "P3-13",
+      "P3-15",
+      "P3-35"
+    ],
+    "clinical_review": false,
+    "publish": false
+  },
+  {
+    "id": "EV-FAQ-028",
+    "article_id": "EV-ART-028",
+    "question": "Can I start running at a fixed postpartum week?",
+    "short_answer": "No. Healing, symptoms and prior activity matter more than a calendar date.",
+    "visible_safety": "No automatic exercise clearance or forced strengthening; urgent signs require medical care.",
+    "source_ids": [
+      "P3-11",
+      "P3-16",
+      "P3-17",
+      "P3-19",
+      "P3-33"
+    ],
+    "clinical_review": false,
+    "publish": false
+  },
+  {
+    "id": "EV-FAQ-029",
+    "article_id": "EV-ART-029",
+    "question": "Can exercise replace treatment for depression?",
+    "short_answer": "No. It may support well-being but is not a replacement for appropriate care.",
+    "visible_safety": "Thoughts of self-harm or harming the baby, hallucinations, severe confusion or imminent danger require emergency help.",
+    "source_ids": [
+      "P9-G03",
+      "P9-G04",
+      "P7-61",
+      "P7-62"
+    ],
+    "clinical_review": false,
+    "publish": false
+  },
+  {
+    "id": "EV-FAQ-030",
+    "article_id": "EV-ART-030",
+    "question": "Does breastfeeding always prevent pregnancy?",
+    "short_answer": "No. Discuss reliable contraception and the specific conditions of any lactational method.",
+    "visible_safety": "No pressure to resume sex, no universal contraceptive choice or treatment for pain.",
+    "source_ids": [
+      "P9-G03",
+      "P9-G12"
+    ],
+    "clinical_review": false,
+    "publish": false
+  },
+  {
+    "id": "EV-FAQ-031",
+    "article_id": "EV-ART-031",
+    "question": "Is red light proven to speed all recovery?",
+    "short_answer": "No. A perineal trial found no clear benefit; other outcomes require separate evidence.",
+    "visible_safety": "No retinoid or device protocol, unreviewed procedure, or treatment of open wounds.",
+    "source_ids": [
+      "P3-05",
+      "P3-06",
+      "P3-24",
+      "P3-29",
+      "P3-31",
+      "P7-29",
+      "P7-38"
+    ],
+    "clinical_review": false,
+    "publish": false
+  },
+  {
+    "id": "EV-FAQ-032",
+    "article_id": "EV-ART-032",
+    "question": "Is formula the same as breast milk?",
+    "short_answer": "No, their composition differs. Regulated formula can still meet nutritional needs when used appropriately.",
+    "visible_safety": "Never dilute or make homemade formula; do not delay adequate feeding or shame parents.",
+    "source_ids": [
+      "P2-01",
+      "P2-02",
+      "P2-04",
+      "P2-06",
+      "P2-07",
+      "P2-08",
+      "P2-28",
+      "P7-27"
+    ],
+    "clinical_review": false,
+    "publish": false
+  },
+  {
+    "id": "EV-FAQ-033",
+    "article_id": "EV-ART-033",
+    "question": "Should I cool water early to avoid microplastics?",
+    "short_answer": "No. Follow safe preparation guidance for the baby's risk group.",
+    "visible_safety": "Never dilute, concentrate, improvise a recipe, use unsafe water or alter sanitation to reduce plastics.",
+    "source_ids": [
+      "PED-FORMULA",
+      "P2-29",
+      "P6-G02",
+      "P6-G03"
+    ],
+    "clinical_review": false,
+    "publish": false
+  },
+  {
+    "id": "EV-FAQ-034",
+    "article_id": "EV-ART-034",
+    "question": "Should I buy herbs to increase supply first?",
+    "short_answer": "No. Check milk transfer and infant growth with qualified support first.",
+    "visible_safety": "Do not restrict intake, force bottles, delay supplementation when indicated or use unreviewed milk boosters.",
+    "source_ids": [
+      "P9-G11",
+      "P7-23",
+      "P7-24",
+      "P7-26",
+      "P7-27",
+      "P7-28"
+    ],
+    "clinical_review": false,
+    "publish": false
+  },
+  {
+    "id": "EV-FAQ-035",
+    "article_id": "EV-ART-035",
+    "question": "Does every baby need the same supplements?",
+    "short_answer": "No. Feeding type, age and individual medical needs matter.",
+    "visible_safety": "No automated dose or amount based on weight, formula volume or reference tables.",
+    "source_ids": [
+      "P9-G09",
+      "PED-IRON",
+      "PED-IRONFOOD",
+      "PED-DRI-vitamins",
+      "PED-DRI-elements"
+    ],
+    "clinical_review": false,
+    "publish": false
+  },
+  {
+    "id": "EV-FAQ-036",
+    "article_id": "EV-ART-036",
+    "question": "Can a baby sleep on my chest while I sleep?",
+    "short_answer": "No. Keep the baby's airway safe and use a separate approved sleep surface.",
+    "visible_safety": "No inclined sleep, weighted products, routine carrier sleep or sleeping caregiver during skin-to-skin.",
+    "source_ids": [
+      "PED-SLEEP",
+      "P9-G05",
+      "P2-30",
+      "P7-60"
+    ],
+    "clinical_review": false,
+    "publish": false
+  },
+  {
+    "id": "EV-FAQ-037",
+    "article_id": "EV-ART-037",
+    "question": "Can corrected age change the fever warning?",
+    "short_answer": "No. Prematurity requires additional clinical caution, not a relaxed threshold.",
+    "visible_safety": "Call 911 in the US for life-threatening symptoms. Do not delay care for dosing, measurements or app questions.",
+    "source_ids": [
+      "PED-FEVER",
+      "PED-EMS",
+      "PED-CORRECTED"
+    ],
+    "clinical_review": false,
+    "publish": false
+  },
+  {
+    "id": "EV-FAQ-038",
+    "article_id": "EV-ART-038",
+    "question": "Does no phone call mean all tests were normal?",
+    "short_answer": "Do not assume. Confirm results with the care team.",
+    "visible_safety": "Poor feeding, increasing sleepiness, worsening jaundice or illness concerns need prompt clinical assessment.",
+    "source_ids": [
+      "PED-NBS",
+      "PED-HEARING",
+      "PED-JAUNDICE",
+      "PED-FEVER"
+    ],
+    "clinical_review": false,
+    "publish": false
+  },
+  {
+    "id": "EV-FAQ-039",
+    "article_id": "EV-ART-039",
+    "question": "Do disposable diapers cause late potty training?",
+    "short_answer": "They may reduce visible cues, but a causal delay in independent training is not established.",
+    "visible_safety": "No fluid restriction, prolonged withholding, punishment, forced sitting or reduced hygiene.",
+    "source_ids": [
+      "P2-13",
+      "P2-14",
+      "P2-16",
+      "P2-17",
+      "P2-21",
+      "P2-23",
+      "P2-31"
+    ],
+    "clinical_review": false,
+    "publish": false
+  },
+  {
+    "id": "EV-FAQ-040",
+    "article_id": "EV-ART-040",
+    "question": "Are probiotics the first step for colic?",
+    "short_answer": "No. Results depend on strain and population; assess feeding and illness concerns first.",
+    "visible_safety": "Never shake a baby. If overwhelmed, put baby in a safe sleep space and get help. Fever, poor feeding or illness needs assessment.",
+    "source_ids": [
+      "P2-24",
+      "P2-30",
+      "P7-40",
+      "P7-41",
+      "P7-47",
+      "PED-CRY",
+      "PED-FEVER"
+    ],
+    "clinical_review": false,
+    "publish": false
+  },
+  {
+    "id": "EV-FAQ-041",
+    "article_id": "EV-ART-041",
+    "question": "Do I need a commercial massage program?",
+    "short_answer": "No. Gentle responsive contact is different from a claimed medical treatment.",
+    "visible_safety": "No sleeping caregiver, unsafe airway, essential oil use or replacement for NICU care.",
+    "source_ids": [
+      "P7-58",
+      "P7-59",
+      "P7-60",
+      "P2-26",
+      "P7-47",
+      "P7-65"
+    ],
+    "clinical_review": false,
+    "publish": false
+  },
+  {
+    "id": "EV-FAQ-042",
+    "article_id": "EV-ART-042",
+    "question": "Do expensive electronic toys improve intelligence?",
+    "short_answer": "Not established. Everyday responsive interaction is a valuable low-cost option.",
+    "visible_safety": "No IQ target, costly toy requirement, timed quota or pressure.",
+    "source_ids": [
+      "P4-01",
+      "P4-02",
+      "P4-03",
+      "P4-17",
+      "P4-18"
+    ],
+    "clinical_review": false,
+    "publish": false
+  },
+  {
+    "id": "EV-FAQ-043",
+    "article_id": "EV-ART-043",
+    "question": "Is crawling late always a problem?",
+    "short_answer": "No. Development varies; concerns or lost skills deserve assessment regardless of charts.",
+    "visible_safety": "Back for sleep; no unattended tummy time, walkers, forced positions or milestone race.",
+    "source_ids": [
+      "P4-19",
+      "P4-20",
+      "P4-21",
+      "PED-MOTOR",
+      "PED-WINDOW",
+      "PED-SLEEP"
+    ],
+    "clinical_review": false,
+    "publish": false
+  },
+  {
+    "id": "EV-FAQ-044",
+    "article_id": "EV-ART-044",
+    "question": "Can I wait until the next scheduled screen if skills are lost?",
+    "short_answer": "No. Contact the child's care team when concerns arise.",
+    "visible_safety": "No diagnosis or reassurance solely from milestone cards; loss of skills or concerns need evaluation.",
+    "source_ids": [
+      "PED-SCREEN",
+      "PED-CORRECTED",
+      "PED-REFERRAL",
+      "P9-G14"
+    ],
+    "clinical_review": false,
+    "publish": false
+  },
+  {
+    "id": "EV-FAQ-045",
+    "article_id": "EV-ART-045",
+    "question": "Will two languages confuse my baby?",
+    "short_answer": "Multilingual exposure does not inherently cause language disorder. Evaluate concerns across languages.",
+    "visible_safety": "Use age-appropriate guidance; no screen-based IQ prediction or guilt.",
+    "source_ids": [
+      "P4-04",
+      "P4-05",
+      "P4-23"
+    ],
+    "clinical_review": false,
+    "publish": false
+  },
+  {
+    "id": "EV-FAQ-046",
+    "article_id": "EV-ART-046",
+    "question": "Is baby-led weaning always superior?",
+    "short_answer": "No. Safe textures, adequate nutrition and responsive feeding matter more than the label.",
+    "visible_safety": "No solids before four months, no cereal in bottle, no honey under twelve months; swallowing concerns require individual guidance.",
+    "source_ids": [
+      "P9-G07",
+      "P9-G08",
+      "PED-SOLIDS",
+      "PED-FEED",
+      "PED-IRONFOOD",
+      "PED-BLISSGROW",
+      "PED-BLISSCHOKE",
+      "P7-66"
+    ],
+    "clinical_review": false,
+    "publish": false
+  },
+  {
+    "id": "EV-FAQ-047",
+    "article_id": "EV-ART-047",
+    "question": "Should all babies receive peanut at exactly the same age?",
+    "short_answer": "No. Readiness and allergy risk matter; higher-risk babies need individualized guidance.",
+    "visible_safety": "Never give whole nuts or choking hazards; severe allergic reaction or choking is an emergency; follow written action plan.",
+    "source_ids": [
+      "PED-LEAP",
+      "PED-LEAPFOLLOW",
+      "PED-ALLERGY",
+      "PED-ANAPHYLAXIS",
+      "PED-CPR",
+      "P9-G08"
+    ],
+    "clinical_review": false,
+    "publish": false
+  },
+  {
+    "id": "EV-FAQ-048",
+    "article_id": "EV-ART-048",
+    "question": "Does a low percentile mean poor parenting?",
+    "short_answer": "No. A clinician interprets growth patterns and context.",
+    "visible_safety": "No calorie restriction, automated growth diagnosis, forced feeding or target weight.",
+    "source_ids": [
+      "PED-GROWTH",
+      "PED-FEED",
+      "P9-G11"
+    ],
+    "clinical_review": false,
+    "publish": false
+  },
+  {
+    "id": "EV-FAQ-049",
+    "article_id": "EV-ART-049",
+    "question": "Can swim lessons replace supervision?",
+    "short_answer": "No. Children still need close, attentive supervision and appropriate barriers.",
+    "visible_safety": "No equipment guarantee; drowning, poisoning or choking requires emergency action.",
+    "source_ids": [
+      "PED-DENTAL",
+      "PED-SEAT",
+      "PED-WATER",
+      "PED-POISON",
+      "PED-EMS"
+    ],
+    "clinical_review": false,
+    "publish": false
+  },
+  {
+    "id": "EV-FAQ-050",
+    "article_id": "EV-ART-050",
+    "question": "Can a supplement replace immunization?",
+    "short_answer": "No. Discuss preventive care with the clinician; these are different interventions.",
+    "visible_safety": "No automatic schedule, exemption recommendation, substitution by supplements or delay of indicated care.",
+    "source_ids": [
+      "PED-VACCINE",
+      "PED-RSV",
+      "PED-MATISSE",
+      "PED-HARMONIE",
+      "P9-G10"
+    ],
+    "clinical_review": false,
+    "publish": false
+  },
+  {
+    "id": "EV-FAQ-051",
+    "article_id": "EV-ART-051",
+    "question": "Should every child be trained by a certain birthday?",
+    "short_answer": "No. Development and readiness vary.",
+    "visible_safety": "No punishment, forced sitting, fluid restriction or withholding; pain or constipation concerns need care.",
+    "source_ids": [
+      "P2-13",
+      "P2-17",
+      "P2-19",
+      "P2-20",
+      "P2-22"
+    ],
+    "clinical_review": false,
+    "publish": false
+  },
+  {
+    "id": "EV-FAQ-052",
+    "article_id": "EV-ART-052",
+    "question": "Is a natural teething product automatically safe?",
+    "short_answer": "No. Check pediatric guidance; some products present serious risks.",
+    "visible_safety": "No home vaginal seeding, placenta encapsulation, infant spinal manipulation, essential oil ingestion, preterm probiotic or honey under twelve months.",
+    "source_ids": [
+      "P7-43",
+      "P7-44",
+      "P7-47",
+      "P7-51",
+      "P7-52",
+      "P7-54",
+      "P7-56",
+      "P7-65",
+      "P7-66",
+      "P7-67",
+      "P7-68"
+    ],
+    "clinical_review": false,
+    "publish": false
+  }
+]

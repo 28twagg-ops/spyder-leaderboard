@@ -1,0 +1,107 @@
+[
+  {
+    "id": "EV-Q1",
+    "stage": "preconception",
+    "question": "Which medicines and supplements should I review before trying?",
+    "article_id": "EV-ART-001",
+    "clinical_review": false
+  },
+  {
+    "id": "EV-Q2",
+    "stage": "prenatal",
+    "question": "What screening and vaccine plan is right for this pregnancy?",
+    "article_id": "EV-ART-013",
+    "clinical_review": false
+  },
+  {
+    "id": "EV-Q3",
+    "stage": "prenatal",
+    "question": "Is this activity suitable for my symptoms and history?",
+    "article_id": "EV-ART-016",
+    "clinical_review": false
+  },
+  {
+    "id": "EV-Q4",
+    "stage": "prenatal",
+    "question": "What should I do if fetal movement changes?",
+    "article_id": "EV-ART-014",
+    "clinical_review": false
+  },
+  {
+    "id": "EV-Q5",
+    "stage": "birth",
+    "question": "What newborn tests and vitamin K plan are recommended?",
+    "article_id": "EV-ART-023",
+    "clinical_review": false
+  },
+  {
+    "id": "EV-Q6",
+    "stage": "postpartum",
+    "question": "When do I need follow-up for my delivery and complications?",
+    "article_id": "EV-ART-025",
+    "clinical_review": false
+  },
+  {
+    "id": "EV-Q7",
+    "stage": "postpartum",
+    "question": "What symptoms need pelvic floor assessment?",
+    "article_id": "EV-ART-028",
+    "clinical_review": false
+  },
+  {
+    "id": "EV-Q8",
+    "stage": "postpartum",
+    "question": "What support is available for mood and sleep?",
+    "article_id": "EV-ART-029",
+    "clinical_review": false
+  },
+  {
+    "id": "EV-Q9",
+    "stage": "feeding",
+    "question": "How do we know the baby is getting enough milk?",
+    "article_id": "EV-ART-034",
+    "clinical_review": false
+  },
+  {
+    "id": "EV-Q10",
+    "stage": "feeding",
+    "question": "What vitamin D and iron plan fits our feeding method?",
+    "article_id": "EV-ART-035",
+    "clinical_review": false
+  },
+  {
+    "id": "EV-Q11",
+    "stage": "infant",
+    "question": "Who will contact us about screening results?",
+    "article_id": "EV-ART-038",
+    "clinical_review": false
+  },
+  {
+    "id": "EV-Q12",
+    "stage": "infant",
+    "question": "When should we call about fever, feeding or breathing?",
+    "article_id": "EV-ART-037",
+    "clinical_review": false
+  },
+  {
+    "id": "EV-Q13",
+    "stage": "solids",
+    "question": "Is our baby ready for food and what allergy precautions apply?",
+    "article_id": "EV-ART-047",
+    "clinical_review": false
+  },
+  {
+    "id": "EV-Q14",
+    "stage": "child",
+    "question": "What developmental screening and immunizations are due?",
+    "article_id": "EV-ART-044",
+    "clinical_review": false
+  },
+  {
+    "id": "EV-Q15",
+    "stage": "child",
+    "question": "How should we interpret growth and corrected age?",
+    "article_id": "EV-ART-048",
+    "clinical_review": false
+  }
+]

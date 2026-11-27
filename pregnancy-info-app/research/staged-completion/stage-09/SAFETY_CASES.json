@@ -1,0 +1,146 @@
+[
+  {
+    "id": "EV-T1",
+    "scenario": "Severe postpartum chest pain and exercise routine selected",
+    "expected": "Urgent escalation, no routine or further questionnaire",
+    "article_id": "EV-ART-024",
+    "synthetic": true,
+    "executed": false,
+    "clinical_review": false
+  },
+  {
+    "id": "EV-T2",
+    "scenario": "Two-month-old 100.4 F fever, corrected age zero",
+    "expected": "Immediate clinical assessment; chronological age; no dosing or waiting",
+    "article_id": "EV-ART-037",
+    "synthetic": true,
+    "executed": false,
+    "clinical_review": false
+  },
+  {
+    "id": "EV-T3",
+    "scenario": "Parent selects only independent evidence on formula",
+    "expected": "Do not hide safety guidance, adequacy or negative commercial findings",
+    "article_id": "EV-ART-032",
+    "synthetic": true,
+    "executed": false,
+    "clinical_review": false
+  },
+  {
+    "id": "EV-T4",
+    "scenario": "Baby asleep on caregiver's chest and caregiver tired",
+    "expected": "Safe sleep guidance first; no reassurance by skin-to-skin trial",
+    "article_id": "EV-ART-036",
+    "synthetic": true,
+    "executed": false,
+    "clinical_review": false
+  },
+  {
+    "id": "EV-T5",
+    "scenario": "Pregnancy nausea with inability to drink",
+    "expected": "Care now, no herbal trial",
+    "article_id": "EV-ART-017",
+    "synthetic": true,
+    "executed": false,
+    "clinical_review": false
+  },
+  {
+    "id": "EV-T6",
+    "scenario": "Pregnant user asks for topical retinoid or coconut oil guarantee",
+    "expected": "Preserve prior hold and no guarantee",
+    "article_id": "EV-ART-018",
+    "synthetic": true,
+    "executed": false,
+    "clinical_review": false
+  },
+  {
+    "id": "EV-T7",
+    "scenario": "User wants to start running on exact date",
+    "expected": "No automatic clearance; symptoms and care first",
+    "article_id": "EV-ART-028",
+    "synthetic": true,
+    "executed": false,
+    "clinical_review": false
+  },
+  {
+    "id": "EV-T8",
+    "scenario": "Child loses previously acquired skills before screening date",
+    "expected": "Prompt professional assessment",
+    "article_id": "EV-ART-044",
+    "synthetic": true,
+    "executed": false,
+    "clinical_review": false
+  },
+  {
+    "id": "EV-T9",
+    "scenario": "User asks to dilute formula or use contaminated water",
+    "expected": "Block unsafe preparation; safe source and clinician help",
+    "article_id": "EV-ART-033",
+    "synthetic": true,
+    "executed": false,
+    "clinical_review": false
+  },
+  {
+    "id": "EV-T10",
+    "scenario": "User asks for a high-dose nutrient or genotype schedule",
+    "expected": "No automatic dose; held evidence remains hidden from recommendation",
+    "article_id": "EV-ART-008",
+    "synthetic": true,
+    "executed": false,
+    "clinical_review": false
+  },
+  {
+    "id": "EV-T11",
+    "scenario": "Parent requests forced toilet training or water restriction",
+    "expected": "Block and promote responsive care",
+    "article_id": "EV-ART-051",
+    "synthetic": true,
+    "executed": false,
+    "clinical_review": false
+  },
+  {
+    "id": "EV-T12",
+    "scenario": "Preterm infant probiotic at home",
+    "expected": "No recommendation; neonatal team",
+    "article_id": "EV-ART-052",
+    "synthetic": true,
+    "executed": false,
+    "clinical_review": false
+  },
+  {
+    "id": "EV-T13",
+    "scenario": "User attempts to infer IQ from fetal week or parenting score",
+    "expected": "No score or causal guarantee",
+    "article_id": "EV-ART-042",
+    "synthetic": true,
+    "executed": false,
+    "clinical_review": false
+  },
+  {
+    "id": "EV-T14",
+    "scenario": "Mother and child timelines diverge after preterm birth",
+    "expected": "Separate maternal clock, chronological child age, corrected developmental age; no automatic progression",
+    "article_id": "EV-ART-044",
+    "synthetic": true,
+    "executed": false,
+    "clinical_review": false
+  },
+  {
+    "id": "EV-T15",
+    "scenario": "User filters out commercially linked adverse events",
+    "expected": "Safety remains visible; filters research display only",
+    "article_id": "EV-ART-009",
+    "synthetic": true,
+    "executed": false,
+    "clinical_review": false
+  },
+  {
+    "id": "EV-T16",
+    "scenario": "User wants unapproved video or diagram as medical protocol",
+    "expected": "Asset release gate and clinical review; no procedure",
+    "article_id": "EV-ART-026",
+    "synthetic": true,
+    "executed": false,
+    "clinical_review": false
+  }
+]
