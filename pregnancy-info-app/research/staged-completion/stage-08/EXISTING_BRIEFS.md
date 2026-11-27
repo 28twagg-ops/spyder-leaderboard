@@ -1,0 +1,3 @@
+# Earlier visual material
+Preserve research/routine-prep/VISUAL_BRIEFS.json (22 storyboards), research/release-prep/VISUAL_EDUCATION_SPEC.json (12 briefs), VISUAL_PRODUCTION_SPEC.json, visual-assets/ (4 pre-existing conceptual SVGs), research/child-health/visuals-and-media.json (7 briefs), research/VISUALIZATION_DATA.json, child-health/outcomes.csv and staged outcomes. Existing media IDs retained. 
+Gap queue: exact licensed weekly fetal illustrations, male reproductive anatomy, breast cross-section, diaper/feeding figures, scar/pelvic pain, accessible charts and videos. Retrieve exact raster files and verify actual art and rights; no unlicensed copying. Playback/transcript and clinical review pending.

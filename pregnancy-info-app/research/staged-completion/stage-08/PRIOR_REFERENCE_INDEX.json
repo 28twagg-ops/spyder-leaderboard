@@ -1,0 +1,1467 @@
+[
+  {
+    "url": "https://openstax.org/books/anatomy-and-physiology-2e/pages/5-1-layers-of-the-skin",
+    "title": "OpenStax A&P 2e, figure 5.2",
+    "aliases": [
+      {
+        "file": "research/staged-completion/stage-01/VISUAL_SOURCE_CANDIDATES.json",
+        "id": "V1",
+        "index": 0
+      },
+      {
+        "file": "research/staged-completion/stage-03/VISUAL_CANDIDATES.json",
+        "id": "P3-V01",
+        "index": 0
+      },
+      {
+        "file": "research/staged-completion/stage-07/VISUAL_CANDIDATES.json",
+        "id": "P7-V12",
+        "index": 11
+      }
+    ],
+    "status": "inherited link; not independently reverified in this index; no release authorization",
+    "id": "EV-I001",
+    "reviewed_asset_ids": []
+  },
+  {
+    "url": "https://openstax.org/books/anatomy-and-physiology/pages/11-4-axial-muscles-of-the-abdominal-wall-and-thorax",
+    "title": "OpenStax A&P first edition, section 11.4, figures 11.16 and 11.19",
+    "aliases": [
+      {
+        "file": "research/staged-completion/stage-01/VISUAL_SOURCE_CANDIDATES.json",
+        "id": "V2",
+        "index": 1
+      }
+    ],
+    "status": "inherited link; not independently reverified in this index; no release authorization",
+    "id": "EV-I002",
+    "reviewed_asset_ids": []
+  },
+  {
+    "url": "https://openstax.org/books/anatomy-and-physiology-2e/pages/27-2-anatomy-and-physiology-of-the-ovarian-reproductive-system",
+    "title": "OpenStax A&P 2e section 27.2",
+    "aliases": [
+      {
+        "file": "research/staged-completion/stage-01/VISUAL_SOURCE_CANDIDATES.json",
+        "id": "V3",
+        "index": 2
+      }
+    ],
+    "status": "inherited link; not independently reverified in this index; no release authorization",
+    "id": "EV-I003",
+    "reviewed_asset_ids": []
+  },
+  {
+    "url": "https://openstax.org/books/anatomy-and-physiology-2e/pages/28-2-embryonic-development",
+    "title": "OpenStax A&P 2e figures 28.9–10",
+    "aliases": [
+      {
+        "file": "research/staged-completion/stage-01/VISUAL_SOURCE_CANDIDATES.json",
+        "id": "V4",
+        "index": 3
+      },
+      {
+        "file": "research/staged-completion/stage-04/VISUAL_CANDIDATES.json",
+        "id": "P4-V7",
+        "index": 6
+      }
+    ],
+    "status": "inherited link; not independently reverified in this index; no release authorization",
+    "id": "EV-I004",
+    "reviewed_asset_ids": []
+  },
+  {
+    "url": "https://openstax.org/books/anatomy-and-physiology-2e/pages/28-3-fetal-development",
+    "title": "OpenStax A&P 2e figures 28.16–17",
+    "aliases": [
+      {
+        "file": "research/staged-completion/stage-01/VISUAL_SOURCE_CANDIDATES.json",
+        "id": "V5",
+        "index": 4
+      },
+      {
+        "file": "research/staged-completion/stage-06/VISUAL_CANDIDATES.json",
+        "id": "P6-V14",
+        "index": 13
+      }
+    ],
+    "status": "inherited link; not independently reverified in this index; no release authorization",
+    "id": "EV-I005",
+    "reviewed_asset_ids": []
+  },
+  {
+    "url": "https://safetosleep.nichd.nih.gov/resources/social-digital",
+    "title": "NIH NICHD Safe to Sleep social/digital media",
+    "aliases": [
+      {
+        "file": "research/staged-completion/stage-01/VISUAL_SOURCE_CANDIDATES.json",
+        "id": "V6",
+        "index": 5
+      }
+    ],
+    "status": "inherited link; not independently reverified in this index; no release authorization",
+    "id": "EV-I006",
+    "reviewed_asset_ids": [
+      "EV-V021",
+      "EV-V022",
+      "EV-V023",
+      "EV-V024"
+    ]
+  },
+  {
+    "url": "https://www.who.int/tools/child-growth-standards/standards/motor-development-milestones",
+    "title": "WHO motor development milestones",
+    "aliases": [
+      {
+        "file": "research/staged-completion/stage-01/VISUAL_SOURCE_CANDIDATES.json",
+        "id": "V7",
+        "index": 6
+      }
+    ],
+    "status": "inherited link; not independently reverified in this index; no release authorization",
+    "id": "EV-I007",
+    "reviewed_asset_ids": []
+  },
+  {
+    "url": "https://open.oregonstate.education/anatomy2e/",
+    "title": "Oregon State University A&P 2e adaptation",
+    "aliases": [
+      {
+        "file": "research/staged-completion/stage-01/VISUAL_SOURCE_CANDIDATES.json",
+        "id": "V8",
+        "index": 7
+      }
+    ],
+    "status": "inherited link; not independently reverified in this index; no release authorization",
+    "id": "EV-I008",
+    "reviewed_asset_ids": []
+  },
+  {
+    "url": "https://med.libretexts.org/Bookshelves/Anatomy_and_Physiology/Anatomy_and_Physiology_2e_%28OpenStax%29",
+    "title": "LibreTexts A&P 2e collection",
+    "aliases": [
+      {
+        "file": "research/staged-completion/stage-01/VISUAL_SOURCE_CANDIDATES.json",
+        "id": "V9",
+        "index": 8
+      }
+    ],
+    "status": "inherited link; not independently reverified in this index; no release authorization",
+    "id": "EV-I009",
+    "reviewed_asset_ids": []
+  },
+  {
+    "url": "https://www.who.int/publications/b/80612",
+    "title": "WHO medical textbook chapter on infant and young child feeding",
+    "aliases": [
+      {
+        "file": "research/staged-completion/stage-02/VISUAL_CANDIDATES.json",
+        "id": "P2-V01",
+        "index": 0
+      }
+    ],
+    "status": "inherited link; not independently reverified in this index; no release authorization",
+    "id": "EV-I010",
+    "reviewed_asset_ids": []
+  },
+  {
+    "url": "https://www.who.int/publications/i/item/9789240035560",
+    "title": "WHO IYCF counselling cards, integrated course",
+    "aliases": [
+      {
+        "file": "research/staged-completion/stage-02/VISUAL_CANDIDATES.json",
+        "id": "P2-V02",
+        "index": 1
+      },
+      {
+        "file": "research/staged-completion/stage-07/VISUAL_CANDIDATES.json",
+        "id": "P7-V11",
+        "index": 10
+      }
+    ],
+    "status": "inherited link; not independently reverified in this index; no release authorization",
+    "id": "EV-I011",
+    "reviewed_asset_ids": [
+      "EV-V034"
+    ]
+  },
+  {
+    "url": "https://www.who.int/publications/i/item/9789240032408",
+    "title": "WHO participant manual, second edition",
+    "aliases": [
+      {
+        "file": "research/staged-completion/stage-02/VISUAL_CANDIDATES.json",
+        "id": "P2-V03",
+        "index": 2
+      }
+    ],
+    "status": "inherited link; not independently reverified in this index; no release authorization",
+    "id": "EV-I012",
+    "reviewed_asset_ids": []
+  },
+  {
+    "url": "https://www.cdc.gov/hygiene/about/healthy-habits-diaper-changing-steps-at-home.html",
+    "title": "CDC diaper changing at home",
+    "aliases": [
+      {
+        "file": "research/staged-completion/stage-02/VISUAL_CANDIDATES.json",
+        "id": "P2-V04",
+        "index": 3
+      }
+    ],
+    "status": "inherited link; not independently reverified in this index; no release authorization",
+    "id": "EV-I013",
+    "reviewed_asset_ids": []
+  },
+  {
+    "url": "https://journals.plos.org/plosmedicine/article/figures?id=10.1371%2Fjournal.pmed.1002554",
+    "title": "PROBIT figures and flowchart",
+    "aliases": [
+      {
+        "file": "research/staged-completion/stage-02/VISUAL_CANDIDATES.json",
+        "id": "P2-V05",
+        "index": 4
+      }
+    ],
+    "status": "inherited link; not independently reverified in this index; no release authorization",
+    "id": "EV-I014",
+    "reviewed_asset_ids": []
+  },
+  {
+    "url": "https://www.cpsc.gov/SafeSleep",
+    "title": "CPSC Safe Sleep Education Center",
+    "aliases": [
+      {
+        "file": "research/staged-completion/stage-02/VISUAL_CANDIDATES.json",
+        "id": "P2-V06",
+        "index": 5
+      }
+    ],
+    "status": "inherited link; not independently reverified in this index; no release authorization",
+    "id": "EV-I015",
+    "reviewed_asset_ids": []
+  },
+  {
+    "url": "https://www.cdc.gov/infant-toddler-nutrition/formula-feeding/preparation-and-storage.html",
+    "title": "CDC formula preparation",
+    "aliases": [
+      {
+        "file": "research/staged-completion/stage-02/VISUAL_CANDIDATES.json",
+        "id": "P2-V07",
+        "index": 6
+      },
+      {
+        "file": "research/staged-completion/stage-06/VISUAL_CANDIDATES.json",
+        "id": "P6-V11",
+        "index": 10
+      }
+    ],
+    "status": "inherited link; not independently reverified in this index; no release authorization",
+    "id": "EV-I016",
+    "reviewed_asset_ids": []
+  },
+  {
+    "url": "https://adc.bmj.com/content/111/3/238",
+    "title": "BABITT primary report",
+    "aliases": [
+      {
+        "file": "research/staged-completion/stage-02/VISUAL_CANDIDATES.json",
+        "id": "P2-V08",
+        "index": 7
+      }
+    ],
+    "status": "inherited link; not independently reverified in this index; no release authorization",
+    "id": "EV-I017",
+    "reviewed_asset_ids": []
+  },
+  {
+    "url": "https://doi.org/10.1016/j.jpurol.2025.06.029",
+    "title": "Antwerp crossover pilot methods",
+    "aliases": [
+      {
+        "file": "research/staged-completion/stage-02/VISUAL_CANDIDATES.json",
+        "id": "P2-V09",
+        "index": 8
+      }
+    ],
+    "status": "inherited link; not independently reverified in this index; no release authorization",
+    "id": "EV-I018",
+    "reviewed_asset_ids": []
+  },
+  {
+    "url": "https://openstax.org/books/anatomy-and-physiology-2e/pages/11-4-axial-muscles-of-the-abdominal-wall-and-thorax",
+    "title": "Figure 11.16 and Table 11.6 abdominal muscle groups",
+    "aliases": [
+      {
+        "file": "research/staged-completion/stage-03/VISUAL_CANDIDATES.json",
+        "id": "P3-V02",
+        "index": 1
+      },
+      {
+        "file": "research/staged-completion/stage-03/VISUAL_CANDIDATES.json",
+        "id": "P3-V03",
+        "index": 2
+      }
+    ],
+    "status": "inherited link; not independently reverified in this index; no release authorization",
+    "id": "EV-I019",
+    "reviewed_asset_ids": []
+  },
+  {
+    "url": "https://openstax.org/books/anatomy-and-physiology-2e/pages/28-6-lactation",
+    "title": "Section 28.6, figure 28.23 let-down reflex and mammary anatomy in section",
+    "aliases": [
+      {
+        "file": "research/staged-completion/stage-03/VISUAL_CANDIDATES.json",
+        "id": "P3-V04",
+        "index": 3
+      },
+      {
+        "file": "research/high-audit/VISUAL_ASSET_REFERENCES.json",
+        "id": "VA-02",
+        "index": 1
+      }
+    ],
+    "status": "inherited link; not independently reverified in this index; no release authorization",
+    "id": "EV-I020",
+    "reviewed_asset_ids": []
+  },
+  {
+    "url": "https://www.rcog.org.uk/for-the-public/perineal-tears-and-episiotomies-in-childbirth/third-and-fourth-degree-tears-oasi/",
+    "title": "OASI tear diagrams and repair education",
+    "aliases": [
+      {
+        "file": "research/staged-completion/stage-03/VISUAL_CANDIDATES.json",
+        "id": "P3-V05",
+        "index": 4
+      }
+    ],
+    "status": "inherited link; not independently reverified in this index; no release authorization",
+    "id": "EV-I021",
+    "reviewed_asset_ids": []
+  },
+  {
+    "url": "https://www.rcog.org.uk/for-the-public/perineal-tears-and-episiotomies-in-childbirth/reducing-your-risk-of-perineal-tears/",
+    "title": "Perineal massage illustration in reducing tears page",
+    "aliases": [
+      {
+        "file": "research/staged-completion/stage-03/VISUAL_CANDIDATES.json",
+        "id": "P3-V06",
+        "index": 5
+      }
+    ],
+    "status": "inherited link; not independently reverified in this index; no release authorization",
+    "id": "EV-I022",
+    "reviewed_asset_ids": []
+  },
+  {
+    "url": "https://www.rcog.org.uk/for-the-public/browse-our-patient-information/pelvic-girdle-pain-and-pregnancy/",
+    "title": "Pelvic girdle pain and pregnancy diagrams/education",
+    "aliases": [
+      {
+        "file": "research/staged-completion/stage-03/VISUAL_CANDIDATES.json",
+        "id": "P3-V07",
+        "index": 6
+      }
+    ],
+    "status": "inherited link; not independently reverified in this index; no release authorization",
+    "id": "EV-I023",
+    "reviewed_asset_ids": []
+  },
+  {
+    "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC12013572/",
+    "title": "Figures 6–7 forest plots and results",
+    "aliases": [
+      {
+        "file": "research/staged-completion/stage-03/VISUAL_CANDIDATES.json",
+        "id": "P3-V08",
+        "index": 7
+      }
+    ],
+    "status": "inherited link; not independently reverified in this index; no release authorization",
+    "id": "EV-I024",
+    "reviewed_asset_ids": []
+  },
+  {
+    "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC13618891/",
+    "title": "Table 1 errors, Figure 1 dose meta-regressions",
+    "aliases": [
+      {
+        "file": "research/staged-completion/stage-03/VISUAL_CANDIDATES.json",
+        "id": "P3-V09",
+        "index": 8
+      }
+    ],
+    "status": "inherited link; not independently reverified in this index; no release authorization",
+    "id": "EV-I025",
+    "reviewed_asset_ids": []
+  },
+  {
+    "url": "https://bjsm.bmj.com/content/59/8/515",
+    "title": "Figures 1–2 postpartum preparticipation screening framework",
+    "aliases": [
+      {
+        "file": "research/staged-completion/stage-03/VISUAL_CANDIDATES.json",
+        "id": "P3-V10",
+        "index": 9
+      }
+    ],
+    "status": "inherited link; not independently reverified in this index; no release authorization",
+    "id": "EV-I026",
+    "reviewed_asset_ids": []
+  },
+  {
+    "url": "https://www.cdc.gov/hearher/hcp/toolkit/warning-signs-educational-materials.html",
+    "title": "Urgent maternal warning signs educational materials and posters",
+    "aliases": [
+      {
+        "file": "research/staged-completion/stage-03/VISUAL_CANDIDATES.json",
+        "id": "P3-V11",
+        "index": 10
+      }
+    ],
+    "status": "inherited link; not independently reverified in this index; no release authorization",
+    "id": "EV-I027",
+    "reviewed_asset_ids": []
+  },
+  {
+    "url": "https://pubmed.ncbi.nlm.nih.gov/24100511/",
+    "title": "Three-dimensional breast volume study source for educational data chart",
+    "aliases": [
+      {
+        "file": "research/staged-completion/stage-03/VISUAL_CANDIDATES.json",
+        "id": "P3-V12",
+        "index": 11
+      }
+    ],
+    "status": "inherited link; not independently reverified in this index; no release authorization",
+    "id": "EV-I028",
+    "reviewed_asset_ids": []
+  },
+  {
+    "url": "https://www.cdc.gov/act-early/milestones/index.html",
+    "title": "CDC illustrated milestones",
+    "aliases": [
+      {
+        "file": "research/staged-completion/stage-04/VISUAL_CANDIDATES.json",
+        "id": "P4-V1",
+        "index": 0
+      }
+    ],
+    "status": "inherited link; not independently reverified in this index; no release authorization",
+    "id": "EV-I029",
+    "reviewed_asset_ids": []
+  },
+  {
+    "url": "https://www.who.int/tools/child-growth/child-growth-standards/standards/motor-development-milestones",
+    "title": "WHO motor development milestone chart",
+    "aliases": [
+      {
+        "file": "research/staged-completion/stage-04/VISUAL_CANDIDATES.json",
+        "id": "P4-V2",
+        "index": 1
+      }
+    ],
+    "status": "inherited link; not independently reverified in this index; no release authorization",
+    "id": "EV-I030",
+    "reviewed_asset_ids": []
+  },
+  {
+    "url": "https://www.unicef.org/documents/care-child-development",
+    "title": "UNICEF/WHO Care for Child Development",
+    "aliases": [
+      {
+        "file": "research/staged-completion/stage-04/VISUAL_CANDIDATES.json",
+        "id": "P4-V3",
+        "index": 2
+      }
+    ],
+    "status": "inherited link; not independently reverified in this index; no release authorization",
+    "id": "EV-I031",
+    "reviewed_asset_ids": []
+  },
+  {
+    "url": "https://developingchild.harvard.edu/resources/guide/how-to-5-steps-for-brain-building-serve-and-return/",
+    "title": "Harvard serve and return guide",
+    "aliases": [
+      {
+        "file": "research/staged-completion/stage-04/VISUAL_CANDIDATES.json",
+        "id": "P4-V4",
+        "index": 3
+      }
+    ],
+    "status": "inherited link; not independently reverified in this index; no release authorization",
+    "id": "EV-I032",
+    "reviewed_asset_ids": [
+      "EV-V033"
+    ]
+  },
+  {
+    "url": "https://developingchild.harvard.edu/key-concept/brain-architecture/",
+    "title": "Harvard brain architecture",
+    "aliases": [
+      {
+        "file": "research/staged-completion/stage-04/VISUAL_CANDIDATES.json",
+        "id": "P4-V5",
+        "index": 4
+      }
+    ],
+    "status": "inherited link; not independently reverified in this index; no release authorization",
+    "id": "EV-I033",
+    "reviewed_asset_ids": []
+  },
+  {
+    "url": "https://journals.plos.org/plosmedicine/article/figures?id=10.1371%2Fjournal.pmed.1003602",
+    "title": "Jeong review figures",
+    "aliases": [
+      {
+        "file": "research/staged-completion/stage-04/VISUAL_CANDIDATES.json",
+        "id": "P4-V6",
+        "index": 5
+      }
+    ],
+    "status": "inherited link; not independently reverified in this index; no release authorization",
+    "id": "EV-I034",
+    "reviewed_asset_ids": []
+  },
+  {
+    "url": "https://ods.od.nih.gov/factsheets/pregnancy-healthprofessional/",
+    "title": "NIH ODS pregnancy tables 1–2",
+    "aliases": [
+      {
+        "file": "research/staged-completion/stage-05/VISUAL_CANDIDATES.json",
+        "id": "P5-V1",
+        "index": 0
+      }
+    ],
+    "status": "inherited link; not independently reverified in this index; no release authorization",
+    "id": "EV-I035",
+    "reviewed_asset_ids": []
+  },
+  {
+    "url": "https://www.gao.gov/products/gao-24-107042",
+    "title": "GAO supplement testing charts and CSV",
+    "aliases": [
+      {
+        "file": "research/staged-completion/stage-05/VISUAL_CANDIDATES.json",
+        "id": "P5-V2",
+        "index": 1
+      }
+    ],
+    "status": "inherited link; not independently reverified in this index; no release authorization",
+    "id": "EV-I036",
+    "reviewed_asset_ids": [
+      "EV-V037"
+    ]
+  },
+  {
+    "url": "https://www.fda.gov/food/consumers/advice-about-eating-fish",
+    "title": "FDA/EPA fish choices chart",
+    "aliases": [
+      {
+        "file": "research/staged-completion/stage-05/VISUAL_CANDIDATES.json",
+        "id": "P5-V3",
+        "index": 2
+      },
+      {
+        "file": "research/staged-completion/stage-06/VISUAL_CANDIDATES.json",
+        "id": "P6-V3",
+        "index": 2
+      }
+    ],
+    "status": "inherited link; not independently reverified in this index; no release authorization",
+    "id": "EV-I037",
+    "reviewed_asset_ids": []
+  },
+  {
+    "url": "https://www.fda.gov/food/nutrition-facts-label/folate-and-folic-acid-nutrition-and-supplement-facts-labels",
+    "title": "FDA folate label examples",
+    "aliases": [
+      {
+        "file": "research/staged-completion/stage-05/VISUAL_CANDIDATES.json",
+        "id": "P5-V4",
+        "index": 3
+      }
+    ],
+    "status": "inherited link; not independently reverified in this index; no release authorization",
+    "id": "EV-I038",
+    "reviewed_asset_ids": []
+  },
+  {
+    "url": "https://journals.plos.org/plosmedicine/article/figures?id=10.1371%2Fjournal.pmed.1005274",
+    "title": "ADORE genotype original figures",
+    "aliases": [
+      {
+        "file": "research/staged-completion/stage-05/VISUAL_CANDIDATES.json",
+        "id": "P5-V5",
+        "index": 4
+      }
+    ],
+    "status": "inherited link; not independently reverified in this index; no release authorization",
+    "id": "EV-I039",
+    "reviewed_asset_ids": []
+  },
+  {
+    "url": "https://fdc.nal.usda.gov/",
+    "title": "USDA FoodData Central",
+    "aliases": [
+      {
+        "file": "research/staged-completion/stage-05/VISUAL_CANDIDATES.json",
+        "id": "P5-V6",
+        "index": 5
+      }
+    ],
+    "status": "inherited link; not independently reverified in this index; no release authorization",
+    "id": "EV-I040",
+    "reviewed_asset_ids": []
+  },
+  {
+    "url": "https://www.epa.gov/ground-water-and-drinking-water/basic-information-about-lead-drinking-water",
+    "title": "Lead in drinking water infographic",
+    "aliases": [
+      {
+        "file": "research/staged-completion/stage-06/VISUAL_CANDIDATES.json",
+        "id": "P6-V1",
+        "index": 0
+      }
+    ],
+    "status": "inherited link; not independently reverified in this index; no release authorization",
+    "id": "EV-I041",
+    "reviewed_asset_ids": []
+  },
+  {
+    "url": "https://www.cdc.gov/lead-prevention/prevention/index.html",
+    "title": "Lead prevention educational materials",
+    "aliases": [
+      {
+        "file": "research/staged-completion/stage-06/VISUAL_CANDIDATES.json",
+        "id": "P6-V2",
+        "index": 1
+      }
+    ],
+    "status": "inherited link; not independently reverified in this index; no release authorization",
+    "id": "EV-I042",
+    "reviewed_asset_ids": []
+  },
+  {
+    "url": "https://pubmed.ncbi.nlm.nih.gov/40847085/",
+    "title": "PFOS 2025 forest plot and funnel plot",
+    "aliases": [
+      {
+        "file": "research/staged-completion/stage-06/VISUAL_CANDIDATES.json",
+        "id": "P6-V4",
+        "index": 3
+      }
+    ],
+    "status": "inherited link; not independently reverified in this index; no release authorization",
+    "id": "EV-I043",
+    "reviewed_asset_ids": []
+  },
+  {
+    "url": "https://pubmed.ncbi.nlm.nih.gov/33778349/",
+    "title": "PFOS 2020 forest plots",
+    "aliases": [
+      {
+        "file": "research/staged-completion/stage-06/VISUAL_CANDIDATES.json",
+        "id": "P6-V5",
+        "index": 4
+      }
+    ],
+    "status": "inherited link; not independently reverified in this index; no release authorization",
+    "id": "EV-I044",
+    "reviewed_asset_ids": []
+  },
+  {
+    "url": "https://pubmed.ncbi.nlm.nih.gov/21507776/",
+    "title": "CHAMACOS prenatal pesticide IQ graph",
+    "aliases": [
+      {
+        "file": "research/staged-completion/stage-06/VISUAL_CANDIDATES.json",
+        "id": "P6-V6",
+        "index": 5
+      }
+    ],
+    "status": "inherited link; not independently reverified in this index; no release authorization",
+    "id": "EV-I045",
+    "reviewed_asset_ids": []
+  },
+  {
+    "url": "https://www.cdc.gov/niosh/reproductive-health/about/take-home.html",
+    "title": "NIOSH take-home exposure educational materials",
+    "aliases": [
+      {
+        "file": "research/staged-completion/stage-06/VISUAL_CANDIDATES.json",
+        "id": "P6-V7",
+        "index": 6
+      }
+    ],
+    "status": "inherited link; not independently reverified in this index; no release authorization",
+    "id": "EV-I046",
+    "reviewed_asset_ids": []
+  },
+  {
+    "url": "https://www.epa.gov/wildfires/how-create-cleaner-air-room-home",
+    "title": "Air cleaning and room setup",
+    "aliases": [
+      {
+        "file": "research/staged-completion/stage-06/VISUAL_CANDIDATES.json",
+        "id": "P6-V8",
+        "index": 7
+      }
+    ],
+    "status": "inherited link; not independently reverified in this index; no release authorization",
+    "id": "EV-I047",
+    "reviewed_asset_ids": []
+  },
+  {
+    "url": "https://www.epa.gov/cleanups/reducing-pfas-your-drinking-water-home-filter",
+    "title": "EPA filter selection",
+    "aliases": [
+      {
+        "file": "research/staged-completion/stage-06/VISUAL_CANDIDATES.json",
+        "id": "P6-V9",
+        "index": 8
+      }
+    ],
+    "status": "inherited link; not independently reverified in this index; no release authorization",
+    "id": "EV-I048",
+    "reviewed_asset_ids": []
+  },
+  {
+    "url": "https://www.cdc.gov/heat-health/risk-factors/heat-and-pregnancy.html",
+    "title": "CDC heat and pregnancy",
+    "aliases": [
+      {
+        "file": "research/staged-completion/stage-06/VISUAL_CANDIDATES.json",
+        "id": "P6-V10",
+        "index": 9
+      }
+    ],
+    "status": "inherited link; not independently reverified in this index; no release authorization",
+    "id": "EV-I049",
+    "reviewed_asset_ids": []
+  },
+  {
+    "url": "https://pubmed.ncbi.nlm.nih.gov/41480069/",
+    "title": "Preconception review exposure categories",
+    "aliases": [
+      {
+        "file": "research/staged-completion/stage-06/VISUAL_CANDIDATES.json",
+        "id": "P6-V12",
+        "index": 11
+      }
+    ],
+    "status": "inherited link; not independently reverified in this index; no release authorization",
+    "id": "EV-I050",
+    "reviewed_asset_ids": []
+  },
+  {
+    "url": "https://www.epa.gov/mold/brief-guide-mold-moisture-and-your-home",
+    "title": "EPA mold and moisture illustrations",
+    "aliases": [
+      {
+        "file": "research/staged-completion/stage-06/VISUAL_CANDIDATES.json",
+        "id": "P6-V13",
+        "index": 12
+      }
+    ],
+    "status": "inherited link; not independently reverified in this index; no release authorization",
+    "id": "EV-I051",
+    "reviewed_asset_ids": []
+  },
+  {
+    "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC11536023/",
+    "title": "Ginger review Figure 3 overlap matrix",
+    "aliases": [
+      {
+        "file": "research/staged-completion/stage-07/VISUAL_CANDIDATES.json",
+        "id": "P7-V1",
+        "index": 0
+      }
+    ],
+    "status": "inherited link; not independently reverified in this index; no release authorization",
+    "id": "EV-I052",
+    "reviewed_asset_ids": []
+  },
+  {
+    "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC10759543/",
+    "title": "Dates review Figures 1 and 2",
+    "aliases": [
+      {
+        "file": "research/staged-completion/stage-07/VISUAL_CANDIDATES.json",
+        "id": "P7-V2",
+        "index": 1
+      }
+    ],
+    "status": "inherited link; not independently reverified in this index; no release authorization",
+    "id": "EV-I053",
+    "reviewed_asset_ids": []
+  },
+  {
+    "url": "https://pubmed.ncbi.nlm.nih.gov/36440058/",
+    "title": "Moringa trial Figure 1 flow diagram",
+    "aliases": [
+      {
+        "file": "research/staged-completion/stage-07/VISUAL_CANDIDATES.json",
+        "id": "P7-V3",
+        "index": 2
+      }
+    ],
+    "status": "inherited link; not independently reverified in this index; no release authorization",
+    "id": "EV-I054",
+    "reviewed_asset_ids": []
+  },
+  {
+    "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC13094685/",
+    "title": "Perineal light trial tables and flow diagram",
+    "aliases": [
+      {
+        "file": "research/staged-completion/stage-07/VISUAL_CANDIDATES.json",
+        "id": "P7-V4",
+        "index": 3
+      }
+    ],
+    "status": "inherited link; not independently reverified in this index; no release authorization",
+    "id": "EV-I055",
+    "reviewed_asset_ids": []
+  },
+  {
+    "url": "https://link.springer.com/article/10.1186/s12906-021-03230-4",
+    "title": "Raspberry leaf review",
+    "aliases": [
+      {
+        "file": "research/staged-completion/stage-07/VISUAL_CANDIDATES.json",
+        "id": "P7-V5",
+        "index": 4
+      }
+    ],
+    "status": "inherited link; not independently reverified in this index; no release authorization",
+    "id": "EV-I056",
+    "reviewed_asset_ids": []
+  },
+  {
+    "url": "https://www.nhs.uk/pregnancy/labour-and-birth/the-stages-of-labour-and-birth/",
+    "title": "NHS stages of labor and birth",
+    "aliases": [
+      {
+        "file": "research/staged-completion/stage-07/VISUAL_CANDIDATES.json",
+        "id": "P7-V6",
+        "index": 5
+      }
+    ],
+    "status": "inherited link; not independently reverified in this index; no release authorization",
+    "id": "EV-I057",
+    "reviewed_asset_ids": []
+  },
+  {
+    "url": "https://www.nhs.uk/pregnancy/labour-and-birth/pain-relief-in-labour/",
+    "title": "NHS pain relief in labor",
+    "aliases": [
+      {
+        "file": "research/staged-completion/stage-07/VISUAL_CANDIDATES.json",
+        "id": "P7-V7",
+        "index": 6
+      }
+    ],
+    "status": "inherited link; not independently reverified in this index; no release authorization",
+    "id": "EV-I058",
+    "reviewed_asset_ids": []
+  },
+  {
+    "url": "https://www.who.int/news/item/26-05-2021-kangaroo-mother-care-started-immediately-after-birth-critical-for-saving-lives-new-research-shows",
+    "title": "WHO kangaroo care",
+    "aliases": [
+      {
+        "file": "research/staged-completion/stage-07/VISUAL_CANDIDATES.json",
+        "id": "P7-V8",
+        "index": 7
+      }
+    ],
+    "status": "inherited link; not independently reverified in this index; no release authorization",
+    "id": "EV-I059",
+    "reviewed_asset_ids": []
+  },
+  {
+    "url": "https://www.cdc.gov/mmwr/volumes/66/wr/mm6625a4.htm",
+    "title": "CDC placenta capsule infection report",
+    "aliases": [
+      {
+        "file": "research/staged-completion/stage-07/VISUAL_CANDIDATES.json",
+        "id": "P7-V9",
+        "index": 8
+      }
+    ],
+    "status": "inherited link; not independently reverified in this index; no release authorization",
+    "id": "EV-I060",
+    "reviewed_asset_ids": []
+  },
+  {
+    "url": "https://www.fda.gov/consumers/consumer-updates/safely-soothing-teething-pain-infants-and-children",
+    "title": "FDA teething educational resource",
+    "aliases": [
+      {
+        "file": "research/staged-completion/stage-07/VISUAL_CANDIDATES.json",
+        "id": "P7-V10",
+        "index": 9
+      }
+    ],
+    "status": "inherited link; not independently reverified in this index; no release authorization",
+    "id": "EV-I061",
+    "reviewed_asset_ids": []
+  },
+  {
+    "url": "https://www.nhtsa.gov/car-seats-and-booster-seats/how-install-rear-facing-car-seats",
+    "title": "untitled candidate",
+    "aliases": [
+      {
+        "file": "research/child-health/visuals-and-media.json",
+        "id": null,
+        "index": 0
+      }
+    ],
+    "status": "inherited link; not independently reverified in this index; no release authorization",
+    "id": "EV-I062",
+    "reviewed_asset_ids": []
+  },
+  {
+    "url": "https://www.redcross.org/take-a-class/classes/adult-and-pediatric-child-and-baby-cpr%2Faed-online/a6RVx000000a6zl.html",
+    "title": "untitled candidate",
+    "aliases": [
+      {
+        "file": "research/child-health/visuals-and-media.json",
+        "id": null,
+        "index": 1
+      }
+    ],
+    "status": "inherited link; not independently reverified in this index; no release authorization",
+    "id": "EV-I063",
+    "reviewed_asset_ids": []
+  },
+  {
+    "url": "https://medlineplus.gov/ency/article/002398.htm",
+    "title": "untitled candidate",
+    "aliases": [
+      {
+        "file": "research/child-health/visuals-and-media.json",
+        "id": null,
+        "index": 2
+      }
+    ],
+    "status": "inherited link; not independently reverified in this index; no release authorization",
+    "id": "EV-I064",
+    "reviewed_asset_ids": []
+  },
+  {
+    "url": "https://cdn.who.int/media/docs/default-source/child-growth/child-growth-standards/indicators/motor-development-milestones/mm_windows_table.pdf",
+    "title": "untitled candidate",
+    "aliases": [
+      {
+        "file": "research/child-health/visuals-and-media.json",
+        "id": null,
+        "index": 3
+      }
+    ],
+    "status": "inherited link; not independently reverified in this index; no release authorization",
+    "id": "EV-I065",
+    "reviewed_asset_ids": []
+  },
+  {
+    "url": "https://www.youtube.com/watch?v=JFJtUtKQCuM",
+    "title": "Pelvic floor exercises",
+    "aliases": [
+      {
+        "file": "research/implementation-handoff/MEDIA_CATALOG.json",
+        "id": "M01",
+        "index": 0
+      },
+      {
+        "file": "research/integrated/MEDIA_LINKED.json",
+        "id": "M01",
+        "index": 0
+      },
+      {
+        "file": "research/routine-prep/MEDIA_REVIEW_QUEUE.json",
+        "id": "M01",
+        "index": 0
+      }
+    ],
+    "status": "inherited link; not independently reverified in this index; no release authorization",
+    "id": "EV-I066",
+    "reviewed_asset_ids": []
+  },
+  {
+    "url": "https://www.youtube.com/watch?v=APCdcePoMik",
+    "title": "Prenatal physiotherapy: pelvic floor exercise",
+    "aliases": [
+      {
+        "file": "research/implementation-handoff/MEDIA_CATALOG.json",
+        "id": "M02",
+        "index": 1
+      },
+      {
+        "file": "research/integrated/MEDIA_LINKED.json",
+        "id": "M02",
+        "index": 1
+      },
+      {
+        "file": "research/routine-prep/MEDIA_REVIEW_QUEUE.json",
+        "id": "M02",
+        "index": 1
+      }
+    ],
+    "status": "inherited link; not independently reverified in this index; no release authorization",
+    "id": "EV-I067",
+    "reviewed_asset_ids": []
+  },
+  {
+    "url": "https://www.nhs.uk/live-well/exercise/pilates-and-yoga/prenatal-and-postnatal-exercise/",
+    "title": "Prenatal and postnatal yoga",
+    "aliases": [
+      {
+        "file": "research/implementation-handoff/MEDIA_CATALOG.json",
+        "id": "M03",
+        "index": 2
+      },
+      {
+        "file": "research/integrated/MEDIA_LINKED.json",
+        "id": "M03",
+        "index": 2
+      },
+      {
+        "file": "research/routine-prep/MEDIA_REVIEW_QUEUE.json",
+        "id": "M03",
+        "index": 2
+      }
+    ],
+    "status": "inherited link; not independently reverified in this index; no release authorization",
+    "id": "EV-I068",
+    "reviewed_asset_ids": [
+      "EV-V030"
+    ]
+  },
+  {
+    "url": "https://www.uhbristol.nhs.uk/patients-and-visitors/your-hospitals/st-michaels-hospital/what-we-do/physiotherapy/advice-videos/",
+    "title": "Maternity physiotherapy advice videos",
+    "aliases": [
+      {
+        "file": "research/implementation-handoff/MEDIA_CATALOG.json",
+        "id": "M04",
+        "index": 3
+      },
+      {
+        "file": "research/integrated/MEDIA_LINKED.json",
+        "id": "M04",
+        "index": 3
+      },
+      {
+        "file": "research/routine-prep/MEDIA_REVIEW_QUEUE.json",
+        "id": "M04",
+        "index": 3
+      }
+    ],
+    "status": "inherited link; not independently reverified in this index; no release authorization",
+    "id": "EV-I069",
+    "reviewed_asset_ids": []
+  },
+  {
+    "url": "https://www.leedsth.nhs.uk/patients/resources/antenatal-perineal-massage/",
+    "title": "Antenatal perineal massage",
+    "aliases": [
+      {
+        "file": "research/implementation-handoff/MEDIA_CATALOG.json",
+        "id": "M05",
+        "index": 4
+      },
+      {
+        "file": "research/integrated/MEDIA_LINKED.json",
+        "id": "M05",
+        "index": 4
+      },
+      {
+        "file": "research/routine-prep/MEDIA_REVIEW_QUEUE.json",
+        "id": "M05",
+        "index": 4
+      }
+    ],
+    "status": "inherited link; not independently reverified in this index; no release authorization",
+    "id": "EV-I070",
+    "reviewed_asset_ids": []
+  },
+  {
+    "url": "https://thepogp.co.uk/pelvic_health_videos_-_english.aspx",
+    "title": "Pelvic health video series",
+    "aliases": [
+      {
+        "file": "research/implementation-handoff/MEDIA_CATALOG.json",
+        "id": "M06",
+        "index": 5
+      },
+      {
+        "file": "research/integrated/MEDIA_LINKED.json",
+        "id": "M06",
+        "index": 5
+      },
+      {
+        "file": "research/external-audits/grok/MEDIA_CANDIDATES.json",
+        "id": "GM01",
+        "index": 0
+      },
+      {
+        "file": "research/routine-prep/MEDIA_REVIEW_QUEUE.json",
+        "id": "M06",
+        "index": 5
+      }
+    ],
+    "status": "inherited link; not independently reverified in this index; no release authorization",
+    "id": "EV-I071",
+    "reviewed_asset_ids": []
+  },
+  {
+    "url": "https://www.selondonics.org/supporting-your-body-through-pregnancy-and-after-birth/",
+    "title": "Supporting your body through pregnancy and after birth",
+    "aliases": [
+      {
+        "file": "research/implementation-handoff/MEDIA_CATALOG.json",
+        "id": "M07",
+        "index": 6
+      },
+      {
+        "file": "research/integrated/MEDIA_LINKED.json",
+        "id": "M07",
+        "index": 6
+      },
+      {
+        "file": "research/routine-prep/MEDIA_REVIEW_QUEUE.json",
+        "id": "M07",
+        "index": 6
+      }
+    ],
+    "status": "inherited link; not independently reverified in this index; no release authorization",
+    "id": "EV-I072",
+    "reviewed_asset_ids": []
+  },
+  {
+    "url": "https://www.nwlondonicb.nhs.uk/your-health-services/pregnancy-and-maternity-services/preparing-caesarean-birth-and-after",
+    "title": "Preparing for and recovering from cesarean birth and scar massage",
+    "aliases": [
+      {
+        "file": "research/implementation-handoff/MEDIA_CATALOG.json",
+        "id": "M08",
+        "index": 7
+      },
+      {
+        "file": "research/integrated/MEDIA_LINKED.json",
+        "id": "M08",
+        "index": 7
+      },
+      {
+        "file": "research/routine-prep/MEDIA_REVIEW_QUEUE.json",
+        "id": "M08",
+        "index": 7
+      }
+    ],
+    "status": "inherited link; not independently reverified in this index; no release authorization",
+    "id": "EV-I073",
+    "reviewed_asset_ids": []
+  },
+  {
+    "url": "https://www.leedsth.nhs.uk/services/physiotherapy-2/pelvic-health-physiotherapy/urogynaecology-physiotherapy/postnatal/",
+    "title": "Postnatal physiotherapy",
+    "aliases": [
+      {
+        "file": "research/implementation-handoff/MEDIA_CATALOG.json",
+        "id": "M09",
+        "index": 8
+      },
+      {
+        "file": "research/integrated/MEDIA_LINKED.json",
+        "id": "M09",
+        "index": 8
+      },
+      {
+        "file": "research/routine-prep/MEDIA_REVIEW_QUEUE.json",
+        "id": "M09",
+        "index": 8
+      }
+    ],
+    "status": "inherited link; not independently reverified in this index; no release authorization",
+    "id": "EV-I074",
+    "reviewed_asset_ids": []
+  },
+  {
+    "url": "https://www.youtube.com/watch?v=pozcaggYIWk",
+    "title": "Pregnancy nutrition Q&A",
+    "aliases": [
+      {
+        "file": "research/implementation-handoff/MEDIA_CATALOG.json",
+        "id": "M10",
+        "index": 9
+      },
+      {
+        "file": "research/integrated/MEDIA_LINKED.json",
+        "id": "M10",
+        "index": 9
+      },
+      {
+        "file": "research/routine-prep/MEDIA_REVIEW_QUEUE.json",
+        "id": "M10",
+        "index": 9
+      }
+    ],
+    "status": "inherited link; not independently reverified in this index; no release authorization",
+    "id": "EV-I075",
+    "reviewed_asset_ids": []
+  },
+  {
+    "url": "https://www.cdc.gov/folic-acid/php/toolkit/decoding-labels.html",
+    "title": "Decoding folic acid labels",
+    "aliases": [
+      {
+        "file": "research/implementation-handoff/MEDIA_CATALOG.json",
+        "id": "M11",
+        "index": 10
+      },
+      {
+        "file": "research/integrated/MEDIA_LINKED.json",
+        "id": "M11",
+        "index": 10
+      },
+      {
+        "file": "research/routine-prep/MEDIA_REVIEW_QUEUE.json",
+        "id": "M11",
+        "index": 10
+      }
+    ],
+    "status": "inherited link; not independently reverified in this index; no release authorization",
+    "id": "EV-I076",
+    "reviewed_asset_ids": []
+  },
+  {
+    "url": "https://myhealth.alberta.ca/Alberta/Pages/nutrition-pregnancy-video-series.aspx",
+    "title": "Nutrition and pregnancy video series",
+    "aliases": [
+      {
+        "file": "research/implementation-handoff/MEDIA_CATALOG.json",
+        "id": "M12",
+        "index": 11
+      },
+      {
+        "file": "research/integrated/MEDIA_LINKED.json",
+        "id": "M12",
+        "index": 11
+      },
+      {
+        "file": "research/routine-prep/MEDIA_REVIEW_QUEUE.json",
+        "id": "M12",
+        "index": 11
+      }
+    ],
+    "status": "inherited link; not independently reverified in this index; no release authorization",
+    "id": "EV-I077",
+    "reviewed_asset_ids": []
+  },
+  {
+    "url": "https://www.cdc.gov/hearher/personal-stories/index.html",
+    "title": "Hear Her personal stories",
+    "aliases": [
+      {
+        "file": "research/implementation-handoff/MEDIA_CATALOG.json",
+        "id": "M13",
+        "index": 12
+      },
+      {
+        "file": "research/integrated/MEDIA_LINKED.json",
+        "id": "M13",
+        "index": 12
+      },
+      {
+        "file": "research/routine-prep/MEDIA_REVIEW_QUEUE.json",
+        "id": "M13",
+        "index": 12
+      }
+    ],
+    "status": "inherited link; not independently reverified in this index; no release authorization",
+    "id": "EV-I078",
+    "reviewed_asset_ids": []
+  },
+  {
+    "url": "https://maternalwarningsigns.org/",
+    "title": "Maternal warning signs video",
+    "aliases": [
+      {
+        "file": "research/implementation-handoff/MEDIA_CATALOG.json",
+        "id": "M14",
+        "index": 13
+      },
+      {
+        "file": "research/integrated/MEDIA_LINKED.json",
+        "id": "M14",
+        "index": 13
+      },
+      {
+        "file": "research/routine-prep/MEDIA_REVIEW_QUEUE.json",
+        "id": "M14",
+        "index": 13
+      }
+    ],
+    "status": "inherited link; not independently reverified in this index; no release authorization",
+    "id": "EV-I079",
+    "reviewed_asset_ids": []
+  },
+  {
+    "url": "https://signhealth.org.uk/videotags/pregnancy/",
+    "title": "Pelvic health videos in British Sign Language",
+    "aliases": [
+      {
+        "file": "research/implementation-handoff/MEDIA_CATALOG.json",
+        "id": "M15",
+        "index": 14
+      },
+      {
+        "file": "research/integrated/MEDIA_LINKED.json",
+        "id": "M15",
+        "index": 14
+      },
+      {
+        "file": "research/routine-prep/MEDIA_REVIEW_QUEUE.json",
+        "id": "M15",
+        "index": 14
+      }
+    ],
+    "status": "inherited link; not independently reverified in this index; no release authorization",
+    "id": "EV-I080",
+    "reviewed_asset_ids": []
+  },
+  {
+    "url": "https://www.nuh.nhs.uk/physiotherapy-maternity",
+    "title": "Maternity physiotherapy",
+    "aliases": [
+      {
+        "file": "research/implementation-handoff/MEDIA_CATALOG.json",
+        "id": "M16",
+        "index": 15
+      },
+      {
+        "file": "research/integrated/MEDIA_LINKED.json",
+        "id": "M16",
+        "index": 15
+      },
+      {
+        "file": "research/routine-prep/MEDIA_REVIEW_QUEUE.json",
+        "id": "M16",
+        "index": 15
+      }
+    ],
+    "status": "inherited link; not independently reverified in this index; no release authorization",
+    "id": "EV-I081",
+    "reviewed_asset_ids": []
+  },
+  {
+    "url": "https://evidencebasedbirth.com/evidence-based-birth-podcast/",
+    "title": "Evidence Based Birth podcast",
+    "aliases": [
+      {
+        "file": "research/implementation-handoff/MEDIA_CATALOG.json",
+        "id": "M17",
+        "index": 16
+      },
+      {
+        "file": "research/integrated/MEDIA_LINKED.json",
+        "id": "M17",
+        "index": 16
+      },
+      {
+        "file": "research/routine-prep/MEDIA_REVIEW_QUEUE.json",
+        "id": "M17",
+        "index": 16
+      }
+    ],
+    "status": "inherited link; not independently reverified in this index; no release authorization",
+    "id": "EV-I082",
+    "reviewed_asset_ids": []
+  },
+  {
+    "url": "https://openstax.org/books/anatomy-and-physiology-2e/pages/28-4-changes-during-pregnancy-labor-and-birth",
+    "title": "Pregnancy and birth anatomy",
+    "aliases": [
+      {
+        "file": "research/high-audit/VISUAL_ASSET_REFERENCES.json",
+        "id": "VA-01",
+        "index": 0
+      }
+    ],
+    "status": "inherited link; not independently reverified in this index; no release authorization",
+    "id": "EV-I083",
+    "reviewed_asset_ids": []
+  },
+  {
+    "url": "https://commons.wikimedia.org/wiki/File:Anatomy_The_Skin_-_NCI_Visuals_Online.jpg",
+    "title": "NCI skin anatomy illustration (Don Bliss)",
+    "aliases": [
+      {
+        "file": "research/high-audit/VISUAL_ASSET_REFERENCES.json",
+        "id": "VA-03",
+        "index": 2
+      }
+    ],
+    "status": "inherited link; not independently reverified in this index; no release authorization",
+    "id": "EV-I084",
+    "reviewed_asset_ids": []
+  },
+  {
+    "url": "https://commons.wikimedia.org/wiki/File:Pelvic_Floor_Muscles.jpg",
+    "title": "OpenStax 2016 muscles of pelvic floor illustration",
+    "aliases": [
+      {
+        "file": "research/high-audit/VISUAL_ASSET_REFERENCES.json",
+        "id": "VA-04",
+        "index": 3
+      }
+    ],
+    "status": "inherited link; not independently reverified in this index; no release authorization",
+    "id": "EV-I085",
+    "reviewed_asset_ids": []
+  },
+  {
+    "url": "https://commons.wikimedia.org/wiki/File:Pelvis_(female).jpg",
+    "title": "NCI female pelvis illustration",
+    "aliases": [
+      {
+        "file": "research/high-audit/VISUAL_ASSET_REFERENCES.json",
+        "id": "VA-05",
+        "index": 4
+      }
+    ],
+    "status": "inherited link; not independently reverified in this index; no release authorization",
+    "id": "EV-I086",
+    "reviewed_asset_ids": []
+  },
+  {
+    "url": "https://www.youtube.com/watch?v=bSmPmsgcq80",
+    "title": "NHS South Yorkshire: Pelvic Health - Exercises",
+    "aliases": [
+      {
+        "file": "research/external-audits/grok/MEDIA_CANDIDATES.json",
+        "id": "GM02",
+        "index": 1
+      }
+    ],
+    "status": "inherited link; not independently reverified in this index; no release authorization",
+    "id": "EV-I087",
+    "reviewed_asset_ids": []
+  },
+  {
+    "url": "https://www.thewomens.org.au/health-information/pregnancy-and-birth/your-health-after-birth/exercise-after-birth",
+    "title": "The Royal Women's Hospital: Exercise after birth",
+    "aliases": [
+      {
+        "file": "research/external-audits/grok/MEDIA_CANDIDATES.json",
+        "id": "GM03",
+        "index": 2
+      }
+    ],
+    "status": "inherited link; not independently reverified in this index; no release authorization",
+    "id": "EV-I088",
+    "reviewed_asset_ids": []
+  }
+]

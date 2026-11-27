@@ -1,0 +1,23 @@
+{
+  "baseline_commit": "3ed7fce1b55a2ac4a8d64b1f0389529a0b4fa34c",
+  "date": "2026-11-26",
+  "inherited_candidate_mentions": 132,
+  "unique_exact_url_groups": 88,
+  "reviewed_catalog_records": 44,
+  "rights_status_counts": {
+    "attribution-only licensed candidate": 19,
+    "agency reuse terms candidate": 3,
+    "agency explicit infographic reuse": 4,
+    "link only": 10,
+    "link only; access blocked": 1,
+    "licensed local original candidate": 7
+  },
+  "original_svg_files": 7,
+  "unique_asset_ids": true,
+  "missing_attribution_for_local": 0,
+  "clinical_review_count": 0,
+  "production_approved_count": 0,
+  "video_playback_audited": 0,
+  "stage9_authorized": false,
+  "limitations": "Exact URL grouping only; semantic duplicates remain. Page/rights text checked where recorded, not individual artwork rendering/accuracy, comprehensive legal clearance or playback. No non-SVG third-party media downloaded. One SVG rejected on import."
+}
