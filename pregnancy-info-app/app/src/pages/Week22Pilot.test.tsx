@@ -53,14 +53,11 @@ describe('week 22 visual directory',()=>{
   fireEvent.click(screen.getByRole('button',{name:'Back'}))
   expect(await screen.findByRole('heading',{name:'Muscles are developing'})).toBeVisible()
  })
- it('applies the approved candidate to weeks 20–31, not week 32',async()=>{
-  view('/timeline/week/20')
-  for(const week of [21,22,23]){fireEvent.click(screen.getByRole('link',{name:'Next'}));expect(await screen.findByRole('heading',{name:'Week '+week})).toBeVisible()}
-  expect(screen.getByRole('navigation',{name:'Development topics'})).toBeVisible()
-  fireEvent.click(screen.getByRole('link',{name:'Next'}))
-  expect(await screen.findByRole('heading',{name:'Week 24'})).toBeVisible()
-  for(const week of [25,26,27,28,29,30,31,32]){fireEvent.click(screen.getByRole('link',{name:'Next'}));expect(await screen.findByRole('heading',{name:'Week '+week})).toBeVisible()}
-  expect(screen.queryByRole('navigation',{name:'Development topics'})).not.toBeInTheDocument()
+ it('applies the approved candidate to weeks 14–40 with a birth transition',async()=>{
+  view('/timeline/week/14')
+  for(let week=15;week<=40;week++){fireEvent.click(screen.getByRole('link',{name:'Next',exact:true}));expect(await screen.findByRole('heading',{name:'Week '+week})).toBeVisible()}
+  expect(screen.queryByRole('link',{name:'Next week'})).not.toBeInTheDocument()
+  expect(screen.getByRole('link',{name:'Birth & newborn'})).toHaveAttribute('href','/timeline/shared_birth')
  })
  it('preserves the baby size view when moving between pilot weeks',async()=>{
   view('/timeline/week/22?subject=baby')
@@ -81,12 +78,12 @@ describe('week 22 visual directory',()=>{
   expect(within(screen.getByRole('navigation',{name:"This week's featured topics"})).queryByRole('link',{name:/Fine hair covers the body/})).not.toBeInTheDocument()
   expect(within(screen.getByRole('navigation',{name:'Development topics'})).getAllByRole('link')).toHaveLength(8)
  })
- it.each<[number,string,string]>([[20,'Banana','Swallowing before birth'],[21,'Carrot','Hearing and familiar voices'],[24,'Corn on the cob','The developing airway tree'],[25,'Zucchini','Where blood cells form'],[26,'Cucumber','Developing eyes'],[27,'Head of cauliflower','Rapid brain growth'],[28,'Eggplant','A changing heartbeat'],[29,'Butternut squash','Nervous-system control'],[30,'Cabbage','Developing visual focus'],[31,'Coconut','Building mineral reserves']])('week %s has its own fetal features and size',async(week,food,feature)=>{
+ it.each<[number,string,string]>([[20,'Banana','Swallowing before birth'],[21,'Carrot','Hearing and familiar voices'],[24,'Corn on the cob','The developing airway tree'],[25,'Zucchini','Where blood cells form'],[26,'Cucumber','Developing eyes'],[27,'Head of cauliflower','Rapid brain growth'],[28,'Eggplant','A changing heartbeat'],[29,'Butternut squash','Nervous-system control'],[30,'Cabbage','Developing visual focus'],[31,'Coconut','Building mineral reserves'],[14,"Kiwi fruit","Developing tooth buds"],[15,"Apple","The developing skeleton"],[16,"Avocado","Facial and limb movements"],[17,"Pomegranate","Sucking movements"],[18,"Bell pepper","Touch, sound and oral reflexes"],[19,"Beef tomato","Hearing and the nervous system"],[32,"Bunch of celery","Practice breathing movements"],[33,"Pineapple","Flexible skull structures"],[34,"Cantaloupe melon","A curled position in the uterus"],[35,"Honeydew melon","Fat under the skin"],[36,"Romaine lettuce","Sucking and feeding coordination"],[37,"Leek","Early term versus full term"],[38,"Stick of rhubarb","Fine hair thins"],[39,"Small watermelon","Changing skin and vernix"],[40,"Pumpkin","From placenta to newborn life"]])('week %s has its own fetal features and size',async(week,food,feature)=>{
   view('/timeline/week/'+week+'?subject=baby')
   expect(await screen.findByRole('heading',{name:'Week '+week})).toBeVisible()
   expect(screen.getByText(food.toLowerCase())).toBeVisible()
   expect(within(screen.getByRole('navigation',{name:"This week's featured topics"})).getByRole('link',{name:new RegExp(feature)})).toBeVisible()
-  expect(screen.getByRole('heading',{name:week>=28?'Ongoing topics · Weeks 28–34':'Ongoing topics · Weeks 20–27'})).toBeVisible()
+  expect(screen.getByRole('heading',{name:week>=35?'Ongoing topics · Weeks 35–40':week>=28?'Ongoing topics · Weeks 28–34':week<20?'Ongoing topics · Weeks 14–19':'Ongoing topics · Weeks 20–27'})).toBeVisible()
  })
  it('preserves Mother selection into the third trimester and opens newborn preparation',async()=>{
   view('/timeline/week/27?subject=mother')

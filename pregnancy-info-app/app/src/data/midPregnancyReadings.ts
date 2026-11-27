@@ -3,6 +3,94 @@
 export type MidReference={title:string;url:string;sourceId?:string}
 export type MidReading={title:string;art:string;window:string;sections:{title:string;body:string;refs:string[]}[];related:[string,string][]}
 export const midReferences:Record<string,MidReference>={
+"N14": {
+    "title": "NHS: Week 14",
+    "url": "https://www.nhs.uk/best-start-in-life/pregnancy/week-by-week-guide-to-pregnancy/2nd-trimester/week-14/"
+  },
+  "N15": {
+    "title": "NHS: Week 15",
+    "url": "https://www.nhs.uk/best-start-in-life/pregnancy/week-by-week-guide-to-pregnancy/2nd-trimester/week-15/"
+  },
+  "N16": {
+    "title": "NHS: Week 16",
+    "url": "https://www.nhs.uk/best-start-in-life/pregnancy/week-by-week-guide-to-pregnancy/2nd-trimester/week-16/"
+  },
+  "N17": {
+    "title": "NHS: Week 17",
+    "url": "https://www.nhs.uk/best-start-in-life/pregnancy/week-by-week-guide-to-pregnancy/2nd-trimester/week-17/"
+  },
+  "N18": {
+    "title": "NHS: Week 18",
+    "url": "https://www.nhs.uk/best-start-in-life/pregnancy/week-by-week-guide-to-pregnancy/2nd-trimester/week-18/"
+  },
+  "N19": {
+    "title": "NHS: Week 19",
+    "url": "https://www.nhs.uk/best-start-in-life/pregnancy/week-by-week-guide-to-pregnancy/2nd-trimester/week-19/"
+  },
+  "N32": {
+    "title": "NHS: Week 32",
+    "url": "https://www.nhs.uk/best-start-in-life/pregnancy/week-by-week-guide-to-pregnancy/3rd-trimester/week-32/"
+  },
+  "N33": {
+    "title": "NHS: Week 33",
+    "url": "https://www.nhs.uk/best-start-in-life/pregnancy/week-by-week-guide-to-pregnancy/3rd-trimester/week-33/"
+  },
+  "N34": {
+    "title": "NHS: Week 34",
+    "url": "https://www.nhs.uk/best-start-in-life/pregnancy/week-by-week-guide-to-pregnancy/3rd-trimester/week-34/"
+  },
+  "N35": {
+    "title": "NHS: Week 35",
+    "url": "https://www.nhs.uk/best-start-in-life/pregnancy/week-by-week-guide-to-pregnancy/3rd-trimester/week-35/"
+  },
+  "N36": {
+    "title": "NHS: Week 36",
+    "url": "https://www.nhs.uk/best-start-in-life/pregnancy/week-by-week-guide-to-pregnancy/3rd-trimester/week-36/"
+  },
+  "N37": {
+    "title": "NHS: Week 37",
+    "url": "https://www.nhs.uk/best-start-in-life/pregnancy/week-by-week-guide-to-pregnancy/3rd-trimester/week-37/"
+  },
+  "N38": {
+    "title": "NHS: Week 38",
+    "url": "https://www.nhs.uk/best-start-in-life/pregnancy/week-by-week-guide-to-pregnancy/3rd-trimester/week-38/"
+  },
+  "N39": {
+    "title": "NHS: Week 39",
+    "url": "https://www.nhs.uk/best-start-in-life/pregnancy/week-by-week-guide-to-pregnancy/3rd-trimester/week-39/"
+  },
+  "N40": {
+    "title": "NHS: Week 40",
+    "url": "https://www.nhs.uk/best-start-in-life/pregnancy/week-by-week-guide-to-pregnancy/3rd-trimester/week-40/"
+  },
+  "RSV": {
+    "title": "CDC: Maternal RSV vaccine guidance",
+    "url": "https://www.cdc.gov/rsv/hcp/vaccine-clinical-guidance/pregnant-people.html"
+  },
+  "RSVSAFE": {
+    "title": "CDC: RSV vaccine safety",
+    "url": "https://www.cdc.gov/vaccine-safety/vaccines/rsv.html"
+  },
+  "GBS": {
+    "title": "ACOG: Prevention of group B streptococcal early-onset disease",
+    "url": "https://www.acog.org/clinical/clinical-guidance/committee-opinion/articles/2020/02/prevention-of-group-b-streptococcal-early-onset-disease-in-newborns"
+  },
+  "TERM": {
+    "title": "ACOG: Definition of term pregnancy",
+    "url": "https://www.acog.org/clinical/clinical-guidance/committee-opinion/articles/2013/11/definition-of-term-pregnancy"
+  },
+  "LABOR": {
+    "title": "ACOG: How to tell when labor begins",
+    "url": "https://www.acog.org/womens-health/faqs/how-to-tell-when-labor-begins"
+  },
+  "DUE": {
+    "title": "ACOG: When pregnancy goes past your due date",
+    "url": "https://www.acog.org/womens-health/faqs/when-pregnancy-goes-past-your-due-date"
+  },
+  "FETUS": {
+    "title": "ACOG: How your fetus grows",
+    "url": "https://www.acog.org/womens-health/faqs/how-your-fetus-grows-during-pregnancy"
+  },
 "N30": {
     "title": "NHS: Week 30",
     "url": "https://www.nhs.uk/best-start-in-life/pregnancy/week-by-week-guide-to-pregnancy/3rd-trimester/week-30/"
@@ -116,6 +204,880 @@ export const midReferences:Record<string,MidReference>={
   }
 }
 export const midReadings:Record<string,MidReading>={
+"mother/body/second-trimester": {
+    "title": "Entering the second trimester",
+    "art": "body",
+    "window": "Weeks 14–27 in US trimester convention",
+    "sections": [
+      {
+        "title": "A transition, not a switch",
+        "body": "The second trimester is a useful way to organize learning. Nausea and fatigue may ease, but symptoms can continue or change. A week number is not a deadline to feel better.",
+        "refs": [
+          "N14",
+          "FETUS"
+        ]
+      },
+      {
+        "title": "Keep care and nutrition individualized",
+        "body": "Changes in appetite do not prescribe a fixed calorie intake or a new supplement regimen. Review existing food patterns, prenatal products and care questions with the maternity team.",
+        "refs": [
+          "NUTR"
+        ]
+      },
+      {
+        "title": "What to explore now",
+        "body": "Read about pelvic support, food safety, movement and the growing fetus. Serious symptoms still need assessment, even if a general article describes them as possible pregnancy experiences.",
+        "refs": [
+          "URG"
+        ]
+      }
+    ],
+    "related": [
+      [
+        "mother/nutrition/food",
+        "Food and prenatal nutrition"
+      ],
+      [
+        "mother/body/pelvic-floor",
+        "Pelvic floor function"
+      ],
+      [
+        "mother/digestion/nausea",
+        "Nausea evidence"
+      ]
+    ]
+  },
+  "baby/growth/tooth-buds": {
+    "title": "The first developing tooth structures",
+    "art": "bone",
+    "window": "Weeks 11–14; development continues",
+    "sections": [
+      {
+        "title": "Before a tooth erupts",
+        "body": "MedlinePlus describes tooth buds forming during weeks 11–14. The tissue that eventually forms teeth develops long before the first tooth is visible after birth.",
+        "refs": [
+          "MED"
+        ]
+      },
+      {
+        "title": "Development is not eruption",
+        "body": "Later teeth and jaw structures continue forming. This does not establish a precise future teething date or a special supplement requirement.",
+        "refs": [
+          "MED",
+          "NUTR"
+        ]
+      }
+    ],
+    "related": [
+      [
+        "baby/movement/bone-maturation",
+        "Skeletal maturation"
+      ],
+      [
+        "mother/nutrition/bone-minerals",
+        "Maternal nutrient roles"
+      ]
+    ]
+  },
+  "baby/growth/liver-blood": {
+    "title": "Blood formation in the developing liver",
+    "art": "blood",
+    "window": "Weeks 11–14; sites change across gestation",
+    "sections": [
+      {
+        "title": "Different organs contribute",
+        "body": "MedlinePlus describes fetal blood-cell formation in the liver during weeks 11–14. Later, marrow becomes a site of blood-cell production. These are overlapping biological processes rather than a sudden switch.",
+        "refs": [
+          "MED"
+        ]
+      },
+      {
+        "title": "A connection with maternal nutrition",
+        "body": "Iron participates in hemoglobin formation. The developmental window does not establish a new maternal dose. Adequacy and individual clinical status matter.",
+        "refs": [
+          "NUTR"
+        ]
+      }
+    ],
+    "related": [
+      [
+        "baby/growth/blood",
+        "Later marrow development"
+      ],
+      [
+        "mother/nutrition/minerals",
+        "Maternal mineral evidence"
+      ]
+    ]
+  },
+  "baby/movement/early-bones": {
+    "title": "How early skeletal structures develop",
+    "art": "bone",
+    "window": "Weeks 15–18",
+    "sections": [
+      {
+        "title": "Forming a framework",
+        "body": "Muscles and bones continue developing together across this period. Early skeletal structures are not equivalent to the mature skeleton after birth.",
+        "refs": [
+          "MED"
+        ]
+      },
+      {
+        "title": "What nutrition can and cannot establish",
+        "body": "Calcium and vitamin D have physiological roles, but additional intake above adequate amounts cannot be assumed to improve an individual fetus's skeletal development.",
+        "refs": [
+          "NUTR"
+        ]
+      }
+    ],
+    "related": [
+      [
+        "baby/movement/muscles",
+        "Muscle development"
+      ],
+      [
+        "mother/nutrition/bone-minerals",
+        "Mineral nutrition"
+      ]
+    ]
+  },
+  "baby/movement/early-facial-movement": {
+    "title": "Early facial and limb movements",
+    "art": "movement",
+    "window": "Around week 16; development continues",
+    "sections": [
+      {
+        "title": "Movement is developing",
+        "body": "The NHS describes early facial movements and changes in limb motion around this time. The nervous system and muscles mature together; these movements are not reliable indicators of emotional state.",
+        "refs": [
+          "N16"
+        ]
+      },
+      {
+        "title": "Movement versus perception",
+        "body": "A parent may not yet feel movements. Timing varies, and feeling or not feeling a particular movement is not a developmental test. Discuss concerns with the maternity team.",
+        "refs": [
+          "MED",
+          "N16"
+        ]
+      }
+    ],
+    "related": [
+      [
+        "baby/movement/muscles",
+        "Developing muscles"
+      ],
+      [
+        "mother/movement/baby-movement",
+        "Feeling movements"
+      ]
+    ]
+  },
+  "baby/digestion/sucking": {
+    "title": "Sucking movements before birth",
+    "art": "digestion",
+    "window": "Weeks 15–18",
+    "sections": [
+      {
+        "title": "Early oral movement",
+        "body": "MedlinePlus describes sucking movements as muscles and bones develop during this window. These movements reflect changing coordination, not a baby feeding as they would after delivery.",
+        "refs": [
+          "MED"
+        ]
+      },
+      {
+        "title": "A different route for nutrition",
+        "body": "The placenta supports fetal nourishment before birth. Later oral coordination is one part of feeding development, but does not predict an individual newborn's feeding success.",
+        "refs": [
+          "MED",
+          "NUTR"
+        ]
+      }
+    ],
+    "related": [
+      [
+        "baby/digestion/swallowing",
+        "Swallowing before birth"
+      ],
+      [
+        "baby/placenta/exchange",
+        "Placental nourishment"
+      ],
+      [
+        "mother/body/feeding-preparation",
+        "Read ahead: feeding choices"
+      ]
+    ]
+  },
+  "baby/senses/early-touch": {
+    "title": "Developing sensory and motor connections",
+    "art": "senses",
+    "window": "Around week 18; multiple systems mature together",
+    "sections": [
+      {
+        "title": "Senses and movement overlap",
+        "body": "The NHS week-18 guide describes developing hearing, sensation, swallowing and sucking. These processes overlap, and the presence of a reflex does not demonstrate mature sensory function.",
+        "refs": [
+          "N18"
+        ]
+      },
+      {
+        "title": "No need for a training schedule",
+        "body": "A measured response in an experiment is not proof of improved intelligence or a reason to stimulate a fetus. Ordinary family interaction need not become a performance goal.",
+        "refs": [
+          "SOUND",
+          "MED"
+        ]
+      }
+    ],
+    "related": [
+      [
+        "baby/senses/hearing",
+        "Hearing development"
+      ],
+      [
+        "baby/senses/voice-music",
+        "Sound research"
+      ],
+      [
+        "baby/digestion/sucking",
+        "Sucking movements"
+      ]
+    ]
+  },
+  "baby/growth/early-nails": {
+    "title": "Developing nails and fingertips",
+    "art": "skin",
+    "window": "Weeks 11–14 and continuing maturation",
+    "sections": [
+      {
+        "title": "Small structures develop over time",
+        "body": "MedlinePlus describes the appearance of nails in the 11–14 week period. NHS week 17 also discusses developing fingernails. Different descriptions can refer to different aspects of the same ongoing process.",
+        "refs": [
+          "MED",
+          "N17"
+        ]
+      },
+      {
+        "title": "Not a precise age marker",
+        "body": "An educational illustration of a hand cannot establish gestational age or individual developmental status. Nail growth continues before and after birth.",
+        "refs": [
+          "MED"
+        ]
+      }
+    ],
+    "related": [
+      [
+        "baby/skin/skin-development",
+        "Developing skin"
+      ],
+      [
+        "baby/movement/early-bones",
+        "Early skeletal structures"
+      ]
+    ]
+  },
+  "mother/checkups/rsv": {
+    "title": "Protecting newborns from severe RSV",
+    "art": "antibodies",
+    "window": "US CDC guidance: 32–36 weeks, seasonally; individual eligibility matters",
+    "sections": [
+      {
+        "title": "Two approaches",
+        "body": "CDC describes maternal vaccination and preventive antibodies administered to eligible infants as different approaches to reducing severe respiratory syncytial virus disease. Most infants do not need both approaches.",
+        "refs": [
+          "RSV"
+        ]
+      },
+      {
+        "title": "The window is not a universal task",
+        "body": "In most of the continental US, maternal vaccination is offered in the specified gestational window during September–January. Prior vaccination, geography and infant circumstances may change the plan. This is a description of guidance, not an automated appointment or personal recommendation.",
+        "refs": [
+          "RSV"
+        ]
+      },
+      {
+        "title": "Benefits, harms and evidence",
+        "body": "The original vaccine trials identified a numerical preterm-birth imbalance; subsequent surveillance has provided additional safety evidence. These are distinct evidence designs and require appraisal of methods, uncertainty and commercial involvement. No new comparative efficacy chart is authorized here.",
+        "refs": [
+          "RSVSAFE"
+        ]
+      }
+    ],
+    "related": [
+      [
+        "baby/placenta/antibody-transfer",
+        "Placental antibody transfer"
+      ],
+      [
+        "mother/checkups/tdap",
+        "Pertussis prevention"
+      ],
+      [
+        "/research/EV-ART-050",
+        "Infant preventive care"
+      ]
+    ]
+  },
+  "baby/growth/temperature": {
+    "title": "Fat stores and temperature regulation",
+    "art": "fat",
+    "window": "Late gestation; source describes 31–37 windows",
+    "sections": [
+      {
+        "title": "Why body composition changes",
+        "body": "MedlinePlus describes increasing fat stores across weeks 31–34 and changes in skin appearance across weeks 35–37. The NHS connects fat accumulation with maintaining temperature after birth.",
+        "refs": [
+          "MED",
+          "N32",
+          "N35"
+        ]
+      },
+      {
+        "title": "Before and after birth are different",
+        "body": "The newborn moves into a different thermal environment after delivery. Body composition is only one part of that transition; a weekly fruit illustration cannot predict an infant's ability to regulate temperature.",
+        "refs": [
+          "N35",
+          "MED"
+        ]
+      }
+    ],
+    "related": [
+      [
+        "baby/growth/fat-stores",
+        "Earlier fat accumulation"
+      ],
+      [
+        "/research/EV-ART-023",
+        "Newborn transition"
+      ]
+    ]
+  },
+  "baby/movement/skull": {
+    "title": "Why the developing skull remains flexible",
+    "art": "bone",
+    "window": "Late pregnancy; NHS week 33 highlights skull flexibility",
+    "sections": [
+      {
+        "title": "A developing protective structure",
+        "body": "The skull bones and spaces between them allow continued growth and some flexibility. NHS week 33 distinguishes skull flexibility from ongoing hardening of other bones.",
+        "refs": [
+          "N33"
+        ]
+      },
+      {
+        "title": "Birth and later development",
+        "body": "Flexibility can help during passage through the birth canal. It does not establish a particular birth outcome, and an illustration is not an assessment of head shape or individual anatomy.",
+        "refs": [
+          "N33",
+          "MED"
+        ]
+      }
+    ],
+    "related": [
+      [
+        "baby/movement/bone-maturation",
+        "Bone maturation"
+      ],
+      [
+        "baby/growth/screening",
+        "Clinical growth assessment"
+      ]
+    ]
+  },
+  "mother/checkups/car-seat": {
+    "title": "Preparing safe transport after birth",
+    "art": "checkups",
+    "window": "Read ahead · before the newborn travels",
+    "sections": [
+      {
+        "title": "A practical preparation topic",
+        "body": "NHS week 33 highlights choosing and understanding a car seat before leaving the birth setting. Use the appropriate rear-facing infant restraint and manufacturer instructions; local safety rules and fit matter.",
+        "refs": [
+          "N33"
+        ]
+      },
+      {
+        "title": "Separate product choice from safe use",
+        "body": "Price and marketing are not evidence of correct installation or safety for a particular child. Obtain fitting support from a qualified local child passenger safety resource. No product ranking or universal fit claim is made here.",
+        "refs": [
+          "N33"
+        ]
+      }
+    ],
+    "related": [
+      [
+        "mother/body/postpartum-planning",
+        "Postpartum planning"
+      ],
+      [
+        "mother/checkups/sleep-preparation",
+        "Safe sleep preparation"
+      ]
+    ]
+  },
+  "mother/body/engagement": {
+    "title": "What it means when the baby moves lower",
+    "art": "body",
+    "window": "Late pregnancy; timing varies",
+    "sections": [
+      {
+        "title": "A possible change in position",
+        "body": "NHS week 34 describes descent toward the pelvis, sometimes called lightening, which can change pressure on the abdomen and bladder. It is not a reliable countdown to birth.",
+        "refs": [
+          "N34"
+        ]
+      },
+      {
+        "title": "Symptoms still require assessment",
+        "body": "Breathing difficulty, chest pain, bleeding or changed usual fetal movements should not be attributed to position without assessment. The care team can assess position when appropriate.",
+        "refs": [
+          "URG",
+          "N34"
+        ]
+      }
+    ],
+    "related": [
+      [
+        "mother/checkups/growth-position",
+        "Growth and position assessment"
+      ],
+      [
+        "mother/body/rib-comfort",
+        "Breathing and rib comfort"
+      ]
+    ]
+  },
+  "baby/growth/flexed-position": {
+    "title": "How the baby fits in the uterus",
+    "art": "movement",
+    "window": "Late pregnancy; NHS week 34 describes a flexed posture",
+    "sections": [
+      {
+        "title": "A changing physical environment",
+        "body": "As the baby grows, the available space changes. NHS week 34 describes a curled posture with legs bent. This is a representative description, not a scan of an individual baby.",
+        "refs": [
+          "N34"
+        ]
+      },
+      {
+        "title": "Movement remains important",
+        "body": "Less space is not a reason to dismiss a reduction or change in the usual movement pattern. Contact the maternity team immediately for such a change.",
+        "refs": [
+          "URG",
+          "N34"
+        ]
+      }
+    ],
+    "related": [
+      [
+        "baby/movement/patterns",
+        "Movement patterns"
+      ],
+      [
+        "mother/checkups/growth-position",
+        "Clinical assessment"
+      ]
+    ]
+  },
+  "mother/checkups/gbs": {
+    "title": "Group B strep and newborn protection",
+    "art": "checkups",
+    "window": "US ACOG clinical guidance: routine screen 36 0/7–37 6/7 weeks; exceptions apply",
+    "sections": [
+      {
+        "title": "Colonization is different from illness",
+        "body": "Group B streptococcus can be present without symptoms in adults, but can cause serious early-onset illness in a newborn. US guidance uses screening and, when indicated, antibiotics during labor to reduce risk.",
+        "refs": [
+          "GBS"
+        ]
+      },
+      {
+        "title": "Timing and exceptions",
+        "body": "ACOG's clinical guidance describes the screening range and exceptions, including some prior or current clinical findings. The care team interprets results and chooses care; there is no home testing or antibiotic protocol here.",
+        "refs": [
+          "GBS"
+        ]
+      },
+      {
+        "title": "Evidence and uncertainty",
+        "body": "Clinical recommendations combine screening accuracy, clinical outcomes and harms. This is not a single randomized comparison; the underlying evidence, conflicts and applicability require separate review before quantitative claims are used.",
+        "refs": [
+          "GBS"
+        ]
+      }
+    ],
+    "related": [
+      [
+        "mother/checkups/prenatal",
+        "Prenatal assessment"
+      ],
+      [
+        "/research/EV-ART-023",
+        "Newborn clinical care"
+      ]
+    ]
+  },
+  "baby/growth/sleep-patterns": {
+    "title": "Developing activity and sleep patterns",
+    "art": "rest",
+    "window": "Weeks 35–37",
+    "sections": [
+      {
+        "title": "Patterns before birth",
+        "body": "MedlinePlus describes more definite fetal sleep patterns in the 35–37 week window. These patterns are different from postnatal sleep and cannot be used to diagnose a baby's wellbeing.",
+        "refs": [
+          "MED"
+        ]
+      },
+      {
+        "title": "Do not dismiss changed movement",
+        "body": "If usual fetal movements slow, stop or change, contact maternity care immediately; do not assume the baby is simply asleep. Safe newborn sleep guidance is a separate topic for after birth.",
+        "refs": [
+          "URG",
+          "AAP_SLEEP"
+        ]
+      }
+    ],
+    "related": [
+      [
+        "baby/movement/patterns",
+        "Movement patterns"
+      ],
+      [
+        "mother/checkups/sleep-preparation",
+        "Newborn safe sleep"
+      ]
+    ]
+  },
+  "baby/digestion/feeding-readiness": {
+    "title": "How oral coordination develops before birth",
+    "art": "digestion",
+    "window": "Late pregnancy; maturity varies",
+    "sections": [
+      {
+        "title": "A developing set of functions",
+        "body": "The NHS week-36 guide discusses sucking and digestion. Oral movement, swallowing, respiratory coordination and clinical circumstances all affect feeding after birth.",
+        "refs": [
+          "N36",
+          "MED"
+        ]
+      },
+      {
+        "title": "No prediction of individual feeding success",
+        "body": "Some newborns need feeding support. A weekly developmental description is not a readiness assessment or a guarantee of breastfeeding success.",
+        "refs": [
+          "N36"
+        ]
+      }
+    ],
+    "related": [
+      [
+        "baby/digestion/sucking",
+        "Earlier sucking movements"
+      ],
+      [
+        "/research/EV-ART-032",
+        "Feeding choices"
+      ],
+      [
+        "/research/EV-ART-034",
+        "Feeding cues and milk supply"
+      ]
+    ]
+  },
+  "mother/body/breech-discussion": {
+    "title": "When the baby is not head down",
+    "art": "body",
+    "window": "Late-pregnancy discussion; clinical assessment required",
+    "sections": [
+      {
+        "title": "Position can change",
+        "body": "NHS week 36 describes clinical discussion of external cephalic version when the baby is not head down. Eligibility depends on pregnancy and clinical circumstances.",
+        "refs": [
+          "N36"
+        ]
+      },
+      {
+        "title": "Not a home maneuver",
+        "body": "External cephalic version is performed by trained clinicians with assessment and monitoring. Evidence for traditional or positional techniques is a separate question, and no home turning or induction procedure is provided.",
+        "refs": [
+          "N36"
+        ]
+      },
+      {
+        "title": "Questions to bring",
+        "body": "Ask about position, appropriate options, risks and what follow-up is needed. Birth decisions remain individualized.",
+        "refs": [
+          "N36"
+        ]
+      }
+    ],
+    "related": [
+      [
+        "mother/checkups/growth-position",
+        "Growth and position"
+      ],
+      [
+        "/research/EV-ART-022",
+        "Dates, herbs and breech evidence"
+      ]
+    ]
+  },
+  "baby/growth/term-context": {
+    "title": "Early term is not the same as full term",
+    "art": "growth",
+    "window": "US term definitions",
+    "sections": [
+      {
+        "title": "Why terminology matters",
+        "body": "ACOG distinguishes early term (37 weeks through 38 weeks 6 days) from full term (39 weeks through 40 weeks 6 days). Later categories include late term and postterm. These terms describe gestational age, not an individual guarantee of maturity.",
+        "refs": [
+          "TERM"
+        ]
+      },
+      {
+        "title": "Development continues",
+        "body": "Organs and tissues continue maturing around birth. The NHS uses a broader term label in some week pages; Everwell uses the US clinical definitions and does not treat delivery at 37 weeks as equivalent to 39 weeks.",
+        "refs": [
+          "TERM",
+          "FETUS"
+        ]
+      }
+    ],
+    "related": [
+      [
+        "baby/growth/maturation",
+        "Organ maturation"
+      ],
+      [
+        "mother/body/birth-preparation",
+        "Birth preparation"
+      ]
+    ]
+  },
+  "mother/body/labor-signs": {
+    "title": "Recognizing possible labor and when to call",
+    "art": "uterus",
+    "window": "Late pregnancy; individual instructions govern",
+    "sections": [
+      {
+        "title": "Possible signs",
+        "body": "Contractions, changes in discharge and fluid leakage can be associated with labor. A mucus show does not reliably predict when birth will happen. ACOG describes clinical assessment when symptoms are uncertain.",
+        "refs": [
+          "LABOR",
+          "N39"
+        ]
+      },
+      {
+        "title": "Contact care for concerns",
+        "body": "Follow your maternity team's contact instructions. Suspected fluid leakage, heavy bleeding, reduced usual movement, severe pain or other urgent symptoms need prompt assessment. Before 37 weeks, possible labor signs need prompt maternity contact.",
+        "refs": [
+          "LABOR",
+          "URG",
+          "PRETERM"
+        ]
+      }
+    ],
+    "related": [
+      [
+        "mother/body/contractions",
+        "Practice contractions and preterm signs"
+      ],
+      [
+        "mother/checkups/urgent",
+        "Urgent maternal signs"
+      ],
+      [
+        "mother/body/birth-preparation",
+        "Birth support"
+      ]
+    ]
+  },
+  "baby/skin/lanugo-late": {
+    "title": "Why the fine body hair thins",
+    "art": "skin",
+    "window": "Weeks 38–40; individual variation",
+    "sections": [
+      {
+        "title": "An earlier covering changes",
+        "body": "Fine fetal hair can thin near the end of pregnancy. The NHS week-38 guide notes that some babies are born with patches remaining. The amount does not establish an individual gestational age or health status.",
+        "refs": [
+          "MED",
+          "N38"
+        ]
+      },
+      {
+        "title": "Skin continues developing",
+        "body": "Lanugo and vernix are distinct. Their changing appearance is part of the transition toward newborn skin, not a reason to start a maternal cosmetic or nutrient intervention.",
+        "refs": [
+          "N38",
+          "N39"
+        ]
+      }
+    ],
+    "related": [
+      [
+        "baby/skin/lanugo",
+        "Earlier fine body hair"
+      ],
+      [
+        "baby/skin/vernix-later",
+        "Vernix changes"
+      ],
+      [
+        "baby/skin/skin-development",
+        "Skin structure"
+      ]
+    ]
+  },
+  "baby/digestion/meconium-birth": {
+    "title": "Meconium and the transition to newborn care",
+    "art": "digestion",
+    "window": "Near birth; first stool normally follows delivery",
+    "sections": [
+      {
+        "title": "A continuing intestinal process",
+        "body": "Meconium accumulates before birth and normally becomes the newborn's first stool. NHS week 38 describes how this material develops from substances swallowed during fetal life.",
+        "refs": [
+          "N38"
+        ]
+      },
+      {
+        "title": "Clinical context matters",
+        "body": "Meconium in amniotic fluid during labor may need clinical monitoring. This article cannot diagnose fetal distress, interpret fluid or replace care-team assessment.",
+        "refs": [
+          "N38"
+        ]
+      }
+    ],
+    "related": [
+      [
+        "baby/digestion/meconium",
+        "Earlier intestinal development"
+      ],
+      [
+        "/research/EV-ART-023",
+        "Newborn transition"
+      ]
+    ]
+  },
+  "baby/growth/newborn-transition": {
+    "title": "The transition from placenta to newborn life",
+    "art": "placenta",
+    "window": "Birth transition; individual support needs vary",
+    "sections": [
+      {
+        "title": "Changing physiological roles",
+        "body": "Before birth, the placenta supports exchange. After birth the lungs and other systems participate in a changing circulatory and respiratory environment. Transition is a process, not proof of independent function at a particular week.",
+        "refs": [
+          "FETUS",
+          "MED"
+        ]
+      },
+      {
+        "title": "Clinical support is individualized",
+        "body": "The newborn may need help with breathing, warmth or feeding. The clinical team assesses what care is necessary. A size analogy or term category cannot predict support requirements.",
+        "refs": [
+          "FETUS"
+        ]
+      }
+    ],
+    "related": [
+      [
+        "baby/placenta/circulation",
+        "Fetal circulation"
+      ],
+      [
+        "/research/EV-ART-023",
+        "Newborn clinical care"
+      ],
+      [
+        "/research/EV-ART-036",
+        "Safe sleep"
+      ]
+    ]
+  },
+  "mother/checkups/due-date": {
+    "title": "Understanding the estimated due date",
+    "art": "checkups",
+    "window": "Around weeks 39–40 and beyond",
+    "sections": [
+      {
+        "title": "An estimate, not a deadline",
+        "body": "An estimated due date uses dating information and often ultrasound confirmation. ACOG distinguishes full term from late term and postterm; birth does not have to occur on the estimated date.",
+        "refs": [
+          "TERM",
+          "DUE"
+        ]
+      },
+      {
+        "title": "Discuss the plan beyond the due date",
+        "body": "Follow-up, testing and possible induction depend on clinical circumstances and gestational age. Discuss options, benefits, harms and preferences with your care team. This reading does not prescribe induction or provide home methods.",
+        "refs": [
+          "DUE"
+        ]
+      },
+      {
+        "title": "Do not wait for the due date if concerned",
+        "body": "Changed usual movement, suspected fluid leakage, bleeding or serious symptoms require appropriate prompt assessment regardless of date.",
+        "refs": [
+          "URG",
+          "LABOR"
+        ]
+      }
+    ],
+    "related": [
+      [
+        "mother/body/labor-signs",
+        "Possible labor signs"
+      ],
+      [
+        "mother/body/birth-preparation",
+        "Birth preparation"
+      ],
+      [
+        "/research/EV-ART-022",
+        "Research on proposed birth interventions"
+      ]
+    ]
+  },
+  "baby/skin/late-nails": {
+    "title": "Fingernails and skin near birth",
+    "art": "skin",
+    "window": "Weeks 38–40",
+    "sections": [
+      {
+        "title": "Small visible changes",
+        "body": "MedlinePlus notes that fingernails may extend beyond the fingertips near birth. Skin and other tissues continue changing. Individual appearance varies.",
+        "refs": [
+          "MED"
+        ]
+      },
+      {
+        "title": "Appearance is not a maturity test",
+        "body": "Nail length or skin covering alone does not establish readiness for birth or a clinical age estimate. After delivery, newborn care is individualized.",
+        "refs": [
+          "MED",
+          "FETUS"
+        ]
+      }
+    ],
+    "related": [
+      [
+        "baby/growth/early-nails",
+        "Earlier nail development"
+      ],
+      [
+        "baby/skin/lanugo-late",
+        "Fine hair near birth"
+      ],
+      [
+        "/research/EV-ART-023",
+        "Newborn care"
+      ]
+    ]
+  },
 "mother/movement/sleep-changes": {
     "title": "Sleep changes and vivid dreams",
     "art": "rest",
@@ -787,9 +1749,9 @@ export const midReadings:Record<string,MidReading>={
     "sections": [
       {
         "title": "A changing surface layer",
-        "body": "Vernix is a whitish coating associated with fetal skin. The NHS week-29 page describes changes in this covering as development progresses. The amount present varies, and it does not disappear at one fixed week for every baby.",
+        "body": "Vernix is a whitish coating associated with fetal skin. The NHS week-39 page describes variation in this covering near birth. The amount present varies, and it does not disappear at one fixed week for every baby.",
         "refs": [
-          "N29"
+          "N39"
         ]
       },
       {
