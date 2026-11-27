@@ -1,0 +1,38 @@
+{
+  "baseline": "de9ace629df37532864f5c0a22e552c053a6c20a",
+  "source_records": 770,
+  "unique_ids": 770,
+  "counts": {
+    "research/integrated/CANONICAL_SOURCE_REGISTRY.json": 382,
+    "research/child-health/sources.json": 60,
+    "research/deep-research/TARGETED_GAP_AUDIT.json": 33,
+    "research/external-audits/gemini/RECONCILIATION.json": 8,
+    "research/staged-completion/stage-01/SOURCES.json": 13,
+    "research/staged-completion/stage-02/SOURCES.json": 34,
+    "research/staged-completion/stage-03/SOURCES.json": 35,
+    "research/staged-completion/stage-04/SOURCES.json": 24,
+    "research/staged-completion/stage-05/SOURCES.json": 31,
+    "research/staged-completion/stage-06/SOURCES.json": 68,
+    "research/staged-completion/stage-07/SOURCES.json": 68,
+    "research/staged-completion/stage-09/GUIDANCE_REFRESH.json": 14
+  },
+  "exact_match_candidate_pairs": 84,
+  "identifier_conflict_pairs": 1,
+  "explicit_aliases": 5,
+  "source_metadata_issues": [
+    {
+      "type": "doi_url_mismatch",
+      "id": "S014",
+      "doi": "10.3390/cosmetics12020079",
+      "url": "https://doi.org/10.3390%2Fcosmetics12020079"
+    }
+  ],
+  "missing_titles": [],
+  "invalid_urls": [],
+  "funding_field_present": 318,
+  "financial_tie_field_present": 218,
+  "bibliography_records": 467,
+  "independent_study_count": null,
+  "clinical_review": false,
+  "notes": "Counts are records, not studies; funding field present includes explicit unknown/not retrieved; matching identifiers are candidates, not proof of cohort independence."
+}

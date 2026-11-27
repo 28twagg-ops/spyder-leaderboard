@@ -1,0 +1,1067 @@
+{
+  "explicit_aliases": [
+    {
+      "alias": "R010",
+      "preferred": "S206",
+      "origin": "research/release-prep/FINAL_RESEARCH_IMPORT.json",
+      "status": "previously declared publication alias; original preserved"
+    },
+    {
+      "alias": "R018",
+      "preferred": "R003",
+      "origin": "research/release-prep/FINAL_RESEARCH_IMPORT.json",
+      "status": "previously declared publication alias; original preserved"
+    },
+    {
+      "alias": "R019",
+      "preferred": "S095",
+      "origin": "research/release-prep/FINAL_RESEARCH_IMPORT.json",
+      "status": "previously declared publication alias; original preserved"
+    },
+    {
+      "alias": "N305",
+      "preferred": "S064",
+      "origin": "research/release-prep/FINAL_RESEARCH_IMPORT.json",
+      "status": "previously declared publication alias; original preserved"
+    },
+    {
+      "alias": "H031",
+      "preferred": "R015",
+      "origin": "research/release-prep/FINAL_RESEARCH_IMPORT.json",
+      "status": "previously declared publication alias; original preserved"
+    }
+  ],
+  "candidates": [
+    {
+      "ids": [
+        "P3-01",
+        "S001"
+      ],
+      "match_fields": [
+        "doi"
+      ],
+      "identifier_conflicts": [],
+      "status": "candidate; do not merge automatically"
+    },
+    {
+      "ids": [
+        "P3-02",
+        "S004"
+      ],
+      "match_fields": [
+        "doi",
+        "pmid",
+        "url",
+        "title"
+      ],
+      "identifier_conflicts": [],
+      "status": "candidate; do not merge automatically"
+    },
+    {
+      "ids": [
+        "P3-05",
+        "S011"
+      ],
+      "match_fields": [
+        "doi",
+        "pmid",
+        "title"
+      ],
+      "identifier_conflicts": [],
+      "status": "candidate; do not merge automatically"
+    },
+    {
+      "ids": [
+        "P3-07",
+        "S012"
+      ],
+      "match_fields": [
+        "doi",
+        "pmid",
+        "url",
+        "title"
+      ],
+      "identifier_conflicts": [],
+      "status": "candidate; do not merge automatically"
+    },
+    {
+      "ids": [
+        "P3-10",
+        "S028"
+      ],
+      "match_fields": [
+        "doi",
+        "pmid",
+        "url",
+        "title"
+      ],
+      "identifier_conflicts": [],
+      "status": "candidate; do not merge automatically"
+    },
+    {
+      "ids": [
+        "P3-12",
+        "S030"
+      ],
+      "match_fields": [
+        "doi",
+        "pmid",
+        "title"
+      ],
+      "identifier_conflicts": [],
+      "status": "candidate; do not merge automatically"
+    },
+    {
+      "ids": [
+        "P3-35",
+        "S031"
+      ],
+      "match_fields": [
+        "doi",
+        "pmid",
+        "title"
+      ],
+      "identifier_conflicts": [],
+      "status": "candidate; do not merge automatically"
+    },
+    {
+      "ids": [
+        "P3-11",
+        "S032"
+      ],
+      "match_fields": [
+        "doi",
+        "pmid",
+        "title"
+      ],
+      "identifier_conflicts": [],
+      "status": "candidate; do not merge automatically"
+    },
+    {
+      "ids": [
+        "P3-23",
+        "S036"
+      ],
+      "match_fields": [
+        "doi",
+        "pmid",
+        "url",
+        "title"
+      ],
+      "identifier_conflicts": [],
+      "status": "candidate; do not merge automatically"
+    },
+    {
+      "ids": [
+        "P3-08",
+        "S044"
+      ],
+      "match_fields": [
+        "doi",
+        "pmid",
+        "url",
+        "title"
+      ],
+      "identifier_conflicts": [],
+      "status": "candidate; do not merge automatically"
+    },
+    {
+      "ids": [
+        "P3-19",
+        "S064"
+      ],
+      "match_fields": [
+        "doi",
+        "pmid",
+        "title"
+      ],
+      "identifier_conflicts": [],
+      "status": "candidate; do not merge automatically"
+    },
+    {
+      "ids": [
+        "P5-14",
+        "S082"
+      ],
+      "match_fields": [
+        "doi",
+        "pmid",
+        "url",
+        "title"
+      ],
+      "identifier_conflicts": [],
+      "status": "candidate; do not merge automatically"
+    },
+    {
+      "ids": [
+        "P5-01",
+        "S085"
+      ],
+      "match_fields": [
+        "doi",
+        "url"
+      ],
+      "identifier_conflicts": [],
+      "status": "candidate; do not merge automatically"
+    },
+    {
+      "ids": [
+        "P5-17",
+        "S090"
+      ],
+      "match_fields": [
+        "doi",
+        "url"
+      ],
+      "identifier_conflicts": [],
+      "status": "candidate; do not merge automatically"
+    },
+    {
+      "ids": [
+        "P5-05",
+        "S092"
+      ],
+      "match_fields": [
+        "doi",
+        "url"
+      ],
+      "identifier_conflicts": [],
+      "status": "candidate; do not merge automatically"
+    },
+    {
+      "ids": [
+        "P5-11",
+        "S094"
+      ],
+      "match_fields": [
+        "doi"
+      ],
+      "identifier_conflicts": [],
+      "status": "candidate; do not merge automatically"
+    },
+    {
+      "ids": [
+        "P5-12",
+        "S095"
+      ],
+      "match_fields": [
+        "doi",
+        "pmid",
+        "url"
+      ],
+      "identifier_conflicts": [],
+      "status": "candidate; do not merge automatically"
+    },
+    {
+      "ids": [
+        "P3-29",
+        "S114"
+      ],
+      "match_fields": [
+        "doi",
+        "pmid",
+        "url",
+        "title"
+      ],
+      "identifier_conflicts": [],
+      "status": "candidate; do not merge automatically"
+    },
+    {
+      "ids": [
+        "P3-21",
+        "S134"
+      ],
+      "match_fields": [
+        "doi",
+        "pmid"
+      ],
+      "identifier_conflicts": [],
+      "status": "candidate; do not merge automatically"
+    },
+    {
+      "ids": [
+        "P3-20",
+        "S170"
+      ],
+      "match_fields": [
+        "doi",
+        "url"
+      ],
+      "identifier_conflicts": [],
+      "status": "candidate; do not merge automatically"
+    },
+    {
+      "ids": [
+        "P5-23",
+        "S190"
+      ],
+      "match_fields": [
+        "doi",
+        "url",
+        "title"
+      ],
+      "identifier_conflicts": [],
+      "status": "candidate; do not merge automatically"
+    },
+    {
+      "ids": [
+        "P3-28",
+        "S212"
+      ],
+      "match_fields": [
+        "doi",
+        "pmid",
+        "url",
+        "title"
+      ],
+      "identifier_conflicts": [],
+      "status": "candidate; do not merge automatically"
+    },
+    {
+      "ids": [
+        "P3-22",
+        "S220"
+      ],
+      "match_fields": [
+        "doi",
+        "pmid",
+        "url",
+        "title"
+      ],
+      "identifier_conflicts": [],
+      "status": "candidate; do not merge automatically"
+    },
+    {
+      "ids": [
+        "CL02",
+        "P3-06"
+      ],
+      "match_fields": [
+        "doi"
+      ],
+      "identifier_conflicts": [],
+      "status": "candidate; do not merge automatically"
+    },
+    {
+      "ids": [
+        "IA007",
+        "P4-09"
+      ],
+      "match_fields": [
+        "doi",
+        "pmid",
+        "title"
+      ],
+      "identifier_conflicts": [],
+      "status": "candidate; do not merge automatically"
+    },
+    {
+      "ids": [
+        "P3-04",
+        "RP004"
+      ],
+      "match_fields": [
+        "doi",
+        "title"
+      ],
+      "identifier_conflicts": [],
+      "status": "candidate; do not merge automatically"
+    },
+    {
+      "ids": [
+        "P4-01",
+        "PED-PARENT"
+      ],
+      "match_fields": [
+        "doi",
+        "pmid",
+        "title"
+      ],
+      "identifier_conflicts": [],
+      "status": "candidate; do not merge automatically"
+    },
+    {
+      "ids": [
+        "DR003",
+        "P5-07"
+      ],
+      "match_fields": [
+        "doi",
+        "title"
+      ],
+      "identifier_conflicts": [],
+      "status": "candidate; do not merge automatically"
+    },
+    {
+      "ids": [
+        "GE001",
+        "P5-16"
+      ],
+      "match_fields": [
+        "doi"
+      ],
+      "identifier_conflicts": [],
+      "status": "candidate; do not merge automatically"
+    },
+    {
+      "ids": [
+        "P1-05",
+        "P2-08"
+      ],
+      "match_fields": [
+        "doi",
+        "title"
+      ],
+      "identifier_conflicts": [],
+      "status": "candidate; do not merge automatically"
+    },
+    {
+      "ids": [
+        "P1-09",
+        "P2-19"
+      ],
+      "match_fields": [
+        "doi",
+        "url",
+        "title"
+      ],
+      "identifier_conflicts": [],
+      "status": "candidate; do not merge automatically"
+    },
+    {
+      "ids": [
+        "P1-10",
+        "P2-17"
+      ],
+      "match_fields": [
+        "doi",
+        "title"
+      ],
+      "identifier_conflicts": [],
+      "status": "candidate; do not merge automatically"
+    },
+    {
+      "ids": [
+        "P3-03",
+        "S010"
+      ],
+      "match_fields": [
+        "pmid",
+        "url",
+        "title"
+      ],
+      "identifier_conflicts": [],
+      "status": "candidate; do not merge automatically"
+    },
+    {
+      "ids": [
+        "P5-02",
+        "S089"
+      ],
+      "match_fields": [
+        "pmid",
+        "title"
+      ],
+      "identifier_conflicts": [],
+      "status": "candidate; do not merge automatically"
+    },
+    {
+      "ids": [
+        "P5-06",
+        "S093"
+      ],
+      "match_fields": [
+        "pmid",
+        "title"
+      ],
+      "identifier_conflicts": [],
+      "status": "candidate; do not merge automatically"
+    },
+    {
+      "ids": [
+        "P3-24",
+        "S118"
+      ],
+      "match_fields": [
+        "pmid",
+        "url",
+        "title"
+      ],
+      "identifier_conflicts": [],
+      "status": "candidate; do not merge automatically"
+    },
+    {
+      "ids": [
+        "P3-27",
+        "S127"
+      ],
+      "match_fields": [
+        "pmid",
+        "url",
+        "title"
+      ],
+      "identifier_conflicts": [],
+      "status": "candidate; do not merge automatically"
+    },
+    {
+      "ids": [
+        "DR032",
+        "S128"
+      ],
+      "match_fields": [
+        "pmid",
+        "url",
+        "title"
+      ],
+      "identifier_conflicts": [],
+      "status": "candidate; do not merge automatically"
+    },
+    {
+      "ids": [
+        "P7-10",
+        "S168"
+      ],
+      "match_fields": [
+        "pmid",
+        "url",
+        "title"
+      ],
+      "identifier_conflicts": [],
+      "status": "candidate; do not merge automatically"
+    },
+    {
+      "ids": [
+        "P5-19",
+        "S222"
+      ],
+      "match_fields": [
+        "pmid",
+        "url",
+        "title"
+      ],
+      "identifier_conflicts": [],
+      "status": "candidate; do not merge automatically"
+    },
+    {
+      "ids": [
+        "P5-13",
+        "R001"
+      ],
+      "match_fields": [
+        "pmid",
+        "url"
+      ],
+      "identifier_conflicts": [],
+      "status": "candidate; do not merge automatically"
+    },
+    {
+      "ids": [
+        "P5-15",
+        "R007"
+      ],
+      "match_fields": [
+        "pmid",
+        "url"
+      ],
+      "identifier_conflicts": [],
+      "status": "candidate; do not merge automatically"
+    },
+    {
+      "ids": [
+        "P5-08",
+        "R012"
+      ],
+      "match_fields": [
+        "pmid",
+        "url"
+      ],
+      "identifier_conflicts": [],
+      "status": "candidate; do not merge automatically"
+    },
+    {
+      "ids": [
+        "N301",
+        "P3-13"
+      ],
+      "match_fields": [
+        "pmid"
+      ],
+      "identifier_conflicts": [],
+      "status": "candidate; do not merge automatically"
+    },
+    {
+      "ids": [
+        "H032",
+        "P3-09"
+      ],
+      "match_fields": [
+        "pmid",
+        "url"
+      ],
+      "identifier_conflicts": [],
+      "status": "candidate; do not merge automatically"
+    },
+    {
+      "ids": [
+        "H035",
+        "P3-18"
+      ],
+      "match_fields": [
+        "pmid",
+        "url"
+      ],
+      "identifier_conflicts": [],
+      "status": "candidate; do not merge automatically"
+    },
+    {
+      "ids": [
+        "IA006",
+        "P4-08"
+      ],
+      "match_fields": [
+        "pmid",
+        "url",
+        "title"
+      ],
+      "identifier_conflicts": [],
+      "status": "candidate; do not merge automatically"
+    },
+    {
+      "ids": [
+        "P7-58",
+        "PED-iKMC"
+      ],
+      "match_fields": [
+        "pmid",
+        "url",
+        "title"
+      ],
+      "identifier_conflicts": [],
+      "status": "candidate; do not merge automatically"
+    },
+    {
+      "ids": [
+        "P4-20",
+        "PED-MOTOR"
+      ],
+      "match_fields": [
+        "pmid",
+        "url",
+        "title"
+      ],
+      "identifier_conflicts": [],
+      "status": "candidate; do not merge automatically"
+    },
+    {
+      "ids": [
+        "P4-06",
+        "PED-AUDITORY"
+      ],
+      "match_fields": [
+        "pmid",
+        "url",
+        "title"
+      ],
+      "identifier_conflicts": [],
+      "status": "candidate; do not merge automatically"
+    },
+    {
+      "ids": [
+        "DR013",
+        "P3-14"
+      ],
+      "match_fields": [
+        "pmid",
+        "url",
+        "title"
+      ],
+      "identifier_conflicts": [],
+      "status": "candidate; do not merge automatically"
+    },
+    {
+      "ids": [
+        "DR014",
+        "P7-35"
+      ],
+      "match_fields": [
+        "pmid",
+        "url",
+        "title"
+      ],
+      "identifier_conflicts": [],
+      "status": "candidate; do not merge automatically"
+    },
+    {
+      "ids": [
+        "DR015",
+        "P7-36"
+      ],
+      "match_fields": [
+        "pmid",
+        "url",
+        "title"
+      ],
+      "identifier_conflicts": [],
+      "status": "candidate; do not merge automatically"
+    },
+    {
+      "ids": [
+        "GE002",
+        "P5-18"
+      ],
+      "match_fields": [
+        "pmid",
+        "title"
+      ],
+      "identifier_conflicts": [],
+      "status": "candidate; do not merge automatically"
+    },
+    {
+      "ids": [
+        "GE005",
+        "P5-09"
+      ],
+      "match_fields": [
+        "pmid",
+        "title"
+      ],
+      "identifier_conflicts": [],
+      "status": "candidate; do not merge automatically"
+    },
+    {
+      "ids": [
+        "GE008",
+        "P3-25"
+      ],
+      "match_fields": [
+        "pmid",
+        "title"
+      ],
+      "identifier_conflicts": [],
+      "status": "candidate; do not merge automatically"
+    },
+    {
+      "ids": [
+        "P1-06",
+        "P2-14"
+      ],
+      "match_fields": [
+        "pmid",
+        "title"
+      ],
+      "identifier_conflicts": [],
+      "status": "candidate; do not merge automatically"
+    },
+    {
+      "ids": [
+        "P1-07",
+        "P2-16"
+      ],
+      "match_fields": [
+        "pmid",
+        "url",
+        "title"
+      ],
+      "identifier_conflicts": [],
+      "status": "candidate; do not merge automatically"
+    },
+    {
+      "ids": [
+        "P1-11",
+        "P2-21"
+      ],
+      "match_fields": [
+        "pmid",
+        "url",
+        "title"
+      ],
+      "identifier_conflicts": [],
+      "status": "candidate; do not merge automatically"
+    },
+    {
+      "ids": [
+        "P3-33",
+        "S059"
+      ],
+      "match_fields": [
+        "url"
+      ],
+      "identifier_conflicts": [],
+      "status": "candidate; do not merge automatically"
+    },
+    {
+      "ids": [
+        "P5-03",
+        "S088"
+      ],
+      "match_fields": [
+        "url"
+      ],
+      "identifier_conflicts": [],
+      "status": "candidate; do not merge automatically"
+    },
+    {
+      "ids": [
+        "P7-01",
+        "S102"
+      ],
+      "match_fields": [
+        "url",
+        "title"
+      ],
+      "identifier_conflicts": [],
+      "status": "candidate; do not merge automatically"
+    },
+    {
+      "ids": [
+        "P7-11",
+        "S165"
+      ],
+      "match_fields": [
+        "url",
+        "title"
+      ],
+      "identifier_conflicts": [],
+      "status": "candidate; do not merge automatically"
+    },
+    {
+      "ids": [
+        "P7-09",
+        "S167"
+      ],
+      "match_fields": [
+        "url"
+      ],
+      "identifier_conflicts": [],
+      "status": "candidate; do not merge automatically"
+    },
+    {
+      "ids": [
+        "P7-12",
+        "S169"
+      ],
+      "match_fields": [
+        "url"
+      ],
+      "identifier_conflicts": [],
+      "status": "candidate; do not merge automatically"
+    },
+    {
+      "ids": [
+        "P9-G10",
+        "S171"
+      ],
+      "match_fields": [
+        "url"
+      ],
+      "identifier_conflicts": [],
+      "status": "candidate; do not merge automatically"
+    },
+    {
+      "ids": [
+        "P5-29",
+        "S176"
+      ],
+      "match_fields": [
+        "url"
+      ],
+      "identifier_conflicts": [],
+      "status": "candidate; do not merge automatically"
+    },
+    {
+      "ids": [
+        "P6-06",
+        "S176"
+      ],
+      "match_fields": [
+        "url"
+      ],
+      "identifier_conflicts": [],
+      "status": "candidate; do not merge automatically"
+    },
+    {
+      "ids": [
+        "P5-29",
+        "P6-06"
+      ],
+      "match_fields": [
+        "url",
+        "title"
+      ],
+      "identifier_conflicts": [],
+      "status": "candidate; do not merge automatically"
+    },
+    {
+      "ids": [
+        "P3-31",
+        "S198"
+      ],
+      "match_fields": [
+        "url"
+      ],
+      "identifier_conflicts": [],
+      "status": "candidate; do not merge automatically"
+    },
+    {
+      "ids": [
+        "P7-38",
+        "S198"
+      ],
+      "match_fields": [
+        "url"
+      ],
+      "identifier_conflicts": [],
+      "status": "candidate; do not merge automatically"
+    },
+    {
+      "ids": [
+        "P3-31",
+        "P7-38"
+      ],
+      "match_fields": [
+        "url",
+        "title"
+      ],
+      "identifier_conflicts": [],
+      "status": "candidate; do not merge automatically"
+    },
+    {
+      "ids": [
+        "N305",
+        "P3-19"
+      ],
+      "match_fields": [
+        "url"
+      ],
+      "identifier_conflicts": [],
+      "status": "candidate; do not merge automatically"
+    },
+    {
+      "ids": [
+        "N319",
+        "P7-63"
+      ],
+      "match_fields": [
+        "url"
+      ],
+      "identifier_conflicts": [],
+      "status": "candidate; do not merge automatically"
+    },
+    {
+      "ids": [
+        "H016",
+        "P3-16"
+      ],
+      "match_fields": [
+        "url"
+      ],
+      "identifier_conflicts": [],
+      "status": "candidate; do not merge automatically"
+    },
+    {
+      "ids": [
+        "P2-29",
+        "PED-FORMULA"
+      ],
+      "match_fields": [
+        "url"
+      ],
+      "identifier_conflicts": [],
+      "status": "candidate; do not merge automatically"
+    },
+    {
+      "ids": [
+        "P6-G03",
+        "PED-FORMULA"
+      ],
+      "match_fields": [
+        "url"
+      ],
+      "identifier_conflicts": [],
+      "status": "candidate; do not merge automatically"
+    },
+    {
+      "ids": [
+        "P2-29",
+        "P6-G03"
+      ],
+      "match_fields": [
+        "url",
+        "title"
+      ],
+      "identifier_conflicts": [],
+      "status": "candidate; do not merge automatically"
+    },
+    {
+      "ids": [
+        "P1-13",
+        "P2-28"
+      ],
+      "match_fields": [
+        "url",
+        "title"
+      ],
+      "identifier_conflicts": [],
+      "status": "candidate; do not merge automatically"
+    },
+    {
+      "ids": [
+        "P3-30",
+        "S105"
+      ],
+      "match_fields": [
+        "title"
+      ],
+      "identifier_conflicts": [],
+      "status": "candidate; do not merge automatically"
+    },
+    {
+      "ids": [
+        "N304",
+        "S125"
+      ],
+      "match_fields": [
+        "title"
+      ],
+      "identifier_conflicts": [],
+      "status": "candidate; do not merge automatically"
+    },
+    {
+      "ids": [
+        "PED-CORRECTION",
+        "PED-LEAP"
+      ],
+      "match_fields": [
+        "title"
+      ],
+      "identifier_conflicts": [
+        "doi",
+        "pmid"
+      ],
+      "status": "conflicting identifiers; manual review"
+    },
+    {
+      "ids": [
+        "DR017",
+        "P7-29"
+      ],
+      "match_fields": [
+        "title"
+      ],
+      "identifier_conflicts": [],
+      "status": "candidate; do not merge automatically"
+    },
+    {
+      "ids": [
+        "P1-08",
+        "P2-15"
+      ],
+      "match_fields": [
+        "title"
+      ],
+      "identifier_conflicts": [],
+      "status": "candidate; do not merge automatically"
+    }
+  ],
+  "rule": "Never infer independent trial from different paper. Exact matching normalized DOI, PMID, URL and title only. Different versions, group reports and shared URLs may not match identity; conflicting identifiers blocked for review. prior_context_ids is not alias."
+}
