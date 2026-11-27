@@ -13,3 +13,6 @@ Searches on PubMed, Cochrane, PMC, publisher pages, EFSA/CDC, Evidence Based Bir
 
 ## Expanded register
 See [EXPANDED_DISCOVERY_REGISTER.md](EXPANDED_DISCOVERY_REGISTER.md) for 120 distinct discovery questions grouped into 12 topic areas, with preliminary source links, funding notes, safety holds and cross-reference concepts. This is a research queue, not a clinical publication or a claim of 120 globally new interventions. Preserve the original source-check records and all publication gates.
+
+## Evidence continuation · 2026-11-27
+[Evidence continuation](EVIDENCE_CONTINUATION.md) maps all 120 questions to a research disposition. 61 new topic notes (28 preliminary source-linked, 27 contextual/indirect, 6 safety-held) plus 59 carried-forward records; 57 source/report records, not distinct underlying studies. All 120 have a source or context match, but context-only questions and earlier records still require direct appraisal. No clinical clearance or app publication. Funding, bias and overlap checks remain incomplete; use the source ledger and editorial handoff for further work.
