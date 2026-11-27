@@ -72,7 +72,7 @@ export function createTopicSearch<T extends SearchItem>(items:T[]){
   if(!q)return eligible.map(r=>r.item)
   const raw=q.toLowerCase().split(/\s+/).filter(Boolean)
   const exact=eligible.filter(r=>raw.every(t=>r.item.body.toLowerCase().includes(t)||r.item.id.toLowerCase().includes(t))).map(r=>r.item)
-  if(/^[a-z]+(?:-[a-z0-9]+)+$/i.test(q))return exact
+  if(/^[a-z]+(?:-[a-z0-9]+)*-\d+$/i.test(q))return exact
   const qt=[...new Set(tokens(q).map(correct))]
   if(!qt.length)return []
   const max=qt.reduce((s,t)=>s+weight(t),0)
