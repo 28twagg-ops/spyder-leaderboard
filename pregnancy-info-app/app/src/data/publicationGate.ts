@@ -43,14 +43,19 @@ export const ACTIVE_HOLDS = [
   'DEFAULT_BLOCK_CLINICAL_PUBLICATION',
 ] as const
 
+// This private prototype has no owner-authorized clinical release mechanism.
+// Individual record flags cannot override this global release lock.
+export const CLINICAL_RELEASE_ENABLED = false
+
 export function createSafetyFlags(
   partial: Partial<SafetyFlags> & Pick<SafetyFlags, 'publicationStatus' | 'contentKind'>,
 ): SafetyFlags {
   const archivedAiConclusion = partial.archivedAiConclusion ?? false
   const isSynthetic = partial.contentKind === 'synthetic'
   const isBlocked =
-    partial.publicationStatus === 'blocked' ||
-    partial.publicationStatus === 'research_only' ||
+    !CLINICAL_RELEASE_ENABLED ||
+    partial.publicationStatus !== 'clinically_reviewed' ||
+    (partial.holds ?? ['DEFAULT_BLOCK_CLINICAL_PUBLICATION']).length > 0 ||
     archivedAiConclusion
 
   return {
@@ -65,13 +70,14 @@ export function createSafetyFlags(
 }
 
 export function assertNotClinicalAdvice(flags: SafetyFlags): void {
-  if (flags.canDriveRecommendation || flags.canDriveAutomation) {
+  if (flags.canDriveRecommendation || flags.canDriveRanking || flags.canDriveAutomation) {
     throw new Error('Clinical recommendation/automation paths are blocked pending qualified review.')
   }
 }
 
 export function maySurfaceAsGuidance(flags: SafetyFlags): boolean {
-  if (flags.archivedAiConclusion) return false
+  if (!CLINICAL_RELEASE_ENABLED) return false
+  if (flags.archivedAiConclusion || flags.contentKind === 'synthetic') return false
   if (flags.publicationStatus !== 'clinically_reviewed') return false
   if (flags.holds.length > 0) return false
   return flags.canDriveRecommendation === true
