@@ -1,0 +1,18 @@
+{
+  "checked_commit": "a0d05b0e365ac6754bfd89a91b7982ef70aac608",
+  "method": "Executed JavaScript equivalent of integrated/validate_import.py assertions against fetched original JSON; Python file not executed",
+  "canonical_sources": 382,
+  "unique_source_ids": 382,
+  "invalid_urls": [],
+  "missing_alias_targets": [],
+  "nested_links_checked": 1605,
+  "topics": 22,
+  "unique_topic_ids": 22,
+  "chart_intervals": 63,
+  "errors": [],
+  "legacy_export_inputs": 14,
+  "legacy_export_stale_inputs": [],
+  "missing_legacy_outputs": [],
+  "legacy_regeneration_commit": "a0d05b0e365ac6754bfd89a91b7982ef70aac608",
+  "clinical_review": false
+}
