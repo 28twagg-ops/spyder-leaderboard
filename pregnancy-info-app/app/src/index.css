@@ -29,7 +29,7 @@
   --theme-color: #5a7d86;
 }
 
-:root,
+:root:not([data-theme]),
 [data-theme='morning-stone'] {
   color-scheme: light;
   --bg: #f1efe9;
