@@ -31,3 +31,7 @@ Actual app: first meaningful scope visible early on phone; labels legible at 320
 
 ## Clarity-first requirement (latest owner directive)
 Follow [PLAIN_LANGUAGE_STANDARD.md](PLAIN_LANGUAGE_STANDARD.md). No fixed reading-grade target. Use a natural adult voice, put the useful point first, explain medical terms when needed, and make optional deeper reading easy to find. Keep safety direct and original evidence intact. Judge comprehension, not a numerical score.
+
+
+## Priority file-page rights verification
+See [PRIORITY_VISUAL_RIGHTS_REVIEW.md](PRIORITY_VISUAL_RIGHTS_REVIEW.md). Six exact file-page revisions checked; acquisition, actual image inspection, clinical/accessibility review and approval remain open. No automatic embedding.
