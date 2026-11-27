@@ -49,8 +49,8 @@ export function TimelinePage() {
       </section>
 
       {shownTracks.map((track) => (
-        <section key={track} className="stack" aria-labelledby={`track-${track}`}>
-          <h2 id={`track-${track}`} style={{ fontFamily: 'var(--font-display)', margin: 0, fontSize: '1.25rem' }}>{trackNames[track] ?? track}</h2>
+        <details key={track} className="panel disclosure timeline-track" open={trackFilter !== 'all'}>
+          <summary><h2 id={`track-${track}`}>{trackNames[track] ?? track}</h2></summary>
           <div className="phase-rail">
             {timeline.filter((p) => p.track === track).map((phase) => {
               const featured = featuredForPhase(phase)
@@ -64,9 +64,8 @@ export function TimelinePage() {
                 return article ? [article] : []
               })
               return (
-                <article key={phase.id} className="phase-item" id={phase.id}>
-                  <div className="section-label">{phase.label}</div>
-                  <h3 style={{ margin: 0, fontSize: '1.05rem' }}>{phase.focus}</h3>
+                <details key={phase.id} className="phase-item disclosure" id={phase.id}>
+                  <summary><span><span className="phase-summary-label">{phase.label}</span><span className="phase-summary-focus">{phase.focus}</span></span></summary>
                   {phase.safety && <p className="muted" style={{ margin: 0, fontSize: '0.9rem' }}>{phase.safety}</p>}
                   {safety.length > 0 && (
                     <div className="stack">
@@ -85,11 +84,11 @@ export function TimelinePage() {
                       </ul>
                     </details>
                   )}
-                </article>
+                </details>
               )
             })}
           </div>
-        </section>
+        </details>
       ))}
 
       <section className="panel stack" aria-labelledby="gestation-heading">
@@ -104,8 +103,8 @@ export function TimelinePage() {
           {weekBands.map((band) => <option key={band.label} value={band.label}>{band.label}</option>)}
         </select>
         {weekBands.filter((band) => weekFilter === 'all' || weekFilter === band.label).map((band) => (
-          <section key={band.label} className="stack" aria-label={band.label}>
-            <h3 style={{ margin: 0, fontSize: '1.05rem' }}>{band.label}</h3>
+          <details key={band.label} className="panel disclosure week-band" open={weekFilter !== 'all'}>
+            <summary>{band.label}</summary>
             {orderedWeeks.filter((week) => week.week >= band.start && week.week <= band.end).map((week) => {
               const source = week.source_id ? getSource(week.source_id) : undefined
               const maternal = timeline.find((phase) => phase.id === week.maternal_phase)
@@ -124,7 +123,7 @@ export function TimelinePage() {
                 </details>
               )
             })}
-          </section>
+          </details>
         ))}
       </section>
     </div>

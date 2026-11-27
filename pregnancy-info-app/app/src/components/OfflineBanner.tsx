@@ -17,6 +17,8 @@ export function OfflineBanner() {
     }
   }, [])
 
+  if (online) return <details className="disclosure panel"><summary>Research package details · Online</summary><p className="muted">Generated {new Date(syncMeta.synced_at).toLocaleString()}. Packaging time is not an evidence review date. Research draft, not live clinical guidance.</p></details>
+
   return (
     <aside className="panel" role="status" aria-live="polite">
       <div className={`section-label ${online ? '' : 'warn'}`.trim()}>

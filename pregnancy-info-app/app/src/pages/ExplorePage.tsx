@@ -3,7 +3,6 @@ import { BodyMap } from '../components/BodyMap'
 import { DraftBanner } from '../components/DraftBanner'
 import { OfflineBanner } from '../components/OfflineBanner'
 import { articlesByDomain, listDomains } from '../data/researchCatalog'
-import { editorialPriorityLabel } from '../data/researchGate'
 
 export function ExplorePage() {
   const domains = listDomains()
@@ -13,11 +12,10 @@ export function ExplorePage() {
       <header className="stack">
         <div className="eyebrow">Explore · {domains.length} domains</div>
         <h1 style={{ fontFamily: 'var(--font-display)', margin: 0, fontSize: '1.8rem' }}>
-          Topic map
+          Explore your body
         </h1>
         <p className="lede" style={{ margin: 0 }}>
-          Body-map regions plus full domain lists. Priority labels are editorial navigation, not
-          GRADE or personal medical orders.
+          Choose an area or browse a topic. Labels organize reading, not medical priorities.
         </p>
       </header>
       <DraftBanner status="research_only" />
@@ -29,49 +27,11 @@ export function ExplorePage() {
       </div>
       <BodyMap />
 
-      <section className="panel" aria-label="All domains">
-        <div
-          style={{
-            display: 'grid',
-            gridTemplateColumns: 'repeat(2, minmax(0, 1fr))',
-            gap: '0.65rem',
-          }}
-        >
-          {domains.map((domain) => (
-            <Link
-              key={domain}
-              className="btn btn-ghost"
-              to={`#domain-${domain}`}
-              style={{ textAlign: 'center' }}
-            >
-              {domain}
-            </Link>
-          ))}
-        </div>
+      <section className="domain-list" aria-label="All domains"><h2 className="section-title">All topics</h2>
+        {domains.map(domain => <details key={domain} id={`domain-${domain}`} className="disclosure"><summary>{domain.replaceAll('_',' ')}</summary>
+          {articlesByDomain(domain).map(article => <Link key={article.id} className="topic-link" to={`/research/${article.id}`}>{article.title}</Link>)}
+        </details>)}
       </section>
-
-      {domains.map((domain) => (
-        <section
-          key={domain}
-          id={`domain-${domain}`}
-          className="stack"
-          aria-labelledby={`h-${domain}`}
-        >
-          <h2 id={`h-${domain}`} style={{ margin: 0, fontSize: '1.2rem' }}>
-            {domain}
-          </h2>
-          <div className="topic-grid">
-            {articlesByDomain(domain).map((article) => (
-              <article key={article.id} className="panel stack">
-                <div className="section-label">{editorialPriorityLabel(article.priority)}</div>
-                <h3 style={{ margin: 0, fontSize: '1.05rem' }}>
-                  <Link className="article-title-link" to={`/research/${article.id}`}>{article.title}</Link>
-                </h3>
-              </article>
-            ))}
-          </div>
-        </section>
-      ))}
     </div>
   )
 }

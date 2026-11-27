@@ -26,6 +26,8 @@ function RoutePosition() {
     if (hash) {
       const target = document.getElementById(hash.slice(1))
       if (target instanceof HTMLDetailsElement) target.open = true
+      let ancestor = target?.parentElement
+      while (ancestor) { if (ancestor instanceof HTMLDetailsElement) ancestor.open = true; ancestor = ancestor.parentElement }
       target?.scrollIntoView?.()
       if (hash === '#main') target?.focus()
     } else if (previous.current !== pathname && action !== 'POP') {

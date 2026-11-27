@@ -82,15 +82,16 @@ export function EvidencePage() {
       </header>
       <DraftBanner status="research_only" />
       <OfflineBanner />
-      <section className="panel stack">
-        <h2 style={{ margin: 0, fontSize: '1.1rem' }}>Research inventory</h2>
+      <details className="panel disclosure">
+        <summary>Research inventory</summary>
         <ul className="list-clean">
           <li>{stats.outcomes} outcome records · {stats.heldOutcomes} held</li>
           <li>{stats.nutrients} nutrient reference records · {stats.heldNutrients} held</li>
           <li>{stats.sources} source index records (not unique independent studies)</li>
         </ul>
         <p className="muted">Held values are hidden from this interface. Unheld does not mean verified, clinically safe or approved.</p>
-      </section>
+      </details>
+      <p className="muted" style={{margin:0,fontSize:'.8rem'}}>Held values are hidden. Unheld records remain unverified drafts.</p>
       <section className="panel stack" aria-labelledby="evidence-filters">
         <h2 id="evidence-filters" style={{ margin: 0, fontSize: '1.1rem' }}>Browse records</h2>
         <label htmlFor="evidence-kind">Record type</label>

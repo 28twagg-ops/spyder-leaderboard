@@ -15,7 +15,7 @@ export function BodyMap() {
         <h2 id="body-map-heading" className="section-title">Explore by body area</h2>
         <p className="muted">A stylized topic navigator, not an anatomical diagram or symptom checker.</p>
       </div>
-      <figure className="panel body-map-figure">
+      <div className="body-compact"><figure className="panel body-map-figure">
         <svg viewBox="0 0 320 265" aria-hidden="true" focusable="false">
           <g stroke="var(--accent)" fill="var(--bg-soft)" strokeWidth="1.6" strokeLinejoin="round">
             <ellipse cx="160" cy="29" rx="22" ry="25" />
@@ -34,15 +34,14 @@ export function BodyMap() {
       </figure>
       <div className="region-grid">
         {regions.map((region, i) => (
-          <section className="panel stack" key={region.id} aria-label={region.label}>
-            <h3 className="region-title"><span aria-hidden="true">{i + 1}</span>{region.label}</h3>
+          <details className="panel disclosure" key={region.id}><summary>{i + 1}. {region.label}</summary>
             {region.articleIds.map((id) => {
               const article = getArticle(id)
               return article ? <Link key={id} className="topic-link" to={`/research/${id}`}>{article.title}</Link> : null
             })}
-          </section>
+          </details>
         ))}
-      </div>
+      </div></div>
       <div className="panel stack">
         <h3 className="section-title">Beyond anatomy</h3>
         <Link className="topic-link" to="/research/EV-ART-005">Nutrition and supplements</Link>
