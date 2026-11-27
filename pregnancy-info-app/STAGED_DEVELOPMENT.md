@@ -1,5 +1,10 @@
 # Everwell — staged development continuation
 
+## Application Stage 8 · 27 November 2026
+
+Application Stage 8 executed in local Chromium. The build, 28 tests, lint, research validators and production offline checks passed. Physical iPhone testing remains open. [Execution report](STAGE_08_TEST_REPORT.md) · [Continuation and run commands](STAGE_08_CONTINUATION.md)
+
+
 Owner direction, 2026-11-27: preserve Cursor's architecture and Morning Stone default, retain Soft Fog, continue in small independently reviewable stages through ChatGPT/GitHub. Conserve Cursor and ChatGPT Work allowances; use ordinary chat for scoped code edits and research, reserve execution-capable Work/local environment for tests and real rendering. Do not assume any remaining model or tool quota. No paid upgrades, public deployment, clinical release, or personal health automation.
 
 ## Stage 1 — scoped code audit and safety hardening (changes committed; execution verification pending)

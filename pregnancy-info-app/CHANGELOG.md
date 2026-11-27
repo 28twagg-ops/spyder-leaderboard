@@ -1,5 +1,10 @@
 # Changelog
 
+## Application Stage 8 · 27 November 2026
+
+Fixed the TypeScript build, excluded development anatomy assets from production, bundled licensed fonts, corrected urgent-topic links, collapsed archived interpretations, and repaired mobile pagination and enlarged-text wrapping. [Execution report](STAGE_08_TEST_REPORT.md) · [Continuation and run commands](STAGE_08_CONTINUATION.md)
+
+
 ## 0.3.0 — 2026-11-27
 
 - Body-map SVG with accessible list twin on Explore

@@ -1,5 +1,10 @@
 # Implementation backlog
 
+## Application Stage 8 · 27 November 2026
+
+Next software work is physical Safari/Home Screen QA, assistive technology and large-text testing, profiling the lazy evidence chunk, and resolving the build-tool dependency advisories. Recheck restricted original-page URLs. [Execution report](STAGE_08_TEST_REPORT.md) · [Continuation and run commands](STAGE_08_CONTINUATION.md)
+
+
 **Current continuation:** See [STAGED_DEVELOPMENT.md](STAGED_DEVELOPMENT.md) for the owner-approved staged roadmap and Stage 1 static audit. The software foundation is implemented, but feature completeness, execution verification and clinical release remain pending.
 
 ## Done (software foundation + gated research integration)

@@ -1,5 +1,10 @@
 # Quality assurance
 
+## Application Stage 8 · 27 November 2026
+
+Seven suites and 28 tests passed. The production browser verified seven viewport widths, preference deletion, full pagination, local fonts, production media exclusion and offline navigation. The repeatable browser check and physical-device gaps are in the handoff. [Execution report](STAGE_08_TEST_REPORT.md) · [Continuation and run commands](STAGE_08_CONTINUATION.md)
+
+
 ## Automated (this milestone)
 
 ```bash
