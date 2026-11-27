@@ -12,7 +12,7 @@ export function InstallPage() {
           <li>Tap Add to Home Screen.</li>
           <li>Confirm the name Everwell, then Add.</li>
           <li>Launch from the Home Screen icon for standalone mode.</li>
-        </ol>
+        </ol><p className="small-copy muted">If your existing Home Screen icon does not update, first note or export your saved preferences, then remove and re-add Everwell. Removing an installed web app can clear its local data.</p>
       </section>
       <section className="panel install-help stack">
         <h2 className="section-title">Android / desktop</h2>

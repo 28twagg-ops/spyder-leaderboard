@@ -25,8 +25,7 @@ describe('Everwell shell', () => {
     expect(screen.getByRole('navigation', { name: 'Primary' })).toBeInTheDocument()
     expect(screen.getByRole('link', { name: /^Search$/ })).toHaveAttribute('href', '/library')
     expect(screen.getByRole('link', { name: /Urgent signs & getting help/ })).toHaveAttribute('href', '/urgent')
-    expect(screen.getByRole('dialog')).toBeInTheDocument()
-    fireEvent.click(screen.getByRole('button',{name:'Browse without a phase'}))
+    expect(screen.queryByRole('dialog')).not.toBeInTheDocument()
     expect(screen.queryByRole('dialog')).not.toBeInTheDocument()
     expect(screen.getByRole('heading',{name:'Start reading'})).toBeInTheDocument()
     expect(document.querySelectorAll('.ref-row')).toHaveLength(3)
@@ -35,6 +34,7 @@ describe('Everwell shell', () => {
 
   it('saves first-launch phase, dismisses setup, and restores it on relaunch',()=>{
     const first=render(<MemoryRouter><App/></MemoryRouter>)
+    fireEvent.click(screen.getByRole('button',{name:/Choose your phase/}))
     fireEvent.click(screen.getByRole('button',{name:/Preparing for pregnancy/}))
     fireEvent.click(screen.getByRole('button',{name:/6–3 months before/}))
     expect(screen.queryByRole('dialog')).not.toBeInTheDocument()
@@ -78,7 +78,6 @@ describe('Everwell shell', () => {
     expect(screen.getByRole('heading', { name: 'Saved' })).toBeInTheDocument()
     expect(screen.getByText('Getting ready for pregnancy')).toBeInTheDocument()
     fireEvent.click(screen.getByRole('link', { name: 'Home' }))
-    fireEvent.click(screen.getByRole('button',{name:'Browse without a phase'}))
     fireEvent.click(screen.getByRole('link', { name: 'Settings' }))
     fireEvent.click(screen.getByRole('button', { name: 'Clear local preferences' }))
     fireEvent.click(screen.getByRole('button', { name: 'Confirm clear' }))

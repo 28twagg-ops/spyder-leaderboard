@@ -22,7 +22,7 @@ describe('contextual navigation and privacy',()=>{
  })
  it('keeps the journey tab active and urgent help returns to its origin',async()=>{
   view('/timeline/week/22/mother/checkups/urgent')
-  expect(primary().getByRole('link',{name:'Journey'})).toHaveAttribute('aria-current','page')
+  expect(primary().getByRole('link',{name:'Timeline'})).toHaveAttribute('aria-current','page')
   fireEvent.click(await screen.findByRole('link',{name:/Open urgent warning signs now/}))
   expect(await screen.findByRole('heading',{name:'Urgent signs & getting help'})).toBeInTheDocument()
   fireEvent.click(screen.getByRole('button',{name:'Back'}))
@@ -57,7 +57,6 @@ describe('contextual navigation and privacy',()=>{
   fireEvent.click(screen.getByRole('link',{name:/Visual references/}))
   fireEvent.change(await screen.findByLabelText('Search visual references'),{target:{value:'pelvic floor'}})
   fireEvent.click(primary().getByRole('link',{name:'Home'}))
-  fireEvent.click(await screen.findByRole('button',{name:'Browse without a phase'}))
   fireEvent.click(screen.getByRole('link',{name:'Settings'}))
   fireEvent.click(screen.getByRole('button',{name:'Clear local preferences'}))
   fireEvent.click(screen.getByRole('button',{name:'Confirm clear'}))
@@ -96,11 +95,7 @@ describe('contextual navigation and privacy',()=>{
  it('links all 11 domains and all 52 articles through Explore',()=>{
   view('/explore')
   const domains=new Set<string>()
-  for(const title of ['Preparation & pregnancy','Recovery & wellbeing','Baby & child']){
-   fireEvent.click(screen.getByRole('link',{name:new RegExp(title)}))
-   for(const link of document.querySelectorAll('.reading-row'))domains.add(link.getAttribute('href')!.split('/').at(-1)!)
-   fireEvent.click(primary().getByRole('link',{name:'Explore'}))
-  }
+  for(const link of screen.getByRole('heading',{name:'All subjects'}).parentElement!.querySelectorAll('a'))domains.add(link.getAttribute('href')!.split('/').at(-1)!)
   expect([...domains].sort()).toEqual(listDomains())
   const ids=new Set<string>()
   for(const domain of domains){cleanup();view('/explore/'+domain);for(const article of articlesByDomain(domain)){expect(document.querySelector('a[href="/research/'+article.id+'"]')).toBeInTheDocument();ids.add(article.id)}}
