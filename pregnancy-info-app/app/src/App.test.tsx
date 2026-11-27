@@ -28,6 +28,9 @@ describe('Everwell shell', () => {
     expect(screen.getByRole('dialog')).toBeInTheDocument()
     fireEvent.click(screen.getByRole('button',{name:'Browse without a phase'}))
     expect(screen.queryByRole('dialog')).not.toBeInTheDocument()
+    expect(screen.getByRole('heading',{name:'Start reading'})).toBeInTheDocument()
+    expect(document.querySelectorAll('.ref-row')).toHaveLength(3)
+    expect(screen.getByRole('link',{name:/Your body/})).toHaveAttribute('href','/explore/body')
   })
 
   it('saves first-launch phase, dismisses setup, and restores it on relaunch',()=>{
