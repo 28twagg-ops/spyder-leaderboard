@@ -4,6 +4,7 @@ import { plainPhaseFocus,plainWeek,plainPhaseSafety } from '../data/plainTimelin
 import { readingOverview } from '../data/readingOverviews'
 import { Glyph } from '../components/Glyph'
 import { Week22Pilot } from './Week22Pilot'
+import {isPilotWeek} from '../data/weeklyFeatures'
 import { StageArt } from '../components/StageArt'
 import { safeVisualUrl } from '../data/visualCatalog'
 import { stageChoices } from '../data/stageChoices'
@@ -24,8 +25,7 @@ export function TimelinePage({selectedPhaseId}:{selectedPhaseId?:string|null}={}
  const activeTrack=timeline.find(p=>p.id===selectedPhaseId)?.track
  const weekPicker=<div className="panel stack"><label htmlFor="chosen-week" className="section-title">Pregnancy week</label><select id="chosen-week" value={week?.week??''} onChange={e=>navigate(e.target.value?`/timeline/week/${e.target.value}`:'/timeline/pregnancy')}><option value="">Choose a week</option>{weeks.map(w=><option key={w.week} value={w.week}>Week {w.week}</option>)}</select></div>
  if((weekNumber&&!week)||(phaseId&&!phase)||(track&&!chosenTrack))return <div className="stack-lg"><ScreenHeading title="Reading period not found" back="/timeline" backLabel="Journey"/><p>Choose an available stage or pregnancy week.</p></div>
- if(week?.week===22)return <Week22Pilot/>
- if(week?.week===23)return <Week22Pilot week={23}/>
+ if(week&&isPilotWeek(week.week))return <Week22Pilot week={week.week}/>
  if(week){
   const source=week.source_id?getSource(week.source_id):undefined
   const maternal=timeline.find(p=>p.id===week.maternal_phase)

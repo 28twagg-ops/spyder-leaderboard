@@ -1,7 +1,8 @@
 import {Link,useLocation} from 'react-router-dom'
 import type {ReactNode} from 'react'
 import {useViewState} from '../hooks/useViewMemory'
-export function usePilotWeek(){return useLocation().pathname.startsWith('/timeline/week/23')?23:22}
+import {isPilotWeek,type PilotWeek} from '../data/weeklyFeatures'
+export function usePilotWeek():PilotWeek{const week=Number(useLocation().pathname.split('/')[3]);return isPilotWeek(week)?week:22}
 type Crumb={label:string;to:string}
 export function WeekContext({subject,topic,section}:{subject:'mother'|'baby';topic?:Crumb;section?:Crumb}){
  const week=usePilotWeek(),week22Base='/timeline/week/'+week

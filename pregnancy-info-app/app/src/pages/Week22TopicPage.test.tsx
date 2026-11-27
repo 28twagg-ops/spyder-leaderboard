@@ -7,6 +7,7 @@ import {getArticle,timeline} from '../data/researchCatalog'
 import {getEvidenceSource,outcomes} from '../data/evidenceCatalog'
 import {skinSections,slug,sourceGroups,sourceAliasHeld,subsectionOutcomes} from '../data/skinTopicMap'
 import {getVisual} from '../data/visualCatalog'
+import {midReadings,midReferences} from '../data/midPregnancyReadings'
 import {topicEditorial,skinSpecific} from '../data/weekEditorial'
 afterEach(()=>{cleanup();localStorage.clear()})
 describe('expanded week 22 topic coverage',()=>{
@@ -78,6 +79,15 @@ describe('expanded week 22 topic coverage',()=>{
   expect(await screen.findByRole('heading',{name:'How the lungs develop before birth'})).toBeVisible()
   expect(screen.getByText(/Reference describes weeks 23–25/)).toBeVisible()
   expect(screen.getByRole('link',{name:'Week 23 · Baby'})).toHaveAttribute('href','/timeline/week/23?subject=baby')
+ })
+ it.each(Object.entries(midReadings).map(([path,a])=>[path,a.title]))('opens focused mid-pregnancy reading %s',async(path,title)=>{
+  render(<MemoryRouter initialEntries={['/timeline/week/25/'+path]}><App/></MemoryRouter>)
+  expect(await screen.findByRole('heading',{name:title,level:1})).toBeVisible()
+  expect(screen.getByText('Studies & references')).toBeInTheDocument()
+  expect(screen.getByRole('navigation',{name:'Week 25 context'})).toBeVisible()
+ })
+ it('new reading references resolve and registry-backed IDs exist',()=>{
+  for(const reading of Object.values(midReadings))for(const part of reading.sections)for(const id of part.refs){const ref=midReferences[id];expect(ref).toBeDefined();if(ref.sourceId)expect(getEvidenceSource(ref.sourceId)).toBeDefined()}
  })
  it('directory links are all dedicated week routes',()=>{
   render(<MemoryRouter initialEntries={['/timeline/week/22']}><App/></MemoryRouter>)

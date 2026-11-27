@@ -53,13 +53,14 @@ describe('week 22 visual directory',()=>{
   fireEvent.click(screen.getByRole('button',{name:'Back'}))
   expect(await screen.findByRole('heading',{name:'Muscles are developing'})).toBeVisible()
  })
- it('applies the pilot to week 23 only, not week 24',async()=>{
+ it('applies the approved candidate to weeks 22–27, not week 28',async()=>{
   view('/timeline/week/22')
   fireEvent.click(screen.getByRole('link',{name:'Next'}))
   expect(await screen.findByRole('heading',{name:'Week 23'})).toBeVisible()
   expect(screen.getByRole('navigation',{name:'Development topics'})).toBeVisible()
   fireEvent.click(screen.getByRole('link',{name:'Next'}))
   expect(await screen.findByRole('heading',{name:'Week 24'})).toBeVisible()
+  for(const week of [25,26,27,28]){fireEvent.click(screen.getByRole('link',{name:'Next'}));expect(await screen.findByRole('heading',{name:'Week '+week})).toBeVisible()}
   expect(screen.queryByRole('navigation',{name:'Development topics'})).not.toBeInTheDocument()
  })
  it('preserves the baby size view when moving between pilot weeks',async()=>{
@@ -80,6 +81,13 @@ describe('week 22 visual directory',()=>{
   expect(within(screen.getByRole('navigation',{name:"This week's featured topics"})).getByRole('link',{name:/Lower airways develop/})).toBeVisible()
   expect(within(screen.getByRole('navigation',{name:"This week's featured topics"})).queryByRole('link',{name:/Fine hair covers the body/})).not.toBeInTheDocument()
   expect(within(screen.getByRole('navigation',{name:'Development topics'})).getAllByRole('link')).toHaveLength(8)
+ })
+ it.each([[24,'Corn on the cob','The developing airway tree'],[25,'Zucchini','Where blood cells form'],[26,'Cucumber','Developing eyes'],[27,'Head of cauliflower','Rapid brain growth']])('week %s has its own fetal features and size',async(week,food,feature)=>{
+  view('/timeline/week/'+week+'?subject=baby')
+  expect(await screen.findByRole('heading',{name:'Week '+week})).toBeVisible()
+  expect(screen.getByText(food.toLowerCase())).toBeVisible()
+  expect(within(screen.getByRole('navigation',{name:"This week's featured topics"})).getByRole('link',{name:new RegExp(feature)})).toBeVisible()
+  expect(screen.getByRole('heading',{name:'Ongoing topics · Weeks 20–27'})).toBeVisible()
  })
  it('maps all 111 source IDs and 18 outcomes without enabling held evidence',()=>{
   const children=skinSections.flatMap(s=>s.children)
