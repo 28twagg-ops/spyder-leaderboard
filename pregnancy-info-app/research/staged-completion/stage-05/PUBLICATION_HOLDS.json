@@ -1,0 +1,38 @@
+[
+  {
+    "id": "P5-H01",
+    "source_id": "P5-18",
+    "rule": "Hold all discrepant 2026 vitamin D regimen numerical displays and GDM claims until version/table adjudication.",
+    "clinical_review": false
+  },
+  {
+    "id": "P5-H02",
+    "source_id": "P5-07",
+    "rule": "Correct prior DR003 overbroad no effect modification: timing interaction reported; no modeled timing prescription.",
+    "clinical_review": false
+  },
+  {
+    "id": "P5-H03",
+    "source_id": "P5-16",
+    "rule": "No personalized genotype/race dosing; preserve GE-H04.",
+    "clinical_review": false
+  },
+  {
+    "id": "P5-H04",
+    "source_id": "P5-11",
+    "rule": "Preserve pregnancy probiotic PE signal; no routine prevention recommendation or extrapolation to fermented foods.",
+    "clinical_review": false
+  },
+  {
+    "id": "P5-H05",
+    "source_id": "P5-24",
+    "rule": "Anonymous nonrepresentative sample; no brand identification, fear claim or recommendation to stop prenatal vitamins.",
+    "clinical_review": false
+  },
+  {
+    "id": "P5-H06",
+    "source_id": "P5-28",
+    "rule": "Reference intakes not supplement doses; age, form-specific UL, clinical need and diet matter; no auto-dosing.",
+    "clinical_review": false
+  }
+]

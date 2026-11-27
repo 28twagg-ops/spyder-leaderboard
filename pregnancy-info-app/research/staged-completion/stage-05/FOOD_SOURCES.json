@@ -1,0 +1,134 @@
+[
+  {
+    "nutrient": "Folate",
+    "examples": "Beans, lentils, leafy greens, fortified grains",
+    "caution": "Natural food folate and folic acid labels differ; prevention guidance separate.",
+    "source_ids": [
+      "P5-28",
+      "P5-29"
+    ],
+    "status": "qualitative educational examples; portions and quantitative USDA cross-check pending",
+    "clinical_review": false
+  },
+  {
+    "nutrient": "Choline",
+    "examples": "Eggs, meat, fish, soybeans",
+    "caution": "No high-dose recommendation; prior P4 choline studies.",
+    "source_ids": [
+      "P5-28",
+      "P5-29"
+    ],
+    "status": "qualitative educational examples; portions and quantitative USDA cross-check pending",
+    "clinical_review": false
+  },
+  {
+    "nutrient": "Iron",
+    "examples": "Meat, beans, lentils, fortified cereals",
+    "caution": "Vitamin C can support nonheme absorption; clinical treatment separate.",
+    "source_ids": [
+      "P5-28",
+      "P5-29"
+    ],
+    "status": "qualitative educational examples; portions and quantitative USDA cross-check pending",
+    "clinical_review": false
+  },
+  {
+    "nutrient": "Iodine",
+    "examples": "Iodized salt, dairy, seafood, eggs",
+    "caution": "Salt intake not to be increased solely for iodine; seaweed can vary widely.",
+    "source_ids": [
+      "P5-28",
+      "P5-29"
+    ],
+    "status": "qualitative educational examples; portions and quantitative USDA cross-check pending",
+    "clinical_review": false
+  },
+  {
+    "nutrient": "Calcium",
+    "examples": "Dairy, fortified plant beverages, calcium-set tofu",
+    "caution": "Check label/fortification and total intake.",
+    "source_ids": [
+      "P5-28",
+      "P5-29"
+    ],
+    "status": "qualitative educational examples; portions and quantitative USDA cross-check pending",
+    "clinical_review": false
+  },
+  {
+    "nutrient": "Vitamin D",
+    "examples": "Fatty fish, fortified foods",
+    "caution": "Clinical deficiency separate from dietary adequacy.",
+    "source_ids": [
+      "P5-28",
+      "P5-29"
+    ],
+    "status": "qualitative educational examples; portions and quantitative USDA cross-check pending",
+    "clinical_review": false
+  },
+  {
+    "nutrient": "Vitamin B12",
+    "examples": "Animal foods, fortified foods",
+    "caution": "Vegan diets need specific attention.",
+    "source_ids": [
+      "P5-28",
+      "P5-29"
+    ],
+    "status": "qualitative educational examples; portions and quantitative USDA cross-check pending",
+    "clinical_review": false
+  },
+  {
+    "nutrient": "Vitamin A",
+    "examples": "Carrots, sweet potatoes, leafy greens; preformed in animal foods",
+    "caution": "Avoid excess preformed vitamin A; beta carotene not same UL.",
+    "source_ids": [
+      "P5-28",
+      "P5-29"
+    ],
+    "status": "qualitative educational examples; portions and quantitative USDA cross-check pending",
+    "clinical_review": false
+  },
+  {
+    "nutrient": "Omega-3",
+    "examples": "Lower-mercury seafood; walnuts/flax for ALA",
+    "caution": "ALA is not equivalent to DHA/EPA; use FDA fish guidance.",
+    "source_ids": [
+      "P5-28",
+      "P5-29"
+    ],
+    "status": "qualitative educational examples; portions and quantitative USDA cross-check pending",
+    "clinical_review": false
+  },
+  {
+    "nutrient": "Magnesium",
+    "examples": "Nuts, beans, whole grains, greens",
+    "caution": "Supplemental UL separate from food.",
+    "source_ids": [
+      "P5-28",
+      "P5-29"
+    ],
+    "status": "qualitative educational examples; portions and quantitative USDA cross-check pending",
+    "clinical_review": false
+  },
+  {
+    "nutrient": "Zinc",
+    "examples": "Meat, shellfish, beans, nuts",
+    "caution": "Plant absorption varies; food safety.",
+    "source_ids": [
+      "P5-28",
+      "P5-29"
+    ],
+    "status": "qualitative educational examples; portions and quantitative USDA cross-check pending",
+    "clinical_review": false
+  },
+  {
+    "nutrient": "Protein/fiber",
+    "examples": "Beans, eggs, fish, lean meat, whole grains, produce",
+    "caution": "Individual needs and food safety; no numerical intake extraction in this packet.",
+    "source_ids": [
+      "P5-28",
+      "P5-29"
+    ],
+    "status": "qualitative educational examples; portions and quantitative USDA cross-check pending",
+    "clinical_review": false
+  }
+]

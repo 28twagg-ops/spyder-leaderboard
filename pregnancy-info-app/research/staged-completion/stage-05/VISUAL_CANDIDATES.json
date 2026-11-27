@@ -1,0 +1,50 @@
+[
+  {
+    "id": "P5-V1",
+    "title": "NIH ODS pregnancy tables 1–2",
+    "url": "https://ods.od.nih.gov/factsheets/pregnancy-healthprofessional/",
+    "notes": "Intake and UL; redraw with stage/form scope; source HTML",
+    "redistribution_cleared": false,
+    "clinical_review": false
+  },
+  {
+    "id": "P5-V2",
+    "title": "GAO supplement testing charts and CSV",
+    "url": "https://www.gao.gov/products/gao-24-107042",
+    "notes": "Original figures/raw data linked; not downloaded; verify individual reuse rights",
+    "redistribution_cleared": false,
+    "clinical_review": false
+  },
+  {
+    "id": "P5-V3",
+    "title": "FDA/EPA fish choices chart",
+    "url": "https://www.fda.gov/food/consumers/advice-about-eating-fish",
+    "notes": "Official existing chart, age and pregnancy/lactation context; verify individual credits",
+    "redistribution_cleared": false,
+    "clinical_review": false
+  },
+  {
+    "id": "P5-V4",
+    "title": "FDA folate label examples",
+    "url": "https://www.fda.gov/food/nutrition-facts-label/folate-and-folic-acid-nutrition-and-supplement-facts-labels",
+    "notes": "Original label teaching material; check assets",
+    "redistribution_cleared": false,
+    "clinical_review": false
+  },
+  {
+    "id": "P5-V5",
+    "title": "ADORE genotype original figures",
+    "url": "https://journals.plos.org/plosmedicine/article/figures?id=10.1371%2Fjournal.pmed.1005274",
+    "notes": "CC BY article, individual credits review; research-only, no genotype advice",
+    "redistribution_cleared": false,
+    "clinical_review": false
+  },
+  {
+    "id": "P5-V6",
+    "title": "USDA FoodData Central",
+    "url": "https://fdc.nal.usda.gov/",
+    "notes": "Food composition source for future ingredient/portion diagrams; no amounts extracted",
+    "redistribution_cleared": false,
+    "clinical_review": false
+  }
+]

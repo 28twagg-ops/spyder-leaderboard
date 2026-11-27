@@ -1,0 +1,21 @@
+{
+  "baseline": "4886ca2a51a1359930996496f2ba903992ce108b",
+  "date": "2026-11-26",
+  "sources": 31,
+  "numeric_rows": 24,
+  "arm_rows": 5,
+  "nutrient_rows": 93,
+  "comparisons": 8,
+  "food_records": 12,
+  "visuals": 6,
+  "source_ids_unique": true,
+  "interval_errors": 0,
+  "arm_errors": 0,
+  "missing_source_links": 0,
+  "nutrient_unique": true,
+  "quarantined_numeric_rows": 2,
+  "clinical_review": false,
+  "canonical_changed": false,
+  "stage6_authorized": false,
+  "limitations": "Targeted source review, no exhaustive search or full systematic screening, no complete trial funding census, no full PDF/CSV extraction, no full repo validation, no product-specific labels or pricing independently checked."
+}

@@ -1,0 +1,54 @@
+[
+  {
+    "source_id": "P5-14",
+    "outcome": "early preterm",
+    "a": 61,
+    "na": 2734,
+    "c": 55,
+    "nc": 2752,
+    "id": "P5-A1",
+    "clinical_review": false
+  },
+  {
+    "source_id": "P5-15",
+    "outcome": "early preterm",
+    "a": 9,
+    "na": 540,
+    "c": 12,
+    "nc": 492,
+    "posterior_probability": 0.81,
+    "id": "P5-A2",
+    "clinical_review": false
+  },
+  {
+    "source_id": "P5-15",
+    "outcome": "early preterm low baseline DHA",
+    "a": 5,
+    "na": 249,
+    "c": 9,
+    "nc": 219,
+    "posterior_probability": 0.93,
+    "id": "P5-A3",
+    "clinical_review": false
+  },
+  {
+    "source_id": "P5-16",
+    "outcome": "early preterm I allele",
+    "a": 2,
+    "na": 205,
+    "c": 9,
+    "nc": 214,
+    "id": "P5-A4",
+    "clinical_review": false
+  },
+  {
+    "source_id": "P5-16",
+    "outcome": "early preterm D/D",
+    "a": 5,
+    "na": 191,
+    "c": 1,
+    "nc": 151,
+    "id": "P5-A5",
+    "clinical_review": false
+  }
+]

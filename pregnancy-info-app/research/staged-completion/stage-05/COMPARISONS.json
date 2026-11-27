@@ -1,0 +1,134 @@
+[
+  {
+    "topic": "Folic acid vs premium methylfolate claims",
+    "independent_or_public": "Cochrane prevention synthesis and CDC/USPSTF support folic acid; full trial funding census pending.",
+    "industry_linked": "No verified direct methylfolate-versus-folic acid NTD clinical prevention comparison in this pass.",
+    "unknown": "No definitive sponsor-group effect estimates.",
+    "quick": "Choose evidence of preventing birth defects, not a label claiming better absorption.",
+    "source_ids": [
+      "P5-01",
+      "P5-02",
+      "P5-03",
+      "P5-04",
+      "P5-30"
+    ],
+    "clinical_review": false,
+    "funding_share": null,
+    "why_no_percentage": "No fully audited comparable trial universe; GAO product counts are not funding counts."
+  },
+  {
+    "topic": "Calcium and PE",
+    "independent_or_public": "WHO part-funded Cochrane and public/HRP IPD find no clear overall effect; unfunded commentary disputes exclusions; Gates-funded dose comparison answers different question.",
+    "industry_linked": "Trial-level commercial support not comprehensively audited.",
+    "unknown": "No valid sponsor subgroup comparison; timing interaction important.",
+    "quick": "Extra calcium may not prevent preeclampsia for everyone; do not stop clinician-directed care.",
+    "source_ids": [
+      "P5-05",
+      "P5-06",
+      "P5-07",
+      "P5-08",
+      "P5-09",
+      "P5-10"
+    ],
+    "clinical_review": false,
+    "funding_share": null,
+    "why_no_percentage": "No fully audited comparable trial universe; GAO product counts are not funding counts."
+  },
+  {
+    "topic": "Probiotic supplements",
+    "independent_or_public": "2024 philanthropic review no clear PE effect; 2021 review funding unverified and risk signal.",
+    "industry_linked": "SPRING trial had reported in-kind Chr Hansen supply from cohort crosswalk; unfavorable PE direction and no GDM prevention.",
+    "unknown": "No full trial-level funding census; review overlap.",
+    "quick": "No clear pregnancy prevention benefit; possible harm needs attention.",
+    "source_ids": [
+      "P5-11",
+      "P5-12",
+      "P5-13"
+    ],
+    "sponsor_unfavorable": [
+      "P5-13"
+    ],
+    "clinical_review": false,
+    "funding_share": null,
+    "why_no_percentage": "No fully audited comparable trial universe; GAO product counts are not funding counts."
+  },
+  {
+    "topic": "Omega-3 and early preterm birth",
+    "independent_or_public": "No clean comparable independent-only trial subgroup extracted.",
+    "industry_linked": "ORIP public+donations null overall; ADORE public+DSM donations and disclosed fees suggests low-baseline benefit; both retained.",
+    "unknown": "Different trial comparators, baseline status, Bayesian vs frequentist; not sponsor effect.",
+    "quick": "Omega-3 matters, but more is not always better.",
+    "source_ids": [
+      "P5-14",
+      "P5-15",
+      "P5-16"
+    ],
+    "sponsor_unfavorable": [
+      "P5-14",
+      "P5-16"
+    ],
+    "clinical_review": false,
+    "funding_share": null,
+    "why_no_percentage": "No fully audited comparable trial universe; GAO product counts are not funding counts."
+  },
+  {
+    "topic": "Vitamin D dose",
+    "independent_or_public": "2026 review no dedicated funding; incompatible web vs indexed summary; hold.",
+    "industry_linked": "Primary funding not audited.",
+    "unknown": "Do not compute funding percentage or choose convenient result.",
+    "quick": "Meet nutritional needs; more vitamin D is not proven better for everyone.",
+    "source_ids": [
+      "P5-17",
+      "P5-18"
+    ],
+    "clinical_review": false,
+    "funding_share": null,
+    "why_no_percentage": "No fully audited comparable trial universe; GAO product counts are not funding counts."
+  },
+  {
+    "topic": "Iron",
+    "independent_or_public": "Cochrane benefit anemia; daily vs alternate RCT no declared COI, funding unknown.",
+    "industry_linked": "Not fully extracted.",
+    "unknown": "No independent-only effect estimate.",
+    "quick": "Iron helps prevent anemia, but treatment schedules are individualized.",
+    "source_ids": [
+      "P5-19",
+      "P5-20"
+    ],
+    "clinical_review": false,
+    "funding_share": null,
+    "why_no_percentage": "No fully audited comparable trial universe; GAO product counts are not funding counts."
+  },
+  {
+    "topic": "Iodine",
+    "independent_or_public": "No clean independent-only trial extracted here.",
+    "industry_linked": "RCT includes Nestlé Foundation (company-origin, self-described independent governance) and public/academic grants; null cognition.",
+    "unknown": "Not verified current corporate control; do not equate foundation with direct company funding.",
+    "quick": "Enough iodine is important; extra iodine did not clearly improve intelligence in this trial.",
+    "source_ids": [
+      "P5-21",
+      "P5-22"
+    ],
+    "sponsor_unfavorable": [],
+    "clinical_review": false,
+    "funding_share": null,
+    "why_no_percentage": "No fully audited comparable trial universe; GAO product counts are not funding counts."
+  },
+  {
+    "topic": "Prenatal label accuracy",
+    "independent_or_public": "GAO independent laboratory testing identified deviations; 47-product study funding unknown.",
+    "industry_linked": "Manufacturer labels distinct from independent assays.",
+    "unknown": "No representative market rate, no named brands from anonymous audit.",
+    "quick": "Check the label and seek credible independent quality verification.",
+    "source_ids": [
+      "P5-24",
+      "P5-25",
+      "P5-26",
+      "P5-27",
+      "P5-31"
+    ],
+    "clinical_review": false,
+    "funding_share": null,
+    "why_no_percentage": "No fully audited comparable trial universe; GAO product counts are not funding counts."
+  }
+]

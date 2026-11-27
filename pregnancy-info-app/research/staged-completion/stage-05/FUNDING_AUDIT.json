@@ -1,0 +1,219 @@
+[
+  {
+    "source_id": "P5-01",
+    "funding": "Review and primary disclosures not fully extracted",
+    "financial_ties": "Unknown",
+    "access": "Cochrane HTML abstract",
+    "independence_certified": false
+  },
+  {
+    "source_id": "P5-02",
+    "funding": "MRC research group; complete primary support/donations unknown",
+    "financial_ties": "Unknown",
+    "access": "Primary indexed abstract",
+    "independence_certified": false
+  },
+  {
+    "source_id": "P5-03",
+    "funding": "Government guidance",
+    "financial_ties": "Panel/underlying trials not fully audited",
+    "access": "Official guidance HTML/index",
+    "independence_certified": false
+  },
+  {
+    "source_id": "P5-04",
+    "funding": "CDC",
+    "financial_ties": "No product sponsor inference",
+    "access": "Official indexed guidance",
+    "independence_certified": false
+  },
+  {
+    "source_id": "P5-05",
+    "funding": "Part-funded WHO",
+    "financial_ties": "Review-level full COI pending; trial-level separate",
+    "access": "Cochrane HTML funding and indexed abstract",
+    "independence_certified": false
+  },
+  {
+    "source_id": "P5-06",
+    "funding": "No specific grant declared",
+    "financial_ties": "Atallah and Torloni coauthored earlier Cochrane versions; Cormick no competing interests declared",
+    "access": "Publisher HTML funding, competing interests, selected text",
+    "independence_certified": false
+  },
+  {
+    "source_id": "P5-07",
+    "funding": "UKRI MRC, UN/WHO/World Bank HRP programme, NIHR (institution record describes as US; country label needs verification)",
+    "financial_ties": "Full author COI pending",
+    "access": "University of Birmingham publication abstract and funding; publisher 403",
+    "independence_certified": false
+  },
+  {
+    "source_id": "P5-08",
+    "funding": "Part-funded WHO",
+    "financial_ties": "Full disclosure pending",
+    "access": "Indexed Cochrane/PubMed abstracts",
+    "independence_certified": false
+  },
+  {
+    "source_id": "P5-09",
+    "funding": "Gates Foundation OPP1172660 and others",
+    "financial_ties": "Complete disclosure pending",
+    "access": "Indexed primary full-text and protocol",
+    "independence_certified": false
+  },
+  {
+    "source_id": "P5-10",
+    "funding": "WHO",
+    "financial_ties": "Panel disclosures not audited",
+    "access": "Official HTML and ODS",
+    "independence_certified": false
+  },
+  {
+    "source_id": "P5-11",
+    "funding": "Review funding not retrieved",
+    "financial_ties": "Authors include investigators in underlying trials; formal disclosure pending",
+    "access": "Cochrane HTML",
+    "independence_certified": false
+  },
+  {
+    "source_id": "P5-12",
+    "funding": "Gates Foundation INV-038938 and Harry Secomb Foundation IPAP2022/0475",
+    "financial_ties": "Full COI pending; underlying trials separate",
+    "access": "Indexed primary abstract and publisher funding",
+    "independence_certified": false
+  },
+  {
+    "source_id": "P5-13",
+    "funding": "NHMRC and Royal Brisbane and Women's Hospital Foundation reported in prior same-cohort disclosures; Chr Hansen donated active/placebo per prior H002/H003 audit",
+    "financial_ties": "Product supply linked through secondary reports; primary disclosures not newly verified",
+    "access": "Primary indexed abstract; inherited funding crosswalk",
+    "independence_certified": false
+  },
+  {
+    "source_id": "P5-14",
+    "funding": "Australian NHMRC, Thyne Reid Foundation; Croda UK and Efamol/Wassen UK donated capsules, no other role reported",
+    "financial_ties": "Full author disclosure pending; commercial in-kind verified",
+    "access": "Primary PubMed HTML, NEJM indexed funding",
+    "independence_certified": false
+  },
+  {
+    "source_id": "P5-15",
+    "funding": "NICHD R01HD083292; DSM donated all capsules",
+    "financial_ties": "Susan Carlson reported DSM in-kind and outside-work DSM/Mead Johnson fees in institution record",
+    "access": "Indexed original abstract and university disclosure",
+    "independence_certified": false
+  },
+  {
+    "source_id": "P5-16",
+    "funding": "NIH R01HD083292; no sponsor role; parent trial DSM in-kind",
+    "financial_ties": "Current paper disclosure must be read with parent trial financial ties; no assumption of new independent cohort",
+    "access": "Original PLOS HTML and indexed abstract",
+    "independence_certified": false
+  },
+  {
+    "source_id": "P5-17",
+    "funding": "Not verified",
+    "financial_ties": "Unknown",
+    "access": "Official Cochrane indexed abstract",
+    "independence_certified": false
+  },
+  {
+    "source_id": "P5-18",
+    "funding": "No dedicated review funding reported",
+    "financial_ties": "Full COI and primary trial funding pending",
+    "access": "Cochrane HTML results vs PubMed indexed abstract, direct PubMed captcha",
+    "independence_certified": false
+  },
+  {
+    "source_id": "P5-19",
+    "funding": "Not retrieved",
+    "financial_ties": "Unknown",
+    "access": "Indexed primary review abstract; PMC direct captcha",
+    "independence_certified": false
+  },
+  {
+    "source_id": "P5-20",
+    "funding": "Full funding statement not retrieved",
+    "financial_ties": "None declared in PubMed",
+    "access": "Original abstract and COI",
+    "independence_certified": false
+  },
+  {
+    "source_id": "P5-21",
+    "funding": "Swiss National Science Foundation, Nestlé Foundation, Wageningen University and Research, ETH Zurich",
+    "financial_ties": "Foundation originates from Nestlé donation, states independent governance; current company influence not demonstrated; individual COI pending",
+    "access": "Original PubMed abstract/funding",
+    "independence_certified": false
+  },
+  {
+    "source_id": "P5-22",
+    "funding": "Company-origin foundation; self-described autonomy",
+    "financial_ties": "No verified current company control; independent governance audit pending",
+    "access": "Official indexed self-description",
+    "independence_certified": false
+  },
+  {
+    "source_id": "P5-23",
+    "funding": "Not verified",
+    "financial_ties": "Unknown",
+    "access": "Indexed abstract and registry ACTRN12620001373965",
+    "independence_certified": false
+  },
+  {
+    "source_id": "P5-24",
+    "funding": "US GAO commissioned blinded accredited laboratory",
+    "financial_ties": "No manufacturer funding described",
+    "access": "Official GAO HTML methods/results",
+    "independence_certified": false
+  },
+  {
+    "source_id": "P5-25",
+    "funding": "US GAO",
+    "financial_ties": "Same sample P5-24",
+    "access": "Official HTML landing page",
+    "independence_certified": false
+  },
+  {
+    "source_id": "P5-26",
+    "funding": "Full funding not retrieved",
+    "financial_ties": "Unknown",
+    "access": "Indexed primary abstract",
+    "independence_certified": false
+  },
+  {
+    "source_id": "P5-27",
+    "funding": "Not verified",
+    "financial_ties": "Full COI unknown; direct PMC captcha",
+    "access": "Indexed primary abstract",
+    "independence_certified": false
+  },
+  {
+    "source_id": "P5-28",
+    "funding": "NIH ODS",
+    "financial_ties": "Underlying evidence separate",
+    "access": "HTML tables 1–2 directly inspected",
+    "independence_certified": false
+  },
+  {
+    "source_id": "P5-29",
+    "funding": "US FDA/EPA",
+    "financial_ties": "Panel evidence not audited",
+    "access": "Official HTML indexed",
+    "independence_certified": false
+  },
+  {
+    "source_id": "P5-30",
+    "funding": "FDA",
+    "financial_ties": "Not applicable",
+    "access": "Official indexed HTML",
+    "independence_certified": false
+  },
+  {
+    "source_id": "P5-31",
+    "funding": "NIH ODS",
+    "financial_ties": "Manufacturer-supplied labels; not independent assays",
+    "access": "Official indexed HTML",
+    "independence_certified": false
+  }
+]
