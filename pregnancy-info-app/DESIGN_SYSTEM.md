@@ -8,7 +8,7 @@ Calm, inviting, premium family-health product — not neon tech, not pink pregna
 
 ## Selectable themes
 
-Pick in-app on **Today** (saved locally):
+Pick in-app under **Today → Appearance** (saved locally):
 
 | Theme | Feel | Notes |
 |---|---|---|
@@ -40,3 +40,10 @@ Pick in-app on **Today** (saved locally):
 ## Status
 
 Theme CSS lives in `app/src/index.css`. Theme definitions in `app/src/theme/themes.ts`.
+
+
+## Stage 7 refinement · 2026-11-27
+
+Keep Morning Stone as the brand, and preserve all four themes. Use the botanical hero as a quiet decorative element, early draft and urgent-safety context, four direct navigation tiles, optional reading-phase selection, and collapsed appearance controls. Search and saved articles precede technical inventory on Library. Evidence is a working primary navigation destination; visuals are linked from Explore and matched article records.
+
+Body-area navigation uses a clearly non-diagnostic silhouette and explicit article IDs. Scientific illustrations retain their original colors and credits; no visual is approved for production clinical use. Use high-contrast primary controls, stronger warning ink, visible keyboard focus, 44px controls, reflow on narrow screens, and wider content on larger screens. Static palette checks do not establish WCAG compliance. Actual mobile rendering, zoom, keyboard, screen reader, color-mixed surfaces and offline behavior require Stage 8 testing.
