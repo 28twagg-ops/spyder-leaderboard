@@ -72,7 +72,7 @@
     }
   ],
   "baseline_failures": [],
-  "methods": "Targeted indexed PubMed searches for negative, harmful, contradictory and favorable comparison findings; no exhaustive systematic search. Exact PMID screening against listed archives, stage 1 and media files pending second pass; complete DOI, PMC, review/primary overlap and trial family checks pending. Record counts are publications, not independent studies. No release. Second pass completed against all five international expansion batches and both media batches. Exact PMID checks include cited comparison links; DOI/PMC/title and underlying trial-family deduplication remain pending.",
+  "methods": "Targeted indexed PubMed searches for negative, harmful, contradictory and favorable comparison findings; no exhaustive systematic search. Exact PMID screening against listed archives, stage 1 and media files pending second pass; complete DOI, PMC, review/primary overlap and trial family checks pending. Record counts are publications, not independent studies. No release. Second pass completed against all five international expansion batches and both media batches. Exact PMID checks include cited comparison links; DOI/PMC/title and underlying trial-family deduplication remain pending. Additional targeted original-source spot checks, three integrity holds, and four uncounted comparison records added. Holds are staged; no claim that the existing app or all dependent reviews were audited.",
   "records": [
     {
       "pmid": "30005170",
@@ -251,18 +251,19 @@
       "title_short": "TOPS pessary",
       "design": "RCT",
       "outcome": "preterm birth and fetal death",
-      "screening_note": "Almost all participants received progesterone; extract exact primary outcome and safety signal before synthesis.",
+      "screening_note": "TOPS: 544 randomized across 12 US centers; no reduction in preterm birth before 37 weeks; fetal or neonatal/infant death 13.3% vs 6.8%, RR 1.94 (1.13–3.32). Stopped for futility and safety concern. Open-label, selected short-cervix population, differential cerclage and nearly universal progesterone; do not extrapolate or change care independently.",
       "study_family": null,
-      "funding_disclosure": "Unknown/unverified",
+      "funding_disclosure": "NICHD trial funding, grant list in article; funder staff contributed to design, collection, interpretation, manuscript approval. Author disclosures include Samsung Medison and Organon grants and Sera Prognostics stock. Relationships do not establish bias.",
       "independence": "not determined",
       "geography": "setting requires individual verification unless specified in note or title",
-      "verification_scope": "web-indexed PubMed abstract or excerpt; selected abstracts opened; no full-text appraisal",
+      "verification_scope": "Original JAMA results, limitations, funding and COI sections checked; formal appraisal pending",
       "risk_of_bias_status": "preliminary limitation notes only",
       "correction_retraction_status": "not systematically checked",
       "clinical_review": false,
       "publish": false,
       "automation_allowed": false,
-      "id": "CS5-010"
+      "id": "CS5-010",
+      "source_locator": "https://jamanetwork.com/journals/jama/fullarticle/2807569"
     },
     {
       "pmid": "32023372",
@@ -517,18 +518,19 @@
       "title_short": "Australian infant colic probiotic trial",
       "design": "RCT",
       "outcome": "crying",
-      "screening_note": "Compare feeding strata and strain, not all probiotic products.",
+      "screening_note": "Australian double-blind trial: at one month probiotic group cried/fussed 49 minutes more daily (95% CI 8–90), particularly formula-fed infants; no trial-related adverse events detected. Strain and feeding context matter. Not proof that all probiotics are ineffective.",
       "study_family": null,
-      "funding_disclosure": "NHMRC support; named authors disclose Nestlé/Nutricia advisory and honoraria ties; unrelated probiotic product donations; PubMed COI.",
+      "funding_disclosure": "Trial funded by Georgina Menzies Maconachie Charitable Trust; selected authors supported by NHMRC and other institutions; two authors disclosed Nestlé/Nutricia advisory and honoraria relationships, and one disclosed unrelated research-product donations. Full sponsor role and product supply review pending.",
       "independence": "not determined",
       "geography": "setting requires individual verification unless specified in note or title",
-      "verification_scope": "web-indexed PubMed abstract or excerpt; selected abstracts opened; no full-text appraisal",
+      "verification_scope": "Indexed original BMJ results and funding/COI excerpts checked",
       "risk_of_bias_status": "preliminary limitation notes only",
       "correction_retraction_status": "not systematically checked",
       "clinical_review": false,
       "publish": false,
       "automation_allowed": false,
-      "id": "CS5-024"
+      "id": "CS5-024",
+      "source_locator": "https://www.bmj.com/content/348/bmj.g2107"
     },
     {
       "pmid": "28940481",
@@ -574,7 +576,7 @@
       "title_short": "AFFIRM fetal movement care package",
       "design": "cluster RCT",
       "outcome": "stillbirth",
-      "screening_note": "UK/Ireland, package evaluation not evidence against reporting reduced movements. Erratum PMID 34338212 identified; reconcile before quantitative use.",
+      "screening_note": "AFFIRM UK/Ireland stepped-wedge package, stillbirth 4.40 vs 4.06 per 1000 in control vs intervention, adjusted OR 0.90 (0.75–1.07); erratum identified. Hold numeric use until correction reconciled. Package non-significance does not undermine prompt assessment of reduced fetal movements.",
       "study_family": null,
       "funding_disclosure": "Unknown/unverified",
       "independence": "not determined",
@@ -585,7 +587,8 @@
       "clinical_review": false,
       "publish": false,
       "automation_allowed": false,
-      "id": "CS5-027"
+      "id": "CS5-027",
+      "source_locator": "https://pmc.ncbi.nlm.nih.gov/articles/PMC6215771/"
     },
     {
       "pmid": "33315632",
@@ -1911,6 +1914,75 @@
       "existing_matches": [
         "app/src/data/imported/source_index.json"
       ]
+    }
+  ],
+  "integrity_holds": [
+    {
+      "original_pmid": "24132976",
+      "notice_pmid": "33966084",
+      "status": "retracted",
+      "action": "Exclude original effects from synthesis, charts, recommendations; inspect dependent reviews; archive only.",
+      "original_url": "https://pubmed.ncbi.nlm.nih.gov/24132976/",
+      "notice_url": "https://pubmed.ncbi.nlm.nih.gov/33966084/",
+      "clinical_review": false,
+      "publish": false,
+      "automation_allowed": false
+    },
+    {
+      "original_pmid": "30459099",
+      "notice_pmid": "40849194",
+      "status": "retracted",
+      "action": "Exclude original effects; journal could not confirm data integrity. Inspect dependent vitamin D/probiotic reviews.",
+      "original_url": "https://pubmed.ncbi.nlm.nih.gov/30459099/",
+      "notice_url": "https://pubmed.ncbi.nlm.nih.gov/40849194/",
+      "clinical_review": false,
+      "publish": false,
+      "automation_allowed": false
+    },
+    {
+      "original_pmid": "25372774",
+      "notice_pmid": "40648094",
+      "status": "note of concern; not classified retracted here",
+      "action": "Hold quantitative and recommendation use until resolved; verify updated status.",
+      "original_url": "https://pubmed.ncbi.nlm.nih.gov/25372774/",
+      "notice_url": "https://pubmed.ncbi.nlm.nih.gov/40648094/",
+      "clinical_review": false,
+      "publish": false,
+      "automation_allowed": false
+    }
+  ],
+  "comparison_context_uncounted": [
+    {
+      "pmid": "41330480",
+      "note": "2025 Cochrane calcium review: preeclampsia RR 0.83 (0.67–1.04), 6 RCTs 15364 women, low certainty; trustworthiness assessment changed included trial set.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/41330480/",
+      "clinical_review": false,
+      "publish": false,
+      "automation_allowed": false
+    },
+    {
+      "pmid": "42374462",
+      "note": "2026 commentary challenges consistency of trustworthiness exclusions in calcium review; methodological critique not new efficacy trial. Assess both and compare current guidelines.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/42374462/",
+      "clinical_review": false,
+      "publish": false,
+      "automation_allowed": false
+    },
+    {
+      "pmid": "39077939",
+      "note": "2024 Cochrane vitamin D review: very uncertain effects on preeclampsia, GDM and preterm birth; reconcile with prior reviews and newer dose-comparison review.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/39077939/",
+      "clinical_review": false,
+      "publish": false,
+      "automation_allowed": false
+    },
+    {
+      "pmid": "41923026",
+      "note": "2026 umbrella review reports favorable vitamin D outcome estimates from searches through September 2024; check overlap, excluded/retracted studies and certainty; cannot count reviews as independent studies.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/41923026/",
+      "clinical_review": false,
+      "publish": false,
+      "automation_allowed": false
     }
   ]
 }
