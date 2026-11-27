@@ -8,6 +8,10 @@ import { LibraryPage } from './pages/LibraryPage'
 import { ResearchPage } from './pages/ResearchPage'
 import { TimelinePage } from './pages/TimelinePage'
 import { TodayPage } from './pages/TodayPage'
+const VisualLibraryPage = lazy(async () => {
+  const mod = await import('./pages/VisualLibraryPage')
+  return { default: mod.VisualLibraryPage }
+})
 
 const EvidencePage = lazy(async () => {
   const mod = await import('./pages/EvidencePage')
@@ -31,6 +35,7 @@ export default function App() {
             <Route path="/research/:topicId" element={<ResearchPage />} />
             <Route path="/evidence" element={<EvidencePage />} />
             <Route path="/library" element={<LibraryPage />} />
+            <Route path="/visuals" element={<VisualLibraryPage />} />
             <Route path="/install" element={<InstallPage />} />
             <Route path="*" element={<Navigate to="/" replace />} />
           </Routes>
