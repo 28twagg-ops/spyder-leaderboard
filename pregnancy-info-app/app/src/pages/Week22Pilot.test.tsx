@@ -7,7 +7,7 @@ const view=(path:string)=>render(<MemoryRouter initialEntries={[path]}><App/></M
 describe('week 22 design pilot',()=>{
  it('shows the overview and lets readers explore three illustrated concepts',()=>{
   view('/timeline/week/22')
-  expect(screen.getByRole('heading',{name:'Week 22',exact:true})).toBeVisible()
+  expect(screen.getByRole('heading',{name:'Week 22'})).toBeVisible()
   expect(screen.getByRole('heading',{name:'A fine layer of hair'})).toBeVisible()
   const group=screen.getByRole('group',{name:'Development topic'})
   fireEvent.click(within(group).getByRole('button',{name:'Movement'}))
@@ -21,7 +21,7 @@ describe('week 22 design pilot',()=>{
  })
  it('retains original source and contextual navigation without external media',async()=>{
   view('/timeline/week/22')
-  fireEvent.click(screen.getByRole('button',{name:'Movement',exact:true}))
+  fireEvent.click(screen.getByRole('button',{name:'Movement'}))
   fireEvent.click(screen.getByRole('link',{name:/Explore the placenta/}))
   expect(await screen.findByRole('heading',{name:'The placenta',level:1})).toBeVisible()
   fireEvent.click(screen.getByRole('button',{name:'Back'}))
@@ -30,7 +30,7 @@ describe('week 22 design pilot',()=>{
  })
  it('does not apply the pilot to adjacent weeks',async()=>{
   view('/timeline/week/22')
-  fireEvent.click(screen.getByRole('link',{name:'Next',exact:true}))
+  fireEvent.click(screen.getByRole('link',{name:'Next'}))
   expect(await screen.findByRole('heading',{name:'Week 23'})).toBeVisible()
   expect(screen.queryByRole('heading',{name:'Look a little closer'})).not.toBeInTheDocument()
  })
