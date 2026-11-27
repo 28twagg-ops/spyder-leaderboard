@@ -1,3 +1,5 @@
+> **READ FIRST:** [Owner directive for independent evidence appraisal and funding audit](../../INDEPENDENT_EVIDENCE_REVIEW.md) controls all research and implementation. Existing AI conclusions and curated educational content are comparison-only, not guidance. Follow the [complete Claude assignment](FINAL_CLAUDE_PROMPT.md); use original sources and independently record appraisal before AI comparison. All holds remain active.
+
 # Everwell — research foundation and implementation handoff
 **26 November 2026 | Research checkpoint, not a medical release**
 
