@@ -1,0 +1,158 @@
+{
+  "date": "2026-11-27",
+  "scope": "Selected original passages/abstracts; no complete independent risk-of-bias or qualified clinical review",
+  "checks": [
+    {
+      "id": "P5-05",
+      "url": "https://doi.org/10.1002/14651858.CD001059.pub6",
+      "locator": "Updated Cochrane review abstract, search to 7 Jan 2025",
+      "finding": "Preeclampsia RR 0.83 (95% CI 0.67–1.04), 6 trials, 15,364 women, low certainty. Clear preventive benefit not established in this analysis.",
+      "limitations": "Trustworthiness exclusions materially affect pooled estimates. Calcium adequacy and targeted hypertension prevention differ; do not independently change clinical guidance.",
+      "funding": "Review-level and contributing-trial disclosure not fully re-extracted.",
+      "coi": "Full disclosures pending.",
+      "article_ids": [
+        "EV-ART-009"
+      ],
+      "related_ids": [
+        "S092",
+        "P5-06",
+        "S093"
+      ],
+      "scope": "original abstract checked"
+    },
+    {
+      "id": "P5-06",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC13312738/",
+      "locator": "2026 commentary, funding and competing interests",
+      "finding": "Commentary challenges exclusions in the updated review; not a new efficacy trial.",
+      "limitations": "Different inclusion decisions need sensitivity analysis. Prior authorship is an intellectual interest, not evidence of distortion.",
+      "funding": "No specific grant reported.",
+      "coi": "Two authors contributed to earlier Cochrane calcium reviews; third declared no competing interests.",
+      "article_ids": [
+        "EV-ART-009"
+      ],
+      "related_ids": [
+        "S093",
+        "P5-05"
+      ],
+      "scope": "selected full-text disclosure passages checked"
+    },
+    {
+      "id": "P5-11",
+      "url": "https://www.cochrane.org/evidence/CD009951_probiotics-prevent-gestational-diabetes-mellitus",
+      "locator": "Cochrane 2021 results, preeclampsia",
+      "finding": "Preeclampsia RR 1.85 (95% CI 1.04–3.29), four trials/955 women; review rated evidence high certainty.",
+      "limitations": "Specific pregnancy prevention trials; not evidence about every fermented food, strain or infant population. Preserve review overlap and safety signal.",
+      "funding": "Full review and trial funding not newly completed.",
+      "coi": "Pending full disclosure extraction.",
+      "article_ids": [
+        "EV-ART-009"
+      ],
+      "related_ids": [
+        "S094",
+        "P5-13"
+      ],
+      "scope": "original review summary checked"
+    },
+    {
+      "id": "P2-01",
+      "url": "https://doi.org/10.23970/AHRQEPCSRBREASTFEEDING",
+      "locator": "2025 AHRQ report overview and Pediatrics companion review funding",
+      "finding": "Several favorable child health associations; no clear optimal breastfeeding-duration threshold identified. Certainty differs by endpoint.",
+      "limitations": "Most comparisons observational, with residual confounding and heterogeneous feeding definitions.",
+      "funding": "AHRQ contract; companion review reports CDC/AHRQ funding.",
+      "coi": "Full contractor/panel disclosures pending.",
+      "article_ids": [
+        "EV-ART-032"
+      ],
+      "related_ids": [
+        "PED-PROBIT",
+        "P2-02"
+      ],
+      "scope": "original report summary and companion publication excerpt checked"
+    },
+    {
+      "id": "P2-02",
+      "url": "https://journals.plos.org/plosmedicine/article?id=10.1371/journal.pmed.1002554",
+      "locator": "PLOS funding, competing interests and design; 16-year follow-up",
+      "finding": "Randomized breastfeeding promotion, not assigned milk type; existing outcome extraction reports limited verbal-function difference, not broad cognitive advantage.",
+      "limitations": "One PROBIT cohort, attrition and cognitive measurement; instrument-company interests relevant.",
+      "funding": "CIHR MOP-53155, NIH R01HD050758, public institutional support.",
+      "coi": "Two authors employed by NeuroTrax, whose cognitive battery was used.",
+      "article_ids": [
+        "EV-ART-032"
+      ],
+      "related_ids": [
+        "PED-PROBIT",
+        "P2-03"
+      ],
+      "scope": "selected full-text disclosure and design passages checked"
+    },
+    {
+      "id": "PED-PROBIT",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/11242425/",
+      "locator": "Original trial abstract, study design",
+      "finding": "31 Belarus sites assigned to breastfeeding-promotion support or usual care, not breastfeeding versus formula assignment.",
+      "limitations": "Cluster randomization and downstream exposure differences; follow-ups are same cohort.",
+      "funding": "Original trial disclosure not re-extracted.",
+      "coi": "Original disclosure pending.",
+      "article_ids": [
+        "EV-ART-032"
+      ],
+      "related_ids": [
+        "P2-02",
+        "P2-03"
+      ],
+      "scope": "original abstract checked"
+    },
+    {
+      "id": "PED-BEEP",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC7086156/",
+      "locator": "Abstract and declaration of interests",
+      "finding": "High-risk term infants: eczema by age two 139/598 versus 150/612; adjusted RR 0.95 (95% CI 0.78–1.16). No clear preventive benefit; skin infection signal reported.",
+      "limitations": "High-risk population, specified products and outcome definitions; separate prevention from eczema treatment.",
+      "funding": "UK NIHR Health Technology Assessment programme.",
+      "coi": "Several outside-work industry relationships, institutional Nestlé partnership, and funding-programme affiliations disclosed; investigators affiliated with programme were not involved in its award decision.",
+      "article_ids": [
+        "EV-ART-052"
+      ],
+      "related_ids": [
+        "PED-CASCADE"
+      ],
+      "scope": "selected full-text results and disclosure passages checked"
+    },
+    {
+      "id": "PED-CASCADE",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC12287936/",
+      "locator": "Abstract, results, funding/support and role of sponsor",
+      "finding": "US pragmatic RCT, 1,247 dyads not selected for high risk: eczema incidence 36.1% vs 43.0% at 24 months, RR 0.84 (95% CI 0.73–0.97).",
+      "limitations": "Different risk selection from BEEP, missing-outcome imputation and formulation switching; no basis for brand ranking or universal prevention regimen.",
+      "funding": "NIH NIAMS AR071057 and NIH data-platform support.",
+      "coi": "L'Oreal, Galderma and Pharmaceutical Specialties supplied products; authors report companies not involved in trial design, implementation, analysis or reporting; outside-work industry ties disclosed.",
+      "article_ids": [
+        "EV-ART-052"
+      ],
+      "related_ids": [
+        "PED-BEEP"
+      ],
+      "scope": "selected full-text results and disclosures checked"
+    },
+    {
+      "id": "PED-PROBIO",
+      "url": "https://www.fda.gov/safety/medical-product-safety-information/risk-invasive-disease-preterm-infants-given-probiotics-formulated-contain-live-bacteria-or-yeast",
+      "locator": "FDA 2023 provider safety communication",
+      "finding": "FDA warned of potentially fatal invasive infection in preterm infants given live-microbe probiotics and reported an associated death.",
+      "limitations": "Regulatory safety warning, not efficacy trial or risk denominator; NICU populations differ from healthy term infants.",
+      "funding": "FDA safety communication, not a trial.",
+      "coi": "Not a study disclosure.",
+      "article_ids": [
+        "EV-ART-037",
+        "EV-ART-052"
+      ],
+      "related_ids": [
+        "P7-44"
+      ],
+      "scope": "original official communication checked"
+    }
+  ]
+}

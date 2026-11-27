@@ -1,0 +1,2262 @@
+{
+  "scope": "Archived disclosure evidence and nine fresh selected source checks; no independent certification.",
+  "records": [
+    {
+      "id": "PED-BLISSCHOKE",
+      "title": "A Baby-Led Approach to Eating Solids and Risk of Choking",
+      "funding_notes": [],
+      "financial_interest_notes": [],
+      "archived_funding_audits": [],
+      "archived_high_audit_disclosures": [],
+      "archived_primary_audit_ids": [],
+      "fresh_selected_check": null,
+      "disclosure_status": "no disclosure notes in linked sources",
+      "remaining": "Confirm source-specific original disclosure, cash and in-kind funding, sponsor role, author and institutional interests, methods and applicability; unknown does not mean independent.",
+      "bias_appraisal_complete": false,
+      "independence_certified": false,
+      "clinical_review": false,
+      "publish": false
+    },
+    {
+      "id": "PED-RSVLABEL",
+      "title": "ABRYSVO prescribing information",
+      "funding_notes": [],
+      "financial_interest_notes": [],
+      "archived_funding_audits": [],
+      "archived_high_audit_disclosures": [],
+      "archived_primary_audit_ids": [],
+      "fresh_selected_check": null,
+      "disclosure_status": "no disclosure notes in linked sources",
+      "remaining": "Confirm source-specific original disclosure, cash and in-kind funding, sponsor role, author and institutional interests, methods and applicability; unknown does not mean independent.",
+      "bias_appraisal_complete": false,
+      "independence_certified": false,
+      "clinical_review": false,
+      "publish": false
+    },
+    {
+      "id": "DR001",
+      "title": "Preconception lifestyle interventions for women—a systematic review and meta-analysis of intervention characteristics and behaviour change techniques",
+      "funding_notes": [],
+      "financial_interest_notes": [],
+      "archived_funding_audits": [],
+      "archived_high_audit_disclosures": [],
+      "archived_primary_audit_ids": [],
+      "fresh_selected_check": null,
+      "disclosure_status": "no disclosure notes in linked sources",
+      "remaining": "Confirm source-specific original disclosure, cash and in-kind funding, sponsor role, author and institutional interests, methods and applicability; unknown does not mean independent.",
+      "bias_appraisal_complete": false,
+      "independence_certified": false,
+      "clinical_review": false,
+      "publish": false
+    },
+    {
+      "id": "DR002",
+      "title": "Preconception Interventions in Women at High Risk of Developing Gestational Diabetes: A Systematic Review",
+      "funding_notes": [],
+      "financial_interest_notes": [],
+      "archived_funding_audits": [],
+      "archived_high_audit_disclosures": [],
+      "archived_primary_audit_ids": [],
+      "fresh_selected_check": null,
+      "disclosure_status": "no disclosure notes in linked sources",
+      "remaining": "Confirm source-specific original disclosure, cash and in-kind funding, sponsor role, author and institutional interests, methods and applicability; unknown does not mean independent.",
+      "bias_appraisal_complete": false,
+      "independence_certified": false,
+      "clinical_review": false,
+      "publish": false
+    },
+    {
+      "id": "DR003",
+      "title": "Calcium supplementation for prevention of pre-eclampsia: a systematic review and individual participant data meta-analysis of randomised trials",
+      "funding_notes": [],
+      "financial_interest_notes": [],
+      "archived_funding_audits": [],
+      "archived_high_audit_disclosures": [],
+      "archived_primary_audit_ids": [],
+      "fresh_selected_check": null,
+      "disclosure_status": "no disclosure notes in linked sources",
+      "remaining": "Confirm source-specific original disclosure, cash and in-kind funding, sponsor role, author and institutional interests, methods and applicability; unknown does not mean independent.",
+      "bias_appraisal_complete": false,
+      "independence_certified": false,
+      "clinical_review": false,
+      "publish": false
+    },
+    {
+      "id": "DR004",
+      "title": "Calcium supplementation for prevention of pre-eclampsia in high-risk women: study protocol for a randomised triple-blind placebo-controlled trial (CaPE)",
+      "funding_notes": [
+        "NIHR HTA"
+      ],
+      "financial_interest_notes": [],
+      "archived_funding_audits": [],
+      "archived_high_audit_disclosures": [],
+      "archived_primary_audit_ids": [],
+      "fresh_selected_check": null,
+      "disclosure_status": "one disclosure category has notes, other missing",
+      "remaining": "Confirm source-specific original disclosure, cash and in-kind funding, sponsor role, author and institutional interests, methods and applicability; unknown does not mean independent.",
+      "bias_appraisal_complete": false,
+      "independence_certified": false,
+      "clinical_review": false,
+      "publish": false
+    },
+    {
+      "id": "DR005",
+      "title": "Does probiotic ingestion reduce the risk of preeclampsia? A systematic review",
+      "funding_notes": [],
+      "financial_interest_notes": [],
+      "archived_funding_audits": [],
+      "archived_high_audit_disclosures": [],
+      "archived_primary_audit_ids": [],
+      "fresh_selected_check": null,
+      "disclosure_status": "no disclosure notes in linked sources",
+      "remaining": "Confirm source-specific original disclosure, cash and in-kind funding, sponsor role, author and institutional interests, methods and applicability; unknown does not mean independent.",
+      "bias_appraisal_complete": false,
+      "independence_certified": false,
+      "clinical_review": false,
+      "publish": false
+    },
+    {
+      "id": "DR006",
+      "title": "Omega-3 supplementation in addition to prenatal vitamins during pregnancy is associated with lower rates of preterm birth and small for gestational age",
+      "funding_notes": [],
+      "financial_interest_notes": [],
+      "archived_funding_audits": [],
+      "archived_high_audit_disclosures": [],
+      "archived_primary_audit_ids": [],
+      "fresh_selected_check": null,
+      "disclosure_status": "no disclosure notes in linked sources",
+      "remaining": "Confirm source-specific original disclosure, cash and in-kind funding, sponsor role, author and institutional interests, methods and applicability; unknown does not mean independent.",
+      "bias_appraisal_complete": false,
+      "independence_certified": false,
+      "clinical_review": false,
+      "publish": false
+    },
+    {
+      "id": "DR007",
+      "title": "A prospective study of breast anthropomorphic measurements, volume and ptosis in 605 Asian patients with breast cancer or benign breast disease",
+      "funding_notes": [],
+      "financial_interest_notes": [],
+      "archived_funding_audits": [],
+      "archived_high_audit_disclosures": [],
+      "archived_primary_audit_ids": [],
+      "fresh_selected_check": null,
+      "disclosure_status": "no disclosure notes in linked sources",
+      "remaining": "Confirm source-specific original disclosure, cash and in-kind funding, sponsor role, author and institutional interests, methods and applicability; unknown does not mean independent.",
+      "bias_appraisal_complete": false,
+      "independence_certified": false,
+      "clinical_review": false,
+      "publish": false
+    },
+    {
+      "id": "DR008",
+      "title": "Quantitative Changes in Breast Density and Mammographic Features Induced by Pregnancy and Lactation: A Longitudinal Study",
+      "funding_notes": [],
+      "financial_interest_notes": [],
+      "archived_funding_audits": [],
+      "archived_high_audit_disclosures": [],
+      "archived_primary_audit_ids": [],
+      "fresh_selected_check": null,
+      "disclosure_status": "no disclosure notes in linked sources",
+      "remaining": "Confirm source-specific original disclosure, cash and in-kind funding, sponsor role, author and institutional interests, methods and applicability; unknown does not mean independent.",
+      "bias_appraisal_complete": false,
+      "independence_certified": false,
+      "clinical_review": false,
+      "publish": false
+    },
+    {
+      "id": "DR009",
+      "title": "Vastus Lateralis Architecture Changes During Pregnancy – A Longitudinal Study",
+      "funding_notes": [],
+      "financial_interest_notes": [],
+      "archived_funding_audits": [],
+      "archived_high_audit_disclosures": [],
+      "archived_primary_audit_ids": [],
+      "fresh_selected_check": null,
+      "disclosure_status": "no disclosure notes in linked sources",
+      "remaining": "Confirm source-specific original disclosure, cash and in-kind funding, sponsor role, author and institutional interests, methods and applicability; unknown does not mean independent.",
+      "bias_appraisal_complete": false,
+      "independence_certified": false,
+      "clinical_review": false,
+      "publish": false
+    },
+    {
+      "id": "DR010",
+      "title": "Safety and efficacy of supervised strength training adopted in pregnancy",
+      "funding_notes": [],
+      "financial_interest_notes": [],
+      "archived_funding_audits": [],
+      "archived_high_audit_disclosures": [],
+      "archived_primary_audit_ids": [],
+      "fresh_selected_check": null,
+      "disclosure_status": "no disclosure notes in linked sources",
+      "remaining": "Confirm source-specific original disclosure, cash and in-kind funding, sponsor role, author and institutional interests, methods and applicability; unknown does not mean independent.",
+      "bias_appraisal_complete": false,
+      "independence_certified": false,
+      "clinical_review": false,
+      "publish": false
+    },
+    {
+      "id": "DR011",
+      "title": "Effect of a Mobile App-Based Exercise Program on Diastasis Recti Abdominis, Muscle Strength, Anthropometric Measures, and Satisfaction Among Post-Cesarean Primiparous Mothers: A Randomized Controlled Trial",
+      "funding_notes": [
+        "Princess Nourah bint Abdulrahman University PNURSP2025R785"
+      ],
+      "financial_interest_notes": [],
+      "archived_funding_audits": [],
+      "archived_high_audit_disclosures": [],
+      "archived_primary_audit_ids": [],
+      "fresh_selected_check": null,
+      "disclosure_status": "one disclosure category has notes, other missing",
+      "remaining": "Confirm source-specific original disclosure, cash and in-kind funding, sponsor role, author and institutional interests, methods and applicability; unknown does not mean independent.",
+      "bias_appraisal_complete": false,
+      "independence_certified": false,
+      "clinical_review": false,
+      "publish": false
+    },
+    {
+      "id": "DR012",
+      "title": "Effects of Pilates on inter-recti distance, thickness of rectus abdominis, waist circumference and abdominal muscle endurance in primiparous women",
+      "funding_notes": [],
+      "financial_interest_notes": [],
+      "archived_funding_audits": [],
+      "archived_high_audit_disclosures": [],
+      "archived_primary_audit_ids": [],
+      "fresh_selected_check": null,
+      "disclosure_status": "no disclosure notes in linked sources",
+      "remaining": "Confirm source-specific original disclosure, cash and in-kind funding, sponsor role, author and institutional interests, methods and applicability; unknown does not mean independent.",
+      "bias_appraisal_complete": false,
+      "independence_certified": false,
+      "clinical_review": false,
+      "publish": false
+    },
+    {
+      "id": "DR013",
+      "title": "Pregnant women may exercise both abdominal and pelvic floor muscles during pregnancy without increasing the diastasis recti abdominis: a randomised trial",
+      "funding_notes": [],
+      "financial_interest_notes": [],
+      "archived_funding_audits": [],
+      "archived_high_audit_disclosures": [],
+      "archived_primary_audit_ids": [],
+      "fresh_selected_check": null,
+      "disclosure_status": "no disclosure notes in linked sources",
+      "remaining": "Confirm source-specific original disclosure, cash and in-kind funding, sponsor role, author and institutional interests, methods and applicability; unknown does not mean independent.",
+      "bias_appraisal_complete": false,
+      "independence_certified": false,
+      "clinical_review": false,
+      "publish": false
+    },
+    {
+      "id": "DR014",
+      "title": "An open single-arm clinical study of microneedle radiofrequency technology for addressing abdominal skin laxity in postpartum women",
+      "funding_notes": [],
+      "financial_interest_notes": [],
+      "archived_funding_audits": [],
+      "archived_high_audit_disclosures": [],
+      "archived_primary_audit_ids": [],
+      "fresh_selected_check": null,
+      "disclosure_status": "no disclosure notes in linked sources",
+      "remaining": "Confirm source-specific original disclosure, cash and in-kind funding, sponsor role, author and institutional interests, methods and applicability; unknown does not mean independent.",
+      "bias_appraisal_complete": false,
+      "independence_certified": false,
+      "clinical_review": false,
+      "publish": false
+    },
+    {
+      "id": "DR015",
+      "title": "Reduction of abdominal skin laxity in women postvaginal delivery using the synergistic emission of radiofrequency and targeted pressure energies",
+      "funding_notes": [],
+      "financial_interest_notes": [],
+      "archived_funding_audits": [],
+      "archived_high_audit_disclosures": [],
+      "archived_primary_audit_ids": [],
+      "fresh_selected_check": null,
+      "disclosure_status": "no disclosure notes in linked sources",
+      "remaining": "Confirm source-specific original disclosure, cash and in-kind funding, sponsor role, author and institutional interests, methods and applicability; unknown does not mean independent.",
+      "bias_appraisal_complete": false,
+      "independence_certified": false,
+      "clinical_review": false,
+      "publish": false
+    },
+    {
+      "id": "DR016",
+      "title": "Electrical stimulation and biofeedback combined with pelvic floor muscle training for pelvic floor dysfunction in postpartum women: a systematic review and meta-analysis",
+      "funding_notes": [],
+      "financial_interest_notes": [],
+      "archived_funding_audits": [],
+      "archived_high_audit_disclosures": [],
+      "archived_primary_audit_ids": [],
+      "fresh_selected_check": null,
+      "disclosure_status": "no disclosure notes in linked sources",
+      "remaining": "Confirm source-specific original disclosure, cash and in-kind funding, sponsor role, author and institutional interests, methods and applicability; unknown does not mean independent.",
+      "bias_appraisal_complete": false,
+      "independence_certified": false,
+      "clinical_review": false,
+      "publish": false
+    },
+    {
+      "id": "DR017",
+      "title": "Effects from a single application of photobiomodulation on pain intensity from perineal trauma related to childbirth: A randomized controlled trial",
+      "funding_notes": [],
+      "financial_interest_notes": [],
+      "archived_funding_audits": [],
+      "archived_high_audit_disclosures": [],
+      "archived_primary_audit_ids": [],
+      "fresh_selected_check": null,
+      "disclosure_status": "no disclosure notes in linked sources",
+      "remaining": "Confirm source-specific original disclosure, cash and in-kind funding, sponsor role, author and institutional interests, methods and applicability; unknown does not mean independent.",
+      "bias_appraisal_complete": false,
+      "independence_certified": false,
+      "clinical_review": false,
+      "publish": false
+    },
+    {
+      "id": "DR018",
+      "title": "Physical Rehabilitation for Postpartum Perineal Morbidity After Episiotomy and Childbirth-Related Perineal Trauma: A Systematic Review and Meta-analysis of Randomized Controlled Trials",
+      "funding_notes": [],
+      "financial_interest_notes": [],
+      "archived_funding_audits": [],
+      "archived_high_audit_disclosures": [],
+      "archived_primary_audit_ids": [],
+      "fresh_selected_check": null,
+      "disclosure_status": "no disclosure notes in linked sources",
+      "remaining": "Confirm source-specific original disclosure, cash and in-kind funding, sponsor role, author and institutional interests, methods and applicability; unknown does not mean independent.",
+      "bias_appraisal_complete": false,
+      "independence_certified": false,
+      "clinical_review": false,
+      "publish": false
+    },
+    {
+      "id": "DR019",
+      "title": "Pregnancy, birth outcomes, and postpartum injury in elite to world-class runners: a mixed methods study",
+      "funding_notes": [],
+      "financial_interest_notes": [],
+      "archived_funding_audits": [],
+      "archived_high_audit_disclosures": [],
+      "archived_primary_audit_ids": [],
+      "fresh_selected_check": null,
+      "disclosure_status": "no disclosure notes in linked sources",
+      "remaining": "Confirm source-specific original disclosure, cash and in-kind funding, sponsor role, author and institutional interests, methods and applicability; unknown does not mean independent.",
+      "bias_appraisal_complete": false,
+      "independence_certified": false,
+      "clinical_review": false,
+      "publish": false
+    },
+    {
+      "id": "DR020",
+      "title": "Mediterranean Diet, Semen Quality, and Medically Assisted Reproductive Outcomes in the Male Population: A Systematic Review and Meta-Analysis",
+      "funding_notes": [],
+      "financial_interest_notes": [],
+      "archived_funding_audits": [],
+      "archived_high_audit_disclosures": [],
+      "archived_primary_audit_ids": [],
+      "fresh_selected_check": null,
+      "disclosure_status": "no disclosure notes in linked sources",
+      "remaining": "Confirm source-specific original disclosure, cash and in-kind funding, sponsor role, author and institutional interests, methods and applicability; unknown does not mean independent.",
+      "bias_appraisal_complete": false,
+      "independence_certified": false,
+      "clinical_review": false,
+      "publish": false
+    },
+    {
+      "id": "DR021",
+      "title": "Effectiveness of Exercise Training on Male Factor Infertility: A Systematic Review and Network Meta-analysis",
+      "funding_notes": [],
+      "financial_interest_notes": [],
+      "archived_funding_audits": [],
+      "archived_high_audit_disclosures": [],
+      "archived_primary_audit_ids": [],
+      "fresh_selected_check": null,
+      "disclosure_status": "no disclosure notes in linked sources",
+      "remaining": "Confirm source-specific original disclosure, cash and in-kind funding, sponsor role, author and institutional interests, methods and applicability; unknown does not mean independent.",
+      "bias_appraisal_complete": false,
+      "independence_certified": false,
+      "clinical_review": false,
+      "publish": false
+    },
+    {
+      "id": "DR022",
+      "title": "Exercise intervention improves fertility outcomes in females and males: an umbrella review of meta-analyses",
+      "funding_notes": [],
+      "financial_interest_notes": [],
+      "archived_funding_audits": [],
+      "archived_high_audit_disclosures": [],
+      "archived_primary_audit_ids": [],
+      "fresh_selected_check": null,
+      "disclosure_status": "no disclosure notes in linked sources",
+      "remaining": "Confirm source-specific original disclosure, cash and in-kind funding, sponsor role, author and institutional interests, methods and applicability; unknown does not mean independent.",
+      "bias_appraisal_complete": false,
+      "independence_certified": false,
+      "clinical_review": false,
+      "publish": false
+    },
+    {
+      "id": "DR023",
+      "title": "Moderate aerobic exercise training for improving reproductive function in infertile patients: A randomized controlled trial",
+      "funding_notes": [],
+      "financial_interest_notes": [],
+      "archived_funding_audits": [],
+      "archived_high_audit_disclosures": [],
+      "archived_primary_audit_ids": [],
+      "fresh_selected_check": null,
+      "disclosure_status": "no disclosure notes in linked sources",
+      "remaining": "Confirm source-specific original disclosure, cash and in-kind funding, sponsor role, author and institutional interests, methods and applicability; unknown does not mean independent.",
+      "bias_appraisal_complete": false,
+      "independence_certified": false,
+      "clinical_review": false,
+      "publish": false
+    },
+    {
+      "id": "DR024",
+      "title": "High-intensity interval training modulates male factor infertility through anti-inflammatory and antioxidative mechanisms in infertile men: A randomized controlled trial",
+      "funding_notes": [],
+      "financial_interest_notes": [],
+      "archived_funding_audits": [],
+      "archived_high_audit_disclosures": [],
+      "archived_primary_audit_ids": [],
+      "fresh_selected_check": null,
+      "disclosure_status": "no disclosure notes in linked sources",
+      "remaining": "Confirm source-specific original disclosure, cash and in-kind funding, sponsor role, author and institutional interests, methods and applicability; unknown does not mean independent.",
+      "bias_appraisal_complete": false,
+      "independence_certified": false,
+      "clinical_review": false,
+      "publish": false
+    },
+    {
+      "id": "DR025",
+      "title": "Effects of Aerobic, Resistance, and Combined Exercise on Markers of Male Reproduction in Healthy Human Subjects: A Randomized Controlled Trial",
+      "funding_notes": [],
+      "financial_interest_notes": [],
+      "archived_funding_audits": [],
+      "archived_high_audit_disclosures": [],
+      "archived_primary_audit_ids": [],
+      "fresh_selected_check": null,
+      "disclosure_status": "no disclosure notes in linked sources",
+      "remaining": "Confirm source-specific original disclosure, cash and in-kind funding, sponsor role, author and institutional interests, methods and applicability; unknown does not mean independent.",
+      "bias_appraisal_complete": false,
+      "independence_certified": false,
+      "clinical_review": false,
+      "publish": false
+    },
+    {
+      "id": "DR026",
+      "title": "Sleeping for Two: a randomized controlled trial of cognitive behavioral therapy for insomnia in pregnancy",
+      "funding_notes": [],
+      "financial_interest_notes": [],
+      "archived_funding_audits": [],
+      "archived_high_audit_disclosures": [],
+      "archived_primary_audit_ids": [],
+      "fresh_selected_check": null,
+      "disclosure_status": "no disclosure notes in linked sources",
+      "remaining": "Confirm source-specific original disclosure, cash and in-kind funding, sponsor role, author and institutional interests, methods and applicability; unknown does not mean independent.",
+      "bias_appraisal_complete": false,
+      "independence_certified": false,
+      "clinical_review": false,
+      "publish": false
+    },
+    {
+      "id": "DR027",
+      "title": "Folic Acid: Facts for Clinicians",
+      "funding_notes": [],
+      "financial_interest_notes": [],
+      "archived_funding_audits": [],
+      "archived_high_audit_disclosures": [],
+      "archived_primary_audit_ids": [],
+      "fresh_selected_check": null,
+      "disclosure_status": "no disclosure notes in linked sources",
+      "remaining": "Confirm source-specific original disclosure, cash and in-kind funding, sponsor role, author and institutional interests, methods and applicability; unknown does not mean independent.",
+      "bias_appraisal_complete": false,
+      "independence_certified": false,
+      "clinical_review": false,
+      "publish": false
+    },
+    {
+      "id": "DR028",
+      "title": "Planning to Get Pregnant? Plan to See Your Ob-Gyn",
+      "funding_notes": [],
+      "financial_interest_notes": [],
+      "archived_funding_audits": [],
+      "archived_high_audit_disclosures": [],
+      "archived_primary_audit_ids": [],
+      "fresh_selected_check": null,
+      "disclosure_status": "no disclosure notes in linked sources",
+      "remaining": "Confirm source-specific original disclosure, cash and in-kind funding, sponsor role, author and institutional interests, methods and applicability; unknown does not mean independent.",
+      "bias_appraisal_complete": false,
+      "independence_certified": false,
+      "clinical_review": false,
+      "publish": false
+    },
+    {
+      "id": "DR029",
+      "title": "Factors influencing breast changes after pregnancy",
+      "funding_notes": [],
+      "financial_interest_notes": [],
+      "archived_funding_audits": [],
+      "archived_high_audit_disclosures": [],
+      "archived_primary_audit_ids": [],
+      "fresh_selected_check": null,
+      "disclosure_status": "no disclosure notes in linked sources",
+      "remaining": "Confirm source-specific original disclosure, cash and in-kind funding, sponsor role, author and institutional interests, methods and applicability; unknown does not mean independent.",
+      "bias_appraisal_complete": false,
+      "independence_certified": false,
+      "clinical_review": false,
+      "publish": false
+    },
+    {
+      "id": "DR030",
+      "title": "Breastfeeding and perceived changes in the appearance of the breasts: a retrospective study",
+      "funding_notes": [],
+      "financial_interest_notes": [],
+      "archived_funding_audits": [],
+      "archived_high_audit_disclosures": [],
+      "archived_primary_audit_ids": [],
+      "fresh_selected_check": null,
+      "disclosure_status": "no disclosure notes in linked sources",
+      "remaining": "Confirm source-specific original disclosure, cash and in-kind funding, sponsor role, author and institutional interests, methods and applicability; unknown does not mean independent.",
+      "bias_appraisal_complete": false,
+      "independence_certified": false,
+      "clinical_review": false,
+      "publish": false
+    },
+    {
+      "id": "DR031",
+      "title": "Graduated compression stockings effects on chronic venous disease signs and symptoms during pregnancy",
+      "funding_notes": [],
+      "financial_interest_notes": [],
+      "archived_funding_audits": [],
+      "archived_high_audit_disclosures": [],
+      "archived_primary_audit_ids": [],
+      "fresh_selected_check": null,
+      "disclosure_status": "no disclosure notes in linked sources",
+      "remaining": "Confirm source-specific original disclosure, cash and in-kind funding, sponsor role, author and institutional interests, methods and applicability; unknown does not mean independent.",
+      "bias_appraisal_complete": false,
+      "independence_certified": false,
+      "clinical_review": false,
+      "publish": false
+    },
+    {
+      "id": "DR032",
+      "title": "Compression stocking prevents increased venous retrograde flow time in the lower limbs of pregnant women",
+      "funding_notes": [],
+      "financial_interest_notes": [],
+      "archived_funding_audits": [],
+      "archived_high_audit_disclosures": [],
+      "archived_primary_audit_ids": [],
+      "fresh_selected_check": null,
+      "disclosure_status": "no disclosure notes in linked sources",
+      "remaining": "Confirm source-specific original disclosure, cash and in-kind funding, sponsor role, author and institutional interests, methods and applicability; unknown does not mean independent.",
+      "bias_appraisal_complete": false,
+      "independence_certified": false,
+      "clinical_review": false,
+      "publish": false
+    },
+    {
+      "id": "DR033",
+      "title": "Preconception nutritional supplementation and behavioral interventions and their association with maternal and neonatal health: A systematic review and meta-analysis",
+      "funding_notes": [],
+      "financial_interest_notes": [],
+      "archived_funding_audits": [],
+      "archived_high_audit_disclosures": [],
+      "archived_primary_audit_ids": [],
+      "fresh_selected_check": null,
+      "disclosure_status": "no disclosure notes in linked sources",
+      "remaining": "Confirm source-specific original disclosure, cash and in-kind funding, sponsor role, author and institutional interests, methods and applicability; unknown does not mean independent.",
+      "bias_appraisal_complete": false,
+      "independence_certified": false,
+      "clinical_review": false,
+      "publish": false
+    },
+    {
+      "id": "GE001",
+      "title": "Genotype-informed docosahexaenoic acid dosing based on the FADS Indel to reduce preterm and prolonged gestation: A secondary analysis of the ADORE randomized trial",
+      "funding_notes": [
+        "NIH R01HD083292; authors report funder had no role"
+      ],
+      "financial_interest_notes": [
+        "Authors declare none"
+      ],
+      "archived_funding_audits": [],
+      "archived_high_audit_disclosures": [],
+      "archived_primary_audit_ids": [],
+      "fresh_selected_check": null,
+      "disclosure_status": "both fields have notes, may be unknown/incomplete",
+      "remaining": "Confirm source-specific original disclosure, cash and in-kind funding, sponsor role, author and institutional interests, methods and applicability; unknown does not mean independent.",
+      "bias_appraisal_complete": false,
+      "independence_certified": false,
+      "clinical_review": false,
+      "publish": false
+    },
+    {
+      "id": "GE002",
+      "title": "Regimens of vitamin D supplementation for women during pregnancy",
+      "funding_notes": [],
+      "financial_interest_notes": [],
+      "archived_funding_audits": [],
+      "archived_high_audit_disclosures": [],
+      "archived_primary_audit_ids": [],
+      "fresh_selected_check": null,
+      "disclosure_status": "no disclosure notes in linked sources",
+      "remaining": "Confirm source-specific original disclosure, cash and in-kind funding, sponsor role, author and institutional interests, methods and applicability; unknown does not mean independent.",
+      "bias_appraisal_complete": false,
+      "independence_certified": false,
+      "clinical_review": false,
+      "publish": false
+    },
+    {
+      "id": "GE003",
+      "title": "Impact of postpartum physical activity on maternal depression and anxiety: a systematic review and meta-analysis",
+      "funding_notes": [],
+      "financial_interest_notes": [],
+      "archived_funding_audits": [],
+      "archived_high_audit_disclosures": [],
+      "archived_primary_audit_ids": [],
+      "fresh_selected_check": null,
+      "disclosure_status": "no disclosure notes in linked sources",
+      "remaining": "Confirm source-specific original disclosure, cash and in-kind funding, sponsor role, author and institutional interests, methods and applicability; unknown does not mean independent.",
+      "bias_appraisal_complete": false,
+      "independence_certified": false,
+      "clinical_review": false,
+      "publish": false
+    },
+    {
+      "id": "GE004",
+      "title": "Impact of postpartum physical activity on cardiometabolic health, breastfeeding, injury and infant growth and development: a systematic review and meta-analysis",
+      "funding_notes": [],
+      "financial_interest_notes": [],
+      "archived_funding_audits": [],
+      "archived_high_audit_disclosures": [],
+      "archived_primary_audit_ids": [],
+      "fresh_selected_check": null,
+      "disclosure_status": "no disclosure notes in linked sources",
+      "remaining": "Confirm source-specific original disclosure, cash and in-kind funding, sponsor role, author and institutional interests, methods and applicability; unknown does not mean independent.",
+      "bias_appraisal_complete": false,
+      "independence_certified": false,
+      "clinical_review": false,
+      "publish": false
+    },
+    {
+      "id": "GE005",
+      "title": "Two Randomized Trials of Low-Dose Calcium Supplementation in Pregnancy",
+      "funding_notes": [],
+      "financial_interest_notes": [],
+      "archived_funding_audits": [],
+      "archived_high_audit_disclosures": [],
+      "archived_primary_audit_ids": [],
+      "fresh_selected_check": null,
+      "disclosure_status": "no disclosure notes in linked sources",
+      "remaining": "Confirm source-specific original disclosure, cash and in-kind funding, sponsor role, author and institutional interests, methods and applicability; unknown does not mean independent.",
+      "bias_appraisal_complete": false,
+      "independence_certified": false,
+      "clinical_review": false,
+      "publish": false
+    },
+    {
+      "id": "GE006",
+      "title": "Randomized controlled trial of digital cognitive behavior therapy for prenatal insomnia symptoms: effects on postpartum insomnia and mental health",
+      "funding_notes": [],
+      "financial_interest_notes": [],
+      "archived_funding_audits": [],
+      "archived_high_audit_disclosures": [],
+      "archived_primary_audit_ids": [],
+      "fresh_selected_check": null,
+      "disclosure_status": "no disclosure notes in linked sources",
+      "remaining": "Confirm source-specific original disclosure, cash and in-kind funding, sponsor role, author and institutional interests, methods and applicability; unknown does not mean independent.",
+      "bias_appraisal_complete": false,
+      "independence_certified": false,
+      "clinical_review": false,
+      "publish": false
+    },
+    {
+      "id": "GE007",
+      "title": "Acitretin capsule prescribing information",
+      "funding_notes": [],
+      "financial_interest_notes": [],
+      "archived_funding_audits": [],
+      "archived_high_audit_disclosures": [],
+      "archived_primary_audit_ids": [],
+      "fresh_selected_check": null,
+      "disclosure_status": "no disclosure notes in linked sources",
+      "remaining": "Confirm source-specific original disclosure, cash and in-kind funding, sponsor role, author and institutional interests, methods and applicability; unknown does not mean independent.",
+      "bias_appraisal_complete": false,
+      "independence_certified": false,
+      "clinical_review": false,
+      "publish": false
+    },
+    {
+      "id": "GE008",
+      "title": "Efficacy of topical silicone gel in scar management: A systematic review and meta-analysis of randomised controlled trials",
+      "funding_notes": [],
+      "financial_interest_notes": [],
+      "archived_funding_audits": [],
+      "archived_high_audit_disclosures": [],
+      "archived_primary_audit_ids": [],
+      "fresh_selected_check": null,
+      "disclosure_status": "no disclosure notes in linked sources",
+      "remaining": "Confirm source-specific original disclosure, cash and in-kind funding, sponsor role, author and institutional interests, methods and applicability; unknown does not mean independent.",
+      "bias_appraisal_complete": false,
+      "independence_certified": false,
+      "clinical_review": false,
+      "publish": false
+    },
+    {
+      "id": "P1-01",
+      "title": "Industry sponsorship and research outcome",
+      "funding_notes": [
+        "review funding/COI extraction pending"
+      ],
+      "financial_interest_notes": [],
+      "archived_funding_audits": [],
+      "archived_high_audit_disclosures": [],
+      "archived_primary_audit_ids": [],
+      "fresh_selected_check": null,
+      "disclosure_status": "one disclosure category has notes, other missing",
+      "remaining": "Confirm source-specific original disclosure, cash and in-kind funding, sponsor role, author and institutional interests, methods and applicability; unknown does not mean independent.",
+      "bias_appraisal_complete": false,
+      "independence_certified": false,
+      "clinical_review": false,
+      "publish": false
+    },
+    {
+      "id": "P1-02",
+      "title": "Association of Industry Sponsorship With Outcomes of Nutrition Studies",
+      "funding_notes": [
+        "pending"
+      ],
+      "financial_interest_notes": [],
+      "archived_funding_audits": [],
+      "archived_high_audit_disclosures": [],
+      "archived_primary_audit_ids": [],
+      "fresh_selected_check": null,
+      "disclosure_status": "one disclosure category has notes, other missing",
+      "remaining": "Confirm source-specific original disclosure, cash and in-kind funding, sponsor role, author and institutional interests, methods and applicability; unknown does not mean independent.",
+      "bias_appraisal_complete": false,
+      "independence_certified": false,
+      "clinical_review": false,
+      "publish": false
+    },
+    {
+      "id": "P1-03",
+      "title": "Conduct and reporting of formula milk trials",
+      "funding_notes": [
+        "Imperial Health Charity support; lead author declared outside-work ties including expert witness formula claims and personal fees; full disclosures to extract"
+      ],
+      "financial_interest_notes": [],
+      "archived_funding_audits": [],
+      "archived_high_audit_disclosures": [],
+      "archived_primary_audit_ids": [],
+      "fresh_selected_check": null,
+      "disclosure_status": "one disclosure category has notes, other missing",
+      "remaining": "Confirm source-specific original disclosure, cash and in-kind funding, sponsor role, author and institutional interests, methods and applicability; unknown does not mean independent.",
+      "bias_appraisal_complete": false,
+      "independence_certified": false,
+      "clinical_review": false,
+      "publish": false
+    },
+    {
+      "id": "P1-04",
+      "title": "Assessing conflict of interest reporting and quality of clinical trials on infant formula",
+      "funding_notes": [
+        "pending"
+      ],
+      "financial_interest_notes": [],
+      "archived_funding_audits": [],
+      "archived_high_audit_disclosures": [],
+      "archived_primary_audit_ids": [],
+      "fresh_selected_check": null,
+      "disclosure_status": "one disclosure category has notes, other missing",
+      "remaining": "Confirm source-specific original disclosure, cash and in-kind funding, sponsor role, author and institutional interests, methods and applicability; unknown does not mean independent.",
+      "bias_appraisal_complete": false,
+      "independence_certified": false,
+      "clinical_review": false,
+      "publish": false
+    },
+    {
+      "id": "P1-05",
+      "title": "Health and nutrition claims for infant formula: international cross sectional survey",
+      "funding_notes": [
+        "pending"
+      ],
+      "financial_interest_notes": [],
+      "archived_funding_audits": [],
+      "archived_high_audit_disclosures": [],
+      "archived_primary_audit_ids": [],
+      "fresh_selected_check": null,
+      "disclosure_status": "one disclosure category has notes, other missing",
+      "remaining": "Confirm source-specific original disclosure, cash and in-kind funding, sponsor role, author and institutional interests, methods and applicability; unknown does not mean independent.",
+      "bias_appraisal_complete": false,
+      "independence_certified": false,
+      "clinical_review": false,
+      "publish": false
+    },
+    {
+      "id": "P1-06",
+      "title": "Effects of Early Toilet Training and Elimination Communication With Respect to Diaper Types",
+      "funding_notes": [
+        "pending"
+      ],
+      "financial_interest_notes": [],
+      "archived_funding_audits": [],
+      "archived_high_audit_disclosures": [],
+      "archived_primary_audit_ids": [],
+      "fresh_selected_check": null,
+      "disclosure_status": "one disclosure category has notes, other missing",
+      "remaining": "Confirm source-specific original disclosure, cash and in-kind funding, sponsor role, author and institutional interests, methods and applicability; unknown does not mean independent.",
+      "bias_appraisal_complete": false,
+      "independence_certified": false,
+      "clinical_review": false,
+      "publish": false
+    },
+    {
+      "id": "P1-07",
+      "title": "Do disposable diapers reduce urination elimination signals in non-toilet-trained children?",
+      "funding_notes": [
+        "pending; check possible overlap with P1-08"
+      ],
+      "financial_interest_notes": [],
+      "archived_funding_audits": [],
+      "archived_high_audit_disclosures": [],
+      "archived_primary_audit_ids": [],
+      "fresh_selected_check": null,
+      "disclosure_status": "one disclosure category has notes, other missing",
+      "remaining": "Confirm source-specific original disclosure, cash and in-kind funding, sponsor role, author and institutional interests, methods and applicability; unknown does not mean independent.",
+      "bias_appraisal_complete": false,
+      "independence_certified": false,
+      "clinical_review": false,
+      "publish": false
+    },
+    {
+      "id": "P1-08",
+      "title": "Measuring the impact of disposable diapers on urination elimination signals in non-toilet-trained children",
+      "funding_notes": [
+        "authors report no specific grant, no competing interests (indexed PMID 40640001)"
+      ],
+      "financial_interest_notes": [],
+      "archived_funding_audits": [],
+      "archived_high_audit_disclosures": [],
+      "archived_primary_audit_ids": [],
+      "fresh_selected_check": null,
+      "disclosure_status": "one disclosure category has notes, other missing",
+      "remaining": "Confirm source-specific original disclosure, cash and in-kind funding, sponsor role, author and institutional interests, methods and applicability; unknown does not mean independent.",
+      "bias_appraisal_complete": false,
+      "independence_certified": false,
+      "clinical_review": false,
+      "publish": false
+    },
+    {
+      "id": "P1-09",
+      "title": "Assisted Infant Toilet Training and Bladder and Bowel Health: A Global Integrative Review",
+      "funding_notes": [
+        "open access support CAUL/member institutions; no declared COI"
+      ],
+      "financial_interest_notes": [],
+      "archived_funding_audits": [],
+      "archived_high_audit_disclosures": [],
+      "archived_primary_audit_ids": [],
+      "fresh_selected_check": null,
+      "disclosure_status": "one disclosure category has notes, other missing",
+      "remaining": "Confirm source-specific original disclosure, cash and in-kind funding, sponsor role, author and institutional interests, methods and applicability; unknown does not mean independent.",
+      "bias_appraisal_complete": false,
+      "independence_certified": false,
+      "clinical_review": false,
+      "publish": false
+    },
+    {
+      "id": "P1-10",
+      "title": "Assisted infant toilet training and the prevalence of functional gastrointestinal disorders up to the age of 9 months: a randomised, controlled trial",
+      "funding_notes": [
+        "Region Dalarna, Regional Research Council Uppsala–Örebro, Mayflower Association, Samaritan Foundation for Paediatric Research, Swedish Enuresis Academy; full COI pending"
+      ],
+      "financial_interest_notes": [],
+      "archived_funding_audits": [],
+      "archived_high_audit_disclosures": [],
+      "archived_primary_audit_ids": [],
+      "fresh_selected_check": null,
+      "disclosure_status": "one disclosure category has notes, other missing",
+      "remaining": "Confirm source-specific original disclosure, cash and in-kind funding, sponsor role, author and institutional interests, methods and applicability; unknown does not mean independent.",
+      "bias_appraisal_complete": false,
+      "independence_certified": false,
+      "clinical_review": false,
+      "publish": false
+    },
+    {
+      "id": "P1-11",
+      "title": "Does the development and use of modern disposable diapers affect bladder control? A systematic review",
+      "funding_notes": [
+        "commercial involvement flagged in indexed disclosure; exact sponsor and role pending"
+      ],
+      "financial_interest_notes": [],
+      "archived_funding_audits": [],
+      "archived_high_audit_disclosures": [],
+      "archived_primary_audit_ids": [],
+      "fresh_selected_check": null,
+      "disclosure_status": "one disclosure category has notes, other missing",
+      "remaining": "Confirm source-specific original disclosure, cash and in-kind funding, sponsor role, author and institutional interests, methods and applicability; unknown does not mean independent.",
+      "bias_appraisal_complete": false,
+      "independence_certified": false,
+      "clinical_review": false,
+      "publish": false
+    },
+    {
+      "id": "P1-12",
+      "title": "A child-oriented approach to toilet training",
+      "funding_notes": [
+        "historical funding and later industry ties must be documented separately"
+      ],
+      "financial_interest_notes": [],
+      "archived_funding_audits": [],
+      "archived_high_audit_disclosures": [],
+      "archived_primary_audit_ids": [],
+      "fresh_selected_check": null,
+      "disclosure_status": "one disclosure category has notes, other missing",
+      "remaining": "Confirm source-specific original disclosure, cash and in-kind funding, sponsor role, author and institutional interests, methods and applicability; unknown does not mean independent.",
+      "bias_appraisal_complete": false,
+      "independence_certified": false,
+      "clinical_review": false,
+      "publish": false
+    },
+    {
+      "id": "P1-13",
+      "title": "Choosing an Infant Formula",
+      "funding_notes": [
+        "government guidance; panel/underlying evidence review separate"
+      ],
+      "financial_interest_notes": [],
+      "archived_funding_audits": [],
+      "archived_high_audit_disclosures": [],
+      "archived_primary_audit_ids": [],
+      "fresh_selected_check": null,
+      "disclosure_status": "one disclosure category has notes, other missing",
+      "remaining": "Confirm source-specific original disclosure, cash and in-kind funding, sponsor role, author and institutional interests, methods and applicability; unknown does not mean independent.",
+      "bias_appraisal_complete": false,
+      "independence_certified": false,
+      "clinical_review": false,
+      "publish": false
+    },
+    {
+      "id": "P2-01",
+      "title": "Breastfeeding and Health Outcomes for Infants and Children",
+      "funding_notes": [
+        "AHRQ, US HHS contract",
+        "AHRQ contract; companion review reports CDC/AHRQ funding."
+      ],
+      "financial_interest_notes": [
+        "Complete contractor and panel disclosures pending",
+        "Full contractor/panel disclosures pending."
+      ],
+      "archived_funding_audits": [],
+      "archived_high_audit_disclosures": [],
+      "archived_primary_audit_ids": [],
+      "fresh_selected_check": {
+        "id": "P2-01",
+        "url": "https://doi.org/10.23970/AHRQEPCSRBREASTFEEDING",
+        "locator": "2025 AHRQ report overview and Pediatrics companion review funding",
+        "finding": "Several favorable child health associations; no clear optimal breastfeeding-duration threshold identified. Certainty differs by endpoint.",
+        "limitations": "Most comparisons observational, with residual confounding and heterogeneous feeding definitions.",
+        "funding": "AHRQ contract; companion review reports CDC/AHRQ funding.",
+        "coi": "Full contractor/panel disclosures pending.",
+        "article_ids": [
+          "EV-ART-032"
+        ],
+        "related_ids": [
+          "PED-PROBIT",
+          "P2-02"
+        ],
+        "scope": "original report summary and companion publication excerpt checked"
+      },
+      "disclosure_status": "both fields have notes, may be unknown/incomplete",
+      "remaining": "Confirm source-specific original disclosure, cash and in-kind funding, sponsor role, author and institutional interests, methods and applicability; unknown does not mean independent.",
+      "bias_appraisal_complete": false,
+      "independence_certified": false,
+      "clinical_review": false,
+      "publish": false
+    },
+    {
+      "id": "P2-02",
+      "title": "Breastfeeding during infancy and neurocognitive function in adolescence: 16-year follow-up of the PROBIT cluster-randomized trial",
+      "funding_notes": [
+        "CIHR MOP-53155 and NIH R01HD050758",
+        "CIHR MOP-53155, NIH R01HD050758, public institutional support."
+      ],
+      "financial_interest_notes": [
+        "GD and SA NeuroTrax employees; data curation, writing/review roles; no formula industry support identified in checked disclosure",
+        "Two authors employed by NeuroTrax, whose cognitive battery was used."
+      ],
+      "archived_funding_audits": [],
+      "archived_high_audit_disclosures": [],
+      "archived_primary_audit_ids": [],
+      "fresh_selected_check": {
+        "id": "P2-02",
+        "url": "https://journals.plos.org/plosmedicine/article?id=10.1371/journal.pmed.1002554",
+        "locator": "PLOS funding, competing interests and design; 16-year follow-up",
+        "finding": "Randomized breastfeeding promotion, not assigned milk type; existing outcome extraction reports limited verbal-function difference, not broad cognitive advantage.",
+        "limitations": "One PROBIT cohort, attrition and cognitive measurement; instrument-company interests relevant.",
+        "funding": "CIHR MOP-53155, NIH R01HD050758, public institutional support.",
+        "coi": "Two authors employed by NeuroTrax, whose cognitive battery was used.",
+        "article_ids": [
+          "EV-ART-032"
+        ],
+        "related_ids": [
+          "PED-PROBIT",
+          "P2-03"
+        ],
+        "scope": "selected full-text disclosure and design passages checked"
+      },
+      "disclosure_status": "both fields have notes, may be unknown/incomplete",
+      "remaining": "Confirm source-specific original disclosure, cash and in-kind funding, sponsor role, author and institutional interests, methods and applicability; unknown does not mean independent.",
+      "bias_appraisal_complete": false,
+      "independence_certified": false,
+      "clinical_review": false,
+      "publish": false
+    },
+    {
+      "id": "P2-03",
+      "title": "Breastfeeding and child cognitive development: new evidence from a large randomized trial",
+      "funding_notes": [
+        "Full disclosure pending"
+      ],
+      "financial_interest_notes": [
+        "Unknown"
+      ],
+      "archived_funding_audits": [],
+      "archived_high_audit_disclosures": [],
+      "archived_primary_audit_ids": [],
+      "fresh_selected_check": null,
+      "disclosure_status": "both fields have notes, may be unknown/incomplete",
+      "remaining": "Confirm source-specific original disclosure, cash and in-kind funding, sponsor role, author and institutional interests, methods and applicability; unknown does not mean independent.",
+      "bias_appraisal_complete": false,
+      "independence_certified": false,
+      "clinical_review": false,
+      "publish": false
+    },
+    {
+      "id": "P2-04",
+      "title": "Is breast truly best? Estimating the effects of breastfeeding on long-term child health and wellbeing in the United States using sibling comparisons",
+      "funding_notes": [
+        "Unknown; full acknowledgement extraction pending"
+      ],
+      "financial_interest_notes": [
+        "Unknown"
+      ],
+      "archived_funding_audits": [],
+      "archived_high_audit_disclosures": [],
+      "archived_primary_audit_ids": [],
+      "fresh_selected_check": null,
+      "disclosure_status": "both fields have notes, may be unknown/incomplete",
+      "remaining": "Confirm source-specific original disclosure, cash and in-kind funding, sponsor role, author and institutional interests, methods and applicability; unknown does not mean independent.",
+      "bias_appraisal_complete": false,
+      "independence_certified": false,
+      "clinical_review": false,
+      "publish": false
+    },
+    {
+      "id": "P2-05",
+      "title": "Effect of breast feeding on intelligence in children: prospective study, sibling pairs analysis, and meta-analysis",
+      "funding_notes": [
+        "Wellcome fellowship noted in author affiliation; study-level grants unverified"
+      ],
+      "financial_interest_notes": [
+        "Unknown"
+      ],
+      "archived_funding_audits": [],
+      "archived_high_audit_disclosures": [],
+      "archived_primary_audit_ids": [],
+      "fresh_selected_check": null,
+      "disclosure_status": "both fields have notes, may be unknown/incomplete",
+      "remaining": "Confirm source-specific original disclosure, cash and in-kind funding, sponsor role, author and institutional interests, methods and applicability; unknown does not mean independent.",
+      "bias_appraisal_complete": false,
+      "independence_certified": false,
+      "clinical_review": false,
+      "publish": false
+    },
+    {
+      "id": "P2-06",
+      "title": "Human milk composition: nutrients and bioactive factors",
+      "funding_notes": [
+        "Unknown"
+      ],
+      "financial_interest_notes": [
+        "Unknown"
+      ],
+      "archived_funding_audits": [],
+      "archived_high_audit_disclosures": [],
+      "archived_primary_audit_ids": [],
+      "fresh_selected_check": null,
+      "disclosure_status": "both fields have notes, may be unknown/incomplete",
+      "remaining": "Confirm source-specific original disclosure, cash and in-kind funding, sponsor role, author and institutional interests, methods and applicability; unknown does not mean independent.",
+      "bias_appraisal_complete": false,
+      "independence_certified": false,
+      "clinical_review": false,
+      "publish": false
+    },
+    {
+      "id": "P2-07",
+      "title": "Conduct and reporting of formula milk trials: systematic review",
+      "funding_notes": [
+        "Imperial Health Charity; no role in design/analysis/writing/decision per authors"
+      ],
+      "financial_interest_notes": [
+        "Lead author outside-work fees including DBV, Prota, Cochrane, expert witness work involving formula claims, and public health committee roles; other disclosures require full extraction"
+      ],
+      "archived_funding_audits": [],
+      "archived_high_audit_disclosures": [],
+      "archived_primary_audit_ids": [],
+      "fresh_selected_check": null,
+      "disclosure_status": "both fields have notes, may be unknown/incomplete",
+      "remaining": "Confirm source-specific original disclosure, cash and in-kind funding, sponsor role, author and institutional interests, methods and applicability; unknown does not mean independent.",
+      "bias_appraisal_complete": false,
+      "independence_certified": false,
+      "clinical_review": false,
+      "publish": false
+    },
+    {
+      "id": "P2-08",
+      "title": "Health and nutrition claims for infant formula: international cross sectional survey",
+      "funding_notes": [
+        "No external funding reported"
+      ],
+      "financial_interest_notes": [
+        "Full competing-interest details pending"
+      ],
+      "archived_funding_audits": [],
+      "archived_high_audit_disclosures": [],
+      "archived_primary_audit_ids": [],
+      "fresh_selected_check": null,
+      "disclosure_status": "both fields have notes, may be unknown/incomplete",
+      "remaining": "Confirm source-specific original disclosure, cash and in-kind funding, sponsor role, author and institutional interests, methods and applicability; unknown does not mean independent.",
+      "bias_appraisal_complete": false,
+      "independence_certified": false,
+      "clinical_review": false,
+      "publish": false
+    },
+    {
+      "id": "P2-09",
+      "title": "Effects of Infant Formula With Human Milk Oligosaccharides on Growth and Morbidity: A Randomized Multicenter Trial",
+      "funding_notes": [
+        "Nestlé grants and nonfinancial support to participating hospitals"
+      ],
+      "financial_interest_notes": [
+        "Several current/former Nestlé employees; GP/CC other sponsored studies"
+      ],
+      "archived_funding_audits": [],
+      "archived_high_audit_disclosures": [],
+      "archived_primary_audit_ids": [],
+      "fresh_selected_check": null,
+      "disclosure_status": "both fields have notes, may be unknown/incomplete",
+      "remaining": "Confirm source-specific original disclosure, cash and in-kind funding, sponsor role, author and institutional interests, methods and applicability; unknown does not mean independent.",
+      "bias_appraisal_complete": false,
+      "independence_certified": false,
+      "clinical_review": false,
+      "publish": false
+    },
+    {
+      "id": "P2-10",
+      "title": "Long chain polyunsaturated fatty acid supplementation in infants born at term",
+      "funding_notes": [
+        "Unknown"
+      ],
+      "financial_interest_notes": [
+        "Unknown"
+      ],
+      "archived_funding_audits": [],
+      "archived_high_audit_disclosures": [],
+      "archived_primary_audit_ids": [],
+      "fresh_selected_check": null,
+      "disclosure_status": "both fields have notes, may be unknown/incomplete",
+      "remaining": "Confirm source-specific original disclosure, cash and in-kind funding, sponsor role, author and institutional interests, methods and applicability; unknown does not mean independent.",
+      "bias_appraisal_complete": false,
+      "independence_certified": false,
+      "clinical_review": false,
+      "publish": false
+    },
+    {
+      "id": "P2-11",
+      "title": "Infant formula supplementation with long-chain polyunsaturated fatty acids has no effect on Bayley developmental scores at 18 months of age--IPD meta-analysis of 4 large clinical trials",
+      "funding_notes": [
+        "Unknown"
+      ],
+      "financial_interest_notes": [
+        "Unknown"
+      ],
+      "archived_funding_audits": [],
+      "archived_high_audit_disclosures": [],
+      "archived_primary_audit_ids": [],
+      "fresh_selected_check": null,
+      "disclosure_status": "both fields have notes, may be unknown/incomplete",
+      "remaining": "Confirm source-specific original disclosure, cash and in-kind funding, sponsor role, author and institutional interests, methods and applicability; unknown does not mean independent.",
+      "bias_appraisal_complete": false,
+      "independence_certified": false,
+      "clinical_review": false,
+      "publish": false
+    },
+    {
+      "id": "P2-12",
+      "title": "Hydrolysed formula and risk of allergic or autoimmune disease: systematic review and meta-analysis",
+      "funding_notes": [
+        "Full review funding disclosure pending"
+      ],
+      "financial_interest_notes": [
+        "Unknown"
+      ],
+      "archived_funding_audits": [],
+      "archived_high_audit_disclosures": [],
+      "archived_primary_audit_ids": [],
+      "fresh_selected_check": null,
+      "disclosure_status": "both fields have notes, may be unknown/incomplete",
+      "remaining": "Confirm source-specific original disclosure, cash and in-kind funding, sponsor role, author and institutional interests, methods and applicability; unknown does not mean independent.",
+      "bias_appraisal_complete": false,
+      "independence_certified": false,
+      "clinical_review": false,
+      "publish": false
+    },
+    {
+      "id": "P2-13",
+      "title": "Does a profound change in toilet-training affect development of bowel and bladder control?",
+      "funding_notes": [
+        "Unknown"
+      ],
+      "financial_interest_notes": [
+        "Unknown"
+      ],
+      "archived_funding_audits": [],
+      "archived_high_audit_disclosures": [],
+      "archived_primary_audit_ids": [],
+      "fresh_selected_check": null,
+      "disclosure_status": "both fields have notes, may be unknown/incomplete",
+      "remaining": "Confirm source-specific original disclosure, cash and in-kind funding, sponsor role, author and institutional interests, methods and applicability; unknown does not mean independent.",
+      "bias_appraisal_complete": false,
+      "independence_certified": false,
+      "clinical_review": false,
+      "publish": false
+    },
+    {
+      "id": "P2-14",
+      "title": "Effects of Early Toilet Training and Elimination Communication With Respect to Diaper Types",
+      "funding_notes": [
+        "Unknown"
+      ],
+      "financial_interest_notes": [
+        "Unknown"
+      ],
+      "archived_funding_audits": [],
+      "archived_high_audit_disclosures": [],
+      "archived_primary_audit_ids": [],
+      "fresh_selected_check": null,
+      "disclosure_status": "both fields have notes, may be unknown/incomplete",
+      "remaining": "Confirm source-specific original disclosure, cash and in-kind funding, sponsor role, author and institutional interests, methods and applicability; unknown does not mean independent.",
+      "bias_appraisal_complete": false,
+      "independence_certified": false,
+      "clinical_review": false,
+      "publish": false
+    },
+    {
+      "id": "P2-15",
+      "title": "Measuring the impact of disposable diapers on urination elimination signals in non-toilet-trained children",
+      "funding_notes": [
+        "No specific grant reported"
+      ],
+      "financial_interest_notes": [
+        "Full COI statement pending"
+      ],
+      "archived_funding_audits": [],
+      "archived_high_audit_disclosures": [],
+      "archived_primary_audit_ids": [],
+      "fresh_selected_check": null,
+      "disclosure_status": "both fields have notes, may be unknown/incomplete",
+      "remaining": "Confirm source-specific original disclosure, cash and in-kind funding, sponsor role, author and institutional interests, methods and applicability; unknown does not mean independent.",
+      "bias_appraisal_complete": false,
+      "independence_certified": false,
+      "clinical_review": false,
+      "publish": false
+    },
+    {
+      "id": "P2-16",
+      "title": "Do disposable diapers reduce urination elimination signals in non-toilet-trained children?",
+      "funding_notes": [
+        "Full final-paper disclosure pending; related methods paper reports no specific grant, not proof for this report"
+      ],
+      "financial_interest_notes": [
+        "Unknown"
+      ],
+      "archived_funding_audits": [],
+      "archived_high_audit_disclosures": [],
+      "archived_primary_audit_ids": [],
+      "fresh_selected_check": null,
+      "disclosure_status": "both fields have notes, may be unknown/incomplete",
+      "remaining": "Confirm source-specific original disclosure, cash and in-kind funding, sponsor role, author and institutional interests, methods and applicability; unknown does not mean independent.",
+      "bias_appraisal_complete": false,
+      "independence_certified": false,
+      "clinical_review": false,
+      "publish": false
+    },
+    {
+      "id": "P2-17",
+      "title": "Assisted infant toilet training and the prevalence of functional gastrointestinal disorders up to the age of 9 months: a randomised, controlled trial",
+      "funding_notes": [
+        "Region Dalarna, Regional Research Council Uppsala–Örebro, Mayflower Association, Samaritan Foundation, Swedish Enuresis Academy; authors state no funder role"
+      ],
+      "financial_interest_notes": [
+        "Full conflicts statement pending"
+      ],
+      "archived_funding_audits": [],
+      "archived_high_audit_disclosures": [],
+      "archived_primary_audit_ids": [],
+      "fresh_selected_check": null,
+      "disclosure_status": "both fields have notes, may be unknown/incomplete",
+      "remaining": "Confirm source-specific original disclosure, cash and in-kind funding, sponsor role, author and institutional interests, methods and applicability; unknown does not mean independent.",
+      "bias_appraisal_complete": false,
+      "independence_certified": false,
+      "clinical_review": false,
+      "publish": false
+    },
+    {
+      "id": "P2-18",
+      "title": "Bowel and bladder function in infant toilet training (BABITT) - protocol for a randomized, two-armed intervention study",
+      "funding_notes": [
+        "See BABITT funding; protocol-specific verification pending"
+      ],
+      "financial_interest_notes": [
+        "Unknown"
+      ],
+      "archived_funding_audits": [],
+      "archived_high_audit_disclosures": [],
+      "archived_primary_audit_ids": [],
+      "fresh_selected_check": null,
+      "disclosure_status": "both fields have notes, may be unknown/incomplete",
+      "remaining": "Confirm source-specific original disclosure, cash and in-kind funding, sponsor role, author and institutional interests, methods and applicability; unknown does not mean independent.",
+      "bias_appraisal_complete": false,
+      "independence_certified": false,
+      "clinical_review": false,
+      "publish": false
+    },
+    {
+      "id": "P2-19",
+      "title": "Assisted Infant Toilet Training and Bladder and Bowel Health: A Global Integrative Review",
+      "funding_notes": [
+        "CAUL/member institutions open-access support as recorded in Stage 1; project grant disclosure to recheck"
+      ],
+      "financial_interest_notes": [
+        "No declared COI per Stage 1 extraction; recheck full text"
+      ],
+      "archived_funding_audits": [],
+      "archived_high_audit_disclosures": [],
+      "archived_primary_audit_ids": [],
+      "fresh_selected_check": null,
+      "disclosure_status": "both fields have notes, may be unknown/incomplete",
+      "remaining": "Confirm source-specific original disclosure, cash and in-kind funding, sponsor role, author and institutional interests, methods and applicability; unknown does not mean independent.",
+      "bias_appraisal_complete": false,
+      "independence_certified": false,
+      "clinical_review": false,
+      "publish": false
+    },
+    {
+      "id": "P2-20",
+      "title": "Urinary bladder control during the first 3 years of life in healthy children in Vietnam--a comparison study with Swedish children",
+      "funding_notes": [
+        "Unknown"
+      ],
+      "financial_interest_notes": [
+        "Unknown"
+      ],
+      "archived_funding_audits": [],
+      "archived_high_audit_disclosures": [],
+      "archived_primary_audit_ids": [],
+      "fresh_selected_check": null,
+      "disclosure_status": "both fields have notes, may be unknown/incomplete",
+      "remaining": "Confirm source-specific original disclosure, cash and in-kind funding, sponsor role, author and institutional interests, methods and applicability; unknown does not mean independent.",
+      "bias_appraisal_complete": false,
+      "independence_certified": false,
+      "clinical_review": false,
+      "publish": false
+    },
+    {
+      "id": "P2-21",
+      "title": "Does the development and use of modern disposable diapers affect bladder control? A systematic review",
+      "funding_notes": [
+        "Unknown; source-level sponsor role not verified"
+      ],
+      "financial_interest_notes": [
+        "Unverified"
+      ],
+      "archived_funding_audits": [],
+      "archived_high_audit_disclosures": [],
+      "archived_primary_audit_ids": [],
+      "fresh_selected_check": null,
+      "disclosure_status": "both fields have notes, may be unknown/incomplete",
+      "remaining": "Confirm source-specific original disclosure, cash and in-kind funding, sponsor role, author and institutional interests, methods and applicability; unknown does not mean independent.",
+      "bias_appraisal_complete": false,
+      "independence_certified": false,
+      "clinical_review": false,
+      "publish": false
+    },
+    {
+      "id": "P2-22",
+      "title": "Relationship between age at initiation of toilet training and duration of training: a prospective study",
+      "funding_notes": [
+        "Unknown"
+      ],
+      "financial_interest_notes": [
+        "Unknown"
+      ],
+      "archived_funding_audits": [],
+      "archived_high_audit_disclosures": [],
+      "archived_primary_audit_ids": [],
+      "fresh_selected_check": null,
+      "disclosure_status": "both fields have notes, may be unknown/incomplete",
+      "remaining": "Confirm source-specific original disclosure, cash and in-kind funding, sponsor role, author and institutional interests, methods and applicability; unknown does not mean independent.",
+      "bias_appraisal_complete": false,
+      "independence_certified": false,
+      "clinical_review": false,
+      "publish": false
+    },
+    {
+      "id": "P2-23",
+      "title": "Disposable nappies for preventing napkin dermatitis in infants",
+      "funding_notes": [
+        "Unknown"
+      ],
+      "financial_interest_notes": [
+        "Unknown"
+      ],
+      "archived_funding_audits": [],
+      "archived_high_audit_disclosures": [],
+      "archived_primary_audit_ids": [],
+      "fresh_selected_check": null,
+      "disclosure_status": "both fields have notes, may be unknown/incomplete",
+      "remaining": "Confirm source-specific original disclosure, cash and in-kind funding, sponsor role, author and institutional interests, methods and applicability; unknown does not mean independent.",
+      "bias_appraisal_complete": false,
+      "independence_certified": false,
+      "clinical_review": false,
+      "publish": false
+    },
+    {
+      "id": "P2-24",
+      "title": "Increased carrying reduces infant crying: a randomized controlled trial",
+      "funding_notes": [
+        "Unknown"
+      ],
+      "financial_interest_notes": [
+        "Unknown"
+      ],
+      "archived_funding_audits": [],
+      "archived_high_audit_disclosures": [],
+      "archived_primary_audit_ids": [],
+      "fresh_selected_check": null,
+      "disclosure_status": "both fields have notes, may be unknown/incomplete",
+      "remaining": "Confirm source-specific original disclosure, cash and in-kind funding, sponsor role, author and institutional interests, methods and applicability; unknown does not mean independent.",
+      "bias_appraisal_complete": false,
+      "independence_certified": false,
+      "clinical_review": false,
+      "publish": false
+    },
+    {
+      "id": "P2-25",
+      "title": "Five-year follow-up of harms and benefits of behavioral infant sleep intervention: randomized trial",
+      "funding_notes": [
+        "Foundation for Children support"
+      ],
+      "financial_interest_notes": [
+        "Authors report no relevant financial relationships in prior 3 years or other influencing activities"
+      ],
+      "archived_funding_audits": [],
+      "archived_high_audit_disclosures": [],
+      "archived_primary_audit_ids": [],
+      "fresh_selected_check": null,
+      "disclosure_status": "both fields have notes, may be unknown/incomplete",
+      "remaining": "Confirm source-specific original disclosure, cash and in-kind funding, sponsor role, author and institutional interests, methods and applicability; unknown does not mean independent.",
+      "bias_appraisal_complete": false,
+      "independence_certified": false,
+      "clinical_review": false,
+      "publish": false
+    },
+    {
+      "id": "P2-26",
+      "title": "Massage for promoting mental and physical health in typically developing infants under the age of six months",
+      "funding_notes": [
+        "Unknown"
+      ],
+      "financial_interest_notes": [
+        "Unknown"
+      ],
+      "archived_funding_audits": [],
+      "archived_high_audit_disclosures": [],
+      "archived_primary_audit_ids": [],
+      "fresh_selected_check": null,
+      "disclosure_status": "both fields have notes, may be unknown/incomplete",
+      "remaining": "Confirm source-specific original disclosure, cash and in-kind funding, sponsor role, author and institutional interests, methods and applicability; unknown does not mean independent.",
+      "bias_appraisal_complete": false,
+      "independence_certified": false,
+      "clinical_review": false,
+      "publish": false
+    },
+    {
+      "id": "P2-27",
+      "title": "Disposable and reusable nappies in the UK: life cycle assessment",
+      "funding_notes": [
+        "UK Environment Agency publication"
+      ],
+      "financial_interest_notes": [
+        "Underlying contractor disclosures pending"
+      ],
+      "archived_funding_audits": [],
+      "archived_high_audit_disclosures": [],
+      "archived_primary_audit_ids": [],
+      "fresh_selected_check": null,
+      "disclosure_status": "both fields have notes, may be unknown/incomplete",
+      "remaining": "Confirm source-specific original disclosure, cash and in-kind funding, sponsor role, author and institutional interests, methods and applicability; unknown does not mean independent.",
+      "bias_appraisal_complete": false,
+      "independence_certified": false,
+      "clinical_review": false,
+      "publish": false
+    },
+    {
+      "id": "P2-28",
+      "title": "Choosing an Infant Formula",
+      "funding_notes": [
+        "Government guidance"
+      ],
+      "financial_interest_notes": [
+        "Panel evidence disclosures not audited"
+      ],
+      "archived_funding_audits": [],
+      "archived_high_audit_disclosures": [],
+      "archived_primary_audit_ids": [],
+      "fresh_selected_check": null,
+      "disclosure_status": "both fields have notes, may be unknown/incomplete",
+      "remaining": "Confirm source-specific original disclosure, cash and in-kind funding, sponsor role, author and institutional interests, methods and applicability; unknown does not mean independent.",
+      "bias_appraisal_complete": false,
+      "independence_certified": false,
+      "clinical_review": false,
+      "publish": false
+    },
+    {
+      "id": "P2-29",
+      "title": "Infant Formula Preparation and Storage",
+      "funding_notes": [
+        "Government guidance"
+      ],
+      "financial_interest_notes": [
+        "Not applicable to trial funding"
+      ],
+      "archived_funding_audits": [],
+      "archived_high_audit_disclosures": [],
+      "archived_primary_audit_ids": [],
+      "fresh_selected_check": null,
+      "disclosure_status": "both fields have notes, may be unknown/incomplete",
+      "remaining": "Confirm source-specific original disclosure, cash and in-kind funding, sponsor role, author and institutional interests, methods and applicability; unknown does not mean independent.",
+      "bias_appraisal_complete": false,
+      "independence_certified": false,
+      "clinical_review": false,
+      "publish": false
+    },
+    {
+      "id": "P2-30",
+      "title": "CPSC Approves New Federal Safety Standard for Infant Sling Carriers",
+      "funding_notes": [
+        "Government notice"
+      ],
+      "financial_interest_notes": [
+        "Not applicable"
+      ],
+      "archived_funding_audits": [],
+      "archived_high_audit_disclosures": [],
+      "archived_primary_audit_ids": [],
+      "fresh_selected_check": null,
+      "disclosure_status": "both fields have notes, may be unknown/incomplete",
+      "remaining": "Confirm source-specific original disclosure, cash and in-kind funding, sponsor role, author and institutional interests, methods and applicability; unknown does not mean independent.",
+      "bias_appraisal_complete": false,
+      "independence_certified": false,
+      "clinical_review": false,
+      "publish": false
+    },
+    {
+      "id": "P2-31",
+      "title": "Healthy Habits: Diaper Changing at Home",
+      "funding_notes": [
+        "Government guidance"
+      ],
+      "financial_interest_notes": [
+        "Not applicable"
+      ],
+      "archived_funding_audits": [],
+      "archived_high_audit_disclosures": [],
+      "archived_primary_audit_ids": [],
+      "fresh_selected_check": null,
+      "disclosure_status": "both fields have notes, may be unknown/incomplete",
+      "remaining": "Confirm source-specific original disclosure, cash and in-kind funding, sponsor role, author and institutional interests, methods and applicability; unknown does not mean independent.",
+      "bias_appraisal_complete": false,
+      "independence_certified": false,
+      "clinical_review": false,
+      "publish": false
+    },
+    {
+      "id": "P2-32",
+      "title": "Infant and young child feeding",
+      "funding_notes": [
+        "WHO/UNICEF guidance"
+      ],
+      "financial_interest_notes": [
+        "Panel and underlying evidence disclosures pending"
+      ],
+      "archived_funding_audits": [],
+      "archived_high_audit_disclosures": [],
+      "archived_primary_audit_ids": [],
+      "fresh_selected_check": null,
+      "disclosure_status": "both fields have notes, may be unknown/incomplete",
+      "remaining": "Confirm source-specific original disclosure, cash and in-kind funding, sponsor role, author and institutional interests, methods and applicability; unknown does not mean independent.",
+      "bias_appraisal_complete": false,
+      "independence_certified": false,
+      "clinical_review": false,
+      "publish": false
+    },
+    {
+      "id": "P2-33",
+      "title": "Nutrient specifications, 21 CFR 107.100",
+      "funding_notes": [
+        "US regulation"
+      ],
+      "financial_interest_notes": [
+        "Not applicable"
+      ],
+      "archived_funding_audits": [],
+      "archived_high_audit_disclosures": [],
+      "archived_primary_audit_ids": [],
+      "fresh_selected_check": null,
+      "disclosure_status": "both fields have notes, may be unknown/incomplete",
+      "remaining": "Confirm source-specific original disclosure, cash and in-kind funding, sponsor role, author and institutional interests, methods and applicability; unknown does not mean independent.",
+      "bias_appraisal_complete": false,
+      "independence_certified": false,
+      "clinical_review": false,
+      "publish": false
+    },
+    {
+      "id": "P2-34",
+      "title": "Infant Formula Guidance Documents & Regulatory Information",
+      "funding_notes": [
+        "FDA"
+      ],
+      "financial_interest_notes": [
+        "Not applicable"
+      ],
+      "archived_funding_audits": [],
+      "archived_high_audit_disclosures": [],
+      "archived_primary_audit_ids": [],
+      "fresh_selected_check": null,
+      "disclosure_status": "both fields have notes, may be unknown/incomplete",
+      "remaining": "Confirm source-specific original disclosure, cash and in-kind funding, sponsor role, author and institutional interests, methods and applicability; unknown does not mean independent.",
+      "bias_appraisal_complete": false,
+      "independence_certified": false,
+      "clinical_review": false,
+      "publish": false
+    },
+    {
+      "id": "P3-01",
+      "title": "Topical preparations for preventing stretch marks in pregnancy",
+      "funding_notes": [
+        "Trial funding unknown except Osman lotion donation and Taavoni 2011 no funding reported; review-level disclosure not extracted"
+      ],
+      "financial_interest_notes": [],
+      "archived_funding_audits": [
+        {
+          "file": "research/staged-completion/stage-03/FUNDING_AUDIT.json",
+          "source_id": "P3-01",
+          "prior_ids": [
+            "S001"
+          ],
+          "funding": "Trial funding unknown except Osman lotion donation and Taavoni 2011 no funding reported; review-level disclosure not extracted",
+          "coi": null,
+          "access": "Indexed full text, risk-of-bias/funding passage",
+          "independence_status": "see disclosure; no independent certification"
+        }
+      ],
+      "archived_high_audit_disclosures": [],
+      "archived_primary_audit_ids": [],
+      "fresh_selected_check": null,
+      "disclosure_status": "one disclosure category has notes, other missing",
+      "remaining": "Confirm source-specific original disclosure, cash and in-kind funding, sponsor role, author and institutional interests, methods and applicability; unknown does not mean independent.",
+      "bias_appraisal_complete": false,
+      "independence_certified": false,
+      "clinical_review": false,
+      "publish": false
+    },
+    {
+      "id": "P3-02",
+      "title": "Cocoa butter lotion for prevention of striae gravidarum: a double-blind, randomised and placebo-controlled trial",
+      "funding_notes": [
+        "ET Browne Drug Company supplied active and placebo lotions per Cochrane trial characterization; cash and sponsor role unknown"
+      ],
+      "financial_interest_notes": [],
+      "archived_funding_audits": [
+        {
+          "file": "research/staged-completion/stage-03/FUNDING_AUDIT.json",
+          "source_id": "P3-02",
+          "prior_ids": [
+            "S004"
+          ],
+          "funding": "ET Browne Drug Company supplied active and placebo lotions per Cochrane trial characterization; cash and sponsor role unknown",
+          "coi": null,
+          "access": "Primary abstract and P3-01 funding passage",
+          "independence_status": "in-kind manufacturer supply documented; other support unknown"
+        }
+      ],
+      "archived_high_audit_disclosures": [],
+      "archived_primary_audit_ids": [],
+      "fresh_selected_check": null,
+      "disclosure_status": "one disclosure category has notes, other missing",
+      "remaining": "Confirm source-specific original disclosure, cash and in-kind funding, sponsor role, author and institutional interests, methods and applicability; unknown does not mean independent.",
+      "bias_appraisal_complete": false,
+      "independence_certified": false,
+      "clinical_review": false,
+      "publish": false
+    },
+    {
+      "id": "P3-03",
+      "title": "The effect of bitter almond oil and massaging on striae gravidarum in primiparaous women",
+      "funding_notes": [
+        "Not verified"
+      ],
+      "financial_interest_notes": [],
+      "archived_funding_audits": [
+        {
+          "file": "research/staged-completion/stage-03/FUNDING_AUDIT.json",
+          "source_id": "P3-03",
+          "prior_ids": [
+            "S010"
+          ],
+          "funding": "Not verified",
+          "coi": null,
+          "access": "Indexed primary abstract",
+          "independence_status": "see disclosure; no independent certification"
+        }
+      ],
+      "archived_high_audit_disclosures": [],
+      "archived_primary_audit_ids": [],
+      "fresh_selected_check": null,
+      "disclosure_status": "one disclosure category has notes, other missing",
+      "remaining": "Confirm source-specific original disclosure, cash and in-kind funding, sponsor role, author and institutional interests, methods and applicability; unknown does not mean independent.",
+      "bias_appraisal_complete": false,
+      "independence_certified": false,
+      "clinical_review": false,
+      "publish": false
+    },
+    {
+      "id": "P3-04",
+      "title": "The Effect of Topical Virgin Coconut Oil on Striae Gravidarum Prevention and Severity: A Randomized Controlled Trial",
+      "funding_notes": [
+        "Not disclosed on accessible article landing page"
+      ],
+      "financial_interest_notes": [],
+      "archived_funding_audits": [
+        {
+          "file": "research/staged-completion/stage-03/FUNDING_AUDIT.json",
+          "source_id": "P3-04",
+          "prior_ids": [
+            "RP004"
+          ],
+          "funding": "Not disclosed on accessible article landing page",
+          "coi": null,
+          "access": "Publisher abstract and publication metadata",
+          "independence_status": "see disclosure; no independent certification"
+        }
+      ],
+      "archived_high_audit_disclosures": [],
+      "archived_primary_audit_ids": [],
+      "fresh_selected_check": null,
+      "disclosure_status": "one disclosure category has notes, other missing",
+      "remaining": "Confirm source-specific original disclosure, cash and in-kind funding, sponsor role, author and institutional interests, methods and applicability; unknown does not mean independent.",
+      "bias_appraisal_complete": false,
+      "independence_certified": false,
+      "clinical_review": false,
+      "publish": false
+    },
+    {
+      "id": "P3-05",
+      "title": "Effects of Collagen Supplements on Skin Aging: A Systematic Review and Meta-Analysis of Randomized Controlled Trials",
+      "funding_notes": [
+        "Review grant statement not retrieved; underlying trials separated by sponsor"
+      ],
+      "financial_interest_notes": [
+        "Authors Myung and Park declare none per publisher indexed disclosure"
+      ],
+      "archived_funding_audits": [
+        {
+          "file": "research/staged-completion/stage-03/FUNDING_AUDIT.json",
+          "source_id": "P3-05",
+          "prior_ids": [
+            "S011"
+          ],
+          "funding": "Review grant statement not retrieved; underlying trials separated by sponsor",
+          "coi": "Authors Myung and Park declare none per publisher indexed disclosure",
+          "access": "Indexed abstract and publisher COI",
+          "independence_status": "see disclosure; no independent certification"
+        }
+      ],
+      "archived_high_audit_disclosures": [],
+      "archived_primary_audit_ids": [],
+      "fresh_selected_check": null,
+      "disclosure_status": "both fields have notes, may be unknown/incomplete",
+      "remaining": "Confirm source-specific original disclosure, cash and in-kind funding, sponsor role, author and institutional interests, methods and applicability; unknown does not mean independent.",
+      "bias_appraisal_complete": false,
+      "independence_certified": false,
+      "clinical_review": false,
+      "publish": false
+    },
+    {
+      "id": "P3-06",
+      "title": "Hydrolyzed Collagen for Skin Aging Meta-Analyses Are Unreliable",
+      "funding_notes": [
+        "Review grant support not established from inspected passages; underlying trial sponsorship counts reported"
+      ],
+      "financial_interest_notes": [
+        "Authors declare no conflicts"
+      ],
+      "archived_funding_audits": [
+        {
+          "file": "research/staged-completion/stage-03/FUNDING_AUDIT.json",
+          "source_id": "P3-06",
+          "prior_ids": [
+            "CL02"
+          ],
+          "funding": "Review grant support not established from inspected passages; underlying trial sponsorship counts reported",
+          "coi": "Authors declare no conflicts",
+          "access": "Full text selected Table 1, Table 2, Figure 1, discussion, disclosure",
+          "independence_status": "see disclosure; no independent certification"
+        }
+      ],
+      "archived_high_audit_disclosures": [],
+      "archived_primary_audit_ids": [],
+      "fresh_selected_check": null,
+      "disclosure_status": "both fields have notes, may be unknown/incomplete",
+      "remaining": "Confirm source-specific original disclosure, cash and in-kind funding, sponsor role, author and institutional interests, methods and applicability; unknown does not mean independent.",
+      "bias_appraisal_complete": false,
+      "independence_certified": false,
+      "clinical_review": false,
+      "publish": false
+    },
+    {
+      "id": "P3-07",
+      "title": "Oral Collagen Peptides and Skin Rejuvenation: A Systematic Review and an Updated Meta-Analysis of Randomized Controlled Trials",
+      "funding_notes": [
+        "Not verified"
+      ],
+      "financial_interest_notes": [],
+      "archived_funding_audits": [
+        {
+          "file": "research/staged-completion/stage-03/FUNDING_AUDIT.json",
+          "source_id": "P3-07",
+          "prior_ids": [
+            "S012"
+          ],
+          "funding": "Not verified",
+          "coi": null,
+          "access": "Indexed abstract",
+          "independence_status": "see disclosure; no independent certification"
+        }
+      ],
+      "archived_high_audit_disclosures": [],
+      "archived_primary_audit_ids": [],
+      "fresh_selected_check": null,
+      "disclosure_status": "one disclosure category has notes, other missing",
+      "remaining": "Confirm source-specific original disclosure, cash and in-kind funding, sponsor role, author and institutional interests, methods and applicability; unknown does not mean independent.",
+      "bias_appraisal_complete": false,
+      "independence_certified": false,
+      "clinical_review": false,
+      "publish": false
+    },
+    {
+      "id": "P3-08",
+      "title": "The effect of breastfeeding on breast aesthetics",
+      "funding_notes": [
+        "Not available in accessible abstract"
+      ],
+      "financial_interest_notes": [],
+      "archived_funding_audits": [
+        {
+          "file": "research/staged-completion/stage-03/FUNDING_AUDIT.json",
+          "source_id": "P3-08",
+          "prior_ids": [
+            "S044"
+          ],
+          "funding": "Not available in accessible abstract",
+          "coi": null,
+          "access": "Primary abstract and author affiliations",
+          "independence_status": "see disclosure; no independent certification"
+        }
+      ],
+      "archived_high_audit_disclosures": [],
+      "archived_primary_audit_ids": [],
+      "fresh_selected_check": null,
+      "disclosure_status": "one disclosure category has notes, other missing",
+      "remaining": "Confirm source-specific original disclosure, cash and in-kind funding, sponsor role, author and institutional interests, methods and applicability; unknown does not mean independent.",
+      "bias_appraisal_complete": false,
+      "independence_certified": false,
+      "clinical_review": false,
+      "publish": false
+    },
+    {
+      "id": "P3-09",
+      "title": "Assessment of breast volume changes during human pregnancy using a three-dimensional surface assessment technique in the prospective CGATE study",
+      "funding_notes": [
+        "PubMed indexes non-US government support; exact source and commercial ties not verified"
+      ],
+      "financial_interest_notes": [],
+      "archived_funding_audits": [
+        {
+          "file": "research/staged-completion/stage-03/FUNDING_AUDIT.json",
+          "source_id": "P3-09",
+          "prior_ids": [
+            "H032"
+          ],
+          "funding": "PubMed indexes non-US government support; exact source and commercial ties not verified",
+          "coi": null,
+          "access": "Primary abstract",
+          "independence_status": "see disclosure; no independent certification"
+        }
+      ],
+      "archived_high_audit_disclosures": [],
+      "archived_primary_audit_ids": [],
+      "fresh_selected_check": null,
+      "disclosure_status": "one disclosure category has notes, other missing",
+      "remaining": "Confirm source-specific original disclosure, cash and in-kind funding, sponsor role, author and institutional interests, methods and applicability; unknown does not mean independent.",
+      "bias_appraisal_complete": false,
+      "independence_certified": false,
+      "clinical_review": false,
+      "publish": false
+    },
+    {
+      "id": "P3-10",
+      "title": "Curl-up exercises improve abdominal muscle strength without worsening inter-recti distance in women with diastasis recti abdominis postpartum: a randomised controlled trial",
+      "funding_notes": [
+        "Not independently retrieved"
+      ],
+      "financial_interest_notes": [
+        "Nil per publisher indexed disclosure"
+      ],
+      "archived_funding_audits": [
+        {
+          "file": "research/staged-completion/stage-03/FUNDING_AUDIT.json",
+          "source_id": "P3-10",
+          "prior_ids": [
+            "S028"
+          ],
+          "funding": "Not independently retrieved",
+          "coi": "Nil per publisher indexed disclosure",
+          "access": "Primary abstract and publisher snippet",
+          "independence_status": "see disclosure; no independent certification"
+        }
+      ],
+      "archived_high_audit_disclosures": [],
+      "archived_primary_audit_ids": [],
+      "fresh_selected_check": null,
+      "disclosure_status": "both fields have notes, may be unknown/incomplete",
+      "remaining": "Confirm source-specific original disclosure, cash and in-kind funding, sponsor role, author and institutional interests, methods and applicability; unknown does not mean independent.",
+      "bias_appraisal_complete": false,
+      "independence_certified": false,
+      "clinical_review": false,
+      "publish": false
+    },
+    {
+      "id": "P3-11",
+      "title": "Impact of postpartum exercise on pelvic floor disorders and diastasis recti abdominis: a systematic review and meta-analysis",
+      "funding_notes": [
+        "UQTR research chair, Christenson Professorship, Alberta Innovates studentship (author support; underlying trial funding separate)"
+      ],
+      "financial_interest_notes": [
+        "Full author COI not extracted"
+      ],
+      "archived_funding_audits": [
+        {
+          "file": "research/staged-completion/stage-03/FUNDING_AUDIT.json",
+          "source_id": "P3-11",
+          "prior_ids": [
+            "S032"
+          ],
+          "funding": "UQTR research chair, Christenson Professorship, Alberta Innovates studentship (author support; underlying trial funding separate)",
+          "coi": "Full author COI not extracted",
+          "access": "Full text results, figures 6–7 and funding footnote",
+          "independence_status": "see disclosure; no independent certification"
+        }
+      ],
+      "archived_high_audit_disclosures": [],
+      "archived_primary_audit_ids": [],
+      "fresh_selected_check": null,
+      "disclosure_status": "both fields have notes, may be unknown/incomplete",
+      "remaining": "Confirm source-specific original disclosure, cash and in-kind funding, sponsor role, author and institutional interests, methods and applicability; unknown does not mean independent.",
+      "bias_appraisal_complete": false,
+      "independence_certified": false,
+      "clinical_review": false,
+      "publish": false
+    },
+    {
+      "id": "P3-12",
+      "title": "What is the evidence for abdominal and pelvic floor muscle training to treat diastasis recti abdominis postpartum? An updated systematic review and meta-analysis of randomized clinical trials and trial sequential analysis",
+      "funding_notes": [
+        "Not verified; subscription restriction"
+      ],
+      "financial_interest_notes": [],
+      "archived_funding_audits": [
+        {
+          "file": "research/staged-completion/stage-03/FUNDING_AUDIT.json",
+          "source_id": "P3-12",
+          "prior_ids": [
+            "S030"
+          ],
+          "funding": "Not verified; subscription restriction",
+          "coi": null,
+          "access": "Publisher abstract, reference list",
+          "independence_status": "see disclosure; no independent certification"
+        }
+      ],
+      "archived_high_audit_disclosures": [],
+      "archived_primary_audit_ids": [],
+      "fresh_selected_check": null,
+      "disclosure_status": "one disclosure category has notes, other missing",
+      "remaining": "Confirm source-specific original disclosure, cash and in-kind funding, sponsor role, author and institutional interests, methods and applicability; unknown does not mean independent.",
+      "bias_appraisal_complete": false,
+      "independence_certified": false,
+      "clinical_review": false,
+      "publish": false
+    },
+    {
+      "id": "P3-13",
+      "title": "Non operative management of postpartum Diastasis Recti: a systematic review and metanalysis of randomized controlled trials",
+      "funding_notes": [
+        "Not verified"
+      ],
+      "financial_interest_notes": [],
+      "archived_funding_audits": [
+        {
+          "file": "research/staged-completion/stage-03/FUNDING_AUDIT.json",
+          "source_id": "P3-13",
+          "prior_ids": [
+            "N301"
+          ],
+          "funding": "Not verified",
+          "coi": null,
+          "access": "Publisher indexed results and discussion",
+          "independence_status": "see disclosure; no independent certification"
+        }
+      ],
+      "archived_high_audit_disclosures": [],
+      "archived_primary_audit_ids": [],
+      "fresh_selected_check": null,
+      "disclosure_status": "one disclosure category has notes, other missing",
+      "remaining": "Confirm source-specific original disclosure, cash and in-kind funding, sponsor role, author and institutional interests, methods and applicability; unknown does not mean independent.",
+      "bias_appraisal_complete": false,
+      "independence_certified": false,
+      "clinical_review": false,
+      "publish": false
+    },
+    {
+      "id": "P3-14",
+      "title": "Pregnant women may exercise both abdominal and pelvic floor muscles during pregnancy without increasing the diastasis recti abdominis: a randomised trial",
+      "funding_notes": [
+        "Not verified"
+      ],
+      "financial_interest_notes": [],
+      "archived_funding_audits": [
+        {
+          "file": "research/staged-completion/stage-03/FUNDING_AUDIT.json",
+          "source_id": "P3-14",
+          "prior_ids": [
+            "DR013"
+          ],
+          "funding": "Not verified",
+          "coi": null,
+          "access": "Indexed abstract/title",
+          "independence_status": "see disclosure; no independent certification"
+        }
+      ],
+      "archived_high_audit_disclosures": [],
+      "archived_primary_audit_ids": [],
+      "fresh_selected_check": null,
+      "disclosure_status": "one disclosure category has notes, other missing",
+      "remaining": "Confirm source-specific original disclosure, cash and in-kind funding, sponsor role, author and institutional interests, methods and applicability; unknown does not mean independent.",
+      "bias_appraisal_complete": false,
+      "independence_certified": false,
+      "clinical_review": false,
+      "publish": false
+    },
+    {
+      "id": "P3-15",
+      "title": "Transversus abdominis and rectus abdominis activation exercises do not alter inter-recti distance in pregnant women: a randomised trial",
+      "funding_notes": [
+        "Not verified"
+      ],
+      "financial_interest_notes": [
+        "Nil per publisher indexed disclosure"
+      ],
+      "archived_funding_audits": [
+        {
+          "file": "research/staged-completion/stage-03/FUNDING_AUDIT.json",
+          "source_id": "P3-15",
+          "prior_ids": [],
+          "funding": "Not verified",
+          "coi": "Nil per publisher indexed disclosure",
+          "access": "Indexed abstract and publisher disclosure",
+          "independence_status": "see disclosure; no independent certification"
+        }
+      ],
+      "archived_high_audit_disclosures": [],
+      "archived_primary_audit_ids": [],
+      "fresh_selected_check": null,
+      "disclosure_status": "both fields have notes, may be unknown/incomplete",
+      "remaining": "Confirm source-specific original disclosure, cash and in-kind funding, sponsor role, author and institutional interests, methods and applicability; unknown does not mean independent.",
+      "bias_appraisal_complete": false,
+      "independence_certified": false,
+      "clinical_review": false,
+      "publish": false
+    },
+    {
+      "id": "P3-16",
+      "title": "Evaluation of Postpartum Pelvic Floor Physical Therapy on Obstetrical Anal Sphincter Injury: A Randomized Controlled Trial",
+      "funding_notes": [
+        "Harvard Catalyst NIH UL1TR002541 and Harvard/affiliated academic centers; no funder role reported"
+      ],
+      "financial_interest_notes": [
+        "Authors report no potential conflicts"
+      ],
+      "archived_funding_audits": [
+        {
+          "file": "research/staged-completion/stage-03/FUNDING_AUDIT.json",
+          "source_id": "P3-16",
+          "prior_ids": [
+            "H016"
+          ],
+          "funding": "Harvard Catalyst NIH UL1TR002541 and Harvard/affiliated academic centers; no funder role reported",
+          "coi": "Authors report no potential conflicts",
+          "access": "Full text Table 2, acknowledgments and financial disclosures",
+          "independence_status": "declared public/academic sources, no conflicts reported; underlying relationships not fully audited"
+        }
+      ],
+      "archived_high_audit_disclosures": [],
+      "archived_primary_audit_ids": [],
+      "fresh_selected_check": null,
+      "disclosure_status": "both fields have notes, may be unknown/incomplete",
+      "remaining": "Confirm source-specific original disclosure, cash and in-kind funding, sponsor role, author and institutional interests, methods and applicability; unknown does not mean independent.",
+      "bias_appraisal_complete": false,
+      "independence_certified": false,
+      "clinical_review": false,
+      "publish": false
+    },
+    {
+      "id": "P3-17",
+      "title": "The Impact of Exercising on Pelvic Symptom Severity, Pelvic Floor Muscle Strength, and Diastasis Recti Abdominis After Pregnancy: A Longitudinal Prospective Cohort Study",
+      "funding_notes": [
+        "Healthcare Committee Region Västra Götaland, Research and Development Centre Gothenburg and Södra Bohuslän; no funder influence reported"
+      ],
+      "financial_interest_notes": [
+        "ICMJE no conflicts reported"
+      ],
+      "archived_funding_audits": [
+        {
+          "file": "research/staged-completion/stage-03/FUNDING_AUDIT.json",
+          "source_id": "P3-17",
+          "prior_ids": [],
+          "funding": "Healthcare Committee Region Västra Götaland, Research and Development Centre Gothenburg and Södra Bohuslän; no funder influence reported",
+          "coi": "ICMJE no conflicts reported",
+          "access": "Full text Results and Funding/Disclosures",
+          "independence_status": "declared public/academic sources, no conflicts reported; underlying relationships not fully audited"
+        }
+      ],
+      "archived_high_audit_disclosures": [],
+      "archived_primary_audit_ids": [],
+      "fresh_selected_check": null,
+      "disclosure_status": "both fields have notes, may be unknown/incomplete",
+      "remaining": "Confirm source-specific original disclosure, cash and in-kind funding, sponsor role, author and institutional interests, methods and applicability; unknown does not mean independent.",
+      "bias_appraisal_complete": false,
+      "independence_certified": false,
+      "clinical_review": false,
+      "publish": false
+    },
+    {
+      "id": "P3-18",
+      "title": "Pushing limits: the acute effects of a heavy-load resistance protocol and supine exercise on fetal well-being",
+      "funding_notes": [
+        "Norwegian Women's Public Health Association, indexed PDF funding text; authors report no sponsor role. PDF not opened; full disclosure needs confirmation."
+      ],
+      "financial_interest_notes": [],
+      "archived_funding_audits": [
+        {
+          "file": "research/staged-completion/stage-03/FUNDING_AUDIT.json",
+          "source_id": "P3-18",
+          "prior_ids": [
+            "H035"
+          ],
+          "funding": "Norwegian Women's Public Health Association, indexed PDF funding text; authors report no sponsor role. PDF not opened; full disclosure needs confirmation.",
+          "coi": null,
+          "access": "Indexed primary abstract and funding snippet",
+          "independence_status": "see disclosure; no independent certification"
+        }
+      ],
+      "archived_high_audit_disclosures": [],
+      "archived_primary_audit_ids": [],
+      "fresh_selected_check": null,
+      "disclosure_status": "one disclosure category has notes, other missing",
+      "remaining": "Confirm source-specific original disclosure, cash and in-kind funding, sponsor role, author and institutional interests, methods and applicability; unknown does not mean independent.",
+      "bias_appraisal_complete": false,
+      "independence_certified": false,
+      "clinical_review": false,
+      "publish": false
+    },
+    {
+      "id": "P3-19",
+      "title": "2025 Canadian guideline for physical activity, sedentary behaviour and sleep throughout the first year post partum",
+      "funding_notes": [
+        "Panel and funder disclosures pending; related review P3-11 author support checked"
+      ],
+      "financial_interest_notes": [],
+      "archived_funding_audits": [
+        {
+          "file": "research/staged-completion/stage-03/FUNDING_AUDIT.json",
+          "source_id": "P3-19",
+          "prior_ids": [
+            "S064",
+            "N305"
+          ],
+          "funding": "Panel and funder disclosures pending; related review P3-11 author support checked",
+          "coi": null,
+          "access": "Indexed guideline recommendations and discussion",
+          "independence_status": "see disclosure; no independent certification"
+        }
+      ],
+      "archived_high_audit_disclosures": [],
+      "archived_primary_audit_ids": [],
+      "fresh_selected_check": null,
+      "disclosure_status": "one disclosure category has notes, other missing",
+      "remaining": "Confirm source-specific original disclosure, cash and in-kind funding, sponsor role, author and institutional interests, methods and applicability; unknown does not mean independent.",
+      "bias_appraisal_complete": false,
+      "independence_certified": false,
+      "clinical_review": false,
+      "publish": false
+    },
+    {
+      "id": "P3-20",
+      "title": "Antenatal perineal massage for reducing perineal trauma",
+      "funding_notes": [
+        "Review and trial disclosures pending"
+      ],
+      "financial_interest_notes": [],
+      "archived_funding_audits": [
+        {
+          "file": "research/staged-completion/stage-03/FUNDING_AUDIT.json",
+          "source_id": "P3-20",
+          "prior_ids": [
+            "S170"
+          ],
+          "funding": "Review and trial disclosures pending",
+          "coi": null,
+          "access": "Cochrane results",
+          "independence_status": "see disclosure; no independent certification"
+        }
+      ],
+      "archived_high_audit_disclosures": [],
+      "archived_primary_audit_ids": [],
+      "fresh_selected_check": null,
+      "disclosure_status": "one disclosure category has notes, other missing",
+      "remaining": "Confirm source-specific original disclosure, cash and in-kind funding, sponsor role, author and institutional interests, methods and applicability; unknown does not mean independent.",
+      "bias_appraisal_complete": false,
+      "independence_certified": false,
+      "clinical_review": false,
+      "publish": false
+    }
+  ]
+}

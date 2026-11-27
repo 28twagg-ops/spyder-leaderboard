@@ -1,0 +1,23 @@
+{
+  "date": "2026-11-27",
+  "counts": {
+    "records": 770,
+    "with_funding_notes": 329,
+    "with_financial_interest_notes": 230,
+    "with_both_notes": 228,
+    "with_neither_note": 439,
+    "prior_funding_audit_entries": 226,
+    "prior_high_audit_disclosures": 9,
+    "new_selected_original_checks": 9,
+    "completed_independent_bias_appraisals": 0
+  },
+  "files": [
+    "research/source-review/disclosures-001-110.json",
+    "research/source-review/disclosures-111-220.json",
+    "research/source-review/disclosures-221-330.json",
+    "research/source-review/disclosures-331-440.json",
+    "research/source-review/disclosures-441-550.json",
+    "research/source-review/disclosures-551-660.json",
+    "research/source-review/disclosures-661-770.json"
+  ]
+}

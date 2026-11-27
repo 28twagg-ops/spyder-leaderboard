@@ -1,0 +1,3001 @@
+{
+  "scope": "Archived disclosure evidence and nine fresh selected source checks; no independent certification.",
+  "records": [
+    {
+      "id": "P6-41",
+      "title": "A systematic review and meta-analysis of heat exposure impacts on maternal, fetal and neonatal health",
+      "funding_notes": [
+        "Full grants not retrieved"
+      ],
+      "financial_interest_notes": [
+        "Unknown"
+      ],
+      "archived_funding_audits": [
+        {
+          "file": "research/staged-completion/stage-06/FUNDING_AUDIT.json",
+          "source_id": "P6-41",
+          "funding": "Full grants not retrieved",
+          "financial_ties": "Unknown",
+          "verification": "Indexed primary abstract",
+          "independence_certified": false
+        }
+      ],
+      "archived_high_audit_disclosures": [],
+      "archived_primary_audit_ids": [],
+      "fresh_selected_check": null,
+      "disclosure_status": "both fields have notes, may be unknown/incomplete",
+      "remaining": "Confirm source-specific original disclosure, cash and in-kind funding, sponsor role, author and institutional interests, methods and applicability; unknown does not mean independent.",
+      "bias_appraisal_complete": false,
+      "independence_certified": false,
+      "clinical_review": false,
+      "publish": false
+    },
+    {
+      "id": "P6-42",
+      "title": "The influence of environmental exposures during the preconception period on offspring outcomes: a systematic review",
+      "funding_notes": [
+        "Grant statement pending"
+      ],
+      "financial_interest_notes": [
+        "No relevant commercial/financial relationships declared"
+      ],
+      "archived_funding_audits": [
+        {
+          "file": "research/staged-completion/stage-06/FUNDING_AUDIT.json",
+          "source_id": "P6-42",
+          "funding": "Grant statement pending",
+          "financial_ties": "No relevant commercial/financial relationships declared",
+          "verification": "Original PubMed abstract, COI and registry",
+          "independence_certified": false
+        }
+      ],
+      "archived_high_audit_disclosures": [],
+      "archived_primary_audit_ids": [],
+      "fresh_selected_check": null,
+      "disclosure_status": "both fields have notes, may be unknown/incomplete",
+      "remaining": "Confirm source-specific original disclosure, cash and in-kind funding, sponsor role, author and institutional interests, methods and applicability; unknown does not mean independent.",
+      "bias_appraisal_complete": false,
+      "independence_certified": false,
+      "clinical_review": false,
+      "publish": false
+    },
+    {
+      "id": "P6-43",
+      "title": "The influence of paternal preconception health on birth defects and head circumference: A scoping review",
+      "funding_notes": [
+        "Not verified"
+      ],
+      "financial_interest_notes": [
+        "Unknown"
+      ],
+      "archived_funding_audits": [
+        {
+          "file": "research/staged-completion/stage-06/FUNDING_AUDIT.json",
+          "source_id": "P6-43",
+          "funding": "Not verified",
+          "financial_ties": "Unknown",
+          "verification": "Indexed primary abstract",
+          "independence_certified": false
+        }
+      ],
+      "archived_high_audit_disclosures": [],
+      "archived_primary_audit_ids": [],
+      "fresh_selected_check": null,
+      "disclosure_status": "both fields have notes, may be unknown/incomplete",
+      "remaining": "Confirm source-specific original disclosure, cash and in-kind funding, sponsor role, author and institutional interests, methods and applicability; unknown does not mean independent.",
+      "bias_appraisal_complete": false,
+      "independence_certified": false,
+      "clinical_review": false,
+      "publish": false
+    },
+    {
+      "id": "P6-44",
+      "title": "Seminal and molecular evidence that sauna exposure affects human spermatogenesis",
+      "funding_notes": [
+        "No external funding sought"
+      ],
+      "financial_interest_notes": [
+        "No conflicts declared"
+      ],
+      "archived_funding_audits": [
+        {
+          "file": "research/staged-completion/stage-06/FUNDING_AUDIT.json",
+          "source_id": "P6-44",
+          "funding": "No external funding sought",
+          "financial_ties": "No conflicts declared",
+          "verification": "Indexed primary abstract and funding/COI",
+          "independence_certified": false
+        }
+      ],
+      "archived_high_audit_disclosures": [],
+      "archived_primary_audit_ids": [],
+      "fresh_selected_check": null,
+      "disclosure_status": "both fields have notes, may be unknown/incomplete",
+      "remaining": "Confirm source-specific original disclosure, cash and in-kind funding, sponsor role, author and institutional interests, methods and applicability; unknown does not mean independent.",
+      "bias_appraisal_complete": false,
+      "independence_certified": false,
+      "clinical_review": false,
+      "publish": false
+    },
+    {
+      "id": "P6-45",
+      "title": "Heat exposure during susceptible windows of spermatogenesis and sperm epigenetic age",
+      "funding_notes": [
+        "Parent trial NICHD intramural contracts HHSN275201200007C/HHSN275201300026I"
+      ],
+      "financial_interest_notes": [
+        "Other author disclosures pending"
+      ],
+      "archived_funding_audits": [
+        {
+          "file": "research/staged-completion/stage-06/FUNDING_AUDIT.json",
+          "source_id": "P6-45",
+          "funding": "Parent trial NICHD intramural contracts HHSN275201200007C/HHSN275201300026I",
+          "financial_ties": "Other author disclosures pending",
+          "verification": "Indexed primary abstract and funding",
+          "independence_certified": false
+        }
+      ],
+      "archived_high_audit_disclosures": [],
+      "archived_primary_audit_ids": [],
+      "fresh_selected_check": null,
+      "disclosure_status": "both fields have notes, may be unknown/incomplete",
+      "remaining": "Confirm source-specific original disclosure, cash and in-kind funding, sponsor role, author and institutional interests, methods and applicability; unknown does not mean independent.",
+      "bias_appraisal_complete": false,
+      "independence_certified": false,
+      "clinical_review": false,
+      "publish": false
+    },
+    {
+      "id": "P6-46",
+      "title": "Congenital anomalies in the offspring of occupationally exposed mothers: a systematic review and meta-analysis of studies using expert assessment for occupational exposures",
+      "funding_notes": [
+        "Not verified"
+      ],
+      "financial_interest_notes": [
+        "Unknown"
+      ],
+      "archived_funding_audits": [
+        {
+          "file": "research/staged-completion/stage-06/FUNDING_AUDIT.json",
+          "source_id": "P6-46",
+          "funding": "Not verified",
+          "financial_ties": "Unknown",
+          "verification": "Indexed primary abstract",
+          "independence_certified": false
+        }
+      ],
+      "archived_high_audit_disclosures": [],
+      "archived_primary_audit_ids": [],
+      "fresh_selected_check": null,
+      "disclosure_status": "both fields have notes, may be unknown/incomplete",
+      "remaining": "Confirm source-specific original disclosure, cash and in-kind funding, sponsor role, author and institutional interests, methods and applicability; unknown does not mean independent.",
+      "bias_appraisal_complete": false,
+      "independence_certified": false,
+      "clinical_review": false,
+      "publish": false
+    },
+    {
+      "id": "P6-47",
+      "title": "Association of arsenic with adverse pregnancy outcomes/infant mortality: a systematic review and meta-analysis",
+      "funding_notes": [
+        "Not verified"
+      ],
+      "financial_interest_notes": [
+        "Unknown"
+      ],
+      "archived_funding_audits": [
+        {
+          "file": "research/staged-completion/stage-06/FUNDING_AUDIT.json",
+          "source_id": "P6-47",
+          "funding": "Not verified",
+          "financial_ties": "Unknown",
+          "verification": "Indexed primary abstract",
+          "independence_certified": false
+        }
+      ],
+      "archived_high_audit_disclosures": [],
+      "archived_primary_audit_ids": [],
+      "fresh_selected_check": null,
+      "disclosure_status": "both fields have notes, may be unknown/incomplete",
+      "remaining": "Confirm source-specific original disclosure, cash and in-kind funding, sponsor role, author and institutional interests, methods and applicability; unknown does not mean independent.",
+      "bias_appraisal_complete": false,
+      "independence_certified": false,
+      "clinical_review": false,
+      "publish": false
+    },
+    {
+      "id": "P6-48",
+      "title": "Association of arsenic exposure with adverse birth outcomes: A meta-analysis and a benchmark dose analysis",
+      "funding_notes": [
+        "Not verified"
+      ],
+      "financial_interest_notes": [
+        "Unknown"
+      ],
+      "archived_funding_audits": [
+        {
+          "file": "research/staged-completion/stage-06/FUNDING_AUDIT.json",
+          "source_id": "P6-48",
+          "funding": "Not verified",
+          "financial_ties": "Unknown",
+          "verification": "Indexed primary abstract",
+          "independence_certified": false
+        }
+      ],
+      "archived_high_audit_disclosures": [],
+      "archived_primary_audit_ids": [],
+      "fresh_selected_check": null,
+      "disclosure_status": "both fields have notes, may be unknown/incomplete",
+      "remaining": "Confirm source-specific original disclosure, cash and in-kind funding, sponsor role, author and institutional interests, methods and applicability; unknown does not mean independent.",
+      "bias_appraisal_complete": false,
+      "independence_certified": false,
+      "clinical_review": false,
+      "publish": false
+    },
+    {
+      "id": "P6-G01",
+      "title": "Guidelines for Testing Well Water",
+      "funding_notes": [
+        "Government agency"
+      ],
+      "financial_interest_notes": [],
+      "archived_funding_audits": [
+        {
+          "file": "research/staged-completion/stage-06/FUNDING_AUDIT.json",
+          "source_id": "P6-G01",
+          "funding": "Government agency",
+          "financial_ties": null,
+          "verification": "Official indexed HTML",
+          "independence_certified": false
+        }
+      ],
+      "archived_high_audit_disclosures": [],
+      "archived_primary_audit_ids": [],
+      "fresh_selected_check": null,
+      "disclosure_status": "one disclosure category has notes, other missing",
+      "remaining": "Confirm source-specific original disclosure, cash and in-kind funding, sponsor role, author and institutional interests, methods and applicability; unknown does not mean independent.",
+      "bias_appraisal_complete": false,
+      "independence_certified": false,
+      "clinical_review": false,
+      "publish": false
+    },
+    {
+      "id": "P6-G02",
+      "title": "Private Wells and Drinking Water Safety and Infants",
+      "funding_notes": [
+        "Government agency"
+      ],
+      "financial_interest_notes": [],
+      "archived_funding_audits": [
+        {
+          "file": "research/staged-completion/stage-06/FUNDING_AUDIT.json",
+          "source_id": "P6-G02",
+          "funding": "Government agency",
+          "financial_ties": null,
+          "verification": "Official indexed HTML",
+          "independence_certified": false
+        }
+      ],
+      "archived_high_audit_disclosures": [],
+      "archived_primary_audit_ids": [],
+      "fresh_selected_check": null,
+      "disclosure_status": "one disclosure category has notes, other missing",
+      "remaining": "Confirm source-specific original disclosure, cash and in-kind funding, sponsor role, author and institutional interests, methods and applicability; unknown does not mean independent.",
+      "bias_appraisal_complete": false,
+      "independence_certified": false,
+      "clinical_review": false,
+      "publish": false
+    },
+    {
+      "id": "P6-G03",
+      "title": "Infant Formula Preparation and Storage",
+      "funding_notes": [
+        "Government agency"
+      ],
+      "financial_interest_notes": [],
+      "archived_funding_audits": [
+        {
+          "file": "research/staged-completion/stage-06/FUNDING_AUDIT.json",
+          "source_id": "P6-G03",
+          "funding": "Government agency",
+          "financial_ties": null,
+          "verification": "Official indexed HTML",
+          "independence_certified": false
+        }
+      ],
+      "archived_high_audit_disclosures": [],
+      "archived_primary_audit_ids": [],
+      "fresh_selected_check": null,
+      "disclosure_status": "one disclosure category has notes, other missing",
+      "remaining": "Confirm source-specific original disclosure, cash and in-kind funding, sponsor role, author and institutional interests, methods and applicability; unknown does not mean independent.",
+      "bias_appraisal_complete": false,
+      "independence_certified": false,
+      "clinical_review": false,
+      "publish": false
+    },
+    {
+      "id": "P6-G04",
+      "title": "About Take-Home Exposures",
+      "funding_notes": [
+        "Government agency"
+      ],
+      "financial_interest_notes": [],
+      "archived_funding_audits": [
+        {
+          "file": "research/staged-completion/stage-06/FUNDING_AUDIT.json",
+          "source_id": "P6-G04",
+          "funding": "Government agency",
+          "financial_ties": null,
+          "verification": "Official indexed HTML",
+          "independence_certified": false
+        }
+      ],
+      "archived_high_audit_disclosures": [],
+      "archived_primary_audit_ids": [],
+      "fresh_selected_check": null,
+      "disclosure_status": "one disclosure category has notes, other missing",
+      "remaining": "Confirm source-specific original disclosure, cash and in-kind funding, sponsor role, author and institutional interests, methods and applicability; unknown does not mean independent.",
+      "bias_appraisal_complete": false,
+      "independence_certified": false,
+      "clinical_review": false,
+      "publish": false
+    },
+    {
+      "id": "P6-G05",
+      "title": "About Solvents and Reproductive Health",
+      "funding_notes": [
+        "Government agency"
+      ],
+      "financial_interest_notes": [],
+      "archived_funding_audits": [
+        {
+          "file": "research/staged-completion/stage-06/FUNDING_AUDIT.json",
+          "source_id": "P6-G05",
+          "funding": "Government agency",
+          "financial_ties": null,
+          "verification": "Official indexed HTML",
+          "independence_certified": false
+        }
+      ],
+      "archived_high_audit_disclosures": [],
+      "archived_primary_audit_ids": [],
+      "fresh_selected_check": null,
+      "disclosure_status": "one disclosure category has notes, other missing",
+      "remaining": "Confirm source-specific original disclosure, cash and in-kind funding, sponsor role, author and institutional interests, methods and applicability; unknown does not mean independent.",
+      "bias_appraisal_complete": false,
+      "independence_certified": false,
+      "clinical_review": false,
+      "publish": false
+    },
+    {
+      "id": "P6-G06",
+      "title": "About Pesticides and Reproductive Health",
+      "funding_notes": [
+        "Government agency"
+      ],
+      "financial_interest_notes": [],
+      "archived_funding_audits": [
+        {
+          "file": "research/staged-completion/stage-06/FUNDING_AUDIT.json",
+          "source_id": "P6-G06",
+          "funding": "Government agency",
+          "financial_ties": null,
+          "verification": "Official indexed HTML",
+          "independence_certified": false
+        }
+      ],
+      "archived_high_audit_disclosures": [],
+      "archived_primary_audit_ids": [],
+      "fresh_selected_check": null,
+      "disclosure_status": "one disclosure category has notes, other missing",
+      "remaining": "Confirm source-specific original disclosure, cash and in-kind funding, sponsor role, author and institutional interests, methods and applicability; unknown does not mean independent.",
+      "bias_appraisal_complete": false,
+      "independence_certified": false,
+      "clinical_review": false,
+      "publish": false
+    },
+    {
+      "id": "P6-G07",
+      "title": "About Noise and Reproductive Health",
+      "funding_notes": [
+        "Government agency"
+      ],
+      "financial_interest_notes": [],
+      "archived_funding_audits": [
+        {
+          "file": "research/staged-completion/stage-06/FUNDING_AUDIT.json",
+          "source_id": "P6-G07",
+          "funding": "Government agency",
+          "financial_ties": null,
+          "verification": "Official indexed HTML",
+          "independence_certified": false
+        }
+      ],
+      "archived_high_audit_disclosures": [],
+      "archived_primary_audit_ids": [],
+      "fresh_selected_check": null,
+      "disclosure_status": "one disclosure category has notes, other missing",
+      "remaining": "Confirm source-specific original disclosure, cash and in-kind funding, sponsor role, author and institutional interests, methods and applicability; unknown does not mean independent.",
+      "bias_appraisal_complete": false,
+      "independence_certified": false,
+      "clinical_review": false,
+      "publish": false
+    },
+    {
+      "id": "P6-G08",
+      "title": "Heat and Pregnancy",
+      "funding_notes": [
+        "Government agency"
+      ],
+      "financial_interest_notes": [],
+      "archived_funding_audits": [
+        {
+          "file": "research/staged-completion/stage-06/FUNDING_AUDIT.json",
+          "source_id": "P6-G08",
+          "funding": "Government agency",
+          "financial_ties": null,
+          "verification": "Official indexed HTML",
+          "independence_certified": false
+        }
+      ],
+      "archived_high_audit_disclosures": [],
+      "archived_primary_audit_ids": [],
+      "fresh_selected_check": null,
+      "disclosure_status": "one disclosure category has notes, other missing",
+      "remaining": "Confirm source-specific original disclosure, cash and in-kind funding, sponsor role, author and institutional interests, methods and applicability; unknown does not mean independent.",
+      "bias_appraisal_complete": false,
+      "independence_certified": false,
+      "clinical_review": false,
+      "publish": false
+    },
+    {
+      "id": "P6-G09",
+      "title": "Wildfire Smoke and Pregnancy",
+      "funding_notes": [
+        "Government agency"
+      ],
+      "financial_interest_notes": [],
+      "archived_funding_audits": [
+        {
+          "file": "research/staged-completion/stage-06/FUNDING_AUDIT.json",
+          "source_id": "P6-G09",
+          "funding": "Government agency",
+          "financial_ties": null,
+          "verification": "Official indexed HTML",
+          "independence_certified": false
+        }
+      ],
+      "archived_high_audit_disclosures": [],
+      "archived_primary_audit_ids": [],
+      "fresh_selected_check": null,
+      "disclosure_status": "one disclosure category has notes, other missing",
+      "remaining": "Confirm source-specific original disclosure, cash and in-kind funding, sponsor role, author and institutional interests, methods and applicability; unknown does not mean independent.",
+      "bias_appraisal_complete": false,
+      "independence_certified": false,
+      "clinical_review": false,
+      "publish": false
+    },
+    {
+      "id": "P6-G10",
+      "title": "Guide to Air Cleaners in the Home",
+      "funding_notes": [
+        "Government agency"
+      ],
+      "financial_interest_notes": [],
+      "archived_funding_audits": [
+        {
+          "file": "research/staged-completion/stage-06/FUNDING_AUDIT.json",
+          "source_id": "P6-G10",
+          "funding": "Government agency",
+          "financial_ties": null,
+          "verification": "Official indexed HTML",
+          "independence_certified": false
+        }
+      ],
+      "archived_high_audit_disclosures": [],
+      "archived_primary_audit_ids": [],
+      "fresh_selected_check": null,
+      "disclosure_status": "one disclosure category has notes, other missing",
+      "remaining": "Confirm source-specific original disclosure, cash and in-kind funding, sponsor role, author and institutional interests, methods and applicability; unknown does not mean independent.",
+      "bias_appraisal_complete": false,
+      "independence_certified": false,
+      "clinical_review": false,
+      "publish": false
+    },
+    {
+      "id": "P6-G11",
+      "title": "Pesticides and Food: Healthy, Sensible Food Practices",
+      "funding_notes": [
+        "Government agency"
+      ],
+      "financial_interest_notes": [],
+      "archived_funding_audits": [
+        {
+          "file": "research/staged-completion/stage-06/FUNDING_AUDIT.json",
+          "source_id": "P6-G11",
+          "funding": "Government agency",
+          "financial_ties": null,
+          "verification": "Official indexed HTML",
+          "independence_certified": false
+        }
+      ],
+      "archived_high_audit_disclosures": [],
+      "archived_primary_audit_ids": [],
+      "fresh_selected_check": null,
+      "disclosure_status": "one disclosure category has notes, other missing",
+      "remaining": "Confirm source-specific original disclosure, cash and in-kind funding, sponsor role, author and institutional interests, methods and applicability; unknown does not mean independent.",
+      "bias_appraisal_complete": false,
+      "independence_certified": false,
+      "clinical_review": false,
+      "publish": false
+    },
+    {
+      "id": "P6-G12",
+      "title": "7 Tips for Cleaning Fruits, Vegetables",
+      "funding_notes": [
+        "Government agency"
+      ],
+      "financial_interest_notes": [],
+      "archived_funding_audits": [
+        {
+          "file": "research/staged-completion/stage-06/FUNDING_AUDIT.json",
+          "source_id": "P6-G12",
+          "funding": "Government agency",
+          "financial_ties": null,
+          "verification": "Official indexed HTML",
+          "independence_certified": false
+        }
+      ],
+      "archived_high_audit_disclosures": [],
+      "archived_primary_audit_ids": [],
+      "fresh_selected_check": null,
+      "disclosure_status": "one disclosure category has notes, other missing",
+      "remaining": "Confirm source-specific original disclosure, cash and in-kind funding, sponsor role, author and institutional interests, methods and applicability; unknown does not mean independent.",
+      "bias_appraisal_complete": false,
+      "independence_certified": false,
+      "clinical_review": false,
+      "publish": false
+    },
+    {
+      "id": "P6-G13",
+      "title": "About Secondhand Smoke",
+      "funding_notes": [
+        "Government agency"
+      ],
+      "financial_interest_notes": [],
+      "archived_funding_audits": [
+        {
+          "file": "research/staged-completion/stage-06/FUNDING_AUDIT.json",
+          "source_id": "P6-G13",
+          "funding": "Government agency",
+          "financial_ties": null,
+          "verification": "Official indexed HTML",
+          "independence_certified": false
+        }
+      ],
+      "archived_high_audit_disclosures": [],
+      "archived_primary_audit_ids": [],
+      "fresh_selected_check": null,
+      "disclosure_status": "one disclosure category has notes, other missing",
+      "remaining": "Confirm source-specific original disclosure, cash and in-kind funding, sponsor role, author and institutional interests, methods and applicability; unknown does not mean independent.",
+      "bias_appraisal_complete": false,
+      "independence_certified": false,
+      "clinical_review": false,
+      "publish": false
+    },
+    {
+      "id": "P6-G14",
+      "title": "Substance Use During Pregnancy",
+      "funding_notes": [
+        "Government agency"
+      ],
+      "financial_interest_notes": [],
+      "archived_funding_audits": [
+        {
+          "file": "research/staged-completion/stage-06/FUNDING_AUDIT.json",
+          "source_id": "P6-G14",
+          "funding": "Government agency",
+          "financial_ties": null,
+          "verification": "Official indexed HTML",
+          "independence_certified": false
+        }
+      ],
+      "archived_high_audit_disclosures": [],
+      "archived_primary_audit_ids": [],
+      "fresh_selected_check": null,
+      "disclosure_status": "one disclosure category has notes, other missing",
+      "remaining": "Confirm source-specific original disclosure, cash and in-kind funding, sponsor role, author and institutional interests, methods and applicability; unknown does not mean independent.",
+      "bias_appraisal_complete": false,
+      "independence_certified": false,
+      "clinical_review": false,
+      "publish": false
+    },
+    {
+      "id": "P6-G15",
+      "title": "Cannabis and Pregnancy",
+      "funding_notes": [
+        "Government agency"
+      ],
+      "financial_interest_notes": [],
+      "archived_funding_audits": [
+        {
+          "file": "research/staged-completion/stage-06/FUNDING_AUDIT.json",
+          "source_id": "P6-G15",
+          "funding": "Government agency",
+          "financial_ties": null,
+          "verification": "Official indexed HTML",
+          "independence_certified": false
+        }
+      ],
+      "archived_high_audit_disclosures": [],
+      "archived_primary_audit_ids": [],
+      "fresh_selected_check": null,
+      "disclosure_status": "one disclosure category has notes, other missing",
+      "remaining": "Confirm source-specific original disclosure, cash and in-kind funding, sponsor role, author and institutional interests, methods and applicability; unknown does not mean independent.",
+      "bias_appraisal_complete": false,
+      "independence_certified": false,
+      "clinical_review": false,
+      "publish": false
+    },
+    {
+      "id": "P6-G16",
+      "title": "A Brief Guide to Mold, Moisture and Your Home",
+      "funding_notes": [
+        "Government agency"
+      ],
+      "financial_interest_notes": [],
+      "archived_funding_audits": [
+        {
+          "file": "research/staged-completion/stage-06/FUNDING_AUDIT.json",
+          "source_id": "P6-G16",
+          "funding": "Government agency",
+          "financial_ties": null,
+          "verification": "Official indexed HTML",
+          "independence_certified": false
+        }
+      ],
+      "archived_high_audit_disclosures": [],
+      "archived_primary_audit_ids": [],
+      "fresh_selected_check": null,
+      "disclosure_status": "one disclosure category has notes, other missing",
+      "remaining": "Confirm source-specific original disclosure, cash and in-kind funding, sponsor role, author and institutional interests, methods and applicability; unknown does not mean independent.",
+      "bias_appraisal_complete": false,
+      "independence_certified": false,
+      "clinical_review": false,
+      "publish": false
+    },
+    {
+      "id": "P6-G17",
+      "title": "Cleaning and Disinfecting",
+      "funding_notes": [
+        "Government agency"
+      ],
+      "financial_interest_notes": [],
+      "archived_funding_audits": [
+        {
+          "file": "research/staged-completion/stage-06/FUNDING_AUDIT.json",
+          "source_id": "P6-G17",
+          "funding": "Government agency",
+          "financial_ties": null,
+          "verification": "Official indexed HTML",
+          "independence_certified": false
+        }
+      ],
+      "archived_high_audit_disclosures": [],
+      "archived_primary_audit_ids": [],
+      "fresh_selected_check": null,
+      "disclosure_status": "one disclosure category has notes, other missing",
+      "remaining": "Confirm source-specific original disclosure, cash and in-kind funding, sponsor role, author and institutional interests, methods and applicability; unknown does not mean independent.",
+      "bias_appraisal_complete": false,
+      "independence_certified": false,
+      "clinical_review": false,
+      "publish": false
+    },
+    {
+      "id": "P6-G18",
+      "title": "Carbon Monoxide Poisoning Prevention",
+      "funding_notes": [
+        "Government agency"
+      ],
+      "financial_interest_notes": [],
+      "archived_funding_audits": [
+        {
+          "file": "research/staged-completion/stage-06/FUNDING_AUDIT.json",
+          "source_id": "P6-G18",
+          "funding": "Government agency",
+          "financial_ties": null,
+          "verification": "Official indexed HTML",
+          "independence_certified": false
+        }
+      ],
+      "archived_high_audit_disclosures": [],
+      "archived_primary_audit_ids": [],
+      "fresh_selected_check": null,
+      "disclosure_status": "one disclosure category has notes, other missing",
+      "remaining": "Confirm source-specific original disclosure, cash and in-kind funding, sponsor role, author and institutional interests, methods and applicability; unknown does not mean independent.",
+      "bias_appraisal_complete": false,
+      "independence_certified": false,
+      "clinical_review": false,
+      "publish": false
+    },
+    {
+      "id": "P6-G19",
+      "title": "Testing Your Home for Radon",
+      "funding_notes": [
+        "Government agency"
+      ],
+      "financial_interest_notes": [],
+      "archived_funding_audits": [
+        {
+          "file": "research/staged-completion/stage-06/FUNDING_AUDIT.json",
+          "source_id": "P6-G19",
+          "funding": "Government agency",
+          "financial_ties": null,
+          "verification": "Official indexed HTML",
+          "independence_certified": false
+        }
+      ],
+      "archived_high_audit_disclosures": [],
+      "archived_primary_audit_ids": [],
+      "fresh_selected_check": null,
+      "disclosure_status": "one disclosure category has notes, other missing",
+      "remaining": "Confirm source-specific original disclosure, cash and in-kind funding, sponsor role, author and institutional interests, methods and applicability; unknown does not mean independent.",
+      "bias_appraisal_complete": false,
+      "independence_certified": false,
+      "clinical_review": false,
+      "publish": false
+    },
+    {
+      "id": "P6-G20",
+      "title": "How to Create a Cleaner Air Room at Home",
+      "funding_notes": [
+        "Government agency"
+      ],
+      "financial_interest_notes": [],
+      "archived_funding_audits": [
+        {
+          "file": "research/staged-completion/stage-06/FUNDING_AUDIT.json",
+          "source_id": "P6-G20",
+          "funding": "Government agency",
+          "financial_ties": null,
+          "verification": "Official indexed HTML",
+          "independence_certified": false
+        }
+      ],
+      "archived_high_audit_disclosures": [],
+      "archived_primary_audit_ids": [],
+      "fresh_selected_check": null,
+      "disclosure_status": "one disclosure category has notes, other missing",
+      "remaining": "Confirm source-specific original disclosure, cash and in-kind funding, sponsor role, author and institutional interests, methods and applicability; unknown does not mean independent.",
+      "bias_appraisal_complete": false,
+      "independence_certified": false,
+      "clinical_review": false,
+      "publish": false
+    },
+    {
+      "id": "P7-01",
+      "title": "The Use of Ginger Bioactive Compounds in Pregnancy: An Evidence Scan and Umbrella Review of Existing Meta-Analyses",
+      "funding_notes": [
+        "Gates Foundation INV-047386; identified ginger topic, otherwise no analysis/writing/publication restrictions per authors"
+      ],
+      "financial_interest_notes": [
+        "No COI declared"
+      ],
+      "archived_funding_audits": [
+        {
+          "file": "research/staged-completion/stage-07/FUNDING_AUDIT.json",
+          "source_id": "P7-01",
+          "funding": "Gates Foundation INV-047386; identified ginger topic, otherwise no analysis/writing/publication restrictions per authors",
+          "financial_ties": "No COI declared",
+          "verification": "Original HTML methods, results, Figure 3, funding/COI",
+          "independence_certified": false
+        }
+      ],
+      "archived_high_audit_disclosures": [],
+      "archived_primary_audit_ids": [],
+      "fresh_selected_check": null,
+      "disclosure_status": "both fields have notes, may be unknown/incomplete",
+      "remaining": "Confirm source-specific original disclosure, cash and in-kind funding, sponsor role, author and institutional interests, methods and applicability; unknown does not mean independent.",
+      "bias_appraisal_complete": false,
+      "independence_certified": false,
+      "clinical_review": false,
+      "publish": false
+    },
+    {
+      "id": "P7-02",
+      "title": "Plant-derived complementary therapies for nausea and vomiting of pregnancy: a systematic review and network meta-analysis of randomized controlled trials",
+      "funding_notes": [
+        "No external funding; Srinakharinwirot University medical center publication support; no funder role declared"
+      ],
+      "financial_interest_notes": [
+        "No competing interests declared"
+      ],
+      "archived_funding_audits": [
+        {
+          "file": "research/staged-completion/stage-07/FUNDING_AUDIT.json",
+          "source_id": "P7-02",
+          "funding": "No external funding; Srinakharinwirot University medical center publication support; no funder role declared",
+          "financial_ties": "No competing interests declared",
+          "verification": "Original publisher abstract, funding, COI; Oct 17 2026; CRD420251116302",
+          "independence_certified": false
+        }
+      ],
+      "archived_high_audit_disclosures": [],
+      "archived_primary_audit_ids": [],
+      "fresh_selected_check": null,
+      "disclosure_status": "both fields have notes, may be unknown/incomplete",
+      "remaining": "Confirm source-specific original disclosure, cash and in-kind funding, sponsor role, author and institutional interests, methods and applicability; unknown does not mean independent.",
+      "bias_appraisal_complete": false,
+      "independence_certified": false,
+      "clinical_review": false,
+      "publish": false
+    },
+    {
+      "id": "P7-03",
+      "title": "A systematic review and meta-analysis of the effect and safety of ginger in the treatment of pregnancy-associated nausea and vomiting",
+      "funding_notes": [
+        "Not extracted"
+      ],
+      "financial_interest_notes": [
+        "Unknown"
+      ],
+      "archived_funding_audits": [
+        {
+          "file": "research/staged-completion/stage-07/FUNDING_AUDIT.json",
+          "source_id": "P7-03",
+          "funding": "Not extracted",
+          "financial_ties": "Unknown",
+          "verification": "Indexed original abstract",
+          "independence_certified": false
+        }
+      ],
+      "archived_high_audit_disclosures": [],
+      "archived_primary_audit_ids": [],
+      "fresh_selected_check": null,
+      "disclosure_status": "both fields have notes, may be unknown/incomplete",
+      "remaining": "Confirm source-specific original disclosure, cash and in-kind funding, sponsor role, author and institutional interests, methods and applicability; unknown does not mean independent.",
+      "bias_appraisal_complete": false,
+      "independence_certified": false,
+      "clinical_review": false,
+      "publish": false
+    },
+    {
+      "id": "P7-04",
+      "title": "The Management of Nausea and Vomiting in Pregnancy and Hyperemesis Gravidarum (Green-top Guideline No. 69)",
+      "funding_notes": [
+        "Professional guideline; panel COI not extracted"
+      ],
+      "financial_interest_notes": [
+        "Unknown"
+      ],
+      "archived_funding_audits": [
+        {
+          "file": "research/staged-completion/stage-07/FUNDING_AUDIT.json",
+          "source_id": "P7-04",
+          "funding": "Professional guideline; panel COI not extracted",
+          "financial_ties": "Unknown",
+          "verification": "Indexed publisher guideline excerpt",
+          "independence_certified": false
+        }
+      ],
+      "archived_high_audit_disclosures": [],
+      "archived_primary_audit_ids": [],
+      "fresh_selected_check": null,
+      "disclosure_status": "both fields have notes, may be unknown/incomplete",
+      "remaining": "Confirm source-specific original disclosure, cash and in-kind funding, sponsor role, author and institutional interests, methods and applicability; unknown does not mean independent.",
+      "bias_appraisal_complete": false,
+      "independence_certified": false,
+      "clinical_review": false,
+      "publish": false
+    },
+    {
+      "id": "P7-05",
+      "title": "Is oral consumption of dates in the peripartum period effective and safe integrative care to facilitate childbirth and improve perinatal outcomes: a comprehensive revised systematic review and dose-response meta-analysis",
+      "funding_notes": [
+        "Abadan University of Medical Sciences Religion, Health and Technology Studies Center grant 1538; no funder role reported"
+      ],
+      "financial_interest_notes": [
+        "No competing financial interests declared"
+      ],
+      "archived_funding_audits": [
+        {
+          "file": "research/staged-completion/stage-07/FUNDING_AUDIT.json",
+          "source_id": "P7-05",
+          "funding": "Abadan University of Medical Sciences Religion, Health and Technology Studies Center grant 1538; no funder role reported",
+          "financial_ties": "No competing financial interests declared",
+          "verification": "Original HTML methods, Figs 1–2, RoB, funding and declarations; CRD42023399626",
+          "independence_certified": false
+        }
+      ],
+      "archived_high_audit_disclosures": [],
+      "archived_primary_audit_ids": [],
+      "fresh_selected_check": null,
+      "disclosure_status": "both fields have notes, may be unknown/incomplete",
+      "remaining": "Confirm source-specific original disclosure, cash and in-kind funding, sponsor role, author and institutional interests, methods and applicability; unknown does not mean independent.",
+      "bias_appraisal_complete": false,
+      "independence_certified": false,
+      "clinical_review": false,
+      "publish": false
+    },
+    {
+      "id": "P7-06",
+      "title": "Biophysical effects, safety and efficacy of raspberry leaf use in pregnancy: a systematic integrative review",
+      "funding_notes": [
+        "Funding N/A per paper"
+      ],
+      "financial_interest_notes": [
+        "First author conducting raspberry leaf observational PhD study; not financial tie"
+      ],
+      "archived_funding_audits": [
+        {
+          "file": "research/staged-completion/stage-07/FUNDING_AUDIT.json",
+          "source_id": "P7-06",
+          "funding": "Funding N/A per paper",
+          "financial_ties": "First author conducting raspberry leaf observational PhD study; not financial tie",
+          "verification": "Original publisher declarations and abstract",
+          "independence_certified": false
+        }
+      ],
+      "archived_high_audit_disclosures": [],
+      "archived_primary_audit_ids": [],
+      "fresh_selected_check": null,
+      "disclosure_status": "both fields have notes, may be unknown/incomplete",
+      "remaining": "Confirm source-specific original disclosure, cash and in-kind funding, sponsor role, author and institutional interests, methods and applicability; unknown does not mean independent.",
+      "bias_appraisal_complete": false,
+      "independence_certified": false,
+      "clinical_review": false,
+      "publish": false
+    },
+    {
+      "id": "P7-07",
+      "title": "Castor oil, bath and/or enema for cervical priming and induction of labour",
+      "funding_notes": [
+        "Not extracted"
+      ],
+      "financial_interest_notes": [
+        "Unknown"
+      ],
+      "archived_funding_audits": [
+        {
+          "file": "research/staged-completion/stage-07/FUNDING_AUDIT.json",
+          "source_id": "P7-07",
+          "funding": "Not extracted",
+          "financial_ties": "Unknown",
+          "verification": "Official Cochrane abstract",
+          "independence_certified": false
+        }
+      ],
+      "archived_high_audit_disclosures": [],
+      "archived_primary_audit_ids": [],
+      "fresh_selected_check": null,
+      "disclosure_status": "both fields have notes, may be unknown/incomplete",
+      "remaining": "Confirm source-specific original disclosure, cash and in-kind funding, sponsor role, author and institutional interests, methods and applicability; unknown does not mean independent.",
+      "bias_appraisal_complete": false,
+      "independence_certified": false,
+      "clinical_review": false,
+      "publish": false
+    },
+    {
+      "id": "P7-08",
+      "title": "Inducing labour — recommendations",
+      "funding_notes": [
+        "NICE; committee disclosures not reviewed"
+      ],
+      "financial_interest_notes": [
+        "Unknown"
+      ],
+      "archived_funding_audits": [
+        {
+          "file": "research/staged-completion/stage-07/FUNDING_AUDIT.json",
+          "source_id": "P7-08",
+          "funding": "NICE; committee disclosures not reviewed",
+          "financial_ties": "Unknown",
+          "verification": "Official guideline HTML",
+          "independence_certified": false
+        }
+      ],
+      "archived_high_audit_disclosures": [],
+      "archived_primary_audit_ids": [],
+      "fresh_selected_check": null,
+      "disclosure_status": "both fields have notes, may be unknown/incomplete",
+      "remaining": "Confirm source-specific original disclosure, cash and in-kind funding, sponsor role, author and institutional interests, methods and applicability; unknown does not mean independent.",
+      "bias_appraisal_complete": false,
+      "independence_certified": false,
+      "clinical_review": false,
+      "publish": false
+    },
+    {
+      "id": "P7-09",
+      "title": "Cephalic version by moxibustion for breech presentation",
+      "funding_notes": [
+        "Review/trial financing not extracted"
+      ],
+      "financial_interest_notes": [
+        "Unknown"
+      ],
+      "archived_funding_audits": [
+        {
+          "file": "research/staged-completion/stage-07/FUNDING_AUDIT.json",
+          "source_id": "P7-09",
+          "funding": "Review/trial financing not extracted",
+          "financial_ties": "Unknown",
+          "verification": "Original official abstract outcomes and harms",
+          "independence_certified": false
+        }
+      ],
+      "archived_high_audit_disclosures": [],
+      "archived_primary_audit_ids": [],
+      "fresh_selected_check": null,
+      "disclosure_status": "both fields have notes, may be unknown/incomplete",
+      "remaining": "Confirm source-specific original disclosure, cash and in-kind funding, sponsor role, author and institutional interests, methods and applicability; unknown does not mean independent.",
+      "bias_appraisal_complete": false,
+      "independence_certified": false,
+      "clinical_review": false,
+      "publish": false
+    },
+    {
+      "id": "P7-10",
+      "title": "Moxibustion did not have an effect in a randomised clinical trial for version of breech position",
+      "funding_notes": [
+        "None per indexed abstract"
+      ],
+      "financial_interest_notes": [
+        "Full COI not verified"
+      ],
+      "archived_funding_audits": [
+        {
+          "file": "research/staged-completion/stage-07/FUNDING_AUDIT.json",
+          "source_id": "P7-10",
+          "funding": "None per indexed abstract",
+          "financial_ties": "Full COI not verified",
+          "verification": "Indexed primary abstract; direct open blocked",
+          "independence_certified": false
+        }
+      ],
+      "archived_high_audit_disclosures": [],
+      "archived_primary_audit_ids": [],
+      "fresh_selected_check": null,
+      "disclosure_status": "both fields have notes, may be unknown/incomplete",
+      "remaining": "Confirm source-specific original disclosure, cash and in-kind funding, sponsor role, author and institutional interests, methods and applicability; unknown does not mean independent.",
+      "bias_appraisal_complete": false,
+      "independence_certified": false,
+      "clinical_review": false,
+      "publish": false
+    },
+    {
+      "id": "P7-11",
+      "title": "Moxibustion for Correction of Breech Presentation: A Randomized Controlled Trial",
+      "funding_notes": [
+        "Not extracted"
+      ],
+      "financial_interest_notes": [
+        "Unknown"
+      ],
+      "archived_funding_audits": [
+        {
+          "file": "research/staged-completion/stage-07/FUNDING_AUDIT.json",
+          "source_id": "P7-11",
+          "funding": "Not extracted",
+          "financial_ties": "Unknown",
+          "verification": "Indexed primary publisher abstract",
+          "independence_certified": false
+        }
+      ],
+      "archived_high_audit_disclosures": [],
+      "archived_primary_audit_ids": [],
+      "fresh_selected_check": null,
+      "disclosure_status": "both fields have notes, may be unknown/incomplete",
+      "remaining": "Confirm source-specific original disclosure, cash and in-kind funding, sponsor role, author and institutional interests, methods and applicability; unknown does not mean independent.",
+      "bias_appraisal_complete": false,
+      "independence_certified": false,
+      "clinical_review": false,
+      "publish": false
+    },
+    {
+      "id": "P7-12",
+      "title": "Continuous support for women during childbirth",
+      "funding_notes": [
+        "Review and underlying trial funding not extracted"
+      ],
+      "financial_interest_notes": [
+        "Unknown"
+      ],
+      "archived_funding_audits": [
+        {
+          "file": "research/staged-completion/stage-07/FUNDING_AUDIT.json",
+          "source_id": "P7-12",
+          "funding": "Review and underlying trial funding not extracted",
+          "financial_ties": "Unknown",
+          "verification": "Official Cochrane HTML main results",
+          "independence_certified": false
+        }
+      ],
+      "archived_high_audit_disclosures": [],
+      "archived_primary_audit_ids": [],
+      "fresh_selected_check": null,
+      "disclosure_status": "both fields have notes, may be unknown/incomplete",
+      "remaining": "Confirm source-specific original disclosure, cash and in-kind funding, sponsor role, author and institutional interests, methods and applicability; unknown does not mean independent.",
+      "bias_appraisal_complete": false,
+      "independence_certified": false,
+      "clinical_review": false,
+      "publish": false
+    },
+    {
+      "id": "P7-13",
+      "title": "Massage, reflexology and other manual methods for managing pain in labour",
+      "funding_notes": [
+        "Not extracted"
+      ],
+      "financial_interest_notes": [
+        "Unknown"
+      ],
+      "archived_funding_audits": [
+        {
+          "file": "research/staged-completion/stage-07/FUNDING_AUDIT.json",
+          "source_id": "P7-13",
+          "funding": "Not extracted",
+          "financial_ties": "Unknown",
+          "verification": "Official review abstract",
+          "independence_certified": false
+        }
+      ],
+      "archived_high_audit_disclosures": [],
+      "archived_primary_audit_ids": [],
+      "fresh_selected_check": null,
+      "disclosure_status": "both fields have notes, may be unknown/incomplete",
+      "remaining": "Confirm source-specific original disclosure, cash and in-kind funding, sponsor role, author and institutional interests, methods and applicability; unknown does not mean independent.",
+      "bias_appraisal_complete": false,
+      "independence_certified": false,
+      "clinical_review": false,
+      "publish": false
+    },
+    {
+      "id": "P7-14",
+      "title": "Relaxation techniques for pain management in labour",
+      "funding_notes": [
+        "Not extracted"
+      ],
+      "financial_interest_notes": [
+        "Unknown"
+      ],
+      "archived_funding_audits": [
+        {
+          "file": "research/staged-completion/stage-07/FUNDING_AUDIT.json",
+          "source_id": "P7-14",
+          "funding": "Not extracted",
+          "financial_ties": "Unknown",
+          "verification": "Official review abstract",
+          "independence_certified": false
+        }
+      ],
+      "archived_high_audit_disclosures": [],
+      "archived_primary_audit_ids": [],
+      "fresh_selected_check": null,
+      "disclosure_status": "both fields have notes, may be unknown/incomplete",
+      "remaining": "Confirm source-specific original disclosure, cash and in-kind funding, sponsor role, author and institutional interests, methods and applicability; unknown does not mean independent.",
+      "bias_appraisal_complete": false,
+      "independence_certified": false,
+      "clinical_review": false,
+      "publish": false
+    },
+    {
+      "id": "P7-15",
+      "title": "Acupuncture or acupressure for pain management during labour",
+      "funding_notes": [
+        "Not extracted"
+      ],
+      "financial_interest_notes": [
+        "Unknown"
+      ],
+      "archived_funding_audits": [
+        {
+          "file": "research/staged-completion/stage-07/FUNDING_AUDIT.json",
+          "source_id": "P7-15",
+          "funding": "Not extracted",
+          "financial_ties": "Unknown",
+          "verification": "Indexed primary review results",
+          "independence_certified": false
+        }
+      ],
+      "archived_high_audit_disclosures": [],
+      "archived_primary_audit_ids": [],
+      "fresh_selected_check": null,
+      "disclosure_status": "both fields have notes, may be unknown/incomplete",
+      "remaining": "Confirm source-specific original disclosure, cash and in-kind funding, sponsor role, author and institutional interests, methods and applicability; unknown does not mean independent.",
+      "bias_appraisal_complete": false,
+      "independence_certified": false,
+      "clinical_review": false,
+      "publish": false
+    },
+    {
+      "id": "P7-16",
+      "title": "Aromatherapy for Labour Pain Management: Umbrella Review",
+      "funding_notes": [
+        "Funding not extracted"
+      ],
+      "financial_interest_notes": [
+        "Unknown"
+      ],
+      "archived_funding_audits": [
+        {
+          "file": "research/staged-completion/stage-07/FUNDING_AUDIT.json",
+          "source_id": "P7-16",
+          "funding": "Funding not extracted",
+          "financial_ties": "Unknown",
+          "verification": "Indexed original review",
+          "independence_certified": false
+        }
+      ],
+      "archived_high_audit_disclosures": [],
+      "archived_primary_audit_ids": [],
+      "fresh_selected_check": null,
+      "disclosure_status": "both fields have notes, may be unknown/incomplete",
+      "remaining": "Confirm source-specific original disclosure, cash and in-kind funding, sponsor role, author and institutional interests, methods and applicability; unknown does not mean independent.",
+      "bias_appraisal_complete": false,
+      "independence_certified": false,
+      "clinical_review": false,
+      "publish": false
+    },
+    {
+      "id": "P7-17",
+      "title": "Intrapartum care — recommendations",
+      "funding_notes": [
+        "NICE; panel disclosures not reviewed"
+      ],
+      "financial_interest_notes": [
+        "Unknown"
+      ],
+      "archived_funding_audits": [
+        {
+          "file": "research/staged-completion/stage-07/FUNDING_AUDIT.json",
+          "source_id": "P7-17",
+          "funding": "NICE; panel disclosures not reviewed",
+          "financial_ties": "Unknown",
+          "verification": "Official guideline HTML",
+          "independence_certified": false
+        }
+      ],
+      "archived_high_audit_disclosures": [],
+      "archived_primary_audit_ids": [],
+      "fresh_selected_check": null,
+      "disclosure_status": "both fields have notes, may be unknown/incomplete",
+      "remaining": "Confirm source-specific original disclosure, cash and in-kind funding, sponsor role, author and institutional interests, methods and applicability; unknown does not mean independent.",
+      "bias_appraisal_complete": false,
+      "independence_certified": false,
+      "clinical_review": false,
+      "publish": false
+    },
+    {
+      "id": "P7-18",
+      "title": "Immersion in water in labour and birth",
+      "funding_notes": [
+        "Not extracted"
+      ],
+      "financial_interest_notes": [
+        "Unknown"
+      ],
+      "archived_funding_audits": [
+        {
+          "file": "research/staged-completion/stage-07/FUNDING_AUDIT.json",
+          "source_id": "P7-18",
+          "funding": "Not extracted",
+          "financial_ties": "Unknown",
+          "verification": "Official Cochrane results",
+          "independence_certified": false
+        }
+      ],
+      "archived_high_audit_disclosures": [],
+      "archived_primary_audit_ids": [],
+      "fresh_selected_check": null,
+      "disclosure_status": "both fields have notes, may be unknown/incomplete",
+      "remaining": "Confirm source-specific original disclosure, cash and in-kind funding, sponsor role, author and institutional interests, methods and applicability; unknown does not mean independent.",
+      "bias_appraisal_complete": false,
+      "independence_certified": false,
+      "clinical_review": false,
+      "publish": false
+    },
+    {
+      "id": "P7-19",
+      "title": "Hypnosis for pain management during labour and childbirth",
+      "funding_notes": [
+        "Not extracted"
+      ],
+      "financial_interest_notes": [
+        "Unknown"
+      ],
+      "archived_funding_audits": [
+        {
+          "file": "research/staged-completion/stage-07/FUNDING_AUDIT.json",
+          "source_id": "P7-19",
+          "funding": "Not extracted",
+          "financial_ties": "Unknown",
+          "verification": "Indexed original review",
+          "independence_certified": false
+        }
+      ],
+      "archived_high_audit_disclosures": [],
+      "archived_primary_audit_ids": [],
+      "fresh_selected_check": null,
+      "disclosure_status": "both fields have notes, may be unknown/incomplete",
+      "remaining": "Confirm source-specific original disclosure, cash and in-kind funding, sponsor role, author and institutional interests, methods and applicability; unknown does not mean independent.",
+      "bias_appraisal_complete": false,
+      "independence_certified": false,
+      "clinical_review": false,
+      "publish": false
+    },
+    {
+      "id": "P7-20",
+      "title": "Effect of Acupuncture vs Sham Acupuncture on Live Births Among Women Undergoing In Vitro Fertilization: A Randomized Clinical Trial",
+      "funding_notes": [
+        "Australian NHMRC APP1003661"
+      ],
+      "financial_interest_notes": [
+        "NICM accepts industry donations; author shares in IVF/fertility companies, Johnson pharmaceutical fees/support, Smith acupuncture clinic collaboration; not direct acupuncture manufacturer sponsor"
+      ],
+      "archived_funding_audits": [
+        {
+          "file": "research/staged-completion/stage-07/FUNDING_AUDIT.json",
+          "source_id": "P7-20",
+          "funding": "Australian NHMRC APP1003661",
+          "financial_ties": "NICM accepts industry donations; author shares in IVF/fertility companies, Johnson pharmaceutical fees/support, Smith acupuncture clinic collaboration; not direct acupuncture manufacturer sponsor",
+          "verification": "Original PubMed abstract and COI, indexed JAMA funding; ACTRN12611000226909",
+          "independence_certified": false
+        }
+      ],
+      "archived_high_audit_disclosures": [],
+      "archived_primary_audit_ids": [],
+      "fresh_selected_check": null,
+      "disclosure_status": "both fields have notes, may be unknown/incomplete",
+      "remaining": "Confirm source-specific original disclosure, cash and in-kind funding, sponsor role, author and institutional interests, methods and applicability; unknown does not mean independent.",
+      "bias_appraisal_complete": false,
+      "independence_certified": false,
+      "clinical_review": false,
+      "publish": false
+    },
+    {
+      "id": "P7-21",
+      "title": "Acupuncture versus placebo acupuncture for in vitro fertilisation: a systematic review and meta-analysis",
+      "funding_notes": [
+        "Not extracted"
+      ],
+      "financial_interest_notes": [
+        "Unknown"
+      ],
+      "archived_funding_audits": [
+        {
+          "file": "research/staged-completion/stage-07/FUNDING_AUDIT.json",
+          "source_id": "P7-21",
+          "funding": "Not extracted",
+          "financial_ties": "Unknown",
+          "verification": "Indexed primary abstract",
+          "independence_certified": false
+        }
+      ],
+      "archived_high_audit_disclosures": [],
+      "archived_primary_audit_ids": [],
+      "fresh_selected_check": null,
+      "disclosure_status": "both fields have notes, may be unknown/incomplete",
+      "remaining": "Confirm source-specific original disclosure, cash and in-kind funding, sponsor role, author and institutional interests, methods and applicability; unknown does not mean independent.",
+      "bias_appraisal_complete": false,
+      "independence_certified": false,
+      "clinical_review": false,
+      "publish": false
+    },
+    {
+      "id": "P7-22",
+      "title": "Timing and dose of acupuncture as adjuncts to assisted reproduction: a meta-analysis and model-based network meta-analysis",
+      "funding_notes": [
+        "Not extracted"
+      ],
+      "financial_interest_notes": [
+        "Unknown"
+      ],
+      "archived_funding_audits": [
+        {
+          "file": "research/staged-completion/stage-07/FUNDING_AUDIT.json",
+          "source_id": "P7-22",
+          "funding": "Not extracted",
+          "financial_ties": "Unknown",
+          "verification": "Indexed primary abstract",
+          "independence_certified": false
+        }
+      ],
+      "archived_high_audit_disclosures": [],
+      "archived_primary_audit_ids": [],
+      "fresh_selected_check": null,
+      "disclosure_status": "both fields have notes, may be unknown/incomplete",
+      "remaining": "Confirm source-specific original disclosure, cash and in-kind funding, sponsor role, author and institutional interests, methods and applicability; unknown does not mean independent.",
+      "bias_appraisal_complete": false,
+      "independence_certified": false,
+      "clinical_review": false,
+      "publish": false
+    },
+    {
+      "id": "P7-23",
+      "title": "Oral galactagogues (natural therapies or drugs) for increasing breast milk production in mothers of non-hospitalised term infants",
+      "funding_notes": [
+        "Not extracted"
+      ],
+      "financial_interest_notes": [
+        "Unknown"
+      ],
+      "archived_funding_audits": [
+        {
+          "file": "research/staged-completion/stage-07/FUNDING_AUDIT.json",
+          "source_id": "P7-23",
+          "funding": "Not extracted",
+          "financial_ties": "Unknown",
+          "verification": "Official Cochrane abstract",
+          "independence_certified": false
+        }
+      ],
+      "archived_high_audit_disclosures": [],
+      "archived_primary_audit_ids": [],
+      "fresh_selected_check": null,
+      "disclosure_status": "both fields have notes, may be unknown/incomplete",
+      "remaining": "Confirm source-specific original disclosure, cash and in-kind funding, sponsor role, author and institutional interests, methods and applicability; unknown does not mean independent.",
+      "bias_appraisal_complete": false,
+      "independence_certified": false,
+      "clinical_review": false,
+      "publish": false
+    },
+    {
+      "id": "P7-24",
+      "title": "The effect of Moringa oleifera capsule in increasing breast milk volume in early postpartum patients: A double-blind, randomized controlled trial",
+      "funding_notes": [
+        "Chulalongkorn University Ratchadaphiseksomphot Endowment Fund and Placental related diseases Research Unit"
+      ],
+      "financial_interest_notes": [
+        "No known competing interests declared"
+      ],
+      "archived_funding_audits": [
+        {
+          "file": "research/staged-completion/stage-07/FUNDING_AUDIT.json",
+          "source_id": "P7-24",
+          "funding": "Chulalongkorn University Ratchadaphiseksomphot Endowment Fund and Placental related diseases Research Unit",
+          "financial_ties": "No known competing interests declared",
+          "verification": "Original HTML methods, results, limitations, acknowledgement and COI",
+          "independence_certified": false
+        }
+      ],
+      "archived_high_audit_disclosures": [],
+      "archived_primary_audit_ids": [],
+      "fresh_selected_check": null,
+      "disclosure_status": "both fields have notes, may be unknown/incomplete",
+      "remaining": "Confirm source-specific original disclosure, cash and in-kind funding, sponsor role, author and institutional interests, methods and applicability; unknown does not mean independent.",
+      "bias_appraisal_complete": false,
+      "independence_certified": false,
+      "clinical_review": false,
+      "publish": false
+    },
+    {
+      "id": "P7-25",
+      "title": "Moringa oleifera Supplementation as a Natural Galactagogue: A Systematic Review on Its Role in Supporting Milk Volume and Prolactin Levels",
+      "funding_notes": [
+        "Not extracted"
+      ],
+      "financial_interest_notes": [
+        "Unknown"
+      ],
+      "archived_funding_audits": [
+        {
+          "file": "research/staged-completion/stage-07/FUNDING_AUDIT.json",
+          "source_id": "P7-25",
+          "funding": "Not extracted",
+          "financial_ties": "Unknown",
+          "verification": "Indexed primary abstract",
+          "independence_certified": false
+        }
+      ],
+      "archived_high_audit_disclosures": [],
+      "archived_primary_audit_ids": [],
+      "fresh_selected_check": null,
+      "disclosure_status": "both fields have notes, may be unknown/incomplete",
+      "remaining": "Confirm source-specific original disclosure, cash and in-kind funding, sponsor role, author and institutional interests, methods and applicability; unknown does not mean independent.",
+      "bias_appraisal_complete": false,
+      "independence_certified": false,
+      "clinical_review": false,
+      "publish": false
+    },
+    {
+      "id": "P7-26",
+      "title": "Fenugreek",
+      "funding_notes": [
+        "NLM resource; primary funding separate"
+      ],
+      "financial_interest_notes": [
+        "Not applicable to guidance"
+      ],
+      "archived_funding_audits": [
+        {
+          "file": "research/staged-completion/stage-07/FUNDING_AUDIT.json",
+          "source_id": "P7-26",
+          "funding": "NLM resource; primary funding separate",
+          "financial_ties": "Not applicable to guidance",
+          "verification": "Official HTML indexed",
+          "independence_certified": false
+        }
+      ],
+      "archived_high_audit_disclosures": [],
+      "archived_primary_audit_ids": [],
+      "fresh_selected_check": null,
+      "disclosure_status": "both fields have notes, may be unknown/incomplete",
+      "remaining": "Confirm source-specific original disclosure, cash and in-kind funding, sponsor role, author and institutional interests, methods and applicability; unknown does not mean independent.",
+      "bias_appraisal_complete": false,
+      "independence_certified": false,
+      "clinical_review": false,
+      "publish": false
+    },
+    {
+      "id": "P7-27",
+      "title": "Breastfeeding Challenges",
+      "funding_notes": [
+        "Professional guideline; panel COI not audited"
+      ],
+      "financial_interest_notes": [
+        "Unknown"
+      ],
+      "archived_funding_audits": [
+        {
+          "file": "research/staged-completion/stage-07/FUNDING_AUDIT.json",
+          "source_id": "P7-27",
+          "funding": "Professional guideline; panel COI not audited",
+          "financial_ties": "Unknown",
+          "verification": "Indexed official guidance",
+          "independence_certified": false
+        }
+      ],
+      "archived_high_audit_disclosures": [],
+      "archived_primary_audit_ids": [],
+      "fresh_selected_check": null,
+      "disclosure_status": "both fields have notes, may be unknown/incomplete",
+      "remaining": "Confirm source-specific original disclosure, cash and in-kind funding, sponsor role, author and institutional interests, methods and applicability; unknown does not mean independent.",
+      "bias_appraisal_complete": false,
+      "independence_certified": false,
+      "clinical_review": false,
+      "publish": false
+    },
+    {
+      "id": "P7-28",
+      "title": "Information about Domperidone",
+      "funding_notes": [
+        "FDA"
+      ],
+      "financial_interest_notes": [
+        "Agency guidance"
+      ],
+      "archived_funding_audits": [
+        {
+          "file": "research/staged-completion/stage-07/FUNDING_AUDIT.json",
+          "source_id": "P7-28",
+          "funding": "FDA",
+          "financial_ties": "Agency guidance",
+          "verification": "Official HTML",
+          "independence_certified": false
+        }
+      ],
+      "archived_high_audit_disclosures": [],
+      "archived_primary_audit_ids": [],
+      "fresh_selected_check": null,
+      "disclosure_status": "both fields have notes, may be unknown/incomplete",
+      "remaining": "Confirm source-specific original disclosure, cash and in-kind funding, sponsor role, author and institutional interests, methods and applicability; unknown does not mean independent.",
+      "bias_appraisal_complete": false,
+      "independence_certified": false,
+      "clinical_review": false,
+      "publish": false
+    },
+    {
+      "id": "P7-29",
+      "title": "Effects from a single application of photobiomodulation on pain intensity from perineal trauma related to childbirth: A randomized controlled trial",
+      "funding_notes": [
+        "No specific research grant declared; CAPES Brazil paid publication charge"
+      ],
+      "financial_interest_notes": [
+        "No COI declared"
+      ],
+      "archived_funding_audits": [
+        {
+          "file": "research/staged-completion/stage-07/FUNDING_AUDIT.json",
+          "source_id": "P7-29",
+          "funding": "No specific research grant declared; CAPES Brazil paid publication charge",
+          "financial_ties": "No COI declared",
+          "verification": "Original full HTML abstract, registration, funding and acknowledgements; U1111-1279-3594",
+          "independence_certified": false
+        }
+      ],
+      "archived_high_audit_disclosures": [],
+      "archived_primary_audit_ids": [],
+      "fresh_selected_check": null,
+      "disclosure_status": "both fields have notes, may be unknown/incomplete",
+      "remaining": "Confirm source-specific original disclosure, cash and in-kind funding, sponsor role, author and institutional interests, methods and applicability; unknown does not mean independent.",
+      "bias_appraisal_complete": false,
+      "independence_certified": false,
+      "clinical_review": false,
+      "publish": false
+    },
+    {
+      "id": "P7-30",
+      "title": "Photobiomodulation as a promising approach in the management of nipple lesions during breastfeeding: a systematic review and meta-analysis of randomized clinical trials",
+      "funding_notes": [
+        "Not extracted"
+      ],
+      "financial_interest_notes": [
+        "No competing interests declared"
+      ],
+      "archived_funding_audits": [
+        {
+          "file": "research/staged-completion/stage-07/FUNDING_AUDIT.json",
+          "source_id": "P7-30",
+          "funding": "Not extracted",
+          "financial_ties": "No competing interests declared",
+          "verification": "Original PubMed abstract and COI",
+          "independence_certified": false
+        }
+      ],
+      "archived_high_audit_disclosures": [],
+      "archived_primary_audit_ids": [],
+      "fresh_selected_check": null,
+      "disclosure_status": "both fields have notes, may be unknown/incomplete",
+      "remaining": "Confirm source-specific original disclosure, cash and in-kind funding, sponsor role, author and institutional interests, methods and applicability; unknown does not mean independent.",
+      "bias_appraisal_complete": false,
+      "independence_certified": false,
+      "clinical_review": false,
+      "publish": false
+    },
+    {
+      "id": "P7-31",
+      "title": "Nonpharmacological Interventions for Treating Breastfeeding Nipple Pain: Systematic Review and Meta-Analysis",
+      "funding_notes": [
+        "Not extracted"
+      ],
+      "financial_interest_notes": [
+        "Unknown"
+      ],
+      "archived_funding_audits": [
+        {
+          "file": "research/staged-completion/stage-07/FUNDING_AUDIT.json",
+          "source_id": "P7-31",
+          "funding": "Not extracted",
+          "financial_ties": "Unknown",
+          "verification": "Indexed primary abstract",
+          "independence_certified": false
+        }
+      ],
+      "archived_high_audit_disclosures": [],
+      "archived_primary_audit_ids": [],
+      "fresh_selected_check": null,
+      "disclosure_status": "both fields have notes, may be unknown/incomplete",
+      "remaining": "Confirm source-specific original disclosure, cash and in-kind funding, sponsor role, author and institutional interests, methods and applicability; unknown does not mean independent.",
+      "bias_appraisal_complete": false,
+      "independence_certified": false,
+      "clinical_review": false,
+      "publish": false
+    },
+    {
+      "id": "P7-32",
+      "title": "Low-level laser therapy for breastfeeding women with nipple pain in the early postpartum period: a randomized controlled trial",
+      "funding_notes": [
+        "Not extracted"
+      ],
+      "financial_interest_notes": [
+        "Unknown"
+      ],
+      "archived_funding_audits": [
+        {
+          "file": "research/staged-completion/stage-07/FUNDING_AUDIT.json",
+          "source_id": "P7-32",
+          "funding": "Not extracted",
+          "financial_ties": "Unknown",
+          "verification": "Indexed primary abstract",
+          "independence_certified": false
+        }
+      ],
+      "archived_high_audit_disclosures": [],
+      "archived_primary_audit_ids": [],
+      "fresh_selected_check": null,
+      "disclosure_status": "both fields have notes, may be unknown/incomplete",
+      "remaining": "Confirm source-specific original disclosure, cash and in-kind funding, sponsor role, author and institutional interests, methods and applicability; unknown does not mean independent.",
+      "bias_appraisal_complete": false,
+      "independence_certified": false,
+      "clinical_review": false,
+      "publish": false
+    },
+    {
+      "id": "P7-33",
+      "title": "Local cooling for relieving pain from perineal trauma sustained during childbirth",
+      "funding_notes": [
+        "Not extracted"
+      ],
+      "financial_interest_notes": [
+        "Unknown"
+      ],
+      "archived_funding_audits": [
+        {
+          "file": "research/staged-completion/stage-07/FUNDING_AUDIT.json",
+          "source_id": "P7-33",
+          "funding": "Not extracted",
+          "financial_ties": "Unknown",
+          "verification": "Official abstract",
+          "independence_certified": false
+        }
+      ],
+      "archived_high_audit_disclosures": [],
+      "archived_primary_audit_ids": [],
+      "fresh_selected_check": null,
+      "disclosure_status": "both fields have notes, may be unknown/incomplete",
+      "remaining": "Confirm source-specific original disclosure, cash and in-kind funding, sponsor role, author and institutional interests, methods and applicability; unknown does not mean independent.",
+      "bias_appraisal_complete": false,
+      "independence_certified": false,
+      "clinical_review": false,
+      "publish": false
+    },
+    {
+      "id": "P7-34",
+      "title": "Interventions for treating painful nipples among breastfeeding women",
+      "funding_notes": [
+        "Not extracted"
+      ],
+      "financial_interest_notes": [
+        "Unknown"
+      ],
+      "archived_funding_audits": [
+        {
+          "file": "research/staged-completion/stage-07/FUNDING_AUDIT.json",
+          "source_id": "P7-34",
+          "funding": "Not extracted",
+          "financial_ties": "Unknown",
+          "verification": "Official abstract",
+          "independence_certified": false
+        }
+      ],
+      "archived_high_audit_disclosures": [],
+      "archived_primary_audit_ids": [],
+      "fresh_selected_check": null,
+      "disclosure_status": "both fields have notes, may be unknown/incomplete",
+      "remaining": "Confirm source-specific original disclosure, cash and in-kind funding, sponsor role, author and institutional interests, methods and applicability; unknown does not mean independent.",
+      "bias_appraisal_complete": false,
+      "independence_certified": false,
+      "clinical_review": false,
+      "publish": false
+    },
+    {
+      "id": "P7-35",
+      "title": "An open single-arm clinical study of microneedle radiofrequency technology for addressing abdominal skin laxity in postpartum women",
+      "funding_notes": [
+        "Not verified"
+      ],
+      "financial_interest_notes": [
+        "Unknown"
+      ],
+      "archived_funding_audits": [
+        {
+          "file": "research/staged-completion/stage-07/FUNDING_AUDIT.json",
+          "source_id": "P7-35",
+          "funding": "Not verified",
+          "financial_ties": "Unknown",
+          "verification": "Indexed primary record; direct opening blocked",
+          "independence_certified": false
+        }
+      ],
+      "archived_high_audit_disclosures": [],
+      "archived_primary_audit_ids": [],
+      "fresh_selected_check": null,
+      "disclosure_status": "both fields have notes, may be unknown/incomplete",
+      "remaining": "Confirm source-specific original disclosure, cash and in-kind funding, sponsor role, author and institutional interests, methods and applicability; unknown does not mean independent.",
+      "bias_appraisal_complete": false,
+      "independence_certified": false,
+      "clinical_review": false,
+      "publish": false
+    },
+    {
+      "id": "P7-36",
+      "title": "Reduction of abdominal skin laxity in women postvaginal delivery using the synergistic emission of radiofrequency and targeted pressure energies",
+      "funding_notes": [
+        "Not verified"
+      ],
+      "financial_interest_notes": [
+        "Unknown"
+      ],
+      "archived_funding_audits": [
+        {
+          "file": "research/staged-completion/stage-07/FUNDING_AUDIT.json",
+          "source_id": "P7-36",
+          "funding": "Not verified",
+          "financial_ties": "Unknown",
+          "verification": "Indexed primary abstract",
+          "independence_certified": false
+        }
+      ],
+      "archived_high_audit_disclosures": [],
+      "archived_primary_audit_ids": [],
+      "fresh_selected_check": null,
+      "disclosure_status": "both fields have notes, may be unknown/incomplete",
+      "remaining": "Confirm source-specific original disclosure, cash and in-kind funding, sponsor role, author and institutional interests, methods and applicability; unknown does not mean independent.",
+      "bias_appraisal_complete": false,
+      "independence_certified": false,
+      "clinical_review": false,
+      "publish": false
+    },
+    {
+      "id": "P7-37",
+      "title": "A Systematic Review on Treatment Outcomes of Striae",
+      "funding_notes": [
+        "Not verified"
+      ],
+      "financial_interest_notes": [
+        "Unknown"
+      ],
+      "archived_funding_audits": [
+        {
+          "file": "research/staged-completion/stage-07/FUNDING_AUDIT.json",
+          "source_id": "P7-37",
+          "funding": "Not verified",
+          "financial_ties": "Unknown",
+          "verification": "Indexed primary abstract",
+          "independence_certified": false
+        }
+      ],
+      "archived_high_audit_disclosures": [],
+      "archived_primary_audit_ids": [],
+      "fresh_selected_check": null,
+      "disclosure_status": "both fields have notes, may be unknown/incomplete",
+      "remaining": "Confirm source-specific original disclosure, cash and in-kind funding, sponsor role, author and institutional interests, methods and applicability; unknown does not mean independent.",
+      "bias_appraisal_complete": false,
+      "independence_certified": false,
+      "clinical_review": false,
+      "publish": false
+    },
+    {
+      "id": "P7-38",
+      "title": "Potential Risks with Certain Uses of Radiofrequency (RF) Microneedling – FDA Safety Communication",
+      "funding_notes": [
+        "FDA"
+      ],
+      "financial_interest_notes": [
+        "Agency guidance"
+      ],
+      "archived_funding_audits": [
+        {
+          "file": "research/staged-completion/stage-07/FUNDING_AUDIT.json",
+          "source_id": "P7-38",
+          "funding": "FDA",
+          "financial_ties": "Agency guidance",
+          "verification": "Official HTML",
+          "independence_certified": false
+        }
+      ],
+      "archived_high_audit_disclosures": [],
+      "archived_primary_audit_ids": [],
+      "fresh_selected_check": null,
+      "disclosure_status": "both fields have notes, may be unknown/incomplete",
+      "remaining": "Confirm source-specific original disclosure, cash and in-kind funding, sponsor role, author and institutional interests, methods and applicability; unknown does not mean independent.",
+      "bias_appraisal_complete": false,
+      "independence_certified": false,
+      "clinical_review": false,
+      "publish": false
+    },
+    {
+      "id": "P7-39",
+      "title": "Effect of radiofrequency therapy in the treatment of de novo dyspareunia at 4 to 12 months postpartum: a randomized clinical trial",
+      "funding_notes": [
+        "Not verified"
+      ],
+      "financial_interest_notes": [
+        "Unknown"
+      ],
+      "archived_funding_audits": [
+        {
+          "file": "research/staged-completion/stage-07/FUNDING_AUDIT.json",
+          "source_id": "P7-39",
+          "funding": "Not verified",
+          "financial_ties": "Unknown",
+          "verification": "Indexed primary abstract; direct open blocked",
+          "independence_certified": false
+        }
+      ],
+      "archived_high_audit_disclosures": [],
+      "archived_primary_audit_ids": [],
+      "fresh_selected_check": null,
+      "disclosure_status": "both fields have notes, may be unknown/incomplete",
+      "remaining": "Confirm source-specific original disclosure, cash and in-kind funding, sponsor role, author and institutional interests, methods and applicability; unknown does not mean independent.",
+      "bias_appraisal_complete": false,
+      "independence_certified": false,
+      "clinical_review": false,
+      "publish": false
+    },
+    {
+      "id": "P7-40",
+      "title": "Treating infant colic with the probiotic Lactobacillus reuteri: double blind, placebo controlled randomised trial",
+      "funding_notes": [
+        "Australian NHMRC; BioGaia supplied active and placebo free; authors report no sponsor involvement in design, analysis, writing or publication"
+      ],
+      "financial_interest_notes": [
+        "Tang and Heine Nestlé/Nutricia advisory/honoraria; Tang unrelated products from Nestlé and Dicofarm; other disclosures per primary article"
+      ],
+      "archived_funding_audits": [
+        {
+          "file": "research/staged-completion/stage-07/FUNDING_AUDIT.json",
+          "source_id": "P7-40",
+          "funding": "Australian NHMRC; BioGaia supplied active and placebo free; authors report no sponsor involvement in design, analysis, writing or publication",
+          "financial_ties": "Tang and Heine Nestlé/Nutricia advisory/honoraria; Tang unrelated products from Nestlé and Dicofarm; other disclosures per primary article",
+          "verification": "Indexed BMJ original funding, disclosures and results; direct opening 403/PMC captcha",
+          "independence_certified": false
+        }
+      ],
+      "archived_high_audit_disclosures": [],
+      "archived_primary_audit_ids": [],
+      "fresh_selected_check": null,
+      "disclosure_status": "both fields have notes, may be unknown/incomplete",
+      "remaining": "Confirm source-specific original disclosure, cash and in-kind funding, sponsor role, author and institutional interests, methods and applicability; unknown does not mean independent.",
+      "bias_appraisal_complete": false,
+      "independence_certified": false,
+      "clinical_review": false,
+      "publish": false
+    },
+    {
+      "id": "P7-41",
+      "title": "Lactobacillus reuteri to Treat Infant Colic: A Meta-analysis",
+      "funding_notes": [
+        "Review funding not extracted"
+      ],
+      "financial_interest_notes": [
+        "Sung Mead Johnson fees; Tancredi Pfizer fees; Cabana/Szajewska BioGaia fees; Dupont Nutricia/Nestlé boards and others; Savino multiple nutrition/pharma ties; full primary statement linked"
+      ],
+      "archived_funding_audits": [
+        {
+          "file": "research/staged-completion/stage-07/FUNDING_AUDIT.json",
+          "source_id": "P7-41",
+          "funding": "Review funding not extracted",
+          "financial_ties": "Sung Mead Johnson fees; Tancredi Pfizer fees; Cabana/Szajewska BioGaia fees; Dupont Nutricia/Nestlé boards and others; Savino multiple nutrition/pharma ties; full primary statement linked",
+          "verification": "Original PubMed abstract and extensive COI",
+          "independence_certified": false
+        }
+      ],
+      "archived_high_audit_disclosures": [],
+      "archived_primary_audit_ids": [],
+      "fresh_selected_check": null,
+      "disclosure_status": "both fields have notes, may be unknown/incomplete",
+      "remaining": "Confirm source-specific original disclosure, cash and in-kind funding, sponsor role, author and institutional interests, methods and applicability; unknown does not mean independent.",
+      "bias_appraisal_complete": false,
+      "independence_certified": false,
+      "clinical_review": false,
+      "publish": false
+    },
+    {
+      "id": "P7-42",
+      "title": "Probiotics for infantile colic: a randomized, double-blind, placebo-controlled trial investigating Lactobacillus reuteri DSM 17938",
+      "funding_notes": [
+        "Not extracted"
+      ],
+      "financial_interest_notes": [
+        "Unknown"
+      ],
+      "archived_funding_audits": [
+        {
+          "file": "research/staged-completion/stage-07/FUNDING_AUDIT.json",
+          "source_id": "P7-42",
+          "funding": "Not extracted",
+          "financial_ties": "Unknown",
+          "verification": "Original PubMed abstract; NCT01541046",
+          "independence_certified": false
+        }
+      ],
+      "archived_high_audit_disclosures": [],
+      "archived_primary_audit_ids": [],
+      "fresh_selected_check": null,
+      "disclosure_status": "both fields have notes, may be unknown/incomplete",
+      "remaining": "Confirm source-specific original disclosure, cash and in-kind funding, sponsor role, author and institutional interests, methods and applicability; unknown does not mean independent.",
+      "bias_appraisal_complete": false,
+      "independence_certified": false,
+      "clinical_review": false,
+      "publish": false
+    },
+    {
+      "id": "P7-43",
+      "title": "Probiotics to prevent necrotising enterocolitis in very preterm or very low birth weight infants",
+      "funding_notes": [
+        "Not extracted"
+      ],
+      "financial_interest_notes": [
+        "Unknown"
+      ],
+      "archived_funding_audits": [
+        {
+          "file": "research/staged-completion/stage-07/FUNDING_AUDIT.json",
+          "source_id": "P7-43",
+          "funding": "Not extracted",
+          "financial_ties": "Unknown",
+          "verification": "Original official Cochrane HTML",
+          "independence_certified": false
+        }
+      ],
+      "archived_high_audit_disclosures": [],
+      "archived_primary_audit_ids": [],
+      "fresh_selected_check": null,
+      "disclosure_status": "both fields have notes, may be unknown/incomplete",
+      "remaining": "Confirm source-specific original disclosure, cash and in-kind funding, sponsor role, author and institutional interests, methods and applicability; unknown does not mean independent.",
+      "bias_appraisal_complete": false,
+      "independence_certified": false,
+      "clinical_review": false,
+      "publish": false
+    },
+    {
+      "id": "P7-44",
+      "title": "FDA Raises Concerns About Probiotic Products Sold for Use in Hospitalized Preterm Infants",
+      "funding_notes": [
+        "FDA"
+      ],
+      "financial_interest_notes": [
+        "Agency guidance"
+      ],
+      "archived_funding_audits": [
+        {
+          "file": "research/staged-completion/stage-07/FUNDING_AUDIT.json",
+          "source_id": "P7-44",
+          "funding": "FDA",
+          "financial_ties": "Agency guidance",
+          "verification": "Official HTML",
+          "independence_certified": false
+        }
+      ],
+      "archived_high_audit_disclosures": [],
+      "archived_primary_audit_ids": [],
+      "fresh_selected_check": null,
+      "disclosure_status": "both fields have notes, may be unknown/incomplete",
+      "remaining": "Confirm source-specific original disclosure, cash and in-kind funding, sponsor role, author and institutional interests, methods and applicability; unknown does not mean independent.",
+      "bias_appraisal_complete": false,
+      "independence_certified": false,
+      "clinical_review": false,
+      "publish": false
+    },
+    {
+      "id": "P7-45",
+      "title": "Manipulative therapies for infantile colic",
+      "funding_notes": [
+        "Not extracted"
+      ],
+      "financial_interest_notes": [
+        "Unknown"
+      ],
+      "archived_funding_audits": [
+        {
+          "file": "research/staged-completion/stage-07/FUNDING_AUDIT.json",
+          "source_id": "P7-45",
+          "funding": "Not extracted",
+          "financial_ties": "Unknown",
+          "verification": "Official review abstract",
+          "independence_certified": false
+        }
+      ],
+      "archived_high_audit_disclosures": [],
+      "archived_primary_audit_ids": [],
+      "fresh_selected_check": null,
+      "disclosure_status": "both fields have notes, may be unknown/incomplete",
+      "remaining": "Confirm source-specific original disclosure, cash and in-kind funding, sponsor role, author and institutional interests, methods and applicability; unknown does not mean independent.",
+      "bias_appraisal_complete": false,
+      "independence_certified": false,
+      "clinical_review": false,
+      "publish": false
+    },
+    {
+      "id": "P7-46",
+      "title": "Exploring Manual Interventions for Infantile Colic: A Scoping Review of the Evidence",
+      "funding_notes": [
+        "Not extracted"
+      ],
+      "financial_interest_notes": [
+        "COI statement not fully inspected"
+      ],
+      "archived_funding_audits": [
+        {
+          "file": "research/staged-completion/stage-07/FUNDING_AUDIT.json",
+          "source_id": "P7-46",
+          "funding": "Not extracted",
+          "financial_ties": "COI statement not fully inspected",
+          "verification": "Indexed primary abstract",
+          "independence_certified": false
+        }
+      ],
+      "archived_high_audit_disclosures": [],
+      "archived_primary_audit_ids": [],
+      "fresh_selected_check": null,
+      "disclosure_status": "both fields have notes, may be unknown/incomplete",
+      "remaining": "Confirm source-specific original disclosure, cash and in-kind funding, sponsor role, author and institutional interests, methods and applicability; unknown does not mean independent.",
+      "bias_appraisal_complete": false,
+      "independence_certified": false,
+      "clinical_review": false,
+      "publish": false
+    },
+    {
+      "id": "P7-47",
+      "title": "Spinal manipulation and mobilisation in paediatrics – an international evidence-based position statement for physiotherapists",
+      "funding_notes": [
+        "Professional specialty group initiative; funding not extracted"
+      ],
+      "financial_interest_notes": [
+        "Professional interests separate from commercial"
+      ],
+      "archived_funding_audits": [
+        {
+          "file": "research/staged-completion/stage-07/FUNDING_AUDIT.json",
+          "source_id": "P7-47",
+          "funding": "Professional specialty group initiative; funding not extracted",
+          "financial_ties": "Professional interests separate from commercial",
+          "verification": "Indexed original statement and PubMed",
+          "independence_certified": false
+        }
+      ],
+      "archived_high_audit_disclosures": [],
+      "archived_primary_audit_ids": [],
+      "fresh_selected_check": null,
+      "disclosure_status": "both fields have notes, may be unknown/incomplete",
+      "remaining": "Confirm source-specific original disclosure, cash and in-kind funding, sponsor role, author and institutional interests, methods and applicability; unknown does not mean independent.",
+      "bias_appraisal_complete": false,
+      "independence_certified": false,
+      "clinical_review": false,
+      "publish": false
+    },
+    {
+      "id": "P7-48",
+      "title": "Pediatric massage therapy in infants and children under 5 years: An umbrella review of systematic reviews",
+      "funding_notes": [
+        "Not extracted"
+      ],
+      "financial_interest_notes": [
+        "Unknown"
+      ],
+      "archived_funding_audits": [
+        {
+          "file": "research/staged-completion/stage-07/FUNDING_AUDIT.json",
+          "source_id": "P7-48",
+          "funding": "Not extracted",
+          "financial_ties": "Unknown",
+          "verification": "Indexed primary abstract",
+          "independence_certified": false
+        }
+      ],
+      "archived_high_audit_disclosures": [],
+      "archived_primary_audit_ids": [],
+      "fresh_selected_check": null,
+      "disclosure_status": "both fields have notes, may be unknown/incomplete",
+      "remaining": "Confirm source-specific original disclosure, cash and in-kind funding, sponsor role, author and institutional interests, methods and applicability; unknown does not mean independent.",
+      "bias_appraisal_complete": false,
+      "independence_certified": false,
+      "clinical_review": false,
+      "publish": false
+    },
+    {
+      "id": "P7-49",
+      "title": "The effectiveness of mother-led infant massage on symptoms of maternal postnatal depression: A systematic review",
+      "funding_notes": [
+        "Not extracted"
+      ],
+      "financial_interest_notes": [
+        "Unknown"
+      ],
+      "archived_funding_audits": [
+        {
+          "file": "research/staged-completion/stage-07/FUNDING_AUDIT.json",
+          "source_id": "P7-49",
+          "funding": "Not extracted",
+          "financial_ties": "Unknown",
+          "verification": "Indexed primary abstract",
+          "independence_certified": false
+        }
+      ],
+      "archived_high_audit_disclosures": [],
+      "archived_primary_audit_ids": [],
+      "fresh_selected_check": null,
+      "disclosure_status": "both fields have notes, may be unknown/incomplete",
+      "remaining": "Confirm source-specific original disclosure, cash and in-kind funding, sponsor role, author and institutional interests, methods and applicability; unknown does not mean independent.",
+      "bias_appraisal_complete": false,
+      "independence_certified": false,
+      "clinical_review": false,
+      "publish": false
+    },
+    {
+      "id": "P7-50",
+      "title": "Effects of Human Maternal Placentophagy on Maternal Postpartum Iron Status: A Randomized, Double-Blind, Placebo-Controlled Pilot Study",
+      "funding_notes": [
+        "Not extracted"
+      ],
+      "financial_interest_notes": [
+        "Unknown"
+      ],
+      "archived_funding_audits": [
+        {
+          "file": "research/staged-completion/stage-07/FUNDING_AUDIT.json",
+          "source_id": "P7-50",
+          "funding": "Not extracted",
+          "financial_ties": "Unknown",
+          "verification": "Indexed primary abstract",
+          "independence_certified": false
+        }
+      ],
+      "archived_high_audit_disclosures": [],
+      "archived_primary_audit_ids": [],
+      "fresh_selected_check": null,
+      "disclosure_status": "both fields have notes, may be unknown/incomplete",
+      "remaining": "Confirm source-specific original disclosure, cash and in-kind funding, sponsor role, author and institutional interests, methods and applicability; unknown does not mean independent.",
+      "bias_appraisal_complete": false,
+      "independence_certified": false,
+      "clinical_review": false,
+      "publish": false
+    },
+    {
+      "id": "P7-51",
+      "title": "Notes from the Field: Late-Onset Infant Group B Streptococcus Infection Associated with Maternal Consumption of Capsules Containing Dehydrated Placenta — Oregon, 2016",
+      "funding_notes": [
+        "CDC/Oregon public health"
+      ],
+      "financial_interest_notes": [
+        "Not a commercial trial"
+      ],
+      "archived_funding_audits": [
+        {
+          "file": "research/staged-completion/stage-07/FUNDING_AUDIT.json",
+          "source_id": "P7-51",
+          "funding": "CDC/Oregon public health",
+          "financial_ties": "Not a commercial trial",
+          "verification": "Official MMWR HTML",
+          "independence_certified": false
+        }
+      ],
+      "archived_high_audit_disclosures": [],
+      "archived_primary_audit_ids": [],
+      "fresh_selected_check": null,
+      "disclosure_status": "both fields have notes, may be unknown/incomplete",
+      "remaining": "Confirm source-specific original disclosure, cash and in-kind funding, sponsor role, author and institutional interests, methods and applicability; unknown does not mean independent.",
+      "bias_appraisal_complete": false,
+      "independence_certified": false,
+      "clinical_review": false,
+      "publish": false
+    },
+    {
+      "id": "P7-52",
+      "title": "Oral administration of maternal vaginal microbes at birth to restore gut microbiome development in infants born by caesarean section: A pilot randomised placebo-controlled trial",
+      "funding_notes": [
+        "Health Research Council of New Zealand, A Better Start National Science Challenge"
+      ],
+      "financial_interest_notes": [
+        "COI not extracted"
+      ],
+      "archived_funding_audits": [
+        {
+          "file": "research/staged-completion/stage-07/FUNDING_AUDIT.json",
+          "source_id": "P7-52",
+          "funding": "Health Research Council of New Zealand, A Better Start National Science Challenge",
+          "financial_ties": "COI not extracted",
+          "verification": "Indexed primary abstract/funding; ACTRN12618000339257",
+          "independence_certified": false
+        }
+      ],
+      "archived_high_audit_disclosures": [],
+      "archived_primary_audit_ids": [],
+      "fresh_selected_check": null,
+      "disclosure_status": "both fields have notes, may be unknown/incomplete",
+      "remaining": "Confirm source-specific original disclosure, cash and in-kind funding, sponsor role, author and institutional interests, methods and applicability; unknown does not mean independent.",
+      "bias_appraisal_complete": false,
+      "independence_certified": false,
+      "clinical_review": false,
+      "publish": false
+    },
+    {
+      "id": "P7-53",
+      "title": "Effects of vaginal seeding on gut microbiota, body mass index, and allergy risks in infants born through cesarean delivery: a randomized clinical trial",
+      "funding_notes": [
+        "Not extracted"
+      ],
+      "financial_interest_notes": [
+        "Unknown"
+      ],
+      "archived_funding_audits": [
+        {
+          "file": "research/staged-completion/stage-07/FUNDING_AUDIT.json",
+          "source_id": "P7-53",
+          "funding": "Not extracted",
+          "financial_ties": "Unknown",
+          "verification": "Indexed primary abstract",
+          "independence_certified": false
+        }
+      ],
+      "archived_high_audit_disclosures": [],
+      "archived_primary_audit_ids": [],
+      "fresh_selected_check": null,
+      "disclosure_status": "both fields have notes, may be unknown/incomplete",
+      "remaining": "Confirm source-specific original disclosure, cash and in-kind funding, sponsor role, author and institutional interests, methods and applicability; unknown does not mean independent.",
+      "bias_appraisal_complete": false,
+      "independence_certified": false,
+      "clinical_review": false,
+      "publish": false
+    },
+    {
+      "id": "P7-54",
+      "title": "Effects of vaginal microbiota transfer on the neurodevelopment and microbiome of cesarean-born infants: A blinded randomized controlled trial",
+      "funding_notes": [
+        "Not extracted"
+      ],
+      "financial_interest_notes": [
+        "Unknown"
+      ],
+      "archived_funding_audits": [
+        {
+          "file": "research/staged-completion/stage-07/FUNDING_AUDIT.json",
+          "source_id": "P7-54",
+          "funding": "Not extracted",
+          "financial_ties": "Unknown",
+          "verification": "Indexed primary abstract",
+          "independence_certified": false
+        }
+      ],
+      "archived_high_audit_disclosures": [],
+      "archived_primary_audit_ids": [],
+      "fresh_selected_check": null,
+      "disclosure_status": "both fields have notes, may be unknown/incomplete",
+      "remaining": "Confirm source-specific original disclosure, cash and in-kind funding, sponsor role, author and institutional interests, methods and applicability; unknown does not mean independent.",
+      "bias_appraisal_complete": false,
+      "independence_certified": false,
+      "clinical_review": false,
+      "publish": false
+    },
+    {
+      "id": "P7-55",
+      "title": "Maternal Bacterial Engraftment in Multiple Body Sites of Cesarean Section Born Neonates after Vaginal Seeding-a Randomized Controlled Trial",
+      "funding_notes": [
+        "NIH NHLBI K01HL141589 among indexed grants; full list pending"
+      ],
+      "financial_interest_notes": [
+        "No COI declared"
+      ],
+      "archived_funding_audits": [
+        {
+          "file": "research/staged-completion/stage-07/FUNDING_AUDIT.json",
+          "source_id": "P7-55",
+          "funding": "NIH NHLBI K01HL141589 among indexed grants; full list pending",
+          "financial_ties": "No COI declared",
+          "verification": "Indexed primary abstract and grant/COI",
+          "independence_certified": false
+        }
+      ],
+      "archived_high_audit_disclosures": [],
+      "archived_primary_audit_ids": [],
+      "fresh_selected_check": null,
+      "disclosure_status": "both fields have notes, may be unknown/incomplete",
+      "remaining": "Confirm source-specific original disclosure, cash and in-kind funding, sponsor role, author and institutional interests, methods and applicability; unknown does not mean independent.",
+      "bias_appraisal_complete": false,
+      "independence_certified": false,
+      "clinical_review": false,
+      "publish": false
+    },
+    {
+      "id": "P7-56",
+      "title": "Vaginal Seeding",
+      "funding_notes": [
+        "ACOG; panel COI not audited"
+      ],
+      "financial_interest_notes": [
+        "Unknown"
+      ],
+      "archived_funding_audits": [
+        {
+          "file": "research/staged-completion/stage-07/FUNDING_AUDIT.json",
+          "source_id": "P7-56",
+          "funding": "ACOG; panel COI not audited",
+          "financial_ties": "Unknown",
+          "verification": "Official indexed guidance",
+          "independence_certified": false
+        }
+      ],
+      "archived_high_audit_disclosures": [],
+      "archived_primary_audit_ids": [],
+      "fresh_selected_check": null,
+      "disclosure_status": "both fields have notes, may be unknown/incomplete",
+      "remaining": "Confirm source-specific original disclosure, cash and in-kind funding, sponsor role, author and institutional interests, methods and applicability; unknown does not mean independent.",
+      "bias_appraisal_complete": false,
+      "independence_certified": false,
+      "clinical_review": false,
+      "publish": false
+    },
+    {
+      "id": "P7-57",
+      "title": "Risks of Infectious Diseases in Newborns Exposed to Alternative Perinatal Practices",
+      "funding_notes": [
+        "AAP; panel disclosure pending"
+      ],
+      "financial_interest_notes": [
+        "Unknown"
+      ],
+      "archived_funding_audits": [
+        {
+          "file": "research/staged-completion/stage-07/FUNDING_AUDIT.json",
+          "source_id": "P7-57",
+          "funding": "AAP; panel disclosure pending",
+          "financial_ties": "Unknown",
+          "verification": "Indexed original report",
+          "independence_certified": false
+        }
+      ],
+      "archived_high_audit_disclosures": [],
+      "archived_primary_audit_ids": [],
+      "fresh_selected_check": null,
+      "disclosure_status": "both fields have notes, may be unknown/incomplete",
+      "remaining": "Confirm source-specific original disclosure, cash and in-kind funding, sponsor role, author and institutional interests, methods and applicability; unknown does not mean independent.",
+      "bias_appraisal_complete": false,
+      "independence_certified": false,
+      "clinical_review": false,
+      "publish": false
+    },
+    {
+      "id": "P7-58",
+      "title": "Immediate Kangaroo Mother Care and Survival of Infants with Low Birth Weight",
+      "funding_notes": [
+        "Gates Foundation grant to WHO OPP1151718"
+      ],
+      "financial_interest_notes": [
+        "Full individual disclosures not extracted"
+      ],
+      "archived_funding_audits": [
+        {
+          "file": "research/staged-completion/stage-07/FUNDING_AUDIT.json",
+          "source_id": "P7-58",
+          "funding": "Gates Foundation grant to WHO OPP1151718",
+          "financial_ties": "Full individual disclosures not extracted",
+          "verification": "Indexed primary NEJM abstract/funding",
+          "independence_certified": false
+        }
+      ],
+      "archived_high_audit_disclosures": [],
+      "archived_primary_audit_ids": [],
+      "fresh_selected_check": null,
+      "disclosure_status": "both fields have notes, may be unknown/incomplete",
+      "remaining": "Confirm source-specific original disclosure, cash and in-kind funding, sponsor role, author and institutional interests, methods and applicability; unknown does not mean independent.",
+      "bias_appraisal_complete": false,
+      "independence_certified": false,
+      "clinical_review": false,
+      "publish": false
+    },
+    {
+      "id": "P7-59",
+      "title": "Kangaroo mother care to reduce morbidity and mortality in low birthweight infants",
+      "funding_notes": [
+        "None declared"
+      ],
+      "financial_interest_notes": [
+        "Full COI not extracted"
+      ],
+      "archived_funding_audits": [
+        {
+          "file": "research/staged-completion/stage-07/FUNDING_AUDIT.json",
+          "source_id": "P7-59",
+          "funding": "None declared",
+          "financial_ties": "Full COI not extracted",
+          "verification": "Indexed primary abstract; direct open blocked",
+          "independence_certified": false
+        }
+      ],
+      "archived_high_audit_disclosures": [],
+      "archived_primary_audit_ids": [],
+      "fresh_selected_check": null,
+      "disclosure_status": "both fields have notes, may be unknown/incomplete",
+      "remaining": "Confirm source-specific original disclosure, cash and in-kind funding, sponsor role, author and institutional interests, methods and applicability; unknown does not mean independent.",
+      "bias_appraisal_complete": false,
+      "independence_certified": false,
+      "clinical_review": false,
+      "publish": false
+    },
+    {
+      "id": "P7-60",
+      "title": "WHO recommendations for care of the preterm or low-birth-weight infant: Evidence and recommendations",
+      "funding_notes": [
+        "WHO"
+      ],
+      "financial_interest_notes": [
+        "Panel disclosures not extracted"
+      ],
+      "archived_funding_audits": [
+        {
+          "file": "research/staged-completion/stage-07/FUNDING_AUDIT.json",
+          "source_id": "P7-60",
+          "funding": "WHO",
+          "financial_ties": "Panel disclosures not extracted",
+          "verification": "Official HTML guideline",
+          "independence_certified": false
+        }
+      ],
+      "archived_high_audit_disclosures": [],
+      "archived_primary_audit_ids": [],
+      "fresh_selected_check": null,
+      "disclosure_status": "both fields have notes, may be unknown/incomplete",
+      "remaining": "Confirm source-specific original disclosure, cash and in-kind funding, sponsor role, author and institutional interests, methods and applicability; unknown does not mean independent.",
+      "bias_appraisal_complete": false,
+      "independence_certified": false,
+      "clinical_review": false,
+      "publish": false
+    },
+    {
+      "id": "P7-61",
+      "title": "Physical activity and perinatal depression and anxiety: a global umbrella review and meta-meta-analysis",
+      "funding_notes": [
+        "None declared"
+      ],
+      "financial_interest_notes": [
+        "Full COI not extracted"
+      ],
+      "archived_funding_audits": [
+        {
+          "file": "research/staged-completion/stage-07/FUNDING_AUDIT.json",
+          "source_id": "P7-61",
+          "funding": "None declared",
+          "financial_ties": "Full COI not extracted",
+          "verification": "Indexed primary abstract/funding",
+          "independence_certified": false
+        }
+      ],
+      "archived_high_audit_disclosures": [],
+      "archived_primary_audit_ids": [],
+      "fresh_selected_check": null,
+      "disclosure_status": "both fields have notes, may be unknown/incomplete",
+      "remaining": "Confirm source-specific original disclosure, cash and in-kind funding, sponsor role, author and institutional interests, methods and applicability; unknown does not mean independent.",
+      "bias_appraisal_complete": false,
+      "independence_certified": false,
+      "clinical_review": false,
+      "publish": false
+    },
+    {
+      "id": "P7-62",
+      "title": "Effects of different types of exercise interventions on perinatal depression, anxiety, and quality of life: a systematic review and meta-analysis",
+      "funding_notes": [
+        "Not extracted"
+      ],
+      "financial_interest_notes": [
+        "Unknown"
+      ],
+      "archived_funding_audits": [
+        {
+          "file": "research/staged-completion/stage-07/FUNDING_AUDIT.json",
+          "source_id": "P7-62",
+          "funding": "Not extracted",
+          "financial_ties": "Unknown",
+          "verification": "Indexed primary abstract",
+          "independence_certified": false
+        }
+      ],
+      "archived_high_audit_disclosures": [],
+      "archived_primary_audit_ids": [],
+      "fresh_selected_check": null,
+      "disclosure_status": "both fields have notes, may be unknown/incomplete",
+      "remaining": "Confirm source-specific original disclosure, cash and in-kind funding, sponsor role, author and institutional interests, methods and applicability; unknown does not mean independent.",
+      "bias_appraisal_complete": false,
+      "independence_certified": false,
+      "clinical_review": false,
+      "publish": false
+    },
+    {
+      "id": "P7-63",
+      "title": "Herbal Products",
+      "funding_notes": [
+        "MotherToBaby; source funding not audited"
+      ],
+      "financial_interest_notes": [
+        "Not applicable"
+      ],
+      "archived_funding_audits": [
+        {
+          "file": "research/staged-completion/stage-07/FUNDING_AUDIT.json",
+          "source_id": "P7-63",
+          "funding": "MotherToBaby; source funding not audited",
+          "financial_ties": "Not applicable",
+          "verification": "Official HTML",
+          "independence_certified": false
+        }
+      ],
+      "archived_high_audit_disclosures": [],
+      "archived_primary_audit_ids": [],
+      "fresh_selected_check": null,
+      "disclosure_status": "both fields have notes, may be unknown/incomplete",
+      "remaining": "Confirm source-specific original disclosure, cash and in-kind funding, sponsor role, author and institutional interests, methods and applicability; unknown does not mean independent.",
+      "bias_appraisal_complete": false,
+      "independence_certified": false,
+      "clinical_review": false,
+      "publish": false
+    },
+    {
+      "id": "P7-64",
+      "title": "Ashwagandha: Usefulness and Safety",
+      "funding_notes": [
+        "NIH NCCIH"
+      ],
+      "financial_interest_notes": [
+        "Agency guidance"
+      ],
+      "archived_funding_audits": [
+        {
+          "file": "research/staged-completion/stage-07/FUNDING_AUDIT.json",
+          "source_id": "P7-64",
+          "funding": "NIH NCCIH",
+          "financial_ties": "Agency guidance",
+          "verification": "Official HTML",
+          "independence_certified": false
+        }
+      ],
+      "archived_high_audit_disclosures": [],
+      "archived_primary_audit_ids": [],
+      "fresh_selected_check": null,
+      "disclosure_status": "both fields have notes, may be unknown/incomplete",
+      "remaining": "Confirm source-specific original disclosure, cash and in-kind funding, sponsor role, author and institutional interests, methods and applicability; unknown does not mean independent.",
+      "bias_appraisal_complete": false,
+      "independence_certified": false,
+      "clinical_review": false,
+      "publish": false
+    },
+    {
+      "id": "P7-65",
+      "title": "Essential oils: Poisonous when misused",
+      "funding_notes": [
+        "Organization; funding not audited"
+      ],
+      "financial_interest_notes": [
+        "Not applicable"
+      ],
+      "archived_funding_audits": [
+        {
+          "file": "research/staged-completion/stage-07/FUNDING_AUDIT.json",
+          "source_id": "P7-65",
+          "funding": "Organization; funding not audited",
+          "financial_ties": "Not applicable",
+          "verification": "Original indexed guidance",
+          "independence_certified": false
+        }
+      ],
+      "archived_high_audit_disclosures": [],
+      "archived_primary_audit_ids": [],
+      "fresh_selected_check": null,
+      "disclosure_status": "both fields have notes, may be unknown/incomplete",
+      "remaining": "Confirm source-specific original disclosure, cash and in-kind funding, sponsor role, author and institutional interests, methods and applicability; unknown does not mean independent.",
+      "bias_appraisal_complete": false,
+      "independence_certified": false,
+      "clinical_review": false,
+      "publish": false
+    },
+    {
+      "id": "P7-66",
+      "title": "Foods and Drinks to Avoid or Limit",
+      "funding_notes": [
+        "CDC"
+      ],
+      "financial_interest_notes": [
+        "Agency guidance"
+      ],
+      "archived_funding_audits": [
+        {
+          "file": "research/staged-completion/stage-07/FUNDING_AUDIT.json",
+          "source_id": "P7-66",
+          "funding": "CDC",
+          "financial_ties": "Agency guidance",
+          "verification": "Official indexed HTML",
+          "independence_certified": false
+        }
+      ],
+      "archived_high_audit_disclosures": [],
+      "archived_primary_audit_ids": [],
+      "fresh_selected_check": null,
+      "disclosure_status": "both fields have notes, may be unknown/incomplete",
+      "remaining": "Confirm source-specific original disclosure, cash and in-kind funding, sponsor role, author and institutional interests, methods and applicability; unknown does not mean independent.",
+      "bias_appraisal_complete": false,
+      "independence_certified": false,
+      "clinical_review": false,
+      "publish": false
+    },
+    {
+      "id": "P7-67",
+      "title": "Safely Soothing Teething Pain in Infants and Children",
+      "funding_notes": [
+        "FDA"
+      ],
+      "financial_interest_notes": [
+        "Agency guidance"
+      ],
+      "archived_funding_audits": [
+        {
+          "file": "research/staged-completion/stage-07/FUNDING_AUDIT.json",
+          "source_id": "P7-67",
+          "funding": "FDA",
+          "financial_ties": "Agency guidance",
+          "verification": "Official indexed HTML",
+          "independence_certified": false
+        }
+      ],
+      "archived_high_audit_disclosures": [],
+      "archived_primary_audit_ids": [],
+      "fresh_selected_check": null,
+      "disclosure_status": "both fields have notes, may be unknown/incomplete",
+      "remaining": "Confirm source-specific original disclosure, cash and in-kind funding, sponsor role, author and institutional interests, methods and applicability; unknown does not mean independent.",
+      "bias_appraisal_complete": false,
+      "independence_certified": false,
+      "clinical_review": false,
+      "publish": false
+    },
+    {
+      "id": "P7-68",
+      "title": "Some Homeopathic Products May Put You at Risk",
+      "funding_notes": [
+        "FDA"
+      ],
+      "financial_interest_notes": [
+        "Agency guidance"
+      ],
+      "archived_funding_audits": [
+        {
+          "file": "research/staged-completion/stage-07/FUNDING_AUDIT.json",
+          "source_id": "P7-68",
+          "funding": "FDA",
+          "financial_ties": "Agency guidance",
+          "verification": "Official indexed HTML",
+          "independence_certified": false
+        }
+      ],
+      "archived_high_audit_disclosures": [],
+      "archived_primary_audit_ids": [],
+      "fresh_selected_check": null,
+      "disclosure_status": "both fields have notes, may be unknown/incomplete",
+      "remaining": "Confirm source-specific original disclosure, cash and in-kind funding, sponsor role, author and institutional interests, methods and applicability; unknown does not mean independent.",
+      "bias_appraisal_complete": false,
+      "independence_certified": false,
+      "clinical_review": false,
+      "publish": false
+    },
+    {
+      "id": "P9-G01",
+      "title": "Planning for Pregnancy",
+      "funding_notes": [
+        "Agency or professional guidance; underlying study funding and panel conflicts not newly audited"
+      ],
+      "financial_interest_notes": [],
+      "archived_funding_audits": [],
+      "archived_high_audit_disclosures": [],
+      "archived_primary_audit_ids": [],
+      "fresh_selected_check": null,
+      "disclosure_status": "one disclosure category has notes, other missing",
+      "remaining": "Confirm source-specific original disclosure, cash and in-kind funding, sponsor role, author and institutional interests, methods and applicability; unknown does not mean independent.",
+      "bias_appraisal_complete": false,
+      "independence_certified": false,
+      "clinical_review": false,
+      "publish": false
+    },
+    {
+      "id": "P9-G02",
+      "title": "Prenatal Care",
+      "funding_notes": [
+        "Agency or professional guidance; underlying study funding and panel conflicts not newly audited"
+      ],
+      "financial_interest_notes": [],
+      "archived_funding_audits": [],
+      "archived_high_audit_disclosures": [],
+      "archived_primary_audit_ids": [],
+      "fresh_selected_check": null,
+      "disclosure_status": "one disclosure category has notes, other missing",
+      "remaining": "Confirm source-specific original disclosure, cash and in-kind funding, sponsor role, author and institutional interests, methods and applicability; unknown does not mean independent.",
+      "bias_appraisal_complete": false,
+      "independence_certified": false,
+      "clinical_review": false,
+      "publish": false
+    },
+    {
+      "id": "P9-G03",
+      "title": "Optimizing Postpartum Care",
+      "funding_notes": [
+        "Agency or professional guidance; underlying study funding and panel conflicts not newly audited"
+      ],
+      "financial_interest_notes": [],
+      "archived_funding_audits": [],
+      "archived_high_audit_disclosures": [],
+      "archived_primary_audit_ids": [],
+      "fresh_selected_check": null,
+      "disclosure_status": "one disclosure category has notes, other missing",
+      "remaining": "Confirm source-specific original disclosure, cash and in-kind funding, sponsor role, author and institutional interests, methods and applicability; unknown does not mean independent.",
+      "bias_appraisal_complete": false,
+      "independence_certified": false,
+      "clinical_review": false,
+      "publish": false
+    },
+    {
+      "id": "P9-G04",
+      "title": "Urgent Maternal Warning Signs",
+      "funding_notes": [
+        "Agency or professional guidance; underlying study funding and panel conflicts not newly audited"
+      ],
+      "financial_interest_notes": [],
+      "archived_funding_audits": [],
+      "archived_high_audit_disclosures": [],
+      "archived_primary_audit_ids": [],
+      "fresh_selected_check": null,
+      "disclosure_status": "one disclosure category has notes, other missing",
+      "remaining": "Confirm source-specific original disclosure, cash and in-kind funding, sponsor role, author and institutional interests, methods and applicability; unknown does not mean independent.",
+      "bias_appraisal_complete": false,
+      "independence_certified": false,
+      "clinical_review": false,
+      "publish": false
+    },
+    {
+      "id": "P9-G05",
+      "title": "Providing Care for Babies to Sleep Safely",
+      "funding_notes": [
+        "Agency or professional guidance; underlying study funding and panel conflicts not newly audited"
+      ],
+      "financial_interest_notes": [],
+      "archived_funding_audits": [],
+      "archived_high_audit_disclosures": [],
+      "archived_primary_audit_ids": [],
+      "fresh_selected_check": null,
+      "disclosure_status": "one disclosure category has notes, other missing",
+      "remaining": "Confirm source-specific original disclosure, cash and in-kind funding, sponsor role, author and institutional interests, methods and applicability; unknown does not mean independent.",
+      "bias_appraisal_complete": false,
+      "independence_certified": false,
+      "clinical_review": false,
+      "publish": false
+    },
+    {
+      "id": "P9-G06",
+      "title": "Safer Food Choices for Pregnant Women",
+      "funding_notes": [
+        "Agency or professional guidance; underlying study funding and panel conflicts not newly audited"
+      ],
+      "financial_interest_notes": [],
+      "archived_funding_audits": [],
+      "archived_high_audit_disclosures": [],
+      "archived_primary_audit_ids": [],
+      "fresh_selected_check": null,
+      "disclosure_status": "one disclosure category has notes, other missing",
+      "remaining": "Confirm source-specific original disclosure, cash and in-kind funding, sponsor role, author and institutional interests, methods and applicability; unknown does not mean independent.",
+      "bias_appraisal_complete": false,
+      "independence_certified": false,
+      "clinical_review": false,
+      "publish": false
+    },
+    {
+      "id": "P9-G07",
+      "title": "When, What, and How to Introduce Solid Foods",
+      "funding_notes": [
+        "Agency or professional guidance; underlying study funding and panel conflicts not newly audited"
+      ],
+      "financial_interest_notes": [],
+      "archived_funding_audits": [],
+      "archived_high_audit_disclosures": [],
+      "archived_primary_audit_ids": [],
+      "fresh_selected_check": null,
+      "disclosure_status": "one disclosure category has notes, other missing",
+      "remaining": "Confirm source-specific original disclosure, cash and in-kind funding, sponsor role, author and institutional interests, methods and applicability; unknown does not mean independent.",
+      "bias_appraisal_complete": false,
+      "independence_certified": false,
+      "clinical_review": false,
+      "publish": false
+    },
+    {
+      "id": "P9-G08",
+      "title": "Choking Hazards",
+      "funding_notes": [
+        "Agency or professional guidance; underlying study funding and panel conflicts not newly audited"
+      ],
+      "financial_interest_notes": [],
+      "archived_funding_audits": [],
+      "archived_high_audit_disclosures": [],
+      "archived_primary_audit_ids": [],
+      "fresh_selected_check": null,
+      "disclosure_status": "one disclosure category has notes, other missing",
+      "remaining": "Confirm source-specific original disclosure, cash and in-kind funding, sponsor role, author and institutional interests, methods and applicability; unknown does not mean independent.",
+      "bias_appraisal_complete": false,
+      "independence_certified": false,
+      "clinical_review": false,
+      "publish": false
+    },
+    {
+      "id": "P9-G09",
+      "title": "Vitamin D",
+      "funding_notes": [
+        "Agency or professional guidance; underlying study funding and panel conflicts not newly audited"
+      ],
+      "financial_interest_notes": [],
+      "archived_funding_audits": [],
+      "archived_high_audit_disclosures": [],
+      "archived_primary_audit_ids": [],
+      "fresh_selected_check": null,
+      "disclosure_status": "one disclosure category has notes, other missing",
+      "remaining": "Confirm source-specific original disclosure, cash and in-kind funding, sponsor role, author and institutional interests, methods and applicability; unknown does not mean independent.",
+      "bias_appraisal_complete": false,
+      "independence_certified": false,
+      "clinical_review": false,
+      "publish": false
+    },
+    {
+      "id": "P9-G10",
+      "title": "Vaccine Recommendations Before, During, and After Pregnancy",
+      "funding_notes": [
+        "Agency or professional guidance; underlying study funding and panel conflicts not newly audited"
+      ],
+      "financial_interest_notes": [],
+      "archived_funding_audits": [],
+      "archived_high_audit_disclosures": [],
+      "archived_primary_audit_ids": [],
+      "fresh_selected_check": null,
+      "disclosure_status": "one disclosure category has notes, other missing",
+      "remaining": "Confirm source-specific original disclosure, cash and in-kind funding, sponsor role, author and institutional interests, methods and applicability; unknown does not mean independent.",
+      "bias_appraisal_complete": false,
+      "independence_certified": false,
+      "clinical_review": false,
+      "publish": false
+    },
+    {
+      "id": "P9-G11",
+      "title": "Signs Your Child Is Hungry or Full",
+      "funding_notes": [
+        "Agency or professional guidance; underlying study funding and panel conflicts not newly audited"
+      ],
+      "financial_interest_notes": [],
+      "archived_funding_audits": [],
+      "archived_high_audit_disclosures": [],
+      "archived_primary_audit_ids": [],
+      "fresh_selected_check": null,
+      "disclosure_status": "one disclosure category has notes, other missing",
+      "remaining": "Confirm source-specific original disclosure, cash and in-kind funding, sponsor role, author and institutional interests, methods and applicability; unknown does not mean independent.",
+      "bias_appraisal_complete": false,
+      "independence_certified": false,
+      "clinical_review": false,
+      "publish": false
+    },
+    {
+      "id": "P9-G12",
+      "title": "Postpartum Birth Control",
+      "funding_notes": [
+        "Agency or professional guidance; underlying study funding and panel conflicts not newly audited"
+      ],
+      "financial_interest_notes": [],
+      "archived_funding_audits": [],
+      "archived_high_audit_disclosures": [],
+      "archived_primary_audit_ids": [],
+      "fresh_selected_check": null,
+      "disclosure_status": "one disclosure category has notes, other missing",
+      "remaining": "Confirm source-specific original disclosure, cash and in-kind funding, sponsor role, author and institutional interests, methods and applicability; unknown does not mean independent.",
+      "bias_appraisal_complete": false,
+      "independence_certified": false,
+      "clinical_review": false,
+      "publish": false
+    },
+    {
+      "id": "P9-G13",
+      "title": "Pregnancy and Oral Health Facts",
+      "funding_notes": [
+        "Agency or professional guidance; underlying study funding and panel conflicts not newly audited"
+      ],
+      "financial_interest_notes": [],
+      "archived_funding_audits": [],
+      "archived_high_audit_disclosures": [],
+      "archived_primary_audit_ids": [],
+      "fresh_selected_check": null,
+      "disclosure_status": "one disclosure category has notes, other missing",
+      "remaining": "Confirm source-specific original disclosure, cash and in-kind funding, sponsor role, author and institutional interests, methods and applicability; unknown does not mean independent.",
+      "bias_appraisal_complete": false,
+      "independence_certified": false,
+      "clinical_review": false,
+      "publish": false
+    },
+    {
+      "id": "P9-G14",
+      "title": "Developmental Monitoring and Screening",
+      "funding_notes": [
+        "Agency or professional guidance; underlying study funding and panel conflicts not newly audited"
+      ],
+      "financial_interest_notes": [],
+      "archived_funding_audits": [],
+      "archived_high_audit_disclosures": [],
+      "archived_primary_audit_ids": [],
+      "fresh_selected_check": null,
+      "disclosure_status": "one disclosure category has notes, other missing",
+      "remaining": "Confirm source-specific original disclosure, cash and in-kind funding, sponsor role, author and institutional interests, methods and applicability; unknown does not mean independent.",
+      "bias_appraisal_complete": false,
+      "independence_certified": false,
+      "clinical_review": false,
+      "publish": false
+    }
+  ]
+}

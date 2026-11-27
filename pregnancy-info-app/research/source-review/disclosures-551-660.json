@@ -1,0 +1,3242 @@
+{
+  "scope": "Archived disclosure evidence and nine fresh selected source checks; no independent certification.",
+  "records": [
+    {
+      "id": "P3-21",
+      "title": "Effects of acupuncture and stabilising exercises as adjunct to standard treatment in pregnant women with pelvic girdle pain",
+      "funding_notes": [
+        "Vardal Foundation, Dagmar Foundation, Trygg-Hansa Insurance Company, Sahlgrenska University Foundation; no sponsor role reported"
+      ],
+      "financial_interest_notes": [
+        "None declared"
+      ],
+      "archived_funding_audits": [
+        {
+          "file": "research/staged-completion/stage-03/FUNDING_AUDIT.json",
+          "source_id": "P3-21",
+          "prior_ids": [
+            "S134"
+          ],
+          "funding": "Vardal Foundation, Dagmar Foundation, Trygg-Hansa Insurance Company, Sahlgrenska University Foundation; no sponsor role reported",
+          "coi": "None declared",
+          "access": "Full text results and funding",
+          "independence_status": "mixed (insurer and foundations); no sponsor role reported"
+        }
+      ],
+      "archived_high_audit_disclosures": [],
+      "archived_primary_audit_ids": [],
+      "fresh_selected_check": null,
+      "disclosure_status": "both fields have notes, may be unknown/incomplete",
+      "remaining": "Confirm source-specific original disclosure, cash and in-kind funding, sponsor role, author and institutional interests, methods and applicability; unknown does not mean independent.",
+      "bias_appraisal_complete": false,
+      "independence_certified": false,
+      "clinical_review": false,
+      "publish": false
+    },
+    {
+      "id": "P3-22",
+      "title": "Acupuncture as an adjunct to standard treatment for pelvic girdle pain in pregnant women: randomised double-blinded controlled trial comparing acupuncture with non-penetrating sham acupuncture",
+      "funding_notes": [
+        "Not verified"
+      ],
+      "financial_interest_notes": [],
+      "archived_funding_audits": [
+        {
+          "file": "research/staged-completion/stage-03/FUNDING_AUDIT.json",
+          "source_id": "P3-22",
+          "prior_ids": [
+            "S220"
+          ],
+          "funding": "Not verified",
+          "coi": null,
+          "access": "Indexed primary identity and Cochrane synthesis",
+          "independence_status": "see disclosure; no independent certification"
+        }
+      ],
+      "archived_high_audit_disclosures": [],
+      "archived_primary_audit_ids": [],
+      "fresh_selected_check": null,
+      "disclosure_status": "one disclosure category has notes, other missing",
+      "remaining": "Confirm source-specific original disclosure, cash and in-kind funding, sponsor role, author and institutional interests, methods and applicability; unknown does not mean independent.",
+      "bias_appraisal_complete": false,
+      "independence_certified": false,
+      "clinical_review": false,
+      "publish": false
+    },
+    {
+      "id": "P3-23",
+      "title": "The efficacy of abdominal binder in women undergoing cesarean delivery: A meta-analysis of randomized controlled trials",
+      "funding_notes": [
+        "Not verified"
+      ],
+      "financial_interest_notes": [],
+      "archived_funding_audits": [
+        {
+          "file": "research/staged-completion/stage-03/FUNDING_AUDIT.json",
+          "source_id": "P3-23",
+          "prior_ids": [
+            "S036"
+          ],
+          "funding": "Not verified",
+          "coi": null,
+          "access": "Indexed abstract",
+          "independence_status": "see disclosure; no independent certification"
+        }
+      ],
+      "archived_high_audit_disclosures": [],
+      "archived_primary_audit_ids": [],
+      "fresh_selected_check": null,
+      "disclosure_status": "one disclosure category has notes, other missing",
+      "remaining": "Confirm source-specific original disclosure, cash and in-kind funding, sponsor role, author and institutional interests, methods and applicability; unknown does not mean independent.",
+      "bias_appraisal_complete": false,
+      "independence_certified": false,
+      "clinical_review": false,
+      "publish": false
+    },
+    {
+      "id": "P3-24",
+      "title": "Comparison of Silicone Sheets and Paper Tape for the Management of Postoperative Scars: A Randomized Comparative Study",
+      "funding_notes": [
+        "Not verified"
+      ],
+      "financial_interest_notes": [],
+      "archived_funding_audits": [
+        {
+          "file": "research/staged-completion/stage-03/FUNDING_AUDIT.json",
+          "source_id": "P3-24",
+          "prior_ids": [
+            "S118"
+          ],
+          "funding": "Not verified",
+          "coi": null,
+          "access": "Indexed abstract",
+          "independence_status": "see disclosure; no independent certification"
+        }
+      ],
+      "archived_high_audit_disclosures": [],
+      "archived_primary_audit_ids": [],
+      "fresh_selected_check": null,
+      "disclosure_status": "one disclosure category has notes, other missing",
+      "remaining": "Confirm source-specific original disclosure, cash and in-kind funding, sponsor role, author and institutional interests, methods and applicability; unknown does not mean independent.",
+      "bias_appraisal_complete": false,
+      "independence_certified": false,
+      "clinical_review": false,
+      "publish": false
+    },
+    {
+      "id": "P3-25",
+      "title": "Efficacy of topical silicone gel in scar management: A systematic review and meta-analysis of randomised controlled trials",
+      "funding_notes": [
+        "Not verified"
+      ],
+      "financial_interest_notes": [],
+      "archived_funding_audits": [
+        {
+          "file": "research/staged-completion/stage-03/FUNDING_AUDIT.json",
+          "source_id": "P3-25",
+          "prior_ids": [
+            "GE008"
+          ],
+          "funding": "Not verified",
+          "coi": null,
+          "access": "Indexed results/discussion",
+          "independence_status": "see disclosure; no independent certification"
+        }
+      ],
+      "archived_high_audit_disclosures": [],
+      "archived_primary_audit_ids": [],
+      "fresh_selected_check": null,
+      "disclosure_status": "one disclosure category has notes, other missing",
+      "remaining": "Confirm source-specific original disclosure, cash and in-kind funding, sponsor role, author and institutional interests, methods and applicability; unknown does not mean independent.",
+      "bias_appraisal_complete": false,
+      "independence_certified": false,
+      "clinical_review": false,
+      "publish": false
+    },
+    {
+      "id": "P3-26",
+      "title": "A prospective split-scar randomized controlled trial of post-operative silicone tape improves scar appearance",
+      "funding_notes": [
+        "Publisher funding page inaccessible; not verified"
+      ],
+      "financial_interest_notes": [],
+      "archived_funding_audits": [
+        {
+          "file": "research/staged-completion/stage-03/FUNDING_AUDIT.json",
+          "source_id": "P3-26",
+          "prior_ids": [],
+          "funding": "Publisher funding page inaccessible; not verified",
+          "coi": null,
+          "access": "Indexed article identity/abstract; blocked full-text",
+          "independence_status": "see disclosure; no independent certification"
+        }
+      ],
+      "archived_high_audit_disclosures": [],
+      "archived_primary_audit_ids": [],
+      "fresh_selected_check": null,
+      "disclosure_status": "one disclosure category has notes, other missing",
+      "remaining": "Confirm source-specific original disclosure, cash and in-kind funding, sponsor role, author and institutional interests, methods and applicability; unknown does not mean independent.",
+      "bias_appraisal_complete": false,
+      "independence_certified": false,
+      "clinical_review": false,
+      "publish": false
+    },
+    {
+      "id": "P3-27",
+      "title": "Compression stockings prophylaxis of emergent varicose veins in pregnancy: a prospective randomised controlled study",
+      "funding_notes": [
+        "Not verified"
+      ],
+      "financial_interest_notes": [],
+      "archived_funding_audits": [
+        {
+          "file": "research/staged-completion/stage-03/FUNDING_AUDIT.json",
+          "source_id": "P3-27",
+          "prior_ids": [
+            "S127"
+          ],
+          "funding": "Not verified",
+          "coi": null,
+          "access": "Indexed abstract",
+          "independence_status": "see disclosure; no independent certification"
+        }
+      ],
+      "archived_high_audit_disclosures": [],
+      "archived_primary_audit_ids": [],
+      "fresh_selected_check": null,
+      "disclosure_status": "one disclosure category has notes, other missing",
+      "remaining": "Confirm source-specific original disclosure, cash and in-kind funding, sponsor role, author and institutional interests, methods and applicability; unknown does not mean independent.",
+      "bias_appraisal_complete": false,
+      "independence_certified": false,
+      "clinical_review": false,
+      "publish": false
+    },
+    {
+      "id": "P3-28",
+      "title": "Evaluation of the effectiveness of a broad-spectrum sunscreen in the prevention of chloasma in pregnant women",
+      "funding_notes": [
+        "Not verified; manufacturer ties must be checked before product-specific claim"
+      ],
+      "financial_interest_notes": [],
+      "archived_funding_audits": [
+        {
+          "file": "research/staged-completion/stage-03/FUNDING_AUDIT.json",
+          "source_id": "P3-28",
+          "prior_ids": [],
+          "funding": "Not verified; manufacturer ties must be checked before product-specific claim",
+          "coi": null,
+          "access": "Indexed abstract",
+          "independence_status": "see disclosure; no independent certification"
+        }
+      ],
+      "archived_high_audit_disclosures": [],
+      "archived_primary_audit_ids": [],
+      "fresh_selected_check": null,
+      "disclosure_status": "one disclosure category has notes, other missing",
+      "remaining": "Confirm source-specific original disclosure, cash and in-kind funding, sponsor role, author and institutional interests, methods and applicability; unknown does not mean independent.",
+      "bias_appraisal_complete": false,
+      "independence_certified": false,
+      "clinical_review": false,
+      "publish": false
+    },
+    {
+      "id": "P3-29",
+      "title": "Investigation of exacerbating factors for postpartum hair loss: a questionnaire-based cross-sectional study",
+      "funding_notes": [
+        "Not verified"
+      ],
+      "financial_interest_notes": [],
+      "archived_funding_audits": [
+        {
+          "file": "research/staged-completion/stage-03/FUNDING_AUDIT.json",
+          "source_id": "P3-29",
+          "prior_ids": [
+            "S114"
+          ],
+          "funding": "Not verified",
+          "coi": null,
+          "access": "Indexed primary passages",
+          "independence_status": "see disclosure; no independent certification"
+        }
+      ],
+      "archived_high_audit_disclosures": [],
+      "archived_primary_audit_ids": [],
+      "fresh_selected_check": null,
+      "disclosure_status": "one disclosure category has notes, other missing",
+      "remaining": "Confirm source-specific original disclosure, cash and in-kind funding, sponsor role, author and institutional interests, methods and applicability; unknown does not mean independent.",
+      "bias_appraisal_complete": false,
+      "independence_certified": false,
+      "clinical_review": false,
+      "publish": false
+    },
+    {
+      "id": "P3-30",
+      "title": "Topical Acne Treatments",
+      "funding_notes": [
+        "Organization guidance; study funding separate"
+      ],
+      "financial_interest_notes": [],
+      "archived_funding_audits": [
+        {
+          "file": "research/staged-completion/stage-03/FUNDING_AUDIT.json",
+          "source_id": "P3-30",
+          "prior_ids": [
+            "S105",
+            "RP001"
+          ],
+          "funding": "Organization guidance; study funding separate",
+          "coi": null,
+          "access": "Indexed original fact sheet",
+          "independence_status": "see disclosure; no independent certification"
+        }
+      ],
+      "archived_high_audit_disclosures": [],
+      "archived_primary_audit_ids": [],
+      "fresh_selected_check": null,
+      "disclosure_status": "one disclosure category has notes, other missing",
+      "remaining": "Confirm source-specific original disclosure, cash and in-kind funding, sponsor role, author and institutional interests, methods and applicability; unknown does not mean independent.",
+      "bias_appraisal_complete": false,
+      "independence_certified": false,
+      "clinical_review": false,
+      "publish": false
+    },
+    {
+      "id": "P3-31",
+      "title": "Potential Risks with Certain Uses of Radiofrequency (RF) Microneedling — FDA Safety Communication",
+      "funding_notes": [
+        "FDA"
+      ],
+      "financial_interest_notes": [],
+      "archived_funding_audits": [
+        {
+          "file": "research/staged-completion/stage-03/FUNDING_AUDIT.json",
+          "source_id": "P3-31",
+          "prior_ids": [],
+          "funding": "FDA",
+          "coi": null,
+          "access": "Indexed original FDA notice",
+          "independence_status": "see disclosure; no independent certification"
+        }
+      ],
+      "archived_high_audit_disclosures": [],
+      "archived_primary_audit_ids": [],
+      "fresh_selected_check": null,
+      "disclosure_status": "one disclosure category has notes, other missing",
+      "remaining": "Confirm source-specific original disclosure, cash and in-kind funding, sponsor role, author and institutional interests, methods and applicability; unknown does not mean independent.",
+      "bias_appraisal_complete": false,
+      "independence_certified": false,
+      "clinical_review": false,
+      "publish": false
+    },
+    {
+      "id": "P3-32",
+      "title": "Urgent Maternal Warning Signs and Symptoms",
+      "funding_notes": [
+        "CDC"
+      ],
+      "financial_interest_notes": [],
+      "archived_funding_audits": [
+        {
+          "file": "research/staged-completion/stage-03/FUNDING_AUDIT.json",
+          "source_id": "P3-32",
+          "prior_ids": [],
+          "funding": "CDC",
+          "coi": null,
+          "access": "Indexed original CDC guidance",
+          "independence_status": "see disclosure; no independent certification"
+        }
+      ],
+      "archived_high_audit_disclosures": [],
+      "archived_primary_audit_ids": [],
+      "fresh_selected_check": null,
+      "disclosure_status": "one disclosure category has notes, other missing",
+      "remaining": "Confirm source-specific original disclosure, cash and in-kind funding, sponsor role, author and institutional interests, methods and applicability; unknown does not mean independent.",
+      "bias_appraisal_complete": false,
+      "independence_certified": false,
+      "clinical_review": false,
+      "publish": false
+    },
+    {
+      "id": "P3-33",
+      "title": "Physical Activity and Exercise During Pregnancy and the Postpartum Period",
+      "funding_notes": [
+        "Panel disclosure not checked"
+      ],
+      "financial_interest_notes": [],
+      "archived_funding_audits": [
+        {
+          "file": "research/staged-completion/stage-03/FUNDING_AUDIT.json",
+          "source_id": "P3-33",
+          "prior_ids": [
+            "S059"
+          ],
+          "funding": "Panel disclosure not checked",
+          "coi": null,
+          "access": "Indexed guideline passages",
+          "independence_status": "see disclosure; no independent certification"
+        }
+      ],
+      "archived_high_audit_disclosures": [],
+      "archived_primary_audit_ids": [],
+      "fresh_selected_check": null,
+      "disclosure_status": "one disclosure category has notes, other missing",
+      "remaining": "Confirm source-specific original disclosure, cash and in-kind funding, sponsor role, author and institutional interests, methods and applicability; unknown does not mean independent.",
+      "bias_appraisal_complete": false,
+      "independence_certified": false,
+      "clinical_review": false,
+      "publish": false
+    },
+    {
+      "id": "P3-34",
+      "title": "Interventions for preventing and treating low-back and pelvic pain during pregnancy",
+      "funding_notes": [
+        "Review and trial funding not fully extracted"
+      ],
+      "financial_interest_notes": [],
+      "archived_funding_audits": [
+        {
+          "file": "research/staged-completion/stage-03/FUNDING_AUDIT.json",
+          "source_id": "P3-34",
+          "prior_ids": [],
+          "funding": "Review and trial funding not fully extracted",
+          "coi": null,
+          "access": "Indexed full-text passages",
+          "independence_status": "see disclosure; no independent certification"
+        }
+      ],
+      "archived_high_audit_disclosures": [],
+      "archived_primary_audit_ids": [],
+      "fresh_selected_check": null,
+      "disclosure_status": "one disclosure category has notes, other missing",
+      "remaining": "Confirm source-specific original disclosure, cash and in-kind funding, sponsor role, author and institutional interests, methods and applicability; unknown does not mean independent.",
+      "bias_appraisal_complete": false,
+      "independence_certified": false,
+      "clinical_review": false,
+      "publish": false
+    },
+    {
+      "id": "P3-35",
+      "title": "Effect of hypopressive and conventional abdominal exercises on postpartum diastasis recti: A randomized controlled trial",
+      "funding_notes": [
+        "Not verified"
+      ],
+      "financial_interest_notes": [
+        "Authors declared no competing interests"
+      ],
+      "archived_funding_audits": [
+        {
+          "file": "research/staged-completion/stage-03/FUNDING_AUDIT.json",
+          "source_id": "P3-35",
+          "prior_ids": [
+            "S031"
+          ],
+          "funding": "Not verified",
+          "coi": "Authors declared no competing interests",
+          "access": "Indexed primary abstract",
+          "independence_status": "see disclosure; no independent certification"
+        }
+      ],
+      "archived_high_audit_disclosures": [],
+      "archived_primary_audit_ids": [],
+      "fresh_selected_check": null,
+      "disclosure_status": "both fields have notes, may be unknown/incomplete",
+      "remaining": "Confirm source-specific original disclosure, cash and in-kind funding, sponsor role, author and institutional interests, methods and applicability; unknown does not mean independent.",
+      "bias_appraisal_complete": false,
+      "independence_certified": false,
+      "clinical_review": false,
+      "publish": false
+    },
+    {
+      "id": "P4-01",
+      "title": "Parenting interventions to promote early child development in the first three years of life: a global systematic review and meta-analysis",
+      "funding_notes": [
+        "WHO grant APW-201931623; no funder role declared"
+      ],
+      "financial_interest_notes": [
+        "Authors declared no competing interests; Harvard academic affiliations. Underlying trial funding not audited."
+      ],
+      "archived_funding_audits": [
+        {
+          "file": "research/staged-completion/stage-04/FUNDING_AUDIT.json",
+          "source_id": "P4-01",
+          "funding": "WHO grant APW-201931623; no funder role declared",
+          "ties": "Authors declared no competing interests; Harvard academic affiliations. Underlying trial funding not audited.",
+          "verification": "Original PLOS full text funding/COI, abstract and figures",
+          "independent_certification": false
+        }
+      ],
+      "archived_high_audit_disclosures": [],
+      "archived_primary_audit_ids": [],
+      "fresh_selected_check": null,
+      "disclosure_status": "both fields have notes, may be unknown/incomplete",
+      "remaining": "Confirm source-specific original disclosure, cash and in-kind funding, sponsor role, author and institutional interests, methods and applicability; unknown does not mean independent.",
+      "bias_appraisal_complete": false,
+      "independence_certified": false,
+      "clinical_review": false,
+      "publish": false
+    },
+    {
+      "id": "P4-02",
+      "title": "Shared Picture Book Reading Interventions for Child Language Development: A Systematic Review and Meta-Analysis",
+      "funding_notes": [
+        "Author support: Rhodes Trust, Oppenheimer Memorial Trust, WITS NRF Centre; DECIPHer joint charities/public funders"
+      ],
+      "financial_interest_notes": [
+        "Full COI not accessible; separate author support from review grant and underlying trial funding"
+      ],
+      "archived_funding_audits": [
+        {
+          "file": "research/staged-completion/stage-04/FUNDING_AUDIT.json",
+          "source_id": "P4-02",
+          "funding": "Author support: Rhodes Trust, Oppenheimer Memorial Trust, WITS NRF Centre; DECIPHer joint charities/public funders",
+          "ties": "Full COI not accessible; separate author support from review grant and underlying trial funding",
+          "verification": "Wiley abstract and acknowledgments",
+          "independent_certification": false
+        }
+      ],
+      "archived_high_audit_disclosures": [],
+      "archived_primary_audit_ids": [],
+      "fresh_selected_check": null,
+      "disclosure_status": "both fields have notes, may be unknown/incomplete",
+      "remaining": "Confirm source-specific original disclosure, cash and in-kind funding, sponsor role, author and institutional interests, methods and applicability; unknown does not mean independent.",
+      "bias_appraisal_complete": false,
+      "independence_certified": false,
+      "clinical_review": false,
+      "publish": false
+    },
+    {
+      "id": "P4-03",
+      "title": "Association of the Type of Toy Used During Play With the Quantity and Quality of Parent-Infant Communication",
+      "funding_notes": [
+        "American Speech-Language-Hearing Foundation; no funder role declared"
+      ],
+      "financial_interest_notes": [
+        "No COI reported; Northern Arizona University; coding assistants paid by project."
+      ],
+      "archived_funding_audits": [
+        {
+          "file": "research/staged-completion/stage-04/FUNDING_AUDIT.json",
+          "source_id": "P4-03",
+          "funding": "American Speech-Language-Hearing Foundation; no funder role declared",
+          "ties": "No COI reported; Northern Arizona University; coding assistants paid by project.",
+          "verification": "Original JAMA Table 2 and disclosure",
+          "independent_certification": false
+        }
+      ],
+      "archived_high_audit_disclosures": [],
+      "archived_primary_audit_ids": [],
+      "fresh_selected_check": null,
+      "disclosure_status": "both fields have notes, may be unknown/incomplete",
+      "remaining": "Confirm source-specific original disclosure, cash and in-kind funding, sponsor role, author and institutional interests, methods and applicability; unknown does not mean independent.",
+      "bias_appraisal_complete": false,
+      "independence_certified": false,
+      "clinical_review": false,
+      "publish": false
+    },
+    {
+      "id": "P4-04",
+      "title": "Early Childhood Screen Use Contexts and Cognitive and Psychosocial Outcomes: A Systematic Review and Meta-analysis",
+      "funding_notes": [
+        "Australian Research Council Centre of Excellence for the Digital Child CE200100022"
+      ],
+      "financial_interest_notes": [
+        "No conflicts reported; center-level partner support beyond article disclosures not checked."
+      ],
+      "archived_funding_audits": [
+        {
+          "file": "research/staged-completion/stage-04/FUNDING_AUDIT.json",
+          "source_id": "P4-04",
+          "funding": "Australian Research Council Centre of Excellence for the Digital Child CE200100022",
+          "ties": "No conflicts reported; center-level partner support beyond article disclosures not checked.",
+          "verification": "Original JAMA results, methods and disclosure",
+          "independent_certification": false
+        }
+      ],
+      "archived_high_audit_disclosures": [],
+      "archived_primary_audit_ids": [],
+      "fresh_selected_check": null,
+      "disclosure_status": "both fields have notes, may be unknown/incomplete",
+      "remaining": "Confirm source-specific original disclosure, cash and in-kind funding, sponsor role, author and institutional interests, methods and applicability; unknown does not mean independent.",
+      "bias_appraisal_complete": false,
+      "independence_certified": false,
+      "clinical_review": false,
+      "publish": false
+    },
+    {
+      "id": "P4-05",
+      "title": "Associations Between Screen Use and Child Language Skills: A Systematic Review and Meta-analysis",
+      "funding_notes": [
+        "Specific review funding not located in inspected HTML"
+      ],
+      "financial_interest_notes": [
+        "No COI reported; Christakis journal editor recused from editorial decision"
+      ],
+      "archived_funding_audits": [
+        {
+          "file": "research/staged-completion/stage-04/FUNDING_AUDIT.json",
+          "source_id": "P4-05",
+          "funding": "Specific review funding not located in inspected HTML",
+          "ties": "No COI reported; Christakis journal editor recused from editorial decision",
+          "verification": "Original JAMA article disclosure, indexed abstract",
+          "independent_certification": false
+        }
+      ],
+      "archived_high_audit_disclosures": [],
+      "archived_primary_audit_ids": [],
+      "fresh_selected_check": null,
+      "disclosure_status": "both fields have notes, may be unknown/incomplete",
+      "remaining": "Confirm source-specific original disclosure, cash and in-kind funding, sponsor role, author and institutional interests, methods and applicability; unknown does not mean independent.",
+      "bias_appraisal_complete": false,
+      "independence_certified": false,
+      "clinical_review": false,
+      "publish": false
+    },
+    {
+      "id": "P4-06",
+      "title": "Learning-induced neural plasticity of speech processing before birth",
+      "funding_notes": [
+        "Not verified"
+      ],
+      "financial_interest_notes": [
+        "Not verified"
+      ],
+      "archived_funding_audits": [
+        {
+          "file": "research/staged-completion/stage-04/FUNDING_AUDIT.json",
+          "source_id": "P4-06",
+          "funding": "Not verified",
+          "ties": "Not verified",
+          "verification": "Primary abstract",
+          "independent_certification": false
+        }
+      ],
+      "archived_high_audit_disclosures": [],
+      "archived_primary_audit_ids": [],
+      "fresh_selected_check": null,
+      "disclosure_status": "both fields have notes, may be unknown/incomplete",
+      "remaining": "Confirm source-specific original disclosure, cash and in-kind funding, sponsor role, author and institutional interests, methods and applicability; unknown does not mean independent.",
+      "bias_appraisal_complete": false,
+      "independence_certified": false,
+      "clinical_review": false,
+      "publish": false
+    },
+    {
+      "id": "P4-07",
+      "title": "Prenatal Music Exposure Induces Long-Term Neural Effects",
+      "funding_notes": [
+        "Academy of Finland, ERANET-NEURON PANS, University of Helsinki graduate grant, Finnish Cultural Foundation"
+      ],
+      "financial_interest_notes": [
+        "Authors declare no competing interests"
+      ],
+      "archived_funding_audits": [
+        {
+          "file": "research/staged-completion/stage-04/FUNDING_AUDIT.json",
+          "source_id": "P4-07",
+          "funding": "Academy of Finland, ERANET-NEURON PANS, University of Helsinki graduate grant, Finnish Cultural Foundation",
+          "ties": "Authors declare no competing interests",
+          "verification": "Indexed original PLOS abstract, funding, COI",
+          "independent_certification": false
+        }
+      ],
+      "archived_high_audit_disclosures": [],
+      "archived_primary_audit_ids": [],
+      "fresh_selected_check": null,
+      "disclosure_status": "both fields have notes, may be unknown/incomplete",
+      "remaining": "Confirm source-specific original disclosure, cash and in-kind funding, sponsor role, author and institutional interests, methods and applicability; unknown does not mean independent.",
+      "bias_appraisal_complete": false,
+      "independence_certified": false,
+      "clinical_review": false,
+      "publish": false
+    },
+    {
+      "id": "P4-08",
+      "title": "Maternal choline supplementation during the third trimester of pregnancy improves infant information processing speed: a randomized, double-blind, controlled feeding study",
+      "funding_notes": [
+        "Egg Nutrition Center, Beef Checkoff, US public funding; authors report no funder role; complete exact grant list pending"
+      ],
+      "financial_interest_notes": [
+        "Industry promotion funding; complete individual disclosures pending primary extraction"
+      ],
+      "archived_funding_audits": [
+        {
+          "file": "research/staged-completion/stage-04/FUNDING_AUDIT.json",
+          "source_id": "P4-08",
+          "funding": "Egg Nutrition Center, Beef Checkoff, US public funding; authors report no funder role; complete exact grant list pending",
+          "ties": "Industry promotion funding; complete individual disclosures pending primary extraction",
+          "verification": "Primary PubMed indexed grant/disclosure and abstract",
+          "independent_certification": false
+        }
+      ],
+      "archived_high_audit_disclosures": [],
+      "archived_primary_audit_ids": [],
+      "fresh_selected_check": null,
+      "disclosure_status": "both fields have notes, may be unknown/incomplete",
+      "remaining": "Confirm source-specific original disclosure, cash and in-kind funding, sponsor role, author and institutional interests, methods and applicability; unknown does not mean independent.",
+      "bias_appraisal_complete": false,
+      "independence_certified": false,
+      "clinical_review": false,
+      "publish": false
+    },
+    {
+      "id": "P4-09",
+      "title": "Prenatal choline supplementation improves child sustained attention: A 7-year follow-up of a randomized controlled feeding trial",
+      "funding_notes": [
+        "NIFA/USDA Hatch 1007195 and Balchem Corp; trainee NICHD and Egg Nutrition Center award"
+      ],
+      "financial_interest_notes": [
+        "Authors declared no conflicts in 2022; later protocol discloses Canfield consultant for Balchem, arrangement after original study/funding."
+      ],
+      "archived_funding_audits": [
+        {
+          "file": "research/staged-completion/stage-04/FUNDING_AUDIT.json",
+          "source_id": "P4-09",
+          "funding": "NIFA/USDA Hatch 1007195 and Balchem Corp; trainee NICHD and Egg Nutrition Center award",
+          "ties": "Authors declared no conflicts in 2022; later protocol discloses Canfield consultant for Balchem, arrangement after original study/funding.",
+          "verification": "Indexed original Wiley results, funding/COI",
+          "independent_certification": false
+        }
+      ],
+      "archived_high_audit_disclosures": [],
+      "archived_primary_audit_ids": [],
+      "fresh_selected_check": null,
+      "disclosure_status": "both fields have notes, may be unknown/incomplete",
+      "remaining": "Confirm source-specific original disclosure, cash and in-kind funding, sponsor role, author and institutional interests, methods and applicability; unknown does not mean independent.",
+      "bias_appraisal_complete": false,
+      "independence_certified": false,
+      "clinical_review": false,
+      "publish": false
+    },
+    {
+      "id": "P4-10",
+      "title": "Phosphatidylcholine supplementation in pregnant women consuming moderate-choline diets does not enhance infant cognitive function: a randomized, double-blind, placebo-controlled trial",
+      "funding_notes": [
+        "Gerber Foundation, NIH grants and Egg Nutrition Center; funders no role per authors"
+      ],
+      "financial_interest_notes": [
+        "Gerber Foundation affiliation/ultimate funding not inferred; author COI full extraction pending"
+      ],
+      "archived_funding_audits": [
+        {
+          "file": "research/staged-completion/stage-04/FUNDING_AUDIT.json",
+          "source_id": "P4-10",
+          "funding": "Gerber Foundation, NIH grants and Egg Nutrition Center; funders no role per authors",
+          "ties": "Gerber Foundation affiliation/ultimate funding not inferred; author COI full extraction pending",
+          "verification": "Indexed original PMC and PubMed",
+          "independent_certification": false
+        }
+      ],
+      "archived_high_audit_disclosures": [],
+      "archived_primary_audit_ids": [],
+      "fresh_selected_check": null,
+      "disclosure_status": "both fields have notes, may be unknown/incomplete",
+      "remaining": "Confirm source-specific original disclosure, cash and in-kind funding, sponsor role, author and institutional interests, methods and applicability; unknown does not mean independent.",
+      "bias_appraisal_complete": false,
+      "independence_certified": false,
+      "clinical_review": false,
+      "publish": false
+    },
+    {
+      "id": "P4-11",
+      "title": "The Effect of Maternal Choline Intake on Offspring Cognition in Adolescence: Protocol for a 14-year Follow-Up of a Randomized Controlled Feeding Trial",
+      "funding_notes": [
+        "NIH T32 HD087137, Egg Nutrition Center, Balchem Corporation"
+      ],
+      "financial_interest_notes": [
+        "RLC consultant for Balchem; authors say original study and funding predate arrangement."
+      ],
+      "archived_funding_audits": [
+        {
+          "file": "research/staged-completion/stage-04/FUNDING_AUDIT.json",
+          "source_id": "P4-11",
+          "funding": "NIH T32 HD087137, Egg Nutrition Center, Balchem Corporation",
+          "ties": "RLC consultant for Balchem; authors say original study and funding predate arrangement.",
+          "verification": "Indexed primary protocol disclosures",
+          "independent_certification": false
+        }
+      ],
+      "archived_high_audit_disclosures": [],
+      "archived_primary_audit_ids": [],
+      "fresh_selected_check": null,
+      "disclosure_status": "both fields have notes, may be unknown/incomplete",
+      "remaining": "Confirm source-specific original disclosure, cash and in-kind funding, sponsor role, author and institutional interests, methods and applicability; unknown does not mean independent.",
+      "bias_appraisal_complete": false,
+      "independence_certified": false,
+      "clinical_review": false,
+      "publish": false
+    },
+    {
+      "id": "P4-12",
+      "title": "Seven-Year Follow-up of Children Born to Women in a Randomized Trial of Prenatal DHA Supplementation",
+      "funding_notes": [
+        "NHMRC grants 349301 and 1048493; Croda Chemicals donated study capsules"
+      ],
+      "financial_interest_notes": [
+        "Makrides advisory boards Nestlé Nutrition Institute, Fonterra, True Origins; Gould honoraria Nestlé Nutrition Institute; payments to institutions."
+      ],
+      "archived_funding_audits": [
+        {
+          "file": "research/staged-completion/stage-04/FUNDING_AUDIT.json",
+          "source_id": "P4-12",
+          "funding": "NHMRC grants 349301 and 1048493; Croda Chemicals donated study capsules",
+          "ties": "Makrides advisory boards Nestlé Nutrition Institute, Fonterra, True Origins; Gould honoraria Nestlé Nutrition Institute; payments to institutions.",
+          "verification": "Original JAMA table and disclosures",
+          "independent_certification": false
+        }
+      ],
+      "archived_high_audit_disclosures": [],
+      "archived_primary_audit_ids": [],
+      "fresh_selected_check": null,
+      "disclosure_status": "both fields have notes, may be unknown/incomplete",
+      "remaining": "Confirm source-specific original disclosure, cash and in-kind funding, sponsor role, author and institutional interests, methods and applicability; unknown does not mean independent.",
+      "bias_appraisal_complete": false,
+      "independence_certified": false,
+      "clinical_review": false,
+      "publish": false
+    },
+    {
+      "id": "P4-13",
+      "title": "Effects of Regular Exercise During Pregnancy on Early Childhood Neurodevelopment: The Physical Activity for Mothers Enrolled in Longitudinal Analysis Randomized Controlled Trial",
+      "funding_notes": [
+        "Not verified"
+      ],
+      "financial_interest_notes": [
+        "Not verified"
+      ],
+      "archived_funding_audits": [
+        {
+          "file": "research/staged-completion/stage-04/FUNDING_AUDIT.json",
+          "source_id": "P4-13",
+          "funding": "Not verified",
+          "ties": "Not verified",
+          "verification": "Primary abstract",
+          "independent_certification": false
+        }
+      ],
+      "archived_high_audit_disclosures": [],
+      "archived_primary_audit_ids": [],
+      "fresh_selected_check": null,
+      "disclosure_status": "both fields have notes, may be unknown/incomplete",
+      "remaining": "Confirm source-specific original disclosure, cash and in-kind funding, sponsor role, author and institutional interests, methods and applicability; unknown does not mean independent.",
+      "bias_appraisal_complete": false,
+      "independence_certified": false,
+      "clinical_review": false,
+      "publish": false
+    },
+    {
+      "id": "P4-14",
+      "title": "Neurodevelopmental outcome in 7-year-old children is not affected by exercise during pregnancy: follow up of a multicentre randomised controlled trial",
+      "funding_notes": [
+        "Not verified"
+      ],
+      "financial_interest_notes": [
+        "Not verified"
+      ],
+      "archived_funding_audits": [
+        {
+          "file": "research/staged-completion/stage-04/FUNDING_AUDIT.json",
+          "source_id": "P4-14",
+          "funding": "Not verified",
+          "ties": "Not verified",
+          "verification": "Primary abstract",
+          "independent_certification": false
+        }
+      ],
+      "archived_high_audit_disclosures": [],
+      "archived_primary_audit_ids": [],
+      "fresh_selected_check": null,
+      "disclosure_status": "both fields have notes, may be unknown/incomplete",
+      "remaining": "Confirm source-specific original disclosure, cash and in-kind funding, sponsor role, author and institutional interests, methods and applicability; unknown does not mean independent.",
+      "bias_appraisal_complete": false,
+      "independence_certified": false,
+      "clinical_review": false,
+      "publish": false
+    },
+    {
+      "id": "P4-15",
+      "title": "Physical Activity Before and During Pregnancy and Neurodevelopment in Early Childhood",
+      "funding_notes": [
+        "Not verified"
+      ],
+      "financial_interest_notes": [
+        "Not verified"
+      ],
+      "archived_funding_audits": [
+        {
+          "file": "research/staged-completion/stage-04/FUNDING_AUDIT.json",
+          "source_id": "P4-15",
+          "funding": "Not verified",
+          "ties": "Not verified",
+          "verification": "Indexed primary abstract/results",
+          "independent_certification": false
+        }
+      ],
+      "archived_high_audit_disclosures": [],
+      "archived_primary_audit_ids": [],
+      "fresh_selected_check": null,
+      "disclosure_status": "both fields have notes, may be unknown/incomplete",
+      "remaining": "Confirm source-specific original disclosure, cash and in-kind funding, sponsor role, author and institutional interests, methods and applicability; unknown does not mean independent.",
+      "bias_appraisal_complete": false,
+      "independence_certified": false,
+      "clinical_review": false,
+      "publish": false
+    },
+    {
+      "id": "P4-16",
+      "title": "Association between prenatal maternal anxiety and/or stress and offspring's cognitive functioning: A meta-analysis",
+      "funding_notes": [
+        "Not verified"
+      ],
+      "financial_interest_notes": [
+        "Not verified"
+      ],
+      "archived_funding_audits": [
+        {
+          "file": "research/staged-completion/stage-04/FUNDING_AUDIT.json",
+          "source_id": "P4-16",
+          "funding": "Not verified",
+          "ties": "Not verified",
+          "verification": "Primary abstract and publisher methods",
+          "independent_certification": false
+        }
+      ],
+      "archived_high_audit_disclosures": [],
+      "archived_primary_audit_ids": [],
+      "fresh_selected_check": null,
+      "disclosure_status": "both fields have notes, may be unknown/incomplete",
+      "remaining": "Confirm source-specific original disclosure, cash and in-kind funding, sponsor role, author and institutional interests, methods and applicability; unknown does not mean independent.",
+      "bias_appraisal_complete": false,
+      "independence_certified": false,
+      "clinical_review": false,
+      "publish": false
+    },
+    {
+      "id": "P4-17",
+      "title": "Effect of integrated responsive stimulation and nutrition interventions in the Lady Health Worker programme in Pakistan on child development, growth, and health outcomes: a cluster-randomised factorial effectiveness trial",
+      "funding_notes": [
+        "UNICEF"
+      ],
+      "financial_interest_notes": [
+        "Full individual COI pending"
+      ],
+      "archived_funding_audits": [
+        {
+          "file": "research/staged-completion/stage-04/FUNDING_AUDIT.json",
+          "source_id": "P4-17",
+          "funding": "UNICEF",
+          "ties": "Full individual COI pending",
+          "verification": "Primary abstract funding/results",
+          "independent_certification": false
+        }
+      ],
+      "archived_high_audit_disclosures": [],
+      "archived_primary_audit_ids": [],
+      "fresh_selected_check": null,
+      "disclosure_status": "both fields have notes, may be unknown/incomplete",
+      "remaining": "Confirm source-specific original disclosure, cash and in-kind funding, sponsor role, author and institutional interests, methods and applicability; unknown does not mean independent.",
+      "bias_appraisal_complete": false,
+      "independence_certified": false,
+      "clinical_review": false,
+      "publish": false
+    },
+    {
+      "id": "P4-18",
+      "title": "Effects of responsive stimulation and nutrition interventions on children's development and growth at age 4 years in a disadvantaged population in Pakistan: a longitudinal follow-up of a cluster-randomised factorial effectiveness trial",
+      "funding_notes": [
+        "Grand Challenges Canada"
+      ],
+      "financial_interest_notes": [
+        "Full individual disclosures pending"
+      ],
+      "archived_funding_audits": [
+        {
+          "file": "research/staged-completion/stage-04/FUNDING_AUDIT.json",
+          "source_id": "P4-18",
+          "funding": "Grand Challenges Canada",
+          "ties": "Full individual disclosures pending",
+          "verification": "Primary abstract",
+          "independent_certification": false
+        }
+      ],
+      "archived_high_audit_disclosures": [],
+      "archived_primary_audit_ids": [],
+      "fresh_selected_check": null,
+      "disclosure_status": "both fields have notes, may be unknown/incomplete",
+      "remaining": "Confirm source-specific original disclosure, cash and in-kind funding, sponsor role, author and institutional interests, methods and applicability; unknown does not mean independent.",
+      "bias_appraisal_complete": false,
+      "independence_certified": false,
+      "clinical_review": false,
+      "publish": false
+    },
+    {
+      "id": "P4-19",
+      "title": "Tummy Time and Infant Health Outcomes: A Systematic Review",
+      "funding_notes": [
+        "Not verified"
+      ],
+      "financial_interest_notes": [
+        "Article disclosure not independently opened; unknown"
+      ],
+      "archived_funding_audits": [
+        {
+          "file": "research/staged-completion/stage-04/FUNDING_AUDIT.json",
+          "source_id": "P4-19",
+          "funding": "Not verified",
+          "ties": "Article disclosure not independently opened; unknown",
+          "verification": "Primary indexed abstract; PDF not used as extraction source",
+          "independent_certification": false
+        }
+      ],
+      "archived_high_audit_disclosures": [],
+      "archived_primary_audit_ids": [],
+      "fresh_selected_check": null,
+      "disclosure_status": "both fields have notes, may be unknown/incomplete",
+      "remaining": "Confirm source-specific original disclosure, cash and in-kind funding, sponsor role, author and institutional interests, methods and applicability; unknown does not mean independent.",
+      "bias_appraisal_complete": false,
+      "independence_certified": false,
+      "clinical_review": false,
+      "publish": false
+    },
+    {
+      "id": "P4-20",
+      "title": "WHO Motor Development Study: windows of achievement for six gross motor development milestones",
+      "funding_notes": [
+        "Primary grants not verified"
+      ],
+      "financial_interest_notes": [
+        "Not verified"
+      ],
+      "archived_funding_audits": [
+        {
+          "file": "research/staged-completion/stage-04/FUNDING_AUDIT.json",
+          "source_id": "P4-20",
+          "funding": "Primary grants not verified",
+          "ties": "Not verified",
+          "verification": "Primary abstract and WHO HTML index",
+          "independent_certification": false
+        }
+      ],
+      "archived_high_audit_disclosures": [],
+      "archived_primary_audit_ids": [],
+      "fresh_selected_check": null,
+      "disclosure_status": "both fields have notes, may be unknown/incomplete",
+      "remaining": "Confirm source-specific original disclosure, cash and in-kind funding, sponsor role, author and institutional interests, methods and applicability; unknown does not mean independent.",
+      "bias_appraisal_complete": false,
+      "independence_certified": false,
+      "clinical_review": false,
+      "publish": false
+    },
+    {
+      "id": "P4-21",
+      "title": "Infant Walker-Related Injuries in the United States",
+      "funding_notes": [
+        "Grant detail not extracted"
+      ],
+      "financial_interest_notes": [
+        "Not verified"
+      ],
+      "archived_funding_audits": [
+        {
+          "file": "research/staged-completion/stage-04/FUNDING_AUDIT.json",
+          "source_id": "P4-21",
+          "funding": "Grant detail not extracted",
+          "ties": "Not verified",
+          "verification": "Primary abstract",
+          "independent_certification": false
+        }
+      ],
+      "archived_high_audit_disclosures": [],
+      "archived_primary_audit_ids": [],
+      "fresh_selected_check": null,
+      "disclosure_status": "both fields have notes, may be unknown/incomplete",
+      "remaining": "Confirm source-specific original disclosure, cash and in-kind funding, sponsor role, author and institutional interests, methods and applicability; unknown does not mean independent.",
+      "bias_appraisal_complete": false,
+      "independence_certified": false,
+      "clinical_review": false,
+      "publish": false
+    },
+    {
+      "id": "P4-22",
+      "title": "CDC developmental milestones",
+      "funding_notes": [
+        "CDC educational resource; panel ties not assessed"
+      ],
+      "financial_interest_notes": [],
+      "archived_funding_audits": [
+        {
+          "file": "research/staged-completion/stage-04/FUNDING_AUDIT.json",
+          "source_id": "P4-22",
+          "funding": "CDC educational resource; panel ties not assessed",
+          "ties": null,
+          "verification": "CDC HTML",
+          "independent_certification": false
+        }
+      ],
+      "archived_high_audit_disclosures": [],
+      "archived_primary_audit_ids": [],
+      "fresh_selected_check": null,
+      "disclosure_status": "one disclosure category has notes, other missing",
+      "remaining": "Confirm source-specific original disclosure, cash and in-kind funding, sponsor role, author and institutional interests, methods and applicability; unknown does not mean independent.",
+      "bias_appraisal_complete": false,
+      "independence_certified": false,
+      "clinical_review": false,
+      "publish": false
+    },
+    {
+      "id": "P4-23",
+      "title": "Young Children Learning Multiple Languages: Parent FAQs",
+      "funding_notes": [
+        "AAP resource; underlying evidence and panel disclosures not audited"
+      ],
+      "financial_interest_notes": [],
+      "archived_funding_audits": [
+        {
+          "file": "research/staged-completion/stage-04/FUNDING_AUDIT.json",
+          "source_id": "P4-23",
+          "funding": "AAP resource; underlying evidence and panel disclosures not audited",
+          "ties": null,
+          "verification": "Original indexed guidance",
+          "independent_certification": false
+        }
+      ],
+      "archived_high_audit_disclosures": [],
+      "archived_primary_audit_ids": [],
+      "fresh_selected_check": null,
+      "disclosure_status": "one disclosure category has notes, other missing",
+      "remaining": "Confirm source-specific original disclosure, cash and in-kind funding, sponsor role, author and institutional interests, methods and applicability; unknown does not mean independent.",
+      "bias_appraisal_complete": false,
+      "independence_certified": false,
+      "clinical_review": false,
+      "publish": false
+    },
+    {
+      "id": "P4-24",
+      "title": "Early neurodevelopment in the offspring of women enrolled in a randomized controlled trial assessing the effectiveness of a nutrition + exercise intervention on the cognitive development of 12-month-olds",
+      "funding_notes": [
+        "Not verified"
+      ],
+      "financial_interest_notes": [
+        "Not verified"
+      ],
+      "archived_funding_audits": [
+        {
+          "file": "research/staged-completion/stage-04/FUNDING_AUDIT.json",
+          "source_id": "P4-24",
+          "funding": "Not verified",
+          "ties": "Not verified",
+          "verification": "Primary indexed abstract",
+          "independent_certification": false
+        }
+      ],
+      "archived_high_audit_disclosures": [],
+      "archived_primary_audit_ids": [],
+      "fresh_selected_check": null,
+      "disclosure_status": "both fields have notes, may be unknown/incomplete",
+      "remaining": "Confirm source-specific original disclosure, cash and in-kind funding, sponsor role, author and institutional interests, methods and applicability; unknown does not mean independent.",
+      "bias_appraisal_complete": false,
+      "independence_certified": false,
+      "clinical_review": false,
+      "publish": false
+    },
+    {
+      "id": "P5-01",
+      "title": "Effects and safety of periconceptional oral folate supplementation for preventing birth defects",
+      "funding_notes": [
+        "Review and primary disclosures not fully extracted"
+      ],
+      "financial_interest_notes": [
+        "Unknown"
+      ],
+      "archived_funding_audits": [
+        {
+          "file": "research/staged-completion/stage-05/FUNDING_AUDIT.json",
+          "source_id": "P5-01",
+          "funding": "Review and primary disclosures not fully extracted",
+          "financial_ties": "Unknown",
+          "access": "Cochrane HTML abstract",
+          "independence_certified": false
+        }
+      ],
+      "archived_high_audit_disclosures": [],
+      "archived_primary_audit_ids": [],
+      "fresh_selected_check": null,
+      "disclosure_status": "both fields have notes, may be unknown/incomplete",
+      "remaining": "Confirm source-specific original disclosure, cash and in-kind funding, sponsor role, author and institutional interests, methods and applicability; unknown does not mean independent.",
+      "bias_appraisal_complete": false,
+      "independence_certified": false,
+      "clinical_review": false,
+      "publish": false
+    },
+    {
+      "id": "P5-02",
+      "title": "Prevention of neural tube defects: results of the Medical Research Council Vitamin Study",
+      "funding_notes": [
+        "MRC research group; complete primary support/donations unknown"
+      ],
+      "financial_interest_notes": [
+        "Unknown"
+      ],
+      "archived_funding_audits": [
+        {
+          "file": "research/staged-completion/stage-05/FUNDING_AUDIT.json",
+          "source_id": "P5-02",
+          "funding": "MRC research group; complete primary support/donations unknown",
+          "financial_ties": "Unknown",
+          "access": "Primary indexed abstract",
+          "independence_certified": false
+        }
+      ],
+      "archived_high_audit_disclosures": [],
+      "archived_primary_audit_ids": [],
+      "fresh_selected_check": null,
+      "disclosure_status": "both fields have notes, may be unknown/incomplete",
+      "remaining": "Confirm source-specific original disclosure, cash and in-kind funding, sponsor role, author and institutional interests, methods and applicability; unknown does not mean independent.",
+      "bias_appraisal_complete": false,
+      "independence_certified": false,
+      "clinical_review": false,
+      "publish": false
+    },
+    {
+      "id": "P5-03",
+      "title": "USPSTF folic acid recommendation; CDC clinician guidance",
+      "funding_notes": [
+        "Government guidance"
+      ],
+      "financial_interest_notes": [
+        "Panel/underlying trials not fully audited"
+      ],
+      "archived_funding_audits": [
+        {
+          "file": "research/staged-completion/stage-05/FUNDING_AUDIT.json",
+          "source_id": "P5-03",
+          "funding": "Government guidance",
+          "financial_ties": "Panel/underlying trials not fully audited",
+          "access": "Official guidance HTML/index",
+          "independence_certified": false
+        }
+      ],
+      "archived_high_audit_disclosures": [],
+      "archived_primary_audit_ids": [],
+      "fresh_selected_check": null,
+      "disclosure_status": "both fields have notes, may be unknown/incomplete",
+      "remaining": "Confirm source-specific original disclosure, cash and in-kind funding, sponsor role, author and institutional interests, methods and applicability; unknown does not mean independent.",
+      "bias_appraisal_complete": false,
+      "independence_certified": false,
+      "clinical_review": false,
+      "publish": false
+    },
+    {
+      "id": "P5-04",
+      "title": "MTHFR Gene Variant and Folic Acid Facts",
+      "funding_notes": [
+        "CDC"
+      ],
+      "financial_interest_notes": [
+        "No product sponsor inference"
+      ],
+      "archived_funding_audits": [
+        {
+          "file": "research/staged-completion/stage-05/FUNDING_AUDIT.json",
+          "source_id": "P5-04",
+          "funding": "CDC",
+          "financial_ties": "No product sponsor inference",
+          "access": "Official indexed guidance",
+          "independence_certified": false
+        }
+      ],
+      "archived_high_audit_disclosures": [],
+      "archived_primary_audit_ids": [],
+      "fresh_selected_check": null,
+      "disclosure_status": "both fields have notes, may be unknown/incomplete",
+      "remaining": "Confirm source-specific original disclosure, cash and in-kind funding, sponsor role, author and institutional interests, methods and applicability; unknown does not mean independent.",
+      "bias_appraisal_complete": false,
+      "independence_certified": false,
+      "clinical_review": false,
+      "publish": false
+    },
+    {
+      "id": "P5-05",
+      "title": "Calcium supplementation during pregnancy for preventing hypertensive disorders and related problems",
+      "funding_notes": [
+        "Part-funded WHO",
+        "Review-level and contributing-trial disclosure not fully re-extracted."
+      ],
+      "financial_interest_notes": [
+        "Review-level full COI pending; trial-level separate",
+        "Full disclosures pending."
+      ],
+      "archived_funding_audits": [
+        {
+          "file": "research/staged-completion/stage-05/FUNDING_AUDIT.json",
+          "source_id": "P5-05",
+          "funding": "Part-funded WHO",
+          "financial_ties": "Review-level full COI pending; trial-level separate",
+          "access": "Cochrane HTML funding and indexed abstract",
+          "independence_certified": false
+        }
+      ],
+      "archived_high_audit_disclosures": [],
+      "archived_primary_audit_ids": [],
+      "fresh_selected_check": {
+        "id": "P5-05",
+        "url": "https://doi.org/10.1002/14651858.CD001059.pub6",
+        "locator": "Updated Cochrane review abstract, search to 7 Jan 2025",
+        "finding": "Preeclampsia RR 0.83 (95% CI 0.67–1.04), 6 trials, 15,364 women, low certainty. Clear preventive benefit not established in this analysis.",
+        "limitations": "Trustworthiness exclusions materially affect pooled estimates. Calcium adequacy and targeted hypertension prevention differ; do not independently change clinical guidance.",
+        "funding": "Review-level and contributing-trial disclosure not fully re-extracted.",
+        "coi": "Full disclosures pending.",
+        "article_ids": [
+          "EV-ART-009"
+        ],
+        "related_ids": [
+          "S092",
+          "P5-06",
+          "S093"
+        ],
+        "scope": "original abstract checked"
+      },
+      "disclosure_status": "both fields have notes, may be unknown/incomplete",
+      "remaining": "Confirm source-specific original disclosure, cash and in-kind funding, sponsor role, author and institutional interests, methods and applicability; unknown does not mean independent.",
+      "bias_appraisal_complete": false,
+      "independence_certified": false,
+      "clinical_review": false,
+      "publish": false
+    },
+    {
+      "id": "P5-06",
+      "title": "Trial trustworthiness assessment: commentary on the Cochrane 2025 systematic review on calcium supplementation during pregnancy",
+      "funding_notes": [
+        "No specific grant declared",
+        "No specific grant reported."
+      ],
+      "financial_interest_notes": [
+        "Atallah and Torloni coauthored earlier Cochrane versions; Cormick no competing interests declared",
+        "Two authors contributed to earlier Cochrane calcium reviews; third declared no competing interests."
+      ],
+      "archived_funding_audits": [
+        {
+          "file": "research/staged-completion/stage-05/FUNDING_AUDIT.json",
+          "source_id": "P5-06",
+          "funding": "No specific grant declared",
+          "financial_ties": "Atallah and Torloni coauthored earlier Cochrane versions; Cormick no competing interests declared",
+          "access": "Publisher HTML funding, competing interests, selected text",
+          "independence_certified": false
+        }
+      ],
+      "archived_high_audit_disclosures": [],
+      "archived_primary_audit_ids": [],
+      "fresh_selected_check": {
+        "id": "P5-06",
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC13312738/",
+        "locator": "2026 commentary, funding and competing interests",
+        "finding": "Commentary challenges exclusions in the updated review; not a new efficacy trial.",
+        "limitations": "Different inclusion decisions need sensitivity analysis. Prior authorship is an intellectual interest, not evidence of distortion.",
+        "funding": "No specific grant reported.",
+        "coi": "Two authors contributed to earlier Cochrane calcium reviews; third declared no competing interests.",
+        "article_ids": [
+          "EV-ART-009"
+        ],
+        "related_ids": [
+          "S093",
+          "P5-05"
+        ],
+        "scope": "selected full-text disclosure passages checked"
+      },
+      "disclosure_status": "both fields have notes, may be unknown/incomplete",
+      "remaining": "Confirm source-specific original disclosure, cash and in-kind funding, sponsor role, author and institutional interests, methods and applicability; unknown does not mean independent.",
+      "bias_appraisal_complete": false,
+      "independence_certified": false,
+      "clinical_review": false,
+      "publish": false
+    },
+    {
+      "id": "P5-07",
+      "title": "Calcium supplementation for prevention of pre-eclampsia: a systematic review and individual participant data meta-analysis of randomised trials",
+      "funding_notes": [
+        "UKRI MRC, UN/WHO/World Bank HRP programme, NIHR (institution record describes as US; country label needs verification)"
+      ],
+      "financial_interest_notes": [
+        "Full author COI pending"
+      ],
+      "archived_funding_audits": [
+        {
+          "file": "research/staged-completion/stage-05/FUNDING_AUDIT.json",
+          "source_id": "P5-07",
+          "funding": "UKRI MRC, UN/WHO/World Bank HRP programme, NIHR (institution record describes as US; country label needs verification)",
+          "financial_ties": "Full author COI pending",
+          "access": "University of Birmingham publication abstract and funding; publisher 403",
+          "independence_certified": false
+        }
+      ],
+      "archived_high_audit_disclosures": [],
+      "archived_primary_audit_ids": [],
+      "fresh_selected_check": null,
+      "disclosure_status": "both fields have notes, may be unknown/incomplete",
+      "remaining": "Confirm source-specific original disclosure, cash and in-kind funding, sponsor role, author and institutional interests, methods and applicability; unknown does not mean independent.",
+      "bias_appraisal_complete": false,
+      "independence_certified": false,
+      "clinical_review": false,
+      "publish": false
+    },
+    {
+      "id": "P5-08",
+      "title": "Calcium supplementation commenced before pregnancy for preventing hypertensive disorders and related problems",
+      "funding_notes": [
+        "Part-funded WHO"
+      ],
+      "financial_interest_notes": [
+        "Full disclosure pending"
+      ],
+      "archived_funding_audits": [
+        {
+          "file": "research/staged-completion/stage-05/FUNDING_AUDIT.json",
+          "source_id": "P5-08",
+          "funding": "Part-funded WHO",
+          "financial_ties": "Full disclosure pending",
+          "access": "Indexed Cochrane/PubMed abstracts",
+          "independence_certified": false
+        }
+      ],
+      "archived_high_audit_disclosures": [],
+      "archived_primary_audit_ids": [],
+      "fresh_selected_check": null,
+      "disclosure_status": "both fields have notes, may be unknown/incomplete",
+      "remaining": "Confirm source-specific original disclosure, cash and in-kind funding, sponsor role, author and institutional interests, methods and applicability; unknown does not mean independent.",
+      "bias_appraisal_complete": false,
+      "independence_certified": false,
+      "clinical_review": false,
+      "publish": false
+    },
+    {
+      "id": "P5-09",
+      "title": "Two Randomized Trials of Low-Dose Calcium Supplementation in Pregnancy",
+      "funding_notes": [
+        "Gates Foundation OPP1172660 and others"
+      ],
+      "financial_interest_notes": [
+        "Complete disclosure pending"
+      ],
+      "archived_funding_audits": [
+        {
+          "file": "research/staged-completion/stage-05/FUNDING_AUDIT.json",
+          "source_id": "P5-09",
+          "funding": "Gates Foundation OPP1172660 and others",
+          "financial_ties": "Complete disclosure pending",
+          "access": "Indexed primary full-text and protocol",
+          "independence_certified": false
+        }
+      ],
+      "archived_high_audit_disclosures": [],
+      "archived_primary_audit_ids": [],
+      "fresh_selected_check": null,
+      "disclosure_status": "both fields have notes, may be unknown/incomplete",
+      "remaining": "Confirm source-specific original disclosure, cash and in-kind funding, sponsor role, author and institutional interests, methods and applicability; unknown does not mean independent.",
+      "bias_appraisal_complete": false,
+      "independence_certified": false,
+      "clinical_review": false,
+      "publish": false
+    },
+    {
+      "id": "P5-10",
+      "title": "WHO pre-eclampsia fact sheet and calcium recommendation lineage",
+      "funding_notes": [
+        "WHO"
+      ],
+      "financial_interest_notes": [
+        "Panel disclosures not audited"
+      ],
+      "archived_funding_audits": [
+        {
+          "file": "research/staged-completion/stage-05/FUNDING_AUDIT.json",
+          "source_id": "P5-10",
+          "funding": "WHO",
+          "financial_ties": "Panel disclosures not audited",
+          "access": "Official HTML and ODS",
+          "independence_certified": false
+        }
+      ],
+      "archived_high_audit_disclosures": [],
+      "archived_primary_audit_ids": [],
+      "fresh_selected_check": null,
+      "disclosure_status": "both fields have notes, may be unknown/incomplete",
+      "remaining": "Confirm source-specific original disclosure, cash and in-kind funding, sponsor role, author and institutional interests, methods and applicability; unknown does not mean independent.",
+      "bias_appraisal_complete": false,
+      "independence_certified": false,
+      "clinical_review": false,
+      "publish": false
+    },
+    {
+      "id": "P5-11",
+      "title": "Probiotics to prevent gestational diabetes mellitus",
+      "funding_notes": [
+        "Review funding not retrieved",
+        "Full review and trial funding not newly completed."
+      ],
+      "financial_interest_notes": [
+        "Authors include investigators in underlying trials; formal disclosure pending",
+        "Pending full disclosure extraction."
+      ],
+      "archived_funding_audits": [
+        {
+          "file": "research/staged-completion/stage-05/FUNDING_AUDIT.json",
+          "source_id": "P5-11",
+          "funding": "Review funding not retrieved",
+          "financial_ties": "Authors include investigators in underlying trials; formal disclosure pending",
+          "access": "Cochrane HTML",
+          "independence_certified": false
+        }
+      ],
+      "archived_high_audit_disclosures": [],
+      "archived_primary_audit_ids": [],
+      "fresh_selected_check": {
+        "id": "P5-11",
+        "url": "https://www.cochrane.org/evidence/CD009951_probiotics-prevent-gestational-diabetes-mellitus",
+        "locator": "Cochrane 2021 results, preeclampsia",
+        "finding": "Preeclampsia RR 1.85 (95% CI 1.04–3.29), four trials/955 women; review rated evidence high certainty.",
+        "limitations": "Specific pregnancy prevention trials; not evidence about every fermented food, strain or infant population. Preserve review overlap and safety signal.",
+        "funding": "Full review and trial funding not newly completed.",
+        "coi": "Pending full disclosure extraction.",
+        "article_ids": [
+          "EV-ART-009"
+        ],
+        "related_ids": [
+          "S094",
+          "P5-13"
+        ],
+        "scope": "original review summary checked"
+      },
+      "disclosure_status": "both fields have notes, may be unknown/incomplete",
+      "remaining": "Confirm source-specific original disclosure, cash and in-kind funding, sponsor role, author and institutional interests, methods and applicability; unknown does not mean independent.",
+      "bias_appraisal_complete": false,
+      "independence_certified": false,
+      "clinical_review": false,
+      "publish": false
+    },
+    {
+      "id": "P5-12",
+      "title": "The effects of probiotics administration during pregnancy on preeclampsia and associated maternal, fetal, and newborn outcomes",
+      "funding_notes": [
+        "Gates Foundation INV-038938 and Harry Secomb Foundation IPAP2022/0475"
+      ],
+      "financial_interest_notes": [
+        "Full COI pending; underlying trials separate"
+      ],
+      "archived_funding_audits": [
+        {
+          "file": "research/staged-completion/stage-05/FUNDING_AUDIT.json",
+          "source_id": "P5-12",
+          "funding": "Gates Foundation INV-038938 and Harry Secomb Foundation IPAP2022/0475",
+          "financial_ties": "Full COI pending; underlying trials separate",
+          "access": "Indexed primary abstract and publisher funding",
+          "independence_certified": false
+        }
+      ],
+      "archived_high_audit_disclosures": [],
+      "archived_primary_audit_ids": [],
+      "fresh_selected_check": null,
+      "disclosure_status": "both fields have notes, may be unknown/incomplete",
+      "remaining": "Confirm source-specific original disclosure, cash and in-kind funding, sponsor role, author and institutional interests, methods and applicability; unknown does not mean independent.",
+      "bias_appraisal_complete": false,
+      "independence_certified": false,
+      "clinical_review": false,
+      "publish": false
+    },
+    {
+      "id": "P5-13",
+      "title": "Probiotics for the Prevention of Gestational Diabetes Mellitus in Overweight and Obese Women: Findings From the SPRING Double-Blind Randomized Controlled Trial",
+      "funding_notes": [
+        "NHMRC and Royal Brisbane and Women's Hospital Foundation reported in prior same-cohort disclosures; Chr Hansen donated active/placebo per prior H002/H003 audit"
+      ],
+      "financial_interest_notes": [
+        "Product supply linked through secondary reports; primary disclosures not newly verified"
+      ],
+      "archived_funding_audits": [
+        {
+          "file": "research/staged-completion/stage-05/FUNDING_AUDIT.json",
+          "source_id": "P5-13",
+          "funding": "NHMRC and Royal Brisbane and Women's Hospital Foundation reported in prior same-cohort disclosures; Chr Hansen donated active/placebo per prior H002/H003 audit",
+          "financial_ties": "Product supply linked through secondary reports; primary disclosures not newly verified",
+          "access": "Primary indexed abstract; inherited funding crosswalk",
+          "independence_certified": false
+        }
+      ],
+      "archived_high_audit_disclosures": [],
+      "archived_primary_audit_ids": [],
+      "fresh_selected_check": null,
+      "disclosure_status": "both fields have notes, may be unknown/incomplete",
+      "remaining": "Confirm source-specific original disclosure, cash and in-kind funding, sponsor role, author and institutional interests, methods and applicability; unknown does not mean independent.",
+      "bias_appraisal_complete": false,
+      "independence_certified": false,
+      "clinical_review": false,
+      "publish": false
+    },
+    {
+      "id": "P5-14",
+      "title": "A Randomized Trial of Prenatal n-3 Fatty Acid Supplementation and Preterm Delivery",
+      "funding_notes": [
+        "Australian NHMRC, Thyne Reid Foundation; Croda UK and Efamol/Wassen UK donated capsules, no other role reported"
+      ],
+      "financial_interest_notes": [
+        "Full author disclosure pending; commercial in-kind verified"
+      ],
+      "archived_funding_audits": [
+        {
+          "file": "research/staged-completion/stage-05/FUNDING_AUDIT.json",
+          "source_id": "P5-14",
+          "funding": "Australian NHMRC, Thyne Reid Foundation; Croda UK and Efamol/Wassen UK donated capsules, no other role reported",
+          "financial_ties": "Full author disclosure pending; commercial in-kind verified",
+          "access": "Primary PubMed HTML, NEJM indexed funding",
+          "independence_certified": false
+        }
+      ],
+      "archived_high_audit_disclosures": [],
+      "archived_primary_audit_ids": [],
+      "fresh_selected_check": null,
+      "disclosure_status": "both fields have notes, may be unknown/incomplete",
+      "remaining": "Confirm source-specific original disclosure, cash and in-kind funding, sponsor role, author and institutional interests, methods and applicability; unknown does not mean independent.",
+      "bias_appraisal_complete": false,
+      "independence_certified": false,
+      "clinical_review": false,
+      "publish": false
+    },
+    {
+      "id": "P5-15",
+      "title": "Higher dose docosahexaenoic acid supplementation during pregnancy and early preterm birth",
+      "funding_notes": [
+        "NICHD R01HD083292; DSM donated all capsules"
+      ],
+      "financial_interest_notes": [
+        "Susan Carlson reported DSM in-kind and outside-work DSM/Mead Johnson fees in institution record"
+      ],
+      "archived_funding_audits": [
+        {
+          "file": "research/staged-completion/stage-05/FUNDING_AUDIT.json",
+          "source_id": "P5-15",
+          "funding": "NICHD R01HD083292; DSM donated all capsules",
+          "financial_ties": "Susan Carlson reported DSM in-kind and outside-work DSM/Mead Johnson fees in institution record",
+          "access": "Indexed original abstract and university disclosure",
+          "independence_certified": false
+        }
+      ],
+      "archived_high_audit_disclosures": [],
+      "archived_primary_audit_ids": [],
+      "fresh_selected_check": null,
+      "disclosure_status": "both fields have notes, may be unknown/incomplete",
+      "remaining": "Confirm source-specific original disclosure, cash and in-kind funding, sponsor role, author and institutional interests, methods and applicability; unknown does not mean independent.",
+      "bias_appraisal_complete": false,
+      "independence_certified": false,
+      "clinical_review": false,
+      "publish": false
+    },
+    {
+      "id": "P5-16",
+      "title": "Genotype-informed docosahexaenoic acid dosing based on the FADS Indel to reduce preterm and prolonged gestation",
+      "funding_notes": [
+        "NIH R01HD083292; no sponsor role; parent trial DSM in-kind"
+      ],
+      "financial_interest_notes": [
+        "Current paper disclosure must be read with parent trial financial ties; no assumption of new independent cohort"
+      ],
+      "archived_funding_audits": [
+        {
+          "file": "research/staged-completion/stage-05/FUNDING_AUDIT.json",
+          "source_id": "P5-16",
+          "funding": "NIH R01HD083292; no sponsor role; parent trial DSM in-kind",
+          "financial_ties": "Current paper disclosure must be read with parent trial financial ties; no assumption of new independent cohort",
+          "access": "Original PLOS HTML and indexed abstract",
+          "independence_certified": false
+        }
+      ],
+      "archived_high_audit_disclosures": [],
+      "archived_primary_audit_ids": [],
+      "fresh_selected_check": null,
+      "disclosure_status": "both fields have notes, may be unknown/incomplete",
+      "remaining": "Confirm source-specific original disclosure, cash and in-kind funding, sponsor role, author and institutional interests, methods and applicability; unknown does not mean independent.",
+      "bias_appraisal_complete": false,
+      "independence_certified": false,
+      "clinical_review": false,
+      "publish": false
+    },
+    {
+      "id": "P5-17",
+      "title": "Vitamin D supplementation for women during pregnancy",
+      "funding_notes": [
+        "Not verified"
+      ],
+      "financial_interest_notes": [
+        "Unknown"
+      ],
+      "archived_funding_audits": [
+        {
+          "file": "research/staged-completion/stage-05/FUNDING_AUDIT.json",
+          "source_id": "P5-17",
+          "funding": "Not verified",
+          "financial_ties": "Unknown",
+          "access": "Official Cochrane indexed abstract",
+          "independence_certified": false
+        }
+      ],
+      "archived_high_audit_disclosures": [],
+      "archived_primary_audit_ids": [],
+      "fresh_selected_check": null,
+      "disclosure_status": "both fields have notes, may be unknown/incomplete",
+      "remaining": "Confirm source-specific original disclosure, cash and in-kind funding, sponsor role, author and institutional interests, methods and applicability; unknown does not mean independent.",
+      "bias_appraisal_complete": false,
+      "independence_certified": false,
+      "clinical_review": false,
+      "publish": false
+    },
+    {
+      "id": "P5-18",
+      "title": "Regimens of vitamin D supplementation for women during pregnancy",
+      "funding_notes": [
+        "No dedicated review funding reported"
+      ],
+      "financial_interest_notes": [
+        "Full COI and primary trial funding pending"
+      ],
+      "archived_funding_audits": [
+        {
+          "file": "research/staged-completion/stage-05/FUNDING_AUDIT.json",
+          "source_id": "P5-18",
+          "funding": "No dedicated review funding reported",
+          "financial_ties": "Full COI and primary trial funding pending",
+          "access": "Cochrane HTML results vs PubMed indexed abstract, direct PubMed captcha",
+          "independence_certified": false
+        }
+      ],
+      "archived_high_audit_disclosures": [],
+      "archived_primary_audit_ids": [],
+      "fresh_selected_check": null,
+      "disclosure_status": "both fields have notes, may be unknown/incomplete",
+      "remaining": "Confirm source-specific original disclosure, cash and in-kind funding, sponsor role, author and institutional interests, methods and applicability; unknown does not mean independent.",
+      "bias_appraisal_complete": false,
+      "independence_certified": false,
+      "clinical_review": false,
+      "publish": false
+    },
+    {
+      "id": "P5-19",
+      "title": "Daily oral iron supplementation during pregnancy",
+      "funding_notes": [
+        "Not retrieved"
+      ],
+      "financial_interest_notes": [
+        "Unknown"
+      ],
+      "archived_funding_audits": [
+        {
+          "file": "research/staged-completion/stage-05/FUNDING_AUDIT.json",
+          "source_id": "P5-19",
+          "funding": "Not retrieved",
+          "financial_ties": "Unknown",
+          "access": "Indexed primary review abstract; PMC direct captcha",
+          "independence_certified": false
+        }
+      ],
+      "archived_high_audit_disclosures": [],
+      "archived_primary_audit_ids": [],
+      "fresh_selected_check": null,
+      "disclosure_status": "both fields have notes, may be unknown/incomplete",
+      "remaining": "Confirm source-specific original disclosure, cash and in-kind funding, sponsor role, author and institutional interests, methods and applicability; unknown does not mean independent.",
+      "bias_appraisal_complete": false,
+      "independence_certified": false,
+      "clinical_review": false,
+      "publish": false
+    },
+    {
+      "id": "P5-20",
+      "title": "Daily versus Alternate-Day Iron Supplementation for Pregnant Women with Iron Deficiency Anemia",
+      "funding_notes": [
+        "Full funding statement not retrieved"
+      ],
+      "financial_interest_notes": [
+        "None declared in PubMed"
+      ],
+      "archived_funding_audits": [
+        {
+          "file": "research/staged-completion/stage-05/FUNDING_AUDIT.json",
+          "source_id": "P5-20",
+          "funding": "Full funding statement not retrieved",
+          "financial_ties": "None declared in PubMed",
+          "access": "Original abstract and COI",
+          "independence_certified": false
+        }
+      ],
+      "archived_high_audit_disclosures": [],
+      "archived_primary_audit_ids": [],
+      "fresh_selected_check": null,
+      "disclosure_status": "both fields have notes, may be unknown/incomplete",
+      "remaining": "Confirm source-specific original disclosure, cash and in-kind funding, sponsor role, author and institutional interests, methods and applicability; unknown does not mean independent.",
+      "bias_appraisal_complete": false,
+      "independence_certified": false,
+      "clinical_review": false,
+      "publish": false
+    },
+    {
+      "id": "P5-21",
+      "title": "Effect of iodine supplementation in pregnant women on child neurodevelopment",
+      "funding_notes": [
+        "Swiss National Science Foundation, Nestlé Foundation, Wageningen University and Research, ETH Zurich"
+      ],
+      "financial_interest_notes": [
+        "Foundation originates from Nestlé donation, states independent governance; current company influence not demonstrated; individual COI pending"
+      ],
+      "archived_funding_audits": [
+        {
+          "file": "research/staged-completion/stage-05/FUNDING_AUDIT.json",
+          "source_id": "P5-21",
+          "funding": "Swiss National Science Foundation, Nestlé Foundation, Wageningen University and Research, ETH Zurich",
+          "financial_ties": "Foundation originates from Nestlé donation, states independent governance; current company influence not demonstrated; individual COI pending",
+          "access": "Original PubMed abstract/funding",
+          "independence_certified": false
+        }
+      ],
+      "archived_high_audit_disclosures": [],
+      "archived_primary_audit_ids": [],
+      "fresh_selected_check": null,
+      "disclosure_status": "both fields have notes, may be unknown/incomplete",
+      "remaining": "Confirm source-specific original disclosure, cash and in-kind funding, sponsor role, author and institutional interests, methods and applicability; unknown does not mean independent.",
+      "bias_appraisal_complete": false,
+      "independence_certified": false,
+      "clinical_review": false,
+      "publish": false
+    },
+    {
+      "id": "P5-22",
+      "title": "About the Nestlé Foundation",
+      "funding_notes": [
+        "Company-origin foundation; self-described autonomy"
+      ],
+      "financial_interest_notes": [
+        "No verified current company control; independent governance audit pending"
+      ],
+      "archived_funding_audits": [
+        {
+          "file": "research/staged-completion/stage-05/FUNDING_AUDIT.json",
+          "source_id": "P5-22",
+          "funding": "Company-origin foundation; self-described autonomy",
+          "financial_ties": "No verified current company control; independent governance audit pending",
+          "access": "Official indexed self-description",
+          "independence_certified": false
+        }
+      ],
+      "archived_high_audit_disclosures": [],
+      "archived_primary_audit_ids": [],
+      "fresh_selected_check": null,
+      "disclosure_status": "both fields have notes, may be unknown/incomplete",
+      "remaining": "Confirm source-specific original disclosure, cash and in-kind funding, sponsor role, author and institutional interests, methods and applicability; unknown does not mean independent.",
+      "bias_appraisal_complete": false,
+      "independence_certified": false,
+      "clinical_review": false,
+      "publish": false
+    },
+    {
+      "id": "P5-23",
+      "title": "Open label, dose escalation trial of creatine monohydrate in pregnancy",
+      "funding_notes": [
+        "Not verified"
+      ],
+      "financial_interest_notes": [
+        "Unknown"
+      ],
+      "archived_funding_audits": [
+        {
+          "file": "research/staged-completion/stage-05/FUNDING_AUDIT.json",
+          "source_id": "P5-23",
+          "funding": "Not verified",
+          "financial_ties": "Unknown",
+          "access": "Indexed abstract and registry ACTRN12620001373965",
+          "independence_certified": false
+        }
+      ],
+      "archived_high_audit_disclosures": [],
+      "archived_primary_audit_ids": [],
+      "fresh_selected_check": null,
+      "disclosure_status": "both fields have notes, may be unknown/incomplete",
+      "remaining": "Confirm source-specific original disclosure, cash and in-kind funding, sponsor role, author and institutional interests, methods and applicability; unknown does not mean independent.",
+      "bias_appraisal_complete": false,
+      "independence_certified": false,
+      "clinical_review": false,
+      "publish": false
+    },
+    {
+      "id": "P5-24",
+      "title": "Prenatal Supplements: Amounts of Some Key Nutrients Differed from Product Labels",
+      "funding_notes": [
+        "US GAO commissioned blinded accredited laboratory"
+      ],
+      "financial_interest_notes": [
+        "No manufacturer funding described"
+      ],
+      "archived_funding_audits": [
+        {
+          "file": "research/staged-completion/stage-05/FUNDING_AUDIT.json",
+          "source_id": "P5-24",
+          "funding": "US GAO commissioned blinded accredited laboratory",
+          "financial_ties": "No manufacturer funding described",
+          "access": "Official GAO HTML methods/results",
+          "independence_certified": false
+        }
+      ],
+      "archived_high_audit_disclosures": [],
+      "archived_primary_audit_ids": [],
+      "fresh_selected_check": null,
+      "disclosure_status": "both fields have notes, may be unknown/incomplete",
+      "remaining": "Confirm source-specific original disclosure, cash and in-kind funding, sponsor role, author and institutional interests, methods and applicability; unknown does not mean independent.",
+      "bias_appraisal_complete": false,
+      "independence_certified": false,
+      "clinical_review": false,
+      "publish": false
+    },
+    {
+      "id": "P5-25",
+      "title": "Testing Results for Selected Prenatal Supplements",
+      "funding_notes": [
+        "US GAO"
+      ],
+      "financial_interest_notes": [
+        "Same sample P5-24"
+      ],
+      "archived_funding_audits": [
+        {
+          "file": "research/staged-completion/stage-05/FUNDING_AUDIT.json",
+          "source_id": "P5-25",
+          "funding": "US GAO",
+          "financial_ties": "Same sample P5-24",
+          "access": "Official HTML landing page",
+          "independence_certified": false
+        }
+      ],
+      "archived_high_audit_disclosures": [],
+      "archived_primary_audit_ids": [],
+      "fresh_selected_check": null,
+      "disclosure_status": "both fields have notes, may be unknown/incomplete",
+      "remaining": "Confirm source-specific original disclosure, cash and in-kind funding, sponsor role, author and institutional interests, methods and applicability; unknown does not mean independent.",
+      "bias_appraisal_complete": false,
+      "independence_certified": false,
+      "clinical_review": false,
+      "publish": false
+    },
+    {
+      "id": "P5-26",
+      "title": "Selecting a dietary supplement with appropriate dosing for 6 key nutrients in pregnancy",
+      "funding_notes": [
+        "Full funding not retrieved"
+      ],
+      "financial_interest_notes": [
+        "Unknown"
+      ],
+      "archived_funding_audits": [
+        {
+          "file": "research/staged-completion/stage-05/FUNDING_AUDIT.json",
+          "source_id": "P5-26",
+          "funding": "Full funding not retrieved",
+          "financial_ties": "Unknown",
+          "access": "Indexed primary abstract",
+          "independence_certified": false
+        }
+      ],
+      "archived_high_audit_disclosures": [],
+      "archived_primary_audit_ids": [],
+      "fresh_selected_check": null,
+      "disclosure_status": "both fields have notes, may be unknown/incomplete",
+      "remaining": "Confirm source-specific original disclosure, cash and in-kind funding, sponsor role, author and institutional interests, methods and applicability; unknown does not mean independent.",
+      "bias_appraisal_complete": false,
+      "independence_certified": false,
+      "clinical_review": false,
+      "publish": false
+    },
+    {
+      "id": "P5-27",
+      "title": "Content of selected nutrients and heavy metals in prenatal multivitamins and minerals",
+      "funding_notes": [
+        "Not verified"
+      ],
+      "financial_interest_notes": [
+        "Full COI unknown; direct PMC captcha"
+      ],
+      "archived_funding_audits": [
+        {
+          "file": "research/staged-completion/stage-05/FUNDING_AUDIT.json",
+          "source_id": "P5-27",
+          "funding": "Not verified",
+          "financial_ties": "Full COI unknown; direct PMC captcha",
+          "access": "Indexed primary abstract",
+          "independence_certified": false
+        }
+      ],
+      "archived_high_audit_disclosures": [],
+      "archived_primary_audit_ids": [],
+      "fresh_selected_check": null,
+      "disclosure_status": "both fields have notes, may be unknown/incomplete",
+      "remaining": "Confirm source-specific original disclosure, cash and in-kind funding, sponsor role, author and institutional interests, methods and applicability; unknown does not mean independent.",
+      "bias_appraisal_complete": false,
+      "independence_certified": false,
+      "clinical_review": false,
+      "publish": false
+    },
+    {
+      "id": "P5-28",
+      "title": "Dietary Supplements and Life Stages: Pregnancy",
+      "funding_notes": [
+        "NIH ODS"
+      ],
+      "financial_interest_notes": [
+        "Underlying evidence separate"
+      ],
+      "archived_funding_audits": [
+        {
+          "file": "research/staged-completion/stage-05/FUNDING_AUDIT.json",
+          "source_id": "P5-28",
+          "funding": "NIH ODS",
+          "financial_ties": "Underlying evidence separate",
+          "access": "HTML tables 1–2 directly inspected",
+          "independence_certified": false
+        }
+      ],
+      "archived_high_audit_disclosures": [],
+      "archived_primary_audit_ids": [],
+      "fresh_selected_check": null,
+      "disclosure_status": "both fields have notes, may be unknown/incomplete",
+      "remaining": "Confirm source-specific original disclosure, cash and in-kind funding, sponsor role, author and institutional interests, methods and applicability; unknown does not mean independent.",
+      "bias_appraisal_complete": false,
+      "independence_certified": false,
+      "clinical_review": false,
+      "publish": false
+    },
+    {
+      "id": "P5-29",
+      "title": "Advice about Eating Fish",
+      "funding_notes": [
+        "US FDA/EPA"
+      ],
+      "financial_interest_notes": [
+        "Panel evidence not audited"
+      ],
+      "archived_funding_audits": [
+        {
+          "file": "research/staged-completion/stage-05/FUNDING_AUDIT.json",
+          "source_id": "P5-29",
+          "funding": "US FDA/EPA",
+          "financial_ties": "Panel evidence not audited",
+          "access": "Official HTML indexed",
+          "independence_certified": false
+        }
+      ],
+      "archived_high_audit_disclosures": [],
+      "archived_primary_audit_ids": [],
+      "fresh_selected_check": null,
+      "disclosure_status": "both fields have notes, may be unknown/incomplete",
+      "remaining": "Confirm source-specific original disclosure, cash and in-kind funding, sponsor role, author and institutional interests, methods and applicability; unknown does not mean independent.",
+      "bias_appraisal_complete": false,
+      "independence_certified": false,
+      "clinical_review": false,
+      "publish": false
+    },
+    {
+      "id": "P5-30",
+      "title": "Folate and Folic Acid on the Nutrition and Supplement Facts Labels",
+      "funding_notes": [
+        "FDA"
+      ],
+      "financial_interest_notes": [
+        "Not applicable"
+      ],
+      "archived_funding_audits": [
+        {
+          "file": "research/staged-completion/stage-05/FUNDING_AUDIT.json",
+          "source_id": "P5-30",
+          "funding": "FDA",
+          "financial_ties": "Not applicable",
+          "access": "Official indexed HTML",
+          "independence_certified": false
+        }
+      ],
+      "archived_high_audit_disclosures": [],
+      "archived_primary_audit_ids": [],
+      "fresh_selected_check": null,
+      "disclosure_status": "both fields have notes, may be unknown/incomplete",
+      "remaining": "Confirm source-specific original disclosure, cash and in-kind funding, sponsor role, author and institutional interests, methods and applicability; unknown does not mean independent.",
+      "bias_appraisal_complete": false,
+      "independence_certified": false,
+      "clinical_review": false,
+      "publish": false
+    },
+    {
+      "id": "P5-31",
+      "title": "Dietary Supplement Label Database",
+      "funding_notes": [
+        "NIH ODS"
+      ],
+      "financial_interest_notes": [
+        "Manufacturer-supplied labels; not independent assays"
+      ],
+      "archived_funding_audits": [
+        {
+          "file": "research/staged-completion/stage-05/FUNDING_AUDIT.json",
+          "source_id": "P5-31",
+          "funding": "NIH ODS",
+          "financial_ties": "Manufacturer-supplied labels; not independent assays",
+          "access": "Official indexed HTML",
+          "independence_certified": false
+        }
+      ],
+      "archived_high_audit_disclosures": [],
+      "archived_primary_audit_ids": [],
+      "fresh_selected_check": null,
+      "disclosure_status": "both fields have notes, may be unknown/incomplete",
+      "remaining": "Confirm source-specific original disclosure, cash and in-kind funding, sponsor role, author and institutional interests, methods and applicability; unknown does not mean independent.",
+      "bias_appraisal_complete": false,
+      "independence_certified": false,
+      "clinical_review": false,
+      "publish": false
+    },
+    {
+      "id": "P6-01",
+      "title": "Low-Level Environmental Lead Exposure and Children's Intellectual Function: An International Pooled Analysis",
+      "funding_notes": [
+        "Exact primary grant list not extracted"
+      ],
+      "financial_interest_notes": [
+        "No competing financial interests per indexed publisher text"
+      ],
+      "archived_funding_audits": [
+        {
+          "file": "research/staged-completion/stage-06/FUNDING_AUDIT.json",
+          "source_id": "P6-01",
+          "funding": "Exact primary grant list not extracted",
+          "financial_ties": "No competing financial interests per indexed publisher text",
+          "verification": "Indexed primary abstract and publisher disclosure",
+          "independence_certified": false
+        }
+      ],
+      "archived_high_audit_disclosures": [],
+      "archived_primary_audit_ids": [],
+      "fresh_selected_check": null,
+      "disclosure_status": "both fields have notes, may be unknown/incomplete",
+      "remaining": "Confirm source-specific original disclosure, cash and in-kind funding, sponsor role, author and institutional interests, methods and applicability; unknown does not mean independent.",
+      "bias_appraisal_complete": false,
+      "independence_certified": false,
+      "clinical_review": false,
+      "publish": false
+    },
+    {
+      "id": "P6-02",
+      "title": "Risk Factors and Pregnancy",
+      "funding_notes": [
+        "CDC"
+      ],
+      "financial_interest_notes": [
+        "Agency guidance, panel/underlying funding separate"
+      ],
+      "archived_funding_audits": [
+        {
+          "file": "research/staged-completion/stage-06/FUNDING_AUDIT.json",
+          "source_id": "P6-02",
+          "funding": "CDC",
+          "financial_ties": "Agency guidance, panel/underlying funding separate",
+          "verification": "Official indexed HTML",
+          "independence_certified": false
+        }
+      ],
+      "archived_high_audit_disclosures": [],
+      "archived_primary_audit_ids": [],
+      "fresh_selected_check": null,
+      "disclosure_status": "both fields have notes, may be unknown/incomplete",
+      "remaining": "Confirm source-specific original disclosure, cash and in-kind funding, sponsor role, author and institutional interests, methods and applicability; unknown does not mean independent.",
+      "bias_appraisal_complete": false,
+      "independence_certified": false,
+      "clinical_review": false,
+      "publish": false
+    },
+    {
+      "id": "P6-03",
+      "title": "Preventing Childhood Lead Poisoning",
+      "funding_notes": [
+        "CDC"
+      ],
+      "financial_interest_notes": [],
+      "archived_funding_audits": [
+        {
+          "file": "research/staged-completion/stage-06/FUNDING_AUDIT.json",
+          "source_id": "P6-03",
+          "funding": "CDC",
+          "financial_ties": null,
+          "verification": "Official indexed HTML",
+          "independence_certified": false
+        }
+      ],
+      "archived_high_audit_disclosures": [],
+      "archived_primary_audit_ids": [],
+      "fresh_selected_check": null,
+      "disclosure_status": "one disclosure category has notes, other missing",
+      "remaining": "Confirm source-specific original disclosure, cash and in-kind funding, sponsor role, author and institutional interests, methods and applicability; unknown does not mean independent.",
+      "bias_appraisal_complete": false,
+      "independence_certified": false,
+      "clinical_review": false,
+      "publish": false
+    },
+    {
+      "id": "P6-04",
+      "title": "Lead and Breastfeeding",
+      "funding_notes": [
+        "CDC"
+      ],
+      "financial_interest_notes": [],
+      "archived_funding_audits": [
+        {
+          "file": "research/staged-completion/stage-06/FUNDING_AUDIT.json",
+          "source_id": "P6-04",
+          "funding": "CDC",
+          "financial_ties": null,
+          "verification": "Official indexed HTML",
+          "independence_certified": false
+        }
+      ],
+      "archived_high_audit_disclosures": [],
+      "archived_primary_audit_ids": [],
+      "fresh_selected_check": null,
+      "disclosure_status": "one disclosure category has notes, other missing",
+      "remaining": "Confirm source-specific original disclosure, cash and in-kind funding, sponsor role, author and institutional interests, methods and applicability; unknown does not mean independent.",
+      "bias_appraisal_complete": false,
+      "independence_certified": false,
+      "clinical_review": false,
+      "publish": false
+    },
+    {
+      "id": "P6-05",
+      "title": "Basic Information about Lead in Drinking Water",
+      "funding_notes": [
+        "EPA"
+      ],
+      "financial_interest_notes": [],
+      "archived_funding_audits": [
+        {
+          "file": "research/staged-completion/stage-06/FUNDING_AUDIT.json",
+          "source_id": "P6-05",
+          "funding": "EPA",
+          "financial_ties": null,
+          "verification": "Official indexed HTML",
+          "independence_certified": false
+        }
+      ],
+      "archived_high_audit_disclosures": [],
+      "archived_primary_audit_ids": [],
+      "fresh_selected_check": null,
+      "disclosure_status": "one disclosure category has notes, other missing",
+      "remaining": "Confirm source-specific original disclosure, cash and in-kind funding, sponsor role, author and institutional interests, methods and applicability; unknown does not mean independent.",
+      "bias_appraisal_complete": false,
+      "independence_certified": false,
+      "clinical_review": false,
+      "publish": false
+    },
+    {
+      "id": "P6-06",
+      "title": "Advice about Eating Fish",
+      "funding_notes": [
+        "FDA/EPA"
+      ],
+      "financial_interest_notes": [
+        "Panel/underlying trial ties not audited"
+      ],
+      "archived_funding_audits": [
+        {
+          "file": "research/staged-completion/stage-06/FUNDING_AUDIT.json",
+          "source_id": "P6-06",
+          "funding": "FDA/EPA",
+          "financial_ties": "Panel/underlying trial ties not audited",
+          "verification": "Official HTML/index",
+          "independence_certified": false
+        }
+      ],
+      "archived_high_audit_disclosures": [],
+      "archived_primary_audit_ids": [],
+      "fresh_selected_check": null,
+      "disclosure_status": "both fields have notes, may be unknown/incomplete",
+      "remaining": "Confirm source-specific original disclosure, cash and in-kind funding, sponsor role, author and institutional interests, methods and applicability; unknown does not mean independent.",
+      "bias_appraisal_complete": false,
+      "independence_certified": false,
+      "clinical_review": false,
+      "publish": false
+    },
+    {
+      "id": "P6-07",
+      "title": "Prenatal exposure to organophosphate pesticides and IQ in 7-year-old children",
+      "funding_notes": [
+        "EPA, NIEHS P01 ES009605/R01 ES015572, NIOSH R01 OH007400 (publisher indexed acknowledgments)"
+      ],
+      "financial_interest_notes": [
+        "Eskenazi disclosed consultation on pesticide exposure case; other authors declared no competing financial interests."
+      ],
+      "archived_funding_audits": [
+        {
+          "file": "research/staged-completion/stage-06/FUNDING_AUDIT.json",
+          "source_id": "P6-07",
+          "funding": "EPA, NIEHS P01 ES009605/R01 ES015572, NIOSH R01 OH007400 (publisher indexed acknowledgments)",
+          "financial_ties": "Eskenazi disclosed consultation on pesticide exposure case; other authors declared no competing financial interests.",
+          "verification": "Original PubMed abstract, grant and COI; indexed publisher funding",
+          "independence_certified": false
+        }
+      ],
+      "archived_high_audit_disclosures": [],
+      "archived_primary_audit_ids": [],
+      "fresh_selected_check": null,
+      "disclosure_status": "both fields have notes, may be unknown/incomplete",
+      "remaining": "Confirm source-specific original disclosure, cash and in-kind funding, sponsor role, author and institutional interests, methods and applicability; unknown does not mean independent.",
+      "bias_appraisal_complete": false,
+      "independence_certified": false,
+      "clinical_review": false,
+      "publish": false
+    },
+    {
+      "id": "P6-08",
+      "title": "Early childhood adversity potentiates the adverse association between prenatal organophosphate pesticide exposure and child IQ: the CHAMACOS cohort",
+      "funding_notes": [
+        "EPA R82670901/RD83171001/RD83451301 and NIEHS P01 ES009605"
+      ],
+      "financial_interest_notes": [
+        "Individual disclosures not extracted"
+      ],
+      "archived_funding_audits": [
+        {
+          "file": "research/staged-completion/stage-06/FUNDING_AUDIT.json",
+          "source_id": "P6-08",
+          "funding": "EPA R82670901/RD83171001/RD83451301 and NIEHS P01 ES009605",
+          "financial_ties": "Individual disclosures not extracted",
+          "verification": "Indexed primary methods and funding",
+          "independence_certified": false
+        }
+      ],
+      "archived_high_audit_disclosures": [],
+      "archived_primary_audit_ids": [],
+      "fresh_selected_check": null,
+      "disclosure_status": "both fields have notes, may be unknown/incomplete",
+      "remaining": "Confirm source-specific original disclosure, cash and in-kind funding, sponsor role, author and institutional interests, methods and applicability; unknown does not mean independent.",
+      "bias_appraisal_complete": false,
+      "independence_certified": false,
+      "clinical_review": false,
+      "publish": false
+    },
+    {
+      "id": "P6-09",
+      "title": "Organic diets significantly lower children's dietary exposure to organophosphorus pesticides",
+      "funding_notes": [
+        "Full disclosure not retrieved"
+      ],
+      "financial_interest_notes": [
+        "Unknown"
+      ],
+      "archived_funding_audits": [
+        {
+          "file": "research/staged-completion/stage-06/FUNDING_AUDIT.json",
+          "source_id": "P6-09",
+          "funding": "Full disclosure not retrieved",
+          "financial_ties": "Unknown",
+          "verification": "Indexed primary abstract",
+          "independence_certified": false
+        }
+      ],
+      "archived_high_audit_disclosures": [],
+      "archived_primary_audit_ids": [],
+      "fresh_selected_check": null,
+      "disclosure_status": "both fields have notes, may be unknown/incomplete",
+      "remaining": "Confirm source-specific original disclosure, cash and in-kind funding, sponsor role, author and institutional interests, methods and applicability; unknown does not mean independent.",
+      "bias_appraisal_complete": false,
+      "independence_certified": false,
+      "clinical_review": false,
+      "publish": false
+    },
+    {
+      "id": "P6-10",
+      "title": "Effect of Organic Diet Intervention on Pesticide Exposures in Young Children Living in Low-Income Urban and Agricultural Communities",
+      "funding_notes": [
+        "Not verified"
+      ],
+      "financial_interest_notes": [
+        "Unknown"
+      ],
+      "archived_funding_audits": [
+        {
+          "file": "research/staged-completion/stage-06/FUNDING_AUDIT.json",
+          "source_id": "P6-10",
+          "funding": "Not verified",
+          "financial_ties": "Unknown",
+          "verification": "Indexed primary abstract",
+          "independence_certified": false
+        }
+      ],
+      "archived_high_audit_disclosures": [],
+      "archived_primary_audit_ids": [],
+      "fresh_selected_check": null,
+      "disclosure_status": "both fields have notes, may be unknown/incomplete",
+      "remaining": "Confirm source-specific original disclosure, cash and in-kind funding, sponsor role, author and institutional interests, methods and applicability; unknown does not mean independent.",
+      "bias_appraisal_complete": false,
+      "independence_certified": false,
+      "clinical_review": false,
+      "publish": false
+    },
+    {
+      "id": "P6-11",
+      "title": "The relationship between study sponsorship, risks of bias, and research outcomes in atrazine exposure studies conducted in non-human animals: Systematic review and meta-analysis",
+      "funding_notes": [
+        "NIEHS R21ES021028"
+      ],
+      "financial_interest_notes": [
+        "Full reviewer disclosures and study-level sponsors not extracted"
+      ],
+      "archived_funding_audits": [
+        {
+          "file": "research/staged-completion/stage-06/FUNDING_AUDIT.json",
+          "source_id": "P6-11",
+          "funding": "NIEHS R21ES021028",
+          "financial_ties": "Full reviewer disclosures and study-level sponsors not extracted",
+          "verification": "Indexed primary PubMed/PMC/publisher results and funding",
+          "independence_certified": false
+        }
+      ],
+      "archived_high_audit_disclosures": [],
+      "archived_primary_audit_ids": [],
+      "fresh_selected_check": null,
+      "disclosure_status": "both fields have notes, may be unknown/incomplete",
+      "remaining": "Confirm source-specific original disclosure, cash and in-kind funding, sponsor role, author and institutional interests, methods and applicability; unknown does not mean independent.",
+      "bias_appraisal_complete": false,
+      "independence_certified": false,
+      "clinical_review": false,
+      "publish": false
+    },
+    {
+      "id": "P6-12",
+      "title": "Birth weight and perfluorooctane sulfonic acid: a random-effects meta-regression analysis",
+      "funding_notes": [
+        "3M contract with Ramboll"
+      ],
+      "financial_interest_notes": [
+        "All authors Ramboll employees compensated via employer; report no 3M role preparing manuscript, sole author control; no direct 3M compensation; not then testifying for sponsors about compound."
+      ],
+      "archived_funding_audits": [
+        {
+          "file": "research/staged-completion/stage-06/FUNDING_AUDIT.json",
+          "source_id": "P6-12",
+          "funding": "3M contract with Ramboll",
+          "financial_ties": "All authors Ramboll employees compensated via employer; report no 3M role preparing manuscript, sole author control; no direct 3M compensation; not then testifying for sponsors about compound.",
+          "verification": "Original PubMed abstract and conflict disclosure, figures 1–2 captions",
+          "independence_certified": false
+        }
+      ],
+      "archived_high_audit_disclosures": [],
+      "archived_primary_audit_ids": [],
+      "fresh_selected_check": null,
+      "disclosure_status": "both fields have notes, may be unknown/incomplete",
+      "remaining": "Confirm source-specific original disclosure, cash and in-kind funding, sponsor role, author and institutional interests, methods and applicability; unknown does not mean independent.",
+      "bias_appraisal_complete": false,
+      "independence_certified": false,
+      "clinical_review": false,
+      "publish": false
+    },
+    {
+      "id": "P6-13",
+      "title": "Birth weight in relation to maternal and neonatal biomarker concentration of perfluorooctane sulfonic acid: a meta-analysis and meta-regression from a systematic review",
+      "funding_notes": [
+        "US EPA authored government work; grant statement not extracted separately"
+      ],
+      "financial_interest_notes": [
+        "No competing interests declared; Dzierlenga also author of P6-12 with then-Ramboll affiliation. Prior dated employment not assumed current tie."
+      ],
+      "archived_funding_audits": [
+        {
+          "file": "research/staged-completion/stage-06/FUNDING_AUDIT.json",
+          "source_id": "P6-13",
+          "funding": "US EPA authored government work; grant statement not extracted separately",
+          "financial_ties": "No competing interests declared; Dzierlenga also author of P6-12 with then-Ramboll affiliation. Prior dated employment not assumed current tie.",
+          "verification": "Original PubMed abstract, affiliation, COI, figure 1/2 captions",
+          "independence_certified": false
+        }
+      ],
+      "archived_high_audit_disclosures": [],
+      "archived_primary_audit_ids": [],
+      "fresh_selected_check": null,
+      "disclosure_status": "both fields have notes, may be unknown/incomplete",
+      "remaining": "Confirm source-specific original disclosure, cash and in-kind funding, sponsor role, author and institutional interests, methods and applicability; unknown does not mean independent.",
+      "bias_appraisal_complete": false,
+      "independence_certified": false,
+      "clinical_review": false,
+      "publish": false
+    },
+    {
+      "id": "P6-14",
+      "title": "Systematic review and meta-analysis of birth weight and PFNA exposures",
+      "funding_notes": [
+        "EPA affiliations; full funding statement pending"
+      ],
+      "financial_interest_notes": [
+        "Full COI pending"
+      ],
+      "archived_funding_audits": [
+        {
+          "file": "research/staged-completion/stage-06/FUNDING_AUDIT.json",
+          "source_id": "P6-14",
+          "funding": "EPA affiliations; full funding statement pending",
+          "financial_ties": "Full COI pending",
+          "verification": "Indexed primary PubMed/PMC abstract",
+          "independence_certified": false
+        }
+      ],
+      "archived_high_audit_disclosures": [],
+      "archived_primary_audit_ids": [],
+      "fresh_selected_check": null,
+      "disclosure_status": "both fields have notes, may be unknown/incomplete",
+      "remaining": "Confirm source-specific original disclosure, cash and in-kind funding, sponsor role, author and institutional interests, methods and applicability; unknown does not mean independent.",
+      "bias_appraisal_complete": false,
+      "independence_certified": false,
+      "clinical_review": false,
+      "publish": false
+    },
+    {
+      "id": "P6-15",
+      "title": "Systematic review and meta-analysis of birth weight and prenatal exposure to perfluoroundecanoic acid",
+      "funding_notes": [
+        "EPA affiliations; full grant statement pending"
+      ],
+      "financial_interest_notes": [
+        "No competing interests declared in PubMed"
+      ],
+      "archived_funding_audits": [
+        {
+          "file": "research/staged-completion/stage-06/FUNDING_AUDIT.json",
+          "source_id": "P6-15",
+          "funding": "EPA affiliations; full grant statement pending",
+          "financial_ties": "No competing interests declared in PubMed",
+          "verification": "Indexed primary abstract and COI",
+          "independence_certified": false
+        }
+      ],
+      "archived_high_audit_disclosures": [],
+      "archived_primary_audit_ids": [],
+      "fresh_selected_check": null,
+      "disclosure_status": "both fields have notes, may be unknown/incomplete",
+      "remaining": "Confirm source-specific original disclosure, cash and in-kind funding, sponsor role, author and institutional interests, methods and applicability; unknown does not mean independent.",
+      "bias_appraisal_complete": false,
+      "independence_certified": false,
+      "clinical_review": false,
+      "publish": false
+    },
+    {
+      "id": "P6-16",
+      "title": "Serum Vaccine Antibody Concentrations in Children Exposed to Perfluorinated Compounds",
+      "funding_notes": [
+        "Not verified"
+      ],
+      "financial_interest_notes": [
+        "Individual disclosures pending"
+      ],
+      "archived_funding_audits": [
+        {
+          "file": "research/staged-completion/stage-06/FUNDING_AUDIT.json",
+          "source_id": "P6-16",
+          "funding": "Not verified",
+          "financial_ties": "Individual disclosures pending",
+          "verification": "Indexed primary JAMA Table 3",
+          "independence_certified": false
+        }
+      ],
+      "archived_high_audit_disclosures": [],
+      "archived_primary_audit_ids": [],
+      "fresh_selected_check": null,
+      "disclosure_status": "both fields have notes, may be unknown/incomplete",
+      "remaining": "Confirm source-specific original disclosure, cash and in-kind funding, sponsor role, author and institutional interests, methods and applicability; unknown does not mean independent.",
+      "bias_appraisal_complete": false,
+      "independence_certified": false,
+      "clinical_review": false,
+      "publish": false
+    },
+    {
+      "id": "P6-17",
+      "title": "Guidance on PFAS Exposure, Testing, and Clinical Follow-Up",
+      "funding_notes": [
+        "Full committee funding/disclosure audit pending"
+      ],
+      "financial_interest_notes": [
+        "Unknown"
+      ],
+      "archived_funding_audits": [
+        {
+          "file": "research/staged-completion/stage-06/FUNDING_AUDIT.json",
+          "source_id": "P6-17",
+          "funding": "Full committee funding/disclosure audit pending",
+          "financial_ties": "Unknown",
+          "verification": "Official report HTML chapter",
+          "independence_certified": false
+        }
+      ],
+      "archived_high_audit_disclosures": [],
+      "archived_primary_audit_ids": [],
+      "fresh_selected_check": null,
+      "disclosure_status": "both fields have notes, may be unknown/incomplete",
+      "remaining": "Confirm source-specific original disclosure, cash and in-kind funding, sponsor role, author and institutional interests, methods and applicability; unknown does not mean independent.",
+      "bias_appraisal_complete": false,
+      "independence_certified": false,
+      "clinical_review": false,
+      "publish": false
+    },
+    {
+      "id": "P6-18",
+      "title": "Clinical Evaluation and Management: PFAS Information for Clinicians",
+      "funding_notes": [
+        "ATSDR"
+      ],
+      "financial_interest_notes": [],
+      "archived_funding_audits": [
+        {
+          "file": "research/staged-completion/stage-06/FUNDING_AUDIT.json",
+          "source_id": "P6-18",
+          "funding": "ATSDR",
+          "financial_ties": null,
+          "verification": "Official indexed HTML",
+          "independence_certified": false
+        }
+      ],
+      "archived_high_audit_disclosures": [],
+      "archived_primary_audit_ids": [],
+      "fresh_selected_check": null,
+      "disclosure_status": "one disclosure category has notes, other missing",
+      "remaining": "Confirm source-specific original disclosure, cash and in-kind funding, sponsor role, author and institutional interests, methods and applicability; unknown does not mean independent.",
+      "bias_appraisal_complete": false,
+      "independence_certified": false,
+      "clinical_review": false,
+      "publish": false
+    },
+    {
+      "id": "P6-19",
+      "title": "Reducing PFAS in Your Drinking Water with a Home Filter",
+      "funding_notes": [
+        "EPA"
+      ],
+      "financial_interest_notes": [],
+      "archived_funding_audits": [
+        {
+          "file": "research/staged-completion/stage-06/FUNDING_AUDIT.json",
+          "source_id": "P6-19",
+          "funding": "EPA",
+          "financial_ties": null,
+          "verification": "Official indexed HTML",
+          "independence_certified": false
+        }
+      ],
+      "archived_high_audit_disclosures": [],
+      "archived_primary_audit_ids": [],
+      "fresh_selected_check": null,
+      "disclosure_status": "one disclosure category has notes, other missing",
+      "remaining": "Confirm source-specific original disclosure, cash and in-kind funding, sponsor role, author and institutional interests, methods and applicability; unknown does not mean independent.",
+      "bias_appraisal_complete": false,
+      "independence_certified": false,
+      "clinical_review": false,
+      "publish": false
+    },
+    {
+      "id": "P6-20",
+      "title": "Proposed PFOA and PFOS Compliance Extension Rule",
+      "funding_notes": [
+        "EPA"
+      ],
+      "financial_interest_notes": [],
+      "archived_funding_audits": [
+        {
+          "file": "research/staged-completion/stage-06/FUNDING_AUDIT.json",
+          "source_id": "P6-20",
+          "funding": "EPA",
+          "financial_ties": null,
+          "verification": "Official indexed proposal pages",
+          "independence_certified": false
+        }
+      ],
+      "archived_high_audit_disclosures": [],
+      "archived_primary_audit_ids": [],
+      "fresh_selected_check": null,
+      "disclosure_status": "one disclosure category has notes, other missing",
+      "remaining": "Confirm source-specific original disclosure, cash and in-kind funding, sponsor role, author and institutional interests, methods and applicability; unknown does not mean independent.",
+      "bias_appraisal_complete": false,
+      "independence_certified": false,
+      "clinical_review": false,
+      "publish": false
+    },
+    {
+      "id": "P6-21",
+      "title": "Associations Between Prenatal Urinary Biomarkers of Phthalate Exposure and Preterm Birth: A Pooled Study of 16 US Cohorts",
+      "funding_notes": [
+        "NIH/NIEHS and EPA grants among disclosures; full grant list pending"
+      ],
+      "financial_interest_notes": [
+        "McElrath disclosed NxPrenatal/Mirvie equity and advisory roles/fees from Roche, Momenta, Comanche, Tectonic; Braun plaintiffs' PFAS expert-witness work paid into institutional account, not salary; Cordero outside Medtronic Foundation grant. Relevant direct plastic-industry sponsor not established."
+      ],
+      "archived_funding_audits": [
+        {
+          "file": "research/staged-completion/stage-06/FUNDING_AUDIT.json",
+          "source_id": "P6-21",
+          "funding": "NIH/NIEHS and EPA grants among disclosures; full grant list pending",
+          "financial_ties": "McElrath disclosed NxPrenatal/Mirvie equity and advisory roles/fees from Roche, Momenta, Comanche, Tectonic; Braun plaintiffs' PFAS expert-witness work paid into institutional account, not salary; Cordero outside Medtronic Foundation grant. Relevant direct plastic-industry sponsor not established.",
+          "verification": "Original JAMA disclosure and indexed primary abstract",
+          "independence_certified": false
+        }
+      ],
+      "archived_high_audit_disclosures": [],
+      "archived_primary_audit_ids": [],
+      "fresh_selected_check": null,
+      "disclosure_status": "both fields have notes, may be unknown/incomplete",
+      "remaining": "Confirm source-specific original disclosure, cash and in-kind funding, sponsor role, author and institutional interests, methods and applicability; unknown does not mean independent.",
+      "bias_appraisal_complete": false,
+      "independence_certified": false,
+      "clinical_review": false,
+      "publish": false
+    },
+    {
+      "id": "P6-22",
+      "title": "Periods of susceptibility for associations between phthalate exposure and preterm birth: Results from a pooled analysis of 16 US cohorts",
+      "funding_notes": [
+        "NIH/NIEHS intramural ZIAES103321 partly"
+      ],
+      "financial_interest_notes": [
+        "Braun PFAS litigation disclosure noted in indexed full text; remaining disclosures pending"
+      ],
+      "archived_funding_audits": [
+        {
+          "file": "research/staged-completion/stage-06/FUNDING_AUDIT.json",
+          "source_id": "P6-22",
+          "funding": "NIH/NIEHS intramural ZIAES103321 partly",
+          "financial_ties": "Braun PFAS litigation disclosure noted in indexed full text; remaining disclosures pending",
+          "verification": "Indexed primary PMC methods/discussion/funding",
+          "independence_certified": false
+        }
+      ],
+      "archived_high_audit_disclosures": [],
+      "archived_primary_audit_ids": [],
+      "fresh_selected_check": null,
+      "disclosure_status": "both fields have notes, may be unknown/incomplete",
+      "remaining": "Confirm source-specific original disclosure, cash and in-kind funding, sponsor role, author and institutional interests, methods and applicability; unknown does not mean independent.",
+      "bias_appraisal_complete": false,
+      "independence_certified": false,
+      "clinical_review": false,
+      "publish": false
+    },
+    {
+      "id": "P6-23",
+      "title": "Prenatal phthalate exposure and adverse birth outcomes in the USA: a prospective analysis of births and estimates of attributable burden and costs",
+      "funding_notes": [
+        "NIH"
+      ],
+      "financial_interest_notes": [
+        "Full COI pending"
+      ],
+      "archived_funding_audits": [
+        {
+          "file": "research/staged-completion/stage-06/FUNDING_AUDIT.json",
+          "source_id": "P6-23",
+          "funding": "NIH",
+          "financial_ties": "Full COI pending",
+          "verification": "Indexed primary abstract and ECHO overlap from P6-22",
+          "independence_certified": false
+        }
+      ],
+      "archived_high_audit_disclosures": [],
+      "archived_primary_audit_ids": [],
+      "fresh_selected_check": null,
+      "disclosure_status": "both fields have notes, may be unknown/incomplete",
+      "remaining": "Confirm source-specific original disclosure, cash and in-kind funding, sponsor role, author and institutional interests, methods and applicability; unknown does not mean independent.",
+      "bias_appraisal_complete": false,
+      "independence_certified": false,
+      "clinical_review": false,
+      "publish": false
+    },
+    {
+      "id": "P6-24",
+      "title": "Gestational Exposure to 10 Classes of Priority Chemicals and Birth Outcomes in the ECHO Cohort",
+      "funding_notes": [
+        "Funding and COI not extracted from indexed results"
+      ],
+      "financial_interest_notes": [
+        "Unknown"
+      ],
+      "archived_funding_audits": [
+        {
+          "file": "research/staged-completion/stage-06/FUNDING_AUDIT.json",
+          "source_id": "P6-24",
+          "funding": "Funding and COI not extracted from indexed results",
+          "financial_ties": "Unknown",
+          "verification": "Indexed primary article abstract",
+          "independence_certified": false
+        }
+      ],
+      "archived_high_audit_disclosures": [],
+      "archived_primary_audit_ids": [],
+      "fresh_selected_check": null,
+      "disclosure_status": "both fields have notes, may be unknown/incomplete",
+      "remaining": "Confirm source-specific original disclosure, cash and in-kind funding, sponsor role, author and institutional interests, methods and applicability; unknown does not mean independent.",
+      "bias_appraisal_complete": false,
+      "independence_certified": false,
+      "clinical_review": false,
+      "publish": false
+    },
+    {
+      "id": "P6-25",
+      "title": "Food packaging and bisphenol A and bis(2-ethyhexyl) phthalate exposure: findings from a dietary intervention",
+      "funding_notes": [
+        "Primary study grant statement not verified"
+      ],
+      "financial_interest_notes": [
+        "Silent Spring Institute and Breast Cancer Fund author affiliations; not certified independent, advocacy context separate"
+      ],
+      "archived_funding_audits": [
+        {
+          "file": "research/staged-completion/stage-06/FUNDING_AUDIT.json",
+          "source_id": "P6-25",
+          "funding": "Primary study grant statement not verified",
+          "financial_ties": "Silent Spring Institute and Breast Cancer Fund author affiliations; not certified independent, advocacy context separate",
+          "verification": "Indexed primary abstract and byline",
+          "independence_certified": false
+        }
+      ],
+      "archived_high_audit_disclosures": [],
+      "archived_primary_audit_ids": [],
+      "fresh_selected_check": null,
+      "disclosure_status": "both fields have notes, may be unknown/incomplete",
+      "remaining": "Confirm source-specific original disclosure, cash and in-kind funding, sponsor role, author and institutional interests, methods and applicability; unknown does not mean independent.",
+      "bias_appraisal_complete": false,
+      "independence_certified": false,
+      "clinical_review": false,
+      "publish": false
+    },
+    {
+      "id": "P6-26",
+      "title": "Unexpected results in a randomized dietary trial to reduce phthalate and bisphenol A exposures",
+      "funding_notes": [
+        "University of Washington Center for Ecogenetics and Environmental Health, NIEHS ES007033 (indexed publisher acknowledgments)"
+      ],
+      "financial_interest_notes": [
+        "Full author disclosure pending"
+      ],
+      "archived_funding_audits": [
+        {
+          "file": "research/staged-completion/stage-06/FUNDING_AUDIT.json",
+          "source_id": "P6-26",
+          "funding": "University of Washington Center for Ecogenetics and Environmental Health, NIEHS ES007033 (indexed publisher acknowledgments)",
+          "financial_ties": "Full author disclosure pending",
+          "verification": "Indexed primary abstract and funding",
+          "independence_certified": false
+        }
+      ],
+      "archived_high_audit_disclosures": [],
+      "archived_primary_audit_ids": [],
+      "fresh_selected_check": null,
+      "disclosure_status": "both fields have notes, may be unknown/incomplete",
+      "remaining": "Confirm source-specific original disclosure, cash and in-kind funding, sponsor role, author and institutional interests, methods and applicability; unknown does not mean independent.",
+      "bias_appraisal_complete": false,
+      "independence_certified": false,
+      "clinical_review": false,
+      "publish": false
+    },
+    {
+      "id": "P6-27",
+      "title": "Reducing Phthalate, Paraben, and Phenol Exposure from Personal Care Products in Adolescent Girls: Findings from the HERMOSA Intervention Study",
+      "funding_notes": [
+        "California Breast Cancer Research Program per state study page https://www.biomonitoring.ca.gov/projects/health-and-environmental-research-make-salinas-adolescents-hermosa-study"
+      ],
+      "financial_interest_notes": [
+        "Full COI and product donations not extracted"
+      ],
+      "archived_funding_audits": [
+        {
+          "file": "research/staged-completion/stage-06/FUNDING_AUDIT.json",
+          "source_id": "P6-27",
+          "funding": "California Breast Cancer Research Program per state study page https://www.biomonitoring.ca.gov/projects/health-and-environmental-research-make-salinas-adolescents-hermosa-study",
+          "financial_ties": "Full COI and product donations not extracted",
+          "verification": "Indexed primary abstract, official project funding",
+          "independence_certified": false
+        }
+      ],
+      "archived_high_audit_disclosures": [],
+      "archived_primary_audit_ids": [],
+      "fresh_selected_check": null,
+      "disclosure_status": "both fields have notes, may be unknown/incomplete",
+      "remaining": "Confirm source-specific original disclosure, cash and in-kind funding, sponsor role, author and institutional interests, methods and applicability; unknown does not mean independent.",
+      "bias_appraisal_complete": false,
+      "independence_certified": false,
+      "clinical_review": false,
+      "publish": false
+    },
+    {
+      "id": "P6-28",
+      "title": "Large effects from small exposures. II. The importance of positive controls in low-dose research on bisphenol A",
+      "funding_notes": [
+        "PubMed tags NIH and non-US governmental support; exact grants pending"
+      ],
+      "financial_interest_notes": [
+        "Full COI pending"
+      ],
+      "archived_funding_audits": [
+        {
+          "file": "research/staged-completion/stage-06/FUNDING_AUDIT.json",
+          "source_id": "P6-28",
+          "funding": "PubMed tags NIH and non-US governmental support; exact grants pending",
+          "financial_ties": "Full COI pending",
+          "verification": "Original PubMed abstract",
+          "independence_certified": false
+        }
+      ],
+      "archived_high_audit_disclosures": [],
+      "archived_primary_audit_ids": [],
+      "fresh_selected_check": null,
+      "disclosure_status": "both fields have notes, may be unknown/incomplete",
+      "remaining": "Confirm source-specific original disclosure, cash and in-kind funding, sponsor role, author and institutional interests, methods and applicability; unknown does not mean independent.",
+      "bias_appraisal_complete": false,
+      "independence_certified": false,
+      "clinical_review": false,
+      "publish": false
+    },
+    {
+      "id": "P6-29",
+      "title": "Re-evaluation of the risks to public health related to the presence of bisphenol A in foodstuffs",
+      "funding_notes": [
+        "EFSA"
+      ],
+      "financial_interest_notes": [
+        "Panel disclosures and review membership pending"
+      ],
+      "archived_funding_audits": [
+        {
+          "file": "research/staged-completion/stage-06/FUNDING_AUDIT.json",
+          "source_id": "P6-29",
+          "funding": "EFSA",
+          "financial_ties": "Panel disclosures and review membership pending",
+          "verification": "Official indexed plain-language assessment",
+          "independence_certified": false
+        }
+      ],
+      "archived_high_audit_disclosures": [],
+      "archived_primary_audit_ids": [],
+      "fresh_selected_check": null,
+      "disclosure_status": "both fields have notes, may be unknown/incomplete",
+      "remaining": "Confirm source-specific original disclosure, cash and in-kind funding, sponsor role, author and institutional interests, methods and applicability; unknown does not mean independent.",
+      "bias_appraisal_complete": false,
+      "independence_certified": false,
+      "clinical_review": false,
+      "publish": false
+    },
+    {
+      "id": "P6-30",
+      "title": "Bisphenol A (BPA): Use in Food Contact Application",
+      "funding_notes": [
+        "FDA"
+      ],
+      "financial_interest_notes": [
+        "Panel and underlying study funding not audited"
+      ],
+      "archived_funding_audits": [
+        {
+          "file": "research/staged-completion/stage-06/FUNDING_AUDIT.json",
+          "source_id": "P6-30",
+          "funding": "FDA",
+          "financial_ties": "Panel and underlying study funding not audited",
+          "verification": "Official indexed HTML",
+          "independence_certified": false
+        }
+      ],
+      "archived_high_audit_disclosures": [],
+      "archived_primary_audit_ids": [],
+      "fresh_selected_check": null,
+      "disclosure_status": "both fields have notes, may be unknown/incomplete",
+      "remaining": "Confirm source-specific original disclosure, cash and in-kind funding, sponsor role, author and institutional interests, methods and applicability; unknown does not mean independent.",
+      "bias_appraisal_complete": false,
+      "independence_certified": false,
+      "clinical_review": false,
+      "publish": false
+    },
+    {
+      "id": "P6-31",
+      "title": "CLARITY-BPA Core Study: A Perinatal and Chronic Extended-Dose-Range Study of Bisphenol A in Rats",
+      "funding_notes": [
+        "NTP/FDA/NIEHS"
+      ],
+      "financial_interest_notes": [
+        "Individual laboratory disclosures not extracted"
+      ],
+      "archived_funding_audits": [
+        {
+          "file": "research/staged-completion/stage-06/FUNDING_AUDIT.json",
+          "source_id": "P6-31",
+          "funding": "NTP/FDA/NIEHS",
+          "financial_ties": "Individual laboratory disclosures not extracted",
+          "verification": "Official report HTML overview",
+          "independence_certified": false
+        }
+      ],
+      "archived_high_audit_disclosures": [],
+      "archived_primary_audit_ids": [],
+      "fresh_selected_check": null,
+      "disclosure_status": "both fields have notes, may be unknown/incomplete",
+      "remaining": "Confirm source-specific original disclosure, cash and in-kind funding, sponsor role, author and institutional interests, methods and applicability; unknown does not mean independent.",
+      "bias_appraisal_complete": false,
+      "independence_certified": false,
+      "clinical_review": false,
+      "publish": false
+    },
+    {
+      "id": "P6-32",
+      "title": "Plasticenta: First evidence of microplastics in human placenta",
+      "funding_notes": [
+        "Not verified"
+      ],
+      "financial_interest_notes": [
+        "Unknown"
+      ],
+      "archived_funding_audits": [
+        {
+          "file": "research/staged-completion/stage-06/FUNDING_AUDIT.json",
+          "source_id": "P6-32",
+          "funding": "Not verified",
+          "financial_ties": "Unknown",
+          "verification": "Indexed primary abstract",
+          "independence_certified": false
+        }
+      ],
+      "archived_high_audit_disclosures": [],
+      "archived_primary_audit_ids": [],
+      "fresh_selected_check": null,
+      "disclosure_status": "both fields have notes, may be unknown/incomplete",
+      "remaining": "Confirm source-specific original disclosure, cash and in-kind funding, sponsor role, author and institutional interests, methods and applicability; unknown does not mean independent.",
+      "bias_appraisal_complete": false,
+      "independence_certified": false,
+      "clinical_review": false,
+      "publish": false
+    },
+    {
+      "id": "P6-33",
+      "title": "Microplastic release from the degradation of polypropylene feeding bottles during infant formula preparation",
+      "funding_notes": [
+        "Enterprise Ireland CF20180870; Science Foundation Ireland 12/RC/2278,16/IA/4462,16/RC/3889; Trinity engineering scholarship; China Scholarship Council awards"
+      ],
+      "financial_interest_notes": [
+        "Full competing-interest text blocked"
+      ],
+      "archived_funding_audits": [
+        {
+          "file": "research/staged-completion/stage-06/FUNDING_AUDIT.json",
+          "source_id": "P6-33",
+          "funding": "Enterprise Ireland CF20180870; Science Foundation Ireland 12/RC/2278,16/IA/4462,16/RC/3889; Trinity engineering scholarship; China Scholarship Council awards",
+          "financial_ties": "Full competing-interest text blocked",
+          "verification": "Indexed original publisher abstract and grant statement; direct publisher blocked",
+          "independence_certified": false
+        }
+      ],
+      "archived_high_audit_disclosures": [],
+      "archived_primary_audit_ids": [],
+      "fresh_selected_check": null,
+      "disclosure_status": "both fields have notes, may be unknown/incomplete",
+      "remaining": "Confirm source-specific original disclosure, cash and in-kind funding, sponsor role, author and institutional interests, methods and applicability; unknown does not mean independent.",
+      "bias_appraisal_complete": false,
+      "independence_certified": false,
+      "clinical_review": false,
+      "publish": false
+    },
+    {
+      "id": "P6-34",
+      "title": "Effects of Microplastic Exposure on Human Digestive, Reproductive, and Respiratory Health: A Rapid Systematic Review",
+      "funding_notes": [
+        "Full funding statement inaccessible in this pass"
+      ],
+      "financial_interest_notes": [
+        "Unknown"
+      ],
+      "archived_funding_audits": [
+        {
+          "file": "research/staged-completion/stage-06/FUNDING_AUDIT.json",
+          "source_id": "P6-34",
+          "funding": "Full funding statement inaccessible in this pass",
+          "financial_ties": "Unknown",
+          "verification": "Indexed primary abstract; ACS 403",
+          "independence_certified": false
+        }
+      ],
+      "archived_high_audit_disclosures": [],
+      "archived_primary_audit_ids": [],
+      "fresh_selected_check": null,
+      "disclosure_status": "both fields have notes, may be unknown/incomplete",
+      "remaining": "Confirm source-specific original disclosure, cash and in-kind funding, sponsor role, author and institutional interests, methods and applicability; unknown does not mean independent.",
+      "bias_appraisal_complete": false,
+      "independence_certified": false,
+      "clinical_review": false,
+      "publish": false
+    },
+    {
+      "id": "P6-35",
+      "title": "Health impacts of micro- and nanoplastics in humans: systematic review of in vivo evidence",
+      "funding_notes": [
+        "Full funding statement not extracted"
+      ],
+      "financial_interest_notes": [
+        "No competing interests declared"
+      ],
+      "archived_funding_audits": [
+        {
+          "file": "research/staged-completion/stage-06/FUNDING_AUDIT.json",
+          "source_id": "P6-35",
+          "funding": "Full funding statement not extracted",
+          "financial_ties": "No competing interests declared",
+          "verification": "Original PubMed abstract and COI",
+          "independence_certified": false
+        }
+      ],
+      "archived_high_audit_disclosures": [],
+      "archived_primary_audit_ids": [],
+      "fresh_selected_check": null,
+      "disclosure_status": "both fields have notes, may be unknown/incomplete",
+      "remaining": "Confirm source-specific original disclosure, cash and in-kind funding, sponsor role, author and institutional interests, methods and applicability; unknown does not mean independent.",
+      "bias_appraisal_complete": false,
+      "independence_certified": false,
+      "clinical_review": false,
+      "publish": false
+    },
+    {
+      "id": "P6-36",
+      "title": "Microplastics and Nanoplastics in Foods",
+      "funding_notes": [
+        "FDA"
+      ],
+      "financial_interest_notes": [],
+      "archived_funding_audits": [
+        {
+          "file": "research/staged-completion/stage-06/FUNDING_AUDIT.json",
+          "source_id": "P6-36",
+          "funding": "FDA",
+          "financial_ties": null,
+          "verification": "Official indexed HTML",
+          "independence_certified": false
+        }
+      ],
+      "archived_high_audit_disclosures": [],
+      "archived_primary_audit_ids": [],
+      "fresh_selected_check": null,
+      "disclosure_status": "one disclosure category has notes, other missing",
+      "remaining": "Confirm source-specific original disclosure, cash and in-kind funding, sponsor role, author and institutional interests, methods and applicability; unknown does not mean independent.",
+      "bias_appraisal_complete": false,
+      "independence_certified": false,
+      "clinical_review": false,
+      "publish": false
+    },
+    {
+      "id": "P6-37",
+      "title": "Portable HEPA Filter Air Cleaner Use during Pregnancy and Children's Cognitive Performance at Four Years of Age: The UGAAR Randomized Controlled Trial",
+      "funding_notes": [
+        "Canadian Institutes of Health Research; Coway discounted modified cleaners"
+      ],
+      "financial_interest_notes": [
+        "Complete author disclosures pending; not commercial-free due in-kind support"
+      ],
+      "archived_funding_audits": [
+        {
+          "file": "research/staged-completion/stage-06/FUNDING_AUDIT.json",
+          "source_id": "P6-37",
+          "funding": "Canadian Institutes of Health Research; Coway discounted modified cleaners",
+          "financial_ties": "Complete author disclosures pending; not commercial-free due in-kind support",
+          "verification": "Indexed original abstract, full-text funding/PM passage; PMC captcha",
+          "independence_certified": false
+        }
+      ],
+      "archived_high_audit_disclosures": [],
+      "archived_primary_audit_ids": [],
+      "fresh_selected_check": null,
+      "disclosure_status": "both fields have notes, may be unknown/incomplete",
+      "remaining": "Confirm source-specific original disclosure, cash and in-kind funding, sponsor role, author and institutional interests, methods and applicability; unknown does not mean independent.",
+      "bias_appraisal_complete": false,
+      "independence_certified": false,
+      "clinical_review": false,
+      "publish": false
+    },
+    {
+      "id": "P6-38",
+      "title": "The effect of portable HEPA filter air cleaner use during pregnancy on fetal growth: The UGAAR randomized controlled trial",
+      "funding_notes": [
+        "Same cohort funding P6-37; report-specific verification pending"
+      ],
+      "financial_interest_notes": [
+        "Same lineage, full COI pending"
+      ],
+      "archived_funding_audits": [
+        {
+          "file": "research/staged-completion/stage-06/FUNDING_AUDIT.json",
+          "source_id": "P6-38",
+          "funding": "Same cohort funding P6-37; report-specific verification pending",
+          "financial_ties": "Same lineage, full COI pending",
+          "verification": "Indexed primary abstract",
+          "independence_certified": false
+        }
+      ],
+      "archived_high_audit_disclosures": [],
+      "archived_primary_audit_ids": [],
+      "fresh_selected_check": null,
+      "disclosure_status": "both fields have notes, may be unknown/incomplete",
+      "remaining": "Confirm source-specific original disclosure, cash and in-kind funding, sponsor role, author and institutional interests, methods and applicability; unknown does not mean independent.",
+      "bias_appraisal_complete": false,
+      "independence_certified": false,
+      "clinical_review": false,
+      "publish": false
+    },
+    {
+      "id": "P6-39",
+      "title": "Liquefied Petroleum Gas or Biomass for Cooking and Effects on Birth Weight",
+      "funding_notes": [
+        "NIH and Bill & Melinda Gates Foundation"
+      ],
+      "financial_interest_notes": [
+        "Full supplier/individual COI pending"
+      ],
+      "archived_funding_audits": [
+        {
+          "file": "research/staged-completion/stage-06/FUNDING_AUDIT.json",
+          "source_id": "P6-39",
+          "funding": "NIH and Bill & Melinda Gates Foundation",
+          "financial_ties": "Full supplier/individual COI pending",
+          "verification": "Indexed primary PubMed and NEJM HTML result",
+          "independence_certified": false
+        }
+      ],
+      "archived_high_audit_disclosures": [],
+      "archived_primary_audit_ids": [],
+      "fresh_selected_check": null,
+      "disclosure_status": "both fields have notes, may be unknown/incomplete",
+      "remaining": "Confirm source-specific original disclosure, cash and in-kind funding, sponsor role, author and institutional interests, methods and applicability; unknown does not mean independent.",
+      "bias_appraisal_complete": false,
+      "independence_certified": false,
+      "clinical_review": false,
+      "publish": false
+    },
+    {
+      "id": "P6-40",
+      "title": "Effects of Cooking with Liquefied Petroleum Gas or Biomass on Stunting in Infants",
+      "funding_notes": [
+        "NIH and Bill & Melinda Gates Foundation"
+      ],
+      "financial_interest_notes": [
+        "Full supplier/individual disclosures pending"
+      ],
+      "archived_funding_audits": [
+        {
+          "file": "research/staged-completion/stage-06/FUNDING_AUDIT.json",
+          "source_id": "P6-40",
+          "funding": "NIH and Bill & Melinda Gates Foundation",
+          "financial_ties": "Full supplier/individual disclosures pending",
+          "verification": "Indexed primary abstract",
+          "independence_certified": false
+        }
+      ],
+      "archived_high_audit_disclosures": [],
+      "archived_primary_audit_ids": [],
+      "fresh_selected_check": null,
+      "disclosure_status": "both fields have notes, may be unknown/incomplete",
+      "remaining": "Confirm source-specific original disclosure, cash and in-kind funding, sponsor role, author and institutional interests, methods and applicability; unknown does not mean independent.",
+      "bias_appraisal_complete": false,
+      "independence_certified": false,
+      "clinical_review": false,
+      "publish": false
+    }
+  ]
+}
