@@ -24,6 +24,7 @@ const jsonFiles = [
 ]
 
 const jsonlFiles = [
+  ['staged-completion/stage-10/SOURCE_INDEX.jsonl', 'source_index.json'],
   ['staged-completion/stage-10/OUTCOMES.jsonl', 'outcomes.json'],
   ['staged-completion/stage-10/NUTRIENTS.jsonl', 'nutrients.json'],
 ]
