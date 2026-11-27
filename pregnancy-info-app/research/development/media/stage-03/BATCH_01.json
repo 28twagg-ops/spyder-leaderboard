@@ -88,7 +88,7 @@
     }
   ],
   "baseline_failures": [],
-  "methods": "Web-indexed publisher pages, individual episode show notes, selected transcript excerpts, official book/film descriptions. No audio or film playback/full-book reading. Dedup normalized URL against listed source archives and this batch; work/episode/replay, alternate video translations, exact claim, DOI and whole-project identity reconciliation still pending. No clinical content cleared. Related literature separately labeled and not counted as additional media. Additional dedicated media catalogues were checked on normalized URL; added primary and review comparisons for home birth, fetal position, donor milk, cord clamping, marketing, fetal learning and attachment. Comparisons are not claimed to be exact citations except series identification where explicitly noted. Corrected URL normalization; reran first ten baseline files; prior zero-match count superseded. Remaining baseline files still require corrected pass.",
+  "methods": "Web-indexed publisher pages, individual episode show notes, selected transcript excerpts, official book/film descriptions. No audio or film playback/full-book reading. Dedup normalized URL against listed source archives and this batch; work/episode/replay, alternate video translations, exact claim, DOI and whole-project identity reconciliation still pending. No clinical content cleared. Related literature separately labeled and not counted as additional media. Additional dedicated media catalogues were checked on normalized URL; added primary and review comparisons for home birth, fetal position, donor milk, cord clamping, marketing, fetal learning and attachment. Comparisons are not claimed to be exact citations except series identification where explicitly noted. Corrected URL normalization; reran first ten baseline files; prior zero-match count superseded. Remaining baseline files still require corrected pass. Corrected second archive pass completed; all listed baseline files checked in two passes. Selected publisher records spot-checked again, including EBB 418 and Inserm SEPAGES; no full audio playback.",
   "records": [
     {
       "url": "https://evidencebasedbirth.com/ebb-418-evidence-on-natural-labor-induction-castor-oil-and-eating-dates/",
@@ -98,8 +98,8 @@
       "language": "en",
       "media_type": "podcast / editorial",
       "topic": "labor",
-      "locator": "Podcast transcript; opening and natural induction sections",
-      "locator_type": "show notes, transcript section or publisher description; no exact audio timestamp verified",
+      "locator": "Publisher chapter times: 06:41 research on castor oil; 21:41 adverse effects; 23:26 safety after cesarean; 35:06 dates meta-analysis; 39:10 study quality; 47:04 final limitations. Apple Podcasts publisher show notes, checked 2026-11-27; no audio playback.",
+      "locator_type": "publisher-supplied chapter time; not audio verified",
       "claim_or_question": "Discusses castor oil and dates; separate cervical/labor endpoints and safety. No home induction instructions.",
       "claim_status": "screened description/excerpt only; verify exact speaker wording before publication",
       "commercial_and_funding_context": "Publisher operates childbirth education platform; episode-specific sponsors, revenue and guest ties require verification. Guest commercial services noted where visible.",
@@ -2661,7 +2661,7 @@
       "locator_type": "show notes, transcript section or publisher description; no exact audio timestamp verified",
       "claim_or_question": "Cohort research on air pollution and endocrine disruptors; participant narrative not intervention effect.",
       "claim_status": "screened description/excerpt only; verify exact speaker wording before publication",
-      "commercial_and_funding_context": "Public research institution; individual study sponsors and researcher conflicts require separate verification.",
+      "commercial_and_funding_context": "Inserm public research communication; SEPAGES cohort principal funders acknowledged in official companion video: ERC, FP7, H2020, ANR, Fondation de France, Anses. Episode production funding and full researcher COI unknown.",
       "independence": "not established",
       "evidence_links": [],
       "trace_status": "original evidence trace pending or contextual/nonclinical",
@@ -2828,6 +2828,52 @@
         }
       ],
       "unique_normalized_archive_urls": 1200,
+      "failures": []
+    },
+    {
+      "files": [
+        {
+          "path": "research/development/international/stage-01/BATCH_03.json",
+          "sha": "ab80c1e5bf987b18998831fe4fe853b35501f96a"
+        },
+        {
+          "path": "research/development/international/stage-01/BATCH_04.json",
+          "sha": "092292e86974b620c91ac62a1e69123ba05f9561"
+        },
+        {
+          "path": "research/development/international/stage-01/BATCH_05.json",
+          "sha": "5f72d81710034957d52c0da4ed28c7231ccef4d0"
+        },
+        {
+          "path": "research/child-health/visuals-and-media.json",
+          "sha": "5815b5cb5d34e77900d4c15dd4bd423d1636264e"
+        },
+        {
+          "path": "research/external-audits/grok/MEDIA_CANDIDATES.json",
+          "sha": "8e152eedd8b9fdfec25074126aed96a92718ccdb"
+        },
+        {
+          "path": "research/high-audit/VISUAL_ASSET_REFERENCES.json",
+          "sha": "9fa15121ca34466bdc7b9bf3c30584cf922de607"
+        },
+        {
+          "path": "research/implementation-handoff/MEDIA_CATALOG.json",
+          "sha": "8aec702e0463346aa6bf89ef0b333f61fdedd7ec"
+        },
+        {
+          "path": "research/integrated/MEDIA_LINKED.json",
+          "sha": "fd405c0068db1c97d4d3562db639ff786c4165cb"
+        },
+        {
+          "path": "research/routine-prep/MEDIA_REVIEW_QUEUE.json",
+          "sha": "4721a105e0b5714a74623b440e2576ae07fb96cb"
+        },
+        {
+          "path": "research/transfer/exports/media_candidates.jsonl",
+          "sha": "9d87906c0edf79ae3927cd96c7399bb63072a494"
+        }
+      ],
+      "unique_normalized_archive_urls": 139,
       "failures": []
     }
   ]
