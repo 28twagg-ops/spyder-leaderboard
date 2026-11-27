@@ -2,8 +2,14 @@ import { render, screen } from '@testing-library/react'
 import { MemoryRouter } from 'react-router-dom'
 import { describe, expect, it } from 'vitest'
 import App from './App'
+import { DEFAULT_THEME, isThemeId } from './theme/themes'
 
 describe('Everwell shell', () => {
+  it('defaults to Morning Stone and retains Soft Fog as an alternative', () => {
+    expect(DEFAULT_THEME).toBe('morning-stone')
+    expect(isThemeId('soft-fog')).toBe(true)
+  })
+
   it('renders brand and integrated research draft disclaimer on today', () => {
     render(
       <MemoryRouter initialEntries={['/']}>
