@@ -112,3 +112,5 @@ Evidence: prior preview 8b51b5f76a0d4624cf2c1879021c52da98f82de1; preference/sea
 - [ ] Compact landing-page preference panel: eight primary 0–5 sliders with live top-three matches and optional expandable details; physical health, placement pain and upfront cost use explicit limited feature proxies, mental health remains review-only. No clinical recommendation. Automated build and actual device review pending.
 
 - [ ] Approved six-theme Morning Stone preference panel with “Your top three matches”; 36-month cost budget, source-linked component examples and optional all-in quotes; unknown totals remain uncertain. Correct previous hidden-slider test failure by targeting primary slider group. Build and phone visual acceptance pending.
+
+- [ ] Product-level contraception expansion: 37 formulation/product profiles, 55 additional source records (regulatory labels, research and manufacturer availability announcement). US scope, no exhaustive brand/NDC or real-time inventory verification; review clinical accuracy, original full texts, funding/COI, correction status and rendered app before clinical release. Deployment tests pending.

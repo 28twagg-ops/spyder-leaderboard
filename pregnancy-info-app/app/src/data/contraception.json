@@ -799,6 +799,831 @@
       "certainty": "Descriptive access information, not clinical certainty",
       "sponsorRole": "No study sponsorship inferred; page-level funding details not available",
       "integrity": "Price and coverage may change; recheck before purchase"
+    },
+    {
+      "id": "CT-51",
+      "title": "Kimble et al. 2020: US drospirenone-only phase 3 trial",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/32550535/",
+      "design": "Single-arm open-label multicenter phase 3; 1,006 exposed, up to 13 cycles",
+      "finding": "35% completed; 65% discontinued. Confirmed pregnancy Pearl index 2.9 (95% CI 1.5–5.1) in 915 eligible participants at sites without major violations. All reported pregnancy analysis 4.0 (2.3–6.4). Hyperkalemia 0.5%; no VTE events observed.",
+      "funding": "Exeltis author affiliation; complete funding declaration not retrieved.",
+      "coi": "Manufacturer employee coauthor; full author interests pending.",
+      "bias": "No randomized comparator, high attrition, selected population, post-exclusion analysis; inadequate power for rare clot events or long-term mood/health.",
+      "access": "Original source indexed abstract/label excerpts; full text and declarations not comprehensively audited",
+      "verified": "2026-11-27",
+      "certainty": "Provisional; formal outcome-specific GRADE not assessed",
+      "sponsorRole": "Full protocol, data ownership and sponsor control not independently audited",
+      "integrity": "Correction/retraction and current-market status require further review"
+    },
+    {
+      "id": "CT-52",
+      "title": "Palacios et al. 2019: drospirenone versus desogestrel bleeding trial",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/31728664/",
+      "design": "Double-blind randomized comparison over nine cycles",
+      "finding": "Direct comparison of bleeding patterns with drospirenone-only versus desogestrel-only pill. Findings are specific to these products and comparator; numeric extraction held.",
+      "funding": "Funding not verified in retrieved abstract.",
+      "coi": "Full disclosures pending; do not infer independence.",
+      "bias": "Short duration; no direct US norethindrone or norgestrel comparison; related reports may overlap (PMID 32598387, 34402728).",
+      "access": "Original source indexed abstract/label excerpts; full text and declarations not comprehensively audited",
+      "verified": "2026-11-27",
+      "certainty": "Provisional; formal outcome-specific GRADE not assessed",
+      "sponsorRole": "Full protocol, data ownership and sponsor control not independently audited",
+      "integrity": "Correction/retraction and current-market status require further review"
+    },
+    {
+      "id": "CT-53",
+      "title": "2022 norgestrel non-adherence crossover study",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/36130667/",
+      "design": "Randomized crossover physiologic study",
+      "finding": "Measured ovarian activity and cervical mucus during deliberately altered use. Theoretical protection is not observed pregnancy prevention.",
+      "funding": "Full funding not verified; related protocol PMID 33970869 discloses department industry contraceptive research support.",
+      "coi": "Related protocol identifies HRA Pharma, Medicines360, Merck and Sebela support; full trial COI pending.",
+      "bias": "Surrogate endpoints, short exposure; do not change labeled missed-pill guidance or infer comparative pregnancy rates.",
+      "access": "Original source indexed abstract/label excerpts; full text and declarations not comprehensively audited",
+      "verified": "2026-11-27",
+      "certainty": "Provisional; formal outcome-specific GRADE not assessed",
+      "sponsorRole": "Full protocol, data ownership and sponsor control not independently audited",
+      "integrity": "Correction/retraction and current-market status require further review"
+    },
+    {
+      "id": "CT-54",
+      "title": "2024 ACCESS: simulated OTC norgestrel adherence",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/38431261/",
+      "design": "Simulated OTC use and adherence study",
+      "finding": "Evaluated consumer adherence to the norgestrel label in a simulated OTC setting.",
+      "funding": "Funding not verified.",
+      "coi": "Full manufacturer role and disclosures pending.",
+      "bias": "Self-report and simulated setting, not a direct comparison with prescription pills or long-term safety study.",
+      "access": "Original source indexed abstract/label excerpts; full text and declarations not comprehensively audited",
+      "verified": "2026-11-27",
+      "certainty": "Provisional; formal outcome-specific GRADE not assessed",
+      "sponsorRole": "Full protocol, data ownership and sponsor control not independently audited",
+      "integrity": "Correction/retraction and current-market status require further review"
+    },
+    {
+      "id": "CT-55",
+      "title": "Thomas et al. 2020: AMPOWER vaginal pH regulator trial",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/32685920/",
+      "design": "Single-arm phase 3 trial; 1,384 enrolled over seven cycles",
+      "finding": "Pregnancy rate 13.7% (95% CI 10.0–17.5%) across seven cycles as reported in product label; selected cycles excluded. Local burning/irritation and urinary adverse effects matter.",
+      "funding": "Evofem-affiliated author; trial sponsor role requires full extraction.",
+      "coi": "Manufacturer employee coauthor; full declarations pending.",
+      "bias": "Open label, no concurrent comparator, selected evaluable cycles, follow-up shorter than one year. Do not annualize or compare directly with annual CDC estimates.",
+      "access": "Original source indexed abstract/label excerpts; full text and declarations not comprehensively audited",
+      "verified": "2026-11-27",
+      "certainty": "Provisional; formal outcome-specific GRADE not assessed",
+      "sponsorRole": "Full protocol, data ownership and sponsor control not independently audited",
+      "integrity": "Correction/retraction and current-market status require further review"
+    },
+    {
+      "id": "CT-56",
+      "title": "2024 phase 3 low-dose copper IUD trial",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/39581486/",
+      "design": "Single-arm 42 US centers, three-year follow-up",
+      "finding": "One-year Pearl index 0.94 (95% CI 0.43–1.78); one-year cumulative pregnancy 1.26% (0.57–1.95%) and three-year 2.47% (1.34–3.60%).",
+      "funding": "Funding not confirmed from retrieved excerpts; applicant pivotal program.",
+      "coi": "Full conflicts and sponsor control not verified.",
+      "bias": "No concurrent Paragard comparator; attrition and selection may affect estimates; lower copper surface area does not prove lower pain or better safety.",
+      "access": "Original source indexed abstract/label excerpts; full text and declarations not comprehensively audited",
+      "verified": "2026-11-27",
+      "certainty": "Provisional; formal outcome-specific GRADE not assessed",
+      "sponsorRole": "Full protocol, data ownership and sponsor control not independently audited",
+      "integrity": "Correction/retraction and current-market status require further review"
+    },
+    {
+      "id": "CT-57",
+      "title": "Dragoman et al. 2018: combined-pill VTE systematic review",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/29388678/",
+      "design": "22 articles, pooled adjusted observational comparisons",
+      "finding": "Some combined pills containing desogestrel or drospirenone showed pooled VTE risk ratios around 1.5–2.0 relative to levonorgestrel-containing pills.",
+      "funding": "WHO/CDC/OHSU author affiliations; full funding declaration pending.",
+      "coi": "No verified complete COI audit; original study commercial ties remain to be assessed.",
+      "bias": "Residual confounding, formulation differences, overlapping populations; pertains to combined pills, not drospirenone-only pills.",
+      "access": "Original source indexed abstract/label excerpts; full text and declarations not comprehensively audited",
+      "verified": "2026-11-27",
+      "certainty": "Provisional; formal outcome-specific GRADE not assessed",
+      "sponsorRole": "Full protocol, data ownership and sponsor control not independently audited",
+      "integrity": "Correction/retraction and current-market status require further review"
+    },
+    {
+      "id": "CT-58",
+      "title": "Tepper et al. 2025: progestin-only contraception and thrombosis systematic review",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/40451566/",
+      "design": "Updated systematic review of observational VTE and arterial events",
+      "finding": "Evidence limited by method, condition and outcome; compare with CT-12 and CT-35 newer registry outcomes separately.",
+      "funding": "Full funding declaration not retrieved.",
+      "coi": "Full disclosures pending.",
+      "bias": "Confounding, heterogeneous formulations and sparse events; literature window ends November 2022, does not settle newer registry signals.",
+      "access": "Original source indexed abstract/label excerpts; full text and declarations not comprehensively audited",
+      "verified": "2026-11-27",
+      "certainty": "Provisional; formal outcome-specific GRADE not assessed",
+      "sponsorRole": "Full protocol, data ownership and sponsor control not independently audited",
+      "integrity": "Correction/retraction and current-market status require further review"
+    },
+    {
+      "id": "CT-59",
+      "title": "Van Damme et al. 2002: nonoxynol-9 HIV prevention trial",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/12383665/",
+      "design": "Randomized controlled trial in female sex workers",
+      "finding": "Nonoxynol-9 did not protect against HIV and frequent exposure raised concerns about mucosal injury/HIV acquisition.",
+      "funding": "Funding not verified in this pass.",
+      "coi": "Full conflicts pending.",
+      "bias": "High-frequency use and high-risk study population; not a routine-use contraceptive pregnancy trial.",
+      "access": "Original source indexed abstract/label excerpts; full text and declarations not comprehensively audited",
+      "verified": "2026-11-27",
+      "certainty": "Provisional; formal outcome-specific GRADE not assessed",
+      "sponsorRole": "Full protocol, data ownership and sponsor control not independently audited",
+      "integrity": "Correction/retraction and current-market status require further review"
+    },
+    {
+      "id": "CT-60",
+      "title": "2017 Natural Cycles effectiveness cohort",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/28882680/",
+      "design": "App-user observational effectiveness cohort",
+      "finding": "Reported typical/perfect-use Pearl indices and life-table pregnancy estimates; product-specific evidence only.",
+      "funding": "Full funding declaration not retrieved.",
+      "coi": "Company founders own stock; advisers reported company and other industry relationships in original indexed disclosure.",
+      "bias": "Self-selected paying users, retrospective reporting, loss to follow-up, potential manufacturer influence; not generic cycle-tracking efficacy.",
+      "access": "Original source indexed abstract/label excerpts; full text and declarations not comprehensively audited",
+      "verified": "2026-11-27",
+      "certainty": "Provisional; formal outcome-specific GRADE not assessed",
+      "sponsorRole": "Full protocol, data ownership and sponsor control not independently audited",
+      "integrity": "Correction/retraction and current-market status require further review"
+    },
+    {
+      "id": "CT-61",
+      "title": "2021 Natural Cycles US cohort",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/33370220/",
+      "design": "US observational app cohort",
+      "finding": "13-cycle cumulative pregnancy probability 7.2%; one-year Pearl index 6.2. Different metrics, not interchangeable.",
+      "funding": "Funding not verified.",
+      "coi": "Full author declarations pending.",
+      "bias": "Self-selection and reporting, app-version changes, follow-up; possible cohort overlaps need check.",
+      "access": "Original source indexed abstract/label excerpts; full text and declarations not comprehensively audited",
+      "verified": "2026-11-27",
+      "certainty": "Provisional; formal outcome-specific GRADE not assessed",
+      "sponsorRole": "Full protocol, data ownership and sponsor control not independently audited",
+      "integrity": "Correction/retraction and current-market status require further review"
+    },
+    {
+      "id": "CT-62",
+      "title": "2021 North American estetrol/drospirenone phase 3 trial",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/34000251/",
+      "design": "Phase 3 efficacy and safety study",
+      "finding": "Estetrol plus drospirenone studied for efficacy and cycle control; no basis for assuming rare clinical risks lower than all ethinyl estradiol products.",
+      "funding": "Full funding not retrieved.",
+      "coi": "Sponsor involvement and full declarations pending.",
+      "bias": "Pivotal trials generally lack power for rare events; no direct long-term safety superiority established.",
+      "access": "Original source indexed abstract/label excerpts; full text and declarations not comprehensively audited",
+      "verified": "2026-11-27",
+      "certainty": "Provisional; formal outcome-specific GRADE not assessed",
+      "sponsorRole": "Full protocol, data ownership and sponsor control not independently audited",
+      "integrity": "Correction/retraction and current-market status require further review"
+    },
+    {
+      "id": "CT-63",
+      "title": "2026 estetrol/drospirenone systematic review",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/42568434/",
+      "design": "Systematic review; 25 publications/reports",
+      "finding": "Includes phase 2/3 studies, pooled and mechanistic comparisons; distinguish surrogate outcomes from clinical harms.",
+      "funding": "Full funding declaration pending.",
+      "coi": "Full disclosures pending.",
+      "bias": "Reports not independent studies; trial overlap and rare-event uncertainty. No new ranking adopted.",
+      "access": "Original source indexed abstract/label excerpts; full text and declarations not comprehensively audited",
+      "verified": "2026-11-27",
+      "certainty": "Provisional; formal outcome-specific GRADE not assessed",
+      "sponsorRole": "Full protocol, data ownership and sponsor control not independently audited",
+      "integrity": "Correction/retraction and current-market status require further review"
+    },
+    {
+      "id": "CT-64",
+      "title": "Organon 2026 Miudella launch/REMS announcement",
+      "url": "https://www.organon.com/news/organon-opens-rems-program-for-miudella-ahead-of-anticipated-commercial-availability/",
+      "design": "Manufacturer commercial announcement",
+      "finding": "Anticipated late-2026 availability; training/REMS opening precedes supply. Local availability not verified.",
+      "funding": "Organon corporate communications.",
+      "coi": "Direct commercial interest.",
+      "bias": "Forward-looking statement, not evidence of clinical superiority or confirmed stock.",
+      "access": "Original source indexed abstract/label excerpts; full text and declarations not comprehensively audited",
+      "verified": "2026-11-27",
+      "certainty": "Provisional; formal outcome-specific GRADE not assessed",
+      "sponsorRole": "Full protocol, data ownership and sponsor control not independently audited",
+      "integrity": "Correction/retraction and current-market status require further review"
+    },
+    {
+      "id": "CT-65",
+      "title": "FDA birth control overview — US regulatory label or device record",
+      "url": "https://www.fda.gov/consumers/womens-health-topics/birth-control",
+      "design": "US regulatory labeling / clearance record",
+      "finding": "General contraceptive categories, including barriers, oral products and emergency contraception.",
+      "funding": "Applicant/labeler supplies product information; government hosts or reviews it.",
+      "coi": "Manufacturer has a direct commercial interest; no claim of independent clinical replication.",
+      "bias": "Label establishes approved indication and specified warnings; supporting trials may be applicant-sponsored. Separate clinical outcomes from labeling; listing does not establish local inventory.",
+      "access": "Original source indexed abstract/label excerpts; full text and declarations not comprehensively audited",
+      "verified": "2026-11-27",
+      "certainty": "Provisional; formal outcome-specific GRADE not assessed",
+      "sponsorRole": "Full protocol, data ownership and sponsor control not independently audited",
+      "integrity": "Correction/retraction and current-market status require further review"
+    },
+    {
+      "id": "CT-66",
+      "title": "Opill — US regulatory label or device record",
+      "url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=303264da-c919-e0ce-e063-6394a90a4cc7",
+      "design": "US regulatory labeling / clearance record",
+      "finding": "Norgestrel 0.075 mg OTC daily oral contraceptive; estrogen-free.",
+      "funding": "Applicant/labeler supplies product information; government hosts or reviews it.",
+      "coi": "Manufacturer has a direct commercial interest; no claim of independent clinical replication.",
+      "bias": "Label establishes approved indication and specified warnings; supporting trials may be applicant-sponsored. Separate clinical outcomes from labeling; listing does not establish local inventory.",
+      "access": "Original source indexed abstract/label excerpts; full text and declarations not comprehensively audited",
+      "verified": "2026-11-27",
+      "certainty": "Provisional; formal outcome-specific GRADE not assessed",
+      "sponsorRole": "Full protocol, data ownership and sponsor control not independently audited",
+      "integrity": "Correction/retraction and current-market status require further review"
+    },
+    {
+      "id": "CT-67",
+      "title": "Slynd — US regulatory label or device record",
+      "url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=db32bc55-f295-4d87-9dbb-0a2f45573dcf",
+      "design": "US regulatory labeling / clearance record",
+      "finding": "Drospirenone 4 mg progestin-only prescription pill. Potassium and renal/adrenal/hepatic eligibility considerations; label-specific interaction and missed-pill rules.",
+      "funding": "Applicant/labeler supplies product information; government hosts or reviews it.",
+      "coi": "Manufacturer has a direct commercial interest; no claim of independent clinical replication.",
+      "bias": "Label establishes approved indication and specified warnings; supporting trials may be applicant-sponsored. Separate clinical outcomes from labeling; listing does not establish local inventory.",
+      "access": "Original source indexed abstract/label excerpts; full text and declarations not comprehensively audited",
+      "verified": "2026-11-27",
+      "certainty": "Provisional; formal outcome-specific GRADE not assessed",
+      "sponsorRole": "Full protocol, data ownership and sponsor control not independently audited",
+      "integrity": "Correction/retraction and current-market status require further review"
+    },
+    {
+      "id": "CT-68",
+      "title": "Norethindrone — US regulatory label or device record",
+      "url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=121fbf86-1d76-4579-be2f-be9a957b23ab",
+      "design": "US regulatory labeling / clearance record",
+      "finding": "Norethindrone 0.35 mg prescription contraceptive pill.",
+      "funding": "Applicant/labeler supplies product information; government hosts or reviews it.",
+      "coi": "Manufacturer has a direct commercial interest; no claim of independent clinical replication.",
+      "bias": "Label establishes approved indication and specified warnings; supporting trials may be applicant-sponsored. Separate clinical outcomes from labeling; listing does not establish local inventory.",
+      "access": "Original source indexed abstract/label excerpts; full text and declarations not comprehensively audited",
+      "verified": "2026-11-27",
+      "certainty": "Provisional; formal outcome-specific GRADE not assessed",
+      "sponsorRole": "Full protocol, data ownership and sponsor control not independently audited",
+      "integrity": "Correction/retraction and current-market status require further review"
+    },
+    {
+      "id": "CT-69",
+      "title": "Camila — US regulatory label or device record",
+      "url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=a786be85-49ba-4369-b510-7dccc10f7f18",
+      "design": "US regulatory labeling / clearance record",
+      "finding": "Norethindrone 0.35 mg pill.",
+      "funding": "Applicant/labeler supplies product information; government hosts or reviews it.",
+      "coi": "Manufacturer has a direct commercial interest; no claim of independent clinical replication.",
+      "bias": "Label establishes approved indication and specified warnings; supporting trials may be applicant-sponsored. Separate clinical outcomes from labeling; listing does not establish local inventory.",
+      "access": "Original source indexed abstract/label excerpts; full text and declarations not comprehensively audited",
+      "verified": "2026-11-27",
+      "certainty": "Provisional; formal outcome-specific GRADE not assessed",
+      "sponsorRole": "Full protocol, data ownership and sponsor control not independently audited",
+      "integrity": "Correction/retraction and current-market status require further review"
+    },
+    {
+      "id": "CT-70",
+      "title": "Errin — US regulatory label or device record",
+      "url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=df29577b-c2f0-bea8-b048-7719972707aa",
+      "design": "US regulatory labeling / clearance record",
+      "finding": "Norethindrone 0.35 mg pill.",
+      "funding": "Applicant/labeler supplies product information; government hosts or reviews it.",
+      "coi": "Manufacturer has a direct commercial interest; no claim of independent clinical replication.",
+      "bias": "Label establishes approved indication and specified warnings; supporting trials may be applicant-sponsored. Separate clinical outcomes from labeling; listing does not establish local inventory.",
+      "access": "Original source indexed abstract/label excerpts; full text and declarations not comprehensively audited",
+      "verified": "2026-11-27",
+      "certainty": "Provisional; formal outcome-specific GRADE not assessed",
+      "sponsorRole": "Full protocol, data ownership and sponsor control not independently audited",
+      "integrity": "Correction/retraction and current-market status require further review"
+    },
+    {
+      "id": "CT-71",
+      "title": "Paragard — US regulatory label or device record",
+      "url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=3c420b53-c95e-46af-aebd-73741be58391",
+      "design": "US regulatory labeling / clearance record",
+      "finding": "Copper T380A; labeled pregnancy prevention up to 10 years.",
+      "funding": "Applicant/labeler supplies product information; government hosts or reviews it.",
+      "coi": "Manufacturer has a direct commercial interest; no claim of independent clinical replication.",
+      "bias": "Label establishes approved indication and specified warnings; supporting trials may be applicant-sponsored. Separate clinical outcomes from labeling; listing does not establish local inventory.",
+      "access": "Original source indexed abstract/label excerpts; full text and declarations not comprehensively audited",
+      "verified": "2026-11-27",
+      "certainty": "Provisional; formal outcome-specific GRADE not assessed",
+      "sponsorRole": "Full protocol, data ownership and sponsor control not independently audited",
+      "integrity": "Correction/retraction and current-market status require further review"
+    },
+    {
+      "id": "CT-72",
+      "title": "Miudella — US regulatory label or device record",
+      "url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=4a75ebac-a765-460d-bb6a-9fbabb0b927d",
+      "design": "US regulatory labeling / clearance record",
+      "finding": "Copper IUS, 175 mm² copper surface, FDA-approved for 3 years; restricted REMS trained placement.",
+      "funding": "Applicant/labeler supplies product information; government hosts or reviews it.",
+      "coi": "Manufacturer has a direct commercial interest; no claim of independent clinical replication.",
+      "bias": "Label establishes approved indication and specified warnings; supporting trials may be applicant-sponsored. Separate clinical outcomes from labeling; listing does not establish local inventory.",
+      "access": "Original source indexed abstract/label excerpts; full text and declarations not comprehensively audited",
+      "verified": "2026-11-27",
+      "certainty": "Provisional; formal outcome-specific GRADE not assessed",
+      "sponsorRole": "Full protocol, data ownership and sponsor control not independently audited",
+      "integrity": "Correction/retraction and current-market status require further review"
+    },
+    {
+      "id": "CT-73",
+      "title": "Mirena — US regulatory label or device record",
+      "url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=dcbd6aa2-b3fa-479a-a676-56ea742962fc",
+      "design": "US regulatory labeling / clearance record",
+      "finding": "52 mg levonorgestrel; labeled pregnancy prevention up to 8 years.",
+      "funding": "Applicant/labeler supplies product information; government hosts or reviews it.",
+      "coi": "Manufacturer has a direct commercial interest; no claim of independent clinical replication.",
+      "bias": "Label establishes approved indication and specified warnings; supporting trials may be applicant-sponsored. Separate clinical outcomes from labeling; listing does not establish local inventory.",
+      "access": "Original source indexed abstract/label excerpts; full text and declarations not comprehensively audited",
+      "verified": "2026-11-27",
+      "certainty": "Provisional; formal outcome-specific GRADE not assessed",
+      "sponsorRole": "Full protocol, data ownership and sponsor control not independently audited",
+      "integrity": "Correction/retraction and current-market status require further review"
+    },
+    {
+      "id": "CT-74",
+      "title": "Liletta — US regulatory label or device record",
+      "url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=aaf0eb2a-f88a-4f26-a445-0fd30176c326",
+      "design": "US regulatory labeling / clearance record",
+      "finding": "52 mg levonorgestrel; labeled pregnancy prevention up to 8 years.",
+      "funding": "Applicant/labeler supplies product information; government hosts or reviews it.",
+      "coi": "Manufacturer has a direct commercial interest; no claim of independent clinical replication.",
+      "bias": "Label establishes approved indication and specified warnings; supporting trials may be applicant-sponsored. Separate clinical outcomes from labeling; listing does not establish local inventory.",
+      "access": "Original source indexed abstract/label excerpts; full text and declarations not comprehensively audited",
+      "verified": "2026-11-27",
+      "certainty": "Provisional; formal outcome-specific GRADE not assessed",
+      "sponsorRole": "Full protocol, data ownership and sponsor control not independently audited",
+      "integrity": "Correction/retraction and current-market status require further review"
+    },
+    {
+      "id": "CT-75",
+      "title": "Kyleena — US regulatory label or device record",
+      "url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=2e07c155-21e1-4781-9633-ce8bddd47080",
+      "design": "US regulatory labeling / clearance record",
+      "finding": "19.5 mg levonorgestrel; labeled pregnancy prevention up to 5 years.",
+      "funding": "Applicant/labeler supplies product information; government hosts or reviews it.",
+      "coi": "Manufacturer has a direct commercial interest; no claim of independent clinical replication.",
+      "bias": "Label establishes approved indication and specified warnings; supporting trials may be applicant-sponsored. Separate clinical outcomes from labeling; listing does not establish local inventory.",
+      "access": "Original source indexed abstract/label excerpts; full text and declarations not comprehensively audited",
+      "verified": "2026-11-27",
+      "certainty": "Provisional; formal outcome-specific GRADE not assessed",
+      "sponsorRole": "Full protocol, data ownership and sponsor control not independently audited",
+      "integrity": "Correction/retraction and current-market status require further review"
+    },
+    {
+      "id": "CT-76",
+      "title": "Skyla — US regulatory label or device record",
+      "url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=9f44ff35-e052-49cd-a1c2-0bfd87d49309",
+      "design": "US regulatory labeling / clearance record",
+      "finding": "13.5 mg levonorgestrel; labeled pregnancy prevention up to 3 years.",
+      "funding": "Applicant/labeler supplies product information; government hosts or reviews it.",
+      "coi": "Manufacturer has a direct commercial interest; no claim of independent clinical replication.",
+      "bias": "Label establishes approved indication and specified warnings; supporting trials may be applicant-sponsored. Separate clinical outcomes from labeling; listing does not establish local inventory.",
+      "access": "Original source indexed abstract/label excerpts; full text and declarations not comprehensively audited",
+      "verified": "2026-11-27",
+      "certainty": "Provisional; formal outcome-specific GRADE not assessed",
+      "sponsorRole": "Full protocol, data ownership and sponsor control not independently audited",
+      "integrity": "Correction/retraction and current-market status require further review"
+    },
+    {
+      "id": "CT-77",
+      "title": "Nexplanon — US regulatory label or device record",
+      "url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=487f8a62-e142-457c-97cc-2e398fde7594",
+      "design": "US regulatory labeling / clearance record",
+      "finding": "Etonogestrel implant; updated 2026 labeling extends approved contraception to 5 years.",
+      "funding": "Applicant/labeler supplies product information; government hosts or reviews it.",
+      "coi": "Manufacturer has a direct commercial interest; no claim of independent clinical replication.",
+      "bias": "Label establishes approved indication and specified warnings; supporting trials may be applicant-sponsored. Separate clinical outcomes from labeling; listing does not establish local inventory.",
+      "access": "Original source indexed abstract/label excerpts; full text and declarations not comprehensively audited",
+      "verified": "2026-11-27",
+      "certainty": "Provisional; formal outcome-specific GRADE not assessed",
+      "sponsorRole": "Full protocol, data ownership and sponsor control not independently audited",
+      "integrity": "Correction/retraction and current-market status require further review"
+    },
+    {
+      "id": "CT-78",
+      "title": "Depo-Provera CI — US regulatory label or device record",
+      "url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=199cf13e-0859-4a73-9b45-e700d0cd1049",
+      "design": "US regulatory labeling / clearance record",
+      "finding": "Intramuscular depot medroxyprogesterone acetate; contraceptive injection; bone mineral density warning.",
+      "funding": "Applicant/labeler supplies product information; government hosts or reviews it.",
+      "coi": "Manufacturer has a direct commercial interest; no claim of independent clinical replication.",
+      "bias": "Label establishes approved indication and specified warnings; supporting trials may be applicant-sponsored. Separate clinical outcomes from labeling; listing does not establish local inventory.",
+      "access": "Original source indexed abstract/label excerpts; full text and declarations not comprehensively audited",
+      "verified": "2026-11-27",
+      "certainty": "Provisional; formal outcome-specific GRADE not assessed",
+      "sponsorRole": "Full protocol, data ownership and sponsor control not independently audited",
+      "integrity": "Correction/retraction and current-market status require further review"
+    },
+    {
+      "id": "CT-79",
+      "title": "depo-subQ provera 104 — US regulatory label or device record",
+      "url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=390087a6-f3c3-4f0b-a930-79acf412f153",
+      "design": "US regulatory labeling / clearance record",
+      "finding": "Subcutaneous depot medroxyprogesterone acetate; contraceptive injection; bone mineral density warning.",
+      "funding": "Applicant/labeler supplies product information; government hosts or reviews it.",
+      "coi": "Manufacturer has a direct commercial interest; no claim of independent clinical replication.",
+      "bias": "Label establishes approved indication and specified warnings; supporting trials may be applicant-sponsored. Separate clinical outcomes from labeling; listing does not establish local inventory.",
+      "access": "Original source indexed abstract/label excerpts; full text and declarations not comprehensively audited",
+      "verified": "2026-11-27",
+      "certainty": "Provisional; formal outcome-specific GRADE not assessed",
+      "sponsorRole": "Full protocol, data ownership and sponsor control not independently audited",
+      "integrity": "Correction/retraction and current-market status require further review"
+    },
+    {
+      "id": "CT-80",
+      "title": "Aviane / LNG-EE pills — US regulatory label or device record",
+      "url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=8f88b17a-5d0e-448a-8a60-f49c28ba6dfb",
+      "design": "US regulatory labeling / clearance record",
+      "finding": "Levonorgestrel + ethinyl estradiol; combined hormonal contraceptive.",
+      "funding": "Applicant/labeler supplies product information; government hosts or reviews it.",
+      "coi": "Manufacturer has a direct commercial interest; no claim of independent clinical replication.",
+      "bias": "Label establishes approved indication and specified warnings; supporting trials may be applicant-sponsored. Separate clinical outcomes from labeling; listing does not establish local inventory.",
+      "access": "Original source indexed abstract/label excerpts; full text and declarations not comprehensively audited",
+      "verified": "2026-11-27",
+      "certainty": "Provisional; formal outcome-specific GRADE not assessed",
+      "sponsorRole": "Full protocol, data ownership and sponsor control not independently audited",
+      "integrity": "Correction/retraction and current-market status require further review"
+    },
+    {
+      "id": "CT-81",
+      "title": "Nortrel / norethindrone-EE pills — US regulatory label or device record",
+      "url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=33b895e4-b467-41b1-a812-8068cc5bb93e",
+      "design": "US regulatory labeling / clearance record",
+      "finding": "Norethindrone + ethinyl estradiol; combined hormonal contraceptive.",
+      "funding": "Applicant/labeler supplies product information; government hosts or reviews it.",
+      "coi": "Manufacturer has a direct commercial interest; no claim of independent clinical replication.",
+      "bias": "Label establishes approved indication and specified warnings; supporting trials may be applicant-sponsored. Separate clinical outcomes from labeling; listing does not establish local inventory.",
+      "access": "Original source indexed abstract/label excerpts; full text and declarations not comprehensively audited",
+      "verified": "2026-11-27",
+      "certainty": "Provisional; formal outcome-specific GRADE not assessed",
+      "sponsorRole": "Full protocol, data ownership and sponsor control not independently audited",
+      "integrity": "Correction/retraction and current-market status require further review"
+    },
+    {
+      "id": "CT-82",
+      "title": "Lo Loestrin Fe — US regulatory label or device record",
+      "url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=e2f24e91-4893-40bf-b310-d93db95d2442",
+      "design": "US regulatory labeling / clearance record",
+      "finding": "Norethindrone acetate + ethinyl estradiol; combined hormonal contraceptive.",
+      "funding": "Applicant/labeler supplies product information; government hosts or reviews it.",
+      "coi": "Manufacturer has a direct commercial interest; no claim of independent clinical replication.",
+      "bias": "Label establishes approved indication and specified warnings; supporting trials may be applicant-sponsored. Separate clinical outcomes from labeling; listing does not establish local inventory.",
+      "access": "Original source indexed abstract/label excerpts; full text and declarations not comprehensively audited",
+      "verified": "2026-11-27",
+      "certainty": "Provisional; formal outcome-specific GRADE not assessed",
+      "sponsorRole": "Full protocol, data ownership and sponsor control not independently audited",
+      "integrity": "Correction/retraction and current-market status require further review"
+    },
+    {
+      "id": "CT-83",
+      "title": "Sprintec / norgestimate-EE pills — US regulatory label or device record",
+      "url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=d9252820-131a-4870-8b11-945d1bfd5659",
+      "design": "US regulatory labeling / clearance record",
+      "finding": "Norgestimate + ethinyl estradiol; combined hormonal contraceptive.",
+      "funding": "Applicant/labeler supplies product information; government hosts or reviews it.",
+      "coi": "Manufacturer has a direct commercial interest; no claim of independent clinical replication.",
+      "bias": "Label establishes approved indication and specified warnings; supporting trials may be applicant-sponsored. Separate clinical outcomes from labeling; listing does not establish local inventory.",
+      "access": "Original source indexed abstract/label excerpts; full text and declarations not comprehensively audited",
+      "verified": "2026-11-27",
+      "certainty": "Provisional; formal outcome-specific GRADE not assessed",
+      "sponsorRole": "Full protocol, data ownership and sponsor control not independently audited",
+      "integrity": "Correction/retraction and current-market status require further review"
+    },
+    {
+      "id": "CT-84",
+      "title": "Tri-Estarylla — US regulatory label or device record",
+      "url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=f7f7c073-48e0-4065-970b-8103d76b6eb0",
+      "design": "US regulatory labeling / clearance record",
+      "finding": "Triphasic norgestimate + ethinyl estradiol; combined hormonal contraceptive.",
+      "funding": "Applicant/labeler supplies product information; government hosts or reviews it.",
+      "coi": "Manufacturer has a direct commercial interest; no claim of independent clinical replication.",
+      "bias": "Label establishes approved indication and specified warnings; supporting trials may be applicant-sponsored. Separate clinical outcomes from labeling; listing does not establish local inventory.",
+      "access": "Original source indexed abstract/label excerpts; full text and declarations not comprehensively audited",
+      "verified": "2026-11-27",
+      "certainty": "Provisional; formal outcome-specific GRADE not assessed",
+      "sponsorRole": "Full protocol, data ownership and sponsor control not independently audited",
+      "integrity": "Correction/retraction and current-market status require further review"
+    },
+    {
+      "id": "CT-85",
+      "title": "Desogestrel/EE pills — US regulatory label or device record",
+      "url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=78454ebf-f1a3-4ca0-b32e-88c51bc57773",
+      "design": "US regulatory labeling / clearance record",
+      "finding": "Desogestrel + ethinyl estradiol; combined hormonal contraceptive.",
+      "funding": "Applicant/labeler supplies product information; government hosts or reviews it.",
+      "coi": "Manufacturer has a direct commercial interest; no claim of independent clinical replication.",
+      "bias": "Label establishes approved indication and specified warnings; supporting trials may be applicant-sponsored. Separate clinical outcomes from labeling; listing does not establish local inventory.",
+      "access": "Original source indexed abstract/label excerpts; full text and declarations not comprehensively audited",
+      "verified": "2026-11-27",
+      "certainty": "Provisional; formal outcome-specific GRADE not assessed",
+      "sponsorRole": "Full protocol, data ownership and sponsor control not independently audited",
+      "integrity": "Correction/retraction and current-market status require further review"
+    },
+    {
+      "id": "CT-86",
+      "title": "Yasmin / drospirenone-EE pills — US regulatory label or device record",
+      "url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=d7ea6a60-5a56-4f81-b206-9b27b7e58875",
+      "design": "US regulatory labeling / clearance record",
+      "finding": "Drospirenone + ethinyl estradiol; combined hormonal contraceptive.",
+      "funding": "Applicant/labeler supplies product information; government hosts or reviews it.",
+      "coi": "Manufacturer has a direct commercial interest; no claim of independent clinical replication.",
+      "bias": "Label establishes approved indication and specified warnings; supporting trials may be applicant-sponsored. Separate clinical outcomes from labeling; listing does not establish local inventory.",
+      "access": "Original source indexed abstract/label excerpts; full text and declarations not comprehensively audited",
+      "verified": "2026-11-27",
+      "certainty": "Provisional; formal outcome-specific GRADE not assessed",
+      "sponsorRole": "Full protocol, data ownership and sponsor control not independently audited",
+      "integrity": "Correction/retraction and current-market status require further review"
+    },
+    {
+      "id": "CT-87",
+      "title": "Cryselle / norgestrel-EE pills — US regulatory label or device record",
+      "url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=b5d48561-1aa1-4c9b-935f-6cf035225769",
+      "design": "US regulatory labeling / clearance record",
+      "finding": "Norgestrel + ethinyl estradiol; combined hormonal contraceptive.",
+      "funding": "Applicant/labeler supplies product information; government hosts or reviews it.",
+      "coi": "Manufacturer has a direct commercial interest; no claim of independent clinical replication.",
+      "bias": "Label establishes approved indication and specified warnings; supporting trials may be applicant-sponsored. Separate clinical outcomes from labeling; listing does not establish local inventory.",
+      "access": "Original source indexed abstract/label excerpts; full text and declarations not comprehensively audited",
+      "verified": "2026-11-27",
+      "certainty": "Provisional; formal outcome-specific GRADE not assessed",
+      "sponsorRole": "Full protocol, data ownership and sponsor control not independently audited",
+      "integrity": "Correction/retraction and current-market status require further review"
+    },
+    {
+      "id": "CT-88",
+      "title": "Kelnor / ethynodiol-EE pills — US regulatory label or device record",
+      "url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=96a73786-22b1-457e-be73-80b699996d40",
+      "design": "US regulatory labeling / clearance record",
+      "finding": "Ethynodiol diacetate + ethinyl estradiol; combined hormonal contraceptive.",
+      "funding": "Applicant/labeler supplies product information; government hosts or reviews it.",
+      "coi": "Manufacturer has a direct commercial interest; no claim of independent clinical replication.",
+      "bias": "Label establishes approved indication and specified warnings; supporting trials may be applicant-sponsored. Separate clinical outcomes from labeling; listing does not establish local inventory.",
+      "access": "Original source indexed abstract/label excerpts; full text and declarations not comprehensively audited",
+      "verified": "2026-11-27",
+      "certainty": "Provisional; formal outcome-specific GRADE not assessed",
+      "sponsorRole": "Full protocol, data ownership and sponsor control not independently audited",
+      "integrity": "Correction/retraction and current-market status require further review"
+    },
+    {
+      "id": "CT-89",
+      "title": "Nextstellis — US regulatory label or device record",
+      "url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=c5270073-d083-4109-ae4b-156986175e0a",
+      "design": "US regulatory labeling / clearance record",
+      "finding": "Estetrol + drospirenone; combined hormonal contraceptive.",
+      "funding": "Applicant/labeler supplies product information; government hosts or reviews it.",
+      "coi": "Manufacturer has a direct commercial interest; no claim of independent clinical replication.",
+      "bias": "Label establishes approved indication and specified warnings; supporting trials may be applicant-sponsored. Separate clinical outcomes from labeling; listing does not establish local inventory.",
+      "access": "Original source indexed abstract/label excerpts; full text and declarations not comprehensively audited",
+      "verified": "2026-11-27",
+      "certainty": "Provisional; formal outcome-specific GRADE not assessed",
+      "sponsorRole": "Full protocol, data ownership and sponsor control not independently audited",
+      "integrity": "Correction/retraction and current-market status require further review"
+    },
+    {
+      "id": "CT-90",
+      "title": "Natazia — US regulatory label or device record",
+      "url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=02c91fba-9c47-43ef-ac78-e82369798834",
+      "design": "US regulatory labeling / clearance record",
+      "finding": "Estradiol valerate + dienogest; combined hormonal contraceptive.",
+      "funding": "Applicant/labeler supplies product information; government hosts or reviews it.",
+      "coi": "Manufacturer has a direct commercial interest; no claim of independent clinical replication.",
+      "bias": "Label establishes approved indication and specified warnings; supporting trials may be applicant-sponsored. Separate clinical outcomes from labeling; listing does not establish local inventory.",
+      "access": "Original source indexed abstract/label excerpts; full text and declarations not comprehensively audited",
+      "verified": "2026-11-27",
+      "certainty": "Provisional; formal outcome-specific GRADE not assessed",
+      "sponsorRole": "Full protocol, data ownership and sponsor control not independently audited",
+      "integrity": "Correction/retraction and current-market status require further review"
+    },
+    {
+      "id": "CT-91",
+      "title": "Xulane — US regulatory label or device record",
+      "url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=adcf17ef-e60b-48a4-9478-3998dab2bbbd",
+      "design": "US regulatory labeling / clearance record",
+      "finding": "Norelgestromin + ethinyl estradiol; combined hormonal contraceptive.",
+      "funding": "Applicant/labeler supplies product information; government hosts or reviews it.",
+      "coi": "Manufacturer has a direct commercial interest; no claim of independent clinical replication.",
+      "bias": "Label establishes approved indication and specified warnings; supporting trials may be applicant-sponsored. Separate clinical outcomes from labeling; listing does not establish local inventory.",
+      "access": "Original source indexed abstract/label excerpts; full text and declarations not comprehensively audited",
+      "verified": "2026-11-27",
+      "certainty": "Provisional; formal outcome-specific GRADE not assessed",
+      "sponsorRole": "Full protocol, data ownership and sponsor control not independently audited",
+      "integrity": "Correction/retraction and current-market status require further review"
+    },
+    {
+      "id": "CT-92",
+      "title": "Zafemy — US regulatory label or device record",
+      "url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=fbbd12dd-c538-2869-e053-6294a90a1a38",
+      "design": "US regulatory labeling / clearance record",
+      "finding": "Norelgestromin + ethinyl estradiol; combined hormonal contraceptive.",
+      "funding": "Applicant/labeler supplies product information; government hosts or reviews it.",
+      "coi": "Manufacturer has a direct commercial interest; no claim of independent clinical replication.",
+      "bias": "Label establishes approved indication and specified warnings; supporting trials may be applicant-sponsored. Separate clinical outcomes from labeling; listing does not establish local inventory.",
+      "access": "Original source indexed abstract/label excerpts; full text and declarations not comprehensively audited",
+      "verified": "2026-11-27",
+      "certainty": "Provisional; formal outcome-specific GRADE not assessed",
+      "sponsorRole": "Full protocol, data ownership and sponsor control not independently audited",
+      "integrity": "Correction/retraction and current-market status require further review"
+    },
+    {
+      "id": "CT-93",
+      "title": "Twirla — US regulatory label or device record",
+      "url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=bcaf8db0-1750-425d-b008-255b5e7a9cc6",
+      "design": "US regulatory labeling / clearance record",
+      "finding": "Levonorgestrel + ethinyl estradiol; combined hormonal contraceptive.",
+      "funding": "Applicant/labeler supplies product information; government hosts or reviews it.",
+      "coi": "Manufacturer has a direct commercial interest; no claim of independent clinical replication.",
+      "bias": "Label establishes approved indication and specified warnings; supporting trials may be applicant-sponsored. Separate clinical outcomes from labeling; listing does not establish local inventory.",
+      "access": "Original source indexed abstract/label excerpts; full text and declarations not comprehensively audited",
+      "verified": "2026-11-27",
+      "certainty": "Provisional; formal outcome-specific GRADE not assessed",
+      "sponsorRole": "Full protocol, data ownership and sponsor control not independently audited",
+      "integrity": "Correction/retraction and current-market status require further review"
+    },
+    {
+      "id": "CT-94",
+      "title": "NuvaRing / generic ring — US regulatory label or device record",
+      "url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=19ef66d1-913f-49a8-a0a5-59b4e20322f5",
+      "design": "US regulatory labeling / clearance record",
+      "finding": "Etonogestrel + ethinyl estradiol; combined hormonal contraceptive.",
+      "funding": "Applicant/labeler supplies product information; government hosts or reviews it.",
+      "coi": "Manufacturer has a direct commercial interest; no claim of independent clinical replication.",
+      "bias": "Label establishes approved indication and specified warnings; supporting trials may be applicant-sponsored. Separate clinical outcomes from labeling; listing does not establish local inventory.",
+      "access": "Original source indexed abstract/label excerpts; full text and declarations not comprehensively audited",
+      "verified": "2026-11-27",
+      "certainty": "Provisional; formal outcome-specific GRADE not assessed",
+      "sponsorRole": "Full protocol, data ownership and sponsor control not independently audited",
+      "integrity": "Correction/retraction and current-market status require further review"
+    },
+    {
+      "id": "CT-95",
+      "title": "Annovera — US regulatory label or device record",
+      "url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=eb18194f-2021-41fa-8bdf-31e0c0eb646b",
+      "design": "US regulatory labeling / clearance record",
+      "finding": "Segesterone acetate + ethinyl estradiol; combined hormonal contraceptive.",
+      "funding": "Applicant/labeler supplies product information; government hosts or reviews it.",
+      "coi": "Manufacturer has a direct commercial interest; no claim of independent clinical replication.",
+      "bias": "Label establishes approved indication and specified warnings; supporting trials may be applicant-sponsored. Separate clinical outcomes from labeling; listing does not establish local inventory.",
+      "access": "Original source indexed abstract/label excerpts; full text and declarations not comprehensively audited",
+      "verified": "2026-11-27",
+      "certainty": "Provisional; formal outcome-specific GRADE not assessed",
+      "sponsorRole": "Full protocol, data ownership and sponsor control not independently audited",
+      "integrity": "Correction/retraction and current-market status require further review"
+    },
+    {
+      "id": "CT-96",
+      "title": "Phexxi — US regulatory label or device record",
+      "url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=173ff411-7227-47b0-94dc-844e1ebaf14e",
+      "design": "US regulatory labeling / clearance record",
+      "finding": "Prescription lactic acid/citric acid/potassium bitartrate vaginal pH modulator. Avoid use with recurrent UTI or urinary tract abnormalities; local adverse reactions.",
+      "funding": "Applicant/labeler supplies product information; government hosts or reviews it.",
+      "coi": "Manufacturer has a direct commercial interest; no claim of independent clinical replication.",
+      "bias": "Label establishes approved indication and specified warnings; supporting trials may be applicant-sponsored. Separate clinical outcomes from labeling; listing does not establish local inventory.",
+      "access": "Original source indexed abstract/label excerpts; full text and declarations not comprehensively audited",
+      "verified": "2026-11-27",
+      "certainty": "Provisional; formal outcome-specific GRADE not assessed",
+      "sponsorRole": "Full protocol, data ownership and sponsor control not independently audited",
+      "integrity": "Correction/retraction and current-market status require further review"
+    },
+    {
+      "id": "CT-97",
+      "title": "Phexx — US regulatory label or device record",
+      "url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=14b01a15-9b47-4be3-bb2e-a2010eab429e",
+      "design": "US regulatory labeling / clearance record",
+      "finding": "Same active ingredient combination; separate label found. Market relationship and availability not established.",
+      "funding": "Applicant/labeler supplies product information; government hosts or reviews it.",
+      "coi": "Manufacturer has a direct commercial interest; no claim of independent clinical replication.",
+      "bias": "Label establishes approved indication and specified warnings; supporting trials may be applicant-sponsored. Separate clinical outcomes from labeling; listing does not establish local inventory.",
+      "access": "Original source indexed abstract/label excerpts; full text and declarations not comprehensively audited",
+      "verified": "2026-11-27",
+      "certainty": "Provisional; formal outcome-specific GRADE not assessed",
+      "sponsorRole": "Full protocol, data ownership and sponsor control not independently audited",
+      "integrity": "Correction/retraction and current-market status require further review"
+    },
+    {
+      "id": "CT-98",
+      "title": "VCF film — US regulatory label or device record",
+      "url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=92f8eee8-2456-4baf-a85e-1335c80d7fcd",
+      "design": "US regulatory labeling / clearance record",
+      "finding": "Nonoxynol-9 vaginal contraceptive film.",
+      "funding": "Applicant/labeler supplies product information; government hosts or reviews it.",
+      "coi": "Manufacturer has a direct commercial interest; no claim of independent clinical replication.",
+      "bias": "Label establishes approved indication and specified warnings; supporting trials may be applicant-sponsored. Separate clinical outcomes from labeling; listing does not establish local inventory.",
+      "access": "Original source indexed abstract/label excerpts; full text and declarations not comprehensively audited",
+      "verified": "2026-11-27",
+      "certainty": "Provisional; formal outcome-specific GRADE not assessed",
+      "sponsorRole": "Full protocol, data ownership and sponsor control not independently audited",
+      "integrity": "Correction/retraction and current-market status require further review"
+    },
+    {
+      "id": "CT-99",
+      "title": "VCF gel — US regulatory label or device record",
+      "url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=34be97cd-3646-427d-8112-ba0030ff8d88",
+      "design": "US regulatory labeling / clearance record",
+      "finding": "Nonoxynol-9 vaginal contraceptive gel.",
+      "funding": "Applicant/labeler supplies product information; government hosts or reviews it.",
+      "coi": "Manufacturer has a direct commercial interest; no claim of independent clinical replication.",
+      "bias": "Label establishes approved indication and specified warnings; supporting trials may be applicant-sponsored. Separate clinical outcomes from labeling; listing does not establish local inventory.",
+      "access": "Original source indexed abstract/label excerpts; full text and declarations not comprehensively audited",
+      "verified": "2026-11-27",
+      "certainty": "Provisional; formal outcome-specific GRADE not assessed",
+      "sponsorRole": "Full protocol, data ownership and sponsor control not independently audited",
+      "integrity": "Correction/retraction and current-market status require further review"
+    },
+    {
+      "id": "CT-100",
+      "title": "Caya diaphragm — US regulatory label or device record",
+      "url": "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpmn/pmn.cfm?ID=K140305",
+      "design": "US regulatory labeling / clearance record",
+      "finding": "Contoured barrier diaphragm; contraceptive device authorization.",
+      "funding": "Applicant/labeler supplies product information; government hosts or reviews it.",
+      "coi": "Manufacturer has a direct commercial interest; no claim of independent clinical replication.",
+      "bias": "Label establishes approved indication and specified warnings; supporting trials may be applicant-sponsored. Separate clinical outcomes from labeling; listing does not establish local inventory.",
+      "access": "Original source indexed abstract/label excerpts; full text and declarations not comprehensively audited",
+      "verified": "2026-11-27",
+      "certainty": "Provisional; formal outcome-specific GRADE not assessed",
+      "sponsorRole": "Full protocol, data ownership and sponsor control not independently audited",
+      "integrity": "Correction/retraction and current-market status require further review"
+    },
+    {
+      "id": "CT-101",
+      "title": "FemCap — US regulatory label or device record",
+      "url": "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpma/pma.cfm?id=P020041",
+      "design": "US regulatory labeling / clearance record",
+      "finding": "Cervical barrier cap; contraceptive device authorization.",
+      "funding": "Applicant/labeler supplies product information; government hosts or reviews it.",
+      "coi": "Manufacturer has a direct commercial interest; no claim of independent clinical replication.",
+      "bias": "Label establishes approved indication and specified warnings; supporting trials may be applicant-sponsored. Separate clinical outcomes from labeling; listing does not establish local inventory.",
+      "access": "Original source indexed abstract/label excerpts; full text and declarations not comprehensively audited",
+      "verified": "2026-11-27",
+      "certainty": "Provisional; formal outcome-specific GRADE not assessed",
+      "sponsorRole": "Full protocol, data ownership and sponsor control not independently audited",
+      "integrity": "Correction/retraction and current-market status require further review"
+    },
+    {
+      "id": "CT-102",
+      "title": "FC2 internal condom — US regulatory label or device record",
+      "url": "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpma/pma.cfm?id=P080002",
+      "design": "US regulatory labeling / clearance record",
+      "finding": "Internal barrier condom; contraceptive device authorization.",
+      "funding": "Applicant/labeler supplies product information; government hosts or reviews it.",
+      "coi": "Manufacturer has a direct commercial interest; no claim of independent clinical replication.",
+      "bias": "Label establishes approved indication and specified warnings; supporting trials may be applicant-sponsored. Separate clinical outcomes from labeling; listing does not establish local inventory.",
+      "access": "Original source indexed abstract/label excerpts; full text and declarations not comprehensively audited",
+      "verified": "2026-11-27",
+      "certainty": "Provisional; formal outcome-specific GRADE not assessed",
+      "sponsorRole": "Full protocol, data ownership and sponsor control not independently audited",
+      "integrity": "Correction/retraction and current-market status require further review"
+    },
+    {
+      "id": "CT-103",
+      "title": "Natural Cycles — US regulatory label or device record",
+      "url": "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpmn/pmn.cfm?ID=K253694",
+      "design": "US regulatory labeling / clearance record",
+      "finding": "FDA-cleared contraceptive software; product-specific intended use.",
+      "funding": "Applicant/labeler supplies product information; government hosts or reviews it.",
+      "coi": "Manufacturer has a direct commercial interest; no claim of independent clinical replication.",
+      "bias": "Label establishes approved indication and specified warnings; supporting trials may be applicant-sponsored. Separate clinical outcomes from labeling; listing does not establish local inventory.",
+      "access": "Original source indexed abstract/label excerpts; full text and declarations not comprehensively audited",
+      "verified": "2026-11-27",
+      "certainty": "Provisional; formal outcome-specific GRADE not assessed",
+      "sponsorRole": "Full protocol, data ownership and sponsor control not independently audited",
+      "integrity": "Correction/retraction and current-market status require further review"
+    },
+    {
+      "id": "CT-104",
+      "title": "ella — US regulatory label or device record",
+      "url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=2bf93d23-cddd-4613-9066-5b5fa090404b",
+      "design": "US regulatory labeling / clearance record",
+      "finding": "Ulipristal acetate prescription emergency contraception, not routine contraception.",
+      "funding": "Applicant/labeler supplies product information; government hosts or reviews it.",
+      "coi": "Manufacturer has a direct commercial interest; no claim of independent clinical replication.",
+      "bias": "Label establishes approved indication and specified warnings; supporting trials may be applicant-sponsored. Separate clinical outcomes from labeling; listing does not establish local inventory.",
+      "access": "Original source indexed abstract/label excerpts; full text and declarations not comprehensively audited",
+      "verified": "2026-11-27",
+      "certainty": "Provisional; formal outcome-specific GRADE not assessed",
+      "sponsorRole": "Full protocol, data ownership and sponsor control not independently audited",
+      "integrity": "Correction/retraction and current-market status require further review"
+    },
+    {
+      "id": "CT-105",
+      "title": "Plan B One-Step — US regulatory label or device record",
+      "url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=fcc7ba8e-ad54-4efe-87e4-5eb0fbf4f064",
+      "design": "US regulatory labeling / clearance record",
+      "finding": "Levonorgestrel OTC emergency contraception.",
+      "funding": "Applicant/labeler supplies product information; government hosts or reviews it.",
+      "coi": "Manufacturer has a direct commercial interest; no claim of independent clinical replication.",
+      "bias": "Label establishes approved indication and specified warnings; supporting trials may be applicant-sponsored. Separate clinical outcomes from labeling; listing does not establish local inventory.",
+      "access": "Original source indexed abstract/label excerpts; full text and declarations not comprehensively audited",
+      "verified": "2026-11-27",
+      "certainty": "Provisional; formal outcome-specific GRADE not assessed",
+      "sponsorRole": "Full protocol, data ownership and sponsor control not independently audited",
+      "integrity": "Correction/retraction and current-market status require further review"
     }
   ],
   "sections": [
@@ -1044,6 +1869,18 @@
             "CT-34",
             "CT-35"
           ]
+        ],
+        [
+          "Three distinct US progestin-only pills",
+          "Norethindrone, norgestrel (Opill), and drospirenone (Slynd) differ in pharmacology and labeled directions. They contain synthetic progestins rather than body-identical progesterone. Compare their product research below; do not assume dose or estrogen absence establishes long-term safety.",
+          [
+            "CT-68",
+            "CT-66",
+            "CT-67",
+            "CT-51",
+            "CT-52",
+            "CT-58"
+          ]
         ]
       ]
     },
@@ -1124,6 +1961,17 @@
           [
             "CT-01",
             "CT-03"
+          ]
+        ],
+        [
+          "Gels are not all the same",
+          "Prescription vaginal pH modulators and nonoxynol-9 spermicides have different mechanisms and adverse effects. A lubricant marketed for fertility or sexual comfort is not automatically a contraceptive. Product-specific effectiveness studies use different follow-up periods.",
+          [
+            "CT-96",
+            "CT-55",
+            "CT-98",
+            "CT-99",
+            "CT-59"
           ]
         ]
       ]
@@ -1526,6 +2374,2159 @@
             "CT-03",
             "CT-07",
             "CT-08"
+          ]
+        ]
+      ]
+    },
+    {
+      "id": "product-norethindrone",
+      "title": "Norethindrone mini-pill — product research",
+      "summary": "Traditional estrogen-free option; multiple equivalent generic formulations.",
+      "keywords": "Norethindrone mini-pill Norethindrone 0.35 mg Camila Errin generic Heather Jencycla Norlyda Micronor (historical brand names; availability not verified) mini-pill contraceptive birth control",
+      "paragraphs": [
+        [
+          "Formulation & access",
+          "Norethindrone 0.35 mg. Prescription. Daily oral formulation. US labels found; local supply not verified.",
+          [
+            "CT-68"
+          ]
+        ],
+        [
+          "Why consider it",
+          "Traditional estrogen-free option; multiple equivalent generic formulations.",
+          [
+            "CT-68",
+            "CT-69",
+            "CT-70",
+            "CT-02",
+            "CT-03",
+            "CT-07",
+            "CT-58"
+          ]
+        ],
+        [
+          "Limitations & safety",
+          "Irregular bleeding, strict timing and drug interactions; not a natural progesterone preparation. Product-specific directions differ.",
+          [
+            "CT-68",
+            "CT-69",
+            "CT-70",
+            "CT-02",
+            "CT-03",
+            "CT-07",
+            "CT-58"
+          ]
+        ],
+        [
+          "What the research actually establishes",
+          "Method-level studies do not establish that one POP is safest. Direct comparative long-term outcomes versus norgestrel and drospirenone remain sparse.",
+          [
+            "CT-68",
+            "CT-69",
+            "CT-70",
+            "CT-02",
+            "CT-03",
+            "CT-07",
+            "CT-58"
+          ]
+        ],
+        [
+          "Future fertility & three-year cost",
+          "Oral group about 3 cycles; individual POP timing not established by that grouped estimate. Product-specific cost is not established; use an all-in quote, including relevant visits and removal.",
+          [
+            "CT-07",
+            "CT-41"
+          ]
+        ]
+      ]
+    },
+    {
+      "id": "product-opill",
+      "title": "Opill — product research",
+      "summary": "No prescription or estrogen; no invasive procedure.",
+      "keywords": "Opill Norgestrel 0.075 mg  mini-pill contraceptive birth control",
+      "paragraphs": [
+        [
+          "Formulation & access",
+          "Norgestrel 0.075 mg. OTC. Daily oral formulation. US label/authorization found; local supply not verified.",
+          [
+            "CT-66"
+          ]
+        ],
+        [
+          "Why consider it",
+          "No prescription or estrogen; no invasive procedure.",
+          [
+            "CT-66",
+            "CT-53",
+            "CT-54",
+            "CT-02",
+            "CT-03",
+            "CT-07",
+            "CT-58"
+          ]
+        ],
+        [
+          "Limitations & safety",
+          "Unscheduled bleeding, timing/adherence and breast cancer history matter; not hormone-free.",
+          [
+            "CT-66",
+            "CT-53",
+            "CT-54",
+            "CT-02",
+            "CT-03",
+            "CT-07",
+            "CT-58"
+          ]
+        ],
+        [
+          "What the research actually establishes",
+          "ACCESS addresses simulated OTC adherence. A crossover trial measured ovarian activity and mucus, not pregnancy after missed pills. Follow product instructions rather than treating surrogate results as permission to miss doses.",
+          [
+            "CT-66",
+            "CT-53",
+            "CT-54",
+            "CT-02",
+            "CT-03",
+            "CT-07",
+            "CT-58"
+          ]
+        ],
+        [
+          "Future fertility & three-year cost",
+          "Oral group about 3 cycles; individual POP timing not established by that grouped estimate. Product-specific cost is not established; use an all-in quote, including relevant visits and removal.",
+          [
+            "CT-07",
+            "CT-41"
+          ]
+        ]
+      ]
+    },
+    {
+      "id": "product-slynd",
+      "title": "Slynd — product research",
+      "summary": "Estrogen-free, distinct ovulation suppression and bleeding profile; different missed-pill rules from traditional POPs.",
+      "keywords": "Slynd Drospirenone 4 mg  mini-pill contraceptive birth control",
+      "paragraphs": [
+        [
+          "Formulation & access",
+          "Drospirenone 4 mg. Prescription. Daily oral formulation with inactive tablets. US label/authorization found; local supply not verified.",
+          [
+            "CT-67"
+          ]
+        ],
+        [
+          "Why consider it",
+          "Estrogen-free, distinct ovulation suppression and bleeding profile; different missed-pill rules from traditional POPs.",
+          [
+            "CT-67",
+            "CT-51",
+            "CT-52",
+            "CT-02",
+            "CT-03",
+            "CT-07",
+            "CT-58"
+          ]
+        ],
+        [
+          "Limitations & safety",
+          "Hyperkalemia and renal/adrenal/hepatic conditions and interacting medications require review; irregular bleeding remains possible.",
+          [
+            "CT-67",
+            "CT-51",
+            "CT-52",
+            "CT-02",
+            "CT-03",
+            "CT-07",
+            "CT-58"
+          ]
+        ],
+        [
+          "What the research actually establishes",
+          "US pivotal trial: Pearl index 2.9 (95% CI 1.5–5.1) in eligible confirmed analysis, 65% discontinued. The randomized desogestrel comparator does not directly compare Slynd with US norethindrone or Opill. No observed VTE in this trial does not prove zero risk.",
+          [
+            "CT-67",
+            "CT-51",
+            "CT-52",
+            "CT-02",
+            "CT-03",
+            "CT-07",
+            "CT-58"
+          ]
+        ],
+        [
+          "Future fertility & three-year cost",
+          "Oral group about 3 cycles; individual POP timing not established by that grouped estimate. Product-specific cost is not established; use an all-in quote, including relevant visits and removal.",
+          [
+            "CT-07",
+            "CT-41"
+          ]
+        ]
+      ]
+    },
+    {
+      "id": "product-paragard",
+      "title": "Paragard — product research",
+      "summary": "Established hormone-free copper IUD.",
+      "keywords": "Paragard Copper T380A  copper-iud contraceptive birth control",
+      "paragraphs": [
+        [
+          "Formulation & access",
+          "Copper T380A. Clinician prescription/placement. 10 years labeled pregnancy prevention. US label/authorization found; local supply not verified.",
+          [
+            "CT-71"
+          ]
+        ],
+        [
+          "Why consider it",
+          "Established hormone-free copper IUD.",
+          [
+            "CT-71",
+            "CT-04",
+            "CT-05",
+            "CT-27",
+            "CT-03",
+            "CT-07",
+            "CT-15",
+            "CT-20"
+          ]
+        ],
+        [
+          "Limitations & safety",
+          "Heavier or more painful periods, expulsion and rare perforation; placement/removal.",
+          [
+            "CT-71",
+            "CT-04",
+            "CT-05",
+            "CT-27",
+            "CT-03",
+            "CT-07",
+            "CT-15",
+            "CT-20"
+          ]
+        ],
+        [
+          "What the research actually establishes",
+          "Long experience and WHO randomized comparison support copper-IUD effectiveness; does not establish superiority over the new smaller copper device.",
+          [
+            "CT-71",
+            "CT-04",
+            "CT-05",
+            "CT-27",
+            "CT-03",
+            "CT-07",
+            "CT-15",
+            "CT-20"
+          ]
+        ],
+        [
+          "Future fertility & three-year cost",
+          "About 2 cycles to usual fecundability in one cohort; may conceive immediately. Product-specific cost is not established; use an all-in quote, including relevant visits and removal.",
+          [
+            "CT-07",
+            "CT-41"
+          ]
+        ]
+      ]
+    },
+    {
+      "id": "product-miudella",
+      "title": "Miudella — product research",
+      "summary": "New hormone-free design with less copper surface area than T380A.",
+      "keywords": "Miudella Copper 175 mm² with flexible nitinol frame  copper-iud contraceptive birth control",
+      "paragraphs": [
+        [
+          "Formulation & access",
+          "Copper 175 mm² with flexible nitinol frame. Clinician prescription; REMS program. 3 years labeled pregnancy prevention. FDA approved; manufacturer anticipated late-2026 launch, actual market supply not confirmed.",
+          [
+            "CT-72"
+          ]
+        ],
+        [
+          "Why consider it",
+          "New hormone-free design with less copper surface area than T380A.",
+          [
+            "CT-72",
+            "CT-56",
+            "CT-64",
+            "CT-15"
+          ]
+        ],
+        [
+          "Limitations & safety",
+          "Placement still required; no head-to-head proof of less insertion pain or systemic effects; REMS restrictions.",
+          [
+            "CT-72",
+            "CT-56",
+            "CT-64",
+            "CT-15"
+          ]
+        ],
+        [
+          "What the research actually establishes",
+          "Single-arm phase 3 cumulative pregnancy 1.26% at one year (95% CI 0.57–1.95%) and 2.47% at three years (1.34–3.60%). These are not directly comparable with Paragard's population typical-use rate.",
+          [
+            "CT-72",
+            "CT-56",
+            "CT-64",
+            "CT-15"
+          ]
+        ],
+        [
+          "Future fertility & three-year cost",
+          "About 2 cycles to usual fecundability in one cohort; may conceive immediately. Product-specific cost is not established; use an all-in quote, including relevant visits and removal.",
+          [
+            "CT-07",
+            "CT-41"
+          ]
+        ]
+      ]
+    },
+    {
+      "id": "product-mirena",
+      "title": "Mirena — product research",
+      "summary": "Estrogen-free uterine LNG release; also labeled for heavy menstrual bleeding for up to five years.",
+      "keywords": "Mirena 52 mg levonorgestrel  hormonal-iud contraceptive birth control",
+      "paragraphs": [
+        [
+          "Formulation & access",
+          "52 mg levonorgestrel. Clinician prescription/placement. 8 years labeled pregnancy prevention. US label/authorization found; local supply not verified.",
+          [
+            "CT-73"
+          ]
+        ],
+        [
+          "Why consider it",
+          "Estrogen-free uterine LNG release; also labeled for heavy menstrual bleeding for up to five years.",
+          [
+            "CT-73",
+            "CT-06",
+            "CT-32",
+            "CT-34",
+            "CT-03",
+            "CT-07",
+            "CT-15",
+            "CT-20"
+          ]
+        ],
+        [
+          "Limitations & safety",
+          "Variable bleeding, systemic exposure is not zero, insertion/removal risks. Review individual hormone-related eligibility.",
+          [
+            "CT-73",
+            "CT-06",
+            "CT-32",
+            "CT-34",
+            "CT-03",
+            "CT-07",
+            "CT-15",
+            "CT-20"
+          ]
+        ],
+        [
+          "What the research actually establishes",
+          "Comparative PK evidence shows lower circulating LNG for studied IUDs versus selected systemic LNG products. Reservoir size is not a clinical safety score; brand-level long-term outcome ranking unsupported.",
+          [
+            "CT-73",
+            "CT-06",
+            "CT-32",
+            "CT-34",
+            "CT-03",
+            "CT-07",
+            "CT-15",
+            "CT-20"
+          ]
+        ],
+        [
+          "Future fertility & three-year cost",
+          "About 2 cycles in one cohort; pregnancy possible after removal. Product-specific cost is not established; use an all-in quote, including relevant visits and removal.",
+          [
+            "CT-07",
+            "CT-41"
+          ]
+        ]
+      ]
+    },
+    {
+      "id": "product-liletta",
+      "title": "Liletta — product research",
+      "summary": "Estrogen-free uterine LNG release; also labeled for heavy menstrual bleeding for up to five years.",
+      "keywords": "Liletta 52 mg levonorgestrel  hormonal-iud contraceptive birth control",
+      "paragraphs": [
+        [
+          "Formulation & access",
+          "52 mg levonorgestrel. Clinician prescription/placement. 8 years labeled pregnancy prevention. US label/authorization found; local supply not verified.",
+          [
+            "CT-74"
+          ]
+        ],
+        [
+          "Why consider it",
+          "Estrogen-free uterine LNG release; also labeled for heavy menstrual bleeding for up to five years.",
+          [
+            "CT-74",
+            "CT-06",
+            "CT-32",
+            "CT-34",
+            "CT-03",
+            "CT-07",
+            "CT-15",
+            "CT-20"
+          ]
+        ],
+        [
+          "Limitations & safety",
+          "Variable bleeding, systemic exposure is not zero, insertion/removal risks. Review individual hormone-related eligibility.",
+          [
+            "CT-74",
+            "CT-06",
+            "CT-32",
+            "CT-34",
+            "CT-03",
+            "CT-07",
+            "CT-15",
+            "CT-20"
+          ]
+        ],
+        [
+          "What the research actually establishes",
+          "Comparative PK evidence shows lower circulating LNG for studied IUDs versus selected systemic LNG products. Reservoir size is not a clinical safety score; brand-level long-term outcome ranking unsupported.",
+          [
+            "CT-74",
+            "CT-06",
+            "CT-32",
+            "CT-34",
+            "CT-03",
+            "CT-07",
+            "CT-15",
+            "CT-20"
+          ]
+        ],
+        [
+          "Future fertility & three-year cost",
+          "About 2 cycles in one cohort; pregnancy possible after removal. Product-specific cost is not established; use an all-in quote, including relevant visits and removal.",
+          [
+            "CT-07",
+            "CT-41"
+          ]
+        ]
+      ]
+    },
+    {
+      "id": "product-kyleena",
+      "title": "Kyleena — product research",
+      "summary": "Estrogen-free uterine LNG release; smaller hormone reservoir, not proof of fewer systemic adverse effects.",
+      "keywords": "Kyleena 19.5 mg levonorgestrel  hormonal-iud contraceptive birth control",
+      "paragraphs": [
+        [
+          "Formulation & access",
+          "19.5 mg levonorgestrel. Clinician prescription/placement. 5 years labeled pregnancy prevention. US label/authorization found; local supply not verified.",
+          [
+            "CT-75"
+          ]
+        ],
+        [
+          "Why consider it",
+          "Estrogen-free uterine LNG release; smaller hormone reservoir, not proof of fewer systemic adverse effects.",
+          [
+            "CT-75",
+            "CT-06",
+            "CT-32",
+            "CT-34",
+            "CT-03",
+            "CT-07",
+            "CT-15",
+            "CT-20"
+          ]
+        ],
+        [
+          "Limitations & safety",
+          "Variable bleeding, systemic exposure is not zero, insertion/removal risks. Review individual hormone-related eligibility.",
+          [
+            "CT-75",
+            "CT-06",
+            "CT-32",
+            "CT-34",
+            "CT-03",
+            "CT-07",
+            "CT-15",
+            "CT-20"
+          ]
+        ],
+        [
+          "What the research actually establishes",
+          "Comparative PK evidence shows lower circulating LNG for studied IUDs versus selected systemic LNG products. Reservoir size is not a clinical safety score; brand-level long-term outcome ranking unsupported.",
+          [
+            "CT-75",
+            "CT-06",
+            "CT-32",
+            "CT-34",
+            "CT-03",
+            "CT-07",
+            "CT-15",
+            "CT-20"
+          ]
+        ],
+        [
+          "Future fertility & three-year cost",
+          "About 2 cycles in one cohort; pregnancy possible after removal. Product-specific cost is not established; use an all-in quote, including relevant visits and removal.",
+          [
+            "CT-07",
+            "CT-41"
+          ]
+        ]
+      ]
+    },
+    {
+      "id": "product-skyla",
+      "title": "Skyla — product research",
+      "summary": "Estrogen-free uterine LNG release; smaller hormone reservoir, not proof of fewer systemic adverse effects.",
+      "keywords": "Skyla 13.5 mg levonorgestrel  hormonal-iud contraceptive birth control",
+      "paragraphs": [
+        [
+          "Formulation & access",
+          "13.5 mg levonorgestrel. Clinician prescription/placement. 3 years labeled pregnancy prevention. US label/authorization found; local supply not verified.",
+          [
+            "CT-76"
+          ]
+        ],
+        [
+          "Why consider it",
+          "Estrogen-free uterine LNG release; smaller hormone reservoir, not proof of fewer systemic adverse effects.",
+          [
+            "CT-76",
+            "CT-06",
+            "CT-32",
+            "CT-34",
+            "CT-03",
+            "CT-07",
+            "CT-15",
+            "CT-20"
+          ]
+        ],
+        [
+          "Limitations & safety",
+          "Variable bleeding, systemic exposure is not zero, insertion/removal risks. Review individual hormone-related eligibility.",
+          [
+            "CT-76",
+            "CT-06",
+            "CT-32",
+            "CT-34",
+            "CT-03",
+            "CT-07",
+            "CT-15",
+            "CT-20"
+          ]
+        ],
+        [
+          "What the research actually establishes",
+          "Comparative PK evidence shows lower circulating LNG for studied IUDs versus selected systemic LNG products. Reservoir size is not a clinical safety score; brand-level long-term outcome ranking unsupported.",
+          [
+            "CT-76",
+            "CT-06",
+            "CT-32",
+            "CT-34",
+            "CT-03",
+            "CT-07",
+            "CT-15",
+            "CT-20"
+          ]
+        ],
+        [
+          "Future fertility & three-year cost",
+          "About 2 cycles in one cohort; pregnancy possible after removal. Product-specific cost is not established; use an all-in quote, including relevant visits and removal.",
+          [
+            "CT-07",
+            "CT-41"
+          ]
+        ]
+      ]
+    },
+    {
+      "id": "product-nexplanon",
+      "title": "Nexplanon — product research",
+      "summary": "Long-acting estrogen-free option; no daily adherence.",
+      "keywords": "Nexplanon Etonogestrel implant  implant contraceptive birth control",
+      "paragraphs": [
+        [
+          "Formulation & access",
+          "Etonogestrel implant. Clinician insertion/removal. 5 years labeled pregnancy prevention (2026 label). US label/authorization found; local supply not verified.",
+          [
+            "CT-77"
+          ]
+        ],
+        [
+          "Why consider it",
+          "Long-acting estrogen-free option; no daily adherence.",
+          [
+            "CT-77",
+            "CT-07",
+            "CT-12",
+            "CT-34",
+            "CT-58"
+          ]
+        ],
+        [
+          "Limitations & safety",
+          "Irregular bleeding; rare insertion/removal complications; systemic progestin.",
+          [
+            "CT-77",
+            "CT-07",
+            "CT-12",
+            "CT-34",
+            "CT-58"
+          ]
+        ],
+        [
+          "What the research actually establishes",
+          "Extension study NCT04626596 is single-arm; no independent product-level mental or long-term risk ranking.",
+          [
+            "CT-77",
+            "CT-07",
+            "CT-12",
+            "CT-34",
+            "CT-58"
+          ]
+        ],
+        [
+          "Future fertility & three-year cost",
+          "About 2 cycles in one cohort; pregnancy may occur soon after removal. Product-specific cost is not established; use an all-in quote, including relevant visits and removal.",
+          [
+            "CT-07",
+            "CT-41"
+          ]
+        ]
+      ]
+    },
+    {
+      "id": "product-depo-provera",
+      "title": "Depo-Provera CI — product research",
+      "summary": "No estrogen; no daily pill.",
+      "keywords": "Depo-Provera CI Intramuscular depot medroxyprogesterone acetate  injection contraceptive birth control",
+      "paragraphs": [
+        [
+          "Formulation & access",
+          "Intramuscular depot medroxyprogesterone acetate. Prescription. Repeat depot injection. US label/authorization found; local supply not verified.",
+          [
+            "CT-78"
+          ]
+        ],
+        [
+          "Why consider it",
+          "No estrogen; no daily pill.",
+          [
+            "CT-78",
+            "CT-07",
+            "CT-17",
+            "CT-28",
+            "CT-30",
+            "CT-31",
+            "CT-32",
+            "CT-58"
+          ]
+        ],
+        [
+          "Limitations & safety",
+          "Bone-density warning, possible weight gain, irregular bleeding, prolonged action; meningioma signals need review.",
+          [
+            "CT-78",
+            "CT-07",
+            "CT-17",
+            "CT-28",
+            "CT-30",
+            "CT-31",
+            "CT-32",
+            "CT-58"
+          ]
+        ],
+        [
+          "What the research actually establishes",
+          "DMPA studies support a longer temporary fertility delay; evidence about actual fracture risk is uncertain. Route-specific long-term comparisons are incomplete.",
+          [
+            "CT-78",
+            "CT-07",
+            "CT-17",
+            "CT-28",
+            "CT-30",
+            "CT-31",
+            "CT-32",
+            "CT-58"
+          ]
+        ],
+        [
+          "Future fertility & three-year cost",
+          "Longest temporary delay (about 5–8 cycles) in cohort. Product-specific cost is not established; use an all-in quote, including relevant visits and removal.",
+          [
+            "CT-07",
+            "CT-41"
+          ]
+        ]
+      ]
+    },
+    {
+      "id": "product-depo-subq",
+      "title": "depo-subQ provera 104 — product research",
+      "summary": "No estrogen; no daily pill.",
+      "keywords": "depo-subQ provera 104 Subcutaneous depot medroxyprogesterone acetate  injection contraceptive birth control",
+      "paragraphs": [
+        [
+          "Formulation & access",
+          "Subcutaneous depot medroxyprogesterone acetate. Prescription. Repeat depot injection. US label/authorization found; local supply not verified.",
+          [
+            "CT-79"
+          ]
+        ],
+        [
+          "Why consider it",
+          "No estrogen; no daily pill.",
+          [
+            "CT-79",
+            "CT-07",
+            "CT-17",
+            "CT-28",
+            "CT-30",
+            "CT-31",
+            "CT-32",
+            "CT-58"
+          ]
+        ],
+        [
+          "Limitations & safety",
+          "Bone-density warning, possible weight gain, irregular bleeding, prolonged action; meningioma signals need review.",
+          [
+            "CT-79",
+            "CT-07",
+            "CT-17",
+            "CT-28",
+            "CT-30",
+            "CT-31",
+            "CT-32",
+            "CT-58"
+          ]
+        ],
+        [
+          "What the research actually establishes",
+          "DMPA studies support a longer temporary fertility delay; evidence about actual fracture risk is uncertain. Route-specific long-term comparisons are incomplete.",
+          [
+            "CT-79",
+            "CT-07",
+            "CT-17",
+            "CT-28",
+            "CT-30",
+            "CT-31",
+            "CT-32",
+            "CT-58"
+          ]
+        ],
+        [
+          "Future fertility & three-year cost",
+          "Longest temporary delay (about 5–8 cycles) in cohort. Product-specific cost is not established; use an all-in quote, including relevant visits and removal.",
+          [
+            "CT-07",
+            "CT-41"
+          ]
+        ]
+      ]
+    },
+    {
+      "id": "product-aviane",
+      "title": "Aviane / LNG-EE pills — product research",
+      "summary": "Established combined-pill formulation; generic equivalents may differ in packaging and strength.",
+      "keywords": "Aviane / LNG-EE pills Levonorgestrel + ethinyl estradiol  combined-pill contraceptive birth control",
+      "paragraphs": [
+        [
+          "Formulation & access",
+          "Levonorgestrel + ethinyl estradiol. Prescription. Oral formulation. US label/authorization found; local supply not verified.",
+          [
+            "CT-80"
+          ]
+        ],
+        [
+          "Why consider it",
+          "Established combined-pill formulation; generic equivalents may differ in packaging and strength.",
+          [
+            "CT-80",
+            "CT-02",
+            "CT-12",
+            "CT-13",
+            "CT-35",
+            "CT-57"
+          ]
+        ],
+        [
+          "Limitations & safety",
+          "Contains systemic estrogen; clot/stroke eligibility, smoking, migraine with aura and blood pressure matter. Bleeding and mood effects vary.",
+          [
+            "CT-80",
+            "CT-02",
+            "CT-12",
+            "CT-13",
+            "CT-35",
+            "CT-57"
+          ]
+        ],
+        [
+          "What the research actually establishes",
+          "Older observational meta-analysis used LNG-containing combined pills as reference; not zero VTE risk.",
+          [
+            "CT-80",
+            "CT-02",
+            "CT-12",
+            "CT-13",
+            "CT-35",
+            "CT-57"
+          ]
+        ],
+        [
+          "Future fertility & three-year cost",
+          "About 3 cycles in one cohort; not a mandatory wait. Product-specific cost is not established; use an all-in quote, including relevant visits and removal.",
+          [
+            "CT-07",
+            "CT-41"
+          ]
+        ]
+      ]
+    },
+    {
+      "id": "product-nortrel",
+      "title": "Nortrel / norethindrone-EE pills — product research",
+      "summary": "Different estrogen/progestin strengths and cycle formulations; distinct from norethindrone-only mini-pill.",
+      "keywords": "Nortrel / norethindrone-EE pills Norethindrone + ethinyl estradiol  combined-pill contraceptive birth control",
+      "paragraphs": [
+        [
+          "Formulation & access",
+          "Norethindrone + ethinyl estradiol. Prescription. Oral formulation. US label/authorization found; local supply not verified.",
+          [
+            "CT-81"
+          ]
+        ],
+        [
+          "Why consider it",
+          "Different estrogen/progestin strengths and cycle formulations; distinct from norethindrone-only mini-pill.",
+          [
+            "CT-81",
+            "CT-02",
+            "CT-12",
+            "CT-13",
+            "CT-35",
+            "CT-57"
+          ]
+        ],
+        [
+          "Limitations & safety",
+          "Contains systemic estrogen; clot/stroke eligibility, smoking, migraine with aura and blood pressure matter. Bleeding and mood effects vary.",
+          [
+            "CT-81",
+            "CT-02",
+            "CT-12",
+            "CT-13",
+            "CT-35",
+            "CT-57"
+          ]
+        ],
+        [
+          "What the research actually establishes",
+          "Do not borrow POP outcomes for a combined pill; verify exact formulation.",
+          [
+            "CT-81",
+            "CT-02",
+            "CT-12",
+            "CT-13",
+            "CT-35",
+            "CT-57"
+          ]
+        ],
+        [
+          "Future fertility & three-year cost",
+          "About 3 cycles in one cohort; not a mandatory wait. Product-specific cost is not established; use an all-in quote, including relevant visits and removal.",
+          [
+            "CT-07",
+            "CT-41"
+          ]
+        ]
+      ]
+    },
+    {
+      "id": "product-lo-loestrin",
+      "title": "Lo Loestrin Fe — product research",
+      "summary": "Very-low-estrogen combined formulation, not estrogen-free.",
+      "keywords": "Lo Loestrin Fe Norethindrone acetate + ethinyl estradiol  combined-pill contraceptive birth control",
+      "paragraphs": [
+        [
+          "Formulation & access",
+          "Norethindrone acetate + ethinyl estradiol. Prescription. Oral formulation. US label/authorization found; local supply not verified.",
+          [
+            "CT-82"
+          ]
+        ],
+        [
+          "Why consider it",
+          "Very-low-estrogen combined formulation, not estrogen-free.",
+          [
+            "CT-82",
+            "CT-02",
+            "CT-12",
+            "CT-13",
+            "CT-35",
+            "CT-57"
+          ]
+        ],
+        [
+          "Limitations & safety",
+          "Contains systemic estrogen; clot/stroke eligibility, smoking, migraine with aura and blood pressure matter. Bleeding and mood effects vary. Lower labeled estrogen dose is not proof of lower overall risk.",
+          [
+            "CT-82",
+            "CT-02",
+            "CT-12",
+            "CT-13",
+            "CT-35",
+            "CT-57"
+          ]
+        ],
+        [
+          "What the research actually establishes",
+          "No direct comparative long-term safety conclusion from dose alone.",
+          [
+            "CT-82",
+            "CT-02",
+            "CT-12",
+            "CT-13",
+            "CT-35",
+            "CT-57"
+          ]
+        ],
+        [
+          "Future fertility & three-year cost",
+          "About 3 cycles in one cohort; not a mandatory wait. Product-specific cost is not established; use an all-in quote, including relevant visits and removal.",
+          [
+            "CT-07",
+            "CT-41"
+          ]
+        ]
+      ]
+    },
+    {
+      "id": "product-sprintec",
+      "title": "Sprintec / norgestimate-EE pills — product research",
+      "summary": "Monophasic norgestimate combined formulation; triphasic products also exist.",
+      "keywords": "Sprintec / norgestimate-EE pills Norgestimate + ethinyl estradiol  combined-pill contraceptive birth control",
+      "paragraphs": [
+        [
+          "Formulation & access",
+          "Norgestimate + ethinyl estradiol. Prescription. Oral formulation. US label/authorization found; local supply not verified.",
+          [
+            "CT-83"
+          ]
+        ],
+        [
+          "Why consider it",
+          "Monophasic norgestimate combined formulation; triphasic products also exist.",
+          [
+            "CT-83",
+            "CT-02",
+            "CT-12",
+            "CT-13",
+            "CT-35",
+            "CT-57"
+          ]
+        ],
+        [
+          "Limitations & safety",
+          "Contains systemic estrogen; clot/stroke eligibility, smoking, migraine with aura and blood pressure matter. Bleeding and mood effects vary.",
+          [
+            "CT-83",
+            "CT-02",
+            "CT-12",
+            "CT-13",
+            "CT-35",
+            "CT-57"
+          ]
+        ],
+        [
+          "What the research actually establishes",
+          "Formulation-level observational estimates differ; direct clinical comparisons are limited.",
+          [
+            "CT-83",
+            "CT-02",
+            "CT-12",
+            "CT-13",
+            "CT-35",
+            "CT-57"
+          ]
+        ],
+        [
+          "Future fertility & three-year cost",
+          "About 3 cycles in one cohort; not a mandatory wait. Product-specific cost is not established; use an all-in quote, including relevant visits and removal.",
+          [
+            "CT-07",
+            "CT-41"
+          ]
+        ]
+      ]
+    },
+    {
+      "id": "product-tri-estarylla",
+      "title": "Tri-Estarylla — product research",
+      "summary": "Changing hormone strengths through the pack; some labeling includes acne treatment when contraception desired.",
+      "keywords": "Tri-Estarylla Triphasic norgestimate + ethinyl estradiol  combined-pill contraceptive birth control",
+      "paragraphs": [
+        [
+          "Formulation & access",
+          "Triphasic norgestimate + ethinyl estradiol. Prescription. Oral formulation. US label/authorization found; local supply not verified.",
+          [
+            "CT-84"
+          ]
+        ],
+        [
+          "Why consider it",
+          "Changing hormone strengths through the pack; some labeling includes acne treatment when contraception desired.",
+          [
+            "CT-84",
+            "CT-02",
+            "CT-12",
+            "CT-13",
+            "CT-35",
+            "CT-57"
+          ]
+        ],
+        [
+          "Limitations & safety",
+          "Contains systemic estrogen; clot/stroke eligibility, smoking, migraine with aura and blood pressure matter. Bleeding and mood effects vary.",
+          [
+            "CT-84",
+            "CT-02",
+            "CT-12",
+            "CT-13",
+            "CT-35",
+            "CT-57"
+          ]
+        ],
+        [
+          "What the research actually establishes",
+          "Acne indication does not establish better mental health, lower clot risk or fertility outcomes.",
+          [
+            "CT-84",
+            "CT-02",
+            "CT-12",
+            "CT-13",
+            "CT-35",
+            "CT-57"
+          ]
+        ],
+        [
+          "Future fertility & three-year cost",
+          "About 3 cycles in one cohort; not a mandatory wait. Product-specific cost is not established; use an all-in quote, including relevant visits and removal.",
+          [
+            "CT-07",
+            "CT-41"
+          ]
+        ]
+      ]
+    },
+    {
+      "id": "product-desogestrel-ee",
+      "title": "Desogestrel/EE pills — product research",
+      "summary": "A combined formulation; not the desogestrel-only comparator in the European POP trial.",
+      "keywords": "Desogestrel/EE pills Desogestrel + ethinyl estradiol  combined-pill contraceptive birth control",
+      "paragraphs": [
+        [
+          "Formulation & access",
+          "Desogestrel + ethinyl estradiol. Prescription. Oral formulation. US label/authorization found; local supply not verified.",
+          [
+            "CT-85"
+          ]
+        ],
+        [
+          "Why consider it",
+          "A combined formulation; not the desogestrel-only comparator in the European POP trial.",
+          [
+            "CT-85",
+            "CT-02",
+            "CT-12",
+            "CT-13",
+            "CT-35",
+            "CT-57"
+          ]
+        ],
+        [
+          "Limitations & safety",
+          "Contains systemic estrogen; clot/stroke eligibility, smoking, migraine with aura and blood pressure matter. Bleeding and mood effects vary.",
+          [
+            "CT-85",
+            "CT-02",
+            "CT-12",
+            "CT-13",
+            "CT-35",
+            "CT-57"
+          ]
+        ],
+        [
+          "What the research actually establishes",
+          "Some observational comparisons associate desogestrel combined pills with higher VTE risk than LNG combined pills.",
+          [
+            "CT-85",
+            "CT-02",
+            "CT-12",
+            "CT-13",
+            "CT-35",
+            "CT-57"
+          ]
+        ],
+        [
+          "Future fertility & three-year cost",
+          "About 3 cycles in one cohort; not a mandatory wait. Product-specific cost is not established; use an all-in quote, including relevant visits and removal.",
+          [
+            "CT-07",
+            "CT-41"
+          ]
+        ]
+      ]
+    },
+    {
+      "id": "product-yasmin",
+      "title": "Yasmin / drospirenone-EE pills — product research",
+      "summary": "Combined formulation distinct from Slynd; potassium considerations may matter.",
+      "keywords": "Yasmin / drospirenone-EE pills Drospirenone + ethinyl estradiol  combined-pill contraceptive birth control",
+      "paragraphs": [
+        [
+          "Formulation & access",
+          "Drospirenone + ethinyl estradiol. Prescription. Oral formulation. US label/authorization found; local supply not verified.",
+          [
+            "CT-86"
+          ]
+        ],
+        [
+          "Why consider it",
+          "Combined formulation distinct from Slynd; potassium considerations may matter.",
+          [
+            "CT-86",
+            "CT-02",
+            "CT-12",
+            "CT-13",
+            "CT-35",
+            "CT-57"
+          ]
+        ],
+        [
+          "Limitations & safety",
+          "Contains systemic estrogen; clot/stroke eligibility, smoking, migraine with aura and blood pressure matter. Bleeding and mood effects vary.",
+          [
+            "CT-86",
+            "CT-02",
+            "CT-12",
+            "CT-13",
+            "CT-35",
+            "CT-57"
+          ]
+        ],
+        [
+          "What the research actually establishes",
+          "Older meta-analysis found higher observed VTE risk versus LNG combined pills; cannot transfer this estimate to Slynd.",
+          [
+            "CT-86",
+            "CT-02",
+            "CT-12",
+            "CT-13",
+            "CT-35",
+            "CT-57"
+          ]
+        ],
+        [
+          "Future fertility & three-year cost",
+          "About 3 cycles in one cohort; not a mandatory wait. Product-specific cost is not established; use an all-in quote, including relevant visits and removal.",
+          [
+            "CT-07",
+            "CT-41"
+          ]
+        ]
+      ]
+    },
+    {
+      "id": "product-cryselle",
+      "title": "Cryselle / norgestrel-EE pills — product research",
+      "summary": "Combined formulation distinct from OTC Opill.",
+      "keywords": "Cryselle / norgestrel-EE pills Norgestrel + ethinyl estradiol  combined-pill contraceptive birth control",
+      "paragraphs": [
+        [
+          "Formulation & access",
+          "Norgestrel + ethinyl estradiol. Prescription. Oral formulation. US label/authorization found; local supply not verified.",
+          [
+            "CT-87"
+          ]
+        ],
+        [
+          "Why consider it",
+          "Combined formulation distinct from OTC Opill.",
+          [
+            "CT-87",
+            "CT-02",
+            "CT-12",
+            "CT-13",
+            "CT-35",
+            "CT-57"
+          ]
+        ],
+        [
+          "Limitations & safety",
+          "Contains systemic estrogen; clot/stroke eligibility, smoking, migraine with aura and blood pressure matter. Bleeding and mood effects vary.",
+          [
+            "CT-87",
+            "CT-02",
+            "CT-12",
+            "CT-13",
+            "CT-35",
+            "CT-57"
+          ]
+        ],
+        [
+          "What the research actually establishes",
+          "No valid direct comparison with Opill based on shared progestin name.",
+          [
+            "CT-87",
+            "CT-02",
+            "CT-12",
+            "CT-13",
+            "CT-35",
+            "CT-57"
+          ]
+        ],
+        [
+          "Future fertility & three-year cost",
+          "About 3 cycles in one cohort; not a mandatory wait. Product-specific cost is not established; use an all-in quote, including relevant visits and removal.",
+          [
+            "CT-07",
+            "CT-41"
+          ]
+        ]
+      ]
+    },
+    {
+      "id": "product-ethynodiol",
+      "title": "Kelnor / ethynodiol-EE pills — product research",
+      "summary": "Combined formulation; different estrogen strengths exist.",
+      "keywords": "Kelnor / ethynodiol-EE pills Ethynodiol diacetate + ethinyl estradiol  combined-pill contraceptive birth control",
+      "paragraphs": [
+        [
+          "Formulation & access",
+          "Ethynodiol diacetate + ethinyl estradiol. Prescription. Oral formulation. US label/authorization found; local supply not verified.",
+          [
+            "CT-88"
+          ]
+        ],
+        [
+          "Why consider it",
+          "Combined formulation; different estrogen strengths exist.",
+          [
+            "CT-88",
+            "CT-02",
+            "CT-12",
+            "CT-13",
+            "CT-35",
+            "CT-57"
+          ]
+        ],
+        [
+          "Limitations & safety",
+          "Contains systemic estrogen; clot/stroke eligibility, smoking, migraine with aura and blood pressure matter. Bleeding and mood effects vary.",
+          [
+            "CT-88",
+            "CT-02",
+            "CT-12",
+            "CT-13",
+            "CT-35",
+            "CT-57"
+          ]
+        ],
+        [
+          "What the research actually establishes",
+          "Brand and strength-specific long-term evidence not fully retrieved.",
+          [
+            "CT-88",
+            "CT-02",
+            "CT-12",
+            "CT-13",
+            "CT-35",
+            "CT-57"
+          ]
+        ],
+        [
+          "Future fertility & three-year cost",
+          "About 3 cycles in one cohort; not a mandatory wait. Product-specific cost is not established; use an all-in quote, including relevant visits and removal.",
+          [
+            "CT-07",
+            "CT-41"
+          ]
+        ]
+      ]
+    },
+    {
+      "id": "product-nextstellis",
+      "title": "Nextstellis — product research",
+      "summary": "Different estrogen (estetrol); still a combined hormonal pill.",
+      "keywords": "Nextstellis Estetrol + drospirenone  combined-pill contraceptive birth control",
+      "paragraphs": [
+        [
+          "Formulation & access",
+          "Estetrol + drospirenone. Prescription. Oral formulation. US label/authorization found; local supply not verified.",
+          [
+            "CT-89"
+          ]
+        ],
+        [
+          "Why consider it",
+          "Different estrogen (estetrol); still a combined hormonal pill.",
+          [
+            "CT-89",
+            "CT-02",
+            "CT-12",
+            "CT-13",
+            "CT-35",
+            "CT-62",
+            "CT-63"
+          ]
+        ],
+        [
+          "Limitations & safety",
+          "Contains systemic estrogen; clot/stroke eligibility, smoking, migraine with aura and blood pressure matter. Bleeding and mood effects vary.",
+          [
+            "CT-89",
+            "CT-02",
+            "CT-12",
+            "CT-13",
+            "CT-35",
+            "CT-62",
+            "CT-63"
+          ]
+        ],
+        [
+          "What the research actually establishes",
+          "Phase 3 and recent systematic review include efficacy and biomarker evidence; clinical VTE superiority is not established from biomarkers or sparse trial events.",
+          [
+            "CT-89",
+            "CT-02",
+            "CT-12",
+            "CT-13",
+            "CT-35",
+            "CT-62",
+            "CT-63"
+          ]
+        ],
+        [
+          "Future fertility & three-year cost",
+          "About 3 cycles in one cohort; not a mandatory wait. Product-specific cost is not established; use an all-in quote, including relevant visits and removal.",
+          [
+            "CT-07",
+            "CT-41"
+          ]
+        ]
+      ]
+    },
+    {
+      "id": "product-natazia",
+      "title": "Natazia — product research",
+      "summary": "Multiphasic pill; also labeled for heavy menstrual bleeding in appropriate patients.",
+      "keywords": "Natazia Estradiol valerate + dienogest  combined-pill contraceptive birth control",
+      "paragraphs": [
+        [
+          "Formulation & access",
+          "Estradiol valerate + dienogest. Prescription. Oral formulation. US label/authorization found; local supply not verified.",
+          [
+            "CT-90"
+          ]
+        ],
+        [
+          "Why consider it",
+          "Multiphasic pill; also labeled for heavy menstrual bleeding in appropriate patients.",
+          [
+            "CT-90",
+            "CT-02",
+            "CT-12",
+            "CT-13",
+            "CT-35"
+          ]
+        ],
+        [
+          "Limitations & safety",
+          "Contains systemic estrogen; clot/stroke eligibility, smoking, migraine with aura and blood pressure matter. Bleeding and mood effects vary.",
+          [
+            "CT-90",
+            "CT-02",
+            "CT-12",
+            "CT-13",
+            "CT-35"
+          ]
+        ],
+        [
+          "What the research actually establishes",
+          "Different estrogen does not remove vascular warnings; product-specific comparative long-term evidence incomplete.",
+          [
+            "CT-90",
+            "CT-02",
+            "CT-12",
+            "CT-13",
+            "CT-35"
+          ]
+        ],
+        [
+          "Future fertility & three-year cost",
+          "About 3 cycles in one cohort; not a mandatory wait. Product-specific cost is not established; use an all-in quote, including relevant visits and removal.",
+          [
+            "CT-07",
+            "CT-41"
+          ]
+        ]
+      ]
+    },
+    {
+      "id": "product-xulane",
+      "title": "Xulane — product research",
+      "summary": "Transdermal combined option; avoids daily pill.",
+      "keywords": "Xulane Norelgestromin + ethinyl estradiol  patch contraceptive birth control",
+      "paragraphs": [
+        [
+          "Formulation & access",
+          "Norelgestromin + ethinyl estradiol. Prescription. Transdermal system. US label/authorization found; local supply not verified.",
+          [
+            "CT-91"
+          ]
+        ],
+        [
+          "Why consider it",
+          "Transdermal combined option; avoids daily pill.",
+          [
+            "CT-91",
+            "CT-02",
+            "CT-12",
+            "CT-13",
+            "CT-35"
+          ]
+        ],
+        [
+          "Limitations & safety",
+          "Contains systemic estrogen; clot/stroke eligibility, smoking, migraine with aura and blood pressure matter. Bleeding and mood effects vary. Label restricts BMI to below 30; systemic exposure is not inherently lower than a pill.",
+          [
+            "CT-91",
+            "CT-02",
+            "CT-12",
+            "CT-13",
+            "CT-35"
+          ]
+        ],
+        [
+          "What the research actually establishes",
+          "Label reports higher systemic exposure for studied analytes than a selected oral comparator. Do not translate concentration into individual risk.",
+          [
+            "CT-91",
+            "CT-02",
+            "CT-12",
+            "CT-13",
+            "CT-35"
+          ]
+        ],
+        [
+          "Future fertility & three-year cost",
+          "About 4 cycles in one cohort; imprecise. Product-specific cost is not established; use an all-in quote, including relevant visits and removal.",
+          [
+            "CT-07",
+            "CT-41"
+          ]
+        ]
+      ]
+    },
+    {
+      "id": "product-zafemy",
+      "title": "Zafemy — product research",
+      "summary": "Same active ingredients as Xulane; product-specific patch details.",
+      "keywords": "Zafemy Norelgestromin + ethinyl estradiol  patch contraceptive birth control",
+      "paragraphs": [
+        [
+          "Formulation & access",
+          "Norelgestromin + ethinyl estradiol. Prescription. Transdermal system. US label/authorization found; local supply not verified.",
+          [
+            "CT-92"
+          ]
+        ],
+        [
+          "Why consider it",
+          "Same active ingredients as Xulane; product-specific patch details.",
+          [
+            "CT-92",
+            "CT-02",
+            "CT-12",
+            "CT-13",
+            "CT-35"
+          ]
+        ],
+        [
+          "Limitations & safety",
+          "Contains systemic estrogen; clot/stroke eligibility, smoking, migraine with aura and blood pressure matter. Bleeding and mood effects vary. BMI restriction and adhesion matter.",
+          [
+            "CT-92",
+            "CT-02",
+            "CT-12",
+            "CT-13",
+            "CT-35"
+          ]
+        ],
+        [
+          "What the research actually establishes",
+          "Do not treat generic/product packaging as a separate independent clinical trial.",
+          [
+            "CT-92",
+            "CT-02",
+            "CT-12",
+            "CT-13",
+            "CT-35"
+          ]
+        ],
+        [
+          "Future fertility & three-year cost",
+          "About 4 cycles in one cohort; imprecise. Product-specific cost is not established; use an all-in quote, including relevant visits and removal.",
+          [
+            "CT-07",
+            "CT-41"
+          ]
+        ]
+      ]
+    },
+    {
+      "id": "product-twirla",
+      "title": "Twirla — product research",
+      "summary": "Different combined patch formulation.",
+      "keywords": "Twirla Levonorgestrel + ethinyl estradiol  patch contraceptive birth control",
+      "paragraphs": [
+        [
+          "Formulation & access",
+          "Levonorgestrel + ethinyl estradiol. Prescription. Transdermal system. US label/authorization found; local supply not verified.",
+          [
+            "CT-93"
+          ]
+        ],
+        [
+          "Why consider it",
+          "Different combined patch formulation.",
+          [
+            "CT-93",
+            "CT-02",
+            "CT-12",
+            "CT-13",
+            "CT-35"
+          ]
+        ],
+        [
+          "Limitations & safety",
+          "Contains systemic estrogen; clot/stroke eligibility, smoking, migraine with aura and blood pressure matter. Bleeding and mood effects vary. Label restricts BMI below 30 and reports reduced effectiveness at BMI 25 or above.",
+          [
+            "CT-93",
+            "CT-02",
+            "CT-12",
+            "CT-13",
+            "CT-35"
+          ]
+        ],
+        [
+          "What the research actually establishes",
+          "Pivotal single-arm trial; no proof of overall lower health risk than other patches.",
+          [
+            "CT-93",
+            "CT-02",
+            "CT-12",
+            "CT-13",
+            "CT-35"
+          ]
+        ],
+        [
+          "Future fertility & three-year cost",
+          "About 4 cycles in one cohort; imprecise. Product-specific cost is not established; use an all-in quote, including relevant visits and removal.",
+          [
+            "CT-07",
+            "CT-41"
+          ]
+        ]
+      ]
+    },
+    {
+      "id": "product-nuvaring",
+      "title": "NuvaRing / generic ring — product research",
+      "summary": "Self-inserted cyclic combined vaginal ring.",
+      "keywords": "NuvaRing / generic ring Etonogestrel + ethinyl estradiol  ring contraceptive birth control",
+      "paragraphs": [
+        [
+          "Formulation & access",
+          "Etonogestrel + ethinyl estradiol. Prescription. Vaginal system. US label/authorization found; local supply not verified.",
+          [
+            "CT-94"
+          ]
+        ],
+        [
+          "Why consider it",
+          "Self-inserted cyclic combined vaginal ring.",
+          [
+            "CT-94",
+            "CT-02",
+            "CT-12",
+            "CT-13",
+            "CT-35"
+          ]
+        ],
+        [
+          "Limitations & safety",
+          "Contains systemic estrogen; clot/stroke eligibility, smoking, migraine with aura and blood pressure matter. Bleeding and mood effects vary. Local discomfort or expulsion may occur.",
+          [
+            "CT-94",
+            "CT-02",
+            "CT-12",
+            "CT-13",
+            "CT-35"
+          ]
+        ],
+        [
+          "What the research actually establishes",
+          "Vaginal administration does not mean hormone-free or locally confined exposure.",
+          [
+            "CT-94",
+            "CT-02",
+            "CT-12",
+            "CT-13",
+            "CT-35"
+          ]
+        ],
+        [
+          "Future fertility & three-year cost",
+          "About 3 cycles in one cohort; not a mandatory wait. Product-specific cost is not established; use an all-in quote, including relevant visits and removal.",
+          [
+            "CT-07",
+            "CT-41"
+          ]
+        ]
+      ]
+    },
+    {
+      "id": "product-annovera",
+      "title": "Annovera — product research",
+      "summary": "Reusable combined vaginal system labeled for 13 cycles.",
+      "keywords": "Annovera Segesterone acetate + ethinyl estradiol  ring contraceptive birth control",
+      "paragraphs": [
+        [
+          "Formulation & access",
+          "Segesterone acetate + ethinyl estradiol. Prescription. Vaginal system. US label/authorization found; local supply not verified.",
+          [
+            "CT-95"
+          ]
+        ],
+        [
+          "Why consider it",
+          "Reusable combined vaginal system labeled for 13 cycles.",
+          [
+            "CT-95",
+            "CT-02",
+            "CT-12",
+            "CT-13",
+            "CT-35"
+          ]
+        ],
+        [
+          "Limitations & safety",
+          "Contains systemic estrogen; clot/stroke eligibility, smoking, migraine with aura and blood pressure matter. Bleeding and mood effects vary. Product-specific handling and eligibility; limited data in higher BMI groups.",
+          [
+            "CT-95",
+            "CT-02",
+            "CT-12",
+            "CT-13",
+            "CT-35"
+          ]
+        ],
+        [
+          "What the research actually establishes",
+          "Not a one-month disposable ring; cost and evidence must use its own labeled duration.",
+          [
+            "CT-95",
+            "CT-02",
+            "CT-12",
+            "CT-13",
+            "CT-35"
+          ]
+        ],
+        [
+          "Future fertility & three-year cost",
+          "About 3 cycles in one cohort; not a mandatory wait. Product-specific cost is not established; use an all-in quote, including relevant visits and removal.",
+          [
+            "CT-07",
+            "CT-41"
+          ]
+        ]
+      ]
+    },
+    {
+      "id": "product-phexxi",
+      "title": "Phexxi / vaginal pH regulator — product research",
+      "summary": "Hormone-free and no device placement; distinct from nonoxynol-9.",
+      "keywords": "Phexxi / vaginal pH regulator Lactic acid, citric acid, potassium bitartrate Phexx vaginal gel pH regulator gel contraceptive birth control",
+      "paragraphs": [
+        [
+          "Formulation & access",
+          "Lactic acid, citric acid, potassium bitartrate. Prescription. On-demand vaginal product. US prescription labels found; local supply and Phexx naming relationship not verified.",
+          [
+            "CT-96"
+          ]
+        ],
+        [
+          "Why consider it",
+          "Hormone-free and no device placement; distinct from nonoxynol-9.",
+          [
+            "CT-96",
+            "CT-97",
+            "CT-55",
+            "CT-02",
+            "CT-41"
+          ]
+        ],
+        [
+          "Limitations & safety",
+          "Burning, itching, urinary symptoms and recurrent UTI warning; no STI prevention; per-use cost may accumulate.",
+          [
+            "CT-96",
+            "CT-97",
+            "CT-55",
+            "CT-02",
+            "CT-41"
+          ]
+        ],
+        [
+          "What the research actually establishes",
+          "AMPOWER seven-cycle cumulative pregnancy estimate 13.7% (95% CI 10.0–17.5%); single-arm trial, not one-year typical-use. No direct long-term comparative safety or fertility study established.",
+          [
+            "CT-96",
+            "CT-97",
+            "CT-55",
+            "CT-02",
+            "CT-41"
+          ]
+        ],
+        [
+          "Future fertility & three-year cost",
+          "No pharmacologic washout; underlying fertility still varies. Product-specific cost is not established; use an all-in quote, including relevant visits and removal.",
+          [
+            "CT-07",
+            "CT-41"
+          ]
+        ]
+      ]
+    },
+    {
+      "id": "product-vcf-film",
+      "title": "VCF contraceptive film — product research",
+      "summary": "Hormone-free spermicide; different mechanism from Phexxi.",
+      "keywords": "VCF contraceptive film Nonoxynol-9  gel contraceptive birth control",
+      "paragraphs": [
+        [
+          "Formulation & access",
+          "Nonoxynol-9. OTC. Per-use vaginal product. US label/authorization found; local supply not verified.",
+          [
+            "CT-98"
+          ]
+        ],
+        [
+          "Why consider it",
+          "Hormone-free spermicide; different mechanism from Phexxi.",
+          [
+            "CT-98",
+            "CT-59",
+            "CT-01",
+            "CT-65"
+          ]
+        ],
+        [
+          "Limitations & safety",
+          "Local irritation; frequent exposure may injure mucosa; does not prevent STIs.",
+          [
+            "CT-98",
+            "CT-59",
+            "CT-01",
+            "CT-65"
+          ]
+        ],
+        [
+          "What the research actually establishes",
+          "HIV prevention randomized trial found no protection and a harm signal with frequent exposure. This is not a pregnancy-effectiveness trial; class estimates are not product-specific.",
+          [
+            "CT-98",
+            "CT-59",
+            "CT-01",
+            "CT-65"
+          ]
+        ],
+        [
+          "Future fertility & three-year cost",
+          "No pharmacologic washout; underlying fertility still varies. Product-specific cost is not established; use an all-in quote, including relevant visits and removal.",
+          [
+            "CT-07",
+            "CT-41"
+          ]
+        ]
+      ]
+    },
+    {
+      "id": "product-vcf-gel",
+      "title": "VCF contraceptive gel — product research",
+      "summary": "Hormone-free spermicide; different mechanism from Phexxi.",
+      "keywords": "VCF contraceptive gel Nonoxynol-9  gel contraceptive birth control",
+      "paragraphs": [
+        [
+          "Formulation & access",
+          "Nonoxynol-9. OTC. Per-use vaginal product. US label/authorization found; local supply not verified.",
+          [
+            "CT-99"
+          ]
+        ],
+        [
+          "Why consider it",
+          "Hormone-free spermicide; different mechanism from Phexxi.",
+          [
+            "CT-99",
+            "CT-59",
+            "CT-01",
+            "CT-65"
+          ]
+        ],
+        [
+          "Limitations & safety",
+          "Local irritation; frequent exposure may injure mucosa; does not prevent STIs.",
+          [
+            "CT-99",
+            "CT-59",
+            "CT-01",
+            "CT-65"
+          ]
+        ],
+        [
+          "What the research actually establishes",
+          "HIV prevention randomized trial found no protection and a harm signal with frequent exposure. This is not a pregnancy-effectiveness trial; class estimates are not product-specific.",
+          [
+            "CT-99",
+            "CT-59",
+            "CT-01",
+            "CT-65"
+          ]
+        ],
+        [
+          "Future fertility & three-year cost",
+          "No pharmacologic washout; underlying fertility still varies. Product-specific cost is not established; use an all-in quote, including relevant visits and removal.",
+          [
+            "CT-07",
+            "CT-41"
+          ]
+        ]
+      ]
+    },
+    {
+      "id": "product-caya",
+      "title": "Caya diaphragm — product research",
+      "summary": "Reusable hormone-free device, used with compatible contraceptive gel.",
+      "keywords": "Caya diaphragm Contoured barrier diaphragm  diaphragm contraceptive birth control",
+      "paragraphs": [
+        [
+          "Formulation & access",
+          "Contoured barrier diaphragm. Device; verify current supply and fitting requirements. Reusable or per-use depending on product. US label/authorization found; local supply not verified.",
+          [
+            "CT-100"
+          ]
+        ],
+        [
+          "Why consider it",
+          "Reusable hormone-free device, used with compatible contraceptive gel.",
+          [
+            "CT-100",
+            "CT-01",
+            "CT-03",
+            "CT-65"
+          ]
+        ],
+        [
+          "Limitations & safety",
+          "Correct fit/placement and gel use matter; not STI protection. Check whether specific gels are authorized for contraception in the US.",
+          [
+            "CT-100",
+            "CT-01",
+            "CT-03",
+            "CT-65"
+          ]
+        ],
+        [
+          "What the research actually establishes",
+          "FDA authorization is not head-to-head evidence of superiority. Use method-level effectiveness and safety context; no direct comparative long-term ranking.",
+          [
+            "CT-100",
+            "CT-01",
+            "CT-03",
+            "CT-65"
+          ]
+        ],
+        [
+          "Future fertility & three-year cost",
+          "No pharmacologic washout; underlying fertility still varies. Product-specific cost is not established; use an all-in quote, including relevant visits and removal.",
+          [
+            "CT-07",
+            "CT-41"
+          ]
+        ]
+      ]
+    },
+    {
+      "id": "product-femcap",
+      "title": "FemCap — product research",
+      "summary": "Reusable nonhormonal barrier.",
+      "keywords": "FemCap Cervical barrier cap  cervical-cap contraceptive birth control",
+      "paragraphs": [
+        [
+          "Formulation & access",
+          "Cervical barrier cap. Device; verify current supply and fitting requirements. Reusable or per-use depending on product. US label/authorization found; local supply not verified.",
+          [
+            "CT-101"
+          ]
+        ],
+        [
+          "Why consider it",
+          "Reusable nonhormonal barrier.",
+          [
+            "CT-101",
+            "CT-01",
+            "CT-03",
+            "CT-65"
+          ]
+        ],
+        [
+          "Limitations & safety",
+          "Effectiveness varies with parity and use; availability and fitting need verification.",
+          [
+            "CT-101",
+            "CT-01",
+            "CT-03",
+            "CT-65"
+          ]
+        ],
+        [
+          "What the research actually establishes",
+          "FDA authorization is not head-to-head evidence of superiority. Use method-level effectiveness and safety context; no direct comparative long-term ranking.",
+          [
+            "CT-101",
+            "CT-01",
+            "CT-03",
+            "CT-65"
+          ]
+        ],
+        [
+          "Future fertility & three-year cost",
+          "No pharmacologic washout; underlying fertility still varies. Product-specific cost is not established; use an all-in quote, including relevant visits and removal.",
+          [
+            "CT-07",
+            "CT-41"
+          ]
+        ]
+      ]
+    },
+    {
+      "id": "product-fc2",
+      "title": "FC2 internal condom — product research",
+      "summary": "No hormones; appropriate condoms reduce STI risk.",
+      "keywords": "FC2 internal condom Internal barrier condom  internal-condom contraceptive birth control",
+      "paragraphs": [
+        [
+          "Formulation & access",
+          "Internal barrier condom. Device; verify current supply and fitting requirements. Reusable or per-use depending on product. US label/authorization found; local supply not verified.",
+          [
+            "CT-102"
+          ]
+        ],
+        [
+          "Why consider it",
+          "No hormones; appropriate condoms reduce STI risk.",
+          [
+            "CT-102",
+            "CT-01",
+            "CT-03",
+            "CT-65"
+          ]
+        ],
+        [
+          "Limitations & safety",
+          "Requires correct use; do not assume availability or insurance coverage.",
+          [
+            "CT-102",
+            "CT-01",
+            "CT-03",
+            "CT-65"
+          ]
+        ],
+        [
+          "What the research actually establishes",
+          "FDA authorization is not head-to-head evidence of superiority. Use method-level effectiveness and safety context; no direct comparative long-term ranking.",
+          [
+            "CT-102",
+            "CT-01",
+            "CT-03",
+            "CT-65"
+          ]
+        ],
+        [
+          "Future fertility & three-year cost",
+          "No pharmacologic washout; underlying fertility still varies. Product-specific cost is not established; use an all-in quote, including relevant visits and removal.",
+          [
+            "CT-07",
+            "CT-41"
+          ]
+        ]
+      ]
+    },
+    {
+      "id": "product-natural-cycles",
+      "title": "Natural Cycles — product research",
+      "summary": "No contraceptive hormones or device procedure.",
+      "keywords": "Natural Cycles Fertility-awareness software  fertility-awareness contraceptive birth control",
+      "paragraphs": [
+        [
+          "Formulation & access",
+          "Fertility-awareness software. FDA-cleared product; verify current access. Ongoing tracking. US label/authorization found; local supply not verified.",
+          [
+            "CT-103"
+          ]
+        ],
+        [
+          "Why consider it",
+          "No contraceptive hormones or device procedure.",
+          [
+            "CT-103",
+            "CT-60",
+            "CT-61",
+            "CT-09"
+          ]
+        ],
+        [
+          "Limitations & safety",
+          "Requires correct tracking and behavior during fertile days; not STI protection; subscription and hardware costs vary.",
+          [
+            "CT-103",
+            "CT-60",
+            "CT-61",
+            "CT-09"
+          ]
+        ],
+        [
+          "What the research actually establishes",
+          "US cohort reported 7.2% cumulative pregnancy probability over 13 cycles and Pearl index 6.2. Company founders' stock ownership is disclosed in a related study. Generic period trackers cannot inherit these results.",
+          [
+            "CT-103",
+            "CT-60",
+            "CT-61",
+            "CT-09"
+          ]
+        ],
+        [
+          "Future fertility & three-year cost",
+          "No pharmacologic washout; underlying fertility still varies. Product-specific cost is not established; use an all-in quote, including relevant visits and removal.",
+          [
+            "CT-07",
+            "CT-41"
+          ]
+        ]
+      ]
+    },
+    {
+      "id": "product-ella",
+      "title": "ella — product research",
+      "summary": "Time-sensitive emergency option.",
+      "keywords": "ella Ulipristal acetate  emergency contraceptive birth control",
+      "paragraphs": [
+        [
+          "Formulation & access",
+          "Ulipristal acetate. Prescription. Emergency use only. US label/authorization found; local supply not verified.",
+          [
+            "CT-104"
+          ]
+        ],
+        [
+          "Why consider it",
+          "Time-sensitive emergency option.",
+          [
+            "CT-104",
+            "CT-19",
+            "CT-03"
+          ]
+        ],
+        [
+          "Limitations & safety",
+          "Interactions with ongoing hormonal contraception matter; seek prompt professional advice.",
+          [
+            "CT-104",
+            "CT-19",
+            "CT-03"
+          ]
+        ],
+        [
+          "What the research actually establishes",
+          "Not interchangeable with routine POPs or annual contraceptive estimates.",
+          [
+            "CT-104",
+            "CT-19",
+            "CT-03"
+          ]
+        ],
+        [
+          "Future fertility & three-year cost",
+          "Not part of the annual reversible-method ranking; discuss appropriate use and timing with a clinician.",
+          [
+            "CT-03",
+            "CT-19"
+          ]
+        ]
+      ]
+    },
+    {
+      "id": "product-plan-b",
+      "title": "Plan B One-Step / LNG emergency pills — product research",
+      "summary": "Time-sensitive emergency option with generic alternatives.",
+      "keywords": "Plan B One-Step / LNG emergency pills Levonorgestrel  emergency contraceptive birth control",
+      "paragraphs": [
+        [
+          "Formulation & access",
+          "Levonorgestrel. OTC. Emergency use only. US label/authorization found; local supply not verified.",
+          [
+            "CT-105"
+          ]
+        ],
+        [
+          "Why consider it",
+          "Time-sensitive emergency option with generic alternatives.",
+          [
+            "CT-105",
+            "CT-19",
+            "CT-03"
+          ]
+        ],
+        [
+          "Limitations & safety",
+          "Not routine contraception; timing and individual circumstances matter.",
+          [
+            "CT-105",
+            "CT-19",
+            "CT-03"
+          ]
+        ],
+        [
+          "What the research actually establishes",
+          "Not interchangeable with daily mini-pill or annual estimates.",
+          [
+            "CT-105",
+            "CT-19",
+            "CT-03"
+          ]
+        ],
+        [
+          "Future fertility & three-year cost",
+          "Not part of the annual reversible-method ranking; discuss appropriate use and timing with a clinician.",
+          [
+            "CT-03",
+            "CT-19"
           ]
         ]
       ]
@@ -2199,6 +5200,775 @@
           "display": "265 extra cases"
         }
       ]
+    }
+  ],
+  "products": [
+    {
+      "id": "product-norethindrone",
+      "name": "Norethindrone mini-pill",
+      "method": "mini-pill",
+      "ingredient": "Norethindrone 0.35 mg",
+      "access": "Prescription",
+      "duration": "Daily oral formulation",
+      "summary": "Traditional estrogen-free option; multiple equivalent generic formulations.",
+      "tradeoffs": "Irregular bleeding, strict timing and drug interactions; not a natural progesterone preparation. Product-specific directions differ.",
+      "evidence": "Method-level studies do not establish that one POP is safest. Direct comparative long-term outcomes versus norgestrel and drospirenone remain sparse.",
+      "sourceIds": [
+        "CT-68",
+        "CT-69",
+        "CT-70",
+        "CT-02",
+        "CT-03",
+        "CT-07",
+        "CT-58"
+      ],
+      "status": "US labels found; local supply not verified",
+      "aliases": "Camila Errin generic Heather Jencycla Norlyda Micronor (historical brand names; availability not verified)"
+    },
+    {
+      "id": "product-opill",
+      "name": "Opill",
+      "method": "mini-pill",
+      "ingredient": "Norgestrel 0.075 mg",
+      "access": "OTC",
+      "duration": "Daily oral formulation",
+      "summary": "No prescription or estrogen; no invasive procedure.",
+      "tradeoffs": "Unscheduled bleeding, timing/adherence and breast cancer history matter; not hormone-free.",
+      "evidence": "ACCESS addresses simulated OTC adherence. A crossover trial measured ovarian activity and mucus, not pregnancy after missed pills. Follow product instructions rather than treating surrogate results as permission to miss doses.",
+      "sourceIds": [
+        "CT-66",
+        "CT-53",
+        "CT-54",
+        "CT-02",
+        "CT-03",
+        "CT-07",
+        "CT-58"
+      ],
+      "status": "US label/authorization found; local supply not verified",
+      "aliases": ""
+    },
+    {
+      "id": "product-slynd",
+      "name": "Slynd",
+      "method": "mini-pill",
+      "ingredient": "Drospirenone 4 mg",
+      "access": "Prescription",
+      "duration": "Daily oral formulation with inactive tablets",
+      "summary": "Estrogen-free, distinct ovulation suppression and bleeding profile; different missed-pill rules from traditional POPs.",
+      "tradeoffs": "Hyperkalemia and renal/adrenal/hepatic conditions and interacting medications require review; irregular bleeding remains possible.",
+      "evidence": "US pivotal trial: Pearl index 2.9 (95% CI 1.5–5.1) in eligible confirmed analysis, 65% discontinued. The randomized desogestrel comparator does not directly compare Slynd with US norethindrone or Opill. No observed VTE in this trial does not prove zero risk.",
+      "sourceIds": [
+        "CT-67",
+        "CT-51",
+        "CT-52",
+        "CT-02",
+        "CT-03",
+        "CT-07",
+        "CT-58"
+      ],
+      "status": "US label/authorization found; local supply not verified",
+      "aliases": ""
+    },
+    {
+      "id": "product-paragard",
+      "name": "Paragard",
+      "method": "copper-iud",
+      "ingredient": "Copper T380A",
+      "access": "Clinician prescription/placement",
+      "duration": "10 years labeled pregnancy prevention",
+      "summary": "Established hormone-free copper IUD.",
+      "tradeoffs": "Heavier or more painful periods, expulsion and rare perforation; placement/removal.",
+      "evidence": "Long experience and WHO randomized comparison support copper-IUD effectiveness; does not establish superiority over the new smaller copper device.",
+      "sourceIds": [
+        "CT-71",
+        "CT-04",
+        "CT-05",
+        "CT-27",
+        "CT-03",
+        "CT-07",
+        "CT-15",
+        "CT-20"
+      ],
+      "status": "US label/authorization found; local supply not verified",
+      "aliases": ""
+    },
+    {
+      "id": "product-miudella",
+      "name": "Miudella",
+      "method": "copper-iud",
+      "ingredient": "Copper 175 mm² with flexible nitinol frame",
+      "access": "Clinician prescription; REMS program",
+      "duration": "3 years labeled pregnancy prevention",
+      "summary": "New hormone-free design with less copper surface area than T380A.",
+      "tradeoffs": "Placement still required; no head-to-head proof of less insertion pain or systemic effects; REMS restrictions.",
+      "evidence": "Single-arm phase 3 cumulative pregnancy 1.26% at one year (95% CI 0.57–1.95%) and 2.47% at three years (1.34–3.60%). These are not directly comparable with Paragard's population typical-use rate.",
+      "sourceIds": [
+        "CT-72",
+        "CT-56",
+        "CT-64",
+        "CT-15"
+      ],
+      "status": "FDA approved; manufacturer anticipated late-2026 launch, actual market supply not confirmed",
+      "aliases": ""
+    },
+    {
+      "id": "product-mirena",
+      "name": "Mirena",
+      "method": "hormonal-iud",
+      "ingredient": "52 mg levonorgestrel",
+      "access": "Clinician prescription/placement",
+      "duration": "8 years labeled pregnancy prevention",
+      "summary": "Estrogen-free uterine LNG release; also labeled for heavy menstrual bleeding for up to five years.",
+      "tradeoffs": "Variable bleeding, systemic exposure is not zero, insertion/removal risks. Review individual hormone-related eligibility.",
+      "evidence": "Comparative PK evidence shows lower circulating LNG for studied IUDs versus selected systemic LNG products. Reservoir size is not a clinical safety score; brand-level long-term outcome ranking unsupported.",
+      "sourceIds": [
+        "CT-73",
+        "CT-06",
+        "CT-32",
+        "CT-34",
+        "CT-03",
+        "CT-07",
+        "CT-15",
+        "CT-20"
+      ],
+      "status": "US label/authorization found; local supply not verified",
+      "aliases": ""
+    },
+    {
+      "id": "product-liletta",
+      "name": "Liletta",
+      "method": "hormonal-iud",
+      "ingredient": "52 mg levonorgestrel",
+      "access": "Clinician prescription/placement",
+      "duration": "8 years labeled pregnancy prevention",
+      "summary": "Estrogen-free uterine LNG release; also labeled for heavy menstrual bleeding for up to five years.",
+      "tradeoffs": "Variable bleeding, systemic exposure is not zero, insertion/removal risks. Review individual hormone-related eligibility.",
+      "evidence": "Comparative PK evidence shows lower circulating LNG for studied IUDs versus selected systemic LNG products. Reservoir size is not a clinical safety score; brand-level long-term outcome ranking unsupported.",
+      "sourceIds": [
+        "CT-74",
+        "CT-06",
+        "CT-32",
+        "CT-34",
+        "CT-03",
+        "CT-07",
+        "CT-15",
+        "CT-20"
+      ],
+      "status": "US label/authorization found; local supply not verified",
+      "aliases": ""
+    },
+    {
+      "id": "product-kyleena",
+      "name": "Kyleena",
+      "method": "hormonal-iud",
+      "ingredient": "19.5 mg levonorgestrel",
+      "access": "Clinician prescription/placement",
+      "duration": "5 years labeled pregnancy prevention",
+      "summary": "Estrogen-free uterine LNG release; smaller hormone reservoir, not proof of fewer systemic adverse effects.",
+      "tradeoffs": "Variable bleeding, systemic exposure is not zero, insertion/removal risks. Review individual hormone-related eligibility.",
+      "evidence": "Comparative PK evidence shows lower circulating LNG for studied IUDs versus selected systemic LNG products. Reservoir size is not a clinical safety score; brand-level long-term outcome ranking unsupported.",
+      "sourceIds": [
+        "CT-75",
+        "CT-06",
+        "CT-32",
+        "CT-34",
+        "CT-03",
+        "CT-07",
+        "CT-15",
+        "CT-20"
+      ],
+      "status": "US label/authorization found; local supply not verified",
+      "aliases": ""
+    },
+    {
+      "id": "product-skyla",
+      "name": "Skyla",
+      "method": "hormonal-iud",
+      "ingredient": "13.5 mg levonorgestrel",
+      "access": "Clinician prescription/placement",
+      "duration": "3 years labeled pregnancy prevention",
+      "summary": "Estrogen-free uterine LNG release; smaller hormone reservoir, not proof of fewer systemic adverse effects.",
+      "tradeoffs": "Variable bleeding, systemic exposure is not zero, insertion/removal risks. Review individual hormone-related eligibility.",
+      "evidence": "Comparative PK evidence shows lower circulating LNG for studied IUDs versus selected systemic LNG products. Reservoir size is not a clinical safety score; brand-level long-term outcome ranking unsupported.",
+      "sourceIds": [
+        "CT-76",
+        "CT-06",
+        "CT-32",
+        "CT-34",
+        "CT-03",
+        "CT-07",
+        "CT-15",
+        "CT-20"
+      ],
+      "status": "US label/authorization found; local supply not verified",
+      "aliases": ""
+    },
+    {
+      "id": "product-nexplanon",
+      "name": "Nexplanon",
+      "method": "implant",
+      "ingredient": "Etonogestrel implant",
+      "access": "Clinician insertion/removal",
+      "duration": "5 years labeled pregnancy prevention (2026 label)",
+      "summary": "Long-acting estrogen-free option; no daily adherence.",
+      "tradeoffs": "Irregular bleeding; rare insertion/removal complications; systemic progestin.",
+      "evidence": "Extension study NCT04626596 is single-arm; no independent product-level mental or long-term risk ranking.",
+      "sourceIds": [
+        "CT-77",
+        "CT-07",
+        "CT-12",
+        "CT-34",
+        "CT-58"
+      ],
+      "status": "US label/authorization found; local supply not verified",
+      "aliases": ""
+    },
+    {
+      "id": "product-depo-provera",
+      "name": "Depo-Provera CI",
+      "method": "injection",
+      "ingredient": "Intramuscular depot medroxyprogesterone acetate",
+      "access": "Prescription",
+      "duration": "Repeat depot injection",
+      "summary": "No estrogen; no daily pill.",
+      "tradeoffs": "Bone-density warning, possible weight gain, irregular bleeding, prolonged action; meningioma signals need review.",
+      "evidence": "DMPA studies support a longer temporary fertility delay; evidence about actual fracture risk is uncertain. Route-specific long-term comparisons are incomplete.",
+      "sourceIds": [
+        "CT-78",
+        "CT-07",
+        "CT-17",
+        "CT-28",
+        "CT-30",
+        "CT-31",
+        "CT-32",
+        "CT-58"
+      ],
+      "status": "US label/authorization found; local supply not verified",
+      "aliases": ""
+    },
+    {
+      "id": "product-depo-subq",
+      "name": "depo-subQ provera 104",
+      "method": "injection",
+      "ingredient": "Subcutaneous depot medroxyprogesterone acetate",
+      "access": "Prescription",
+      "duration": "Repeat depot injection",
+      "summary": "No estrogen; no daily pill.",
+      "tradeoffs": "Bone-density warning, possible weight gain, irregular bleeding, prolonged action; meningioma signals need review.",
+      "evidence": "DMPA studies support a longer temporary fertility delay; evidence about actual fracture risk is uncertain. Route-specific long-term comparisons are incomplete.",
+      "sourceIds": [
+        "CT-79",
+        "CT-07",
+        "CT-17",
+        "CT-28",
+        "CT-30",
+        "CT-31",
+        "CT-32",
+        "CT-58"
+      ],
+      "status": "US label/authorization found; local supply not verified",
+      "aliases": ""
+    },
+    {
+      "id": "product-aviane",
+      "name": "Aviane / LNG-EE pills",
+      "method": "combined-pill",
+      "ingredient": "Levonorgestrel + ethinyl estradiol",
+      "access": "Prescription",
+      "duration": "Oral formulation",
+      "summary": "Established combined-pill formulation; generic equivalents may differ in packaging and strength.",
+      "tradeoffs": "Contains systemic estrogen; clot/stroke eligibility, smoking, migraine with aura and blood pressure matter. Bleeding and mood effects vary.",
+      "evidence": "Older observational meta-analysis used LNG-containing combined pills as reference; not zero VTE risk.",
+      "sourceIds": [
+        "CT-80",
+        "CT-02",
+        "CT-12",
+        "CT-13",
+        "CT-35",
+        "CT-57"
+      ],
+      "status": "US label/authorization found; local supply not verified",
+      "aliases": ""
+    },
+    {
+      "id": "product-nortrel",
+      "name": "Nortrel / norethindrone-EE pills",
+      "method": "combined-pill",
+      "ingredient": "Norethindrone + ethinyl estradiol",
+      "access": "Prescription",
+      "duration": "Oral formulation",
+      "summary": "Different estrogen/progestin strengths and cycle formulations; distinct from norethindrone-only mini-pill.",
+      "tradeoffs": "Contains systemic estrogen; clot/stroke eligibility, smoking, migraine with aura and blood pressure matter. Bleeding and mood effects vary.",
+      "evidence": "Do not borrow POP outcomes for a combined pill; verify exact formulation.",
+      "sourceIds": [
+        "CT-81",
+        "CT-02",
+        "CT-12",
+        "CT-13",
+        "CT-35",
+        "CT-57"
+      ],
+      "status": "US label/authorization found; local supply not verified",
+      "aliases": ""
+    },
+    {
+      "id": "product-lo-loestrin",
+      "name": "Lo Loestrin Fe",
+      "method": "combined-pill",
+      "ingredient": "Norethindrone acetate + ethinyl estradiol",
+      "access": "Prescription",
+      "duration": "Oral formulation",
+      "summary": "Very-low-estrogen combined formulation, not estrogen-free.",
+      "tradeoffs": "Contains systemic estrogen; clot/stroke eligibility, smoking, migraine with aura and blood pressure matter. Bleeding and mood effects vary. Lower labeled estrogen dose is not proof of lower overall risk.",
+      "evidence": "No direct comparative long-term safety conclusion from dose alone.",
+      "sourceIds": [
+        "CT-82",
+        "CT-02",
+        "CT-12",
+        "CT-13",
+        "CT-35",
+        "CT-57"
+      ],
+      "status": "US label/authorization found; local supply not verified",
+      "aliases": ""
+    },
+    {
+      "id": "product-sprintec",
+      "name": "Sprintec / norgestimate-EE pills",
+      "method": "combined-pill",
+      "ingredient": "Norgestimate + ethinyl estradiol",
+      "access": "Prescription",
+      "duration": "Oral formulation",
+      "summary": "Monophasic norgestimate combined formulation; triphasic products also exist.",
+      "tradeoffs": "Contains systemic estrogen; clot/stroke eligibility, smoking, migraine with aura and blood pressure matter. Bleeding and mood effects vary.",
+      "evidence": "Formulation-level observational estimates differ; direct clinical comparisons are limited.",
+      "sourceIds": [
+        "CT-83",
+        "CT-02",
+        "CT-12",
+        "CT-13",
+        "CT-35",
+        "CT-57"
+      ],
+      "status": "US label/authorization found; local supply not verified",
+      "aliases": ""
+    },
+    {
+      "id": "product-tri-estarylla",
+      "name": "Tri-Estarylla",
+      "method": "combined-pill",
+      "ingredient": "Triphasic norgestimate + ethinyl estradiol",
+      "access": "Prescription",
+      "duration": "Oral formulation",
+      "summary": "Changing hormone strengths through the pack; some labeling includes acne treatment when contraception desired.",
+      "tradeoffs": "Contains systemic estrogen; clot/stroke eligibility, smoking, migraine with aura and blood pressure matter. Bleeding and mood effects vary.",
+      "evidence": "Acne indication does not establish better mental health, lower clot risk or fertility outcomes.",
+      "sourceIds": [
+        "CT-84",
+        "CT-02",
+        "CT-12",
+        "CT-13",
+        "CT-35",
+        "CT-57"
+      ],
+      "status": "US label/authorization found; local supply not verified",
+      "aliases": ""
+    },
+    {
+      "id": "product-desogestrel-ee",
+      "name": "Desogestrel/EE pills",
+      "method": "combined-pill",
+      "ingredient": "Desogestrel + ethinyl estradiol",
+      "access": "Prescription",
+      "duration": "Oral formulation",
+      "summary": "A combined formulation; not the desogestrel-only comparator in the European POP trial.",
+      "tradeoffs": "Contains systemic estrogen; clot/stroke eligibility, smoking, migraine with aura and blood pressure matter. Bleeding and mood effects vary.",
+      "evidence": "Some observational comparisons associate desogestrel combined pills with higher VTE risk than LNG combined pills.",
+      "sourceIds": [
+        "CT-85",
+        "CT-02",
+        "CT-12",
+        "CT-13",
+        "CT-35",
+        "CT-57"
+      ],
+      "status": "US label/authorization found; local supply not verified",
+      "aliases": ""
+    },
+    {
+      "id": "product-yasmin",
+      "name": "Yasmin / drospirenone-EE pills",
+      "method": "combined-pill",
+      "ingredient": "Drospirenone + ethinyl estradiol",
+      "access": "Prescription",
+      "duration": "Oral formulation",
+      "summary": "Combined formulation distinct from Slynd; potassium considerations may matter.",
+      "tradeoffs": "Contains systemic estrogen; clot/stroke eligibility, smoking, migraine with aura and blood pressure matter. Bleeding and mood effects vary.",
+      "evidence": "Older meta-analysis found higher observed VTE risk versus LNG combined pills; cannot transfer this estimate to Slynd.",
+      "sourceIds": [
+        "CT-86",
+        "CT-02",
+        "CT-12",
+        "CT-13",
+        "CT-35",
+        "CT-57"
+      ],
+      "status": "US label/authorization found; local supply not verified",
+      "aliases": ""
+    },
+    {
+      "id": "product-cryselle",
+      "name": "Cryselle / norgestrel-EE pills",
+      "method": "combined-pill",
+      "ingredient": "Norgestrel + ethinyl estradiol",
+      "access": "Prescription",
+      "duration": "Oral formulation",
+      "summary": "Combined formulation distinct from OTC Opill.",
+      "tradeoffs": "Contains systemic estrogen; clot/stroke eligibility, smoking, migraine with aura and blood pressure matter. Bleeding and mood effects vary.",
+      "evidence": "No valid direct comparison with Opill based on shared progestin name.",
+      "sourceIds": [
+        "CT-87",
+        "CT-02",
+        "CT-12",
+        "CT-13",
+        "CT-35",
+        "CT-57"
+      ],
+      "status": "US label/authorization found; local supply not verified",
+      "aliases": ""
+    },
+    {
+      "id": "product-ethynodiol",
+      "name": "Kelnor / ethynodiol-EE pills",
+      "method": "combined-pill",
+      "ingredient": "Ethynodiol diacetate + ethinyl estradiol",
+      "access": "Prescription",
+      "duration": "Oral formulation",
+      "summary": "Combined formulation; different estrogen strengths exist.",
+      "tradeoffs": "Contains systemic estrogen; clot/stroke eligibility, smoking, migraine with aura and blood pressure matter. Bleeding and mood effects vary.",
+      "evidence": "Brand and strength-specific long-term evidence not fully retrieved.",
+      "sourceIds": [
+        "CT-88",
+        "CT-02",
+        "CT-12",
+        "CT-13",
+        "CT-35",
+        "CT-57"
+      ],
+      "status": "US label/authorization found; local supply not verified",
+      "aliases": ""
+    },
+    {
+      "id": "product-nextstellis",
+      "name": "Nextstellis",
+      "method": "combined-pill",
+      "ingredient": "Estetrol + drospirenone",
+      "access": "Prescription",
+      "duration": "Oral formulation",
+      "summary": "Different estrogen (estetrol); still a combined hormonal pill.",
+      "tradeoffs": "Contains systemic estrogen; clot/stroke eligibility, smoking, migraine with aura and blood pressure matter. Bleeding and mood effects vary.",
+      "evidence": "Phase 3 and recent systematic review include efficacy and biomarker evidence; clinical VTE superiority is not established from biomarkers or sparse trial events.",
+      "sourceIds": [
+        "CT-89",
+        "CT-02",
+        "CT-12",
+        "CT-13",
+        "CT-35",
+        "CT-62",
+        "CT-63"
+      ],
+      "status": "US label/authorization found; local supply not verified",
+      "aliases": ""
+    },
+    {
+      "id": "product-natazia",
+      "name": "Natazia",
+      "method": "combined-pill",
+      "ingredient": "Estradiol valerate + dienogest",
+      "access": "Prescription",
+      "duration": "Oral formulation",
+      "summary": "Multiphasic pill; also labeled for heavy menstrual bleeding in appropriate patients.",
+      "tradeoffs": "Contains systemic estrogen; clot/stroke eligibility, smoking, migraine with aura and blood pressure matter. Bleeding and mood effects vary.",
+      "evidence": "Different estrogen does not remove vascular warnings; product-specific comparative long-term evidence incomplete.",
+      "sourceIds": [
+        "CT-90",
+        "CT-02",
+        "CT-12",
+        "CT-13",
+        "CT-35"
+      ],
+      "status": "US label/authorization found; local supply not verified",
+      "aliases": ""
+    },
+    {
+      "id": "product-xulane",
+      "name": "Xulane",
+      "method": "patch",
+      "ingredient": "Norelgestromin + ethinyl estradiol",
+      "access": "Prescription",
+      "duration": "Transdermal system",
+      "summary": "Transdermal combined option; avoids daily pill.",
+      "tradeoffs": "Contains systemic estrogen; clot/stroke eligibility, smoking, migraine with aura and blood pressure matter. Bleeding and mood effects vary. Label restricts BMI to below 30; systemic exposure is not inherently lower than a pill.",
+      "evidence": "Label reports higher systemic exposure for studied analytes than a selected oral comparator. Do not translate concentration into individual risk.",
+      "sourceIds": [
+        "CT-91",
+        "CT-02",
+        "CT-12",
+        "CT-13",
+        "CT-35"
+      ],
+      "status": "US label/authorization found; local supply not verified",
+      "aliases": ""
+    },
+    {
+      "id": "product-zafemy",
+      "name": "Zafemy",
+      "method": "patch",
+      "ingredient": "Norelgestromin + ethinyl estradiol",
+      "access": "Prescription",
+      "duration": "Transdermal system",
+      "summary": "Same active ingredients as Xulane; product-specific patch details.",
+      "tradeoffs": "Contains systemic estrogen; clot/stroke eligibility, smoking, migraine with aura and blood pressure matter. Bleeding and mood effects vary. BMI restriction and adhesion matter.",
+      "evidence": "Do not treat generic/product packaging as a separate independent clinical trial.",
+      "sourceIds": [
+        "CT-92",
+        "CT-02",
+        "CT-12",
+        "CT-13",
+        "CT-35"
+      ],
+      "status": "US label/authorization found; local supply not verified",
+      "aliases": ""
+    },
+    {
+      "id": "product-twirla",
+      "name": "Twirla",
+      "method": "patch",
+      "ingredient": "Levonorgestrel + ethinyl estradiol",
+      "access": "Prescription",
+      "duration": "Transdermal system",
+      "summary": "Different combined patch formulation.",
+      "tradeoffs": "Contains systemic estrogen; clot/stroke eligibility, smoking, migraine with aura and blood pressure matter. Bleeding and mood effects vary. Label restricts BMI below 30 and reports reduced effectiveness at BMI 25 or above.",
+      "evidence": "Pivotal single-arm trial; no proof of overall lower health risk than other patches.",
+      "sourceIds": [
+        "CT-93",
+        "CT-02",
+        "CT-12",
+        "CT-13",
+        "CT-35"
+      ],
+      "status": "US label/authorization found; local supply not verified",
+      "aliases": ""
+    },
+    {
+      "id": "product-nuvaring",
+      "name": "NuvaRing / generic ring",
+      "method": "ring",
+      "ingredient": "Etonogestrel + ethinyl estradiol",
+      "access": "Prescription",
+      "duration": "Vaginal system",
+      "summary": "Self-inserted cyclic combined vaginal ring.",
+      "tradeoffs": "Contains systemic estrogen; clot/stroke eligibility, smoking, migraine with aura and blood pressure matter. Bleeding and mood effects vary. Local discomfort or expulsion may occur.",
+      "evidence": "Vaginal administration does not mean hormone-free or locally confined exposure.",
+      "sourceIds": [
+        "CT-94",
+        "CT-02",
+        "CT-12",
+        "CT-13",
+        "CT-35"
+      ],
+      "status": "US label/authorization found; local supply not verified",
+      "aliases": ""
+    },
+    {
+      "id": "product-annovera",
+      "name": "Annovera",
+      "method": "ring",
+      "ingredient": "Segesterone acetate + ethinyl estradiol",
+      "access": "Prescription",
+      "duration": "Vaginal system",
+      "summary": "Reusable combined vaginal system labeled for 13 cycles.",
+      "tradeoffs": "Contains systemic estrogen; clot/stroke eligibility, smoking, migraine with aura and blood pressure matter. Bleeding and mood effects vary. Product-specific handling and eligibility; limited data in higher BMI groups.",
+      "evidence": "Not a one-month disposable ring; cost and evidence must use its own labeled duration.",
+      "sourceIds": [
+        "CT-95",
+        "CT-02",
+        "CT-12",
+        "CT-13",
+        "CT-35"
+      ],
+      "status": "US label/authorization found; local supply not verified",
+      "aliases": ""
+    },
+    {
+      "id": "product-phexxi",
+      "name": "Phexxi / vaginal pH regulator",
+      "method": "gel",
+      "ingredient": "Lactic acid, citric acid, potassium bitartrate",
+      "access": "Prescription",
+      "duration": "On-demand vaginal product",
+      "summary": "Hormone-free and no device placement; distinct from nonoxynol-9.",
+      "tradeoffs": "Burning, itching, urinary symptoms and recurrent UTI warning; no STI prevention; per-use cost may accumulate.",
+      "evidence": "AMPOWER seven-cycle cumulative pregnancy estimate 13.7% (95% CI 10.0–17.5%); single-arm trial, not one-year typical-use. No direct long-term comparative safety or fertility study established.",
+      "sourceIds": [
+        "CT-96",
+        "CT-97",
+        "CT-55",
+        "CT-02",
+        "CT-41"
+      ],
+      "status": "US prescription labels found; local supply and Phexx naming relationship not verified",
+      "aliases": "Phexx vaginal gel pH regulator"
+    },
+    {
+      "id": "product-vcf-film",
+      "name": "VCF contraceptive film",
+      "method": "gel",
+      "ingredient": "Nonoxynol-9",
+      "access": "OTC",
+      "duration": "Per-use vaginal product",
+      "summary": "Hormone-free spermicide; different mechanism from Phexxi.",
+      "tradeoffs": "Local irritation; frequent exposure may injure mucosa; does not prevent STIs.",
+      "evidence": "HIV prevention randomized trial found no protection and a harm signal with frequent exposure. This is not a pregnancy-effectiveness trial; class estimates are not product-specific.",
+      "sourceIds": [
+        "CT-98",
+        "CT-59",
+        "CT-01",
+        "CT-65"
+      ],
+      "status": "US label/authorization found; local supply not verified",
+      "aliases": ""
+    },
+    {
+      "id": "product-vcf-gel",
+      "name": "VCF contraceptive gel",
+      "method": "gel",
+      "ingredient": "Nonoxynol-9",
+      "access": "OTC",
+      "duration": "Per-use vaginal product",
+      "summary": "Hormone-free spermicide; different mechanism from Phexxi.",
+      "tradeoffs": "Local irritation; frequent exposure may injure mucosa; does not prevent STIs.",
+      "evidence": "HIV prevention randomized trial found no protection and a harm signal with frequent exposure. This is not a pregnancy-effectiveness trial; class estimates are not product-specific.",
+      "sourceIds": [
+        "CT-99",
+        "CT-59",
+        "CT-01",
+        "CT-65"
+      ],
+      "status": "US label/authorization found; local supply not verified",
+      "aliases": ""
+    },
+    {
+      "id": "product-caya",
+      "name": "Caya diaphragm",
+      "method": "diaphragm",
+      "ingredient": "Contoured barrier diaphragm",
+      "access": "Device; verify current supply and fitting requirements",
+      "duration": "Reusable or per-use depending on product",
+      "summary": "Reusable hormone-free device, used with compatible contraceptive gel.",
+      "tradeoffs": "Correct fit/placement and gel use matter; not STI protection. Check whether specific gels are authorized for contraception in the US.",
+      "evidence": "FDA authorization is not head-to-head evidence of superiority. Use method-level effectiveness and safety context; no direct comparative long-term ranking.",
+      "sourceIds": [
+        "CT-100",
+        "CT-01",
+        "CT-03",
+        "CT-65"
+      ],
+      "status": "US label/authorization found; local supply not verified",
+      "aliases": ""
+    },
+    {
+      "id": "product-femcap",
+      "name": "FemCap",
+      "method": "cervical-cap",
+      "ingredient": "Cervical barrier cap",
+      "access": "Device; verify current supply and fitting requirements",
+      "duration": "Reusable or per-use depending on product",
+      "summary": "Reusable nonhormonal barrier.",
+      "tradeoffs": "Effectiveness varies with parity and use; availability and fitting need verification.",
+      "evidence": "FDA authorization is not head-to-head evidence of superiority. Use method-level effectiveness and safety context; no direct comparative long-term ranking.",
+      "sourceIds": [
+        "CT-101",
+        "CT-01",
+        "CT-03",
+        "CT-65"
+      ],
+      "status": "US label/authorization found; local supply not verified",
+      "aliases": ""
+    },
+    {
+      "id": "product-fc2",
+      "name": "FC2 internal condom",
+      "method": "internal-condom",
+      "ingredient": "Internal barrier condom",
+      "access": "Device; verify current supply and fitting requirements",
+      "duration": "Reusable or per-use depending on product",
+      "summary": "No hormones; appropriate condoms reduce STI risk.",
+      "tradeoffs": "Requires correct use; do not assume availability or insurance coverage.",
+      "evidence": "FDA authorization is not head-to-head evidence of superiority. Use method-level effectiveness and safety context; no direct comparative long-term ranking.",
+      "sourceIds": [
+        "CT-102",
+        "CT-01",
+        "CT-03",
+        "CT-65"
+      ],
+      "status": "US label/authorization found; local supply not verified",
+      "aliases": ""
+    },
+    {
+      "id": "product-natural-cycles",
+      "name": "Natural Cycles",
+      "method": "fertility-awareness",
+      "ingredient": "Fertility-awareness software",
+      "access": "FDA-cleared product; verify current access",
+      "duration": "Ongoing tracking",
+      "summary": "No contraceptive hormones or device procedure.",
+      "tradeoffs": "Requires correct tracking and behavior during fertile days; not STI protection; subscription and hardware costs vary.",
+      "evidence": "US cohort reported 7.2% cumulative pregnancy probability over 13 cycles and Pearl index 6.2. Company founders' stock ownership is disclosed in a related study. Generic period trackers cannot inherit these results.",
+      "sourceIds": [
+        "CT-103",
+        "CT-60",
+        "CT-61",
+        "CT-09"
+      ],
+      "status": "US label/authorization found; local supply not verified",
+      "aliases": ""
+    },
+    {
+      "id": "product-ella",
+      "name": "ella",
+      "method": "emergency",
+      "ingredient": "Ulipristal acetate",
+      "access": "Prescription",
+      "duration": "Emergency use only",
+      "summary": "Time-sensitive emergency option.",
+      "tradeoffs": "Interactions with ongoing hormonal contraception matter; seek prompt professional advice.",
+      "evidence": "Not interchangeable with routine POPs or annual contraceptive estimates.",
+      "sourceIds": [
+        "CT-104",
+        "CT-19",
+        "CT-03"
+      ],
+      "status": "US label/authorization found; local supply not verified",
+      "aliases": ""
+    },
+    {
+      "id": "product-plan-b",
+      "name": "Plan B One-Step / LNG emergency pills",
+      "method": "emergency",
+      "ingredient": "Levonorgestrel",
+      "access": "OTC",
+      "duration": "Emergency use only",
+      "summary": "Time-sensitive emergency option with generic alternatives.",
+      "tradeoffs": "Not routine contraception; timing and individual circumstances matter.",
+      "evidence": "Not interchangeable with daily mini-pill or annual estimates.",
+      "sourceIds": [
+        "CT-105",
+        "CT-19",
+        "CT-03"
+      ],
+      "status": "US label/authorization found; local supply not verified",
+      "aliases": ""
     }
   ]
 }

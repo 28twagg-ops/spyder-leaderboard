@@ -4,7 +4,7 @@ import {ReadingRow,ScreenHeading} from '../components/ReadingUI'
 import {ContraceptionPreferences} from '../components/ContraceptionPreferences'
 import {ContraceptionArt} from '../components/ContraceptionArt'
 import {contraception,contraceptionPath} from '../data/contraception'
-const {sources,sections,methods,evidencePanels}=contraception
+const {sources,sections,methods,evidencePanels,products}=contraception
 type Method=typeof methods[number]
 type Evidence=typeof evidencePanels[number]
 const path=(topic:string)=>contraceptionPath+'/'+topic
@@ -77,10 +77,28 @@ function ResearchDashboard(){
  const groups=[{title:'Fertility after stopping',ids:['fertility-delay']},{title:'Placement & pain',ids:['pain-2018','pain-2026']},{title:'Long-term health',ids:['vte','breast-age','mood-echo']}]
  return <section id="bc-research-comparisons" className="bc-section" aria-label="Research comparisons"><div className="bc-heading"><h2>Compare the evidence</h2><span>Measured outcomes</span></div><MethodComparison compact/><ComparisonTable/>{groups.map(g=><section className="bc-chart-group" key={g.title}><h2>{g.title}</h2>{evidencePanels.filter(p=>g.ids.includes(p.id)).sort((a,b)=>g.ids.indexOf(a.id)-g.ids.indexOf(b.id)).map(p=><EvidenceChart key={p.id} panel={p} overview/>)}</section>)}</section>
 }
+function ProductDirectory({method,full=false}:{method?:string;full?:boolean}){
+ const [query,setQuery]=useState('')
+ const [category,setCategory]=useState('all')
+ const items=products.filter(p=>(!method||p.method===method)&&(category==='all'||p.method===category)&&[p.name,p.ingredient,p.aliases,p.summary].join(' ').toLowerCase().includes(query.trim().toLowerCase()))
+ if(method&&!products.some(p=>p.method===method))return null
+ return <section className="bc-section" aria-label="Product research"><div className="bc-heading"><h2>{method?'Compare specific products':'Product research library'}</h2><span>{items.length} formulations</span></div>
+ {!method&&<><p className="small-copy muted">Browse US formulations, not every generic package or pharmacy listing. FDA label or authorization is distinct from confirmed supply.</p><label htmlFor="bc-product-search">Search name or ingredient</label><input id="bc-product-search" type="search" value={query} onChange={e=>setQuery(e.target.value)} placeholder="Opill, Slynd, Phexxi…"/><label htmlFor="bc-product-category">Method</label><select id="bc-product-category" value={category} onChange={e=>setCategory(e.target.value)}><option value="all">All products</option>{methods.filter(m=>products.some(p=>p.method===m.slug)).map(m=><option key={m.slug} value={m.slug}>{m.name}</option>)}<option value="emergency">Emergency contraception</option></select></>}
+ <div className="bc-product-list">{items.map(p=><Link key={p.id} to={path(p.id)} className="bc-product-row"><span><strong>{p.name}</strong><small>{p.ingredient} · {p.access}</small>{full&&<small>{p.summary}</small>}</span><span aria-hidden="true">›</span></Link>)}</div>{!items.length&&<p role="status">No matching products.</p>}
+ {method&&<Link className="bc-read" to={path('products')}>Explore all products ›</Link>}</section>
+}
+function ProductArticle({product}:{product:typeof products[number]}){
+ const p=product,m=methods.find(x=>x.slug===p.method)
+ return <div className="bc-page stack-lg"><ScreenHeading title={p.name} subtitle={p.ingredient} back={path('products')} historyBack/>
+ <div className="bc-chart"><h3>At a glance</h3><p className="bc-takeaway">{p.summary}</p><dl className="bc-facts"><dt>Access</dt><dd>{p.access}</dd><dt>Labeled duration / type</dt><dd>{p.duration}</dd><dt>Market verification</dt><dd>{p.status}</dd></dl><p className="bc-subtle"><SourceLinks ids={p.sourceIds}/></p></div>
+ <article className="week-editorial-reading"><section><h2>Trade-offs &amp; safety</h2><p>{p.tradeoffs}<SourceLinks ids={p.sourceIds}/></p></section><section><h2>What studies found</h2><p>{p.evidence}<SourceLinks ids={p.sourceIds}/></p></section>{m&&<section><h2>Future fertility &amp; cost</h2><p>{m.fertility}. Product-specific all-in price and long-term outcomes may be unknown; obtain a quote and review eligibility. <SourceLinks ids={['CT-07','CT-41']}/></p></section>}</article>
+ {m&&<ReadingRow to={methodPath(m)} title={'Compare '+m.name+' methods'} subtitle="Method-level research and preference comparison"/>}<References ids={p.sourceIds}/><ReadingRow to={path('products')} title="All product research"/></div>
+}
+
 function Overview(){
  return <div className="bc-page stack-lg"><ScreenHeading title="Birth control & family planning" subtitle="Preparing for pregnancy" back="/timeline/preconception" historyBack/>
  <ContraceptionPreferences/>
- <button type="button" className="bc-more" onClick={()=>document.getElementById("bc-research-comparisons")?.scrollIntoView({block:"start"})}>Jump to comparison graphs <span aria-hidden="true">↓</span></button><MethodDirectory/><ResearchDashboard/>
+ <button type="button" className="bc-more" onClick={()=>document.getElementById("bc-research-comparisons")?.scrollIntoView({block:"start"})}>Jump to comparison graphs <span aria-hidden="true">↓</span></button><MethodDirectory/><ReadingRow to={path('products')} title="Explore specific brands & formulations" subtitle={products.length+' product profiles · pills, IUDs, patches, rings, gels and more'}/><ResearchDashboard/>
  <section className="bc-section"><div className="bc-heading"><h2>Read more</h2></div><div className="surface-list">{['decision-guide','after-conception','sexual-health','side-effects','emergency-postpartum'].map(id=>{const s=sections.find(x=>x.id===id)!;return <ReadingRow key={id} to={path(id)} title={s.title} subtitle={s.summary}/>})}<ReadingRow to="/explore/prep" title="More preparation for pregnancy"/></div></section>
  <References ids={sources.map(s=>s.id)}/><p className="small-copy muted">Source-linked educational research. Full independent and qualified clinical review pending.</p></div>
 }
@@ -91,7 +109,7 @@ function IndividualMethod({m}:{m:Method}){
  <section className="bc-section"><div className="bc-heading"><h2>At a glance</h2></div><div className="bc-pro-con"><div><h3>Advantages</h3><p>{m.pro}</p></div><div><h3>Trade-offs</h3><p>{m.con}</p></div></div><p className="bc-subtle">Source context <SourceLinks ids={[m.source,...m.profileSources]}/></p></section>
  <section className="bc-section"><div className="bc-heading"><h2>Cost &amp; comfort</h2></div><div className="bc-detail-grid"><div><small>US cost example</small><strong>{m.price}</strong><p>{m.priceContext} <SourceLinks ids={[m.costId,'CT-41']}/></p></div><div><small>Placement &amp; removal</small><strong>{m.art==='iud'?'Clinician procedure':m.art==='implant'?'Skin procedure':m.art==='injection'?'Injection':'No invasive placement'}</strong><p>{m.pain} <SourceLinks ids={m.art==='iud'?['CT-21','CT-22','CT-39']:['CT-03',m.source]}/></p></div></div>{m.art==='iud'&&<ReadingRow to={path('placement-pain')} title="See actual IUD pain studies" subtitle="Anesthetic options and measured pain scales"/>}</section>
  <section className="bc-section"><div className="bc-heading"><h2>Health &amp; future pregnancy</h2></div><dl className="bc-facts"><dt>Hormone exposure</dt><dd>{m.hormones}</dd><dt>Physical effects</dt><dd>{m.physical}</dd><dt>Mental &amp; sexual wellbeing</dt><dd>{m.mental}</dd><dt>Return to fertility</dt><dd>{m.fertility}</dd></dl><p className="bc-subtle">Source context <SourceLinks ids={m.profileSources}/></p><ReadingRow to={path('return-to-fertility')} title="When you're ready to conceive"/></section>
- <section className="bc-section"><div className="bc-heading"><h2>Explore the research</h2></div><div className="surface-list"><ReadingRow to={path(m.related)} title={related.title} subtitle={related.summary}/><ReadingRow to={path('physical-long-term')} title="Long-term physical effects"/><ReadingRow to={path('mental-health')} title="Mental health &amp; mood"/><ReadingRow to={path('sexual-health')} title="Sexual wellbeing"/></div></section><References ids={m.art==='iud'?unique([...ids,'CT-21','CT-22','CT-39']):ids}/><Link className="bc-read" to={contraceptionPath}>Back to all comparisons ›</Link></div>
+ <ProductDirectory method={m.slug}/><section className="bc-section"><div className="bc-heading"><h2>Explore the research</h2></div><div className="surface-list"><ReadingRow to={path(m.related)} title={related.title} subtitle={related.summary}/><ReadingRow to={path('physical-long-term')} title="Long-term physical effects"/><ReadingRow to={path('mental-health')} title="Mental health &amp; mood"/><ReadingRow to={path('sexual-health')} title="Sexual wellbeing"/></div></section><References ids={m.art==='iud'?unique([...ids,'CT-21','CT-22','CT-39']):ids}/><Link className="bc-read" to={contraceptionPath}>Back to all comparisons ›</Link></div>
 }
 function PriorityGuide(){
  const [priority,setPriority]=useState('hormone-free')
@@ -108,6 +126,9 @@ function PriorityGuide(){
 export function ContraceptionPage(){
  const {topic}=useParams()
  if(!topic)return <Overview/>
+ if(topic==='products')return <div className="bc-page stack-lg"><ScreenHeading title="Brands & formulations" subtitle="Product-level contraceptive research" back={contraceptionPath} historyBack/><ProductDirectory full/></div>
+ const product=products.find(p=>p.id===topic)
+ if(product)return <ProductArticle product={product}/>
  if(topic==='personal-preferences')return <div className="bc-page stack-lg"><ScreenHeading title="Your contraception priorities" subtitle="Compare features on your terms" back={contraceptionPath} historyBack/><ContraceptionPreferences/></div>
  if(topic.startsWith('method-')){const m=methods.find(x=>'method-'+x.slug===topic);if(m)return <IndividualMethod m={m}/>}
  const section=sections.find(s=>s.id===topic)

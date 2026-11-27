@@ -5,6 +5,28 @@ import App from '../App'
 import {contraception} from '../data/contraception'
 afterEach(()=>{cleanup();localStorage.clear()})
 describe('preconception contraception navigation',()=>{
+ it('opens product library, filters formulations and reaches evidence and funding',async()=>{
+  render(<MemoryRouter initialEntries={['/contraception']}><App/></MemoryRouter>)
+  fireEvent.click(await screen.findByRole('link',{name:/Explore specific brands & formulations/}))
+  expect(await screen.findByRole('heading',{name:'Brands & formulations'})).toBeVisible()
+  fireEvent.change(screen.getByLabelText('Search name or ingredient'),{target:{value:'Slynd'}})
+  fireEvent.click(screen.getByRole('link',{name:/Slynd.*Drospirenone/}))
+  expect(await screen.findByRole('heading',{name:'Slynd',level:1})).toBeVisible()
+  expect(screen.getByRole('heading',{name:'What studies found'})).toBeVisible()
+  expect(screen.getByText(/Studies, funding & limitations/)).toBeInTheDocument()
+ })
+ it('lists three US progestin-only formulations in the method profile',async()=>{
+  render(<MemoryRouter initialEntries={['/contraception/method-mini-pill']}><App/></MemoryRouter>)
+  const region=await screen.findByRole('region',{name:'Product research'})
+  expect(within(region).getByRole('link',{name:/Opill/})).toBeVisible()
+  expect(within(region).getByRole('link',{name:/Slynd/})).toBeVisible()
+  expect(within(region).getByRole('link',{name:/Norethindrone mini-pill/})).toBeVisible()
+ })
+ it('retains unique product links with traceable source records',()=>{
+  const ids=new Set(contraception.sources.map(s=>s.id))
+  expect(new Set(contraception.products.map(p=>p.id)).size).toBe(contraception.products.length)
+  expect(contraception.products.every(p=>p.sourceIds.length>0&&p.sourceIds.every(id=>ids.has(id))&&contraception.sections.some(s=>s.id===p.id))).toBe(true)
+ })
  it('shows six compact sliders and live matches directly on the landing page',async()=>{
   render(<MemoryRouter initialEntries={['/contraception']}><App/></MemoryRouter>)
   const panel=await screen.findByRole('region',{name:'Personal preference comparison'})
