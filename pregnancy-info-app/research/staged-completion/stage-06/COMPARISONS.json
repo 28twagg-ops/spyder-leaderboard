@@ -1,0 +1,155 @@
+[
+  {
+    "topic": "PFOS and birthweight",
+    "source_ids": [
+      "P6-12",
+      "P6-13"
+    ],
+    "quick": "Both reviews found an association, but disagree about how much timing explains.",
+    "public_noncommercial_or_declared_independent": "2025 EPA 53-study review, no COI declared; early-sampling association remains.",
+    "industry_linked": "2020 3M/Ramboll review 29 studies: association overall and early samples, near-zero modeled intercept; authors conclude weak causal support.",
+    "unknown_or_open": "Primary funding and membership not audited; shared author dated affiliations documented.",
+    "comparison_limit": "g/ng/mL versus g/ln-unit, not directly comparable; model vs strata; overlapping studies and residual confounding.",
+    "clinical_review": false
+  },
+  {
+    "topic": "Atrazine sponsorship",
+    "source_ids": [
+      "P6-11"
+    ],
+    "quick": "Industry funding was common in one animal evidence subset; it did not establish which studies were biased.",
+    "public_noncommercial_or_declared_independent": "24/39 nonindustry sponsored per reviewers.",
+    "industry_linked": "11/39 industry sponsored.",
+    "unknown_or_open": "4/39 undisclosed; company identities not extracted.",
+    "comparison_limit": "Animal research; no observed RoB difference and effect-size association inconclusive.",
+    "clinical_review": false
+  },
+  {
+    "topic": "BPA risk disagreement",
+    "source_ids": [
+      "P6-28",
+      "P6-29",
+      "P6-30",
+      "P6-31"
+    ],
+    "quick": "Regulators use different evidence and methods; inexpensive precautions are reasonable.",
+    "public_noncommercial_or_declared_independent": "EFSA 2023 more precautionary; FDA different assessment; NTP publicly supported animal work.",
+    "industry_linked": "Historical 11/11 industry-funded animal studies had no significant effects in narrative review.",
+    "unknown_or_open": "No complete sponsor audit of current regulatory inputs or denominator for independent studies.",
+    "comparison_limit": "Animal findings not human outcomes; no assumption of regulatory capture; different endpoints and methods.",
+    "clinical_review": false
+  },
+  {
+    "topic": "Phthalates in pregnancy",
+    "source_ids": [
+      "P6-21",
+      "P6-22",
+      "P6-23",
+      "P6-24"
+    ],
+    "quick": "Higher exposure to some phthalates is linked to premature birth.",
+    "public_noncommercial_or_declared_independent": "NIH/NIEHS-supported pooled analyses report associations.",
+    "industry_linked": "No verified direct manufacturer sponsor in these reports; relevant author external relationships retained separately.",
+    "unknown_or_open": "Full grant/COI and common participants not fully reconciled.",
+    "comparison_limit": "IQR vs log10 units; five shared cohorts; not independent replications or individual forecasts.",
+    "clinical_review": false
+  },
+  {
+    "topic": "Fresh food and packaging",
+    "source_ids": [
+      "P6-25",
+      "P6-26"
+    ],
+    "quick": "Eating less packaged food may reduce some chemicals, but food processing also matters.",
+    "public_noncommercial_or_declared_independent": "NIEHS-supported 10-family trial unexpectedly increased DEHP exposure.",
+    "industry_linked": "No comparable sponsored intervention extracted.",
+    "unknown_or_open": "2011 reduction study grant statement not verified.",
+    "comparison_limit": "Biomarker, not clinical benefit; two short studies with different diets.",
+    "clinical_review": false
+  },
+  {
+    "topic": "Microplastics and infant bottles",
+    "source_ids": [
+      "P6-32",
+      "P6-33",
+      "P6-34",
+      "P6-35",
+      "P6-36",
+      "P6-G03"
+    ],
+    "quick": "Particles can be released or found in tissue; health consequences at everyday doses remain uncertain.",
+    "public_noncommercial_or_declared_independent": "Publicly supported bottle lab study; human review no declared conflicts but grant pending; FDA food risk position.",
+    "industry_linked": "No manufacturer-funded comparable clinical study verified.",
+    "unknown_or_open": "Bottle author COI, hazard review funding and human-study methods pending.",
+    "comparison_limit": "Never reduce formula sanitation for hypothetical plastic benefit. No demonstrated infant clinical advantage of glass.",
+    "clinical_review": false
+  },
+  {
+    "topic": "Air filtration and cooking",
+    "source_ids": [
+      "P6-37",
+      "P6-38",
+      "P6-39",
+      "P6-40"
+    ],
+    "quick": "Reduce smoke exposure; no promise of higher IQ or birth weight.",
+    "public_noncommercial_or_declared_independent": "HAPIN NIH/Gates null birth weight and infant stunting; supplier ties not fully checked.",
+    "industry_linked": "UGAAR CIHR plus Coway discounts; cognitive CI crosses null.",
+    "unknown_or_open": "No clean head-to-head funding subgroup.",
+    "comparison_limit": "Different interventions, setting, outcome; same-cohort follow-ups not replication.",
+    "clinical_review": false
+  },
+  {
+    "topic": "Organic produce",
+    "source_ids": [
+      "P6-07",
+      "P6-09",
+      "P6-10",
+      "P6-G11",
+      "P6-G12"
+    ],
+    "quick": "Organic can reduce some exposure markers, but fruits and vegetables are valuable regardless.",
+    "public_noncommercial_or_declared_independent": "Government-funded CHAMACOS association; author consultation disclosed.",
+    "industry_linked": "No verified sponsored matched intervention.",
+    "unknown_or_open": "Organic trial funding and full outcomes pending.",
+    "comparison_limit": "No proof organic diet improves child development; avoid reducing healthy foods.",
+    "clinical_review": false
+  },
+  {
+    "topic": "Paternal and maternal workplace exposures",
+    "source_ids": [
+      "P6-42",
+      "P6-43",
+      "P6-44",
+      "P6-45",
+      "P6-46",
+      "P6-G04",
+      "P6-G05",
+      "P6-G06",
+      "P6-G07"
+    ],
+    "quick": "Both parents should reduce workplace exposures where possible.",
+    "public_noncommercial_or_declared_independent": "Preconception review no declared COI; heat study no funding/COI; NICHD parent trial.",
+    "industry_linked": "No comparable industry-funded subgroup extracted.",
+    "unknown_or_open": "Primary reports and funding pending.",
+    "comparison_limit": "No fixed washout time or child-risk calculator; semen outcomes not live births.",
+    "clinical_review": false
+  },
+  {
+    "topic": "Heat and drinking water",
+    "source_ids": [
+      "P6-41",
+      "P6-47",
+      "P6-48",
+      "P6-G01",
+      "P6-G02",
+      "P6-G08"
+    ],
+    "quick": "Stay cool and test unsafe water sources; not every environmental risk requires a purchase.",
+    "public_noncommercial_or_declared_independent": "Official prevention guidance; epidemiologic results support concern.",
+    "industry_linked": "No comparable sponsor subgroup verified.",
+    "unknown_or_open": "Review funding and exposure scale pending.",
+    "comparison_limit": "No personal threshold or effect calculation; contaminant and location-specific.",
+    "clinical_review": false
+  }
+]

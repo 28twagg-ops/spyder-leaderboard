@@ -1,0 +1,478 @@
+[
+  {
+    "source_id": "P6-01",
+    "funding": "Exact primary grant list not extracted",
+    "financial_ties": "No competing financial interests per indexed publisher text",
+    "verification": "Indexed primary abstract and publisher disclosure",
+    "independence_certified": false
+  },
+  {
+    "source_id": "P6-02",
+    "funding": "CDC",
+    "financial_ties": "Agency guidance, panel/underlying funding separate",
+    "verification": "Official indexed HTML",
+    "independence_certified": false
+  },
+  {
+    "source_id": "P6-03",
+    "funding": "CDC",
+    "financial_ties": null,
+    "verification": "Official indexed HTML",
+    "independence_certified": false
+  },
+  {
+    "source_id": "P6-04",
+    "funding": "CDC",
+    "financial_ties": null,
+    "verification": "Official indexed HTML",
+    "independence_certified": false
+  },
+  {
+    "source_id": "P6-05",
+    "funding": "EPA",
+    "financial_ties": null,
+    "verification": "Official indexed HTML",
+    "independence_certified": false
+  },
+  {
+    "source_id": "P6-06",
+    "funding": "FDA/EPA",
+    "financial_ties": "Panel/underlying trial ties not audited",
+    "verification": "Official HTML/index",
+    "independence_certified": false
+  },
+  {
+    "source_id": "P6-07",
+    "funding": "EPA, NIEHS P01 ES009605/R01 ES015572, NIOSH R01 OH007400 (publisher indexed acknowledgments)",
+    "financial_ties": "Eskenazi disclosed consultation on pesticide exposure case; other authors declared no competing financial interests.",
+    "verification": "Original PubMed abstract, grant and COI; indexed publisher funding",
+    "independence_certified": false
+  },
+  {
+    "source_id": "P6-08",
+    "funding": "EPA R82670901/RD83171001/RD83451301 and NIEHS P01 ES009605",
+    "financial_ties": "Individual disclosures not extracted",
+    "verification": "Indexed primary methods and funding",
+    "independence_certified": false
+  },
+  {
+    "source_id": "P6-09",
+    "funding": "Full disclosure not retrieved",
+    "financial_ties": "Unknown",
+    "verification": "Indexed primary abstract",
+    "independence_certified": false
+  },
+  {
+    "source_id": "P6-10",
+    "funding": "Not verified",
+    "financial_ties": "Unknown",
+    "verification": "Indexed primary abstract",
+    "independence_certified": false
+  },
+  {
+    "source_id": "P6-11",
+    "funding": "NIEHS R21ES021028",
+    "financial_ties": "Full reviewer disclosures and study-level sponsors not extracted",
+    "verification": "Indexed primary PubMed/PMC/publisher results and funding",
+    "independence_certified": false
+  },
+  {
+    "source_id": "P6-12",
+    "funding": "3M contract with Ramboll",
+    "financial_ties": "All authors Ramboll employees compensated via employer; report no 3M role preparing manuscript, sole author control; no direct 3M compensation; not then testifying for sponsors about compound.",
+    "verification": "Original PubMed abstract and conflict disclosure, figures 1–2 captions",
+    "independence_certified": false
+  },
+  {
+    "source_id": "P6-13",
+    "funding": "US EPA authored government work; grant statement not extracted separately",
+    "financial_ties": "No competing interests declared; Dzierlenga also author of P6-12 with then-Ramboll affiliation. Prior dated employment not assumed current tie.",
+    "verification": "Original PubMed abstract, affiliation, COI, figure 1/2 captions",
+    "independence_certified": false
+  },
+  {
+    "source_id": "P6-14",
+    "funding": "EPA affiliations; full funding statement pending",
+    "financial_ties": "Full COI pending",
+    "verification": "Indexed primary PubMed/PMC abstract",
+    "independence_certified": false
+  },
+  {
+    "source_id": "P6-15",
+    "funding": "EPA affiliations; full grant statement pending",
+    "financial_ties": "No competing interests declared in PubMed",
+    "verification": "Indexed primary abstract and COI",
+    "independence_certified": false
+  },
+  {
+    "source_id": "P6-16",
+    "funding": "Not verified",
+    "financial_ties": "Individual disclosures pending",
+    "verification": "Indexed primary JAMA Table 3",
+    "independence_certified": false
+  },
+  {
+    "source_id": "P6-17",
+    "funding": "Full committee funding/disclosure audit pending",
+    "financial_ties": "Unknown",
+    "verification": "Official report HTML chapter",
+    "independence_certified": false
+  },
+  {
+    "source_id": "P6-18",
+    "funding": "ATSDR",
+    "financial_ties": null,
+    "verification": "Official indexed HTML",
+    "independence_certified": false
+  },
+  {
+    "source_id": "P6-19",
+    "funding": "EPA",
+    "financial_ties": null,
+    "verification": "Official indexed HTML",
+    "independence_certified": false
+  },
+  {
+    "source_id": "P6-20",
+    "funding": "EPA",
+    "financial_ties": null,
+    "verification": "Official indexed proposal pages",
+    "independence_certified": false
+  },
+  {
+    "source_id": "P6-21",
+    "funding": "NIH/NIEHS and EPA grants among disclosures; full grant list pending",
+    "financial_ties": "McElrath disclosed NxPrenatal/Mirvie equity and advisory roles/fees from Roche, Momenta, Comanche, Tectonic; Braun plaintiffs' PFAS expert-witness work paid into institutional account, not salary; Cordero outside Medtronic Foundation grant. Relevant direct plastic-industry sponsor not established.",
+    "verification": "Original JAMA disclosure and indexed primary abstract",
+    "independence_certified": false
+  },
+  {
+    "source_id": "P6-22",
+    "funding": "NIH/NIEHS intramural ZIAES103321 partly",
+    "financial_ties": "Braun PFAS litigation disclosure noted in indexed full text; remaining disclosures pending",
+    "verification": "Indexed primary PMC methods/discussion/funding",
+    "independence_certified": false
+  },
+  {
+    "source_id": "P6-23",
+    "funding": "NIH",
+    "financial_ties": "Full COI pending",
+    "verification": "Indexed primary abstract and ECHO overlap from P6-22",
+    "independence_certified": false
+  },
+  {
+    "source_id": "P6-24",
+    "funding": "Funding and COI not extracted from indexed results",
+    "financial_ties": "Unknown",
+    "verification": "Indexed primary article abstract",
+    "independence_certified": false
+  },
+  {
+    "source_id": "P6-25",
+    "funding": "Primary study grant statement not verified",
+    "financial_ties": "Silent Spring Institute and Breast Cancer Fund author affiliations; not certified independent, advocacy context separate",
+    "verification": "Indexed primary abstract and byline",
+    "independence_certified": false
+  },
+  {
+    "source_id": "P6-26",
+    "funding": "University of Washington Center for Ecogenetics and Environmental Health, NIEHS ES007033 (indexed publisher acknowledgments)",
+    "financial_ties": "Full author disclosure pending",
+    "verification": "Indexed primary abstract and funding",
+    "independence_certified": false
+  },
+  {
+    "source_id": "P6-27",
+    "funding": "California Breast Cancer Research Program per state study page https://www.biomonitoring.ca.gov/projects/health-and-environmental-research-make-salinas-adolescents-hermosa-study",
+    "financial_ties": "Full COI and product donations not extracted",
+    "verification": "Indexed primary abstract, official project funding",
+    "independence_certified": false
+  },
+  {
+    "source_id": "P6-28",
+    "funding": "PubMed tags NIH and non-US governmental support; exact grants pending",
+    "financial_ties": "Full COI pending",
+    "verification": "Original PubMed abstract",
+    "independence_certified": false
+  },
+  {
+    "source_id": "P6-29",
+    "funding": "EFSA",
+    "financial_ties": "Panel disclosures and review membership pending",
+    "verification": "Official indexed plain-language assessment",
+    "independence_certified": false
+  },
+  {
+    "source_id": "P6-30",
+    "funding": "FDA",
+    "financial_ties": "Panel and underlying study funding not audited",
+    "verification": "Official indexed HTML",
+    "independence_certified": false
+  },
+  {
+    "source_id": "P6-31",
+    "funding": "NTP/FDA/NIEHS",
+    "financial_ties": "Individual laboratory disclosures not extracted",
+    "verification": "Official report HTML overview",
+    "independence_certified": false
+  },
+  {
+    "source_id": "P6-32",
+    "funding": "Not verified",
+    "financial_ties": "Unknown",
+    "verification": "Indexed primary abstract",
+    "independence_certified": false
+  },
+  {
+    "source_id": "P6-33",
+    "funding": "Enterprise Ireland CF20180870; Science Foundation Ireland 12/RC/2278,16/IA/4462,16/RC/3889; Trinity engineering scholarship; China Scholarship Council awards",
+    "financial_ties": "Full competing-interest text blocked",
+    "verification": "Indexed original publisher abstract and grant statement; direct publisher blocked",
+    "independence_certified": false
+  },
+  {
+    "source_id": "P6-34",
+    "funding": "Full funding statement inaccessible in this pass",
+    "financial_ties": "Unknown",
+    "verification": "Indexed primary abstract; ACS 403",
+    "independence_certified": false
+  },
+  {
+    "source_id": "P6-35",
+    "funding": "Full funding statement not extracted",
+    "financial_ties": "No competing interests declared",
+    "verification": "Original PubMed abstract and COI",
+    "independence_certified": false
+  },
+  {
+    "source_id": "P6-36",
+    "funding": "FDA",
+    "financial_ties": null,
+    "verification": "Official indexed HTML",
+    "independence_certified": false
+  },
+  {
+    "source_id": "P6-37",
+    "funding": "Canadian Institutes of Health Research; Coway discounted modified cleaners",
+    "financial_ties": "Complete author disclosures pending; not commercial-free due in-kind support",
+    "verification": "Indexed original abstract, full-text funding/PM passage; PMC captcha",
+    "independence_certified": false
+  },
+  {
+    "source_id": "P6-38",
+    "funding": "Same cohort funding P6-37; report-specific verification pending",
+    "financial_ties": "Same lineage, full COI pending",
+    "verification": "Indexed primary abstract",
+    "independence_certified": false
+  },
+  {
+    "source_id": "P6-39",
+    "funding": "NIH and Bill & Melinda Gates Foundation",
+    "financial_ties": "Full supplier/individual COI pending",
+    "verification": "Indexed primary PubMed and NEJM HTML result",
+    "independence_certified": false
+  },
+  {
+    "source_id": "P6-40",
+    "funding": "NIH and Bill & Melinda Gates Foundation",
+    "financial_ties": "Full supplier/individual disclosures pending",
+    "verification": "Indexed primary abstract",
+    "independence_certified": false
+  },
+  {
+    "source_id": "P6-41",
+    "funding": "Full grants not retrieved",
+    "financial_ties": "Unknown",
+    "verification": "Indexed primary abstract",
+    "independence_certified": false
+  },
+  {
+    "source_id": "P6-42",
+    "funding": "Grant statement pending",
+    "financial_ties": "No relevant commercial/financial relationships declared",
+    "verification": "Original PubMed abstract, COI and registry",
+    "independence_certified": false
+  },
+  {
+    "source_id": "P6-43",
+    "funding": "Not verified",
+    "financial_ties": "Unknown",
+    "verification": "Indexed primary abstract",
+    "independence_certified": false
+  },
+  {
+    "source_id": "P6-44",
+    "funding": "No external funding sought",
+    "financial_ties": "No conflicts declared",
+    "verification": "Indexed primary abstract and funding/COI",
+    "independence_certified": false
+  },
+  {
+    "source_id": "P6-45",
+    "funding": "Parent trial NICHD intramural contracts HHSN275201200007C/HHSN275201300026I",
+    "financial_ties": "Other author disclosures pending",
+    "verification": "Indexed primary abstract and funding",
+    "independence_certified": false
+  },
+  {
+    "source_id": "P6-46",
+    "funding": "Not verified",
+    "financial_ties": "Unknown",
+    "verification": "Indexed primary abstract",
+    "independence_certified": false
+  },
+  {
+    "source_id": "P6-47",
+    "funding": "Not verified",
+    "financial_ties": "Unknown",
+    "verification": "Indexed primary abstract",
+    "independence_certified": false
+  },
+  {
+    "source_id": "P6-48",
+    "funding": "Not verified",
+    "financial_ties": "Unknown",
+    "verification": "Indexed primary abstract",
+    "independence_certified": false
+  },
+  {
+    "source_id": "P6-G01",
+    "funding": "Government agency",
+    "financial_ties": null,
+    "verification": "Official indexed HTML",
+    "independence_certified": false
+  },
+  {
+    "source_id": "P6-G02",
+    "funding": "Government agency",
+    "financial_ties": null,
+    "verification": "Official indexed HTML",
+    "independence_certified": false
+  },
+  {
+    "source_id": "P6-G03",
+    "funding": "Government agency",
+    "financial_ties": null,
+    "verification": "Official indexed HTML",
+    "independence_certified": false
+  },
+  {
+    "source_id": "P6-G04",
+    "funding": "Government agency",
+    "financial_ties": null,
+    "verification": "Official indexed HTML",
+    "independence_certified": false
+  },
+  {
+    "source_id": "P6-G05",
+    "funding": "Government agency",
+    "financial_ties": null,
+    "verification": "Official indexed HTML",
+    "independence_certified": false
+  },
+  {
+    "source_id": "P6-G06",
+    "funding": "Government agency",
+    "financial_ties": null,
+    "verification": "Official indexed HTML",
+    "independence_certified": false
+  },
+  {
+    "source_id": "P6-G07",
+    "funding": "Government agency",
+    "financial_ties": null,
+    "verification": "Official indexed HTML",
+    "independence_certified": false
+  },
+  {
+    "source_id": "P6-G08",
+    "funding": "Government agency",
+    "financial_ties": null,
+    "verification": "Official indexed HTML",
+    "independence_certified": false
+  },
+  {
+    "source_id": "P6-G09",
+    "funding": "Government agency",
+    "financial_ties": null,
+    "verification": "Official indexed HTML",
+    "independence_certified": false
+  },
+  {
+    "source_id": "P6-G10",
+    "funding": "Government agency",
+    "financial_ties": null,
+    "verification": "Official indexed HTML",
+    "independence_certified": false
+  },
+  {
+    "source_id": "P6-G11",
+    "funding": "Government agency",
+    "financial_ties": null,
+    "verification": "Official indexed HTML",
+    "independence_certified": false
+  },
+  {
+    "source_id": "P6-G12",
+    "funding": "Government agency",
+    "financial_ties": null,
+    "verification": "Official indexed HTML",
+    "independence_certified": false
+  },
+  {
+    "source_id": "P6-G13",
+    "funding": "Government agency",
+    "financial_ties": null,
+    "verification": "Official indexed HTML",
+    "independence_certified": false
+  },
+  {
+    "source_id": "P6-G14",
+    "funding": "Government agency",
+    "financial_ties": null,
+    "verification": "Official indexed HTML",
+    "independence_certified": false
+  },
+  {
+    "source_id": "P6-G15",
+    "funding": "Government agency",
+    "financial_ties": null,
+    "verification": "Official indexed HTML",
+    "independence_certified": false
+  },
+  {
+    "source_id": "P6-G16",
+    "funding": "Government agency",
+    "financial_ties": null,
+    "verification": "Official indexed HTML",
+    "independence_certified": false
+  },
+  {
+    "source_id": "P6-G17",
+    "funding": "Government agency",
+    "financial_ties": null,
+    "verification": "Official indexed HTML",
+    "independence_certified": false
+  },
+  {
+    "source_id": "P6-G18",
+    "funding": "Government agency",
+    "financial_ties": null,
+    "verification": "Official indexed HTML",
+    "independence_certified": false
+  },
+  {
+    "source_id": "P6-G19",
+    "funding": "Government agency",
+    "financial_ties": null,
+    "verification": "Official indexed HTML",
+    "independence_certified": false
+  },
+  {
+    "source_id": "P6-G20",
+    "funding": "Government agency",
+    "financial_ties": null,
+    "verification": "Official indexed HTML",
+    "independence_certified": false
+  }
+]

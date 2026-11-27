@@ -1,0 +1,91 @@
+[
+  {
+    "id": "P6-H01",
+    "source_ids": [
+      "P6-12",
+      "P6-13"
+    ],
+    "rule": "No direct comparison of effect magnitudes between linear and log concentration units; preserve date-specific author affiliations and no fraud inference.",
+    "clinical_review": false
+  },
+  {
+    "id": "P6-H02",
+    "source_ids": [
+      "P6-28",
+      "P6-11"
+    ],
+    "rule": "No historical animal-study funding count as current human harm rate or percent biased.",
+    "clinical_review": false
+  },
+  {
+    "id": "P6-H03",
+    "source_ids": [
+      "P6-33",
+      "P6-G03"
+    ],
+    "rule": "Never change formula ratio, sanitation, hot-water precautions, storage or safe water source because of microplastics; glass optional, breakage hazard.",
+    "clinical_review": false
+  },
+  {
+    "id": "P6-H04",
+    "source_ids": [
+      "P6-16",
+      "P6-18"
+    ],
+    "rule": "Do not alter vaccination or breastfeeding based on PFAS antibody/exposure studies; clinician evaluation.",
+    "clinical_review": false
+  },
+  {
+    "id": "P6-H05",
+    "source_ids": [
+      "P6-35"
+    ],
+    "rule": "Review search end-date differs in PubMed abstract and figure caption; hold coverage date until source verified.",
+    "clinical_review": false
+  },
+  {
+    "id": "P6-H06",
+    "source_ids": [
+      "P6-20"
+    ],
+    "rule": "Do not present 2026 PFAS proposed rules as final or legal limit as no-risk threshold.",
+    "clinical_review": false
+  },
+  {
+    "id": "P6-H07",
+    "source_ids": [
+      "P6-24",
+      "P6-47"
+    ],
+    "rule": "Hold numerical charts with unverified exposure scale or comparison.",
+    "clinical_review": false
+  },
+  {
+    "id": "P6-H08",
+    "source_ids": [
+      "P6-44",
+      "P6-45"
+    ],
+    "rule": "No causal offspring benefit, fertility guarantee, rigid paternal heat washout or epigenetic score from semen markers.",
+    "clinical_review": false
+  },
+  {
+    "id": "P6-H09",
+    "source_ids": [
+      "P6-02",
+      "P6-G02",
+      "P6-G18"
+    ],
+    "rule": "Known lead/nitrate/CO exposure: prioritize safe source and professional/emergency guidance; no home detox or delay.",
+    "clinical_review": false
+  },
+  {
+    "id": "P6-H10",
+    "source_ids": [
+      "P6-27",
+      "P6-25"
+    ],
+    "rule": "Biomarker reductions are not demonstrated clinical benefits; do not rank products by unvalidated toxicity scores.",
+    "clinical_review": false
+  }
+]

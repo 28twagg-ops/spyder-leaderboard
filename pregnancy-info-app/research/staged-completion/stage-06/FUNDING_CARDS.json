@@ -1,0 +1,49 @@
+[
+  {
+    "id": "P6-F01",
+    "source_id": "P6-11",
+    "scope": "39 animal studies of atrazine at review-defined environmentally relevant concentrations, subset of 51",
+    "denominator": 39,
+    "denominator_type": "animal studies",
+    "groups": [
+      {
+        "name": "Industry sponsored",
+        "count": 11
+      },
+      {
+        "name": "Non-industry sponsored",
+        "count": 24
+      },
+      {
+        "name": "No disclosure",
+        "count": 4
+      }
+    ],
+    "interpretation": "Review did not identify differences in reported methodological risk of bias and effect-size sponsorship association was inconclusive; no percent biased; no human outcome inference."
+  },
+  {
+    "id": "P6-F02",
+    "source_id": "P6-28",
+    "scope": "Chemical-industry-funded low-dose BPA animal studies in 2006 narrative review (through July 2005)",
+    "denominator": 11,
+    "denominator_type": "industry-funded studies only",
+    "groups": [
+      {
+        "name": "No statistically significant effects reported",
+        "count": 11
+      }
+    ],
+    "metric": "outcome direction within sponsor subset, NOT funding distribution",
+    "interpretation": "109 significant-effect studies in broader review; nonindustry denominator not verified. Historical animal evidence, not current human safety assessment."
+  },
+  {
+    "id": "P6-F03",
+    "source_ids": [
+      "P6-12",
+      "P6-13"
+    ],
+    "denominator": null,
+    "groups": [],
+    "interpretation": "No sponsor percentage: compare two overlapping reviews, not independent primary trials. 3M contract through Ramboll versus EPA government affiliation; Dzierlenga appears on both with dated affiliations. Both negative birthweight associations; conclusions about timing differ. No direct numeric chart because exposure scales differ."
+  }
+]

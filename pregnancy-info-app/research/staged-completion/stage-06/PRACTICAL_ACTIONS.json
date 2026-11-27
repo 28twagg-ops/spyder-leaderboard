@@ -1,0 +1,192 @@
+[
+  {
+    "id": "P6-A1",
+    "topic": "lead",
+    "priority": "High",
+    "stage": "Before conception through early childhood",
+    "action": "Wet-clean dust; avoid disturbing suspected old lead paint; use lead-safe certified professionals; discuss risk-based testing.",
+    "cost": "Usually low routine cost; professional testing/remediation can be costly",
+    "caution": "Do not sand suspected lead paint or use unreviewed detox products.",
+    "source_ids": [
+      "P6-02",
+      "P6-03"
+    ],
+    "clinical_review": false,
+    "publication_status": "draft"
+  },
+  {
+    "id": "P6-A2",
+    "topic": "drinking water",
+    "priority": "High when risk present",
+    "stage": "All stages",
+    "action": "Check utility report and local alerts; private well lab test; use certified contaminant-specific filtration or verified safe source.",
+    "cost": "Report usually free; tests/filters vary",
+    "caution": "Boiling does not remove lead, nitrate or PFAS. No single filter removes everything; do not use unsafe water for formula.",
+    "source_ids": [
+      "P6-05",
+      "P6-G01",
+      "P6-G02",
+      "P6-19"
+    ],
+    "clinical_review": false,
+    "publication_status": "draft"
+  },
+  {
+    "id": "P6-A3",
+    "topic": "smoke",
+    "priority": "High",
+    "stage": "All stages",
+    "action": "Keep home and car smoke-free; support quitting and avoid secondhand exposure.",
+    "cost": "Low cost; support options vary",
+    "caution": "No shame, no unsupervised abrupt discontinuation of prescribed meds; seek professional support.",
+    "source_ids": [
+      "P6-G13",
+      "P6-G14",
+      "P6-G15"
+    ],
+    "clinical_review": false,
+    "publication_status": "draft"
+  },
+  {
+    "id": "P6-A4",
+    "topic": "fish",
+    "priority": "High",
+    "stage": "Preconception/pregnancy/lactation/child",
+    "action": "Use FDA/EPA lower-mercury choices and local fish advisories.",
+    "cost": "Varies; inexpensive suitable fish possible",
+    "caution": "Do not eliminate all fish due to mercury fears; age-specific guidance.",
+    "source_ids": [
+      "P6-06"
+    ],
+    "clinical_review": false,
+    "publication_status": "draft"
+  },
+  {
+    "id": "P6-A5",
+    "topic": "workplace",
+    "priority": "High when exposed",
+    "stage": "Both parents, preconception through lactation",
+    "action": "Ask occupational health about safer duties and controls; change shoes/clothes before bringing contamination home; employer laundering when appropriate.",
+    "cost": "Often low household cost; employer controls",
+    "caution": "Do not rely on PPE alone or provide job clearance.",
+    "source_ids": [
+      "P6-G04",
+      "P6-G05",
+      "P6-G06",
+      "P6-G07"
+    ],
+    "clinical_review": false,
+    "publication_status": "draft"
+  },
+  {
+    "id": "P6-A6",
+    "topic": "air",
+    "priority": "High when smoke/pollution",
+    "stage": "All stages",
+    "action": "Use outdoor air alerts, source control, appropriate ventilation when outdoor air is safe, properly sized particle filter if needed.",
+    "cost": "Free alerts; filter purchase and maintenance vary",
+    "caution": "Avoid ozone generators; heat safety still matters; no purifier guarantee of fetal benefit.",
+    "source_ids": [
+      "P6-G09",
+      "P6-G10",
+      "P6-G20"
+    ],
+    "clinical_review": false,
+    "publication_status": "draft"
+  },
+  {
+    "id": "P6-A7",
+    "topic": "heat",
+    "priority": "High during heat events",
+    "stage": "Pregnancy/child, paternal fertility",
+    "action": "Plan cooler activities, shade, water and cooling breaks; avoid hot cars.",
+    "cost": "Low routine cost, cooling access varies",
+    "caution": "No infant extra water prescription or fixed heat threshold; symptoms need care.",
+    "source_ids": [
+      "P6-G08",
+      "P6-41",
+      "P6-44"
+    ],
+    "clinical_review": false,
+    "publication_status": "draft"
+  },
+  {
+    "id": "P6-A8",
+    "topic": "packaging",
+    "priority": "Optional low-cost",
+    "stage": "All stages",
+    "action": "Use existing food-safe glass or stainless for suitable storage/heating; do not heat plastics beyond intended use.",
+    "cost": "Use existing items first",
+    "caution": "No replacing all plastic; no infant formula preparation changes, no glass breakage risk.",
+    "source_ids": [
+      "P6-25",
+      "P6-26",
+      "P6-33"
+    ],
+    "clinical_review": false,
+    "publication_status": "draft"
+  },
+  {
+    "id": "P6-A9",
+    "topic": "produce",
+    "priority": "Routine",
+    "stage": "All stages",
+    "action": "Wash under running water, eat diverse fruits and vegetables, organic optional if affordable.",
+    "cost": "Low cost",
+    "caution": "No soap or chemical washing solutions on produce; organic not pesticide-free.",
+    "source_ids": [
+      "P6-G11",
+      "P6-G12",
+      "P6-09",
+      "P6-10"
+    ],
+    "clinical_review": false,
+    "publication_status": "draft"
+  },
+  {
+    "id": "P6-A10",
+    "topic": "personal care",
+    "priority": "Optional",
+    "stage": "All stages",
+    "action": "Simplify product routines; choose fragrance-free when practical and tolerated; no broad product bans.",
+    "cost": "Often cost-neutral",
+    "caution": "Adolescent biomarker evidence indirect; fragrance-free not proof of overall safety; do not stop indicated treatments.",
+    "source_ids": [
+      "P6-27"
+    ],
+    "clinical_review": false,
+    "publication_status": "draft"
+  },
+  {
+    "id": "P6-A11",
+    "topic": "household",
+    "priority": "Routine/high for CO",
+    "stage": "All stages",
+    "action": "Fix leaks and moisture, clean safely, maintain CO alarms and test radon when appropriate.",
+    "cost": "Variable; prioritize source fixes",
+    "caution": "Never mix cleaners; alarm or suspected CO exposure exit and emergency response; no home mold toxin diagnosis.",
+    "source_ids": [
+      "P6-G16",
+      "P6-G17",
+      "P6-G18",
+      "P6-G19"
+    ],
+    "clinical_review": false,
+    "publication_status": "draft"
+  },
+  {
+    "id": "P6-A12",
+    "topic": "PFAS",
+    "priority": "Targeted",
+    "stage": "All stages",
+    "action": "Investigate known water contamination first; verify certification for exact filter model and maintain it.",
+    "cost": "Cost depends on source and test results",
+    "caution": "No routine blood test, donation or detox recommendation; no automatic breastfeeding cessation.",
+    "source_ids": [
+      "P6-18",
+      "P6-19"
+    ],
+    "clinical_review": false,
+    "publication_status": "draft"
+  }
+]

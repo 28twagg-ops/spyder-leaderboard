@@ -1,0 +1,128 @@
+[
+  {
+    "id": "P6-V1",
+    "title": "Lead in drinking water infographic",
+    "url": "https://www.epa.gov/ground-water-and-drinking-water/basic-information-about-lead-drinking-water",
+    "notes": "Official page links infographic; exact image, credit and reuse pending.",
+    "redistribution_cleared": false,
+    "clinical_review": false,
+    "status": "source link; no asset copied"
+  },
+  {
+    "id": "P6-V2",
+    "title": "Lead prevention educational materials",
+    "url": "https://www.cdc.gov/lead-prevention/prevention/index.html",
+    "notes": "Original official resource; locate exact images before reuse.",
+    "redistribution_cleared": false,
+    "clinical_review": false,
+    "status": "source link; no asset copied"
+  },
+  {
+    "id": "P6-V3",
+    "title": "FDA/EPA fish choice chart",
+    "url": "https://www.fda.gov/food/consumers/advice-about-eating-fish",
+    "notes": "Existing categorized chart; pregnancy/lactation and child portions; prior P5 visual link.",
+    "redistribution_cleared": false,
+    "clinical_review": false,
+    "status": "source link; no asset copied"
+  },
+  {
+    "id": "P6-V4",
+    "title": "PFOS 2025 forest plot and funnel plot",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/40847085/",
+    "notes": "Figures 1–2 captions verified; US government work per copyright notice; verify third-party material and international rights.",
+    "redistribution_cleared": false,
+    "clinical_review": false,
+    "status": "source link; no asset copied"
+  },
+  {
+    "id": "P6-V5",
+    "title": "PFOS 2020 forest plots",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/33778349/",
+    "notes": "Figures 1–2 captions verified; separate units; article rights and figure assets not cleared.",
+    "redistribution_cleared": false,
+    "clinical_review": false,
+    "status": "source link; no asset copied"
+  },
+  {
+    "id": "P6-V6",
+    "title": "CHAMACOS prenatal pesticide IQ graph",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/21507776/",
+    "notes": "Figure 1 caption verified; no personal IQ prediction; individual credits/reuse pending.",
+    "redistribution_cleared": false,
+    "clinical_review": false,
+    "status": "source link; no asset copied"
+  },
+  {
+    "id": "P6-V7",
+    "title": "NIOSH take-home exposure educational materials",
+    "url": "https://www.cdc.gov/niosh/reproductive-health/about/take-home.html",
+    "notes": "Original booklet linked on page; no PDF analyzed; exact credits pending.",
+    "redistribution_cleared": false,
+    "clinical_review": false,
+    "status": "source link; no asset copied"
+  },
+  {
+    "id": "P6-V8",
+    "title": "Air cleaning and room setup",
+    "url": "https://www.epa.gov/wildfires/how-create-cleaner-air-room-home",
+    "notes": "Existing official illustrations; verify exact assets and safety context.",
+    "redistribution_cleared": false,
+    "clinical_review": false,
+    "status": "source link; no asset copied"
+  },
+  {
+    "id": "P6-V9",
+    "title": "EPA filter selection",
+    "url": "https://www.epa.gov/cleanups/reducing-pfas-your-drinking-water-home-filter",
+    "notes": "Official guide; use filter type illustrations if permitted; certification caveats.",
+    "redistribution_cleared": false,
+    "clinical_review": false,
+    "status": "source link; no asset copied"
+  },
+  {
+    "id": "P6-V10",
+    "title": "CDC heat and pregnancy",
+    "url": "https://www.cdc.gov/heat-health/risk-factors/heat-and-pregnancy.html",
+    "notes": "Official education; actual visual/credits check pending.",
+    "redistribution_cleared": false,
+    "clinical_review": false,
+    "status": "source link; no asset copied"
+  },
+  {
+    "id": "P6-V11",
+    "title": "Infant formula preparation",
+    "url": "https://www.cdc.gov/infant-toddler-nutrition/formula-feeding/preparation-and-storage.html",
+    "notes": "Current original guide; use exact age-specific sanitation information; prior pediatric source.",
+    "redistribution_cleared": false,
+    "clinical_review": false,
+    "status": "source link; no asset copied"
+  },
+  {
+    "id": "P6-V12",
+    "title": "Preconception review exposure categories",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/41480069/",
+    "notes": "Figure 1 categories and Figure 3 risk-of-bias captions verified; rights pending.",
+    "redistribution_cleared": false,
+    "clinical_review": false,
+    "status": "source link; no asset copied"
+  },
+  {
+    "id": "P6-V13",
+    "title": "EPA mold and moisture illustrations",
+    "url": "https://www.epa.gov/mold/brief-guide-mold-moisture-and-your-home",
+    "notes": "Official page; locate actual illustrations and reuse terms.",
+    "redistribution_cleared": false,
+    "clinical_review": false,
+    "status": "source link; no asset copied"
+  },
+  {
+    "id": "P6-V14",
+    "title": "OpenStax placental anatomy",
+    "url": "https://openstax.org/books/anatomy-and-physiology-2e/pages/28-3-fetal-development",
+    "notes": "Inherited textbook source lead; anatomical context, no depiction of unverified chemical pathways; CC BY-NC-SA edition restrictions.",
+    "redistribution_cleared": false,
+    "clinical_review": false,
+    "status": "source link; no asset copied"
+  }
+]
