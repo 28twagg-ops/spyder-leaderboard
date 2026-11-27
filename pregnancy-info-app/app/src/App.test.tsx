@@ -23,7 +23,7 @@ describe('Everwell shell', () => {
     expect(screen.getByText(/Choose a calmer theme/i)).toBeInTheDocument()
     expect(screen.getByText(/52 articles/i)).toBeInTheDocument()
     expect(screen.getByRole('navigation', { name: 'Primary' })).toBeInTheDocument()
-    expect(screen.getByRole('link', { name: 'Evidence', exact: true })).toHaveAttribute('href', '/evidence')
+    expect(screen.getByRole('link', { name: /^Evidence$/ })).toHaveAttribute('href', '/evidence')
     expect(screen.getByLabelText('Optional reading phase')).toHaveValue('')
   })
 

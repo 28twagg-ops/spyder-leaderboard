@@ -2,13 +2,13 @@ import { useState } from 'react'
 import { mayPublishVisual, safeVisualUrl, type VisualRecord } from '../data/visualCatalog'
 
 const localPreviews: Record<string, string> = import.meta.env.DEV ? {
-  'EV-SVG-1': new URL('../assets/visual-review/skin-normal.svg', import.meta.url).href,
-  'EV-SVG-2': new URL('../assets/visual-review/brain.svg', import.meta.url).href,
-  'EV-SVG-3': new URL('../assets/visual-review/heart-chambers.svg', import.meta.url).href,
-  'EV-SVG-4': new URL('../assets/visual-review/intestine.svg', import.meta.url).href,
-  'EV-SVG-5': new URL('../assets/visual-review/stomach.svg', import.meta.url).href,
-  'EV-SVG-6': new URL('../assets/visual-review/lung.svg', import.meta.url).href,
-  'EV-SVG-7': new URL('../assets/visual-review/pyramidal-neuron.svg', import.meta.url).href,
+  'EV-SVG-1': '/src/assets/visual-review/skin-normal.svg',
+  'EV-SVG-2': '/src/assets/visual-review/brain.svg',
+  'EV-SVG-3': '/src/assets/visual-review/heart-chambers.svg',
+  'EV-SVG-4': '/src/assets/visual-review/intestine.svg',
+  'EV-SVG-5': '/src/assets/visual-review/stomach.svg',
+  'EV-SVG-6': '/src/assets/visual-review/lung.svg',
+  'EV-SVG-7': '/src/assets/visual-review/pyramidal-neuron.svg',
 } : {}
 
 export function VisualCard({ record }: { record: VisualRecord }) {
