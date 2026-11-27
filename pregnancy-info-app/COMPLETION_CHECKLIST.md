@@ -108,3 +108,5 @@ Evidence: prior preview 8b51b5f76a0d4624cf2c1879021c52da98f82de1; preference/sea
 - [ ] Correct Workbox NetworkOnly configuration after first update candidate passed 396 tests but failed production worker generation; preserve offline fallback. Re-run full deployment. Add local-only feature preference weights, must-have filters and method explanations; health, pain and cost remain unscored review priorities. Test physical iPhone and owner acceptance separately.
 
 - [ ] Live preference top-three display with shared ranks, cutoff tie disclosure, instant recalculation and method deep links. No ranks before comparable weights are selected; medical outcomes remain unscored. Deployment and physical device acceptance pending.
+
+- [ ] Compact landing-page preference panel: eight primary 0–5 sliders with live top-three matches and optional expandable details; physical health, placement pain and upfront cost use explicit limited feature proxies, mental health remains review-only. No clinical recommendation. Automated build and actual device review pending.

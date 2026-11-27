@@ -79,12 +79,8 @@ function ResearchDashboard(){
 }
 function Overview(){
  return <div className="bc-page stack-lg"><ScreenHeading title="Birth control & family planning" subtitle="Preparing for pregnancy" back="/timeline/preconception" historyBack/>
- <section className="bc-intro"><h2>What matters to you?</h2><p>Compare pregnancy prevention, hormone exposure, comfort and the return to fertility.</p><div className="bc-quick-compare">
- <Link to={path('method-copper-iud')}><small>No added hormones</small><strong>Copper IUD</strong><span>0.8% first-year pregnancy estimate</span></Link>
- <Link to={path('method-hormonal-iud')}><small>Lower systemic LNG</small><strong>Hormonal IUD</strong><span>0.1–0.4% · not hormone-free</span></Link>
- <Link to={path('decision-guide')}><small>No placement</small><strong>Barriers &amp; pills</strong><span>Explore the trade-offs</span></Link>
- </div><p className="bc-subtle">These are examples for different priorities, not an overall medical ranking. <SourceLinks ids={['CT-01','CT-02','CT-06']}/></p></section>
- <button type="button" className="bc-more" onClick={()=>document.getElementById("bc-research-comparisons")?.scrollIntoView({block:"start"})}>Jump to comparison graphs <span aria-hidden="true">↓</span></button><ReadingRow to={path("personal-preferences")} title="Find methods that match your priorities" subtitle="Set importance, compare features and understand trade-offs"/><MethodDirectory/><ResearchDashboard/>
+ <ContraceptionPreferences/>
+ <button type="button" className="bc-more" onClick={()=>document.getElementById("bc-research-comparisons")?.scrollIntoView({block:"start"})}>Jump to comparison graphs <span aria-hidden="true">↓</span></button><MethodDirectory/><ResearchDashboard/>
  <section className="bc-section"><div className="bc-heading"><h2>Read more</h2></div><div className="surface-list">{['decision-guide','after-conception','sexual-health','side-effects','emergency-postpartum'].map(id=>{const s=sections.find(x=>x.id===id)!;return <ReadingRow key={id} to={path(id)} title={s.title} subtitle={s.summary}/>})}<ReadingRow to="/explore/prep" title="More preparation for pregnancy"/></div></section>
  <References ids={sources.map(s=>s.id)}/><p className="small-copy muted">Source-linked educational research. Full independent and qualified clinical review pending.</p></div>
 }
