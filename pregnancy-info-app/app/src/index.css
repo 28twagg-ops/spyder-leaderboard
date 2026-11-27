@@ -143,7 +143,7 @@
   --radius: 20px;
   --safe-bottom: env(safe-area-inset-bottom, 0px);
   --safe-top: env(safe-area-inset-top, 0px);
-  --nav-h: 72px;
+  --nav-h: 4.75rem;
   font-family: var(--font-body);
   font-synthesis: none;
   text-rendering: optimizeLegibility;
@@ -513,7 +513,7 @@ img {
 [data-theme='quiet-rose'] { --warn: #77502d; --danger: #874141; }
 
 html { scroll-padding-bottom: calc(var(--nav-h) + var(--safe-bottom) + 1rem); }
-body { line-height: 1.55; }
+body { line-height: 1.55; overflow-wrap: anywhere; }
 .stack, .stack-lg, .panel, .topic-grid, .phase-item { min-width: 0; }
 p, h1, h2, h3, label, figcaption, a { overflow-wrap: anywhere; }
 .page-title, .section-title, .region-title { margin: 0; font-family: var(--font-display); line-height: 1.22; }
@@ -569,4 +569,10 @@ textarea { resize: vertical; }
   .hero { padding: 2rem; }
   .hero-botanical { width: 220px; }
   .bottom-nav-inner { max-width: 900px; }
+}
+
+.page-controls { display: grid; grid-template-columns: auto minmax(3.5rem, 1fr) auto; gap: .5rem; align-items: center; }
+.page-controls .btn { padding-inline: .4rem; min-width: 0; overflow-wrap: anywhere; }
+@media (max-width: 24rem) {
+  .page-controls { grid-template-columns: repeat(3, minmax(0, 1fr)); }
 }

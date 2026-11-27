@@ -13,7 +13,7 @@ export function InstallPage() {
           HTTPS + real-device checks pass.
         </p>
       </header>
-      <DraftBanner />
+      <DraftBanner status="research_only" />
       <section className="panel install-help stack">
         <h2 style={{ margin: 0, fontSize: '1.1rem' }}>iPhone Safari</h2>
         <ol>

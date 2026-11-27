@@ -170,7 +170,7 @@ export function featuredForPhase(phase: TimelinePhase): ResearchArticle[] {
 }
 
 export function urgentArticles(): ResearchArticle[] {
-  return articles.filter((a) => a.priority === 'urgent' || a.high_risk)
+  return articles.filter((a) => a.priority === 'urgent')
 }
 
 export function articleBundle(articleId: string) {

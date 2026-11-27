@@ -1,72 +1,84 @@
 {
-  "synced_at": "2026-11-27T12:09:12.038Z",
+  "synced_at": "2026-11-27T12:48:36.166Z",
   "integration_mode": "research_draft_navigation",
   "clinical_publication": false,
   "archived_ai_conclusions_are_guidance": false,
   "chart_publication": false,
   "files": [
     {
+      "source": "staged-completion/stage-08/ASSET_CATALOG.json",
+      "output": "visual_catalog.json",
+      "bytes": 45739,
+      "records": 44
+    },
+    {
       "source": "staged-completion/stage-09/ARTICLES.json",
       "output": "articles.json",
-      "bytes": 82804,
+      "bytes": 80585,
       "records": 52
     },
     {
       "source": "staged-completion/stage-09/ACTIONS.json",
       "output": "actions.json",
-      "bytes": 47022,
+      "bytes": 45869,
       "records": 52
     },
     {
       "source": "staged-completion/stage-09/FAQ.json",
       "output": "faq.json",
-      "bytes": 27300,
+      "bytes": 26459,
       "records": 52
     },
     {
       "source": "staged-completion/stage-09/TIMELINE.json",
       "output": "timeline.json",
-      "bytes": 31334,
+      "bytes": 30199,
       "records": 28
     },
     {
       "source": "staged-completion/stage-09/GESTATIONAL_WEEKS.json",
       "output": "gestational_weeks.json",
-      "bytes": 20429,
+      "bytes": 19907,
       "records": 40
     },
     {
       "source": "staged-completion/stage-09/SOURCE_LINKS.json",
       "output": "source_links.json",
-      "bytes": 112714,
+      "bytes": 110500,
       "records": 217
     },
     {
       "source": "staged-completion/stage-09/ROUTINES.json",
       "output": "routines.json",
-      "bytes": 5079,
+      "bytes": 4858,
       "records": 9
     },
     {
       "source": "staged-completion/stage-10/PUBLICATION_GATE.json",
       "output": "publication_gate.json",
-      "bytes": 23539
+      "bytes": 22991
     },
     {
       "source": "staged-completion/stage-10/CONSOLIDATED_IMPORT.json",
       "output": "consolidated_import.json",
-      "bytes": 58180
+      "bytes": 56496
+    },
+    {
+      "source": "staged-completion/stage-10/SOURCE_INDEX.jsonl",
+      "output": "source_index.json",
+      "bytes": 409436,
+      "records": 770
     },
     {
       "source": "staged-completion/stage-10/OUTCOMES.jsonl",
       "output": "outcomes.json",
-      "bytes": 298417,
+      "bytes": 298106,
       "records": 311
     },
     {
       "source": "staged-completion/stage-10/NUTRIENTS.jsonl",
       "output": "nutrients.json",
-      "bytes": 286881,
+      "bytes": 286478,
       "records": 403
     }
   ]

@@ -47,9 +47,9 @@ function PageControls({ page, pages, first, last, total, setPage }: {
   return (
     <div className="stack">
       <p className="muted" role="status">Showing {first}–{last} of {total} records · Page {page} of {pages}</p>
-      <div style={{ display: 'flex', flexWrap: 'wrap', gap: '0.5rem' }}>
+      <div className="page-controls">
         <button type="button" className="btn btn-ghost" disabled={page === 1} onClick={() => setPage(page - 1)}>Previous</button>
-        <label htmlFor="evidence-page">Page</label>
+        <label className="visually-hidden" htmlFor="evidence-page">Page</label>
         <select id="evidence-page" value={page} onChange={(event) => setPage(Number(event.target.value))} style={{ minHeight: 44 }}>
           {Array.from({ length: pages }, (_, index) => <option key={index + 1} value={index + 1}>{index + 1}</option>)}
         </select>

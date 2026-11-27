@@ -19,7 +19,7 @@ export function TodayPage() {
     timeline.find((p) => p.id === prefs.selectedPhaseId) ??
     null
   const featured = startingPhase ? featuredForPhase(startingPhase).slice(0, 3) : []
-  const urgent = urgentArticles().slice(0, 2)
+  const urgent = urgentArticles()
 
   return (
     <div className="stack-lg">
@@ -60,7 +60,7 @@ export function TodayPage() {
           </p>
           <p className="muted" style={{ margin: '0.45rem 0 0', fontSize: '0.85rem' }}>
             Inventory loaded: {stats.articles} articles · {stats.phases} phases ·{' '}
-            {stats.sourceLinks} sources
+            {stats.sourceLinks} source links
           </p>
         </div>
         <div className="stack">
