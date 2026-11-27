@@ -1,4 +1,4 @@
-import { cleanup, fireEvent, render,screen } from '@testing-library/react'
+import { cleanup, fireEvent, render,screen,within } from '@testing-library/react'
 import { afterEach,describe,expect,it } from 'vitest'
 import { MemoryRouter } from 'react-router-dom'
 import App from '../App'
@@ -23,10 +23,12 @@ describe('visual-first research reading',()=>{
  })
  it.each(articles.filter(a=>a.priority==='urgent'||a.high_risk).map(a=>[a.id,a.visible_safety,a.priority,a.learn_more]))('retains the exact prominent safety note for %s',(id,safety,priority,learnMore)=>{
   render(<MemoryRouter initialEntries={['/research/'+id]}><App/></MemoryRouter>)
-  const note=screen.getByText(safety,{exact:true})
+  const safetyPanel=document.querySelector<HTMLElement>('.safety-panel')!
+  expect(safetyPanel).toBeVisible()
+  const note=within(safetyPanel).getByText(safety,{exact:true})
   const overview=screen.getByRole('heading',{name:'Why it matters'})
   expect(note).toBeVisible()
   expect(note.compareDocumentPosition(overview)&Node.DOCUMENT_POSITION_FOLLOWING).toBeTruthy()
-  if(priority==='urgent')expect(screen.getAllByText(learnMore,{exact:true}).some(el=>el.classList.contains('urgent-reading-note'))).toBe(true)
+  if(priority==='urgent')expect(within(safetyPanel).getByText(learnMore,{exact:true})).toBeVisible()
  })
 })
