@@ -1,5 +1,6 @@
 import { lazy, Suspense } from 'react'
 import { Navigate, Route, Routes } from 'react-router-dom'
+import { LocalPrefsProvider } from './hooks/useLocalPrefs'
 import { BottomNav } from './components/BottomNav'
 import { ExplorePage } from './pages/ExplorePage'
 import { InstallPage } from './pages/InstallPage'
@@ -15,6 +16,7 @@ const EvidencePage = lazy(async () => {
 
 export default function App() {
   return (
+    <LocalPrefsProvider>
     <div className="app-shell">
       <a className="visually-hidden" href="#main">
         Skip to content
@@ -36,5 +38,6 @@ export default function App() {
       </main>
       <BottomNav />
     </div>
+    </LocalPrefsProvider>
   )
 }
