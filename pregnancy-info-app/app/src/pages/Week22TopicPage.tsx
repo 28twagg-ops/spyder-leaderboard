@@ -12,6 +12,49 @@ import {sourceAliasHeld} from '../data/skinTopicMap'
 import {getVisual} from '../data/visualCatalog'
 import {week22Topics} from '../data/week22TopicMap'
 const base='/timeline/week/22'
+
+// Editorial explanations of the existing topic map and draft research, not new clinical guidance.
+const topicReading:Record<string,string>={
+ 'mother/movement/activity':'Activity studies ask about different outcomes, including maternal fitness, comfort and pregnancy outcomes. A study of a short exercise session cannot establish that every activity is suitable for every pregnancy.',
+ 'mother/movement/pain':'Pelvic girdle pain and ordinary exercise research are not interchangeable. The related physical therapy literature considers pain and function rather than simply measuring strength.',
+ 'mother/movement/baby-movement':'Learning about typical fetal development is different from assessing a change in your own baby’s movements. The warning-sign advice takes priority over any general description of this week.',
+ 'mother/movement/mood':'Research connects activity, sleep and mental wellbeing in several ways. An association or change in a symptom score does not establish that exercise can replace mental health care.',
+ 'mother/digestion/nausea':'Research on nausea compares symptom scores, vomiting and other outcomes. The comparison below concerns average nausea scores, not a prescription or proof that two remedies work equally well.',
+ 'mother/digestion/food-safety':'Food safety and nutrition answer complementary questions: how food supports health and how illness from food can be avoided. The linked reading keeps those questions together.',
+ 'mother/digestion/gut-health':'Probiotic research is specific to the organisms, preparations and populations studied. Findings about one preparation should not be generalized to all products or all pregnancy outcomes.',
+ 'mother/nutrition/food':'Food and prenatal supplements have different roles. An adequate nutrient intake is not the same as a supplement dose; the original nutrition reading covers that distinction.',
+ 'mother/nutrition/supplements':'A label describes what a product is intended to contain. Product testing asks whether that description matches the contents, while clinical trials ask whether an intervention improves health.',
+ 'mother/nutrition/omega-3':'A trial of birth timing answers a different question from a study of later child learning. The result below is one example of pregnancy-outcome evidence, not a universal conclusion about fish or DHA.',
+ 'mother/nutrition/brain-nutrients':'A nutrient can be important for normal development without evidence that taking extra amounts improves cognitive performance. The archived research distinguishes those questions.',
+ 'mother/nutrition/minerals':'Iron, calcium and vitamin D have different functions and evidence bases. Research on one nutrient cannot be transferred to another; clinical needs and existing care remain individual.',
+ 'mother/body/core':'Abdominal wall changes during pregnancy and recovery after birth are different stages. Postpartum exercise results do not establish a pregnancy exercise prescription.',
+ 'mother/body/pelvic-floor':'Pelvic floor research considers strength, relaxation, pain and function. The right kind of assessment depends on symptoms rather than assuming every person needs more strengthening.',
+ 'mother/body/breasts':'Pregnancy itself brings breast changes. Studies of appearance should be interpreted separately from feeding decisions and infant health, without pressure to preserve a particular appearance.',
+ 'mother/body/circulation':'Studies of circulation and compression garments may measure different symptoms or physical outcomes. A symptom improvement is not proof that all vein changes can be prevented.',
+ 'mother/body/birth-preparation':'Birth preparation includes preferences, support and clinical care. The linked research is a chance to read ahead, not a deadline to begin a procedure at week 22.',
+ 'mother/checkups/prenatal':'Screening is designed to identify when further assessment may be useful; it is not necessarily a diagnosis. Prenatal visits also provide an opportunity to discuss individual questions.',
+ 'mother/checkups/urgent':'Warning signs are not a research reading task. Use the urgent-help information rather than waiting to compare studies or a scheduled appointment.',
+ 'mother/checkups/home-work':'Exposure research distinguishes known hazards from speculative product claims. The home and work reading considers sources of exposure and the limits of evidence for particular precautions.',
+ 'mother/checkups/plastics-water':'Measuring a chemical in water or tissue is different from establishing its effect on health. The research distinguishes exposure reduction, clinical outcomes and uncertainties.',
+ 'mother/checkups/air-heat':'Air quality, heat and food exposure are separate environmental topics. Studies of changes in measured exposure are not automatically studies of improved child health.',
+ 'baby/skin/lanugo':'Lanugo is the term for fine fetal body hair. The development reference describes it as one part of the broader changes taking place in the skin, rather than an individual milestone to check at home.',
+ 'baby/skin/skin-development':'Skin structure and the timing of fetal development are different questions. The original anatomy reference helps explain the layers; it is not an image of an individual baby at week 22.',
+ 'baby/movement/muscles':'The developing body and movement are related, but a weekly development description is not a measure of strength or a target for exercise. The skeletal illustration is a general reference.',
+ 'baby/movement/patterns':'Movement development and the movements a pregnant person notices are connected topics. A general description cannot determine whether an individual change is reassuring.',
+ 'baby/movement/maternal-activity':'Research on maternal activity may assess pregnancy outcomes or later development. It does not provide a way to determine an individual baby’s response to a specific exercise session.',
+ 'baby/digestion/meconium':'Meconium is the name for the material that forms in the fetal intestinal tract and becomes the first stool. This is a description of development before birth, not a feeding milestone.',
+ 'baby/digestion/nutrition-connection':'Before birth, nutrition is linked to placental exchange rather than meals in the usual sense. The placenta reading explains that connection; the maternal nutrition reading covers the other side.',
+ 'baby/placenta/exchange':'The placenta and umbilical connection are part of the exchange system between mother and baby. The original illustration and circulation reading show related aspects of that system.',
+ 'baby/placenta/circulation':'The original fetal circulation diagram describes how blood travels through the developing circulation. It is a general anatomy reference, not an individual ultrasound or assessment.',
+ 'baby/placenta/exposures':'Detection of a substance in placental tissue does not establish the size or nature of a health effect. Exposure studies and clinical outcome studies need to be interpreted separately.',
+ 'baby/senses/hearing':'Hearing develops over overlapping stages. General development references describe the process, while sound-exposure studies ask narrower questions about measurable responses.',
+ 'baby/senses/voice-music':'A measurable brain response to a familiar sound is not the same outcome as improved intelligence. The study example illustrates that distinction without prescribing a sound-training routine.',
+ 'baby/senses/brain-nutrients':'Research on nutrition and brain development ranges from essential nutrient needs to studies of later learning. Those are different questions; a positive result on one task is not an IQ guarantee.',
+ 'baby/growth/anatomy':'Different body systems develop together across pregnancy. The reference illustrations help explain anatomy and are not an exact picture or measurement of every baby at week 22.',
+ 'baby/growth/growth-research':'Birth timing, birth size and later development are different outcomes. A trial that reports one of them cannot automatically establish a benefit for the others.',
+ 'baby/growth/screening':'A reference timeline describes broad developmental patterns. An individual growth assessment uses clinical information and cannot be replaced by a weekly illustration.'
+}
+
 function StudyComparison({id}:{id:string}){
  if(id==='omega-3'||id==='growth-research'){
   const row=outcomes.find(x=>x.id==='P5-E13')
@@ -40,9 +83,10 @@ export function Week22TopicPage(){
  <div className="pilot-visual"><TopicArt subject={t.subject==='mother'?'mother':'baby'} topic={t.id}/></div>
  <p className="skin-lede">{c?.summary??t.summary} <Footnote id={t.source_id} n={1}/></p><small className="muted">Concept illustration · Research draft</small>
  {!c?<><h2 className="section-title">Read about it</h2><div className="ref-rows">{t.children.map((item,index)=><EditorialReadingRow key={item.id} index={index} to={path+'/'+item.id} title={item.title} subtitle={item.summary}/>)}</div>{t.subject==='baby'&&<details className="panel disclosure"><summary>Original week description</summary><p>{week?.description}</p><p>{week?.interpretation}</p><Footnote id="PED-GESTATION" n={1}/></details>}</>:<>
+ {topicReading[readingId]&&<p className="skin-lede">{topicReading[readingId]}</p>}
  <StudyComparison id={c.id}/>
  {c.note&&<p className="skin-lede">{c.note}</p>}
- <WeekDisclosure id={readingId+'/read'} title="Read the full explanation"><p className="small-copy muted">Plain-language research drafts · medical review pending</p>{c.article_ids.map((id,index)=>{const a=getArticle(id);const plain=plainReading(id);return a?<section key={id} className="research-group"><h3>{a.title}</h3><p>{plain?.detail??a.quick_answer}</p><p className="small-copy muted">{a.visible_safety}</p><p className="small-copy muted">Related archive references: {a.source_ids.map((id,i)=><Footnote key={id} id={id} n={i+1}/>)}</p><EditorialReadingRow index={index} to={'/research/'+id} title="Full research, FAQs & sources" subtitle={a.title}/></section>:null})}</WeekDisclosure>
+ <WeekDisclosure id={readingId+'/read'} title="Read the full explanation"><p className="small-copy muted">Plain-language research drafts · medical review pending</p>{c.article_ids.map((id,index)=>{const a=getArticle(id);const plain=plainReading(id);return a?<section key={id} className="research-group"><h3>{a.title}</h3><p>{plain?.detail??a.quick_answer}</p><p className="small-copy muted">{a.visible_safety}</p><p className="small-copy muted">Related archive references: {a.source_ids.map((id,i)=><Footnote key={id} id={id} n={i+1}/>)}</p><EditorialReadingRow index={index} to={'/research/'+id} title="Read the broader research article" subtitle={a.title+' · opens library article'}/></section>:null})}</WeekDisclosure>
  <WeekDisclosure id={readingId+'/sources'} title="Studies & references"><SourceDisclosure ids={c.source_ids}/><NumericRecords ids={c.outcome_ids}/>{c.visual_ids.length>0&&<section className="research-group"><h3>Original illustrations</h3>{c.visual_ids.map(id=><ReadingRow key={id} to={'/visuals/'+id} title={getVisual(id)?.title??id} subtitle="Original reference · review pending"/>)}</section>}</WeekDisclosure><WeekConnections id={readingId}/>{t.children.length>1&&<WeekDisclosure id={readingId+'/related'} title={'More about '+t.title.toLowerCase()}><div className="ref-rows">{t.children.filter(item=>item.id!==c.id).map((item,index)=><EditorialReadingRow key={item.id} index={index} to={path+'/'+item.id} title={item.title}/>)}</div></WeekDisclosure>}
  </>}
  <div className="pilot-safety"><strong>Safety comes first</strong><p>Contact your maternity care team immediately if usual baby movements slow, stop or change. Urgent signs override routine reading.</p><Link to="/urgent">Know the warning signs ›</Link></div><DraftBanner status="research_only"/>
