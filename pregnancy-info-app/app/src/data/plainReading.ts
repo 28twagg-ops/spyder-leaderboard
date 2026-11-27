@@ -5,7 +5,7 @@ const rows:[string,string][]=[
     "Planning can be a chance to talk with your doctor about health, medicines, teeth and vaccines. Both partners can discuss smoke and risks at work. Some health needs take time to manage. Research has not shown that everyone needs a three-year plan."
   ],
   [
-    "Ask your care team about higher-risk doses. This app does not say to swap folic acid for methylfolate or set a dose.",
+    "Ask your care team about higher-risk doses. This app does not say to replace folic acid with methylfolate or set a dose.",
     "Folic acid is a form of vitamin B9. US guidance covers the time before and early in pregnancy. Food folate and folic acid on a label are not the same amount. Common MTHFR gene changes do not erase the evidence for folic acid."
   ],
   [
@@ -65,7 +65,7 @@ const rows:[string,string][]=[
     "Walking and strength training are topics for a care plan. Studies of trained athletes do not clear everyone to lift heavy weights. Symptoms and health needs change what is right for each person."
   ],
   [
-    "Get care soon if you cannot keep fluids down or have signs of dehydration. No experimental herb doses.",
+    "Get medical care promptly if you cannot keep fluids down or have signs of dehydration. No experimental herb doses.",
     "Ginger studies show more support for nausea than vomiting. Some studies have weak methods. A later review had no outside grant but low confidence in its results. Food is not the same as a strong supplement."
   ],
   [
@@ -125,7 +125,7 @@ const rows:[string,string][]=[
     "Collagen research is mixed and indirect. Silicone may help some healed scars. Light treatment results vary. FDA reports include serious injuries from RF microneedling. Looks do not measure healing."
   ],
   [
-    "Never add extra water to formula or make it at home. Do not put off needed feeding or shame parents.",
+    "Never water down formula or use homemade formula recipes. Do not put off needed feeding or shame parents.",
     "Breast milk contains nutrients and immune factors that change over time. Studies show some benefits, but other differences between families can affect long-term brain results. Regulated formula is an important safe option when made correctly. Formula marketing research has strong industry ties."
   ],
   [
@@ -181,7 +181,7 @@ const rows:[string,string][]=[
     "Many screen studies observe families rather than assign screen use. Background TV and some types of viewing are linked with less favorable results. Watching together differs from watching alone. Learning more than one language does not itself cause a language disorder."
   ],
   [
-    "No food before four months, cereal in bottles or honey before age one. Ask the care team about swallowing problems.",
+    "No solid foods before four months, cereal in bottles or honey before age one. Ask the care team about swallowing problems.",
     "Readiness, food texture and swallowing matter. Breast milk or formula stays central through the first year. The draft discusses varied foods with iron and safe textures. No spoon or baby-led approach can promise better results."
   ],
   [
