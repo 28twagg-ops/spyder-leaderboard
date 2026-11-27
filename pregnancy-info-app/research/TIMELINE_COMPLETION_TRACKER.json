@@ -7,7 +7,7 @@
     "tracker": "research/TIMELINE_COMPLETION_TRACKER.md",
     "base_week_data": "research/staged-completion/stage-09/GESTATIONAL_WEEKS.json",
     "base_phase_data": "research/staged-completion/stage-09/TIMELINE.json",
-    "preview_candidate": "49fb596ff020c0cc40bef2ae3193d10f8f04bd71"
+    "preview_candidate": "5353535fdd19bbe667735079744d60af18a3633b"
   },
   "weeks": [
     {
@@ -648,18 +648,18 @@
       "planned_mother_focus": "Food/placenta connection and prenatal care questions.",
       "planned_visual": "Fetal swallowing concept.",
       "editorial_shared_range": "20–27",
-      "status": "base_timeline_only",
+      "status": "pilot_candidate_unverified",
       "research_mapping_complete": false,
       "independent_appraisal_complete": false,
       "editorial_draft_complete": false,
-      "implementation_candidate": false,
+      "implementation_candidate": true,
       "build_verified": false,
       "visual_verified": false,
       "owner_app_accepted": false,
       "clinical_review": false,
       "publish": false,
       "remaining": [
-        "research_mapping",
+        "complete_claim_outcome_mapping",
         "independent_appraisal",
         "editorial_refinement",
         "visual_rights",
@@ -668,7 +668,22 @@
         "rendered_QA",
         "owner_acceptance",
         "qualified_clinical_review"
-      ]
+      ],
+      "candidate_commit": "5353535fdd19bbe667735079744d60af18a3633b",
+      "candidate_features": {
+        "mother": [
+          "Anatomy scan and prenatal care",
+          "Changing posture and pelvic support",
+          "Food safety and nutrient quality"
+        ],
+        "baby": [
+          "Swallowing before birth",
+          "A protective layer on the skin",
+          "Movement becomes noticeable"
+        ],
+        "size": "25.6 cm · banana"
+      },
+      "editorial_draft_present": true
     },
     {
       "week": 21,
@@ -681,18 +696,18 @@
       "planned_mother_focus": "Feeling movements, pelvic comfort and support.",
       "planned_visual": "Fetal movement/uterus art.",
       "editorial_shared_range": "20–27",
-      "status": "base_timeline_only",
+      "status": "pilot_candidate_unverified",
       "research_mapping_complete": false,
       "independent_appraisal_complete": false,
       "editorial_draft_complete": false,
-      "implementation_candidate": false,
+      "implementation_candidate": true,
       "build_verified": false,
       "visual_verified": false,
       "owner_app_accepted": false,
       "clinical_review": false,
       "publish": false,
       "remaining": [
-        "research_mapping",
+        "complete_claim_outcome_mapping",
         "independent_appraisal",
         "editorial_refinement",
         "visual_rights",
@@ -701,7 +716,22 @@
         "rendered_QA",
         "owner_acceptance",
         "qualified_clinical_review"
-      ]
+      ],
+      "candidate_commit": "5353535fdd19bbe667735079744d60af18a3633b",
+      "candidate_features": {
+        "mother": [
+          "Feeling your baby move",
+          "Skin pigmentation and sun protection",
+          "Everyday environmental exposures"
+        ],
+        "baby": [
+          "Hearing and familiar voices",
+          "The placenta's continuing work",
+          "Fine hair begins to spread"
+        ],
+        "size": "26.7 cm · carrot"
+      },
+      "editorial_draft_present": true
     },
     {
       "week": 22,
@@ -725,7 +755,7 @@
       "clinical_review": false,
       "publish": false,
       "remaining": [
-        "research_mapping",
+        "complete_claim_outcome_mapping",
         "independent_appraisal",
         "editorial_refinement",
         "visual_rights",
@@ -734,7 +764,22 @@
         "rendered_QA",
         "owner_acceptance",
         "qualified_clinical_review"
-      ]
+      ],
+      "candidate_commit": "5353535fdd19bbe667735079744d60af18a3633b",
+      "candidate_features": {
+        "mother": [
+          "Stretch marks & changing skin",
+          "Back & pelvic comfort",
+          "Choline, iodine & folate"
+        ],
+        "baby": [
+          "Fine hair covers the body",
+          "The first stool begins to form",
+          "Developing muscles & movement"
+        ],
+        "size": "27.8 cm · sweet potato"
+      },
+      "editorial_draft_present": true
     },
     {
       "week": 23,
@@ -758,7 +803,7 @@
       "clinical_review": false,
       "publish": false,
       "remaining": [
-        "research_mapping",
+        "complete_claim_outcome_mapping",
         "independent_appraisal",
         "editorial_refinement",
         "visual_rights",
@@ -767,7 +812,22 @@
         "rendered_QA",
         "owner_acceptance",
         "qualified_clinical_review"
-      ]
+      ],
+      "candidate_commit": "5353535fdd19bbe667735079744d60af18a3633b",
+      "candidate_features": {
+        "mother": [
+          "Breast changes & early milk",
+          "Rib comfort & breathlessness",
+          "Iron & blood formation"
+        ],
+        "baby": [
+          "Lower airways develop",
+          "Bone marrow & blood cells",
+          "Getting to know movement patterns"
+        ],
+        "size": "28.9 cm · large mango"
+      },
+      "editorial_draft_present": true
     },
     {
       "week": 24,
@@ -780,18 +840,18 @@
       "planned_mother_focus": "Circulation and hemoglobin; clinically appropriate screening questions to verify.",
       "planned_visual": "Airway branching/placental oxygen exchange.",
       "editorial_shared_range": "20–27",
-      "status": "base_timeline_only",
+      "status": "pilot_candidate_unverified",
       "research_mapping_complete": false,
       "independent_appraisal_complete": false,
       "editorial_draft_complete": false,
-      "implementation_candidate": false,
+      "implementation_candidate": true,
       "build_verified": false,
       "visual_verified": false,
       "owner_app_accepted": false,
       "clinical_review": false,
       "publish": false,
       "remaining": [
-        "research_mapping",
+        "complete_claim_outcome_mapping",
         "independent_appraisal",
         "editorial_refinement",
         "visual_rights",
@@ -800,7 +860,22 @@
         "rendered_QA",
         "owner_acceptance",
         "qualified_clinical_review"
-      ]
+      ],
+      "candidate_commit": "5353535fdd19bbe667735079744d60af18a3633b",
+      "candidate_features": {
+        "mother": [
+          "Understanding glucose screening",
+          "Food and energy",
+          "Pelvic floor function"
+        ],
+        "baby": [
+          "The developing airway tree",
+          "Oxygen before the first breath",
+          "Early fat stores"
+        ],
+        "size": "30 cm · corn on the cob"
+      },
+      "editorial_draft_present": true
     },
     {
       "week": 25,
@@ -813,18 +888,18 @@
       "planned_mother_focus": "Iron research, pelvic/physical comfort; no dose based on fetal milestone.",
       "planned_visual": "Marrow/blood cells and placental connection.",
       "editorial_shared_range": "20–27",
-      "status": "base_timeline_only",
+      "status": "pilot_candidate_unverified",
       "research_mapping_complete": false,
       "independent_appraisal_complete": false,
       "editorial_draft_complete": false,
-      "implementation_candidate": false,
+      "implementation_candidate": true,
       "build_verified": false,
       "visual_verified": false,
       "owner_app_accepted": false,
       "clinical_review": false,
       "publish": false,
       "remaining": [
-        "research_mapping",
+        "complete_claim_outcome_mapping",
         "independent_appraisal",
         "editorial_refinement",
         "visual_rights",
@@ -833,7 +908,22 @@
         "rendered_QA",
         "owner_acceptance",
         "qualified_clinical_review"
-      ]
+      ],
+      "candidate_commit": "5353535fdd19bbe667735079744d60af18a3633b",
+      "candidate_features": {
+        "mother": [
+          "Indigestion and heartburn",
+          "Iron and maternal circulation",
+          "Preparing your birth preferences"
+        ],
+        "baby": [
+          "Where blood cells form",
+          "Amniotic fluid and the kidneys",
+          "Activity and familiar sounds"
+        ],
+        "size": "34.6 cm · zucchini"
+      },
+      "editorial_draft_present": true
     },
     {
       "week": 26,
@@ -846,18 +936,18 @@
       "planned_mother_focus": "Sleep/rest, movement patterns, sound research limitations.",
       "planned_visual": "Eye/ear neural response illustration.",
       "editorial_shared_range": "20–27",
-      "status": "base_timeline_only",
+      "status": "pilot_candidate_unverified",
       "research_mapping_complete": false,
       "independent_appraisal_complete": false,
       "editorial_draft_complete": false,
-      "implementation_candidate": false,
+      "implementation_candidate": true,
       "build_verified": false,
       "visual_verified": false,
       "owner_app_accepted": false,
       "clinical_review": false,
       "publish": false,
       "remaining": [
-        "research_mapping",
+        "complete_claim_outcome_mapping",
         "independent_appraisal",
         "editorial_refinement",
         "visual_rights",
@@ -866,7 +956,22 @@
         "rendered_QA",
         "owner_acceptance",
         "qualified_clinical_review"
-      ]
+      ],
+      "candidate_commit": "5353535fdd19bbe667735079744d60af18a3633b",
+      "candidate_features": {
+        "mother": [
+          "Rest and emotional wellbeing",
+          "Safer home and work environments",
+          "Brain-supporting nutrients"
+        ],
+        "baby": [
+          "Developing eyes",
+          "Responding to sound",
+          "Air sacs take shape"
+        ],
+        "size": "35.6 cm · cucumber"
+      },
+      "editorial_draft_present": true
     },
     {
       "week": 27,
@@ -879,18 +984,18 @@
       "planned_mother_focus": "Nutrition research and trimester transition, continued prenatal care.",
       "planned_visual": "Developing brain.",
       "editorial_shared_range": "20–27",
-      "status": "base_timeline_only",
+      "status": "pilot_candidate_unverified",
       "research_mapping_complete": false,
       "independent_appraisal_complete": false,
       "editorial_draft_complete": false,
-      "implementation_candidate": false,
+      "implementation_candidate": true,
       "build_verified": false,
       "visual_verified": false,
       "owner_app_accepted": false,
       "clinical_review": false,
       "publish": false,
       "remaining": [
-        "research_mapping",
+        "complete_claim_outcome_mapping",
         "independent_appraisal",
         "editorial_refinement",
         "visual_rights",
@@ -899,7 +1004,22 @@
         "rendered_QA",
         "owner_acceptance",
         "qualified_clinical_review"
-      ]
+      ],
+      "candidate_commit": "5353535fdd19bbe667735079744d60af18a3633b",
+      "candidate_features": {
+        "mother": [
+          "Looking ahead to birth",
+          "Back and core comfort",
+          "Prenatal follow-up"
+        ],
+        "baby": [
+          "Rapid brain growth",
+          "Surfactant and the developing lungs",
+          "Eyelid movements"
+        ],
+        "size": "36.6 cm · head of cauliflower"
+      },
+      "editorial_draft_present": true
     },
     {
       "week": 28,
@@ -3312,5 +3432,35 @@
       "clinical_review": false,
       "publish": false
     }
-  ]
+  ],
+  "latest_batch": {
+    "date": "2026-11-27",
+    "new_candidate_weeks": [
+      20,
+      21,
+      24,
+      25,
+      26,
+      27
+    ],
+    "all_candidate_weeks": [
+      20,
+      21,
+      22,
+      23,
+      24,
+      25,
+      26,
+      27
+    ],
+    "feature_count": 48,
+    "new_features": 36,
+    "focused_readings_added": 15,
+    "reference_records": 17,
+    "static_route_validation": "48 feature paths, all 15 focused reading related routes and reference keys checked; no issues; eight week route sets and eight size records present",
+    "actual_build": "Unverified on latest commit. Prior 49fb596 candidate Vercel test run 213/214 passed; one case-sensitive skin-label assertion failed. Updated assertion; no claim of successful rerun.",
+    "complete_weeks": 0,
+    "complete_phases": 0,
+    "next_proposed_batch": "Weeks 28–29 after verifying 20–27; or owner-selected pair"
+  }
 }
