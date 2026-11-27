@@ -4,6 +4,7 @@ import { useLocalPrefs } from '../hooks/useLocalPrefs'
 import { ScreenHeading } from '../components/ReadingUI'
 import { Glyph } from '../components/Glyph'
 import { catalogStats, searchArticles, listDomains } from '../data/researchCatalog'
+import {searchContraception,contraceptionPath} from '../data/contraception'
 import { emptyBrowse, domainLabels, type BrowseState } from '../data/browseState'
 const FocusedResults=lazy(()=>import('../components/FocusedResults'))
 export function LibraryPage({browse,setBrowse,currentWeek=null}:{browse:BrowseState;setBrowse:(state:BrowseState)=>void;currentWeek?:number|null}){
@@ -15,7 +16,8 @@ export function LibraryPage({browse,setBrowse,currentWeek=null}:{browse:BrowseSt
  const matches=searchArticles(query,domain).filter(a=>!savedOnly||prefs.bookmarks.includes(a.id))
  const pages=Math.max(1,Math.ceil(matches.length/8)),currentPage=Math.min(page,pages)
  const shown=savedOnly?matches:matches.slice((currentPage-1)*8,currentPage*8)
- const suggestions=['Prenatal vitamins','Morning sickness','Stretch marks','Infant feeding']
+ const contraceptiveResults=savedOnly?[]:searchContraception(query,domain)
+ const suggestions=['Birth control','Prenatal vitamins','Morning sickness','Stretch marks','Infant feeding']
  const week=query.match(/\bweek\s*(\d{1,2})\b/i)
  const weekNumber=week?Number(week[1]):0
  return <div className="stack-lg">
@@ -26,6 +28,7 @@ export function LibraryPage({browse,setBrowse,currentWeek=null}:{browse:BrowseSt
  {(query||domain!=='all')&&<button className="btn btn-ghost" onClick={()=>setBrowse(emptyBrowse)}>Clear search</button>}</section><nav className="section-links" aria-label="Research collections"><Link to="/evidence">Research &amp; sources ›</Link><Link to="/visuals">Visual references ›</Link></nav></>}
  {!savedOnly&&weekNumber>=1&&weekNumber<=40&&<Link className="topic-link" to={`/timeline/week/${weekNumber}`}>Open pregnancy week {weekNumber} ›</Link>}
  {!savedOnly&&query.trim()&&!/^[a-z]+(?:-[a-z0-9]+)*-\d+$/i.test(query.trim())&&<Suspense fallback={<p className="small-copy muted">Finding detailed topics…</p>}><FocusedResults key={query+domain} query={query} domain={domain} currentWeek={weekNumber>=1&&weekNumber<=40?weekNumber:currentWeek}/></Suspense>}
+ {contraceptiveResults.length>0&&<section className="stack" aria-label="Birth control results"><h2 className="section-title">Birth control & pregnancy planning</h2><div className="surface-list">{contraceptiveResults.map(s=><Link className="reading-row" key={s.id} to={contraceptionPath+'/'+s.id}><span><strong>{s.title}</strong><small>{s.summary}</small></span><span aria-hidden="true">›</span></Link>)}</div></section>}
  {!savedOnly&&query.trim()&&<h2 className="section-title">Core articles</h2>}
  <p className="muted small-copy" role="status">{matches.length} of {stats.articles} articles · {prefs.bookmarks.length} saved</p>
  <section className="surface-list result-list" aria-label={savedOnly?'Saved articles':'Search results'}>{shown.map(a=><article key={a.id} className="result-row"><Link to={`/research/${a.id}`}><strong>{a.title}</strong><small>{domainLabels[a.domain]??a.domain}{prefs.readArticles.includes(a.id)?' · Read':''}</small></Link><button className="bookmark-control" aria-label={`${prefs.bookmarks.includes(a.id)?'Remove bookmark for':'Save bookmark for'} ${a.title}`} aria-pressed={prefs.bookmarks.includes(a.id)} onClick={()=>toggleBookmark(a.id)}><Glyph name="bookmark"/></button></article>)}</section>

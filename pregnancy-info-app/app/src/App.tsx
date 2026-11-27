@@ -25,6 +25,7 @@ const VisualLibraryPage = lazy(async () => {
   return { default: mod.VisualLibraryPage }
 })
 
+const ContraceptionPage=lazy(async()=>({default:(await import('./pages/ContraceptionPage')).ContraceptionPage}))
 const Week22TopicPage=lazy(async()=>({default:(await import('./pages/Week22TopicPage')).Week22TopicPage}))
 const SkinTopicPage=lazy(async()=>({default:(await import('./pages/SkinTopicPage')).SkinTopicPage}))
 
@@ -52,6 +53,8 @@ function AppShell() {
         <Suspense fallback={<p className="muted">Loading…</p>}>
           <RoutePosition />
           <Routes>
+            <Route path="/contraception" element={<ContraceptionPage/>}/>
+            <Route path="/contraception/:topic" element={<ContraceptionPage/>}/>
             <Route path="/" element={<TodayPage activePhaseId={activePhaseId} currentWeek={currentWeek} onSearch={query=>setBrowse({...emptyBrowse,query})}/>} />
             <Route path="/timeline" element={<TimelinePage selectedPhaseId={activePhaseId} currentWeek={currentWeek} />} />
             <Route path="/timeline/:track" element={<TimelinePage selectedPhaseId={activePhaseId} currentWeek={currentWeek} />} />

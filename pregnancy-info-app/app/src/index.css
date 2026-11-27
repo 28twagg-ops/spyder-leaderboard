@@ -1011,3 +1011,6 @@ button.reader-back:focus-visible{outline-offset:3px}
 a, button, summary, [role="button"] {
   -webkit-tap-highlight-color: var(--accent-soft);
 }
+
+/* Evidence comparison, with no winner label or personalized score. */
+.contraception-methods{display:grid}.contraception-method{display:grid;gap:6px;padding:12px 0;border-bottom:1px solid var(--line);color:var(--ink);text-decoration:none}.contraception-method-title{display:flex;justify-content:space-between;gap:10px;font-variant-numeric:tabular-nums}.contraception-method small{color:var(--ink-muted);line-height:1.4}.contraception-track{height:6px;background:var(--bg-soft);overflow:hidden;border-radius:3px}.contraception-track span{display:block;height:100%;background:var(--accent);min-width:1px}.contraception-source{padding:12px 0;border-top:1px solid var(--line);font-size:.84rem;overflow-wrap:anywhere}.contraception-source p{margin:.45em 0}.contraception-source a{text-decoration:underline;color:var(--accent-text)}

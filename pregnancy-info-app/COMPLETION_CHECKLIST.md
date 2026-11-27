@@ -91,3 +91,9 @@ Evidence: prior preview 8b51b5f76a0d4624cf2c1879021c52da98f82de1; preference/sea
 ## Clarity-first direction — latest owner instruction, 2026-11-27
 - [x] GOV-05c: replace fixed grade-level requirements with a natural, adult, quick-comprehension standard. Earlier grade targets are historical only. Keep existing content rather than rewriting solely to change a metric.
 - [ ] UX-13d: assess actual pages with typical adult readers: identify the main idea and relevance, explain visual meaning, find deeper reading and recognize safety limitations. Use readability scores only as optional diagnostic information. Independent clinical and visual review still required.
+
+## Additive contraception research · 2026-11-27
+- [x] Initial source discovery, preliminary source-by-source funding/COI/limitations record and linked article drafts; 20 records in separate packet, not independent study count.
+- [ ] Verify deployment and rendered phone navigation; full test/build results pending at commit.
+- [ ] Independent full-text appraisal, underlying study overlap/funding/corrections, full numeric extraction and clinical review; see research/contraception/README.md. No clinical publication approval.
+- [ ] Reconcile additive packet with canonical main inventory after verification.

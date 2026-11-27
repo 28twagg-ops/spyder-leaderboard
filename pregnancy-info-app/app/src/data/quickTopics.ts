@@ -2,6 +2,7 @@
 export function quickTopics(week:number|null){
  const w=week??22
  return [
+  {title:'Birth control & pregnancy planning',subtitle:'Compare hormones, IUDs, pills and return to fertility',to:'/contraception',icon:'leaf'},
   {title:'Nutrition & vitamins',subtitle:'Prenatals, nutrients & common intake gaps',to:'/timeline/week/'+w+'/mother/nutrition/research-guide',icon:'leaf'},
   {title:'Skin & stretch marks',subtitle:'Prevention, skin changes & treatment',to:'/timeline/week/'+w+'/mother/skin',icon:'body'},
   {title:'Pregnancy symptoms',subtitle:'Nausea, digestion & other changes',to:'/timeline/week/'+(week??8)+'/mother/digestion',icon:'body'},

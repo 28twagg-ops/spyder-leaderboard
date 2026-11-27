@@ -1,0 +1,870 @@
+{
+  "status": "research_only",
+  "reviewed": "2026-11-27",
+  "clinicalRelease": false,
+  "sources": [
+    {
+      "id": "CT-01",
+      "title": "CDC: Contraception and birth control methods (2024)",
+      "url": "https://www.cdc.gov/contraception/about/",
+      "design": "US public-health reference; rates attributed to Contraceptive Technology, 22nd ed. (2023)",
+      "finding": "First-year typical-use failures differ by method; not head-to-head trial results.",
+      "funding": "US federal publisher; underlying textbook and primary-study funding not audited.",
+      "coi": "Underlying authors' disclosures not extracted.",
+      "bias": "Typical-use estimates summarize heterogeneous populations, adherence and products; no common confidence intervals. No causal safety ranking.",
+      "access": "Original full page, methods and reference 1",
+      "verified": "2026-11-27",
+      "certainty": "Not formally graded; preliminary outcome-specific appraisal",
+      "sponsorRole": "Not fully established unless explicitly described in funding or COI note",
+      "integrity": "Correction/retraction and registry cross-check outstanding; not independently cleared"
+    },
+    {
+      "id": "CT-02",
+      "title": "CDC: U.S. Medical Eligibility Criteria, 2024",
+      "url": "https://www.cdc.gov/mmwr/volumes/73/rr/rr7304a1.htm",
+      "design": "US guideline with evidence review and eligibility categories",
+      "finding": "Medical eligibility depends on conditions, method, postpartum status and drug interactions.",
+      "funding": "US federal publisher; full expert-panel and underlying funding audit outstanding.",
+      "coi": "Individual panel declarations not fully extracted.",
+      "bias": "Guideline categories concern eligibility, not a quantitative hormone or risk score; evidence quality varies.",
+      "access": "Original guideline / summary table",
+      "verified": "2026-11-27",
+      "certainty": "Not formally graded; preliminary outcome-specific appraisal",
+      "sponsorRole": "Not fully established unless explicitly described in funding or COI note",
+      "integrity": "Correction/retraction and registry cross-check outstanding; not independently cleared"
+    },
+    {
+      "id": "CT-03",
+      "title": "CDC: U.S. Selected Practice Recommendations, 2024",
+      "url": "https://www.cdc.gov/mmwr/volumes/73/rr/rr7303a1.htm",
+      "design": "US practice guideline",
+      "finding": "Method initiation, bleeding changes, placement pain and emergency contraception.",
+      "funding": "US federal publisher; underlying-study funding not audited.",
+      "coi": "Panel declarations pending.",
+      "bias": "Evidence varies by clinical question; no blanket method recommendation.",
+      "access": "Original guideline excerpts",
+      "verified": "2026-11-27",
+      "certainty": "Not formally graded; preliminary outcome-specific appraisal",
+      "sponsorRole": "Not fully established unless explicitly described in funding or COI note",
+      "integrity": "Correction/retraction and registry cross-check outstanding; not independently cleared"
+    },
+    {
+      "id": "CT-04",
+      "title": "Rowe et al. (2016): seven-year randomized LNG-IUD vs TCu380A study",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC5357727/",
+      "design": "Open-label randomized multicenter trial, 3,755 analyzed; primarily parous women, 20 centers, nine countries",
+      "finding": "Cumulative 7-year pregnancies per 100: LNG 0.5 (SE 0.2), copper 2.5 (SE 0.4); discontinuation 70.6 vs 40.8. Copper removals for heavier bleeding; LNG removals for reduced bleeding or amenorrhea.",
+      "funding": "UNDP/UNFPA/WHO/World Bank HRP (Funding section).",
+      "coi": "Authors declare none; manufacturer/device relationships and acknowledgments not independently corroborated.",
+      "bias": "Randomization strengthens efficacy comparison; unblinded, differential attrition (26.0% vs 36.9%), cultural preferences and older formulations limit generalization. Seven-year cumulative rates cannot be compared with first-year typical-use estimates.",
+      "access": "Full text, abstract, methods, funding and footnotes",
+      "verified": "2026-11-27",
+      "certainty": "Not formally graded; preliminary outcome-specific appraisal",
+      "sponsorRole": "Not fully established unless explicitly described in funding or COI note",
+      "integrity": "Correction/retraction and registry cross-check outstanding; not independently cleared",
+      "doi": "10.1016/j.contraception.2016.02.024",
+      "pmid": "26916172",
+      "n": 3755
+    },
+    {
+      "id": "CT-05",
+      "title": "2024 meta-analysis: levonorgestrel versus copper IUD randomized trials",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/39610901/",
+      "design": "Systematic review of randomized comparisons",
+      "finding": "Comparative contraceptive efficacy and bleeding vary by device; direction favors LNG for some outcomes.",
+      "funding": "Hunan Provincial Natural Foundation (2021JJ30040), National Clinical Research Center for Geriatric Disorders (2021KFJJ06), National Natural Science Foundation of China; abstract disclosure.",
+      "coi": "Full declaration not retrieved; underlying trials may have commercial ties.",
+      "bias": "Device and follow-up heterogeneity; overlap with earlier trials; do not count review and Rowe as independent cohorts. Numerical pooling withheld pending full-text extraction.",
+      "access": "Original abstract; full text blocked",
+      "verified": "2026-11-27",
+      "certainty": "Not formally graded; preliminary outcome-specific appraisal",
+      "sponsorRole": "Not fully established unless explicitly described in funding or COI note",
+      "integrity": "Correction/retraction and registry cross-check outstanding; not independently cleared",
+      "pmid": "39610901"
+    },
+    {
+      "id": "CT-06",
+      "title": "Hofmann et al. (2020): comparative levonorgestrel pharmacokinetics",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/33006493/",
+      "design": "Population pharmacokinetic model; over 3,400 participants, ten studies, six LNG products",
+      "finding": "LNG IUSs yielded lower circulating LNG than examined oral and subdermal products; dose and body weight influenced exposure.",
+      "funding": "Bayer employee affiliations verified; direct grant and contractual role not fully retrieved.",
+      "coi": "Multiple authors work for Bayer or on its behalf; full COI and sponsor data control pending.",
+      "bias": "Model-based surrogate rather than clinical outcomes; selected LNG formulations, not all progestins; does not establish comparative symptom or long-term safety. Overlapping 2018 model not counted separately.",
+      "access": "Original abstract and affiliations",
+      "verified": "2026-11-27",
+      "certainty": "Not formally graded; preliminary outcome-specific appraisal",
+      "sponsorRole": "Not fully established unless explicitly described in funding or COI note",
+      "integrity": "Correction/retraction and registry cross-check outstanding; not independently cleared",
+      "doi": "10.1080/13625187.2020.1815008",
+      "pmid": "33006493"
+    },
+    {
+      "id": "CT-07",
+      "title": "Yland et al. (2020): pregravid contraceptive use and fecundability",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/33177047/",
+      "design": "Prospective cohort, 17,954 pregnancy planners, Denmark and North America, 2007–2019",
+      "finding": "Injectable vs barrier fecundability ratio 0.65 (95% CI 0.47–0.89); temporary delays differed by method; little evidence for lasting effect of duration.",
+      "funding": "NIH/NICHD grant listed; full funding allocation pending. PRESTO disclosed in-kind contributions from fertility-related companies.",
+      "coi": "In-kind donations from Sandstone Diagnostics, Swiss Precision Diagnostics, Kindara and FertilityFriend; Aarhus department receives industry grants for other work.",
+      "bias": "Observational self-selected prior methods, pregnancy planners and questionnaire outcomes; confounding and small method groups; time to pregnancy is not time to ovulation.",
+      "access": "Original abstract and indexed full-paper disclosure excerpts",
+      "verified": "2026-11-27",
+      "certainty": "Not formally graded; preliminary outcome-specific appraisal",
+      "sponsorRole": "Not fully established unless explicitly described in funding or COI note",
+      "integrity": "Correction/retraction and registry cross-check outstanding; not independently cleared",
+      "doi": "10.1136/bmj.m3966",
+      "pmid": "33177047",
+      "n": 17954
+    },
+    {
+      "id": "CT-08",
+      "title": "Girum & Wasie (2018): return of fertility after discontinuation",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC6055351/",
+      "design": "Systematic review/meta-analysis of observational studies",
+      "finding": "Pooled 12-month pregnancy proportion 83.1% (95% CI 78.2–88%); not an individual forecast.",
+      "funding": "Specific funding not located in accessed full text; unknown.",
+      "coi": "Authors declare no competing interests.",
+      "bias": "Heterogeneous populations, methods, ages and follow-up; no untreated randomized comparator; older studies and potential selection bias. Pooling does not establish individual fertility or a washout interval.",
+      "access": "Full text and original abstract",
+      "verified": "2026-11-27",
+      "certainty": "Not formally graded; preliminary outcome-specific appraisal",
+      "sponsorRole": "Not fully established unless explicitly described in funding or COI note",
+      "integrity": "Correction/retraction and registry cross-check outstanding; not independently cleared",
+      "doi": "10.1186/s40834-018-0064-y",
+      "pmid": "30062044"
+    },
+    {
+      "id": "CT-09",
+      "title": "Peragallo Urrutia et al. (2018): fertility-awareness effectiveness",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/30095777/",
+      "design": "Systematic review, 53 eligible prospective studies",
+      "finding": "Review quality ratings: 0 high, 21 moderate, 32 low; method-specific pregnancy estimates differ substantially.",
+      "funding": "Review funding not verified; unknown.",
+      "coi": "Full author disclosures and method-provider ties not retrieved.",
+      "bias": "Training, populations, adherence, loss to follow-up and outcome definitions vary. Cannot rank all methods or infer efficacy of a generic period app.",
+      "access": "Original indexed abstract; publisher full text inaccessible",
+      "verified": "2026-11-27",
+      "certainty": "Not formally graded; preliminary outcome-specific appraisal",
+      "sponsorRole": "Not fully established unless explicitly described in funding or COI note",
+      "integrity": "Correction/retraction and registry cross-check outstanding; not independently cleared",
+      "doi": "10.1097/AOG.0000000000002784",
+      "pmid": "30095777"
+    },
+    {
+      "id": "CT-10",
+      "title": "de Wit et al. (2021): hormonal contraceptives and depressive symptoms",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC8220855/",
+      "design": "Systematic review/network meta-analysis of randomized trials",
+      "finding": "Average depressive symptoms did not worsen in studied adult trial participants; limited evidence for first-time/younger users.",
+      "funding": "Authors state no specific grant (funding declaration indexed).",
+      "coi": "Full COI and underlying trial funding not audited.",
+      "bias": "Short follow-up, selected participants, indirect comparisons, symptom scores vs diagnoses; cannot exclude individual effects.",
+      "access": "Indexed original abstract and full-text funding excerpt",
+      "verified": "2026-11-27",
+      "certainty": "Not formally graded; preliminary outcome-specific appraisal",
+      "sponsorRole": "Not fully established unless explicitly described in funding or COI note",
+      "integrity": "Correction/retraction and registry cross-check outstanding; not independently cleared",
+      "pmid": "34099098"
+    },
+    {
+      "id": "CT-11",
+      "title": "Skovlund et al. (2016): hormonal contraception and depression",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/27680324/",
+      "design": "Danish registry cohort",
+      "finding": "Associations with subsequent antidepressant use/depression, especially among adolescents.",
+      "funding": "Direct funding and sponsor role not verified.",
+      "coi": "Full COI not verified.",
+      "bias": "Nonrandom method selection, healthcare seeking, baseline mood and residual confounding; diagnosis and prescription endpoints differ from trial symptom scales. Not proof of causation.",
+      "access": "Original indexed abstract",
+      "verified": "2026-11-27",
+      "certainty": "Not formally graded; preliminary outcome-specific appraisal",
+      "sponsorRole": "Not fully established unless explicitly described in funding or COI note",
+      "integrity": "Correction/retraction and registry cross-check outstanding; not independently cleared",
+      "pmid": "27680324"
+    },
+    {
+      "id": "CT-12",
+      "title": "Yonis et al. (2025): contemporary contraception and venous thromboembolism",
+      "url": "https://doi.org/10.1001/jama.2024.28778",
+      "design": "Danish nationwide observational cohort",
+      "finding": "Thrombosis associations differed across products; combined pills showed higher rates and LNG IUDs had no significant excess relative to nonuse in this analysis.",
+      "funding": "Sygeforsikringen Danmark grant 2021-0128 (indexed funding declaration).",
+      "coi": "Løkkegaard reported Pfizer personal fees, Astellas meeting compensation to hospital and Radiometer-supported PhD salary; other disclosures pending.",
+      "bias": "Rare events, residual confounding, prescriptions rather than adherence, selected cohort; nonsignificance not proof of zero risk. Numerical comparisons withheld until full table extraction.",
+      "access": "Original journal indexed excerpts",
+      "verified": "2026-11-27",
+      "certainty": "Not formally graded; preliminary outcome-specific appraisal",
+      "sponsorRole": "Not fully established unless explicitly described in funding or COI note",
+      "integrity": "Correction/retraction and registry cross-check outstanding; not independently cleared",
+      "doi": "10.1001/jama.2024.28778",
+      "pmid": "39928320"
+    },
+    {
+      "id": "CT-13",
+      "title": "Fitzpatrick et al. (2023): hormonal contraception and breast cancer",
+      "url": "https://journals.plos.org/plosmedicine/article?id=10.1371%2Fjournal.pmed.1004188",
+      "design": "UK nested case-control and meta-analysis; 9,498 cases and 18,171 controls",
+      "finding": "Recent/current hormonal prescriptions associated with increased breast cancer risk across several combined and progestin-only methods.",
+      "funding": "Cancer Research UK (C570/A16491, A29186) and Medical Research Council (MR/K02700X/1), indexed funding statement.",
+      "coi": "Full disclosures and underlying studies pending.",
+      "bias": "Observational prescription records, confounding and incomplete lifetime exposure; absolute excess depends strongly on age. Does not establish causation or a single risk for all methods.",
+      "access": "Original abstract and indexed funding excerpts",
+      "verified": "2026-11-27",
+      "certainty": "Not formally graded; preliminary outcome-specific appraisal",
+      "sponsorRole": "Not fully established unless explicitly described in funding or COI note",
+      "integrity": "Correction/retraction and registry cross-check outstanding; not independently cleared",
+      "doi": "10.1371/journal.pmed.1004188",
+      "pmid": "36943819"
+    },
+    {
+      "id": "CT-14",
+      "title": "National Cancer Institute: oral contraceptives and cancer risk",
+      "url": "https://www.cancer.gov/about-cancer/causes-prevention/risk/hormones/oral-contraceptives-fact-sheet",
+      "design": "US federal evidence summary",
+      "finding": "Oral contraceptive use associated with higher breast/cervical and lower ovarian/endometrial/colorectal cancer risks.",
+      "funding": "US federal publisher; underlying studies not individually audited.",
+      "coi": "Underlying study COI not extracted.",
+      "bias": "Mostly observational, time since use, formulations and other risk factors vary; cannot extrapolate all findings to every progestin or IUD.",
+      "access": "Original indexed fact sheet",
+      "verified": "2026-11-27",
+      "certainty": "Not formally graded; preliminary outcome-specific appraisal",
+      "sponsorRole": "Not fully established unless explicitly described in funding or COI note",
+      "integrity": "Correction/retraction and registry cross-check outstanding; not independently cleared"
+    },
+    {
+      "id": "CT-15",
+      "title": "Reed et al. (2022): APEX-IUD uterine perforation",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/35658995/",
+      "design": "Large multisite observational cohort",
+      "finding": "Perforation risk depends in part on postpartum timing and breastfeeding; rare but important procedure harm.",
+      "funding": "Bayer funding during study disclosed; detailed sponsor roles pending.",
+      "coi": "Lead author received Bayer research funding; other investigators and industry affiliations require full review.",
+      "bias": "Observational, rare outcomes, coding and clinical ascertainment, sponsor involvement; postpartum results not interchangeable with interval placement.",
+      "access": "Original indexed abstract and declaration excerpt",
+      "verified": "2026-11-27",
+      "certainty": "Not formally graded; preliminary outcome-specific appraisal",
+      "sponsorRole": "Not fully established unless explicitly described in funding or COI note",
+      "integrity": "Correction/retraction and registry cross-check outstanding; not independently cleared",
+      "pmid": "35658995"
+    },
+    {
+      "id": "CT-16",
+      "title": "Cochrane (2014): combination contraceptives and weight",
+      "url": "https://www.cochrane.org/evidence/CD003987_effect-birth-control-pills-and-patches-weight",
+      "design": "Systematic review of trials",
+      "finding": "No clear large causal effect on weight shown; evidence insufficient to exclude smaller changes.",
+      "funding": "Review and trial funding not individually verified.",
+      "coi": "Unknown; full disclosures pending.",
+      "bias": "Few placebo/no-hormone controls; heterogeneous follow-up and products. Not proof nobody gains weight.",
+      "access": "Original review summary",
+      "verified": "2026-11-27",
+      "certainty": "Not formally graded; preliminary outcome-specific appraisal",
+      "sponsorRole": "Not fully established unless explicitly described in funding or COI note",
+      "integrity": "Correction/retraction and registry cross-check outstanding; not independently cleared"
+    },
+    {
+      "id": "CT-17",
+      "title": "Lopez et al. (2016): progestin-only contraceptives and weight",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/27567593/",
+      "design": "Cochrane systematic review, 22 studies",
+      "finding": "Limited evidence of weight change overall; some DMPA comparisons showed greater gain.",
+      "funding": "Review and primary study funding not fully audited.",
+      "coi": "Unknown; full disclosures pending.",
+      "bias": "Many nonrandomized studies, high attrition, limited evidence for individual progestin methods. No shared effect across all methods.",
+      "access": "Original indexed abstract",
+      "verified": "2026-11-27",
+      "certainty": "Not formally graded; preliminary outcome-specific appraisal",
+      "sponsorRole": "Not fully established unless explicitly described in funding or COI note",
+      "integrity": "Correction/retraction and registry cross-check outstanding; not independently cleared",
+      "pmid": "27567593"
+    },
+    {
+      "id": "CT-18",
+      "title": "Turok et al. (2021): LNG versus copper IUD for emergency contraception",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/33503342/",
+      "design": "Randomized noninferiority trial in six Utah clinics",
+      "finding": "52-mg LNG-IUD studied for emergency use versus copper; a distinct question from routine contraception.",
+      "funding": "NIH grant listed; complete funding and device donation information pending.",
+      "coi": "Full disclosures not verified.",
+      "bias": "Selected volunteers, rare endpoint, noninferiority margin and short follow-up need full appraisal; do not extrapolate to other LNG doses or self-directed emergency use.",
+      "access": "Original indexed abstract; full text blocked",
+      "verified": "2026-11-27",
+      "certainty": "Not formally graded; preliminary outcome-specific appraisal",
+      "sponsorRole": "Not fully established unless explicitly described in funding or COI note",
+      "integrity": "Correction/retraction and registry cross-check outstanding; not independently cleared",
+      "doi": "10.1056/NEJMoa2022141",
+      "pmid": "33503342"
+    },
+    {
+      "id": "CT-19",
+      "title": "CDC: Emergency contraception (2024)",
+      "url": "https://www.cdc.gov/contraception/hcp/usspr/emergency-contraception.html",
+      "design": "US practice guidance",
+      "finding": "Copper IUD and emergency pills are time-sensitive; ulipristal has interactions with restarting hormones.",
+      "funding": "US federal publisher; underlying trials not audited.",
+      "coi": "Panel COI pending.",
+      "bias": "Choice depends on timing, eligibility, medication interactions; no dosing protocol in Everwell.",
+      "access": "Original indexed guidance",
+      "verified": "2026-11-27",
+      "certainty": "Not formally graded; preliminary outcome-specific appraisal",
+      "sponsorRole": "Not fully established unless explicitly described in funding or COI note",
+      "integrity": "Correction/retraction and registry cross-check outstanding; not independently cleared"
+    },
+    {
+      "id": "CT-20",
+      "title": "CDC: Intrauterine contraception (2024)",
+      "url": "https://www.cdc.gov/contraception/hcp/usspr/intrauterine-contraception.html",
+      "design": "US practice guidance",
+      "finding": "Both IUD types highly effective; copper often increases bleeding early, LNG often reduces bleeding over time; pain counseling required.",
+      "funding": "US federal publisher; underlying funding not audited.",
+      "coi": "Panel COI pending.",
+      "bias": "Guideline not a head-to-head trial; evidence by outcome varies. Individual pain cannot be predicted.",
+      "access": "Original indexed guidance",
+      "verified": "2026-11-27",
+      "certainty": "Not formally graded; preliminary outcome-specific appraisal",
+      "sponsorRole": "Not fully established unless explicitly described in funding or COI note",
+      "integrity": "Correction/retraction and registry cross-check outstanding; not independently cleared"
+    }
+  ],
+  "sections": [
+    {
+      "id": "compare",
+      "title": "Compare birth control methods",
+      "summary": "Compare hormone exposure, pregnancy prevention, convenience and future fertility without a universal best-method score.",
+      "keywords": "contraception birth control compare effectiveness hormone free low hormone best method failure rate",
+      "paragraphs": [
+        [
+          "How to read the comparison",
+          "The chart uses estimated pregnancies per 100 users during the first year of ordinary use. The figures are population summaries, not a personal prediction. Methods that do not require remembering a daily or per-sex action generally have less opportunity for user error.",
+          [
+            "CT-01"
+          ]
+        ],
+        [
+          "Three different priorities",
+          "Zero added contraceptive hormones: copper IUD, barriers and trained fertility awareness. No estrogen: hormonal IUD, implant, progestin-only pill and injection. Lower circulating progestin: LNG IUDs compared with the selected systemic formulations studied. No estrogen does not mean no hormones.",
+          [
+            "CT-01",
+            "CT-06"
+          ]
+        ],
+        [
+          "What matters beyond hormones",
+          "Consider menstrual bleeding, pain, STI protection, pregnancy plans, ability to stop or remove the method, health conditions and cost/access. A clinician can help assess whether a method is medically suitable; the decision belongs to the person using it.",
+          [
+            "CT-02",
+            "CT-03"
+          ]
+        ]
+      ]
+    },
+    {
+      "id": "copper-iud",
+      "title": "Copper IUD: no added hormones",
+      "summary": "A long-acting reversible, hormone-free device. Bleeding and cramps are the principal trade-offs to explore.",
+      "keywords": "paragard copper coil non hormonal iud copper toxicity cramps heavy periods",
+      "paragraphs": [
+        [
+          "How it works",
+          "A copper-bearing device in the uterus interferes with sperm function and fertilization, without delivering estrogen or progestin. Ovulation is not deliberately suppressed. A qualified clinician inserts and removes it.",
+          [
+            "CT-01",
+            "CT-20"
+          ]
+        ],
+        [
+          "What comparisons show",
+          "The WHO-led randomized study observed low cumulative pregnancy rates with both types of IUD. Copper users more often requested removal because of heavier bleeding, while LNG users more often requested removal because of reduced or absent bleeding. These findings depend on the products and populations studied.",
+          [
+            "CT-04",
+            "CT-05"
+          ]
+        ],
+        [
+          "Questions before placement",
+          "Discuss existing heavy periods, anemia, pelvic infection risk, anatomy, copper allergy or Wilson disease if relevant, and pain-management options. Expulsion and perforation are uncommon but important; individual risk varies with insertion timing. No self-insertion or removal.",
+          [
+            "CT-02",
+            "CT-03",
+            "CT-15"
+          ]
+        ],
+        [
+          "Future pregnancy",
+          "The evidence does not support routinely delaying attempts simply to clear contraceptive hormones after copper IUD removal. Removal must be arranged with a clinician. Seek advice if pregnancy is suspected with an IUD in place, especially with pain or bleeding.",
+          [
+            "CT-07",
+            "CT-08",
+            "CT-02"
+          ]
+        ]
+      ]
+    },
+    {
+      "id": "hormonal-iud",
+      "title": "Hormonal IUDs: local release, not zero exposure",
+      "summary": "Levonorgestrel is released mainly within the uterus; some reaches the bloodstream. Compare bleeding effects, device dose and duration.",
+      "keywords": "mirena kyleena skyla liletta levonorgestrel hormonal coil local low dose iud progestin",
+      "paragraphs": [
+        [
+          "How it works",
+          "Levonorgestrel thickens cervical mucus and alters the uterine lining. Ovulation can continue. Different devices have different hormone loads and approved durations; a smaller reservoir is not a proven overall safety advantage.",
+          [
+            "CT-01",
+            "CT-06"
+          ]
+        ],
+        [
+          "Local versus systemic",
+          "A Bayer-affiliated pharmacokinetic analysis found lower circulating LNG for the IUDs studied than for its selected pills and implant. This is a drug-concentration comparison, not evidence that symptoms or long-term health outcomes are proportionally reduced.",
+          [
+            "CT-06"
+          ]
+        ],
+        [
+          "Bleeding and acceptability",
+          "Spotting can occur early, followed by lighter or absent bleeding. Some people value this; others prefer regular bleeding. The seven-year trial also recorded removals for symptoms compatible with hormonal effects.",
+          [
+            "CT-04",
+            "CT-20"
+          ]
+        ],
+        [
+          "Before choosing",
+          "Insertion and removal require a clinician. Discuss current/past breast cancer, bleeding concerns, pelvic conditions, procedural pain and desired fertility timing. Seek prompt care for possible pregnancy with an IUD.",
+          [
+            "CT-02",
+            "CT-03",
+            "CT-15"
+          ]
+        ]
+      ]
+    },
+    {
+      "id": "pill-patch-ring",
+      "title": "Combined pill, patch & vaginal ring",
+      "summary": "Estrogen plus progestin delivered systemically. Compare convenience, cycle benefits and eligibility.",
+      "keywords": "combined pill oral contraceptive birth control pills estrogen ethinyl estradiol patch nuvaring ring",
+      "paragraphs": [
+        [
+          "How they differ",
+          "All three combined methods use estrogen and progestin; administration differs. A ring or skin patch is not automatically a low systemic hormone method. Routine use schedules and interactions vary by product.",
+          [
+            "CT-01",
+            "CT-02"
+          ]
+        ],
+        [
+          "Possible benefits and trade-offs",
+          "Combined methods can offer predictable bleeding and help some cycle-related symptoms. The presence of estrogen matters for vascular risk; evaluate migraine with aura, clot history, high blood pressure, smoking at older ages and early postpartum status with a clinician.",
+          [
+            "CT-02",
+            "CT-12"
+          ]
+        ],
+        [
+          "Weight and cancer evidence",
+          "Trial reviews do not establish a large average weight effect for combined pills or patches. Cancer associations differ by cancer type: observational evidence links oral contraceptives to increased risks for some cancers and reduced risks for others. Neither finding determines a single person's balance.",
+          [
+            "CT-16",
+            "CT-14"
+          ]
+        ],
+        [
+          "When preparing to conceive",
+          "Fertility may return after stopping; a temporary delay in conception does not imply permanent infertility. Review the timing of stopping and alternative protection until ready.",
+          [
+            "CT-07",
+            "CT-08"
+          ]
+        ]
+      ]
+    },
+    {
+      "id": "mini-pill",
+      "title": "Progestin-only pill (mini-pill)",
+      "summary": "No estrogen, but a systemic progestin. A daily method with formulation-specific timing rules.",
+      "keywords": "mini pill minipill pop norethindrone norgestrel drospirenone estrogen free pill opill",
+      "paragraphs": [
+        [
+          "What estrogen-free means",
+          "This pill contains a progestin and no estrogen. Formulations differ in how consistently they suppress ovulation and their missed-pill instructions. The absence of estrogen does not eliminate all side effects.",
+          [
+            "CT-01",
+            "CT-02",
+            "CT-03"
+          ]
+        ],
+        [
+          "Use and suitability",
+          "Daily adherence and interactions matter. Unscheduled bleeding may occur. Review relevant conditions, especially breast cancer history and medication interactions, and use product-specific guidance rather than a generic missed-pill rule.",
+          [
+            "CT-02",
+            "CT-03"
+          ]
+        ],
+        [
+          "Comparing side effects",
+          "The weight and breast cancer literature does not justify assuming every progestin-only formulation has the same effect. The available studies differ in design, populations and endpoints.",
+          [
+            "CT-13",
+            "CT-17"
+          ]
+        ]
+      ]
+    },
+    {
+      "id": "implant-injection",
+      "title": "Arm implant & contraceptive injection",
+      "summary": "Estrogen-free systemic methods. The implant is removable; the injection has a longer tail after stopping.",
+      "keywords": "nexplanon etonogestrel implant depo provera dmpa shot injection arm birth control",
+      "paragraphs": [
+        [
+          "Different forms of progestin",
+          "The arm implant releases progestin continuously and is placed/removed professionally. The depot injection releases medicine over time and cannot be removed once given. Product-specific approved duration needs current label verification.",
+          [
+            "CT-01",
+            "CT-03"
+          ]
+        ],
+        [
+          "Bleeding, weight and bone health",
+          "Unpredictable bleeding may occur. Some DMPA studies report greater weight gain than comparison groups; evidence across progestin methods is limited. DMPA's bone-density considerations are a separate clinical discussion, not a reason to assume all progestins have identical effects.",
+          [
+            "CT-02",
+            "CT-17"
+          ]
+        ],
+        [
+          "Planning the transition",
+          "The prospective preconception cohort found the longest temporary conception delay after injectable contraception. That association does not imply permanent infertility or establish a mandatory washout. Discuss the timing of the last injection if pregnancy is planned.",
+          [
+            "CT-07",
+            "CT-08"
+          ]
+        ]
+      ]
+    },
+    {
+      "id": "barriers",
+      "title": "Condoms, diaphragm, cap & nonhormonal gels",
+      "summary": "Hormone-free options used around sex. Correct and consistent use matters; condoms also reduce STI risk.",
+      "keywords": "condom condoms barrier diaphragm cervical cap spermicide sponge phexxi vaginal ph gel nonhormonal",
+      "paragraphs": [
+        [
+          "Different barrier choices",
+          "External and internal condoms, diaphragms, cervical caps and sponges work by impeding sperm. Some products use spermicide or a vaginal pH modifier; their instructions and irritation risks differ.",
+          [
+            "CT-01",
+            "CT-02"
+          ]
+        ],
+        [
+          "Infection protection",
+          "Appropriate condoms reduce transmission of HIV and other STIs but not all infections or exposures. Most other contraception does not provide this protection. Natural-membrane condoms are not reliable for STI prevention.",
+          [
+            "CT-01"
+          ]
+        ],
+        [
+          "Trade-offs",
+          "No contraceptive hormone exposure or pharmacologic delay after stopping. The burden of using them correctly every time matters for pregnancy prevention; fitting, supply, comfort and partner cooperation vary.",
+          [
+            "CT-01",
+            "CT-03"
+          ]
+        ]
+      ]
+    },
+    {
+      "id": "fertility-awareness",
+      "title": "Fertility awareness & cycle tracking",
+      "summary": "Hormone-free methods based on fertility signs, not simply guessing the next period.",
+      "keywords": "natural family planning nfp symptothermal temperature mucus ovulation cycle tracking app calendar withdrawal rhythm natural cycles",
+      "paragraphs": [
+        [
+          "What the methods involve",
+          "Different approaches use calendar rules, cervical mucus, basal temperature or urinary hormone information. They have distinct evidence and training requirements. Avoiding unprotected intercourse during identified fertile days is central.",
+          [
+            "CT-01",
+            "CT-09"
+          ]
+        ],
+        [
+          "How strong is the research?",
+          "The systematic review found 53 eligible studies, none rated high quality by its authors. Estimates differed substantially across approaches and studies; a generic period tracker cannot inherit the effectiveness of a validated method.",
+          [
+            "CT-09"
+          ]
+        ],
+        [
+          "Limits while planning",
+          "Cycle variability, postpartum changes, recent hormonal contraception and inconsistent observations can complicate interpretation. Withdrawal is a separate behavioral method; evidence on trained fertility awareness does not establish its reliability. Do not use Everwell's pregnancy calendar as contraception or a fertility predictor.",
+          [
+            "CT-02",
+            "CT-03",
+            "CT-09"
+          ]
+        ]
+      ]
+    },
+    {
+      "id": "side-effects",
+      "title": "Hormones, mood, weight & long-term risks",
+      "summary": "Explore conflicting evidence on symptoms and serious outcomes separately, without equating lower drug levels with guaranteed safety.",
+      "keywords": "birth control hormones estrogen progesterone progestin depression mood anxiety libido weight cancer blood clots thrombosis side effects",
+      "paragraphs": [
+        [
+          "Mood: why studies disagree",
+          "Randomized trial synthesis found no average worsening of depressive symptoms among studied adults; a Danish registry study observed associations with depression-related outcomes, particularly in younger users. Different endpoints, selected trial participants and nonrandom exposure explain why results need not agree. Individual symptoms deserve attention.",
+          [
+            "CT-10",
+            "CT-11"
+          ]
+        ],
+        [
+          "Weight",
+          "Combination-method trials do not show a large average causal weight effect; progestin-only evidence is limited, with signals for DMPA. Body changes are not inevitable and method-specific estimates cannot be generalized.",
+          [
+            "CT-16",
+            "CT-17"
+          ]
+        ],
+        [
+          "Blood clots and vascular eligibility",
+          "A contemporary Danish registry study identified differences in venous clot associations between products. Combined hormonal methods require attention to estrogen-related eligibility. A nonsignificant result for IUDs is not proof of zero risk.",
+          [
+            "CT-12",
+            "CT-02"
+          ]
+        ],
+        [
+          "Cancer and uncertainty",
+          "Recent hormonal prescriptions were associated with breast cancer in a UK observational analysis; oral contraceptives also have associations with reduced ovarian and endometrial cancer risk. Absolute risk varies with age and history. Review current or previous breast cancer with a clinician.",
+          [
+            "CT-13",
+            "CT-14",
+            "CT-02"
+          ]
+        ],
+        [
+          "Get appropriate care",
+          "New severe mood symptoms warrant professional support. Chest pain, sudden breathing trouble or one-sided leg swelling/pain can be serious and need urgent assessment. Do not stop or change contraception without considering pregnancy prevention if still desired.",
+          [
+            "CT-02",
+            "CT-03"
+          ]
+        ]
+      ]
+    },
+    {
+      "id": "return-to-fertility",
+      "title": "Stopping birth control & trying for a baby",
+      "summary": "Compare temporary delays in conception, what is known about lasting fertility, and preconception planning.",
+      "keywords": "return fertility after birth control stop pill iud removal detox washout infertility conceive trying pregnancy ovulation planning",
+      "paragraphs": [
+        [
+          "What was measured",
+          "A prospective cohort followed 17,954 people planning pregnancy. Some prior hormonal methods were associated with temporary conception delays; injectable contraception showed the longest delay. Fecundability means the chance of pregnancy per cycle, not proof that ovulation was absent.",
+          [
+            "CT-07"
+          ]
+        ],
+        [
+          "Longer-term evidence",
+          "A separate review pooled 12-month pregnancy outcomes after stopping reversible contraception. The estimate was 83.1% (95% CI 78.2–88%), across heterogeneous observational studies. It cannot predict an individual's chance or prove every method is equivalent.",
+          [
+            "CT-08"
+          ]
+        ],
+        [
+          "No universal detox interval",
+          "These studies do not establish a required hormone-clearing period before trying. Fertility can return before a first recognizable period. For IUD or implant removal, plan a clinician visit; for injections, discuss potentially longer timing. Maintain protection until pregnancy is wanted.",
+          [
+            "CT-03",
+            "CT-07",
+            "CT-08"
+          ]
+        ],
+        [
+          "Prepare together",
+          "Review medications, existing conditions, vaccinations and preconception nutrition with a clinician before trying. If cycles do not return or conception is delayed, ask for assessment rather than assuming contraception caused infertility.",
+          [
+            "CT-07",
+            "CT-08"
+          ]
+        ]
+      ]
+    },
+    {
+      "id": "emergency-postpartum",
+      "title": "Emergency contraception, postpartum & permanent options",
+      "summary": "Special situations require separate evidence and eligibility; emergency methods are not routine contraception.",
+      "keywords": "plan b ella morning after emergency contraception breastfeeding lactational amenorrhea postpartum vasectomy tubal ligation permanent sterilization",
+      "paragraphs": [
+        [
+          "Emergency contraception",
+          "Copper IUD and emergency contraceptive pills are time-sensitive options in CDC guidance. Contact a clinician or pharmacist promptly after unprotected sex or method failure; different pills and subsequent hormonal methods can interact. A trial also studied the 52-mg LNG IUD for emergency use, but this is not evidence for every hormonal IUD or a self-directed protocol.",
+          [
+            "CT-19",
+            "CT-18"
+          ]
+        ],
+        [
+          "After birth",
+          "Postpartum and breastfeeding timing affect method eligibility. Lactational amenorrhea is temporary and requires all three conditions: no return of menstruation, full or nearly full breastfeeding, and less than six months since delivery. If any condition changes, it no longer meets the definition.",
+          [
+            "CT-01",
+            "CT-02"
+          ]
+        ],
+        [
+          "Permanent methods",
+          "Vasectomy and tubal procedures are intended to be permanent, so they are different from reversible planning. Vasectomy is not immediately effective; a clinician confirms when backup protection can stop. Reversal cannot be guaranteed.",
+          [
+            "CT-01",
+            "CT-03"
+          ]
+        ]
+      ]
+    }
+  ],
+  "methods": [
+    {
+      "name": "Copper IUD",
+      "hormones": "None",
+      "low": 0.8,
+      "high": 0.8,
+      "tradeoff": "Long-acting; insertion/removal; bleeding may increase",
+      "topic": "copper-iud",
+      "source": "CT-01"
+    },
+    {
+      "name": "LNG IUD",
+      "hormones": "Progestin, mainly local",
+      "low": 0.1,
+      "high": 0.4,
+      "tradeoff": "Long-acting; often lighter periods",
+      "topic": "hormonal-iud",
+      "source": "CT-01"
+    },
+    {
+      "name": "Arm implant",
+      "hormones": "Systemic progestin",
+      "low": 0.1,
+      "high": 0.1,
+      "tradeoff": "Long-acting; removal visit; irregular bleeding",
+      "topic": "implant-injection",
+      "source": "CT-01"
+    },
+    {
+      "name": "Injection",
+      "hormones": "Systemic progestin",
+      "low": 4,
+      "high": 4,
+      "tradeoff": "Repeat injection; possible longer fertility delay",
+      "topic": "implant-injection",
+      "source": "CT-01"
+    },
+    {
+      "name": "Combined pill",
+      "hormones": "Estrogen + progestin",
+      "low": 7,
+      "high": 7,
+      "tradeoff": "Daily; estrogen eligibility",
+      "topic": "pill-patch-ring",
+      "source": "CT-01"
+    },
+    {
+      "name": "Patch",
+      "hormones": "Estrogen + progestin",
+      "low": 7,
+      "high": 7,
+      "tradeoff": "Scheduled changes; systemic exposure",
+      "topic": "pill-patch-ring",
+      "source": "CT-01"
+    },
+    {
+      "name": "Vaginal ring",
+      "hormones": "Estrogen + progestin",
+      "low": 7,
+      "high": 7,
+      "tradeoff": "Scheduled changes; systemic exposure",
+      "topic": "pill-patch-ring",
+      "source": "CT-01"
+    },
+    {
+      "name": "Progestin-only pill",
+      "hormones": "Systemic progestin",
+      "low": 7,
+      "high": 7,
+      "tradeoff": "Daily; product-specific timing",
+      "topic": "mini-pill",
+      "source": "CT-01"
+    },
+    {
+      "name": "External condom",
+      "hormones": "None",
+      "low": 13,
+      "high": 13,
+      "tradeoff": "Each sex act; STI protection for appropriate materials",
+      "topic": "barriers",
+      "source": "CT-01"
+    },
+    {
+      "name": "Internal condom",
+      "hormones": "None",
+      "low": 21,
+      "high": 21,
+      "tradeoff": "Each sex act; STI protection",
+      "topic": "barriers",
+      "source": "CT-01"
+    },
+    {
+      "name": "Diaphragm",
+      "hormones": "None",
+      "low": 17,
+      "high": 17,
+      "tradeoff": "Each sex act; fitting and spermicide",
+      "topic": "barriers",
+      "source": "CT-01"
+    },
+    {
+      "name": "Cervical cap",
+      "hormones": "None",
+      "low": 22,
+      "high": 22,
+      "tradeoff": "Each sex act; fitting and spermicide",
+      "topic": "barriers",
+      "source": "CT-01"
+    },
+    {
+      "name": "Sponge",
+      "hormones": "None",
+      "low": 17,
+      "high": 17,
+      "tradeoff": "Each sex act; product instructions",
+      "topic": "barriers",
+      "source": "CT-01"
+    },
+    {
+      "name": "Spermicide / pH regulator",
+      "hormones": "None",
+      "low": 21,
+      "high": 21,
+      "tradeoff": "Grouped CDC reference; individual products vary",
+      "topic": "barriers",
+      "source": "CT-01"
+    },
+    {
+      "name": "Fertility-awareness methods",
+      "hormones": "None",
+      "low": 2,
+      "high": 23,
+      "tradeoff": "Training and adherence; method-dependent range",
+      "topic": "fertility-awareness",
+      "source": "CT-01"
+    }
+  ]
+}

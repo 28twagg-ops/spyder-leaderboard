@@ -11,6 +11,7 @@ function primary(path:string):PrimaryTab|undefined {
  if(path==='/library')return '/library'
 }
 function defaultTab(path:string):PrimaryTab{
+ if(path.startsWith('/contraception'))return '/timeline'
  if(path.startsWith('/evidence')||path.startsWith('/visuals'))return '/explore'
  if(path.startsWith('/research'))return '/library'
  return '/'
