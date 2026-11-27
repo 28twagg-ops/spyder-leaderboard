@@ -23,7 +23,7 @@ export function TimelinePage({selectedPhaseId}:{selectedPhaseId?:string|null}={}
  const activeTrack=timeline.find(p=>p.id===selectedPhaseId)?.track
  const weekPicker=<div className="panel stack"><label htmlFor="chosen-week" className="section-title">Pregnancy week</label><select id="chosen-week" value={week?.week??''} onChange={e=>navigate(e.target.value?`/timeline/week/${e.target.value}`:'/timeline/pregnancy')}><option value="">Choose a week</option>{weeks.map(w=><option key={w.week} value={w.week}>Week {w.week}</option>)}</select></div>
  if((weekNumber&&!week)||(phaseId&&!phase)||(track&&!chosenTrack))return <div className="stack-lg"><ScreenHeading title="Reading period not found" back="/timeline" backLabel="Journey"/><p>Choose an available stage or pregnancy week.</p></div>
- if(week?.week===22)return <Week22Pilot week={week} weekPicker={weekPicker}/>
+ if(week?.week===22)return <Week22Pilot/>
  if(week){
   const source=week.source_id?getSource(week.source_id):undefined
   const maternal=timeline.find(p=>p.id===week.maternal_phase)

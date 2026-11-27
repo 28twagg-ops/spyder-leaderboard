@@ -1,9 +1,9 @@
-import { Link } from 'react-router-dom'
+import { Link, useParams } from 'react-router-dom'
 import { useViewState } from '../hooks/useViewMemory'
 import { Glyph } from '../components/Glyph'
 import { ReadingRow } from '../components/ReadingUI'
 import { DraftBanner } from '../components/DraftBanner'
-import { type GestationalWeek, getSource } from '../data/researchCatalog'
+import { type GestationalWeek, gestationalWeeks, getSource } from '../data/researchCatalog'
 import { safeVisualUrl } from '../data/visualCatalog'
 
 /** One deliberately bounded design pilot. General educational concepts, not individual measurements or care instructions. */
@@ -34,33 +34,46 @@ function MotherDiagram({kind}:{kind:Concept}){
 function PlacentaDiagram(){
  return <figure className="pilot-flow"><figcaption>How the connection works</figcaption><div className="pilot-flow-line"><div><strong>Mother</strong><small>Blood supply</small></div><span aria-hidden="true">↔</span><div><strong>Placenta</strong><small>Exchange</small></div><span aria-hidden="true">↔</span><div><strong>Baby</strong><small>Umbilical cord</small></div></div><p className="pilot-flow-key">Oxygen and nutrients pass toward the baby; waste products pass back through the placenta. The two blood supplies normally remain separate.</p><small>Concept diagram, not an anatomical drawing.</small></figure>
 }
-export function Week22Pilot({week,weekPicker}:{week:GestationalWeek;weekPicker:React.ReactNode}){
+
+const base='/timeline/week/22'
+const entries={
+ mother:[['Skin','Stretch marks & care','skin'],['Movement','Activity & movement','movement'],['Digestion','Digestive changes','digestion'],['Nutrition','Food & nutrients','nutrition'],['Your body','Pelvic floor & anatomy','body'],['Checkups','Prenatal care','checkups']],
+ baby:[['Skin','Skin & fine hair','skin'],['Movement','Muscle development','movement'],['Digestion','First stool','digestion'],['Placenta','Oxygen & nutrients','placenta'],['Senses','Hearing & responses','senses'],['Growth','Development & anatomy','growth']]
+} as const
+function topicPath(subject:'mother'|'baby',topic:string){
+ const direct:Record<string,string>={nutrition:'/research/EV-ART-015',body:'/research/EV-ART-020',checkups:'/research/EV-ART-013',placenta:'/visuals/EV-V005',senses:'/research/EV-ART-014',growth:'/research/EV-ART-014'}
+ return direct[topic]??base+'/'+subject+'/'+topic
+}
+function TopicArt({subject,topic}:{subject:'mother'|'baby';topic:string}){
+ if(topic==='skin'||topic==='movement'||topic==='digestion')return subject==='mother'?<MotherDiagram kind={topic}/>:<ConceptDiagram kind={topic}/>
+ return <svg viewBox="0 0 140 75" aria-hidden="true" focusable="false" className="directory-art"><g stroke="currentColor" strokeWidth="1.65" fill="none" strokeLinecap="round" strokeLinejoin="round">
+ {topic==='nutrition'?<><path d="M70 23c-14-14-33-3-29 16 3 14 13 25 22 24l7-3 7 3c10 1 20-13 22-24 3-19-15-30-29-16Z" fill="var(--accent-soft)"/><path d="M70 24c0-15 9-17 21-17-3 10-11 14-21 12"/></>:topic==='body'?<><path d="M49 12q-12 23-2 36t23 16q13-2 23-16t-2-36M49 38q21 18 42 0M70 18v35" fill="var(--accent-soft)"/><path d="M49 50q21 13 42 0"/></>:topic==='checkups'?<><rect x="44" y="13" width="52" height="52" rx="6" fill="var(--accent-soft)"/><path d="M59 13v-5h22v5M54 40h9l5-10 7 21 5-11h7"/></>:topic==='placenta'?<><ellipse cx="65" cy="35" rx="27" ry="22" fill="var(--accent-soft)"/><path d="M65 54V34l-12-12m12 12 13-15M65 34l-17 8m17-8 19 8M65 54q8 13 26 10"/></>:topic==='senses'?<><path d="M57 55c-9-8-15-14-15-24a24 24 0 1 1 48 0c0 13-14 18-15 27-2 15-18 13-18-3Z" fill="var(--accent-soft)"/><path d="M56 32c0-15 20-17 20-3 0 8-9 10-11 18M102 22q12 10 0 22"/></>:<><circle cx="70" cy="21" r="13" fill="var(--accent-soft)"/><path d="M70 34v21m-19-15 19 8 19-8m-31 26 12-11 12 11"/></>}
+ </g></svg>
+}
+export function Week22Pilot(){
  const [subject,setSubject]=useViewState<'baby'|'mother'>('pilot.week22.subject','baby')
- const [selected,setSelected]=useViewState<Concept>('pilot.week22.concept','skin')
- const isBaby=subject==='baby'
- const items=isBaby?concepts:motherConcepts
- const concept=items.find(item=>item.id===selected)??items[0]
- const source=week.source_id?getSource(week.source_id):undefined
- return <div className="pilot-week" id="week-22">
-  <header className="pilot-header"><div className="pilot-header-top"><Link className="reader-back" to="/timeline/pregnancy"><Glyph name="back"/>Pregnancy</Link><span className="pilot-kicker">SECOND TRIMESTER</span></div><h1 className="page-title">Week 22</h1><div className="pilot-progress" role="img" aria-label="Week 22 of a 40-week pregnancy reference timeline"><div><span style={{width:'55%'}}/></div><div className="pilot-progress-meta"><small>22 of 40 weeks</small><small>Research draft · review pending</small></div></div></header>
-  <div className="pilot-subject" role="group" aria-label="Whose changes are shown?"><button type="button" aria-pressed={!isBaby} onClick={()=>setSubject('mother')}>Mother <small>Your body</small></button><button type="button" aria-pressed={isBaby} onClick={()=>setSubject('baby')}>Baby <small>Development</small></button></div>
-  <section className="pilot-learn" aria-labelledby="pilot-learn">
-   <div className="pilot-section-heading"><h2 id="pilot-learn">{isBaby?'Your baby':'Your body'}</h2></div>
-   <div className="pilot-tabs" role="group" aria-label="Development topic">{items.map(item=><button type="button" key={item.id} aria-pressed={selected===item.id} onClick={()=>setSelected(item.id)}>{item.label}</button>)}</div>
-   <div className="pilot-concept" aria-live="polite" key={subject}>
-    <div className="pilot-visual">{isBaby?<ConceptDiagram kind={concept.id}/>:<MotherDiagram kind={concept.id}/>}</div>
-    <div className="pilot-concept-text"><span className="pilot-context">{isBaby?'Baby':'Mother'} · {concept.label}</span><h3>{concept.heading}</h3><p>{concept.copy}</p><small className="pilot-diagram-caption">Simplified concept illustration · Not clinical anatomy</small>
-     <details key={subject+concept.id} className="disclosure"><summary>Understand more</summary><p>{concept.detail}</p><a href={concept.source} target="_blank" rel="noreferrer">Original source ↗</a></details>
-    </div>
-   </div>
-  </section>
-  <div className="pilot-safety"><strong>Safety comes first</strong><p>Every pregnancy is different. This page cannot assess symptoms or growth. Contact your maternity care team immediately if movements slow, stop or change from their usual pattern. Do not wait for your next checkup if you have warning signs.</p><Link to="/urgent">Know the warning signs ›</Link></div>
-  <DraftBanner status="research_only"/>
-  <section className="pilot-section" aria-label="Related reading">
-   <h2 className="section-title">Explore more</h2>
-   {isBaby?<><div className="surface-list"><ReadingRow to="/visuals/EV-V005" title="Explore the placenta" subtitle="Original labeled textbook illustration"/><ReadingRow to="/research/EV-ART-014" title="How the baby develops" subtitle="The longer view of fetal development"/></div><details className="panel disclosure"><summary>How the placenta supports your baby</summary><PlacentaDiagram/></details></>:<div className="surface-list"><ReadingRow to="/research/EV-ART-018" title="Skin changes and stretch marks" subtitle="What changes and what the evidence says"/><ReadingRow to="/research/EV-ART-016" title="Movement and strength" subtitle="Exercise research and safety"/><ReadingRow to="/research/EV-ART-013" title="Pregnancy checkups" subtitle="What your care team looks at"/><ReadingRow to="/visuals/EV-V004" title="How the uterus grows" subtitle="Original textbook illustration"/></div>}
-   <details className="panel disclosure"><summary>Explore the science &amp; sources</summary><p>Research draft, pending independent review. The descriptions are typical developments, not an assessment of an individual pregnancy.</p><p>{week.description}</p><p>{week.interpretation}</p>{safeVisualUrl(source?.url)&&<p><a href={safeVisualUrl(source?.url)} target="_blank" rel="noreferrer">{source?.title??'Original week reference'} ↗</a></p>}<p><a href="https://www.nhs.uk/best-start-in-life/pregnancy/week-by-week-guide-to-pregnancy/2nd-trimester/week-22/" target="_blank" rel="noreferrer">NHS · Week 22 overview ↗</a></p><p><a href="https://www.nhs.uk/pregnancy/keeping-well/your-babys-movements/" target="_blank" rel="noreferrer">NHS · Baby's movements ↗</a></p><p><a href="https://medlineplus.gov/ency/imagepages/17010.htm" target="_blank" rel="noreferrer">MedlinePlus · Placenta ↗</a></p></details>
-  </section>
-  <div className="page-controls"><Link className="btn btn-ghost" to="/timeline/week/21">Previous</Link><span className="muted">22 / 40</span><Link className="btn btn-ghost" to="/timeline/week/23">Next</Link></div>{weekPicker}
+ return <div className="pilot-week week-directory" id="week-22">
+ <header className="pilot-header"><div className="pilot-header-top"><Link className="reader-back" to="/timeline/pregnancy"><Glyph name="back"/>Pregnancy</Link><span className="pilot-kicker">SECOND TRIMESTER</span></div><h1 className="page-title">Week 22</h1><div className="pilot-progress" role="img" aria-label="Week 22 of a 40-week pregnancy reference timeline"><div><span style={{width:'55%'}}/></div><div className="pilot-progress-meta"><small>22 of 40 weeks</small><small>Research draft · review pending</small></div></div></header>
+ <div className="pilot-subject" role="group" aria-label="Whose changes are shown?"><button type="button" aria-pressed={subject==='mother'} onClick={()=>setSubject('mother')}>Mother <small>Your body</small></button><button type="button" aria-pressed={subject==='baby'} onClick={()=>setSubject('baby')}>Baby <small>Development</small></button></div>
+ <h2 className="section-title">{subject==='mother'?'Your changing body':'Your growing baby'}</h2>
+ <nav className="week-topic-grid" aria-label="Development topics">{entries[subject].map(([title,subtitle,id])=><Link className="week-topic-tile" key={id} to={topicPath(subject,id)}><TopicArt subject={subject} topic={id}/><strong>{title}</strong><small>{subtitle}</small></Link>)}</nav>
+ <div className="week-safety-note" role="note" aria-label="Content status">Research draft, not medical advice. <Link to="/urgent">Warning signs</Link></div>
+ <div className="page-controls"><Link className="btn btn-ghost" to="/timeline/week/21">Previous</Link><Link className="week-select-link" to="/timeline/pregnancy">Choose week</Link><Link className="btn btn-ghost" to="/timeline/week/23">Next</Link></div>
  </div>
+}
+export function Week22ConceptPage(){
+ const {subject,topic}=useParams()
+ const validSubject=subject==='mother'||subject==='baby'
+ const week=gestationalWeeks.find(w=>w.week===22) as GestationalWeek|undefined
+ if(!validSubject||!week||!['skin','movement','digestion'].includes(topic??''))return <div className="stack"><h1 className="page-title">Topic not found</h1><Link to={base}>Back to Week 22</Link></div>
+ const isBaby=subject==='baby',items=isBaby?concepts:motherConcepts
+ const concept=items.find(item=>item.id===topic)!
+ const source=week.source_id?getSource(week.source_id):undefined
+ return <div className="pilot-week stack-lg"><header className="pilot-header"><Link className="reader-back" to={base}><Glyph name="back"/>Week 22</Link><small className="pilot-kicker">{isBaby?'BABY':'MOTHER'}</small><h1 className="page-title">{concept.label}</h1></header>
+ <div className="pilot-visual">{isBaby?<ConceptDiagram kind={concept.id}/>:<MotherDiagram kind={concept.id}/>}</div><h2 className="section-title">{concept.heading}</h2><p>{concept.copy} <a href={concept.source} target="_blank" rel="noreferrer">[1]</a></p><small className="muted">Concept illustration, not clinical anatomy.</small>
+ <details className="panel disclosure"><summary>Understand more</summary><p>{concept.detail} <a href={concept.source} target="_blank" rel="noreferrer">[1]</a></p></details>
+ <div className="pilot-safety"><strong>Safety comes first</strong><p>Contact your maternity care team immediately if movements slow, stop or change from their usual pattern.</p><Link to="/urgent">Know the warning signs ›</Link></div>
+ {isBaby?<><ReadingRow to="/research/EV-ART-014" title="How the baby develops"/><ReadingRow to="/visuals/EV-V005" title="Explore the placenta"/><details className="panel disclosure"><summary>How the placenta supports your baby</summary><PlacentaDiagram/></details></>:<ReadingRow to={topic==='movement'?'/research/EV-ART-016':'/research/EV-ART-015'} title={topic==='movement'?'Activity and strength':'Nutrition and food safety'}/>}
+ <details className="panel disclosure"><summary>Original week sources</summary><p>{week.description}</p><p>{week.interpretation}</p>{safeVisualUrl(source?.url)&&<a href={safeVisualUrl(source?.url)} target="_blank" rel="noreferrer">{source?.title??'Original week reference'} ↗</a>}<p><a href={concept.source} target="_blank" rel="noreferrer">[1] Original topic source ↗</a></p></details>
+ <DraftBanner status="research_only"/></div>
 }

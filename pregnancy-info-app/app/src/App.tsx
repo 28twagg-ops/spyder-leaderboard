@@ -15,12 +15,15 @@ import { emptyBrowse, type BrowseState } from './data/browseState'
 import { SettingsPage } from './pages/SettingsPage'
 import { UrgentPage } from './pages/UrgentPage'
 import { ResearchPage } from './pages/ResearchPage'
+import { Week22ConceptPage } from './pages/Week22Pilot'
 import { TimelinePage } from './pages/TimelinePage'
 import { TodayPage } from './pages/TodayPage'
 const VisualLibraryPage = lazy(async () => {
   const mod = await import('./pages/VisualLibraryPage')
   return { default: mod.VisualLibraryPage }
 })
+
+const SkinTopicPage=lazy(async()=>({default:(await import('./pages/SkinTopicPage')).SkinTopicPage}))
 
 const EvidencePage = lazy(async () => {
   const mod = await import('./pages/EvidencePage')
@@ -46,6 +49,10 @@ function AppShell() {
             <Route path="/timeline" element={<TimelinePage selectedPhaseId={prefs.selectedPhaseId} />} />
             <Route path="/timeline/:track" element={<TimelinePage selectedPhaseId={prefs.selectedPhaseId} />} />
             <Route path="/timeline/:track/:phaseId" element={<TimelinePage selectedPhaseId={prefs.selectedPhaseId} />} />
+            <Route path="/timeline/week/22/mother/skin" element={<SkinTopicPage/>}/>
+            <Route path="/timeline/week/22/mother/skin/:section" element={<SkinTopicPage/>}/>
+            <Route path="/timeline/week/22/mother/skin/:section/:child" element={<SkinTopicPage/>}/>
+            <Route path="/timeline/week/22/:subject/:topic" element={<Week22ConceptPage/>}/>
             <Route path="/timeline/week/:weekNumber" element={<TimelinePage selectedPhaseId={prefs.selectedPhaseId} />} />
             <Route path="/explore" element={<ExplorePage />} />
             <Route path="/explore/:domain" element={<ExplorePage />} />

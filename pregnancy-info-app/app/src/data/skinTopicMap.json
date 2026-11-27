@@ -1,0 +1,360 @@
+{
+  "version": 1,
+  "status": "design inventory only; all clinical content and chart publication blocked pending qualified review",
+  "source_index_revision": "2043f23dabae8dc7c3b7fed009153d7f3fee2f14",
+  "summary": {
+    "mapped_source_records": 111,
+    "canonical_tagged_records": 86,
+    "canonical_tagged_unmapped": 0,
+    "linked_outcome_records": 18,
+    "explicit_held_source_ids": [
+      "RP005",
+      "RP001"
+    ]
+  },
+  "sections": [
+    {
+      "id": "prevention",
+      "title": "Stretch mark prevention",
+      "stage": "pregnancy",
+      "children": [
+        {
+          "title": "Creams and moisturizers",
+          "source_ids": [
+            "S001",
+            "S002",
+            "S004",
+            "S006",
+            "S007",
+            "S008",
+            "S009",
+            "P3-01",
+            "P3-02"
+          ],
+          "outcome_ids": [
+            "O001",
+            "GA-N06",
+            "P3-E01"
+          ],
+          "explicit_hold_source_ids": []
+        },
+        {
+          "title": "Natural oils and massage",
+          "source_ids": [
+            "S003",
+            "S005",
+            "S007",
+            "S010",
+            "RP003",
+            "RP004",
+            "P3-03",
+            "P3-04",
+            "G002"
+          ],
+          "note": "Keep massage plus oil distinct from oil alone; no bitter almond oil protocol; abstract-only coconut oil findings not cleared for charting.",
+          "outcome_ids": [
+            "P3-E02",
+            "P3-E03",
+            "P3-E04",
+            "P3-E05"
+          ],
+          "explicit_hold_source_ids": []
+        },
+        {
+          "title": "Collagen and supplements",
+          "source_ids": [
+            "S011",
+            "S012",
+            "S013",
+            "S014",
+            "S015",
+            "S016",
+            "S017",
+            "CL02",
+            "N323",
+            "N324",
+            "P3-05",
+            "P3-06",
+            "P3-07"
+          ],
+          "note": "Adult skin aging/hydration evidence is indirect; no pregnancy prevention inference or dose.",
+          "outcome_ids": [
+            "H01",
+            "H02",
+            "H03",
+            "P3-E06",
+            "P3-E07",
+            "P3-E08"
+          ],
+          "explicit_hold_source_ids": []
+        },
+        {
+          "title": "Why stretch marks develop",
+          "source_ids": [
+            "S023",
+            "S206",
+            "S216",
+            "R008",
+            "R010",
+            "H049"
+          ],
+          "note": "General anatomy and risk factors, no individual prediction or appearance score.",
+          "outcome_ids": [],
+          "explicit_hold_source_ids": []
+        }
+      ]
+    },
+    {
+      "id": "comfort",
+      "title": "Skin care & comfort",
+      "stage": "pregnancy",
+      "children": [
+        {
+          "title": "Dryness, itching and skin changes",
+          "source_ids": [
+            "S106",
+            "S204",
+            "S205",
+            "S216",
+            "S023"
+          ],
+          "note": "Comfort is not prevention. Preserve urgent warning links and clinical assessment for concerning symptoms; no new self-treatment instructions.",
+          "outcome_ids": [],
+          "explicit_hold_source_ids": []
+        }
+      ]
+    },
+    {
+      "id": "acne-pigmentation",
+      "title": "Acne & pigmentation",
+      "stage": "pregnancy",
+      "children": [
+        {
+          "title": "Acne and ingredient safety",
+          "source_ids": [
+            "S105",
+            "S107",
+            "S108",
+            "S109",
+            "N311",
+            "P3-30",
+            "RP002",
+            "RP005",
+            "IA004",
+            "IA005"
+          ],
+          "note": "Stage-specific safety; topical retinoid avoidance during pregnancy; held studies not used for recommendations or numerical charts.",
+          "outcome_ids": [
+            "O019",
+            "O030"
+          ],
+          "explicit_hold_source_ids": [
+            "RP005"
+          ]
+        },
+        {
+          "title": "Dark spots and sun protection",
+          "source_ids": [
+            "S104",
+            "S212",
+            "R014",
+            "H019",
+            "H020",
+            "IA001",
+            "IA002",
+            "IA003",
+            "P3-28",
+            "S204"
+          ],
+          "note": "Separate general adult melasma studies from pregnancy-specific evidence; distinguish lack of lactation data from known harm.",
+          "outcome_ids": [
+            "P3-E29"
+          ],
+          "explicit_hold_source_ids": []
+        }
+      ]
+    },
+    {
+      "id": "treatment",
+      "title": "Treatments after pregnancy",
+      "stage": "postpartum",
+      "children": [
+        {
+          "title": "Existing stretch marks and creams",
+          "source_ids": [
+            "S023",
+            "S026",
+            "S027",
+            "S216",
+            "G001",
+            "G002",
+            "IA005",
+            "RP001",
+            "RP005",
+            "P7-37"
+          ],
+          "note": "Existing unsafe pregnancy recommendation and numerical discrepancies retain holds; no prescription.",
+          "outcome_ids": [],
+          "explicit_hold_source_ids": [
+            "RP001",
+            "RP005"
+          ]
+        },
+        {
+          "title": "Laser, microneedling and other procedures",
+          "source_ids": [
+            "S018",
+            "S019",
+            "S020",
+            "S021",
+            "S022",
+            "S024",
+            "S025",
+            "H037",
+            "H038",
+            "H039",
+            "S198",
+            "S199",
+            "CL24",
+            "DR014",
+            "P3-31",
+            "P7-35",
+            "P7-37",
+            "P7-38"
+          ],
+          "note": "Elective care research, not universal postpartum clearance; retain FDA safety communications and avoid procedure instructions.",
+          "outcome_ids": [],
+          "explicit_hold_source_ids": []
+        }
+      ]
+    },
+    {
+      "id": "hair",
+      "title": "Hair changes",
+      "stage": "pregnancy and postpartum; separate linked topic",
+      "children": [
+        {
+          "title": "Hair cycle and postpartum shedding",
+          "source_ids": [
+            "S110",
+            "S111",
+            "S112",
+            "S113",
+            "S114",
+            "S115",
+            "S116",
+            "S117",
+            "S205",
+            "N321",
+            "P3-29"
+          ],
+          "note": "No causal inference from breastfeeding associations; stage-specific medication review.",
+          "outcome_ids": [],
+          "explicit_hold_source_ids": []
+        }
+      ]
+    },
+    {
+      "id": "scar",
+      "title": "Scar and wound recovery",
+      "stage": "postpartum; separate linked topic",
+      "children": [
+        {
+          "title": "Healed scar care and massage",
+          "source_ids": [
+            "S118",
+            "S119",
+            "S120",
+            "S121",
+            "S122",
+            "S208",
+            "M07",
+            "M08",
+            "M09",
+            "N315",
+            "GE008",
+            "P3-24",
+            "P3-25",
+            "P3-26"
+          ],
+          "note": "Keep surgical scars distinct from stretch marks; no treatment on open wounds or unreviewed massage/device protocol.",
+          "outcome_ids": [],
+          "explicit_hold_source_ids": []
+        },
+        {
+          "title": "Birth injuries and wound concerns",
+          "source_ids": [
+            "S123",
+            "S124",
+            "S125",
+            "S126",
+            "S189",
+            "P7-29",
+            "DR017"
+          ],
+          "note": "Keep urgent wound assessment separate from elective scar appearance. Perineal pain light therapy is not skin rejuvenation.",
+          "outcome_ids": [
+            "O020",
+            "P7-E27"
+          ],
+          "explicit_hold_source_ids": []
+        }
+      ]
+    }
+  ],
+  "possible_duplicate_publication_groups": [
+    [
+      "S001",
+      "P3-01"
+    ],
+    [
+      "S004",
+      "P3-02"
+    ],
+    [
+      "RP004",
+      "P3-04"
+    ],
+    [
+      "S011",
+      "P3-05"
+    ],
+    [
+      "S012",
+      "P3-07"
+    ],
+    [
+      "CL02",
+      "P3-06"
+    ],
+    [
+      "S212",
+      "P3-28"
+    ],
+    [
+      "S198",
+      "P3-31",
+      "P7-38"
+    ],
+    [
+      "S114",
+      "P3-29"
+    ],
+    [
+      "GE008",
+      "P3-25"
+    ]
+  ],
+  "duplicate_policy": "Group DOI/PMID/known prior IDs; manually resolve overlapping cohorts, review/primary trial overlap and conflicting metadata. No study count from source record count.",
+  "article_ids": [
+    "EV-ART-018",
+    "EV-ART-026",
+    "EV-ART-031"
+  ],
+  "visual_ids": [
+    "EV-V003",
+    "EV-SVG-1",
+    "EV-V028"
+  ],
+  "funding_policy": "Use COMPARE_EVIDENCE_STANDARD.md and FUNDING_STANDARD.md. Preserve original funding/conflicts fields, reconcile alias records, separate direct/in-kind/sponsor role/unknown and methodological risk of bias; no automatic independent designation; no arbitrary scores."
+}
