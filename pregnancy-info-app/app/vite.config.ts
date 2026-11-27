@@ -57,7 +57,7 @@ export default defineConfig(({mode}) => {
         ...(mode==='pages'?{
           directoryIndex:null,
           navigateFallback:null,
-          runtimeCaching:[{urlPattern:({request}:{request:Request})=>request.mode==='navigate',handler:'NetworkOnly' as const,options:{networkTimeoutSeconds:4,precacheFallback:{fallbackURL:base+'index.html'}}}],
+          runtimeCaching:[{urlPattern:({request}:{request:Request})=>request.mode==='navigate',handler:'NetworkOnly' as const,options:{precacheFallback:{fallbackURL:base+'index.html'}}}],
         }:{navigateFallback:base+'index.html'}),
         globIgnores:['**/version.json'],
         globPatterns: ['**/*.{js,css,html,svg,png,ico,json,woff2}'],

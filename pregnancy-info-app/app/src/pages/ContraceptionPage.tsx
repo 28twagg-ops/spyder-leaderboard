@@ -1,6 +1,7 @@
 import {useState} from 'react'
 import {Link,useParams} from 'react-router-dom'
 import {ReadingRow,ScreenHeading} from '../components/ReadingUI'
+import {ContraceptionPreferences} from '../components/ContraceptionPreferences'
 import {ContraceptionArt} from '../components/ContraceptionArt'
 import {contraception,contraceptionPath} from '../data/contraception'
 const {sources,sections,methods,evidencePanels}=contraception
@@ -83,7 +84,7 @@ function Overview(){
  <Link to={path('method-hormonal-iud')}><small>Lower systemic LNG</small><strong>Hormonal IUD</strong><span>0.1–0.4% · not hormone-free</span></Link>
  <Link to={path('decision-guide')}><small>No placement</small><strong>Barriers &amp; pills</strong><span>Explore the trade-offs</span></Link>
  </div><p className="bc-subtle">These are examples for different priorities, not an overall medical ranking. <SourceLinks ids={['CT-01','CT-02','CT-06']}/></p></section>
- <button type="button" className="bc-more" onClick={()=>document.getElementById("bc-research-comparisons")?.scrollIntoView({block:"start"})}>Jump to comparison graphs <span aria-hidden="true">↓</span></button><MethodDirectory/><ResearchDashboard/>
+ <button type="button" className="bc-more" onClick={()=>document.getElementById("bc-research-comparisons")?.scrollIntoView({block:"start"})}>Jump to comparison graphs <span aria-hidden="true">↓</span></button><ReadingRow to={path("personal-preferences")} title="Find methods that match your priorities" subtitle="Set importance, compare features and understand trade-offs"/><MethodDirectory/><ResearchDashboard/>
  <section className="bc-section"><div className="bc-heading"><h2>Read more</h2></div><div className="surface-list">{['decision-guide','after-conception','sexual-health','side-effects','emergency-postpartum'].map(id=>{const s=sections.find(x=>x.id===id)!;return <ReadingRow key={id} to={path(id)} title={s.title} subtitle={s.summary}/>})}<ReadingRow to="/explore/prep" title="More preparation for pregnancy"/></div></section>
  <References ids={sources.map(s=>s.id)}/><p className="small-copy muted">Source-linked educational research. Full independent and qualified clinical review pending.</p></div>
 }
@@ -111,6 +112,7 @@ function PriorityGuide(){
 export function ContraceptionPage(){
  const {topic}=useParams()
  if(!topic)return <Overview/>
+ if(topic==='personal-preferences')return <div className="bc-page stack-lg"><ScreenHeading title="Your contraception priorities" subtitle="Compare features on your terms" back={contraceptionPath} historyBack/><ContraceptionPreferences/></div>
  if(topic.startsWith('method-')){const m=methods.find(x=>'method-'+x.slug===topic);if(m)return <IndividualMethod m={m}/>}
  const section=sections.find(s=>s.id===topic)
  if(!section)return <div className="stack"><ScreenHeading title="Topic not found" back={contraceptionPath} backLabel="Birth control"/></div>

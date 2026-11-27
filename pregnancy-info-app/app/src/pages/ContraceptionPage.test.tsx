@@ -5,6 +5,18 @@ import App from '../App'
 import {contraception} from '../data/contraception'
 afterEach(()=>{cleanup();localStorage.clear()})
 describe('preconception contraception navigation',()=>{
+ it('compares weighted documented features without scoring medical risks',async()=>{
+  render(<MemoryRouter initialEntries={['/contraception']}><App/></MemoryRouter>)
+  fireEvent.click(await screen.findByRole('link',{name:/Find methods that match your priorities/}))
+  expect(await screen.findByRole('heading',{name:'Your contraception priorities'})).toBeVisible()
+  fireEvent.change(screen.getByRole('slider',{name:'Avoid added hormones'}),{target:{value:'5'}})
+  fireEvent.change(screen.getByRole('slider',{name:'Prevent pregnancy as reliably as possible'}),{target:{value:'5'}})
+  fireEvent.change(screen.getByRole('slider',{name:'Long-term physical health'}),{target:{value:'5'}})
+  expect(screen.getByText('10/10 points')).toBeVisible()
+  expect(screen.getByText(/Review closely: Long-term physical health/)).toBeVisible()
+  fireEvent.click(screen.getByRole('checkbox',{name:'No invasive placement or injection'}))
+  expect(screen.queryByText('10/10 points')).not.toBeInTheDocument()
+ })
  it('puts all research graphs on the overview with compact method navigation',async()=>{
   render(<MemoryRouter initialEntries={['/timeline/preconception']}><App/></MemoryRouter>)
   fireEvent.click(screen.getByRole('link',{name:/Birth control & preparing for pregnancy/}))
