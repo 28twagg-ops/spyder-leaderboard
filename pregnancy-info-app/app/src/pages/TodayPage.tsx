@@ -25,6 +25,7 @@ export function TodayPage() {
     <div className="stack-lg">
       <header className="hero">
         <div className="eyebrow">Research draft · for families</div>
+        <svg className="hero-botanical" viewBox="0 0 180 170" aria-hidden="true" focusable="false"><g fill="none" stroke="currentColor" strokeWidth="1.7" strokeLinecap="round"><path d="M93 164 C90 115 105 65 146 19 M95 133 C51 112 29 75 24 43 M102 104 C136 101 155 79 168 50 M112 78 C87 65 82 40 87 13"/><path d="M95 133 C70 135 51 123 44 105 C68 104 85 114 95 133 M64 109 C39 107 23 89 21 70 C43 77 57 91 64 109 M119 67 C123 43 140 28 160 24 C156 44 141 59 119 67 M101 103 C110 79 127 71 149 73 C139 95 123 105 101 103 M89 55 C72 47 65 29 69 10 C86 21 91 36 89 55"/></g></svg>
         <h1 className="brand">Everwell</h1>
         <p className="lede" style={{ margin: 0, position: 'relative', zIndex: 1 }}>
           Clear, calm research education for preparation, pregnancy, recovery, and early childhood — with
@@ -40,20 +41,14 @@ export function TodayPage() {
         </div>
       </header>
 
-      <ThemePicker value={prefs.themeId} onChange={setTheme} />
-      <section className="panel stack">
-        <label htmlFor="reading-phase">Optional reading phase</label>
-        <select id="reading-phase" value={startingPhase?.id ?? ''} onChange={(event) => setPhase(event.target.value || null)} style={{ minHeight: 44 }}>
-          <option value="">Browse without selecting a phase</option>
-          {timeline.map((phase) => <option key={phase.id} value={phase.id}>{phase.track.replaceAll('_', ' ')} · {phase.label} · {phase.focus}</option>)}
-        </select>
-        <p className="muted">Stored only in this browser. This selection is a reading filter, not a record of pregnancy, a diagnosis or a care schedule.</p>
-        <Link to="/library">Search topics and manage saved items</Link>
-      </section>
-
       <DraftBanner status="research_only" />
-      <OfflineBanner />
-
+      <UrgentSigns />
+      <section className="journey-grid" aria-label="Explore Everwell">
+        <Link className="journey-tile" to="/timeline"><span className="journey-number">01</span><strong>Family journey</strong><span>Preparation to early childhood</span></Link>
+        <Link className="journey-tile" to="/explore"><span className="journey-number">02</span><strong>Explore topics</strong><span>Body areas and visual references</span></Link>
+        <Link className="journey-tile" to="/library#topic-search-heading"><span className="journey-number">03</span><strong>Find and save</strong><span>Educational reading library</span></Link>
+        <Link className="journey-tile" to="/evidence"><span className="journey-number">04</span><strong>Evidence library</strong><span>Original research and nutrition</span></Link>
+      </section>
       <section className="panel stack" aria-labelledby="start-heading">
         <div>
           <div className="badge">Starting points</div>
@@ -105,7 +100,24 @@ export function TodayPage() {
         </section>
       )}
 
-      <UrgentSigns />
+      <details className="panel disclosure">
+        <summary>Reading phase and appearance</summary>
+        <div className="stack">
+      <ThemePicker value={prefs.themeId} onChange={setTheme} />
+      <section className="panel stack">
+        <label htmlFor="reading-phase">Optional reading phase</label>
+        <select id="reading-phase" value={startingPhase?.id ?? ''} onChange={(event) => setPhase(event.target.value || null)} style={{ minHeight: 44 }}>
+          <option value="">Browse without selecting a phase</option>
+          {timeline.map((phase) => <option key={phase.id} value={phase.id}>{phase.track.replaceAll('_', ' ')} · {phase.label} · {phase.focus}</option>)}
+        </select>
+        <p className="muted">Stored only in this browser. This selection is a reading filter, not a record of pregnancy, a diagnosis or a care schedule.</p>
+        <Link to="/library">Search topics and manage saved items</Link>
+      </section>
+
+
+        </div>
+      </details>
+      <OfflineBanner />
     </div>
   )
 }
