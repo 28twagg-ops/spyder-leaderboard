@@ -190,3 +190,6 @@ Approved hierarchy preserved; twelve week candidates now span 20–31. See lates
 
 ### Full pregnancy candidate coverage and fruit treatment
 All 40 weekly chapters are implemented candidates at fdab0e359a4a347e2e4cc492b7da25e583bb8573. Existing produce SVGs retained; remove surrounding opaque background treatment and use theme-inheriting transparent section. No replacement photo sheets embedded. Early weeks adapt role labels and omit size for weeks 1–3. Early measurement conventions, shared editorial ranges and week 40 birth transition are recorded in latest tracker. All clinical and rendered review gates remain open.
+
+### Nutrient and medication research directory
+Add a compact link from each Mother week (also Nutrition/Checkups), not a repeated supplement schedule. Group individual nutrient roles, clinical medication indications/safety, emerging claims and product quality. Quick summary first; more detailed evidence and material funding/COI where warranted; practical clinician question; canonical shared reading. Stage timing only where supported. No personal dose, medication start/stop, automatic schedule or product ranking. See [subsection readiness audit](../research/SUBPAGE_READINESS_AUDIT.md). Maintain clinical gates.

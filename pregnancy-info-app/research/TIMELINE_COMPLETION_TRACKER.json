@@ -7,7 +7,7 @@
     "tracker": "research/TIMELINE_COMPLETION_TRACKER.md",
     "base_week_data": "research/staged-completion/stage-09/GESTATIONAL_WEEKS.json",
     "base_phase_data": "research/staged-completion/stage-09/TIMELINE.json",
-    "preview_candidate": "b4514e07ef546d0cb2e6cb1311149cc7b13b2a92"
+    "preview_candidate": "b163680f2c207640e3ea5c272bd83a77015d45ce"
   },
   "weeks": [
     {
@@ -4845,36 +4845,7 @@
   ],
   "latest_batch": {
     "date": "2026-11-27",
-    "new_candidate_weeks": [
-      1,
-      2,
-      3,
-      4,
-      5,
-      6,
-      7,
-      8,
-      9,
-      10,
-      11,
-      12,
-      13,
-      14,
-      15,
-      16,
-      17,
-      18,
-      19,
-      32,
-      33,
-      34,
-      35,
-      36,
-      37,
-      38,
-      39,
-      40
-    ],
+    "scope": "subsection quality and nutrient/medication guide",
     "all_candidate_weeks": [
       1,
       2,
@@ -4918,14 +4889,14 @@
       40
     ],
     "feature_count": 239,
-    "new_features": 167,
-    "focused_readings_total": 83,
-    "focused_readings_added": 49,
-    "reference_records": 65,
-    "static_route_validation": "239 feature paths and all 83 focused reading reference keys, related destinations and registry-backed IDs checked without missing IDs. All 18 PREG01 and 25 PREG03 phase article IDs represented in structure.",
-    "actual_build": "fdab0e3: 335/335 tests passed across 15 files; research display validation passed, lint 3 warnings/0 errors; production TypeScript build failed two type errors (early size guard and unsupported test selector exact option). Both corrected in b4514e0; exact corrected deployment not yet observed. Build/visual/clinical gates remain open.",
+    "focused_readings_total": 97,
+    "focused_readings_added": 14,
+    "reference_records": 86,
+    "unique_week_route_types": 169,
+    "static_route_validation": "239 featured routes, 248 related links, 29 connected-topic links, 19 guide destinations and source keys checked without missing IDs; not full browser traversal.",
+    "actual_build": "Latest Vercel build in progress; 173/173 subsection tests passed. Full build and device review pending.",
     "complete_weeks": 0,
     "complete_phases": 0,
-    "next_proposed_batch": "Validate pregnancy candidate and actual mobile rendering, then life-stage phase development. Maintain source/appraisal and publication gates."
+    "next_proposed_batch": "Verify full production build and protected iPhone PWA, then prioritize detailed evidence review, visual QA and remaining life-stage chapters."
   }
 }
