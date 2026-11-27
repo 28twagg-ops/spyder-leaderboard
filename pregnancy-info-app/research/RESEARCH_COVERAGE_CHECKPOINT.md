@@ -1,0 +1,19 @@
+# Everwell — source coverage and bias-review checkpoint
+2026-11-27 · Preview snapshot 2fec078e1a42de4714b5877d47ddac8c8bf5188d
+
+## Measured inventory
+- 770 source records in app/src/data/imported/source_index.json (not 770 unique studies).
+- 52 canonical articles; all 52 assigned to at least one of the 28 Stage 09 timeline phases. Pregnancy phase pools contain 18, 17 and 25 entries respectively, 26 distinct canonical articles across the three phases. Assignment is not final rendered content or proof of all relevant claim coverage.
+- 98 supplemental focused readings, 90 reference entries (20 registry-linked IDs actually cited by focused readings; other references need registry reconciliation).
+- 217 distinct source IDs listed by canonical articles, 219 distinct IDs in canonical articles and focused readings combined. Broader literal-ID scan of canonical article source_ids, week22TopicMap.json, skinTopicMap.json, weekEditorial.ts and midPregnancyReadings.ts finds 592/770 registry IDs mentioned; 178 not found in those selected surfaces. This is a mechanical inventory, not a verified claim-to-source map, completeness of all app library surfaces, evidence use or unique-publication count. Some of the 178 may be held, duplicate, out of scope, used elsewhere or appropriate only to future life stages.
+- Funding field nonblank: 318/770. Financial ties field nonblank: 218/770. Both: 216; at least one: 320; neither: 450. Nonblank includes explicit unknowns or incomplete disclosure, not successful bias analysis. Blank does not establish no funding or no conflicts. No source marked clinically reviewed.
+- Independent-appraisal/LEDGER.md records Batch 001: six primary publications across five trial cohorts, six existing source IDs and one external candidate; full-text, protocol and funding verification incomplete. High-audit QA records 38 evidence checks and nine disclosure records in a selected review pass. Neither figure is a comprehensive independent audit. Funding analysis is study-specific, not repeated by month.
+
+## Required next audit
+1. Reconcile all 770 source records by canonical identity, alias, shared cohort, duplicate, source type and applicability; reconcile new direct references. Preserve holds.
+2. Map every eligible study to actual claims, article and stage; document unused/held/duplicate/out-of-scope disposition, not force irrelevant studies into weeks. Check full preconception, birth, postpartum and child phase implementation.
+3. Record each primary publication's funding, product donations, sponsor role, author ties and disclosure locator (unknown if not verified). Independently assess design, randomization, blinding, confounding, selection, attrition, outcomes, imprecision, reporting, directness and harms. Distinguish evidence quality from commercial support. Compare independent and sponsored evidence when comparable; do not infer causality from sponsorship.
+4. Maintain machine-readable source-to-claim coverage and per-study appraisal ledger; do not mark study reviewed from a nonblank field or AI agreement. Qualified clinical review and owner mobile acceptance remain release gates.
+
+## Selective relevance design
+See design/JOURNEY_EDITORIAL_STANDARD.md latest addendum. Owner wants comparison first, not automatic callouts everywhere. Example source-backed contrast: early folic acid reduces neural tube defect risk, while choline supports cell membranes and normal development but evidence for additional supplementation improving cognition is mixed. Iron deficiency can cause anemia; low dietary intake alone is not a diagnosis. Cite CDC https://www.cdc.gov/folic-acid/hcp/clinical-overview/index.html and NIH ODS https://ods.od.nih.gov/factsheets/pregnancy-HealthProfessional/ . No new clinical chart or dose release. No application or deployment changes in this checkpoint.
