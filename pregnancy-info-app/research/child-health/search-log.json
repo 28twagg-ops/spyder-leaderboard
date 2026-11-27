@@ -825,6 +825,270 @@
         "Effects of Physical Activity on Fertility Parameters: A Meta-Analysis of Randomized Controlled Trials",
         "https://pmc.ncbi.nlm.nih.gov/articles/PMC11216966/"
       ]
+    },
+    {
+      "key": "batch2.0",
+      "query": "site:pubmed.ncbi.nlm.nih.gov nirsevimab prevention hospitalizations RSV infants HARMONIE 11 60 8058 95 confidence",
+      "first_result": [
+        "Did Nirsevimab Shift Pediatric Hospitalizations Due to Lower Respiratory Tract Infections? A Nationwide Italian Study (2024-2025)",
+        "https://pubmed.ncbi.nlm.nih.gov/41902182/"
+      ]
+    },
+    {
+      "key": "batch2.1",
+      "query": "site:pubmed.ncbi.nlm.nih.gov bivalent prefusion F vaccine pregnancy prevent RSV illness infants MATISSE 6 33 19 62 severe preterm safety",
+      "first_result": [
+        "Bivalent Prefusion F Vaccine in Pregnancy to Prevent RSV Illness in Infants",
+        "https://pubmed.ncbi.nlm.nih.gov/37018474/"
+      ]
+    },
+    {
+      "key": "batch2.2",
+      "query": "site:fda.gov Abrysvo prescribing information preterm birth imbalance 32 36 weeks pregnancy",
+      "first_result": [
+        "Package Insert - ABRYSVO (STN 125769)",
+        "https://www.fda.gov/media/168889/download?trk=public_post_comment-text"
+      ]
+    },
+    {
+      "key": "batch2.3",
+      "query": "site:pubmed.ncbi.nlm.nih.gov daily emollient during infancy prevention eczema BEEP 2020 1394 eczema skin infections adjusted relative risk",
+      "first_result": [
+        "Emollient application from birth to prevent eczema in high-risk children: the BEEP RCT",
+        "https://pubmed.ncbi.nlm.nih.gov/39021147/"
+      ]
+    },
+    {
+      "key": "batch2.4",
+      "query": "site:pubmed.ncbi.nlm.nih.gov baby led approach eating solids risk choking randomized BLISS 206 parents 35% relative risk",
+      "first_result": [
+        "Choking, gagging and complementary feeding methods in the first year of life: a randomized clinical trial",
+        "https://pubmed.ncbi.nlm.nih.gov/37400061/"
+      ]
+    },
+    {
+      "key": "batch2.5",
+      "query": "site:pubmed.ncbi.nlm.nih.gov Effect of a Baby-Led Approach to Complementary Feeding on Infant Growth and Overweight BLISS 206 24 months adjusted difference",
+      "first_result": [
+        "Effect of a Baby-Led Approach to Complementary Feeding on Infant Growth and Overweight: A Randomized Clinical Trial.",
+        "https://pubmed.ncbi.nlm.nih.gov/28692728/"
+      ]
+    },
+    {
+      "key": "batch2.6",
+      "query": "site:pubmed.ncbi.nlm.nih.gov early limited formula randomized trial breastfeeding duration 164 infants 12 months limitations",
+      "first_result": [
+        "Effect of Early Limited Formula on Breastfeeding Duration in the First Year of Life: A Randomized Clinical Trial",
+        "https://pubmed.ncbi.nlm.nih.gov/31157878/"
+      ]
+    },
+    {
+      "key": "batch2.7",
+      "query": "site:pubmed.ncbi.nlm.nih.gov screen time 1 year communication problem solving 2 4 years cohort screen time JAMA Japan odds ratios",
+      "first_result": [
+        "Screen Time at Age 1 Year and Communication and Problem-Solving Developmental Delay at 2 and 4 Years.",
+        "https://pubmed.ncbi.nlm.nih.gov/37603356/"
+      ]
+    },
+    {
+      "key": "batch2.8",
+      "query": "site:pubmed.ncbi.nlm.nih.gov shared picture book reading interventions language development 19 RCTs 2594 effect sizes expressive receptive",
+      "first_result": [
+        "The effects of shared storybook reading on word learning: A meta-analysis",
+        "https://pubmed.ncbi.nlm.nih.gov/29595311/"
+      ]
+    },
+    {
+      "key": "batch2.9",
+      "query": "site:pubmed.ncbi.nlm.nih.gov baby walkers infant walker related injuries United States 1990 2014 Pediatrics",
+      "first_result": [
+        "Injuries associated with infant walkers",
+        "https://pubmed.ncbi.nlm.nih.gov/11533353/"
+      ]
+    },
+    {
+      "key": "batch2.10",
+      "query": "site:pubmed.ncbi.nlm.nih.gov tummy time and infant health outcomes systematic review 2020 motor 4237",
+      "first_result": [
+        "Tummy Time and Infant Health Outcomes: A Systematic Review",
+        "https://pubmed.ncbi.nlm.nih.gov/32371428/"
+      ]
+    },
+    {
+      "key": "batch2.11",
+      "query": "site:healthychildren.org water beads button batteries magnets emergency poison control infants ingestion",
+      "first_result": [
+        "Water Beads: Harmful if Swallowed, Put in Ears - HealthyChildren.org",
+        "https://www.healthychildren.org/English/safety-prevention/at-home/Pages/Water-Beads-Harmful.aspx?form=HealthyChildren"
+      ]
+    },
+    {
+      "key": "batch3.0",
+      "query": "Drysdale Nirsevimab Prevention Hospitalizations Due to RSV in Infants 11 60 83.2 NCT PubMed HARMONIE",
+      "first_result": [
+        "Nirsevimab for Prevention of Hospitalizations Due to RSV in Infants",
+        "https://pubmed.ncbi.nlm.nih.gov/38157500/"
+      ]
+    },
+    {
+      "key": "batch3.1",
+      "query": "site:nejm.org MATISSE severe 81.8 99.5% 69.4 97.58 90 days co-primary threshold",
+      "first_result": [
+        "Single-Dose Azithromycin versus Penicillin G Benzathine for the Treatment of Early Syphilis",
+        "https://www.nejm.org/doi/pdf/10.1056/NEJMoa044284?download=true"
+      ]
+    },
+    {
+      "key": "batch3.2",
+      "query": "site:pubmed.ncbi.nlm.nih.gov BEEP daily emollient during infancy prevention eczema 0.95 1.55 1394 Lancet eczema 2 years",
+      "first_result": [
+        "Emollient application from birth to prevent eczema in high-risk children: the BEEP RCT",
+        "https://pubmed.ncbi.nlm.nih.gov/39021147/"
+      ]
+    },
+    {
+      "key": "batch3.3",
+      "query": "site:pubmed.ncbi.nlm.nih.gov Fangupo Baby-Led Approach Eating Solids Risk Choking 35% BLISS trial choking no differences",
+      "first_result": [
+        "A Baby-Led Approach to Eating Solids and Risk of Choking",
+        "https://pubmed.ncbi.nlm.nih.gov/27647715/"
+      ]
+    },
+    {
+      "key": "batch3.4",
+      "query": "site:jamanetwork.com BLISS BMI z score adjusted difference 12 months 24 months 206 baby-led 0.16",
+      "first_result": [
+        "Effect of a Baby-Led Approach to Complementary Feeding on Infant Growth and Overweight: A Randomized Clinical Trial",
+        "https://jamanetwork.com/journals/jamapediatrics/fullarticle/2634362"
+      ]
+    },
+    {
+      "key": "batch3.5",
+      "query": "site:pubmed.ncbi.nlm.nih.gov Hewitt tummy time 16 studies 4237 walking systematic review association",
+      "first_result": [
+        "Tummy Time and Infant Health Outcomes: A Systematic Review",
+        "https://pubmed.ncbi.nlm.nih.gov/32371428/"
+      ]
+    },
+    {
+      "key": "batch3.6",
+      "query": "site:pubmed.ncbi.nlm.nih.gov shared picture book reading Dowdall expressive language d 0.41 receptive 0.26 2594",
+      "first_result": [
+        "Shared Picture Book Reading Interventions for Child Language Development: A Systematic Review and Meta-Analysis",
+        "https://pubmed.ncbi.nlm.nih.gov/30737957/"
+      ]
+    },
+    {
+      "key": "batch3.7",
+      "query": "site:pubmed.ncbi.nlm.nih.gov BEEP PreventADALL emollients STOP-AD CASCADE 2025 emollients eczema conflicting trial 2025 JAMA skin prevention infants",
+      "first_result": [
+        "Emollients to Prevent Pediatric Eczema: A Randomized Clinical Trial",
+        "https://pubmed.ncbi.nlm.nih.gov/40699587/"
+      ]
+    },
+    {
+      "key": "batch4.0",
+      "query": "\"11 infants\" \"60 infants\" nirsevimab 4037 4021 HARMONIE trial 67.8 results abstract Sanofi",
+      "first_result": [
+        "Rapid health technology assessment of immunisation against respiratory syncytial virus (RSV) in Ireland",
+        "https://www.hiqa.ie/sites/default/files/2024-08/RSV-Rapid-HTA.pdf"
+      ]
+    },
+    {
+      "key": "batch4.1",
+      "query": "\"6 infants\" \"33 infants\" 81.8 99.5 Kampmann 180 days 97.58 69.4 confidence intervals 2023",
+      "first_result": [
+        "Vaccines and Related Biological Products Advisory Committee May 18, 2023 Meeting Briefing Document- Pfizer",
+        "https://www.fda.gov/media/168186/download"
+      ]
+    },
+    {
+      "key": "batch4.2",
+      "query": "\"CASCADE\" emollients eczema 24 months 1247 risk ratio 2025 skin infections trial primary care",
+      "first_result": [
+        "Emollients to Prevent Pediatric Eczema: A Randomized Clinical Trial",
+        "https://jamanetwork.com/journals/jamadermatology/fullarticle/2836819"
+      ]
+    },
+    {
+      "key": "batch4.3",
+      "query": "BEEP emollient 1394 139 150 1.55 1.15 2.09 Chalmers daily 2020 Lancet DOI trial",
+      "first_result": [
+        "Daily emollient during infancy for prevention of eczema: the BEEP randomised controlled trial",
+        "https://pubmed.ncbi.nlm.nih.gov/32087126/"
+      ]
+    },
+    {
+      "key": "batch4.4",
+      "query": "\"adjusted difference\" \"BLISS\" BMI z score 0.16 -0.13 24 months Taylor JAMA 2017",
+      "first_result": [
+        "A Review of Registered Randomized Controlled Trials for the Prevention of Obesity in Infancy",
+        "https://pmc.ncbi.nlm.nih.gov/articles/PMC7967587/"
+      ]
+    },
+    {
+      "key": "batch4.5",
+      "query": "\"35%\" \"choking\" Fangupo BLISS trial 6 8 months no significant differences groups",
+      "first_result": [
+        "A Baby-Led Approach to Eating",
+        "https://artefacts-discovery.researcher.life/full_text_files/DA-2/66/66420fc95c003fde8fb6744d2b7648b5/full_text/svHJyFfmBT954JFMKsRnBamY8MwRY7%2BX8eIYbunCcag%3D.pdf"
+      ]
+    },
+    {
+      "key": "batch4.6",
+      "query": "HARMONIE NCT05437510 4037 NEJMoa DOI 2023",
+      "first_result": [
+        "Trial of Solanezumab in Preclinical Alzheimer’s Disease",
+        "https://pmc.ncbi.nlm.nih.gov/articles/10559996/"
+      ]
+    },
+    {
+      "key": "batch5.0",
+      "query": "\"Nirsevimab for Prevention of Hospitalizations Due to RSV in Infants\" 8058 4037 adverse events 2.1% 83.2 DOI NEJM",
+      "first_result": [
+        "Nirsevimab for Prevention of Hospitalizations Due to RSV in Infants",
+        "https://www.nejm.org/doi/10.1056/NEJMoa2309189"
+      ]
+    },
+    {
+      "key": "batch5.1",
+      "query": "\"HARMONIE\" \"Sanofi\" 8058 11 60 83.2 site:nejm.org nirsevimab efficacy table",
+      "first_result": [
+        "Nirsevimab for Prevention of Hospitalizations Due to RSV in Infants",
+        "https://www.nejm.org/doi/abs/10.1056/NEJMoa2309189"
+      ]
+    },
+    {
+      "key": "batch5.2",
+      "query": "\"MATISSE\" \"3570\" 3682 3676 participants NEJMoa2216480 2023",
+      "first_result": [
+        "MATISSE Clinical Trial",
+        "https://www.morx.com/common/Uploaded%20files/2023%20Conference/Immunization%20Update%20The%20New%20RSV%20Vaccine%20on%20the%20Block%20Handout.pdf"
+      ]
+    },
+    {
+      "key": "batch5.3",
+      "query": "site:jamanetwork.com CASCADE 2025 emollients funding National Institutes Health conflicts of interest infant eczema",
+      "first_result": [
+        "Emollients to Prevent Pediatric Eczema: A Randomized Clinical Trial",
+        "https://jamanetwork.com/journals/jamadermatology/fullarticle/2836819?guestAccessKey=5dc4d0de-5114-4a70-8abc-3e74e87b2cb9"
+      ]
+    },
+    {
+      "key": "batch5.4",
+      "query": "site:jamanetwork.com BLISS trial funding New Zealand randomised trial registration 2017 baby led",
+      "first_result": [
+        "Effect of a Baby-Led Approach to Complementary Feeding on Infant Growth and Overweight: A Randomized Clinical Trial",
+        "https://jamanetwork.com/journals/jamapediatrics/fullarticle/2634362"
+      ]
+    },
+    {
+      "key": "batch5.5",
+      "query": "site:pmc.ncbi.nlm.nih.gov BEEP eczema ISRCTN 21528841 funding NIHR",
+      "first_result": [
+        "Patterns in topical treatment use for eczema flare-ups in children: a secondary analysis of the Best Emollients for Eczema (BEE) trial",
+        "https://pmc.ncbi.nlm.nih.gov/articles/PMC13220020/"
+      ]
     }
   ],
   "direct_table_reads": [

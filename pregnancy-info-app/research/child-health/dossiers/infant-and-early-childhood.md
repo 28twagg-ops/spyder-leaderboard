@@ -111,3 +111,33 @@ Planning a safe handoff protects the baby and gives caregivers time to recover. 
 **Ask the care team:** Who can give us relief when crying becomes difficult?
 
 [About Abusive Head Trauma | Child Abuse and Neglect Prevention | CDC](https://www.cdc.gov/child-abuse-neglect/about/about-abusive-head-trauma.html) · [Sleep-Related Infant Deaths: Updated 2022 Recommendations for Reducing Infant Deaths in the Sleep Environment.](https://pubmed.ncbi.nlm.nih.gov/35726558/)
+
+## Prenatal and infant RSV protection
+
+The maternal vaccine trial found fewer severe infant illnesses. An infant antibody trial found fewer hospitalizations during the first RSV season. The two trials enrolled different populations and used different endpoints and controls. Their efficacy percentages do not compare the products head-to-head.
+
+FDA identifies uncertainty about a preterm-birth imbalance. Current gestational window, season and maternal vaccination history matter. No automatic product choice.
+
+**Ask the care team:** Which option fits the timing of our pregnancy or birth?
+
+[Bivalent Prefusion F Vaccine in Pregnancy to Prevent RSV Illness in Infants](https://pubmed.ncbi.nlm.nih.gov/37018474/) · [Nirsevimab for Prevention of Hospitalizations Due to RSV in Infants](https://pubmed.ncbi.nlm.nih.gov/38157500/) · [ABRYSVO prescribing information](https://www.fda.gov/media/168889/download) · [RSV Immunization Guidance for Infants and Young Children | RSV | CDC](https://www.cdc.gov/rsv/hcp/vaccine-clinical-guidance/infants-young-children.html)
+
+## Preventing eczema with moisturizer
+
+Daily moisturizer has produced different prevention results in two large trials. Families need separate advice for treating existing eczema. US CASCADE found fewer diagnoses over two years; UK BEEP found no clear reduction in eczema present at age two in high-risk infants. Population, duration and outcome definitions differed.
+
+BEEP reported increased skin infection rates. The evidence does not support universal product claims or stopping prescribed treatment.
+
+**Ask the care team:** Is the aim to treat existing dry or inflamed skin, or to prevent a future diagnosis?
+
+[Daily emollient during infancy for prevention of eczema: the BEEP randomised controlled trial](https://pubmed.ncbi.nlm.nih.gov/32087126/) · [Emollients to Prevent Pediatric Eczema: A Randomized Clinical Trial](https://pubmed.ncbi.nlm.nih.gov/40699587/)
+
+## Starting solids with a spoon or self-feeding
+
+Families can use responsive spoon-feeding or developmentally appropriate self-feeding and ask for help with safe textures. A supported baby-led program did not clearly improve BMI z scores. Its choking report came from the same families. It could not exclude differences in rare severe events.
+
+Gagging and choking require different interpretation. The trial included safety coaching; results cannot establish that a food shape is safe or that an infant with swallowing difficulty is eligible.
+
+**Ask the care team:** Which textures can our child manage safely?
+
+[Effect of a Baby-Led Approach to Complementary Feeding on Infant Growth and Overweight: A Randomized Clinical Trial](https://pubmed.ncbi.nlm.nih.gov/28692728/) · [A Baby-Led Approach to Eating Solids and Risk of Choking](https://pubmed.ncbi.nlm.nih.gov/27647715/) · [WHO Guideline for complementary feeding of infants and young children 6-23 months of age](https://www.who.int/publications/i/item/9789240081864) · [Frequently Asked Questions (FAQs) | Infant and Toddler Nutrition | CDC](https://www.cdc.gov/infant-toddler-nutrition/faqs/index.html)

@@ -24,3 +24,5 @@ Prioritize release-critical safety and birth to age two. Each row is open until 
 | R Emerging | Prenatal sound, placental sequencing, probiotic safety | Review massage (PMID 23633323 and updates), sensory products, immune tonics, light devices and epigenetic optimization. Record direct age-specific evidence; hold unsafe and untested applications. |
 
 Remaining verification includes full bylines, harms tables, conflicts, source-level notices, trial registrations, outcome-level bias and evidence consistency. The dossier set is selective. No comprehensive search, pediatric signoff, product comparison, medical clearance, clinical runtime test or completed offline/device test has been performed.
+
+**Second extraction checkpoint.** MATISSE/HARMONIE, BEEP/CASCADE and the two BLISS reports are now extracted. Next check MATISSE final analysis against the interim values, postmarketing obstetric safety and clesrovimab evidence. Complete safety harmonization across skin trials. Assess rare serious choking and applicability outside coached BLISS participants. Retain these trial identifiers before requesting additional research.

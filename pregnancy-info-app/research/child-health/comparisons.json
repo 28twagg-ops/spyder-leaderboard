@@ -61,5 +61,42 @@
     "source_ids": [
       "PED-PARENT"
     ]
+  },
+  {
+    "topic": "Prenatal and infant RSV protection",
+    "population": "pregnancy and first RSV season",
+    "intervention": "Maternal RSVpreF or infant antibody (separate trials)",
+    "comparator": "Placebo in MATISSE; usual care in HARMONIE",
+    "interpretation": "The two trials enrolled different populations and used different endpoints and controls. Their efficacy percentages do not compare the products head-to-head. FDA identifies uncertainty about a preterm-birth imbalance. Current gestational window, season and maternal vaccination history matter. No automatic product choice.",
+    "source_ids": [
+      "PED-MATISSE",
+      "PED-HARMONIE",
+      "PED-RSVLABEL",
+      "PED-RSV"
+    ]
+  },
+  {
+    "topic": "Preventing eczema with moisturizer",
+    "population": "early infancy to 2 years",
+    "intervention": "Preventive daily emollient",
+    "comparator": "Usual care",
+    "interpretation": "US CASCADE found fewer diagnoses over two years; UK BEEP found no clear reduction in eczema present at age two in high-risk infants. Population, duration and outcome definitions differed. BEEP reported increased skin infection rates. The evidence does not support universal product claims or stopping prescribed treatment.",
+    "source_ids": [
+      "PED-BEEP",
+      "PED-CASCADE"
+    ]
+  },
+  {
+    "topic": "Starting solids with a spoon or self-feeding",
+    "population": "complementary feeding to 24 months",
+    "intervention": "Modified baby-led feeding",
+    "comparator": "Usual care",
+    "interpretation": "A supported baby-led program did not clearly improve BMI z scores. Its choking report came from the same families. It could not exclude differences in rare severe events. Gagging and choking require different interpretation. The trial included safety coaching; results cannot establish that a food shape is safe or that an infant with swallowing difficulty is eligible.",
+    "source_ids": [
+      "PED-BLISSGROW",
+      "PED-BLISSCHOKE",
+      "PED-FEED",
+      "PED-SOLIDS"
+    ]
   }
 ]
