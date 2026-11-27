@@ -3,6 +3,18 @@
 export type MidReference={title:string;url:string;sourceId?:string}
 export type MidReading={title:string;art:string;window:string;sections:{title:string;body:string;refs:string[]}[];related:[string,string][]}
 export const midReferences:Record<string,MidReference>={
+"N20": {
+    "title": "NHS: Week 20",
+    "url": "https://www.nhs.uk/best-start-in-life/pregnancy/week-by-week-guide-to-pregnancy/2nd-trimester/week-20/"
+  },
+  "N21": {
+    "title": "NHS: Week 21",
+    "url": "https://www.nhs.uk/best-start-in-life/pregnancy/week-by-week-guide-to-pregnancy/2nd-trimester/week-21/"
+  },
+  "SCAN": {
+    "title": "ACOG: Ultrasound exams",
+    "url": "https://www.acog.org/womens-health/faqs/ultrasound-exams"
+  },
   "MED": {
     "title": "MedlinePlus: Fetal development",
     "url": "https://medlineplus.gov/ency/article/002398.htm",
@@ -67,6 +79,137 @@ export const midReferences:Record<string,MidReference>={
   }
 }
 export const midReadings:Record<string,MidReading>={
+"mother/checkups/anatomy-scan": {
+    "title": "Understanding the anatomy scan",
+    "art": "checkups",
+    "window": "Mid-pregnancy assessment; individual timing and indications vary",
+    "sections": [
+      {
+        "title": "What an ultrasound can help assess",
+        "body": "A prenatal ultrasound uses sound waves to make images of the developing pregnancy. A standard examination in mid-pregnancy may assess anatomy, growth and the placenta. The care team determines the timing and what information is needed.",
+        "refs": [
+          "SCAN"
+        ]
+      },
+      {
+        "title": "A screening examination has limits",
+        "body": "Ultrasound can identify some findings that need further assessment, but cannot exclude every condition. A weekly educational illustration is not an ultrasound image or a substitute for an individual clinical interpretation.",
+        "refs": [
+          "SCAN"
+        ]
+      },
+      {
+        "title": "Questions for your care team",
+        "body": "Ask what the examination assessed, whether a follow-up is needed and what any uncertain finding means. This research reading does not interpret scans.",
+        "refs": [
+          "SCAN"
+        ]
+      }
+    ],
+    "related": [
+      [
+        "mother/checkups/prenatal",
+        "Prenatal visits"
+      ],
+      [
+        "baby/growth/screening",
+        "Growth and clinical assessment"
+      ],
+      [
+        "baby/growth/anatomy",
+        "Developing body systems"
+      ]
+    ]
+  },
+  "baby/digestion/swallowing": {
+    "title": "Why the baby practices swallowing",
+    "art": "digestion",
+    "window": "Weeks 19–21 in MedlinePlus; related processes continue",
+    "sections": [
+      {
+        "title": "An early movement of the digestive system",
+        "body": "The fetal nervous system and muscles coordinate movements as development progresses. MedlinePlus describes swallowing by the end of the 19–21 week window. This is not the same process as feeding a newborn.",
+        "refs": [
+          "MED"
+        ]
+      },
+      {
+        "title": "A different source of nourishment",
+        "body": "Before birth, placental exchange is the main route for fetal nourishment. Swallowing takes place in the fluid environment around the baby, while the digestive system continues developing.",
+        "refs": [
+          "MED",
+          "N20"
+        ]
+      },
+      {
+        "title": "Continue the connection",
+        "body": "Later readings examine meconium in the intestinal tract and the contribution of fetal urine to amniotic fluid. The timing of these changes overlaps; they are not individual milestones to test at home.",
+        "refs": [
+          "MED",
+          "N25"
+        ]
+      }
+    ],
+    "related": [
+      [
+        "baby/digestion/nutrition-connection",
+        "How nutrients reach the baby"
+      ],
+      [
+        "baby/digestion/meconium",
+        "The first stool"
+      ],
+      [
+        "baby/digestion/amniotic-fluid",
+        "Amniotic fluid and kidneys"
+      ]
+    ]
+  },
+  "baby/skin/vernix": {
+    "title": "What is vernix?",
+    "art": "vernix",
+    "window": "NHS week 20 describes this protective covering; timing varies",
+    "sections": [
+      {
+        "title": "A protective surface",
+        "body": "Vernix is a whitish, greasy covering associated with developing fetal skin. NHS educational guidance describes it around week 20 and notes its possible protective role in the amniotic fluid environment.",
+        "refs": [
+          "N20"
+        ]
+      },
+      {
+        "title": "Vernix and lanugo are different",
+        "body": "Lanugo is fine fetal hair. Vernix is a surface covering. Both are aspects of skin development, but a representative illustration cannot show how much of either is present in an individual fetus.",
+        "refs": [
+          "MED",
+          "N20",
+          "N21"
+        ]
+      },
+      {
+        "title": "What this does not establish",
+        "body": "There is no need to infer a fetal skin-care or supplement regimen from this developmental milestone. The baby’s skin changes throughout pregnancy and after birth.",
+        "refs": [
+          "N20",
+          "MED"
+        ]
+      }
+    ],
+    "related": [
+      [
+        "baby/skin/lanugo",
+        "Fine fetal hair"
+      ],
+      [
+        "baby/skin/skin-development",
+        "Skin development"
+      ],
+      [
+        "mother/skin",
+        "Maternal skin topics"
+      ]
+    ]
+  },
   "mother/body/early-milk": {
     "title": "Breast changes and early milk",
     "art": "breast",

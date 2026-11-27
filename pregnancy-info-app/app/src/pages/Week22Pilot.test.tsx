@@ -17,7 +17,7 @@ describe('week 22 visual directory',()=>{
   const subject=screen.getByRole('group',{name:'Whose changes are shown?'})
   fireEvent.click(within(subject).getByRole('button',{name:/Mother/}))
   expect(within(nav).getAllByRole('link')).toHaveLength(8)
-  expect(within(nav).getByRole('link',{name:/Skin.*Stretch marks/})).toHaveAttribute('href',root)
+  expect(within(nav).getByRole('link',{name:/Skin.*stretch marks/i})).toHaveAttribute('href',root)
   expect(within(nav).queryByRole('link',{name:/Placenta/})).not.toBeInTheDocument()
   expect(localStorage.length).toBe(0)
  })
@@ -53,10 +53,9 @@ describe('week 22 visual directory',()=>{
   fireEvent.click(screen.getByRole('button',{name:'Back'}))
   expect(await screen.findByRole('heading',{name:'Muscles are developing'})).toBeVisible()
  })
- it('applies the approved candidate to weeks 22–27, not week 28',async()=>{
-  view('/timeline/week/22')
-  fireEvent.click(screen.getByRole('link',{name:'Next'}))
-  expect(await screen.findByRole('heading',{name:'Week 23'})).toBeVisible()
+ it('applies the approved candidate to weeks 20–27, not week 28',async()=>{
+  view('/timeline/week/20')
+  for(const week of [21,22,23]){fireEvent.click(screen.getByRole('link',{name:'Next'}));expect(await screen.findByRole('heading',{name:'Week '+week})).toBeVisible()}
   expect(screen.getByRole('navigation',{name:'Development topics'})).toBeVisible()
   fireEvent.click(screen.getByRole('link',{name:'Next'}))
   expect(await screen.findByRole('heading',{name:'Week 24'})).toBeVisible()
@@ -82,7 +81,7 @@ describe('week 22 visual directory',()=>{
   expect(within(screen.getByRole('navigation',{name:"This week's featured topics"})).queryByRole('link',{name:/Fine hair covers the body/})).not.toBeInTheDocument()
   expect(within(screen.getByRole('navigation',{name:'Development topics'})).getAllByRole('link')).toHaveLength(8)
  })
- it.each([[24,'Corn on the cob','The developing airway tree'],[25,'Zucchini','Where blood cells form'],[26,'Cucumber','Developing eyes'],[27,'Head of cauliflower','Rapid brain growth']])('week %s has its own fetal features and size',async(week,food,feature)=>{
+ it.each<[number,string,string]>([[20,'Banana','Swallowing before birth'],[21,'Carrot','Hearing and familiar voices'],[24,'Corn on the cob','The developing airway tree'],[25,'Zucchini','Where blood cells form'],[26,'Cucumber','Developing eyes'],[27,'Head of cauliflower','Rapid brain growth']])('week %s has its own fetal features and size',async(week,food,feature)=>{
   view('/timeline/week/'+week+'?subject=baby')
   expect(await screen.findByRole('heading',{name:'Week '+week})).toBeVisible()
   expect(screen.getByText(food.toLowerCase())).toBeVisible()

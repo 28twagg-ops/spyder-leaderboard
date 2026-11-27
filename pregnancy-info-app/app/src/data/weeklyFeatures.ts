@@ -1,10 +1,119 @@
 /** Week-specific editorial selection is distinct from shared trimester research.
  * The evidence window is recorded separately from the week in which a topic is featured.
  * Never infer a new medical action, dose, or exact milestone from editorial placement. */
-export type PilotWeek=22|23|24|25|26|27
-export const isPilotWeek=(week:number):week is PilotWeek=>week>=22&&week<=27&&Number.isInteger(week)
+export type PilotWeek=20|21|22|23|24|25|26|27
+export const isPilotWeek=(week:number):week is PilotWeek=>week>=20&&week<=27&&Number.isInteger(week)
 export type WeeklyFeature={title:string;description:string;path:string;art:string;window:string;source:string}
 export const weeklyFeatures:Record<PilotWeek,Record<'mother'|'baby',WeeklyFeature[]>>={
+"20": {
+    "mother": [
+      {
+        "title": "Anatomy scan and prenatal care",
+        "description": "Understand why screening and clinical assessment serve different purposes.",
+        "path": "mother/checkups/anatomy-scan",
+        "art": "checkups",
+        "window": "Mid-pregnancy · verify individual plan",
+        "source": "https://www.acog.org/womens-health/faqs/ultrasound-exams"
+      },
+      {
+        "title": "Changing posture and pelvic support",
+        "description": "Explore the research on activity and lumbopelvic discomfort.",
+        "path": "mother/movement/pain",
+        "art": "body",
+        "window": "Ongoing mid-pregnancy learning",
+        "source": "https://www.nhs.uk/best-start-in-life/pregnancy/week-by-week-guide-to-pregnancy/2nd-trimester/week-20/"
+      },
+      {
+        "title": "Food safety and nutrient quality",
+        "description": "Explore fish, food preparation and dietary adequacy without a new dose schedule.",
+        "path": "mother/digestion/food-safety",
+        "art": "nutrition",
+        "window": "Nutrition spotlight",
+        "source": "https://ods.od.nih.gov/factsheets/pregnancy-healthprofessional/"
+      }
+    ],
+    "baby": [
+      {
+        "title": "Swallowing before birth",
+        "description": "Understand how the developing baby practices swallowing while nourishment still depends on placental exchange.",
+        "path": "baby/digestion/swallowing",
+        "art": "digestion",
+        "window": "Weeks 19–21",
+        "source": "https://medlineplus.gov/ency/article/002398.htm"
+      },
+      {
+        "title": "A protective layer on the skin",
+        "description": "Learn about vernix and the fetal skin surface.",
+        "path": "baby/skin/vernix",
+        "art": "vernix",
+        "window": "Around week 20 · timing varies",
+        "source": "https://www.nhs.uk/best-start-in-life/pregnancy/week-by-week-guide-to-pregnancy/2nd-trimester/week-20/"
+      },
+      {
+        "title": "Movement becomes noticeable",
+        "description": "Explore muscle activity and the first movement sensations, with clear safety context.",
+        "path": "baby/movement/patterns",
+        "art": "movement",
+        "window": "Weeks 19–21",
+        "source": "https://medlineplus.gov/ency/article/002398.htm"
+      }
+    ]
+  },
+  "21": {
+    "mother": [
+      {
+        "title": "Feeling your baby move",
+        "description": "Understand usual movement and why a change deserves prompt attention.",
+        "path": "mother/movement/baby-movement",
+        "art": "movement",
+        "window": "Mid-pregnancy · timing varies",
+        "source": "https://medlineplus.gov/ency/article/002398.htm"
+      },
+      {
+        "title": "Skin pigmentation and sun protection",
+        "description": "Learn about pigmentation rather than treating all skin changes as stretch marks.",
+        "path": "mother/skin/acne-pigmentation/dark-spots-and-sun-protection",
+        "art": "skin",
+        "window": "Ongoing skin research spotlight",
+        "source": "https://www.nhs.uk/best-start-in-life/pregnancy/week-by-week-guide-to-pregnancy/2nd-trimester/week-21/"
+      },
+      {
+        "title": "Everyday environmental exposures",
+        "description": "Learn to separate evidence of exposure from evidence of harm.",
+        "path": "mother/checkups/plastics-water",
+        "art": "environment",
+        "window": "Ongoing prevention spotlight",
+        "source": "https://www.nhs.uk/best-start-in-life/pregnancy/week-by-week-guide-to-pregnancy/2nd-trimester/week-21/"
+      }
+    ],
+    "baby": [
+      {
+        "title": "Hearing and familiar voices",
+        "description": "Learn how hearing develops and what sound studies actually measure.",
+        "path": "baby/senses/hearing",
+        "art": "senses",
+        "window": "Weeks 19–21",
+        "source": "https://medlineplus.gov/ency/article/002398.htm"
+      },
+      {
+        "title": "The placenta's continuing work",
+        "description": "Follow oxygen and nutrient exchange as the baby grows.",
+        "path": "baby/placenta/exchange",
+        "art": "placenta",
+        "window": "Ongoing fetal physiology",
+        "source": "https://www.nhs.uk/best-start-in-life/pregnancy/week-by-week-guide-to-pregnancy/2nd-trimester/week-21/"
+      },
+      {
+        "title": "Fine hair begins to spread",
+        "description": "Learn about lanugo as a continuing process, not a precise weekly deadline.",
+        "path": "baby/skin/lanugo",
+        "art": "skin",
+        "window": "Developing across mid-pregnancy",
+        "source": "https://www.nhs.uk/best-start-in-life/pregnancy/week-by-week-guide-to-pregnancy/2nd-trimester/week-21/"
+      }
+    ]
+  },
+
  22:{
   mother:[
    {title:'Stretch marks & changing skin',description:'Why marks may become noticeable as the abdomen grows, and what prevention studies actually found.',path:'mother/skin/prevention',art:'skin',window:'Around week 22 · timing varies',source:'https://www.nhs.uk/best-start-in-life/pregnancy/week-by-week-guide-to-pregnancy/2nd-trimester/week-22/'},

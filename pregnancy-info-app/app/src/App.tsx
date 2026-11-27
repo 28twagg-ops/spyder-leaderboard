@@ -49,6 +49,16 @@ function AppShell() {
             <Route path="/timeline" element={<TimelinePage selectedPhaseId={prefs.selectedPhaseId} />} />
             <Route path="/timeline/:track" element={<TimelinePage selectedPhaseId={prefs.selectedPhaseId} />} />
             <Route path="/timeline/:track/:phaseId" element={<TimelinePage selectedPhaseId={prefs.selectedPhaseId} />} />
+            <Route path="/timeline/week/20/mother/skin" element={<SkinTopicPage/>}/>
+            <Route path="/timeline/week/20/mother/skin/:section" element={<SkinTopicPage/>}/>
+            <Route path="/timeline/week/20/mother/skin/:section/:child" element={<SkinTopicPage/>}/>
+            <Route path="/timeline/week/20/:subject/:topic" element={<Week22TopicPage/>}/>
+            <Route path="/timeline/week/20/:subject/:topic/:subtopic" element={<Week22TopicPage/>}/>
+            <Route path="/timeline/week/21/mother/skin" element={<SkinTopicPage/>}/>
+            <Route path="/timeline/week/21/mother/skin/:section" element={<SkinTopicPage/>}/>
+            <Route path="/timeline/week/21/mother/skin/:section/:child" element={<SkinTopicPage/>}/>
+            <Route path="/timeline/week/21/:subject/:topic" element={<Week22TopicPage/>}/>
+            <Route path="/timeline/week/21/:subject/:topic/:subtopic" element={<Week22TopicPage/>}/>
             <Route path="/timeline/week/22/mother/skin" element={<SkinTopicPage/>}/>
             <Route path="/timeline/week/22/mother/skin/:section" element={<SkinTopicPage/>}/>
             <Route path="/timeline/week/22/mother/skin/:section/:child" element={<SkinTopicPage/>}/>
