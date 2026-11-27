@@ -24,7 +24,7 @@ export function BodyMap() {
           {regions.map((region, i) => (
             <g key={region.id}>
               <path d={`M ${region.x} ${region.y} L ${region.labelX < 100 ? region.labelX + 54 : region.labelX - 6} ${region.labelY + 10}`} stroke="var(--accent)" strokeWidth="1.2" fill="none" />
-              <circle cx={region.x} cy={region.y} r="11" fill="var(--accent)" />
+              <circle cx={region.x} cy={region.y} r="11" fill="var(--button-surface)" />
               <text x={region.x} y={region.y + 4} textAnchor="middle" fontSize="11" fill="var(--map-marker-ink)" fontWeight="700">{i + 1}</text>
               <text x={region.labelX} y={region.labelY} fontSize="10.5" fill="var(--ink)">{region.label}</text>
             </g>
