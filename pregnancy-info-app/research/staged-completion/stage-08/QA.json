@@ -19,5 +19,8 @@
   "production_approved_count": 0,
   "video_playback_audited": 0,
   "stage9_authorized": false,
-  "limitations": "Exact URL grouping only; semantic duplicates remain. Page/rights text checked where recorded, not individual artwork rendering/accuracy, comprehensive legal clearance or playback. No non-SVG third-party media downloaded. One SVG rejected on import."
+  "limitations": "Exact URL grouping only; semantic duplicates remain. Page/rights text checked where recorded, not individual artwork rendering/accuracy, comprehensive legal clearance or playback. No non-SVG third-party media downloaded. One SVG rejected on import.",
+  "local_blob_matches": 7,
+  "local_blob_mismatches": [],
+  "checked_commit": "db22cdb9f20fd93e63fe41501ce3f1893f0222c6"
 }

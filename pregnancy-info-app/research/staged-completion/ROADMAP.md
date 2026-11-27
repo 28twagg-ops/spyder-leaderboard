@@ -6,8 +6,8 @@ Only run one authorized stage at a time. Stop and report results before starting
 4. Fetal and childhood cognitive, motor and emotional development — [Stage 4](stage-04/README.md) scoped checkpoint complete. Stage 5 authorized and completed to checkpoint level.
 5. Nutrition, supplements and ingredients, trial reconciliation — [Stage 5](stage-05/README.md) scoped checkpoint complete. Stage 6 authorized and completed to checkpoint level.
 6. Environmental exposures and long-term health — [Stage 6](stage-06/README.md) scoped checkpoint complete. Stage 7 authorized and completed to checkpoint level.
-7. Natural, emerging, controversial interventions — [Stage 7](stage-07/README.md) scoped checkpoint complete. Stage 8 requires user approval.
-8. Existing textbook diagrams, figures, videos and illustrations; rights/accuracy checks and asset manifest. Use original source materials rather than AI where suitable; source candidates can be collected throughout stages.
+7. Natural, emerging, controversial interventions — [Stage 7](stage-07/README.md) scoped checkpoint complete. Stage 8 authorized and completed to checkpoint level.
+8. Existing textbook diagrams, figures, videos and illustrations — [Stage 8](stage-08/README.md) scoped checkpoint complete. Stage 9 requires explicit user approval.
 9. Practical routines, educational articles, parallel timelines.
 10. Work preferred: consolidated research manifest, canonical/staged crosswalk, reproducible export regeneration and full QA.
 11. Work preferred: owner PDF/Word/Excel/ZIP deliverables and final Claude handoff.
@@ -23,4 +23,7 @@ Apply [Compare Evidence Standard](COMPARE_EVIDENCE_STANDARD.md) throughout all d
 Read [environmental health packet](stage-06/README.md), [funding comparisons](stage-06/COMPARISONS.json), [funding cards](stage-06/FUNDING_CARDS.json), [practical precautions](stage-06/PRACTICAL_ACTIONS.json) and [holds](stage-06/PUBLICATION_HOLDS.json). 68 staged resources, 36 numeric records, 14 existing visual links. Preserve PFOS differing units/overlap, historical animal study funding limits, explicit uncertainty, safe formula and breastfeeding, no arbitrary toxic exposure scores. No clinical review, canonical promotion or visual reuse clearance. Stage 7 requires explicit user approval.
 
 ## Stage 7 checkpoint · 2026-11-26
-Read [natural and emerging interventions](stage-07/README.md), [funding comparisons](stage-07/COMPARISONS.json), [safety holds](stage-07/PUBLICATION_HOLDS.json) and [existing visual candidates](stage-07/VISUAL_CANDIDATES.json). 68 staged resources, 41 numeric records, 16 comparisons, 12 visual links. Preserve public-funded and sponsor-unfavorable results, no automatic treatment protocols or product endorsement. No clinical review, canonical promotion or asset reuse clearance. Stage 8 requires explicit user approval.
+Read [natural and emerging interventions](stage-07/README.md), [funding comparisons](stage-07/COMPARISONS.json), [safety holds](stage-07/PUBLICATION_HOLDS.json) and [existing visual candidates](stage-07/VISUAL_CANDIDATES.json). 68 staged resources, 41 numeric records, 16 comparisons, 12 visual links. Preserve public-funded and sponsor-unfavorable results, no automatic treatment protocols or product endorsement. No clinical review, canonical promotion or asset reuse clearance. Stage 8 authorized and completed to checkpoint level.
+
+## Stage 8 visual library checkpoint · 2026-11-26
+Read [visual catalog](stage-08/ASSET_CATALOG.json), [rights and implementation](stage-08/RIGHTS_AND_IMPLEMENTATION.md), [prior reference index](stage-08/PRIOR_REFERENCE_INDEX.json) and [asset credits](stage-08/assets/ATTRIBUTION.md). 44 catalog records, 7 original licensed SVG source files (all upstream Git blob hashes match), 88 inherited exact URL groups. Prefer existing artwork; separate rights and clinical review, all production flags false; no unlicensed rehosting or automatic media updates. Stage 9 requires explicit user approval.
