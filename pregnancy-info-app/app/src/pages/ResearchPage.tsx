@@ -61,7 +61,7 @@ export function ResearchPage() {
       <DraftBanner status="research_only" />
       {!urgent&&why}
       <section className="panel stack safety-panel">
-        <h2 className="section-title danger">Safety</h2>
+        <h2 className="section-title danger">Visible safety</h2>
         <p style={{ margin: 0 }}>{urgent?article.visible_safety:plain?.safety??article.visible_safety}</p>
         {emergencyTopic&&<p className="urgent-reading-note">{article.learn_more}</p>}
         {!urgent&&plain&&plain.safety!==article.visible_safety&&<p className="small-copy muted">{article.visible_safety}</p>}
@@ -72,6 +72,7 @@ export function ResearchPage() {
       <TopicOverview key={article.id} id={article.id} visuals={visuals} compact>
         {plain&&<RememberedReadingDetails articleId={article.id}><p className="small-copy muted">Unreviewed research summary, not medical advice.</p><p>{plain.detail}</p><Link className="topic-link" to={{hash:"#research-details"}}>Explore the science ›</Link></RememberedReadingDetails>}
       </TopicOverview>
+      {externalVisuals.length>0&&<a className="ref-row editorial-reading-row" href={safeVisualUrl(externalVisuals[0][1])} target="_blank" rel="noreferrer"><span className="ref-row-icon"><Glyph name="image"/></span><span><strong>{externalVisuals[0][0]}</strong><small>{externalVisuals[0][2]} · original reference</small></span><span aria-hidden="true">↗</span></a>}
       <details id="research-details" className="panel disclosure compact-reader-section">
         <summary>Studies &amp; references</summary>
         <section className="research-group"><h3>Archived AI summary for comparison</h3>
@@ -120,10 +121,10 @@ export function ResearchPage() {
         </ul>
       </section>}
 
-      {(visuals.length > 0 || externalVisuals.length>0) && <section className="research-group">
+      {(visuals.length > 0 || externalVisuals.length>1) && <section className="research-group">
         <h3>Visual references</h3>
         <p className="muted">Original illustrations and source links for review. Not evidence of treatment effectiveness or individual development.</p>
-        <div className="stack">{externalVisuals.map(([title,url,description])=><a className="reading-row" key={url} href={safeVisualUrl(url)} target="_blank" rel="noreferrer"><span><strong>{title}</strong><small>{description}</small></span><span aria-hidden="true">↗</span></a>)}{visuals.map(record=><ReadingRow key={record.id} to={`/visuals/${record.id}`} title={record.title} subtitle="Original reference · approval pending"/>)}</div>
+        <div className="stack">{externalVisuals.slice(1).map(([title,url,description])=><a className="reading-row" key={url} href={safeVisualUrl(url)} target="_blank" rel="noreferrer"><span><strong>{title}</strong><small>{description}</small></span><span aria-hidden="true">↗</span></a>)}{visuals.map(record=><ReadingRow key={record.id} to={`/visuals/${record.id}`} title={record.title} subtitle="Original reference · approval pending"/>)}</div>
       </section>}
       <section className="research-group">
         <h3>Original studies</h3>
