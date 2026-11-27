@@ -57,10 +57,38 @@
     {
       "path": "research/development/international/stage-01/BATCH_05.json",
       "sha": "5f72d81710034957d52c0da4ed28c7231ccef4d0"
+    },
+    {
+      "path": "research/child-health/visuals-and-media.json",
+      "sha": "5815b5cb5d34e77900d4c15dd4bd423d1636264e"
+    },
+    {
+      "path": "research/external-audits/grok/MEDIA_CANDIDATES.json",
+      "sha": "8e152eedd8b9fdfec25074126aed96a92718ccdb"
+    },
+    {
+      "path": "research/high-audit/VISUAL_ASSET_REFERENCES.json",
+      "sha": "9fa15121ca34466bdc7b9bf3c30584cf922de607"
+    },
+    {
+      "path": "research/implementation-handoff/MEDIA_CATALOG.json",
+      "sha": "8aec702e0463346aa6bf89ef0b333f61fdedd7ec"
+    },
+    {
+      "path": "research/integrated/MEDIA_LINKED.json",
+      "sha": "fd405c0068db1c97d4d3562db639ff786c4165cb"
+    },
+    {
+      "path": "research/routine-prep/MEDIA_REVIEW_QUEUE.json",
+      "sha": "4721a105e0b5714a74623b440e2576ae07fb96cb"
+    },
+    {
+      "path": "research/transfer/exports/media_candidates.jsonl",
+      "sha": "9d87906c0edf79ae3927cd96c7399bb63072a494"
     }
   ],
   "baseline_failures": [],
-  "methods": "Web-indexed publisher pages, individual episode show notes, selected transcript excerpts, official book/film descriptions. No audio or film playback/full-book reading. Dedup normalized URL against listed source archives and this batch; work/episode/replay, alternate video translations, exact claim, DOI and whole-project identity reconciliation still pending. No clinical content cleared. Related literature separately labeled and not counted as additional media.",
+  "methods": "Web-indexed publisher pages, individual episode show notes, selected transcript excerpts, official book/film descriptions. No audio or film playback/full-book reading. Dedup normalized URL against listed source archives and this batch; work/episode/replay, alternate video translations, exact claim, DOI and whole-project identity reconciliation still pending. No clinical content cleared. Related literature separately labeled and not counted as additional media. Additional dedicated media catalogues were checked on normalized URL; added primary and review comparisons for home birth, fetal position, donor milk, cord clamping, marketing, fetal learning and attachment. Comparisons are not claimed to be exact citations except series identification where explicitly noted.",
   "records": [
     {
       "url": "https://evidencebasedbirth.com/ebb-418-evidence-on-natural-labor-induction-castor-oil-and-eating-dates/",
@@ -236,12 +264,18 @@
       "evidence_links": [
         {
           "key": "HOME",
-          "url": null,
-          "scope": "Compare intended place-of-birth cohort studies, transfer arrangements and risk strata; specific primary paper mapping pending.",
-          "relationship": "independently located related evidence or prior archive comparison; not necessarily cited by media"
+          "url": "https://pubmed.ncbi.nlm.nih.gov/31709403/",
+          "scope": "2019 intended place-of-birth review of low-risk pregnancies; observational evidence, integration and transfer context matter.",
+          "relationship": "independent comparison literature; not necessarily cited in media"
+        },
+        {
+          "key": "HOME",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/42478077/",
+          "scope": "2026 review reports higher pooled peri/neonatal mortality odds (OR 1.70, 95% CI 1.05–2.74) outside hospital, but fewer severe perineal tears; reconcile selection, comparator, setting and overlap with prior reviews. Neither review establishes freebirth safety.",
+          "relationship": "independent comparison literature; not necessarily cited in media"
         }
       ],
-      "trace_status": "original evidence trace pending or contextual/nonclinical",
+      "trace_status": "related source linked; claim-level mapping and full appraisal pending",
       "rights": "link-only research; no reuse or embedding clearance",
       "clinical_review": false,
       "publish": false,
@@ -265,12 +299,18 @@
       "evidence_links": [
         {
           "key": "OP",
-          "url": null,
-          "scope": "Direct randomized maternal position/rotation studies needed; not traced yet.",
-          "relationship": "independently located related evidence or prior archive comparison; not necessarily cited by media"
+          "url": "https://pubmed.ncbi.nlm.nih.gov/26806596/",
+          "scope": "Randomized hands-and-knees comparison found improved comfort but did not demonstrate fetal rotation benefit.",
+          "relationship": "independent comparison literature; not necessarily cited in media"
+        },
+        {
+          "key": "OP",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/41412327/",
+          "scope": "Later randomized-trial meta-analysis reports favorable rotation/vaginal birth signals; compare position and stage, trial overlap and precision.",
+          "relationship": "independent comparison literature; not necessarily cited in media"
         }
       ],
-      "trace_status": "original evidence trace pending or contextual/nonclinical",
+      "trace_status": "related source linked; claim-level mapping and full appraisal pending",
       "rights": "link-only research; no reuse or embedding clearance",
       "clinical_review": false,
       "publish": false,
@@ -374,9 +414,15 @@
       "evidence_links": [
         {
           "key": "OP",
-          "url": null,
-          "scope": "Direct randomized maternal position/rotation studies needed; not traced yet.",
-          "relationship": "independently located related evidence or prior archive comparison; not necessarily cited by media"
+          "url": "https://pubmed.ncbi.nlm.nih.gov/26806596/",
+          "scope": "Randomized hands-and-knees comparison found improved comfort but did not demonstrate fetal rotation benefit.",
+          "relationship": "independent comparison literature; not necessarily cited in media"
+        },
+        {
+          "key": "OP",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/41412327/",
+          "scope": "Later randomized-trial meta-analysis reports favorable rotation/vaginal birth signals; compare position and stage, trial overlap and precision.",
+          "relationship": "independent comparison literature; not necessarily cited in media"
         },
         {
           "key": "POS",
@@ -460,12 +506,18 @@
       "evidence_links": [
         {
           "key": "DONOR",
-          "url": null,
-          "scope": "Original studies linked in donor milk show notes; specific article extraction pending. No assumption of trace completion.",
-          "relationship": "independently located related evidence or prior archive comparison; not necessarily cited by media"
+          "url": "https://pubmed.ncbi.nlm.nih.gov/27825008/",
+          "scope": "Randomized very-low-birthweight trial: no significant difference in cognitive, language or motor scores at 18 months; pasteurized donor milk vs formula, not informal sharing.",
+          "relationship": "independent comparison literature; not necessarily cited in media"
+        },
+        {
+          "key": "DONOR",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/40758360/",
+          "scope": "Moderate/late preterm trial: donor milk slower birthweight regain; different population and outcome from NEC prevention.",
+          "relationship": "independent comparison literature; not necessarily cited in media"
         }
       ],
-      "trace_status": "original evidence trace pending or contextual/nonclinical",
+      "trace_status": "related source linked; claim-level mapping and full appraisal pending",
       "rights": "link-only research; no reuse or embedding clearance",
       "clinical_review": false,
       "publish": false,
@@ -553,12 +605,18 @@
       "evidence_links": [
         {
           "key": "OP",
-          "url": null,
-          "scope": "Direct randomized maternal position/rotation studies needed; not traced yet.",
-          "relationship": "independently located related evidence or prior archive comparison; not necessarily cited by media"
+          "url": "https://pubmed.ncbi.nlm.nih.gov/26806596/",
+          "scope": "Randomized hands-and-knees comparison found improved comfort but did not demonstrate fetal rotation benefit.",
+          "relationship": "independent comparison literature; not necessarily cited in media"
+        },
+        {
+          "key": "OP",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/41412327/",
+          "scope": "Later randomized-trial meta-analysis reports favorable rotation/vaginal birth signals; compare position and stage, trial overlap and precision.",
+          "relationship": "independent comparison literature; not necessarily cited in media"
         }
       ],
-      "trace_status": "original evidence trace pending or contextual/nonclinical",
+      "trace_status": "related source linked; claim-level mapping and full appraisal pending",
       "rights": "link-only research; no reuse or embedding clearance",
       "clinical_review": false,
       "publish": false,
@@ -633,12 +691,18 @@
       "evidence_links": [
         {
           "key": "HOME",
-          "url": null,
-          "scope": "Compare intended place-of-birth cohort studies, transfer arrangements and risk strata; specific primary paper mapping pending.",
-          "relationship": "independently located related evidence or prior archive comparison; not necessarily cited by media"
+          "url": "https://pubmed.ncbi.nlm.nih.gov/31709403/",
+          "scope": "2019 intended place-of-birth review of low-risk pregnancies; observational evidence, integration and transfer context matter.",
+          "relationship": "independent comparison literature; not necessarily cited in media"
+        },
+        {
+          "key": "HOME",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/42478077/",
+          "scope": "2026 review reports higher pooled peri/neonatal mortality odds (OR 1.70, 95% CI 1.05–2.74) outside hospital, but fewer severe perineal tears; reconcile selection, comparator, setting and overlap with prior reviews. Neither review establishes freebirth safety.",
+          "relationship": "independent comparison literature; not necessarily cited in media"
         }
       ],
-      "trace_status": "original evidence trace pending or contextual/nonclinical",
+      "trace_status": "related source linked; claim-level mapping and full appraisal pending",
       "rights": "link-only research; no reuse or embedding clearance",
       "clinical_review": false,
       "publish": false,
@@ -684,12 +748,18 @@
       "evidence_links": [
         {
           "key": "HOME",
-          "url": null,
-          "scope": "Compare intended place-of-birth cohort studies, transfer arrangements and risk strata; specific primary paper mapping pending.",
-          "relationship": "independently located related evidence or prior archive comparison; not necessarily cited by media"
+          "url": "https://pubmed.ncbi.nlm.nih.gov/31709403/",
+          "scope": "2019 intended place-of-birth review of low-risk pregnancies; observational evidence, integration and transfer context matter.",
+          "relationship": "independent comparison literature; not necessarily cited in media"
+        },
+        {
+          "key": "HOME",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/42478077/",
+          "scope": "2026 review reports higher pooled peri/neonatal mortality odds (OR 1.70, 95% CI 1.05–2.74) outside hospital, but fewer severe perineal tears; reconcile selection, comparator, setting and overlap with prior reviews. Neither review establishes freebirth safety.",
+          "relationship": "independent comparison literature; not necessarily cited in media"
         }
       ],
-      "trace_status": "original evidence trace pending or contextual/nonclinical",
+      "trace_status": "related source linked; claim-level mapping and full appraisal pending",
       "rights": "link-only research; no reuse or embedding clearance",
       "clinical_review": false,
       "publish": false,
@@ -735,12 +805,18 @@
       "evidence_links": [
         {
           "key": "DONOR",
-          "url": null,
-          "scope": "Original studies linked in donor milk show notes; specific article extraction pending. No assumption of trace completion.",
-          "relationship": "independently located related evidence or prior archive comparison; not necessarily cited by media"
+          "url": "https://pubmed.ncbi.nlm.nih.gov/27825008/",
+          "scope": "Randomized very-low-birthweight trial: no significant difference in cognitive, language or motor scores at 18 months; pasteurized donor milk vs formula, not informal sharing.",
+          "relationship": "independent comparison literature; not necessarily cited in media"
+        },
+        {
+          "key": "DONOR",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/40758360/",
+          "scope": "Moderate/late preterm trial: donor milk slower birthweight regain; different population and outcome from NEC prevention.",
+          "relationship": "independent comparison literature; not necessarily cited in media"
         }
       ],
-      "trace_status": "original evidence trace pending or contextual/nonclinical",
+      "trace_status": "related source linked; claim-level mapping and full appraisal pending",
       "rights": "link-only research; no reuse or embedding clearance",
       "clinical_review": false,
       "publish": false,
@@ -808,12 +884,12 @@
       "evidence_links": [
         {
           "key": "FORMULA",
-          "url": null,
-          "scope": "Show notes cite Lancet/WHO series; original paper links and industry disclosures pending.",
-          "relationship": "independently located related evidence or prior archive comparison; not necessarily cited by media"
+          "url": "https://pubmed.ncbi.nlm.nih.gov/36764314/",
+          "scope": "Lancet 2023 Breastfeeding Series paper on commercial formula marketing; policy and commercial influence evidence, not comparative formula safety trial.",
+          "relationship": "Show notes explicitly identify Lancet series; matching series paper located"
         }
       ],
-      "trace_status": "original evidence trace pending or contextual/nonclinical",
+      "trace_status": "related source linked; claim-level mapping and full appraisal pending",
       "rights": "link-only research; no reuse or embedding clearance",
       "clinical_review": false,
       "publish": false,
@@ -930,12 +1006,18 @@
       "evidence_links": [
         {
           "key": "CORD",
-          "url": null,
-          "scope": "Trace cord clamping and third stage trials, separate lotus birth claims; pending.",
-          "relationship": "independently located related evidence or prior archive comparison; not necessarily cited by media"
+          "url": "https://pubmed.ncbi.nlm.nih.gov/22089242/",
+          "scope": "Randomized term infant cord-clamping study assesses iron status at four months; no support for lotus birth.",
+          "relationship": "independent comparison literature; not necessarily cited in media"
+        },
+        {
+          "key": "CORD",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/17445128/",
+          "scope": "Randomized trial in malaria-endemic setting assesses hematologic outcomes; distinguish context and infant age.",
+          "relationship": "independent comparison literature; not necessarily cited in media"
         }
       ],
-      "trace_status": "original evidence trace pending or contextual/nonclinical",
+      "trace_status": "related source linked; claim-level mapping and full appraisal pending",
       "rights": "link-only research; no reuse or embedding clearance",
       "clinical_review": false,
       "publish": false,
@@ -1558,8 +1640,15 @@
       "claim_status": "screened description/excerpt only; verify exact speaker wording before publication",
       "commercial_and_funding_context": "Publisher states website funded by Australian Government Department of Social Services Families and Children Program; specific production funding/guest interests not verified.",
       "independence": "not established",
-      "evidence_links": [],
-      "trace_status": "original evidence trace pending or contextual/nonclinical",
+      "evidence_links": [
+        {
+          "key": "LATCH",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/32248838/",
+          "scope": "Randomized comparison of biological nurturing with usual hospital practice, breast problems and exclusive breastfeeding; not identical to every baby-led technique.",
+          "relationship": "independent comparison literature"
+        }
+      ],
+      "trace_status": "related source linked; claim-level mapping and full appraisal pending",
       "rights": "link-only research; no reuse or embedding clearance",
       "clinical_review": false,
       "publish": false,
@@ -1744,12 +1833,18 @@
       "evidence_links": [
         {
           "key": "HOME",
-          "url": null,
-          "scope": "Compare intended place-of-birth cohort studies, transfer arrangements and risk strata; specific primary paper mapping pending.",
-          "relationship": "independently located related evidence or prior archive comparison; not necessarily cited by media"
+          "url": "https://pubmed.ncbi.nlm.nih.gov/31709403/",
+          "scope": "2019 intended place-of-birth review of low-risk pregnancies; observational evidence, integration and transfer context matter.",
+          "relationship": "independent comparison literature; not necessarily cited in media"
+        },
+        {
+          "key": "HOME",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/42478077/",
+          "scope": "2026 review reports higher pooled peri/neonatal mortality odds (OR 1.70, 95% CI 1.05–2.74) outside hospital, but fewer severe perineal tears; reconcile selection, comparator, setting and overlap with prior reviews. Neither review establishes freebirth safety.",
+          "relationship": "independent comparison literature; not necessarily cited in media"
         }
       ],
-      "trace_status": "original evidence trace pending or contextual/nonclinical",
+      "trace_status": "related source linked; claim-level mapping and full appraisal pending",
       "rights": "link-only research; no reuse or embedding clearance",
       "clinical_review": false,
       "publish": false,
@@ -1927,12 +2022,18 @@
       "evidence_links": [
         {
           "key": "HOME",
-          "url": null,
-          "scope": "Compare intended place-of-birth cohort studies, transfer arrangements and risk strata; specific primary paper mapping pending.",
-          "relationship": "independently located related evidence or prior archive comparison; not necessarily cited by media"
+          "url": "https://pubmed.ncbi.nlm.nih.gov/31709403/",
+          "scope": "2019 intended place-of-birth review of low-risk pregnancies; observational evidence, integration and transfer context matter.",
+          "relationship": "independent comparison literature; not necessarily cited in media"
+        },
+        {
+          "key": "HOME",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/42478077/",
+          "scope": "2026 review reports higher pooled peri/neonatal mortality odds (OR 1.70, 95% CI 1.05–2.74) outside hospital, but fewer severe perineal tears; reconcile selection, comparator, setting and overlap with prior reviews. Neither review establishes freebirth safety.",
+          "relationship": "independent comparison literature; not necessarily cited in media"
         }
       ],
-      "trace_status": "original evidence trace pending or contextual/nonclinical",
+      "trace_status": "related source linked; claim-level mapping and full appraisal pending",
       "rights": "link-only research; no reuse or embedding clearance",
       "clinical_review": false,
       "publish": false,
@@ -1956,12 +2057,18 @@
       "evidence_links": [
         {
           "key": "HOME",
-          "url": null,
-          "scope": "Compare intended place-of-birth cohort studies, transfer arrangements and risk strata; specific primary paper mapping pending.",
-          "relationship": "independently located related evidence or prior archive comparison; not necessarily cited by media"
+          "url": "https://pubmed.ncbi.nlm.nih.gov/31709403/",
+          "scope": "2019 intended place-of-birth review of low-risk pregnancies; observational evidence, integration and transfer context matter.",
+          "relationship": "independent comparison literature; not necessarily cited in media"
+        },
+        {
+          "key": "HOME",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/42478077/",
+          "scope": "2026 review reports higher pooled peri/neonatal mortality odds (OR 1.70, 95% CI 1.05–2.74) outside hospital, but fewer severe perineal tears; reconcile selection, comparator, setting and overlap with prior reviews. Neither review establishes freebirth safety.",
+          "relationship": "independent comparison literature; not necessarily cited in media"
         }
       ],
-      "trace_status": "original evidence trace pending or contextual/nonclinical",
+      "trace_status": "related source linked; claim-level mapping and full appraisal pending",
       "rights": "link-only research; no reuse or embedding clearance",
       "clinical_review": false,
       "publish": false,
@@ -1985,12 +2092,18 @@
       "evidence_links": [
         {
           "key": "HOME",
-          "url": null,
-          "scope": "Compare intended place-of-birth cohort studies, transfer arrangements and risk strata; specific primary paper mapping pending.",
-          "relationship": "independently located related evidence or prior archive comparison; not necessarily cited by media"
+          "url": "https://pubmed.ncbi.nlm.nih.gov/31709403/",
+          "scope": "2019 intended place-of-birth review of low-risk pregnancies; observational evidence, integration and transfer context matter.",
+          "relationship": "independent comparison literature; not necessarily cited in media"
+        },
+        {
+          "key": "HOME",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/42478077/",
+          "scope": "2026 review reports higher pooled peri/neonatal mortality odds (OR 1.70, 95% CI 1.05–2.74) outside hospital, but fewer severe perineal tears; reconcile selection, comparator, setting and overlap with prior reviews. Neither review establishes freebirth safety.",
+          "relationship": "independent comparison literature; not necessarily cited in media"
         }
       ],
-      "trace_status": "original evidence trace pending or contextual/nonclinical",
+      "trace_status": "related source linked; claim-level mapping and full appraisal pending",
       "rights": "link-only research; no reuse or embedding clearance",
       "clinical_review": false,
       "publish": false,
@@ -2014,12 +2127,18 @@
       "evidence_links": [
         {
           "key": "HOME",
-          "url": null,
-          "scope": "Compare intended place-of-birth cohort studies, transfer arrangements and risk strata; specific primary paper mapping pending.",
-          "relationship": "independently located related evidence or prior archive comparison; not necessarily cited by media"
+          "url": "https://pubmed.ncbi.nlm.nih.gov/31709403/",
+          "scope": "2019 intended place-of-birth review of low-risk pregnancies; observational evidence, integration and transfer context matter.",
+          "relationship": "independent comparison literature; not necessarily cited in media"
+        },
+        {
+          "key": "HOME",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/42478077/",
+          "scope": "2026 review reports higher pooled peri/neonatal mortality odds (OR 1.70, 95% CI 1.05–2.74) outside hospital, but fewer severe perineal tears; reconcile selection, comparator, setting and overlap with prior reviews. Neither review establishes freebirth safety.",
+          "relationship": "independent comparison literature; not necessarily cited in media"
         }
       ],
-      "trace_status": "original evidence trace pending or contextual/nonclinical",
+      "trace_status": "related source linked; claim-level mapping and full appraisal pending",
       "rights": "link-only research; no reuse or embedding clearance",
       "clinical_review": false,
       "publish": false,
@@ -2420,8 +2539,15 @@
       "claim_status": "screened description/excerpt only; verify exact speaker wording before publication",
       "commercial_and_funding_context": "International child-health institution; production-specific funding and expert ties unverified.",
       "independence": "not established",
-      "evidence_links": [],
-      "trace_status": "original evidence trace pending or contextual/nonclinical",
+      "evidence_links": [
+        {
+          "key": "FETAL",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/24205353/",
+          "scope": "Prenatal musical exposure and later electrophysiological response, not general cognitive improvement.",
+          "relationship": "independent comparison literature"
+        }
+      ],
+      "trace_status": "related source linked; claim-level mapping and full appraisal pending",
       "rights": "link-only research; no reuse or embedding clearance",
       "clinical_review": false,
       "publish": false,
@@ -2486,8 +2612,15 @@
       "claim_status": "screened description/excerpt only; verify exact speaker wording before publication",
       "commercial_and_funding_context": "International child-health institution; production-specific funding and expert ties unverified.",
       "independence": "not established",
-      "evidence_links": [],
-      "trace_status": "original evidence trace pending or contextual/nonclinical",
+      "evidence_links": [
+        {
+          "key": "FETAL",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/24205353/",
+          "scope": "Prenatal musical exposure and later electrophysiological response, not general cognitive improvement.",
+          "relationship": "independent comparison literature"
+        }
+      ],
+      "trace_status": "related source linked; claim-level mapping and full appraisal pending",
       "rights": "link-only research; no reuse or embedding clearance",
       "clinical_review": false,
       "publish": false,
