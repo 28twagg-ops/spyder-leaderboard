@@ -1,0 +1,244 @@
+[
+  {
+    "name": "PROBIT",
+    "source_ids": [
+      "PED-PROBIT",
+      "P2-02",
+      "P2-03"
+    ],
+    "rule": "One breastfeeding-promotion randomized cohort, follow-up reports; not randomized formula assignment.",
+    "independent_count_allowed": false,
+    "review_pending": true
+  },
+  {
+    "name": "LEAP",
+    "source_ids": [
+      "PED-LEAP",
+      "PED-LEAPFOLLOW",
+      "PED-CORRECTION"
+    ],
+    "rule": "Original, follow-up and erratum. Correction is distinct publication, not extra cohort.",
+    "independent_count_allowed": false,
+    "review_pending": true
+  },
+  {
+    "name": "BLISS",
+    "source_ids": [
+      "PED-BLISSGROW",
+      "PED-BLISSCHOKE"
+    ],
+    "rule": "One trial, distinct growth and choking outcomes.",
+    "independent_count_allowed": false,
+    "review_pending": true
+  },
+  {
+    "name": "WHO motor",
+    "source_ids": [
+      "PED-MOTOR",
+      "PED-WINDOW",
+      "P4-20"
+    ],
+    "rule": "Reference study and companion table; no independent efficacy trial.",
+    "independent_count_allowed": false,
+    "review_pending": true
+  },
+  {
+    "name": "Cornell choline",
+    "source_ids": [
+      "IA006",
+      "IA007",
+      "P4-08",
+      "P4-09",
+      "P4-11"
+    ],
+    "rule": "Original, follow-up and protocol. Protocol has no outcome data.",
+    "independent_count_allowed": false,
+    "review_pending": true
+  },
+  {
+    "name": "ADORE",
+    "source_ids": [
+      "R007",
+      "H028",
+      "GE001",
+      "P5-15",
+      "P5-16"
+    ],
+    "rule": "Same randomized cohort and post hoc genotype analysis.",
+    "independent_count_allowed": false,
+    "review_pending": true
+  },
+  {
+    "name": "ORIP",
+    "source_ids": [
+      "S082",
+      "R005",
+      "R006",
+      "P5-14"
+    ],
+    "rule": "Parent trial and subgroup records; verify original membership.",
+    "independent_count_allowed": false,
+    "review_pending": true
+  },
+  {
+    "name": "SPRING",
+    "source_ids": [
+      "R001",
+      "H001",
+      "H002",
+      "H003",
+      "P5-13"
+    ],
+    "rule": "Parent cohort and associated reports; product donation and negative findings retained.",
+    "independent_count_allowed": false,
+    "review_pending": true
+  },
+  {
+    "name": "CHAMACOS",
+    "source_ids": [
+      "P6-07",
+      "P6-08"
+    ],
+    "rule": "Original and secondary analysis.",
+    "independent_count_allowed": false,
+    "review_pending": true
+  },
+  {
+    "name": "Phthalate pooled cohorts and ECHO",
+    "source_ids": [
+      "P6-21",
+      "P6-22",
+      "P6-23",
+      "P6-24"
+    ],
+    "rule": "Partial overlap, not identical populations; no pooled total.",
+    "independent_count_allowed": false,
+    "review_pending": true
+  },
+  {
+    "name": "UGAAR",
+    "source_ids": [
+      "P6-37",
+      "P6-38"
+    ],
+    "rule": "Growth and cognitive follow-up.",
+    "independent_count_allowed": false,
+    "review_pending": true
+  },
+  {
+    "name": "HAPIN",
+    "source_ids": [
+      "P6-39",
+      "P6-40"
+    ],
+    "rule": "Birthweight and infant stunting follow-up.",
+    "independent_count_allowed": false,
+    "review_pending": true
+  },
+  {
+    "name": "MATISSE",
+    "source_ids": [
+      "PED-MATISSE",
+      "PED-RSVLABEL"
+    ],
+    "rule": "Trial and label; 90/180-day cumulative endpoints; 99.5% and 97.58% CI retained; HARMONIE separate.",
+    "independent_count_allowed": false,
+    "review_pending": true
+  },
+  {
+    "name": "iKMC",
+    "source_ids": [
+      "PED-iKMC",
+      "P7-58"
+    ],
+    "rule": "Same original trial. OMWaNA separate trial; reviews overlap.",
+    "independent_count_allowed": false,
+    "review_pending": true
+  },
+  {
+    "name": "Pakistan Lady Health Worker",
+    "source_ids": [
+      "P4-17",
+      "P4-18"
+    ],
+    "rule": "Same original and 4-year follow-up.",
+    "independent_count_allowed": false,
+    "review_pending": true
+  },
+  {
+    "name": "BABITT",
+    "source_ids": [
+      "P1-10",
+      "P2-17",
+      "P2-18"
+    ],
+    "rule": "Trial result and protocol; no separate efficacy from protocol.",
+    "independent_count_allowed": false,
+    "review_pending": true
+  },
+  {
+    "name": "Disposable diaper cues",
+    "source_ids": [
+      "P1-07",
+      "P1-08",
+      "P2-15",
+      "P2-16"
+    ],
+    "rule": "Methods and result possible same cohort; verify.",
+    "independent_count_allowed": false,
+    "review_pending": true
+  },
+  {
+    "name": "Colic probiotics",
+    "source_ids": [
+      "P7-40",
+      "P7-41",
+      "P7-42"
+    ],
+    "rule": "IPD includes trials; not independent aggregate.",
+    "independent_count_allowed": false,
+    "review_pending": true
+  },
+  {
+    "name": "Calcium",
+    "source_ids": [
+      "S092",
+      "S093",
+      "DR003",
+      "P5-05",
+      "P5-06",
+      "P5-07",
+      "P5-09"
+    ],
+    "rule": "Review versions, commentary, IPD and dose trial; compare membership and outcome.",
+    "independent_count_allowed": false,
+    "review_pending": true
+  },
+  {
+    "name": "Pregnancy probiotics",
+    "source_ids": [
+      "S094",
+      "S095",
+      "P5-11",
+      "P5-12",
+      "P5-13"
+    ],
+    "rule": "Overlapping reviews and trial; eligibility differs; preserve safety signal.",
+    "independent_count_allowed": false,
+    "review_pending": true
+  },
+  {
+    "name": "Fertility retraction chain",
+    "source_ids": [
+      "DR023",
+      "DR024",
+      "DR025",
+      "DR021",
+      "DR022",
+      "PED-FERTILITY-HOLD"
+    ],
+    "rule": "Excluded retracted trials; dependent outcome hold; not all reviews retracted.",
+    "independent_count_allowed": false,
+    "review_pending": true
+  }
+]
