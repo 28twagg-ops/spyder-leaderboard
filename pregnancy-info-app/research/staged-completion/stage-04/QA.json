@@ -1,0 +1,19 @@
+{
+  "date": "2026-11-26",
+  "baseline": "85d0ed323de25cf202c2045a87f2ddf1a8add307",
+  "sources": 24,
+  "with_prior_links": 6,
+  "outcomes": 26,
+  "windows": 6,
+  "comparisons": 8,
+  "visuals": 7,
+  "retro_cards": 6,
+  "source_ids_unique": true,
+  "missing_numeric_links": 0,
+  "interval_errors": 0,
+  "funding_group_errors": 0,
+  "clinical_review": false,
+  "canonical_changed": false,
+  "stage5_authorized": false,
+  "limitations": "Targeted search, not full systematic review or independent double extraction. Full COI, funding and retraction audit incomplete; no PDF inspected, no asset reuse clearance, no runtime tests."
+}

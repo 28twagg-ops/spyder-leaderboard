@@ -1,0 +1,90 @@
+[
+  {
+    "topic": "Responsive play vs buying developmental products",
+    "source_ids": [
+      "P4-01",
+      "P4-02",
+      "P4-03",
+      "P4-17",
+      "P4-18"
+    ],
+    "quick": "Talk, read and play with your baby; expensive toys are not necessary.",
+    "caution": "No promises about intelligence.",
+    "clinical_review": false
+  },
+  {
+    "topic": "Prenatal stimulation",
+    "source_ids": [
+      "P4-06",
+      "P4-07"
+    ],
+    "quick": "Talking and singing can be enjoyable; recognition is not higher IQ.",
+    "caution": "Do not use loud devices against the abdomen.",
+    "clinical_review": false
+  },
+  {
+    "topic": "Choline",
+    "source_ids": [
+      "P4-08",
+      "P4-09",
+      "P4-10",
+      "P4-11"
+    ],
+    "quick": "Get adequate choline; extra amounts are not proven to make children smarter.",
+    "caution": "No experimental dose recommendation.",
+    "clinical_review": false
+  },
+  {
+    "topic": "DHA",
+    "source_ids": [
+      "P4-12"
+    ],
+    "quick": "Important nutrient, but extra DHA did not clearly raise IQ in this trial.",
+    "caution": "Do not infer prenatal nutrient needs from one endpoint.",
+    "clinical_review": false
+  },
+  {
+    "topic": "Screens",
+    "source_ids": [
+      "P4-04",
+      "P4-05"
+    ],
+    "quick": "Prefer people and play; context matters when screens are used.",
+    "caution": "Age-specific guidance, not causal percentages.",
+    "clinical_review": false
+  },
+  {
+    "topic": "Exercise and stress",
+    "source_ids": [
+      "P4-13",
+      "P4-14",
+      "P4-15",
+      "P4-16",
+      "P4-24"
+    ],
+    "quick": "Support maternal health without promising a smarter baby or blaming ordinary stress.",
+    "caution": "Eligibility and clinical support matter.",
+    "clinical_review": false
+  },
+  {
+    "topic": "Motor milestones",
+    "source_ids": [
+      "P4-19",
+      "P4-20",
+      "P4-21",
+      "P4-22"
+    ],
+    "quick": "Give safe opportunities to move; children develop at different rates.",
+    "caution": "Awake supervised tummy time, back to sleep, no walkers as training, concerns prompt care.",
+    "clinical_review": false
+  },
+  {
+    "topic": "Multiple languages",
+    "source_ids": [
+      "P4-23"
+    ],
+    "quick": "Use the languages your family speaks.",
+    "caution": "Assess concerns across languages; no universal intelligence claim.",
+    "clinical_review": false
+  }
+]

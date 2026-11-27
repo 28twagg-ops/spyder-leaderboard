@@ -1,0 +1,56 @@
+[
+  {
+    "source_id": "P4-20",
+    "skill": "sitting unsupported",
+    "lower_months": 3.8,
+    "upper_months": 9.2,
+    "interval_type": "1st to 99th percentile, not CI",
+    "existing": "PED-WINDOW",
+    "clinical_review": false
+  },
+  {
+    "source_id": "P4-20",
+    "skill": "standing with assistance",
+    "lower_months": 4.8,
+    "upper_months": 11.4,
+    "interval_type": "1st to 99th percentile, not CI",
+    "existing": "PED-WINDOW",
+    "clinical_review": false
+  },
+  {
+    "source_id": "P4-20",
+    "skill": "hands-and-knees crawling",
+    "lower_months": 5.2,
+    "upper_months": 13.5,
+    "interval_type": "1st to 99th percentile, not CI",
+    "existing": "PED-WINDOW",
+    "clinical_review": false
+  },
+  {
+    "source_id": "P4-20",
+    "skill": "walking with assistance",
+    "lower_months": 5.9,
+    "upper_months": 13.7,
+    "interval_type": "1st to 99th percentile, not CI",
+    "existing": "PED-WINDOW",
+    "clinical_review": false
+  },
+  {
+    "source_id": "P4-20",
+    "skill": "standing alone",
+    "lower_months": 6.9,
+    "upper_months": 16.9,
+    "interval_type": "1st to 99th percentile, not CI",
+    "existing": "PED-WINDOW",
+    "clinical_review": false
+  },
+  {
+    "source_id": "P4-20",
+    "skill": "walking alone",
+    "lower_months": 8.2,
+    "upper_months": 17.6,
+    "interval_type": "1st to 99th percentile, not CI",
+    "existing": "PED-WINDOW",
+    "clinical_review": false
+  }
+]

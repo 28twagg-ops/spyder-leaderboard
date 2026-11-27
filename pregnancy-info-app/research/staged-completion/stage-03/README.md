@@ -11,3 +11,6 @@
 - Maternal urgent warning signs: CDC pregnancy through one year postpartum. No exercise or cosmetic guidance overrides escalation.
 ## Files
 SOURCES.json, OUTCOMES.json, FUNDING_AUDIT.json, COMPARISONS.json, VISUAL_CANDIDATES.json, SAFETY_CASES.json, QA.json, SEARCH_LOG.md, REMAINING.md. Existing canonical and export unchanged. Stage 10 will reconcile actual IDs/aliases, verify unit/site/timepoint and regenerate derived exports. No Work session needed for this bounded packet.
+
+## Stage 4 and user-approved transparency checkpoint · 2026-11-26
+Apply [funding and plain-language standard](../FUNDING_AND_READABILITY_STANDARD.md) to all stages. [Retroactive stage 1–3 examples](../FUNDING_AND_READABILITY.json) distinguish funding, risk-of-bias and unknown counts; no named-company share without evidence. Grade 7–8 quick view with accessible details and visible safety; Claude owns UI. [Stage 4](../stage-04/README.md) includes 24 staged records, 26 numeric rows, 7 visual links, explicit choline/DHA financial ties and same-cohort caveats. No canonical promotion, clinical review, runtime or licensing clearance. Stage 5 not authorized; stop here.

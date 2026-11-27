@@ -1,0 +1,58 @@
+[
+  {
+    "id": "P4-V1",
+    "title": "CDC illustrated milestones",
+    "url": "https://www.cdc.gov/act-early/milestones/index.html",
+    "notes": "Illustrations/checklists age 2 months–5 years; check individual asset rights",
+    "redistribution_cleared": false,
+    "clinical_review": false
+  },
+  {
+    "id": "P4-V2",
+    "title": "WHO motor development milestone chart",
+    "url": "https://www.who.int/tools/child-growth/child-growth-standards/standards/motor-development-milestones",
+    "notes": "Original chart and reference data; link only until rights confirmed",
+    "redistribution_cleared": false,
+    "clinical_review": false
+  },
+  {
+    "id": "P4-V3",
+    "title": "UNICEF/WHO Care for Child Development",
+    "url": "https://www.unicef.org/documents/care-child-development",
+    "notes": "Counselling cards, age-specific play and communication; PDF not opened; check exact credits/licensing",
+    "redistribution_cleared": false,
+    "clinical_review": false
+  },
+  {
+    "id": "P4-V4",
+    "title": "Harvard serve and return guide",
+    "url": "https://developingchild.harvard.edu/resources/guide/how-to-5-steps-for-brain-building-serve-and-return/",
+    "notes": "Existing illustrated activities and videos; link-only pending rights",
+    "redistribution_cleared": false,
+    "clinical_review": false
+  },
+  {
+    "id": "P4-V5",
+    "title": "Harvard brain architecture",
+    "url": "https://developingchild.harvard.edu/key-concept/brain-architecture/",
+    "notes": "Existing scientific conceptual figures; not individual brain growth prediction",
+    "redistribution_cleared": false,
+    "clinical_review": false
+  },
+  {
+    "id": "P4-V6",
+    "title": "Jeong review figures",
+    "url": "https://journals.plos.org/plosmedicine/article/figures?id=10.1371%2Fjournal.pmed.1003602",
+    "notes": "CC BY article; verify individual figure credits; forest plots not child IQ gains",
+    "redistribution_cleared": false,
+    "clinical_review": false
+  },
+  {
+    "id": "P4-V7",
+    "title": "OpenStax embryonic development",
+    "url": "https://openstax.org/books/anatomy-and-physiology-2e/pages/28-2-embryonic-development",
+    "notes": "Textbook chapter candidate; inherited Stage 1 link, asset/license recheck pending",
+    "redistribution_cleared": false,
+    "clinical_review": false
+  }
+]

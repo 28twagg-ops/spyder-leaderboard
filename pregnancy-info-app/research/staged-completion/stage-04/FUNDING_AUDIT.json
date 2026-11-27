@@ -1,0 +1,170 @@
+[
+  {
+    "source_id": "P4-01",
+    "funding": "WHO grant APW-201931623; no funder role declared",
+    "ties": "Authors declared no competing interests; Harvard academic affiliations. Underlying trial funding not audited.",
+    "verification": "Original PLOS full text funding/COI, abstract and figures",
+    "independent_certification": false
+  },
+  {
+    "source_id": "P4-02",
+    "funding": "Author support: Rhodes Trust, Oppenheimer Memorial Trust, WITS NRF Centre; DECIPHer joint charities/public funders",
+    "ties": "Full COI not accessible; separate author support from review grant and underlying trial funding",
+    "verification": "Wiley abstract and acknowledgments",
+    "independent_certification": false
+  },
+  {
+    "source_id": "P4-03",
+    "funding": "American Speech-Language-Hearing Foundation; no funder role declared",
+    "ties": "No COI reported; Northern Arizona University; coding assistants paid by project.",
+    "verification": "Original JAMA Table 2 and disclosure",
+    "independent_certification": false
+  },
+  {
+    "source_id": "P4-04",
+    "funding": "Australian Research Council Centre of Excellence for the Digital Child CE200100022",
+    "ties": "No conflicts reported; center-level partner support beyond article disclosures not checked.",
+    "verification": "Original JAMA results, methods and disclosure",
+    "independent_certification": false
+  },
+  {
+    "source_id": "P4-05",
+    "funding": "Specific review funding not located in inspected HTML",
+    "ties": "No COI reported; Christakis journal editor recused from editorial decision",
+    "verification": "Original JAMA article disclosure, indexed abstract",
+    "independent_certification": false
+  },
+  {
+    "source_id": "P4-06",
+    "funding": "Not verified",
+    "ties": "Not verified",
+    "verification": "Primary abstract",
+    "independent_certification": false
+  },
+  {
+    "source_id": "P4-07",
+    "funding": "Academy of Finland, ERANET-NEURON PANS, University of Helsinki graduate grant, Finnish Cultural Foundation",
+    "ties": "Authors declare no competing interests",
+    "verification": "Indexed original PLOS abstract, funding, COI",
+    "independent_certification": false
+  },
+  {
+    "source_id": "P4-08",
+    "funding": "Egg Nutrition Center, Beef Checkoff, US public funding; authors report no funder role; complete exact grant list pending",
+    "ties": "Industry promotion funding; complete individual disclosures pending primary extraction",
+    "verification": "Primary PubMed indexed grant/disclosure and abstract",
+    "independent_certification": false
+  },
+  {
+    "source_id": "P4-09",
+    "funding": "NIFA/USDA Hatch 1007195 and Balchem Corp; trainee NICHD and Egg Nutrition Center award",
+    "ties": "Authors declared no conflicts in 2022; later protocol discloses Canfield consultant for Balchem, arrangement after original study/funding.",
+    "verification": "Indexed original Wiley results, funding/COI",
+    "independent_certification": false
+  },
+  {
+    "source_id": "P4-10",
+    "funding": "Gerber Foundation, NIH grants and Egg Nutrition Center; funders no role per authors",
+    "ties": "Gerber Foundation affiliation/ultimate funding not inferred; author COI full extraction pending",
+    "verification": "Indexed original PMC and PubMed",
+    "independent_certification": false
+  },
+  {
+    "source_id": "P4-11",
+    "funding": "NIH T32 HD087137, Egg Nutrition Center, Balchem Corporation",
+    "ties": "RLC consultant for Balchem; authors say original study and funding predate arrangement.",
+    "verification": "Indexed primary protocol disclosures",
+    "independent_certification": false
+  },
+  {
+    "source_id": "P4-12",
+    "funding": "NHMRC grants 349301 and 1048493; Croda Chemicals donated study capsules",
+    "ties": "Makrides advisory boards Nestlé Nutrition Institute, Fonterra, True Origins; Gould honoraria Nestlé Nutrition Institute; payments to institutions.",
+    "verification": "Original JAMA table and disclosures",
+    "independent_certification": false
+  },
+  {
+    "source_id": "P4-13",
+    "funding": "Not verified",
+    "ties": "Not verified",
+    "verification": "Primary abstract",
+    "independent_certification": false
+  },
+  {
+    "source_id": "P4-14",
+    "funding": "Not verified",
+    "ties": "Not verified",
+    "verification": "Primary abstract",
+    "independent_certification": false
+  },
+  {
+    "source_id": "P4-15",
+    "funding": "Not verified",
+    "ties": "Not verified",
+    "verification": "Indexed primary abstract/results",
+    "independent_certification": false
+  },
+  {
+    "source_id": "P4-16",
+    "funding": "Not verified",
+    "ties": "Not verified",
+    "verification": "Primary abstract and publisher methods",
+    "independent_certification": false
+  },
+  {
+    "source_id": "P4-17",
+    "funding": "UNICEF",
+    "ties": "Full individual COI pending",
+    "verification": "Primary abstract funding/results",
+    "independent_certification": false
+  },
+  {
+    "source_id": "P4-18",
+    "funding": "Grand Challenges Canada",
+    "ties": "Full individual disclosures pending",
+    "verification": "Primary abstract",
+    "independent_certification": false
+  },
+  {
+    "source_id": "P4-19",
+    "funding": "Not verified",
+    "ties": "Article disclosure not independently opened; unknown",
+    "verification": "Primary indexed abstract; PDF not used as extraction source",
+    "independent_certification": false
+  },
+  {
+    "source_id": "P4-20",
+    "funding": "Primary grants not verified",
+    "ties": "Not verified",
+    "verification": "Primary abstract and WHO HTML index",
+    "independent_certification": false
+  },
+  {
+    "source_id": "P4-21",
+    "funding": "Grant detail not extracted",
+    "ties": "Not verified",
+    "verification": "Primary abstract",
+    "independent_certification": false
+  },
+  {
+    "source_id": "P4-22",
+    "funding": "CDC educational resource; panel ties not assessed",
+    "ties": null,
+    "verification": "CDC HTML",
+    "independent_certification": false
+  },
+  {
+    "source_id": "P4-23",
+    "funding": "AAP resource; underlying evidence and panel disclosures not audited",
+    "ties": null,
+    "verification": "Original indexed guidance",
+    "independent_certification": false
+  },
+  {
+    "source_id": "P4-24",
+    "funding": "Not verified",
+    "ties": "Not verified",
+    "verification": "Primary indexed abstract",
+    "independent_certification": false
+  }
+]

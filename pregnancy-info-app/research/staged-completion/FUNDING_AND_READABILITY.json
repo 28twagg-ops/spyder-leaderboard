@@ -1,0 +1,152 @@
+[
+  {
+    "topic": "Formula marketing",
+    "source": "https://www.bmj.com/content/375/bmj.n2202",
+    "prior_ids": [
+      "P1-03",
+      "P2-07"
+    ],
+    "scope": "125 formula trials published 2015–2020 in Helfer et al. detailed evaluation",
+    "denominator_type": "trial reports as defined by review",
+    "denominator": 125,
+    "metric": "funding classification as reported",
+    "groups": [
+      {
+        "name": "Industry support including in-kind",
+        "n": 98
+      },
+      {
+        "name": "Funding reported; industry support not reported",
+        "n": 19
+      },
+      {
+        "name": "Funding not reported",
+        "n": 8
+      }
+    ],
+    "additional": [
+      {
+        "label": "Among trials reporting funding",
+        "n": 98,
+        "d": 117
+      },
+      {
+        "label": "Industry-affiliated author among industry-supported trials",
+        "n": 75,
+        "d": 98
+      },
+      {
+        "label": "Industry statistical analysis or writing when role clearly described",
+        "n": 60,
+        "d": 81
+      },
+      {
+        "label": "High risk of bias",
+        "n": 100,
+        "d": 125
+      },
+      {
+        "label": "Low risk of bias",
+        "n": 5,
+        "d": 125
+      },
+      {
+        "label": "Some concerns (remainder)",
+        "n": 20,
+        "d": 125
+      }
+    ],
+    "quick": "Companies supported many of these trials. That is a reason to check independent evidence for extra product benefits, not to avoid safe formula.",
+    "limitations": "Funding and risk-of-bias categories are separate; not all formula research. Review correction n2890 supplied omitted judgment supplement, not a new trial.",
+    "verification": "Primary indexed original and correction checked; full BMJ opening 403."
+  },
+  {
+    "topic": "Formula marketing claims",
+    "source": "https://www.bmj.com/content/380/bmj-2022-071075",
+    "prior_ids": [
+      "P1-05",
+      "P2-08"
+    ],
+    "scope": "32 registered trials supporting claims in 15-country product survey",
+    "denominator": 32,
+    "denominator_type": "registered trials cited in surveyed claims",
+    "metric": "funding OR author affiliation",
+    "groups": [
+      {
+        "name": "Industry funding and/or industry-affiliated authors",
+        "n": 28
+      },
+      {
+        "name": "No nutrition-industry funding or relevant COI reported",
+        "n": 4
+      }
+    ],
+    "quick": "Most registered trials cited for the claims had industry links. That does not mean every product is unsafe.",
+    "limitations": "Not all formula trials; overlap with first review unresolved. No company-specific counts extracted."
+  },
+  {
+    "topic": "Disposable diapers and toilet learning",
+    "prior_ids": [
+      "P2-14",
+      "P2-15",
+      "P2-16",
+      "P2-17",
+      "P2-21"
+    ],
+    "scope": "Targeted Stage 2 reports, not exhaustive",
+    "denominator": null,
+    "metric": "named sponsor share unavailable",
+    "groups": [],
+    "quick": "We have not established how many diaper studies were funded by Pampers, Huggies or other companies. A small study found fewer pee cues with disposables, but did not measure when children became independently toilet trained.",
+    "limitations": "Methods and results may be same cohort; commercial sponsor of 2021 review unresolved. Do not claim a company link without source."
+  },
+  {
+    "topic": "Collagen and skin",
+    "source": "https://doi.org/10.1111/jocd.71208",
+    "prior_ids": [
+      "P3-05",
+      "P3-06",
+      "P3-07"
+    ],
+    "scope": "Hydration subset described by 2026 technical reanalysis; inherited Stage 3 extraction",
+    "denominator": 9,
+    "denominator_type": "studies in hydration subset, verify primary membership",
+    "metric": "reported study funding",
+    "groups": [
+      {
+        "name": "Industry-funded",
+        "n": 7
+      },
+      {
+        "name": "Non-sponsored per reanalysis",
+        "n": 2
+      }
+    ],
+    "quick": "Most studies in this small hydration subset had industry funding. Four of seven sponsored studies reported a clear benefit, compared with zero of two nonsponsored studies.",
+    "limitations": "Very small subsets; significance counts not effect sizes or proof that funding caused different results; no pregnancy-specific prevention evidence; recheck original table before use.",
+    "verification": "Inherited from Stage 3; not independently re-read this pass; research-only example."
+  },
+  {
+    "topic": "Cocoa butter",
+    "source": "https://pubmed.ncbi.nlm.nih.gov/18715434/",
+    "prior_ids": [
+      "P3-01",
+      "P3-02"
+    ],
+    "denominator": null,
+    "groups": [],
+    "quick": "The company supplied both lotions in one trial, which did not find reliable stretch-mark prevention.",
+    "limitations": "In-kind donation is documented in Cochrane trial characterization; total cash support unknown; inherited prior audit."
+  },
+  {
+    "topic": "Pelvic floor therapy after birth injury",
+    "source": "https://pmc.ncbi.nlm.nih.gov/articles/PMC8924744/",
+    "prior_ids": [
+      "P3-16"
+    ],
+    "denominator": null,
+    "groups": [],
+    "quick": "A small study supported by public and academic funding found better pelvic floor symptoms after physical therapy.",
+    "limitations": "Authors declared no conflicts; small injury-specific trial; inherited Stage 3 extraction. Not a universal exercise prescription."
+  }
+]
