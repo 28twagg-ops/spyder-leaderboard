@@ -187,3 +187,6 @@ Weeks 28–29 extend the approved hierarchy with THIRD TRIMESTER label and share
 
 ### Weeks 30–31 candidate checkpoint
 Approved hierarchy preserved; twelve week candidates now span 20–31. See latest completion tracker for source windows, safety and outstanding review. No actual app visual acceptance or clinical release yet.
+
+### Full pregnancy candidate coverage and fruit treatment
+All 40 weekly chapters are implemented candidates at fdab0e359a4a347e2e4cc492b7da25e583bb8573. Existing produce SVGs retained; remove surrounding opaque background treatment and use theme-inheriting transparent section. No replacement photo sheets embedded. Early weeks adapt role labels and omit size for weeks 1–3. Early measurement conventions, shared editorial ranges and week 40 birth transition are recorded in latest tracker. All clinical and rendered review gates remain open.
