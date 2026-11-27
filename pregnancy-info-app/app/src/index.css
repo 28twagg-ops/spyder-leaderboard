@@ -840,29 +840,47 @@ button.reader-back:focus-visible{outline-offset:3px}
 /* Visual source details: plain headings, descriptive text, source links only. */
 .visual-purpose{gap:.4rem}.visual-purpose p{margin:0;line-height:1.5}.visual-card .provenance-hash{overflow-wrap:anywhere;font-size:.8rem}.visual-card .btn{min-height:44px}
 
-/* Week 22 design pilot only — quiet editorial hierarchy, meaningful visual explanations, theme tokens. */
-.pilot-week{gap:1.35rem;padding-bottom:1rem}
-.pilot-header{display:grid;gap:.4rem}.pilot-header .reader-back{justify-self:start;margin-bottom:.3rem}
-.pilot-kicker{font-size:.68rem;letter-spacing:.15em;font-weight:700;color:var(--accent-deep)}
-.pilot-header h1{font-size:clamp(2.7rem,10vw,3.5rem);line-height:1;margin:0}
-.pilot-header>p{margin:0;color:var(--ink-muted);font-size:.92rem;line-height:1.5}
-.pilot-progress{display:grid;gap:.35rem;margin-top:.3rem}.pilot-progress>div{height:5px;background:var(--bg-soft);border-radius:4px;overflow:hidden}.pilot-progress>div>span{height:100%;display:block;background:var(--accent)}.pilot-progress small{font-size:.72rem;color:var(--ink-muted)}
-.pilot-hero{background:var(--hero-bg);border:1px solid var(--line);border-radius:18px;padding:1.2rem;display:grid;gap:.7rem}
-.pilot-hero h2{font:500 clamp(1.65rem,6.2vw,2.15rem)/1.12 var(--font-display);margin:0;letter-spacing:-.035em}.pilot-hero p{margin:0;font-size:.92rem;line-height:1.55}.pilot-hero>small{font-size:.72rem;color:var(--ink-muted)}
-.pilot-milestones{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:.65rem;margin-top:.25rem;padding-top:.75rem;border-top:1px solid var(--line)}
-.pilot-milestones div{display:grid;gap:.15rem}.pilot-milestones b{font-size:.81rem}.pilot-milestones span{font-size:.75rem;color:var(--ink-muted);line-height:1.4}
-.pilot-learn,.pilot-section{display:grid;gap:.65rem}.pilot-section-heading{display:grid;gap:.25rem}
-.pilot-section-heading h2{font:500 1.6rem/1.2 var(--font-display);margin:0;letter-spacing:-.025em}
-.pilot-section-heading p{margin:0;font-size:.9rem;line-height:1.55;color:var(--ink-muted)}
-.pilot-tabs{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));border-bottom:1px solid var(--line)}
-.pilot-tabs button{appearance:none;background:none;border:0;border-bottom:2px solid transparent;color:var(--ink-muted);font:600 .88rem var(--font-body);min-height:44px;padding:.3rem .15rem;cursor:pointer;border-radius:0}
-.pilot-tabs button[aria-pressed=true]{color:var(--ink);border-bottom-color:var(--accent)}
-.pilot-concept{border:1px solid var(--line);border-radius:14px;overflow:hidden;background:var(--bg-elevated)}
-.pilot-diagram{display:block;width:100%;height:auto;max-height:195px;background:var(--accent-soft);color:var(--accent-deep);padding:.5rem .75rem}
-.pilot-concept-text{padding:.95rem;display:grid;gap:.45rem}.pilot-concept h3{font:500 1.25rem/1.25 var(--font-display);margin:0}.pilot-concept p{margin:0;font-size:.92rem;line-height:1.55}
-.pilot-concept details{border-top:1px solid var(--line);padding-top:.45rem}.pilot-concept details summary{min-height:44px;display:flex;align-items:center}.pilot-concept details p{margin:.35rem 0}
-.pilot-flow{margin:0;padding:1rem;border:1px solid var(--line);border-radius:14px;background:var(--bg-elevated);display:grid;gap:.6rem}.pilot-flow figcaption{font:500 1.12rem var(--font-display)}.pilot-flow-line{display:grid;grid-template-columns:1fr auto 1fr auto 1fr;gap:.25rem;align-items:center}.pilot-flow-line>div{display:grid;gap:.15rem;padding:.55rem .15rem;text-align:center;border:1px solid var(--line);border-radius:8px;background:var(--accent-soft);min-width:0}.pilot-flow-line strong{font-size:.8rem}.pilot-flow-line small{font-size:.65rem;line-height:1.3;overflow-wrap:anywhere}.pilot-flow-line>span{color:var(--accent-deep)}.pilot-flow-key{font-size:.84rem;line-height:1.45;margin:0}.pilot-flow>small{font-size:.7rem;color:var(--ink-muted)}
-.pilot-source-link{font-size:.83rem;min-height:44px;display:flex;align-items:center;color:var(--accent-deep)}
-.pilot-safety{border-left:3px solid var(--danger);padding:.75rem;background:var(--bg-elevated);display:grid;gap:.3rem}.pilot-safety p{font-size:.85rem;line-height:1.5;margin:0}.pilot-safety a{min-height:44px;display:flex;align-items:center;font-weight:600}
+
+/* Week 22 — exact compact visual hierarchy from the approved chat reference. */
+.pilot-week{display:grid;gap:1rem;padding-bottom:1rem;max-width:520px;margin-inline:auto}
+.pilot-header{display:grid;gap:.35rem}
+.pilot-header .reader-back{justify-self:start;min-height:44px;margin:0}
+.pilot-kicker{font-size:.69rem;letter-spacing:.09em;font-weight:650;color:var(--accent-text)}
+.pilot-header h1.page-title{font:500 clamp(2.1rem,9vw,2.65rem)/1.08 var(--font-display);letter-spacing:-.035em;margin:0}
+.pilot-header>p{margin:0;color:var(--ink-muted);font-size:.86rem;line-height:1.45}
+.pilot-progress{display:grid;gap:.28rem;margin-top:.2rem}
+.pilot-progress>div{height:5px;background:var(--bg-soft);border-radius:4px;overflow:hidden}
+.pilot-progress>div>span{height:100%;display:block;background:var(--accent)}
+.pilot-progress small{font-size:.7rem;color:var(--ink-muted)}
+.pilot-subject{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:3px;padding:3px;border:1px solid var(--line);border-radius:12px;background:var(--bg-soft)}
+.pilot-subject button{min-height:48px;padding:.35rem .4rem;border:1px solid transparent;border-radius:9px;background:none;color:var(--ink-muted);font:650 .93rem/1.25 var(--font-body);cursor:pointer;display:grid;gap:.12rem;justify-items:center}
+.pilot-subject button small{font-size:.68rem;font-weight:400}
+.pilot-subject button[aria-pressed=true]{border-color:var(--line);background:var(--bg-elevated);color:var(--ink);box-shadow:0 2px 5px rgba(0,0,0,.05)}
+.pilot-learn,.pilot-section{display:grid;gap:.6rem}
+.pilot-section-heading{display:grid;gap:.18rem}
+.pilot-section-heading h2{font:500 1.48rem/1.2 var(--font-display);margin:0;letter-spacing:-.025em}
+.pilot-section-heading p{margin:0;font-size:.83rem;line-height:1.4;color:var(--ink-muted)}
+.pilot-tabs{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:3px;padding:3px;background:var(--bg-soft);border-radius:10px}
+.pilot-tabs button{min-height:44px;border:1px solid transparent;background:none;border-radius:7px;color:var(--ink-muted);font:600 .81rem var(--font-body);padding:.25rem .1rem;cursor:pointer}
+.pilot-tabs button[aria-pressed=true]{background:var(--bg-elevated);color:var(--ink);border-color:var(--line)}
+.pilot-concept{display:grid;gap:.65rem;min-width:0}
+.pilot-visual{background:color-mix(in srgb,var(--accent) 15%,var(--bg-elevated));border-radius:12px;padding:.6rem .8rem}
+.pilot-diagram{display:block;width:100%;height:auto;max-height:164px;color:var(--accent-text)}
+.pilot-concept-text{display:grid;gap:.35rem;min-width:0}
+.pilot-context{font:650 .69rem var(--font-body);letter-spacing:.035em;color:var(--accent-text)}
+.pilot-concept h3{font:500 1.38rem/1.23 var(--font-display);letter-spacing:-.02em;margin:0}
+.pilot-concept p{margin:0;font-size:.92rem;line-height:1.52}
+.pilot-diagram-caption{font-size:.69rem;color:var(--ink-muted);line-height:1.35}
+.pilot-concept details{border-top:1px solid var(--line)}
+.pilot-concept details summary{min-height:44px;align-items:center;display:flex;font-size:.85rem}
+.pilot-concept details p{margin:.35rem 0}
+.pilot-flow{margin:.65rem 0 0;display:grid;gap:.6rem}
+.pilot-flow figcaption{font:500 1.12rem var(--font-display)}
+.pilot-flow-line{display:grid;grid-template-columns:1fr auto 1fr auto 1fr;gap:.25rem;align-items:center}
+.pilot-flow-line>div{display:grid;gap:.15rem;padding:.55rem .15rem;text-align:center;border:1px solid var(--line);border-radius:8px;background:var(--accent-soft);min-width:0}
+.pilot-flow-line strong{font-size:.8rem}.pilot-flow-line small{font-size:.65rem;line-height:1.3;overflow-wrap:anywhere}.pilot-flow-line>span{color:var(--accent-text)}
+.pilot-flow-key{font-size:.84rem;line-height:1.45;margin:0}.pilot-flow>small{font-size:.7rem;color:var(--ink-muted)}
+.pilot-safety{border-left:3px solid var(--danger);padding:.65rem .75rem;background:var(--bg-elevated);display:grid;gap:.3rem}
+.pilot-safety strong{font-size:.87rem}.pilot-safety p{font-size:.79rem;line-height:1.45;margin:0}.pilot-safety a{min-height:44px;display:flex;align-items:center;font-weight:600;font-size:.83rem}
 .pilot-week .page-controls>span{align-self:center;text-align:center}
-@media(max-width:360px){.pilot-hero{padding:.85rem}.pilot-milestones{gap:.35rem}.pilot-tabs button{font-size:.8rem}.pilot-flow{padding:.7rem}}
+@media(max-width:360px){.pilot-week{gap:.8rem}.pilot-visual{padding:.45rem}.pilot-diagram{max-height:143px}.pilot-tabs button{font-size:.76rem}}
