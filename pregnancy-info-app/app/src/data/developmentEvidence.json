@@ -217,6 +217,138 @@
       "review": "preliminary source check; independent human/clinical review pending",
       "clinical_review": false,
       "publish": false
+    },
+    {
+      "id": "DEV-15",
+      "title": "EPA: Identifying drinking water filters certified to reduce PFAS",
+      "url": "https://www.epa.gov/water-research/identifying-drinking-water-filters-certified-reduce-pfas",
+      "type": "Technical guidance",
+      "checked": "Check exact model and contaminant certification under NSF/ANSI 53 or 58. EPA notes that certification standards as of April 2024 did not establish reduction to the newer drinking-water standard.",
+      "funding": "US EPA publisher; product-specific test laboratory and manufacturer roles require review.",
+      "limits": "Certification varies by model and contaminant; not proof of personal pregnancy benefit. Verify current standards and local water results.",
+      "aliases": [
+        "P6-19"
+      ],
+      "locator": "Original indexed abstract or publisher excerpt; full text audit pending",
+      "review": "preliminary source check; independent human/clinical review pending",
+      "clinical_review": false,
+      "publish": false
+    },
+    {
+      "id": "DEV-16",
+      "title": "BEEP randomized trial: emollient from birth and eczema prevention",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/32087126/",
+      "type": "Randomized trial",
+      "checked": "At two years, eczema was reported in 139/598 (23%) with emollient versus 150/612 (25%) in controls; adjusted RR 0.95 (95% CI 0.78–1.16). Skin infection incidence rate ratio 1.55 (1.15–2.09).",
+      "funding": "NIHR Health Technology Assessment reported; full disclosures and product supply roles not independently audited.",
+      "limits": "High-risk infants, specific preventive protocol. Does not assess treatment of existing eczema.",
+      "aliases": [
+        "PED-BEEP"
+      ],
+      "locator": "Abstract results and funding",
+      "review": "preliminary source check; independent human/clinical review pending",
+      "clinical_review": false,
+      "publish": false
+    },
+    {
+      "id": "DEV-17",
+      "title": "BEEP trial extended report",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/39021147/",
+      "type": "Trial report",
+      "checked": "Reports the same BEEP randomized cohort, not another independent trial; documents follow-up and skin infection signal.",
+      "funding": "NIHR award 12/67/12; full disclosure check pending.",
+      "limits": "Same underlying cohort as DEV-16; do not double count.",
+      "aliases": [
+        "PED-BEEP"
+      ],
+      "locator": "Original indexed abstract or publisher excerpt; full text audit pending",
+      "review": "preliminary source check; independent human/clinical review pending",
+      "clinical_review": false,
+      "publish": false
+    },
+    {
+      "id": "DEV-18",
+      "title": "PreventADALL: infant skin and food intervention, 2020",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/32087121/",
+      "type": "Cluster randomized trial",
+      "checked": "The studied early skin and food interventions did not prevent atopic dermatitis by 12 months.",
+      "funding": "Public and private funding reported; exact funder and sponsor-role audit pending.",
+      "limits": "Specific products and regimen; does not establish all skin interventions ineffective.",
+      "aliases": [],
+      "locator": "Original indexed abstract or publisher excerpt; full text audit pending",
+      "review": "preliminary source check; independent human/clinical review pending",
+      "clinical_review": false,
+      "publish": false
+    },
+    {
+      "id": "DEV-19",
+      "title": "PreventADALL: food allergy endpoint, 2022",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/35753340/",
+      "type": "Cluster randomized trial report",
+      "checked": "Food allergy by age 3: 14/596 control, 17/574 skin only, 6/641 food only, 7/583 combined. Food intervention showed a lower frequency in this trial.",
+      "funding": "Full funding listed in paper; not independently audited.",
+      "limits": "Same trial cohort as DEV-18, distinct outcome. Not a protocol for starting solids early or managing high-risk infants.",
+      "aliases": [],
+      "locator": "Original indexed abstract or publisher excerpt; full text audit pending",
+      "review": "preliminary source check; independent human/clinical review pending",
+      "clinical_review": false,
+      "publish": false
+    },
+    {
+      "id": "DEV-20",
+      "title": "PreventADALL seven-year follow-up",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/43039015/",
+      "type": "Trial follow-up",
+      "checked": "Indexed follow-up identifies the original four randomized groups. Outcome extraction and full-text review remain pending.",
+      "funding": "Not verified.",
+      "limits": "Recent follow-up is not independent replication; no long-term effect claim until checked.",
+      "aliases": [],
+      "locator": "Original indexed abstract or publisher excerpt; full text audit pending",
+      "review": "preliminary source check; independent human/clinical review pending",
+      "clinical_review": false,
+      "publish": false
+    },
+    {
+      "id": "DEV-21",
+      "title": "BLISS: baby-led feeding and choking",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/27647715/",
+      "type": "Randomized trial",
+      "checked": "206 healthy infants enrolled; no statistically significant difference in reported choking events between the supported BLISS and usual-care groups. Across groups, 35% reportedly choked at least once between 6 and 8 months.",
+      "funding": "Original funding and conflicts pending full verification.",
+      "limits": "Parent-reported events, modified baby-led program with safety instruction. Does not establish unrestricted baby-led feeding is safe or equivalent.",
+      "aliases": [],
+      "locator": "Original indexed abstract or publisher excerpt; full text audit pending",
+      "review": "preliminary source check; independent human/clinical review pending",
+      "clinical_review": false,
+      "publish": false
+    },
+    {
+      "id": "DEV-22",
+      "title": "BLISS: infant growth and overweight",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/28692728/",
+      "type": "Randomized trial report",
+      "checked": "At 24 months, 5/78 controls and 9/87 BLISS infants were classified overweight; RR 1.8 (95% CI 0.6–5.7). No clear improved weight outcome.",
+      "funding": "Funding and conflicts not independently audited.",
+      "limits": "Same cohort as DEV-21; wide interval and missing follow-up. No claim of causation beyond measured outcomes or a feeding recommendation.",
+      "aliases": [],
+      "locator": "Original indexed abstract or publisher excerpt; full text audit pending",
+      "review": "preliminary source check; independent human/clinical review pending",
+      "clinical_review": false,
+      "publish": false
+    },
+    {
+      "id": "DEV-23",
+      "title": "Choking, gagging and complementary feeding methods, 2023",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/37400061/",
+      "type": "Randomized trial",
+      "checked": "Compared parent-led, modified baby-led and mixed methods with choking risk education; authors did not find higher choking risk in the baby-led groups.",
+      "funding": "Funding and COI not verified.",
+      "limits": "Different cohort from BLISS; review event definitions, denominators and precision before synthesis.",
+      "aliases": [],
+      "locator": "Original indexed abstract or publisher excerpt; full text audit pending",
+      "review": "preliminary source check; independent human/clinical review pending",
+      "clinical_review": false,
+      "publish": false
     }
   ],
   "topics": [
@@ -420,7 +552,8 @@
       "question": "Can a practical change reduce a measured exposure, and is there evidence of improved health?",
       "refs": [
         "DEV-10",
-        "DEV-11"
+        "DEV-11",
+        "DEV-15"
       ],
       "articleIds": [
         "EV-ART-010",
@@ -439,9 +572,58 @@
         [
           "Interpretation",
           "Compounds, sources, study population and endpoints differ. Avoid assigning an arbitrary toxicity score or claiming a fetal benefit."
+        ],
+        [
+          "Water filter claims",
+          "Compare the exact model, certified contaminant and replacement schedule rather than relying on a broad claim of purification. EPA notes limits to what certification alone establishes."
         ]
       ],
       "pending": "PFAS, water filters, pesticides, cosmetics, air and occupational exposures; realistic costs, individual source attribution and direct pregnancy health outcomes."
+    },
+    {
+      "id": "child-health",
+      "stage": 8,
+      "title": "Infant feeding, eczema & allergy",
+      "why": "Feeding methods, eczema prevention, food allergy and growth are distinct outcomes. An intervention may have different effects on each.",
+      "question": "Do popular infant care practices improve the specific outcome they claim to improve?",
+      "refs": [
+        "DEV-16",
+        "DEV-17",
+        "DEV-18",
+        "DEV-19",
+        "DEV-20",
+        "DEV-21",
+        "DEV-22",
+        "DEV-23"
+      ],
+      "articleIds": [
+        "EV-ART-032",
+        "EV-ART-035",
+        "EV-ART-036",
+        "EV-ART-046",
+        "EV-ART-047",
+        "EV-ART-048",
+        "EV-ART-052"
+      ],
+      "compare": [
+        [
+          "Eczema prevention",
+          "BEEP did not demonstrate prevention with daily emollient in high-risk infants and reported a skin infection signal. PreventADALL also found no preventive effect for its studied skin intervention at 12 months."
+        ],
+        [
+          "Food allergy is a different outcome",
+          "PreventADALL reported fewer food allergy diagnoses in its food-intervention groups. The new seven-year follow-up needs separate appraisal before claims about durable effects."
+        ],
+        [
+          "Baby-led feeding",
+          "BLISS studied a supported, modified approach rather than unsupervised feeding. No clear choking difference or improved body weight was established. A separate 2023 trial also examined modified methods with safety guidance."
+        ],
+        [
+          "Research boundaries",
+          "Do not turn trial age ranges into home feeding instructions. Individual readiness, choking prevention, allergy risk and existing eczema treatment need distinct assessment."
+        ]
+      ],
+      "pending": "Full trial-level funding and conflicts, exact outcome extraction, recent follow-up, independent reviews, feeding readiness and safety, elimination communication, sleep and family experience research."
     }
   ],
   "weekQuestions": [

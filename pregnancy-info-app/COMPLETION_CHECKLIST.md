@@ -135,3 +135,6 @@ Evidence: prior preview 8b51b5f76a0d4624cf2c1879021c52da98f82de1; preference/sea
 
 - [x] ST1–7 targeted first development batch: source-check ledger, stage learning questions and app pathways authored; branch commits record implementation. Clinical and CI/owner verification pending.
 - [ ] ST1–7 comprehensive completion: full independent claim/funding/retraction/media audit, complete week/stage editorial depth, nutrition/product and maternal/paternal/environmental comparisons, clinical and device review. See batch report.
+
+- [x] ST7–14 targeted software and evidence batch authored; removed prominent global urgent shortcut, retained contextual safety; infant and water research, source filters and cost calculator added. CI verification pending.
+- [ ] ST7–14 remaining source appraisal, wider media review, device QA, clinical and access governance gates. See stage report.

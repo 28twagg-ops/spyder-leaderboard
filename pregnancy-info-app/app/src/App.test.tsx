@@ -24,7 +24,7 @@ describe('Everwell shell', () => {
     expect(screen.getByRole('link', { name: 'Saved' })).toHaveAttribute('href', '/saved')
     expect(screen.getByRole('navigation', { name: 'Primary' })).toBeInTheDocument()
     expect(screen.getByRole('link', { name: /^Search$/ })).toHaveAttribute('href', '/library')
-    expect(screen.getByRole('link', { name: /Urgent signs & getting help/ })).toHaveAttribute('href', '/urgent')
+    expect(screen.queryByRole('link', { name: /Urgent signs & getting help/ })).not.toBeInTheDocument()
     expect(screen.queryByRole('dialog')).not.toBeInTheDocument()
     expect(screen.queryByRole('dialog')).not.toBeInTheDocument()
     expect(screen.getByRole('heading',{name:'Start reading'})).toBeInTheDocument()

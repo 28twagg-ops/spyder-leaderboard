@@ -1,0 +1,701 @@
+{
+  "date": "2026-11-27",
+  "status": "Research draft: selected source checks; not clinical guidance",
+  "sources": [
+    {
+      "id": "DEV-01",
+      "title": "Cochrane Handbook: searching and selecting studies",
+      "url": "https://www.cochrane.org/authors/handbooks-and-manuals/handbook/current/chapter-04",
+      "type": "Methods handbook",
+      "checked": "Supports searching grey literature and trial registers, with preprints considered relevant especially for emerging topics.",
+      "funding": "Handbook-level disclosures not reaudited.",
+      "limits": "Methods reference, not evidence of an intervention.",
+      "aliases": [],
+      "locator": "Chapter 4, grey literature and preprint passages",
+      "review": "preliminary source check; independent human/clinical review pending",
+      "clinical_review": false,
+      "publish": false
+    },
+    {
+      "id": "DEV-02",
+      "title": "Fetal development — MedlinePlus",
+      "url": "https://medlineplus.gov/ency/article/002398.htm",
+      "type": "Educational reference",
+      "checked": "Developmental information is organized in overlapping gestational windows, not an individual deadline.",
+      "funding": "US National Library of Medicine; underlying textbook disclosures not audited.",
+      "limits": "Descriptive reference; does not predict an individual milestone or prove a treatment effect.",
+      "aliases": [
+        "PED-GESTATION"
+      ],
+      "locator": "Indexed abstract or publisher excerpt; full disclosure audit pending",
+      "review": "preliminary source check; independent human/clinical review pending",
+      "clinical_review": false,
+      "publish": false
+    },
+    {
+      "id": "DEV-03",
+      "title": "NIH ODS: Dietary supplements and life stages — pregnancy",
+      "url": "https://ods.od.nih.gov/factsheets/Pregnancy-HealthProfessional/",
+      "type": "Reference synthesis",
+      "checked": "Distinguishes nutrient roles, reference intakes, upper limits, food/supplement sources and clinical guidance.",
+      "funding": "US NIH publisher; underlying studies need separate funding review.",
+      "limits": "Reference intakes are not personal doses or diagnostic thresholds. Intake below AI does not establish deficiency.",
+      "aliases": [
+        "S086",
+        "P5-28"
+      ],
+      "locator": "Indexed abstract or publisher excerpt; full disclosure audit pending",
+      "review": "preliminary source check; independent human/clinical review pending",
+      "clinical_review": false,
+      "publish": false
+    },
+    {
+      "id": "DEV-04",
+      "title": "Middleton et al. 2018: Omega-3 addition during pregnancy",
+      "url": "https://doi.org/10.1002/14651858.CD003402.pub3",
+      "type": "Systematic review",
+      "checked": "Early preterm birth <34 weeks: 2.7% omega-3 versus 4.6% comparator; RR 0.58 (95% CI 0.44–0.77), 9 trials, 5,204 participants.",
+      "funding": "Review and underlying trial funding not independently reaudited here.",
+      "limits": "Search ended August 2018; predates ORIP 2019. Different baseline risks, products and trial designs. No new pooled estimate.",
+      "aliases": [],
+      "locator": "Cochrane abstract, main results and search date",
+      "review": "preliminary source check; independent human/clinical review pending",
+      "clinical_review": false,
+      "publish": false
+    },
+    {
+      "id": "DEV-05",
+      "title": "Makrides et al. 2019: ORIP randomized trial",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/31509674/",
+      "type": "Randomized trial",
+      "checked": "Early preterm delivery: 61/2,734 (2.2%) versus 55/2,752 (2.0%); adjusted RR 1.13 (95% CI 0.79–1.63). Large-for-gestational-age signal reported.",
+      "funding": "NHMRC and Thyne Reid Foundation reported in abstract; archive lists capsule donations from Croda and Efamol/Wassen; donation role pending original full-text check.",
+      "limits": "Specific regimen and population; interval includes benefit and harm. Does not overturn all nutrition evidence or imply a dose.",
+      "aliases": [
+        "S082",
+        "P5-14"
+      ],
+      "locator": "PubMed abstract, results and funding",
+      "review": "preliminary source check; independent human/clinical review pending",
+      "clinical_review": false,
+      "publish": false
+    },
+    {
+      "id": "DEV-06",
+      "title": "ORIP trial registry",
+      "url": "https://www.anzctr.org.au/Trial/Registration/TrialReview.aspx?id=363566",
+      "type": "Trial registry",
+      "checked": "ACTRN12613001142729 links ORIP protocol and later exploratory publications.",
+      "funding": "Sponsor and protocol changes require deeper registry review.",
+      "limits": "Same underlying trial as DEV-05; not independent replication.",
+      "aliases": [],
+      "locator": "Registry identity and linked publications",
+      "review": "preliminary source check; independent human/clinical review pending",
+      "clinical_review": false,
+      "publish": false
+    },
+    {
+      "id": "DEV-07",
+      "title": "Cochrane: topical preparations to prevent pregnancy stretch marks",
+      "url": "https://www.cochrane.org/evidence/CD000066_topical-preparations-preventing-stretch-marks-pregnancy",
+      "type": "Systematic review",
+      "checked": "Review found insufficient high-quality evidence that topical preparations prevent pregnancy stretch marks.",
+      "funding": "Underlying trials and review-level disclosures incompletely verified; archive notes one lotion donation, not independently checked here.",
+      "limits": "Older trials, different formulations and comparators. Prevention differs from comfort, and existing striae treatment.",
+      "aliases": [
+        "S001",
+        "P3-01"
+      ],
+      "locator": "Indexed abstract or publisher excerpt; full disclosure audit pending",
+      "review": "preliminary source check; independent human/clinical review pending",
+      "clinical_review": false,
+      "publish": false
+    },
+    {
+      "id": "DEV-08",
+      "title": "2025 postpartum exercise systematic review",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC12013572/",
+      "type": "Systematic review",
+      "checked": "Authors found reduced odds of urinary incontinence with pelvic floor training and decreased inter-rectus distance with abdominal training. Symptom severity did not clearly improve for urinary incontinence.",
+      "funding": "Author support: UQTR research chair, Christenson Professorship, Alberta Innovates studentship. Underlying trial funding separate.",
+      "limits": "High heterogeneity, varying definitions and exercise protocols, few data on sexual function and severity. Distance is not equivalent to functional recovery.",
+      "aliases": [
+        "S032",
+        "P3-11"
+      ],
+      "locator": "Full text lines 377–406: limitations, conclusion, footnotes; correction notice changes guideline title",
+      "review": "preliminary source check; independent human/clinical review pending",
+      "clinical_review": false,
+      "publish": false
+    },
+    {
+      "id": "DEV-09",
+      "title": "Schisterman et al. 2020: male folic acid and zinc trial",
+      "url": "https://jamanetwork.com/journals/jama/fullarticle/2758450",
+      "type": "Randomized trial",
+      "checked": "2,370 couples receiving infertility treatment; live birth 34% supplement versus 35% placebo, no significant improvement in semen quality.",
+      "funding": "Archive identifies NICHD intramural contracts; original full funding and conflict statements not reaudited.",
+      "limits": "Infertility-treatment population; does not address all dietary deficiency situations or all male fertility interventions.",
+      "aliases": [
+        "IA008"
+      ],
+      "locator": "Original JAMA indexed results; PMC full-text access blocked",
+      "review": "preliminary source check; independent human/clinical review pending",
+      "clinical_review": false,
+      "publish": false
+    },
+    {
+      "id": "DEV-10",
+      "title": "PERTH low-plastic dietary intervention, 2026",
+      "url": "https://doi.org/10.1038/s41591-026-04324-7",
+      "type": "Pilot randomized trial",
+      "checked": "60 adults in 7-day trial; food/kitchenware intervention lowered selected urinary metabolites: MnBP 37.5%, MBzP 53.5%, BPA 59.7% relative to comparator.",
+      "funding": "Minderoo Foundation grant; several authors employed by funder; contract bioinformatics provider and author outside industry relationships disclosed. Exact sponsor role needs full extraction.",
+      "limits": "Healthy Australian adults, short duration and urinary biomarkers; not pregnancy outcomes, health benefits, or evidence to eliminate all plastic.",
+      "aliases": [],
+      "locator": "Publisher results and competing-interest excerpts; full report/funding and correction audit pending",
+      "review": "preliminary source check; independent human/clinical review pending",
+      "clinical_review": false,
+      "publish": false
+    },
+    {
+      "id": "DEV-11",
+      "title": "Sathyanarayana et al. 2013: unexpected dietary exposure trial",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/23443238/",
+      "type": "Randomized dietary trial",
+      "checked": "An intervention intended to reduce exposures instead increased urinary DEHP metabolites because of contaminated food.",
+      "funding": "Archive lists NIEHS center support; full disclosure not independently verified.",
+      "limits": "Short biomarker trial; different compounds and food sources from PERTH. Neither establishes fetal outcome effects.",
+      "aliases": [
+        "P6-26"
+      ],
+      "locator": "Indexed abstract or publisher excerpt; full disclosure audit pending",
+      "review": "preliminary source check; independent human/clinical review pending",
+      "clinical_review": false,
+      "publish": false
+    },
+    {
+      "id": "DEV-12",
+      "title": "Cochrane podcast: omega-3 addition during pregnancy",
+      "url": "https://www.cochrane.org/about-us/news/podcast-omega-3-fatty-acid-addition-during-pregnancy",
+      "type": "Media lead",
+      "checked": "Podcast discusses the 2018 review; trace all claims to DEV-04, not a separate study.",
+      "funding": "Publisher/creator interests not independently audited.",
+      "limits": "Predates later ORIP; not independent evidence, not a clinical recommendation.",
+      "aliases": [],
+      "locator": "Publisher transcript excerpt",
+      "review": "preliminary source check; independent human/clinical review pending",
+      "clinical_review": false,
+      "publish": false
+    },
+    {
+      "id": "DEV-13",
+      "title": "Cochrane 2020 antenatal and postnatal pelvic floor training",
+      "url": "https://www.cochrane.org/evidence/CD007471_how-effective-pelvic-floor-muscle-training-undertaken-during-pregnancy-or-after-birth-preventing-or",
+      "type": "Systematic review",
+      "checked": "Evidence supports possible prevention of urinary incontinence in previously continent pregnant women with structured training; treatment populations and timing differ.",
+      "funding": "Underlying funding mix in archive; individual grants not reaudited.",
+      "limits": "Do not equate prevention with treatment or prescribe strengthening for pain or overactivity.",
+      "aliases": [
+        "S069"
+      ],
+      "locator": "Indexed abstract or publisher excerpt; full disclosure audit pending",
+      "review": "preliminary source check; independent human/clinical review pending",
+      "clinical_review": false,
+      "publish": false
+    },
+    {
+      "id": "DEV-14",
+      "title": "2016 lifestyle intervention before infertility treatment",
+      "url": "https://www.nejm.org/doi/full/10.1056/NEJMoa1505297",
+      "type": "Randomized trial",
+      "checked": "Study compares lifestyle intervention preceding infertility treatment with prompt treatment; check primary outcome before any numeric comparison.",
+      "funding": "Netherlands Organization for Health Research and Development reported; complete disclosures pending.",
+      "limits": "Restricted population and treatment delay design; no evidence for universal multi-year preconception cosmetic regimen.",
+      "aliases": [],
+      "locator": "Publisher abstract and funding snippet",
+      "review": "preliminary source check; independent human/clinical review pending",
+      "clinical_review": false,
+      "publish": false
+    },
+    {
+      "id": "DEV-15",
+      "title": "EPA: Identifying drinking water filters certified to reduce PFAS",
+      "url": "https://www.epa.gov/water-research/identifying-drinking-water-filters-certified-reduce-pfas",
+      "type": "Technical guidance",
+      "checked": "Check exact model and contaminant certification under NSF/ANSI 53 or 58. EPA notes that certification standards as of April 2024 did not establish reduction to the newer drinking-water standard.",
+      "funding": "US EPA publisher; product-specific test laboratory and manufacturer roles require review.",
+      "limits": "Certification varies by model and contaminant; not proof of personal pregnancy benefit. Verify current standards and local water results.",
+      "aliases": [
+        "P6-19"
+      ],
+      "locator": "Original indexed abstract or publisher excerpt; full text audit pending",
+      "review": "preliminary source check; independent human/clinical review pending",
+      "clinical_review": false,
+      "publish": false
+    },
+    {
+      "id": "DEV-16",
+      "title": "BEEP randomized trial: emollient from birth and eczema prevention",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/32087126/",
+      "type": "Randomized trial",
+      "checked": "At two years, eczema was reported in 139/598 (23%) with emollient versus 150/612 (25%) in controls; adjusted RR 0.95 (95% CI 0.78–1.16). Skin infection incidence rate ratio 1.55 (1.15–2.09).",
+      "funding": "NIHR Health Technology Assessment reported; full disclosures and product supply roles not independently audited.",
+      "limits": "High-risk infants, specific preventive protocol. Does not assess treatment of existing eczema.",
+      "aliases": [
+        "PED-BEEP"
+      ],
+      "locator": "Abstract results and funding",
+      "review": "preliminary source check; independent human/clinical review pending",
+      "clinical_review": false,
+      "publish": false
+    },
+    {
+      "id": "DEV-17",
+      "title": "BEEP trial extended report",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/39021147/",
+      "type": "Trial report",
+      "checked": "Reports the same BEEP randomized cohort, not another independent trial; documents follow-up and skin infection signal.",
+      "funding": "NIHR award 12/67/12; full disclosure check pending.",
+      "limits": "Same underlying cohort as DEV-16; do not double count.",
+      "aliases": [
+        "PED-BEEP"
+      ],
+      "locator": "Original indexed abstract or publisher excerpt; full text audit pending",
+      "review": "preliminary source check; independent human/clinical review pending",
+      "clinical_review": false,
+      "publish": false
+    },
+    {
+      "id": "DEV-18",
+      "title": "PreventADALL: infant skin and food intervention, 2020",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/32087121/",
+      "type": "Cluster randomized trial",
+      "checked": "The studied early skin and food interventions did not prevent atopic dermatitis by 12 months.",
+      "funding": "Public and private funding reported; exact funder and sponsor-role audit pending.",
+      "limits": "Specific products and regimen; does not establish all skin interventions ineffective.",
+      "aliases": [],
+      "locator": "Original indexed abstract or publisher excerpt; full text audit pending",
+      "review": "preliminary source check; independent human/clinical review pending",
+      "clinical_review": false,
+      "publish": false
+    },
+    {
+      "id": "DEV-19",
+      "title": "PreventADALL: food allergy endpoint, 2022",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/35753340/",
+      "type": "Cluster randomized trial report",
+      "checked": "Food allergy by age 3: 14/596 control, 17/574 skin only, 6/641 food only, 7/583 combined. Food intervention showed a lower frequency in this trial.",
+      "funding": "Full funding listed in paper; not independently audited.",
+      "limits": "Same trial cohort as DEV-18, distinct outcome. Not a protocol for starting solids early or managing high-risk infants.",
+      "aliases": [],
+      "locator": "Original indexed abstract or publisher excerpt; full text audit pending",
+      "review": "preliminary source check; independent human/clinical review pending",
+      "clinical_review": false,
+      "publish": false
+    },
+    {
+      "id": "DEV-20",
+      "title": "PreventADALL seven-year follow-up",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/43039015/",
+      "type": "Trial follow-up",
+      "checked": "Indexed follow-up identifies the original four randomized groups. Outcome extraction and full-text review remain pending.",
+      "funding": "Not verified.",
+      "limits": "Recent follow-up is not independent replication; no long-term effect claim until checked.",
+      "aliases": [],
+      "locator": "Original indexed abstract or publisher excerpt; full text audit pending",
+      "review": "preliminary source check; independent human/clinical review pending",
+      "clinical_review": false,
+      "publish": false
+    },
+    {
+      "id": "DEV-21",
+      "title": "BLISS: baby-led feeding and choking",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/27647715/",
+      "type": "Randomized trial",
+      "checked": "206 healthy infants enrolled; no statistically significant difference in reported choking events between the supported BLISS and usual-care groups. Across groups, 35% reportedly choked at least once between 6 and 8 months.",
+      "funding": "Original funding and conflicts pending full verification.",
+      "limits": "Parent-reported events, modified baby-led program with safety instruction. Does not establish unrestricted baby-led feeding is safe or equivalent.",
+      "aliases": [],
+      "locator": "Original indexed abstract or publisher excerpt; full text audit pending",
+      "review": "preliminary source check; independent human/clinical review pending",
+      "clinical_review": false,
+      "publish": false
+    },
+    {
+      "id": "DEV-22",
+      "title": "BLISS: infant growth and overweight",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/28692728/",
+      "type": "Randomized trial report",
+      "checked": "At 24 months, 5/78 controls and 9/87 BLISS infants were classified overweight; RR 1.8 (95% CI 0.6–5.7). No clear improved weight outcome.",
+      "funding": "Funding and conflicts not independently audited.",
+      "limits": "Same cohort as DEV-21; wide interval and missing follow-up. No claim of causation beyond measured outcomes or a feeding recommendation.",
+      "aliases": [],
+      "locator": "Original indexed abstract or publisher excerpt; full text audit pending",
+      "review": "preliminary source check; independent human/clinical review pending",
+      "clinical_review": false,
+      "publish": false
+    },
+    {
+      "id": "DEV-23",
+      "title": "Choking, gagging and complementary feeding methods, 2023",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/37400061/",
+      "type": "Randomized trial",
+      "checked": "Compared parent-led, modified baby-led and mixed methods with choking risk education; authors did not find higher choking risk in the baby-led groups.",
+      "funding": "Funding and COI not verified.",
+      "limits": "Different cohort from BLISS; review event definitions, denominators and precision before synthesis.",
+      "aliases": [],
+      "locator": "Original indexed abstract or publisher excerpt; full text audit pending",
+      "review": "preliminary source check; independent human/clinical review pending",
+      "clinical_review": false,
+      "publish": false
+    }
+  ],
+  "topics": [
+    {
+      "id": "evidence",
+      "stage": 1,
+      "title": "How evidence is checked",
+      "why": "Different reports can describe the same trial. A source can be independent and still have methodological weaknesses.",
+      "question": "Which findings are original, replicated, conflicting, or simply a hypothesis?",
+      "refs": [
+        "DEV-01",
+        "DEV-06",
+        "DEV-12"
+      ],
+      "articleIds": [],
+      "compare": [
+        [
+          "Original research",
+          "Look for methods, comparators, denominators and outcomes."
+        ],
+        [
+          "Unpublished or informal sources",
+          "Use trial registries, preprints, theses and media to find evidence or questions; check original data."
+        ],
+        [
+          "Safety and funding",
+          "Check sponsor involvement separately from risk of bias. An unknown disclosure is not evidence of independence."
+        ]
+      ],
+      "pending": "Full claim-to-source verification, independent reviewer and a structured media search beyond this initial example."
+    },
+    {
+      "id": "development",
+      "stage": 2,
+      "title": "Development across the weeks",
+      "why": "Organs and functions mature across overlapping time windows. A week number is a navigation reference, not a test of normal development.",
+      "question": "What is changing around this time, and how is it assessed?",
+      "refs": [
+        "DEV-02"
+      ],
+      "articleIds": [
+        "EV-ART-014",
+        "EV-ART-013"
+      ],
+      "compare": [
+        [
+          "Stage reference",
+          "Use gestational age and source windows rather than an exact milestone deadline."
+        ],
+        [
+          "Biology vs intervention",
+          "Understanding a developing organ does not establish that a supplement or stimulation changes its outcome."
+        ],
+        [
+          "Clinical assessment",
+          "A clinical visit or test answers a different question from an educational milestone chart."
+        ]
+      ],
+      "pending": "Individual week-level claim and source locator review, visual accuracy and clinician-approved urgent guidance."
+    },
+    {
+      "id": "nutrition",
+      "stage": 3,
+      "title": "Nutrients: adequacy and disputed benefits",
+      "why": "Nutrients have essential biological roles, but an adequate intake reference is not a therapeutic dose. Population intake gaps do not diagnose an individual deficiency.",
+      "question": "Do supplements improve a meaningful pregnancy outcome beyond adequate dietary intake?",
+      "refs": [
+        "DEV-03",
+        "DEV-04",
+        "DEV-05",
+        "DEV-06",
+        "DEV-12"
+      ],
+      "articleIds": [
+        "EV-ART-005",
+        "EV-ART-006",
+        "EV-ART-007",
+        "EV-ART-008",
+        "EV-ART-009",
+        "EV-ART-002"
+      ],
+      "compare": [
+        [
+          "2018 omega-3 review",
+          "Early preterm birth reduction reported across included trials."
+        ],
+        [
+          "2019 ORIP trial",
+          "No clear reduction in its studied population; interval includes both benefit and harm."
+        ],
+        [
+          "Interpretation",
+          "Different populations, baseline intake and regimens; trial registry links exploratory analyses to the original cohort. No universal supplemental dose inferred."
+        ]
+      ],
+      "pending": "Food portions, bioavailability, deficiency diagnosis vs population gaps, age/stage reference intake review, updated pooled evidence and trial-level funding."
+    },
+    {
+      "id": "skin",
+      "stage": 4,
+      "title": "Skin and stretch marks",
+      "why": "Moisturizing comfort, prevention of new striae, and treatment of established striae are separate outcomes.",
+      "question": "Does a specific formulation prevent stretch marks compared with a suitable control?",
+      "refs": [
+        "DEV-07"
+      ],
+      "articleIds": [
+        "EV-ART-018",
+        "EV-ART-019",
+        "EV-ART-031"
+      ],
+      "compare": [
+        [
+          "Creams and oils",
+          "No high-quality preventive evidence in the older review; this does not rule out every formulation."
+        ],
+        [
+          "Massage and traditional preparations",
+          "Investigate product-specific trials and harms rather than assume benefit from anecdote."
+        ],
+        [
+          "Existing marks",
+          "Separate postpartum appearance and function outcomes; pregnancy safety must be established for any treatment."
+        ]
+      ],
+      "pending": "Product/ingredient trials, confounding, sponsor donations, new prevention studies, treatment-specific safety and rights-cleared visuals."
+    },
+    {
+      "id": "recovery",
+      "stage": 5,
+      "title": "Movement, pelvic floor and recovery",
+      "why": "Muscle strength, pain, leakage and anatomical spacing are different outcomes. Progression should not be inferred from a calendar alone.",
+      "question": "Which outcomes improve with a studied exercise intervention, and which remain uncertain?",
+      "refs": [
+        "DEV-08",
+        "DEV-13"
+      ],
+      "articleIds": [
+        "EV-ART-016",
+        "EV-ART-020",
+        "EV-ART-026",
+        "EV-ART-027",
+        "EV-ART-028",
+        "EV-ART-029"
+      ],
+      "compare": [
+        [
+          "Pelvic floor",
+          "Prevention and treatment studies involve different populations."
+        ],
+        [
+          "Abdominal training",
+          "Smaller inter-rectus distance is not proof of restored function or a particular appearance."
+        ],
+        [
+          "Symptoms and harms",
+          "Pain, overactivity, prolapse and recovery after delivery require individualized assessment; no universal exercise protocol."
+        ]
+      ],
+      "pending": "Independent review of updated 2026 review, trials and adverse events, safe stage-specific video demos, function and pain outcomes."
+    },
+    {
+      "id": "preparation",
+      "stage": 6,
+      "title": "Preparation for both parents",
+      "why": "Fertility biomarkers and live birth are not interchangeable. Maternal folate prevention evidence is distinct from supplements marketed for male infertility.",
+      "question": "Does a proposed preparation intervention improve pregnancy or live birth, rather than only a laboratory marker?",
+      "refs": [
+        "DEV-09",
+        "DEV-14",
+        "DEV-03"
+      ],
+      "articleIds": [
+        "EV-ART-001",
+        "EV-ART-002",
+        "EV-ART-003",
+        "EV-ART-004",
+        "EV-ART-006"
+      ],
+      "compare": [
+        [
+          "Male fertility supplement trial",
+          "Folic acid plus zinc showed no clear live-birth or semen-quality benefit in its infertility-treatment population."
+        ],
+        [
+          "Lifestyle intervention",
+          "Compare the timing of care, eligibility and outcomes; avoid imposing a universal body-size or delay requirement."
+        ],
+        [
+          "Shared preparation",
+          "Use the three-year horizon to organize reading and questions, not claim an optimal cosmetic regimen."
+        ]
+      ],
+      "pending": "Paternal exposures, semen and live-birth evidence with retraction-dependent results excluded; compare fertility treatments, health history and medication review."
+    },
+    {
+      "id": "environment",
+      "stage": 7,
+      "title": "Plastics, food and household exposure",
+      "why": "A chemical level in urine is an exposure marker, not automatically a measurement of disease or fetal harm.",
+      "question": "Can a practical change reduce a measured exposure, and is there evidence of improved health?",
+      "refs": [
+        "DEV-10",
+        "DEV-11",
+        "DEV-15"
+      ],
+      "articleIds": [
+        "EV-ART-010",
+        "EV-ART-011",
+        "EV-ART-012"
+      ],
+      "compare": [
+        [
+          "2026 PERTH pilot",
+          "Selected urinary plastic-associated biomarkers fell after a short intervention in adults."
+        ],
+        [
+          "2013 dietary trial",
+          "Unexpected DEHP increases from food contamination challenge the assumption that low-packaging meals guarantee lower exposure."
+        ],
+        [
+          "Interpretation",
+          "Compounds, sources, study population and endpoints differ. Avoid assigning an arbitrary toxicity score or claiming a fetal benefit."
+        ],
+        [
+          "Water filter claims",
+          "Compare the exact model, certified contaminant and replacement schedule rather than relying on a broad claim of purification. EPA notes limits to what certification alone establishes."
+        ]
+      ],
+      "pending": "PFAS, water filters, pesticides, cosmetics, air and occupational exposures; realistic costs, individual source attribution and direct pregnancy health outcomes."
+    },
+    {
+      "id": "child-health",
+      "stage": 8,
+      "title": "Infant feeding, eczema & allergy",
+      "why": "Feeding methods, eczema prevention, food allergy and growth are distinct outcomes. An intervention may have different effects on each.",
+      "question": "Do popular infant care practices improve the specific outcome they claim to improve?",
+      "refs": [
+        "DEV-16",
+        "DEV-17",
+        "DEV-18",
+        "DEV-19",
+        "DEV-20",
+        "DEV-21",
+        "DEV-22",
+        "DEV-23"
+      ],
+      "articleIds": [
+        "EV-ART-032",
+        "EV-ART-035",
+        "EV-ART-036",
+        "EV-ART-046",
+        "EV-ART-047",
+        "EV-ART-048",
+        "EV-ART-052"
+      ],
+      "compare": [
+        [
+          "Eczema prevention",
+          "BEEP did not demonstrate prevention with daily emollient in high-risk infants and reported a skin infection signal. PreventADALL also found no preventive effect for its studied skin intervention at 12 months."
+        ],
+        [
+          "Food allergy is a different outcome",
+          "PreventADALL reported fewer food allergy diagnoses in its food-intervention groups. The new seven-year follow-up needs separate appraisal before claims about durable effects."
+        ],
+        [
+          "Baby-led feeding",
+          "BLISS studied a supported, modified approach rather than unsupervised feeding. No clear choking difference or improved body weight was established. A separate 2023 trial also examined modified methods with safety guidance."
+        ],
+        [
+          "Research boundaries",
+          "Do not turn trial age ranges into home feeding instructions. Individual readiness, choking prevention, allergy risk and existing eczema treatment need distinct assessment."
+        ]
+      ],
+      "pending": "Full trial-level funding and conflicts, exact outcome extraction, recent follow-up, independent reviews, feeding readiness and safety, elimination communication, sleep and family experience research."
+    }
+  ],
+  "weekQuestions": [
+    "How is pregnancy dated before conception occurs?",
+    "How do ovulation and gestational dating differ?",
+    "What does fertilization mean, and what cannot be dated precisely?",
+    "What do early cell changes mean, and why is timing variable?",
+    "Which early structures are developing, and what does established prevention actually address?",
+    "How are early heart and neural structures studied?",
+    "How do overlapping developmental windows differ from scan findings?",
+    "Which organ development and symptom questions are relevant?",
+    "What changes are being described in early organ formation?",
+    "How do embryo and fetal terminology relate to gestational age?",
+    "What can prenatal screening tell us and what can it not establish?",
+    "How do growth and screening questions differ?",
+    "Which early development and nutrition topics remain relevant beyond this week?",
+    "What does entering the second trimester mean for a reading plan?",
+    "How do growing structures, movement and maternal adaptation overlap?",
+    "Which nutrient roles and screening questions are distinct from supplement efficacy?",
+    "How are early movement and sensory development described?",
+    "What does an anatomy assessment measure?",
+    "Which developmental structures are best understood over a range of weeks?",
+    "What does anatomy screening assess, and how is placental support different from swallowing?",
+    "How can movement awareness and exposure research be interpreted without overclaiming?",
+    "How do maternal skin changes, fetal skin and placental exchange differ?",
+    "How do developing blood formation and maternal iron research connect without assuming deficiency?",
+    "What questions about glucose screening and ongoing airway development are appropriate?",
+    "How are fetal growth assessment and maternal nutrition evidence different?",
+    "What do sensory and respiratory development observations establish?",
+    "How can the family distinguish lung development from clinical readiness for birth?",
+    "What is changing across late-pregnancy developmental windows?",
+    "How do movement, balance and newborn preparation relate without fixed deadlines?",
+    "What does ongoing brain and lung maturation mean for learning about birth?",
+    "How are fetal mineral accumulation and maternal nutritional adequacy related?",
+    "Which mobility and newborn prevention topics are relevant to discuss?",
+    "How do skeletal growth, rest and birth planning differ from care deadlines?",
+    "How are position, growth and readiness assessed by the care team?",
+    "What is the difference between developmental maturation and a planned delivery date?",
+    "Which clinical screening, birth support and feeding questions remain relevant?",
+    "What does early term mean, and why does individual readiness vary?",
+    "How does late-pregnancy maturation differ from predicting labor?",
+    "What does full term mean without predicting an individual birth date?",
+    "What should the family understand about due dates, newborn transition and care plans?"
+  ],
+  "phaseQuestions": {
+    "PRE01": "Which health and household priorities are worth discussing well before conception?",
+    "PRE02": "What should both parents learn about fertility, exposure and diet?",
+    "PRE03": "Which claims about supplements or appearance have direct human evidence?",
+    "PRE04": "What questions remain about medicines, work exposures and future fertility?",
+    "PRE05": "Which preconception prevention topics are time-sensitive, and which are general preparation?",
+    "PRE06": "Which expectations about conception timing and fertility assessment need clarification?",
+    "PREG01": "What develops early, and which prevention and symptom questions deserve timely discussion?",
+    "PREG02": "How do growth, nutrition, movement and screening fit together?",
+    "PREG03": "How can the family prepare for birth, recovery and newborn care without treating a calendar as a deadline?",
+    "BIRTH01": "Which birth preferences and newborn-care questions should the team know?",
+    "M01": "What does the care team monitor during immediate recovery, and what support is available?",
+    "M02": "What changes or concerns should be discussed about healing, feeding and rest?",
+    "M03": "Which symptoms and everyday activities are relevant to follow-up and emotional support?",
+    "M04": "What would individualized recovery assessment tell us about movement, pelvic health and contraception?",
+    "M05": "How are strength, comfort, function and abdominal separation assessed separately?",
+    "M06": "What support is useful for persistent symptoms, family routines and feeding changes?",
+    "M07": "Which recovery or future pregnancy questions still need follow-up?",
+    "C01": "What newborn transition, feeding, screening and safe-sleep questions matter now?",
+    "C02": "What does the newborn care team assess when discussing feeding and jaundice?",
+    "C03": "How can the family learn about feeding cues, sleep safety and early interaction?",
+    "C04": "How do developmental windows and safe supervised movement fit together?",
+    "C05": "Which readiness signs and safety questions matter before complementary foods?",
+    "C06": "How should the family distinguish feeding readiness, allergen evidence and choking safety?",
+    "C07": "What is worth asking about varied development, food and household safety?",
+    "C08": "How do responsive meals, dental care and communication change as children grow?",
+    "C09": "How do movement, communication and toilet-learning readiness differ across children?",
+    "C10": "Which development and everyday safety questions are appropriate for toddlers?",
+    "C11": "What is worth learning about play, languages, preventive visits and safety?"
+  }
+}
