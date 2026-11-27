@@ -184,3 +184,6 @@ The 20–27 shared range now has eight candidate chapters; the design contract r
 
 ### Third-trimester candidate checkpoint
 Weeks 28–29 extend the approved hierarchy with THIRD TRIMESTER label and shared Weeks 28–34 reading range, six newborn/feeding library links, distinct maternal/fetal features and sourced approximate size cards. Ten weeks now have candidate chapters. Consult latest tracker; source, runtime, visual and clinical gates remain open.
+
+### Weeks 30–31 candidate checkpoint
+Approved hierarchy preserved; twelve week candidates now span 20–31. See latest completion tracker for source windows, safety and outstanding review. No actual app visual acceptance or clinical release yet.

@@ -7,7 +7,7 @@
     "tracker": "research/TIMELINE_COMPLETION_TRACKER.md",
     "base_week_data": "research/staged-completion/stage-09/GESTATIONAL_WEEKS.json",
     "base_phase_data": "research/staged-completion/stage-09/TIMELINE.json",
-    "preview_candidate": "af337c8abe741af553a2422fedb58eab72d3e9e2"
+    "preview_candidate": "edb3ad844da03b383720448cd467a343c12b6c5b"
   },
   "weeks": [
     {
@@ -1128,18 +1128,18 @@
       "planned_mother_focus": "Birth preferences, feeding education and care-team questions.",
       "planned_visual": "Fetal lung/placenta relationship.",
       "editorial_shared_range": "28–34",
-      "status": "base_timeline_only",
+      "status": "pilot_candidate_unverified",
       "research_mapping_complete": false,
       "independent_appraisal_complete": false,
       "editorial_draft_complete": false,
-      "implementation_candidate": false,
+      "implementation_candidate": true,
       "build_verified": false,
       "visual_verified": false,
       "owner_app_accepted": false,
       "clinical_review": false,
       "publish": false,
       "remaining": [
-        "research_mapping",
+        "complete_claim_outcome_mapping",
         "independent_appraisal",
         "editorial_refinement",
         "visual_rights",
@@ -1148,7 +1148,22 @@
         "rendered_QA",
         "owner_acceptance",
         "qualified_clinical_review"
-      ]
+      ],
+      "candidate_commit": "edb3ad844da03b383720448cd467a343c12b6c5b",
+      "candidate_features": {
+        "mother": [
+          "Sleep and vivid dreams",
+          "Breathing and rib comfort",
+          "Planning support after birth"
+        ],
+        "baby": [
+          "Developing visual focus",
+          "Brain and body communication",
+          "Preparing the lungs for air"
+        ],
+        "size": "39.9 cm · cabbage"
+      },
+      "editorial_draft_present": true
     },
     {
       "week": 31,
@@ -1161,18 +1176,18 @@
       "planned_mother_focus": "Nutrition and mineral evidence, preparation without supplement stacking.",
       "planned_visual": "Developing skeleton/mineral concept.",
       "editorial_shared_range": "28–34",
-      "status": "base_timeline_only",
+      "status": "pilot_candidate_unverified",
       "research_mapping_complete": false,
       "independent_appraisal_complete": false,
       "editorial_draft_complete": false,
-      "implementation_candidate": false,
+      "implementation_candidate": true,
       "build_verified": false,
       "visual_verified": false,
       "owner_app_accepted": false,
       "clinical_review": false,
       "publish": false,
       "remaining": [
-        "research_mapping",
+        "complete_claim_outcome_mapping",
         "independent_appraisal",
         "editorial_refinement",
         "visual_rights",
@@ -1181,7 +1196,22 @@
         "rendered_QA",
         "owner_acceptance",
         "qualified_clinical_review"
-      ]
+      ],
+      "candidate_commit": "edb3ad844da03b383720448cd467a343c12b6c5b",
+      "candidate_features": {
+        "mother": [
+          "Practice contractions and preterm labor",
+          "Calcium, iron and vitamin D",
+          "Measuring growth and position"
+        ],
+        "baby": [
+          "Building mineral reserves",
+          "Bones are formed but still soft",
+          "Practising breathing movements"
+        ],
+        "size": "41.1 cm · coconut"
+      },
+      "editorial_draft_present": true
     },
     {
       "week": 32,
@@ -3466,8 +3496,8 @@
   "latest_batch": {
     "date": "2026-11-27",
     "new_candidate_weeks": [
-      28,
-      29
+      30,
+      31
     ],
     "all_candidate_weeks": [
       20,
@@ -3479,17 +3509,19 @@
       26,
       27,
       28,
-      29
+      29,
+      30,
+      31
     ],
-    "feature_count": 60,
+    "feature_count": 72,
     "new_features": 12,
-    "focused_readings_total": 25,
-    "focused_readings_added": 10,
-    "reference_records": 23,
-    "static_route_validation": "60 feature destinations, 25 focused reading references/related links checked; zero issues. All 25 PREG03 article IDs represented across existing map and six added newborn-preparation links.",
-    "actual_build": "Latest candidate not built or tested. Last observed Vercel build 49fb596: 213 passed, 1 failed; later fixes unverified. No fresh successful deployment observed.",
+    "focused_readings_total": 34,
+    "focused_readings_added": 9,
+    "reference_records": 26,
+    "static_route_validation": "72 feature paths; all 34 focused reading reference keys, registry-backed IDs and related links checked with zero issues.",
+    "actual_build": "Latest candidate not verified. Prior af337c8 Vercel test run 249/250 passed; TimelinePage.test.tsx expected /timeline/week/23 without preserved ?subject=baby. Corrected assertion in latest commit, not yet rerun.",
     "complete_weeks": 0,
     "complete_phases": 0,
-    "next_proposed_batch": "Weeks 30–31, with actual build and mobile QA first if available."
+    "next_proposed_batch": "Weeks 32–33, with actual build and mobile QA first if available."
   }
 }
