@@ -28,10 +28,13 @@ function readPrefs(): LocalPrefs {
   try {
     const raw = localStorage.getItem(KEY)
     if (!raw) return { ...defaults }
-    const parsed = JSON.parse(raw) as Partial<LocalPrefs>
+    const parsed = JSON.parse(raw) as Partial<LocalPrefs> | null
+    if (!parsed || typeof parsed !== 'object' || Array.isArray(parsed)) return { ...defaults }
     return {
-      ...defaults,
-      ...parsed,
+      selectedPhaseId: typeof parsed.selectedPhaseId === 'string' ? parsed.selectedPhaseId : null,
+      bookmarks: Array.isArray(parsed.bookmarks) ? parsed.bookmarks.filter((id) => typeof id === 'string') : [],
+      readArticles: Array.isArray(parsed.readArticles) ? parsed.readArticles.filter((id) => typeof id === 'string') : [],
+      reducedMotion: parsed.reducedMotion === true,
       themeId: isThemeId(parsed.themeId) ? parsed.themeId : DEFAULT_THEME,
     }
   } catch {
@@ -40,13 +43,8 @@ function readPrefs(): LocalPrefs {
 }
 
 export function useLocalPrefs() {
-  const [prefs, setPrefs] = useState<LocalPrefs>(defaults)
-
-  useEffect(() => {
-    const next = readPrefs()
-    setPrefs(next)
-    applyTheme(next.themeId)
-  }, [])
+  // Read once before the first persistence effect so a saved theme is not overwritten on mount.
+  const [prefs, setPrefs] = useState<LocalPrefs>(readPrefs)
 
   useEffect(() => {
     try {
