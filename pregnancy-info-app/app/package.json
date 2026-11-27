@@ -14,9 +14,12 @@
     "prebuild": "node scripts/sync-research.mjs",
     "test": "vitest run",
     "test:watch": "vitest",
-    "validate:research": "python ../research/integrated/validate_import.py && python ../research/child-health/validate.py"
+    "validate:research": "python ../research/integrated/validate_import.py && python ../research/child-health/validate.py",
+    "postbuild": "node scripts/check-production-media.mjs"
   },
   "dependencies": {
+    "@fontsource-variable/fraunces": "5.3.0",
+    "@fontsource-variable/manrope": "5.3.0",
     "react": "^19.3.1",
     "react-dom": "^19.3.1",
     "react-router-dom": "^7.18.7"

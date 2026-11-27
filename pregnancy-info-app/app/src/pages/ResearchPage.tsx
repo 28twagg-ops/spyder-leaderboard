@@ -53,14 +53,10 @@ export function ResearchPage() {
         <p style={{ margin: 0 }}>{article.visible_safety}</p>
       </section>
 
-      <section className="panel stack">
-        <div className="badge">~5–15 sec</div>
-        <h2 style={{ margin: 0, fontSize: '1.15rem' }}>Quick takeaway</h2>
-        <p style={{ margin: 0 }}>{article.quick_answer}</p>
-      </section>
-
-      <details className="panel disclosure" open>
-        <summary>Learn more</summary>
+      <details className="panel disclosure">
+        <summary>Archived AI summary for comparison</summary>
+        <p>Independent appraisal and clinical review are pending. This draft is for research comparison only.</p>
+        <p>{article.quick_answer}</p>
         <p className="muted">{article.learn_more}</p>
       </details>
 

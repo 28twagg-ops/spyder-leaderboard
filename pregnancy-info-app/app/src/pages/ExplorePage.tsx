@@ -65,9 +65,6 @@ export function ExplorePage() {
               <article key={article.id} className="panel stack">
                 <div className="badge">{editorialPriorityLabel(article.priority)}</div>
                 <h3 style={{ margin: 0, fontSize: '1.05rem' }}>{article.title}</h3>
-                <p className="muted" style={{ margin: 0, fontSize: '0.95rem' }}>
-                  {article.quick_answer}
-                </p>
                 <Link className="btn btn-ghost" to={`/research/${article.id}`}>
                   Open layers
                 </Link>

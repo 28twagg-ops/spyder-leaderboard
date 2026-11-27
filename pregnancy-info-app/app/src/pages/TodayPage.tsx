@@ -77,9 +77,6 @@ export function TodayPage() {
             <li key={article.id}>
               <div className="badge">{editorialPriorityLabel(article.priority)}</div>
               <strong style={{ display: 'block', marginTop: '0.35rem' }}>{article.title}</strong>
-              <p className="muted" style={{ margin: '0.35rem 0 0.6rem', fontSize: '0.95rem' }}>
-                {article.quick_answer}
-              </p>
               <Link className="btn btn-ghost" to={`/research/${article.id}`}>
                 Open layers
               </Link>

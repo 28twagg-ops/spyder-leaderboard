@@ -37,6 +37,14 @@ describe('Everwell shell', () => {
     expect(screen.getByRole('link', { name: 'Browse library' })).toBeInTheDocument()
   })
 
+  it('keeps archived article interpretations collapsed on arrival', () => {
+    render(<MemoryRouter initialEntries={['/research/EV-ART-001']}><App /></MemoryRouter>)
+    const archive = screen.getByText('Archived AI summary for comparison').closest('details')
+    expect(archive).toBeInTheDocument()
+    expect(archive).not.toHaveAttribute('open')
+    expect(screen.getByText('Visible safety')).toBeVisible()
+  })
+
   it('searches, saves and clears articles without storing search text', () => {
     render(<MemoryRouter initialEntries={['/library']}><App /></MemoryRouter>)
     fireEvent.change(screen.getByLabelText('Search articles'), { target: { value: 'EV-ART-001' } })
