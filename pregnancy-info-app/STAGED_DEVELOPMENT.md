@@ -15,8 +15,8 @@ Implemented:
 - Added/updated regression tests for release lock, unknown routes and default theme (not executed here).
 
 Remaining findings:
-- The timeline imports 40 weeks but renders only eight.
-- The evidence page imports 311 outcome and 403 nutrient rows but renders only 25 each, without full search/pagination. Held numerical estimates are visible in draft rows; future browser should suppress held values by default and clearly distinguish provenance, reference intakes and dosing. Verify field names against canonical schemas and do not infer statistical meaning.
+- The timeline previously rendered only eight weeks; addressed in Stage 2.
+- The evidence page previously rendered only 25 of each numerical record and showed held values; addressed in Stage 3. Scientific verification and complete claim-level hold reconciliation remain pending.
 - Source links and funding are basic; missing IDs, claim-level holds, upstream holds, and duplicate/overlapping cohorts need deeper validation. Do not equate unheld with verified.
 - Current draft text is still visible for private review; disclaimers do not constitute clinical clearance.
 - Body map is a basic navigational silhouette; scientific illustrations and licenses pending.
@@ -25,9 +25,23 @@ Remaining findings:
 - Verify PWA caching, offline routes, contrast, accessible targets, icon artwork, device behavior, and external resource privacy in an execution environment.
 - Qualified clinical review, independent source appraisal and owner release remain open.
 
+## Stage 2 — developmental timelines (changes committed; execution verification pending)
+
+- All 28 phases across five existing tracks and 40 weekly rows are navigable; track and week-range filters and expandable details.
+- Featured and additional article links, persistent draft safety topics, maternal-phase cross-references, source windows and source links. Paternal preparation is linked within the shared preparation experience; no new unsupported paternal schedule.
+- Regression coverage for complete week access and filters added; not executed.
+- Commits: `452c41df96fccc53a7284b9cf84eda90a9cd7fc2`, `d92cecf9c9b1f9ec80e02ae85003c33fc9e0f0`, `d37398ca362f593ee8f85911c4c9f2a0c0b30129`, `8a36b9fc8a5f168bc1ece13fa44755f95ed19086`.
+
+## Stage 3 — evidence and nutrition library (changes committed; execution verification pending)
+
+- Full 311 outcome and 403 nutrient reference records available via 20-row pagination, record type, search, review hold and nutrient life-stage filtering.
+- Added the canonical 770-record source index to the required sync and generated app data, with predev sync. Checked unique IDs and resolved all numerical records to source IDs in the original repository data (not an independent scientific verification).
+- Preserve recorded interval labels, units and nutrient upper-limit scope; no inferred confidence interval type or supplement prescription. Source details include recorded funding and financial ties, DOI/PMID, original link, repository origin and blob/index provenance. Unknown disclosure is not evidence of independence.
+- Held, excluded, upstream-flagged or missing-source numerical estimates are suppressed in the UI; dose-like nutrient values suppressed. This is UI-level suppression, not a security boundary: raw research remains in the private repository and imported data. Other unreviewed draft values remain visible for research inspection, not for clinical use. Charting, rankings, dosing and automation remain locked. Independent appraisal and claim-specific hold reconciliation remain pending.
+- Regression tests added for pagination, search, source linking and hold suppression; not run in an execution environment.
+- Commits: `1fd1bc67af7b5abc550dfbb095eed83d079cd365`, `d369c303540f8414f4d9f5f7943d7d95f6abd490`, `fb753c91401ccf546bf890a820deb36110d66898`, `3c1154d43fa317c63dca50322c0a7cc40c17a8b5`, `cd282473b3bca2ca4e29886ab1cf63a8dc442b1c`, `fda93e7cb05d5ea023f04b80538400ecd09605ea`.
+
 ## Subsequent stages (stop after each checkpoint)
-2. Full maternal/fetal/child timeline navigation: all 40 week records, accessible grouping, no diagnostic or personalized predictions.
-3. Evidence browser: all 714 records navigable with filters and pagination, provenance, held-value suppression and tests; no clinical charting or dosing.
 4. Search and local preferences: topic search, bookmarks, optional phase navigation, clear/export preferences, privacy tests.
 5. Independent scientific appraisal: source-linked evidence/funding/risk-of-bias ledger; original papers, duplicate cohort checks, no promotion without clinical review.
 6. Scientific visuals: license/attribution verification, accessible accurate figures, no clinical claims from unverified figures.
