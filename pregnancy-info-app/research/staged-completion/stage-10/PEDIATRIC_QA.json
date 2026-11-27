@@ -1,0 +1,21 @@
+{
+  "checked_commit": "31df271a8bcd61d57ccd5ba6e4d64b03c0f21507",
+  "method": "Executed equivalent JavaScript checks of child-health/validate.py on fetched original files; Python script itself not run",
+  "sources": 60,
+  "study_reports": 18,
+  "distinct_group_keys_including_reviews": 16,
+  "claims": 30,
+  "safety_assessments": 30,
+  "numeric_estimates": 28,
+  "motor_windows": 6,
+  "nutrient_rows": 245,
+  "weeks": 40,
+  "safety_cases": 15,
+  "visual_briefs": 7,
+  "media": 4,
+  "family_phases": 19,
+  "searches": 136,
+  "comparisons": 9,
+  "errors": [],
+  "clinical_review": false
+}
