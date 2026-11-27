@@ -1,0 +1,16 @@
+node_modules/
+dist/
+build/
+.DS_Store
+*.log
+.env
+.env.*
+!.env.example
+coverage/
+.vite/
+app/dev-dist/
+*.local
+.cursor-usage-ledger.json
+EVERWELL_USAGE_LEDGER.json
+pregnancy-info-app/app/node_modules/
+pregnancy-info-app/app/dist/
