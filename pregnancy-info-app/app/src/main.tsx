@@ -3,6 +3,7 @@ import { createRoot } from 'react-dom/client'
 import { BrowserRouter, HashRouter } from 'react-router-dom'
 import App from './App'
 import { startAppUpdates } from './pwa/autoUpdates'
+import { BUILD_ID, fetchRelease, reportRelease } from './pwa/releaseStatus'
 import './index.css'
 
 const Router = ['portable','pages'].includes(import.meta.env.MODE) ? HashRouter : BrowserRouter
@@ -22,6 +23,9 @@ if (import.meta.env.PROD && import.meta.env.MODE !== 'portable' && 'serviceWorke
     document,
     basePath: import.meta.env.BASE_URL,
     online: () => navigator.onLine,
+    buildId: BUILD_ID,
+    readRelease: () => fetchRelease(import.meta.env.BASE_URL),
+    report: reportRelease,
     reload: () => window.location.reload(),
   })
 }

@@ -43,6 +43,9 @@ for(const el of doc.querySelectorAll('link[href],img[src],iframe[src],source[src
 }
 for(const el of doc.querySelectorAll('*'))for(const attr of el.attributes)assert(!/^on/i.test(attr.name),'Inline event handler: '+attr.name)
 assert(existsSync('dist/sw.js'),'Offline service worker missing')
+const release=JSON.parse(readFileSync('dist/version.json','utf8'))
+assert(typeof release.build==='string'&&release.build.length>0,'Missing release identifier')
+assert(!readFileSync('dist/sw.js','utf8').includes('version.json'),'Live version marker must not be precached')
 assert(existsSync('dist/manifest.webmanifest'),'App manifest missing')
 if(base!=='/'){
  const meta=doc.querySelector('meta[http-equiv="Content-Security-Policy"]')

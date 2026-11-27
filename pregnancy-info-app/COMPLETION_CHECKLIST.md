@@ -102,3 +102,5 @@ Evidence: prior preview 8b51b5f76a0d4624cf2c1879021c52da98f82de1; preference/sea
 - [ ] Full-text/COI, independent reviewer, clinical review and rendered-device verification of contraception expansion; confirm exact build/deployment. First contraception build failed on accessibility-name test; fixed explicit accessible label in this candidate, retest pending.
 
 - [ ] Owner-requested contraception UI redesign: direct method tiles, seven overview comparison plots, scrollable comparison table, dedicated method routes and cost/comfort. 10 additive nonclinical price/coverage sources. Build, actual rendered device review and owner acceptance pending; no clinical clearance.
+
+- [ ] PWA update reliability: online-first Pages navigation with precache fallback; uncached same-origin build marker; automatic and manual release checks, activation-state fallback and one-reload recovery guard. Physical iPhone installed-mode test and exact live endpoint verification pending. No preference clearing or origin migration.

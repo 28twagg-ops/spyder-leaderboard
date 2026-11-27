@@ -1,4 +1,5 @@
 import { useState } from 'react'
+import { AppUpdateStatus } from '../components/AppUpdateStatus'
 import brandMark from '../assets/everwell-mark.svg'
 import { Link,useNavigate } from 'react-router-dom'
 import { PregnancyDateCard } from '../components/PregnancyDateCard'
@@ -31,5 +32,6 @@ export function TodayPage({activePhaseId,currentWeek,onSearch}:{activePhaseId:st
  <section aria-labelledby="reading-heading"><div className="ref-section-head"><h2 id="reading-heading">Start reading</h2><Link to="/library">See all <span aria-hidden="true">›</span></Link></div><div className="ref-rows">{articles.map(a=><Link className="ref-row" key={a.id} to={`/research/${a.id}`}><span className="ref-row-icon"><Glyph name={readingIcon(a.domain)}/></span><span><strong>{a.title}</strong><small>{domainNames[a.domain]??a.domain}</small></span><span className="ref-chevron" aria-hidden="true">›</span></Link>)}</div></section>
  <div className="ref-secondary"><Link to="/explore/body"><Glyph name="body"/>Your body <span aria-hidden="true">›</span></Link><Link to="/evidence"><Glyph name="book"/>Research &amp; sources <span aria-hidden="true">›</span></Link></div>
  <DraftBanner status="research_only"/>
+ <Link to="/settings" className="app-release-link"><AppUpdateStatus compact/></Link>
  </div>
 }

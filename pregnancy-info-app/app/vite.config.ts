@@ -5,10 +5,13 @@ import { VitePWA } from 'vite-plugin-pwa'
 
 export default defineConfig(({mode}) => {
   const base=mode==='pages'?'/spyder-leaderboard/everwell/':'/'
+  const buildId=process.env.GITHUB_SHA??process.env.VERCEL_GIT_COMMIT_SHA??(mode==='test'||mode==='development'?'development':new Date().toISOString())
   return {
   base,
+  define:{__EVERWELL_BUILD__:JSON.stringify(buildId)},
   plugins: [
     react(),
+    {name:'everwell-release-marker',apply:'build',generateBundle(){if(mode!=='portable')this.emitFile({type:'asset',fileName:'version.json',source:JSON.stringify({build:buildId})})}},
     VitePWA({
       // The app registers explicitly to check for updates whenever it returns to the foreground.
       registerType: 'autoUpdate',
@@ -49,7 +52,14 @@ export default defineConfig(({mode}) => {
         skipWaiting: true,
         clientsClaim: true,
         cleanupOutdatedCaches: true,
-        navigateFallback: base+'index.html',
+        // A fresh online Pages launch must not get stuck on a cache-first shell.
+        // Fall back to the complete precached app if the network is unavailable.
+        ...(mode==='pages'?{
+          directoryIndex:null,
+          navigateFallback:null,
+          runtimeCaching:[{urlPattern:({request}:{request:Request})=>request.mode==='navigate',handler:'NetworkOnly' as const,options:{networkTimeoutSeconds:4,precacheFallback:{fallbackURL:base+'index.html'}}}],
+        }:{navigateFallback:base+'index.html'}),
+        globIgnores:['**/version.json'],
         globPatterns: ['**/*.{js,css,html,svg,png,ico,json,woff2}'],
       },
       devOptions: {

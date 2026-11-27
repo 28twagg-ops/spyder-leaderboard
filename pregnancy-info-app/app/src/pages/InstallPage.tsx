@@ -12,12 +12,12 @@ export function InstallPage() {
           <li>Tap Add to Home Screen.</li>
           <li>Confirm the name Everwell, then Add.</li>
           <li>Launch from the Home Screen icon for standalone mode.</li>
-        </ol><p className="small-copy muted">If your existing Home Screen icon does not update, first note or export your saved preferences, then remove and re-add Everwell. Removing an installed web app can clear its local data.</p>
+        </ol><p className="small-copy muted">Use the permanent GitHub Pages address: https://28twagg-ops.github.io/spyder-leaderboard/everwell/ . An icon installed from an older Vercel address cannot migrate automatically. Keep or export saved preferences before replacing that icon; removing an installed web app can clear local data.</p>
       </section>
       <section className="panel install-help stack">
         <h2 className="section-title">Automatic updates</h2>
         <p>Install from the stable preview address, not an individual build address. Everwell checks for a newer deployed version when opened, when you return to it, and when your connection comes back. A ready update refreshes the app without deleting your saved preferences. Offline, the last installed version remains available.</p>
-        <p className="small-copy muted">An open pregnancy-date editor or active text input may delay the refresh. Browser restrictions or a failed deployment may also delay updates. The Home Screen icon can still require re-adding on iPhone.</p>
+        <p className="small-copy muted">Open Settings → App updates to compare the installed build with the latest published build, or tap Check for updates. Close any open pregnancy-date editor before updating. If offline or a deployment fails, the last working version remains. A different hosting address requires a one-time reinstall; ordinary updates do not.</p>
       </section>
       <section className="panel install-help stack">
         <h2 className="section-title">Android / desktop</h2>

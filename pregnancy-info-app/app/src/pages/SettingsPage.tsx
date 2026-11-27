@@ -1,4 +1,5 @@
 import { useState } from 'react'
+import { AppUpdateStatus } from '../components/AppUpdateStatus'
 import { ScreenHeading, FeatureCard } from '../components/ReadingUI'
 import { PregnancyDateCard } from '../components/PregnancyDateCard'
 import { PhasePicker } from '../components/PhasePicker'
@@ -15,6 +16,7 @@ export function SettingsPage({onClear,activePhaseId}:{onClear:()=>void;activePha
  const stats=catalogStats()
  return <div className="stack-lg">
  <ScreenHeading title="Settings" subtitle="Make Everwell your own." back="/" backLabel="Home"/>
+ <AppUpdateStatus/>
  <section className="panel stack"><h2 className="section-title">Your reading phase</h2><p className="muted">{timeline.find(p=>p.id===activePhaseId)?.label??"No phase selected"}</p><PhasePicker/></section>
  <PregnancyDateCard settings/>
  <details className="panel disclosure"><summary>Appearance</summary><ThemePicker value={prefs.themeId} onChange={setTheme}/></details>

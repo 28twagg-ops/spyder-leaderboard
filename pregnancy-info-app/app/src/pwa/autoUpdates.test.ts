@@ -1,5 +1,6 @@
 import {afterEach,describe,expect,it,vi} from 'vitest'
 import {startAppUpdates} from './autoUpdates'
+import {UPDATE_EVENT} from './releaseStatus'
 
 class Worker extends EventTarget{
  controller:object|null=null
@@ -9,7 +10,7 @@ class Worker extends EventTarget{
 }
 const flush=async()=>{await Promise.resolve();await Promise.resolve();await Promise.resolve()}
 let stop:(()=>void)|undefined
-afterEach(()=>{stop?.();stop=undefined;vi.useRealTimers();vi.restoreAllMocks();localStorage.clear()})
+afterEach(()=>{stop?.();stop=undefined;vi.useRealTimers();vi.restoreAllMocks();localStorage.clear();sessionStorage.clear()})
 function setup(worker=new Worker()){
  const state={online:true,visible:true,editing:false,now:0}
  const reload=vi.fn()
@@ -17,6 +18,28 @@ function setup(worker=new Worker()){
  return {worker,state,reload}
 }
 describe('installed app automatic updates',()=>{
+ it('checks a live release marker and allows a manual check immediately',async()=>{
+  const worker=new Worker()
+  const report=vi.fn(),readRelease=vi.fn(async()=> 'same-build')
+  stop=startAppUpdates(worker,{window,document,online:()=>true,visible:()=>true,now:()=>0,reload:vi.fn(),buildId:'same-build',readRelease,report})
+  await flush();await flush()
+  expect(report).toHaveBeenLastCalledWith('current','same-build')
+  window.dispatchEvent(new Event(UPDATE_EVENT))
+  await flush();await flush()
+  expect(readRelease).toHaveBeenCalledTimes(2)
+ })
+ it('recovers an already-activated stale shell at most once for the same release',async()=>{
+  vi.useFakeTimers()
+  const worker=new Worker(),reload=vi.fn()
+  const options={window,document,online:()=>true,visible:()=>true,editing:()=>false,reload,buildId:'old',readRelease:async()=> 'new'}
+  stop=startAppUpdates(worker,options)
+  await vi.advanceTimersByTimeAsync(3100)
+  expect(reload).toHaveBeenCalledTimes(1)
+  stop()
+  stop=startAppUpdates(worker,options)
+  await vi.advanceTimersByTimeAsync(3100)
+  expect(reload).toHaveBeenCalledTimes(1)
+ })
  it('registers the stable worker without HTTP cache and checks on launch',async()=>{
   const {worker}=setup()
   await flush()
