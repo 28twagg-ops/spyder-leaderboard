@@ -1,0 +1,5 @@
+---
+description: Everwell mandatory handoff and independent evidence appraisal
+alwaysApply: true
+---
+For Everwell/pregnancy-info-app tasks only, before research or implementation read the repository-root CLAUDE.md (if present), project CLAUDE.md, research/INDEPENDENT_EVIDENCE_REVIEW.md, research/staged-completion/stage-11/FINAL_CLAUDE_PROMPT.md, START_HERE.md and the linked safety/publication gate. Paths are relative to pregnancy-info-app/ (or the current workspace if opened there). Prior AI interpretations are comparison-only, never guidance; independently verify original sources, funding, conflicts, methods, uncertainty and harms before comparing. Preserve all safety holds. Do not modify the unrelated legacy SPYDER project. No deployment or clinical publication without qualified review and owner approval.
