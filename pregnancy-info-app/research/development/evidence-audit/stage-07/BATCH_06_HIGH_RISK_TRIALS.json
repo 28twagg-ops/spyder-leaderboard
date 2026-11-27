@@ -1,0 +1,194 @@
+{
+  "stage": 7,
+  "batch": "06",
+  "date": "2026-11-27",
+  "scope": "High-risk contradictory evidence targeted checks. 11 counted records; preserve holds. Direct bulk API attempts failed; multiple PubMed page bodies inaccessible, alternative original publisher/PMC indexed excerpts used.",
+  "counted_ids": [
+    "CS5-004",
+    "CS5-005",
+    "CS5-006",
+    "CS5-007",
+    "CS5-008",
+    "CS5-009",
+    "CS5-010",
+    "CS5-020",
+    "CS5-024",
+    "CS5-027",
+    "CS5-032"
+  ],
+  "checks": [
+    {
+      "id": "CS5-004",
+      "pmid": "30696573",
+      "sources": [
+        "https://pubmed.ncbi.nlm.nih.gov/30696573/"
+      ],
+      "findings": "Multicentre randomized double-blind calcium preconception/early pregnancy prevention trial; abstract funding verified: UBC as Gates Foundation grantee, WHO/HRP, Argentine cooperation fund, Centre for Intervention Science in Maternal and Child Health. Sponsor role and full disclosures pending; no generalized inference against calcium adequacy or indicated care.",
+      "verification_scope": "Selected original article/abstract indexed passages; full-text systematic appraisal and independent correction search not completed",
+      "status": "partial_external_check",
+      "clinical_review": false,
+      "publish": false,
+      "automation_allowed": false
+    },
+    {
+      "id": "CS5-005",
+      "pmid": "37080296",
+      "sources": [
+        "https://pubmed.ncbi.nlm.nih.gov/37080296/",
+        "https://pubmed.ncbi.nlm.nih.gov/37973443/"
+      ],
+      "findings": "Randomized activity restriction for arrested preterm labor; abstract conclusion does not demonstrate prevention. Newly located corrigendum PMID 37973443; correction content not inspected. Add numerical and recommendation-specific hold until reconciled. No change to individualized clinician instructions.",
+      "verification_scope": "Selected original article/abstract indexed passages; full-text systematic appraisal and independent correction search not completed",
+      "status": "partial_external_check",
+      "clinical_review": false,
+      "publish": false,
+      "automation_allowed": false
+    },
+    {
+      "id": "CS5-006",
+      "pmid": "26165398",
+      "sources": [
+        "https://pubmed.ncbi.nlm.nih.gov/26165398/"
+      ],
+      "findings": "EMPOWaR randomized double-blind placebo-controlled trial in pregnant participants with obesity without diabetes. MRC/NIHR EME programme funding confirmed. No improved pregnancy outcomes in studied population; not evidence against indicated diabetes treatment. Sponsor role and complete disclosures unresolved.",
+      "verification_scope": "Selected original article/abstract indexed passages; full-text systematic appraisal and independent correction search not completed",
+      "status": "partial_external_check",
+      "clinical_review": false,
+      "publish": false,
+      "automation_allowed": false
+    },
+    {
+      "id": "CS5-007",
+      "pmid": "26921136",
+      "sources": [
+        "https://pubmed.ncbi.nlm.nih.gov/26921136/",
+        "https://pmc.ncbi.nlm.nih.gov/articles/PMC5406617/"
+      ],
+      "findings": "OPPTIMUM randomized double-blind trial. MRC/NIHR EME programme with regional public contributions. Primary obstetric, neonatal and childhood outcomes not significantly improved; serious adverse events comparison imprecise. Compare indication-specific short cervix trials, not generalized progesterone advice. Same cohort as CS5-008.",
+      "verification_scope": "Selected original article/abstract indexed passages; full-text systematic appraisal and independent correction search not completed",
+      "status": "partial_external_check",
+      "clinical_review": false,
+      "publish": false,
+      "automation_allowed": false
+    },
+    {
+      "id": "CS5-008",
+      "pmid": "29945711",
+      "sources": [
+        "https://pmc.ncbi.nlm.nih.gov/articles/PMC6036405/",
+        "https://www.ncbi.nlm.nih.gov/books/NBK507735/"
+      ],
+      "findings": "OPPTIMUM HTA report same cohort as CS5-007, not independent replication. Funded by MRC and managed by NIHR. Neonatal composite OR 0.72 (0.44–1.17); no significant benefit/harm established for primary outcomes. Formal missing-data and multiplicity appraisal pending.",
+      "verification_scope": "Selected original article/abstract indexed passages; full-text systematic appraisal and independent correction search not completed",
+      "status": "partial_external_check",
+      "clinical_review": false,
+      "publish": false,
+      "automation_allowed": false
+    },
+    {
+      "id": "CS5-009",
+      "pmid": "38471724",
+      "sources": [
+        "https://www.bmj.com/content/384/bmj-2023-077033.long",
+        "https://pubmed.ncbi.nlm.nih.gov/38471724/"
+      ],
+      "findings": "Netherlands Quadruple P open-label superiority trial, singleton short cervix subgroup. Nonprofit Stichting Stoptevroegbevallen support. Pessary superiority not established; subgroup <28-week birth RR 3.7 (1.1–12.9) for cervical length ≤25 mm, imprecise. Review subgroup multiplicity and author disclosures; no self-management guidance.",
+      "verification_scope": "Selected original article/abstract indexed passages; full-text systematic appraisal and independent correction search not completed",
+      "status": "partial_external_check",
+      "clinical_review": false,
+      "publish": false,
+      "automation_allowed": false
+    },
+    {
+      "id": "CS5-010",
+      "pmid": "37490086",
+      "sources": [
+        "https://jamanetwork.com/journals/jama/fullarticle/2807569",
+        "https://pmc.ncbi.nlm.nih.gov/articles/PMC10369212/"
+      ],
+      "findings": "TOPS open-label trial in 544 singleton pregnancies with short cervix; primary preterm birth/fetal death outcome 45.5% vs 45.6%, RR 1.00 (0.83–1.20). Increased fetal or infant death signal; early stopping requires careful appraisal. NICHD grant support; staff involved in design, data collection, interpretation and report approval. Full disclosure and comparative population appraisal pending. Maintain safety hold.",
+      "verification_scope": "Selected original article/abstract indexed passages; full-text systematic appraisal and independent correction search not completed",
+      "status": "partial_external_check",
+      "clinical_review": false,
+      "publish": false,
+      "automation_allowed": false
+    },
+    {
+      "id": "CS5-020",
+      "pmid": "29260226",
+      "sources": [
+        "https://pmc.ncbi.nlm.nih.gov/articles/PMC5820698/",
+        "https://pmc.ncbi.nlm.nih.gov/articles/PMC9713761/"
+      ],
+      "findings": "Saccone 2017 randomized pessary trial identity confirmed, NCT02716909; comparative review includes same trial, not independent primary evidence. Full outcomes and funding not independently extracted in this check; compare population and concomitant progesterone with TOPS and Quadruple P.",
+      "verification_scope": "Selected original article/abstract indexed passages; full-text systematic appraisal and independent correction search not completed",
+      "status": "partial_external_check",
+      "clinical_review": false,
+      "publish": false,
+      "automation_allowed": false
+    },
+    {
+      "id": "CS5-024",
+      "pmid": "24690625",
+      "sources": [
+        "https://www.bmj.com/content/348/bmj.G2107",
+        "https://pmc.ncbi.nlm.nih.gov/articles/PMC3972414/"
+      ],
+      "findings": "Australian double-blind colic probiotic RCT. Charitable Georgina Menzies Maconachie Trust cash support, BioGaia supplied product/placebo; article declares suppliers/trust had no conduct, analysis or reporting role. Authors disclosed nutrition company advisory/honoraria relationships and unrelated product donations. Strain and feeding subgroup matter; no universal probiotic recommendation.",
+      "verification_scope": "Selected original article/abstract indexed passages; full-text systematic appraisal and independent correction search not completed",
+      "status": "partial_external_check",
+      "clinical_review": false,
+      "publish": false,
+      "automation_allowed": false
+    },
+    {
+      "id": "CS5-027",
+      "pmid": "30269876",
+      "sources": [
+        "https://pubmed.ncbi.nlm.nih.gov/30269876/",
+        "https://pubmed.ncbi.nlm.nih.gov/34338212/",
+        "https://pmc.ncbi.nlm.nih.gov/articles/PMC7658309/"
+      ],
+      "findings": "AFFIRM UK/Ireland stepped-wedge cluster trial. Scottish Chief Scientist Office, Tommy's and Sands funding confirmed. Correction notice identity confirmed; exact corrected table not independently extracted, so existing numeric hold retained. Package result cannot justify delaying assessment of reduced fetal movement.",
+      "verification_scope": "Selected original article/abstract indexed passages; full-text systematic appraisal and independent correction search not completed",
+      "status": "partial_external_check",
+      "clinical_review": false,
+      "publish": false,
+      "automation_allowed": false
+    },
+    {
+      "id": "CS5-032",
+      "pmid": "36440058",
+      "sources": [
+        "https://pmc.ncbi.nlm.nih.gov/articles/PMC9684698/",
+        "https://www.sciencedirect.com/science/article/pii/S2590161322000321",
+        "https://pubmed.ncbi.nlm.nih.gov/33822798/"
+      ],
+      "findings": "Thai randomized double-blind moringa capsule trial: median day-three milk volume 73.5 vs 50 mL, p=0.19. Positive author framing cannot turn nonsignificant endpoint into proven efficacy. Earlier similar title PMID 33822798 flagged for version/cohort comparison, not counted independently. Full funding, sponsor and harms appraisal unresolved.",
+      "verification_scope": "Selected original article/abstract indexed passages; full-text systematic appraisal and independent correction search not completed",
+      "status": "partial_external_check",
+      "clinical_review": false,
+      "publish": false,
+      "automation_allowed": false
+    }
+  ],
+  "new_holds": [
+    {
+      "id": "CS5-005",
+      "pmid": "37080296",
+      "notice": "https://pubmed.ncbi.nlm.nih.gov/37973443/",
+      "status": "corrigendum found, content unresolved",
+      "action": "No numeric or clinical recommendation use until corrected article reconciled"
+    }
+  ],
+  "new_identity_candidates": [
+    {
+      "id": "CS5-032",
+      "related_pmid": "33822798",
+      "status": "same/similar title; check authors, trial registry and cohort; no merge"
+    }
+  ],
+  "clinical_review": false,
+  "publish": false,
+  "automation_allowed": false
+}
