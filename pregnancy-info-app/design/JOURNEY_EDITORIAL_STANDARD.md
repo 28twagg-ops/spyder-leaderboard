@@ -181,3 +181,6 @@ A chapter is **research mapped** when source/claim/article applicability and hol
 
 ## 14. Implementation checkpoint after owner-authorized expansion
 The 20–27 shared range now has eight candidate chapters; the design contract remains unchanged. See [completion tracker](../research/TIMELINE_COMPLETION_TRACKER.md) latest batch for feature assignments, source status, verification limitations and exact commit. Do not interpret this as clinical or rendered visual acceptance. No automatic authorization to expand remaining weeks outside the owner-selected batch.
+
+### Third-trimester candidate checkpoint
+Weeks 28–29 extend the approved hierarchy with THIRD TRIMESTER label and shared Weeks 28–34 reading range, six newborn/feeding library links, distinct maternal/fetal features and sourced approximate size cards. Ten weeks now have candidate chapters. Consult latest tracker; source, runtime, visual and clinical gates remain open.

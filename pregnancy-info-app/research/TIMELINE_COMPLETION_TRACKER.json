@@ -7,7 +7,7 @@
     "tracker": "research/TIMELINE_COMPLETION_TRACKER.md",
     "base_week_data": "research/staged-completion/stage-09/GESTATIONAL_WEEKS.json",
     "base_phase_data": "research/staged-completion/stage-09/TIMELINE.json",
-    "preview_candidate": "5353535fdd19bbe667735079744d60af18a3633b"
+    "preview_candidate": "af337c8abe741af553a2422fedb58eab72d3e9e2"
   },
   "weeks": [
     {
@@ -1032,18 +1032,18 @@
       "planned_mother_focus": "Third-trimester orientation and birth preparation questions.",
       "planned_visual": "Concept of alveoli/surfactant, stage-correct.",
       "editorial_shared_range": "28–34",
-      "status": "base_timeline_only",
+      "status": "pilot_candidate_unverified",
       "research_mapping_complete": false,
       "independent_appraisal_complete": false,
       "editorial_draft_complete": false,
-      "implementation_candidate": false,
+      "implementation_candidate": true,
       "build_verified": false,
       "visual_verified": false,
       "owner_app_accepted": false,
       "clinical_review": false,
       "publish": false,
       "remaining": [
-        "research_mapping",
+        "complete_claim_outcome_mapping",
         "independent_appraisal",
         "editorial_refinement",
         "visual_rights",
@@ -1052,7 +1052,22 @@
         "rendered_QA",
         "owner_acceptance",
         "qualified_clinical_review"
-      ]
+      ],
+      "candidate_commit": "af337c8abe741af553a2422fedb58eab72d3e9e2",
+      "candidate_features": {
+        "mother": [
+          "The third trimester begins",
+          "Whooping cough protection",
+          "Preparing a safe sleep space"
+        ],
+        "baby": [
+          "A changing heartbeat",
+          "Surfactant and air sacs",
+          "Antibodies from mother to baby"
+        ],
+        "size": "37.6 cm · eggplant"
+      },
+      "editorial_draft_present": true
     },
     {
       "week": 29,
@@ -1065,18 +1080,18 @@
       "planned_mother_focus": "Rest, activity adaptation, mental wellbeing and support.",
       "planned_visual": "Neural connections.",
       "editorial_shared_range": "28–34",
-      "status": "base_timeline_only",
+      "status": "pilot_candidate_unverified",
       "research_mapping_complete": false,
       "independent_appraisal_complete": false,
       "editorial_draft_complete": false,
-      "implementation_candidate": false,
+      "implementation_candidate": true,
       "build_verified": false,
       "visual_verified": false,
       "owner_app_accepted": false,
       "clinical_review": false,
       "publish": false,
       "remaining": [
-        "research_mapping",
+        "complete_claim_outcome_mapping",
         "independent_appraisal",
         "editorial_refinement",
         "visual_rights",
@@ -1085,7 +1100,22 @@
         "rendered_QA",
         "owner_acceptance",
         "qualified_clinical_review"
-      ]
+      ],
+      "candidate_commit": "af337c8abe741af553a2422fedb58eab72d3e9e2",
+      "candidate_features": {
+        "mother": [
+          "Balance and changing posture",
+          "Birth preferences and support",
+          "Feeding choices before birth"
+        ],
+        "baby": [
+          "Nervous-system control",
+          "The changing skin covering",
+          "Organ maturation and growth"
+        ],
+        "size": "38.6 cm · butternut squash"
+      },
+      "editorial_draft_present": true
     },
     {
       "week": 30,
@@ -3436,12 +3466,8 @@
   "latest_batch": {
     "date": "2026-11-27",
     "new_candidate_weeks": [
-      20,
-      21,
-      24,
-      25,
-      26,
-      27
+      28,
+      29
     ],
     "all_candidate_weeks": [
       20,
@@ -3451,16 +3477,19 @@
       24,
       25,
       26,
-      27
+      27,
+      28,
+      29
     ],
-    "feature_count": 48,
-    "new_features": 36,
-    "focused_readings_added": 15,
-    "reference_records": 17,
-    "static_route_validation": "48 feature paths, all 15 focused reading related routes and reference keys checked; no issues; eight week route sets and eight size records present",
-    "actual_build": "Unverified on latest commit. Prior 49fb596 candidate Vercel test run 213/214 passed; one case-sensitive skin-label assertion failed. Updated assertion; no claim of successful rerun.",
+    "feature_count": 60,
+    "new_features": 12,
+    "focused_readings_total": 25,
+    "focused_readings_added": 10,
+    "reference_records": 23,
+    "static_route_validation": "60 feature destinations, 25 focused reading references/related links checked; zero issues. All 25 PREG03 article IDs represented across existing map and six added newborn-preparation links.",
+    "actual_build": "Latest candidate not built or tested. Last observed Vercel build 49fb596: 213 passed, 1 failed; later fixes unverified. No fresh successful deployment observed.",
     "complete_weeks": 0,
     "complete_phases": 0,
-    "next_proposed_batch": "Weeks 28–29 after verifying 20–27; or owner-selected pair"
+    "next_proposed_batch": "Weeks 30–31, with actual build and mobile QA first if available."
   }
 }
