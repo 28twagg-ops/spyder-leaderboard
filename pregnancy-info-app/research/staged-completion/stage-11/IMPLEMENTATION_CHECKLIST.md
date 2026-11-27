@@ -1,3 +1,5 @@
+> **Additional mandatory gates:** [Independent review directive](../../INDEPENDENT_EVIDENCE_REVIEW.md) controls I04–I11. Require (I16) claim-level independent appraisal recorded before comparing archived AI conclusions, with exposure and discrepancies logged; (I17) source-level verified funding/conflict/sponsor-role evidence and methodological bias separately documented; (I18) fail-closed tests showing archived AI conclusions cannot drive user-facing guidance, ranking, charts, or automation. These gates are pending, not completed. Clinical review and owner release approval remain distinct.
+
 # Implementation and release checklist
 Status on handoff: research structurally checked, implementation and clinical approval pending.
 
