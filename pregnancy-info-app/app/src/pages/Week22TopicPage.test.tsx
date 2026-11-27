@@ -8,6 +8,9 @@ import {getEvidenceSource,outcomes} from '../data/evidenceCatalog'
 import {skinSections,slug,sourceGroups,sourceAliasHeld,subsectionOutcomes} from '../data/skinTopicMap'
 import {getVisual} from '../data/visualCatalog'
 import {midReadings,midReferences} from '../data/midPregnancyReadings'
+import {weeklyFeatures} from '../data/weeklyFeatures'
+import {weekConnections} from '../components/Week22Reading'
+import {healthResearchGroups} from '../data/healthResearchGroups'
 import {topicEditorial,skinSpecific} from '../data/weekEditorial'
 afterEach(()=>{cleanup();localStorage.clear()})
 describe('expanded week 22 topic coverage',()=>{
@@ -94,6 +97,27 @@ describe('expanded week 22 topic coverage',()=>{
  })
  it('new reading references resolve and registry-backed IDs exist',()=>{
   for(const reading of Object.values(midReadings))for(const part of reading.sections)for(const id of part.refs){const ref=midReferences[id];expect(ref).toBeDefined();if(ref.sourceId)expect(getEvidenceSource(ref.sourceId)).toBeDefined()}
+ })
+ it('checks every weekly feature, cross-reference and guide link against the canonical route catalog',()=>{
+  const valid=new Set(['mother/skin','mother/body/rib-comfort','baby/growth/lungs','baby/growth/blood','mother/nutrition/research-guide',...Object.keys(midReadings)])
+  for(const topic of week22Topics){valid.add(topic.subject+'/'+topic.id);for(const child of topic.children)valid.add(topic.subject+'/'+topic.id+'/'+child.id)}
+  for(const section of skinSections){valid.add('mother/skin/'+section.id);for(const child of section.children)valid.add('mother/skin/'+section.id+'/'+slug(child.title))}
+  const check=(path:string)=>{if(path.startsWith('/research/'))expect(getArticle(path.split('/')[2]),path).toBeDefined();else expect(valid.has(path),path).toBe(true)}
+  for(const subjects of Object.values(weeklyFeatures))for(const features of Object.values(subjects))for(const item of features)check(item.path)
+  for(const reading of Object.values(midReadings))for(const [path] of reading.related)check(path)
+  for(const [key,connections] of Object.entries(weekConnections)){check(key);for(const item of connections)check(item.to)}
+  for(const group of healthResearchGroups)for(const [path] of group.items)check(path)
+ })
+ it.each([1,5,12,20,28,40])('opens the nutrient and medicine guide in week %s',async(week)=>{
+  render(<MemoryRouter initialEntries={['/timeline/week/'+week+'?subject=mother']}><App/></MemoryRouter>)
+  fireEvent.click(screen.getByRole('link',{name:/Nutrients, vitamins & medicines/}))
+  expect(await screen.findByRole('heading',{name:'Nutrients, vitamins & medicines',level:1})).toBeVisible()
+  fireEvent.click(screen.getByRole('link',{name:/^Choline/}))
+  expect(await screen.findByRole('heading',{name:'Choline: membranes, signaling and brain research'})).toBeVisible()
+  expect(screen.getByRole('navigation',{name:'Week '+week+' context'})).toBeVisible()
+  expect(screen.getByText('At a glance')).toBeVisible()
+  expect(screen.getByText('Worth asking your care team')).toBeVisible()
+  expect(document.querySelectorAll('.skin-page details').length).toBeLessThanOrEqual(3)
  })
  it('directory links are all dedicated week routes',()=>{
   render(<MemoryRouter initialEntries={['/timeline/week/22']}><App/></MemoryRouter>)

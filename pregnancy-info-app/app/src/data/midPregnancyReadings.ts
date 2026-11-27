@@ -1,8 +1,105 @@
 /** Additional focused research drafts. External guidance records are candidate references; no chart/dose release.
  * Existing registry-backed sources retain alias/hold checks. No individual clinical clearance. */
 export type MidReference={title:string;url:string;sourceId?:string}
-export type MidReading={title:string;art:string;window:string;sections:{title:string;body:string;refs:string[]}[];related:[string,string][]}
+export type MidReading={title:string;art:string;window:string;summary?:string;question?:string;sections:{title:string;body:string;refs:string[]}[];related:[string,string][]}
 export const midReferences:Record<string,MidReference>={
+"CHOL1": {
+    "title": "Caudill et al. 2018: randomized choline feeding trial",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/29217669/",
+    "sourceId": "P4-08"
+  },
+  "CHOL2": {
+    "title": "Bahnfleth et al. 2022: seven-year follow-up",
+    "url": "https://doi.org/10.1096/fj.202101217R",
+    "sourceId": "P4-09"
+  },
+  "CHOL3": {
+    "title": "Cheatham et al. 2012: randomized phosphatidylcholine trial",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/23134891/",
+    "sourceId": "P4-10"
+  },
+  "IOD": {
+    "title": "Gowachirapant et al. 2017: iodine supplementation and child neurodevelopment",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/29030199/",
+    "sourceId": "P5-21"
+  },
+  "MTHFR": {
+    "title": "CDC: MTHFR variants and folic acid",
+    "url": "https://www.cdc.gov/folic-acid/data-research/mthfr/index.html",
+    "sourceId": "P5-04"
+  },
+  "FOLREV": {
+    "title": "Cochrane: periconceptional folate and birth defects",
+    "url": "https://www.cochrane.org/evidence/CD007950_folic-acid-supplements-conception-and-early-pregnancy-12-weeks-prevention-birth-defects",
+    "sourceId": "P5-01"
+  },
+  "IRON": {
+    "title": "Cochrane 2024: daily oral iron supplementation",
+    "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC11325660/",
+    "sourceId": "P5-19"
+  },
+  "CALC": {
+    "title": "Cochrane: calcium and hypertensive disorders",
+    "url": "https://www.cochrane.org/evidence/CD001059_taking-calcium-supplements-during-pregnancy-effective-way-prevent-blood-pressure-disorders-and",
+    "sourceId": "P5-05"
+  },
+  "CALCC": {
+    "title": "2026 commentary on trial trustworthiness and calcium review",
+    "url": "https://link.springer.com/article/10.1186/s12978-026-02395-w",
+    "sourceId": "P5-06"
+  },
+  "VD": {
+    "title": "Cochrane: vitamin D supplementation",
+    "url": "https://www.cochrane.org/evidence/CD008873_does-vitamin-d-supplementation-benefit-harm-or-have-no-effects-pregnant-women-or-their-babies",
+    "sourceId": "P5-17"
+  },
+  "GAO": {
+    "title": "US GAO: prenatal supplement label accuracy",
+    "url": "https://www.gao.gov/products/gao-24-106689",
+    "sourceId": "P5-24"
+  },
+  "HERBAL": {
+    "title": "MotherToBaby: herbal products",
+    "url": "https://mothertobaby.org/fact-sheets/herbal-products-pregnancy/",
+    "sourceId": "N319"
+  },
+  "ASP": {
+    "title": "ACOG/SMFM: low-dose aspirin for prevention of preeclampsia",
+    "url": "https://publications.smfm.org/publications/433-acog-smfm-practice-advisory-low-dose-aspirin-use/"
+  },
+  "ASPREV": {
+    "title": "USPSTF 2021 evidence review: aspirin prevention",
+    "url": "https://www.uspreventiveservicestaskforce.org/uspstf/document/final-evidence-summary/low-dose-aspirin-use-for-the-prevention-of-morbidity-and-mortality-from-preeclampsia-preventive-medication"
+  },
+  "NSAID": {
+    "title": "FDA: NSAIDs from around 20 weeks and fetal renal risks",
+    "url": "https://www.fda.gov/drugs/drug-safety-and-availability/fda-recommends-avoiding-use-nsaids-pregnancy-20-weeks-or-later-because-they-can-result-low-amniotic"
+  },
+  "IBU": {
+    "title": "MotherToBaby: ibuprofen",
+    "url": "https://mothertobaby.org/fact-sheets/ibuprofen-pregnancy/"
+  },
+  "ACET": {
+    "title": "MotherToBaby: acetaminophen",
+    "url": "https://mothertobaby.org/fact-sheets/acetaminophen-pregnancy/"
+  },
+  "ACETSIB": {
+    "title": "Ahlqvist et al. 2024: Swedish sibling-controlled study",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/38592388/"
+  },
+  "NAUSEA": {
+    "title": "ACOG: nausea and vomiting of pregnancy",
+    "url": "https://www.acog.org/womens-health/faqs/morning-sickness-nausea-and-vomiting-of-pregnancy"
+  },
+  "DOX": {
+    "title": "MotherToBaby: doxylamine-pyridoxine",
+    "url": "https://mothertobaby.org/fact-sheets/doxylamine-succinate-pyridoxine-hydrochloride-diclegisdiclectin-pregnancy/"
+  },
+  "CREAT": {
+    "title": "Open-label pregnancy creatine dose escalation study",
+    "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC12291183/",
+    "sourceId": "P5-23"
+  },
 "N4": {
     "title": "NHS: Week 4",
     "url": "https://www.nhs.uk/best-start-in-life/pregnancy/week-by-week-guide-to-pregnancy/1st-trimester/week-4/"
@@ -272,6 +369,595 @@ export const midReferences:Record<string,MidReference>={
   }
 }
 export const midReadings:Record<string,MidReading>={
+"mother/nutrition/choline": {
+    "title": "Choline: membranes, signaling and brain research",
+    "art": "brain",
+    "window": "Throughout pregnancy; no established week-specific extra dose",
+    "summary": "Choline is essential. Small cognitive trials are interesting, but the evidence for extra supplementation is mixed.",
+    "question": "Does my usual diet and prenatal product provide adequate choline?",
+    "sections": [
+      {
+        "title": "Where it comes from",
+        "body": "Eggs, meat, fish, dairy and soy foods contribute choline. It participates in phospholipid formation and methyl-group metabolism. Check what a prenatal actually contains rather than assuming every prenatal includes it.",
+        "refs": [
+          "NUTR"
+        ]
+      },
+      {
+        "title": "What the trials measured",
+        "body": "A small controlled feeding trial reported faster infant information processing, and a seven-year follow-up reported differences on a sustained-attention task. These publications followed the same cohort. A separate randomized phosphatidylcholine trial did not establish a cognitive benefit. Different outcomes, populations and interventions are not interchangeable.",
+        "refs": [
+          "CHOL1",
+          "CHOL2",
+          "CHOL3"
+        ]
+      },
+      {
+        "title": "Why funding and study design matter",
+        "body": "The archive records US public and egg/beef industry promotion support for the first trial, public and Balchem support for the follow-up, and mixed public/foundation/egg-industry support for the separate trial. Sponsor roles, attrition, small samples and outcome selection need independent appraisal. Positive and null results occurred with mixed funding; the funding alone does not establish the cause of the findings.",
+        "refs": [
+          "CHOL1",
+          "CHOL2",
+          "CHOL3"
+        ]
+      }
+    ],
+    "related": [
+      [
+        "mother/nutrition/iodine",
+        "Iodine"
+      ],
+      [
+        "mother/nutrition/brain-nutrients",
+        "Combined nutrient research"
+      ],
+      [
+        "baby/senses/brain-nutrients",
+        "Developmental outcomes"
+      ]
+    ]
+  },
+  "mother/nutrition/iodine": {
+    "title": "Iodine: thyroid hormones and development",
+    "art": "brain",
+    "window": "Before conception and throughout pregnancy; diet and thyroid context matter",
+    "summary": "Iodine supports thyroid hormone production. Both inadequate and excessive intake can cause problems.",
+    "question": "Does my prenatal contain iodine, and do my thyroid history or dietary choices change the discussion?",
+    "sections": [
+      {
+        "title": "Food and product sources",
+        "body": "Iodized salt, dairy, eggs and seafood can contribute iodine. Salt used in packaged foods is not necessarily iodized. Seaweed iodine content can vary substantially. Adequacy is not a reason to add extra salt or concentrated kelp supplements.",
+        "refs": [
+          "NUTR"
+        ]
+      },
+      {
+        "title": "What cognitive research can tell us",
+        "body": "A randomized trial in mildly iodine-deficient pregnant participants did not establish a child neurodevelopmental benefit from the tested supplementation strategy. This does not negate the importance of iodine or establish the effect in severe deficiency. The registry records public, university and Nestlé Foundation support; company influence is not established by the foundation's origin.",
+        "refs": [
+          "IOD",
+          "NUTR"
+        ]
+      },
+      {
+        "title": "Safety and context",
+        "body": "Thyroid conditions, medications and other iodine sources matter. Review combined intake with a clinician rather than assuming higher intake is beneficial.",
+        "refs": [
+          "NUTR"
+        ]
+      }
+    ],
+    "related": [
+      [
+        "mother/nutrition/choline",
+        "Choline"
+      ],
+      [
+        "mother/nutrition/supplements",
+        "Prenatal product quality"
+      ]
+    ]
+  },
+  "mother/nutrition/vitamin-b12": {
+    "title": "Vitamin B12: blood and nervous-system health",
+    "art": "brain",
+    "window": "Preconception, pregnancy and lactation; dietary restrictions matter",
+    "summary": "B12 deserves particular attention when animal-derived or fortified foods are limited.",
+    "question": "Do my diet, medical history or medicines warrant an assessment of B12 intake or status?",
+    "sections": [
+      {
+        "title": "Role and sources",
+        "body": "B12 supports normal red blood-cell formation, DNA synthesis and nervous-system function. Sources include meat, fish, eggs, dairy and fortified foods. Unfortified plant foods are not reliable sources.",
+        "refs": [
+          "NUTR"
+        ]
+      },
+      {
+        "title": "Adequacy and absorption",
+        "body": "A dietary pattern, gastrointestinal condition or medication can affect intake or absorption. Correcting a deficiency and adding extra B12 to an adequate diet are different clinical questions. No claim of enhanced child cognition follows from the nutrient's biological role.",
+        "refs": [
+          "NUTR"
+        ]
+      },
+      {
+        "title": "Why this is easy to overlook",
+        "body": "Folate and B12 participate in related pathways. High folic acid intake can obscure some hematologic signs of B12 deficiency without treating neurological injury. Individual evaluation matters; don't replace one nutrient with another.",
+        "refs": [
+          "NUTR"
+        ]
+      }
+    ],
+    "related": [
+      [
+        "mother/nutrition/folic-acid",
+        "Folic acid"
+      ],
+      [
+        "mother/nutrition/food",
+        "Food and prenatal nutrition"
+      ]
+    ]
+  },
+  "mother/nutrition/magnesium": {
+    "title": "Magnesium: muscle, nerve and metabolic function",
+    "art": "mineral",
+    "window": "Throughout pregnancy; supplemental and food intake differ",
+    "summary": "Magnesium is needed for normal physiology, but routine extra supplements for every symptom are not established.",
+    "question": "What is the evidence for the particular reason I am considering magnesium?",
+    "sections": [
+      {
+        "title": "Food sources and physiological roles",
+        "body": "Nuts, seeds, beans, whole grains and leafy vegetables contribute magnesium. It participates in enzyme activity and normal nerve and muscle function.",
+        "refs": [
+          "NUTR"
+        ]
+      },
+      {
+        "title": "Do not confuse formulations and indications",
+        "body": "Oral supplements studied for symptoms are not equivalent to intravenous magnesium sulfate used under clinical supervision for specific obstetric indications. Evidence of a biological role or a medical indication does not establish a routine oral prevention strategy.",
+        "refs": [
+          "NUTR"
+        ]
+      },
+      {
+        "title": "Safety",
+        "body": "Supplemental magnesium can cause gastrointestinal effects; kidney function and medicines can change safety. The US upper limit for magnesium applies to supplemental or medicinal magnesium, not magnesium naturally present in foods.",
+        "refs": [
+          "NUTR"
+        ]
+      }
+    ],
+    "related": [
+      [
+        "mother/nutrition/bone-minerals",
+        "Mineral overview"
+      ],
+      [
+        "mother/nutrition/supplements",
+        "Product labels"
+      ]
+    ]
+  },
+  "mother/nutrition/zinc": {
+    "title": "Zinc: growth, cells and immune function",
+    "art": "mineral",
+    "window": "Throughout pregnancy; intake depends on diet",
+    "summary": "Zinc supports growth, but more zinc is not automatically better.",
+    "question": "Are there dietary or absorption concerns that make my zinc intake worth reviewing?",
+    "sections": [
+      {
+        "title": "Foods and function",
+        "body": "Meat, seafood, dairy, beans, nuts and seeds can supply zinc. Absorption varies with dietary composition. Zinc participates in many enzymes, protein synthesis and normal immune function.",
+        "refs": [
+          "NUTR"
+        ]
+      },
+      {
+        "title": "Interpreting supplementation evidence",
+        "body": "A trial of additional zinc addresses a different question from meeting dietary requirements. Outcomes such as birth weight or preterm birth require their own evidence; physiological importance is not proof of improved outcomes in well-nourished populations.",
+        "refs": [
+          "NUTR"
+        ]
+      },
+      {
+        "title": "Excess and combined products",
+        "body": "Excess zinc can impair copper status. Consider the combined amounts in prenatal vitamins, individual supplements and other products; no additional zinc protocol is established here.",
+        "refs": [
+          "NUTR"
+        ]
+      }
+    ],
+    "related": [
+      [
+        "mother/nutrition/food",
+        "Food and nutrition"
+      ],
+      [
+        "mother/nutrition/supplements",
+        "Prenatal label accuracy"
+      ]
+    ]
+  },
+  "mother/nutrition/vitamin-a": {
+    "title": "Vitamin A: essential nutrient, important safety limits",
+    "art": "eye",
+    "window": "Throughout pregnancy; preformed vitamin A differs from carotenoids",
+    "summary": "Vitamin A is essential, but excessive preformed vitamin A can harm development.",
+    "question": "Does my prenatal or another product contain preformed vitamin A, and how does that affect total intake?",
+    "sections": [
+      {
+        "title": "Two nutritional forms",
+        "body": "Preformed vitamin A occurs in animal-derived foods and some supplements; carotenoids in colorful produce can be converted into vitamin A. Vitamin A participates in vision, differentiation and development.",
+        "refs": [
+          "NUTR"
+        ]
+      },
+      {
+        "title": "Why the form matters",
+        "body": "Excess preformed vitamin A during pregnancy can cause birth defects. The same upper-limit interpretation does not apply to food-derived beta-carotene. Review overlapping products and concentrated sources rather than assuming all forms have identical risk.",
+        "refs": [
+          "NUTR"
+        ]
+      },
+      {
+        "title": "Medication safety is distinct",
+        "body": "Retinoid medicines are a separate exposure question. A nutritional discussion cannot establish medication safety; review specific products with the prescribing clinician.",
+        "refs": [
+          "NUTR"
+        ]
+      }
+    ],
+    "related": [
+      [
+        "mother/skin/acne-pigmentation/acne-and-ingredient-safety",
+        "Skin-care ingredient safety"
+      ],
+      [
+        "mother/nutrition/supplements",
+        "Prenatal product labels"
+      ]
+    ]
+  },
+  "mother/nutrition/folate-forms": {
+    "title": "Folic acid, methylfolate and MTHFR claims",
+    "art": "cells",
+    "window": "Before conception and early pregnancy; established prevention",
+    "summary": "Common MTHFR variants do not establish a need to avoid folic acid.",
+    "question": "How should I interpret folate forms on my prenatal label and any individual risk factors?",
+    "sections": [
+      {
+        "title": "An important evidence distinction",
+        "body": "Folate is a family of compounds. Folic acid has direct preventive evidence for neural tube defects, including randomized research and systematic review evidence. CDC says common MTHFR variants do not prevent the body from processing folic acid.",
+        "refs": [
+          "FOLREV",
+          "MTHFR"
+        ]
+      },
+      {
+        "title": "Marketing versus clinical outcomes",
+        "body": "Differences in biochemical markers or methylation pathways are not proof that a marketed alternative prevents more neural tube defects. A claim of superiority requires direct clinical outcome evidence.",
+        "refs": [
+          "MTHFR",
+          "FOLREV"
+        ]
+      },
+      {
+        "title": "Check the actual label",
+        "body": "Food folate, dietary folate equivalents and the actual amount of folic acid are not identical label units. Clinical risk factors can change preventive advice. This reading does not give a personal regimen.",
+        "refs": [
+          "NUTR",
+          "MTHFR"
+        ]
+      }
+    ],
+    "related": [
+      [
+        "mother/nutrition/folic-acid",
+        "Folic acid prevention"
+      ],
+      [
+        "mother/nutrition/vitamin-b12",
+        "Vitamin B12"
+      ],
+      [
+        "mother/nutrition/supplements",
+        "Prenatal supplement quality"
+      ]
+    ]
+  },
+  "mother/nutrition/iron": {
+    "title": "Iron: preventing and treating deficiency are different questions",
+    "art": "blood",
+    "window": "Throughout pregnancy; screening and individual iron status matter",
+    "summary": "Iron supports oxygen transport; the right approach depends on intake, blood tests and clinical circumstances.",
+    "question": "Should my iron intake or blood results be reviewed before considering an additional product?",
+    "sections": [
+      {
+        "title": "Food and absorption",
+        "body": "Meat and other animal foods contain heme iron; beans and fortified grains provide nonheme iron. Absorption varies. Iron is needed to make hemoglobin, but fatigue alone cannot diagnose deficiency.",
+        "refs": [
+          "NUTR"
+        ]
+      },
+      {
+        "title": "What prevention research shows",
+        "body": "A Cochrane review of daily oral supplementation examines maternal anemia and related pregnancy outcomes. Evidence for anemia prevention is distinct from claims of improved child development, and routine prevention trials should not be treated as treatment protocols for established deficiency.",
+        "refs": [
+          "IRON"
+        ]
+      },
+      {
+        "title": "Limitations and practical considerations",
+        "body": "The review's trial funding and sponsor roles remain incompletely extracted in the archive. Iron can cause gastrointestinal effects; tolerability, laboratory assessment and clinical indications matter. Do not stack prenatal and separate iron products without checking total intake and advice.",
+        "refs": [
+          "IRON",
+          "NUTR"
+        ]
+      }
+    ],
+    "related": [
+      [
+        "mother/nutrition/minerals",
+        "Existing iron and mineral evidence"
+      ],
+      [
+        "baby/growth/blood",
+        "Fetal blood formation"
+      ]
+    ]
+  },
+  "mother/nutrition/calcium": {
+    "title": "Calcium: bones and the preeclampsia research debate",
+    "art": "bone",
+    "window": "Throughout pregnancy; baseline dietary intake affects interpretation",
+    "summary": "Calcium is needed for skeletal health. Whether added calcium prevents pregnancy complications is a separate and evolving evidence question.",
+    "question": "Is my calcium intake adequate, and which clinical guidance applies to my situation?",
+    "sections": [
+      {
+        "title": "Adequacy",
+        "body": "Dairy, fortified alternatives and other calcium-containing foods contribute to intake. Calcium participates in skeletal mineralization and muscle function.",
+        "refs": [
+          "NUTR"
+        ]
+      },
+      {
+        "title": "Why reviews can disagree",
+        "body": "The existing evidence archive includes the Cochrane calcium review and a later commentary about trial trustworthiness. Different inclusion decisions, baseline intake and study quality can change the pooled interpretation. An older summary is not a substitute for the current review.",
+        "refs": [
+          "CALC",
+          "CALCC"
+        ]
+      },
+      {
+        "title": "Funding and uncertainty",
+        "body": "The registry records WHO part-funding of the review and authors' prior-review involvement in the commentary. Those relationships are context, not proof of bias. Do not turn a disputed prevention result into an individual high-dose protocol.",
+        "refs": [
+          "CALC",
+          "CALCC"
+        ]
+      }
+    ],
+    "related": [
+      [
+        "mother/nutrition/bone-minerals",
+        "Calcium, iron and vitamin D"
+      ],
+      [
+        "mother/checkups/aspirin-prevention",
+        "Separate evidence: aspirin for eligible risk groups"
+      ]
+    ]
+  },
+  "mother/nutrition/vitamin-d": {
+    "title": "Vitamin D: adequacy, deficiency and outcome claims",
+    "art": "bone",
+    "window": "Throughout pregnancy; clinical status and intake matter",
+    "summary": "Vitamin D supports calcium regulation, but universal extra doses for broad pregnancy outcomes are not established.",
+    "question": "Do my diet, clinical circumstances or existing prenatal product warrant a discussion of vitamin D status?",
+    "sections": [
+      {
+        "title": "Role and sources",
+        "body": "Vitamin D supports calcium absorption and normal bone mineralization. Fatty fish and fortified foods can contribute, and skin can synthesize vitamin D in response to sunlight. Avoid equating intentional excess sun exposure with a treatment plan.",
+        "refs": [
+          "NUTR"
+        ]
+      },
+      {
+        "title": "Different evidence questions",
+        "body": "Trials investigate specific outcomes including hypertensive disorders, gestational diabetes and birth outcomes. Review conclusions depend on eligible studies, certainty and baseline vitamin D status. Treating deficiency is distinct from routine high-dose supplementation.",
+        "refs": [
+          "VD"
+        ]
+      },
+      {
+        "title": "Safety and funding",
+        "body": "The registry has not verified review-level funding and author ties. Unknown funding does not establish independence. Excess vitamin D can be harmful; do not extrapolate a study regimen to an individual.",
+        "refs": [
+          "VD",
+          "NUTR"
+        ]
+      }
+    ],
+    "related": [
+      [
+        "mother/nutrition/calcium",
+        "Calcium"
+      ],
+      [
+        "mother/nutrition/bone-minerals",
+        "Mineral overview"
+      ]
+    ]
+  },
+  "mother/checkups/aspirin-prevention": {
+    "title": "Low-dose aspirin: a risk-based preventive medication",
+    "art": "heart",
+    "window": "US guidance: start 12–28 weeks when indicated, preferably before 16 weeks",
+    "summary": "This is a preventive medication for eligible risk groups, not a universal prenatal supplement.",
+    "question": "Should my clinician assess whether I meet criteria for preventive aspirin?",
+    "sections": [
+      {
+        "title": "What condition is being addressed?",
+        "body": "Preeclampsia is a pregnancy-related hypertensive disorder that can affect multiple organs. ACOG and SMFM describe preventive aspirin for selected higher-risk patients; the decision depends on risk factors and contraindications.",
+        "refs": [
+          "ASP"
+        ]
+      },
+      {
+        "title": "The evidence",
+        "body": "The USPSTF evidence review includes randomized comparisons in populations with different baseline risks. The review supports reduced preeclampsia-related outcomes in eligible populations; uncommon harms are harder to estimate precisely. Do not infer a universal benefit or dose from this finding.",
+        "refs": [
+          "ASPREV"
+        ]
+      },
+      {
+        "title": "Timing and exceptions",
+        "body": "The guideline's initiation window is a reason to discuss eligibility early, not a reminder to start aspirin yourself. The FDA NSAID warning distinguishes clinician-directed low-dose aspirin for obstetric indications from other NSAID use. Do not stop a prescribed regimen without advice.",
+        "refs": [
+          "ASP",
+          "NSAID"
+        ]
+      }
+    ],
+    "related": [
+      [
+        "mother/checkups/prenatal",
+        "Prenatal care"
+      ],
+      [
+        "mother/checkups/pain-medicines",
+        "Pain medicines and NSAID safety"
+      ]
+    ]
+  },
+  "mother/checkups/pain-medicines": {
+    "title": "Pain and fever medicines: why the active ingredient matters",
+    "art": "checkups",
+    "window": "Throughout pregnancy; FDA NSAID warning from around week 20",
+    "summary": "Ibuprofen and other NSAIDs have gestational-age-specific risks. Do not assume an ordinary over-the-counter medicine is suitable.",
+    "question": "Which ingredient is appropriate for the symptom, at my stage, considering my other medicines?",
+    "sections": [
+      {
+        "title": "NSAIDs and gestational timing",
+        "body": "FDA warns about fetal kidney problems and reduced amniotic fluid with NSAID use around 20 weeks or later; after around 30 weeks there is an additional fetal ductus arteriosus concern. Avoid self-directed use from 20 weeks. Clinician-directed low-dose aspirin for an obstetric indication is a distinct exception.",
+        "refs": [
+          "NSAID",
+          "IBU"
+        ]
+      },
+      {
+        "title": "Acetaminophen and observational evidence",
+        "body": "Acetaminophen is a different medicine. A large Swedish observational study reported that associations with autism, ADHD and intellectual disability were not present in its sibling-control analysis. This design addresses some shared familial confounding, not all sources of uncertainty. Fever, pain and the underlying reason for medicine use can themselves be relevant.",
+        "refs": [
+          "ACET",
+          "ACETSIB"
+        ]
+      },
+      {
+        "title": "Practical safety",
+        "body": "Check active ingredients in combination cold and pain products to avoid unintended duplication. Discuss persistent symptoms or medication choices with a pharmacist or clinician; seek prompt assessment for concerning fever, severe pain or urgent symptoms. No personal dosing instructions are provided.",
+        "refs": [
+          "ACET",
+          "NSAID",
+          "URG"
+        ]
+      }
+    ],
+    "related": [
+      [
+        "mother/checkups/medicines",
+        "Medication review"
+      ],
+      [
+        "mother/checkups/aspirin-prevention",
+        "Risk-based aspirin prevention"
+      ]
+    ]
+  },
+  "mother/digestion/b6-doxylamine": {
+    "title": "Vitamin B6 and doxylamine for nausea",
+    "art": "digestion",
+    "window": "When nausea occurs; clinical severity and individual safety matter",
+    "summary": "Vitamin B6 as a nutrient and B6 used for nausea are different questions. Doxylamine is a medicine.",
+    "question": "Which nausea treatments are appropriate given my symptoms and other products?",
+    "sections": [
+      {
+        "title": "The guidance",
+        "body": "ACOG describes pyridoxine (vitamin B6), with or without doxylamine, as a first-line pharmacologic option for nausea and vomiting of pregnancy. The treatment decision depends on symptoms and circumstances.",
+        "refs": [
+          "NAUSEA",
+          "DOX"
+        ]
+      },
+      {
+        "title": "Do not confuse products",
+        "body": "Some sleep products contain doxylamine and others have different ingredients. Doxylamine can cause drowsiness; other sedating products can add to this. Excess supplemental B6 can damage nerves. A prenatal vitamin is not a self-directed nausea regimen.",
+        "refs": [
+          "DOX",
+          "NUTR"
+        ]
+      },
+      {
+        "title": "When care is needed",
+        "body": "Persistent vomiting, inability to keep liquids down or signs of dehydration need prompt clinical assessment. Traditional remedies and prescription options have distinct evidence and safety considerations.",
+        "refs": [
+          "NAUSEA",
+          "URG"
+        ]
+      }
+    ],
+    "related": [
+      [
+        "mother/digestion/nausea",
+        "Ginger and nausea research"
+      ],
+      [
+        "mother/nutrition/supplements",
+        "Check combined products"
+      ]
+    ]
+  },
+  "mother/nutrition/emerging-supplements": {
+    "title": "Emerging supplements: creatine, herbs and concentrated products",
+    "art": "nutrition",
+    "window": "Research only; not a pregnancy supplementation schedule",
+    "summary": "Promising mechanisms and early safety studies do not establish routine pregnancy use.",
+    "question": "Is this product supported by human pregnancy outcome evidence, and what is known about its safety?",
+    "sections": [
+      {
+        "title": "Creatine as an example",
+        "body": "A recent open-label dose-escalation study investigated creatine during pregnancy. This design is not a definitive randomized efficacy trial and does not establish prevention of neurological injury or improved birth outcomes. The archive has not verified its funding or full conflicts.",
+        "refs": [
+          "CREAT"
+        ]
+      },
+      {
+        "title": "Herbal and concentrated products",
+        "body": "Food use, medicinal extracts and multi-ingredient supplements are different exposures. MotherToBaby notes the limited pregnancy data for many herbal products; ingredient variability, contamination and interactions matter.",
+        "refs": [
+          "HERBAL"
+        ]
+      },
+      {
+        "title": "Quality and research",
+        "body": "The US GAO found label discrepancies in tested prenatal products. Product testing is not evidence of clinical efficacy; independently verified content, trial population, outcome and safety are separate questions. Do not self-start an experimental regimen.",
+        "refs": [
+          "GAO",
+          "HERBAL"
+        ]
+      }
+    ],
+    "related": [
+      [
+        "mother/nutrition/supplements",
+        "Prenatal quality evidence"
+      ],
+      [
+        "/research/EV-ART-022",
+        "Traditional and emerging birth research"
+      ]
+    ]
+  },
 "mother/checkups/pregnancy-dating": {
     "title": "Why pregnancy dating begins before conception",
     "art": "calendar",

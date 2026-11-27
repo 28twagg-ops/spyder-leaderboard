@@ -13,7 +13,7 @@ export function WeekDisclosure({id,title,children}:{id:string;title:string;child
  return <details className="panel disclosure compact-reader-section" open={open} onToggle={e=>{if(e.currentTarget.open!==open)setOpen(e.currentTarget.open)}}><summary onClick={e=>{e.preventDefault();setOpen(v=>!v)}}>{title}</summary>{children}</details>
 }
 type Connection={title:string;context:string;to:string}
-const connections:Record<string,Connection[]> = {
+export const weekConnections:Record<string,Connection[]> = {
  'mother/movement/activity':[{title:'How maternal activity relates to baby outcomes',context:'Baby · Movement',to:'baby/movement/maternal-activity'}],
  'mother/movement/baby-movement':[{title:'How movement patterns develop',context:'Baby · Movement',to:'baby/movement/patterns'}],
  'baby/movement/patterns':[{title:'Feeling your baby move',context:'Mother · Movement',to:'mother/movement/baby-movement'}],
@@ -41,7 +41,7 @@ const connections:Record<string,Connection[]> = {
 }
 export function WeekConnections({id}:{id:string}){
  const week22Base='/timeline/week/'+usePilotWeek()
- const items=connections[id]??[]
+ const items=weekConnections[id]??[]
  if(!items.length)return null
  return <section className="week-connections" aria-label="Connected topics"><h2 className="section-title">Connected topics</h2>{items.map(item=><Link key={item.to} to={week22Base+'/'+item.to}><span><small>{item.context}</small><strong>{item.title}</strong></span><span aria-hidden="true">›</span></Link>)}</section>
 }
