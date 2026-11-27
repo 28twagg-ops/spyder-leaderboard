@@ -1,4 +1,5 @@
 import { Glyph } from '../components/Glyph'
+import { readingOverview } from '../data/readingOverviews'
 import { TopicOverview } from '../components/TopicOverview'
 import { useAppBack } from '../hooks/navigationContext'
 import { safeVisualUrl } from '../data/visualCatalog'
@@ -33,6 +34,9 @@ export function ResearchPage() {
   const { article, relatedActions, relatedFaqs, sources, heldSources, safety } = bundle
   const guidanceBlocked = !maySurfaceAsGuidance(safety)
   const visuals = articleVisuals(article.id, article.visual_ids ?? [])
+  const purpose=readingOverview(article.id)
+  const urgent=article.priority==='urgent'||article.high_risk===true
+  const why=purpose&&<section className="reader-purpose-block"><h2 className="section-title">Why it matters</h2><p className="reader-purpose">{purpose.why}</p></section>
 
   return (
     <div className="stack-lg reader-page">
@@ -48,11 +52,13 @@ export function ResearchPage() {
       </header>
 
       <DraftBanner status="research_only" />
+      {!urgent&&why}
       <section className="panel stack safety-panel">
         <div className="section-label danger">Visible safety</div>
         <p style={{ margin: 0 }}>{article.visible_safety}</p>
       </section>
 
+      {urgent&&why}
       <TopicOverview key={article.id} id={article.id} visuals={visuals}/>
       <h2 className="section-title">Research in detail</h2>
       <div className="surface-list reader-sections">

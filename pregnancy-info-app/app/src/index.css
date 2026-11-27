@@ -820,3 +820,9 @@ button.reader-back:focus-visible{outline-offset:3px}
 .reader-visual-entry .btn{justify-self:start}
 .reader-visual-entry p{margin:0}
 @media(max-width:360px){.topic-map-node strong{font-size:.72rem}.topic-map-node{padding:.4rem .2rem}.reader-purpose{font-size:.91rem}}
+
+.reader-purpose-block{display:grid;gap:.3rem}.reader-purpose-block h2,.reader-purpose-block p{margin:0}
+.topic-map-node .concept-art{width:38px;height:38px;color:var(--accent-text);margin-bottom:.25rem}
+.topic-map-node{background:transparent;border:1px solid var(--line);padding:.55rem .3rem}
+.topic-map{background:var(--bg-elevated)}
+@media(max-width:360px){.topic-map-node .concept-art{width:30px;height:30px}}
