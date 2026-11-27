@@ -13,3 +13,7 @@ See [INTERNATIONAL_SOURCE_LEADS.json](INTERNATIONAL_SOURCE_LEADS.json) for machi
 
 ## Coverage gaps to prioritize
 Latin America outside Brazil/Guatemala/Chile; Philippines, Vietnam and Thailand primary trials; Pakistan independent of Women First; Middle East beyond Iran/Türkiye/Saudi Arabia; African clinical trials outside nutrition and community support; East Europe, Central Asia, Pacific islands, Caribbean, Canada and New Zealand primary studies; paternal fertility, environmental exposures, dermatology, fetal development, nutrition, postpartum and child health. Build per-topic geographic count matrix from full canonical registry and new records after DOI/PMID and parent trial dedup. This pass is a broad discovery checkpoint, not a systematic review or final coverage audit.
+
+## Stage 1 international academic expansion — 2026-11-27
+
+[Stage 1 research checkpoint and five batches](stage-01/README.md): 259 candidate publications screened, 201 distinct PMID nonmatches against checked archive files, 15 existing matches and 43 pending location or identity checks. Discovery target reached; full-text eligibility, cross-identifier/cohort deduplication, geographic parity, funding and bias appraisal remain pending. Clinical publication and automation remain disabled.
