@@ -3,7 +3,7 @@
   "date": "2026-11-27",
   "target": 75,
   "candidates": 116,
-  "retained": 112,
+  "retained": 111,
   "duplicates": 0,
   "pending": 4,
   "baseline_files": [
@@ -619,22 +619,26 @@
     {
       "url": "https://pubmed.ncbi.nlm.nih.gov/37903136/",
       "pmid": "37903136",
-      "known_aliases": [],
+      "known_aliases": [
+        "10.1371/journal.pone.0293667",
+        "PMC10615300"
+      ],
       "study_setting": "Chinese populations",
       "topic": "confinement",
       "design": "systematic review",
       "title_short": "Confinement and postpartum depression updated review",
       "evidence_lane": "cultural or observational context",
       "study_family": null,
-      "screening_note": "16 quantitative studies, 15 cross-sectional and one RCT; no clear protective effect.",
-      "funding_disclosure": "Unknown/unverified; historical texts not contemporary funding studies",
+      "screening_note": "16 studies: 15 cross-sectional, one randomized education intervention. Four reported protective associations, two opposite, ten no significant association; not independent votes or pooled proof. Exposure heterogeneity and confounding prevent general depression prevention claim.",
+      "funding_disclosure": "Original PLOS article reports no specific funding and no competing interests. Underlying studies' funding not verified.",
       "funding_independence": "not determined",
-      "verification_scope": "web-indexed source/abstract or library catalogue; selected original disclosures; no full study appraisal",
+      "verification_scope": "Original journal abstract, study design and funding/COI statements checked; formal AMSTAR2 and primary study overlap review pending.",
       "bias_status": "preliminary limitations; formal assessment pending",
       "clinical_review": false,
       "publish": false,
       "automation_allowed": false,
-      "id": "TH2-028"
+      "id": "TH2-028",
+      "source_locator": "https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0293667"
     },
     {
       "url": "https://pubmed.ncbi.nlm.nih.gov/38379023/",
@@ -1539,27 +1543,34 @@
     {
       "url": "https://pubmed.ncbi.nlm.nih.gov/38423547/",
       "pmid": "38423547",
-      "known_aliases": [],
+      "known_aliases": [
+        "10.1136/bmjgh-2023-013691",
+        "PMC10910473",
+        "NCT01177111"
+      ],
       "study_setting": "Nepal",
       "topic": "newborn skin",
       "design": "cluster RCT",
       "title_short": "Sarlahi neonatal oil mortality and morbidity",
       "evidence_lane": "clinical trial evidence (preliminary)",
       "study_family": "Sarlahi oil trial (provisional)",
-      "screening_note": "340 communities; mortality and morbidity outcomes distinct from skin barrier substudy; confirm parent trial NCT01177111.",
-      "funding_disclosure": "Unknown/unverified; historical texts not contemporary funding studies",
+      "screening_note": "340 communities, 16,327 mustard-oil and 15,676 sunflower-oil births. Neonatal mortality 31.8 vs 30.5 per 1000 (RR 0.95, 95% CI 0.84–1.08); preterm RR 0.88 (0.74–1.05). No clear overall mortality advantage; subgroup underpowered. No general home infant oil recommendation.",
+      "funding_disclosure": "Indexed original funding section: Bill & Melinda Gates Foundation OPP1084399; NICHD R01HD060712 and R01HD092411. Sponsor role and COI not fully checked.",
       "funding_independence": "not determined",
-      "verification_scope": "web-indexed source/abstract or library catalogue; selected original disclosures; no full study appraisal",
+      "verification_scope": "Original indexed abstract and funding excerpt plus trial registry checked; full PMC page access blocked.",
       "bias_status": "preliminary limitations; formal assessment pending",
       "clinical_review": false,
       "publish": false,
       "automation_allowed": false,
-      "id": "TH2-074"
+      "id": "TH2-074",
+      "source_locator": "https://clinicaltrials.gov/study/NCT01177111"
     },
     {
       "url": "https://pubmed.ncbi.nlm.nih.gov/33791313/",
       "pmid": "33791313",
-      "known_aliases": [],
+      "known_aliases": [
+        "NCT01177111 (study family only)"
+      ],
       "study_setting": "Nepal",
       "topic": "newborn skin",
       "design": "secondary trial analysis",
@@ -1661,7 +1672,8 @@
       "pmid": "35038990",
       "known_aliases": [
         "10.1186/s12884-021-04344-w",
-        "PMC8762841"
+        "PMC8762841",
+        "ISRCTN12397283"
       ],
       "study_setting": "Mexico",
       "topic": "midwifery",
@@ -1669,15 +1681,16 @@
       "title_short": "Guerrero cultural safety trial",
       "evidence_lane": "clinical trial evidence (preliminary)",
       "study_family": "Guerrero cultural safety (provisional)",
-      "screening_note": "Program supporting traditional midwives; measured outcomes not worse per authors; check margin and precision, no general home-birth equivalence.",
-      "funding_disclosure": "Unknown/unverified; historical texts not contemporary funding studies",
+      "screening_note": "80 communities in four municipalities; 872 completed pregnancies. Intervention package (stipends, apprentices, intercultural brokers and provider workshop) vs usual services: composite perinatal death/childbirth/neonatal complications RD −0.06 (95% CI −0.09 to −0.02); traditional childbirth RD +0.10 (0.02 to 0.18). Retrospective registration, four municipalities and limited mortality power; not equivalence of planned home and hospital birth or proof of individual techniques.",
+      "funding_disclosure": "Original funding section: UBS Optimus Foundation (pilot); Mexican National Council of Science and Technology PDCPN-2013-214858 (trial); Quebec Population Health Research Network and McGill Faculty of Medicine (fieldwork); CeiBA Foundation, Center of Intercultural Medical Studies, and Fonds de Recherche du Québec Santé 255253 (analysis). Authors report funder-independent design/management/analysis/reporting and no competing interests.",
       "funding_independence": "not determined",
-      "verification_scope": "web-indexed source/abstract or library catalogue; selected original disclosures; no full study appraisal",
+      "verification_scope": "Original journal abstract, funding and competing interests sections checked; no complete RoB2 appraisal.",
       "bias_status": "preliminary limitations; formal assessment pending",
       "clinical_review": false,
       "publish": false,
       "automation_allowed": false,
-      "id": "TH2-080"
+      "id": "TH2-080",
+      "source_locator": "https://link.springer.com/article/10.1186/s12884-021-04344-w"
     },
     {
       "url": "https://pubmed.ncbi.nlm.nih.gov/34949629/",
@@ -1958,26 +1971,6 @@
       "publish": false,
       "automation_allowed": false,
       "id": "TH2-094"
-    },
-    {
-      "url": "https://pubmed.ncbi.nlm.nih.gov/37073619/",
-      "pmid": "37073619",
-      "known_aliases": [],
-      "study_setting": "China",
-      "topic": "safety",
-      "design": "prospective cohort",
-      "title_short": "TCM exposure and congenital malformations",
-      "evidence_lane": "safety assessment",
-      "study_family": null,
-      "screening_note": "Reported congenital heart defect association in preconception exposure subgroup with wide CI; compare larger registry study; confounding and multiple comparisons.",
-      "funding_disclosure": "Unknown/unverified; historical texts not contemporary funding studies",
-      "funding_independence": "not determined",
-      "verification_scope": "web-indexed source/abstract or library catalogue; selected original disclosures; no full study appraisal",
-      "bias_status": "preliminary limitations; formal assessment pending",
-      "clinical_review": false,
-      "publish": false,
-      "automation_allowed": false,
-      "id": "TH2-095"
     },
     {
       "url": "https://pubmed.ncbi.nlm.nih.gov/36813231/",
@@ -2402,5 +2395,34 @@
       "automation_allowed": false,
       "reason": "Setting not verified; retained separately"
     }
-  ]
+  ],
+  "quarantined_records": [
+    {
+      "url": "https://pubmed.ncbi.nlm.nih.gov/37073619/",
+      "pmid": "37073619",
+      "known_aliases": [
+        "10.1111/aogs.14553",
+        "PMC10201976"
+      ],
+      "study_setting": "China",
+      "topic": "safety",
+      "design": "prospective cohort",
+      "title_short": "TCM exposure and congenital malformations",
+      "evidence_lane": "safety assessment",
+      "study_family": null,
+      "screening_note": "RETRACTED; do not use findings or effect estimates as evidence. Retraction notice cites flaws in collection of exposure data undermining conclusions.",
+      "funding_disclosure": "Unknown/unverified; historical texts not contemporary funding studies",
+      "funding_independence": "not determined",
+      "verification_scope": "web-indexed source/abstract or library catalogue; selected original disclosures; no full study appraisal",
+      "bias_status": "preliminary limitations; formal assessment pending",
+      "clinical_review": false,
+      "publish": false,
+      "automation_allowed": false,
+      "id": "TH2-095",
+      "correction_retraction_status": "retracted",
+      "retraction_notice": "https://pubmed.ncbi.nlm.nih.gov/37553823/",
+      "use": "historical integrity audit only; exclude from synthesis and recommendations"
+    }
+  ],
+  "quarantined": 1
 }
