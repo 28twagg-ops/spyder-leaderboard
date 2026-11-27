@@ -4,26 +4,28 @@
 
 Calm, inviting, premium family-health product — not neon tech, not pink pregnancy cliché, not a spreadsheet.
 
+**Owner-selected brand direction (2026-11-27): Morning Stone is the official default for new users and the visual identity for Everwell.** Use muted sage, warm stone, restrained botanical accents, elegant Fraunces headings and clear Manrope body text. Keep Soft Fog as a selectable alternate and use its muted blue-slate palette as inspiration for scientific diagrams, evidence tables and future reviewed charts, while keeping the chosen app theme consistent. Do not automatically switch users' themes or enable blocked charts. Preserve existing explicit local preferences; scientific accuracy, licensing, accessibility and publication gates remain controlling.
+
 ## Selectable themes
 
 Pick in-app on **Today** (saved locally):
 
 | Theme | Feel | Notes |
 |---|---|---|
-| **Soft Fog** (default) | Cool mist, muted blue-slate | Airy and quiet; least “neon” |
-| **Morning Stone** | Soft botanical neutrals | Warm without cream/terracotta stereotypes |
+| **Morning Stone** (default) | Soft botanical neutrals | Official brand; warm, grounded everyday experience |
+| **Soft Fog** | Cool mist, muted blue-slate | Selectable alternative; inspiration for research visuals |
 | **Quiet Rose** | Dusty rose-taupe | Softer / more intimate |
 | **Deep Calm** | Desaturated dark slate | Evening mode; neon removed |
 
 ## Shared tokens
 
-| Role | Soft Fog example |
+| Role | Morning Stone default |
 |---|---|
-| Background | `#eef2f4` |
-| Elevated surface | `#f8fafb` |
-| Ink | `#2a3439` |
-| Muted text | `#5f6d75` |
-| Accent | `#5a7d86` |
+| Background | `#f1efe9` |
+| Elevated surface | `#faf8f4` |
+| Ink | `#2f312c` |
+| Muted text | `#6a6d64` |
+| Accent | `#6d7a5f` |
 | Display font | Fraunces |
 | Body font | Manrope |
 
