@@ -55,8 +55,14 @@ export function TimelinePage() {
             {timeline.filter((p) => p.track === track).map((phase) => {
               const featured = featuredForPhase(phase)
               const featuredIds = new Set(featured.map((article) => article.id))
-              const remaining = [...new Set(phase.article_ids)].map(getArticle).filter((article) => article !== undefined && !featuredIds.has(article.id))
-              const safety = [...new Set(phase.persistent_safety_article_ids ?? [])].map(getArticle).filter((article) => article !== undefined)
+              const remaining = [...new Set(phase.article_ids)].flatMap((id) => {
+                const article = getArticle(id)
+                return article && !featuredIds.has(article.id) ? [article] : []
+              })
+              const safety = [...new Set(phase.persistent_safety_article_ids ?? [])].flatMap((id) => {
+                const article = getArticle(id)
+                return article ? [article] : []
+              })
               return (
                 <article key={phase.id} className="phase-item" id={phase.id}>
                   <div className="badge">{phase.label}</div>
