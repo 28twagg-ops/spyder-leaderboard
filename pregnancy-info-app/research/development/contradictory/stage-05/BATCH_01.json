@@ -41,10 +41,38 @@
     {
       "path": "research/development/underpublished/stage-04/BATCH_01.json",
       "sha": "248d0a847b049b6665eb6dc248d44dd5c04d1c28"
+    },
+    {
+      "path": "research/development/international/stage-01/BATCH_01.json",
+      "sha": "0f9dda9a26950a996f2412c2c222ee3ab02fe834"
+    },
+    {
+      "path": "research/development/international/stage-01/BATCH_02.json",
+      "sha": "876c2df0159d50a831aa0a926f71f154a2583a12"
+    },
+    {
+      "path": "research/development/international/stage-01/BATCH_03.json",
+      "sha": "ab80c1e5bf987b18998831fe4fe853b35501f96a"
+    },
+    {
+      "path": "research/development/international/stage-01/BATCH_04.json",
+      "sha": "092292e86974b620c91ac62a1e69123ba05f9561"
+    },
+    {
+      "path": "research/development/international/stage-01/BATCH_05.json",
+      "sha": "5f72d81710034957d52c0da4ed28c7231ccef4d0"
+    },
+    {
+      "path": "research/development/media/stage-03/BATCH_01.json",
+      "sha": "3324872e2f3c770f4574b0c2931f2c281b14fe39"
+    },
+    {
+      "path": "research/development/media/stage-03/BATCH_02_INTERNATIONAL.json",
+      "sha": "e87df2ec9ed4e18327e0aef417fdbfd310f59839"
     }
   ],
   "baseline_failures": [],
-  "methods": "Targeted indexed PubMed searches for negative, harmful, contradictory and favorable comparison findings; no exhaustive systematic search. Exact PMID screening against listed archives, stage 1 and media files pending second pass; complete DOI, PMC, review/primary overlap and trial family checks pending. Record counts are publications, not independent studies. No release.",
+  "methods": "Targeted indexed PubMed searches for negative, harmful, contradictory and favorable comparison findings; no exhaustive systematic search. Exact PMID screening against listed archives, stage 1 and media files pending second pass; complete DOI, PMC, review/primary overlap and trial family checks pending. Record counts are publications, not independent studies. No release. Second pass completed against all five international expansion batches and both media batches. Exact PMID checks include cited comparison links; DOI/PMC/title and underlying trial-family deduplication remain pending.",
   "records": [
     {
       "pmid": "30005170",
