@@ -3,6 +3,74 @@
 export type MidReference={title:string;url:string;sourceId?:string}
 export type MidReading={title:string;art:string;window:string;sections:{title:string;body:string;refs:string[]}[];related:[string,string][]}
 export const midReferences:Record<string,MidReference>={
+"N4": {
+    "title": "NHS: Week 4",
+    "url": "https://www.nhs.uk/best-start-in-life/pregnancy/week-by-week-guide-to-pregnancy/1st-trimester/week-4/"
+  },
+  "N5": {
+    "title": "NHS: Week 5",
+    "url": "https://www.nhs.uk/best-start-in-life/pregnancy/week-by-week-guide-to-pregnancy/1st-trimester/week-5/"
+  },
+  "N6": {
+    "title": "NHS: Week 6",
+    "url": "https://www.nhs.uk/best-start-in-life/pregnancy/week-by-week-guide-to-pregnancy/1st-trimester/week-6/"
+  },
+  "N7": {
+    "title": "NHS: Week 7",
+    "url": "https://www.nhs.uk/best-start-in-life/pregnancy/week-by-week-guide-to-pregnancy/1st-trimester/week-7/"
+  },
+  "N8": {
+    "title": "NHS: Week 8",
+    "url": "https://www.nhs.uk/best-start-in-life/pregnancy/week-by-week-guide-to-pregnancy/1st-trimester/week-8/"
+  },
+  "N9": {
+    "title": "NHS: Week 9",
+    "url": "https://www.nhs.uk/best-start-in-life/pregnancy/week-by-week-guide-to-pregnancy/1st-trimester/week-9/"
+  },
+  "N10": {
+    "title": "NHS: Week 10",
+    "url": "https://www.nhs.uk/best-start-in-life/pregnancy/week-by-week-guide-to-pregnancy/1st-trimester/week-10/"
+  },
+  "N11": {
+    "title": "NHS: Week 11",
+    "url": "https://www.nhs.uk/best-start-in-life/pregnancy/week-by-week-guide-to-pregnancy/1st-trimester/week-11/"
+  },
+  "N12": {
+    "title": "NHS: Week 12",
+    "url": "https://www.nhs.uk/best-start-in-life/pregnancy/week-by-week-guide-to-pregnancy/1st-trimester/week-12/"
+  },
+  "N13": {
+    "title": "NHS: Week 13",
+    "url": "https://www.nhs.uk/best-start-in-life/pregnancy/week-by-week-guide-to-pregnancy/2nd-trimester/week-13/"
+  },
+  "PLAN": {
+    "title": "CDC: Planning for pregnancy",
+    "url": "https://www.cdc.gov/pregnancy/about/index.html"
+  },
+  "FOLATE": {
+    "title": "CDC: About folic acid",
+    "url": "https://www.cdc.gov/folic-acid/about/"
+  },
+  "BLEED": {
+    "title": "ACOG: Bleeding during pregnancy",
+    "url": "https://www.acog.org/womens-health/faqs/bleeding-during-pregnancy"
+  },
+  "ECTOPIC": {
+    "title": "ACOG: Ectopic pregnancy",
+    "url": "https://www.acog.org/womens-health/faqs/ectopic-pregnancy"
+  },
+  "GENETIC": {
+    "title": "ACOG: Prenatal genetic screening tests",
+    "url": "https://www.acog.org/womens-health/faqs/prenatal-genetic-screening-tests"
+  },
+  "GENETIC_CURRENT": {
+    "title": "ACOG: Screening for fetal chromosomal abnormalities (2026)",
+    "url": "https://www.acog.org/clinical/clinical-guidance/practice-advisory/articles/2026/01/screening-for-fetal-chromosomal-abnormalities"
+  },
+  "ROUTINE": {
+    "title": "ACOG: Routine tests during pregnancy",
+    "url": "https://www.acog.org/womens-health/faqs/routine-tests-during-pregnancy"
+  },
 "N14": {
     "title": "NHS: Week 14",
     "url": "https://www.nhs.uk/best-start-in-life/pregnancy/week-by-week-guide-to-pregnancy/2nd-trimester/week-14/"
@@ -204,6 +272,815 @@ export const midReferences:Record<string,MidReference>={
   }
 }
 export const midReadings:Record<string,MidReading>={
+"mother/checkups/pregnancy-dating": {
+    "title": "Why pregnancy dating begins before conception",
+    "art": "calendar",
+    "window": "Gestational weeks 1–2 are a dating convention",
+    "sections": [
+      {
+        "title": "Two ways of describing time",
+        "body": "Gestational age commonly starts from the first day of the last menstrual period, rather than the day of fertilization. This makes weeks 1–2 a preparation and dating period in a typical cycle, not evidence that an embryo already exists.",
+        "refs": [
+          "MED",
+          "FETUS"
+        ]
+      },
+      {
+        "title": "Cycles and dates differ",
+        "body": "Ovulation and conception timing vary. Clinical dating may be updated using relevant information, including ultrasound. A calendar estimate cannot establish whether someone has conceived.",
+        "refs": [
+          "MED",
+          "FETUS"
+        ]
+      }
+    ],
+    "related": [
+      [
+        "baby/growth/conception-timing",
+        "How ovulation and fertilization relate"
+      ],
+      [
+        "/research/EV-ART-001",
+        "Preparing for pregnancy"
+      ],
+      [
+        "mother/nutrition/folic-acid",
+        "Folic acid before conception"
+      ]
+    ]
+  },
+  "baby/growth/conception-timing": {
+    "title": "Ovulation and the possibility of conception",
+    "art": "calendar",
+    "window": "Weeks 1–2 are a dating reference; ovulation varies",
+    "sections": [
+      {
+        "title": "Preparation rather than fetal growth",
+        "body": "Ovulation is release of an egg from an ovary. Pregnancy dating uses a menstrual-cycle reference; no fetus is developing during the typical first two gestational weeks. This page therefore does not show fetal size.",
+        "refs": [
+          "MED"
+        ]
+      },
+      {
+        "title": "Avoid false precision",
+        "body": "The timing of ovulation and fertilization is not identical in every cycle. This overview is not a fertility prediction, ovulation test or guarantee of conception.",
+        "refs": [
+          "MED",
+          "FETUS"
+        ]
+      }
+    ],
+    "related": [
+      [
+        "mother/checkups/pregnancy-dating",
+        "Pregnancy dating"
+      ],
+      [
+        "baby/growth/fertilization",
+        "What fertilization means"
+      ],
+      [
+        "/research/EV-ART-003",
+        "Fathers' health and work exposures"
+      ]
+    ]
+  },
+  "mother/nutrition/folic-acid": {
+    "title": "Why folic acid matters before and early in pregnancy",
+    "art": "nutrition",
+    "window": "Preconception and early pregnancy",
+    "sections": [
+      {
+        "title": "An established preventive role",
+        "body": "CDC describes folic acid as important before and during early pregnancy because neural tube development occurs early, often before a pregnancy is recognized. Folic acid reduces the risk of certain neural tube defects; it does not eliminate all risk.",
+        "refs": [
+          "FOLATE",
+          "PLAN"
+        ]
+      },
+      {
+        "title": "Different questions need different evidence",
+        "body": "Food folate, fortified foods and folic acid supplements contribute to nutrition in different ways. Individual risk factors and medicines can change clinical advice. This research-only draft does not prescribe a personal amount or replace the existing reviewed intake record.",
+        "refs": [
+          "NUTR",
+          "FOLATE"
+        ]
+      }
+    ],
+    "related": [
+      [
+        "/research/EV-ART-002",
+        "Full folic acid evidence"
+      ],
+      [
+        "baby/growth/neural-tube",
+        "Early nervous-system development"
+      ],
+      [
+        "mother/nutrition/supplements",
+        "Prenatal product quality"
+      ]
+    ]
+  },
+  "mother/checkups/medicines": {
+    "title": "Reviewing medicines and exposures",
+    "art": "checkups",
+    "window": "Before conception and throughout pregnancy",
+    "sections": [
+      {
+        "title": "A useful discussion before pregnancy",
+        "body": "CDC planning guidance highlights health conditions, medicines and exposures. Bring prescription drugs, nonprescription products and supplements to a clinician for review; some need adjustment and others are important to continue.",
+        "refs": [
+          "PLAN"
+        ]
+      },
+      {
+        "title": "Do not make abrupt changes",
+        "body": "A substance's safety depends on dose, timing, indication and alternatives. Do not stop necessary medication or start a detox or supplement solely because of this educational reading.",
+        "refs": [
+          "PLAN",
+          "NUTR"
+        ]
+      }
+    ],
+    "related": [
+      [
+        "mother/checkups/home-work",
+        "Home and work exposures"
+      ],
+      [
+        "/research/EV-ART-001",
+        "Pregnancy preparation"
+      ],
+      [
+        "mother/nutrition/supplements",
+        "Supplement evidence"
+      ]
+    ]
+  },
+  "baby/growth/fertilization": {
+    "title": "From egg and sperm to the first dividing cell",
+    "art": "cells",
+    "window": "Approximate gestational week 3",
+    "sections": [
+      {
+        "title": "The beginning of a cell lineage",
+        "body": "When an egg and sperm unite, the resulting cell is called a zygote. It contains genetic material from both parents. Repeated division produces a growing group of cells.",
+        "refs": [
+          "MED"
+        ]
+      },
+      {
+        "title": "Dating is not confirmation",
+        "body": "This developmental description is a general reference. It does not establish that fertilization occurred in a specific cycle or predict implantation or pregnancy outcome.",
+        "refs": [
+          "MED",
+          "FETUS"
+        ]
+      }
+    ],
+    "related": [
+      [
+        "baby/growth/cell-division",
+        "Early cell division"
+      ],
+      [
+        "mother/checkups/pregnancy-dating",
+        "Gestational dating"
+      ]
+    ]
+  },
+  "baby/growth/cell-division": {
+    "title": "How early cells divide and organize",
+    "art": "cells",
+    "window": "Around week 3, before implantation",
+    "sections": [
+      {
+        "title": "From division to organization",
+        "body": "The fertilized cell divides as it travels toward the uterus, eventually forming a blastocyst with an inner cell group and an outer layer. The groups contribute to different developing structures.",
+        "refs": [
+          "MED"
+        ]
+      },
+      {
+        "title": "An educational sequence",
+        "body": "Cell counts and timing vary. A concept diagram is not a laboratory embryo assessment or evidence that a particular pregnancy has begun.",
+        "refs": [
+          "MED"
+        ]
+      }
+    ],
+    "related": [
+      [
+        "baby/growth/fertilization",
+        "Fertilization"
+      ],
+      [
+        "baby/placenta/implantation",
+        "Implantation"
+      ]
+    ]
+  },
+  "baby/placenta/implantation": {
+    "title": "How implantation begins",
+    "art": "cells",
+    "window": "Approximate gestational week 4",
+    "sections": [
+      {
+        "title": "Connection to the uterine lining",
+        "body": "As the blastocyst reaches the uterus, it can attach to and embed in the lining. Developing outer cells contribute to the structures that later support exchange.",
+        "refs": [
+          "MED",
+          "N4"
+        ]
+      },
+      {
+        "title": "Symptoms cannot establish implantation",
+        "body": "Spotting or cramping is not proof that implantation occurred. Bleeding can have different causes, including pregnancy loss or ectopic pregnancy. Contact a clinician for bleeding or pain; severe symptoms need urgent assessment.",
+        "refs": [
+          "BLEED",
+          "ECTOPIC"
+        ]
+      }
+    ],
+    "related": [
+      [
+        "baby/placenta/early-placenta",
+        "Developing placental structures"
+      ],
+      [
+        "mother/checkups/early-bleeding",
+        "Bleeding and pain"
+      ]
+    ]
+  },
+  "mother/checkups/pregnancy-test": {
+    "title": "What early pregnancy tests can and cannot tell us",
+    "art": "checkups",
+    "window": "Around weeks 4–5; test timing varies",
+    "sections": [
+      {
+        "title": "A hormone-based test",
+        "body": "Pregnancy tests detect hCG. Results depend on timing, test use and individual circumstances. Symptoms alone cannot confirm a pregnancy, and a test cannot show where the pregnancy is developing.",
+        "refs": [
+          "N4",
+          "N5",
+          "ECTOPIC"
+        ]
+      },
+      {
+        "title": "Follow-up and uncertainty",
+        "body": "Follow the test instructions and discuss uncertainty or concerning symptoms with a clinician. Severe abdominal pain, fainting or heavy bleeding need urgent assessment regardless of a home test result.",
+        "refs": [
+          "ECTOPIC",
+          "BLEED"
+        ]
+      }
+    ],
+    "related": [
+      [
+        "mother/checkups/early-care",
+        "Early prenatal care"
+      ],
+      [
+        "mother/checkups/early-bleeding",
+        "Bleeding and pain"
+      ]
+    ]
+  },
+  "mother/checkups/early-bleeding": {
+    "title": "Bleeding and pain in early pregnancy",
+    "art": "uterus",
+    "window": "Early pregnancy safety; do not use symptoms to self-diagnose",
+    "sections": [
+      {
+        "title": "Several possible causes",
+        "body": "Bleeding and pain can arise for different reasons. ACOG discusses early pregnancy loss, infection and ectopic pregnancy among possible explanations. An app cannot identify the cause.",
+        "refs": [
+          "BLEED"
+        ]
+      },
+      {
+        "title": "When to seek help",
+        "body": "Contact the maternity or medical care team for bleeding or concerning pain. Severe pain, shoulder pain, fainting, heavy bleeding or signs of shock can indicate an emergency; seek emergency care. Do not assume bleeding is normal implantation.",
+        "refs": [
+          "BLEED",
+          "ECTOPIC"
+        ]
+      }
+    ],
+    "related": [
+      [
+        "mother/checkups/urgent",
+        "Urgent warning signs"
+      ],
+      [
+        "mother/checkups/early-care",
+        "Early prenatal care"
+      ]
+    ]
+  },
+  "mother/checkups/early-care": {
+    "title": "Starting prenatal care",
+    "art": "checkups",
+    "window": "Early pregnancy; individual timing and care needs vary",
+    "sections": [
+      {
+        "title": "Why the first conversation matters",
+        "body": "An early care visit can include health history, medicines, pregnancy dating, symptoms and appropriate tests. Clinical circumstances determine timing and follow-up rather than a universal app schedule.",
+        "refs": [
+          "ROUTINE",
+          "FETUS"
+        ]
+      },
+      {
+        "title": "Questions to bring",
+        "body": "Discuss current medicines, prior health concerns, nutrition and available screening options. Genetic screening and diagnostic testing are distinct, and informed decisions are voluntary.",
+        "refs": [
+          "GENETIC",
+          "GENETIC_CURRENT"
+        ]
+      },
+      {
+        "title": "Do not wait for urgent concerns",
+        "body": "Bleeding, severe pain, fainting or inability to keep fluids down needs appropriate medical assessment before a routine appointment.",
+        "refs": [
+          "BLEED",
+          "URG"
+        ]
+      }
+    ],
+    "related": [
+      [
+        "mother/checkups/medicines",
+        "Medicines and exposures"
+      ],
+      [
+        "mother/checkups/genetic-screening",
+        "Screening and diagnosis"
+      ],
+      [
+        "mother/checkups/prenatal",
+        "Prenatal visits"
+      ]
+    ]
+  },
+  "baby/growth/neural-tube": {
+    "title": "The beginning of the brain and spinal cord",
+    "art": "brain",
+    "window": "Early embryonic development; around week 5",
+    "sections": [
+      {
+        "title": "Early structures have long-term importance",
+        "body": "During early embryonic development, the structures that become the brain and spinal cord are taking shape. Different cells begin specializing, and organs form over overlapping windows.",
+        "refs": [
+          "MED",
+          "N5"
+        ]
+      },
+      {
+        "title": "The folic acid connection",
+        "body": "CDC identifies folic acid as reducing the risk of some neural tube defects. This is a strong preventive evidence question, distinct from claims that extra nutrients improve cognition beyond adequate intake.",
+        "refs": [
+          "FOLATE"
+        ]
+      }
+    ],
+    "related": [
+      [
+        "mother/nutrition/folic-acid",
+        "Established folic acid evidence"
+      ],
+      [
+        "baby/growth/early-brain",
+        "Developing brain regions"
+      ]
+    ]
+  },
+  "baby/growth/early-heart": {
+    "title": "How the earliest heart structures develop",
+    "art": "heart",
+    "window": "Weeks 5–7; timing and assessment vary",
+    "sections": [
+      {
+        "title": "An organ taking shape",
+        "body": "Early cardiac structures develop during the embryonic period. MedlinePlus describes ongoing development and rhythmic cardiac activity in the 6–7 week window. This is a developmental overview, not a statement that an individual pregnancy must show activity on a given date.",
+        "refs": [
+          "MED"
+        ]
+      },
+      {
+        "title": "Clinical interpretation matters",
+        "body": "Ultrasound findings depend on actual gestational age and examination context. No home monitor, symptom or illustration can establish viability or diagnose pregnancy loss.",
+        "refs": [
+          "FETUS",
+          "ECTOPIC"
+        ]
+      }
+    ],
+    "related": [
+      [
+        "baby/growth/neural-tube",
+        "Other early structures"
+      ],
+      [
+        "mother/checkups/early-care",
+        "Early clinical assessment"
+      ]
+    ]
+  },
+  "baby/growth/early-gut": {
+    "title": "How the early digestive tract forms",
+    "art": "digestion",
+    "window": "Around week 5; development continues",
+    "sections": [
+      {
+        "title": "From early tissue to a complex system",
+        "body": "MedlinePlus describes the beginning of the gastrointestinal tract during early organ formation. Tissue specialization and later changes in shape contribute to the developing organs.",
+        "refs": [
+          "MED"
+        ]
+      },
+      {
+        "title": "Nourishment before birth",
+        "body": "The developing embryo does not consume meals. Early supporting structures and later placental exchange are part of a different physiological environment.",
+        "refs": [
+          "N5",
+          "MED"
+        ]
+      }
+    ],
+    "related": [
+      [
+        "baby/placenta/early-placenta",
+        "Developing placental exchange"
+      ],
+      [
+        "baby/digestion/swallowing",
+        "Read ahead: swallowing"
+      ]
+    ]
+  },
+  "baby/movement/limb-buds": {
+    "title": "The early beginnings of arms and legs",
+    "art": "bone",
+    "window": "Weeks 6–7",
+    "sections": [
+      {
+        "title": "Small structures form before mature limbs",
+        "body": "MedlinePlus describes arm and leg buds across the 6–7 week window. These tissues grow and change shape as muscles, skeletal structures and joints develop.",
+        "refs": [
+          "MED"
+        ]
+      },
+      {
+        "title": "Development is gradual",
+        "body": "An early limb bud is not a miniature mature arm or leg. Different illustrations may depict different stages; none establishes individual anatomy.",
+        "refs": [
+          "N6",
+          "N7"
+        ]
+      }
+    ],
+    "related": [
+      [
+        "baby/movement/early-extremities",
+        "Hands and feet"
+      ],
+      [
+        "baby/movement/early-bones",
+        "Later skeletal development"
+      ]
+    ]
+  },
+  "baby/growth/early-brain": {
+    "title": "Early brain regions and nervous-system development",
+    "art": "brain",
+    "window": "Weeks 6–7",
+    "sections": [
+      {
+        "title": "Specialization over time",
+        "body": "During this developmental window, MedlinePlus describes emerging brain regions and nerves. The nervous system continues developing across pregnancy and after birth.",
+        "refs": [
+          "MED"
+        ]
+      },
+      {
+        "title": "Structure is not a cognitive outcome",
+        "body": "Early biological development cannot be translated into an intelligence prediction. Nutrient adequacy and experimental cognitive enhancement are separate evidence questions.",
+        "refs": [
+          "NUTR",
+          "MED"
+        ]
+      }
+    ],
+    "related": [
+      [
+        "baby/growth/neural-tube",
+        "Earlier nervous-system structures"
+      ],
+      [
+        "mother/nutrition/brain-nutrients",
+        "Nutrient roles and research"
+      ]
+    ]
+  },
+  "baby/senses/early-senses": {
+    "title": "The earliest eye and ear structures",
+    "art": "senses",
+    "window": "Weeks 6–7; mature sensory function comes later",
+    "sections": [
+      {
+        "title": "Structures before function",
+        "body": "MedlinePlus describes the beginning of eye and ear formation across weeks 6–7. Small structures will undergo extensive changes before they support mature sensory functions.",
+        "refs": [
+          "MED"
+        ]
+      },
+      {
+        "title": "Not yet a sensory training opportunity",
+        "body": "An emerging organ is not evidence of mature hearing or vision. There is no weekly stimulus program or home sensory test implied by this description.",
+        "refs": [
+          "MED"
+        ]
+      }
+    ],
+    "related": [
+      [
+        "baby/senses/eyes",
+        "Read ahead: later eye development"
+      ],
+      [
+        "baby/senses/hearing",
+        "Read ahead: hearing"
+      ]
+    ]
+  },
+  "baby/movement/early-extremities": {
+    "title": "Hands, feet and early joints",
+    "art": "bone",
+    "window": "Around weeks 8–9",
+    "sections": [
+      {
+        "title": "From limb buds to more distinct structures",
+        "body": "MedlinePlus describes development of hands and feet around week 8, with elbow and toe structures becoming more distinct by week 9. Development is overlapping and images are approximate.",
+        "refs": [
+          "MED"
+        ]
+      },
+      {
+        "title": "Size and movement have limits as indicators",
+        "body": "A weekly size comparison cannot show individual joint formation or movement. Clinical assessment is a separate process.",
+        "refs": [
+          "N8",
+          "N9"
+        ]
+      }
+    ],
+    "related": [
+      [
+        "baby/movement/limb-buds",
+        "Earlier limb buds"
+      ],
+      [
+        "baby/growth/early-nails",
+        "Later nail development"
+      ]
+    ]
+  },
+  "baby/growth/early-lungs": {
+    "title": "The early respiratory structures",
+    "art": "lungs",
+    "window": "Around week 8; later lung development spans pregnancy",
+    "sections": [
+      {
+        "title": "Before a mature airway tree",
+        "body": "MedlinePlus describes early lung development at this stage. Structures grow and branch across subsequent developmental windows, long before independent breathing is possible.",
+        "refs": [
+          "MED"
+        ]
+      },
+      {
+        "title": "The later connections",
+        "body": "Later articles explain lower airways, air sacs, surfactant and breathing movements. Early development is not a viability prediction.",
+        "refs": [
+          "MED"
+        ]
+      }
+    ],
+    "related": [
+      [
+        "baby/growth/airway-branches",
+        "Read ahead: branching airways"
+      ],
+      [
+        "baby/growth/surfactant",
+        "Read ahead: surfactant"
+      ]
+    ]
+  },
+  "baby/placenta/early-placenta": {
+    "title": "The developing placenta and supporting structures",
+    "art": "placenta",
+    "window": "Early pregnancy; the exchange system develops over time",
+    "sections": [
+      {
+        "title": "Building the interface",
+        "body": "Outer cells associated with the early embryo contribute to the developing placenta. The NHS week-8 and week-12 descriptions discuss changes in supporting structures and the developing exchange role.",
+        "refs": [
+          "N4",
+          "N8",
+          "N12"
+        ]
+      },
+      {
+        "title": "Separate circulations",
+        "body": "As placental exchange develops, it supports transfer of oxygen and nutrients. This general explanation does not establish the timing or function of the placenta in an individual pregnancy.",
+        "refs": [
+          "FETUS"
+        ]
+      }
+    ],
+    "related": [
+      [
+        "baby/placenta/implantation",
+        "Implantation"
+      ],
+      [
+        "baby/placenta/exchange",
+        "Placental exchange"
+      ],
+      [
+        "mother/checkups/home-work",
+        "Exposure concerns"
+      ]
+    ]
+  },
+  "mother/digestion/bloating": {
+    "title": "Why bloating and digestion may change",
+    "art": "digestion",
+    "window": "Early pregnancy; symptoms vary",
+    "sections": [
+      {
+        "title": "A changing digestive system",
+        "body": "NHS week 10 describes digestive discomfort associated with pregnancy-related hormonal changes. Bloating and reflux are different symptoms and may have different triggers.",
+        "refs": [
+          "N10"
+        ]
+      },
+      {
+        "title": "Comfort versus treatment",
+        "body": "Simple changes to meal size or timing may be useful for some people. Persistent, severe or concerning symptoms need assessment; do not treat serious pain as ordinary bloating.",
+        "refs": [
+          "N10",
+          "BLEED"
+        ]
+      }
+    ],
+    "related": [
+      [
+        "mother/digestion/heartburn",
+        "Reflux and heartburn"
+      ],
+      [
+        "mother/digestion/nausea",
+        "Nausea evidence"
+      ],
+      [
+        "mother/digestion/gut-health",
+        "Gut-health research"
+      ]
+    ]
+  },
+  "baby/digestion/early-intestines": {
+    "title": "How the intestines change shape",
+    "art": "digestion",
+    "window": "Around week 10 in the developmental reference",
+    "sections": [
+      {
+        "title": "Forming an organ system",
+        "body": "MedlinePlus describes intestinal rotation in the week-10 window. The digestive tract is developing in a changing body rather than functioning as a mature postnatal digestive system.",
+        "refs": [
+          "MED"
+        ]
+      },
+      {
+        "title": "A developmental reference is not a scan",
+        "body": "The exact sequence and individual anatomy are matters for clinical assessment. A diagram cannot diagnose a structural condition.",
+        "refs": [
+          "MED",
+          "FETUS"
+        ]
+      }
+    ],
+    "related": [
+      [
+        "baby/growth/early-gut",
+        "Earlier digestive structures"
+      ],
+      [
+        "baby/digestion/swallowing",
+        "Later swallowing"
+      ]
+    ]
+  },
+  "baby/growth/early-face": {
+    "title": "How facial structures become more distinct",
+    "art": "senses",
+    "window": "Around weeks 9–10; maturation continues",
+    "sections": [
+      {
+        "title": "Overlapping structural changes",
+        "body": "The NHS week-9 and week-10 descriptions discuss developing eyes, mouth and outer facial structures. The head is proportionally large at this stage.",
+        "refs": [
+          "N9",
+          "N10"
+        ]
+      },
+      {
+        "title": "An illustration is representative",
+        "body": "Different structures mature at different rates. An educational face illustration cannot assess individual anatomy, predict appearance or establish sensory function.",
+        "refs": [
+          "MED"
+        ]
+      }
+    ],
+    "related": [
+      [
+        "baby/senses/early-senses",
+        "Earlier eye and ear structures"
+      ],
+      [
+        "baby/growth/tooth-buds",
+        "Developing tooth buds"
+      ]
+    ]
+  },
+  "mother/checkups/genetic-screening": {
+    "title": "Prenatal genetic screening and diagnostic testing",
+    "art": "checkups",
+    "window": "Early pregnancy discussion; choices and timing are individualized",
+    "sections": [
+      {
+        "title": "Screening is not diagnosis",
+        "body": "Screening estimates the likelihood of selected conditions; diagnostic testing addresses a different question. ACOG guidance describes screening and diagnostic options and their limitations.",
+        "refs": [
+          "GENETIC",
+          "GENETIC_CURRENT"
+        ]
+      },
+      {
+        "title": "Informed choice",
+        "body": "Discuss benefits, limitations, possible uncertain results and available follow-up. A patient can accept or decline testing after counseling. The app does not rank choices, interpret a result or guarantee that a negative screen excludes all conditions.",
+        "refs": [
+          "GENETIC_CURRENT"
+        ]
+      }
+    ],
+    "related": [
+      [
+        "mother/checkups/early-care",
+        "Early prenatal care"
+      ],
+      [
+        "mother/checkups/anatomy-scan",
+        "Later anatomy assessment"
+      ]
+    ]
+  },
+  "baby/growth/early-proportions": {
+    "title": "Changing proportions in early development",
+    "art": "growth",
+    "window": "Weeks 11–14",
+    "sections": [
+      {
+        "title": "Different tissues grow at different rates",
+        "body": "MedlinePlus describes a relatively large head, developing face and lengthening limbs within this window. Proportions continue changing as organs and tissues grow.",
+        "refs": [
+          "MED"
+        ]
+      },
+      {
+        "title": "Use size comparisons cautiously",
+        "body": "The early NHS reference uses a head-to-bottom measurement or approximate length. Later references use head-to-heel length; they cannot be treated as a continuous clinical growth chart.",
+        "refs": [
+          "N11",
+          "N12",
+          "N13"
+        ]
+      }
+    ],
+    "related": [
+      [
+        "baby/growth/screening",
+        "Clinical growth assessment"
+      ],
+      [
+        "baby/growth/early-nails",
+        "Developing nails"
+      ]
+    ]
+  },
 "mother/body/second-trimester": {
     "title": "Entering the second trimester",
     "art": "body",

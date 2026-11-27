@@ -6,7 +6,7 @@ export function usePilotWeek():PilotWeek{const week=Number(useLocation().pathnam
 type Crumb={label:string;to:string}
 export function WeekContext({subject,topic,section}:{subject:'mother'|'baby';topic?:Crumb;section?:Crumb}){
  const week=usePilotWeek(),week22Base='/timeline/week/'+week
- return <nav className="week-context" aria-label={'Week '+week+' context'}><Link to={week22Base+'?subject='+subject}>Week {week} · {subject==='mother'?'Mother':'Baby'}</Link>{topic&&<><span aria-hidden="true">/</span><Link to={topic.to} aria-label={'All '+topic.label+' topics'}>{topic.label}</Link></>}{section&&<><span aria-hidden="true">/</span><Link to={section.to} aria-label={'All '+section.label+' readings'}>{section.label}</Link></>}</nav>
+ return <nav className="week-context" aria-label={'Week '+week+' context'}><Link to={week22Base+'?subject='+subject}>Week {week} · {subject==='mother'?(week<=2?'Your body':'Mother'):week<=2?'Conception':week<=4?'Early development':'Baby'}</Link>{topic&&<><span aria-hidden="true">/</span><Link to={topic.to} aria-label={'All '+topic.label+' topics'}>{topic.label}</Link></>}{section&&<><span aria-hidden="true">/</span><Link to={section.to} aria-label={'All '+section.label+' readings'}>{section.label}</Link></>}</nav>
 }
 export function WeekDisclosure({id,title,children}:{id:string;title:string;children:ReactNode}){
  const [open,setOpen]=useViewState('week22.reading.'+id,false)

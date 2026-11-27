@@ -109,6 +109,71 @@ function AppShell() {
             <Route path="/timeline/week/31/mother/skin/:section/:child" element={<SkinTopicPage/>}/>
             <Route path="/timeline/week/31/:subject/:topic" element={<Week22TopicPage/>}/>
             <Route path="/timeline/week/31/:subject/:topic/:subtopic" element={<Week22TopicPage/>}/>
+            <Route path="/timeline/week/1/mother/skin" element={<SkinTopicPage/>}/>
+            <Route path="/timeline/week/1/mother/skin/:section" element={<SkinTopicPage/>}/>
+            <Route path="/timeline/week/1/mother/skin/:section/:child" element={<SkinTopicPage/>}/>
+            <Route path="/timeline/week/1/:subject/:topic" element={<Week22TopicPage/>}/>
+            <Route path="/timeline/week/1/:subject/:topic/:subtopic" element={<Week22TopicPage/>}/>
+            <Route path="/timeline/week/2/mother/skin" element={<SkinTopicPage/>}/>
+            <Route path="/timeline/week/2/mother/skin/:section" element={<SkinTopicPage/>}/>
+            <Route path="/timeline/week/2/mother/skin/:section/:child" element={<SkinTopicPage/>}/>
+            <Route path="/timeline/week/2/:subject/:topic" element={<Week22TopicPage/>}/>
+            <Route path="/timeline/week/2/:subject/:topic/:subtopic" element={<Week22TopicPage/>}/>
+            <Route path="/timeline/week/3/mother/skin" element={<SkinTopicPage/>}/>
+            <Route path="/timeline/week/3/mother/skin/:section" element={<SkinTopicPage/>}/>
+            <Route path="/timeline/week/3/mother/skin/:section/:child" element={<SkinTopicPage/>}/>
+            <Route path="/timeline/week/3/:subject/:topic" element={<Week22TopicPage/>}/>
+            <Route path="/timeline/week/3/:subject/:topic/:subtopic" element={<Week22TopicPage/>}/>
+            <Route path="/timeline/week/4/mother/skin" element={<SkinTopicPage/>}/>
+            <Route path="/timeline/week/4/mother/skin/:section" element={<SkinTopicPage/>}/>
+            <Route path="/timeline/week/4/mother/skin/:section/:child" element={<SkinTopicPage/>}/>
+            <Route path="/timeline/week/4/:subject/:topic" element={<Week22TopicPage/>}/>
+            <Route path="/timeline/week/4/:subject/:topic/:subtopic" element={<Week22TopicPage/>}/>
+            <Route path="/timeline/week/5/mother/skin" element={<SkinTopicPage/>}/>
+            <Route path="/timeline/week/5/mother/skin/:section" element={<SkinTopicPage/>}/>
+            <Route path="/timeline/week/5/mother/skin/:section/:child" element={<SkinTopicPage/>}/>
+            <Route path="/timeline/week/5/:subject/:topic" element={<Week22TopicPage/>}/>
+            <Route path="/timeline/week/5/:subject/:topic/:subtopic" element={<Week22TopicPage/>}/>
+            <Route path="/timeline/week/6/mother/skin" element={<SkinTopicPage/>}/>
+            <Route path="/timeline/week/6/mother/skin/:section" element={<SkinTopicPage/>}/>
+            <Route path="/timeline/week/6/mother/skin/:section/:child" element={<SkinTopicPage/>}/>
+            <Route path="/timeline/week/6/:subject/:topic" element={<Week22TopicPage/>}/>
+            <Route path="/timeline/week/6/:subject/:topic/:subtopic" element={<Week22TopicPage/>}/>
+            <Route path="/timeline/week/7/mother/skin" element={<SkinTopicPage/>}/>
+            <Route path="/timeline/week/7/mother/skin/:section" element={<SkinTopicPage/>}/>
+            <Route path="/timeline/week/7/mother/skin/:section/:child" element={<SkinTopicPage/>}/>
+            <Route path="/timeline/week/7/:subject/:topic" element={<Week22TopicPage/>}/>
+            <Route path="/timeline/week/7/:subject/:topic/:subtopic" element={<Week22TopicPage/>}/>
+            <Route path="/timeline/week/8/mother/skin" element={<SkinTopicPage/>}/>
+            <Route path="/timeline/week/8/mother/skin/:section" element={<SkinTopicPage/>}/>
+            <Route path="/timeline/week/8/mother/skin/:section/:child" element={<SkinTopicPage/>}/>
+            <Route path="/timeline/week/8/:subject/:topic" element={<Week22TopicPage/>}/>
+            <Route path="/timeline/week/8/:subject/:topic/:subtopic" element={<Week22TopicPage/>}/>
+            <Route path="/timeline/week/9/mother/skin" element={<SkinTopicPage/>}/>
+            <Route path="/timeline/week/9/mother/skin/:section" element={<SkinTopicPage/>}/>
+            <Route path="/timeline/week/9/mother/skin/:section/:child" element={<SkinTopicPage/>}/>
+            <Route path="/timeline/week/9/:subject/:topic" element={<Week22TopicPage/>}/>
+            <Route path="/timeline/week/9/:subject/:topic/:subtopic" element={<Week22TopicPage/>}/>
+            <Route path="/timeline/week/10/mother/skin" element={<SkinTopicPage/>}/>
+            <Route path="/timeline/week/10/mother/skin/:section" element={<SkinTopicPage/>}/>
+            <Route path="/timeline/week/10/mother/skin/:section/:child" element={<SkinTopicPage/>}/>
+            <Route path="/timeline/week/10/:subject/:topic" element={<Week22TopicPage/>}/>
+            <Route path="/timeline/week/10/:subject/:topic/:subtopic" element={<Week22TopicPage/>}/>
+            <Route path="/timeline/week/11/mother/skin" element={<SkinTopicPage/>}/>
+            <Route path="/timeline/week/11/mother/skin/:section" element={<SkinTopicPage/>}/>
+            <Route path="/timeline/week/11/mother/skin/:section/:child" element={<SkinTopicPage/>}/>
+            <Route path="/timeline/week/11/:subject/:topic" element={<Week22TopicPage/>}/>
+            <Route path="/timeline/week/11/:subject/:topic/:subtopic" element={<Week22TopicPage/>}/>
+            <Route path="/timeline/week/12/mother/skin" element={<SkinTopicPage/>}/>
+            <Route path="/timeline/week/12/mother/skin/:section" element={<SkinTopicPage/>}/>
+            <Route path="/timeline/week/12/mother/skin/:section/:child" element={<SkinTopicPage/>}/>
+            <Route path="/timeline/week/12/:subject/:topic" element={<Week22TopicPage/>}/>
+            <Route path="/timeline/week/12/:subject/:topic/:subtopic" element={<Week22TopicPage/>}/>
+            <Route path="/timeline/week/13/mother/skin" element={<SkinTopicPage/>}/>
+            <Route path="/timeline/week/13/mother/skin/:section" element={<SkinTopicPage/>}/>
+            <Route path="/timeline/week/13/mother/skin/:section/:child" element={<SkinTopicPage/>}/>
+            <Route path="/timeline/week/13/:subject/:topic" element={<Week22TopicPage/>}/>
+            <Route path="/timeline/week/13/:subject/:topic/:subtopic" element={<Week22TopicPage/>}/>
             <Route path="/timeline/week/14/mother/skin" element={<SkinTopicPage/>}/>
             <Route path="/timeline/week/14/mother/skin/:section" element={<SkinTopicPage/>}/>
             <Route path="/timeline/week/14/mother/skin/:section/:child" element={<SkinTopicPage/>}/>

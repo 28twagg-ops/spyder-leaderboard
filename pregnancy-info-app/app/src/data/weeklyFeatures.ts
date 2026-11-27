@@ -1,8 +1,8 @@
 /** Week-specific editorial selection is distinct from shared trimester research.
  * The evidence window is recorded separately from the week in which a topic is featured.
  * Never infer a new medical action, dose, or exact milestone from editorial placement. */
-export type PilotWeek=14|15|16|17|18|19|20|21|22|23|24|25|26|27|28|29|30|31|32|33|34|35|36|37|38|39|40
-export const isPilotWeek=(week:number):week is PilotWeek=>week>=14&&week<=40&&Number.isInteger(week)
+export type PilotWeek=1|2|3|4|5|6|7|8|9|10|11|12|13|14|15|16|17|18|19|20|21|22|23|24|25|26|27|28|29|30|31|32|33|34|35|36|37|38|39|40
+export const isPilotWeek=(week:number):week is PilotWeek=>week>=1&&week<=40&&Number.isInteger(week)
 export type WeeklyFeature={title:string;description:string;path:string;art:string;window:string;source:string}
 export const weeklyFeatures:Record<PilotWeek,Record<'mother'|'baby',WeeklyFeature[]>>={
 "20": {
@@ -1377,6 +1377,700 @@ export const weeklyFeatures:Record<PilotWeek,Record<'mother'|'baby',WeeklyFeatur
         "art": "digestion",
         "window": "Read ahead",
         "source": "https://www.nhs.uk/best-start-in-life/pregnancy/week-by-week-guide-to-pregnancy/3rd-trimester/week-40/"
+      }
+    ]
+  },
+"1": {
+    "mother": [
+      {
+        "title": "Why the calendar begins here",
+        "description": "Understand gestational dating before conception.",
+        "path": "mother/checkups/pregnancy-dating",
+        "art": "calendar",
+        "window": "Dating convention",
+        "source": "https://www.cdc.gov/pregnancy/about/index.html"
+      },
+      {
+        "title": "Folic acid before pregnancy",
+        "description": "Learn about the established preventive evidence.",
+        "path": "mother/nutrition/folic-acid",
+        "art": "nutrition",
+        "window": "Preconception",
+        "source": "https://www.cdc.gov/folic-acid/about/"
+      },
+      {
+        "title": "Medicines and health preparation",
+        "description": "Review relevant health questions before pregnancy.",
+        "path": "mother/checkups/medicines",
+        "art": "checkups",
+        "window": "Preconception",
+        "source": "https://www.cdc.gov/pregnancy/about/index.html"
+      }
+    ],
+    "baby": [
+      {
+        "title": "Before fertilization",
+        "description": "This dating week does not represent a developing embryo.",
+        "path": "baby/growth/conception-timing",
+        "art": "calendar",
+        "window": "Gestational weeks 1–2",
+        "source": "https://medlineplus.gov/ency/article/002398.htm"
+      },
+      {
+        "title": "Looking ahead to fertilization",
+        "description": "Learn about the next possible developmental stage.",
+        "path": "baby/growth/fertilization",
+        "art": "cells",
+        "window": "Read ahead · around week 3",
+        "source": "https://medlineplus.gov/ency/article/002398.htm"
+      }
+    ]
+  },
+  "2": {
+    "mother": [
+      {
+        "title": "Preparing both parents",
+        "description": "Explore health and medicine questions before conception.",
+        "path": "mother/checkups/medicines",
+        "art": "checkups",
+        "window": "Preconception",
+        "source": "https://www.cdc.gov/pregnancy/about/index.html"
+      },
+      {
+        "title": "Food and nutrient adequacy",
+        "description": "Explore nutrition without a fertility guarantee.",
+        "path": "mother/nutrition/food",
+        "art": "nutrition",
+        "window": "Preconception",
+        "source": "https://ods.od.nih.gov/factsheets/pregnancy-healthprofessional/"
+      },
+      {
+        "title": "Home and workplace exposures",
+        "description": "Learn about relevant hazards and practical controls.",
+        "path": "mother/checkups/home-work",
+        "art": "environment",
+        "window": "Preconception",
+        "source": "https://www.cdc.gov/pregnancy/about/index.html"
+      }
+    ],
+    "baby": [
+      {
+        "title": "Ovulation timing varies",
+        "description": "Learn why an estimate cannot confirm conception.",
+        "path": "baby/growth/conception-timing",
+        "art": "calendar",
+        "window": "Weeks 1–2",
+        "source": "https://medlineplus.gov/ency/article/002398.htm"
+      },
+      {
+        "title": "What fertilization means",
+        "description": "Explore the next stage without assuming it has occurred.",
+        "path": "baby/growth/fertilization",
+        "art": "cells",
+        "window": "Read ahead · around week 3",
+        "source": "https://medlineplus.gov/ency/article/002398.htm"
+      },
+      {
+        "title": "Preparing for early cell division",
+        "description": "Explore the next possible stage without assuming conception.",
+        "path": "baby/growth/cell-division",
+        "art": "cells",
+        "window": "Read ahead · around week 3",
+        "source": "https://medlineplus.gov/ency/article/002398.htm"
+      }
+    ]
+  },
+  "3": {
+    "mother": [
+      {
+        "title": "Folic acid and early prevention",
+        "description": "Understand why timing matters before pregnancy recognition.",
+        "path": "mother/nutrition/folic-acid",
+        "art": "nutrition",
+        "window": "Preconception and early pregnancy",
+        "source": "https://www.cdc.gov/folic-acid/about/"
+      },
+      {
+        "title": "Review medicines and exposures",
+        "description": "Discuss individual risks and necessary care.",
+        "path": "mother/checkups/medicines",
+        "art": "checkups",
+        "window": "Early pregnancy",
+        "source": "https://www.cdc.gov/pregnancy/about/index.html"
+      },
+      {
+        "title": "Food safety and nutrition",
+        "description": "Explore established food safety principles.",
+        "path": "mother/digestion/food-safety",
+        "art": "nutrition",
+        "window": "Ongoing preparation",
+        "source": "https://ods.od.nih.gov/factsheets/pregnancy-healthprofessional/"
+      }
+    ],
+    "baby": [
+      {
+        "title": "Fertilization",
+        "description": "Learn what happens when egg and sperm unite.",
+        "path": "baby/growth/fertilization",
+        "art": "cells",
+        "window": "Around week 3",
+        "source": "https://medlineplus.gov/ency/article/002398.htm"
+      },
+      {
+        "title": "Early cell division",
+        "description": "Follow the organization of dividing cells.",
+        "path": "baby/growth/cell-division",
+        "art": "cells",
+        "window": "Around week 3",
+        "source": "https://medlineplus.gov/ency/article/002398.htm"
+      },
+      {
+        "title": "Looking ahead to implantation",
+        "description": "Explore the next developmental stage.",
+        "path": "baby/placenta/implantation",
+        "art": "cells",
+        "window": "Read ahead · around week 4",
+        "source": "https://medlineplus.gov/ency/article/002398.htm"
+      }
+    ]
+  },
+  "4": {
+    "mother": [
+      {
+        "title": "Early pregnancy tests",
+        "description": "Understand hCG testing and uncertainty.",
+        "path": "mother/checkups/pregnancy-test",
+        "art": "checkups",
+        "window": "Around weeks 4–5",
+        "source": "https://www.nhs.uk/best-start-in-life/pregnancy/week-by-week-guide-to-pregnancy/1st-trimester/week-4/"
+      },
+      {
+        "title": "Bleeding or pain needs context",
+        "description": "Know when symptoms require clinical assessment.",
+        "path": "mother/checkups/early-bleeding",
+        "art": "uterus",
+        "window": "Early pregnancy safety",
+        "source": "https://www.acog.org/womens-health/faqs/bleeding-during-pregnancy"
+      },
+      {
+        "title": "Early prenatal care",
+        "description": "Explore initial care questions.",
+        "path": "mother/checkups/early-care",
+        "art": "checkups",
+        "window": "Individual timing",
+        "source": "https://www.nhs.uk/best-start-in-life/pregnancy/week-by-week-guide-to-pregnancy/1st-trimester/week-4/"
+      }
+    ],
+    "baby": [
+      {
+        "title": "Implantation in the uterine lining",
+        "description": "Learn how early attachment occurs.",
+        "path": "baby/placenta/implantation",
+        "art": "cells",
+        "window": "Around week 4",
+        "source": "https://medlineplus.gov/ency/article/002398.htm"
+      },
+      {
+        "title": "Developing supporting structures",
+        "description": "Explore the early placenta and supporting tissues.",
+        "path": "baby/placenta/early-placenta",
+        "art": "placenta",
+        "window": "Early pregnancy",
+        "source": "https://www.nhs.uk/best-start-in-life/pregnancy/week-by-week-guide-to-pregnancy/1st-trimester/week-4/"
+      },
+      {
+        "title": "Cell organization",
+        "description": "Understand early differentiation and uncertainty.",
+        "path": "baby/growth/cell-division",
+        "art": "cells",
+        "window": "Continuing development",
+        "source": "https://medlineplus.gov/ency/article/002398.htm"
+      }
+    ]
+  },
+  "5": {
+    "mother": [
+      {
+        "title": "Early symptoms and care",
+        "description": "Learn how an early care visit can help.",
+        "path": "mother/checkups/early-care",
+        "art": "checkups",
+        "window": "Around this stage",
+        "source": "https://www.nhs.uk/best-start-in-life/pregnancy/week-by-week-guide-to-pregnancy/1st-trimester/week-5/"
+      },
+      {
+        "title": "Folic acid and neural development",
+        "description": "Connect early development with established prevention.",
+        "path": "mother/nutrition/folic-acid",
+        "art": "nutrition",
+        "window": "Early pregnancy",
+        "source": "https://www.cdc.gov/folic-acid/about/"
+      },
+      {
+        "title": "Medicine and ingredient safety",
+        "description": "Review pregnancy-specific safety questions.",
+        "path": "mother/checkups/medicines",
+        "art": "checkups",
+        "window": "Ongoing care",
+        "source": "https://www.cdc.gov/pregnancy/about/index.html"
+      }
+    ],
+    "baby": [
+      {
+        "title": "Early brain and spinal cord",
+        "description": "Explore the developing nervous system.",
+        "path": "baby/growth/neural-tube",
+        "art": "brain",
+        "window": "Around week 5",
+        "source": "https://medlineplus.gov/ency/article/002398.htm"
+      },
+      {
+        "title": "The earliest heart structures",
+        "description": "Understand development without a viability prediction.",
+        "path": "baby/growth/early-heart",
+        "art": "heart",
+        "window": "Weeks 5–7",
+        "source": "https://medlineplus.gov/ency/article/002398.htm"
+      },
+      {
+        "title": "Beginning of the digestive tract",
+        "description": "Learn how early tissues specialize.",
+        "path": "baby/growth/early-gut",
+        "art": "digestion",
+        "window": "Around week 5",
+        "source": "https://medlineplus.gov/ency/article/002398.htm"
+      }
+    ]
+  },
+  "6": {
+    "mother": [
+      {
+        "title": "Nausea and traditional remedies",
+        "description": "Distinguish symptom outcomes, evidence and safety.",
+        "path": "mother/digestion/nausea",
+        "art": "digestion",
+        "window": "Early pregnancy",
+        "source": "https://www.nhs.uk/best-start-in-life/pregnancy/week-by-week-guide-to-pregnancy/1st-trimester/week-6/"
+      },
+      {
+        "title": "Hydration and nourishment",
+        "description": "Explore food and symptom-related care questions.",
+        "path": "mother/nutrition/food",
+        "art": "nutrition",
+        "window": "Ongoing nutrition",
+        "source": "https://www.nhs.uk/best-start-in-life/pregnancy/week-by-week-guide-to-pregnancy/1st-trimester/week-6/"
+      },
+      {
+        "title": "Rest and emotional wellbeing",
+        "description": "Discuss persistent symptoms and support.",
+        "path": "mother/movement/mood",
+        "art": "rest",
+        "window": "Experience varies",
+        "source": "https://www.nhs.uk/best-start-in-life/pregnancy/week-by-week-guide-to-pregnancy/1st-trimester/week-6/"
+      }
+    ],
+    "baby": [
+      {
+        "title": "Limb buds",
+        "description": "Discover the early beginnings of arms and legs.",
+        "path": "baby/movement/limb-buds",
+        "art": "bone",
+        "window": "Weeks 6–7",
+        "source": "https://medlineplus.gov/ency/article/002398.htm"
+      },
+      {
+        "title": "Early cardiac development",
+        "description": "Learn why clinical context matters.",
+        "path": "baby/growth/early-heart",
+        "art": "heart",
+        "window": "Weeks 5–7",
+        "source": "https://medlineplus.gov/ency/article/002398.htm"
+      },
+      {
+        "title": "Developing brain regions",
+        "description": "Follow early nervous-system specialization.",
+        "path": "baby/growth/early-brain",
+        "art": "brain",
+        "window": "Weeks 6–7",
+        "source": "https://medlineplus.gov/ency/article/002398.htm"
+      }
+    ]
+  },
+  "7": {
+    "mother": [
+      {
+        "title": "Changing circulation",
+        "description": "Explore blood and nutrient roles without a personal target.",
+        "path": "mother/nutrition/minerals",
+        "art": "blood",
+        "window": "Nutrition spotlight",
+        "source": "https://ods.od.nih.gov/factsheets/pregnancy-healthprofessional/"
+      },
+      {
+        "title": "Food aversions and symptom research",
+        "description": "Learn about nausea and dietary adequacy.",
+        "path": "mother/digestion/nausea",
+        "art": "nutrition",
+        "window": "Experience varies",
+        "source": "https://www.nhs.uk/best-start-in-life/pregnancy/week-by-week-guide-to-pregnancy/1st-trimester/week-7/"
+      },
+      {
+        "title": "Early pregnancy warning signs",
+        "description": "Understand why bleeding and pain require context.",
+        "path": "mother/checkups/early-bleeding",
+        "art": "uterus",
+        "window": "Safety",
+        "source": "https://www.acog.org/womens-health/faqs/ectopic-pregnancy"
+      }
+    ],
+    "baby": [
+      {
+        "title": "Eye and ear structures",
+        "description": "Learn what forms before mature sensory function.",
+        "path": "baby/senses/early-senses",
+        "art": "senses",
+        "window": "Weeks 6–7",
+        "source": "https://medlineplus.gov/ency/article/002398.htm"
+      },
+      {
+        "title": "Developing brain regions",
+        "description": "Explore nervous-system maturation.",
+        "path": "baby/growth/early-brain",
+        "art": "brain",
+        "window": "Weeks 6–7",
+        "source": "https://medlineplus.gov/ency/article/002398.htm"
+      },
+      {
+        "title": "Cartilage and limb growth",
+        "description": "Follow early skeletal structures.",
+        "path": "baby/movement/limb-buds",
+        "art": "bone",
+        "window": "Weeks 6–7",
+        "source": "https://medlineplus.gov/ency/article/002398.htm"
+      }
+    ]
+  },
+  "8": {
+    "mother": [
+      {
+        "title": "Breast comfort and changes",
+        "description": "Explore normal variation and cosmetic evidence.",
+        "path": "mother/body/breasts",
+        "art": "breast",
+        "window": "Early pregnancy",
+        "source": "https://www.nhs.uk/best-start-in-life/pregnancy/week-by-week-guide-to-pregnancy/1st-trimester/week-8/"
+      },
+      {
+        "title": "Bloating and digestion",
+        "description": "Learn why digestive symptoms may change.",
+        "path": "mother/digestion/bloating",
+        "art": "digestion",
+        "window": "Experience varies",
+        "source": "https://www.nhs.uk/best-start-in-life/pregnancy/week-by-week-guide-to-pregnancy/1st-trimester/week-8/"
+      },
+      {
+        "title": "Workplace and home exposures",
+        "description": "Prioritize known hazards and practical controls.",
+        "path": "mother/checkups/home-work",
+        "art": "environment",
+        "window": "Ongoing prevention",
+        "source": "https://www.nhs.uk/best-start-in-life/pregnancy/week-by-week-guide-to-pregnancy/1st-trimester/week-8/"
+      }
+    ],
+    "baby": [
+      {
+        "title": "Hands and feet take shape",
+        "description": "Explore developing extremities.",
+        "path": "baby/movement/early-extremities",
+        "art": "bone",
+        "window": "Around weeks 8–9",
+        "source": "https://medlineplus.gov/ency/article/002398.htm"
+      },
+      {
+        "title": "Early lung structures",
+        "description": "Discover the beginning of respiratory development.",
+        "path": "baby/growth/early-lungs",
+        "art": "lungs",
+        "window": "Around week 8",
+        "source": "https://medlineplus.gov/ency/article/002398.htm"
+      },
+      {
+        "title": "The developing placenta",
+        "description": "Explore supporting structures and exchange.",
+        "path": "baby/placenta/early-placenta",
+        "art": "placenta",
+        "window": "Early pregnancy",
+        "source": "https://www.nhs.uk/best-start-in-life/pregnancy/week-by-week-guide-to-pregnancy/1st-trimester/week-8/"
+      }
+    ]
+  },
+  "9": {
+    "mother": [
+      {
+        "title": "Prenatal supplement quality",
+        "description": "Understand label accuracy and evidence.",
+        "path": "mother/nutrition/supplements",
+        "art": "nutrition",
+        "window": "Nutrition spotlight",
+        "source": "https://ods.od.nih.gov/factsheets/pregnancy-healthprofessional/"
+      },
+      {
+        "title": "Hormonal changes and comfort",
+        "description": "Explore changing symptoms and breast comfort.",
+        "path": "mother/body/breasts",
+        "art": "breast",
+        "window": "Experience varies",
+        "source": "https://www.nhs.uk/best-start-in-life/pregnancy/week-by-week-guide-to-pregnancy/1st-trimester/week-9/"
+      },
+      {
+        "title": "Food safety",
+        "description": "Review safe food preparation and fish choices.",
+        "path": "mother/digestion/food-safety",
+        "art": "digestion",
+        "window": "Ongoing prevention",
+        "source": "https://www.nhs.uk/best-start-in-life/pregnancy/week-by-week-guide-to-pregnancy/1st-trimester/week-9/"
+      }
+    ],
+    "baby": [
+      {
+        "title": "Elbows and toes",
+        "description": "Follow changing limb structures.",
+        "path": "baby/movement/early-extremities",
+        "art": "bone",
+        "window": "Around weeks 8–9",
+        "source": "https://medlineplus.gov/ency/article/002398.htm"
+      },
+      {
+        "title": "Facial structures",
+        "description": "Explore the developing face and mouth.",
+        "path": "baby/growth/early-face",
+        "art": "senses",
+        "window": "Weeks 9–10",
+        "source": "https://www.nhs.uk/best-start-in-life/pregnancy/week-by-week-guide-to-pregnancy/1st-trimester/week-9/"
+      },
+      {
+        "title": "Continuing organ formation",
+        "description": "Understand the overlap of developing systems.",
+        "path": "baby/growth/anatomy",
+        "art": "growth",
+        "window": "Ongoing development",
+        "source": "https://medlineplus.gov/ency/article/002398.htm"
+      }
+    ]
+  },
+  "10": {
+    "mother": [
+      {
+        "title": "Bloating and heartburn",
+        "description": "Understand digestive discomfort and when to seek help.",
+        "path": "mother/digestion/bloating",
+        "art": "digestion",
+        "window": "Early pregnancy",
+        "source": "https://www.nhs.uk/best-start-in-life/pregnancy/week-by-week-guide-to-pregnancy/1st-trimester/week-10/"
+      },
+      {
+        "title": "Prenatal testing questions",
+        "description": "Learn what screening can and cannot establish.",
+        "path": "mother/checkups/genetic-screening",
+        "art": "checkups",
+        "window": "Individual choice",
+        "source": "https://www.acog.org/womens-health/faqs/prenatal-genetic-screening-tests"
+      },
+      {
+        "title": "Activity and comfort",
+        "description": "Explore evidence for movement in pregnancy.",
+        "path": "mother/movement/activity",
+        "art": "movement",
+        "window": "Ongoing care",
+        "source": "https://www.nhs.uk/best-start-in-life/pregnancy/week-by-week-guide-to-pregnancy/1st-trimester/week-10/"
+      }
+    ],
+    "baby": [
+      {
+        "title": "The intestines change shape",
+        "description": "Explore early intestinal development.",
+        "path": "baby/digestion/early-intestines",
+        "art": "digestion",
+        "window": "Around week 10",
+        "source": "https://medlineplus.gov/ency/article/002398.htm"
+      },
+      {
+        "title": "Face and outer ears",
+        "description": "Follow the changing facial structures.",
+        "path": "baby/growth/early-face",
+        "art": "senses",
+        "window": "Weeks 9–10",
+        "source": "https://www.nhs.uk/best-start-in-life/pregnancy/week-by-week-guide-to-pregnancy/1st-trimester/week-10/"
+      },
+      {
+        "title": "Placental exchange develops",
+        "description": "Learn about the supporting interface.",
+        "path": "baby/placenta/early-placenta",
+        "art": "placenta",
+        "window": "Early pregnancy",
+        "source": "https://medlineplus.gov/ency/article/002398.htm"
+      }
+    ]
+  },
+  "11": {
+    "mother": [
+      {
+        "title": "Screening and diagnostic testing",
+        "description": "Explore the differences and voluntary choices.",
+        "path": "mother/checkups/genetic-screening",
+        "art": "checkups",
+        "window": "Early pregnancy discussion",
+        "source": "https://www.acog.org/clinical/clinical-guidance/practice-advisory/articles/2026/01/screening-for-fetal-chromosomal-abnormalities"
+      },
+      {
+        "title": "Pelvic and abdominal support",
+        "description": "Understand adaptation rather than an exercise deadline.",
+        "path": "mother/body/core",
+        "art": "body",
+        "window": "Ongoing physical changes",
+        "source": "https://www.nhs.uk/best-start-in-life/pregnancy/week-by-week-guide-to-pregnancy/1st-trimester/week-11/"
+      },
+      {
+        "title": "Maternal iron and nutrient adequacy",
+        "description": "Learn about the role of blood and nutrients.",
+        "path": "mother/nutrition/minerals",
+        "art": "blood",
+        "window": "Nutrition spotlight",
+        "source": "https://ods.od.nih.gov/factsheets/pregnancy-healthprofessional/"
+      }
+    ],
+    "baby": [
+      {
+        "title": "Fingers and early nails",
+        "description": "Explore tiny structures forming.",
+        "path": "baby/growth/early-nails",
+        "art": "skin",
+        "window": "Weeks 11–14",
+        "source": "https://medlineplus.gov/ency/article/002398.htm"
+      },
+      {
+        "title": "First tooth structures",
+        "description": "Learn why tooth buds form before birth.",
+        "path": "baby/growth/tooth-buds",
+        "art": "bone",
+        "window": "Weeks 11–14",
+        "source": "https://medlineplus.gov/ency/article/002398.htm"
+      },
+      {
+        "title": "Changing body proportions",
+        "description": "Understand the relatively large head and growing limbs.",
+        "path": "baby/growth/early-proportions",
+        "art": "growth",
+        "window": "Weeks 11–14",
+        "source": "https://medlineplus.gov/ency/article/002398.htm"
+      }
+    ]
+  },
+  "12": {
+    "mother": [
+      {
+        "title": "Prenatal care and screening follow-up",
+        "description": "Discuss questions and what findings mean.",
+        "path": "mother/checkups/early-care",
+        "art": "checkups",
+        "window": "Individual timing",
+        "source": "https://www.nhs.uk/best-start-in-life/pregnancy/week-by-week-guide-to-pregnancy/1st-trimester/week-12/"
+      },
+      {
+        "title": "Appetite and nutrient quality",
+        "description": "Explore changing symptoms and adequate intake.",
+        "path": "mother/nutrition/food",
+        "art": "nutrition",
+        "window": "Ongoing nutrition",
+        "source": "https://www.nhs.uk/best-start-in-life/pregnancy/week-by-week-guide-to-pregnancy/1st-trimester/week-12/"
+      },
+      {
+        "title": "Physical activity and comfort",
+        "description": "Review individual movement circumstances.",
+        "path": "mother/movement/activity",
+        "art": "movement",
+        "window": "Ongoing care",
+        "source": "https://www.nhs.uk/best-start-in-life/pregnancy/week-by-week-guide-to-pregnancy/1st-trimester/week-12/"
+      }
+    ],
+    "baby": [
+      {
+        "title": "Developing skeleton",
+        "description": "Explore the transition from early structures toward bone.",
+        "path": "baby/movement/early-bones",
+        "art": "bone",
+        "window": "Continuing development",
+        "source": "https://www.nhs.uk/best-start-in-life/pregnancy/week-by-week-guide-to-pregnancy/1st-trimester/week-12/"
+      },
+      {
+        "title": "The developing placenta",
+        "description": "Understand the changing support and exchange roles.",
+        "path": "baby/placenta/early-placenta",
+        "art": "placenta",
+        "window": "Ongoing development",
+        "source": "https://www.nhs.uk/best-start-in-life/pregnancy/week-by-week-guide-to-pregnancy/1st-trimester/week-12/"
+      },
+      {
+        "title": "Blood formation in the liver",
+        "description": "Learn about a fetal blood-forming site.",
+        "path": "baby/growth/liver-blood",
+        "art": "blood",
+        "window": "Weeks 11–14",
+        "source": "https://medlineplus.gov/ency/article/002398.htm"
+      }
+    ]
+  },
+  "13": {
+    "mother": [
+      {
+        "title": "Changing symptoms and the next stage",
+        "description": "Read ahead to the second trimester without expecting a fixed symptom change.",
+        "path": "mother/body/second-trimester",
+        "art": "body",
+        "window": "Read ahead · US week 14",
+        "source": "https://www.nhs.uk/best-start-in-life/pregnancy/week-by-week-guide-to-pregnancy/2nd-trimester/week-13/"
+      },
+      {
+        "title": "Skin and pelvic comfort",
+        "description": "Explore prevention, comfort and functional research.",
+        "path": "mother/skin",
+        "art": "skin",
+        "window": "Ongoing adaptation",
+        "source": "https://www.nhs.uk/best-start-in-life/pregnancy/week-by-week-guide-to-pregnancy/2nd-trimester/week-13/"
+      },
+      {
+        "title": "Reviewing prenatal nutrient needs",
+        "description": "Compare adequacy and additional supplementation evidence.",
+        "path": "mother/nutrition/brain-nutrients",
+        "art": "nutrition",
+        "window": "Nutrition spotlight",
+        "source": "https://ods.od.nih.gov/factsheets/pregnancy-healthprofessional/"
+      }
+    ],
+    "baby": [
+      {
+        "title": "Blood formation and circulation",
+        "description": "Explore the developing liver's role.",
+        "path": "baby/growth/liver-blood",
+        "art": "blood",
+        "window": "Weeks 11–14",
+        "source": "https://medlineplus.gov/ency/article/002398.htm"
+      },
+      {
+        "title": "Changing head and body proportions",
+        "description": "Learn how tissues grow at different rates.",
+        "path": "baby/growth/early-proportions",
+        "art": "growth",
+        "window": "Weeks 11–14",
+        "source": "https://medlineplus.gov/ency/article/002398.htm"
+      },
+      {
+        "title": "Early oral and limb movements",
+        "description": "Discover developing coordination.",
+        "path": "baby/movement/early-facial-movement",
+        "art": "movement",
+        "window": "Continuing development",
+        "source": "https://www.nhs.uk/best-start-in-life/pregnancy/week-by-week-guide-to-pregnancy/2nd-trimester/week-13/"
       }
     ]
   }
