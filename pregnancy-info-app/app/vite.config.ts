@@ -3,7 +3,10 @@ import react from '@vitejs/plugin-react'
 import { defineConfig } from 'vite'
 import { VitePWA } from 'vite-plugin-pwa'
 
-export default defineConfig({
+export default defineConfig(({mode}) => {
+  const base=mode==='pages'?'/spyder-leaderboard/everwell/':'/'
+  return {
+  base,
   plugins: [
     react(),
     VitePWA({
@@ -20,8 +23,9 @@ export default defineConfig({
         background_color: '#f1efe9',
         display: 'standalone',
         orientation: 'portrait-primary',
-        start_url: '/',
-        scope: '/',
+        id: base,
+        start_url: base,
+        scope: base,
         icons: [
           {
             src: 'everwell-192-v2.png',
@@ -45,7 +49,7 @@ export default defineConfig({
         skipWaiting: true,
         clientsClaim: true,
         cleanupOutdatedCaches: true,
-        navigateFallback: '/index.html',
+        navigateFallback: base+'index.html',
         globPatterns: ['**/*.{js,css,html,svg,png,ico,json,woff2}'],
       },
       devOptions: {
@@ -61,4 +65,5 @@ export default defineConfig({
     setupFiles: './src/test/setup.ts',
     css: true,
   },
+  }
 })

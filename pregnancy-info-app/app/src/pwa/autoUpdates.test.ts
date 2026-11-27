@@ -23,6 +23,12 @@ describe('installed app automatic updates',()=>{
   expect(worker.register).toHaveBeenCalledExactlyOnceWith('/sw.js',{scope:'/',updateViaCache:'none'})
   expect(worker.update).toHaveBeenCalledTimes(1)
  })
+ it('scopes the Pages service worker to Everwell only',async()=>{
+  const worker=new Worker()
+  stop=startAppUpdates(worker,{window,document,basePath:'/spyder-leaderboard/everwell/',online:()=>true,visible:()=>true,reload:vi.fn()})
+  await flush()
+  expect(worker.register).toHaveBeenCalledExactlyOnceWith('/spyder-leaderboard/everwell/sw.js',{scope:'/spyder-leaderboard/everwell/',updateViaCache:'none'})
+ })
  it('checks again on foreground and connection return without duplicate requests',async()=>{
   const {worker,state}=setup()
   await flush()

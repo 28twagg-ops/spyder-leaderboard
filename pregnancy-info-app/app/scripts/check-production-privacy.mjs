@@ -18,10 +18,15 @@ const dom=new JSDOM(html)
 const doc=dom.window.document
 const root=resolve('dist')
 const origin='https://everwell.invalid'
+const manifest=JSON.parse(readFileSync('dist/manifest.webmanifest','utf8'))
+const base=manifest.scope??'/'
+assert(['/', '/spyder-leaderboard/everwell/'].includes(base),'Unexpected application scope')
+assert.equal(manifest.start_url,base,'Manifest start URL must remain in Everwell scope')
 function localAsset(value){
- const url=new URL(value,origin)
+ const url=new URL(value,origin+base)
  assert.equal(url.origin,origin,'External automatic asset: '+value)
- const file=resolve(root,'.'+decodeURIComponent(url.pathname))
+ assert(url.pathname.startsWith(base),'Asset escaped application scope: '+value)
+ const file=resolve(root,'.'+decodeURIComponent('/'+url.pathname.slice(base.length)))
  assert(file.startsWith(root+sep)&&existsSync(file),'Missing built asset: '+url.pathname)
 }
 let inlineScripts=0,localAssets=0
@@ -39,5 +44,13 @@ for(const el of doc.querySelectorAll('link[href],img[src],iframe[src],source[src
 for(const el of doc.querySelectorAll('*'))for(const attr of el.attributes)assert(!/^on/i.test(attr.name),'Inline event handler: '+attr.name)
 assert(existsSync('dist/sw.js'),'Offline service worker missing')
 assert(existsSync('dist/manifest.webmanifest'),'App manifest missing')
+if(base!=='/'){
+ const meta=doc.querySelector('meta[http-equiv="Content-Security-Policy"]')
+ // Pages does not support custom HTTP headers. Use an equivalent meta policy for
+ // enforceable directives. frame-ancestors and some other headers need a real server.
+ assert.equal(meta?.getAttribute('content'),headers['content-security-policy'].replace("; frame-ancestors 'none'",""))
+ assert.equal(doc.querySelector('meta[name="robots"]')?.getAttribute('content'),'noindex, nofollow, noarchive')
+ assert.equal(doc.querySelector('meta[name="referrer"]')?.getAttribute('content'),'no-referrer')
+}
 dom.window.close()
 console.log('Production privacy policy checks passed: '+JSON.stringify({inlineScripts,localAssets,externalConnections:'same-origin only',serviceWorker:true,manifest:true}))

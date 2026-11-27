@@ -7,6 +7,7 @@ type WorkerContainer = EventTarget & {
 type UpdateEnvironment = {
  window:Window
  document:Document
+ basePath?:string
  online:()=>boolean
  reload:()=>void
  visible?:()=>boolean
@@ -23,6 +24,7 @@ const MIN_CHECK_GAP_MS=5000
  */
 export function startAppUpdates(worker:WorkerContainer,env:UpdateEnvironment){
  const {window:win,document:doc}=env
+ const base=env.basePath??'/'
  const visible=env.visible??(()=>doc.visibilityState==='visible')
  const editing=env.editing??(()=>{
   const active=doc.activeElement
@@ -48,7 +50,7 @@ export function startAppUpdates(worker:WorkerContainer,env:UpdateEnvironment){
   lastCheck=now()
   try{
    // Same stable origin, same scope; bypass HTTP cache for the worker and imports.
-   registration??=await worker.register('/sw.js',{scope:'/',updateViaCache:'none'})
+   registration??=await worker.register(base+'sw.js',{scope:base,updateViaCache:'none'})
    if(!stopped)await registration.update()
   }catch{
    // Offline, auth expiry or an incomplete deployment must not break cached reading.

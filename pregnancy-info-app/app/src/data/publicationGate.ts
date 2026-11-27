@@ -43,7 +43,7 @@ export const ACTIVE_HOLDS = [
   'DEFAULT_BLOCK_CLINICAL_PUBLICATION',
 ] as const
 
-// This private prototype has no owner-authorized clinical release mechanism.
+// This educational preview has no owner-authorized clinical release mechanism.
 // Individual record flags cannot override this global release lock.
 export const CLINICAL_RELEASE_ENABLED = false
 

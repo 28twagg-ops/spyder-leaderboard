@@ -23,7 +23,7 @@ let html = String(files.find(file => file.fileName === 'index.html').source)
 html = html.replace(/<script type="module"[^>]* src="[^"]+"[^>]*><\/script>/, '')
   .replace(/<link rel="stylesheet"[^>]*>/, () => '<style>' + css.source + '</style>')
   .replace(/<link rel="apple-touch-icon"[^>]*>/, '')
-  .replace('/favicon.svg', 'data:image/svg+xml;base64,' + (await readFile('public/favicon.svg')).toString('base64'))
+  .replace('/everwell-mark-v2.svg', 'data:image/svg+xml;base64,' + (await readFile('public/favicon.svg')).toString('base64'))
 const licenses = await Promise.all(['Fraunces', 'Manrope'].map(name => readFile('public/licenses/' + name + '.txt', 'utf8')))
 html = html.replace('</body>', () => '<script type="text/plain" id="font-licenses">' + licenses.join('\n') +
   '</script><script type="module">' + script.code.replace(/<\/script/gi, '<\\/script') + '</script></body>')

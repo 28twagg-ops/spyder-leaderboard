@@ -1,0 +1,78 @@
+name: Everwell educational preview · GitHub Pages
+
+on:
+  push:
+    branches: [everwell-iphone-preview]
+    paths:
+      - 'pregnancy-info-app/**'
+      - '.github/workflows/everwell-pages.yml'
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+concurrency:
+  group: everwell-pages
+  cancel-in-progress: false
+
+jobs:
+  build:
+    if: github.ref == 'refs/heads/everwell-iphone-preview'
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+    defaults:
+      run:
+        working-directory: pregnancy-info-app/app
+    steps:
+      - name: Check out candidate
+        uses: actions/checkout@v4
+        with:
+          persist-credentials: false
+      - name: Set up Node
+        uses: actions/setup-node@v4
+        with:
+          node-version: '26'
+          cache: npm
+          cache-dependency-path: pregnancy-info-app/app/package-lock.json
+      - name: Install locked dependencies
+        run: npm ci
+      - name: Validate research holds
+        run: npm run validate:research
+      - name: Lint
+        run: npm run lint
+      - name: Run tests
+        run: npm test
+      - name: Build static Pages app
+        run: |
+          npm run sync:research
+          npx --no-install tsc -b
+          npx --no-install vite build --mode pages
+          node scripts/finalize-pages.mjs
+          node scripts/check-production-media.mjs
+          node scripts/check-production-privacy.mjs
+          npm run audit:dependencies
+      - name: Stage Everwell only
+        run: |
+          mkdir -p "${{ runner.temp }}/everwell-pages/everwell"
+          cp -a dist/. "${{ runner.temp }}/everwell-pages/everwell/"
+          touch "${{ runner.temp }}/everwell-pages/.nojekyll"
+      - name: Upload Pages artifact
+        uses: actions/upload-pages-artifact@v3
+        with:
+          path: ${{ runner.temp }}/everwell-pages
+
+  deploy:
+    if: github.ref == 'refs/heads/everwell-iphone-preview'
+    needs: build
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    permissions:
+      pages: write
+      id-token: write
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - name: Publish validated Everwell preview
+        id: deployment
+        uses: actions/deploy-pages@v4

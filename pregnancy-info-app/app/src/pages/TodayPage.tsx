@@ -1,4 +1,5 @@
 import { useState } from 'react'
+import brandMark from '../assets/everwell-mark.svg'
 import { Link,useNavigate } from 'react-router-dom'
 import { PregnancyDateCard } from '../components/PregnancyDateCard'
 import { QuickTopics } from '../components/QuickTopics'
@@ -21,7 +22,7 @@ export function TodayPage({activePhaseId,currentWeek,onSearch}:{activePhaseId:st
  const extra=phase?phase.article_ids.flatMap(id=>{const a=getArticle(id);return a?[a]:[]}):[]
  const articles=[...new Map([...primary,...extra].map(a=>[a.id,a])).values()].slice(0,3)
  return <div className="reference-home">
- <header className="ref-header"><div className="ref-brand"><img className="brand-mark" src="/everwell-mark-v2.svg" alt=""/><h1>Everwell</h1></div><div className="ref-tools"><Link className="ref-tool" to="/saved"><Glyph name="bookmark"/>Saved</Link><Link className="ref-tool" to="/settings"><Glyph name="settings"/>Settings</Link></div></header>
+ <header className="ref-header"><div className="ref-brand"><img className="brand-mark" src={brandMark} alt=""/><h1>Everwell</h1></div><div className="ref-tools"><Link className="ref-tool" to="/saved"><Glyph name="bookmark"/>Saved</Link><Link className="ref-tool" to="/settings"><Glyph name="settings"/>Settings</Link></div></header>
  <form className="home-search" onSubmit={e=>{e.preventDefault();onSearch(search.trim());navigate('/library')}}><label className="visually-hidden" htmlFor="home-search">Search Everwell</label><div className="home-search-input"><Glyph name="search"/><input id="home-search" type="search" placeholder="Find any topic..." value={search} onChange={e=>setSearch(e.target.value)} autoComplete="off" maxLength={200}/></div><button type="submit" aria-label="Search topics">Search</button></form>
  <section className="home-intro"><h2>Your {phase?stageNames[phase.track]??'family':'family'} journey.</h2><p>Find what you need, when you need it.</p></section>
  <section className="ref-phase" aria-labelledby="start-heading"><span className="ref-phase-label">Your life stage</span><h2 id="start-heading">{phase?.label??'Explore at your own pace'}</h2><p>{phase?plainPhaseFocus(phase.id,phase.focus):'Choose your stage, or explore without setting one.'}</p><div className="ref-phase-actions"><Link to={currentWeek!==null?`/timeline/week/${currentWeek}`:phase?`/timeline/${phase.track}/${phase.id}`:'/timeline'}>Explore timeline <span aria-hidden="true">›</span></Link><PhasePicker/></div></section>

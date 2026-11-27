@@ -5,7 +5,7 @@ import App from './App'
 import { startAppUpdates } from './pwa/autoUpdates'
 import './index.css'
 
-const Router = import.meta.env.MODE === 'portable' ? HashRouter : BrowserRouter
+const Router = ['portable','pages'].includes(import.meta.env.MODE) ? HashRouter : BrowserRouter
 
 createRoot(document.getElementById('root')!).render(
   <StrictMode>
@@ -20,6 +20,7 @@ if (import.meta.env.PROD && import.meta.env.MODE !== 'portable' && 'serviceWorke
   startAppUpdates(navigator.serviceWorker, {
     window,
     document,
+    basePath: import.meta.env.BASE_URL,
     online: () => navigator.onLine,
     reload: () => window.location.reload(),
   })
