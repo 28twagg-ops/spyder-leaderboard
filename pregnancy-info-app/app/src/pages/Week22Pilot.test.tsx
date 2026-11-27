@@ -62,6 +62,14 @@ describe('week 22 visual directory',()=>{
   expect(await screen.findByRole('heading',{name:'Week 24'})).toBeVisible()
   expect(screen.queryByRole('navigation',{name:'Development topics'})).not.toBeInTheDocument()
  })
+ it('preserves the baby size view when moving between pilot weeks',async()=>{
+  view('/timeline/week/22?subject=baby')
+  expect(screen.getByText('10.9 in')).toBeVisible()
+  fireEvent.click(screen.getByRole('link',{name:'Next week'}))
+  expect(await screen.findByRole('heading',{name:'Week 23'})).toBeVisible()
+  expect(screen.getByText('11.4 in')).toBeVisible()
+  expect(screen.getByRole('button',{name:/Baby/})).toHaveAttribute('aria-pressed','true')
+ })
  it('maps all 111 source IDs and 18 outcomes without enabling held evidence',()=>{
   const children=skinSections.flatMap(s=>s.children)
   const ids=[...new Set(children.flatMap(c=>c.source_ids))]

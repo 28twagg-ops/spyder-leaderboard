@@ -7,8 +7,13 @@ import {getArticle,timeline} from '../data/researchCatalog'
 import {getEvidenceSource,outcomes} from '../data/evidenceCatalog'
 import {skinSections,slug,sourceGroups,sourceAliasHeld,subsectionOutcomes} from '../data/skinTopicMap'
 import {getVisual} from '../data/visualCatalog'
+import {topicEditorial,skinSpecific} from '../data/weekEditorial'
 afterEach(()=>{cleanup();localStorage.clear()})
 describe('expanded week 22 topic coverage',()=>{
+ it('provides specific cited editorial sections for every mapped reading',()=>{
+  for(const t of week22Topics)for(const c of t.children){const entry=topicEditorial[t.subject+'/'+t.id+'/'+c.id];expect(entry.sections.length).toBeGreaterThanOrEqual(2);for(const part of entry.sections)for(const id of part.refs)expect(getEvidenceSource(id)).toBeDefined()}
+  for(const group of skinSections)for(const c of group.children){const key=slug(c.title);if(key==='creams-and-moisturizers')continue;expect(skinSpecific[key].length).toBeGreaterThanOrEqual(2);for(const part of skinSpecific[key])for(const id of part.refs)expect(getEvidenceSource(id)).toBeDefined()}
+ })
  it('covers every second trimester article with valid references and unique routes',()=>{
   const children=week22Topics.flatMap(t=>t.children)
   const mapped=new Set(['EV-ART-018',...children.flatMap(c=>c.article_ids)])
