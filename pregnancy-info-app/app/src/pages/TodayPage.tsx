@@ -13,14 +13,12 @@ import { editorialPriorityLabel } from '../data/researchGate'
 import { useLocalPrefs } from '../hooks/useLocalPrefs'
 
 export function TodayPage() {
-  const { prefs, setTheme } = useLocalPrefs()
+  const { prefs, setTheme, setPhase } = useLocalPrefs()
   const stats = catalogStats()
   const startingPhase =
     timeline.find((p) => p.id === prefs.selectedPhaseId) ??
-    timeline.find((p) => p.track === 'preconception' && p.id === 'PRE04') ??
-    timeline.find((p) => p.track === 'pregnancy') ??
-    timeline[0]
-  const featured = featuredForPhase(startingPhase).slice(0, 3)
+    null
+  const featured = startingPhase ? featuredForPhase(startingPhase).slice(0, 3) : []
   const urgent = urgentArticles().slice(0, 2)
 
   return (
@@ -43,6 +41,15 @@ export function TodayPage() {
       </header>
 
       <ThemePicker value={prefs.themeId} onChange={setTheme} />
+      <section className="panel stack">
+        <label htmlFor="reading-phase">Optional reading phase</label>
+        <select id="reading-phase" value={startingPhase?.id ?? ''} onChange={(event) => setPhase(event.target.value || null)} style={{ minHeight: 44 }}>
+          <option value="">Browse without selecting a phase</option>
+          {timeline.map((phase) => <option key={phase.id} value={phase.id}>{phase.track.replaceAll('_', ' ')} · {phase.label} · {phase.focus}</option>)}
+        </select>
+        <p className="muted">Stored only in this browser. This selection is a reading filter, not a record of pregnancy, a diagnosis or a care schedule.</p>
+        <Link to="/library">Search topics and manage saved items</Link>
+      </section>
 
       <DraftBanner status="research_only" />
       <OfflineBanner />
@@ -51,10 +58,10 @@ export function TodayPage() {
         <div>
           <div className="badge">Starting points</div>
           <h2 id="start-heading" style={{ margin: '0.55rem 0 0.2rem', fontSize: '1.2rem' }}>
-            {startingPhase.label}
+            {startingPhase?.label ?? 'Explore at your own pace'}
           </h2>
           <p className="muted" style={{ margin: 0 }}>
-            {startingPhase.focus}. {startingPhase.featured_note}
+            {startingPhase ? [startingPhase.focus, startingPhase.featured_note].filter(Boolean).join('. ') : 'Choose any phase above or browse all topics. No timeline is assumed.'}
           </p>
           <p className="muted" style={{ margin: '0.45rem 0 0', fontSize: '0.85rem' }}>
             Inventory loaded: {stats.articles} articles · {stats.phases} phases ·{' '}
