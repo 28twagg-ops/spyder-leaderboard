@@ -1,0 +1,90 @@
+{
+  "date": "2026-11-27",
+  "batch": "01",
+  "scope": "Completed targeted integrity and identity/rights checks only; no full scientific appraisal or release. Four quarantined records are outside counted inventory; three counted records receive partial audit.",
+  "counted_ids": [
+    "S001",
+    "P3-01",
+    "VIS6-001"
+  ],
+  "checks": [
+    {
+      "ids": [
+        "S001",
+        "P3-01"
+      ],
+      "identity": "Same 2012 Cochrane review CD000066, DOI 10.1002/14651858.CD000066.pub2, PMID 23152199, PMCID PMC10001689; consolidate as one evidence report without deleting either ID.",
+      "sources": [
+        "https://www.cochrane.org/evidence/CD000066_topical-preparations-preventing-stretch-marks-pregnancy",
+        "https://pubmed.ncbi.nlm.nih.gov/23152199/",
+        "https://pmc.ncbi.nlm.nih.gov/articles/PMC10001689/"
+      ],
+      "outcome": "Incident stretch marks: RR 0.74 (95% CI 0.53–1.03), 5 trials, 474 participants, I² 65%; no statistically significant pooled prevention benefit; does not establish that every ingredient is ineffective or safe.",
+      "method": "Six trials overall; variation in products and trial quality; formal review-level risk of bias, trial-level overlap, harms and updated evidence pending.",
+      "funding": "Indexed full-text excerpt reports ET Browne Drug Company supplied both lotions in Osman 2008; Taavoni 2011 reported no funding; remaining included trials' funding not identified. Review-level disclosures and sponsor roles pending; direct PMC open blocked by CAPTCHA.",
+      "article_applicability": "EV-ART-018 and C-SKIN-001/C-O001; avoid counting duplicate reports as independent; no specific product recommendation or chart release.",
+      "status": "partial_external_identity_outcome_check"
+    },
+    {
+      "ids": [
+        "VIS6-001"
+      ],
+      "sources": [
+        "https://smart.servier.com/smart_image/embryo/",
+        "https://smart.servier.com/terms-of-use/",
+        "https://smart.servier.com/how-to-cite-servier-medical-art/"
+      ],
+      "identity": "Individual Embryo illustration page identifies creator service provided by Les Laboratoires Servier; CC BY 4.0 permits commercial reuse and adaptations with attribution.",
+      "rights": "License page and exact asset landing page verified; actual file, anatomy, developmental timing and any adaptations not inspected; reuse approval remains false.",
+      "article_applicability": "Development illustration only, no week-specific timing or treatment claim.",
+      "status": "partial_external_license_check"
+    }
+  ],
+  "integrity_checks": [
+    {
+      "pmid": "37073619",
+      "notice": "37553823",
+      "status": "retracted",
+      "sources": [
+        "https://pubmed.ncbi.nlm.nih.gov/37073619/",
+        "https://pubmed.ncbi.nlm.nih.gov/37553823/"
+      ],
+      "finding": "Exposure data collection design flaws invalidate conclusions; neither risk estimates nor reassurance may be derived from retracted work."
+    },
+    {
+      "pmid": "24132976",
+      "notice": "33966084",
+      "status": "retracted",
+      "sources": [
+        "https://pubmed.ncbi.nlm.nih.gov/24132976/",
+        "https://pubmed.ncbi.nlm.nih.gov/33966084/"
+      ],
+      "finding": "PubMed links 2021 retraction and prior expression of concern; exclude effect estimates from GDM supplement synthesis."
+    },
+    {
+      "pmid": "30459099",
+      "notice": "40849194",
+      "status": "retracted",
+      "sources": [
+        "https://pubmed.ncbi.nlm.nih.gov/30459099/",
+        "https://pubmed.ncbi.nlm.nih.gov/40849194/"
+      ],
+      "finding": "Original record and 2025 retraction linked; exclude vitamin D/probiotic effects, review dependent syntheses."
+    },
+    {
+      "pmid": "25372774",
+      "notice": "40648094",
+      "status": "note of concern; not established retracted",
+      "sources": [
+        "https://pubmed.ncbi.nlm.nih.gov/25372774/",
+        "https://pubmed.ncbi.nlm.nih.gov/40648094/"
+      ],
+      "finding": "2025 note of concern verified; retain quantitative and recommendation hold pending resolution."
+    }
+  ],
+  "clinical_review": false,
+  "publish": false,
+  "automation_allowed": false,
+  "reuse_approved": false,
+  "remaining": "Full funding, commercial ties, sponsor roles, study family, methods, outcomes, safety and article-level audit remain pending; integrity notices not independent clinical evidence."
+}
