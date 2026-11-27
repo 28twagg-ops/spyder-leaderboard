@@ -1,0 +1,232 @@
+{
+  "stage": 7,
+  "batch": "07",
+  "date": "2026-11-27",
+  "scope": "14 counted records targeted high-risk evidence review, not full appraisal. Preserve all existing holds.",
+  "counted_ids": [
+    "CS5-034",
+    "CS5-038",
+    "CS5-040",
+    "CS5-042",
+    "CS5-050",
+    "CS5-059",
+    "CS5-061",
+    "CS5-063",
+    "CS5-065",
+    "CS5-067",
+    "CS5-069",
+    "CS5-073",
+    "CS5-076",
+    "CS5-082"
+  ],
+  "checks": [
+    {
+      "id": "CS5-034",
+      "pmid": "28657417",
+      "sources": [
+        "https://www.nejm.org/doi/full/10.1056/nejmoa1704559",
+        "https://pubmed.ncbi.nlm.nih.gov/28657417/"
+      ],
+      "findings": "ASPRE double-blind RCT, 1776 high-risk singleton pregnancies; preterm preeclampsia 1.6% vs 4.3%, OR 0.38 (0.20–0.74). EU FP7 and Fetal Medicine Foundation grants, UCL regulatory sponsor; authors report funders and product suppliers had no role in design, analysis or reporting. Not a general self-medication protocol; verify eligibility, harms, author disclosures and current guidelines.",
+      "verification_scope": "Selected primary article/registry or institutional repository indexed passages; no complete original-source or formal risk-of-bias appraisal",
+      "status": "partial_external_check",
+      "clinical_review": false,
+      "publish": false,
+      "automation_allowed": false
+    },
+    {
+      "id": "CS5-038",
+      "pmid": "38592388",
+      "sources": [
+        "https://pmc.ncbi.nlm.nih.gov/articles/PMC11004836/",
+        "https://doi.org/10.1001/jama.2024.3172"
+      ],
+      "findings": "Swedish population cohort 2,480,797 children, sibling-control analysis did not find association with autism, ADHD or intellectual disability. NIH/NINDS R01NS107607; authors report no sponsor role; Swedish Research Council author grant disclosed. Sibling analysis addresses shared familial confounding but not all time-varying confounding or exposure error. No claim of universal safety or prescribing advice.",
+      "verification_scope": "Selected primary article/registry or institutional repository indexed passages; no complete original-source or formal risk-of-bias appraisal",
+      "status": "partial_external_check",
+      "clinical_review": false,
+      "publish": false,
+      "automation_allowed": false
+    },
+    {
+      "id": "CS5-040",
+      "pmid": "42660286",
+      "sources": [
+        "https://pubmed.ncbi.nlm.nih.gov/42660286/"
+      ],
+      "findings": "Prescription-based paracetamol cohort: ASD/ADHD at age 6 aRR 1.15 (0.96–1.39) and 1.09 (0.85–1.40); pre-pregnancy prescription comparator yields 1.01 for both, with wide intervals. Supports concern about confounding by illness, not proof of zero risk. Prescription redemption differs from ingestion and OTC exposure. Funding and sponsor role pending.",
+      "verification_scope": "Selected primary article/registry or institutional repository indexed passages; no complete original-source or formal risk-of-bias appraisal",
+      "status": "partial_external_check",
+      "clinical_review": false,
+      "publish": false,
+      "automation_allowed": false
+    },
+    {
+      "id": "CS5-042",
+      "pmid": "16616557",
+      "sources": [
+        "https://pubmed.ncbi.nlm.nih.gov/16616557/",
+        "https://researchnow.flinders.edu.au/en/publications/vitamin-c-and-vitamin-e-in-pregnant-women-at-risk-for-pre-eclamps/"
+      ],
+      "findings": "VIP randomized placebo trial found no prevention of preeclampsia and increased low birthweight in at-risk group; Wellcome Trust with Tommy's charity support documented by university repository. Full sponsor role and author disclosures pending. Distinguish high-dose prevention intervention from dietary adequacy.",
+      "verification_scope": "Selected primary article/registry or institutional repository indexed passages; no complete original-source or formal risk-of-bias appraisal",
+      "status": "partial_external_check",
+      "clinical_review": false,
+      "publish": false,
+      "automation_allowed": false
+    },
+    {
+      "id": "CS5-050",
+      "pmid": "21529757",
+      "sources": [
+        "https://pubmed.ncbi.nlm.nih.gov/21529757/"
+      ],
+      "findings": "Systematic review of C/E prevention trials: preeclampsia 9.6% in both arms, RR 1.00 (0.92–1.09); not another independent primary trial. Verify included VIP and other trial membership, harms, review-level funding and bias before synthesis.",
+      "verification_scope": "Selected primary article/registry or institutional repository indexed passages; no complete original-source or formal risk-of-bias appraisal",
+      "status": "partial_external_check",
+      "clinical_review": false,
+      "publish": false,
+      "automation_allowed": false
+    },
+    {
+      "id": "CS5-059",
+      "pmid": "33990364",
+      "sources": [
+        "https://pubmed.ncbi.nlm.nih.gov/33990364/",
+        "https://clinicaltrials.gov/study/NCT04024865"
+      ],
+      "findings": "Canadian multidatabase postpartum domperidone cohort and registry are same study family; CNODES named registry sponsor, cash funding not established by that fact. Rare ventricular tachycardia/sudden death endpoint, observational residual confounding and low event counts; do not present low absolute frequency as safety assurance or off-label instruction.",
+      "verification_scope": "Selected primary article/registry or institutional repository indexed passages; no complete original-source or formal risk-of-bias appraisal",
+      "status": "partial_external_check",
+      "clinical_review": false,
+      "publish": false,
+      "automation_allowed": false
+    },
+    {
+      "id": "CS5-061",
+      "pmid": "36717966",
+      "sources": [
+        "https://pubmed.ncbi.nlm.nih.gov/36717966/",
+        "https://research.monash.edu/en/publications/my-babys-movements-an-assessment-of-the-effectiveness-of-the-my-b/"
+      ],
+      "findings": "Secondary MBM app-use analysis from Australia/NZ parent trial; low uptake, not independently randomized app use; association with induction/early term birth, no stillbirth association. NHMRC APP1067363, Stillbirth Foundation Australia app development support. Sponsor role and commercial ties pending. No reassurance to delay assessment.",
+      "verification_scope": "Selected primary article/registry or institutional repository indexed passages; no complete original-source or formal risk-of-bias appraisal",
+      "status": "partial_external_check",
+      "clinical_review": false,
+      "publish": false,
+      "automation_allowed": false
+    },
+    {
+      "id": "CS5-063",
+      "pmid": "34555257",
+      "sources": [
+        "https://pubmed.ncbi.nlm.nih.gov/34555257/",
+        "https://research.monash.edu/en/publications/my-babys-movements-a-stepped-wedge-cluster-randomised-controlled--2/"
+      ],
+      "findings": "MBM stepped-wedge cluster RCT awareness package did not significantly reduce stillbirth. NHMRC APP1067363 confirmed. Same trial family as CS5-061; secular trends and implementation fidelity need appraisal. Do not conflate package-level result with guidance on reduced fetal movements.",
+      "verification_scope": "Selected primary article/registry or institutional repository indexed passages; no complete original-source or formal risk-of-bias appraisal",
+      "status": "partial_external_check",
+      "clinical_review": false,
+      "publish": false,
+      "automation_allowed": false
+    },
+    {
+      "id": "CS5-065",
+      "pmid": "22365343",
+      "sources": [
+        "https://pubmed.ncbi.nlm.nih.gov/22365343/"
+      ],
+      "findings": "French/English systematic review of infant-colic treatment RCTs and meta-analyses. Language restriction and inclusion of both primary and secondary research require overlap check. Original outcome and disclosure extraction incomplete; no infant manipulation or drug protocol.",
+      "verification_scope": "Selected primary article/registry or institutional repository indexed passages; no complete original-source or formal risk-of-bias appraisal",
+      "status": "partial_external_check",
+      "clinical_review": false,
+      "publish": false,
+      "automation_allowed": false
+    },
+    {
+      "id": "CS5-067",
+      "pmid": "34617008",
+      "sources": [
+        "https://pmc.ncbi.nlm.nih.gov/articles/PMC8489520/",
+        "https://pubmed.ncbi.nlm.nih.gov/34617008/"
+      ],
+      "findings": "Ontario general patient database cohort of metoclopramide versus domperidone; population not specifically postpartum. ICES Western core institutional support described; study-level funding and sponsor roles need further extraction. Indirect safety evidence, not postpartum efficacy or proof of equivalence.",
+      "verification_scope": "Selected primary article/registry or institutional repository indexed passages; no complete original-source or formal risk-of-bias appraisal",
+      "status": "partial_external_check",
+      "clinical_review": false,
+      "publish": false,
+      "automation_allowed": false
+    },
+    {
+      "id": "CS5-069",
+      "pmid": "37119443",
+      "sources": [
+        "https://pubmed.ncbi.nlm.nih.gov/37119443/"
+      ],
+      "findings": "Spanish-affiliated complementary medicine systematic review/meta-analysis did not show efficacy for infant colic. Need exact outcomes, comparator/blinding, pooling of disparate interventions, primary-trial overlap and disclosures; no infant manipulation instruction.",
+      "verification_scope": "Selected primary article/registry or institutional repository indexed passages; no complete original-source or formal risk-of-bias appraisal",
+      "status": "partial_external_check",
+      "clinical_review": false,
+      "publish": false,
+      "automation_allowed": false
+    },
+    {
+      "id": "CS5-073",
+      "pmid": "27631535",
+      "sources": [
+        "https://www.cochrane.org/evidence/CD009999_pain-relieving-agents-infantile-colic",
+        "https://pmc.ncbi.nlm.nih.gov/articles/PMC6457752/"
+      ],
+      "findings": "Cochrane review CD009999, sparse small and older trials with methodological limitations; no evidence supporting simethicone, insufficient basis to recommend other reviewed agents. Public, academic and commercial trial funding reported; specific study sponsors need extraction. No infant drug or herbal regimen.",
+      "verification_scope": "Selected primary article/registry or institutional repository indexed passages; no complete original-source or formal risk-of-bias appraisal",
+      "status": "partial_external_check",
+      "clinical_review": false,
+      "publish": false,
+      "automation_allowed": false
+    },
+    {
+      "id": "CS5-076",
+      "pmid": "26165396",
+      "sources": [
+        "https://pubmed.ncbi.nlm.nih.gov/26165396/"
+      ],
+      "findings": "UPBEAT randomized behavioral intervention in pregnant people with obesity; no prevention of GDM or large-for-gestational-age outcome in studied group. NIHR, Guy's and St Thomas' Charity, Scottish Chief Scientist Office and Tommy's listed. Full sponsor involvement, author ties and population applicability pending.",
+      "verification_scope": "Selected primary article/registry or institutional repository indexed passages; no complete original-source or formal risk-of-bias appraisal",
+      "status": "partial_external_check",
+      "clinical_review": false,
+      "publish": false,
+      "automation_allowed": false
+    },
+    {
+      "id": "CS5-082",
+      "pmid": "41494781",
+      "sources": [
+        "https://www.bmj.com/content/392/bmj-2025-084159.full",
+        "https://eprints.ncl.ac.uk/309983"
+      ],
+      "findings": "IPD/network meta-analysis: overall IPD OR 0.90 (0.80–1.02), combined IPD/non-IPD 0.80 (0.73–0.88), NICE-definition 0.98 (0.84–1.13); effects vary by diagnostic criteria and intervention type. NIHR HTA NIHR129715. IPD availability, network transitivity, overlapping studies, sponsor and author roles require further review.",
+      "verification_scope": "Selected primary article/registry or institutional repository indexed passages; no complete original-source or formal risk-of-bias appraisal",
+      "status": "partial_external_check",
+      "clinical_review": false,
+      "publish": false,
+      "automation_allowed": false
+    }
+  ],
+  "study_family_updates": [
+    {
+      "ids": [
+        "CS5-061",
+        "CS5-063"
+      ],
+      "relationship": "MBM parent stepped-wedge trial and secondary app-use analysis; not independent replication"
+    },
+    {
+      "id": "CS5-059",
+      "registry": "NCT04024865",
+      "relationship": "registry and associated cohort report; do not double count"
+    }
+  ],
+  "clinical_review": false,
+  "publish": false,
+  "automation_allowed": false
+}
