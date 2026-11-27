@@ -849,8 +849,8 @@ button.reader-back:focus-visible{outline-offset:3px}
 .pilot-header h1.page-title{font:500 clamp(2.1rem,9vw,2.65rem)/1.08 var(--font-display);letter-spacing:-.035em;margin:0}
 .pilot-header>p{margin:0;color:var(--ink-muted);font-size:.86rem;line-height:1.45}
 .pilot-progress{display:grid;gap:.28rem;margin-top:.2rem}
-.pilot-progress>div{height:5px;background:var(--bg-soft);border-radius:4px;overflow:hidden}
-.pilot-progress>div>span{height:100%;display:block;background:var(--accent)}
+.pilot-progress>div:first-child{height:5px;background:var(--bg-soft);border-radius:4px;overflow:hidden}
+.pilot-progress>div:first-child>span{height:100%;display:block;background:var(--accent)}
 .pilot-progress small{font-size:.7rem;color:var(--ink-muted)}
 .pilot-subject{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:3px;padding:3px;border:1px solid var(--line);border-radius:12px;background:var(--bg-soft)}
 .pilot-subject button{min-height:48px;padding:.35rem .4rem;border:1px solid transparent;border-radius:9px;background:none;color:var(--ink-muted);font:650 .93rem/1.25 var(--font-body);cursor:pointer;display:grid;gap:.12rem;justify-items:center}
