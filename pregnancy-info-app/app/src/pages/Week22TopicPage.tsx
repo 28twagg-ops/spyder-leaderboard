@@ -1,5 +1,7 @@
 import { Link,useParams } from 'react-router-dom'
 import {ScreenHeading,ReadingRow} from '../components/ReadingUI'
+import {EditorialReadingRow} from '../components/EditorialArticle'
+import {plainReading} from '../data/plainReading'
 import {DraftBanner} from '../components/DraftBanner'
 import {TopicArt} from './Week22Pilot'
 import {Footnote,SourceDisclosure,NumericRecords} from './SkinTopicPage'
@@ -35,12 +37,12 @@ export function Week22TopicPage(){
  <div className="pilot-visual"><TopicArt subject={t.subject==='mother'?'mother':'baby'} topic={t.id}/></div>
  <p className="skin-lede">{c?.summary??t.summary}</p><p className="small-copy muted">Topic context: <Footnote id={t.source_id} n={1}/> · Detailed claim sources below.</p>
  <small className="muted">Concept illustration · Research draft</small>
- {!c?<><div className="surface-list">{t.children.map(item=><ReadingRow key={item.id} to={path+'/'+item.id} title={item.title} subtitle={item.summary}/>)}</div>{t.subject==='baby'&&<details className="panel disclosure"><summary>Original week description</summary><p>{week?.description}</p><p>{week?.interpretation}</p><Footnote id="PED-GESTATION" n={1}/></details>}</>:<>
+ {!c?<><h2 className="section-title">Read about it</h2><div className="ref-rows">{t.children.map((item,index)=><EditorialReadingRow key={item.id} index={index} to={path+'/'+item.id} title={item.title} subtitle={item.summary}/>)}</div>{t.subject==='baby'&&<details className="panel disclosure"><summary>Original week description</summary><p>{week?.description}</p><p>{week?.interpretation}</p><Footnote id="PED-GESTATION" n={1}/></details>}</>:<>
  <StudyComparison id={c.id}/>
  {c.note&&<p className="skin-lede">{c.note}</p>}
  {c.visual_ids.length>0&&<section className="stack"><h2 className="section-title">See the original illustration</h2>{c.visual_ids.map(id=><ReadingRow key={id} to={'/visuals/'+id} title={getVisual(id)?.title??id} subtitle="Original reference · review pending"/>)}</section>}
- <section className="stack"><h2 className="section-title">What the research covers</h2>{c.article_ids.map(id=>{const a=getArticle(id);return a?<div key={id} className="skin-finding"><h3 className="section-title">{a.title}</h3><p>{a.quick_answer}</p><p className="small-copy muted">{a.visible_safety}</p><p className="small-copy muted">Archived draft references: {a.source_ids.map((id,i)=><Footnote key={id} id={id} n={i+1}/>)}</p><ReadingRow to={'/research/'+id} title="Full research, FAQs &amp; sources" subtitle={a.title}/></div>:null})}</section>
- <SourceDisclosure ids={c.source_ids}/><NumericRecords ids={c.outcome_ids}/>
+ <section className="stack editorial-article"><h2>Read the story</h2><p className="small-copy muted">Plain-language research drafts · medical review pending</p>{c.article_ids.map((id,index)=>{const a=getArticle(id);const plain=plainReading(id);return a?<details key={id} className="editorial-more disclosure"><summary>{a.title}</summary><p>{plain?.detail??a.quick_answer}</p><p className="small-copy muted">{a.visible_safety}</p><p className="small-copy muted">Related archive references: {a.source_ids.map((id,i)=><Footnote key={id} id={id} n={i+1}/>)}</p><EditorialReadingRow index={index} to={'/research/'+id} title="Full research, FAQs & sources" subtitle={a.title}/></details>:null})}</section>
+ <h2 className="section-title">Research &amp; limitations</h2><SourceDisclosure ids={c.source_ids}/><NumericRecords ids={c.outcome_ids}/><h2 className="section-title">Related reading</h2><div className="ref-rows">{t.children.filter(item=>item.id!==c.id).map((item,index)=><EditorialReadingRow key={item.id} index={index} to={path+'/'+item.id} title={item.title}/>)}</div>
  </>}
  <div className="pilot-safety"><strong>Safety comes first</strong><p>Contact your maternity care team immediately if usual baby movements slow, stop or change. Urgent signs override routine reading.</p><Link to="/urgent">Know the warning signs ›</Link></div><DraftBanner status="research_only"/>
  </div>
