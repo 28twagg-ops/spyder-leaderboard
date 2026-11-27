@@ -110,7 +110,7 @@ export function TimelinePage() {
               const maternal = timeline.find((phase) => phase.id === week.maternal_phase)
               const fetal = week.fetal_article_id ? getArticle(week.fetal_article_id) : undefined
               return (
-                <details key={week.week} className="panel disclosure" open={!!chosenWeek}>
+                <details key={week.week} id={`week-${week.week}`} className="panel disclosure" open={!!chosenWeek}>
                   <summary>Week {week.week}</summary>
                   <p>{week.description}</p>
                   {week.source_window_start != null && week.source_window_end != null && (

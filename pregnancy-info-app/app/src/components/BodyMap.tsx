@@ -1,4 +1,5 @@
 import { Link } from 'react-router-dom'
+import { useState } from 'react'
 import { getArticle } from '../data/researchCatalog'
 
 const regions = [
@@ -9,6 +10,8 @@ const regions = [
 ] as const
 
 export function BodyMap() {
+  const [selected,setSelected]=useState<string>('skin')
+  const active=regions.find(r=>r.id===selected)??regions[0]
   return (
     <section className="stack" aria-labelledby="body-map-heading">
       <div>
@@ -24,24 +27,18 @@ export function BodyMap() {
           {regions.map((region, i) => (
             <g key={region.id}>
               <path d={`M ${region.x} ${region.y} L ${region.labelX < 100 ? region.labelX + 54 : region.labelX - 6} ${region.labelY + 10}`} stroke="var(--accent)" strokeWidth="1.2" fill="none" />
-              <circle cx={region.x} cy={region.y} r="11" fill="var(--button-surface)" />
+              <circle cx={region.x} cy={region.y} r={selected===region.id?13:10} fill={selected===region.id?"var(--button-surface)":"var(--accent)"} />
               <text x={region.x} y={region.y + 4} textAnchor="middle" fontSize="11" fill="var(--map-marker-ink)" fontWeight="700">{i + 1}</text>
               <text x={region.labelX} y={region.labelY} fontSize="10.5" fill="var(--ink)">{region.label}</text>
             </g>
           ))}
         </svg>
-        <figcaption>Illustrative topic positions only. Use the accessible links below to open the corresponding research topics.</figcaption>
+        <figcaption>Illustrative topic positions only. Choose a body area to see related topics.</figcaption>
       </figure>
-      <div className="region-grid">
-        {regions.map((region, i) => (
-          <details className="panel disclosure" key={region.id}><summary>{i + 1}. {region.label}</summary>
-            {region.articleIds.map((id) => {
-              const article = getArticle(id)
-              return article ? <Link key={id} className="topic-link" to={`/research/${id}`}>{article.title}</Link> : null
-            })}
-          </details>
-        ))}
+      <div className="region-grid" aria-label="Choose a body region">
+        {regions.map((region,i)=><button type="button" className="btn btn-ghost" key={region.id} aria-pressed={selected===region.id} onClick={()=>setSelected(region.id)}>{i+1}. {region.label}</button>)}
       </div></div>
+      <section className="panel stack" aria-live="polite"><h3 className="section-title">{active.label}</h3>{active.articleIds.map(id=>{const a=getArticle(id);return a?<Link key={id} className="topic-link" to={`/research/${id}`}>{a.title} ›</Link>:null})}</section>
       <div className="panel stack">
         <h3 className="section-title">Beyond anatomy</h3>
         <Link className="topic-link" to="/research/EV-ART-005">Nutrition and supplements</Link>

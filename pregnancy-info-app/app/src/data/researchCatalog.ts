@@ -1,3 +1,4 @@
+import { createTopicSearch } from './topicSearch'
 import actionsJson from './imported/actions.json'
 import articlesJson from './imported/articles.json'
 import faqJson from './imported/faq.json'
@@ -218,13 +219,11 @@ export function catalogStats() {
 }
 
 
-/** Plain text matching in source order; no medical ranking or recommendation. */
-export function searchArticles(query = '', domain = 'all') {
-  const terms = query.toLowerCase().trim().split(/\s+/).filter(Boolean)
-  return articles.filter((article) => {
-    if (domain !== 'all' && article.domain !== domain) return false
-    const questions = (article.faq_ids ?? []).map((id) => getFaq(id)?.question ?? '')
-    const text = [article.id, article.title, article.domain, article.quick_answer, article.learn_more, ...questions, ...article.source_ids].filter(Boolean).join(' ').toLowerCase()
-    return terms.every((term) => text.includes(term))
-  })
+/** Local topic relevance; never a ranking of medical treatments. */
+const topicSearch=createTopicSearch(articles.map(article=>{
+ const questions=(article.faq_ids??[]).map(id=>getFaq(id)?.question??'')
+ return {...article,body:[article.id,article.title,article.domain,article.quick_answer,article.learn_more,...questions,...article.source_ids].filter(Boolean).join(' ')}
+}))
+export function searchArticles(query='',domain='all'):ResearchArticle[]{
+ return topicSearch(query,domain).map(item=>articleById.get(item.id)!).filter(Boolean)
 }
