@@ -1,25 +1,27 @@
-import { Link } from 'react-router-dom'
+import { Link, useParams } from 'react-router-dom'
+import { domainLabels } from './LibraryPage'
 import { BodyMap } from '../components/BodyMap'
 import { DraftBanner } from '../components/DraftBanner'
-import { OfflineBanner } from '../components/OfflineBanner'
 import { articlesByDomain, listDomains } from '../data/researchCatalog'
 
 export function ExplorePage() {
   const domains = listDomains()
+  const {domain}=useParams()
+  if(domain && domains.includes(domain)) return <div className="stack-lg"><Link className="reader-back" to="/explore">‹ Explore</Link><h1 className="page-title">{domainLabels[domain]??domain}</h1><DraftBanner status="research_only"/><section className="result-list">{articlesByDomain(domain).map(a=><Link className="topic-link" key={a.id} to={`/research/${a.id}`}>{a.title} ›</Link>)}</section></div>
 
   return (
     <div className="stack-lg">
       <header className="stack">
-        <div className="eyebrow">Explore · {domains.length} domains</div>
+        <div className="eyebrow">Explore</div>
         <h1 style={{ fontFamily: 'var(--font-display)', margin: 0, fontSize: '1.8rem' }}>
-          Explore your body
+          Explore
         </h1>
         <p className="lede" style={{ margin: 0 }}>
           Choose an area or browse a topic. Labels organize reading, not medical priorities.
         </p>
       </header>
       <DraftBanner status="research_only" />
-      <OfflineBanner />
+      
 
       <div className="cta-row">
         <Link className="btn btn-primary" to="/library">Search topics</Link>
@@ -27,11 +29,8 @@ export function ExplorePage() {
       </div>
       <BodyMap />
 
-      <section className="domain-list" aria-label="All domains"><h2 className="section-title">All topics</h2>
-        {domains.map(domain => <details key={domain} id={`domain-${domain}`} className="disclosure"><summary>{domain.replaceAll('_',' ')}</summary>
-          {articlesByDomain(domain).map(article => <Link key={article.id} className="topic-link" to={`/research/${article.id}`}>{article.title}</Link>)}
-        </details>)}
-      </section>
+      <section className="domain-list" aria-label="All domains"><h2 className="section-title">Browse topics</h2>
+      <div className="result-list">{domains.map(d=><Link className="topic-link" key={d} to={`/explore/${d}`}>{domainLabels[d]??d} <span aria-hidden="true">›</span></Link>)}</div></section>
     </div>
   )
 }

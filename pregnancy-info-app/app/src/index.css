@@ -593,3 +593,26 @@ body{line-height:1.42}
 .body-compact{display:grid;grid-template-columns:minmax(0,.9fr) minmax(0,1fr);align-items:start;gap:.5rem}.body-compact figure{padding:.3rem;border:0;background:transparent}.body-compact .region-grid{grid-template-columns:1fr;gap:.35rem}.body-compact .region-grid .panel{padding:.25rem .45rem}.body-compact .region-grid summary{font-size:.85rem}.body-compact figcaption{font-size:.7rem}
 .domain-list{border-top:1px solid var(--line)}.domain-list>details{border-bottom:1px solid var(--line);padding:.05rem 0}.domain-list>details>summary{font-family:var(--font-display);font-size:1.03rem;font-weight:500}.domain-list .topic-link{font-size:.86rem}
 @media(max-width:360px){.app-shell{padding-left:12px;padding-right:12px}}@media(min-width:760px){.editorial-home{max-width:680px;margin:auto}}
+
+/* Four-tab owner preview: original Morning Stone tokens unchanged. */
+:root{--nav-h:6.9rem}
+.bottom-nav-inner{grid-template-columns:repeat(4,minmax(0,1fr))}
+.global-urgent{display:flex;align-items:center;justify-content:center;gap:.5rem;min-height:44px;font-size:.78rem;color:var(--danger);border-bottom:1px solid var(--line);font-weight:700}
+.global-urgent svg{width:18px;height:18px}
+.header-action{display:flex;flex-direction:column;justify-content:center;align-items:center;min-height:44px;min-width:48px;padding:.15rem .3rem;color:var(--accent-text);font-size:.7rem;gap:.1rem}
+.header-action svg{width:22px;height:22px}
+.editorial-masthead{grid-template-columns:minmax(0,1fr) auto auto}
+.home-intro h2{font-size:clamp(1.85rem,7vw,2.5rem);font-weight:500}
+.discover-heading{font-size:1.3rem}.discover-grid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:.6rem}
+.discover-tile{display:grid;grid-template-columns:minmax(0,1fr) auto;align-items:center;gap:.35rem;padding:.75rem;background:var(--bg-elevated);border:1px solid var(--line);border-radius:12px;min-height:76px}
+.discover-tile svg{color:var(--accent-text);grid-column:1/-1;width:25px;height:25px}.discover-tile strong{font-size:.86rem;font-weight:650}.discover-tile span{color:var(--accent-text)}
+.small-copy{font-size:.8rem;margin:.1rem 0}.suggestion-row{display:flex;flex-wrap:wrap;gap:.4rem}.suggestion-row .btn{font-size:.83rem}
+.result-list{border-top:1px solid var(--line)}
+.result-row{display:grid;grid-template-columns:minmax(0,1fr) auto;align-items:center;gap:.5rem;border-bottom:1px solid var(--line);padding:.25rem 0}
+.result-row>a{display:flex;flex-direction:column;justify-content:center;min-height:52px;padding:.3rem 0}
+.result-row strong{font-size:.93rem;line-height:1.4}.result-row small{font-size:.76rem;color:var(--ink-muted)}
+.bookmark-control,.reader-back{background:transparent;border:0;color:var(--accent-text);font:inherit;cursor:pointer;min-width:44px;min-height:44px}
+.bookmark-control{display:grid;place-items:center}.bookmark-control[aria-pressed=true] svg{fill:var(--accent-soft);stroke-width:2.5}
+.reader-back{display:inline-flex;align-items:center;justify-self:start;padding:.3rem 0;font-size:.9rem;font-weight:650}
+.domain-list .topic-link{justify-content:space-between;text-decoration:none}
+@media(max-width:360px){.header-action{min-width:44px}.editorial-masthead .brand{font-size:1.65rem}}

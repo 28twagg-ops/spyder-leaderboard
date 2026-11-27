@@ -1,148 +1,31 @@
-import { useState } from 'react'
+import { Link, useLocation } from 'react-router-dom'
 import { useLocalPrefs } from '../hooks/useLocalPrefs'
-import { Link } from 'react-router-dom'
 import { DraftBanner } from '../components/DraftBanner'
-import { catalogStats, searchArticles, listDomains, routines } from '../data/researchCatalog'
-import {
-  DEFAULT_PUBLICATION_BLOCK,
-  EXCLUDED_SOURCE_IDS,
-  HELD_SOURCE_OR_OUTCOME_IDS,
-  editorialPriorityLabel,
-} from '../data/researchGate'
-
-export function LibraryPage() {
-  const stats = catalogStats()
-  const { prefs, toggleBookmark, clearPrefs, exportPrefs } = useLocalPrefs()
-  const [query, setQuery] = useState('')
-  const [domain, setDomain] = useState('all')
-  const [savedOnly, setSavedOnly] = useState(false)
-  const [page, setPage] = useState(1)
-  const [showExport, setShowExport] = useState(false)
-  const [confirmClear, setConfirmClear] = useState(false)
-  const matches = searchArticles(query, domain).filter((article) => !savedOnly || prefs.bookmarks.includes(article.id))
-
-  const pages = Math.max(1,Math.ceil(matches.length/8))
-  const currentPage = Math.min(page,pages)
-  const shown = matches.slice((currentPage-1)*8,currentPage*8)
-
-  return (
-    <div className="stack-lg">
-      <header className="stack">
-        <div className="eyebrow">Library</div>
-        <h1 style={{ fontFamily: 'var(--font-display)', margin: 0, fontSize: '1.8rem' }}>
-          Your library
-        </h1>
-        <p className="lede" style={{ margin: 0 }}>
-          Find, save and revisit reading topics.
-        </p>
-      </header>
-      <DraftBanner status="research_only" />
-
-      <div className="cta-row">
-        <Link className="btn btn-primary" to="/evidence">
-          Open evidence browser
-        </Link>
-        <Link className="btn btn-ghost" to="/install">
-          Home Screen help
-        </Link>
-      </div>
-
-      <section className="panel stack" aria-labelledby="topic-search-heading">
-        <h2 id="topic-search-heading">Find a topic</h2>
-        <label htmlFor="topic-search">Search articles</label>
-        <input id="topic-search" type="search" value={query} onChange={(event) => {setQuery(event.target.value);setPage(1)}} placeholder="Topic, question or source ID" style={{ minHeight: 44 }} />
-        <label htmlFor="topic-domain">Topic category</label>
-        <select id="topic-domain" value={domain} onChange={(event) => {setDomain(event.target.value);setPage(1)}} style={{ minHeight: 44 }}>
-          <option value="all">All categories</option>
-          {listDomains().map((item) => <option key={item} value={item}>{item}</option>)}
-        </select>
-        <label><input type="checkbox" checked={savedOnly} onChange={(event) => {setSavedOnly(event.target.checked);setPage(1)}} /> Saved articles only</label>
-        <button type="button" className="btn btn-ghost" onClick={() => { setQuery(''); setDomain('all'); setSavedOnly(false); setPage(1) }}>Clear search</button>
-        <p role="status">{matches.length} of {stats.articles} articles · {prefs.bookmarks.length} saved</p>
-      </section>
-      <details className="panel disclosure">
-        <summary>Research inventory, release status and optional routines</summary>
-        <div className="stack">
-      <section className="panel stack">
-        <h2 style={{ margin: 0, fontSize: '1.1rem' }}>Loaded into the app</h2>
-        <ul className="list-clean">
-          <li>Articles: {stats.articles}</li>
-          <li>Actions: {stats.actions}</li>
-          <li>FAQs: {stats.faqs}</li>
-          <li>Phases: {stats.phases}</li>
-          <li>Gestational weeks: {stats.gestationalWeeks}</li>
-          <li>Source links: {stats.sourceLinks}</li>
-          <li>Optional routines: {stats.routines}</li>
-          <li>
-            Consolidated import sources: {stats.inventory.source_records ?? '—'} (not independent
-            studies)
-          </li>
-        </ul>
-        <p className="muted" style={{ margin: 0, fontSize: '0.85rem' }}>
-          Synced: {stats.sync.synced_at} · mode: {stats.sync.integration_mode}
-        </p>
-      </section>
-
-      <section className="panel stack">
-        <h2 style={{ margin: 0, fontSize: '1.1rem' }}>Publication gate</h2>
-        <p className="muted" style={{ margin: 0 }}>
-          {DEFAULT_PUBLICATION_BLOCK}
-        </p>
-        <p className="muted" style={{ margin: 0 }}>
-          Exclusions: {[...EXCLUDED_SOURCE_IDS].join(', ') || 'none'}
-        </p>
-        <p className="muted" style={{ margin: 0 }}>
-          Held source/outcome IDs: {HELD_SOURCE_OR_OUTCOME_IDS.size}
-        </p>
-      </section>
-
-      <section className="panel stack">
-        <h2 style={{ margin: 0, fontSize: '1.1rem' }}>Optional routines</h2>
-        <p className="muted" style={{ margin: 0 }}>
-          No streaks, no automatic schedules, no health scores.
-        </p>
-        <ul className="list-clean">
-          {routines.map((routine) => (
-            <li key={routine.id}>
-              <strong>{routine.title}</strong>
-              <div className="muted" style={{ marginTop: '0.25rem', fontSize: '0.9rem' }}>
-                {routine.note}
-              </div>
-            </li>
-          ))}
-        </ul>
-      </section>
-
-        </div>
-      </details>
-      <section className="topic-grid">
-        {shown.map((article) => (
-          <article key={article.id} className="panel stack">
-            <Link to={`/research/${article.id}`}>
-            <div className="section-label">{editorialPriorityLabel(article.priority)}</div>
-            <strong style={{ display: 'block', marginTop: '0.4rem' }}>{article.title}</strong>
-            <div className="muted" style={{ marginTop: '0.35rem', fontSize: '0.9rem' }}>
-              {article.domain} · {article.id}
-            </div>
-            </Link>
-            <button type="button" className="btn btn-ghost" aria-label={`${prefs.bookmarks.includes(article.id) ? 'Remove bookmark for' : 'Save bookmark for'} ${article.title}`} aria-pressed={prefs.bookmarks.includes(article.id)} onClick={() => toggleBookmark(article.id)}>{prefs.bookmarks.includes(article.id) ? 'Saved' : 'Save'}</button>
-            {prefs.readArticles.includes(article.id) && <span className="muted">Marked read</span>}
-          </article>
-        ))}
-      </section>
-      {pages > 1 && <div className="page-controls"><button className="btn btn-ghost" disabled={currentPage===1} onClick={()=>setPage(currentPage-1)}>Previous</button><span style={{textAlign:'center'}}>Page {currentPage} of {pages}</span><button className="btn btn-ghost" disabled={currentPage===pages} onClick={()=>setPage(currentPage+1)}>Next</button></div>}
-      {!matches.length && <p>No matching topics. Try a different search or clear filters.</p>}
-      <section className="panel stack" aria-labelledby="local-prefs-heading">
-        <h2 id="local-prefs-heading">Local privacy and preferences</h2>
-        <p className="muted">Reading choices, bookmarks, reading markers and theme are stored locally, not encrypted. They may reveal interests to someone with access to this browser. No account, medical record, cloud sync or analytics is added by this feature. Search text is not persisted.</p>
-        <button type="button" className="btn btn-ghost" onClick={() => setShowExport(!showExport)}>{showExport ? 'Hide export' : 'Show local preference export'}</button>
-        {showExport && <><label htmlFor="prefs-export">Preference JSON (copy only if you want to keep it)</label><textarea id="prefs-export" readOnly value={exportPrefs()} rows={8} /></>}
-        {!confirmClear ? <button type="button" className="btn btn-ghost" onClick={() => setConfirmClear(true)}>Clear local preferences</button> : <>
-          <p>Remove saved articles, reading markers, phase and theme choice from this browser?</p>
-          <button type="button" className="btn btn-ghost" onClick={() => { clearPrefs(); setShowExport(false); setConfirmClear(false); setSavedOnly(false) }}>Confirm clear</button>
-          <button type="button" className="btn btn-ghost" onClick={() => setConfirmClear(false)}>Cancel</button>
-        </>}
-      </section>
-    </div>
-  )
+import { Glyph } from '../components/Glyph'
+import { catalogStats, searchArticles, listDomains } from '../data/researchCatalog'
+export interface BrowseState {query:string;domain:string;page:number}
+export const emptyBrowse:BrowseState={query:'',domain:'all',page:1}
+export const domainLabels:Record<string,string>={prep:'Preparing for pregnancy',nutrition:'Nutrition & supplements',environment:'Environment & exposures',pregnancy:'Pregnancy & body',birth:'Labor & birth',recovery:'Postpartum recovery',feeding:'Infant feeding',infant:'Newborn care',development:'Child development',solids:'Starting solids',child:'Child health'}
+export function LibraryPage({browse,setBrowse}:{browse:BrowseState;setBrowse:(state:BrowseState)=>void}){
+ const {pathname}=useLocation()
+ const savedOnly=pathname==='/saved'
+ const {prefs,toggleBookmark}=useLocalPrefs()
+ const stats=catalogStats()
+ const {query,domain,page}=savedOnly?emptyBrowse:browse
+ const matches=searchArticles(query,domain).filter(a=>!savedOnly||prefs.bookmarks.includes(a.id))
+ const pages=Math.max(1,Math.ceil(matches.length/8)),currentPage=Math.min(page,pages)
+ const shown=savedOnly?matches:matches.slice((currentPage-1)*8,currentPage*8)
+ const suggestions=['Prenatal vitamins','Morning sickness','Stretch marks','Infant feeding']
+ return <div className="stack-lg">
+ <header className="editorial-section-head"><h1 className="page-title">{savedOnly?'Saved':'Search'}</h1><Link className="header-action" to={savedOnly?'/library':'/saved'}><Glyph name={savedOnly?'search':'bookmark'}/><span>{savedOnly?'Search':'Saved'}</span></Link></header>
+ {!savedOnly&&<><section className="stack" aria-label="Find a topic"><label className="visually-hidden" htmlFor="topic-search">Search articles</label><input id="topic-search" type="search" autoComplete="off" value={query} onChange={e=>setBrowse({...browse,query:e.target.value,page:1})} placeholder="Search a topic or question" />
+ {!query&&<><span className="muted small-copy">Try a topic</span><div className="suggestion-row">{suggestions.map(s=><button className="btn btn-ghost" key={s} onClick={()=>setBrowse({...browse,query:s,page:1})}>{s}</button>)}</div></>}
+ <label className="visually-hidden" htmlFor="topic-domain">Topic category</label><select id="topic-domain" value={domain} onChange={e=>setBrowse({...browse,domain:e.target.value,page:1})}><option value="all">All topics</option>{listDomains().map(d=><option key={d} value={d}>{domainLabels[d]??d}</option>)}</select>
+ {(query||domain!=='all')&&<button className="btn btn-ghost" onClick={()=>setBrowse(emptyBrowse)}>Clear search</button>}</section><nav className="section-links" aria-label="Research collections"><Link to="/evidence">Research &amp; sources ›</Link><Link to="/visuals">Visual references ›</Link></nav></>}
+ <DraftBanner status="research_only"/>
+ <p className="muted small-copy" role="status">{matches.length} of {stats.articles} articles · {prefs.bookmarks.length} saved</p>
+ <section className="result-list" aria-label={savedOnly?'Saved articles':'Search results'}>{shown.map(a=><article key={a.id} className="result-row"><Link to={`/research/${a.id}`}><strong>{a.title}</strong><small>{domainLabels[a.domain]??a.domain}{prefs.readArticles.includes(a.id)?' · Read':''}</small></Link><button className="bookmark-control" aria-label={`${prefs.bookmarks.includes(a.id)?'Remove bookmark for':'Save bookmark for'} ${a.title}`} aria-pressed={prefs.bookmarks.includes(a.id)} onClick={()=>toggleBookmark(a.id)}><Glyph name="bookmark"/></button></article>)}</section>
+ {!matches.length&&<p>{savedOnly?'No saved articles yet. Bookmark a topic to find it here.':'No matching topics. Try another word, browse categories or use the urgent help link if needed.'}</p>}
+ {!savedOnly&&pages>1&&<div className="page-controls"><button className="btn btn-ghost" disabled={currentPage===1} onClick={()=>setBrowse({...browse,page:currentPage-1})}>Previous</button><span style={{textAlign:'center'}}>Page {currentPage} of {pages}</span><button className="btn btn-ghost" disabled={currentPage===pages} onClick={()=>setBrowse({...browse,page:currentPage+1})}>Next</button></div>}
+ </div>
 }

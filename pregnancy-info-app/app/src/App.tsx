@@ -1,10 +1,12 @@
-import { lazy, Suspense, useEffect, useRef } from 'react'
+import { lazy, Suspense, useEffect, useRef, useState, useLayoutEffect } from 'react'
 import { Link, Navigate, Route, Routes, useLocation, useNavigationType } from 'react-router-dom'
 import { LocalPrefsProvider } from './hooks/useLocalPrefs'
 import { BottomNav } from './components/BottomNav'
 import { ExplorePage } from './pages/ExplorePage'
 import { InstallPage } from './pages/InstallPage'
-import { LibraryPage } from './pages/LibraryPage'
+import { LibraryPage, emptyBrowse, type BrowseState } from './pages/LibraryPage'
+import { SettingsPage } from './pages/SettingsPage'
+import { UrgentPage } from './pages/UrgentPage'
 import { ResearchPage } from './pages/ResearchPage'
 import { TimelinePage } from './pages/TimelinePage'
 import { TodayPage } from './pages/TodayPage'
@@ -22,6 +24,8 @@ function RoutePosition() {
   const { pathname, hash, key } = useLocation()
   const action = useNavigationType()
   const previous = useRef(pathname)
+  const positions = useRef(new Map<string,number>())
+  useLayoutEffect(()=>{const old=positions.current.get(key); if(action==='POP'&&old!=null&&!hash) document.documentElement.scrollTop=old; return ()=>{positions.current.set(key,document.documentElement.scrollTop)}},[key,action,hash])
   useEffect(() => {
     if (hash) {
       const target = document.getElementById(hash.slice(1))
@@ -40,6 +44,7 @@ function RoutePosition() {
 }
 
 export default function App() {
+  const [browse,setBrowse]=useState<BrowseState>(emptyBrowse)
   return (
     <LocalPrefsProvider>
     <div className="app-shell">
@@ -53,10 +58,14 @@ export default function App() {
             <Route path="/" element={<TodayPage />} />
             <Route path="/timeline" element={<TimelinePage />} />
             <Route path="/explore" element={<ExplorePage />} />
+            <Route path="/explore/:domain" element={<ExplorePage />} />
             <Route path="/research" element={<Navigate to="/library" replace />} />
             <Route path="/research/:topicId" element={<ResearchPage />} />
             <Route path="/evidence" element={<EvidencePage />} />
-            <Route path="/library" element={<LibraryPage />} />
+            <Route path="/library" element={<LibraryPage browse={browse} setBrowse={setBrowse}/>} />
+            <Route path="/saved" element={<LibraryPage browse={browse} setBrowse={setBrowse}/>} />
+            <Route path="/settings" element={<SettingsPage onClear={()=>setBrowse(emptyBrowse)}/>} />
+            <Route path="/urgent" element={<UrgentPage/>} />
             <Route path="/visuals" element={<VisualLibraryPage />} />
             <Route path="/install" element={<InstallPage />} />
             <Route path="*" element={<Navigate to="/" replace />} />

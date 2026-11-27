@@ -1,7 +1,6 @@
 import { useState } from 'react'
 import { Link } from 'react-router-dom'
 import { DraftBanner } from '../components/DraftBanner'
-import { OfflineBanner } from '../components/OfflineBanner'
 import { featuredForPhase, gestationalWeeks, getArticle, getSource, timeline } from '../data/researchCatalog'
 
 const trackNames: Record<string, string> = {
@@ -21,13 +20,14 @@ export function TimelinePage() {
   const tracks = [...new Set(timeline.map((p) => p.track))]
   const [trackFilter, setTrackFilter] = useState('all')
   const [weekFilter, setWeekFilter] = useState('all')
+  const [chosenWeek, setChosenWeek] = useState('')
   const shownTracks = tracks.filter((track) => trackFilter === 'all' || trackFilter === track)
   const orderedWeeks = [...gestationalWeeks].sort((a, b) => a.week - b.week)
 
   return (
     <div className="stack-lg">
       <header className="stack">
-        <div className="eyebrow">Timeline · {timeline.length} phases</div>
+        <div className="eyebrow">Journey</div>
         <h1 style={{ fontFamily: 'var(--font-display)', margin: 0, fontSize: '1.8rem' }}>Your family journey</h1>
         <p className="lede" style={{ margin: 0 }}>
           Explore preparation, pregnancy, birth, maternal recovery and childhood in parallel.
@@ -35,7 +35,6 @@ export function TimelinePage() {
         </p>
       </header>
       <DraftBanner status="research_only" />
-      <OfflineBanner />
       <section className="panel stack" aria-labelledby="journey-filter-heading">
         <h2 id="journey-filter-heading" style={{ margin: 0, fontSize: '1.15rem' }}>Choose a timeline</h2>
         <label htmlFor="timeline-track">Family phase track</label>
@@ -97,20 +96,21 @@ export function TimelinePage() {
           Research draft descriptions inherit source date windows. They are not individual measurements or milestones that must occur in a particular week.
           Clinical dating belongs with a clinician.
         </p>
+        <label htmlFor="chosen-week">Go to a specific week</label><select id="chosen-week" value={chosenWeek} onChange={e=>{setChosenWeek(e.target.value);setWeekFilter('all')}}><option value="">Browse all weeks</option>{orderedWeeks.map(w=><option key={w.week} value={String(w.week)}>Week {w.week}</option>)}</select>
         <label htmlFor="week-band">Pregnancy week range</label>
-        <select id="week-band" value={weekFilter} onChange={(event) => setWeekFilter(event.target.value)} style={{ minHeight: 44 }}>
+        <select id="week-band" value={weekFilter} onChange={(event) => {setWeekFilter(event.target.value);setChosenWeek('')}} style={{ minHeight: 44 }}>
           <option value="all">All 40 weeks</option>
           {weekBands.map((band) => <option key={band.label} value={band.label}>{band.label}</option>)}
         </select>
-        {weekBands.filter((band) => weekFilter === 'all' || weekFilter === band.label).map((band) => (
-          <details key={band.label} className="panel disclosure week-band" open={weekFilter !== 'all'}>
+        {weekBands.filter((band) => chosenWeek ? Number(chosenWeek)>=band.start&&Number(chosenWeek)<=band.end : weekFilter === 'all' || weekFilter === band.label).map((band) => (
+          <details key={band.label} className="panel disclosure week-band" open={!!chosenWeek || weekFilter !== 'all'}>
             <summary>{band.label}</summary>
-            {orderedWeeks.filter((week) => week.week >= band.start && week.week <= band.end).map((week) => {
+            {orderedWeeks.filter((week) => week.week >= band.start && week.week <= band.end && (!chosenWeek || week.week===Number(chosenWeek))).map((week) => {
               const source = week.source_id ? getSource(week.source_id) : undefined
               const maternal = timeline.find((phase) => phase.id === week.maternal_phase)
               const fetal = week.fetal_article_id ? getArticle(week.fetal_article_id) : undefined
               return (
-                <details key={week.week} className="panel disclosure">
+                <details key={week.week} className="panel disclosure" open={!!chosenWeek}>
                   <summary>Week {week.week}</summary>
                   <p>{week.description}</p>
                   {week.source_window_start != null && week.source_window_end != null && (

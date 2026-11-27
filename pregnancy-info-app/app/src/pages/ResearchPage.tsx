@@ -1,7 +1,7 @@
 import { VisualCard } from '../components/VisualCard'
 import { articleVisuals } from '../data/visualCatalog'
 import { useLocalPrefs } from '../hooks/useLocalPrefs'
-import { Link, useParams } from 'react-router-dom'
+import { Link, useParams, useNavigate, useLocation } from 'react-router-dom'
 import { DraftBanner } from '../components/DraftBanner'
 import { maySurfaceAsGuidance } from '../data/publicationGate'
 import { articleBundle } from '../data/researchCatalog'
@@ -10,6 +10,9 @@ import { editorialPriorityLabel } from '../data/researchGate'
 export function ResearchPage() {
   const { prefs, toggleBookmark, markRead } = useLocalPrefs()
   const { topicId } = useParams()
+  const navigate=useNavigate()
+  const location=useLocation()
+  const back=()=>{if(location.key!=='default' && window.history.state?.idx>0) navigate(-1);else navigate('/library')}
   const bundle = topicId ? articleBundle(topicId) : null
 
   if (!bundle) {
@@ -29,6 +32,7 @@ export function ResearchPage() {
 
   return (
     <div className="stack-lg">
+      <button type="button" className="reader-back" onClick={back}>‹ Back</button>
       <header className="stack">
         <div className="eyebrow">
           {article.domain} · {editorialPriorityLabel(article.priority)}
@@ -37,7 +41,7 @@ export function ResearchPage() {
           {article.title}
         </h1>
         <p className="lede" style={{ margin: 0 }}>
-          Progressive disclosure over staged research records. Status: {article.status ?? 'draft'}.
+          Research draft · independent clinical review pending.
         </p>
       </header>
 
@@ -46,7 +50,7 @@ export function ResearchPage() {
         <button type="button" className="btn btn-ghost" aria-pressed={prefs.bookmarks.includes(article.id)} onClick={() => toggleBookmark(article.id)}>{prefs.bookmarks.includes(article.id) ? 'Remove bookmark' : 'Save bookmark'}</button>
         <button type="button" className="btn btn-ghost" disabled={prefs.readArticles.includes(article.id)} onClick={() => markRead(article.id)}>{prefs.readArticles.includes(article.id) ? 'Marked read' : 'Mark as read'}</button>
       </div>
-      <p className="muted">Optional reading markers stay in this browser; they do not affect medical recommendations.</p>
+      <p className="muted small-copy">Reading markers stay on this device; not medical recommendations.</p>
 
       <section className="panel stack">
         <div className="section-label danger">Visible safety</div>
