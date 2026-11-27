@@ -791,3 +791,7 @@ body{background:var(--bg)}
 button.reader-back:focus-visible{outline-offset:3px}
 @media(max-width:360px){.journey-rail .journey-card{grid-template-columns:48px minmax(0,1fr) auto;gap:.5rem}.stage-art{width:48px;height:54px}.stage-art svg{width:46px;height:48px}.body-feature{gap:.4rem;padding:.5rem}.body-feature .region-grid button{font-size:.75rem;grid-template-columns:18px minmax(0,1fr);gap:.3rem}.body-choice-number{width:18px;height:18px}}
 @media(prefers-reduced-motion:reduce){html{scroll-behavior:auto}}
+
+/* Short setup sheets retain a visible dismissal control. */
+.phase-dialog .sheet-skip{position:sticky;bottom:0;background:var(--bg-elevated);border-top:1px solid var(--line);border-radius:8px;min-height:44px}
+@media(max-height:700px){.phase-dialog .choice-row{min-height:48px;padding:.3rem .6rem}.phase-dialog .sheet-options{gap:.25rem}.phase-dialog .page-title{font-size:1.45rem}.phase-dialog p{margin:.3rem 0 .45rem}}

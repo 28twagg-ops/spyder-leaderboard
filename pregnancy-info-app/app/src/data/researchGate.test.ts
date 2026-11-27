@@ -47,13 +47,7 @@ describe('research integration gates', () => {
     expect(filtered.held).toEqual(['DR023', 'DR025'])
   })
 
-  it('builds article bundles without enabling guidance', () => {
-    const first = articles[0]
-    const bundle = articleBundle(first.id)
-    expect(bundle).not.toBeNull()
-    expect(maySurfaceAsGuidance(bundle!.safety)).toBe(false)
-    expect(bundle!.relatedActions.every((a) => a.automation_allowed_effective === false)).toBe(
-      true,
-    )
+  it('builds all 52 article bundles without enabling guidance or action automation',()=>{
+    for(const article of articles){const bundle=articleBundle(article.id);expect(bundle).not.toBeNull();expect(maySurfaceAsGuidance(bundle!.safety)).toBe(false);expect(bundle!.relatedActions.every(a=>a.automation_allowed_effective===false)).toBe(true);expect(bundle!.sources.every(s=>!EXCLUDED_SOURCE_IDS.has(s.id))).toBe(true)}
   })
 })

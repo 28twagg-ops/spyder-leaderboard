@@ -28,6 +28,7 @@ export function PhasePicker({firstLaunch=false}:{firstLaunch?:boolean}){
    heading.current?.focus({preventScroll:true})
    return ()=>{if(el.open&&typeof el.close==='function')el.close()}
  },[open])
+ useEffect(()=>{if(open){if(dialog.current)dialog.current.scrollTop=0;heading.current?.focus({preventScroll:true})}},[stage,open])
  const current=timeline.find(p=>p.id===prefs.selectedPhaseId)
  return <>
  <button ref={trigger} type="button" className="phase-change" onClick={()=>{setStage('');setManual(true)}}>{current?'Change phase':prefs.setupComplete?'Choose phase':'Choose your phase'} <span aria-hidden="true">›</span></button>

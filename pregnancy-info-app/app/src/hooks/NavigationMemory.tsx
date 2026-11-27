@@ -77,8 +77,9 @@ export function RoutePosition(){
   const y=memory?.position??0
   document.documentElement.scrollTop=y
   document.body.scrollTop=y
-  if(action!=='POP')document.getElementById('main')?.focus({preventScroll:true})
+  if(action!=='POP'&&!document.querySelector('dialog[open]'))document.getElementById('main')?.focus({preventScroll:true})
   // Restore once more after layout; avoid delayed restoration if the user has already scrolled.
+  if(typeof requestAnimationFrame!=='function')return
   const frame=requestAnimationFrame(()=>{
    const current=document.documentElement.scrollTop||document.body.scrollTop||0
    if(current===0&&y>0){document.documentElement.scrollTop=y;document.body.scrollTop=y}
