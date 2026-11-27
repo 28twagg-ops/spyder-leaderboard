@@ -19,7 +19,7 @@ describe('Everwell shell', () => {
       </MemoryRouter>,
     )
     expect(screen.getByRole('heading', { name: 'Everwell' })).toBeInTheDocument()
-    expect(screen.getByText(/educational research prototype/i)).toBeInTheDocument()
+    expect(screen.getByText(/research draft, not medical advice/i)).toBeInTheDocument()
     expect(screen.getByRole('link', { name: 'Settings' })).toHaveAttribute('href', '/settings')
     expect(screen.getByRole('link', { name: 'Saved' })).toHaveAttribute('href', '/saved')
     expect(screen.getByRole('navigation', { name: 'Primary' })).toBeInTheDocument()

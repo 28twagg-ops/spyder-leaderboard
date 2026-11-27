@@ -73,3 +73,35 @@ const weeks:string[]=[
 ]
 export function plainPhaseFocus(id:string,fallback:string){return focus[id]??fallback}
 export function plainWeek(week:number,fallback:string){return weeks[week-1]??fallback}
+
+const safety:Record<string,string>={
+  "PRE01": "You do not have to start planning this early.",
+  "PRE02": "No weight goal, fertility score or required schedule.",
+  "PRE03": "Ask the person who prescribes your medicine about any changes. There is no waiting time that fits everyone.",
+  "PRE04": "Sperm test results cannot promise a pregnancy or a healthy baby.",
+  "PRE05": "Folic acid guidance starts before pregnancy. No experimental doses.",
+  "PRE06": "There is no one fertility timeline. This app cannot diagnose fertility problems.",
+  "PREG01": "Your care team sets your pregnancy dates. Urgent warning signs are always available.",
+  "PREG02": "There is no exact deadline for a baby's growth. This app cannot clear you for exercise.",
+  "PREG03": "Do not try to start labor on your own. Do not wait to get care for warning signs.",
+  "BIRTH01": "The parent and baby have their own care needs. Follow the hospital care plan.",
+  "M01": "Follow your care team's discharge and care plan, not a set timeline.",
+  "M02": "Get care sooner for problems. There is no deadline to start exercise.",
+  "M03": "ACOG advises contact with your care team within 3 weeks, or sooner if needed.",
+  "M04": "ACOG advises a full visit by 12 weeks. This app cannot clear you for activity.",
+  "M05": "No weight goal or goal for how your body looks.",
+  "M06": "Warning signs for the parent remain important through the first year after birth.",
+  "M07": "There is no set healing deadline or time to have another baby that fits everyone.",
+  "C01": "Follow your baby's care team. For illness, use age since birth, not age adjusted for early birth.",
+  "C02": "Get care for urgent symptoms. Do not wait for a planned visit.",
+  "C03": "This app does not give a newborn sleep training plan.",
+  "C04": "Watch your baby during awake floor play. Place your baby on their back for sleep.",
+  "C05": "Age alone does not tell you a baby is ready for solid foods.",
+  "C06": "Food texture, signs of readiness and an allergy plan matter.",
+  "C07": "A general development check is advised at 9 months. Get concerns checked at any age.",
+  "C08": "An 18-month development check is advised at the relevant visit. Skills do not have set deadlines.",
+  "C09": "Guidance calls for autism checks at 18 and 24 months. This app cannot diagnose autism.",
+  "C10": "Guidance calls for a development check at 30 months. Toilet learning is optional.",
+  "C11": "This is extra reading. No intelligence or school readiness scores."
+}
+export function plainPhaseSafety(id:string,fallback:string){return safety[id]??fallback}
