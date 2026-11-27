@@ -569,14 +569,8 @@ textarea { resize: vertical; }
 .section-links { display: flex; flex-wrap: wrap; gap: .25rem 1.25rem; }
 .section-links a { display: inline-flex; align-items: center; min-height: 44px; }
 
-/* Editorial iPhone preview: original concept palette, compact hierarchy. */
+/* Compact iPhone layout; retain original theme palettes. */
 :root { --radius:12px; --nav-h:4.15rem; --clay:var(--accent-text); --clay-soft:var(--accent-soft); }
-:root:not([data-theme]), [data-theme='morning-stone'] {
- --bg:#f7f2e9; --bg-elevated:#fffbf5; --bg-soft:#ede7da; --ink:#242722; --ink-muted:#575e52;
- --accent:#738568; --accent-deep:#4c6044; --accent-soft:#e3e8d8; --accent-text:#4c6044; --button-surface:#4c6044;
- --clay:#a34f32; --clay-soft:#f1e0d2; --line:#d9cfc0; --shadow:none;
- --page-bg:#f7f2e9; --hero-bg:#f7f2e9; --list-bg:#fffbf5; --phase-bg:#fffbf5; --nav-bg:#fffbf5; --theme-color:#738568;
-}
 body{line-height:1.42}
 .app-shell{padding:calc(12px + var(--safe-top)) 16px calc(var(--nav-h) + 12px + var(--safe-bottom))}
 .stack-lg{gap:.85rem}.stack{gap:.6rem}.panel{padding:.7rem .85rem;box-shadow:none;backdrop-filter:none}

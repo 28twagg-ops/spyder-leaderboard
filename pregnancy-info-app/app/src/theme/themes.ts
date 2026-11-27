@@ -21,7 +21,7 @@ export const THEME_OPTIONS: ThemeOption[] = [
     name: 'Morning Stone',
     mood: 'Soft botanical neutrals, grounded and gentle',
     bestFor: 'A warmer everyday feel without pink clichés',
-    swatches: ['#f7f2e9', '#738568', '#a34f32'],
+    swatches: ['#f1efe9', '#6d7a5f', '#2f312c'],
   },
   {
     id: 'quiet-rose',
