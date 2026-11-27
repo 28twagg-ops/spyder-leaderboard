@@ -23,6 +23,8 @@ describe('Everwell shell', () => {
     expect(screen.getByText(/Choose a calmer theme/i)).toBeInTheDocument()
     expect(screen.getByText(/52 articles/i)).toBeInTheDocument()
     expect(screen.getByRole('navigation', { name: 'Primary' })).toBeInTheDocument()
+    expect(screen.getByRole('link', { name: 'Evidence', exact: true })).toHaveAttribute('href', '/evidence')
+    expect(screen.getByLabelText('Optional reading phase')).toHaveValue('')
   })
 
   it('does not substitute unrelated research for an unknown article ID', () => {
@@ -47,6 +49,15 @@ describe('Everwell shell', () => {
     expect(screen.getByText('1 of 52 articles · 0 saved')).toBeInTheDocument()
     expect(localStorage.getItem('everwell.local.prefs.v1')).toBeNull()
   })
+  it('opens the visual reference library without automatic external media', async () => {
+    render(<MemoryRouter initialEntries={['/visuals']}><App /></MemoryRouter>)
+    expect(await screen.findByRole('heading', { name: 'See the science' })).toBeInTheDocument()
+    expect(screen.getByText('44 of 44 visual references')).toBeInTheDocument()
+    expect(screen.queryAllByRole('img')).toHaveLength(0)
+    fireEvent.change(screen.getByLabelText('Search visual references'), { target: { value: 'pelvic floor' } })
+    expect(screen.getByRole('heading', { name: 'Muscles of the pelvic floor' })).toBeInTheDocument()
+  })
+
   it('shows install help for Home Screen', () => {
     render(
       <MemoryRouter initialEntries={['/install']}>
