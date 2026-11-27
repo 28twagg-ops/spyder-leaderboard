@@ -1,7 +1,7 @@
 import { Glyph } from '../components/Glyph'
 import { useAppBack } from '../hooks/NavigationMemory'
 import { safeVisualUrl } from '../data/visualCatalog'
-import { domainLabels } from './LibraryPage'
+import { domainLabels } from '../data/browseState'
 import { ReadingRow } from '../components/ReadingUI'
 import { articlesByDomain } from '../data/researchCatalog'
 import { articleVisuals } from '../data/visualCatalog'

@@ -3,16 +3,11 @@ import { timeline } from '../data/researchCatalog'
 import { useLocalPrefs } from '../hooks/useLocalPrefs'
 import { Glyph } from './Glyph'
 
-export const stageChoices = [
- {id:'preconception',title:'Preparing for pregnancy',subtitle:'Before conception',icon:'leaf'},
- {id:'pregnancy',title:'Pregnancy',subtitle:'First trimester through birth',icon:'journey'},
- {id:'shared_birth',title:'Birth',subtitle:'Labor and the first hour',icon:'body'},
- {id:'maternal',title:'Postpartum recovery',subtitle:'After birth and beyond',icon:'body'},
- {id:'child',title:'Baby & child',subtitle:'Newborn through age five',icon:'child'},
-] as const
+import { stageChoices } from '../data/stageChoices'
+
 
 export function PhasePicker({firstLaunch=false}:{firstLaunch?:boolean}){
- const {prefs,setPhase}=useLocalPrefs()
+ const {prefs,setPhase,storageAvailable}=useLocalPrefs()
  const [manual,setManual]=useState(false)
  const [stage,setStage]=useState('')
  const dialog=useRef<HTMLDialogElement>(null)
@@ -36,7 +31,7 @@ export function PhasePicker({firstLaunch=false}:{firstLaunch?:boolean}){
  <div className="sheet-handle" aria-hidden="true"/>
  <div className="sheet-header"><span className="section-label">Everwell</span><button className="plain-control" type="button" aria-label="Close setup" onClick={cancel}>×</button></div>
  <h2 ref={heading} tabIndex={-1} id="setup-title" className="page-title">{stage?'Choose your reading period':'Where are you in your journey?'}</h2>
- <p id="setup-description" className="muted">{stage?'Choose a reading period.':'Choose a reading focus. Change it anytime.'} Saved on this device only. Not a medical schedule.</p>
+ <p id="setup-description" className="muted">{stage?'Choose a reading period.':'Choose a reading focus. Change it anytime.'} {storageAvailable?'Saved on this device only.':'Browser storage is unavailable; this choice may reset after reload.'} Not a medical schedule.</p>
  {!stage?<div className="sheet-options">{stageChoices.map(s=><button type="button" className="choice-row" key={s.id} onClick={()=>setStage(s.id)}><Glyph name={s.icon}/><span><strong>{s.title}</strong><small>{s.subtitle}</small></span><span aria-hidden="true">›</span></button>)}</div>:<><button type="button" className="reader-back" onClick={()=>setStage('')}>‹ All stages</button><div className="sheet-options">{timeline.filter(p=>p.track===stage).map(p=><button type="button" className="choice-row" key={p.id} onClick={()=>finish(p.id)}><span className="choice-dot" aria-hidden="true"/><strong>{p.label}</strong><span aria-hidden="true">{p.id===prefs.selectedPhaseId?'✓':'›'}</span></button>)}</div></>}
  <button type="button" className="btn btn-ghost sheet-skip" onClick={()=>finish(null)}>Browse without a phase</button>
  </dialog>}

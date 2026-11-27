@@ -3,7 +3,7 @@ import { DraftBanner } from '../components/DraftBanner'
 import { Glyph } from '../components/Glyph'
 import { StageArt } from '../components/StageArt'
 import { safeVisualUrl } from '../data/visualCatalog'
-import { stageChoices } from '../components/PhasePicker'
+import { stageChoices } from '../data/stageChoices'
 import { ReadingRow, ScreenHeading } from '../components/ReadingUI'
 import { featuredForPhase, gestationalWeeks, getArticle, getSource, timeline } from '../data/researchCatalog'
 

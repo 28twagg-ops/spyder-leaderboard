@@ -1,3 +1,4 @@
+import { getArticle, timeline } from '../data/researchCatalog'
 import { createContext, createElement, useContext, useEffect, useState, type ReactNode } from 'react'
 import {
   DEFAULT_THEME,
@@ -26,6 +27,8 @@ const defaults: LocalPrefs = {
   themeId: DEFAULT_THEME,
 }
 
+function validPhase(id:unknown):id is string{return typeof id==='string'&&timeline.some(p=>p.id===id)}
+function knownArticles(value:unknown):string[]{return Array.isArray(value)?[...new Set(value.filter((id):id is string=>typeof id==='string'&&!!getArticle(id)))]:[]}
 function readPrefs(): LocalPrefs {
   try {
     const raw = localStorage.getItem(PREFS_KEY)
@@ -33,10 +36,10 @@ function readPrefs(): LocalPrefs {
     const parsed = JSON.parse(raw) as Partial<LocalPrefs> | null
     if (!parsed || typeof parsed !== 'object' || Array.isArray(parsed)) return { ...defaults }
     return {
-      selectedPhaseId: typeof parsed.selectedPhaseId === 'string' ? parsed.selectedPhaseId : null,
-      setupComplete: parsed.setupComplete === true || typeof parsed.selectedPhaseId === 'string',
-      bookmarks: Array.isArray(parsed.bookmarks) ? parsed.bookmarks.filter((id) => typeof id === 'string') : [],
-      readArticles: Array.isArray(parsed.readArticles) ? parsed.readArticles.filter((id) => typeof id === 'string') : [],
+      selectedPhaseId: validPhase(parsed.selectedPhaseId) ? parsed.selectedPhaseId : null,
+      setupComplete: parsed.setupComplete === true || validPhase(parsed.selectedPhaseId),
+      bookmarks: knownArticles(parsed.bookmarks),
+      readArticles: knownArticles(parsed.readArticles),
       reducedMotion: parsed.reducedMotion === true,
       themeId: isThemeId(parsed.themeId) ? parsed.themeId : DEFAULT_THEME,
     }
@@ -48,18 +51,21 @@ function readPrefs(): LocalPrefs {
 function usePrefsState() {
   // Read once before the first persistence effect so a saved theme is not overwritten on mount.
   const [prefs, setPrefs] = useState<LocalPrefs>(readPrefs)
+  const [storageAvailable,setStorageAvailable]=useState(true)
 
   useEffect(() => {
     try {
       if (JSON.stringify(prefs) === JSON.stringify(defaults)) localStorage.removeItem(PREFS_KEY)
       else localStorage.setItem(PREFS_KEY, JSON.stringify(prefs))
+      setStorageAvailable(true)
     } catch {
-      // ignore quota / private mode
+      setStorageAvailable(false) // Choices remain in memory but may not persist.
     }
     applyTheme(prefs.themeId)
   }, [prefs])
 
   function toggleBookmark(articleId: string) {
+    if(!getArticle(articleId))return
     setPrefs((prev) => ({
       ...prev,
       bookmarks: prev.bookmarks.includes(articleId)
@@ -69,6 +75,7 @@ function usePrefsState() {
   }
 
   function markRead(articleId: string) {
+    if(!getArticle(articleId))return
     setPrefs((prev) =>
       prev.readArticles.includes(articleId)
         ? prev
@@ -77,6 +84,7 @@ function usePrefsState() {
   }
 
   function setPhase(phaseId: string | null) {
+    if(phaseId!==null&&!validPhase(phaseId))return
     setPrefs((prev) => ({ ...prev, selectedPhaseId: phaseId, setupComplete: true }))
   }
 
@@ -92,14 +100,16 @@ function usePrefsState() {
     setPrefs({ ...defaults })
     try {
       localStorage.removeItem(PREFS_KEY)
+      setStorageAvailable(true)
     } catch {
-      // ignore
+      setStorageAvailable(false)
     }
     applyTheme(DEFAULT_THEME)
   }
 
   return {
     prefs,
+    storageAvailable,
     toggleBookmark,
     markRead,
     setPhase,

@@ -3,7 +3,7 @@ import { BodyMap } from '../components/BodyMap'
 import { DraftBanner } from '../components/DraftBanner'
 import { ReadingRow, ScreenHeading, FeatureCard } from '../components/ReadingUI'
 import { articlesByDomain, listDomains } from '../data/researchCatalog'
-import { domainLabels } from './LibraryPage'
+import { domainLabels } from '../data/browseState'
 const groups=[
  {id:'prep',icon:'leaf',desc:'Preparing together'},
  {id:'nutrition',icon:'leaf',desc:'Food & supplements'},

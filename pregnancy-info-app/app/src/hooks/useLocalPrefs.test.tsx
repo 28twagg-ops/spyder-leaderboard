@@ -1,14 +1,14 @@
 import { cleanup, fireEvent, render, screen } from '@testing-library/react'
-import { afterEach, beforeEach, describe, expect, it } from 'vitest'
+import { afterEach, beforeEach, describe, expect, it, vi } from 'vitest'
 import { LocalPrefsProvider, PREFS_KEY, useLocalPrefs } from './useLocalPrefs'
 
 function Controls() {
-  const { prefs, toggleBookmark, setPhase, clearPrefs } = useLocalPrefs()
+  const { prefs, toggleBookmark, setPhase, clearPrefs, storageAvailable } = useLocalPrefs()
   return <div>
     <button onClick={() => toggleBookmark('EV-ART-001')}>Save</button>
     <button onClick={() => setPhase('PRE04')}>Phase</button>
     <button onClick={clearPrefs}>Clear</button>
-    <span>{prefs.themeId}</span>
+    <span>{prefs.themeId}</span><span>{storageAvailable?'Storage available':'Storage unavailable'}</span>
   </div>
 }
 function Reader() {
@@ -17,7 +17,7 @@ function Reader() {
 }
 describe('local reading preferences', () => {
   beforeEach(() => localStorage.clear())
-  afterEach(() => { cleanup(); localStorage.clear() })
+  afterEach(() => { cleanup(); vi.restoreAllMocks(); localStorage.clear() })
   it('defaults to no personal phase and shares choices across components', () => {
     render(<LocalPrefsProvider><Controls /><Reader /></LocalPrefsProvider>)
     expect(screen.getByText('No bookmarks / No phase')).toBeInTheDocument()
@@ -35,5 +35,18 @@ describe('local reading preferences', () => {
     render(<LocalPrefsProvider><Controls /><Reader /></LocalPrefsProvider>)
     expect(screen.getByText('soft-fog')).toBeInTheDocument()
     expect(screen.getByText('No bookmarks / No phase')).toBeInTheDocument()
+  })
+  it('drops unknown phase IDs and invalid or duplicate bookmarks',()=>{
+    localStorage.setItem(PREFS_KEY,JSON.stringify({selectedPhaseId:'MISSING',bookmarks:['EV-ART-001','EV-ART-001','unknown'],readArticles:['unknown']}))
+    render(<LocalPrefsProvider><Controls/><Reader/></LocalPrefsProvider>)
+    expect(screen.getByText('EV-ART-001 / No phase')).toBeInTheDocument()
+    expect(JSON.parse(localStorage.getItem(PREFS_KEY)??'{}').setupComplete).toBe(false)
+  })
+  it('retains transient preferences and reports unavailable persistence when writes fail',()=>{
+    vi.spyOn(Storage.prototype,'setItem').mockImplementation(()=>{throw new Error('Storage unavailable')})
+    render(<LocalPrefsProvider><Controls/><Reader/></LocalPrefsProvider>)
+    fireEvent.click(screen.getByText('Phase'))
+    expect(screen.getByText('No bookmarks / PRE04')).toBeInTheDocument()
+    expect(screen.getByText('Storage unavailable')).toBeInTheDocument()
   })
 })
