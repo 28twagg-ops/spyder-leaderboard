@@ -20,6 +20,7 @@ let playwright
 try { playwright = require('playwright') }
 catch { throw new Error('Playwright is not installed locally. Review and install it before running this optional PC test; no automatic installation is performed.') }
 const mime = { '.html':'text/html; charset=utf-8','.js':'text/javascript; charset=utf-8','.css':'text/css; charset=utf-8','.json':'application/json','.webmanifest':'application/manifest+json','.svg':'image/svg+xml','.png':'image/png','.woff2':'font/woff2','.ico':'image/x-icon' }
+const securityHeaders=Object.fromEntries(JSON.parse(await readFile(join(app,'vercel.json'),'utf8')).headers.find(rule=>rule.source==='/(.*)').headers.map(h=>[h.key,h.value]))
 const server = createServer(async (req,res)=>{
  try {
   const url = new URL(req.url || '/', 'http://127.0.0.1')
@@ -27,7 +28,7 @@ const server = createServer(async (req,res)=>{
   if(file!==dist&&!file.startsWith(dist+sep)){res.writeHead(403).end();return}
   if(url.pathname==='/' || !extname(file))file=join(dist,'index.html')
   const content = await readFile(file)
-  res.writeHead(200,{'Content-Type':mime[extname(file)]||'application/octet-stream','Cache-Control':'no-cache'})
+  res.writeHead(200,{'Content-Type':mime[extname(file)]||'application/octet-stream','Cache-Control':'no-cache',...securityHeaders})
   res.end(content)
  }catch{res.writeHead(404).end()}
 })
@@ -109,6 +110,16 @@ try{
      assert.equal(await page.locator('.urgent-reading-note').isVisible(),true)
      assert.ok((await page.locator('.urgent-reading-note').innerText()).includes('100.4°F (38°C)'))
      assert.ok(await page.evaluate(()=>Boolean(document.querySelector('.safety-panel').compareDocumentPosition(document.querySelector('.reader-purpose-block'))&Node.DOCUMENT_POSITION_FOLLOWING)))
+    })
+    await check('Week 22 pilot concept and reference return',async()=>{
+     await open(page,'/timeline/week/22')
+     await page.getByRole('button',{name:'Movement',exact:true}).click()
+     await page.getByRole('heading',{name:'Muscles are developing'}).waitFor()
+     await shot(page,'week22-movement',size)
+     await page.getByRole('link',{name:/Explore the placenta/}).click()
+     await page.getByRole('button',{name:'Back',exact:true}).click()
+     await page.getByRole('heading',{name:'Muscles are developing'}).waitFor()
+     assert.equal(await page.getByRole('button',{name:'Movement',exact:true}).getAttribute('aria-pressed'),'true')
     })
     await check('visual search survives return',async()=>{
      await open(page,'/visuals');await page.getByLabel('Search visual references').fill('pelvic floor')

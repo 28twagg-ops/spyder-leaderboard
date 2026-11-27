@@ -11,3 +11,5 @@ This is the next required visual gate, not a claim that browser tests have alrea
 The script is an unexecuted QA candidate in this chat because the local environment cannot retrieve the current application source/build and independent agents are unavailable. Validate the harness itself in the first PC run; fix any selector/runner assumptions without weakening meaningful assertions. Do not represent a successful fixture or unit test as actual visual verification.
 
 The runner now includes the urgent infant reader and separate optional reading layer, and checks that the archive stays collapsed. These added checks still require an actual local run. The main checklist is authoritative for verified evidence, not the existence of a QA script.
+
+The local server mirrors committed preview response headers, including CSP. Week 22 pilot adds an interactive concept/reference-return check. These scripts still require execution and inspection on the PC; do not claim browser or owner acceptance from jsdom.
