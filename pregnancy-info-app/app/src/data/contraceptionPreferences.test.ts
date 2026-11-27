@@ -1,6 +1,13 @@
 import {describe,it,expect} from 'vitest'
-import {comparePreferences,defaultPreferenceWeights,defaultPreferenceFilters,themePreferences} from './contraceptionPreferences'
+import {comparePreferences,defaultPreferenceWeights,defaultPreferenceFilters,themePreferences,themeFilters} from './contraceptionPreferences'
 describe('contraception feature preference matching',()=>{
+ it('excludes invasive options at essential comfort despite high other priorities',()=>{
+  const w={comfort:5,hormones:5,effectiveness:5,health:5,fertility:5,cost:5}
+  const r=comparePreferences(themePreferences(w),themeFilters(w,defaultPreferenceFilters))
+  expect(r.results.length).toBeGreaterThan(0)
+  expect(r.results.every(x=>!['iud','implant','injection'].includes(x.method.art))).toBe(true)
+  expect(comparePreferences(themePreferences({...w,comfort:4}),themeFilters({...w,comfort:4},defaultPreferenceFilters)).results.some(x=>x.method.slug==='copper-iud')).toBe(true)
+ })
  it('maps the six themes to comparable features without doubling comfort',()=>{
   const w=themePreferences({comfort:3,health:5})
   expect(w.pain).toBe(1.5);expect(w.cycle).toBe(1.5);expect(w.mental).toBe(5)

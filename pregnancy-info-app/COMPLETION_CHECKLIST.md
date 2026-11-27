@@ -114,3 +114,5 @@ Evidence: prior preview 8b51b5f76a0d4624cf2c1879021c52da98f82de1; preference/sea
 - [ ] Approved six-theme Morning Stone preference panel with “Your top three matches”; 36-month cost budget, source-linked component examples and optional all-in quotes; unknown totals remain uncertain. Correct previous hidden-slider test failure by targeting primary slider group. Build and phone visual acceptance pending.
 
 - [ ] Product-level contraception expansion: 37 formulation/product profiles, 55 additional source records (regulatory labels, research and manufacturer availability announcement). US scope, no exhaustive brand/NDC or real-time inventory verification; review clinical accuracy, original full texts, funding/COI, correction status and rendered app before clinical release. Deployment tests pending.
+
+- [ ] Essential comfort excludes invasive methods, adds visible warning and tests. Added 13 US product/label profiles and 20 source records; four identified Amazon product URLs, two manufacturer fallback links. Exact stock/market inventory and independent clinical review unresolved. Verify build and physical app handoff.

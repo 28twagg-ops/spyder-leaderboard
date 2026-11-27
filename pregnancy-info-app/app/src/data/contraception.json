@@ -1624,6 +1624,306 @@
       "certainty": "Provisional; formal outcome-specific GRADE not assessed",
       "sponsorRole": "Full protocol, data ownership and sponsor control not independently audited",
       "integrity": "Correction/retraction and current-market status require further review"
+    },
+    {
+      "id": "CT-106",
+      "title": "Opill retailer directory",
+      "url": "https://opill.com/pages/find-near-me",
+      "design": "Retail / commercial listing",
+      "finding": "Manufacturer identifies Amazon as a US retailer.",
+      "funding": "Commercial retailer or manufacturer; financial interest in sales.",
+      "coi": "Commercial interests relevant; full disclosures not audited.",
+      "bias": "Product identity and URL only, not clinical efficacy or safety. No current stock, seller authenticity, price or app-opening guarantee.",
+      "access": "Original indexed page/label verified; no live inventory guarantee",
+      "verified": "2026-11-27",
+      "certainty": "Descriptive product/availability record, not GRADE clinical evidence",
+      "sponsorRole": "Not an independent comparative study",
+      "integrity": "Market supply and source update status may change"
+    },
+    {
+      "id": "CT-107",
+      "title": "Opill 84 count Amazon catalog identity",
+      "url": "https://www.merchantwords.com/asin/us/B0CJYHQ3CB",
+      "design": "Retail / commercial listing",
+      "finding": "Catalog identifies norgestrel 0.075 mg 84-count product ASIN B0CJYHQ3CB; Amazon detail page was not directly accessible.",
+      "funding": "Commercial retailer or manufacturer; financial interest in sales.",
+      "coi": "Commercial interests relevant; full disclosures not audited.",
+      "bias": "Product identity and URL only, not clinical efficacy or safety. No current stock, seller authenticity, price or app-opening guarantee.",
+      "access": "Original indexed page/label verified; no live inventory guarantee",
+      "verified": "2026-11-27",
+      "certainty": "Descriptive product/availability record, not GRADE clinical evidence",
+      "sponsorRole": "Not an independent comparative study",
+      "integrity": "Market supply and source update status may change"
+    },
+    {
+      "id": "CT-108",
+      "title": "SKYN Original 24-count Amazon listing",
+      "url": "https://www.amazon.com/LifeStyles-SKYN-Original-Condoms-24ct/dp/B004TTXA7I",
+      "design": "Retail / commercial listing",
+      "finding": "Amazon listing retrieved via editorial outbound link; product identity, not quality endorsement.",
+      "funding": "Commercial retailer or manufacturer; financial interest in sales.",
+      "coi": "Commercial interests relevant; full disclosures not audited.",
+      "bias": "Product identity and URL only, not clinical efficacy or safety. No current stock, seller authenticity, price or app-opening guarantee.",
+      "access": "Original indexed page/label verified; no live inventory guarantee",
+      "verified": "2026-11-27",
+      "certainty": "Descriptive product/availability record, not GRADE clinical evidence",
+      "sponsorRole": "Not an independent comparative study",
+      "integrity": "Market supply and source update status may change"
+    },
+    {
+      "id": "CT-109",
+      "title": "Durex Extra Sensitive 42-count Amazon listing",
+      "url": "https://www.amazon.com/dp/B07NX8MKBL",
+      "design": "Retail / commercial listing",
+      "finding": "Amazon page title confirms natural rubber latex, 42 count.",
+      "funding": "Commercial retailer or manufacturer; financial interest in sales.",
+      "coi": "Commercial interests relevant; full disclosures not audited.",
+      "bias": "Product identity and URL only, not clinical efficacy or safety. No current stock, seller authenticity, price or app-opening guarantee.",
+      "access": "Original indexed page/label verified; no live inventory guarantee",
+      "verified": "2026-11-27",
+      "certainty": "Descriptive product/availability record, not GRADE clinical evidence",
+      "sponsorRole": "Not an independent comparative study",
+      "integrity": "Market supply and source update status may change"
+    },
+    {
+      "id": "CT-110",
+      "title": "Trojan ENZ Amazon listing link in editorial article",
+      "url": "https://www.wereview.com/best-condoms-11817497",
+      "design": "Retail / commercial listing",
+      "finding": "Editorial outbound link points to B0073R7TWU; Amazon detail fetch blocked. Commercial editorial rankings are not used as clinical evidence.",
+      "funding": "Commercial retailer or manufacturer; financial interest in sales.",
+      "coi": "Commercial interests relevant; full disclosures not audited.",
+      "bias": "Product identity and URL only, not clinical efficacy or safety. No current stock, seller authenticity, price or app-opening guarantee.",
+      "access": "Original indexed page/label verified; no live inventory guarantee",
+      "verified": "2026-11-27",
+      "certainty": "Descriptive product/availability record, not GRADE clinical evidence",
+      "sponsorRole": "Not an independent comparative study",
+      "integrity": "Market supply and source update status may change"
+    },
+    {
+      "id": "CT-111",
+      "title": "Walmart VCF listings",
+      "url": "https://www.walmart.com/browse/vcf/YnJhbmQ6VkNG",
+      "design": "Retail / commercial listing",
+      "finding": "Film and gel listed in US retail catalog; not guaranteed stock.",
+      "funding": "Commercial retailer or manufacturer; financial interest in sales.",
+      "coi": "Commercial interests relevant; full disclosures not audited.",
+      "bias": "Product identity and URL only, not clinical efficacy or safety. No current stock, seller authenticity, price or app-opening guarantee.",
+      "access": "Original indexed page/label verified; no live inventory guarantee",
+      "verified": "2026-11-27",
+      "certainty": "Descriptive product/availability record, not GRADE clinical evidence",
+      "sponsorRole": "Not an independent comparative study",
+      "integrity": "Market supply and source update status may change"
+    },
+    {
+      "id": "CT-112",
+      "title": "US Target condom category",
+      "url": "https://www.target.com/c/condoms-contraceptives-sexual-wellness-health/-/N-9whnb",
+      "design": "Retail / commercial listing",
+      "finding": "Lists Trojan, Durex, SKYN, LifeStyles and others; not exhaustive SKU inventory.",
+      "funding": "Commercial retailer or manufacturer; financial interest in sales.",
+      "coi": "Commercial interests relevant; full disclosures not audited.",
+      "bias": "Product identity and URL only, not clinical efficacy or safety. No current stock, seller authenticity, price or app-opening guarantee.",
+      "access": "Original indexed page/label verified; no live inventory guarantee",
+      "verified": "2026-11-27",
+      "certainty": "Descriptive product/availability record, not GRADE clinical evidence",
+      "sponsorRole": "Not an independent comparative study",
+      "integrity": "Market supply and source update status may change"
+    },
+    {
+      "id": "CT-113",
+      "title": "Caya US manufacturer FAQ",
+      "url": "https://www.caya.us.com/frequently-asked-questions/",
+      "design": "Manufacturer information",
+      "finding": "Manufacturer states original German Caya gel is not FDA approved for US sale. Caya diaphragm is prescription in US.",
+      "funding": "Government host or labeler; labeler funding and clinical study sponsorship distinct.",
+      "coi": "Commercial interests relevant; full disclosures not audited.",
+      "bias": "Commercial interest; compatibility and efficacy must be evaluated separately. Do not list foreign gel as FDA-authorized US contraception.",
+      "access": "Original indexed page/label verified; no live inventory guarantee",
+      "verified": "2026-11-27",
+      "certainty": "Descriptive product/availability record, not GRADE clinical evidence",
+      "sponsorRole": "Not an independent comparative study",
+      "integrity": "Market supply and source update status may change"
+    },
+    {
+      "id": "CT-114",
+      "title": "FDA Orange Book downloadable data",
+      "url": "https://www.fda.gov/drugs/drug-approvals-and-databases/orange-book-data-files",
+      "design": "Regulatory label or official device record",
+      "finding": "Official monthly approved-drug product data, including therapeutic equivalence and marketing status fields. Full export not ingested in this pass.",
+      "funding": "Government host or labeler; labeler funding and clinical study sponsorship distinct.",
+      "coi": "Commercial interests relevant; full disclosures not audited.",
+      "bias": "Labeler-supplied information, not independent comparative clinical research. Current listing and supply are distinct; no product-level safety ranking.",
+      "access": "Original indexed page/label verified; no live inventory guarantee",
+      "verified": "2026-11-27",
+      "certainty": "Descriptive product/availability record, not GRADE clinical evidence",
+      "sponsorRole": "Not an independent comparative study",
+      "integrity": "Market supply and source update status may change"
+    },
+    {
+      "id": "CT-115",
+      "title": "FDA Clue Birth Control clearance K193330",
+      "url": "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfPMN/pmn.cfm?ID=K193330",
+      "design": "Regulatory label or official device record",
+      "finding": "FDA cleared Clue Birth Control in 2021; current commercial feature availability unverified.",
+      "funding": "Government host or labeler; labeler funding and clinical study sponsorship distinct.",
+      "coi": "Commercial interests relevant; full disclosures not audited.",
+      "bias": "Labeler-supplied information, not independent comparative clinical research. Current listing and supply are distinct; no product-level safety ranking.",
+      "access": "Original indexed page/label verified; no live inventory guarantee",
+      "verified": "2026-11-27",
+      "certainty": "Descriptive product/availability record, not GRADE clinical evidence",
+      "sponsorRole": "Not an independent comparative study",
+      "integrity": "Market supply and source update status may change"
+    },
+    {
+      "id": "CT-116",
+      "title": "VCF manufacturer product shop",
+      "url": "https://vcfcontraceptive.com/shop/",
+      "design": "Retail / commercial listing",
+      "finding": "Manufacturer lists film and gel products. Exact Amazon film/gel ASIN could not be verified.",
+      "funding": "Commercial retailer or manufacturer; financial interest in sales.",
+      "coi": "Commercial interests relevant; full disclosures not audited.",
+      "bias": "Product identity and URL only, not clinical efficacy or safety. No current stock, seller authenticity, price or app-opening guarantee.",
+      "access": "Original indexed page/label verified; no live inventory guarantee",
+      "verified": "2026-11-27",
+      "certainty": "Descriptive product/availability record, not GRADE clinical evidence",
+      "sponsorRole": "Not an independent comparative study",
+      "integrity": "Market supply and source update status may change"
+    },
+    {
+      "id": "CT-117",
+      "title": "Today contraceptive sponge DailyMed",
+      "url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=6b4e54d7-6ba8-4400-bd52-75d112e6fe50",
+      "design": "Regulatory label or official device record",
+      "finding": "Nonoxynol-9 sponge listed.",
+      "funding": "Government host or labeler; labeler funding and clinical study sponsorship distinct.",
+      "coi": "Commercial interests relevant; full disclosures not audited.",
+      "bias": "Labeler-supplied information, not independent comparative clinical research. Current listing and supply are distinct; no product-level safety ranking.",
+      "access": "Original indexed page/label verified; no live inventory guarantee",
+      "verified": "2026-11-27",
+      "certainty": "Descriptive product/availability record, not GRADE clinical evidence",
+      "sponsorRole": "Not an independent comparative study",
+      "integrity": "Market supply and source update status may change"
+    },
+    {
+      "id": "CT-118",
+      "title": "VCF contraceptive foam DailyMed",
+      "url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=f7a7b388-e55e-4f55-b271-0a60bb7aa694",
+      "design": "Regulatory label or official device record",
+      "finding": "Nonoxynol-9 foam listed.",
+      "funding": "Government host or labeler; labeler funding and clinical study sponsorship distinct.",
+      "coi": "Commercial interests relevant; full disclosures not audited.",
+      "bias": "Labeler-supplied information, not independent comparative clinical research. Current listing and supply are distinct; no product-level safety ranking.",
+      "access": "Original indexed page/label verified; no live inventory guarantee",
+      "verified": "2026-11-27",
+      "certainty": "Descriptive product/availability record, not GRADE clinical evidence",
+      "sponsorRole": "Not an independent comparative study",
+      "integrity": "Market supply and source update status may change"
+    },
+    {
+      "id": "CT-119",
+      "title": "Conceptrol Options gel DailyMed",
+      "url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=5e3d5d8b-b692-4d84-a543-52a2eedbfcf2",
+      "design": "Regulatory label or official device record",
+      "finding": "Nonoxynol-9 gel listed.",
+      "funding": "Government host or labeler; labeler funding and clinical study sponsorship distinct.",
+      "coi": "Commercial interests relevant; full disclosures not audited.",
+      "bias": "Labeler-supplied information, not independent comparative clinical research. Current listing and supply are distinct; no product-level safety ranking.",
+      "access": "Original indexed page/label verified; no live inventory guarantee",
+      "verified": "2026-11-27",
+      "certainty": "Descriptive product/availability record, not GRADE clinical evidence",
+      "sponsorRole": "Not an independent comparative study",
+      "integrity": "Market supply and source update status may change"
+    },
+    {
+      "id": "CT-120",
+      "title": "Gynol II Extra Strength DailyMed",
+      "url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=eaf86a36-0573-4c39-9324-88919c4d009b",
+      "design": "Regulatory label or official device record",
+      "finding": "Nonoxynol-9 gel listed.",
+      "funding": "Government host or labeler; labeler funding and clinical study sponsorship distinct.",
+      "coi": "Commercial interests relevant; full disclosures not audited.",
+      "bias": "Labeler-supplied information, not independent comparative clinical research. Current listing and supply are distinct; no product-level safety ranking.",
+      "access": "Original indexed page/label verified; no live inventory guarantee",
+      "verified": "2026-11-27",
+      "certainty": "Descriptive product/availability record, not GRADE clinical evidence",
+      "sponsorRole": "Not an independent comparative study",
+      "integrity": "Market supply and source update status may change"
+    },
+    {
+      "id": "CT-121",
+      "title": "Heather DailyMed",
+      "url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=35b5ddb5-1729-4588-b2a2-ead56d78b6f9",
+      "design": "Regulatory label or official device record",
+      "finding": "Norethindrone 0.35 mg prescription pill.",
+      "funding": "Government host or labeler; labeler funding and clinical study sponsorship distinct.",
+      "coi": "Commercial interests relevant; full disclosures not audited.",
+      "bias": "Labeler-supplied information, not independent comparative clinical research. Current listing and supply are distinct; no product-level safety ranking.",
+      "access": "Original indexed page/label verified; no live inventory guarantee",
+      "verified": "2026-11-27",
+      "certainty": "Descriptive product/availability record, not GRADE clinical evidence",
+      "sponsorRole": "Not an independent comparative study",
+      "integrity": "Market supply and source update status may change"
+    },
+    {
+      "id": "CT-122",
+      "title": "Jencycla DailyMed",
+      "url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=e91e7bdd-2984-4332-9b0b-04322792d7f6",
+      "design": "Regulatory label or official device record",
+      "finding": "Norethindrone 0.35 mg prescription pill.",
+      "funding": "Government host or labeler; labeler funding and clinical study sponsorship distinct.",
+      "coi": "Commercial interests relevant; full disclosures not audited.",
+      "bias": "Labeler-supplied information, not independent comparative clinical research. Current listing and supply are distinct; no product-level safety ranking.",
+      "access": "Original indexed page/label verified; no live inventory guarantee",
+      "verified": "2026-11-27",
+      "certainty": "Descriptive product/availability record, not GRADE clinical evidence",
+      "sponsorRole": "Not an independent comparative study",
+      "integrity": "Market supply and source update status may change"
+    },
+    {
+      "id": "CT-123",
+      "title": "Sharobel DailyMed",
+      "url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=a96f5194-ad2a-4783-a9a9-22a288caff25",
+      "design": "Regulatory label or official device record",
+      "finding": "Norethindrone 0.35 mg prescription pill.",
+      "funding": "Government host or labeler; labeler funding and clinical study sponsorship distinct.",
+      "coi": "Commercial interests relevant; full disclosures not audited.",
+      "bias": "Labeler-supplied information, not independent comparative clinical research. Current listing and supply are distinct; no product-level safety ranking.",
+      "access": "Original indexed page/label verified; no live inventory guarantee",
+      "verified": "2026-11-27",
+      "certainty": "Descriptive product/availability record, not GRADE clinical evidence",
+      "sponsorRole": "Not an independent comparative study",
+      "integrity": "Market supply and source update status may change"
+    },
+    {
+      "id": "CT-124",
+      "title": "Junel and Junel Fe DailyMed",
+      "url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=8b82ad14-580c-4145-b825-dce849f95363",
+      "design": "Regulatory label or official device record",
+      "finding": "Norethindrone acetate/ethinyl estradiol strengths and pack variants.",
+      "funding": "Government host or labeler; labeler funding and clinical study sponsorship distinct.",
+      "coi": "Commercial interests relevant; full disclosures not audited.",
+      "bias": "Labeler-supplied information, not independent comparative clinical research. Current listing and supply are distinct; no product-level safety ranking.",
+      "access": "Original indexed page/label verified; no live inventory guarantee",
+      "verified": "2026-11-27",
+      "certainty": "Descriptive product/availability record, not GRADE clinical evidence",
+      "sponsorRole": "Not an independent comparative study",
+      "integrity": "Market supply and source update status may change"
+    },
+    {
+      "id": "CT-125",
+      "title": "Amazon Basic Care levonorgestrel label",
+      "url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=10ecae6f-386f-e199-e063-6294a90a680b",
+      "design": "Regulatory label or official device record",
+      "finding": "OTC emergency contraception; 1.5 mg levonorgestrel.",
+      "funding": "Government host or labeler; labeler funding and clinical study sponsorship distinct.",
+      "coi": "Commercial interests relevant; full disclosures not audited.",
+      "bias": "Labeler-supplied information, not independent comparative clinical research. Current listing and supply are distinct; no product-level safety ranking.",
+      "access": "Original indexed page/label verified; no live inventory guarantee",
+      "verified": "2026-11-27",
+      "certainty": "Descriptive product/availability record, not GRADE clinical evidence",
+      "sponsorRole": "Not an independent comparative study",
+      "integrity": "Market supply and source update status may change"
     }
   ],
   "sections": [
@@ -2498,6 +2798,14 @@
           [
             "CT-07",
             "CT-41"
+          ]
+        ],
+        [
+          "Product access",
+          "Product identity corroborated by catalog and manufacturer retailer directory; direct listing stock not verified.",
+          [
+            "CT-106",
+            "CT-107"
           ]
         ]
       ]
@@ -4163,6 +4471,14 @@
             "CT-07",
             "CT-41"
           ]
+        ],
+        [
+          "Product access",
+          "Exact Amazon product URL not verified; manufacturer page instead.",
+          [
+            "CT-116",
+            "CT-111"
+          ]
         ]
       ]
     },
@@ -4215,6 +4531,14 @@
           [
             "CT-07",
             "CT-41"
+          ]
+        ],
+        [
+          "Product access",
+          "Exact Amazon product URL not verified; manufacturer page instead.",
+          [
+            "CT-116",
+            "CT-111"
           ]
         ]
       ]
@@ -4527,6 +4851,719 @@
           [
             "CT-03",
             "CT-19"
+          ]
+        ]
+      ]
+    },
+    {
+      "id": "product-today-sponge",
+      "title": "Today contraceptive sponge — product research",
+      "summary": "Hormone-free; no clinician insertion.",
+      "keywords": "Today contraceptive sponge Nonoxynol-9 sponge  sponge contraceptive birth control",
+      "paragraphs": [
+        [
+          "Formulation & access",
+          "Nonoxynol-9 sponge. OTC label. Per-use product. US label found; retail supply not confirmed.",
+          [
+            "CT-117",
+            "CT-98",
+            "CT-59",
+            "CT-01",
+            "CT-65"
+          ]
+        ],
+        [
+          "Why consider it",
+          "Hormone-free; no clinician insertion.",
+          [
+            "CT-117",
+            "CT-98",
+            "CT-59",
+            "CT-01",
+            "CT-65"
+          ]
+        ],
+        [
+          "Limitations & safety",
+          "Local irritation, no STI protection; follow label. Sponge effectiveness depends on prior childbirth; observe label's toxic-shock precautions.",
+          [
+            "CT-117",
+            "CT-98",
+            "CT-59",
+            "CT-01",
+            "CT-65"
+          ]
+        ],
+        [
+          "What the research actually establishes",
+          "No direct product superiority shown. Label listing does not prove marketed supply. Class typical-use data and nonoxynol-9 harm research are not individual brand pregnancy estimates.",
+          [
+            "CT-117",
+            "CT-98",
+            "CT-59",
+            "CT-01",
+            "CT-65"
+          ]
+        ]
+      ]
+    },
+    {
+      "id": "product-vcf-foam",
+      "title": "VCF contraceptive foam — product research",
+      "summary": "Hormone-free; no clinician insertion.",
+      "keywords": "VCF contraceptive foam Nonoxynol-9 foam  gel contraceptive birth control",
+      "paragraphs": [
+        [
+          "Formulation & access",
+          "Nonoxynol-9 foam. OTC label. Per-use product. US label found; retail supply not confirmed.",
+          [
+            "CT-118",
+            "CT-98",
+            "CT-59",
+            "CT-01",
+            "CT-65"
+          ]
+        ],
+        [
+          "Why consider it",
+          "Hormone-free; no clinician insertion.",
+          [
+            "CT-118",
+            "CT-98",
+            "CT-59",
+            "CT-01",
+            "CT-65"
+          ]
+        ],
+        [
+          "Limitations & safety",
+          "Local irritation, no STI protection; follow label. Frequent nonoxynol-9 exposure may cause mucosal injury.",
+          [
+            "CT-118",
+            "CT-98",
+            "CT-59",
+            "CT-01",
+            "CT-65"
+          ]
+        ],
+        [
+          "What the research actually establishes",
+          "No direct product superiority shown. Label listing does not prove marketed supply. Class typical-use data and nonoxynol-9 harm research are not individual brand pregnancy estimates.",
+          [
+            "CT-118",
+            "CT-98",
+            "CT-59",
+            "CT-01",
+            "CT-65"
+          ]
+        ]
+      ]
+    },
+    {
+      "id": "product-conceptrol",
+      "title": "Conceptrol Options gel — product research",
+      "summary": "Hormone-free; no clinician insertion.",
+      "keywords": "Conceptrol Options gel Nonoxynol-9 gel  gel contraceptive birth control",
+      "paragraphs": [
+        [
+          "Formulation & access",
+          "Nonoxynol-9 gel. OTC label. Per-use product. US label found; retail supply not confirmed.",
+          [
+            "CT-119",
+            "CT-98",
+            "CT-59",
+            "CT-01",
+            "CT-65"
+          ]
+        ],
+        [
+          "Why consider it",
+          "Hormone-free; no clinician insertion.",
+          [
+            "CT-119",
+            "CT-98",
+            "CT-59",
+            "CT-01",
+            "CT-65"
+          ]
+        ],
+        [
+          "Limitations & safety",
+          "Local irritation, no STI protection; follow label. Frequent nonoxynol-9 exposure may cause mucosal injury.",
+          [
+            "CT-119",
+            "CT-98",
+            "CT-59",
+            "CT-01",
+            "CT-65"
+          ]
+        ],
+        [
+          "What the research actually establishes",
+          "No direct product superiority shown. Label listing does not prove marketed supply. Class typical-use data and nonoxynol-9 harm research are not individual brand pregnancy estimates.",
+          [
+            "CT-119",
+            "CT-98",
+            "CT-59",
+            "CT-01",
+            "CT-65"
+          ]
+        ]
+      ]
+    },
+    {
+      "id": "product-gynol-ii",
+      "title": "Gynol II Extra Strength — product research",
+      "summary": "Hormone-free; no clinician insertion.",
+      "keywords": "Gynol II Extra Strength Nonoxynol-9 gel  gel contraceptive birth control",
+      "paragraphs": [
+        [
+          "Formulation & access",
+          "Nonoxynol-9 gel. OTC label. Per-use product. US label found; retail supply not confirmed.",
+          [
+            "CT-120",
+            "CT-98",
+            "CT-59",
+            "CT-01",
+            "CT-65"
+          ]
+        ],
+        [
+          "Why consider it",
+          "Hormone-free; no clinician insertion.",
+          [
+            "CT-120",
+            "CT-98",
+            "CT-59",
+            "CT-01",
+            "CT-65"
+          ]
+        ],
+        [
+          "Limitations & safety",
+          "Local irritation, no STI protection; follow label. Frequent nonoxynol-9 exposure may cause mucosal injury.",
+          [
+            "CT-120",
+            "CT-98",
+            "CT-59",
+            "CT-01",
+            "CT-65"
+          ]
+        ],
+        [
+          "What the research actually establishes",
+          "No direct product superiority shown. Label listing does not prove marketed supply. Class typical-use data and nonoxynol-9 harm research are not individual brand pregnancy estimates.",
+          [
+            "CT-120",
+            "CT-98",
+            "CT-59",
+            "CT-01",
+            "CT-65"
+          ]
+        ]
+      ]
+    },
+    {
+      "id": "product-heather",
+      "title": "Heather — product research",
+      "summary": "Traditional estrogen-free option; multiple equivalent generic formulations.",
+      "keywords": "Heather Norethindrone 0.35 mg  mini-pill contraceptive birth control",
+      "paragraphs": [
+        [
+          "Formulation & access",
+          "Norethindrone 0.35 mg. Prescription. Daily oral formulation. US label found; retail supply not confirmed.",
+          [
+            "CT-121",
+            "CT-68",
+            "CT-69",
+            "CT-70",
+            "CT-02",
+            "CT-03",
+            "CT-07",
+            "CT-58"
+          ]
+        ],
+        [
+          "Why consider it",
+          "Traditional estrogen-free option; multiple equivalent generic formulations.",
+          [
+            "CT-121",
+            "CT-68",
+            "CT-69",
+            "CT-70",
+            "CT-02",
+            "CT-03",
+            "CT-07",
+            "CT-58"
+          ]
+        ],
+        [
+          "Limitations & safety",
+          "Irregular bleeding, strict timing and drug interactions; not a natural progesterone preparation. Product-specific directions differ.",
+          [
+            "CT-121",
+            "CT-68",
+            "CT-69",
+            "CT-70",
+            "CT-02",
+            "CT-03",
+            "CT-07",
+            "CT-58"
+          ]
+        ],
+        [
+          "What the research actually establishes",
+          "Same active ingredient and strength as traditional norethindrone mini-pill; no new independent clinical superiority evidence. Ask pharmacy about equivalent generic substitution.",
+          [
+            "CT-121",
+            "CT-68",
+            "CT-69",
+            "CT-70",
+            "CT-02",
+            "CT-03",
+            "CT-07",
+            "CT-58"
+          ]
+        ]
+      ]
+    },
+    {
+      "id": "product-jencycla",
+      "title": "Jencycla — product research",
+      "summary": "Traditional estrogen-free option; multiple equivalent generic formulations.",
+      "keywords": "Jencycla Norethindrone 0.35 mg  mini-pill contraceptive birth control",
+      "paragraphs": [
+        [
+          "Formulation & access",
+          "Norethindrone 0.35 mg. Prescription. Daily oral formulation. US label found; retail supply not confirmed.",
+          [
+            "CT-122",
+            "CT-68",
+            "CT-69",
+            "CT-70",
+            "CT-02",
+            "CT-03",
+            "CT-07",
+            "CT-58"
+          ]
+        ],
+        [
+          "Why consider it",
+          "Traditional estrogen-free option; multiple equivalent generic formulations.",
+          [
+            "CT-122",
+            "CT-68",
+            "CT-69",
+            "CT-70",
+            "CT-02",
+            "CT-03",
+            "CT-07",
+            "CT-58"
+          ]
+        ],
+        [
+          "Limitations & safety",
+          "Irregular bleeding, strict timing and drug interactions; not a natural progesterone preparation. Product-specific directions differ.",
+          [
+            "CT-122",
+            "CT-68",
+            "CT-69",
+            "CT-70",
+            "CT-02",
+            "CT-03",
+            "CT-07",
+            "CT-58"
+          ]
+        ],
+        [
+          "What the research actually establishes",
+          "Same active ingredient and strength as traditional norethindrone mini-pill; no new independent clinical superiority evidence. Ask pharmacy about equivalent generic substitution.",
+          [
+            "CT-122",
+            "CT-68",
+            "CT-69",
+            "CT-70",
+            "CT-02",
+            "CT-03",
+            "CT-07",
+            "CT-58"
+          ]
+        ]
+      ]
+    },
+    {
+      "id": "product-sharobel",
+      "title": "Sharobel — product research",
+      "summary": "Traditional estrogen-free option; multiple equivalent generic formulations.",
+      "keywords": "Sharobel Norethindrone 0.35 mg  mini-pill contraceptive birth control",
+      "paragraphs": [
+        [
+          "Formulation & access",
+          "Norethindrone 0.35 mg. Prescription. Daily oral formulation. US label found; retail supply not confirmed.",
+          [
+            "CT-123",
+            "CT-68",
+            "CT-69",
+            "CT-70",
+            "CT-02",
+            "CT-03",
+            "CT-07",
+            "CT-58"
+          ]
+        ],
+        [
+          "Why consider it",
+          "Traditional estrogen-free option; multiple equivalent generic formulations.",
+          [
+            "CT-123",
+            "CT-68",
+            "CT-69",
+            "CT-70",
+            "CT-02",
+            "CT-03",
+            "CT-07",
+            "CT-58"
+          ]
+        ],
+        [
+          "Limitations & safety",
+          "Irregular bleeding, strict timing and drug interactions; not a natural progesterone preparation. Product-specific directions differ.",
+          [
+            "CT-123",
+            "CT-68",
+            "CT-69",
+            "CT-70",
+            "CT-02",
+            "CT-03",
+            "CT-07",
+            "CT-58"
+          ]
+        ],
+        [
+          "What the research actually establishes",
+          "Same active ingredient and strength as traditional norethindrone mini-pill; no new independent clinical superiority evidence. Ask pharmacy about equivalent generic substitution.",
+          [
+            "CT-123",
+            "CT-68",
+            "CT-69",
+            "CT-70",
+            "CT-02",
+            "CT-03",
+            "CT-07",
+            "CT-58"
+          ]
+        ]
+      ]
+    },
+    {
+      "id": "product-junel",
+      "title": "Junel / Junel Fe — product research",
+      "summary": "Distinct from norethindrone-only pills; various strengths and pack designs.",
+      "keywords": "Junel / Junel Fe Norethindrone acetate + ethinyl estradiol  combined-pill contraceptive birth control",
+      "paragraphs": [
+        [
+          "Formulation & access",
+          "Norethindrone acetate + ethinyl estradiol. Prescription. Oral combined formulation. US label found; retail supply not confirmed.",
+          [
+            "CT-124",
+            "CT-114",
+            "CT-02",
+            "CT-12",
+            "CT-35"
+          ]
+        ],
+        [
+          "Why consider it",
+          "Distinct from norethindrone-only pills; various strengths and pack designs.",
+          [
+            "CT-124",
+            "CT-114",
+            "CT-02",
+            "CT-12",
+            "CT-35"
+          ]
+        ],
+        [
+          "Limitations & safety",
+          "Systemic estrogen eligibility and clot/vascular warnings matter; not hormone-free.",
+          [
+            "CT-124",
+            "CT-114",
+            "CT-02",
+            "CT-12",
+            "CT-35"
+          ]
+        ],
+        [
+          "What the research actually establishes",
+          "No product-specific long-term ranking established. Generic equivalence must be checked using the FDA data.",
+          [
+            "CT-124",
+            "CT-114",
+            "CT-02",
+            "CT-12",
+            "CT-35"
+          ]
+        ]
+      ]
+    },
+    {
+      "id": "product-amazon-basic-care-ec",
+      "title": "Amazon Basic Care levonorgestrel — product research",
+      "summary": "Emergency option, not routine birth control.",
+      "keywords": "Amazon Basic Care levonorgestrel Levonorgestrel 1.5 mg  emergency contraceptive birth control",
+      "paragraphs": [
+        [
+          "Formulation & access",
+          "Levonorgestrel 1.5 mg. OTC. Emergency use only. US label found; retail supply not confirmed.",
+          [
+            "CT-125",
+            "CT-03",
+            "CT-19"
+          ]
+        ],
+        [
+          "Why consider it",
+          "Emergency option, not routine birth control.",
+          [
+            "CT-125",
+            "CT-03",
+            "CT-19"
+          ]
+        ],
+        [
+          "Limitations & safety",
+          "Time-sensitive, not a daily pill; consult pharmacist/clinician as appropriate.",
+          [
+            "CT-125",
+            "CT-03",
+            "CT-19"
+          ]
+        ],
+        [
+          "What the research actually establishes",
+          "Label identifies product. Exact Amazon ASIN not verified; no guessed retail link.",
+          [
+            "CT-125",
+            "CT-03",
+            "CT-19"
+          ]
+        ]
+      ]
+    },
+    {
+      "id": "product-skyn-original",
+      "title": "SKYN Original — product research",
+      "summary": "No hormones or invasive procedure; appropriate condoms reduce STI transmission.",
+      "keywords": "SKYN Original Synthetic polyisoprene  external-condom contraceptive birth control",
+      "paragraphs": [
+        [
+          "Formulation & access",
+          "Synthetic polyisoprene. OTC. Single-use barrier. US retail listing or outbound product link identified; stock not verified.",
+          [
+            "CT-01",
+            "CT-03",
+            "CT-48",
+            "CT-112",
+            "CT-108"
+          ]
+        ],
+        [
+          "Why consider it",
+          "No hormones or invasive procedure; appropriate condoms reduce STI transmission.",
+          [
+            "CT-01",
+            "CT-03",
+            "CT-48",
+            "CT-112",
+            "CT-108"
+          ]
+        ],
+        [
+          "Limitations & safety",
+          "Fit, material sensitivity, breakage, slippage and correct use matter. No product-specific safety or pregnancy ranking.",
+          [
+            "CT-01",
+            "CT-03",
+            "CT-48",
+            "CT-112",
+            "CT-108"
+          ]
+        ],
+        [
+          "What the research actually establishes",
+          "Class typical-use effectiveness is not brand-specific. Retail reviews are not clinical comparisons.",
+          [
+            "CT-01",
+            "CT-03",
+            "CT-48",
+            "CT-112",
+            "CT-108"
+          ]
+        ],
+        [
+          "Product access",
+          "Exact 24-count listing linked from editorial source; seller and stock not verified.",
+          [
+            "CT-108"
+          ]
+        ]
+      ]
+    },
+    {
+      "id": "product-durex-extra-sensitive",
+      "title": "Durex Extra Sensitive — product research",
+      "summary": "No hormones or invasive procedure; appropriate condoms reduce STI transmission.",
+      "keywords": "Durex Extra Sensitive Natural rubber latex  external-condom contraceptive birth control",
+      "paragraphs": [
+        [
+          "Formulation & access",
+          "Natural rubber latex. OTC. Single-use barrier. US retail listing or outbound product link identified; stock not verified.",
+          [
+            "CT-01",
+            "CT-03",
+            "CT-48",
+            "CT-112",
+            "CT-109"
+          ]
+        ],
+        [
+          "Why consider it",
+          "No hormones or invasive procedure; appropriate condoms reduce STI transmission.",
+          [
+            "CT-01",
+            "CT-03",
+            "CT-48",
+            "CT-112",
+            "CT-109"
+          ]
+        ],
+        [
+          "Limitations & safety",
+          "Fit, material sensitivity, breakage, slippage and correct use matter. No product-specific safety or pregnancy ranking.",
+          [
+            "CT-01",
+            "CT-03",
+            "CT-48",
+            "CT-112",
+            "CT-109"
+          ]
+        ],
+        [
+          "What the research actually establishes",
+          "Class typical-use effectiveness is not brand-specific. Retail reviews are not clinical comparisons.",
+          [
+            "CT-01",
+            "CT-03",
+            "CT-48",
+            "CT-112",
+            "CT-109"
+          ]
+        ],
+        [
+          "Product access",
+          "Amazon title checked: 42-count natural rubber latex; stock/seller unverified.",
+          [
+            "CT-109"
+          ]
+        ]
+      ]
+    },
+    {
+      "id": "product-trojan-enz",
+      "title": "Trojan ENZ / Original — product research",
+      "summary": "No hormones or invasive procedure; appropriate condoms reduce STI transmission.",
+      "keywords": "Trojan ENZ / Original Natural rubber latex  external-condom contraceptive birth control",
+      "paragraphs": [
+        [
+          "Formulation & access",
+          "Natural rubber latex. OTC. Single-use barrier. US retail listing or outbound product link identified; stock not verified.",
+          [
+            "CT-01",
+            "CT-03",
+            "CT-48",
+            "CT-112",
+            "CT-110"
+          ]
+        ],
+        [
+          "Why consider it",
+          "No hormones or invasive procedure; appropriate condoms reduce STI transmission.",
+          [
+            "CT-01",
+            "CT-03",
+            "CT-48",
+            "CT-112",
+            "CT-110"
+          ]
+        ],
+        [
+          "Limitations & safety",
+          "Fit, material sensitivity, breakage, slippage and correct use matter. No product-specific safety or pregnancy ranking.",
+          [
+            "CT-01",
+            "CT-03",
+            "CT-48",
+            "CT-112",
+            "CT-110"
+          ]
+        ],
+        [
+          "What the research actually establishes",
+          "Class typical-use effectiveness is not brand-specific. Retail reviews are not clinical comparisons.",
+          [
+            "CT-01",
+            "CT-03",
+            "CT-48",
+            "CT-112",
+            "CT-110"
+          ]
+        ],
+        [
+          "Product access",
+          "Editorial product link identified; direct Amazon fetch blocked. Verify listing before buying.",
+          [
+            "CT-110"
+          ]
+        ]
+      ]
+    },
+    {
+      "id": "product-clue-birth-control",
+      "title": "Clue Birth Control — product research",
+      "summary": "Hormone-free approach with no placement procedure.",
+      "keywords": "Clue Birth Control Contraceptive software  fertility-awareness contraceptive birth control",
+      "paragraphs": [
+        [
+          "Formulation & access",
+          "Contraceptive software. FDA-cleared; current feature availability not verified. Cycle-based tracking. FDA cleared; US commercial availability unresolved.",
+          [
+            "CT-115",
+            "CT-09"
+          ]
+        ],
+        [
+          "Why consider it",
+          "Hormone-free approach with no placement procedure.",
+          [
+            "CT-115",
+            "CT-09"
+          ]
+        ],
+        [
+          "Limitations & safety",
+          "FDA clearance does not establish that the contraceptive feature remains available; ordinary Clue tracking is not the same product.",
+          [
+            "CT-115",
+            "CT-09"
+          ]
+        ],
+        [
+          "What the research actually establishes",
+          "Do not substitute Natural Cycles or ordinary period-tracking estimates. Confirm current contraceptive-mode access and eligibility.",
+          [
+            "CT-115",
+            "CT-09"
           ]
         ]
       ]
@@ -5223,7 +6260,8 @@
         "CT-58"
       ],
       "status": "US labels found; local supply not verified",
-      "aliases": "Camila Errin generic Heather Jencycla Norlyda Micronor (historical brand names; availability not verified)"
+      "aliases": "Camila Errin generic Heather Jencycla Norlyda Micronor (historical brand names; availability not verified)",
+      "retail": null
     },
     {
       "id": "product-opill",
@@ -5242,10 +6280,21 @@
         "CT-02",
         "CT-03",
         "CT-07",
-        "CT-58"
+        "CT-58",
+        "CT-106",
+        "CT-107"
       ],
       "status": "US label/authorization found; local supply not verified",
-      "aliases": ""
+      "aliases": "",
+      "retail": {
+        "url": "https://www.amazon.com/dp/B0CJYHQ3CB",
+        "label": "Amazon · Opill 84 count",
+        "verification": "Product identity corroborated by catalog and manufacturer retailer directory; direct listing stock not verified.",
+        "sourceIds": [
+          "CT-106",
+          "CT-107"
+        ]
+      }
     },
     {
       "id": "product-slynd",
@@ -5267,7 +6316,8 @@
         "CT-58"
       ],
       "status": "US label/authorization found; local supply not verified",
-      "aliases": ""
+      "aliases": "",
+      "retail": null
     },
     {
       "id": "product-paragard",
@@ -5290,7 +6340,8 @@
         "CT-20"
       ],
       "status": "US label/authorization found; local supply not verified",
-      "aliases": ""
+      "aliases": "",
+      "retail": null
     },
     {
       "id": "product-miudella",
@@ -5309,7 +6360,8 @@
         "CT-15"
       ],
       "status": "FDA approved; manufacturer anticipated late-2026 launch, actual market supply not confirmed",
-      "aliases": ""
+      "aliases": "",
+      "retail": null
     },
     {
       "id": "product-mirena",
@@ -5332,7 +6384,8 @@
         "CT-20"
       ],
       "status": "US label/authorization found; local supply not verified",
-      "aliases": ""
+      "aliases": "",
+      "retail": null
     },
     {
       "id": "product-liletta",
@@ -5355,7 +6408,8 @@
         "CT-20"
       ],
       "status": "US label/authorization found; local supply not verified",
-      "aliases": ""
+      "aliases": "",
+      "retail": null
     },
     {
       "id": "product-kyleena",
@@ -5378,7 +6432,8 @@
         "CT-20"
       ],
       "status": "US label/authorization found; local supply not verified",
-      "aliases": ""
+      "aliases": "",
+      "retail": null
     },
     {
       "id": "product-skyla",
@@ -5401,7 +6456,8 @@
         "CT-20"
       ],
       "status": "US label/authorization found; local supply not verified",
-      "aliases": ""
+      "aliases": "",
+      "retail": null
     },
     {
       "id": "product-nexplanon",
@@ -5421,7 +6477,8 @@
         "CT-58"
       ],
       "status": "US label/authorization found; local supply not verified",
-      "aliases": ""
+      "aliases": "",
+      "retail": null
     },
     {
       "id": "product-depo-provera",
@@ -5444,7 +6501,8 @@
         "CT-58"
       ],
       "status": "US label/authorization found; local supply not verified",
-      "aliases": ""
+      "aliases": "",
+      "retail": null
     },
     {
       "id": "product-depo-subq",
@@ -5467,7 +6525,8 @@
         "CT-58"
       ],
       "status": "US label/authorization found; local supply not verified",
-      "aliases": ""
+      "aliases": "",
+      "retail": null
     },
     {
       "id": "product-aviane",
@@ -5488,7 +6547,8 @@
         "CT-57"
       ],
       "status": "US label/authorization found; local supply not verified",
-      "aliases": ""
+      "aliases": "",
+      "retail": null
     },
     {
       "id": "product-nortrel",
@@ -5509,7 +6569,8 @@
         "CT-57"
       ],
       "status": "US label/authorization found; local supply not verified",
-      "aliases": ""
+      "aliases": "",
+      "retail": null
     },
     {
       "id": "product-lo-loestrin",
@@ -5530,7 +6591,8 @@
         "CT-57"
       ],
       "status": "US label/authorization found; local supply not verified",
-      "aliases": ""
+      "aliases": "",
+      "retail": null
     },
     {
       "id": "product-sprintec",
@@ -5551,7 +6613,8 @@
         "CT-57"
       ],
       "status": "US label/authorization found; local supply not verified",
-      "aliases": ""
+      "aliases": "",
+      "retail": null
     },
     {
       "id": "product-tri-estarylla",
@@ -5572,7 +6635,8 @@
         "CT-57"
       ],
       "status": "US label/authorization found; local supply not verified",
-      "aliases": ""
+      "aliases": "",
+      "retail": null
     },
     {
       "id": "product-desogestrel-ee",
@@ -5593,7 +6657,8 @@
         "CT-57"
       ],
       "status": "US label/authorization found; local supply not verified",
-      "aliases": ""
+      "aliases": "",
+      "retail": null
     },
     {
       "id": "product-yasmin",
@@ -5614,7 +6679,8 @@
         "CT-57"
       ],
       "status": "US label/authorization found; local supply not verified",
-      "aliases": ""
+      "aliases": "",
+      "retail": null
     },
     {
       "id": "product-cryselle",
@@ -5635,7 +6701,8 @@
         "CT-57"
       ],
       "status": "US label/authorization found; local supply not verified",
-      "aliases": ""
+      "aliases": "",
+      "retail": null
     },
     {
       "id": "product-ethynodiol",
@@ -5656,7 +6723,8 @@
         "CT-57"
       ],
       "status": "US label/authorization found; local supply not verified",
-      "aliases": ""
+      "aliases": "",
+      "retail": null
     },
     {
       "id": "product-nextstellis",
@@ -5678,7 +6746,8 @@
         "CT-63"
       ],
       "status": "US label/authorization found; local supply not verified",
-      "aliases": ""
+      "aliases": "",
+      "retail": null
     },
     {
       "id": "product-natazia",
@@ -5698,7 +6767,8 @@
         "CT-35"
       ],
       "status": "US label/authorization found; local supply not verified",
-      "aliases": ""
+      "aliases": "",
+      "retail": null
     },
     {
       "id": "product-xulane",
@@ -5718,7 +6788,8 @@
         "CT-35"
       ],
       "status": "US label/authorization found; local supply not verified",
-      "aliases": ""
+      "aliases": "",
+      "retail": null
     },
     {
       "id": "product-zafemy",
@@ -5738,7 +6809,8 @@
         "CT-35"
       ],
       "status": "US label/authorization found; local supply not verified",
-      "aliases": ""
+      "aliases": "",
+      "retail": null
     },
     {
       "id": "product-twirla",
@@ -5758,7 +6830,8 @@
         "CT-35"
       ],
       "status": "US label/authorization found; local supply not verified",
-      "aliases": ""
+      "aliases": "",
+      "retail": null
     },
     {
       "id": "product-nuvaring",
@@ -5778,7 +6851,8 @@
         "CT-35"
       ],
       "status": "US label/authorization found; local supply not verified",
-      "aliases": ""
+      "aliases": "",
+      "retail": null
     },
     {
       "id": "product-annovera",
@@ -5798,7 +6872,8 @@
         "CT-35"
       ],
       "status": "US label/authorization found; local supply not verified",
-      "aliases": ""
+      "aliases": "",
+      "retail": null
     },
     {
       "id": "product-phexxi",
@@ -5818,7 +6893,8 @@
         "CT-41"
       ],
       "status": "US prescription labels found; local supply and Phexx naming relationship not verified",
-      "aliases": "Phexx vaginal gel pH regulator"
+      "aliases": "Phexx vaginal gel pH regulator",
+      "retail": null
     },
     {
       "id": "product-vcf-film",
@@ -5834,10 +6910,21 @@
         "CT-98",
         "CT-59",
         "CT-01",
-        "CT-65"
+        "CT-65",
+        "CT-116",
+        "CT-111"
       ],
       "status": "US label/authorization found; local supply not verified",
-      "aliases": ""
+      "aliases": "",
+      "retail": {
+        "url": "https://vcfcontraceptive.com/shop/",
+        "label": "Manufacturer product page",
+        "verification": "Exact Amazon product URL not verified; manufacturer page instead.",
+        "sourceIds": [
+          "CT-116",
+          "CT-111"
+        ]
+      }
     },
     {
       "id": "product-vcf-gel",
@@ -5853,10 +6940,21 @@
         "CT-99",
         "CT-59",
         "CT-01",
-        "CT-65"
+        "CT-65",
+        "CT-116",
+        "CT-111"
       ],
       "status": "US label/authorization found; local supply not verified",
-      "aliases": ""
+      "aliases": "",
+      "retail": {
+        "url": "https://vcfcontraceptive.com/shop/",
+        "label": "Manufacturer product page",
+        "verification": "Exact Amazon product URL not verified; manufacturer page instead.",
+        "sourceIds": [
+          "CT-116",
+          "CT-111"
+        ]
+      }
     },
     {
       "id": "product-caya",
@@ -5866,16 +6964,18 @@
       "access": "Device; verify current supply and fitting requirements",
       "duration": "Reusable or per-use depending on product",
       "summary": "Reusable hormone-free device, used with compatible contraceptive gel.",
-      "tradeoffs": "Correct fit/placement and gel use matter; not STI protection. Check whether specific gels are authorized for contraception in the US.",
+      "tradeoffs": "Correct fit/placement and gel use matter; not STI protection. Check whether specific gels are authorized for contraception in the US. Original Caya gel sold overseas is not FDA approved for US sale; verify compatible US contraceptive gel with a clinician.",
       "evidence": "FDA authorization is not head-to-head evidence of superiority. Use method-level effectiveness and safety context; no direct comparative long-term ranking.",
       "sourceIds": [
         "CT-100",
         "CT-01",
         "CT-03",
-        "CT-65"
+        "CT-65",
+        "CT-113"
       ],
       "status": "US label/authorization found; local supply not verified",
-      "aliases": ""
+      "aliases": "",
+      "retail": null
     },
     {
       "id": "product-femcap",
@@ -5894,7 +6994,8 @@
         "CT-65"
       ],
       "status": "US label/authorization found; local supply not verified",
-      "aliases": ""
+      "aliases": "",
+      "retail": null
     },
     {
       "id": "product-fc2",
@@ -5913,7 +7014,8 @@
         "CT-65"
       ],
       "status": "US label/authorization found; local supply not verified",
-      "aliases": ""
+      "aliases": "",
+      "retail": null
     },
     {
       "id": "product-natural-cycles",
@@ -5932,7 +7034,8 @@
         "CT-09"
       ],
       "status": "US label/authorization found; local supply not verified",
-      "aliases": ""
+      "aliases": "",
+      "retail": null
     },
     {
       "id": "product-ella",
@@ -5950,7 +7053,8 @@
         "CT-03"
       ],
       "status": "US label/authorization found; local supply not verified",
-      "aliases": ""
+      "aliases": "",
+      "retail": null
     },
     {
       "id": "product-plan-b",
@@ -5968,7 +7072,306 @@
         "CT-03"
       ],
       "status": "US label/authorization found; local supply not verified",
-      "aliases": ""
+      "aliases": "",
+      "retail": null
+    },
+    {
+      "id": "product-today-sponge",
+      "name": "Today contraceptive sponge",
+      "method": "sponge",
+      "ingredient": "Nonoxynol-9 sponge",
+      "access": "OTC label",
+      "duration": "Per-use product",
+      "summary": "Hormone-free; no clinician insertion.",
+      "tradeoffs": "Local irritation, no STI protection; follow label. Sponge effectiveness depends on prior childbirth; observe label's toxic-shock precautions.",
+      "evidence": "No direct product superiority shown. Label listing does not prove marketed supply. Class typical-use data and nonoxynol-9 harm research are not individual brand pregnancy estimates.",
+      "sourceIds": [
+        "CT-117",
+        "CT-98",
+        "CT-59",
+        "CT-01",
+        "CT-65"
+      ],
+      "status": "US label found; retail supply not confirmed",
+      "aliases": "",
+      "retail": null
+    },
+    {
+      "id": "product-vcf-foam",
+      "name": "VCF contraceptive foam",
+      "method": "gel",
+      "ingredient": "Nonoxynol-9 foam",
+      "access": "OTC label",
+      "duration": "Per-use product",
+      "summary": "Hormone-free; no clinician insertion.",
+      "tradeoffs": "Local irritation, no STI protection; follow label. Frequent nonoxynol-9 exposure may cause mucosal injury.",
+      "evidence": "No direct product superiority shown. Label listing does not prove marketed supply. Class typical-use data and nonoxynol-9 harm research are not individual brand pregnancy estimates.",
+      "sourceIds": [
+        "CT-118",
+        "CT-98",
+        "CT-59",
+        "CT-01",
+        "CT-65"
+      ],
+      "status": "US label found; retail supply not confirmed",
+      "aliases": "",
+      "retail": null
+    },
+    {
+      "id": "product-conceptrol",
+      "name": "Conceptrol Options gel",
+      "method": "gel",
+      "ingredient": "Nonoxynol-9 gel",
+      "access": "OTC label",
+      "duration": "Per-use product",
+      "summary": "Hormone-free; no clinician insertion.",
+      "tradeoffs": "Local irritation, no STI protection; follow label. Frequent nonoxynol-9 exposure may cause mucosal injury.",
+      "evidence": "No direct product superiority shown. Label listing does not prove marketed supply. Class typical-use data and nonoxynol-9 harm research are not individual brand pregnancy estimates.",
+      "sourceIds": [
+        "CT-119",
+        "CT-98",
+        "CT-59",
+        "CT-01",
+        "CT-65"
+      ],
+      "status": "US label found; retail supply not confirmed",
+      "aliases": "",
+      "retail": null
+    },
+    {
+      "id": "product-gynol-ii",
+      "name": "Gynol II Extra Strength",
+      "method": "gel",
+      "ingredient": "Nonoxynol-9 gel",
+      "access": "OTC label",
+      "duration": "Per-use product",
+      "summary": "Hormone-free; no clinician insertion.",
+      "tradeoffs": "Local irritation, no STI protection; follow label. Frequent nonoxynol-9 exposure may cause mucosal injury.",
+      "evidence": "No direct product superiority shown. Label listing does not prove marketed supply. Class typical-use data and nonoxynol-9 harm research are not individual brand pregnancy estimates.",
+      "sourceIds": [
+        "CT-120",
+        "CT-98",
+        "CT-59",
+        "CT-01",
+        "CT-65"
+      ],
+      "status": "US label found; retail supply not confirmed",
+      "aliases": "",
+      "retail": null
+    },
+    {
+      "id": "product-heather",
+      "name": "Heather",
+      "method": "mini-pill",
+      "ingredient": "Norethindrone 0.35 mg",
+      "access": "Prescription",
+      "duration": "Daily oral formulation",
+      "summary": "Traditional estrogen-free option; multiple equivalent generic formulations.",
+      "tradeoffs": "Irregular bleeding, strict timing and drug interactions; not a natural progesterone preparation. Product-specific directions differ.",
+      "evidence": "Same active ingredient and strength as traditional norethindrone mini-pill; no new independent clinical superiority evidence. Ask pharmacy about equivalent generic substitution.",
+      "sourceIds": [
+        "CT-121",
+        "CT-68",
+        "CT-69",
+        "CT-70",
+        "CT-02",
+        "CT-03",
+        "CT-07",
+        "CT-58"
+      ],
+      "status": "US label found; retail supply not confirmed",
+      "aliases": "",
+      "retail": null
+    },
+    {
+      "id": "product-jencycla",
+      "name": "Jencycla",
+      "method": "mini-pill",
+      "ingredient": "Norethindrone 0.35 mg",
+      "access": "Prescription",
+      "duration": "Daily oral formulation",
+      "summary": "Traditional estrogen-free option; multiple equivalent generic formulations.",
+      "tradeoffs": "Irregular bleeding, strict timing and drug interactions; not a natural progesterone preparation. Product-specific directions differ.",
+      "evidence": "Same active ingredient and strength as traditional norethindrone mini-pill; no new independent clinical superiority evidence. Ask pharmacy about equivalent generic substitution.",
+      "sourceIds": [
+        "CT-122",
+        "CT-68",
+        "CT-69",
+        "CT-70",
+        "CT-02",
+        "CT-03",
+        "CT-07",
+        "CT-58"
+      ],
+      "status": "US label found; retail supply not confirmed",
+      "aliases": "",
+      "retail": null
+    },
+    {
+      "id": "product-sharobel",
+      "name": "Sharobel",
+      "method": "mini-pill",
+      "ingredient": "Norethindrone 0.35 mg",
+      "access": "Prescription",
+      "duration": "Daily oral formulation",
+      "summary": "Traditional estrogen-free option; multiple equivalent generic formulations.",
+      "tradeoffs": "Irregular bleeding, strict timing and drug interactions; not a natural progesterone preparation. Product-specific directions differ.",
+      "evidence": "Same active ingredient and strength as traditional norethindrone mini-pill; no new independent clinical superiority evidence. Ask pharmacy about equivalent generic substitution.",
+      "sourceIds": [
+        "CT-123",
+        "CT-68",
+        "CT-69",
+        "CT-70",
+        "CT-02",
+        "CT-03",
+        "CT-07",
+        "CT-58"
+      ],
+      "status": "US label found; retail supply not confirmed",
+      "aliases": "",
+      "retail": null
+    },
+    {
+      "id": "product-junel",
+      "name": "Junel / Junel Fe",
+      "method": "combined-pill",
+      "ingredient": "Norethindrone acetate + ethinyl estradiol",
+      "access": "Prescription",
+      "duration": "Oral combined formulation",
+      "summary": "Distinct from norethindrone-only pills; various strengths and pack designs.",
+      "tradeoffs": "Systemic estrogen eligibility and clot/vascular warnings matter; not hormone-free.",
+      "evidence": "No product-specific long-term ranking established. Generic equivalence must be checked using the FDA data.",
+      "sourceIds": [
+        "CT-124",
+        "CT-114",
+        "CT-02",
+        "CT-12",
+        "CT-35"
+      ],
+      "status": "US label found; retail supply not confirmed",
+      "aliases": "",
+      "retail": null
+    },
+    {
+      "id": "product-amazon-basic-care-ec",
+      "name": "Amazon Basic Care levonorgestrel",
+      "method": "emergency",
+      "ingredient": "Levonorgestrel 1.5 mg",
+      "access": "OTC",
+      "duration": "Emergency use only",
+      "summary": "Emergency option, not routine birth control.",
+      "tradeoffs": "Time-sensitive, not a daily pill; consult pharmacist/clinician as appropriate.",
+      "evidence": "Label identifies product. Exact Amazon ASIN not verified; no guessed retail link.",
+      "sourceIds": [
+        "CT-125",
+        "CT-03",
+        "CT-19"
+      ],
+      "status": "US label found; retail supply not confirmed",
+      "aliases": "",
+      "retail": null
+    },
+    {
+      "id": "product-skyn-original",
+      "name": "SKYN Original",
+      "method": "external-condom",
+      "ingredient": "Synthetic polyisoprene",
+      "access": "OTC",
+      "duration": "Single-use barrier",
+      "summary": "No hormones or invasive procedure; appropriate condoms reduce STI transmission.",
+      "tradeoffs": "Fit, material sensitivity, breakage, slippage and correct use matter. No product-specific safety or pregnancy ranking.",
+      "evidence": "Class typical-use effectiveness is not brand-specific. Retail reviews are not clinical comparisons.",
+      "sourceIds": [
+        "CT-01",
+        "CT-03",
+        "CT-48",
+        "CT-112",
+        "CT-108"
+      ],
+      "status": "US retail listing or outbound product link identified; stock not verified",
+      "aliases": "",
+      "retail": {
+        "url": "https://www.amazon.com/dp/B004TTXA7I",
+        "label": "Amazon · SKYN Original",
+        "verification": "Exact 24-count listing linked from editorial source; seller and stock not verified.",
+        "sourceIds": [
+          "CT-108"
+        ]
+      }
+    },
+    {
+      "id": "product-durex-extra-sensitive",
+      "name": "Durex Extra Sensitive",
+      "method": "external-condom",
+      "ingredient": "Natural rubber latex",
+      "access": "OTC",
+      "duration": "Single-use barrier",
+      "summary": "No hormones or invasive procedure; appropriate condoms reduce STI transmission.",
+      "tradeoffs": "Fit, material sensitivity, breakage, slippage and correct use matter. No product-specific safety or pregnancy ranking.",
+      "evidence": "Class typical-use effectiveness is not brand-specific. Retail reviews are not clinical comparisons.",
+      "sourceIds": [
+        "CT-01",
+        "CT-03",
+        "CT-48",
+        "CT-112",
+        "CT-109"
+      ],
+      "status": "US retail listing or outbound product link identified; stock not verified",
+      "aliases": "",
+      "retail": {
+        "url": "https://www.amazon.com/dp/B07NX8MKBL",
+        "label": "Amazon · Durex Extra Sensitive",
+        "verification": "Amazon title checked: 42-count natural rubber latex; stock/seller unverified.",
+        "sourceIds": [
+          "CT-109"
+        ]
+      }
+    },
+    {
+      "id": "product-trojan-enz",
+      "name": "Trojan ENZ / Original",
+      "method": "external-condom",
+      "ingredient": "Natural rubber latex",
+      "access": "OTC",
+      "duration": "Single-use barrier",
+      "summary": "No hormones or invasive procedure; appropriate condoms reduce STI transmission.",
+      "tradeoffs": "Fit, material sensitivity, breakage, slippage and correct use matter. No product-specific safety or pregnancy ranking.",
+      "evidence": "Class typical-use effectiveness is not brand-specific. Retail reviews are not clinical comparisons.",
+      "sourceIds": [
+        "CT-01",
+        "CT-03",
+        "CT-48",
+        "CT-112",
+        "CT-110"
+      ],
+      "status": "US retail listing or outbound product link identified; stock not verified",
+      "aliases": "",
+      "retail": {
+        "url": "https://www.amazon.com/dp/B0073R7TWU",
+        "label": "Amazon · Trojan ENZ / Original",
+        "verification": "Editorial product link identified; direct Amazon fetch blocked. Verify listing before buying.",
+        "sourceIds": [
+          "CT-110"
+        ]
+      }
+    },
+    {
+      "id": "product-clue-birth-control",
+      "name": "Clue Birth Control",
+      "method": "fertility-awareness",
+      "ingredient": "Contraceptive software",
+      "access": "FDA-cleared; current feature availability not verified",
+      "duration": "Cycle-based tracking",
+      "summary": "Hormone-free approach with no placement procedure.",
+      "tradeoffs": "FDA clearance does not establish that the contraceptive feature remains available; ordinary Clue tracking is not the same product.",
+      "evidence": "Do not substitute Natural Cycles or ordinary period-tracking estimates. Confirm current contraceptive-mode access and eligibility.",
+      "sourceIds": [
+        "CT-115",
+        "CT-09"
+      ],
+      "status": "FDA cleared; US commercial availability unresolved",
+      "aliases": "",
+      "retail": null
     }
   ]
 }

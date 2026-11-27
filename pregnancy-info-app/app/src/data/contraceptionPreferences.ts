@@ -42,6 +42,8 @@ export function comparePreferences(weights:PreferenceWeights,filters:PreferenceF
 }
 
 export const preferenceThemes=[['hormones','Hormone exposure'],['health','Long-term health'],['comfort','Comfort & periods'],['effectiveness','Effectiveness'],['fertility','Future fertility'],['cost','Total 3-year cost']] as const
+/** Essential comfort is a user-facing constraint, not a prediction of individual pain. */
+export function themeFilters(themes:PreferenceWeights,filters:PreferenceFilters):PreferenceFilters{return {...filters,noProcedure:filters.noProcedure||(themes.comfort??0)>=5}}
 export const defaultThemeWeights=()=>({hormones:4,health:5,comfort:3,effectiveness:5,fertility:5,cost:3})
 // Equal split of the comfort weight across two documented feature preferences.
 // The health theme uses the limited physical feature proxy; mood remains review-only.

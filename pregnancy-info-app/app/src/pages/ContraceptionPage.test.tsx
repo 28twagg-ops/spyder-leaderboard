@@ -5,6 +5,19 @@ import App from '../App'
 import {contraception} from '../data/contraception'
 afterEach(()=>{cleanup();localStorage.clear()})
 describe('preconception contraception navigation',()=>{
+ it('applies the essential comfort filter even when all six priorities are high',async()=>{
+  render(<MemoryRouter initialEntries={['/contraception']}><App/></MemoryRouter>)
+  const group=await screen.findByRole('group',{name:'Six priority sliders'})
+  for(const s of within(group).getAllByRole('slider'))fireEvent.change(s,{target:{value:'5'}})
+  expect(screen.getByText(/Comfort essential: excludes IUDs/)).toBeVisible()
+  const live=screen.getByRole('region',{name:'Live top three matches'})
+  expect(within(live).getAllByRole('link').every(l=>!/IUD|implant|injection/i.test(l.textContent||''))).toBe(true)
+ })
+ it('provides exact product links only when a specific listing was identified',async()=>{
+  render(<MemoryRouter initialEntries={['/contraception/product-opill']}><App/></MemoryRouter>)
+  expect(await screen.findByRole('link',{name:/Amazon · Opill 84 count/})).toHaveAttribute('href','https://www.amazon.com/dp/B0CJYHQ3CB')
+  expect(contraception.products.every(p=>!p.retail||p.retail.sourceIds.every(id=>contraception.sources.some(s=>s.id===id)))).toBe(true)
+ })
  it('opens product library, filters formulations and reaches evidence and funding',async()=>{
   render(<MemoryRouter initialEntries={['/contraception']}><App/></MemoryRouter>)
   fireEvent.click(await screen.findByRole('link',{name:/Explore specific brands & formulations/}))
