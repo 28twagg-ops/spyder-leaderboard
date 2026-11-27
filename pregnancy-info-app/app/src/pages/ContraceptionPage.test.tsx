@@ -5,6 +5,33 @@ import App from '../App'
 import {contraception} from '../data/contraception'
 afterEach(()=>{cleanup();localStorage.clear()})
 describe('preconception contraception navigation',()=>{
+ it('removes podium methods, supports group exclusions and restores the lineup',async()=>{
+  render(<MemoryRouter initialEntries={['/contraception']}><App/></MemoryRouter>)
+  const panel=await screen.findByRole('region',{name:'Personal preference comparison'})
+  const live=within(panel).getByRole('region',{name:'Live top three matches'})
+  const group=within(panel).getByRole('group',{name:'Seven priority sliders'})
+  for(const slider of within(group).getAllByRole('slider'))fireEvent.change(slider,{target:{value:'0'}})
+  const eff=within(group).getByRole('slider',{name:'Effectiveness'})
+  fireEvent.change(eff,{target:{value:'10'}})
+  fireEvent.click(within(live).getByRole('button',{name:'Remove Arm implant from lineup'}))
+  expect(within(live).queryByRole('link',{name:/Arm implant/})).not.toBeInTheDocument()
+  expect(within(live).getByRole('link',{name:/Injection/})).toBeVisible()
+  fireEvent.click(within(panel).getByRole('button',{name:/Filter out methods/}))
+  fireEvent.click(within(panel).getByRole('button',{name:'Both IUDs'}))
+  expect(within(live).queryByRole('link',{name:/Copper IUD/})).not.toBeInTheDocument()
+  expect(within(live).queryByRole('link',{name:/LNG IUD/})).not.toBeInTheDocument()
+  fireEvent.click(within(panel).getByRole('button',{name:'Restore Arm implant'}))
+  expect(within(live).getByRole('link',{name:/Arm implant/})).toBeVisible()
+  fireEvent.click(within(panel).getByRole('button',{name:'Restore all methods'}))
+  expect(within(live).getByRole('link',{name:/Copper IUD/})).toBeVisible()
+  expect(eff).toHaveValue('10')
+  fireEvent.click(within(live).getByRole('button',{name:'Remove Copper IUD from lineup'}))
+  fireEvent.click(within(panel).getByRole('button',{name:'Reset',exact:true}))
+  const table=within(panel).getByRole('region',{name:'Scrollable live method ranking'})
+  expect(within(table).getAllByRole('link')).toHaveLength(15)
+  expect(within(panel).queryByRole('button',{name:'Restore all methods'})).not.toBeInTheDocument()
+ })
+
  it('shows the sexual experience slider and adjustable annual supply scenario',async()=>{
   render(<MemoryRouter initialEntries={['/contraception']}><App/></MemoryRouter>)
   const panel=await screen.findByRole('region',{name:'Personal preference comparison'})

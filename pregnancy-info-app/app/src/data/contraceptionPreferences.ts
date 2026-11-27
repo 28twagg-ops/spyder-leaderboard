@@ -22,8 +22,8 @@ export const preferenceCriteria:Criterion[]=[
 ]
 export type PreferenceWeights=Record<string,number>
 export const defaultPreferenceWeights=():PreferenceWeights=>Object.fromEntries(preferenceCriteria.map(c=>[c.id,0]))
-export type PreferenceFilters={hormoneFree:boolean;noProcedure:boolean;underOne:boolean;format?:string}
-export const defaultPreferenceFilters:PreferenceFilters={hormoneFree:false,noProcedure:false,underOne:false,format:'all'}
+export type PreferenceFilters={hormoneFree:boolean;noProcedure:boolean;underOne:boolean;format?:string;excludedMethods?:readonly string[]}
+export const defaultPreferenceFilters:PreferenceFilters={hormoneFree:false,noProcedure:false,underOne:false,format:'all',excludedMethods:[]}
 export const preferenceFormats=[["uterine","Clinician-placed uterine device",["copper-iud","hormonal-iud"]],["arm","Arm implant",["implant"]],["shot","Periodic injection",["injection"]],["oral","Daily oral pill",["combined-pill","mini-pill"]],["skin","Skin patch",["patch"]],["ring","Vaginal ring",["ring"]],["external","External condom",["external-condom"]],["internal","Internal condom",["internal-condom"]],["reusable","Reusable vaginal/cervical barrier",["diaphragm","cervical-cap"]],["sponge","Single-use sponge",["sponge"]],["gel","On-demand vaginal gel, film or foam",["gel"]],["tracking","Fertility tracking",["fertility-awareness"]]] as const
 export function matchesFormat(slug:string,format:string|undefined){return !format||format==='all'||preferenceFormats.some(([id,,methods])=>id===format&&(methods as readonly string[]).includes(slug))}
 export function comparePreferences(weights:PreferenceWeights,filters:PreferenceFilters,costs:CostScenario=defaultCostScenario()){
@@ -33,7 +33,7 @@ export function comparePreferences(weights:PreferenceWeights,filters:PreferenceF
  // Count only the larger weight, not both. Cycle preference separately excludes copper IUD.
  const scoring=active.filter(c=>(c.match||c.utility)&&!(c.id==='effectiveness'&&weight('effectivenessScale')>0)&&!(c.id==='procedure'&&weight('pain')>=weight('procedure'))&&!(c.id==='pain'&&weight('procedure')>weight('pain')))
  const possible=scoring.reduce((n,c)=>n+weight(c.id),0)
- const results=contraception.methods.filter(m=>(!filters.hormoneFree||m.hormones==='None')&&(!filters.noProcedure||nonInvasive(m))&&(!filters.underOne||m.high<1)&&matchesFormat(m.slug,filters.format)).map(m=>{
+ const results=contraception.methods.filter(m=>(!filters.hormoneFree||m.hormones==='None')&&(!filters.noProcedure||nonInvasive(m))&&(!filters.underOne||m.high<1)&&matchesFormat(m.slug,filters.format)&&!filters.excludedMethods?.includes(m.slug)).map(m=>{
   const criteria=active.map(c=>({id:c.id,label:c.label,weight:weight(c.id),match:c.id==='cost'?costMatch(m.slug,costs):c.match?c.match(m):null,utility:c.utility?.(m),scored:scoring.includes(c),detail:c.id==='cost'?costLabel(m.slug,costs):c.detail(m),source:c.source})).sort((a,b)=>b.weight-a.weight)
   let minimum=0,maximum=0
   for(const c of criteria.filter(c=>c.scored)){if(c.utility){minimum+=c.weight*c.utility[0];maximum+=c.weight*c.utility[1]}else if(c.match===true){minimum+=c.weight;maximum+=c.weight}else if(c.match===null)maximum+=c.weight}

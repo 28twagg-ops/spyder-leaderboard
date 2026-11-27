@@ -1,6 +1,20 @@
 import {describe,it,expect} from 'vitest'
 import {comparePreferences,defaultPreferenceWeights,defaultPreferenceFilters,themePreferences,themeFilters,preferenceFormats,normalizedMatchScore} from './contraceptionPreferences'
 describe('contraception feature preference matching',()=>{
+ it('recomputes competitive ranks after excluding individual methods',()=>{
+  const weights={effectivenessScale:10}
+  const base=comparePreferences(weights,defaultPreferenceFilters)
+  expect(base.podium.map(r=>r.method.slug)).toEqual(['implant','hormonal-iud','copper-iud'])
+  const excluded=['implant','hormonal-iud','copper-iud']
+  const next=comparePreferences(weights,{...defaultPreferenceFilters,excludedMethods:excluded})
+  expect(next.results).toHaveLength(12)
+  expect(next.results[0].method.slug).toBe('injection')
+  expect(next.results[0].rank).toBe(1)
+  expect(next.podium.every(r=>!excluded.includes(r.method.slug))).toBe(true)
+  expect(next.possiblePodium.every(r=>!excluded.includes(r.method.slug))).toBe(true)
+  expect(comparePreferences(weights,defaultPreferenceFilters).results).toHaveLength(15)
+ })
+
  it('scores sexual spontaneity as a per-act feature, not pleasure or safety',()=>{
   const r=comparePreferences(themePreferences({sexual:10}),defaultPreferenceFilters)
   expect(r.possible).toBe(10)
