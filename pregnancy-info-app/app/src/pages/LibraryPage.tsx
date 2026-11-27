@@ -42,6 +42,22 @@ export function LibraryPage() {
         </Link>
       </div>
 
+      <section className="panel stack" aria-labelledby="topic-search-heading">
+        <h2 id="topic-search-heading">Find a topic</h2>
+        <label htmlFor="topic-search">Search articles</label>
+        <input id="topic-search" type="search" value={query} onChange={(event) => setQuery(event.target.value)} placeholder="Topic, question or source ID" style={{ minHeight: 44 }} />
+        <label htmlFor="topic-domain">Topic category</label>
+        <select id="topic-domain" value={domain} onChange={(event) => setDomain(event.target.value)} style={{ minHeight: 44 }}>
+          <option value="all">All categories</option>
+          {listDomains().map((item) => <option key={item} value={item}>{item}</option>)}
+        </select>
+        <label><input type="checkbox" checked={savedOnly} onChange={(event) => setSavedOnly(event.target.checked)} /> Saved articles only</label>
+        <button type="button" className="btn btn-ghost" onClick={() => { setQuery(''); setDomain('all'); setSavedOnly(false) }}>Clear search</button>
+        <p role="status">{matches.length} of {stats.articles} articles · {prefs.bookmarks.length} saved</p>
+      </section>
+      <details className="panel disclosure">
+        <summary>Research inventory, release status and optional routines</summary>
+        <div className="stack">
       <section className="panel stack">
         <h2 style={{ margin: 0, fontSize: '1.1rem' }}>Loaded into the app</h2>
         <ul className="list-clean">
@@ -92,19 +108,8 @@ export function LibraryPage() {
         </ul>
       </section>
 
-      <section className="panel stack" aria-labelledby="topic-search-heading">
-        <h2 id="topic-search-heading">Find a topic</h2>
-        <label htmlFor="topic-search">Search articles</label>
-        <input id="topic-search" type="search" value={query} onChange={(event) => setQuery(event.target.value)} placeholder="Topic, question or source ID" style={{ minHeight: 44 }} />
-        <label htmlFor="topic-domain">Topic category</label>
-        <select id="topic-domain" value={domain} onChange={(event) => setDomain(event.target.value)} style={{ minHeight: 44 }}>
-          <option value="all">All categories</option>
-          {listDomains().map((item) => <option key={item} value={item}>{item}</option>)}
-        </select>
-        <label><input type="checkbox" checked={savedOnly} onChange={(event) => setSavedOnly(event.target.checked)} /> Saved articles only</label>
-        <button type="button" className="btn btn-ghost" onClick={() => { setQuery(''); setDomain('all'); setSavedOnly(false) }}>Clear search</button>
-        <p role="status">{matches.length} of {stats.articles} articles · {prefs.bookmarks.length} saved</p>
-      </section>
+        </div>
+      </details>
       <section className="topic-grid">
         {matches.map((article) => (
           <article key={article.id} className="panel stack">
