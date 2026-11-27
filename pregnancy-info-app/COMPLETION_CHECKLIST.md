@@ -1,3 +1,5 @@
+> **CURRENT CHECKPOINT — 2026-11-27, post annual-cost deployment:** Read [CURRENT_TRANSFER.md](CURRENT_TRANSFER.md) first for verified branch/deployment status, full prioritized continuation, contraindication/clinical review gates and research standards. [Open-source discovery standard](research/OPEN_SOURCE_DISCOVERY_STANDARD.md) requires independent-first review of conventional, unconventional, grey literature and media with equal scientific rigor. Older entries below are retained for provenance; current checkpoint supersedes conflicting counts/status. This is a documentation update; no clinical publication approval.
+
 # Everwell — living completion checklist
 Updated 2026-11-27. Canonical coordination tracker on main; mirror or link on preview. Do not mark an item complete without evidence. [ ] = outstanding, [x] = verified scoped checkpoint; reopen after regression. Completion of a technical checkpoint does not establish clinical/public release readiness.
 
@@ -128,3 +130,5 @@ Evidence: prior preview 8b51b5f76a0d4624cf2c1879021c52da98f82de1; preference/sea
 - [ ] Manual individual/group method exclusions, automatic reranking, individual undo, restore all methods, and full reset; repair prior cost display compile failure. Verify CI/deployment and physical touch behavior.
 
 - [ ] Annual cost labels on podium and all-method rankings, live frequency and quote updates, and repair production build TypeScript test error; verify deployment.
+
+- [x] DOC-current: verified Pages 48e5f6ad deployment (430 tests/23 suites), created CURRENT_TRANSFER.md and open-source discovery standard; N01–N12 remain open as listed. No source-level clinical or real-device acceptance implied.
