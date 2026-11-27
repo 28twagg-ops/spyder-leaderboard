@@ -7,6 +7,7 @@ import { useAppBack } from '../hooks/navigationContext'
 import { safeVisualUrl } from '../data/visualCatalog'
 import { domainLabels } from '../data/browseState'
 import { ReadingRow } from '../components/ReadingUI'
+import { WeekDisclosure } from '../components/Week22Reading'
 import { EditorialReadingRow } from '../components/EditorialArticle'
 import { articlesByDomain } from '../data/researchCatalog'
 import { articleVisuals } from '../data/visualCatalog'
@@ -73,8 +74,7 @@ export function ResearchPage() {
         {plain&&<RememberedReadingDetails articleId={article.id}><p className="small-copy muted">Unreviewed research summary, not medical advice.</p><p>{plain.detail}</p><Link className="topic-link" to={{hash:"#research-details"}}>Explore the science ›</Link></RememberedReadingDetails>}
       </TopicOverview>
       {externalVisuals.length>0&&<a className="ref-row editorial-reading-row" href={safeVisualUrl(externalVisuals[0][1])} target="_blank" rel="noreferrer"><span className="ref-row-icon"><Glyph name="image"/></span><span><strong>{externalVisuals[0][0]}</strong><small>{externalVisuals[0][2]} · original reference</small></span><span aria-hidden="true">↗</span></a>}
-      <details id="research-details" className="panel disclosure compact-reader-section">
-        <summary>Studies &amp; references</summary>
+      <div id="research-details"><WeekDisclosure id={'library/'+article.id+'/sources'} title="Studies & references">
         <section className="research-group"><h3>Archived AI summary for comparison</h3>
         <p>This is a draft, not medical advice. Experts still need to check the studies and the health information.</p>
         <p>{article.quick_answer}</p><p className="muted">{article.learn_more}</p>
@@ -157,7 +157,7 @@ export function ResearchPage() {
           ))}
         </ul>
       </section>
-      </details>
+      </WeekDisclosure></div>
       {related.length>0&&<details className="panel disclosure compact-reader-section"><summary>Related reading</summary><div className="ref-rows">{related.map((a,index)=><EditorialReadingRow key={a.id} index={index} to={`/research/${a.id}`} title={a.title}/>)}</div></details>}
       <p className="muted" style={{ fontSize: '0.85rem' }}>
         These research notes were drafted with AI. Independent study checks and medical review are still needed.
