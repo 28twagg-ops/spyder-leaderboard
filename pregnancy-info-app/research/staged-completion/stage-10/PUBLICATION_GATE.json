@@ -1,0 +1,548 @@
+{
+  "default": "BLOCK_ALL_CLINICAL_PUBLICATION_CHARTS_AND_AUTOMATION_PENDING_QUALIFIED_REVIEW",
+  "source_exclusions": [
+    "DR023",
+    "DR024",
+    "DR025"
+  ],
+  "source_or_outcome_review_blocks": [
+    "DR021",
+    "DR022",
+    "PED-FERTILITY-HOLD",
+    "RP001",
+    "RP005",
+    "P5-18",
+    "P6-24",
+    "P6-47",
+    "P7-31",
+    "P7-41",
+    "P7-59"
+  ],
+  "upstream": [
+    {
+      "path": "research/staged-completion/stage-01/PUBLICATION_HOLDS.json",
+      "blob": "2c6b2738a2892bdc0cb60fe6ff2c87b04b75c811",
+      "record": {
+        "version": 1,
+        "date": "2026-11-26",
+        "baseline_commit": "ec168c849d666a53986ff448baec67f6d53c0d86",
+        "default": "research only; no clinical publication or automation without qualified review",
+        "scope": "Additive index, not replacement for original safety records; most restrictive applicable rule wins.",
+        "explicit_source_exclusions": [
+          {
+            "id": "DR023",
+            "reason": "retracted trial; provenance only"
+          },
+          {
+            "id": "DR024",
+            "reason": "retracted trial; provenance only"
+          },
+          {
+            "id": "DR025",
+            "reason": "retracted trial; provenance only"
+          }
+        ],
+        "existing_release_holds": [
+          {
+            "id": "RP001",
+            "rule": "RP001 contains an unsafe pregnancy recommendation. RP005 has text/table discrepancies. Neither may drive automated advice or chart publication; retain evidence context."
+          },
+          {
+            "id": "RP005",
+            "rule": "RP001 contains an unsafe pregnancy recommendation. RP005 has text/table discrepancies. Neither may drive automated advice or chart publication; retain evidence context."
+          }
+        ],
+        "dependent_outcome_holds": [
+          {
+            "id": "DR021",
+            "rule": "Block affected estimates dependent on retracted trials pending outcome-specific reanalysis; not a formal retraction claim."
+          },
+          {
+            "id": "DR022",
+            "rule": "Block affected estimates dependent on retracted trials pending outcome-specific reanalysis; not a formal retraction claim."
+          },
+          {
+            "id": "PED-FERTILITY-HOLD",
+            "doi": "10.5534/wjmh.230106",
+            "rule": "Block pregnancy and live birth pooled effects and downstream use; includes DR023. Do not automatically invalidate unrelated semen outcomes."
+          }
+        ],
+        "claim_constraints": [
+          {
+            "id": "GE-H01",
+            "topic": "NUTR-001",
+            "status": "hold unsupported substitution",
+            "source": "https://www.cdc.gov/folic-acid/data-research/mthfr/",
+            "finding": "Common MTHFR variants do not establish need to replace folic acid with 5-MTHF; CDC recommends folic acid, which has direct NTD prevention evidence. DHFR substitution claim unverified. CDC clinician guidance starts at least one month before conception; three months can be planning preference not universal minimum.",
+            "related": [
+              "S085",
+              "S088",
+              "DR027"
+            ]
+          },
+          {
+            "id": "GE-H02",
+            "topic": "FIT-002",
+            "status": "hold universal clearance",
+            "source": "https://pmc.ncbi.nlm.nih.gov/articles/PMC12406897/",
+            "finding": "Acute fetal hemodynamic outcomes and self-selected lifting survey cannot establish universal heavy-lifting, Valsalva or supine exercise safety. No home fetal heart-rate thresholds or blanket clearance.",
+            "related": [
+              "H035",
+              "H036"
+            ]
+          },
+          {
+            "id": "GE-H03",
+            "topic": "REPRO-001",
+            "status": "stage-specific labeling",
+            "source": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=993a5325-cd10-4450-b5ea-1c0a90510df6",
+            "finding": "Acitretin pregnancy avoidance period is at least 3 years; nursing warning separate. Do not promise safe conception solely from an elapsed isotretinoin washout."
+          },
+          {
+            "id": "GE-H04",
+            "topic": "NUTR-001",
+            "status": "research only",
+            "source": "https://doi.org/10.1371/journal.pmed.1005274",
+            "finding": "No personalized genotype/race-based DHA dose or testing recommendation. Bayesian posterior probabilities are not individual benefit probabilities; credible intervals differ from confidence intervals."
+          },
+          {
+            "id": "GE-H05",
+            "topic": "WELL-001",
+            "status": "correct outcome labels",
+            "source": "https://pubmed.ncbi.nlm.nih.gov/39500542/",
+            "finding": "Gemini conflates anxiety and depression effect sizes. Depression SMD -.52; anxiety -.25; maintain separate outcomes."
+          },
+          {
+            "id": "GE-H06",
+            "topic": "FACE-001",
+            "status": "avoid blanket safety claims",
+            "source": "https://www.ncbi.nlm.nih.gov/books/NBK500669/",
+            "finding": "LactMed reports lack of breastfeeding hydroquinone studies, not proven harm; distinguish precaution/unknown from established contraindication. Retain pregnancy avoidance and existing retinoid holds."
+          },
+          {
+            "id": "GE-H07",
+            "topic": "NUTR-001",
+            "status": "preserve guidance",
+            "source": "https://pubmed.ncbi.nlm.nih.gov/39077939/",
+            "finding": "Vitamin D 2024 review addresses uncertainty of supplementation for obstetric outcomes; 2026 dose comparison is distinct. Do not infer dietary requirement or deficiency treatment is unnecessary."
+          },
+          {
+            "id": "GE-H08",
+            "topic": "VEIN-001",
+            "status": "correct comparator",
+            "source": "https://pubmed.ncbi.nlm.nih.gov/26477632/",
+            "finding": "Pneumatic compression vs rest is not a stocking-prevention trial; existing S127 evaluates stockings. Distinguish symptom relief, structural prevention and VTE care."
+          }
+        ],
+        "additional_constraints": [
+          {
+            "id": "P1-FEED",
+            "rule": "Commercial formula claim evidence must not be used to infer nutritional equivalence to human milk or superiority without direct credible evidence; regulated age-appropriate formula remains a safe and necessary feeding option when needed. No homemade, diluted or unregulated substitutes."
+          },
+          {
+            "id": "P1-DIAPER",
+            "rule": "No causal claim that disposable diapers delay independent continence or that cloth or assisted infant toileting prevents disorders without appropriate evidence; distinguish cue recognition, assisted dryness and independent toileting. No forced or punitive training."
+          }
+        ],
+        "mandatory_source_policies": [
+          "research/child-health/SAFETY.md",
+          "MEDICAL_SAFETY.md",
+          "research/release-prep/FINAL_RESEARCH_IMPORT.json",
+          "research/deep-research/TARGETED_GAP_AUDIT.json",
+          "research/external-audits/gemini/RECONCILIATION.json",
+          "research/child-health/integrity-and-overlap.md"
+        ],
+        "clinical_review": false,
+        "runtime_enforcement": "not implemented; Claude must implement and test before any release"
+      }
+    },
+    {
+      "path": "research/staged-completion/stage-05/PUBLICATION_HOLDS.json",
+      "blob": "b6dd7f391d469145a917b10ade3ad7fe0ed6d325",
+      "record": [
+        {
+          "id": "P5-H01",
+          "source_id": "P5-18",
+          "rule": "Hold all discrepant 2026 vitamin D regimen numerical displays and GDM claims until version/table adjudication.",
+          "clinical_review": false
+        },
+        {
+          "id": "P5-H02",
+          "source_id": "P5-07",
+          "rule": "Correct prior DR003 overbroad no effect modification: timing interaction reported; no modeled timing prescription.",
+          "clinical_review": false
+        },
+        {
+          "id": "P5-H03",
+          "source_id": "P5-16",
+          "rule": "No personalized genotype/race dosing; preserve GE-H04.",
+          "clinical_review": false
+        },
+        {
+          "id": "P5-H04",
+          "source_id": "P5-11",
+          "rule": "Preserve pregnancy probiotic PE signal; no routine prevention recommendation or extrapolation to fermented foods.",
+          "clinical_review": false
+        },
+        {
+          "id": "P5-H05",
+          "source_id": "P5-24",
+          "rule": "Anonymous nonrepresentative sample; no brand identification, fear claim or recommendation to stop prenatal vitamins.",
+          "clinical_review": false
+        },
+        {
+          "id": "P5-H06",
+          "source_id": "P5-28",
+          "rule": "Reference intakes not supplement doses; age, form-specific UL, clinical need and diet matter; no auto-dosing.",
+          "clinical_review": false
+        }
+      ]
+    },
+    {
+      "path": "research/staged-completion/stage-06/PUBLICATION_HOLDS.json",
+      "blob": "0fed30df1e3ea8b481a5ab33f129c46a8a05b5db",
+      "record": [
+        {
+          "id": "P6-H01",
+          "source_ids": [
+            "P6-12",
+            "P6-13"
+          ],
+          "rule": "No direct comparison of effect magnitudes between linear and log concentration units; preserve date-specific author affiliations and no fraud inference.",
+          "clinical_review": false
+        },
+        {
+          "id": "P6-H02",
+          "source_ids": [
+            "P6-28",
+            "P6-11"
+          ],
+          "rule": "No historical animal-study funding count as current human harm rate or percent biased.",
+          "clinical_review": false
+        },
+        {
+          "id": "P6-H03",
+          "source_ids": [
+            "P6-33",
+            "P6-G03"
+          ],
+          "rule": "Never change formula ratio, sanitation, hot-water precautions, storage or safe water source because of microplastics; glass optional, breakage hazard.",
+          "clinical_review": false
+        },
+        {
+          "id": "P6-H04",
+          "source_ids": [
+            "P6-16",
+            "P6-18"
+          ],
+          "rule": "Do not alter vaccination or breastfeeding based on PFAS antibody/exposure studies; clinician evaluation.",
+          "clinical_review": false
+        },
+        {
+          "id": "P6-H05",
+          "source_ids": [
+            "P6-35"
+          ],
+          "rule": "Review search end-date differs in PubMed abstract and figure caption; hold coverage date until source verified.",
+          "clinical_review": false
+        },
+        {
+          "id": "P6-H06",
+          "source_ids": [
+            "P6-20"
+          ],
+          "rule": "Do not present 2026 PFAS proposed rules as final or legal limit as no-risk threshold.",
+          "clinical_review": false
+        },
+        {
+          "id": "P6-H07",
+          "source_ids": [
+            "P6-24",
+            "P6-47"
+          ],
+          "rule": "Hold numerical charts with unverified exposure scale or comparison.",
+          "clinical_review": false
+        },
+        {
+          "id": "P6-H08",
+          "source_ids": [
+            "P6-44",
+            "P6-45"
+          ],
+          "rule": "No causal offspring benefit, fertility guarantee, rigid paternal heat washout or epigenetic score from semen markers.",
+          "clinical_review": false
+        },
+        {
+          "id": "P6-H09",
+          "source_ids": [
+            "P6-02",
+            "P6-G02",
+            "P6-G18"
+          ],
+          "rule": "Known lead/nitrate/CO exposure: prioritize safe source and professional/emergency guidance; no home detox or delay.",
+          "clinical_review": false
+        },
+        {
+          "id": "P6-H10",
+          "source_ids": [
+            "P6-27",
+            "P6-25"
+          ],
+          "rule": "Biomarker reductions are not demonstrated clinical benefits; do not rank products by unvalidated toxicity scores.",
+          "clinical_review": false
+        }
+      ]
+    },
+    {
+      "path": "research/staged-completion/stage-07/PUBLICATION_HOLDS.json",
+      "blob": "a61b49068cc8e54128e50dbb25a3d52183070335",
+      "record": [
+        {
+          "id": "P7-H01",
+          "source_id": "P7-04",
+          "rule": "Severe vomiting/dehydration must trigger care; no ginger treatment delay.",
+          "clinical_review": false
+        },
+        {
+          "id": "P7-H02",
+          "source_id": "P7-05",
+          "rule": "No dates induction recipe or claim of avoiding cesarean; distinguish food from intervention, timing and glycemic needs.",
+          "clinical_review": false
+        },
+        {
+          "id": "P7-H03",
+          "source_id": "P7-07",
+          "rule": "No castor oil or herbal self-induction, or delay indicated obstetric care.",
+          "clinical_review": false
+        },
+        {
+          "id": "P7-H04",
+          "source_id": "P7-09",
+          "rule": "No DIY moxibustion heat/smoke technique, no replacement for obstetric breech assessment.",
+          "clinical_review": false
+        },
+        {
+          "id": "P7-H05",
+          "source_id": "P7-24",
+          "rule": "Do not advertise 47% increased supply from nonsignificant primary result.",
+          "clinical_review": false
+        },
+        {
+          "id": "P7-H06",
+          "source_id": "P7-28",
+          "rule": "No domperidone acquisition/dosing or abrupt stopping advice.",
+          "clinical_review": false
+        },
+        {
+          "id": "P7-H07",
+          "source_id": "P7-31",
+          "rule": "Malformed indexed interval; quarantine until original corrected result verified.",
+          "clinical_review": false
+        },
+        {
+          "id": "P7-H08",
+          "source_id": "P7-38",
+          "rule": "No home RF or elective pregnancy device recommendation; retain serious adverse event warning.",
+          "clinical_review": false
+        },
+        {
+          "id": "P7-H09",
+          "source_id": "P7-39",
+          "rule": "Postpartum RF dyspareunia trial research only; no vaginal rejuvenation endorsement; full disclosure and safety pending.",
+          "clinical_review": false
+        },
+        {
+          "id": "P7-H10",
+          "source_id": "P7-41",
+          "rule": "Confirm DSM strain discrepancy in original article and linked studies before import; no broad probiotic recommendation.",
+          "clinical_review": false
+        },
+        {
+          "id": "P7-H11",
+          "source_id": "P7-44",
+          "rule": "No preterm infant home probiotic use; specialist NICU safety and regulation.",
+          "clinical_review": false
+        },
+        {
+          "id": "P7-H12",
+          "source_id": "P7-47",
+          "rule": "No spinal manipulation/mobilization on infants or at-home manipulation directions.",
+          "clinical_review": false
+        },
+        {
+          "id": "P7-H13",
+          "source_id": "P7-51",
+          "rule": "Avoid placenta capsule ingestion; no encapsulation steps or infection reassurance.",
+          "clinical_review": false
+        },
+        {
+          "id": "P7-H14",
+          "source_id": "P7-56",
+          "rule": "No vaginal seeding outside approved clinical research; no DIY transfer.",
+          "clinical_review": false
+        },
+        {
+          "id": "P7-H15",
+          "source_id": "P7-59",
+          "rule": "Do not merge 2016 Cochrane web summary with 2026 update; verify version-specific results.",
+          "clinical_review": false
+        },
+        {
+          "id": "P7-H16",
+          "source_id": "P7-60",
+          "rule": "Kangaroo care under appropriate neonatal plan; no sleeping caregiver or unsafe infant sleep.",
+          "clinical_review": false
+        },
+        {
+          "id": "P7-H17",
+          "source_id": "P7-64",
+          "rule": "Avoid ashwagandha in pregnancy/lactation; no high-dose herbal mixtures.",
+          "clinical_review": false
+        },
+        {
+          "id": "P7-H18",
+          "source_id": "P7-65",
+          "rule": "No infant essential oil ingestion or concentrated application; suspected poisoning needs poison control/emergency guidance.",
+          "clinical_review": false
+        },
+        {
+          "id": "P7-H19",
+          "source_id": "P7-66",
+          "rule": "No honey under 12 months; no herbal liquids replacing appropriate milk.",
+          "clinical_review": false
+        },
+        {
+          "id": "P7-H20",
+          "source_id": "P7-67",
+          "rule": "No teething jewelry, homeopathic tablets, benzocaine or lidocaine recommendation.",
+          "clinical_review": false
+        },
+        {
+          "id": "P7-H21",
+          "source_id": "P7-61",
+          "rule": "No yoga/exercise replacement for clinical mental health care; urgent self-harm or postpartum psychosis escalation.",
+          "clinical_review": false
+        }
+      ]
+    },
+    {
+      "path": "research/deep-research/TARGETED_GAP_AUDIT.json",
+      "blob": "1209be54accc9bd8554ce2cfee5bbd3d204fd610",
+      "integrity_hold": {
+        "exclude_sources": [
+          "DR023",
+          "DR024",
+          "DR025"
+        ],
+        "dependent_sources": [
+          "DR021",
+          "DR022"
+        ],
+        "rule": "Retraction chain documented: DR021 Results explicitly includes refs 8,9,11, which are DR024,DR023,DR025 respectively. DR022 Table 1/ref34 includes DR021. Do not promote affected estimates until outcome-specific reanalysis; no claim of formal retraction of either synthesis. Search other reviews and guidelines for the same trial IDs."
+      }
+    },
+    {
+      "path": "research/external-audits/gemini/RECONCILIATION.json",
+      "blob": "3e7eef47b210b139c3e69e2bb24e1e9da8d9e1e8",
+      "safety_corrections": [
+        {
+          "id": "GE-H01",
+          "topic": "NUTR-001",
+          "status": "hold unsupported substitution",
+          "source": "https://www.cdc.gov/folic-acid/data-research/mthfr/",
+          "finding": "Common MTHFR variants do not establish need to replace folic acid with 5-MTHF; CDC recommends folic acid, which has direct NTD prevention evidence. DHFR substitution claim unverified. CDC clinician guidance starts at least one month before conception; three months can be planning preference not universal minimum.",
+          "related": [
+            "S085",
+            "S088",
+            "DR027"
+          ]
+        },
+        {
+          "id": "GE-H02",
+          "topic": "FIT-002",
+          "status": "hold universal clearance",
+          "source": "https://pmc.ncbi.nlm.nih.gov/articles/PMC12406897/",
+          "finding": "Acute fetal hemodynamic outcomes and self-selected lifting survey cannot establish universal heavy-lifting, Valsalva or supine exercise safety. No home fetal heart-rate thresholds or blanket clearance.",
+          "related": [
+            "H035",
+            "H036"
+          ]
+        },
+        {
+          "id": "GE-H03",
+          "topic": "REPRO-001",
+          "status": "stage-specific labeling",
+          "source": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=993a5325-cd10-4450-b5ea-1c0a90510df6",
+          "finding": "Acitretin pregnancy avoidance period is at least 3 years; nursing warning separate. Do not promise safe conception solely from an elapsed isotretinoin washout."
+        },
+        {
+          "id": "GE-H04",
+          "topic": "NUTR-001",
+          "status": "research only",
+          "source": "https://doi.org/10.1371/journal.pmed.1005274",
+          "finding": "No personalized genotype/race-based DHA dose or testing recommendation. Bayesian posterior probabilities are not individual benefit probabilities; credible intervals differ from confidence intervals."
+        },
+        {
+          "id": "GE-H05",
+          "topic": "WELL-001",
+          "status": "correct outcome labels",
+          "source": "https://pubmed.ncbi.nlm.nih.gov/39500542/",
+          "finding": "Gemini conflates anxiety and depression effect sizes. Depression SMD -.52; anxiety -.25; maintain separate outcomes."
+        },
+        {
+          "id": "GE-H06",
+          "topic": "FACE-001",
+          "status": "avoid blanket safety claims",
+          "source": "https://www.ncbi.nlm.nih.gov/books/NBK500669/",
+          "finding": "LactMed reports lack of breastfeeding hydroquinone studies, not proven harm; distinguish precaution/unknown from established contraindication. Retain pregnancy avoidance and existing retinoid holds."
+        },
+        {
+          "id": "GE-H07",
+          "topic": "NUTR-001",
+          "status": "preserve guidance",
+          "source": "https://pubmed.ncbi.nlm.nih.gov/39077939/",
+          "finding": "Vitamin D 2024 review addresses uncertainty of supplementation for obstetric outcomes; 2026 dose comparison is distinct. Do not infer dietary requirement or deficiency treatment is unnecessary."
+        },
+        {
+          "id": "GE-H08",
+          "topic": "VEIN-001",
+          "status": "correct comparator",
+          "source": "https://pubmed.ncbi.nlm.nih.gov/26477632/",
+          "finding": "Pneumatic compression vs rest is not a stocking-prevention trial; existing S127 evaluates stockings. Distinguish symptom relief, structural prevention and VTE care."
+        }
+      ],
+      "existing_holds": [
+        "RP001",
+        "RP005",
+        "DR023",
+        "DR024",
+        "DR025",
+        "DR021",
+        "DR022"
+      ],
+      "hold_rule": "Exclude retracted trials DR023–025; hold affected male-fertility pooled estimates DR021/022, not entire review unrelated outcomes. Preserve prior release holds and all clinical-review gates. No auto-publish or automatic dosing."
+    },
+    {
+      "path": "research/release-prep/FINAL_RESEARCH_IMPORT.json",
+      "blob": "1e1652ba94f3a40daf897d843493d0f3ffedf9f7",
+      "hold_source_ids": [
+        "RP001",
+        "RP005"
+      ],
+      "hold_rule": "RP001 contains an unsafe pregnancy recommendation. RP005 has text/table discrepancies. Neither may drive automated advice or chart publication; retain evidence context."
+    },
+    {
+      "path": "research/child-health/integrity-and-overlap.md",
+      "blob": "e0993f345561e8d240aeaf51d1f42066618171b2",
+      "rule": "Preserve entire pediatric crosswalk. Lo Giudice pregnancy/live birth outcome hold; no retraction claim for the review itself."
+    }
+  ],
+  "rules": [
+    "Most restrictive rule wins. All clinical data remain draft even if no explicit hold applies.",
+    "Retain sponsor-unfavorable results, harms and urgent guidance regardless of research filters.",
+    "No automatic chart, dose, diagnosis or clinical clearance. Nutrient reference is not dose; missing UL is not unlimited.",
+    "Keep all original records and corrections; hold affected source display until qualified review narrows outcome scope."
+  ],
+  "clinical_review": false,
+  "runtime_enforced": false
+}

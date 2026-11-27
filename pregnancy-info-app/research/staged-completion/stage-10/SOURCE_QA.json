@@ -24,7 +24,8 @@
       "type": "doi_url_mismatch",
       "id": "S014",
       "doi": "10.3390/cosmetics12020079",
-      "url": "https://doi.org/10.3390%2Fcosmetics12020079"
+      "url": "https://doi.org/10.3390%2Fcosmetics12020079",
+      "adjudication": "S014 URL percent-encodes slash; decoding yields same DOI. Not a metadata discrepancy."
     }
   ],
   "missing_titles": [],
@@ -34,5 +35,7 @@
   "bibliography_records": 467,
   "independent_study_count": null,
   "clinical_review": false,
-  "notes": "Counts are records, not studies; funding field present includes explicit unknown/not retrieved; matching identifiers are candidates, not proof of cohort independence."
+  "notes": "Counts are records, not studies; funding field present includes explicit unknown/not retrieved; matching identifiers are candidates, not proof of cohort independence.",
+  "identifier_conflict_note": "PED-CORRECTION is a distinct correction publication with same title as original PED-LEAP; preserve related-document edge, do not merge.",
+  "true_identifier_url_conflicts": 0
 }

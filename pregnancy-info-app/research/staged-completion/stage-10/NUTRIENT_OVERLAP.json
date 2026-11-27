@@ -1,0 +1,642 @@
+[
+  {
+    "key": "biotin|pregnancy|14–18",
+    "values": [
+      {
+        "id": "NREF-0-1",
+        "intake": 30,
+        "unit": "mcg",
+        "upper_limit": null,
+        "scope": "ND"
+      },
+      {
+        "id": "NREF-2-1",
+        "intake": 30,
+        "unit": "mcg",
+        "upper_limit": null,
+        "scope": "not determinable"
+      }
+    ],
+    "status": "age/form/unit and source reconciliation pending; no automatic override"
+  },
+  {
+    "key": "boron|pregnancy|14–18",
+    "values": [
+      {
+        "id": "NREF-0-4",
+        "intake": null,
+        "unit": "mg",
+        "upper_limit": 17,
+        "scope": "total"
+      },
+      {
+        "id": "NREF-2-62",
+        "intake": null,
+        "unit": "mg",
+        "upper_limit": 17,
+        "scope": "total; no RDA/AI"
+      }
+    ],
+    "status": "age/form/unit and source reconciliation pending; no automatic override"
+  },
+  {
+    "key": "calcium|pregnancy|14–18",
+    "values": [
+      {
+        "id": "NREF-0-7",
+        "intake": 1300,
+        "unit": "mg",
+        "upper_limit": 3000,
+        "scope": "total"
+      },
+      {
+        "id": "NREF-2-3",
+        "intake": 1300,
+        "unit": "mg",
+        "upper_limit": 3000,
+        "scope": "total"
+      }
+    ],
+    "status": "age/form/unit and source reconciliation pending; no automatic override"
+  },
+  {
+    "key": "chloride|pregnancy|14–18",
+    "values": [
+      {
+        "id": "NREF-0-10",
+        "intake": 2.3,
+        "unit": "g",
+        "upper_limit": 3.6,
+        "scope": "total"
+      },
+      {
+        "id": "NREF-2-5",
+        "intake": 2.3,
+        "unit": "g",
+        "upper_limit": 3.6,
+        "scope": "total"
+      }
+    ],
+    "status": "age/form/unit and source reconciliation pending; no automatic override"
+  },
+  {
+    "key": "choline|pregnancy|14–18",
+    "values": [
+      {
+        "id": "NREF-0-13",
+        "intake": 450,
+        "unit": "mg",
+        "upper_limit": 3000,
+        "scope": "total"
+      },
+      {
+        "id": "NREF-2-7",
+        "intake": 450,
+        "unit": "mg",
+        "upper_limit": 3000,
+        "scope": "total"
+      }
+    ],
+    "status": "age/form/unit and source reconciliation pending; no automatic override"
+  },
+  {
+    "key": "chromium|pregnancy|14–18",
+    "values": [
+      {
+        "id": "NREF-0-16",
+        "intake": 29,
+        "unit": "mcg",
+        "upper_limit": null,
+        "scope": "ND"
+      },
+      {
+        "id": "NREF-2-9",
+        "intake": 29,
+        "unit": "mcg",
+        "upper_limit": null,
+        "scope": "not determinable"
+      }
+    ],
+    "status": "age/form/unit and source reconciliation pending; no automatic override"
+  },
+  {
+    "key": "copper|pregnancy|14–18",
+    "values": [
+      {
+        "id": "NREF-0-19",
+        "intake": 1000,
+        "unit": "mcg",
+        "upper_limit": 8000,
+        "scope": "total"
+      },
+      {
+        "id": "NREF-2-11",
+        "intake": 1000,
+        "unit": "mcg",
+        "upper_limit": 8000,
+        "scope": "total"
+      }
+    ],
+    "status": "age/form/unit and source reconciliation pending; no automatic override"
+  },
+  {
+    "key": "fluoride|pregnancy|14–18",
+    "values": [
+      {
+        "id": "NREF-0-22",
+        "intake": 3,
+        "unit": "mg",
+        "upper_limit": 10,
+        "scope": "total"
+      },
+      {
+        "id": "NREF-2-13",
+        "intake": 3,
+        "unit": "mg",
+        "upper_limit": 10,
+        "scope": "total"
+      }
+    ],
+    "status": "age/form/unit and source reconciliation pending; no automatic override"
+  },
+  {
+    "key": "folate|pregnancy|14–18",
+    "values": [
+      {
+        "id": "NREF-0-25",
+        "intake": 600,
+        "unit": "mcg DFE",
+        "upper_limit": 800,
+        "scope": "supplemental/fortified folate mcg, NOT DFE"
+      },
+      {
+        "id": "NREF-2-15",
+        "intake": 600,
+        "unit": "mcg DFE",
+        "upper_limit": 800,
+        "scope": "supplemental folate only; UL unit mcg, not mcg DFE"
+      }
+    ],
+    "status": "age/form/unit and source reconciliation pending; no automatic override"
+  },
+  {
+    "key": "iodine|pregnancy|14–18",
+    "values": [
+      {
+        "id": "NREF-0-28",
+        "intake": 220,
+        "unit": "mcg",
+        "upper_limit": 900,
+        "scope": "total"
+      },
+      {
+        "id": "NREF-2-17",
+        "intake": 220,
+        "unit": "mcg",
+        "upper_limit": 900,
+        "scope": "total"
+      }
+    ],
+    "status": "age/form/unit and source reconciliation pending; no automatic override"
+  },
+  {
+    "key": "iron|pregnancy|14–18",
+    "values": [
+      {
+        "id": "NREF-0-31",
+        "intake": 27,
+        "unit": "mg",
+        "upper_limit": 45,
+        "scope": "total"
+      },
+      {
+        "id": "NREF-2-19",
+        "intake": 27,
+        "unit": "mg",
+        "upper_limit": 45,
+        "scope": "total"
+      }
+    ],
+    "status": "age/form/unit and source reconciliation pending; no automatic override"
+  },
+  {
+    "key": "magnesium|pregnancy|14–18",
+    "values": [
+      {
+        "id": "NREF-0-34",
+        "intake": 400,
+        "unit": "mg",
+        "upper_limit": 350,
+        "scope": "supplemental only"
+      },
+      {
+        "id": "NREF-2-21",
+        "intake": 400,
+        "unit": "mg",
+        "upper_limit": 350,
+        "scope": "supplemental only; adults split age 19–30 350 and 31–50 360"
+      }
+    ],
+    "status": "age/form/unit and source reconciliation pending; no automatic override"
+  },
+  {
+    "key": "magnesium|pregnancy|19–30",
+    "values": [
+      {
+        "id": "NREF-0-35",
+        "intake": 350,
+        "unit": "mg",
+        "upper_limit": 350,
+        "scope": "supplemental only"
+      },
+      {
+        "id": "NREF-2-22",
+        "intake": 350,
+        "unit": "mg",
+        "upper_limit": 350,
+        "scope": "supplemental only"
+      }
+    ],
+    "status": "age/form/unit and source reconciliation pending; no automatic override"
+  },
+  {
+    "key": "magnesium|pregnancy|31–50",
+    "values": [
+      {
+        "id": "NREF-0-36",
+        "intake": 360,
+        "unit": "mg",
+        "upper_limit": 350,
+        "scope": "supplemental only"
+      },
+      {
+        "id": "NREF-2-23",
+        "intake": 360,
+        "unit": "mg",
+        "upper_limit": 350,
+        "scope": "supplemental only"
+      }
+    ],
+    "status": "age/form/unit and source reconciliation pending; no automatic override"
+  },
+  {
+    "key": "manganese|pregnancy|14–18",
+    "values": [
+      {
+        "id": "NREF-0-37",
+        "intake": 2,
+        "unit": "mg",
+        "upper_limit": 9,
+        "scope": "total"
+      },
+      {
+        "id": "NREF-2-24",
+        "intake": 2,
+        "unit": "mg",
+        "upper_limit": 9,
+        "scope": "total"
+      }
+    ],
+    "status": "age/form/unit and source reconciliation pending; no automatic override"
+  },
+  {
+    "key": "molybdenum|pregnancy|14–18",
+    "values": [
+      {
+        "id": "NREF-0-40",
+        "intake": 50,
+        "unit": "mcg",
+        "upper_limit": 1700,
+        "scope": "total"
+      },
+      {
+        "id": "NREF-2-26",
+        "intake": 50,
+        "unit": "mcg",
+        "upper_limit": 1700,
+        "scope": "total"
+      }
+    ],
+    "status": "age/form/unit and source reconciliation pending; no automatic override"
+  },
+  {
+    "key": "niacin|pregnancy|14–18",
+    "values": [
+      {
+        "id": "NREF-0-43",
+        "intake": 18,
+        "unit": "mg NE",
+        "upper_limit": 30,
+        "scope": "supplemental only; mg"
+      },
+      {
+        "id": "NREF-2-28",
+        "intake": 18,
+        "unit": "mg NE",
+        "upper_limit": 30,
+        "scope": "supplemental only; UL unit mg"
+      }
+    ],
+    "status": "age/form/unit and source reconciliation pending; no automatic override"
+  },
+  {
+    "key": "pantothenic acid|pregnancy|14–18",
+    "values": [
+      {
+        "id": "NREF-0-49",
+        "intake": 6,
+        "unit": "mg",
+        "upper_limit": null,
+        "scope": "ND"
+      },
+      {
+        "id": "NREF-2-32",
+        "intake": 6,
+        "unit": "mg",
+        "upper_limit": null,
+        "scope": "not determinable"
+      }
+    ],
+    "status": "age/form/unit and source reconciliation pending; no automatic override"
+  },
+  {
+    "key": "phosphorus|pregnancy|14–18",
+    "values": [
+      {
+        "id": "NREF-0-52",
+        "intake": 1250,
+        "unit": "mg",
+        "upper_limit": 3500,
+        "scope": "total"
+      },
+      {
+        "id": "NREF-2-34",
+        "intake": 1250,
+        "unit": "mg",
+        "upper_limit": 3500,
+        "scope": "total"
+      }
+    ],
+    "status": "age/form/unit and source reconciliation pending; no automatic override"
+  },
+  {
+    "key": "potassium|pregnancy|14–18",
+    "values": [
+      {
+        "id": "NREF-0-55",
+        "intake": 2600,
+        "unit": "mg",
+        "upper_limit": null,
+        "scope": "ND"
+      },
+      {
+        "id": "NREF-2-36",
+        "intake": 2600,
+        "unit": "mg",
+        "upper_limit": null,
+        "scope": "not determinable"
+      }
+    ],
+    "status": "age/form/unit and source reconciliation pending; no automatic override"
+  },
+  {
+    "key": "riboflavin|pregnancy|14–18",
+    "values": [
+      {
+        "id": "NREF-0-58",
+        "intake": 1.4,
+        "unit": "mg",
+        "upper_limit": null,
+        "scope": "ND"
+      },
+      {
+        "id": "NREF-2-38",
+        "intake": 1.4,
+        "unit": "mg",
+        "upper_limit": null,
+        "scope": "not determinable"
+      }
+    ],
+    "status": "age/form/unit and source reconciliation pending; no automatic override"
+  },
+  {
+    "key": "selenium|pregnancy|14–18",
+    "values": [
+      {
+        "id": "NREF-0-61",
+        "intake": 60,
+        "unit": "mcg",
+        "upper_limit": 400,
+        "scope": "total"
+      },
+      {
+        "id": "NREF-2-40",
+        "intake": 60,
+        "unit": "mcg",
+        "upper_limit": 400,
+        "scope": "total"
+      }
+    ],
+    "status": "age/form/unit and source reconciliation pending; no automatic override"
+  },
+  {
+    "key": "sodium|pregnancy|14–18",
+    "values": [
+      {
+        "id": "NREF-0-64",
+        "intake": 1500,
+        "unit": "mg",
+        "upper_limit": null,
+        "scope": "ND; separate CDRR not extracted"
+      },
+      {
+        "id": "NREF-2-42",
+        "intake": 1500,
+        "unit": "mg",
+        "upper_limit": null,
+        "scope": "UL not determinable; not a treatment target"
+      }
+    ],
+    "status": "age/form/unit and source reconciliation pending; no automatic override"
+  },
+  {
+    "key": "thiamin|pregnancy|14–18",
+    "values": [
+      {
+        "id": "NREF-0-67",
+        "intake": 1.4,
+        "unit": "mg",
+        "upper_limit": null,
+        "scope": "ND"
+      },
+      {
+        "id": "NREF-2-44",
+        "intake": 1.4,
+        "unit": "mg",
+        "upper_limit": null,
+        "scope": "not determinable"
+      }
+    ],
+    "status": "age/form/unit and source reconciliation pending; no automatic override"
+  },
+  {
+    "key": "vitamin a|pregnancy|14–18",
+    "values": [
+      {
+        "id": "NREF-0-70",
+        "intake": 750,
+        "unit": "mcg RAE",
+        "upper_limit": 2800,
+        "scope": "preformed vitamin A only"
+      },
+      {
+        "id": "NREF-2-46",
+        "intake": 750,
+        "unit": "mcg RAE",
+        "upper_limit": 2800,
+        "scope": "preformed vitamin A only; UL unit mcg"
+      }
+    ],
+    "status": "age/form/unit and source reconciliation pending; no automatic override"
+  },
+  {
+    "key": "vitamin b12|pregnancy|14–18",
+    "values": [
+      {
+        "id": "NREF-0-73",
+        "intake": 2.6,
+        "unit": "mcg",
+        "upper_limit": null,
+        "scope": "ND"
+      },
+      {
+        "id": "NREF-2-48",
+        "intake": 2.6,
+        "unit": "mcg",
+        "upper_limit": null,
+        "scope": "not determinable"
+      }
+    ],
+    "status": "age/form/unit and source reconciliation pending; no automatic override"
+  },
+  {
+    "key": "vitamin b6|pregnancy|14–18",
+    "values": [
+      {
+        "id": "NREF-0-76",
+        "intake": 1.9,
+        "unit": "mg",
+        "upper_limit": 80,
+        "scope": "total"
+      },
+      {
+        "id": "NREF-2-50",
+        "intake": 1.9,
+        "unit": "mg",
+        "upper_limit": 80,
+        "scope": "total"
+      }
+    ],
+    "status": "age/form/unit and source reconciliation pending; no automatic override"
+  },
+  {
+    "key": "vitamin c|pregnancy|14–18",
+    "values": [
+      {
+        "id": "NREF-0-79",
+        "intake": 80,
+        "unit": "mg",
+        "upper_limit": 1800,
+        "scope": "total"
+      },
+      {
+        "id": "NREF-2-52",
+        "intake": 80,
+        "unit": "mg",
+        "upper_limit": 1800,
+        "scope": "total"
+      }
+    ],
+    "status": "age/form/unit and source reconciliation pending; no automatic override"
+  },
+  {
+    "key": "vitamin d|pregnancy|14–18",
+    "values": [
+      {
+        "id": "NREF-0-82",
+        "intake": 15,
+        "unit": "mcg",
+        "upper_limit": 100,
+        "scope": "total; 1 mcg=40 IU"
+      },
+      {
+        "id": "NREF-2-54",
+        "intake": 15,
+        "unit": "mcg",
+        "upper_limit": 100,
+        "scope": "total"
+      }
+    ],
+    "status": "age/form/unit and source reconciliation pending; no automatic override"
+  },
+  {
+    "key": "vitamin e|pregnancy|14–18",
+    "values": [
+      {
+        "id": "NREF-0-85",
+        "intake": 15,
+        "unit": "mg alpha-tocopherol",
+        "upper_limit": 800,
+        "scope": "supplemental only"
+      },
+      {
+        "id": "NREF-2-56",
+        "intake": 15,
+        "unit": "mg alpha-tocopherol",
+        "upper_limit": 800,
+        "scope": "supplemental only"
+      }
+    ],
+    "status": "age/form/unit and source reconciliation pending; no automatic override"
+  },
+  {
+    "key": "vitamin k|pregnancy|14–18",
+    "values": [
+      {
+        "id": "NREF-0-88",
+        "intake": 75,
+        "unit": "mcg",
+        "upper_limit": null,
+        "scope": "ND"
+      },
+      {
+        "id": "NREF-2-58",
+        "intake": 75,
+        "unit": "mcg",
+        "upper_limit": null,
+        "scope": "not determinable"
+      }
+    ],
+    "status": "age/form/unit and source reconciliation pending; no automatic override"
+  },
+  {
+    "key": "zinc|pregnancy|14–18",
+    "values": [
+      {
+        "id": "NREF-0-91",
+        "intake": 12,
+        "unit": "mg",
+        "upper_limit": 34,
+        "scope": "total"
+      },
+      {
+        "id": "NREF-2-60",
+        "intake": 12,
+        "unit": "mg",
+        "upper_limit": 34,
+        "scope": "total"
+      }
+    ],
+    "status": "age/form/unit and source reconciliation pending; no automatic override"
+  }
+]

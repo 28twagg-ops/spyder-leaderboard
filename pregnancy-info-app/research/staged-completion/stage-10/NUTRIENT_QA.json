@@ -1,0 +1,17 @@
+{
+  "nutrient_rows": 403,
+  "by_origin": {
+    "research/staged-completion/stage-05/NUTRIENT_REFERENCES.json": 93,
+    "research/child-health/nutrient-reference.csv": 245,
+    "research/high-audit/NUTRIENT_REFERENCE_EXPANDED.json": 65
+  },
+  "same_key_groups": 32,
+  "missing_source_ids": [],
+  "nonfinite": [],
+  "all_not_doses": true,
+  "explicit_source_exclusions": 3,
+  "conservative_source_or_outcome_blocks": 11,
+  "hold_documents": 8,
+  "clinical_review": false,
+  "runtime_enforced": false
+}
