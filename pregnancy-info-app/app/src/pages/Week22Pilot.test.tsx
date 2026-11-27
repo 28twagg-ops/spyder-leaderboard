@@ -53,13 +53,13 @@ describe('week 22 visual directory',()=>{
   fireEvent.click(screen.getByRole('button',{name:'Back'}))
   expect(await screen.findByRole('heading',{name:'Muscles are developing'})).toBeVisible()
  })
- it('applies the approved candidate to weeks 20–27, not week 28',async()=>{
+ it('applies the approved candidate to weeks 20–29, not week 30',async()=>{
   view('/timeline/week/20')
   for(const week of [21,22,23]){fireEvent.click(screen.getByRole('link',{name:'Next'}));expect(await screen.findByRole('heading',{name:'Week '+week})).toBeVisible()}
   expect(screen.getByRole('navigation',{name:'Development topics'})).toBeVisible()
   fireEvent.click(screen.getByRole('link',{name:'Next'}))
   expect(await screen.findByRole('heading',{name:'Week 24'})).toBeVisible()
-  for(const week of [25,26,27,28]){fireEvent.click(screen.getByRole('link',{name:'Next'}));expect(await screen.findByRole('heading',{name:'Week '+week})).toBeVisible()}
+  for(const week of [25,26,27,28,29,30]){fireEvent.click(screen.getByRole('link',{name:'Next'}));expect(await screen.findByRole('heading',{name:'Week '+week})).toBeVisible()}
   expect(screen.queryByRole('navigation',{name:'Development topics'})).not.toBeInTheDocument()
  })
  it('preserves the baby size view when moving between pilot weeks',async()=>{
@@ -81,12 +81,20 @@ describe('week 22 visual directory',()=>{
   expect(within(screen.getByRole('navigation',{name:"This week's featured topics"})).queryByRole('link',{name:/Fine hair covers the body/})).not.toBeInTheDocument()
   expect(within(screen.getByRole('navigation',{name:'Development topics'})).getAllByRole('link')).toHaveLength(8)
  })
- it.each<[number,string,string]>([[20,'Banana','Swallowing before birth'],[21,'Carrot','Hearing and familiar voices'],[24,'Corn on the cob','The developing airway tree'],[25,'Zucchini','Where blood cells form'],[26,'Cucumber','Developing eyes'],[27,'Head of cauliflower','Rapid brain growth']])('week %s has its own fetal features and size',async(week,food,feature)=>{
+ it.each<[number,string,string]>([[20,'Banana','Swallowing before birth'],[21,'Carrot','Hearing and familiar voices'],[24,'Corn on the cob','The developing airway tree'],[25,'Zucchini','Where blood cells form'],[26,'Cucumber','Developing eyes'],[27,'Head of cauliflower','Rapid brain growth'],[28,'Eggplant','A changing heartbeat'],[29,'Butternut squash','Nervous-system control']])('week %s has its own fetal features and size',async(week,food,feature)=>{
   view('/timeline/week/'+week+'?subject=baby')
   expect(await screen.findByRole('heading',{name:'Week '+week})).toBeVisible()
   expect(screen.getByText(food.toLowerCase())).toBeVisible()
   expect(within(screen.getByRole('navigation',{name:"This week's featured topics"})).getByRole('link',{name:new RegExp(feature)})).toBeVisible()
-  expect(screen.getByRole('heading',{name:'Ongoing topics · Weeks 20–27'})).toBeVisible()
+  expect(screen.getByRole('heading',{name:week>=28?'Ongoing topics · Weeks 28–34':'Ongoing topics · Weeks 20–27'})).toBeVisible()
+ })
+ it('preserves Mother selection into the third trimester and opens newborn preparation',async()=>{
+  view('/timeline/week/27?subject=mother')
+  fireEvent.click(screen.getByRole('link',{name:'Next week'}))
+  expect(await screen.findByRole('heading',{name:'Week 28'})).toBeVisible()
+  expect(screen.getByText('THIRD TRIMESTER')).toBeVisible()
+  expect(screen.getByRole('button',{name:/Mother/})).toHaveAttribute('aria-pressed','true')
+  expect(screen.getByRole('link',{name:/Feeding choices.*Shared newborn research/})).toBeVisible()
  })
  it('maps all 111 source IDs and 18 outcomes without enabling held evidence',()=>{
   const children=skinSections.flatMap(s=>s.children)

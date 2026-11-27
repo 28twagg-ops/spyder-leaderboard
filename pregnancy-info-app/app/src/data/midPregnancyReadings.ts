@@ -3,6 +3,31 @@
 export type MidReference={title:string;url:string;sourceId?:string}
 export type MidReading={title:string;art:string;window:string;sections:{title:string;body:string;refs:string[]}[];related:[string,string][]}
 export const midReferences:Record<string,MidReference>={
+"N28": {
+    "title": "NHS: Week 28",
+    "url": "https://www.nhs.uk/best-start-in-life/pregnancy/week-by-week-guide-to-pregnancy/3rd-trimester/week-28/"
+  },
+  "N29": {
+    "title": "NHS: Week 29",
+    "url": "https://www.nhs.uk/best-start-in-life/pregnancy/week-by-week-guide-to-pregnancy/3rd-trimester/week-29/"
+  },
+  "TDAP": {
+    "title": "CDC: Vaccination guidelines during pregnancy",
+    "url": "https://www.cdc.gov/vaccines-pregnancy/hcp/vaccination-guidelines/"
+  },
+  "TDAP2": {
+    "title": "CDC: Vaccinating pregnant patients against pertussis",
+    "url": "https://www.cdc.gov/pertussis/hcp/vaccine-recommendations/vaccinating-pregnant-patients.html"
+  },
+  "SLEEP": {
+    "title": "CDC: Providing care for babies to sleep safely",
+    "url": "https://www.cdc.gov/sudden-infant-death/sleep-safely/"
+  },
+  "AAP_SLEEP": {
+    "title": "AAP: Sleep-related infant deaths, 2022 recommendations",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/35726558/",
+    "sourceId": "PED-SLEEP"
+  },
 "N20": {
     "title": "NHS: Week 20",
     "url": "https://www.nhs.uk/best-start-in-life/pregnancy/week-by-week-guide-to-pregnancy/2nd-trimester/week-20/"
@@ -79,6 +104,403 @@ export const midReferences:Record<string,MidReference>={
   }
 }
 export const midReadings:Record<string,MidReading>={
+"mother/body/third-trimester": {
+    "title": "Entering the third trimester",
+    "art": "body",
+    "window": "Weeks 28–40 · editorial orientation",
+    "sections": [
+      {
+        "title": "What changes about this stage?",
+        "body": "As pregnancy progresses, physical comfort, energy and everyday movement can change. The beginning of the third trimester is a useful navigation boundary, not a day when everyone's symptoms or needs change at once.",
+        "refs": [
+          "N28",
+          "N29"
+        ]
+      },
+      {
+        "title": "Preparation can be flexible",
+        "body": "This stage provides opportunities to learn about birth preferences, feeding options, newborn sleep safety and postpartum support. These are topics to explore, not a checklist that determines whether a family is ready.",
+        "refs": [
+          "N28",
+          "N29"
+        ]
+      },
+      {
+        "title": "Keep ongoing care separate",
+        "body": "Routine prenatal assessment and any individualized care plan remain important. Severe headache, vision changes, chest pain, difficulty breathing, bleeding, leaking fluid or changed usual fetal movement require prompt assessment rather than waiting for a scheduled visit.",
+        "refs": [
+          "URG"
+        ]
+      }
+    ],
+    "related": [
+      [
+        "mother/body/birth-preparation",
+        "Birth support and preferences"
+      ],
+      [
+        "mother/body/feeding-preparation",
+        "Feeding choices"
+      ],
+      [
+        "mother/checkups/sleep-preparation",
+        "Newborn sleep preparation"
+      ],
+      [
+        "mother/checkups/prenatal",
+        "Prenatal care"
+      ]
+    ]
+  },
+  "mother/checkups/tdap": {
+    "title": "Whooping cough protection in pregnancy",
+    "art": "antibodies",
+    "window": "US CDC guidance: weeks 27–36, preferably early in that window",
+    "sections": [
+      {
+        "title": "Why protection before birth matters",
+        "body": "Pertussis, or whooping cough, can be particularly serious for infants before they are old enough to complete early vaccination. CDC explains that maternal vaccination induces antibodies that can pass to the baby through the placenta.",
+        "refs": [
+          "TDAP",
+          "TDAP2"
+        ]
+      },
+      {
+        "title": "Why guidance uses a range",
+        "body": "US CDC guidance recommends Tdap during each pregnancy, preferably early in weeks 27–36. If it was given earlier in the same pregnancy, CDC says it should not be repeated simply because this window begins. Individual care and contraindications belong with the clinician.",
+        "refs": [
+          "TDAP",
+          "TDAP2"
+        ]
+      },
+      {
+        "title": "Distinguish guidance from trial evidence",
+        "body": "The linked CDC materials summarize evidence used in public health recommendations, not a new independent trial or a guarantee of protection. Separate study designs, effectiveness estimates, adverse-event evidence and funding disclosures need appraisal before new quantitative comparisons are published.",
+        "refs": [
+          "TDAP2"
+        ]
+      }
+    ],
+    "related": [
+      [
+        "baby/placenta/antibody-transfer",
+        "How antibodies reach the baby"
+      ],
+      [
+        "mother/checkups/prenatal",
+        "Questions for prenatal care"
+      ],
+      [
+        "/research/EV-ART-050",
+        "Infant vaccines and preventive visits"
+      ]
+    ]
+  },
+  "mother/checkups/sleep-preparation": {
+    "title": "Preparing a safe newborn sleep space",
+    "art": "crib",
+    "window": "Read ahead · infant guidance applies after birth",
+    "sections": [
+      {
+        "title": "The sleep surface matters",
+        "body": "CDC and the American Academy of Pediatrics describe a firm, flat, non-inclined surface intended for infant sleep. Place the baby on their back for sleep and keep loose bedding, pillows and soft objects out of the sleep area.",
+        "refs": [
+          "SLEEP",
+          "AAP_SLEEP"
+        ]
+      },
+      {
+        "title": "A simple environment, not a product ranking",
+        "body": "A separate infant sleep space near caregivers is compatible with room sharing. Expensive products, positioners or monitoring devices are not substitutes for an appropriate sleep environment. This article is preparation, not a recommendation of a particular commercial product.",
+        "refs": [
+          "SLEEP",
+          "AAP_SLEEP"
+        ]
+      },
+      {
+        "title": "What evidence is being used",
+        "body": "Safe-sleep guidance draws on multiple evidence sources, including observational research and safety surveillance. The guidance is distinct from a randomized comparison of every product on the market; the original evidence and applicability remain subject to independent review.",
+        "refs": [
+          "AAP_SLEEP"
+        ]
+      }
+    ],
+    "related": [
+      [
+        "/research/EV-ART-036",
+        "Full safe-sleep research"
+      ],
+      [
+        "/research/EV-ART-023",
+        "Newborn transition"
+      ],
+      [
+        "/research/EV-ART-037",
+        "Infant illness and emergency help"
+      ]
+    ]
+  },
+  "mother/movement/balance": {
+    "title": "Why balance and posture may change",
+    "art": "balance",
+    "window": "Around week 29 · symptoms and timing vary",
+    "sections": [
+      {
+        "title": "The changing center of gravity",
+        "body": "The NHS week-29 guide describes feeling less coordinated as the center of gravity changes. Changing body proportions can influence movement and comfort, but this does not mean every pregnant person experiences the same difficulty.",
+        "refs": [
+          "N29"
+        ]
+      },
+      {
+        "title": "Keep activity and safety individualized",
+        "body": "A familiar movement can feel different later in pregnancy. Explore movement and pelvic-health research alongside any clinician restrictions rather than treating a weekly article as a clearance for specific exercise. After a fall, contact the maternity team for advice; urgent symptoms require prompt assessment.",
+        "refs": [
+          "N29",
+          "URG"
+        ]
+      }
+    ],
+    "related": [
+      [
+        "mother/movement/activity",
+        "Activity and strength"
+      ],
+      [
+        "mother/movement/pain",
+        "Back and pelvic comfort"
+      ],
+      [
+        "mother/body/pelvic-floor",
+        "Pelvic floor function"
+      ]
+    ]
+  },
+  "mother/body/feeding-preparation": {
+    "title": "Thinking about feeding before birth",
+    "art": "breast",
+    "window": "Read ahead · no required feeding decision this week",
+    "sections": [
+      {
+        "title": "Different ways to feed a baby",
+        "body": "Breastfeeding, formula and mixed feeding are different ways families meet an infant's nutritional needs. Support, clinical circumstances and preferences influence what is feasible. Breast appearance or early leakage does not establish later feeding success.",
+        "refs": [
+          "N28",
+          "N29"
+        ]
+      },
+      {
+        "title": "Preparation is learning, not pressure",
+        "body": "Before birth, it can be useful to understand how feeding support is accessed and what safe formula preparation involves. A family can revisit choices after birth as circumstances change. This page does not prescribe antenatal expression, an infant feeding schedule or a supplement dose.",
+        "refs": [
+          "N28",
+          "N29"
+        ]
+      }
+    ],
+    "related": [
+      [
+        "/research/EV-ART-032",
+        "Breastfeeding, formula and mixed feeding"
+      ],
+      [
+        "/research/EV-ART-033",
+        "Safe formula preparation"
+      ],
+      [
+        "/research/EV-ART-034",
+        "Milk supply and feeding cues"
+      ],
+      [
+        "mother/body/early-milk",
+        "Breast changes and early milk"
+      ]
+    ]
+  },
+  "baby/growth/heart-development": {
+    "title": "How the fetal heartbeat changes",
+    "art": "heart",
+    "window": "Around week 28 · representative physiology",
+    "sections": [
+      {
+        "title": "A developing circulatory system",
+        "body": "The fetal heart pumps blood through vessels that connect growing tissues with the placenta. The NHS week-28 page discusses how heart rate changes across gestation as development progresses. A reference value is not a prediction for an individual baby.",
+        "refs": [
+          "N28",
+          "MED"
+        ]
+      },
+      {
+        "title": "Why a number is not enough",
+        "body": "Clinical assessment considers the context of the pregnancy and the pattern of findings. A heartbeat heard at home does not establish wellbeing and must not be used to dismiss a change in usual movement. Contact the maternity team immediately if usual movements slow, stop or change.",
+        "refs": [
+          "URG"
+        ]
+      }
+    ],
+    "related": [
+      [
+        "baby/placenta/circulation",
+        "Fetal circulation"
+      ],
+      [
+        "baby/placenta/exchange",
+        "Placental exchange"
+      ],
+      [
+        "baby/movement/patterns",
+        "Movement patterns"
+      ]
+    ]
+  },
+  "baby/placenta/antibody-transfer": {
+    "title": "How maternal antibodies reach the baby",
+    "art": "antibodies",
+    "window": "Placental physiology · not a week-specific onset",
+    "sections": [
+      {
+        "title": "Passive immune protection",
+        "body": "Some maternal antibodies cross the placenta and can provide temporary protection to the infant after birth. CDC explains this mechanism in the context of maternal vaccination against pertussis.",
+        "refs": [
+          "TDAP2"
+        ]
+      },
+      {
+        "title": "Protection is not the same as immune maturity",
+        "body": "Maternal antibody transfer helps bridge a period when the infant is especially vulnerable. It does not establish that the baby's own immune system is fully mature or replace routine infant preventive care.",
+        "refs": [
+          "TDAP2"
+        ]
+      }
+    ],
+    "related": [
+      [
+        "mother/checkups/tdap",
+        "US Tdap guidance"
+      ],
+      [
+        "baby/placenta/exchange",
+        "The placenta"
+      ],
+      [
+        "/research/EV-ART-050",
+        "Infant preventive visits and vaccines"
+      ]
+    ]
+  },
+  "baby/growth/neural-control": {
+    "title": "A growing nervous system",
+    "art": "brain",
+    "window": "Weeks 27–30",
+    "sections": [
+      {
+        "title": "From structure to function",
+        "body": "MedlinePlus describes rapid brain growth and increasing nervous-system control of some body functions across weeks 27–30. This does not mean the nervous system has finished developing.",
+        "refs": [
+          "MED"
+        ]
+      },
+      {
+        "title": "Evidence about cognition has limits",
+        "body": "Research about maternal nutrient intake and later child cognition asks a different question from describing fetal development. A DHA trial follow-up did not establish an overall IQ benefit; the study's funding and product contributions belong alongside its design and outcomes. Do not infer an extra-dose or fetal training requirement from normal brain maturation.",
+        "refs": [
+          "DHA",
+          "NUTR"
+        ]
+      }
+    ],
+    "related": [
+      [
+        "baby/growth/brain-growth",
+        "Brain growth"
+      ],
+      [
+        "baby/senses/brain-nutrients",
+        "Nutrients and cognition"
+      ],
+      [
+        "baby/senses/voice-music",
+        "Prenatal sound research"
+      ]
+    ]
+  },
+  "baby/skin/vernix-later": {
+    "title": "How the fetal skin covering changes",
+    "art": "vernix",
+    "window": "Around week 29; changes continue throughout late pregnancy",
+    "sections": [
+      {
+        "title": "A changing surface layer",
+        "body": "Vernix is a whitish coating associated with fetal skin. The NHS week-29 page describes changes in this covering as development progresses. The amount present varies, and it does not disappear at one fixed week for every baby.",
+        "refs": [
+          "N29"
+        ]
+      },
+      {
+        "title": "Different layers, different roles",
+        "body": "Fine hair, vernix and the skin itself are distinct features of development. Earlier articles explain their roles and later development involves ongoing maturation. The appearance of a concept diagram cannot establish individual skin maturity or readiness for birth.",
+        "refs": [
+          "N20",
+          "N29"
+        ]
+      }
+    ],
+    "related": [
+      [
+        "baby/skin/vernix",
+        "What is vernix?"
+      ],
+      [
+        "baby/skin/lanugo",
+        "Fine body hair"
+      ],
+      [
+        "baby/skin/skin-development",
+        "Skin anatomy"
+      ]
+    ]
+  },
+  "baby/growth/maturation": {
+    "title": "Growing and maturing before birth",
+    "art": "fat",
+    "window": "Later pregnancy · a continuing process",
+    "sections": [
+      {
+        "title": "Development is more than size",
+        "body": "The NHS week-29 guide describes continued organ maturation and fat accumulation. These processes overlap with the 27–30 week brain and respiratory development window, and no single measurement describes all aspects of fetal maturity.",
+        "refs": [
+          "N29",
+          "MED"
+        ]
+      },
+      {
+        "title": "Nutrition, growth and clinical assessment",
+        "body": "Nutrients support development, but a size analogy or change in tissue development does not establish a new supplement dose or personal growth target. The care team interprets individual growth measurements in context.",
+        "refs": [
+          "NUTR",
+          "N29"
+        ]
+      }
+    ],
+    "related": [
+      [
+        "baby/growth/brain-growth",
+        "Brain growth"
+      ],
+      [
+        "baby/growth/surfactant",
+        "Lung maturation"
+      ],
+      [
+        "baby/growth/screening",
+        "Growth assessment"
+      ],
+      [
+        "mother/nutrition/food",
+        "Maternal nutrition"
+      ]
+    ]
+  },
 "mother/checkups/anatomy-scan": {
     "title": "Understanding the anatomy scan",
     "art": "checkups",

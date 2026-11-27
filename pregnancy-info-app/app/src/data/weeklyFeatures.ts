@@ -1,8 +1,8 @@
 /** Week-specific editorial selection is distinct from shared trimester research.
  * The evidence window is recorded separately from the week in which a topic is featured.
  * Never infer a new medical action, dose, or exact milestone from editorial placement. */
-export type PilotWeek=20|21|22|23|24|25|26|27
-export const isPilotWeek=(week:number):week is PilotWeek=>week>=20&&week<=27&&Number.isInteger(week)
+export type PilotWeek=20|21|22|23|24|25|26|27|28|29
+export const isPilotWeek=(week:number):week is PilotWeek=>week>=20&&week<=29&&Number.isInteger(week)
 export type WeeklyFeature={title:string;description:string;path:string;art:string;window:string;source:string}
 export const weeklyFeatures:Record<PilotWeek,Record<'mother'|'baby',WeeklyFeature[]>>={
 "20": {
@@ -351,6 +351,114 @@ export const weeklyFeatures:Record<PilotWeek,Record<'mother'|'baby',WeeklyFeatur
         "art": "eye",
         "window": "Weeks 27–30",
         "source": "https://medlineplus.gov/ency/article/002398.htm"
+      }
+    ]
+  },
+"28": {
+    "mother": [
+      {
+        "title": "The third trimester begins",
+        "description": "Explore how preparation, physical comfort and care questions change.",
+        "path": "mother/body/third-trimester",
+        "art": "body",
+        "window": "Weeks 28–40 · new stage",
+        "source": "https://www.nhs.uk/best-start-in-life/pregnancy/week-by-week-guide-to-pregnancy/3rd-trimester/week-28/"
+      },
+      {
+        "title": "Whooping cough protection",
+        "description": "Understand the US vaccination window and how antibodies protect newborns.",
+        "path": "mother/checkups/tdap",
+        "art": "antibodies",
+        "window": "US guidance · weeks 27–36",
+        "source": "https://www.cdc.gov/vaccines-pregnancy/hcp/vaccination-guidelines/"
+      },
+      {
+        "title": "Preparing a safe sleep space",
+        "description": "Learn about newborn sleep safety before birth.",
+        "path": "mother/checkups/sleep-preparation",
+        "art": "crib",
+        "window": "Read ahead · newborn preparation",
+        "source": "https://www.cdc.gov/sudden-infant-death/sleep-safely/"
+      }
+    ],
+    "baby": [
+      {
+        "title": "A changing heartbeat",
+        "description": "Understand the developing heart and why a reference is not a home monitoring target.",
+        "path": "baby/growth/heart-development",
+        "art": "heart",
+        "window": "Around week 28 · ongoing development",
+        "source": "https://www.nhs.uk/best-start-in-life/pregnancy/week-by-week-guide-to-pregnancy/3rd-trimester/week-28/"
+      },
+      {
+        "title": "Surfactant and air sacs",
+        "description": "Explore the changing lungs as they prepare for breathing after birth.",
+        "path": "baby/growth/surfactant",
+        "art": "alveoli",
+        "window": "Weeks 27–30",
+        "source": "https://medlineplus.gov/ency/article/002398.htm"
+      },
+      {
+        "title": "Antibodies from mother to baby",
+        "description": "Explore temporary passive immune protection before birth.",
+        "path": "baby/placenta/antibody-transfer",
+        "art": "antibodies",
+        "window": "Ongoing placental physiology",
+        "source": "https://www.cdc.gov/pertussis/hcp/vaccine-recommendations/vaccinating-pregnant-patients.html"
+      }
+    ]
+  },
+  "29": {
+    "mother": [
+      {
+        "title": "Balance and changing posture",
+        "description": "Explore why familiar movements may feel different as your bump grows.",
+        "path": "mother/movement/balance",
+        "art": "balance",
+        "window": "Around week 29 · varies",
+        "source": "https://www.nhs.uk/best-start-in-life/pregnancy/week-by-week-guide-to-pregnancy/3rd-trimester/week-29/"
+      },
+      {
+        "title": "Birth preferences and support",
+        "description": "Compare research on labor support, comfort and communication.",
+        "path": "mother/body/birth-preparation",
+        "art": "checkups",
+        "window": "Read ahead · optional preparation",
+        "source": "https://www.nhs.uk/best-start-in-life/pregnancy/week-by-week-guide-to-pregnancy/3rd-trimester/week-29/"
+      },
+      {
+        "title": "Feeding choices before birth",
+        "description": "Explore breastfeeding, formula and mixed feeding without pressure.",
+        "path": "mother/body/feeding-preparation",
+        "art": "breast",
+        "window": "Read ahead · feeding preparation",
+        "source": "https://www.nhs.uk/best-start-in-life/pregnancy/week-by-week-guide-to-pregnancy/3rd-trimester/week-29/"
+      }
+    ],
+    "baby": [
+      {
+        "title": "Nervous-system control",
+        "description": "Explore how the growing brain participates in body function.",
+        "path": "baby/growth/neural-control",
+        "art": "brain",
+        "window": "Weeks 27–30",
+        "source": "https://medlineplus.gov/ency/article/002398.htm"
+      },
+      {
+        "title": "The changing skin covering",
+        "description": "Learn how vernix and fine hair change as development continues.",
+        "path": "baby/skin/vernix-later",
+        "art": "vernix",
+        "window": "Around week 29 · timing varies",
+        "source": "https://www.nhs.uk/best-start-in-life/pregnancy/week-by-week-guide-to-pregnancy/3rd-trimester/week-29/"
+      },
+      {
+        "title": "Organ maturation and growth",
+        "description": "Connect tissue growth with ongoing brain and lung development.",
+        "path": "baby/growth/maturation",
+        "art": "fat",
+        "window": "Later pregnancy · continuing process",
+        "source": "https://www.nhs.uk/best-start-in-life/pregnancy/week-by-week-guide-to-pregnancy/3rd-trimester/week-29/"
       }
     ]
   }

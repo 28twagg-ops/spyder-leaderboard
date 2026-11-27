@@ -86,6 +86,12 @@ describe('expanded week 22 topic coverage',()=>{
   expect(screen.getByText('Studies & references')).toBeInTheDocument()
   expect(screen.getByRole('navigation',{name:'Week 25 context'})).toBeVisible()
  })
+ it('new third-trimester links preserve Week 29 context',async()=>{
+  render(<MemoryRouter initialEntries={['/timeline/week/29/baby/growth/neural-control']}><App/></MemoryRouter>)
+  expect(await screen.findByRole('heading',{name:'A growing nervous system'})).toBeVisible()
+  expect(screen.getByRole('navigation',{name:'Week 29 context'})).toBeVisible()
+  expect(screen.getByRole('link',{name:'Week 29 · Baby'})).toHaveAttribute('href','/timeline/week/29?subject=baby')
+ })
  it('new reading references resolve and registry-backed IDs exist',()=>{
   for(const reading of Object.values(midReadings))for(const part of reading.sections)for(const id of part.refs){const ref=midReferences[id];expect(ref).toBeDefined();if(ref.sourceId)expect(getEvidenceSource(ref.sourceId)).toBeDefined()}
  })
