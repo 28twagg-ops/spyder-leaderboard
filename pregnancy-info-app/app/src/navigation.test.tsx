@@ -75,19 +75,18 @@ describe('contextual navigation and privacy',()=>{
  it('remembers open reading and visual lists when returning from a scientific reference, without saving them',async()=>{
   view('/research/EV-ART-014')
   fireEvent.click(screen.getByText('Understand more'))
-  const section=screen.getByRole('region',{name:'See it visually'})
-  fireEvent.click(within(section).getByRole('button',{name:/more visual references/}))
+  const section=screen.getByText('Studies & references').closest('details')!
+  fireEvent.click(screen.getByText('Studies & references'))
   fireEvent.click(within(section).getByRole('link',{name:/The placenta/}))
   expect(await screen.findByRole('heading',{name:'The placenta',level:1})).toBeInTheDocument()
   fireEvent.click(screen.getByRole('button',{name:'Back'}))
   expect(await screen.findByRole('heading',{name:'How the baby develops'})).toBeInTheDocument()
   expect(screen.getByText('Understand more').closest('details')).toHaveAttribute('open')
-  expect(screen.getByRole('button',{name:'Show fewer references'})).toHaveAttribute('aria-expanded','true')
-  expect(screen.getByText('Archived AI summary for comparison').closest('details')).not.toHaveAttribute('open')
+  expect(screen.getByText('Studies & references').closest('details')).toHaveAttribute('open')
   expect(localStorage.length).toBe(0)
   cleanup();view('/research/EV-ART-014')
   expect(screen.getByText('Understand more').closest('details')).not.toHaveAttribute('open')
-  expect(screen.getByRole('button',{name:/more visual references/})).toHaveAttribute('aria-expanded','false')
+  expect(screen.getByText('Studies & references').closest('details')).not.toHaveAttribute('open')
  })
  it('returns to Search from a direct article link',async()=>{
   view('/research/EV-ART-001')
