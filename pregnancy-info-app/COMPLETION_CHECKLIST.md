@@ -139,5 +139,8 @@ Evidence: prior preview 8b51b5f76a0d4624cf2c1879021c52da98f82de1; preference/sea
 - [x] ST7–14 targeted software and evidence batch authored; removed prominent global urgent shortcut, retained contextual safety; infant and water research, source filters and cost calculator added. CI verification pending.
 - [ ] ST7–14 remaining source appraisal, wider media review, device QA, clinical and access governance gates. See stage report.
 
-- [x] Cross-reference concept index and inline reader implementation authored on preview (f4d2d2d).
-- [ ] Verify candidate CI and device navigation; expand selective concept coverage where needed.
+- [x] Authored inline cross-reference navigation and route/phrase tests; previous stage 7–14 CI/deployment passed.
+- [ ] Verify new candidate build, actual iPhone article links/Back, and refine phrase coverage from owner feedback.
+
+- [x] Traditional practices: 28 targeted source checks, five draft pathways, media leads and cross-links authored.
+- [ ] Complete full-text, trial-level funding/COI/retraction/overlap, historical/ethnographic and nonacademic media search, clinical and device review; verify new CI.
