@@ -3,6 +3,18 @@
 export type MidReference={title:string;url:string;sourceId?:string}
 export type MidReading={title:string;art:string;window:string;sections:{title:string;body:string;refs:string[]}[];related:[string,string][]}
 export const midReferences:Record<string,MidReference>={
+"N30": {
+    "title": "NHS: Week 30",
+    "url": "https://www.nhs.uk/best-start-in-life/pregnancy/week-by-week-guide-to-pregnancy/3rd-trimester/week-30/"
+  },
+  "N31": {
+    "title": "NHS: Week 31",
+    "url": "https://www.nhs.uk/best-start-in-life/pregnancy/week-by-week-guide-to-pregnancy/3rd-trimester/week-31/"
+  },
+  "PRETERM": {
+    "title": "ACOG: Preterm labor and birth",
+    "url": "https://www.acog.org/womens-health/faqs/preterm-labor-and-birth"
+  },
 "N28": {
     "title": "NHS: Week 28",
     "url": "https://www.nhs.uk/best-start-in-life/pregnancy/week-by-week-guide-to-pregnancy/3rd-trimester/week-28/"
@@ -104,6 +116,350 @@ export const midReferences:Record<string,MidReference>={
   }
 }
 export const midReadings:Record<string,MidReading>={
+"mother/movement/sleep-changes": {
+    "title": "Sleep changes and vivid dreams",
+    "art": "rest",
+    "window": "Late pregnancy; NHS week 30 highlights sleep",
+    "sections": [
+      {
+        "title": "Why sleep may feel different",
+        "body": "Physical discomfort, worries and changing routines can make rest difficult. The NHS week-30 guide describes disturbed sleep and vivid dreams as possible experiences, not universal signs.",
+        "refs": [
+          "N30"
+        ]
+      },
+      {
+        "title": "Emotional support matters",
+        "body": "Dreams are not predictions. Discuss persistent sleep disruption or anxiety with the maternity care team. Seek support for distress rather than treating an app reading as a diagnosis or a reason to start sleep medicines or supplements.",
+        "refs": [
+          "N30"
+        ]
+      }
+    ],
+    "related": [
+      [
+        "mother/movement/mood",
+        "Mood and emotional wellbeing"
+      ],
+      [
+        "mother/body/rib-comfort",
+        "Rib comfort and breathing"
+      ]
+    ]
+  },
+  "mother/body/postpartum-planning": {
+    "title": "Preparing support for the first weeks after birth",
+    "art": "checkups",
+    "window": "Optional preparation during late pregnancy",
+    "sections": [
+      {
+        "title": "Plan for flexibility",
+        "body": "Preparing for the newborn includes making space for rest, meals, practical help and access to professional support. These are optional learning topics, not prerequisites for a good birth or a fixed recovery schedule.",
+        "refs": [
+          "N30",
+          "N31"
+        ]
+      },
+      {
+        "title": "Know how to access care",
+        "body": "Identify how to contact the maternity team, newborn clinician and feeding support. Recovery differs by birth circumstances and individual needs. Serious maternal symptoms can occur after birth as well as during pregnancy.",
+        "refs": [
+          "URG"
+        ]
+      },
+      {
+        "title": "Keep choices revisable",
+        "body": "Feeding and sleep arrangements can be adapted as circumstances change. The linked research articles explain these questions in more detail without prescribing a personal plan.",
+        "refs": [
+          "N31"
+        ]
+      }
+    ],
+    "related": [
+      [
+        "mother/body/feeding-preparation",
+        "Feeding preparation"
+      ],
+      [
+        "mother/checkups/sleep-preparation",
+        "Newborn sleep preparation"
+      ],
+      [
+        "/research/EV-ART-025",
+        "Maternal recovery and follow-up"
+      ],
+      [
+        "/research/EV-ART-034",
+        "Feeding cues and milk supply"
+      ]
+    ]
+  },
+  "baby/senses/visual-focus": {
+    "title": "How visual function develops",
+    "art": "eye",
+    "window": "Around week 30 in NHS educational guidance; maturation continues",
+    "sections": [
+      {
+        "title": "Eyes and brain work together",
+        "body": "The developing eye receives visual information and the nervous system processes it. The NHS week-30 guide describes emerging focusing ability, but development before birth is not the same as mature vision after birth.",
+        "refs": [
+          "N30"
+        ]
+      },
+      {
+        "title": "A reference is not a home test",
+        "body": "The rate of visual maturation differs among babies. There is no need to use lights or stimuli to test or train fetal vision; an illustration cannot assess individual sensory function.",
+        "refs": [
+          "N30",
+          "MED"
+        ]
+      }
+    ],
+    "related": [
+      [
+        "baby/senses/eyes",
+        "Earlier eye development"
+      ],
+      [
+        "baby/senses/eyelids",
+        "Eyelid movements"
+      ],
+      [
+        "baby/growth/brain-growth",
+        "Brain growth"
+      ]
+    ]
+  },
+  "mother/body/contractions": {
+    "title": "Uterine tightening and signs of preterm labor",
+    "art": "uterus",
+    "window": "Around week 31; symptoms and timing vary",
+    "sections": [
+      {
+        "title": "What practice contractions are",
+        "body": "The uterus is muscular and may tighten intermittently during pregnancy. The NHS week-31 guide describes Braxton Hicks contractions. Not every tightening can safely be identified as a practice contraction at home.",
+        "refs": [
+          "N31"
+        ]
+      },
+      {
+        "title": "When not to wait",
+        "body": "Before 37 weeks, regular or frequent tightening, pelvic pressure, new persistent backache, fluid leakage or bleeding can be signs of preterm labor. Contact the maternity team promptly for possible signs; do not wait for a scheduled appointment or use this article to rule out labor.",
+        "refs": [
+          "PRETERM",
+          "URG"
+        ]
+      },
+      {
+        "title": "Clinical assessment is different",
+        "body": "The care team can assess symptoms and cervical changes. This educational article does not give a home contraction threshold, self-treatment method or labor-induction instructions.",
+        "refs": [
+          "PRETERM"
+        ]
+      }
+    ],
+    "related": [
+      [
+        "mother/body/birth-preparation",
+        "Birth preparation"
+      ],
+      [
+        "mother/checkups/urgent",
+        "Urgent maternal signs"
+      ]
+    ]
+  },
+  "mother/nutrition/bone-minerals": {
+    "title": "Calcium, iron and vitamin D in pregnancy",
+    "art": "mineral",
+    "window": "Nutrition spotlight · no new weekly supplement schedule",
+    "sections": [
+      {
+        "title": "Different nutrients, different roles",
+        "body": "Calcium is important for skeletal structure, iron supports hemoglobin and oxygen transport, and vitamin D participates in calcium regulation. The fetal mineral-storage window is a developmental description, not proof that a new supplement is required at week 31.",
+        "refs": [
+          "NUTR",
+          "MED"
+        ]
+      },
+      {
+        "title": "Food, total intake and supplementation",
+        "body": "The NIH Office of Dietary Supplements distinguishes reference intake targets from supplement amounts and upper limits. Dietary patterns, prenatal products, medical conditions and clinical findings all affect individual choices.",
+        "refs": [
+          "NUTR"
+        ]
+      },
+      {
+        "title": "Read the research by outcome",
+        "body": "Trials on calcium and hypertensive disorders, iron and anemia, and vitamin D status address different questions. Do not combine them into a claim that a mineral stack improves every pregnancy outcome. Existing numerical holds and uncertainty remain in place.",
+        "refs": [
+          "NUTR"
+        ]
+      }
+    ],
+    "related": [
+      [
+        "mother/nutrition/minerals",
+        "Existing mineral and vitamin evidence"
+      ],
+      [
+        "mother/nutrition/supplements",
+        "Prenatal product quality"
+      ],
+      [
+        "baby/growth/mineral-stores",
+        "Developing fetal mineral reserves"
+      ]
+    ]
+  },
+  "mother/checkups/growth-position": {
+    "title": "What growth and position assessments tell us",
+    "art": "checkups",
+    "window": "Late pregnancy; individual assessment and timing vary",
+    "sections": [
+      {
+        "title": "Different measurements answer different questions",
+        "body": "Clinicians may assess uterine size using fundal height, feel the abdomen or use ultrasound when indicated. The NHS week-31 guide describes these assessments. They are not the same as the app's approximate length comparison.",
+        "refs": [
+          "N31"
+        ]
+      },
+      {
+        "title": "Position may still change",
+        "body": "The baby's position can change during pregnancy. A head-up position at this stage does not automatically determine the mode of birth. Clinical assessment and individual circumstances guide decisions; no home turning maneuver is prescribed.",
+        "refs": [
+          "N31"
+        ]
+      },
+      {
+        "title": "Keep movement safety separate",
+        "body": "A previous reassuring measurement does not rule out a new concern. If usual baby movements slow, stop or change, contact the maternity team immediately.",
+        "refs": [
+          "URG"
+        ]
+      }
+    ],
+    "related": [
+      [
+        "baby/growth/screening",
+        "Growth assessment"
+      ],
+      [
+        "mother/body/birth-preparation",
+        "Birth preferences"
+      ],
+      [
+        "baby/movement/patterns",
+        "Movement patterns"
+      ]
+    ]
+  },
+  "baby/growth/mineral-stores": {
+    "title": "How mineral reserves develop",
+    "art": "mineral",
+    "window": "Weeks 31–34",
+    "sections": [
+      {
+        "title": "Building reserves over time",
+        "body": "MedlinePlus describes storage of iron, calcium and phosphorus within the 31–34 week window. Minerals participate in multiple physiological processes, including blood formation and skeletal development.",
+        "refs": [
+          "MED",
+          "NUTR"
+        ]
+      },
+      {
+        "title": "Adequate nourishment versus extra doses",
+        "body": "Maternal nutrient adequacy supports development, but the timing of fetal mineral accumulation does not establish a need to increase supplementation on a particular day. Individual requirements and existing intake need context.",
+        "refs": [
+          "NUTR"
+        ]
+      }
+    ],
+    "related": [
+      [
+        "mother/nutrition/bone-minerals",
+        "Maternal mineral nutrition"
+      ],
+      [
+        "baby/movement/bone-maturation",
+        "Skeletal maturation"
+      ],
+      [
+        "baby/growth/blood",
+        "Blood-cell development"
+      ]
+    ]
+  },
+  "baby/movement/bone-maturation": {
+    "title": "Why developing bones are still soft",
+    "art": "bone",
+    "window": "Weeks 31–34",
+    "sections": [
+      {
+        "title": "Form and maturity are different",
+        "body": "MedlinePlus describes bones as formed but still soft during this developmental window. Skeletal tissues continue changing after birth as well. A diagram of bone structure is not an exact representation of fetal mineral density.",
+        "refs": [
+          "MED"
+        ]
+      },
+      {
+        "title": "The nutritional connection",
+        "body": "Calcium and phosphorus contribute to bone mineral, while vitamin D helps regulate calcium metabolism. The evidence for nutrient adequacy should not be transformed into a promise that extra supplementation produces stronger bones.",
+        "refs": [
+          "NUTR"
+        ]
+      }
+    ],
+    "related": [
+      [
+        "baby/growth/mineral-stores",
+        "Mineral reserves"
+      ],
+      [
+        "mother/nutrition/bone-minerals",
+        "Calcium, iron and vitamin D"
+      ],
+      [
+        "baby/movement/muscles",
+        "Muscle development"
+      ]
+    ]
+  },
+  "baby/growth/breathing-practice": {
+    "title": "Practice breathing before birth",
+    "art": "lungs",
+    "window": "Weeks 31–34; respiratory maturation continues",
+    "sections": [
+      {
+        "title": "Movement without breathing air",
+        "body": "MedlinePlus describes rhythmic breathing movements during weeks 31–34, even though the lungs are not fully mature. These movements occur in the fluid environment before birth, while placental exchange continues supplying oxygen.",
+        "refs": [
+          "MED"
+        ]
+      },
+      {
+        "title": "A developing system",
+        "body": "Airway structure, respiratory movements and surfactant production are related but distinct aspects of development. None alone predicts whether an individual infant can breathe without support after birth.",
+        "refs": [
+          "MED"
+        ]
+      }
+    ],
+    "related": [
+      [
+        "baby/growth/surfactant",
+        "Surfactant and lung maturation"
+      ],
+      [
+        "baby/growth/airway-branches",
+        "Earlier airway development"
+      ],
+      [
+        "baby/placenta/exchange",
+        "Placental oxygen exchange"
+      ]
+    ]
+  },
 "mother/body/third-trimester": {
     "title": "Entering the third trimester",
     "art": "body",

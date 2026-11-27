@@ -18,7 +18,7 @@ describe('developmental journey',()=>{
   expect(screen.getByLabelText('Pregnancy week').querySelectorAll('option')).toHaveLength(41)
   fireEvent.change(screen.getByLabelText('Pregnancy week'),{target:{value:'22'}})
   expect(screen.getByRole('heading',{name:'Week 22'})).toBeInTheDocument()
-  expect(screen.getByRole('link',{name:'Next'})).toHaveAttribute('href','/timeline/week/23')
+  expect(screen.getByRole('link',{name:'Next'})).toHaveAttribute('href','/timeline/week/23?subject=baby')
  })
  it('opens legacy phase and week deep links',()=>{
   view('/timeline#PRE04')

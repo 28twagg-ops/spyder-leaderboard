@@ -1,8 +1,8 @@
 /** Week-specific editorial selection is distinct from shared trimester research.
  * The evidence window is recorded separately from the week in which a topic is featured.
  * Never infer a new medical action, dose, or exact milestone from editorial placement. */
-export type PilotWeek=20|21|22|23|24|25|26|27|28|29
-export const isPilotWeek=(week:number):week is PilotWeek=>week>=20&&week<=29&&Number.isInteger(week)
+export type PilotWeek=20|21|22|23|24|25|26|27|28|29|30|31
+export const isPilotWeek=(week:number):week is PilotWeek=>week>=20&&week<=31&&Number.isInteger(week)
 export type WeeklyFeature={title:string;description:string;path:string;art:string;window:string;source:string}
 export const weeklyFeatures:Record<PilotWeek,Record<'mother'|'baby',WeeklyFeature[]>>={
 "20": {
@@ -459,6 +459,114 @@ export const weeklyFeatures:Record<PilotWeek,Record<'mother'|'baby',WeeklyFeatur
         "art": "fat",
         "window": "Later pregnancy · continuing process",
         "source": "https://www.nhs.uk/best-start-in-life/pregnancy/week-by-week-guide-to-pregnancy/3rd-trimester/week-29/"
+      }
+    ]
+  },
+"30": {
+    "mother": [
+      {
+        "title": "Sleep and vivid dreams",
+        "description": "Understand late-pregnancy sleep disruption and emotional support.",
+        "path": "mother/movement/sleep-changes",
+        "art": "rest",
+        "window": "Around week 30 · experience varies",
+        "source": "https://www.nhs.uk/best-start-in-life/pregnancy/week-by-week-guide-to-pregnancy/3rd-trimester/week-30/"
+      },
+      {
+        "title": "Breathing and rib comfort",
+        "description": "Distinguish common physical changes from symptoms that need urgent assessment.",
+        "path": "mother/body/rib-comfort",
+        "art": "ribs",
+        "window": "Ongoing late-pregnancy comfort",
+        "source": "https://www.nhs.uk/best-start-in-life/pregnancy/week-by-week-guide-to-pregnancy/3rd-trimester/week-30/"
+      },
+      {
+        "title": "Planning support after birth",
+        "description": "Consider meals, practical help, feeding support and recovery before delivery.",
+        "path": "mother/body/postpartum-planning",
+        "art": "checkups",
+        "window": "Read ahead · optional preparation",
+        "source": "https://www.nhs.uk/best-start-in-life/pregnancy/week-by-week-guide-to-pregnancy/3rd-trimester/week-30/"
+      }
+    ],
+    "baby": [
+      {
+        "title": "Developing visual focus",
+        "description": "Explore the connection between eyes and the developing brain.",
+        "path": "baby/senses/visual-focus",
+        "art": "eye",
+        "window": "Around week 30 · visual maturation continues",
+        "source": "https://www.nhs.uk/best-start-in-life/pregnancy/week-by-week-guide-to-pregnancy/3rd-trimester/week-30/"
+      },
+      {
+        "title": "Brain and body communication",
+        "description": "Understand how nervous-system control develops.",
+        "path": "baby/growth/neural-control",
+        "art": "brain",
+        "window": "Weeks 27–30",
+        "source": "https://medlineplus.gov/ency/article/002398.htm"
+      },
+      {
+        "title": "Preparing the lungs for air",
+        "description": "Explore surfactant and why lung maturity is gradual.",
+        "path": "baby/growth/surfactant",
+        "art": "alveoli",
+        "window": "Weeks 27–30",
+        "source": "https://medlineplus.gov/ency/article/002398.htm"
+      }
+    ]
+  },
+  "31": {
+    "mother": [
+      {
+        "title": "Practice contractions and preterm labor",
+        "description": "Understand uterine tightening and when to contact the maternity team.",
+        "path": "mother/body/contractions",
+        "art": "uterus",
+        "window": "Around week 31 · urgent signs override reading",
+        "source": "https://www.nhs.uk/best-start-in-life/pregnancy/week-by-week-guide-to-pregnancy/3rd-trimester/week-31/"
+      },
+      {
+        "title": "Calcium, iron and vitamin D",
+        "description": "Explore nutrient adequacy and the evidence behind supplementation.",
+        "path": "mother/nutrition/bone-minerals",
+        "art": "nutrition",
+        "window": "Nutrition spotlight · not a new dose schedule",
+        "source": "https://ods.od.nih.gov/factsheets/pregnancy-healthprofessional/"
+      },
+      {
+        "title": "Measuring growth and position",
+        "description": "Learn what clinicians assess and why fetal position can still change.",
+        "path": "mother/checkups/growth-position",
+        "art": "checkups",
+        "window": "Late-pregnancy care context",
+        "source": "https://www.nhs.uk/best-start-in-life/pregnancy/week-by-week-guide-to-pregnancy/3rd-trimester/week-31/"
+      }
+    ],
+    "baby": [
+      {
+        "title": "Building mineral reserves",
+        "description": "Understand accumulation of iron, calcium and phosphorus.",
+        "path": "baby/growth/mineral-stores",
+        "art": "mineral",
+        "window": "Weeks 31–34",
+        "source": "https://medlineplus.gov/ency/article/002398.htm"
+      },
+      {
+        "title": "Bones are formed but still soft",
+        "description": "Explore ongoing skeletal development.",
+        "path": "baby/movement/bone-maturation",
+        "art": "bone",
+        "window": "Weeks 31–34",
+        "source": "https://medlineplus.gov/ency/article/002398.htm"
+      },
+      {
+        "title": "Practising breathing movements",
+        "description": "Discover how the diaphragm and respiratory system develop before birth.",
+        "path": "baby/growth/breathing-practice",
+        "art": "lungs",
+        "window": "Weeks 31–34",
+        "source": "https://medlineplus.gov/ency/article/002398.htm"
       }
     ]
   }
