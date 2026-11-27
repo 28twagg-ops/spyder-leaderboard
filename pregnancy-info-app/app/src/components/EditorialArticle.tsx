@@ -1,3 +1,4 @@
+import {ArticleCrossReferences} from './ArticleCrossReferences'
 import type { ReactNode } from 'react'
 import { Link } from 'react-router-dom'
 import { Glyph } from './Glyph'
@@ -32,5 +33,5 @@ export function EditorialReadingRow({to,title,subtitle,index=0}:{to:string;title
  return <Link className="ref-row editorial-reading-row" to={to}><span className="ref-row-icon"><Glyph name={index%2===0?'book':'leaf'}/></span><span><strong>{title}</strong>{subtitle&&<small>{subtitle}</small>}</span><span className="ref-chevron" aria-hidden="true">›</span></Link>
 }
 export function EditorialArticle({entry,reference,children,illustration}:{entry:EditorialEntry;reference?:ReactNode;children?:ReactNode;illustration?:ReactNode}){
- return <article className="editorial-article week-editorial-reading"><h2>{entry.title}</h2><p className="editorial-deck">{entry.deck} {reference}</p>{illustration}{children}<section><h2>How to read the findings</h2><p>{entry.paragraphs[1]} {reference}</p></section></article>
+ return <article className="editorial-article week-editorial-reading"><h2>{entry.title}</h2><p className="editorial-deck"><ArticleCrossReferences text={entry.deck}/> {reference}</p>{illustration}{children}<section><h2>How to read the findings</h2><p><ArticleCrossReferences text={entry.paragraphs[1]}/> {reference}</p></section></article>
 }

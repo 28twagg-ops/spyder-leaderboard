@@ -1050,3 +1050,6 @@ a, button, summary, [role="button"] {
 .bc-result-copy .bc-year-cost,.bc-live-method-row .bc-year-cost{display:block;color:var(--accent-deep);font-weight:600;font-size:.7rem;line-height:1.3;margin-top:.15rem}
 
 .dev-question summary{font-weight:650;color:var(--accent-deep)}.dev-question a{display:inline-block;min-height:44px;padding:.7rem .5rem .5rem 0;color:var(--accent-deep);font-size:.8rem}.reading-section h3{font-size:1rem;color:var(--ink);margin:.35rem 0}
+
+/* Inline editorial navigation, distinct from scientific footnotes. */
+.article-cross-reference{color:var(--accent-deep);text-decoration:underline;text-decoration-thickness:1px;text-underline-offset:.18em;font-weight:600;overflow-wrap:anywhere}.article-cross-reference:focus-visible{outline:2px solid var(--accent-deep);outline-offset:3px;border-radius:2px}

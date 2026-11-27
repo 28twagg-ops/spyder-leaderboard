@@ -1,3 +1,4 @@
+import {ArticleCrossReferences} from '../components/ArticleCrossReferences'
 import { Glyph } from '../components/Glyph'
 import { plainReading } from '../data/plainReading'
 import { readingOverview, textbookLinks } from '../data/readingOverviews'
@@ -43,7 +44,7 @@ export function ResearchPage() {
   const plain=plainReading(article.id)
   const emergencyTopic=article.priority==='urgent'
   const urgent=emergencyTopic||article.high_risk===true
-  const why=purpose&&<section className="reader-purpose-block"><h2 className="section-title">Why it matters</h2><p className="reader-purpose">{purpose.why}</p></section>
+  const why=purpose&&<section className="reader-purpose-block"><h2 className="section-title">Why it matters</h2><p className="reader-purpose"><ArticleCrossReferences text={purpose.why}/></p></section>
 
   return (
     <div key={article.id} className="stack-lg reader-page">
@@ -68,14 +69,14 @@ export function ResearchPage() {
 
       {urgent&&why}
       <TopicOverview key={article.id} id={article.id} visuals={visuals} compact>
-        {plain&&<RememberedReadingDetails articleId={article.id}><p>{plain.detail}</p><Link className="topic-link" to={{hash:"#research-details"}}>Explore the science ›</Link></RememberedReadingDetails>}
+        {plain&&<RememberedReadingDetails articleId={article.id}><p><ArticleCrossReferences text={plain.detail}/></p><Link className="topic-link" to={{hash:"#research-details"}}>Explore the science ›</Link></RememberedReadingDetails>}
       </TopicOverview>
       {externalVisuals.length>0&&<a className="ref-row editorial-reading-row" href={safeVisualUrl(externalVisuals[0][1])} target="_blank" rel="noreferrer"><span className="ref-row-icon"><Glyph name="image"/></span><span><strong>{externalVisuals[0][0]}</strong><small>{externalVisuals[0][2]} · original reference</small></span><span aria-hidden="true">↗</span></a>}
       <div id="research-details"><WeekDisclosure id={'library/'+article.id+'/sources'} title="Studies & references">
         {!urgent&&<section className="research-group"><h3>Topic-specific safety</h3><p>{plain?.safety??article.visible_safety}</p>{plain&&plain.safety!==article.visible_safety&&<p>{article.visible_safety}</p>}</section>}
         <section className="research-group"><h3>Archived AI summary for comparison</h3>
         <p>This is a draft, not medical advice. Experts still need to check the studies and the health information.</p>
-        <p>{article.quick_answer}</p><p className="muted">{article.learn_more}</p>
+        <p><ArticleCrossReferences text={article.quick_answer}/></p><p className="muted"><ArticleCrossReferences text={article.learn_more}/></p>
       </section>
 
       {relatedActions.length>0&&<section className="research-group">
@@ -89,7 +90,7 @@ export function ResearchPage() {
               <div className="section-label">{editorialPriorityLabel(action.priority)}</div>
               <strong style={{ display: 'block', marginTop: '0.35rem' }}>{action.what}</strong>
               <div className="muted" style={{ marginTop: '0.25rem', fontSize: '0.9rem' }}>
-                {action.why}
+                <ArticleCrossReferences text={action.why}/>
               </div>
               <div className="muted" style={{ marginTop: '0.25rem', fontSize: '0.85rem' }}>
                 {action.visible_safety}
@@ -107,7 +108,7 @@ export function ResearchPage() {
             <li key={faq.id}>
               <strong>{faq.question}</strong>
               <div className="muted" style={{ marginTop: '0.25rem' }}>
-                {faq.short_answer}
+                <ArticleCrossReferences text={faq.short_answer}/>
               </div>
               {faq.visible_safety && (
                 <p className="muted" style={{ margin: '0.25rem 0 0', fontSize: '0.85rem' }}>
