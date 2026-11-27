@@ -1,11 +1,18 @@
-# Plain-language and comprehension standard
+# Clarity-first writing and comprehension standard
 
-Owner direction, 2026-11-27: revised owner direction: use a mature, accessible grade 7–9 reading level, rather than the earlier grade 5–6 target. Adults are the intended audience, not children. Keep mature Morning Stone design; reading grade describes language complexity, not a user's age or ability.
+Latest owner direction, 2026-11-27: **No fixed reading-grade target.** Write for the average adult, so the point is easy to understand quickly without medical training. Supersedes both earlier grade 5–6 and grade 7–9 requirements. Keep a mature, respectful voice and the existing Morning Stone design.
 
-- Level 1: target US grades 7–9 for everyday explanations and article relevance. Short navigation labels and urgent safety instructions may be easier; never make them harder to hit a score. Prefer short active sentences, familiar words and a visual that explains the concept. Explain needed medical terms on first use. No infantilizing language.
-- Level 2: target grades 7–9 for optional explanations, using familiar medical terms with brief definitions where needed. Use plain words before technical terms. Retain uncertainty, risks, population limits, exact clinically important thresholds and source context; do not simplify away qualifiers.
-- Level 3: original study language, numerical records, funding, research methods and original archive remain intact. Optional and clearly separated. Never promote archived AI material into medical guidance; existing release locks and independent clinical appraisal remain mandatory.
-- Safety: prioritize accurate and immediate safety language over numerical readability goals. Keep original safety notes available. Do not use readability scores to establish medical accuracy or proof of comprehension.
-- Verification: report approximate Flesch–Kincaid grade using the same heuristic across revisions. Aggregate scores can hide difficult individual items; target an upper aggregate grade of 9, flag individual dense passages for editorial review, and avoid mechanical minimum scores or unnecessary jargon; human comprehension tests must check individual pages, technical terms, uncertainty and urgent actions. Target understanding the point in 10–15 seconds as a future usability measure, not a demonstrated outcome.
-- Do not alter reference artwork, typography or theme to meet a reading score. Use visual learning standard and approved assets; no automatic third-party image loading.
-- Scope of current implementation: all 52 article purpose statements, concept labels, visible safety restatements and optional plain-language draft explanations; all 28 phase labels and safety notes and 40 week descriptions; shared disclaimer/urgent copy. Exact original archive and research data remain. Technical titles, raw FAQs/actions, source records and evidence views remain unchanged unless separately reviewed. This is an editorial draft, not clinical approval.
+## Reading layers
+1. At a glance: a brief, useful explanation of what the topic is and why it matters, paired with an accurate, meaningful visual when useful. Put essential information first and avoid filler, repeated introductory phrasing, jargon and unnecessarily long scrolling. In the current research-only preview, do not promote unreviewed research into medical guidance.
+2. Read more: optional, naturally written explanations of mechanisms, context, findings and limitations. Use familiar medical terms with a short definition at first use; do not remove precision or uncertainty for simplicity. Use short paragraphs and descriptive headings. Do not force a particular length or artificially raise or lower language complexity.
+3. Explore the evidence: retain original studies, statistics, funding, methodology, references and archived wording. Keep this deeper layer available without requiring every reader to read it. Publication locks and independent qualified clinical review remain mandatory.
+
+## Acceptance criteria
+- A typical adult can quickly tell what the page is about and why it is relevant, and can locate deeper information without searching through long text.
+- Text and meaningful visuals explain the same concept. Avoid decorative visuals that substitute for explanation.
+- Clear, direct urgent safety instructions stay readily visible; preserve all exact thresholds, exceptions, uncertainty and original safety notes. Do not reduce accuracy to meet a readability metric.
+- Readability scores may be recorded as diagnostic signals, but no numerical grade target, minimum, maximum or score-based acceptance gate is required. Never rewrite naturally clear text merely to change a score.
+- Use actual comprehension and navigation testing: ask novice users to explain the main point in their own words, locate more detail and identify the relevant safety limitations. Record time, errors and confusion; quick understanding is a goal, not a demonstrated outcome. Independent reviewers and clinical review remain separate requirements.
+- Preserve source archives, existing evidence restrictions, privacy, theme and navigation. No new third-party imagery without exact rights and approval.
+
+Existing article, phase and week restatements remain editorial drafts pending review. Raw FAQs, actions and source records remain intact.

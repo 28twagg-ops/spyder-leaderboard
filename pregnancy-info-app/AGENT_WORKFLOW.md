@@ -2,7 +2,7 @@
 Owner directive 2026-11-27. Applies to all models, Cursor, ChatGPT, and other workers. This is an operational contract, not a claim that any particular tool supports multi-agent execution.
 
 ## Required first-read order
-1. START_HERE.md and this document; then COMPLETION_CHECKLIST.md and design/VISUAL_ACCEPTANCE_STANDARD.md.
+1. START_HERE.md and this document; then COMPLETION_CHECKLIST.md, design/VISUAL_ACCEPTANCE_STANDARD.md, design/VISUAL_LEARNING_STANDARD.md and design/PLAIN_LANGUAGE_STANDARD.md (clarity-first; no fixed reading grade).
 2. CURSOR_USAGE_STRATEGY.md, DESIGN_SYSTEM.md, PLATFORM_REQUIREMENTS.md, MEDICAL_SAFETY.md, PRIVACY.md, research/INDEPENDENT_EVIDENCE_REVIEW.md, and publication gate.
 3. Inspect both main and everwell-iphone-preview, compare heads and current deployment, read existing handoffs and open checklist items. Main holds research and governance; preview currently contains newer app code. Do not reset preview to main, overwrite either branch, or touch unrelated SPYDER. Integrate intentionally, review conflicts, no force push.
 4. Read the actual reference images and latest owner feedback; do not invent fidelity from a description. Audit actual model availability, included usage, reset and budget per CURSOR_USAGE_STRATEGY.md. Protect 10% of remaining included allowance, no extra paid work without explicit approval. If unavailable, record limitation and request owner snapshot as required by that policy.
