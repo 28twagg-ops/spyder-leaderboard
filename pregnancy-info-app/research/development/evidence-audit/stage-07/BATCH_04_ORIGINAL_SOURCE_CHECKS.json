@@ -1,0 +1,213 @@
+{
+  "stage": 7,
+  "batch": "04",
+  "date": "2026-11-27",
+  "scope": "Selected fresh original publisher/registry checks and source-specific limitations; not full appraisal. Four previous integrity notices independently rechecked and retained.",
+  "counted_ids": [
+    "S092",
+    "P5-05",
+    "S093",
+    "P5-06",
+    "S094",
+    "P5-11",
+    "PED-PROBIT",
+    "P2-02",
+    "PED-BEEP",
+    "I1-B01-001",
+    "TH2-001",
+    "CS5-001",
+    "UP4-001",
+    "MED3-001",
+    "MED3-B02-001"
+  ],
+  "checks": [
+    {
+      "ids": [
+        "S092",
+        "P5-05"
+      ],
+      "identity": "Same Cochrane review update, DOI 10.1002/14651858.CD001059.pub6; PMID 41330480. Use versioned DOI rather than changing plain-language page.",
+      "sources": [
+        "https://doi.org/10.1002/14651858.CD001059.pub6",
+        "https://pubmed.ncbi.nlm.nih.gov/41330480/"
+      ],
+      "design": "Review of randomized trials; assessed RoB 2 and trustworthiness.",
+      "outcome": "Preeclampsia RR 0.83 (95% CI 0.67–1.04), 6 RCTs, 15364 women, low certainty.",
+      "contradiction": "Compare previous review versions and commentary; inclusion changed. Do not infer calcium adequacy irrelevant or change indicated care.",
+      "funding": "Review and contributing trials not newly extracted.",
+      "applicability": "EV-ART-009; C-NUTR-001; outcome-specific review, not clinical recommendation."
+    },
+    {
+      "ids": [
+        "S093",
+        "P5-06"
+      ],
+      "identity": "Same commentary DOI 10.1186/s12978-026-02395-w; PMID 42374462; PMC13312738.",
+      "sources": [
+        "https://link.springer.com/article/10.1186/s12978-026-02395-w",
+        "https://pubmed.ncbi.nlm.nih.gov/42374462/"
+      ],
+      "design": "Commentary, not independent efficacy trial.",
+      "funding": "Publisher states no specific grant.",
+      "interests": "Earlier Cochrane review authorship disclosed; intellectual stake, not proof of bias.",
+      "outcome": "Challenges eligibility/trustworthiness exclusions; needs independent adjudication and sensitivity analysis.",
+      "applicability": "EV-ART-009; explain uncertainty, not another efficacy study."
+    },
+    {
+      "ids": [
+        "S094",
+        "P5-11"
+      ],
+      "identity": "Translated/English pages of Cochrane review CD009951.pub3; PMID 33870484.",
+      "sources": [
+        "https://www.cochrane.org/evidence/CD009951_probiotics-prevent-gestational-diabetes-mellitus",
+        "https://pubmed.ncbi.nlm.nih.gov/33870484/"
+      ],
+      "design": "Randomized and cluster randomized prevention trials.",
+      "outcome": "Preeclampsia RR 1.85 (95% CI 1.04–3.29), 4 trials/955 women, review-rated high certainty.",
+      "funding": "Trial and review disclosures not fully extracted.",
+      "safety": "Preserve pregnancy prevention safety signal; not generalizable to all fermented foods, strains, populations or indications.",
+      "applicability": "EV-ART-009; C-NUTR-002; no automatic supplementation recommendation."
+    },
+    {
+      "ids": [
+        "PED-PROBIT",
+        "P2-02"
+      ],
+      "identity": "Distinct reports of same Belarus PROBIT cohort; 31 maternity hospitals, 17046 mother-infant pairs, randomized breastfeeding promotion rather than assigned milk type.",
+      "sources": [
+        "https://jamanetwork.com/journals/jama/fullarticle/193490",
+        "https://journals.plos.org/plosmedicine/article?id=10.1371/journal.pmed.1002554",
+        "https://pubmed.ncbi.nlm.nih.gov/23471837/"
+      ],
+      "design": "Cluster RCT and age-16 follow-up (13557 participants; 79.5%). Attrition, downstream exposure and outcome measurement important.",
+      "funding": "2018 report: CIHR MOP-53155 and NIH R01HD050758; institutional support.",
+      "interests": "2018 report discloses two NeuroTrax employees; instrument used in outcome assessment. Sponsor role and original trial disclosures need more review.",
+      "outcome": "Age-16 verbal function difference 1.4 points (95% CI 0.3–2.5); not broad cognitive benefit and not randomized breastfeeding vs formula.",
+      "applicability": "EV-ART-032; avoid duplicate cohort count and guilt-inducing causal claims."
+    },
+    {
+      "ids": [
+        "PED-BEEP"
+      ],
+      "identity": "BEEP trial, PMID 32087126; follow-up/report PMC11261424 is related cohort.",
+      "sources": [
+        "https://pubmed.ncbi.nlm.nih.gov/32087126/",
+        "https://pmc.ncbi.nlm.nih.gov/articles/PMC11261424/"
+      ],
+      "funding": "NIHR Health Technology Assessment in trial abstract; full commercial/in-kind and sponsor role pending.",
+      "design": "High-risk term infants; specified emollients; pragmatic randomized trial; outcome data 1210/1394.",
+      "outcome": "Eczema at age 2: 139/598 vs 150/612, adjusted RR 0.95 (95% CI 0.78–1.16).",
+      "safety": "No clear prevention benefit; review adverse events and distinguish treatment of diagnosed eczema.",
+      "applicability": "EV-ART-052; prevention only; no product efficacy guarantee."
+    },
+    {
+      "ids": [
+        "I1-B01-001"
+      ],
+      "sources": [
+        "https://pubmed.ncbi.nlm.nih.gov/12055537/",
+        "https://pubmed.ncbi.nlm.nih.gov/17567299/"
+      ],
+      "identity": "Casablanca pregnancy sunscreen survey; title and setting checked.",
+      "design": "Observational survey; not randomized prevention trial; later product study requires concurrent comparator assessment.",
+      "outcome": "Survey reported existing melasma in 37% and sunscreen use in 17% at entry. No causal prevention estimate.",
+      "funding": "Not in inspected excerpt.",
+      "applicability": "Skin pigmentation context; historical comparator not independent controlled evidence."
+    },
+    {
+      "ids": [
+        "TH2-001"
+      ],
+      "sources": [
+        "https://link.springer.com/article/10.1186/s12905-024-03205-w",
+        "https://pubmed.ncbi.nlm.nih.gov/38886787/"
+      ],
+      "identity": "Uganda cross-sectional ethnobotanical survey, 206 respondents, PMID 38886787.",
+      "funding": "UNESCO and Canada's International Development Research Centre grant 4500476471.",
+      "interests": "Authors declare no competing interests; declaration not independently certified.",
+      "design": "Reported practices and beliefs, not treatment efficacy or safety; sampling/recall bias; clinical outcomes not tested.",
+      "safety": "Do not reproduce protocols for labor induction, hemorrhage or abortion; no delayed emergency care.",
+      "applicability": "Cultural and access-to-care context only."
+    },
+    {
+      "ids": [
+        "CS5-001"
+      ],
+      "sources": [
+        "https://pubmed.ncbi.nlm.nih.gov/30005170/"
+      ],
+      "identity": "2019 Mother's Milk tea safety RCT DOI 10.1177/0890334418787474.",
+      "funding": "Original cash/in-kind funding not in checked abstract.",
+      "interests": "One author affiliated with Traditional Medicinals (product manufacturer); original full financial disclosure and sponsor role pending.",
+      "design": "60 healthy fully breastfeeding mothers without insufficiency; double-blind, self-reported symptoms, small sample.",
+      "outcome": "No attributable adverse effects detected; cannot establish absence of rare harms or milk-supply efficacy.",
+      "applicability": "Product-specific lactation safety research only; no routine recommendation."
+    },
+    {
+      "ids": [
+        "UP4-001"
+      ],
+      "sources": [
+        "https://etheses.whiterose.ac.uk/id/eprint/36044/"
+      ],
+      "identity": "Lydia Beatrice Munns, 2024 University of York PhD thesis.",
+      "design": "Cross-sectional and longitudinal network analysis, separate systematic review of yoga; do not combine as one trial or infer causality.",
+      "funding": "Thesis acknowledgments not checked; publication overlap pending.",
+      "rights": "Repository specifies CC BY-NC 4.0 for thesis; no commercial reuse absent additional permission.",
+      "applicability": "Perinatal body experience and mental health contextual evidence; no efficacy claim."
+    },
+    {
+      "ids": [
+        "MED3-001"
+      ],
+      "sources": [
+        "https://evidencebasedbirth.com/ebb-418-evidence-on-natural-labor-induction-castor-oil-and-eating-dates/",
+        "https://www.nice.org.uk/guidance/ng207/chapter/recommendations"
+      ],
+      "identity": "Publisher episode 418 and transcript/chapters checked; audio not independently reviewed.",
+      "claim": "Publisher discusses possible induction effects and uncertainties; original studies not fully traced here.",
+      "commercial": "Childbirth education publisher; episode-specific sponsorship and revenue unresolved.",
+      "safety": "No unsupervised induction protocol or guidance to delay clinical care.",
+      "applicability": "Editorial comparison only; not independent study."
+    },
+    {
+      "ids": [
+        "MED3-B02-001"
+      ],
+      "sources": [
+        "https://www.radiopodcast.unam.mx/podcast/audio/46746"
+      ],
+      "identity": "Spanish-language Radio UNAM episode on fourth trimester; producer and original-language summary checked.",
+      "claim": "Summary covers physiological/psychological change, warning signs, sexual health, autonomy and support networks; no full audio or claim trace.",
+      "funding": "University broadcaster, production funding unresolved.",
+      "safety": "Postpartum emergency warning information must be separately clinically verified.",
+      "applicability": "Context; link only, no audio redistribution."
+    }
+  ],
+  "integrity_rechecks": [
+    {
+      "pmid": "37073619",
+      "notice": "https://pubmed.ncbi.nlm.nih.gov/37553823/",
+      "status": "retracted"
+    },
+    {
+      "pmid": "24132976",
+      "notice": "https://pubmed.ncbi.nlm.nih.gov/33966084/",
+      "status": "retracted"
+    },
+    {
+      "pmid": "30459099",
+      "notice": "https://pubmed.ncbi.nlm.nih.gov/40849194/",
+      "status": "retracted"
+    },
+    {
+      "pmid": "25372774",
+      "notice": "https://pubmed.ncbi.nlm.nih.gov/40648094/",
+      "status": "note of concern; continue hold"
+    }
+  ],
+  "clinical_review": false,
+  "publish": false,
+  "automation_allowed": false
+}
