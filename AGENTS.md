@@ -1,3 +1,5 @@
+> **First action for Everwell (owner update 2026-11-26):** Read pregnancy-info-app/CURSOR_USAGE_STRATEGY.md. Start with Auto as orchestrator, audit actual remaining included usage and available models, then plan and dynamically delegate to named models/subagents where supported. Cap cumulative work at 90% of starting remaining allowance in each current-cycle pool, protect 10%, include in-flight usage, and do not spend extra or assume a model switch succeeded. If telemetry is inaccessible, ask for one owner snapshot before substantive work. This overrides older model-routing/reserve language; independent scientific and safety requirements remain mandatory.
+
 # Agent entry point — Everwell (pregnancy-info-app)
 
 If assigned to Everwell or pregnancy research, **read these in order before any work**:
