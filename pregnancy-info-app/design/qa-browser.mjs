@@ -86,7 +86,24 @@ try{
     const prefs=await page.evaluate(()=>JSON.parse(localStorage.getItem('everwell.local.prefs.v1')||'{}'))
     assert.equal(prefs.selectedPhaseId,'PRE04')
    })
-   for(const [label,path] of routes){await open(page,path);await shot(page,label,size)}
+   for(const [label,path] of routes){
+    await open(page,path);await shot(page,label,size)
+    if(label==='week-22'){
+     await check('Week 22 mother/baby first screen '+size.width+'x'+size.height,async()=>{
+      const group=page.getByRole('group',{name:'Whose changes are shown?'})
+      for(const [subject,heading] of [['Mother','Your skin is stretching'],['Baby','A fine layer of hair']]){
+       await group.getByRole('button',{name:new RegExp(subject)}).click()
+       await page.getByRole('heading',{name:heading}).waitFor()
+       await page.evaluate(()=>window.scrollTo(0,0))
+       await shot(page,'week22-'+subject.toLowerCase(),size)
+       if(size.width===390&&size.height>=700){
+        const m=await page.evaluate(()=>({text:document.querySelector('.pilot-concept-text>p').getBoundingClientRect().bottom,nav:document.querySelector('.bottom-nav').getBoundingClientRect().top}))
+        assert.ok(m.text<=m.nav+1,'The primary explanation is below navigation')
+       }
+      }
+     })
+    }
+   }
    if(size.width===390&&size.height===844){
     await check('search result and contextual Back',async()=>{
      await open(page,'/library');await page.getByLabel('Search articles').fill('morning sickness')
@@ -114,6 +131,11 @@ try{
     await check('Week 22 pilot concept and reference return',async()=>{
      await open(page,'/timeline/week/22')
      await page.getByRole('button',{name:'Movement',exact:true}).click()
+     await page.getByRole('heading',{name:'Muscles are developing'}).waitFor()
+     const subject=page.getByRole('group',{name:'Whose changes are shown?'})
+     await subject.getByRole('button',{name:/Mother/}).click()
+     await page.getByRole('heading',{name:'You may feel your baby move'}).waitFor()
+     await subject.getByRole('button',{name:/Baby/}).click()
      await page.getByRole('heading',{name:'Muscles are developing'}).waitFor()
      await shot(page,'week22-movement',size)
      await page.getByRole('link',{name:/Explore the placenta/}).click()

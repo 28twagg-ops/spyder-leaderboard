@@ -13,3 +13,5 @@ The script is an unexecuted QA candidate in this chat because the local environm
 The runner now includes the urgent infant reader and separate optional reading layer, and checks that the archive stays collapsed. These added checks still require an actual local run. The main checklist is authoritative for verified evidence, not the existence of a QA script.
 
 The local server mirrors committed preview response headers, including CSP. Week 22 pilot adds an interactive concept/reference-return check. These scripts still require execution and inspection on the PC; do not claim browser or owner acceptance from jsdom.
+
+Latest Week 22 acceptance: use actual built app, switch Mother/Baby for each topic and check labels and illustration before reading details. Both first-screen variants should show their primary explanation above fixed navigation at 390×700 and 390×844; shorter screens may scroll. These newly added QA checks have not yet run on the actual built app. The isolated layout fixture passed that measured fit target but is not deployment evidence.

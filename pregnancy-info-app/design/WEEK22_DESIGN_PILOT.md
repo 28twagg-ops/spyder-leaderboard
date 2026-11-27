@@ -19,3 +19,11 @@ All new diagrams are conceptual and original, not clinical anatomical figures. S
 
 ## Acceptance
 Open the actual page and compare with a neighboring week. Can a reader identify the main point immediately? Is the visual useful? Can they switch topics and return from a reference? Is the deeper reading clearly optional? Check phone width, scrolling, contrast, enlarged type, all four themes and urgent safety access. Owner preference decides whether to extend the design. Do not replace all 40 weeks on the strength of one software test. No paid sandbox or independent agents used. Actual visual fidelity not verified in chat.
+
+
+## Owner feedback and revised pilot — latest direction
+Owner liked the compact chat visual, not the first actual application layout. The original visual must be the organizing focus; remove the long introductory card and repetitive headings. Clearly distinguish Mother (your body) and Baby (development) at the top. Preserve the same chosen topic when switching subjects, with separately written explanations and distinct labeled diagrams. Keep Morning Stone, real navigation, optional depth and readily visible draft/safety context. Do not imply a concept diagram is clinical anatomy. Other weeks remain unchanged until owner acceptance.
+
+Additional references checked: NHS stretch marks https://www.nhs.uk/pregnancy/common-symptoms/stretch-marks/ ; NHS baby movements https://www.nhs.uk/pregnancy/keeping-well/your-babys-movements/ ; NHS week 22 (digestive symptoms). Reduced, absent or changed usual fetal movement requires immediate contact with the maternity team. No UK-specific care schedule imported.
+
+Local Chromium layout fixture (not the deployed React app): rendered matched first-screen markup/pilot CSS using fonts/theme from prior portable app snapshot. No horizontal overflow at 320×640, 390×700, 390×844 or 430×932. Mother/Baby controls 48px; topic controls 44px. On both views, 390×700 visual top ~308px, visual bottom ~458px, explanation bottom ~562px, navigation top 602px. 390×844 explanation bottom ~600px, nav top 746px. At 320×640 some explanation requires scroll. Actual authenticated preview, all interactions, iPhone and independent review remain unverified. Fixture measurements cannot certify visual fidelity. Do not confuse a standalone design fixture with a full application screenshot.
