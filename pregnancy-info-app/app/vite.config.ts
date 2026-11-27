@@ -7,7 +7,9 @@ export default defineConfig({
   plugins: [
     react(),
     VitePWA({
-      registerType: 'prompt',
+      // The app registers explicitly to check for updates whenever it returns to the foreground.
+      registerType: 'autoUpdate',
+      injectRegister: null,
       includeAssets: ['everwell-mark-v2.svg', 'everwell-apple-v2.png'],
       manifest: {
         name: 'Everwell',
@@ -40,6 +42,9 @@ export default defineConfig({
         ],
       },
       workbox: {
+        skipWaiting: true,
+        clientsClaim: true,
+        cleanupOutdatedCaches: true,
         navigateFallback: '/index.html',
         globPatterns: ['**/*.{js,css,html,svg,png,ico,json,woff2}'],
       },

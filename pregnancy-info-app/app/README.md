@@ -30,3 +30,11 @@ If you are developing a production application, we recommend enabling type-aware
 ```
 
 See the [Oxlint rules documentation](https://oxc.rs/docs/guide/usage/linter/rules) for the full list of rules and categories.
+
+## Installed preview updates
+
+Use the stable branch preview URL: https://everwell-iphone-test-git-everwell-iphone-preview-28twagg-9796.vercel.app . Individual deployment URLs are immutable snapshots and cannot receive subsequent branch releases.
+
+The production app explicitly registers `/sw.js` with `updateViaCache: 'none'`; Workbox precaches the complete version and activates/claims clients when ready. Update checks run on launch, foreground return, pageshow, reconnect, and every five minutes while visible. Controller changes refresh a visible client once, deferring for the date editor or active input. A first install does not trigger an unnecessary reload. Failures retain the last working cached app; no personal preferences, bookmarks, dates or search history are transmitted or cleared by the update code. The standalone portable HTML build does not register a worker.
+
+Acceptance: deploy two consecutive successful builds to the stable protected branch preview; install the first on iPhone, save test preferences, background/reopen online after the second is ready, and verify the new interface and unchanged preferences. Check offline launch, reconnection, editor deferral, and initial install. Existing legacy workers may need a one-time close/reopen or refresh; the Home Screen icon may require reinstall separately. No update can expose an unbuilt/failed commit. Do not delete the existing app merely to update content.
