@@ -8,15 +8,15 @@ afterEach(()=>{cleanup();localStorage.clear()})
 const view=(path:string)=>render(<MemoryRouter initialEntries={[path]}><App/></MemoryRouter>)
 const root='/timeline/week/22/mother/skin'
 describe('week 22 visual directory',()=>{
- it('shows six distinct subject topics and no long article on the week overview',()=>{
+ it('shows eight distinct visual topics per subject',()=>{
   view('/timeline/week/22')
   expect(screen.getByRole('heading',{name:'Week 22'})).toBeVisible()
   const nav=screen.getByRole('navigation',{name:'Development topics'})
-  expect(within(nav).getAllByRole('link')).toHaveLength(6)
+  expect(within(nav).getAllByRole('link')).toHaveLength(8)
   expect(within(nav).getByRole('link',{name:/Placenta/})).toBeVisible()
   const subject=screen.getByRole('group',{name:'Whose changes are shown?'})
   fireEvent.click(within(subject).getByRole('button',{name:/Mother/}))
-  expect(within(nav).getAllByRole('link')).toHaveLength(6)
+  expect(within(nav).getAllByRole('link')).toHaveLength(8)
   expect(within(nav).getByRole('link',{name:/Skin.*Stretch marks/})).toHaveAttribute('href',root)
   expect(within(nav).queryByRole('link',{name:/Placenta/})).not.toBeInTheDocument()
   expect(localStorage.length).toBe(0)
@@ -53,10 +53,13 @@ describe('week 22 visual directory',()=>{
   fireEvent.click(screen.getByRole('button',{name:'Back'}))
   expect(await screen.findByRole('heading',{name:'Muscles are developing'})).toBeVisible()
  })
- it('does not apply the pilot to adjacent weeks',async()=>{
+ it('applies the pilot to week 23 only, not week 24',async()=>{
   view('/timeline/week/22')
   fireEvent.click(screen.getByRole('link',{name:'Next'}))
   expect(await screen.findByRole('heading',{name:'Week 23'})).toBeVisible()
+  expect(screen.getByRole('navigation',{name:'Development topics'})).toBeVisible()
+  fireEvent.click(screen.getByRole('link',{name:'Next'}))
+  expect(await screen.findByRole('heading',{name:'Week 24'})).toBeVisible()
   expect(screen.queryByRole('navigation',{name:'Development topics'})).not.toBeInTheDocument()
  })
  it('maps all 111 source IDs and 18 outcomes without enabling held evidence',()=>{

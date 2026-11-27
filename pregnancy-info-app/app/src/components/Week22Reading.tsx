@@ -1,10 +1,11 @@
-import {Link} from 'react-router-dom'
+import {Link,useLocation} from 'react-router-dom'
 import type {ReactNode} from 'react'
 import {useViewState} from '../hooks/useViewMemory'
-const week22Base='/timeline/week/22'
+export function usePilotWeek(){return useLocation().pathname.startsWith('/timeline/week/23')?23:22}
 type Crumb={label:string;to:string}
 export function WeekContext({subject,topic,section}:{subject:'mother'|'baby';topic?:Crumb;section?:Crumb}){
- return <nav className="week-context" aria-label="Week 22 context"><Link to={week22Base+'?subject='+subject}>Week 22 · {subject==='mother'?'Mother':'Baby'}</Link>{topic&&<><span aria-hidden="true">/</span><Link to={topic.to} aria-label={'All '+topic.label+' topics'}>{topic.label}</Link></>}{section&&<><span aria-hidden="true">/</span><Link to={section.to} aria-label={'All '+section.label+' readings'}>{section.label}</Link></>}</nav>
+ const week=usePilotWeek(),week22Base='/timeline/week/'+week
+ return <nav className="week-context" aria-label={'Week '+week+' context'}><Link to={week22Base+'?subject='+subject}>Week {week} · {subject==='mother'?'Mother':'Baby'}</Link>{topic&&<><span aria-hidden="true">/</span><Link to={topic.to} aria-label={'All '+topic.label+' topics'}>{topic.label}</Link></>}{section&&<><span aria-hidden="true">/</span><Link to={section.to} aria-label={'All '+section.label+' readings'}>{section.label}</Link></>}</nav>
 }
 export function WeekDisclosure({id,title,children}:{id:string;title:string;children:ReactNode}){
  const [open,setOpen]=useViewState('week22.reading.'+id,false)
@@ -38,6 +39,7 @@ const connections:Record<string,Connection[]> = {
  'mother/skin/comfort/dryness-itching-and-skin-changes':[{title:'Creams and moisturizers',context:'Mother · Skin · Prevention',to:'mother/skin/prevention/creams-and-moisturizers'}],
 }
 export function WeekConnections({id}:{id:string}){
+ const week22Base='/timeline/week/'+usePilotWeek()
  const items=connections[id]??[]
  if(!items.length)return null
  return <section className="week-connections" aria-label="Connected topics"><h2 className="section-title">Connected topics</h2>{items.map(item=><Link key={item.to} to={week22Base+'/'+item.to}><span><small>{item.context}</small><strong>{item.title}</strong></span><span aria-hidden="true">›</span></Link>)}</section>

@@ -2,16 +2,16 @@ import { Link,useParams } from 'react-router-dom'
 import {ScreenHeading,ReadingRow} from '../components/ReadingUI'
 import {EditorialReadingRow} from '../components/EditorialArticle'
 import {plainReading} from '../data/plainReading'
-import {WeekContext,WeekConnections,WeekDisclosure} from '../components/Week22Reading'
+import {WeekContext,WeekConnections,WeekDisclosure,usePilotWeek} from '../components/Week22Reading'
 import {DraftBanner} from '../components/DraftBanner'
-import {TopicArt} from './Week22Pilot'
+import {DirectoryArt} from './Week22Pilot'
 import {Footnote,SourceDisclosure,NumericRecords} from './SkinTopicPage'
 import {getArticle,gestationalWeeks} from '../data/researchCatalog'
 import {hasEvidenceHold,outcomes} from '../data/evidenceCatalog'
 import {sourceAliasHeld} from '../data/skinTopicMap'
 import {getVisual} from '../data/visualCatalog'
 import {week22Topics} from '../data/week22TopicMap'
-const base='/timeline/week/22'
+
 
 // Editorial explanations of the existing topic map and draft research, not new clinical guidance.
 const topicReading:Record<string,string>={
@@ -71,19 +71,21 @@ function StudyComparison({id}:{id:string}){
 }
 export function Week22TopicPage(){
  const {subject,topic,subtopic}=useParams()
+ const weekNumber=usePilotWeek(),base='/timeline/week/'+weekNumber
  const t=week22Topics.find(x=>x.subject===subject&&x.id===topic)
  const c=t?.children.find(x=>x.id===subtopic)
+ if(subject==='baby'&&topic==='growth'&&(subtopic==='lungs'||subtopic==='blood'))return <DevelopmentReading kind={subtopic} week={weekNumber}/>
  if(!t||(subtopic&&!c))return <div className="stack"><ScreenHeading title="Topic not found" back={base}/></div>
  const path=base+'/'+t.subject+'/'+t.id
  const readingId=t.subject+'/'+t.id+(c?'/'+c.id:'')
- const week=gestationalWeeks.find(x=>x.week===22)
+ const week=gestationalWeeks.find(x=>x.week===weekNumber)
  return <div className="pilot-week skin-page">
- <ScreenHeading title={c?.title??t.title} subtitle={(t.subject==='mother'?'Mother':'Baby')+' · Week 22'} back={c?path:base+'?subject='+t.subject} backLabel={c?t.title:'Week 22'}/>
+ <ScreenHeading title={c?.title??t.title} subtitle={(t.subject==='mother'?'Mother':'Baby')+' · Week '+weekNumber} back={c?path:base+'?subject='+t.subject} backLabel={c?t.title:'Week '+weekNumber}/>
  <WeekContext subject={t.subject==='mother'?'mother':'baby'} topic={c?{label:t.title,to:path}:undefined}/>
- <div className="pilot-visual"><TopicArt subject={t.subject==='mother'?'mother':'baby'} topic={t.id}/></div>
- <p className="skin-lede">{c?.summary??t.summary} <Footnote id={t.source_id} n={1}/></p><small className="muted">Concept illustration · Research draft</small>
- {!c?<><h2 className="section-title">Read about it</h2><div className="ref-rows">{t.children.map((item,index)=><EditorialReadingRow key={item.id} index={index} to={path+'/'+item.id} title={item.title} subtitle={item.summary}/>)}</div>{t.subject==='baby'&&<details className="panel disclosure"><summary>Original week description</summary><p>{week?.description}</p><p>{week?.interpretation}</p><Footnote id="PED-GESTATION" n={1}/></details>}</>:<>
- {topicReading[readingId]&&<p className="skin-lede">{topicReading[readingId]}</p>}
+ <div className="pilot-visual week-article-visual"><DirectoryArt subject={t.subject==='mother'?'mother':'baby'} kind={c?.id==='brain-nutrients'?'brain':c?.id==='circulation'?'blood':c?.id==='home-work'||c?.id==='plastics-water'||c?.id==='air-heat'?'environment':t.id}/></div>
+ <p className="skin-lede">{c?.summary??t.summary} <Footnote id={c?.source_ids[0]??t.source_id} n={1}/></p><small className="muted">Concept illustration · Research draft</small>{weekNumber===23&&<p className="small-copy muted">Shared second-trimester reading, not an exact week-23 milestone.</p>}
+ {!c?<><h2 className="section-title">Read about it</h2><div className="ref-rows">{t.children.map((item,index)=><EditorialReadingRow key={item.id} index={index} to={path+'/'+item.id} title={item.title} subtitle={item.summary}/>)}</div>{t.subject==='baby'&&t.id==='growth'&&<><ReadingRow to={path+'/lungs'} title="Developing airways"/><ReadingRow to={path+'/blood'} title="Blood-cell formation"/></>}{t.subject==='baby'&&<details className="panel disclosure"><summary>Original week description</summary><p>{week?.description}</p><p>{week?.interpretation}</p><Footnote id="PED-GESTATION" n={1}/></details>}</>:<>
+ <article className="week-editorial-reading"><h2>Understanding the connection</h2>{topicReading[readingId]&&<p>{topicReading[readingId]} <Footnote id={c.source_ids[0]??t.source_id} n={1}/></p>}{c.visual_ids.length>0&&<div className="week-inline-reference"><h3>See the original illustration</h3><ReadingRow to={'/visuals/'+c.visual_ids[0]} title="View the original anatomical reference" subtitle="Scientific reference · opens original source page"/></div>}{t.subject==='mother'&&c.article_ids[0]&&(()=>{const a=getArticle(c.article_ids[0]),plain=plainReading(c.article_ids[0]);return a&&plain?<section><h2>What the broader research found</h2><p>{plain.detail}</p><p className="small-copy muted">Related research: {a.source_ids.map((id,i)=><Footnote key={id} id={id} n={i+2}/>)}</p></section>:null})()}</article>
  <StudyComparison id={c.id}/>
  {c.note&&<p className="skin-lede">{c.note}</p>}
  <WeekDisclosure id={readingId+'/read'} title="Read the full explanation"><p className="small-copy muted">Plain-language research drafts · medical review pending</p>{c.article_ids.map((id,index)=>{const a=getArticle(id);const plain=plainReading(id);return a?<section key={id} className="research-group"><h3>{a.title}</h3><p>{plain?.detail??a.quick_answer}</p><p className="small-copy muted">{a.visible_safety}</p><p className="small-copy muted">Related archive references: {a.source_ids.map((id,i)=><Footnote key={id} id={id} n={i+1}/>)}</p><EditorialReadingRow index={index} to={'/research/'+id} title="Read the broader research article" subtitle={a.title+' · opens library article'}/></section>:null})}</WeekDisclosure>
@@ -91,4 +93,10 @@ export function Week22TopicPage(){
  </>}
  <div className="pilot-safety"><strong>Safety comes first</strong><p>Contact your maternity care team immediately if usual baby movements slow, stop or change. Urgent signs override routine reading.</p><Link to="/urgent">Know the warning signs ›</Link></div><DraftBanner status="research_only"/>
  </div>
+}
+
+function DevelopmentReading({kind,week}:{kind:'lungs'|'blood';week:22|23}){
+ const base='/timeline/week/'+week,lung=kind==='lungs'
+ return <div className="pilot-week skin-page"><ScreenHeading title={lung?'How the lungs develop before birth':'How blood cells develop'} subtitle={'Baby · Week '+week} back={base+'?subject=baby'} backLabel={'Week '+week}/><WeekContext subject="baby" topic={{label:'Growth',to:base+'/baby/growth'}}/>
+ <div className="pilot-visual week-article-visual"><DirectoryArt subject="baby" kind={kind}/></div><article className="week-editorial-reading"><p className="skin-lede">{lung?'Before birth, developing airways form as part of lung maturation.':'Bone marrow becomes a site of blood-cell production during fetal development.'} <Footnote id="PED-GESTATION" n={1}/></p><p className="small-copy muted">Concept illustration · Reference describes weeks 23–25. {week===22?'Looking ahead, not a week-22 milestone.':'Development varies between individuals.'}</p><h2>{lung?'Why the placenta still matters':'Why maternal nutrition matters'}</h2><p>{lung?'The developing lungs are not yet responsible for oxygen exchange with air. The placenta supports exchange between mother and baby before birth. Developing airways do not establish readiness to breathe independently.':'Iron is needed to form hemoglobin, the protein in red blood cells that carries oxygen. Pregnancy increases iron needs, but the developmental window does not create a new supplement requirement at a particular week.'} <Footnote id={lung?'PED-FETUS':'P5-28'} n={2}/></p><h2>Continue exploring</h2><ReadingRow to={base+'/baby/placenta/'+(lung?'exchange':'circulation')} title={lung?'Oxygen & nutrient exchange':'Fetal circulation'}/><ReadingRow to={base+'/mother/nutrition/minerals'} title="Iron, calcium & vitamin D" subtitle="Nutrition and supplementation research"/><ReadingRow to="/research/EV-ART-014" title="Fetal development research"/></article><WeekDisclosure id={'development/'+week+'/'+kind} title="Studies & references"><SourceDisclosure ids={['PED-GESTATION','PED-FETUS','P5-28']}/></WeekDisclosure><div className="pilot-safety"><strong>Safety comes first</strong><p>Contact your maternity team immediately if usual baby movements slow, stop or change.</p><Link to="/urgent">Know the warning signs ›</Link></div><DraftBanner status="research_only"/></div>
 }

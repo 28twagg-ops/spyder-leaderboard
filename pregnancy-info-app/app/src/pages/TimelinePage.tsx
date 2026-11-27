@@ -13,81 +13,6 @@ import { featuredForPhase, gestationalWeeks, getArticle, getSource, timeline } f
 const phasePath=(p:typeof timeline[number])=>`/timeline/${p.track}/${p.id}`
 const weeks=[...gestationalWeeks].sort((a,b)=>a.week-b.week)
 
-/** Bounded adjacent-week experiment. Shared library articles are stage-wide, never relabeled as new week-specific evidence. */
-function Week23Chapter(){
- const week=gestationalWeeks.find(w=>w.week===23)!
- const source=getSource('PED-GESTATION')
- const nutrition=getSource('P5-28')
- const priorities=[
-  {title:'Iron, blood & prenatal nutrition',description:'Understand iron needs and the difference between meeting dietary requirements and adding a supplement.',article:'EV-ART-009'},
-  {title:'Movement & pelvic comfort',description:'Learn how activity, strength and individual symptoms relate to comfort in the second trimester.',article:'EV-ART-020'},
-  {title:'A check-in with your care team',description:'Explore prenatal visits, screening and questions to bring along.',article:'EV-ART-013'}
- ]
- const readings=[
-  {title:'Food & prenatal nutrition',article:'EV-ART-005'},
-  {title:'Prenatal supplement quality',article:'EV-ART-006'},
-  {title:'Fish & omega-3 research',article:'EV-ART-007'},
-  {title:'Choline, iodine & brain development',article:'EV-ART-008'},
-  {title:'Home and workplace exposures',article:'EV-ART-010'},
-  {title:'Movement & exercise',article:'EV-ART-016'},
-  {title:'Skin changes & stretch marks',article:'EV-ART-018'},
-  {title:'Preparing for birth',article:'EV-ART-021'}
- ]
- const ref=(url:string|undefined,n:number)=>safeVisualUrl(url)?<a className="w23-cite" href={safeVisualUrl(url)} target="_blank" rel="noreferrer" aria-label={'Open reference '+n}>[{n}]</a>:null
- return <div className="pilot-week week-directory week-chapter w23" id="week-23">
- <style>{`
- .w23{gap:1.25rem;padding-bottom:1.5rem}
- .w23 .pilot-header{gap:.4rem}
- .w23 .w23-section{display:grid;gap:.65rem}
- .w23 h2{font:500 1.55rem/1.2 var(--font-display);letter-spacing:-.02em;margin:0}
- .w23 h3{font:500 1.17rem/1.3 var(--font-display);margin:0}
- .w23 p{font-size:.91rem;line-height:1.65;margin:0}
- .w23 .w23-note,.w23 figcaption{font-size:.74rem;line-height:1.5;color:var(--ink-muted)}
- .w23 .w23-cite{color:var(--accent-deep);text-decoration:underline;font-size:.72em;vertical-align:super;white-space:nowrap;padding:0 .16rem}
- .w23 figure{margin:0;display:grid;gap:.45rem}
- .w23 figure svg{display:block;width:100%;height:auto;border-radius:14px}
- .w23 .w23-list{display:grid;border-top:1px solid var(--line)}
- .w23 .w23-link{display:grid;grid-template-columns:minmax(0,1fr) auto;align-items:center;gap:.7rem;min-height:48px;padding:.75rem 0;border-bottom:1px solid var(--line)}
- .w23 .w23-link strong{font-size:.94rem;line-height:1.35;display:block;font-weight:650}
- .w23 .w23-link small{font-size:.77rem;line-height:1.45;color:var(--ink-muted);display:block;margin-top:.2rem}
- .w23 .w23-link>span:last-child{font-size:1.3rem;color:var(--accent-deep)}
- .w23 .week-safety-note{font-size:.78rem;line-height:1.5;border-left:2px solid var(--danger);padding:.2rem 0 .2rem .7rem}
- .w23 .w23-subsection{display:grid;gap:.5rem;margin-top:.35rem}
- .w23 .w23-divider{border-top:1px solid var(--line);padding-top:.9rem}
- .w23 a:focus-visible{outline:2px solid var(--accent-deep);outline-offset:3px}
- `}</style>
- <header className="pilot-header"><div className="pilot-header-top"><Link className="reader-back" to="/timeline/pregnancy"><Glyph name="back"/>Pregnancy</Link><span className="pilot-kicker">SECOND TRIMESTER</span></div><h1 className="page-title">Week 23</h1><div className="pilot-progress" role="img" aria-label="Week 23 of a 40-week pregnancy reference timeline"><div><span style={{width:'57.5%'}}/></div><div className="pilot-progress-meta"><small>23 of 40 weeks</small><small>Research draft · review pending</small></div></div></header>
- <section className="w23-section" aria-label="This week in development">
- <h2>Building the systems that sustain life</h2>
- <p>{plainWeek(23,week.description)} {ref(source?.url,1)} These changes are part of an overlapping developmental period, rather than a switch that flips at the start of this week.</p>
- <figure><svg viewBox="0 0 340 190" role="img" aria-label="Conceptual diagrams of branching lower airways and blood cells developing within bone marrow">
- <rect width="340" height="190" fill="#ece7de"/><path d="M170 14V176" stroke="#b6aa99" strokeDasharray="3 4"/>
- <g fill="#403e36" fontSize="11" fontFamily="system-ui,sans-serif" textAnchor="middle"><text x="85" y="24">Developing airways</text><text x="255" y="24">Bone marrow</text></g>
- <g fill="#d7c1b3" stroke="#947669" strokeWidth="1.2"><path d="M77 48Q30 37 23 93T37 151Q76 157 77 112Z"/><path d="M93 48Q140 37 147 93T133 151Q94 157 93 112Z"/></g>
- <g fill="none" stroke="#795d52" strokeLinecap="round" strokeLinejoin="round"><path d="M85 38v28M85 66 57 88 42 106M85 66l28 22 15 18" strokeWidth="4"/><path d="M57 88v32m0-19-21 18M113 88v32m0-19 21 18M42 106l-5 18m91-18 5 18" strokeWidth="2"/></g>
- <rect x="217" y="43" width="76" height="110" rx="28" fill="#dfc7ad" stroke="#aa8f75" strokeWidth="1.5"/>
- <rect x="230" y="53" width="50" height="90" rx="20" fill="#c88980" opacity=".55"/>
- {[ [243,68],[265,77],[245,90],[266,105],[245,120],[262,132] ].map(([cx,cy],i)=><g key={i}><ellipse cx={cx} cy={cy} rx="7" ry="5.5" fill="#a95f59" stroke="#814b47"/><ellipse cx={cx} cy={cy} rx="3" ry="2" fill="#d6a49b"/></g>)}
- <g fill="#403e36" fontSize="10" fontFamily="system-ui,sans-serif" textAnchor="middle"><text x="85" y="174">Branching structures</text><text x="255" y="174">Blood-cell formation</text></g>
- </svg><figcaption>Two developing systems · original conceptual illustration, not an anatomical image or a measurement. Reference describes weeks 23–25. {ref(source?.url,1)}</figcaption></figure>
- </section>
- <div className="week-safety-note" role="note" aria-label="Content status">If usual baby movements slow, stop or change, contact your maternity team immediately. <Link to="/urgent">Warning signs &amp; help</Link></div>
- <section className="w23-section" aria-label="Practical priorities">
- <h2>Worth exploring this week</h2><p className="w23-note">Learning priorities selected for this chapter, not new week-specific clinical requirements.</p>
- <div className="w23-list">{priorities.map(item=><Link className="w23-link" key={item.article} to={'/research/'+item.article}><span><strong>{item.title}</strong><small>{item.description}</small></span><span aria-hidden="true">›</span></Link>)}</div>
- </section>
- <section className="w23-section w23-divider" aria-label="Mother and baby connections">
- <h2>Mother and baby, together</h2>
- <div className="w23-subsection"><h3>Why blood-cell formation is interesting</h3><p>Iron is needed to make hemoglobin, the protein that helps red blood cells carry oxygen. Pregnancy increases the body's iron needs. This makes iron a useful topic to understand, but fetal development does not establish a reason to start an extra supplement precisely at week 23. {ref(nutrition?.url,2)}</p><Link className="w23-link" to="/research/EV-ART-009"><span><strong>Iron, calcium &amp; vitamin D</strong><small>Research findings, limitations and safety</small></span><span aria-hidden="true">›</span></Link></div>
- <div className="w23-subsection"><h3>Airways are developing before birth</h3><p>Developing lung structures are not the same thing as being ready to breathe air independently. The placenta still supports oxygen exchange. Explore how the developing organs work together rather than using a weekly milestone to assess an individual baby. {ref(source?.url,1)}</p><Link className="w23-link" to="/research/EV-ART-014"><span><strong>How the baby develops</strong><small>Fetal development and original references</small></span><span aria-hidden="true">›</span></Link></div>
- </section>
- <section className="w23-section w23-divider" aria-label="Food supplements and related research"><h2>Food, supplements &amp; preparation</h2><p>Explore the role of each nutrient, food sources, evidence for additional intake and safety. A prenatal nutrient target is not automatically a supplement dose. {ref(nutrition?.url,2)}</p><nav className="w23-list" aria-label="Week 23 reading topics">{readings.map(item=><Link key={item.article} className="w23-link" to={'/research/'+item.article}><span><strong>{item.title}</strong><small>Shared second-trimester reading</small></span><span aria-hidden="true">›</span></Link>)}</nav></section>
- <details className="panel disclosure"><summary>Studies &amp; references</summary><p className="w23-note">The timeline source describes a range, not an exact individual milestone. Underlying guidance and study funding are separate from the government publisher; unknown funding is not evidence of independence. Funding and limitations for specific interventions are accessible in the linked research articles.</p><p>{ref(source?.url,1)} {source?.title??'Fetal development · MedlinePlus'}</p><p>{ref(nutrition?.url,2)} {nutrition?.title??'Pregnancy supplements · NIH Office of Dietary Supplements'}</p></details>
- <div className="page-controls"><Link className="btn btn-ghost" to="/timeline/week/22">Previous</Link><Link className="week-select-link" to="/timeline/pregnancy">Choose week</Link><Link className="btn btn-ghost" to="/timeline/week/24">Next</Link></div>
- <DraftBanner status="research_only"/>
- </div>
-}
-
 export function TimelinePage({selectedPhaseId}:{selectedPhaseId?:string|null}={}){
  const {track,phaseId,weekNumber}=useParams()
  const {hash}=useLocation()
@@ -100,7 +25,7 @@ export function TimelinePage({selectedPhaseId}:{selectedPhaseId?:string|null}={}
  const weekPicker=<div className="panel stack"><label htmlFor="chosen-week" className="section-title">Pregnancy week</label><select id="chosen-week" value={week?.week??''} onChange={e=>navigate(e.target.value?`/timeline/week/${e.target.value}`:'/timeline/pregnancy')}><option value="">Choose a week</option>{weeks.map(w=><option key={w.week} value={w.week}>Week {w.week}</option>)}</select></div>
  if((weekNumber&&!week)||(phaseId&&!phase)||(track&&!chosenTrack))return <div className="stack-lg"><ScreenHeading title="Reading period not found" back="/timeline" backLabel="Journey"/><p>Choose an available stage or pregnancy week.</p></div>
  if(week?.week===22)return <Week22Pilot/>
- if(week?.week===23)return <Week23Chapter/>
+ if(week?.week===23)return <Week22Pilot week={23}/>
  if(week){
   const source=week.source_id?getSource(week.source_id):undefined
   const maternal=timeline.find(p=>p.id===week.maternal_phase)

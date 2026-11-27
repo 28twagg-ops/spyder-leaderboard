@@ -31,6 +31,6 @@ export function EditorialContrast({labels}:{labels:[string,string]}){
 export function EditorialReadingRow({to,title,subtitle,index=0}:{to:string;title:string;subtitle?:string;index?:number}){
  return <Link className="ref-row editorial-reading-row" to={to}><span className="ref-row-icon"><Glyph name={index%2===0?'book':'leaf'}/></span><span><strong>{title}</strong>{subtitle&&<small>{subtitle}</small>}</span><span className="ref-chevron" aria-hidden="true">›</span></Link>
 }
-export function EditorialArticle({entry,reference,children}:{entry:EditorialEntry;reference?:ReactNode;children?:ReactNode}){
- return <article className="editorial-article"><p className="pilot-kicker">RESEARCH READING · REVIEW PENDING</p><h2>{entry.title}</h2><p className="editorial-deck">{entry.deck} {reference}</p><EditorialContrast labels={entry.contrast}/>{children}<details className="editorial-more disclosure"><summary>Read the full explanation</summary>{entry.paragraphs.map(paragraph=><p key={paragraph}>{paragraph}</p>)}{reference&&<p className="small-copy muted">Related source records: {reference}</p>}</details></article>
+export function EditorialArticle({entry,reference,children,illustration}:{entry:EditorialEntry;reference?:ReactNode;children?:ReactNode;illustration?:ReactNode}){
+ return <article className="editorial-article week-editorial-reading"><h2>{entry.title}</h2><p className="editorial-deck">{entry.deck} {reference}</p>{illustration}<section><h2>Understanding the evidence</h2><p>{entry.paragraphs[0]} {reference}</p></section>{children}<section><h2>What it means in practice</h2><p>{entry.paragraphs[1]} {reference}</p></section></article>
 }

@@ -1,6 +1,7 @@
 import { Link,useSearchParams } from 'react-router-dom'
 import { useViewState } from '../hooks/useViewMemory'
 import { Glyph } from '../components/Glyph'
+import { StageArt } from '../components/StageArt'
 
 /** One deliberately bounded design pilot. General educational concepts, not individual measurements or care instructions. */
 type Concept='skin'|'movement'|'digestion'
@@ -17,82 +18,59 @@ function MotherDiagram({kind}:{kind:Concept}){
  </g></svg>
 }
 
-const base='/timeline/week/22'
-const entries={
- mother:[['Skin','Stretch marks & care','skin'],['Movement','Activity & movement','movement'],['Digestion','Digestive changes','digestion'],['Nutrition','Food & nutrients','nutrition'],['Your body','Pelvic floor & anatomy','body'],['Checkups','Prenatal care','checkups']],
- baby:[['Skin','Skin & fine hair','skin'],['Movement','Muscle development','movement'],['Digestion','First stool','digestion'],['Placenta','Oxygen & nutrients','placenta'],['Senses','Hearing & responses','senses'],['Growth','Development & anatomy','growth']]
-} as const
-function topicPath(subject:'mother'|'baby',topic:string){return base+'/'+subject+'/'+topic}
 export function TopicArt({subject,topic}:{subject:'mother'|'baby';topic:string}){
  if(topic==='skin'||topic==='movement'||topic==='digestion')return subject==='mother'?<MotherDiagram kind={topic}/>:<ConceptDiagram kind={topic}/>
  return <svg viewBox="0 0 140 75" aria-hidden="true" focusable="false" className="directory-art"><g stroke="currentColor" strokeWidth="1.65" fill="none" strokeLinecap="round" strokeLinejoin="round">
  {topic==='nutrition'?<><path d="M70 23c-14-14-33-3-29 16 3 14 13 25 22 24l7-3 7 3c10 1 20-13 22-24 3-19-15-30-29-16Z" fill="var(--accent-soft)"/><path d="M70 24c0-15 9-17 21-17-3 10-11 14-21 12"/></>:topic==='body'?<><path d="M49 12q-12 23-2 36t23 16q13-2 23-16t-2-36M49 38q21 18 42 0M70 18v35" fill="var(--accent-soft)"/><path d="M49 50q21 13 42 0"/></>:topic==='checkups'?<><rect x="44" y="13" width="52" height="52" rx="6" fill="var(--accent-soft)"/><path d="M59 13v-5h22v5M54 40h9l5-10 7 21 5-11h7"/></>:topic==='placenta'?<><ellipse cx="65" cy="35" rx="27" ry="22" fill="var(--accent-soft)"/><path d="M65 54V34l-12-12m12 12 13-15M65 34l-17 8m17-8 19 8M65 54q8 13 26 10"/></>:topic==='senses'?<><path d="M57 55c-9-8-15-14-15-24a24 24 0 1 1 48 0c0 13-14 18-15 27-2 15-18 13-18-3Z" fill="var(--accent-soft)"/><path d="M56 32c0-15 20-17 20-3 0 8-9 10-11 18M102 22q12 10 0 22"/></>:<><circle cx="70" cy="21" r="13" fill="var(--accent-soft)"/><path d="M70 34v21m-19-15 19 8 19-8m-31 26 12-11 12 11"/></>}
  </g></svg>
 }
-const priorities=[
- {title:'Nutrition & brain development',description:'Understand how nutrients support development, and what studies of additional supplements actually found.',to:'mother/nutrition/brain-nutrients',subject:'mother',topic:'nutrition',label:'Nutrition'},
- {title:'Movement & physical preparation',description:'Explore activity, back and pelvic comfort, and the difference between maternal exercise and fetal movement.',to:'mother/movement',subject:'mother',topic:'movement',label:'Movement'},
- {title:'Skin & stretch mark prevention',description:'What happens beneath the skin, and why comfort and prevention are different goals.',to:'mother/skin/prevention',subject:'mother',topic:'skin',label:'Skin'}
-] as const
-function ChapterExchange(){
- return <figure className="chapter-exchange">
- <svg viewBox="0 0 340 146" role="img" aria-label="Conceptual illustration of maternal blood and fetal blood in separate circulations with exchange across the placenta">
- <rect width="340" height="146" rx="14" fill="#e9e5db"/>
- <path d="M33 45C55 24 80 29 104 54S130 104 150 102" fill="none" stroke="#b87c70" strokeWidth="16" strokeLinecap="round" opacity=".26"/>
- <path d="M33 45C55 24 80 29 104 54S130 104 150 102" fill="none" stroke="#a15e53" strokeWidth="2.4" strokeLinecap="round"/>
- <path d="M190 102C210 104 220 79 236 54S285 24 307 45" fill="none" stroke="#75867e" strokeWidth="16" strokeLinecap="round" opacity=".26"/>
- <path d="M190 102C210 104 220 79 236 54S285 24 307 45" fill="none" stroke="#61756d" strokeWidth="2.4" strokeLinecap="round"/>
- <path d="M170 28V112" stroke="#958c7e" strokeDasharray="3 4"/>
- <path d="M140 52H199m-8-5 8 5-8 5M199 76H140m8-5-8 5 8 5" stroke="#6c6e63" strokeWidth="1.5" fill="none" strokeLinecap="round"/>
- <g fontFamily="system-ui,sans-serif" fontSize="10" fill="#403e36" textAnchor="middle"><text x="170" y="18">Placental exchange</text><text x="170" y="46">Oxygen &amp; nutrients</text><text x="170" y="89">Waste exchange</text><text x="67" y="127">Mother’s blood</text><text x="272" y="127">Baby’s blood</text></g>
- </svg>
- <figcaption>Two circulations, one exchange organ. Concept illustration, not to scale. <Link to={base+'/baby/placenta/exchange'}>Explore the placenta →</Link></figcaption>
- </figure>
+
+type Tile={title:string;description:string;path:string;art:string}
+const tiles:Record<'mother'|'baby',Tile[]>={
+ mother:[
+ {title:'Skin',description:'Elasticity, stretch marks & treatments',path:'mother/skin',art:'skin'},
+ {title:'Movement',description:'Exercise, strength & mobility',path:'mother/movement',art:'movement'},
+ {title:'Pelvic health',description:'Muscles, support & preparation',path:'mother/body',art:'body'},
+ {title:'Nutrition',description:'Food, vitamins & supplements',path:'mother/nutrition',art:'nutrition'},
+ {title:'Digestion',description:'Gut health, nausea & comfort',path:'mother/digestion',art:'digestion'},
+ {title:'Circulation',description:'Blood, veins & iron',path:'mother/body/circulation',art:'blood'},
+ {title:'Prenatal care',description:'Screening & preparation',path:'mother/checkups',art:'checkups'},
+ {title:'Environment',description:'Water, plastics & everyday exposures',path:'mother/checkups/home-work',art:'environment'}
+ ],
+ baby:[
+ {title:'Brain',description:'Neurological development',path:'baby/senses/brain-nutrients',art:'brain'},
+ {title:'Senses',description:'Hearing, touch & responses',path:'baby/senses',art:'senses'},
+ {title:'Placenta',description:'Oxygen & nutrient exchange',path:'baby/placenta',art:'placenta'},
+ {title:'Movement',description:'Bones, muscles & coordination',path:'baby/movement',art:'movement'},
+ {title:'Lungs',description:'Developing respiratory system',path:'baby/growth/lungs',art:'lungs'},
+ {title:'Skin',description:'Fine hair & protective structures',path:'baby/skin',art:'skin'},
+ {title:'Digestion',description:'Swallowing & intestinal development',path:'baby/digestion',art:'digestion'},
+ {title:'Blood & circulation',description:'Blood-cell formation & fetal circulation',path:'baby/growth/blood',art:'blood'}
+ ]
 }
-export function Week22Pilot(){
- const [savedSubject,setSavedSubject]=useViewState<'baby'|'mother'>('pilot.week22.subject','baby')
+export function DirectoryArt({subject,kind}:{subject:'mother'|'baby';kind:string}){
+ if(!['brain','lungs','blood','environment'].includes(kind))return <TopicArt subject={subject} topic={kind}/>
+ return <svg viewBox="0 0 180 104" role="img" aria-label={'Concept illustration: '+kind}><g strokeWidth="1.4" strokeLinecap="round" strokeLinejoin="round">
+ {kind==='brain'?<><path d="M86 18Q68 5 55 21Q34 18 32 38Q18 50 32 64Q26 81 48 86Q57 100 82 88L91 74L97 89Q118 97 130 81Q151 76 145 57Q157 37 135 29Q129 10 107 19Q94 7 86 18Z" fill="#ddc3b7" stroke="#987969"/><g fill="none" stroke="#a38171"><path d="M86 18v51m-33-43q26 6 18 21T48 65m14-38q-18 9-10 22m-14 25q20 9 35-7m36-42q-9 17 6 25t24 13m-41 5q23 15 34 5"/></g></>:kind==='lungs'?<><path d="M85 25Q54 14 35 50T35 87Q61 100 85 77Z" fill="#d9b9a9" stroke="#a17c6b"/><path d="M95 25Q126 14 145 50T145 87Q119 100 95 77Z" fill="#d9b9a9" stroke="#a17c6b"/><path d="M90 12v24L58 57m32-21 32 21M58 57l-14 15m14-15 10 22m54-22 14 15m-14-15-10 22" fill="none" stroke="#8c685e" strokeWidth="3"/></>:kind==='blood'?<><path d="M13 29Q90 8 167 29V79Q90 100 13 79Z" fill="#e6c4bd" stroke="#b37e72"/>{[[38,43],[67,64],[95,38],[119,66],[147,43]].map(([cx,cy])=><g key={cx}><ellipse cx={cx} cy={cy} rx="13" ry="8" fill="#ae7068" stroke="#925c55"/><ellipse cx={cx} cy={cy} rx="5" ry="3" fill="#d59b91" stroke="none"/></g>)}</>:<><path d="M50 16h27l-2 15q15 8 15 21v34H37V52q0-13 15-21Z" fill="#d2dfd7" stroke="#758b82"/><path d="M38 61h51" stroke="#758b82"/><path d="M117 87V40q24-29 37-12-3 24-37 28m0 8q-28-24-40-7 9 20 40 17" fill="#aebc9b" stroke="#728264"/></>}
+ </g></svg>
+}
+export function Week22Pilot({week=22}:{week?:22|23}){
+ const base='/timeline/week/'+week
+ const [savedSubject,setSavedSubject]=useViewState<'baby'|'mother'>('pilot.week'+week+'.subject','baby')
  const [params,setParams]=useSearchParams()
  const requested=params.get('subject')
  const subject=requested==='mother'||requested==='baby'?requested:savedSubject
  const setSubject=(next:'baby'|'mother')=>{setSavedSubject(next);setParams({subject:next},{replace:true})}
- return <div className="pilot-week week-directory week-chapter" id="week-22">
- <style>{`
- .week-chapter{gap:1.2rem;padding-bottom:1.5rem}.week-chapter .pilot-header{gap:.4rem}
- .week-chapter .chapter-intro{display:grid;gap:.65rem}
- .week-chapter .chapter-intro h2,.week-chapter .chapter-heading{font:500 1.5rem/1.2 var(--font-display);letter-spacing:-.02em;margin:0}
- .week-chapter .chapter-intro>p,.week-chapter .chapter-section>p{font-size:.91rem;line-height:1.6;margin:0;color:var(--ink)}
- .week-chapter .chapter-exchange{margin:0;display:grid;gap:.5rem}.chapter-exchange svg{display:block;width:100%;height:auto}
- .chapter-exchange figcaption{font-size:.73rem;line-height:1.5;color:var(--ink-muted)}.chapter-exchange a{color:var(--accent-deep);text-decoration:underline;text-underline-offset:3px}
- .week-chapter .chapter-section{display:grid;gap:.6rem}
- .week-chapter .chapter-priorities{display:grid;border-top:1px solid var(--line)}
- .week-chapter .chapter-priority{display:grid;grid-template-columns:76px minmax(0,1fr) auto;align-items:center;gap:.8rem;border-bottom:1px solid var(--line);padding:.8rem 0;min-height:76px}
- .week-chapter .chapter-art{background:var(--bg-soft);border-radius:8px;display:grid;place-items:center;min-height:68px;color:var(--accent-deep);overflow:hidden}
- .week-chapter .chapter-art svg{max-width:100%;max-height:68px;display:block}
- .week-chapter .chapter-priority strong,.week-chapter .chapter-row strong{font-weight:650;display:block;font-size:.94rem;line-height:1.35}
- .week-chapter .chapter-priority small,.week-chapter .chapter-row small{display:block;color:var(--ink-muted);font-size:.76rem;line-height:1.45;margin-top:.2rem}
- .week-chapter .chapter-arrow{color:var(--accent-deep);font-size:1.3rem}
- .week-chapter .chapter-note{font-size:.76rem!important;line-height:1.5!important;color:var(--ink-muted)!important}
- .week-chapter .chapter-bridge{display:grid;gap:.5rem;padding-top:.85rem;border-top:1px solid var(--line)}
- .week-chapter .chapter-bridge h3{font:500 1.12rem/1.3 var(--font-display);margin:0}
- .week-chapter .chapter-bridge a{min-height:44px;display:flex;align-items:center;justify-content:space-between;font-size:.86rem;font-weight:600;border-bottom:1px solid var(--line);gap:.5rem}
- .week-chapter .chapter-directory{display:grid;gap:.6rem}.week-chapter .week-topic-grid{gap:0;grid-template-columns:1fr;border-top:1px solid var(--line)}
- .week-chapter .week-topic-tile{display:grid;grid-template-columns:64px minmax(0,1fr) auto;align-items:center;gap:.7rem;background:transparent;border:0;border-bottom:1px solid var(--line);border-radius:0;padding:.65rem 0;min-height:60px}
- .week-chapter .week-topic-tile svg,.week-chapter .week-topic-tile .pilot-diagram{height:48px;max-height:48px;max-width:64px}
- .week-chapter .week-safety-note{line-height:1.5;font-size:.76rem;border-left:2px solid var(--danger);padding:.25rem 0 .25rem .65rem}
- .week-chapter a:focus-visible,.week-chapter button:focus-visible{outline:2px solid var(--accent-deep);outline-offset:3px}
- @media(max-width:350px){.week-chapter .chapter-priority{grid-template-columns:56px minmax(0,1fr) auto;gap:.5rem}.week-chapter .chapter-art{min-height:56px}}
- `}</style>
- <header className="pilot-header"><div className="pilot-header-top"><Link className="reader-back" to="/timeline/pregnancy"><Glyph name="back"/>Pregnancy</Link><span className="pilot-kicker">SECOND TRIMESTER</span></div><h1 className="page-title">Week 22</h1><div className="pilot-progress" role="img" aria-label="Week 22 of a 40-week pregnancy reference timeline"><div><span style={{width:'55%'}}/></div><div className="pilot-progress-meta"><small>22 of 40 weeks</small><small>Research draft · review pending</small></div></div></header>
- <section className="chapter-intro" aria-label="This week in development"><h2>A growing connection</h2><p>Your baby’s muscles and sensory systems are developing while your body adapts to pregnancy. The placenta connects the two: it supports exchange between mother and baby.</p><ChapterExchange/></section>
+ const featured=subject==='mother'?(week===22?{title:'Choline, iodine & folate',description:'Nutrient roles, food sources and additional intake research.',path:'mother/nutrition/brain-nutrients',art:'nutrition'}:{title:'Iron & blood-cell formation',description:'Understand hemoglobin and the evidence on prenatal nutrition.',path:'mother/nutrition/minerals',art:'blood'}):(week===22?{title:'How nutrients reach your baby',description:'Explore the relationship between the placenta and maternal nutrition.',path:'baby/placenta/exchange',art:'placenta'}:{title:'How the lungs develop',description:'Explore the developmental window spanning weeks 23–25.',path:'baby/growth/lungs',art:'lungs'})
+ return <div className="pilot-week week-directory approved-week" id={'week-'+week}>
+ <header className="pilot-header"><div className="pilot-header-top"><Link className="reader-back" to="/timeline/pregnancy"><Glyph name="back"/>Pregnancy</Link><span className="pilot-kicker">SECOND TRIMESTER</span></div><div className="week-title-row"><Link className="week-step" to={'/timeline/week/'+(week-1)} aria-label="Previous week">‹</Link><h1 className="page-title">Week {week}</h1><Link className="week-step" to={'/timeline/week/'+(week+1)} aria-label="Next week">›</Link></div><div className="pilot-progress" role="img" aria-label={'Week '+week+' of a 40-week pregnancy reference timeline'}><div><span style={{width:(week/40*100)+'%'}}/></div><div className="pilot-progress-meta"><small>{week} of 40 weeks</small><small>Research draft · review pending</small></div></div></header>
+ <div className="pilot-subject" role="group" aria-label="Whose changes are shown?"><button type="button" aria-pressed={subject==='mother'} onClick={()=>setSubject('mother')}>Mother <small>Your body</small></button><button type="button" aria-pressed={subject==='baby'} onClick={()=>setSubject('baby')}>Baby <small>Development</small></button></div>
+ <section className="week-editorial-hero"><div><h2>{subject==='mother'?'Your changing body':'Your growing baby'}</h2><p>{subject==='mother'?(week===22?'Explore how your skin, muscles and organs adapt as your baby grows.':'Explore nutrition, circulation and comfort as pregnancy progresses.'):(week===22?'Explore fine hair, movement, digestion and your connection through the placenta.':'Lower airways develop and bone marrow begins producing blood cells across weeks 23–25.')}</p><Link className="week-hero-reference" to={subject==='mother'?'/visuals/EV-V004':'/visuals/EV-V015'}>Original anatomy reference ↗</Link></div><div className="week-hero-art" aria-hidden="true"><StageArt stage="pregnancy"/></div></section>
+ <h2 className="section-title">{subject==='mother'?'Explore your body':"Inside your baby's development"}</h2>
+ <nav className="week-topic-grid" aria-label="Development topics">{tiles[subject].map(tile=><Link className="week-topic-tile" key={tile.path} to={base+'/'+tile.path} aria-label={tile.title+' — '+tile.description}><span className={'week-tile-art art-'+tile.art}><DirectoryArt subject={subject} kind={tile.art}/></span><strong>{tile.title}</strong><small>{tile.description}</small></Link>)}</nav>
+ <section className="week-featured"><h2 className="section-title">{subject==='mother'?'Worth understanding this week':'Featured development'}</h2><Link className="week-featured-link" to={base+'/'+featured.path}><span className="week-featured-art"><DirectoryArt subject={subject} kind={featured.art}/></span><span><strong>{featured.title}</strong><small>{featured.description}</small></span><span aria-hidden="true">›</span></Link><p className="small-copy muted">Shared trimester topics are not new weekly requirements or a supplement schedule.</p></section>
  <div className="week-safety-note" role="note" aria-label="Content status">If usual baby movements slow, stop or change, contact your maternity team immediately. <Link to="/urgent">Warning signs &amp; help</Link></div>
- <section className="chapter-section" aria-label="Practical priorities"><h2 className="chapter-heading">Worth exploring this week</h2><p className="chapter-note">Three starting points for learning and discussion, not a list of things you must do at 22 weeks.</p><div className="chapter-priorities">{priorities.map(item=><Link className="chapter-priority" key={item.to} to={base+'/'+item.to}><span className="chapter-art" aria-hidden="true"><TopicArt subject={item.subject} topic={item.topic}/></span><span><strong>{item.title}</strong><small>{item.description}</small></span><span className="chapter-arrow" aria-hidden="true">›</span></Link>)}</div>
- <div className="chapter-bridge"><h3>Food, supplements &amp; evidence</h3><p className="chapter-note">Explore nutrient roles, food sources and research on additional intake. Individual supplement choices and doses belong with your care team.</p><Link to={base+'/mother/nutrition/omega-3'}>Fish &amp; omega-3 <span aria-hidden="true">›</span></Link><Link to={base+'/mother/nutrition/minerals'}>Iron, calcium &amp; vitamin D <span aria-hidden="true">›</span></Link><Link to={base+'/mother/nutrition/supplements'}>Prenatal supplement labels <span aria-hidden="true">›</span></Link></div>
- </section>
- <section className="chapter-section" aria-label="Mother and baby connections"><h2 className="chapter-heading">Mother and baby, together</h2><div className="chapter-bridge"><h3>Movement you can feel</h3><p className="chapter-note">Read about developing movement and how changes in usual patterns relate to care.</p><Link to={base+'/baby/movement/patterns'}>Baby’s movement patterns <span aria-hidden="true">›</span></Link><Link to={base+'/mother/movement/baby-movement'}>Feeling your baby move <span aria-hidden="true">›</span></Link></div><div className="chapter-bridge"><h3>Looking ahead</h3><p className="chapter-note">Learn about preparation and exposures without assuming this week is a deadline.</p><Link to={base+'/mother/body/birth-preparation'}>Birth preparation <span aria-hidden="true">›</span></Link><Link to={base+'/mother/checkups/home-work'}>Home &amp; workplace exposures <span aria-hidden="true">›</span></Link></div></section>
- <section className="chapter-directory" aria-label="Complete week topic directory"><h2 className="chapter-heading">Explore the whole chapter</h2><div className="pilot-subject" role="group" aria-label="Whose changes are shown?"><button type="button" aria-pressed={subject==='mother'} onClick={()=>setSubject('mother')}>Mother <small>Your body</small></button><button type="button" aria-pressed={subject==='baby'} onClick={()=>setSubject('baby')}>Baby <small>Development</small></button></div>
- <h3 className="section-title">{subject==='mother'?'Your changing body':'Your growing baby'}</h3>
- <nav className="week-topic-grid" aria-label="Development topics">{entries[subject].map(([title,subtitle,id])=><Link className="week-topic-tile chapter-row" key={id} to={topicPath(subject,id)} aria-label={title+" — "+subtitle}><TopicArt subject={subject} topic={id}/><span><strong>{title}</strong><small>{subtitle}</small></span><span className="chapter-arrow" aria-hidden="true">›</span></Link>)}</nav></section>
- <p className="chapter-note">Educational research drafts · clinical review pending. Development varies between individuals; this is not a personalized assessment.</p>
- <div className="page-controls"><Link className="btn btn-ghost" to="/timeline/week/21">Previous</Link><Link className="week-select-link" to="/timeline/pregnancy">Choose week</Link><Link className="btn btn-ghost" to="/timeline/week/23">Next</Link></div>
+ <div className="page-controls"><Link className="btn btn-ghost" to={'/timeline/week/'+(week-1)}>Previous</Link><Link className="week-select-link" to="/timeline/pregnancy">Choose week</Link><Link className="btn btn-ghost" to={'/timeline/week/'+(week+1)}>Next</Link></div>
+ <small className="muted">Concept artwork · Original scientific references linked in readings · Clinical review pending</small>
  </div>
 }

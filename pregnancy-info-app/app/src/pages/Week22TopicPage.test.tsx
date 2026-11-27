@@ -67,6 +67,13 @@ describe('expanded week 22 topic coverage',()=>{
   fireEvent.click(await screen.findByRole('link',{name:'Week 22'}))
   expect(await screen.findByRole('heading',{name:'Your changing body'})).toBeVisible()
  })
+ it('week 23 keeps the reader in its own week and shows the source window',async()=>{
+  render(<MemoryRouter initialEntries={['/timeline/week/23?subject=baby']}><App/></MemoryRouter>)
+  fireEvent.click(within(screen.getByRole('navigation',{name:'Development topics'})).getByRole('link',{name:/^Lungs/}))
+  expect(await screen.findByRole('heading',{name:'How the lungs develop before birth'})).toBeVisible()
+  expect(screen.getByText(/Reference describes weeks 23–25/)).toBeVisible()
+  expect(screen.getByRole('link',{name:'Week 23 · Baby'})).toHaveAttribute('href','/timeline/week/23?subject=baby')
+ })
  it('directory links are all dedicated week routes',()=>{
   render(<MemoryRouter initialEntries={['/timeline/week/22']}><App/></MemoryRouter>)
   const nav=screen.getByRole('navigation',{name:'Development topics'})
