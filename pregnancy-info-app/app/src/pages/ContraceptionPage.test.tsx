@@ -5,6 +5,21 @@ import App from '../App'
 import {contraception} from '../data/contraception'
 afterEach(()=>{cleanup();localStorage.clear()})
 describe('preconception contraception navigation',()=>{
+ it('shows tie-inclusive results and lets users choose an actual delivery format',async()=>{
+  render(<MemoryRouter initialEntries={['/contraception']}><App/></MemoryRouter>)
+  const panel=await screen.findByRole('region',{name:'Personal preference comparison'})
+  fireEvent.click(within(panel).getByRole('button',{name:/Preferred form: Any/}))
+  fireEvent.change(within(panel).getByRole('combobox',{name:'Preferred delivery format'}),{target:{value:'gel'}})
+  const live=within(panel).getByRole('region',{name:'Live top three matches'})
+  expect(within(live).getAllByRole('link')).toHaveLength(1)
+  expect(within(live).getByRole('link',{name:/Spermicide \/ pH regulator/})).toBeVisible()
+  fireEvent.change(within(panel).getByRole('combobox',{name:'Preferred delivery format'}),{target:{value:'all'}})
+  const group=within(panel).getByRole('group',{name:'Six priority sliders'})
+  for(const slider of within(group).getAllByRole('slider'))fireEvent.change(slider,{target:{value:'0'}})
+  fireEvent.change(within(group).getByRole('slider',{name:'Future fertility'}),{target:{value:'10'}})
+  expect(within(live).getAllByRole('link')).toHaveLength(14)
+  expect(within(live).getByText(/All methods sharing a podium rank/)).toBeVisible()
+ })
  it('keeps all methods in the live table and opens individual product links',async()=>{
   render(<MemoryRouter initialEntries={['/contraception']}><App/></MemoryRouter>)
   const list=await screen.findByRole('region',{name:'All live method matches'})
@@ -67,7 +82,7 @@ describe('preconception contraception navigation',()=>{
   for(const slider of sliders)fireEvent.change(slider,{target:{value:'0'}})
   fireEvent.change(within(group).getByRole('slider',{name:'Hormone exposure'}),{target:{value:'10'}})
   fireEvent.change(within(group).getByRole('slider',{name:'Effectiveness'}),{target:{value:'10'}})
-  expect(within(live).getAllByRole('link')).toHaveLength(3)
+  expect(within(live).getAllByRole('link').length).toBeGreaterThanOrEqual(3)
   expect(within(live).getAllByRole('link')[0]).toHaveTextContent('Copper IUD')
   fireEvent.change(within(group).getByRole('slider',{name:'Effectiveness'}),{target:{value:'0'}})
   fireEvent.change(within(group).getByRole('slider',{name:'Comfort & periods'}),{target:{value:'10'}})

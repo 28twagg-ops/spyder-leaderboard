@@ -20,8 +20,10 @@ export const preferenceCriteria:Criterion[]=[
 ]
 export type PreferenceWeights=Record<string,number>
 export const defaultPreferenceWeights=():PreferenceWeights=>Object.fromEntries(preferenceCriteria.map(c=>[c.id,0]))
-export type PreferenceFilters={hormoneFree:boolean;noProcedure:boolean;underOne:boolean}
-export const defaultPreferenceFilters:PreferenceFilters={hormoneFree:false,noProcedure:false,underOne:false}
+export type PreferenceFilters={hormoneFree:boolean;noProcedure:boolean;underOne:boolean;format?:string}
+export const defaultPreferenceFilters:PreferenceFilters={hormoneFree:false,noProcedure:false,underOne:false,format:'all'}
+export const preferenceFormats=[["uterine","Clinician-placed uterine device",["copper-iud","hormonal-iud"]],["arm","Arm implant",["implant"]],["shot","Periodic injection",["injection"]],["oral","Daily oral pill",["combined-pill","mini-pill"]],["skin","Skin patch",["patch"]],["ring","Vaginal ring",["ring"]],["external","External condom",["external-condom"]],["internal","Internal condom",["internal-condom"]],["reusable","Reusable vaginal/cervical barrier",["diaphragm","cervical-cap"]],["sponge","Single-use sponge",["sponge"]],["gel","On-demand vaginal gel, film or foam",["gel"]],["tracking","Fertility tracking",["fertility-awareness"]]] as const
+export function matchesFormat(slug:string,format:string|undefined){return !format||format==='all'||preferenceFormats.some(([id,,methods])=>id===format&&(methods as readonly string[]).includes(slug))}
 export function comparePreferences(weights:PreferenceWeights,filters:PreferenceFilters,costs:CostScenario=defaultCostScenario()){
  const weight=(id:string)=>Math.max(0,Math.min(10,(Number.isFinite(weights[id])?weights[id]:0)))
  const active=preferenceCriteria.filter(c=>weight(c.id)>0)
@@ -29,17 +31,21 @@ export function comparePreferences(weights:PreferenceWeights,filters:PreferenceF
  // Count only the larger weight, not both. Cycle preference separately excludes copper IUD.
  const scoring=active.filter(c=>(c.match||c.utility)&&!(c.id==='effectiveness'&&weight('effectivenessScale')>0)&&!(c.id==='procedure'&&weight('pain')>=weight('procedure'))&&!(c.id==='pain'&&weight('procedure')>weight('pain')))
  const possible=scoring.reduce((n,c)=>n+weight(c.id),0)
- const results=contraception.methods.filter(m=>(!filters.hormoneFree||m.hormones==='None')&&(!filters.noProcedure||nonInvasive(m))&&(!filters.underOne||m.high<1)).map(m=>{
+ const results=contraception.methods.filter(m=>(!filters.hormoneFree||m.hormones==='None')&&(!filters.noProcedure||nonInvasive(m))&&(!filters.underOne||m.high<1)&&matchesFormat(m.slug,filters.format)).map(m=>{
   const criteria=active.map(c=>({id:c.id,label:c.label,weight:weight(c.id),match:c.id==='cost'?costMatch(m.slug,costs):c.match?c.match(m):null,utility:c.utility?.(m),scored:scoring.includes(c),detail:c.id==='cost'?costLabel(m.slug,costs):c.detail(m),source:c.source})).sort((a,b)=>b.weight-a.weight)
   let minimum=0,maximum=0
   for(const c of criteria.filter(c=>c.scored)){if(c.utility){minimum+=c.weight*c.utility[0];maximum+=c.weight*c.utility[1]}else if(c.match===true){minimum+=c.weight;maximum+=c.weight}else if(c.match===null)maximum+=c.weight}
   return {method:m,minimum:Math.round(minimum*1000)/1000,maximum:Math.round(maximum*1000)/1000,criteria}
  })
  // A lower bound is an explicitly conservative sort, not a clinical rank.
- // Stable source order for ties; overlapping scores are not unique winners.
- const ordered=results.sort((a,b)=>b.minimum-a.minimum)
+ // Alphabetical display within ties; no method gains a rank from source order.
+ // All methods at the third competitive rank are shown, including cutoff ties.
+ const ordered=results.sort((a,b)=>b.minimum-a.minimum||a.method.name.localeCompare(b.method.name,'en'))
  const ranked=ordered.map(r=>({...r,rank:possible>0?1+ordered.filter(x=>x.minimum>r.minimum).length:null,tied:possible>0&&ordered.filter(x=>x.minimum===r.minimum).length>1,uncertain:r.minimum!==r.maximum||ordered.some(x=>x!==r&&x.minimum!==x.maximum&&x.minimum<=r.minimum&&x.maximum>=r.minimum)}))
- return {possible,results:ranked,reviewOnly:active.filter(c=>!c.match&&!c.utility).map(c=>c.label)}
+ const podium=possible>0?ranked.filter(r=>r.rank!==null&&r.rank<=3):[]
+ const cutoff=podium.length?podium[podium.length-1].minimum:0
+ const possiblePodium=possible>0?ranked.filter(r=>r.maximum>=cutoff&&!podium.includes(r)):[]
+ return {possible,results:ranked,podium,possiblePodium,reviewOnly:active.filter(c=>!c.match&&!c.utility).map(c=>c.label)}
 }
 
 export const preferenceThemes=[['hormones','Hormone exposure'],['health','Long-term health'],['comfort','Comfort & periods'],['effectiveness','Effectiveness'],['fertility','Future fertility'],['cost','Total 3-year cost']] as const
@@ -51,3 +57,6 @@ export const defaultThemeWeights=()=>({hormones:8,health:10,comfort:6,effectiven
 export function themePreferences(themes:PreferenceWeights):PreferenceWeights{
  return {hormones:themes.hormones??0,physical:themes.health??0,mental:themes.health??0,pain:(themes.comfort??0)/2,cycle:(themes.comfort??0)/2,effectivenessScale:themes.effectiveness??0,fertility:themes.fertility??0,cost:themes.cost??0,convenience:themes.convenience??0,sti:themes.sti??0}
 }
+
+/** 0–1000 display scale; rank from underlying unrounded-to-display points. */
+export function normalizedMatchScore(points:number,possible:number){return possible>0?Math.round(1000*points/possible):0}

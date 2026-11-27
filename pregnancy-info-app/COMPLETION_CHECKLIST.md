@@ -120,3 +120,5 @@ Evidence: prior preview 8b51b5f76a0d4624cf2c1879021c52da98f82de1; preference/sea
 - [ ] Live full routine-method ranking and expandable product links, graded effectiveness feature scoring with range propagation, filtered options retained as excluded. New automated coverage; deployment and phone acceptance pending.
 
 - [ ] Deploy 0–10 importance scale, proportional defaults, essential comfort threshold at 10, and test upper-half weights and all six slider maxima.
+
+- [ ] Tie-inclusive podium, normalized 0–1000 display points, possible podium disclosure, explicit delivery format comparison and reproducible scenario audit. Verify CI/device behavior and independent clinical review.

@@ -1,6 +1,28 @@
 import {describe,it,expect} from 'vitest'
-import {comparePreferences,defaultPreferenceWeights,defaultPreferenceFilters,themePreferences,themeFilters} from './contraceptionPreferences'
+import {comparePreferences,defaultPreferenceWeights,defaultPreferenceFilters,themePreferences,themeFilters,preferenceFormats,normalizedMatchScore} from './contraceptionPreferences'
 describe('contraception feature preference matching',()=>{
+ it('keeps every equal cutoff rank on the podium, independent of array order',()=>{
+  const r=comparePreferences({fertility:10},defaultPreferenceFilters)
+  expect(r.podium).toHaveLength(14)
+  expect(r.podium.every(x=>x.rank===1)).toBe(true)
+  expect(r.podium.map(x=>x.method.name)).toEqual(r.podium.map(x=>x.method.name).sort((a,b)=>a.localeCompare(b,'en')))
+ })
+ it('includes every routine method in at least one explicitly chosen delivery format',()=>{
+  const all=comparePreferences({effectivenessScale:10},defaultPreferenceFilters)
+  const reached=new Set<string>()
+  for(const [format,,ids] of preferenceFormats){
+   const r=comparePreferences({effectivenessScale:10},{...defaultPreferenceFilters,format})
+   expect(r.results.map(x=>x.method.slug).sort()).toEqual([...ids].sort())
+   for(const m of r.podium)reached.add(m.method.slug)
+  }
+  expect(reached.size).toBe(all.results.length)
+ })
+ it('distinguishes possible podium matches from confirmed lower-score ranks',()=>{
+  const r=comparePreferences({effectivenessScale:10,cost:10},defaultPreferenceFilters)
+  expect(r.possiblePodium.some(x=>x.method.slug==='gel')).toBe(true)
+  expect(r.possiblePodium.every(x=>!r.podium.includes(x))).toBe(true)
+  expect(normalizedMatchScore(7.2,10)).toBe(720)
+ })
  it('uses the full ten-point range without clamping upper-half weights',()=>{
   const r=comparePreferences(themePreferences({effectiveness:10,comfort:8}),defaultPreferenceFilters)
   expect(r.possible).toBe(18)
@@ -53,7 +75,7 @@ describe('contraception feature preference matching',()=>{
   expect(a.results[0].method.slug).toBe('copper-iud')
   expect(a.results[0].rank).toBe(1)
   const b=comparePreferences({procedure:5,sti:5},defaultPreferenceFilters)
-  expect(b.results.slice(0,2).map(x=>x.method.slug)).toEqual(['external-condom','internal-condom'])
+  expect(new Set(b.results.slice(0,2).map(x=>x.method.slug))).toEqual(new Set(['external-condom','internal-condom']))
   expect(b.results.slice(0,2).map(x=>x.rank)).toEqual([1,1])
   expect(b.results[2].rank).toBe(3)
  })
