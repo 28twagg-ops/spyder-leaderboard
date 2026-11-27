@@ -36,20 +36,28 @@ describe('expanded week 22 topic coverage',()=>{
   fireEvent.click(await screen.findByRole('link',{name:/Fish & omega-3/}))
   expect(await screen.findByText('2.2%')).toBeVisible()
   expect(screen.getByText('2.0%')).toBeVisible()
-  expect(screen.getByText('Funding & limitations')).toBeVisible()
+  expect(screen.getByText(/Public\/foundation-funded trial with donated capsules/)).toBeVisible()
   fireEvent.click(screen.getByRole('link',{name:'Nutrition'}))
   expect(await screen.findByRole('heading',{name:'Nutrition',level:1})).toBeVisible()
  })
  it.each(week22Topics.flatMap(t=>t.children.map(c=>[t.subject,t.id,c.id,c.title])))('opens subsection %s/%s/%s',async(subject,topic,id,title)=>{
   render(<MemoryRouter initialEntries={['/timeline/week/22/'+subject+'/'+topic+'/'+id]}><App/></MemoryRouter>)
   expect(await screen.findByRole('heading',{name:title,level:1})).toBeVisible()
-  expect(screen.getByText(/Sources & funding/)).toBeInTheDocument()
+  const studies=screen.getByText('Studies & references').closest('details')!
+  expect(studies).not.toHaveAttribute('open')
+  expect(within(studies).getByText(/Study references/)).toBeInTheDocument()
+  expect(document.querySelectorAll('.skin-page details').length).toBeLessThanOrEqual(3)
+  expect(document.querySelector('.skin-page details details')).toBeNull()
   expect(screen.getByRole('note',{name:'Content status'})).toBeVisible()
  })
  it.each(skinSections.flatMap(s=>s.children.map(c=>[s.id,slug(c.title),c.title])))('opens skin subsection %s/%s',async(section,id,title)=>{
   render(<MemoryRouter initialEntries={['/timeline/week/22/mother/skin/'+section+'/'+id]}><App/></MemoryRouter>)
   expect(await screen.findByRole('heading',{name:title,level:1})).toBeVisible()
-  expect(screen.getByText(/Sources & funding/)).toBeInTheDocument()
+  const studies=screen.getByText('Studies & references').closest('details')!
+  expect(studies).not.toHaveAttribute('open')
+  expect(within(studies).getByText(/Study references/)).toBeInTheDocument()
+  expect(document.querySelectorAll('.skin-page details').length).toBeLessThanOrEqual(3)
+  expect(document.querySelector('.skin-page details details')).toBeNull()
  })
  it('handles publication aliases conservatively and returns direct mother links to mother view',async()=>{
   expect(sourceGroups(['S004','P3-02'])).toHaveLength(1)
