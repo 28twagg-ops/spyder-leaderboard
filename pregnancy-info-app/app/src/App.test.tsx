@@ -4,7 +4,7 @@ import { describe, expect, it } from 'vitest'
 import App from './App'
 
 describe('Everwell shell', () => {
-  it('renders brand and draft disclaimer on today', () => {
+  it('renders brand and integrated research draft disclaimer on today', () => {
     render(
       <MemoryRouter initialEntries={['/']}>
         <App />
@@ -12,6 +12,7 @@ describe('Everwell shell', () => {
     )
     expect(screen.getByRole('heading', { name: 'Everwell' })).toBeInTheDocument()
     expect(screen.getByText(/educational research prototype/i)).toBeInTheDocument()
+    expect(screen.getByText(/52 staged articles/i)).toBeInTheDocument()
     expect(screen.getByRole('navigation', { name: 'Primary' })).toBeInTheDocument()
   })
 

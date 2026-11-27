@@ -1,0 +1,60 @@
+{
+  "synced_at": "2026-11-27T12:04:29.638Z",
+  "integration_mode": "research_draft_navigation",
+  "clinical_publication": false,
+  "archived_ai_conclusions_are_guidance": false,
+  "files": [
+    {
+      "source": "staged-completion/stage-09/ARTICLES.json",
+      "output": "articles.json",
+      "bytes": 82804,
+      "records": 52
+    },
+    {
+      "source": "staged-completion/stage-09/ACTIONS.json",
+      "output": "actions.json",
+      "bytes": 47022,
+      "records": 52
+    },
+    {
+      "source": "staged-completion/stage-09/FAQ.json",
+      "output": "faq.json",
+      "bytes": 27300,
+      "records": 52
+    },
+    {
+      "source": "staged-completion/stage-09/TIMELINE.json",
+      "output": "timeline.json",
+      "bytes": 31334,
+      "records": 28
+    },
+    {
+      "source": "staged-completion/stage-09/GESTATIONAL_WEEKS.json",
+      "output": "gestational_weeks.json",
+      "bytes": 20429,
+      "records": 40
+    },
+    {
+      "source": "staged-completion/stage-09/SOURCE_LINKS.json",
+      "output": "source_links.json",
+      "bytes": 112714,
+      "records": 217
+    },
+    {
+      "source": "staged-completion/stage-09/ROUTINES.json",
+      "output": "routines.json",
+      "bytes": 5079,
+      "records": 9
+    },
+    {
+      "source": "staged-completion/stage-10/PUBLICATION_GATE.json",
+      "output": "publication_gate.json",
+      "bytes": 23539
+    },
+    {
+      "source": "staged-completion/stage-10/CONSOLIDATED_IMPORT.json",
+      "output": "consolidated_import.json",
+      "bytes": 58180
+    }
+  ]
+}

@@ -1,31 +1,26 @@
 import { Link } from 'react-router-dom'
 import { DraftBanner } from '../components/DraftBanner'
-import { topics } from '../data/syntheticContent'
-
-const regions = [
-  { id: 'nutrition', label: 'Nutrition' },
-  { id: 'pelvic', label: 'Pelvic floor' },
-  { id: 'skin', label: 'Skin' },
-  { id: 'child', label: 'Child health' },
-  { id: 'abdomen', label: 'Abdomen' },
-  { id: 'breast', label: 'Breast' },
-] as const
+import { articlesByDomain, listDomains } from '../data/researchCatalog'
+import { editorialPriorityLabel } from '../data/researchGate'
 
 export function ExplorePage() {
+  const domains = listDomains()
+
   return (
     <div className="stack-lg">
       <header className="stack">
-        <div className="eyebrow">Explore</div>
+        <div className="eyebrow">Explore · {domains.length} domains</div>
         <h1 style={{ fontFamily: 'var(--font-display)', margin: 0, fontSize: '1.8rem' }}>
-          Body map & topics
+          Topic map
         </h1>
         <p className="lede" style={{ margin: 0 }}>
-          Touch a region to open educational drafts. No body scores or compulsory checklists.
+          Staged research articles by domain. Priority labels are editorial navigation, not GRADE
+          or personal medical orders.
         </p>
       </header>
-      <DraftBanner />
+      <DraftBanner status="research_only" />
 
-      <section className="panel" aria-label="Anatomical regions">
+      <section className="panel" aria-label="Domains">
         <div
           style={{
             display: 'grid',
@@ -33,33 +28,40 @@ export function ExplorePage() {
             gap: '0.65rem',
           }}
         >
-          {regions.map((region) => (
+          {domains.map((domain) => (
             <a
-              key={region.id}
+              key={domain}
               className="btn btn-ghost"
-              href={`#region-${region.id}`}
+              href={`#domain-${domain}`}
               style={{ textAlign: 'center' }}
             >
-              {region.label}
+              {domain}
             </a>
           ))}
         </div>
       </section>
 
-      <div className="topic-grid">
-        {topics.map((topic) => (
-          <article key={topic.id} id={`region-${topic.region}`} className="panel stack">
-            <div className="badge">{topic.region}</div>
-            <h2 style={{ margin: 0, fontSize: '1.1rem' }}>{topic.title}</h2>
-            <p className="muted" style={{ margin: 0, fontSize: '0.95rem' }}>
-              {topic.quickTake}
-            </p>
-            <Link className="btn btn-ghost" to={`/research/${topic.id}`}>
-              Open layers
-            </Link>
-          </article>
-        ))}
-      </div>
+      {domains.map((domain) => (
+        <section key={domain} id={`domain-${domain}`} className="stack" aria-labelledby={`h-${domain}`}>
+          <h2 id={`h-${domain}`} style={{ margin: 0, fontSize: '1.2rem' }}>
+            {domain}
+          </h2>
+          <div className="topic-grid">
+            {articlesByDomain(domain).map((article) => (
+              <article key={article.id} className="panel stack">
+                <div className="badge">{editorialPriorityLabel(article.priority)}</div>
+                <h3 style={{ margin: 0, fontSize: '1.05rem' }}>{article.title}</h3>
+                <p className="muted" style={{ margin: 0, fontSize: '0.95rem' }}>
+                  {article.quick_answer}
+                </p>
+                <Link className="btn btn-ghost" to={`/research/${article.id}`}>
+                  Open layers
+                </Link>
+              </article>
+            ))}
+          </div>
+        </section>
+      ))}
     </div>
   )
 }

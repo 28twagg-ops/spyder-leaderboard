@@ -1,43 +1,86 @@
 import { Link } from 'react-router-dom'
 import { DraftBanner } from '../components/DraftBanner'
-import { ACTIVE_HOLDS } from '../data/publicationGate'
-import { topics } from '../data/syntheticContent'
+import { catalogStats, articles, routines } from '../data/researchCatalog'
+import {
+  DEFAULT_PUBLICATION_BLOCK,
+  EXCLUDED_SOURCE_IDS,
+  HELD_SOURCE_OR_OUTCOME_IDS,
+  editorialPriorityLabel,
+} from '../data/researchGate'
 
 export function LibraryPage() {
+  const stats = catalogStats()
+
   return (
     <div className="stack-lg">
       <header className="stack">
         <div className="eyebrow">Library</div>
         <h1 style={{ fontFamily: 'var(--font-display)', margin: 0, fontSize: '1.8rem' }}>
-          Research navigation
+          Research inventory
         </h1>
         <p className="lede" style={{ margin: 0 }}>
-          Demo index only. Canonical inventory lives in stage-10 consolidated import (770 source
-          records — not 770 independent trials).
+          Integrated from stage-09/10. Inventory counts are records, not independent trial counts.
         </p>
       </header>
-      <DraftBanner />
+      <DraftBanner status="research_only" />
 
       <section className="panel stack">
-        <h2 style={{ margin: 0, fontSize: '1.1rem' }}>Active holds (sample)</h2>
+        <h2 style={{ margin: 0, fontSize: '1.1rem' }}>Loaded into the app</h2>
+        <ul className="list-clean">
+          <li>Articles: {stats.articles}</li>
+          <li>Actions: {stats.actions}</li>
+          <li>FAQs: {stats.faqs}</li>
+          <li>Phases: {stats.phases}</li>
+          <li>Gestational weeks: {stats.gestationalWeeks}</li>
+          <li>Source links: {stats.sourceLinks}</li>
+          <li>Optional routines: {stats.routines}</li>
+          <li>
+            Consolidated import sources: {stats.inventory.source_records ?? '—'} (not independent
+            studies)
+          </li>
+        </ul>
+        <p className="muted" style={{ margin: 0, fontSize: '0.85rem' }}>
+          Synced: {stats.sync.synced_at} · mode: {stats.sync.integration_mode}
+        </p>
+      </section>
+
+      <section className="panel stack">
+        <h2 style={{ margin: 0, fontSize: '1.1rem' }}>Publication gate</h2>
         <p className="muted" style={{ margin: 0 }}>
-          Full gate: research/staged-completion/stage-10/PUBLICATION_GATE.json
+          {DEFAULT_PUBLICATION_BLOCK}
+        </p>
+        <p className="muted" style={{ margin: 0 }}>
+          Exclusions: {[...EXCLUDED_SOURCE_IDS].join(', ') || 'none'}
+        </p>
+        <p className="muted" style={{ margin: 0 }}>
+          Held source/outcome IDs: {HELD_SOURCE_OR_OUTCOME_IDS.size}
+        </p>
+      </section>
+
+      <section className="panel stack">
+        <h2 style={{ margin: 0, fontSize: '1.1rem' }}>Optional routines</h2>
+        <p className="muted" style={{ margin: 0 }}>
+          No streaks, no automatic schedules, no health scores.
         </p>
         <ul className="list-clean">
-          {ACTIVE_HOLDS.map((hold) => (
-            <li key={hold}>
-              <code>{hold}</code>
+          {routines.map((routine) => (
+            <li key={routine.id}>
+              <strong>{routine.title}</strong>
+              <div className="muted" style={{ marginTop: '0.25rem', fontSize: '0.9rem' }}>
+                {routine.note}
+              </div>
             </li>
           ))}
         </ul>
       </section>
 
       <section className="topic-grid">
-        {topics.map((topic) => (
-          <Link key={topic.id} className="panel" to={`/research/${topic.id}`}>
-            <strong>{topic.title}</strong>
+        {articles.map((article) => (
+          <Link key={article.id} className="panel" to={`/research/${article.id}`}>
+            <div className="badge">{editorialPriorityLabel(article.priority)}</div>
+            <strong style={{ display: 'block', marginTop: '0.4rem' }}>{article.title}</strong>
             <div className="muted" style={{ marginTop: '0.35rem', fontSize: '0.9rem' }}>
-              {topic.safety.publicationStatus}
+              {article.domain} · {article.id}
             </div>
           </Link>
         ))}

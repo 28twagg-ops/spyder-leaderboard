@@ -2,19 +2,20 @@
 
 > **CURRENT HANDOFF — 26 November 2026 (Stages 1–11 scoped checkpoints complete).** The owner authorized both final stages. Start with [final Claude prompt](research/staged-completion/stage-11/FINAL_CLAUDE_PROMPT.md), [owner report](research/staged-completion/stage-11/README.md), [consolidated import](research/staged-completion/stage-10/CONSOLIDATED_IMPORT.json) and [publication gate](research/staged-completion/stage-10/PUBLICATION_GATE.json). The legacy maternal-only import remains preserved and its 25 exports regenerated. 770 source records, 311 outcomes, 403 nutrient reference rows, 52 curated articles/actions/FAQs, 28 family phases and 40 fetal week rows. Not independent study counts. All clinical content remains draft. Claude owns architecture and implementation; no deployment or recurring monitoring. See [release checklist](research/staged-completion/stage-11/IMPLEMENTATION_CHECKLIST.md) and [open review](research/staged-completion/stage-11/OPEN_REVIEW.md). The older text below is historical; any previous stage authorization statements and inventory counts are superseded by this checkpoint.
 
-## Implementation update · 2026-11-26 (night)
+## Implementation update · 2026-11-27
 
-Completed this session:
+Completed:
 - Usage audit: Free plan; Agent baseline 89; 90% cap / 10% reserve; on-demand off; no upgrades authorized
 - Stack chosen: Vite + React 19 + TypeScript PWA (`app/`) — see [ARCHITECTURE.md](ARCHITECTURE.md)
-- Private synthetic prototype routes (Today, Timeline, Explore, Research, Library, Install)
-- Fail-closed publication gate helpers + Vitest coverage
+- **Research integration:** stage-09/10 inventory synced into `app/src/data/imported/` and wired through gated catalog
+- Routes now render staged articles/phases/sources as research drafts (not clinical guidance)
+- Fail-closed publication gate helpers + Vitest coverage (11 tests)
 - Design tokens (mineral teal / slate) — see [DESIGN_SYSTEM.md](DESIGN_SYSTEM.md)
 - Core docs + [HANDOFF_PROMPT.md](HANDOFF_PROMPT.md)
 
-Verified locally: `npm test` and `npm run build` in `app/` (after fixing install-page query).
+Verified locally: `npm test` and `npm run build` in `app/`.
 
-Not completed: real research ingestion UI, independent scientific appraisals, clinical review, physical iPhone install proof, public deploy.
+Not completed: independent scientific appraisals of original papers, clinical review, physical iPhone install proof, public deploy, full numeric/outcome charting UI.
 
 Completed earlier: initial project brief, Claude/agent roles, UX direction, timeline and topic scope, research/evidence/safety/privacy standards, conceptual schema, starter research backlog and handoff template.
 

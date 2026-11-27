@@ -8,6 +8,9 @@
     "build": "tsc -b && vite build",
     "lint": "oxlint",
     "preview": "vite preview",
+    "sync:research": "node scripts/sync-research.mjs",
+    "pretest": "node scripts/sync-research.mjs",
+    "prebuild": "node scripts/sync-research.mjs",
     "test": "vitest run",
     "test:watch": "vitest",
     "validate:research": "python ../research/integrated/validate_import.py && python ../research/child-health/validate.py"

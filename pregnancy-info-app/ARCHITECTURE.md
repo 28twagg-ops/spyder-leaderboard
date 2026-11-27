@@ -40,7 +40,9 @@ app/
 
 1. Client-rendered educational shell with progressive disclosure.
 2. Service worker caches shell assets for offline navigation of previously loaded pages (do not silently serve stale safety claims as current clinical truth — version/status banners required).
-3. Research ingestion remains file-based and gated; promotion to family-facing copy requires independent appraisal + qualified clinical review + owner release.
+3. Research ingestion is file-based: `npm run sync:research` copies stage-09/10 JSON into `app/src/data/imported/`.
+4. `researchCatalog.ts` + `researchGate.ts` expose drafts for navigation while fail-closing recommendations/automation.
+5. Stage-09 curated articles/actions/FAQs are treated as archived AI comparison artifacts until independent appraisal + clinical review + owner release.
 
 ## Commands
 

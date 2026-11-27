@@ -14,7 +14,8 @@ Continue Everwell from https://github.com/28twagg-ops/spyder-leaderboard `pregna
 
 - Runnable Vite React TS PWA in `app/`
 - Routes: `/`, `/timeline`, `/explore`, `/research/:id`, `/library`, `/install`
-- Synthetic content only + fail-closed publication gate helpers/tests
+- **Integrated stage-09/10 research drafts** via `npm run sync:research` → `src/data/imported/`
+- Fail-closed gates: curated AI text is navigation/comparison only; no recommendations/automation
 - Docs: ARCHITECTURE, DESIGN_SYSTEM, COMPONENT_LIBRARY, CONTENT_AUTHORING_GUIDE, SOURCE_VERIFICATION, QUALITY_ASSURANCE, IMPLEMENTATION_BACKLOG, CHANGELOG
 
 ## Commands
@@ -22,6 +23,7 @@ Continue Everwell from https://github.com/28twagg-ops/spyder-leaderboard `pregna
 ```bash
 cd pregnancy-info-app/app
 npm install
+npm run sync:research
 npm run dev
 npm test
 npm run build
@@ -33,10 +35,9 @@ Account audited as **Free** plan; Agent Stats baseline **89**; authorized **80**
 
 ## Next tasks
 
-1. Read-only stage-10 index wiring without promoting AI conclusions  
-2. Accessible body-map  
-3. Offline freshness banner  
-4. More gate/import tests  
-5. Independent appraisal only if allowance allows  
+1. Accessible body-map  
+2. Offline freshness banner  
+3. Outcome/nutrient browsers with overlap warnings  
+4. Independent appraisal only if allowance allows  
 
 No public deploy. Preserve legacy SPYDER root. Clinical review still required.
