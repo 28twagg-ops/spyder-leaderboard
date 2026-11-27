@@ -70,6 +70,17 @@ describe('week 22 visual directory',()=>{
   expect(screen.getByText('11.4 in')).toBeVisible()
   expect(screen.getByRole('button',{name:/Baby/})).toHaveAttribute('aria-pressed','true')
  })
+ it('separates changing weekly features from shared readings',async()=>{
+  view('/timeline/week/22?subject=baby')
+  const focus=screen.getByRole('navigation',{name:"This week's featured topics"})
+  expect(within(focus).getByRole('link',{name:/Fine hair covers the body/})).toBeVisible()
+  expect(screen.getByRole('heading',{name:'Ongoing topics · Weeks 20–27'})).toBeVisible()
+  fireEvent.click(screen.getByRole('link',{name:'Next week'}))
+  expect(await screen.findByRole('heading',{name:'Week 23'})).toBeVisible()
+  expect(within(screen.getByRole('navigation',{name:"This week's featured topics"})).getByRole('link',{name:/Lower airways develop/})).toBeVisible()
+  expect(within(screen.getByRole('navigation',{name:"This week's featured topics"})).queryByRole('link',{name:/Fine hair covers the body/})).not.toBeInTheDocument()
+  expect(within(screen.getByRole('navigation',{name:'Development topics'})).getAllByRole('link')).toHaveLength(8)
+ })
  it('maps all 111 source IDs and 18 outcomes without enabling held evidence',()=>{
   const children=skinSections.flatMap(s=>s.children)
   const ids=[...new Set(children.flatMap(c=>c.source_ids))]

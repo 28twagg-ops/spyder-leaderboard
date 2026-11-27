@@ -968,3 +968,18 @@ button.reader-back:focus-visible{outline-offset:3px}
 .reading-concept-items strong{font-size:.82rem;line-height:1.3;overflow-wrap:break-word}
 .reading-concept-items small,.reading-concept figcaption{font-size:.72rem;line-height:1.45;color:var(--ink-muted);overflow-wrap:break-word}
 @media(max-width:340px){.reading-concept-items{grid-template-columns:1fr}.reading-concept-items>div{grid-template-columns:28px 1fr}.reading-concept-items small{grid-column:2}}
+
+/* Week-specific stories first; stable shared reading is a separate lower directory. */
+.week-current,.week-shared{display:grid;gap:.65rem}
+.week-current-grid{display:grid;gap:.7rem}
+.week-current-item{border-bottom:1px solid var(--line);padding-bottom:.6rem;display:grid;gap:.25rem}
+.week-current-link{display:grid;grid-template-columns:minmax(80px,34%) minmax(0,1fr) 12px;gap:.65rem;align-items:center}
+.week-current-link .week-tile-art{aspect-ratio:4/3}.week-current-link .week-tile-art svg{width:96%;height:96%;display:block}
+.week-current-copy{display:grid;gap:.25rem;min-width:0}
+.week-current-copy small{font-size:.69rem;line-height:1.4;color:var(--ink-muted)}
+.week-current-copy strong{font:600 1rem/1.3 var(--font-body);overflow-wrap:break-word}
+.week-current-copy>span{font-size:.78rem;line-height:1.45;color:var(--ink-muted)}
+.week-current-chevron{color:var(--accent-deep);font-size:1.3rem}
+.week-current-source{font-size:.69rem;text-decoration:underline;text-underline-offset:3px;color:var(--accent-deep);justify-self:end;padding:.25rem 0;min-height:28px;display:inline-flex;align-items:center}
+.week-shared{border-top:1px solid var(--line);padding-top:1rem;margin-top:.25rem}
+.week-current-link .art-marrow,.week-current-link .art-breast,.week-current-link .art-ribs{background:color-mix(in srgb,var(--bg-soft) 75%,#dfc4b7)}
