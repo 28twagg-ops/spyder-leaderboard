@@ -1,3 +1,4 @@
+import { useLocalPrefs } from '../hooks/useLocalPrefs'
 import { Link, useParams } from 'react-router-dom'
 import { DraftBanner } from '../components/DraftBanner'
 import { maySurfaceAsGuidance } from '../data/publicationGate'
@@ -5,6 +6,7 @@ import { articleBundle } from '../data/researchCatalog'
 import { editorialPriorityLabel } from '../data/researchGate'
 
 export function ResearchPage() {
+  const { prefs, toggleBookmark, markRead } = useLocalPrefs()
   const { topicId } = useParams()
   const bundle = topicId ? articleBundle(topicId) : null
 
@@ -37,6 +39,11 @@ export function ResearchPage() {
       </header>
 
       <DraftBanner status="research_only" />
+      <div className="cta-row">
+        <button type="button" className="btn btn-ghost" aria-pressed={prefs.bookmarks.includes(article.id)} onClick={() => toggleBookmark(article.id)}>{prefs.bookmarks.includes(article.id) ? 'Remove bookmark' : 'Save bookmark'}</button>
+        <button type="button" className="btn btn-ghost" disabled={prefs.readArticles.includes(article.id)} onClick={() => markRead(article.id)}>{prefs.readArticles.includes(article.id) ? 'Marked read' : 'Mark as read'}</button>
+      </div>
+      <p className="muted">Optional reading markers stay in this browser; they do not affect medical recommendations.</p>
 
       <section className="panel stack">
         <div className="badge danger">Visible safety</div>
