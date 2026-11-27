@@ -17,7 +17,7 @@ describe('week 22 visual directory',()=>{
   const subject=screen.getByRole('group',{name:'Whose changes are shown?'})
   fireEvent.click(within(subject).getByRole('button',{name:/Mother/}))
   expect(within(nav).getAllByRole('link')).toHaveLength(6)
-  expect(within(nav).getByRole('link',{name:/Skin Stretch marks/})).toHaveAttribute('href',root)
+  expect(within(nav).getByRole('link',{name:/Skin.*Stretch marks/})).toHaveAttribute('href',root)
   expect(within(nav).queryByRole('link',{name:/Placenta/})).not.toBeInTheDocument()
   expect(localStorage.length).toBe(0)
  })
