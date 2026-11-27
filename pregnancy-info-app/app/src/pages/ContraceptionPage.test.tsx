@@ -5,22 +5,23 @@ import App from '../App'
 import {contraception} from '../data/contraception'
 afterEach(()=>{cleanup();localStorage.clear()})
 describe('preconception contraception navigation',()=>{
- it('shows compact sliders and live matches directly on the landing page',async()=>{
+ it('shows six compact sliders and live matches directly on the landing page',async()=>{
   render(<MemoryRouter initialEntries={['/contraception']}><App/></MemoryRouter>)
   const panel=await screen.findByRole('region',{name:'Personal preference comparison'})
   const live=within(panel).getByRole('region',{name:'Live top three matches'})
-  const sliders=within(panel).getAllByRole('slider')
-  expect(sliders).toHaveLength(8)
+  expect(within(live).getByRole('heading',{name:'Your top three matches'})).toBeVisible()
+  const group=within(panel).getByRole('group',{name:'Six priority sliders'})
+  const sliders=within(group).getAllByRole('slider')
+  expect(sliders).toHaveLength(6)
   for(const slider of sliders)fireEvent.change(slider,{target:{value:'0'}})
-  fireEvent.change(within(panel).getByRole('slider',{name:'Avoid added hormones'}),{target:{value:'5'}})
-  fireEvent.change(within(panel).getByRole('slider',{name:'Prevent pregnancy as reliably as possible'}),{target:{value:'5'}})
+  fireEvent.change(within(group).getByRole('slider',{name:'Hormone exposure'}),{target:{value:'5'}})
+  fireEvent.change(within(group).getByRole('slider',{name:'Effectiveness'}),{target:{value:'5'}})
   expect(within(live).getAllByRole('link')).toHaveLength(3)
   expect(within(live).getAllByRole('link')[0]).toHaveTextContent('Copper IUD')
-  fireEvent.change(within(panel).getByRole('slider',{name:'Prevent pregnancy as reliably as possible'}),{target:{value:'0'}})
-  fireEvent.change(within(panel).getByRole('slider',{name:'Minimize placement pain'}),{target:{value:'5'}})
+  fireEvent.change(within(group).getByRole('slider',{name:'Effectiveness'}),{target:{value:'0'}})
+  fireEvent.change(within(group).getByRole('slider',{name:'Comfort & periods'}),{target:{value:'5'}})
   expect(within(live).queryByRole('link',{name:/Copper IUD/})).not.toBeInTheDocument()
-  fireEvent.change(within(panel).getByRole('slider',{name:'Mental health & sexual wellbeing'}),{target:{value:'5'}})
-  expect(within(panel).getByText(/mental health changes what to review/)).toBeVisible()
+  expect(within(group).getByRole('slider',{name:'Total 3-year cost'})).toBeVisible()
  })
  it('puts all research graphs on the overview with compact method navigation',async()=>{
   render(<MemoryRouter initialEntries={['/timeline/preconception']}><App/></MemoryRouter>)

@@ -1,4 +1,5 @@
 import {contraception} from './contraception'
+import {costLabel,costMatch,defaultCostScenario,type CostScenario} from './contraceptionCosts'
 export type PreferenceMethod=typeof contraception.methods[number]
 export type Match=true|false|null
 type Criterion={id:string;label:string;description:string;source:string;match?:(m:PreferenceMethod)=>Match;detail:(m:PreferenceMethod)=>string}
@@ -14,21 +15,21 @@ export const preferenceCriteria:Criterion[]=[
  {id:'physical',label:'Long-term physical health',description:'Feature proxy: avoid estrogen-related vascular concerns and depot-injection bone-density concerns. Other physical risks remain; this is not a total health score.',source:'CT-02',match:m=>!m.hormones.startsWith('Estrogen')&&m.slug!=='injection',detail:m=>m.physical},
  {id:'mental',label:'Mental health & sexual wellbeing',description:'Review only: no reliable cross-method mental health ranking.',source:'CT-24',detail:m=>m.mental},
  {id:'pain',label:'Minimize placement pain',description:'Feature proxy: avoid invasive insertion, removal and injections. Does not predict cramps or individual pain.',source:'CT-22',match:nonInvasive,detail:m=>m.pain+' '+m.physical},
- {id:'cost',label:'Avoid upfront procedure costs',description:'Feature proxy: avoid methods requiring device placement, injection or professional fitting. Actual out-of-pocket costs and ongoing supplies vary; this is not a price ranking.',source:'CT-41',match:m=>!['iud','implant','injection','cup'].includes(m.art),detail:m=>m.price+' · '+m.priceContext}
+ {id:'cost',label:'Total 3-year cost',description:'Match a user-entered total to the 36-month budget. Published component estimates are incomplete; unknown totals remain uncertain.',source:'CT-41',match:()=>null,detail:m=>m.price+' · '+m.priceContext}
 ]
 export type PreferenceWeights=Record<string,number>
 export const defaultPreferenceWeights=():PreferenceWeights=>Object.fromEntries(preferenceCriteria.map(c=>[c.id,0]))
 export type PreferenceFilters={hormoneFree:boolean;noProcedure:boolean;underOne:boolean}
 export const defaultPreferenceFilters:PreferenceFilters={hormoneFree:false,noProcedure:false,underOne:false}
-export function comparePreferences(weights:PreferenceWeights,filters:PreferenceFilters){
- const weight=(id:string)=>Math.max(0,Math.min(5,Math.round(Number.isFinite(weights[id])?weights[id]:0)))
+export function comparePreferences(weights:PreferenceWeights,filters:PreferenceFilters,costs:CostScenario=defaultCostScenario()){
+ const weight=(id:string)=>Math.max(0,Math.min(5,(Number.isFinite(weights[id])?weights[id]:0)))
  const active=preferenceCriteria.filter(c=>weight(c.id)>0)
  // Procedure and placement-pain preferences express the same feature.
  // Count only the larger weight, not both. Cycle preference separately excludes copper IUD.
  const scoring=active.filter(c=>c.match&&!(c.id==='procedure'&&weight('pain')>=weight('procedure'))&&!(c.id==='pain'&&weight('procedure')>weight('pain')))
  const possible=scoring.reduce((n,c)=>n+weight(c.id),0)
  const results=contraception.methods.filter(m=>(!filters.hormoneFree||m.hormones==='None')&&(!filters.noProcedure||nonInvasive(m))&&(!filters.underOne||m.high<1)).map(m=>{
-  const criteria=active.map(c=>({id:c.id,label:c.label,weight:weight(c.id),match:c.match?c.match(m):null,scored:scoring.includes(c),detail:c.detail(m),source:c.source})).sort((a,b)=>b.weight-a.weight)
+  const criteria=active.map(c=>({id:c.id,label:c.label,weight:weight(c.id),match:c.id==='cost'?costMatch(m.slug,costs):c.match?c.match(m):null,scored:scoring.includes(c),detail:c.id==='cost'?costLabel(m.slug,costs):c.detail(m),source:c.source})).sort((a,b)=>b.weight-a.weight)
   let minimum=0,maximum=0
   for(const c of criteria.filter(c=>c.scored)){if(c.match===true){minimum+=c.weight;maximum+=c.weight}else if(c.match===null)maximum+=c.weight}
   return {method:m,minimum,maximum,criteria}
@@ -38,4 +39,12 @@ export function comparePreferences(weights:PreferenceWeights,filters:PreferenceF
  const ordered=results.sort((a,b)=>b.minimum-a.minimum)
  const ranked=ordered.map(r=>({...r,rank:possible>0?1+ordered.filter(x=>x.minimum>r.minimum).length:null,tied:possible>0&&ordered.filter(x=>x.minimum===r.minimum).length>1,uncertain:r.minimum!==r.maximum||ordered.some(x=>x!==r&&x.minimum!==x.maximum&&x.minimum<=r.minimum&&x.maximum>=r.minimum)}))
  return {possible,results:ranked,reviewOnly:active.filter(c=>!c.match).map(c=>c.label)}
+}
+
+export const preferenceThemes=[['hormones','Hormone exposure'],['health','Long-term health'],['comfort','Comfort & periods'],['effectiveness','Effectiveness'],['fertility','Future fertility'],['cost','Total 3-year cost']] as const
+export const defaultThemeWeights=()=>({hormones:4,health:5,comfort:3,effectiveness:5,fertility:5,cost:3})
+// Equal split of the comfort weight across two documented feature preferences.
+// The health theme uses the limited physical feature proxy; mood remains review-only.
+export function themePreferences(themes:PreferenceWeights):PreferenceWeights{
+ return {hormones:themes.hormones??0,physical:themes.health??0,mental:themes.health??0,pain:(themes.comfort??0)/2,cycle:(themes.comfort??0)/2,effectiveness:themes.effectiveness??0,fertility:themes.fertility??0,cost:themes.cost??0,convenience:themes.convenience??0,sti:themes.sti??0}
 }

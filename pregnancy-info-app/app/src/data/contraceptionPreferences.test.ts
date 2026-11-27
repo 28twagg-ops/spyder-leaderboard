@@ -1,6 +1,18 @@
 import {describe,it,expect} from 'vitest'
-import {comparePreferences,defaultPreferenceWeights,defaultPreferenceFilters} from './contraceptionPreferences'
+import {comparePreferences,defaultPreferenceWeights,defaultPreferenceFilters,themePreferences} from './contraceptionPreferences'
 describe('contraception feature preference matching',()=>{
+ it('maps the six themes to comparable features without doubling comfort',()=>{
+  const w=themePreferences({comfort:3,health:5})
+  expect(w.pain).toBe(1.5);expect(w.cycle).toBe(1.5);expect(w.mental).toBe(5)
+  expect(comparePreferences(w,defaultPreferenceFilters).possible).toBe(8)
+ })
+ it('changes total cost matching using actual entered 36-month quotes',()=>{
+  const r=comparePreferences({cost:5},defaultPreferenceFilters,{budget:500,condomsPerMonth:8,quotes:{'copper-iud':400,'combined-pill':800}})
+  expect(r.results[0].method.slug).toBe('copper-iud')
+  expect(r.results[0].minimum).toBe(5)
+  expect(r.results.find(x=>x.method.slug==='combined-pill')?.maximum).toBe(0)
+  expect(r.results.find(x=>x.method.slug==='implant')?.maximum).toBe(5)
+ })
  it('updates the first match when weights change and shares ranks for ties',()=>{
   const a=comparePreferences({hormones:5,effectiveness:5},defaultPreferenceFilters)
   expect(a.results[0].method.slug).toBe('copper-iud')
