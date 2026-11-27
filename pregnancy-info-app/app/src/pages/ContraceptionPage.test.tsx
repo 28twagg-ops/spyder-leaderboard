@@ -5,6 +5,21 @@ import App from '../App'
 import {contraception} from '../data/contraception'
 afterEach(()=>{cleanup();localStorage.clear()})
 describe('preconception contraception navigation',()=>{
+ it('keeps all methods in the live table and opens individual product links',async()=>{
+  render(<MemoryRouter initialEntries={['/contraception']}><App/></MemoryRouter>)
+  const list=await screen.findByRole('region',{name:'All live method matches'})
+  const table=within(list).getByRole('region',{name:'Scrollable live method ranking'})
+  expect(within(table).getAllByRole('link')).toHaveLength(15)
+  fireEvent.click(within(table).getByRole('button',{name:'Show products for Progestin-only pill'}))
+  expect(within(table).getByRole('link',{name:/Slynd/})).toHaveAttribute('href','/contraception/product-slynd')
+  expect(within(table).getByRole('link',{name:/Opill/})).toBeVisible()
+  fireEvent.click(within(table).getByRole('button',{name:'Show products for Spermicide / pH regulator'}))
+  expect(within(table).getByRole('link',{name:/Phexxi/})).toBeVisible()
+  const group=screen.getByRole('group',{name:'Six priority sliders'})
+  fireEvent.change(within(group).getByRole('slider',{name:'Comfort & periods'}),{target:{value:'5'}})
+  expect(within(table).getByRole('link',{name:/Copper IUD/})).toBeVisible()
+  expect(within(table).getAllByText('Excluded').length).toBeGreaterThan(0)
+ })
  it('applies the essential comfort filter even when all six priorities are high',async()=>{
   render(<MemoryRouter initialEntries={['/contraception']}><App/></MemoryRouter>)
   const group=await screen.findByRole('group',{name:'Six priority sliders'})

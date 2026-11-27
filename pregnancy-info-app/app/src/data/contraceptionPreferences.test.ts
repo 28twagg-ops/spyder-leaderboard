@@ -1,6 +1,27 @@
 import {describe,it,expect} from 'vitest'
 import {comparePreferences,defaultPreferenceWeights,defaultPreferenceFilters,themePreferences,themeFilters} from './contraceptionPreferences'
 describe('contraception feature preference matching',()=>{
+ it('differentiates effectiveness across intermediate and low-effectiveness methods in the live theme tool',()=>{
+  const r=comparePreferences(themePreferences({effectiveness:5}),defaultPreferenceFilters)
+  const pts=(slug:string)=>r.results.find(x=>x.method.slug===slug)!.minimum
+  expect(pts('mini-pill')).toBeGreaterThan(pts('external-condom'))
+  expect(pts('external-condom')).toBeGreaterThan(pts('gel'))
+  expect(pts('copper-iud')).toBeGreaterThan(pts('mini-pill'))
+  const fam=r.results.find(x=>x.method.slug==='fertility-awareness')!
+  expect(fam.maximum).toBeGreaterThan(fam.minimum)
+  expect(r.results).toHaveLength(15)
+ })
+ it('permits pills to move above condoms when effectiveness and noninvasive comfort matter',()=>{
+  const w={effectiveness:5,comfort:5,hormones:0,health:0,fertility:0,cost:0}
+  const r=comparePreferences(themePreferences(w),themeFilters(w,defaultPreferenceFilters))
+  const pts=(slug:string)=>r.results.find(x=>x.method.slug===slug)!.minimum
+  // Natural-cycle preference gives condoms half the comfort weight;
+  // reducing that tradeoff via explicit procedure-only weighting changes the result.
+  expect(pts('mini-pill')).toBeGreaterThan(pts('gel'))
+  const p=comparePreferences({effectivenessScale:5,procedure:5}, { ...defaultPreferenceFilters,noProcedure:true })
+  expect(p.results[0].method.low).toBe(7)
+  expect(p.results.find(x=>x.method.slug==='mini-pill')!.minimum).toBeGreaterThan(p.results.find(x=>x.method.slug==='external-condom')!.minimum)
+ })
  it('excludes invasive options at essential comfort despite high other priorities',()=>{
   const w={comfort:5,hormones:5,effectiveness:5,health:5,fertility:5,cost:5}
   const r=comparePreferences(themePreferences(w),themeFilters(w,defaultPreferenceFilters))
