@@ -15,6 +15,8 @@ export const preferenceCriteria:Criterion[]=[
  {id:'sti',label:'Include STI risk reduction',description:'Appropriate external/internal condoms reduce some STI transmission; not complete protection.',source:'CT-01',match:m=>['external-condom','internal-condom'].includes(m.slug),detail:m=>['external-condom','internal-condom'].includes(m.slug)?'Appropriate condoms reduce STI risk':'Does not itself provide STI protection'},
  {id:'physical',label:'Long-term physical health',description:'Feature proxy: avoid estrogen-related vascular concerns and depot-injection bone-density concerns. Other physical risks remain; this is not a total health score.',source:'CT-02',match:m=>!m.hormones.startsWith('Estrogen')&&m.slug!=='injection',detail:m=>m.physical},
  {id:'mental',label:'Mental health & sexual wellbeing',description:'Review only: no reliable cross-method mental health ranking.',source:'CT-24',detail:m=>m.mental},
+ {id:'sexual',label:'Sexual feel & spontaneity',description:'Feature preference: avoid a contraceptive task or barrier at intercourse. This does not measure pleasure, sensation, libido, orgasm, lubrication or STI safety. Individual experiences differ.',source:'CT-129',match:m=>['copper-iud','hormonal-iud','implant','injection','combined-pill','mini-pill','patch','ring'].includes(m.slug),detail:m=>['copper-iud','hormonal-iud','implant','injection','combined-pill','mini-pill','patch','ring'].includes(m.slug)?'No routine per-act contraceptive preparation; sexual function and comfort can still vary. '+m.mental:'Requires barrier, local product, or fertility-based decisions around sex; subjective sensation and satisfaction vary. '+m.mental},
+ {id:'sexualEvidence',label:'Sexual pleasure, desire & lubrication',description:'Review only: comparative research is insufficient for a universal sexual-function score.',source:'CT-127',detail:m=>m.mental+' Individual sensation, desire, lubrication and partner experience are not predictable from method alone.'},
  {id:'pain',label:'Minimize placement pain',description:'Feature proxy: avoid invasive insertion, removal and injections. Does not predict cramps or individual pain.',source:'CT-22',match:nonInvasive,detail:m=>m.pain+' '+m.physical},
  {id:'cost',label:'Total 3-year cost',description:'Match a user-entered total to the 36-month budget. Published component estimates are incomplete; unknown totals remain uncertain.',source:'CT-41',match:()=>null,detail:m=>m.price+' · '+m.priceContext}
 ]
@@ -48,14 +50,14 @@ export function comparePreferences(weights:PreferenceWeights,filters:PreferenceF
  return {possible,results:ranked,podium,possiblePodium,reviewOnly:active.filter(c=>!c.match&&!c.utility).map(c=>c.label)}
 }
 
-export const preferenceThemes=[['hormones','Hormone exposure'],['health','Long-term health'],['comfort','Comfort & periods'],['effectiveness','Effectiveness'],['fertility','Future fertility'],['cost','Total 3-year cost']] as const
+export const preferenceThemes=[['hormones','Hormone exposure'],['health','Long-term health'],['comfort','Comfort & periods'],['sexual','Sexual feel & spontaneity'],['effectiveness','Effectiveness'],['fertility','Future fertility'],['cost','Total 3-year cost']] as const
 /** Essential comfort is a user-facing constraint, not a prediction of individual pain. */
 export function themeFilters(themes:PreferenceWeights,filters:PreferenceFilters):PreferenceFilters{return {...filters,noProcedure:filters.noProcedure||(themes.comfort??0)>=10}}
-export const defaultThemeWeights=()=>({hormones:8,health:10,comfort:6,effectiveness:10,fertility:10,cost:6})
+export const defaultThemeWeights=()=>({hormones:8,health:10,comfort:6,sexual:6,effectiveness:10,fertility:10,cost:6})
 // Equal split of the comfort weight across two documented feature preferences.
 // The health theme uses the limited physical feature proxy; mood remains review-only.
 export function themePreferences(themes:PreferenceWeights):PreferenceWeights{
- return {hormones:themes.hormones??0,physical:themes.health??0,mental:themes.health??0,pain:(themes.comfort??0)/2,cycle:(themes.comfort??0)/2,effectivenessScale:themes.effectiveness??0,fertility:themes.fertility??0,cost:themes.cost??0,convenience:themes.convenience??0,sti:themes.sti??0}
+ return {hormones:themes.hormones??0,physical:themes.health??0,mental:themes.health??0,sexual:themes.sexual??0,sexualEvidence:themes.sexual??0,pain:(themes.comfort??0)/2,cycle:(themes.comfort??0)/2,effectivenessScale:themes.effectiveness??0,fertility:themes.fertility??0,cost:themes.cost??0,convenience:themes.convenience??0,sti:themes.sti??0}
 }
 
 /** 0–1000 display scale; rank from underlying unrounded-to-display points. */

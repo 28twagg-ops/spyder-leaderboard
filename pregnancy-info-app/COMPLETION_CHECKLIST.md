@@ -122,3 +122,5 @@ Evidence: prior preview 8b51b5f76a0d4624cf2c1879021c52da98f82de1; preference/sea
 - [ ] Deploy 0–10 importance scale, proportional defaults, essential comfort threshold at 10, and test upper-half weights and all six slider maxima.
 
 - [ ] Tie-inclusive podium, normalized 0–1000 display points, possible podium disclosure, explicit delivery format comparison and reproducible scenario audit. Verify CI/device behavior and independent clinical review.
+
+- [ ] Seven priority sliders, sexual spontaneity feature and review-only pleasure evidence, 21 acts/month adjustable supply scenario with annual and 36-month examples; source and automated test additions. Clinical and device validation pending.

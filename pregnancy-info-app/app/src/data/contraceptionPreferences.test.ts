@@ -1,6 +1,14 @@
 import {describe,it,expect} from 'vitest'
 import {comparePreferences,defaultPreferenceWeights,defaultPreferenceFilters,themePreferences,themeFilters,preferenceFormats,normalizedMatchScore} from './contraceptionPreferences'
 describe('contraception feature preference matching',()=>{
+ it('scores sexual spontaneity as a per-act feature, not pleasure or safety',()=>{
+  const r=comparePreferences(themePreferences({sexual:10}),defaultPreferenceFilters)
+  expect(r.possible).toBe(10)
+  expect(r.results.find(x=>x.method.slug==='mini-pill')?.minimum).toBe(10)
+  expect(r.results.find(x=>x.method.slug==='external-condom')?.minimum).toBe(0)
+  expect(r.reviewOnly).toContain('Sexual pleasure, desire & lubrication')
+ })
+
  it('keeps every equal cutoff rank on the podium, independent of array order',()=>{
   const r=comparePreferences({fertility:10},defaultPreferenceFilters)
   expect(r.podium).toHaveLength(14)

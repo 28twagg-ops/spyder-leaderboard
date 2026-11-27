@@ -1924,6 +1924,126 @@
       "certainty": "Descriptive product/availability record, not GRADE clinical evidence",
       "sponsorRole": "Not an independent comparative study",
       "integrity": "Market supply and source update status may change"
+    },
+    {
+      "id": "CT-126",
+      "title": "2008 Women's Well-Being and Sexuality Study: contraceptive pleasure and satisfaction",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/19061551/",
+      "design": "Exploratory cross-sectional online survey",
+      "finding": "Condom-primary users had higher adjusted odds of reporting decreased sexual enjoyment than hormonal-only users (OR 6.7, p=.009); this is not a causal estimate or ranking of all methods.",
+      "funding": "Full funding not verified",
+      "coi": "Complete disclosures pending",
+      "bias": "Self-selection, self-report, potential confounding, group rather than brand comparisons.",
+      "access": "Original indexed abstract or page excerpt checked 2026-11-27; full-text/disclosures not fully audited",
+      "verified": "2026-11-27",
+      "certainty": "Preliminary, not formally graded",
+      "sponsorRole": "Not fully audited",
+      "integrity": "Complete correction/retraction and independent review pending"
+    },
+    {
+      "id": "CT-127",
+      "title": "2025 The sex effect: sex-life reasons for contraceptive discontinuation",
+      "url": "https://doi.org/10.1080/26410397.2025.2552589",
+      "design": "Systematic review and meta-analysis of modern methods excluding condoms",
+      "finding": "Subgroup analysis did not support differences by hormone content or method type; few studies directly addressed desire or satisfaction.",
+      "funding": "Full funding not verified",
+      "coi": "Full disclosures pending",
+      "bias": "Heterogeneous definitions and observational discontinuation endpoints; not a direct measure of physical sensation or all methods.",
+      "access": "Original indexed abstract or page excerpt checked 2026-11-27; full-text/disclosures not fully audited",
+      "verified": "2026-11-27",
+      "certainty": "Preliminary, not formally graded",
+      "sponsorRole": "Not fully audited",
+      "integrity": "Complete correction/retraction and independent review pending"
+    },
+    {
+      "id": "CT-128",
+      "title": "2020 systematic review of contraceptive use and female sexual function",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/32694069/",
+      "design": "Systematic review and meta-analysis of FSFI measures",
+      "finding": "Desire subscale lower among contraceptive users (SMD −1.17, 95% CI −2.09 to −0.24; I² 97.7%); no statistically significant differences in other reported domains.",
+      "funding": "Full funding not verified",
+      "coi": "Full disclosures pending",
+      "bias": "Extreme heterogeneity, mixed methods and populations; not a causal or product-specific comparison.",
+      "access": "Original indexed abstract or page excerpt checked 2026-11-27; full-text/disclosures not fully audited",
+      "verified": "2026-11-27",
+      "certainty": "Preliminary, not formally graded",
+      "sponsorRole": "Not fully audited",
+      "integrity": "Complete correction/retraction and independent review pending"
+    },
+    {
+      "id": "CT-129",
+      "title": "ACOG barrier methods FAQ",
+      "url": "https://www.acog.org/womens-health/faqs/barrier-methods-of-birth-control-spermicide-condom-sponge-diaphragm-and-cervical-cap",
+      "design": "Professional guidance",
+      "finding": "Barrier methods have distinct preparation and repeated-use requirements; local irritation can occur. Check product directions.",
+      "funding": "Professional organization; underlying study funding not audited",
+      "coi": "Panel interests not verified",
+      "bias": "Descriptive usage characteristics, not sexual pleasure scores.",
+      "access": "Original indexed abstract or page excerpt checked 2026-11-27; full-text/disclosures not fully audited",
+      "verified": "2026-11-27",
+      "certainty": "Preliminary, not formally graded",
+      "sponsorRole": "Not fully audited",
+      "integrity": "Complete correction/retraction and independent review pending"
+    },
+    {
+      "id": "CT-130",
+      "title": "Planned Parenthood spermicide price examples",
+      "url": "https://www.plannedparenthood.org/learn/birth-control/spermicide/how-do-i-get-spermicide",
+      "design": "Consumer price guidance",
+      "finding": "Typical example $0.60–$3 per dose; free or lower-cost supply may be available.",
+      "funding": "Nonprofit provider",
+      "coi": "Not a clinical efficacy study",
+      "bias": "Not an all-in quote, varies by product and access; not Phexxi pricing.",
+      "access": "Original indexed abstract or page excerpt checked 2026-11-27; full-text/disclosures not fully audited",
+      "verified": "2026-11-27",
+      "certainty": "Preliminary, not formally graded",
+      "sponsorRole": "Not fully audited",
+      "integrity": "Complete correction/retraction and independent review pending"
+    },
+    {
+      "id": "CT-131",
+      "title": "Drugs.com Phexxi price guide",
+      "url": "https://www.drugs.com/price-guide/phexxi",
+      "design": "Commercial discount-price listing",
+      "finding": "Indexed example $361.66 per 12 applicators; prices vary.",
+      "funding": "Commercial price service",
+      "coi": "Commercial interest; not independent clinical evidence",
+      "bias": "Illustrative cash-price listing, not guaranteed quote or current stock; does not include visits, coverage or assistance.",
+      "access": "Original indexed abstract or page excerpt checked 2026-11-27; full-text/disclosures not fully audited",
+      "verified": "2026-11-27",
+      "certainty": "Preliminary, not formally graded",
+      "sponsorRole": "Not fully audited",
+      "integrity": "Complete correction/retraction and independent review pending"
+    },
+    {
+      "id": "CT-132",
+      "title": "CDC condom use overview",
+      "url": "https://www.cdc.gov/condom-use/",
+      "design": "Public-health guidance",
+      "finding": "New condom for every act of intercourse.",
+      "funding": "US federal publisher",
+      "coi": "Not assessed",
+      "bias": "Use guidance, not comparative pleasure or price evidence.",
+      "access": "Original indexed abstract or page excerpt checked 2026-11-27; full-text/disclosures not fully audited",
+      "verified": "2026-11-27",
+      "certainty": "Preliminary, not formally graded",
+      "sponsorRole": "Not fully audited",
+      "integrity": "Complete correction/retraction and independent review pending"
+    },
+    {
+      "id": "CT-133",
+      "title": "Phexxi FDA label via DailyMed",
+      "url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=173ff411-7227-47b0-94dc-844e1ebaf14e",
+      "design": "Regulatory label",
+      "finding": "Per-act single-use applicator; local and urinary adverse effects listed.",
+      "funding": "Applicant labeling",
+      "coi": "Manufacturer commercial interest",
+      "bias": "Label for administration, not independent clinical pleasure comparison.",
+      "access": "Original indexed abstract or page excerpt checked 2026-11-27; full-text/disclosures not fully audited",
+      "verified": "2026-11-27",
+      "certainty": "Preliminary, not formally graded",
+      "sponsorRole": "Not fully audited",
+      "integrity": "Complete correction/retraction and independent review pending"
     }
   ],
   "sections": [
@@ -2273,6 +2393,17 @@
             "CT-99",
             "CT-59"
           ]
+        ],
+        [
+          "Frequency changes supply cost",
+          "For a scenario of 21 sex days per month and one act per day, 252 per-act supplies are needed per year, or 756 over three years. At $0.60–$3 per dose, OTC spermicide alone would cost approximately $151–$756 per year, excluding other supplies. Phexxi requires its own per-act applicators and prescription pricing; a $361.66 example per box of 12 gives about $7,595 per year (21 boxes). Actual coverage or local quotes can differ greatly. Diaphragms/caps also require compatible gel; sponge/cap duration and replacement rules vary.",
+          [
+            "CT-130",
+            "CT-131",
+            "CT-133",
+            "CT-129",
+            "CT-132"
+          ]
         ]
       ]
     },
@@ -2581,6 +2712,17 @@
             "CT-06",
             "CT-24",
             "CT-25"
+          ]
+        ],
+        [
+          "Sexual feel, spontaneity and satisfaction",
+          "These are distinct outcomes. Condoms may change sensation and lubrication; barriers and gels can require preparation around sex. Hormonal methods may affect desire or lubrication for some people, but outcomes vary and no robust universal sexual pleasure ranking exists. A 2008 exploratory survey associated condom-primary use with more reports of decreased enjoyment, while a 2025 review excluding condoms found insufficient evidence of differences by method in sex-life-related discontinuation. A 2020 sexual-function review found lower desire but very high heterogeneity; no reliable individual prediction. Consider both partners' experience and STI prevention separately.",
+          [
+            "CT-126",
+            "CT-127",
+            "CT-128",
+            "CT-129",
+            "CT-132"
           ]
         ]
       ]
@@ -5587,7 +5729,11 @@
         "CT-07",
         "CT-24",
         "CT-25",
-        "CT-27"
+        "CT-27",
+        "CT-126",
+        "CT-127",
+        "CT-128",
+        "CT-129"
       ],
       "slug": "copper-iud",
       "art": "iud",
@@ -5619,7 +5765,11 @@
         "CT-12",
         "CT-25",
         "CT-32",
-        "CT-34"
+        "CT-34",
+        "CT-126",
+        "CT-127",
+        "CT-128",
+        "CT-129"
       ],
       "slug": "hormonal-iud",
       "art": "iud",
@@ -5650,7 +5800,11 @@
         "CT-12",
         "CT-24",
         "CT-34",
-        "CT-35"
+        "CT-35",
+        "CT-126",
+        "CT-127",
+        "CT-128",
+        "CT-129"
       ],
       "slug": "implant",
       "art": "implant",
@@ -5682,7 +5836,11 @@
         "CT-24",
         "CT-30",
         "CT-31",
-        "CT-32"
+        "CT-32",
+        "CT-126",
+        "CT-127",
+        "CT-128",
+        "CT-129"
       ],
       "slug": "injection",
       "art": "injection",
@@ -5714,7 +5872,11 @@
         "CT-11",
         "CT-12",
         "CT-13",
-        "CT-35"
+        "CT-35",
+        "CT-126",
+        "CT-127",
+        "CT-128",
+        "CT-129"
       ],
       "slug": "combined-pill",
       "art": "pill",
@@ -5746,7 +5908,11 @@
         "CT-11",
         "CT-12",
         "CT-13",
-        "CT-35"
+        "CT-35",
+        "CT-126",
+        "CT-127",
+        "CT-128",
+        "CT-129"
       ],
       "slug": "patch",
       "art": "patch",
@@ -5778,7 +5944,11 @@
         "CT-11",
         "CT-12",
         "CT-13",
-        "CT-35"
+        "CT-35",
+        "CT-126",
+        "CT-127",
+        "CT-128",
+        "CT-129"
       ],
       "slug": "ring",
       "art": "ring",
@@ -5810,7 +5980,11 @@
         "CT-11",
         "CT-12",
         "CT-34",
-        "CT-35"
+        "CT-35",
+        "CT-126",
+        "CT-127",
+        "CT-128",
+        "CT-129"
       ],
       "slug": "mini-pill",
       "art": "pill",
@@ -5837,7 +6011,11 @@
       "fertility": "No pharmacologic washout; underlying fertility still varies",
       "profileSources": [
         "CT-01",
-        "CT-03"
+        "CT-03",
+        "CT-126",
+        "CT-127",
+        "CT-128",
+        "CT-129"
       ],
       "slug": "external-condom",
       "art": "barrier",
@@ -5864,7 +6042,11 @@
       "fertility": "No pharmacologic washout; underlying fertility still varies",
       "profileSources": [
         "CT-01",
-        "CT-03"
+        "CT-03",
+        "CT-126",
+        "CT-127",
+        "CT-128",
+        "CT-129"
       ],
       "slug": "internal-condom",
       "art": "barrier",
@@ -5891,7 +6073,11 @@
       "fertility": "No pharmacologic washout; underlying fertility still varies",
       "profileSources": [
         "CT-01",
-        "CT-03"
+        "CT-03",
+        "CT-126",
+        "CT-127",
+        "CT-128",
+        "CT-129"
       ],
       "slug": "diaphragm",
       "art": "cup",
@@ -5918,7 +6104,11 @@
       "fertility": "No pharmacologic washout; underlying fertility still varies",
       "profileSources": [
         "CT-01",
-        "CT-03"
+        "CT-03",
+        "CT-126",
+        "CT-127",
+        "CT-128",
+        "CT-129"
       ],
       "slug": "cervical-cap",
       "art": "cup",
@@ -5945,7 +6135,11 @@
       "fertility": "No pharmacologic washout; underlying fertility still varies",
       "profileSources": [
         "CT-01",
-        "CT-03"
+        "CT-03",
+        "CT-126",
+        "CT-127",
+        "CT-128",
+        "CT-129"
       ],
       "slug": "sponge",
       "art": "cup",
@@ -5972,7 +6166,11 @@
       "fertility": "No pharmacologic washout; underlying fertility still varies",
       "profileSources": [
         "CT-01",
-        "CT-03"
+        "CT-03",
+        "CT-126",
+        "CT-127",
+        "CT-128",
+        "CT-129"
       ],
       "slug": "gel",
       "art": "gel",
@@ -5999,7 +6197,11 @@
       "fertility": "No pharmacologic washout; underlying fertility still varies",
       "profileSources": [
         "CT-01",
-        "CT-09"
+        "CT-09",
+        "CT-126",
+        "CT-127",
+        "CT-128",
+        "CT-129"
       ],
       "slug": "fertility-awareness",
       "art": "cycle",

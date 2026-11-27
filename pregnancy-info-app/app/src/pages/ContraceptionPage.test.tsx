@@ -5,6 +5,18 @@ import App from '../App'
 import {contraception} from '../data/contraception'
 afterEach(()=>{cleanup();localStorage.clear()})
 describe('preconception contraception navigation',()=>{
+ it('shows the sexual experience slider and adjustable annual supply scenario',async()=>{
+  render(<MemoryRouter initialEntries={['/contraception']}><App/></MemoryRouter>)
+  const panel=await screen.findByRole('region',{name:'Personal preference comparison'})
+  expect(within(panel).getByRole('slider',{name:'Sexual feel & spontaneity'})).toHaveAttribute('max','10')
+  fireEvent.click(within(panel).getByText('Cost scenario · 21 acts/month'))
+  const input=within(panel).getByLabelText('Sex acts per month')
+  expect(input).toHaveValue(21)
+  expect(within(panel).getByText('252 acts/year · 756 over three years.',{exact:false})).toBeInTheDocument()
+  fireEvent.change(input,{target:{value:'10'}})
+  expect(within(panel).getByText('120 acts/year · 360 over three years.',{exact:false})).toBeInTheDocument()
+ })
+
  it('shows tie-inclusive results and lets users choose an actual delivery format',async()=>{
   render(<MemoryRouter initialEntries={['/contraception']}><App/></MemoryRouter>)
   const panel=await screen.findByRole('region',{name:'Personal preference comparison'})
@@ -14,7 +26,7 @@ describe('preconception contraception navigation',()=>{
   expect(within(live).getAllByRole('link')).toHaveLength(1)
   expect(within(live).getByRole('link',{name:/Spermicide \/ pH regulator/})).toBeVisible()
   fireEvent.change(within(panel).getByRole('combobox',{name:'Preferred delivery format'}),{target:{value:'all'}})
-  const group=within(panel).getByRole('group',{name:'Six priority sliders'})
+  const group=within(panel).getByRole('group',{name:'Seven priority sliders'})
   for(const slider of within(group).getAllByRole('slider'))fireEvent.change(slider,{target:{value:'0'}})
   fireEvent.change(within(group).getByRole('slider',{name:'Future fertility'}),{target:{value:'10'}})
   expect(within(live).getAllByRole('link')).toHaveLength(14)
@@ -30,14 +42,14 @@ describe('preconception contraception navigation',()=>{
   expect(within(table).getByRole('link',{name:/Opill/})).toBeVisible()
   fireEvent.click(within(table).getByRole('button',{name:'Show products for Spermicide / pH regulator'}))
   expect(within(table).getByRole('link',{name:/Phexxi/})).toBeVisible()
-  const group=screen.getByRole('group',{name:'Six priority sliders'})
+  const group=screen.getByRole('group',{name:'Seven priority sliders'})
   fireEvent.change(within(group).getByRole('slider',{name:'Comfort & periods'}),{target:{value:'10'}})
   expect(within(table).getByRole('link',{name:/Copper IUD/})).toBeVisible()
   expect(within(table).getAllByText('Excluded').length).toBeGreaterThan(0)
  })
- it('applies the essential comfort filter even when all six priorities are high',async()=>{
+ it('applies the essential comfort filter even when all seven priorities are high',async()=>{
   render(<MemoryRouter initialEntries={['/contraception']}><App/></MemoryRouter>)
-  const group=await screen.findByRole('group',{name:'Six priority sliders'})
+  const group=await screen.findByRole('group',{name:'Seven priority sliders'})
   for(const s of within(group).getAllByRole('slider'))fireEvent.change(s,{target:{value:'10'}})
   expect(screen.getByText(/Comfort essential: excludes IUDs/)).toBeVisible()
   const live=screen.getByRole('region',{name:'Live top three matches'})
@@ -70,14 +82,14 @@ describe('preconception contraception navigation',()=>{
   expect(new Set(contraception.products.map(p=>p.id)).size).toBe(contraception.products.length)
   expect(contraception.products.every(p=>p.sourceIds.length>0&&p.sourceIds.every(id=>ids.has(id))&&contraception.sections.some(s=>s.id===p.id))).toBe(true)
  })
- it('shows six compact sliders and live matches directly on the landing page',async()=>{
+ it('shows seven compact sliders and live matches directly on the landing page',async()=>{
   render(<MemoryRouter initialEntries={['/contraception']}><App/></MemoryRouter>)
   const panel=await screen.findByRole('region',{name:'Personal preference comparison'})
   const live=within(panel).getByRole('region',{name:'Live top three matches'})
   expect(within(live).getByRole('heading',{name:'Your top three matches'})).toBeVisible()
-  const group=within(panel).getByRole('group',{name:'Six priority sliders'})
+  const group=within(panel).getByRole('group',{name:'Seven priority sliders'})
   const sliders=within(group).getAllByRole('slider')
-  expect(sliders).toHaveLength(6)
+  expect(sliders).toHaveLength(7)
   expect(sliders.every(s=>s.getAttribute('max')==='10')).toBe(true)
   for(const slider of sliders)fireEvent.change(slider,{target:{value:'0'}})
   fireEvent.change(within(group).getByRole('slider',{name:'Hormone exposure'}),{target:{value:'10'}})
