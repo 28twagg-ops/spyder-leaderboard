@@ -13,6 +13,12 @@ describe('visual reference catalog', () => {
     expect(articleVisuals('EV-ART-027', ['EV-V001', 'EV-V029']).map((row) => row.id)).toEqual(['EV-V001'])
     expect(articleVisuals('unknown', ['EV-V001'])).toEqual([])
   })
+  it('adds relevant original reference links without unlocking medical artwork',()=>{
+    expect(articleVisuals('EV-ART-006',['EV-V037']).map(row=>row.id)).toEqual(['EV-V037'])
+    expect(articleVisuals('EV-ART-043',['EV-V019','EV-V020','EV-V025']).map(row=>row.id)).toEqual(['EV-V019','EV-V020','EV-V025'])
+    expect(articleVisuals('EV-ART-037',['EV-V025'])).toEqual([])
+    expect(visualCatalog.every(row=>!mayPublishVisual(row))).toBe(true)
+  })
   it('rejects insecure and executable external URLs', () => {
     expect(safeVisualUrl('javascript:alert(1)')).toBeUndefined()
     expect(safeVisualUrl('http://example.com')).toBeUndefined()

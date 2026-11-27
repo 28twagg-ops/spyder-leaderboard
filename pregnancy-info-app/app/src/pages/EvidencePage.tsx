@@ -34,8 +34,11 @@ function Provenance({ sourceId, origin, blob, index, locator }: {
         {source?.pmid && <p>PMID: {source.pmid}</p>}
         <p>Funding: {displayValue(source?.funding)}</p>
         <p>Financial ties: {displayValue(source?.financial_ties)}</p>
+        {source?.cohort&&<p>Recorded study group: {source.cohort} (may overlap other reports)</p>}
+        <p className="small-copy muted">Complete original record is retained in the research repository. The app carries only display fields.</p>
         <p className="muted">Not recorded does not mean independent or conflict-free. Source metadata is itself pending appraisal.</p>
         <p>Repository origin: {origin ?? 'Not recorded'}</p>
+        {source?.origin&&<p>Source index origin: {source.origin}{source.index!=null?' · record '+source.index:''}</p>}
         {blob && <p style={{ overflowWrap: 'anywhere' }}>Origin blob: {blob}</p>}
         {index != null && <p>Origin record index: {index} (zero-based)</p>}
         {locator != null && <p>Locator: {displayValue(locator)}</p>}

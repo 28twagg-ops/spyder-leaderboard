@@ -45,22 +45,107 @@ export function mayPublishVisual(_record: VisualRecord) {
 
 /** Use only explicitly matched links, not a filename or guessed anatomy. */
 const articleLinks: Record<string, string[]> = {
-  'EV-ART-007': ['EV-SVG-2'],
-  'EV-ART-008': ['EV-SVG-2'],
-  'EV-ART-014': ['EV-V004', 'EV-V005', 'EV-V006', 'EV-V007', 'EV-V008', 'EV-V009'],
-  'EV-ART-017': ['EV-SVG-5'],
-  'EV-ART-018': ['EV-V003', 'EV-SVG-1'],
-  'EV-ART-019': ['EV-V011'],
-  'EV-ART-020': ['EV-V002'],
-  'EV-ART-024': ['EV-V026'],
-  'EV-ART-027': ['EV-V001'],
-  'EV-ART-028': ['EV-V002'],
-  'EV-ART-031': ['EV-V003'],
-  'EV-ART-032': ['EV-V011'],
-  'EV-ART-036': ['EV-V021', 'EV-V022'],
-  'EV-ART-042': ['EV-V033'],
-  'EV-ART-043': ['EV-V025'],
-  'EV-ART-044': ['EV-V025'],
+  "EV-ART-001": [
+    "EV-V010"
+  ],
+  "EV-ART-004": [
+    "EV-V010"
+  ],
+  "EV-ART-005": [
+    "EV-V037"
+  ],
+  "EV-ART-006": [
+    "EV-V037"
+  ],
+  "EV-ART-013": [
+    "EV-V026"
+  ],
+  "EV-ART-014": [
+    "EV-V004",
+    "EV-V005",
+    "EV-V006",
+    "EV-V007",
+    "EV-V008",
+    "EV-V009"
+  ],
+  "EV-ART-007": [
+    "EV-SVG-2"
+  ],
+  "EV-ART-008": [
+    "EV-SVG-2"
+  ],
+  "EV-ART-017": [
+    "EV-SVG-5"
+  ],
+  "EV-ART-018": [
+    "EV-V003",
+    "EV-SVG-1"
+  ],
+  "EV-ART-019": [
+    "EV-V011"
+  ],
+  "EV-ART-020": [
+    "EV-V002"
+  ],
+  "EV-ART-021": [
+    "EV-V004"
+  ],
+  "EV-ART-022": [
+    "EV-V015"
+  ],
+  "EV-ART-024": [
+    "EV-V026"
+  ],
+  "EV-ART-027": [
+    "EV-V001"
+  ],
+  "EV-ART-028": [
+    "EV-V002"
+  ],
+  "EV-ART-030": [
+    "EV-V002"
+  ],
+  "EV-ART-031": [
+    "EV-V003"
+  ],
+  "EV-ART-032": [
+    "EV-V011",
+    "EV-V034"
+  ],
+  "EV-ART-033": [
+    "EV-V034"
+  ],
+  "EV-ART-034": [
+    "EV-V018"
+  ],
+  "EV-ART-035": [
+    "EV-V034"
+  ],
+  "EV-ART-036": [
+    "EV-V021",
+    "EV-V022",
+    "EV-V031"
+  ],
+  "EV-ART-042": [
+    "EV-V033"
+  ],
+  "EV-ART-043": [
+    "EV-V019",
+    "EV-V020",
+    "EV-V025"
+  ],
+  "EV-ART-044": [
+    "EV-V025"
+  ],
+  "EV-ART-045": [
+    "EV-V033"
+  ],
+  "EV-ART-046": [
+    "EV-V034"
+  ],
+  "EV-ART-047": [
+    "EV-V034"
+  ]
 }
 export function articleVisuals(articleId: string, candidateIds: string[] = []) {
   const allowed = articleLinks[articleId] ?? []

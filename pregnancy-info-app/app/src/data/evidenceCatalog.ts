@@ -48,6 +48,8 @@ export interface EvidenceSource {
   cohort?: string | null
   review_status?: string
   origin?: string
+  index?: number
+  origin_blob_sha?: string
 }
 export const outcomes = outcomesJson as OutcomeRow[]
 export const nutrients = nutrientsJson as NutrientRow[]

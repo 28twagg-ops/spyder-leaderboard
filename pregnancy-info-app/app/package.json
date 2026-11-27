@@ -14,7 +14,7 @@
     "prebuild": "node scripts/sync-research.mjs",
     "test": "vitest run",
     "test:watch": "vitest",
-    "validate:research": "python ../research/integrated/validate_import.py && python ../research/child-health/validate.py",
+    "validate:research": "node scripts/run-research-validators.mjs",
     "postbuild": "node scripts/check-production-media.mjs",
     "build:portable": "node scripts/build-portable.mjs",
     "prebuild:portable": "node scripts/sync-research.mjs",

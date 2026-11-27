@@ -3,6 +3,7 @@
  * Does not promote clinical publication; preserves draft + hold metadata.
  */
 import fs from 'node:fs'
+import { prepareDisplayData } from './prepare-display-data.mjs'
 import path from 'node:path'
 import { fileURLToPath } from 'node:url'
 
@@ -88,8 +89,10 @@ const inputs = [
   ...jsonFiles.map(([rel, outName]) => readRequired(rel, outName)),
   ...jsonlFiles.map(([rel, outName]) => readRequired(rel, outName, true)),
 ]
+const prepared=prepareDisplayData(inputs)
+summary.display_projection=prepared.diagnostics
 fs.mkdirSync(outDir, { recursive: true })
-for (const { rel, outName, parsed, bytes } of inputs) {
+for (const { rel, outName, parsed, bytes } of prepared.inputs) {
   writeSynced(outName, rel, parsed, bytes)
 }
 

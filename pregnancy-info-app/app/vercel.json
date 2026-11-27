@@ -16,5 +16,5 @@
       ]
     }
   ],
-  "buildCommand": "npm run lint && npm test && npm run build && npm run audit:dependencies"
+  "buildCommand": "npm run validate:research && npm run lint && npm test && npm run build && npm run audit:dependencies"
 }

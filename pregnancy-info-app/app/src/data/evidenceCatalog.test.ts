@@ -22,6 +22,17 @@ describe('evidence browser gates', () => {
     expect(browseNutrients().filter((row) => row.held || row.isDoseClaim)
       .every((row) => row.intake === null && row.upper_limit === null)).toBe(true)
   })
+  it('excludes held values and redundant nested original records from the shipped data itself',()=>{
+    const permitted=new Set(['comparison','timepoint','locator','source_locator'])
+    for(const row of outcomes){
+      if(hasEvidenceHold(row)){expect(row.estimate).toBeNull();expect(row.lower).toBeNull();expect(row.upper).toBeNull();expect(row.record).toBeUndefined()}
+      else expect(Object.keys(row.record??{}).every(key=>permitted.has(key))).toBe(true)
+    }
+    for(const row of nutrients){
+      if(hasEvidenceHold(row)||row.is_dose){expect(row.intake).toBeNull();expect(row.upper_limit).toBeNull();expect(row.record).toBeUndefined()}
+      else expect(Object.keys(row.record??{}).every(key=>key==='locator')).toBe(true)
+    }
+  })
   it('makes all rows reachable without truncation', () => {
     const o = filterOutcomes()
     const n = filterNutrients()
