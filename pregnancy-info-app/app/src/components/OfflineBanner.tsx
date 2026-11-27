@@ -23,7 +23,7 @@ export function OfflineBanner() {
         {online ? 'Online' : 'Offline'}
       </div>
       <p className="muted" style={{ margin: '0.55rem 0 0', fontSize: '0.9rem' }}>
-        Research package synced {new Date(syncMeta.synced_at).toLocaleString()}. Content remains a
+        Research package generated {new Date(syncMeta.synced_at).toLocaleString()}. Packaging time is not an evidence review date. Content remains a
         research draft snapshot — not live clinical guidance.
         {!online &&
           ' Cached pages may still open; do not treat offline copies as updated medical advice. Urgent care still requires real-world emergency services.'}
