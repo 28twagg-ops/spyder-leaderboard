@@ -88,7 +88,7 @@
     }
   ],
   "baseline_failures": [],
-  "methods": "Web-indexed publisher pages, individual episode show notes, selected transcript excerpts, official book/film descriptions. No audio or film playback/full-book reading. Dedup normalized URL against listed source archives and this batch; work/episode/replay, alternate video translations, exact claim, DOI and whole-project identity reconciliation still pending. No clinical content cleared. Related literature separately labeled and not counted as additional media. Additional dedicated media catalogues were checked on normalized URL; added primary and review comparisons for home birth, fetal position, donor milk, cord clamping, marketing, fetal learning and attachment. Comparisons are not claimed to be exact citations except series identification where explicitly noted.",
+  "methods": "Web-indexed publisher pages, individual episode show notes, selected transcript excerpts, official book/film descriptions. No audio or film playback/full-book reading. Dedup normalized URL against listed source archives and this batch; work/episode/replay, alternate video translations, exact claim, DOI and whole-project identity reconciliation still pending. No clinical content cleared. Related literature separately labeled and not counted as additional media. Additional dedicated media catalogues were checked on normalized URL; added primary and review comparisons for home birth, fetal position, donor milk, cord clamping, marketing, fetal learning and attachment. Comparisons are not claimed to be exact citations except series identification where explicitly noted. Corrected URL normalization; reran first ten baseline files; prior zero-match count superseded. Remaining baseline files still require corrected pass.",
   "records": [
     {
       "url": "https://evidencebasedbirth.com/ebb-418-evidence-on-natural-labor-induction-castor-oil-and-eating-dates/",
@@ -2782,5 +2782,53 @@
       "id": "MED3-101"
     }
   ],
-  "duplicate_screening": []
+  "duplicate_screening": [],
+  "corrected_dedup_passes": [
+    {
+      "files": [
+        {
+          "path": "app/src/data/imported/source_index.json",
+          "sha": "d475aa4e01d9109f5c4ed26ccd4e949f5d7505c2"
+        },
+        {
+          "path": "research/SOURCE_REGISTRY.json",
+          "sha": "863e99808fd8e8795dc0144c3396e147fcee05de"
+        },
+        {
+          "path": "research/development/international/INTERNATIONAL_SOURCE_LEADS.json",
+          "sha": "cc6a784a008d9efc5dc0d0258eaaabab89722011"
+        },
+        {
+          "path": "research/development/traditional-practices/source-checks.json",
+          "sha": "e952c166cc4cbb1e8f17f77602337df463e880fe"
+        },
+        {
+          "path": "research/development/traditional-practices/EXPANDED_DISCOVERY_REGISTER.md",
+          "sha": "2123515c3a5c56070294e7fb5a17fc075ae0a132"
+        },
+        {
+          "path": "research/development/traditional-practices/EVIDENCE_CONTINUATION.md",
+          "sha": "e96a2812f810ef41c7112da65b074202ffdd833e"
+        },
+        {
+          "path": "research/development/traditional-practices/ADDITIONAL_DISCOVERY_121_200.md",
+          "sha": "675478d48d132eacd8544ca54effef112c5a4b87"
+        },
+        {
+          "path": "research/development/traditional-practices/stage-02/BATCH_01.json",
+          "sha": "07eacf704e0c29df2653bd350fa9219c1d9ba8dd"
+        },
+        {
+          "path": "research/development/international/stage-01/BATCH_01.json",
+          "sha": "0f9dda9a26950a996f2412c2c222ee3ab02fe834"
+        },
+        {
+          "path": "research/development/international/stage-01/BATCH_02.json",
+          "sha": "876c2df0159d50a831aa0a926f71f154a2583a12"
+        }
+      ],
+      "unique_normalized_archive_urls": 1200,
+      "failures": []
+    }
+  ]
 }
