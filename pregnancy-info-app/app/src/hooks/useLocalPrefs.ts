@@ -1,4 +1,4 @@
-import { useEffect, useState } from 'react'
+import { createContext, createElement, useContext, useEffect, useState, type ReactNode } from 'react'
 import {
   DEFAULT_THEME,
   applyTheme,
@@ -14,7 +14,7 @@ export interface LocalPrefs {
   themeId: ThemeId
 }
 
-const KEY = 'everwell.local.prefs.v1'
+export const PREFS_KEY = 'everwell.local.prefs.v1'
 
 const defaults: LocalPrefs = {
   selectedPhaseId: null,
@@ -26,7 +26,7 @@ const defaults: LocalPrefs = {
 
 function readPrefs(): LocalPrefs {
   try {
-    const raw = localStorage.getItem(KEY)
+    const raw = localStorage.getItem(PREFS_KEY)
     if (!raw) return { ...defaults }
     const parsed = JSON.parse(raw) as Partial<LocalPrefs> | null
     if (!parsed || typeof parsed !== 'object' || Array.isArray(parsed)) return { ...defaults }
@@ -42,13 +42,14 @@ function readPrefs(): LocalPrefs {
   }
 }
 
-export function useLocalPrefs() {
+function usePrefsState() {
   // Read once before the first persistence effect so a saved theme is not overwritten on mount.
   const [prefs, setPrefs] = useState<LocalPrefs>(readPrefs)
 
   useEffect(() => {
     try {
-      localStorage.setItem(KEY, JSON.stringify(prefs))
+      if (JSON.stringify(prefs) === JSON.stringify(defaults)) localStorage.removeItem(PREFS_KEY)
+      else localStorage.setItem(PREFS_KEY, JSON.stringify(prefs))
     } catch {
       // ignore quota / private mode
     }
@@ -87,7 +88,7 @@ export function useLocalPrefs() {
   function clearPrefs() {
     setPrefs({ ...defaults })
     try {
-      localStorage.removeItem(KEY)
+      localStorage.removeItem(PREFS_KEY)
     } catch {
       // ignore
     }
@@ -103,4 +104,17 @@ export function useLocalPrefs() {
     exportPrefs,
     clearPrefs,
   }
+}
+
+const LocalPrefsContext = createContext<ReturnType<typeof usePrefsState> | null>(null)
+
+export function LocalPrefsProvider({ children }: { children: ReactNode }) {
+  const value = usePrefsState()
+  return createElement(LocalPrefsContext.Provider, { value }, children)
+}
+
+export function useLocalPrefs() {
+  const value = useContext(LocalPrefsContext)
+  if (!value) throw new Error('LocalPrefsProvider is required')
+  return value
 }
