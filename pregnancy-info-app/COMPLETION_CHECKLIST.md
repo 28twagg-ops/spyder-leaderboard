@@ -207,3 +207,6 @@ Commit b163680f2c207640e3ea5c272bd83a77015d45ce, Vercel dpl_HKfGTMQqx5gX6hQKa78C
 - 2026-11-27 — [All-source appraisal checkpoint](research/source-review/README.md): 770/770 source origin records resolved; crosswalk of archived claims, outcomes, cohorts and candidate article destinations; 329 funding and 230 financial-interest note records, including unknowns; nine freshly checked original sources. No full independent bias appraisal or clinical clearance completed, and app citation coverage unchanged. See source-review shards and priority findings. All prior holds preserved.
 
 - [x] DOC-current: verified Pages 48e5f6ad deployment (430 tests/23 suites), created CURRENT_TRANSFER.md and open-source discovery standard; N01–N12 remain open as listed. No source-level clinical or real-device acceptance implied.
+
+- [x] ST1–7 targeted first development batch: source-check ledger, stage learning questions and app pathways authored; branch commits record implementation. Clinical and CI/owner verification pending.
+- [ ] ST1–7 comprehensive completion: full independent claim/funding/retraction/media audit, complete week/stage editorial depth, nutrition/product and maternal/paternal/environmental comparisons, clinical and device review. See batch report.
