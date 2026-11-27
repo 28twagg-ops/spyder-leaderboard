@@ -1,0 +1,3769 @@
+{
+  "scope": "Archived source-specific evidence; not independent validation.",
+  "records": [
+    {
+      "id": "P3-21",
+      "origin": "research/staged-completion/stage-03/SOURCES.json",
+      "origin_index": 20,
+      "origin_blob_sha": "27d4a430f3ded64a2025ce81f04159ce2cbc4952",
+      "original_title": "Effects of acupuncture and stabilising exercises as adjunct to standard treatment in pregnant women with pelvic girdle pain",
+      "archive_extraction": {
+        "design": "Randomized single-blind 3-arm trial",
+        "population": "386 pregnant women randomized",
+        "limitations": "Mixed including insurer; not independent-only; no sham in this trial, see P3-22; compare same-cohort follow-up/harms separately",
+        "access": "Full text results and funding",
+        "correction_retraction_status": "comprehensive check pending",
+        "publication_status": "staged; not automatic guidance",
+        "funding": "Vardal Foundation, Dagmar Foundation, Trygg-Hansa Insurance Company, Sahlgrenska University Foundation; no sponsor role reported",
+        "conflicts": "None declared"
+      },
+      "archived_funding_notes": [
+        "Vardal Foundation, Dagmar Foundation, Trygg-Hansa Insurance Company, Sahlgrenska University Foundation; no sponsor role reported"
+      ],
+      "archived_financial_interest_notes": [
+        "None declared"
+      ],
+      "archived_finding_present": false,
+      "archived_design_or_limitations_present": true,
+      "next_checks": [
+        "Read original results or applicable non-clinical source purpose; extract source-specific finding and locator.",
+        "Verify original identity/version and correction/retraction status; assess bias and claim applicability before release."
+      ],
+      "scope": "Original repository record matched by source ID, not a newly inspected external publication.",
+      "independent_bias_appraisal_complete": false,
+      "clinical_review": false,
+      "publish": false
+    },
+    {
+      "id": "P3-22",
+      "origin": "research/staged-completion/stage-03/SOURCES.json",
+      "origin_index": 21,
+      "origin_blob_sha": "27d4a430f3ded64a2025ce81f04159ce2cbc4952",
+      "original_title": "Acupuncture as an adjunct to standard treatment for pelvic girdle pain in pregnant women: randomised double-blinded controlled trial comparing acupuncture with non-penetrating sham acupuncture",
+      "archive_extraction": {
+        "design": "Sham controlled RCT",
+        "population": "Pregnancy pelvic girdle pain",
+        "limitations": "Full primary outcomes and disclosures pending; no needle instructions",
+        "access": "Indexed primary identity and Cochrane synthesis",
+        "correction_retraction_status": "comprehensive check pending",
+        "publication_status": "staged; not automatic guidance",
+        "funding": "Not verified"
+      },
+      "archived_funding_notes": [
+        "Not verified"
+      ],
+      "archived_financial_interest_notes": [],
+      "archived_finding_present": false,
+      "archived_design_or_limitations_present": true,
+      "next_checks": [
+        "Read original results or applicable non-clinical source purpose; extract source-specific finding and locator.",
+        "Extract author/institution interests and disclosure status from original source.",
+        "Verify original identity/version and correction/retraction status; assess bias and claim applicability before release."
+      ],
+      "scope": "Original repository record matched by source ID, not a newly inspected external publication.",
+      "independent_bias_appraisal_complete": false,
+      "clinical_review": false,
+      "publish": false
+    },
+    {
+      "id": "P3-23",
+      "origin": "research/staged-completion/stage-03/SOURCES.json",
+      "origin_index": 22,
+      "origin_blob_sha": "27d4a430f3ded64a2025ce81f04159ce2cbc4952",
+      "original_title": "The efficacy of abdominal binder in women undergoing cesarean delivery: A meta-analysis of randomized controlled trials",
+      "archive_extraction": {
+        "design": "Meta-analysis",
+        "population": "Postcesarean patients",
+        "limitations": "Scale and exact denominators pending; short-term support, not permanent waist shaping or DRA correction",
+        "access": "Indexed abstract",
+        "correction_retraction_status": "comprehensive check pending",
+        "publication_status": "staged; not automatic guidance",
+        "funding": "Not verified"
+      },
+      "archived_funding_notes": [
+        "Not verified"
+      ],
+      "archived_financial_interest_notes": [],
+      "archived_finding_present": false,
+      "archived_design_or_limitations_present": true,
+      "next_checks": [
+        "Read original results or applicable non-clinical source purpose; extract source-specific finding and locator.",
+        "Extract author/institution interests and disclosure status from original source.",
+        "Verify original identity/version and correction/retraction status; assess bias and claim applicability before release."
+      ],
+      "scope": "Original repository record matched by source ID, not a newly inspected external publication.",
+      "independent_bias_appraisal_complete": false,
+      "clinical_review": false,
+      "publish": false
+    },
+    {
+      "id": "P3-24",
+      "origin": "research/staged-completion/stage-03/SOURCES.json",
+      "origin_index": 23,
+      "origin_blob_sha": "27d4a430f3ded64a2025ce81f04159ce2cbc4952",
+      "original_title": "Comparison of Silicone Sheets and Paper Tape for the Management of Postoperative Scars: A Randomized Comparative Study",
+      "archive_extraction": {
+        "design": "Split-scar randomized trial",
+        "population": "Horizontal cesarean scars",
+        "limitations": "Paired design, not independent arms; closed/healed scar care per clinician, not open wound",
+        "access": "Indexed abstract",
+        "correction_retraction_status": "comprehensive check pending",
+        "publication_status": "staged; not automatic guidance",
+        "funding": "Not verified"
+      },
+      "archived_funding_notes": [
+        "Not verified"
+      ],
+      "archived_financial_interest_notes": [],
+      "archived_finding_present": false,
+      "archived_design_or_limitations_present": true,
+      "next_checks": [
+        "Read original results or applicable non-clinical source purpose; extract source-specific finding and locator.",
+        "Extract author/institution interests and disclosure status from original source.",
+        "Verify original identity/version and correction/retraction status; assess bias and claim applicability before release."
+      ],
+      "scope": "Original repository record matched by source ID, not a newly inspected external publication.",
+      "independent_bias_appraisal_complete": false,
+      "clinical_review": false,
+      "publish": false
+    },
+    {
+      "id": "P3-25",
+      "origin": "research/staged-completion/stage-03/SOURCES.json",
+      "origin_index": 24,
+      "origin_blob_sha": "27d4a430f3ded64a2025ce81f04159ce2cbc4952",
+      "original_title": "Efficacy of topical silicone gel in scar management: A systematic review and meta-analysis of randomised controlled trials",
+      "archive_extraction": {
+        "design": "Meta-analysis",
+        "population": "Mixed postoperative scars",
+        "limitations": "Indirect to cesarean-specific outcome; underlying trial overlap with S118/119/121 pending",
+        "access": "Indexed results/discussion",
+        "correction_retraction_status": "comprehensive check pending",
+        "publication_status": "staged; not automatic guidance",
+        "funding": "Not verified"
+      },
+      "archived_funding_notes": [
+        "Not verified"
+      ],
+      "archived_financial_interest_notes": [],
+      "archived_finding_present": false,
+      "archived_design_or_limitations_present": true,
+      "next_checks": [
+        "Read original results or applicable non-clinical source purpose; extract source-specific finding and locator.",
+        "Extract author/institution interests and disclosure status from original source.",
+        "Verify original identity/version and correction/retraction status; assess bias and claim applicability before release."
+      ],
+      "scope": "Original repository record matched by source ID, not a newly inspected external publication.",
+      "independent_bias_appraisal_complete": false,
+      "clinical_review": false,
+      "publish": false
+    },
+    {
+      "id": "P3-26",
+      "origin": "research/staged-completion/stage-03/SOURCES.json",
+      "origin_index": 25,
+      "origin_blob_sha": "27d4a430f3ded64a2025ce81f04159ce2cbc4952",
+      "original_title": "A prospective split-scar randomized controlled trial of post-operative silicone tape improves scar appearance",
+      "archive_extraction": {
+        "design": "Split-scar RCT",
+        "population": "Abdominal surgical scars",
+        "limitations": "Do not assume cesarean-specific or endorse brand. Sponsor/product donation and paired effects need verification.",
+        "access": "Indexed article identity/abstract; blocked full-text",
+        "correction_retraction_status": "comprehensive check pending",
+        "publication_status": "staged; not automatic guidance",
+        "funding": "Publisher funding page inaccessible; not verified"
+      },
+      "archived_funding_notes": [
+        "Publisher funding page inaccessible; not verified"
+      ],
+      "archived_financial_interest_notes": [],
+      "archived_finding_present": false,
+      "archived_design_or_limitations_present": true,
+      "next_checks": [
+        "Read original results or applicable non-clinical source purpose; extract source-specific finding and locator.",
+        "Extract author/institution interests and disclosure status from original source.",
+        "Verify original identity/version and correction/retraction status; assess bias and claim applicability before release."
+      ],
+      "scope": "Original repository record matched by source ID, not a newly inspected external publication.",
+      "independent_bias_appraisal_complete": false,
+      "clinical_review": false,
+      "publish": false
+    },
+    {
+      "id": "P3-27",
+      "origin": "research/staged-completion/stage-03/SOURCES.json",
+      "origin_index": 26,
+      "origin_blob_sha": "27d4a430f3ded64a2025ce81f04159ce2cbc4952",
+      "original_title": "Compression stockings prophylaxis of emergent varicose veins in pregnancy: a prospective randomised controlled study",
+      "archive_extraction": {
+        "design": "RCT",
+        "population": "Pregnant participants",
+        "limitations": "Not DVT prophylaxis evidence or individualized compression prescription; symptom relief distinct",
+        "access": "Indexed abstract",
+        "correction_retraction_status": "comprehensive check pending",
+        "publication_status": "staged; not automatic guidance",
+        "funding": "Not verified"
+      },
+      "archived_funding_notes": [
+        "Not verified"
+      ],
+      "archived_financial_interest_notes": [],
+      "archived_finding_present": false,
+      "archived_design_or_limitations_present": true,
+      "next_checks": [
+        "Read original results or applicable non-clinical source purpose; extract source-specific finding and locator.",
+        "Extract author/institution interests and disclosure status from original source.",
+        "Verify original identity/version and correction/retraction status; assess bias and claim applicability before release."
+      ],
+      "scope": "Original repository record matched by source ID, not a newly inspected external publication.",
+      "independent_bias_appraisal_complete": false,
+      "clinical_review": false,
+      "publish": false
+    },
+    {
+      "id": "P3-28",
+      "origin": "research/staged-completion/stage-03/SOURCES.json",
+      "origin_index": 27,
+      "origin_blob_sha": "27d4a430f3ded64a2025ce81f04159ce2cbc4952",
+      "original_title": "Evaluation of the effectiveness of a broad-spectrum sunscreen in the prevention of chloasma in pregnant women",
+      "archive_extraction": {
+        "design": "Uncontrolled prospective study with historical comparison",
+        "population": "185 completed pregnancy study",
+        "limitations": "Historical comparator and selection; no causal risk reduction estimate, no brand recommendation",
+        "access": "Indexed abstract",
+        "correction_retraction_status": "comprehensive check pending",
+        "publication_status": "staged; not automatic guidance",
+        "funding": "Not verified; manufacturer ties must be checked before product-specific claim"
+      },
+      "archived_funding_notes": [
+        "Not verified; manufacturer ties must be checked before product-specific claim"
+      ],
+      "archived_financial_interest_notes": [],
+      "archived_finding_present": false,
+      "archived_design_or_limitations_present": true,
+      "next_checks": [
+        "Read original results or applicable non-clinical source purpose; extract source-specific finding and locator.",
+        "Extract author/institution interests and disclosure status from original source.",
+        "Verify original identity/version and correction/retraction status; assess bias and claim applicability before release."
+      ],
+      "scope": "Original repository record matched by source ID, not a newly inspected external publication.",
+      "independent_bias_appraisal_complete": false,
+      "clinical_review": false,
+      "publish": false
+    },
+    {
+      "id": "P3-29",
+      "origin": "research/staged-completion/stage-03/SOURCES.json",
+      "origin_index": 28,
+      "origin_blob_sha": "27d4a430f3ded64a2025ce81f04159ce2cbc4952",
+      "original_title": "Investigation of exacerbating factors for postpartum hair loss: a questionnaire-based cross-sectional study",
+      "archive_extraction": {
+        "design": "Cross-sectional survey",
+        "population": "Postpartum respondents",
+        "limitations": "Recall/self-report, confounding; no preventive product evidence; persistent/patchy loss needs evaluation",
+        "access": "Indexed primary passages",
+        "correction_retraction_status": "comprehensive check pending",
+        "publication_status": "staged; not automatic guidance",
+        "funding": "Not verified"
+      },
+      "archived_funding_notes": [
+        "Not verified"
+      ],
+      "archived_financial_interest_notes": [],
+      "archived_finding_present": false,
+      "archived_design_or_limitations_present": true,
+      "next_checks": [
+        "Read original results or applicable non-clinical source purpose; extract source-specific finding and locator.",
+        "Extract author/institution interests and disclosure status from original source.",
+        "Verify original identity/version and correction/retraction status; assess bias and claim applicability before release."
+      ],
+      "scope": "Original repository record matched by source ID, not a newly inspected external publication.",
+      "independent_bias_appraisal_complete": false,
+      "clinical_review": false,
+      "publish": false
+    },
+    {
+      "id": "P3-30",
+      "origin": "research/staged-completion/stage-03/SOURCES.json",
+      "origin_index": 29,
+      "origin_blob_sha": "27d4a430f3ded64a2025ce81f04159ce2cbc4952",
+      "original_title": "Topical Acne Treatments",
+      "archive_extraction": {
+        "design": "Teratology education",
+        "population": "Pregnancy/lactation",
+        "limitations": "Do not generalize safety by ingredient to all concentration, route, or breast application; preserve hold RP001",
+        "access": "Indexed original fact sheet",
+        "correction_retraction_status": "comprehensive check pending",
+        "publication_status": "staged; not automatic guidance",
+        "funding": "Organization guidance; study funding separate"
+      },
+      "archived_funding_notes": [
+        "Organization guidance; study funding separate"
+      ],
+      "archived_financial_interest_notes": [],
+      "archived_finding_present": false,
+      "archived_design_or_limitations_present": true,
+      "next_checks": [
+        "Read original results or applicable non-clinical source purpose; extract source-specific finding and locator.",
+        "Extract author/institution interests and disclosure status from original source.",
+        "Verify original identity/version and correction/retraction status; assess bias and claim applicability before release."
+      ],
+      "scope": "Original repository record matched by source ID, not a newly inspected external publication.",
+      "independent_bias_appraisal_complete": false,
+      "clinical_review": false,
+      "publish": false
+    },
+    {
+      "id": "P3-31",
+      "origin": "research/staged-completion/stage-03/SOURCES.json",
+      "origin_index": 30,
+      "origin_blob_sha": "27d4a430f3ded64a2025ce81f04159ce2cbc4952",
+      "original_title": "Potential Risks with Certain Uses of Radiofrequency (RF) Microneedling — FDA Safety Communication",
+      "archive_extraction": {
+        "design": "Regulatory safety communication",
+        "population": "Aesthetic RF microneedling users",
+        "limitations": "No causal risk rate; no home or pregnancy aesthetic device recommendation",
+        "access": "Indexed original FDA notice",
+        "correction_retraction_status": "comprehensive check pending",
+        "publication_status": "staged; not automatic guidance",
+        "funding": "FDA"
+      },
+      "archived_funding_notes": [
+        "FDA"
+      ],
+      "archived_financial_interest_notes": [],
+      "archived_finding_present": false,
+      "archived_design_or_limitations_present": true,
+      "next_checks": [
+        "Read original results or applicable non-clinical source purpose; extract source-specific finding and locator.",
+        "Extract author/institution interests and disclosure status from original source.",
+        "Verify original identity/version and correction/retraction status; assess bias and claim applicability before release."
+      ],
+      "scope": "Original repository record matched by source ID, not a newly inspected external publication.",
+      "independent_bias_appraisal_complete": false,
+      "clinical_review": false,
+      "publish": false
+    },
+    {
+      "id": "P3-32",
+      "origin": "research/staged-completion/stage-03/SOURCES.json",
+      "origin_index": 31,
+      "origin_blob_sha": "27d4a430f3ded64a2025ce81f04159ce2cbc4952",
+      "original_title": "Urgent Maternal Warning Signs and Symptoms",
+      "archive_extraction": {
+        "design": "Public health guidance",
+        "population": "Pregnancy and first year after delivery",
+        "limitations": "Not exhaustive; no automated diagnosis or delay to urgent care",
+        "access": "Indexed original CDC guidance",
+        "correction_retraction_status": "comprehensive check pending",
+        "publication_status": "staged; not automatic guidance",
+        "funding": "CDC"
+      },
+      "archived_funding_notes": [
+        "CDC"
+      ],
+      "archived_financial_interest_notes": [],
+      "archived_finding_present": false,
+      "archived_design_or_limitations_present": true,
+      "next_checks": [
+        "Read original results or applicable non-clinical source purpose; extract source-specific finding and locator.",
+        "Extract author/institution interests and disclosure status from original source.",
+        "Verify original identity/version and correction/retraction status; assess bias and claim applicability before release."
+      ],
+      "scope": "Original repository record matched by source ID, not a newly inspected external publication.",
+      "independent_bias_appraisal_complete": false,
+      "clinical_review": false,
+      "publish": false
+    },
+    {
+      "id": "P3-33",
+      "origin": "research/staged-completion/stage-03/SOURCES.json",
+      "origin_index": 32,
+      "origin_blob_sha": "27d4a430f3ded64a2025ce81f04159ce2cbc4952",
+      "original_title": "Physical Activity and Exercise During Pregnancy and the Postpartum Period",
+      "archive_extraction": {
+        "design": "US professional guidance",
+        "population": "Pregnancy/postpartum",
+        "limitations": "Current reaffirmation and exceptions need release check; no clinical clearance",
+        "access": "Indexed guideline passages",
+        "correction_retraction_status": "comprehensive check pending",
+        "publication_status": "staged; not automatic guidance",
+        "funding": "Panel disclosure not checked"
+      },
+      "archived_funding_notes": [
+        "Panel disclosure not checked"
+      ],
+      "archived_financial_interest_notes": [],
+      "archived_finding_present": false,
+      "archived_design_or_limitations_present": true,
+      "next_checks": [
+        "Read original results or applicable non-clinical source purpose; extract source-specific finding and locator.",
+        "Extract author/institution interests and disclosure status from original source.",
+        "Verify original identity/version and correction/retraction status; assess bias and claim applicability before release."
+      ],
+      "scope": "Original repository record matched by source ID, not a newly inspected external publication.",
+      "independent_bias_appraisal_complete": false,
+      "clinical_review": false,
+      "publish": false
+    },
+    {
+      "id": "P3-34",
+      "origin": "research/staged-completion/stage-03/SOURCES.json",
+      "origin_index": 33,
+      "origin_blob_sha": "27d4a430f3ded64a2025ce81f04159ce2cbc4952",
+      "original_title": "Interventions for preventing and treating low-back and pelvic pain during pregnancy",
+      "archive_extraction": {
+        "design": "Cochrane review",
+        "population": "Pregnancy pain studies",
+        "limitations": "Old search; mixed pain definitions and low-quality comparisons; see P3-21/22",
+        "access": "Indexed full-text passages",
+        "correction_retraction_status": "comprehensive check pending",
+        "publication_status": "staged; not automatic guidance",
+        "funding": "Review and trial funding not fully extracted"
+      },
+      "archived_funding_notes": [
+        "Review and trial funding not fully extracted"
+      ],
+      "archived_financial_interest_notes": [],
+      "archived_finding_present": false,
+      "archived_design_or_limitations_present": true,
+      "next_checks": [
+        "Read original results or applicable non-clinical source purpose; extract source-specific finding and locator.",
+        "Extract author/institution interests and disclosure status from original source.",
+        "Verify original identity/version and correction/retraction status; assess bias and claim applicability before release."
+      ],
+      "scope": "Original repository record matched by source ID, not a newly inspected external publication.",
+      "independent_bias_appraisal_complete": false,
+      "clinical_review": false,
+      "publish": false
+    },
+    {
+      "id": "P3-35",
+      "origin": "research/staged-completion/stage-03/SOURCES.json",
+      "origin_index": 34,
+      "origin_blob_sha": "27d4a430f3ded64a2025ce81f04159ce2cbc4952",
+      "original_title": "Effect of hypopressive and conventional abdominal exercises on postpartum diastasis recti: A randomized controlled trial",
+      "archive_extraction": {
+        "design": "RCT",
+        "population": "Postpartum DRA",
+        "limitations": "No claim premium hypopressive program is superior; absolute estimates and spontaneous recovery pending",
+        "access": "Indexed primary abstract",
+        "correction_retraction_status": "comprehensive check pending",
+        "publication_status": "staged; not automatic guidance",
+        "funding": "Not verified",
+        "conflicts": "Authors declared no competing interests"
+      },
+      "archived_funding_notes": [
+        "Not verified"
+      ],
+      "archived_financial_interest_notes": [
+        "Authors declared no competing interests"
+      ],
+      "archived_finding_present": false,
+      "archived_design_or_limitations_present": true,
+      "next_checks": [
+        "Read original results or applicable non-clinical source purpose; extract source-specific finding and locator.",
+        "Verify original identity/version and correction/retraction status; assess bias and claim applicability before release."
+      ],
+      "scope": "Original repository record matched by source ID, not a newly inspected external publication.",
+      "independent_bias_appraisal_complete": false,
+      "clinical_review": false,
+      "publish": false
+    },
+    {
+      "id": "P4-01",
+      "origin": "research/staged-completion/stage-04/SOURCES.json",
+      "origin_index": 0,
+      "origin_blob_sha": "c0f5ea8de5fb6343a79ad9c469598df9d9912021",
+      "original_title": "Parenting interventions to promote early child development in the first three years of life: a global systematic review and meta-analysis",
+      "archive_extraction": {
+        "design": "Review of 102 RCTs in 33 countries",
+        "limitations": "Varied interventions, outcome instruments and settings; not proof of IQ gains or a prescribed daily dose.",
+        "access": "Original PLOS full text funding/COI, abstract and figures",
+        "correction_retraction_status": "comprehensive registry sweep pending",
+        "scope": "Birth to age 3",
+        "publication_status": "staged research only",
+        "funding": "WHO grant APW-201931623; no funder role declared",
+        "financial_ties": "Authors declared no competing interests; Harvard academic affiliations. Underlying trial funding not audited.",
+        "prior_ids": [
+          "PED-PARENT"
+        ]
+      },
+      "archived_funding_notes": [
+        "WHO grant APW-201931623; no funder role declared"
+      ],
+      "archived_financial_interest_notes": [
+        "Authors declared no competing interests; Harvard academic affiliations. Underlying trial funding not audited."
+      ],
+      "archived_finding_present": false,
+      "archived_design_or_limitations_present": true,
+      "next_checks": [
+        "Read original results or applicable non-clinical source purpose; extract source-specific finding and locator.",
+        "Verify original identity/version and correction/retraction status; assess bias and claim applicability before release."
+      ],
+      "scope": "Original repository record matched by source ID, not a newly inspected external publication.",
+      "independent_bias_appraisal_complete": false,
+      "clinical_review": false,
+      "publish": false
+    },
+    {
+      "id": "P4-02",
+      "origin": "research/staged-completion/stage-04/SOURCES.json",
+      "origin_index": 1,
+      "origin_blob_sha": "c0f5ea8de5fb6343a79ad9c469598df9d9912021",
+      "original_title": "Shared Picture Book Reading Interventions for Child Language Development: A Systematic Review and Meta-Analysis",
+      "archive_extraction": {
+        "design": "19 RCTs; 2594 participants",
+        "limitations": "Not exclusively infants; no exact reading minutes inferred; review membership overlap with P4-01 pending.",
+        "access": "Wiley abstract and acknowledgments",
+        "correction_retraction_status": "comprehensive registry sweep pending",
+        "scope": "Mean child ages 1–6 years",
+        "publication_status": "staged research only",
+        "funding": "Author support: Rhodes Trust, Oppenheimer Memorial Trust, WITS NRF Centre; DECIPHer joint charities/public funders",
+        "financial_ties": "Full COI not accessible; separate author support from review grant and underlying trial funding",
+        "prior_ids": []
+      },
+      "archived_funding_notes": [
+        "Author support: Rhodes Trust, Oppenheimer Memorial Trust, WITS NRF Centre; DECIPHer joint charities/public funders"
+      ],
+      "archived_financial_interest_notes": [
+        "Full COI not accessible; separate author support from review grant and underlying trial funding"
+      ],
+      "archived_finding_present": false,
+      "archived_design_or_limitations_present": true,
+      "next_checks": [
+        "Read original results or applicable non-clinical source purpose; extract source-specific finding and locator.",
+        "Verify original identity/version and correction/retraction status; assess bias and claim applicability before release."
+      ],
+      "scope": "Original repository record matched by source ID, not a newly inspected external publication.",
+      "independent_bias_appraisal_complete": false,
+      "clinical_review": false,
+      "publish": false
+    },
+    {
+      "id": "P4-03",
+      "origin": "research/staged-completion/stage-04/SOURCES.json",
+      "origin_index": 2,
+      "origin_blob_sha": "c0f5ea8de5fb6343a79ad9c469598df9d9912021",
+      "original_title": "Association of the Type of Toy Used During Play With the Quantity and Quality of Parent-Infant Communication",
+      "archive_extraction": {
+        "design": "Within-dyad controlled play experiment",
+        "limitations": "Small volunteer sample; immediate speech counts, not long-term language scores; no brand comparison.",
+        "access": "Original JAMA Table 2 and disclosure",
+        "correction_retraction_status": "comprehensive registry sweep pending",
+        "scope": "26 infants age 10–16 months; 15-minute sessions",
+        "publication_status": "staged research only",
+        "funding": "American Speech-Language-Hearing Foundation; no funder role declared",
+        "financial_ties": "No COI reported; Northern Arizona University; coding assistants paid by project.",
+        "prior_ids": []
+      },
+      "archived_funding_notes": [
+        "American Speech-Language-Hearing Foundation; no funder role declared"
+      ],
+      "archived_financial_interest_notes": [
+        "No COI reported; Northern Arizona University; coding assistants paid by project."
+      ],
+      "archived_finding_present": false,
+      "archived_design_or_limitations_present": true,
+      "next_checks": [
+        "Read original results or applicable non-clinical source purpose; extract source-specific finding and locator.",
+        "Verify original identity/version and correction/retraction status; assess bias and claim applicability before release."
+      ],
+      "scope": "Original repository record matched by source ID, not a newly inspected external publication.",
+      "independent_bias_appraisal_complete": false,
+      "clinical_review": false,
+      "publish": false
+    },
+    {
+      "id": "P4-04",
+      "origin": "research/staged-completion/stage-04/SOURCES.json",
+      "origin_index": 3,
+      "origin_blob_sha": "c0f5ea8de5fb6343a79ad9c469598df9d9912021",
+      "original_title": "Early Childhood Screen Use Contexts and Cognitive and Psychosocial Outcomes: A Systematic Review and Meta-analysis",
+      "archive_extraction": {
+        "design": "100 studies, 176742 participants; 64 observational studies pooled",
+        "limitations": "Observational correlation; considerable heterogeneity; not proof screens directly cause delay, not a license for infant screen use.",
+        "access": "Original JAMA results, methods and disclosure",
+        "correction_retraction_status": "comprehensive registry sweep pending",
+        "scope": "Ages 0–5.99",
+        "publication_status": "staged research only",
+        "funding": "Australian Research Council Centre of Excellence for the Digital Child CE200100022",
+        "financial_ties": "No conflicts reported; center-level partner support beyond article disclosures not checked.",
+        "prior_ids": []
+      },
+      "archived_funding_notes": [
+        "Australian Research Council Centre of Excellence for the Digital Child CE200100022"
+      ],
+      "archived_financial_interest_notes": [
+        "No conflicts reported; center-level partner support beyond article disclosures not checked."
+      ],
+      "archived_finding_present": false,
+      "archived_design_or_limitations_present": true,
+      "next_checks": [
+        "Read original results or applicable non-clinical source purpose; extract source-specific finding and locator.",
+        "Verify original identity/version and correction/retraction status; assess bias and claim applicability before release."
+      ],
+      "scope": "Original repository record matched by source ID, not a newly inspected external publication.",
+      "independent_bias_appraisal_complete": false,
+      "clinical_review": false,
+      "publish": false
+    },
+    {
+      "id": "P4-05",
+      "origin": "research/staged-completion/stage-04/SOURCES.json",
+      "origin_index": 4,
+      "origin_blob_sha": "c0f5ea8de5fb6343a79ad9c469598df9d9912021",
+      "original_title": "Associations Between Screen Use and Child Language Skills: A Systematic Review and Meta-analysis",
+      "archive_extraction": {
+        "design": "Meta-analysis",
+        "limitations": "Not causal; study overlap with P4-04 unverified.",
+        "access": "Original JAMA article disclosure, indexed abstract",
+        "correction_retraction_status": "comprehensive registry sweep pending",
+        "scope": "Children across included age ranges",
+        "publication_status": "staged research only",
+        "funding": "Specific review funding not located in inspected HTML",
+        "financial_ties": "No COI reported; Christakis journal editor recused from editorial decision",
+        "prior_ids": []
+      },
+      "archived_funding_notes": [
+        "Specific review funding not located in inspected HTML"
+      ],
+      "archived_financial_interest_notes": [
+        "No COI reported; Christakis journal editor recused from editorial decision"
+      ],
+      "archived_finding_present": false,
+      "archived_design_or_limitations_present": true,
+      "next_checks": [
+        "Read original results or applicable non-clinical source purpose; extract source-specific finding and locator.",
+        "Verify original identity/version and correction/retraction status; assess bias and claim applicability before release."
+      ],
+      "scope": "Original repository record matched by source ID, not a newly inspected external publication.",
+      "independent_bias_appraisal_complete": false,
+      "clinical_review": false,
+      "publish": false
+    },
+    {
+      "id": "P4-06",
+      "origin": "research/staged-completion/stage-04/SOURCES.json",
+      "origin_index": 5,
+      "origin_blob_sha": "c0f5ea8de5fb6343a79ad9c469598df9d9912021",
+      "original_title": "Learning-induced neural plasticity of speech processing before birth",
+      "archive_extraction": {
+        "design": "Human fetal exposure study",
+        "limitations": "Brain response is not IQ, vocabulary or long-term benefit; no loud sound device recommendation.",
+        "access": "Primary abstract",
+        "correction_retraction_status": "comprehensive registry sweep pending",
+        "scope": "Prenatal to newborn",
+        "publication_status": "staged research only",
+        "funding": "Not verified",
+        "financial_ties": "Not verified",
+        "prior_ids": [
+          "PED-AUDITORY"
+        ]
+      },
+      "archived_funding_notes": [
+        "Not verified"
+      ],
+      "archived_financial_interest_notes": [
+        "Not verified"
+      ],
+      "archived_finding_present": false,
+      "archived_design_or_limitations_present": true,
+      "next_checks": [
+        "Read original results or applicable non-clinical source purpose; extract source-specific finding and locator.",
+        "Verify original identity/version and correction/retraction status; assess bias and claim applicability before release."
+      ],
+      "scope": "Original repository record matched by source ID, not a newly inspected external publication.",
+      "independent_bias_appraisal_complete": false,
+      "clinical_review": false,
+      "publish": false
+    },
+    {
+      "id": "P4-07",
+      "origin": "research/staged-completion/stage-04/SOURCES.json",
+      "origin_index": 6,
+      "origin_blob_sha": "c0f5ea8de5fb6343a79ad9c469598df9d9912021",
+      "original_title": "Prenatal Music Exposure Induces Long-Term Neural Effects",
+      "archive_extraction": {
+        "design": "Exposure-group study",
+        "limitations": "Small sample; related research group to P4-06; cohort independence unverified; no clinical long-term cognition.",
+        "access": "Indexed original PLOS abstract, funding, COI",
+        "correction_retraction_status": "comprehensive registry sweep pending",
+        "scope": "Late pregnancy to four months",
+        "publication_status": "staged research only",
+        "funding": "Academy of Finland, ERANET-NEURON PANS, University of Helsinki graduate grant, Finnish Cultural Foundation",
+        "financial_ties": "Authors declare no competing interests",
+        "prior_ids": []
+      },
+      "archived_funding_notes": [
+        "Academy of Finland, ERANET-NEURON PANS, University of Helsinki graduate grant, Finnish Cultural Foundation"
+      ],
+      "archived_financial_interest_notes": [
+        "Authors declare no competing interests"
+      ],
+      "archived_finding_present": false,
+      "archived_design_or_limitations_present": true,
+      "next_checks": [
+        "Read original results or applicable non-clinical source purpose; extract source-specific finding and locator.",
+        "Verify original identity/version and correction/retraction status; assess bias and claim applicability before release."
+      ],
+      "scope": "Original repository record matched by source ID, not a newly inspected external publication.",
+      "independent_bias_appraisal_complete": false,
+      "clinical_review": false,
+      "publish": false
+    },
+    {
+      "id": "P4-08",
+      "origin": "research/staged-completion/stage-04/SOURCES.json",
+      "origin_index": 7,
+      "origin_blob_sha": "c0f5ea8de5fb6343a79ad9c469598df9d9912021",
+      "original_title": "Maternal choline supplementation during the third trimester of pregnancy improves infant information processing speed: a randomized, double-blind, controlled feeding study",
+      "archive_extraction": {
+        "design": "Randomized controlled feeding trial",
+        "limitations": "Same cohort as P4-09 and P4-11; small sample, surrogate outcome; not supplement dosing guidance.",
+        "access": "Primary PubMed indexed grant/disclosure and abstract",
+        "correction_retraction_status": "comprehensive registry sweep pending",
+        "scope": "Third trimester; infant assessments",
+        "publication_status": "staged research only",
+        "funding": "Egg Nutrition Center, Beef Checkoff, US public funding; authors report no funder role; complete exact grant list pending",
+        "financial_ties": "Industry promotion funding; complete individual disclosures pending primary extraction",
+        "cohort": "Cornell choline",
+        "prior_ids": [
+          "IA006"
+        ]
+      },
+      "archived_funding_notes": [
+        "Egg Nutrition Center, Beef Checkoff, US public funding; authors report no funder role; complete exact grant list pending"
+      ],
+      "archived_financial_interest_notes": [
+        "Industry promotion funding; complete individual disclosures pending primary extraction"
+      ],
+      "archived_finding_present": false,
+      "archived_design_or_limitations_present": true,
+      "next_checks": [
+        "Read original results or applicable non-clinical source purpose; extract source-specific finding and locator.",
+        "Verify original identity/version and correction/retraction status; assess bias and claim applicability before release."
+      ],
+      "scope": "Original repository record matched by source ID, not a newly inspected external publication.",
+      "independent_bias_appraisal_complete": false,
+      "clinical_review": false,
+      "publish": false
+    },
+    {
+      "id": "P4-09",
+      "origin": "research/staged-completion/stage-04/SOURCES.json",
+      "origin_index": 8,
+      "origin_blob_sha": "c0f5ea8de5fb6343a79ad9c469598df9d9912021",
+      "original_title": "Prenatal choline supplementation improves child sustained attention: A 7-year follow-up of a randomized controlled feeding trial",
+      "archive_extraction": {
+        "design": "RCT follow-up",
+        "limitations": "Same cohort as P4-08; only 20 children; task not global IQ; cannot recommend high dose.",
+        "access": "Indexed original Wiley results, funding/COI",
+        "correction_retraction_status": "comprehensive registry sweep pending",
+        "scope": "20 children at age 7",
+        "publication_status": "staged research only",
+        "funding": "NIFA/USDA Hatch 1007195 and Balchem Corp; trainee NICHD and Egg Nutrition Center award",
+        "financial_ties": "Authors declared no conflicts in 2022; later protocol discloses Canfield consultant for Balchem, arrangement after original study/funding.",
+        "cohort": "Cornell choline",
+        "prior_ids": [
+          "IA007"
+        ]
+      },
+      "archived_funding_notes": [
+        "NIFA/USDA Hatch 1007195 and Balchem Corp; trainee NICHD and Egg Nutrition Center award"
+      ],
+      "archived_financial_interest_notes": [
+        "Authors declared no conflicts in 2022; later protocol discloses Canfield consultant for Balchem, arrangement after original study/funding."
+      ],
+      "archived_finding_present": false,
+      "archived_design_or_limitations_present": true,
+      "next_checks": [
+        "Read original results or applicable non-clinical source purpose; extract source-specific finding and locator.",
+        "Verify original identity/version and correction/retraction status; assess bias and claim applicability before release."
+      ],
+      "scope": "Original repository record matched by source ID, not a newly inspected external publication.",
+      "independent_bias_appraisal_complete": false,
+      "clinical_review": false,
+      "publish": false
+    },
+    {
+      "id": "P4-10",
+      "origin": "research/staged-completion/stage-04/SOURCES.json",
+      "origin_index": 9,
+      "origin_blob_sha": "c0f5ea8de5fb6343a79ad9c469598df9d9912021",
+      "original_title": "Phosphatidylcholine supplementation in pregnant women consuming moderate-choline diets does not enhance infant cognitive function: a randomized, double-blind, placebo-controlled trial",
+      "archive_extraction": {
+        "design": "RCT; 140 randomized",
+        "limitations": "Not equivalent protocol; both research programs have nutrition-sector funding; no pooled effect or supplement recommendation.",
+        "access": "Indexed original PMC and PubMed",
+        "correction_retraction_status": "comprehensive registry sweep pending",
+        "scope": "Pregnancy through 90 days postpartum",
+        "publication_status": "staged research only",
+        "funding": "Gerber Foundation, NIH grants and Egg Nutrition Center; funders no role per authors",
+        "financial_ties": "Gerber Foundation affiliation/ultimate funding not inferred; author COI full extraction pending",
+        "prior_ids": []
+      },
+      "archived_funding_notes": [
+        "Gerber Foundation, NIH grants and Egg Nutrition Center; funders no role per authors"
+      ],
+      "archived_financial_interest_notes": [
+        "Gerber Foundation affiliation/ultimate funding not inferred; author COI full extraction pending"
+      ],
+      "archived_finding_present": false,
+      "archived_design_or_limitations_present": true,
+      "next_checks": [
+        "Read original results or applicable non-clinical source purpose; extract source-specific finding and locator.",
+        "Verify original identity/version and correction/retraction status; assess bias and claim applicability before release."
+      ],
+      "scope": "Original repository record matched by source ID, not a newly inspected external publication.",
+      "independent_bias_appraisal_complete": false,
+      "clinical_review": false,
+      "publish": false
+    },
+    {
+      "id": "P4-11",
+      "origin": "research/staged-completion/stage-04/SOURCES.json",
+      "origin_index": 10,
+      "origin_blob_sha": "c0f5ea8de5fb6343a79ad9c469598df9d9912021",
+      "original_title": "The Effect of Maternal Choline Intake on Offspring Cognition in Adolescence: Protocol for a 14-year Follow-Up of a Randomized Controlled Feeding Trial",
+      "archive_extraction": {
+        "design": "Protocol",
+        "limitations": "No efficacy data; no double count; dated later relationship, not retroactive proof of bias.",
+        "access": "Indexed primary protocol disclosures",
+        "correction_retraction_status": "comprehensive registry sweep pending",
+        "scope": "Cornell trial adolescent follow-up",
+        "publication_status": "staged research only",
+        "funding": "NIH T32 HD087137, Egg Nutrition Center, Balchem Corporation",
+        "financial_ties": "RLC consultant for Balchem; authors say original study and funding predate arrangement.",
+        "cohort": "Cornell choline",
+        "prior_ids": []
+      },
+      "archived_funding_notes": [
+        "NIH T32 HD087137, Egg Nutrition Center, Balchem Corporation"
+      ],
+      "archived_financial_interest_notes": [
+        "RLC consultant for Balchem; authors say original study and funding predate arrangement."
+      ],
+      "archived_finding_present": false,
+      "archived_design_or_limitations_present": true,
+      "next_checks": [
+        "Read original results or applicable non-clinical source purpose; extract source-specific finding and locator.",
+        "Verify original identity/version and correction/retraction status; assess bias and claim applicability before release."
+      ],
+      "scope": "Original repository record matched by source ID, not a newly inspected external publication.",
+      "independent_bias_appraisal_complete": false,
+      "clinical_review": false,
+      "publish": false
+    },
+    {
+      "id": "P4-12",
+      "origin": "research/staged-completion/stage-04/SOURCES.json",
+      "origin_index": 11,
+      "origin_blob_sha": "c0f5ea8de5fb6343a79ad9c469598df9d9912021",
+      "original_title": "Seven-Year Follow-up of Children Born to Women in a Randomized Trial of Prenatal DHA Supplementation",
+      "archive_extraction": {
+        "design": "DOMInO RCT follow-up",
+        "limitations": "Separate from preterm infant supplementation and preterm birth prevention; follow-up not independent cohort; no dosing change.",
+        "access": "Original JAMA table and disclosures",
+        "correction_retraction_status": "comprehensive registry sweep pending",
+        "scope": "543 children in table, age 7",
+        "publication_status": "staged research only",
+        "funding": "NHMRC grants 349301 and 1048493; Croda Chemicals donated study capsules",
+        "financial_ties": "Makrides advisory boards Nestlé Nutrition Institute, Fonterra, True Origins; Gould honoraria Nestlé Nutrition Institute; payments to institutions.",
+        "cohort": "DOMInO",
+        "prior_ids": []
+      },
+      "archived_funding_notes": [
+        "NHMRC grants 349301 and 1048493; Croda Chemicals donated study capsules"
+      ],
+      "archived_financial_interest_notes": [
+        "Makrides advisory boards Nestlé Nutrition Institute, Fonterra, True Origins; Gould honoraria Nestlé Nutrition Institute; payments to institutions."
+      ],
+      "archived_finding_present": false,
+      "archived_design_or_limitations_present": true,
+      "next_checks": [
+        "Read original results or applicable non-clinical source purpose; extract source-specific finding and locator.",
+        "Verify original identity/version and correction/retraction status; assess bias and claim applicability before release."
+      ],
+      "scope": "Original repository record matched by source ID, not a newly inspected external publication.",
+      "independent_bias_appraisal_complete": false,
+      "clinical_review": false,
+      "publish": false
+    },
+    {
+      "id": "P4-13",
+      "origin": "research/staged-completion/stage-04/SOURCES.json",
+      "origin_index": 12,
+      "origin_blob_sha": "c0f5ea8de5fb6343a79ad9c469598df9d9912021",
+      "original_title": "Effects of Regular Exercise During Pregnancy on Early Childhood Neurodevelopment: The Physical Activity for Mothers Enrolled in Longitudinal Analysis Randomized Controlled Trial",
+      "archive_extraction": {
+        "design": "RCT follow-up",
+        "limitations": "Adherence, attrition, exact effect and sponsor data pending.",
+        "access": "Primary abstract",
+        "correction_retraction_status": "comprehensive registry sweep pending",
+        "scope": "Age one year",
+        "publication_status": "staged research only",
+        "funding": "Not verified",
+        "financial_ties": "Not verified",
+        "prior_ids": []
+      },
+      "archived_funding_notes": [
+        "Not verified"
+      ],
+      "archived_financial_interest_notes": [
+        "Not verified"
+      ],
+      "archived_finding_present": false,
+      "archived_design_or_limitations_present": true,
+      "next_checks": [
+        "Read original results or applicable non-clinical source purpose; extract source-specific finding and locator.",
+        "Verify original identity/version and correction/retraction status; assess bias and claim applicability before release."
+      ],
+      "scope": "Original repository record matched by source ID, not a newly inspected external publication.",
+      "independent_bias_appraisal_complete": false,
+      "clinical_review": false,
+      "publish": false
+    },
+    {
+      "id": "P4-14",
+      "origin": "research/staged-completion/stage-04/SOURCES.json",
+      "origin_index": 13,
+      "origin_blob_sha": "c0f5ea8de5fb6343a79ad9c469598df9d9912021",
+      "original_title": "Neurodevelopmental outcome in 7-year-old children is not affected by exercise during pregnancy: follow up of a multicentre randomised controlled trial",
+      "archive_extraction": {
+        "design": "RCT follow-up",
+        "limitations": "Not universal safety or evidence of IQ enhancement; medical eligibility independent.",
+        "access": "Primary abstract",
+        "correction_retraction_status": "comprehensive registry sweep pending",
+        "scope": "Age 7",
+        "publication_status": "staged research only",
+        "funding": "Not verified",
+        "financial_ties": "Not verified",
+        "prior_ids": []
+      },
+      "archived_funding_notes": [
+        "Not verified"
+      ],
+      "archived_financial_interest_notes": [
+        "Not verified"
+      ],
+      "archived_finding_present": false,
+      "archived_design_or_limitations_present": true,
+      "next_checks": [
+        "Read original results or applicable non-clinical source purpose; extract source-specific finding and locator.",
+        "Verify original identity/version and correction/retraction status; assess bias and claim applicability before release."
+      ],
+      "scope": "Original repository record matched by source ID, not a newly inspected external publication.",
+      "independent_bias_appraisal_complete": false,
+      "clinical_review": false,
+      "publish": false
+    },
+    {
+      "id": "P4-15",
+      "origin": "research/staged-completion/stage-04/SOURCES.json",
+      "origin_index": 14,
+      "origin_blob_sha": "c0f5ea8de5fb6343a79ad9c469598df9d9912021",
+      "original_title": "Physical Activity Before and During Pregnancy and Neurodevelopment in Early Childhood",
+      "archive_extraction": {
+        "design": "Observational cohort",
+        "limitations": "Confounding and self-report; compare randomized findings rather than asserting causal benefit.",
+        "access": "Indexed primary abstract/results",
+        "correction_retraction_status": "comprehensive registry sweep pending",
+        "scope": "38219 mother-child pairs",
+        "publication_status": "staged research only",
+        "funding": "Not verified",
+        "financial_ties": "Not verified",
+        "prior_ids": []
+      },
+      "archived_funding_notes": [
+        "Not verified"
+      ],
+      "archived_financial_interest_notes": [
+        "Not verified"
+      ],
+      "archived_finding_present": false,
+      "archived_design_or_limitations_present": true,
+      "next_checks": [
+        "Read original results or applicable non-clinical source purpose; extract source-specific finding and locator.",
+        "Verify original identity/version and correction/retraction status; assess bias and claim applicability before release."
+      ],
+      "scope": "Original repository record matched by source ID, not a newly inspected external publication.",
+      "independent_bias_appraisal_complete": false,
+      "clinical_review": false,
+      "publish": false
+    },
+    {
+      "id": "P4-16",
+      "origin": "research/staged-completion/stage-04/SOURCES.json",
+      "origin_index": 15,
+      "origin_blob_sha": "c0f5ea8de5fb6343a79ad9c469598df9d9912021",
+      "original_title": "Association between prenatal maternal anxiety and/or stress and offspring's cognitive functioning: A meta-analysis",
+      "archive_extraction": {
+        "design": "Observational meta-analysis",
+        "limitations": "Confounding, heterogeneous measures, no randomized exposure; no anxiety-inducing optimization.",
+        "access": "Primary abstract and publisher methods",
+        "correction_retraction_status": "comprehensive registry sweep pending",
+        "scope": "Prenatal stress/anxiety and childhood cognition",
+        "publication_status": "staged research only",
+        "funding": "Not verified",
+        "financial_ties": "Not verified",
+        "prior_ids": []
+      },
+      "archived_funding_notes": [
+        "Not verified"
+      ],
+      "archived_financial_interest_notes": [
+        "Not verified"
+      ],
+      "archived_finding_present": false,
+      "archived_design_or_limitations_present": true,
+      "next_checks": [
+        "Read original results or applicable non-clinical source purpose; extract source-specific finding and locator.",
+        "Verify original identity/version and correction/retraction status; assess bias and claim applicability before release."
+      ],
+      "scope": "Original repository record matched by source ID, not a newly inspected external publication.",
+      "independent_bias_appraisal_complete": false,
+      "clinical_review": false,
+      "publish": false
+    },
+    {
+      "id": "P4-17",
+      "origin": "research/staged-completion/stage-04/SOURCES.json",
+      "origin_index": 16,
+      "origin_blob_sha": "c0f5ea8de5fb6343a79ad9c469598df9d9912021",
+      "original_title": "Effect of integrated responsive stimulation and nutrition interventions in the Lady Health Worker programme in Pakistan on child development, growth, and health outcomes: a cluster-randomised factorial effectiveness trial",
+      "archive_extraction": {
+        "design": "Cluster factorial RCT",
+        "limitations": "Specific disadvantaged population and supported program; not generalize exact effects; included in broader reviews potentially.",
+        "access": "Primary abstract funding/results",
+        "correction_retraction_status": "comprehensive registry sweep pending",
+        "scope": "Pakistan; age 12 and 24 months",
+        "publication_status": "staged research only",
+        "funding": "UNICEF",
+        "financial_ties": "Full individual COI pending",
+        "cohort": "Pakistan Lady Health Worker",
+        "prior_ids": []
+      },
+      "archived_funding_notes": [
+        "UNICEF"
+      ],
+      "archived_financial_interest_notes": [
+        "Full individual COI pending"
+      ],
+      "archived_finding_present": false,
+      "archived_design_or_limitations_present": true,
+      "next_checks": [
+        "Read original results or applicable non-clinical source purpose; extract source-specific finding and locator.",
+        "Verify original identity/version and correction/retraction status; assess bias and claim applicability before release."
+      ],
+      "scope": "Original repository record matched by source ID, not a newly inspected external publication.",
+      "independent_bias_appraisal_complete": false,
+      "clinical_review": false,
+      "publish": false
+    },
+    {
+      "id": "P4-18",
+      "origin": "research/staged-completion/stage-04/SOURCES.json",
+      "origin_index": 17,
+      "origin_blob_sha": "c0f5ea8de5fb6343a79ad9c469598df9d9912021",
+      "original_title": "Effects of responsive stimulation and nutrition interventions on children's development and growth at age 4 years in a disadvantaged population in Pakistan: a longitudinal follow-up of a cluster-randomised factorial effectiveness trial",
+      "archive_extraction": {
+        "design": "RCT follow-up",
+        "limitations": "Same cohort P4-17; no independent replication; follow-up attrition and effect sizes pending.",
+        "access": "Primary abstract",
+        "correction_retraction_status": "comprehensive registry sweep pending",
+        "scope": "Age 4",
+        "publication_status": "staged research only",
+        "funding": "Grand Challenges Canada",
+        "financial_ties": "Full individual disclosures pending",
+        "cohort": "Pakistan Lady Health Worker",
+        "prior_ids": []
+      },
+      "archived_funding_notes": [
+        "Grand Challenges Canada"
+      ],
+      "archived_financial_interest_notes": [
+        "Full individual disclosures pending"
+      ],
+      "archived_finding_present": false,
+      "archived_design_or_limitations_present": true,
+      "next_checks": [
+        "Read original results or applicable non-clinical source purpose; extract source-specific finding and locator.",
+        "Verify original identity/version and correction/retraction status; assess bias and claim applicability before release."
+      ],
+      "scope": "Original repository record matched by source ID, not a newly inspected external publication.",
+      "independent_bias_appraisal_complete": false,
+      "clinical_review": false,
+      "publish": false
+    },
+    {
+      "id": "P4-19",
+      "origin": "research/staged-completion/stage-04/SOURCES.json",
+      "origin_index": 18,
+      "origin_blob_sha": "c0f5ea8de5fb6343a79ad9c469598df9d9912021",
+      "original_title": "Tummy Time and Infant Health Outcomes: A Systematic Review",
+      "archive_extraction": {
+        "design": "Systematic review",
+        "limitations": "Awake and supervised only; back to sleep; no prescribed duration derived from review.",
+        "access": "Primary indexed abstract; PDF not used as extraction source",
+        "correction_retraction_status": "comprehensive registry sweep pending",
+        "scope": "Healthy infants 0–12 months",
+        "publication_status": "staged research only",
+        "funding": "Not verified",
+        "financial_ties": "Article disclosure not independently opened; unknown",
+        "prior_ids": []
+      },
+      "archived_funding_notes": [
+        "Not verified"
+      ],
+      "archived_financial_interest_notes": [
+        "Article disclosure not independently opened; unknown"
+      ],
+      "archived_finding_present": false,
+      "archived_design_or_limitations_present": true,
+      "next_checks": [
+        "Read original results or applicable non-clinical source purpose; extract source-specific finding and locator.",
+        "Verify original identity/version and correction/retraction status; assess bias and claim applicability before release."
+      ],
+      "scope": "Original repository record matched by source ID, not a newly inspected external publication.",
+      "independent_bias_appraisal_complete": false,
+      "clinical_review": false,
+      "publish": false
+    },
+    {
+      "id": "P4-20",
+      "origin": "research/staged-completion/stage-04/SOURCES.json",
+      "origin_index": 19,
+      "origin_blob_sha": "c0f5ea8de5fb6343a79ad9c469598df9d9912021",
+      "original_title": "WHO Motor Development Study: windows of achievement for six gross motor development milestones",
+      "archive_extraction": {
+        "design": "Multicountry reference cohort",
+        "limitations": "Some babies skip crawling; reference range does not replace referral or corrected age.",
+        "access": "Primary abstract and WHO HTML index",
+        "correction_retraction_status": "comprehensive registry sweep pending",
+        "scope": "Healthy children",
+        "publication_status": "staged research only",
+        "funding": "Primary grants not verified",
+        "financial_ties": "Not verified",
+        "prior_ids": [
+          "PED-MOTOR",
+          "PED-WINDOW"
+        ]
+      },
+      "archived_funding_notes": [
+        "Primary grants not verified"
+      ],
+      "archived_financial_interest_notes": [
+        "Not verified"
+      ],
+      "archived_finding_present": false,
+      "archived_design_or_limitations_present": true,
+      "next_checks": [
+        "Read original results or applicable non-clinical source purpose; extract source-specific finding and locator.",
+        "Verify original identity/version and correction/retraction status; assess bias and claim applicability before release."
+      ],
+      "scope": "Original repository record matched by source ID, not a newly inspected external publication.",
+      "independent_bias_appraisal_complete": false,
+      "clinical_review": false,
+      "publish": false
+    },
+    {
+      "id": "P4-21",
+      "origin": "research/staged-completion/stage-04/SOURCES.json",
+      "origin_index": 20,
+      "origin_blob_sha": "c0f5ea8de5fb6343a79ad9c469598df9d9912021",
+      "original_title": "Infant Walker-Related Injuries in the United States",
+      "archive_extraction": {
+        "design": "Injury surveillance study",
+        "limitations": "Injury surveillance not developmental efficacy; no denominator per use.",
+        "access": "Primary abstract",
+        "correction_retraction_status": "comprehensive registry sweep pending",
+        "scope": "Children under 15 months treated in US EDs",
+        "publication_status": "staged research only",
+        "funding": "Grant detail not extracted",
+        "financial_ties": "Not verified",
+        "prior_ids": []
+      },
+      "archived_funding_notes": [
+        "Grant detail not extracted"
+      ],
+      "archived_financial_interest_notes": [
+        "Not verified"
+      ],
+      "archived_finding_present": false,
+      "archived_design_or_limitations_present": true,
+      "next_checks": [
+        "Read original results or applicable non-clinical source purpose; extract source-specific finding and locator.",
+        "Verify original identity/version and correction/retraction status; assess bias and claim applicability before release."
+      ],
+      "scope": "Original repository record matched by source ID, not a newly inspected external publication.",
+      "independent_bias_appraisal_complete": false,
+      "clinical_review": false,
+      "publish": false
+    },
+    {
+      "id": "P4-22",
+      "origin": "research/staged-completion/stage-04/SOURCES.json",
+      "origin_index": 21,
+      "origin_blob_sha": "c0f5ea8de5fb6343a79ad9c469598df9d9912021",
+      "original_title": "CDC developmental milestones",
+      "archive_extraction": {
+        "design": "Public health resource",
+        "limitations": "Checklists not screening tests or diagnosis; loss of skills or concerns deserve professional evaluation.",
+        "access": "CDC HTML",
+        "correction_retraction_status": "comprehensive registry sweep pending",
+        "scope": "2 months to 5 years",
+        "publication_status": "staged research only",
+        "funding": "CDC educational resource; panel ties not assessed",
+        "prior_ids": [
+          "PED-REFERRAL"
+        ]
+      },
+      "archived_funding_notes": [
+        "CDC educational resource; panel ties not assessed"
+      ],
+      "archived_financial_interest_notes": [],
+      "archived_finding_present": false,
+      "archived_design_or_limitations_present": true,
+      "next_checks": [
+        "Read original results or applicable non-clinical source purpose; extract source-specific finding and locator.",
+        "Extract author/institution interests and disclosure status from original source.",
+        "Verify original identity/version and correction/retraction status; assess bias and claim applicability before release."
+      ],
+      "scope": "Original repository record matched by source ID, not a newly inspected external publication.",
+      "independent_bias_appraisal_complete": false,
+      "clinical_review": false,
+      "publish": false
+    },
+    {
+      "id": "P4-23",
+      "origin": "research/staged-completion/stage-04/SOURCES.json",
+      "origin_index": 22,
+      "origin_blob_sha": "c0f5ea8de5fb6343a79ad9c469598df9d9912021",
+      "original_title": "Young Children Learning Multiple Languages: Parent FAQs",
+      "archive_extraction": {
+        "design": "AAP public education",
+        "limitations": "Not proof of universal cognitive advantage; primary bilingual studies needed.",
+        "access": "Original indexed guidance",
+        "correction_retraction_status": "comprehensive registry sweep pending",
+        "scope": "Infants and toddlers",
+        "publication_status": "staged research only",
+        "funding": "AAP resource; underlying evidence and panel disclosures not audited",
+        "prior_ids": []
+      },
+      "archived_funding_notes": [
+        "AAP resource; underlying evidence and panel disclosures not audited"
+      ],
+      "archived_financial_interest_notes": [],
+      "archived_finding_present": false,
+      "archived_design_or_limitations_present": true,
+      "next_checks": [
+        "Read original results or applicable non-clinical source purpose; extract source-specific finding and locator.",
+        "Extract author/institution interests and disclosure status from original source.",
+        "Verify original identity/version and correction/retraction status; assess bias and claim applicability before release."
+      ],
+      "scope": "Original repository record matched by source ID, not a newly inspected external publication.",
+      "independent_bias_appraisal_complete": false,
+      "clinical_review": false,
+      "publish": false
+    },
+    {
+      "id": "P4-24",
+      "origin": "research/staged-completion/stage-04/SOURCES.json",
+      "origin_index": 23,
+      "origin_blob_sha": "c0f5ea8de5fb6343a79ad9c469598df9d9912021",
+      "original_title": "Early neurodevelopment in the offspring of women enrolled in a randomized controlled trial assessing the effectiveness of a nutrition + exercise intervention on the cognitive development of 12-month-olds",
+      "archive_extraction": {
+        "design": "RCT subset follow-up",
+        "limitations": "Small subset, selection and multiple outcomes; do not treat exercise alone as intervention.",
+        "access": "Primary indexed abstract",
+        "correction_retraction_status": "comprehensive registry sweep pending",
+        "scope": "42 intervention,32 control infants",
+        "publication_status": "staged research only",
+        "funding": "Not verified",
+        "financial_ties": "Not verified",
+        "prior_ids": []
+      },
+      "archived_funding_notes": [
+        "Not verified"
+      ],
+      "archived_financial_interest_notes": [
+        "Not verified"
+      ],
+      "archived_finding_present": false,
+      "archived_design_or_limitations_present": true,
+      "next_checks": [
+        "Read original results or applicable non-clinical source purpose; extract source-specific finding and locator.",
+        "Verify original identity/version and correction/retraction status; assess bias and claim applicability before release."
+      ],
+      "scope": "Original repository record matched by source ID, not a newly inspected external publication.",
+      "independent_bias_appraisal_complete": false,
+      "clinical_review": false,
+      "publish": false
+    },
+    {
+      "id": "P5-01",
+      "origin": "research/staged-completion/stage-05/SOURCES.json",
+      "origin_index": 0,
+      "origin_blob_sha": "8032baf9bd472a662d1585aa53ba2465580e12a8",
+      "original_title": "Effects and safety of periconceptional oral folate supplementation for preventing birth defects",
+      "archive_extraction": {
+        "design": "Cochrane review",
+        "limitations": "Includes older high-risk and general-population studies; no proof other folate forms equivalent for NTD prevention",
+        "access": "Cochrane HTML abstract",
+        "correction_retraction_status": "full registry sweep pending",
+        "scope": "5 trials, 6708 births",
+        "publication_status": "staged research only",
+        "funding": "Review and primary disclosures not fully extracted",
+        "financial_ties": "Unknown",
+        "prior_ids": [
+          "S085"
+        ]
+      },
+      "archived_funding_notes": [
+        "Review and primary disclosures not fully extracted"
+      ],
+      "archived_financial_interest_notes": [
+        "Unknown"
+      ],
+      "archived_finding_present": false,
+      "archived_design_or_limitations_present": true,
+      "next_checks": [
+        "Read original results or applicable non-clinical source purpose; extract source-specific finding and locator.",
+        "Verify original identity/version and correction/retraction status; assess bias and claim applicability before release."
+      ],
+      "scope": "Original repository record matched by source ID, not a newly inspected external publication.",
+      "independent_bias_appraisal_complete": false,
+      "clinical_review": false,
+      "publish": false
+    },
+    {
+      "id": "P5-02",
+      "origin": "research/staged-completion/stage-05/SOURCES.json",
+      "origin_index": 1,
+      "origin_blob_sha": "8032baf9bd472a662d1585aa53ba2465580e12a8",
+      "original_title": "Prevention of neural tube defects: results of the Medical Research Council Vitamin Study",
+      "archive_extraction": {
+        "design": "Factorial randomized trial",
+        "limitations": "Recurrence population; historical high dose not general prophylaxis; overlaps P5-01",
+        "access": "Primary indexed abstract",
+        "correction_retraction_status": "full registry sweep pending",
+        "scope": "1817 high-risk women; 1195 known pregnancy outcomes",
+        "publication_status": "staged research only",
+        "funding": "MRC research group; complete primary support/donations unknown",
+        "financial_ties": "Unknown",
+        "prior_ids": []
+      },
+      "archived_funding_notes": [
+        "MRC research group; complete primary support/donations unknown"
+      ],
+      "archived_financial_interest_notes": [
+        "Unknown"
+      ],
+      "archived_finding_present": false,
+      "archived_design_or_limitations_present": true,
+      "next_checks": [
+        "Read original results or applicable non-clinical source purpose; extract source-specific finding and locator.",
+        "Verify original identity/version and correction/retraction status; assess bias and claim applicability before release."
+      ],
+      "scope": "Original repository record matched by source ID, not a newly inspected external publication.",
+      "independent_bias_appraisal_complete": false,
+      "clinical_review": false,
+      "publish": false
+    },
+    {
+      "id": "P5-03",
+      "origin": "research/staged-completion/stage-05/SOURCES.json",
+      "origin_index": 2,
+      "origin_blob_sha": "8032baf9bd472a662d1585aa53ba2465580e12a8",
+      "original_title": "USPSTF folic acid recommendation; CDC clinician guidance",
+      "archive_extraction": {
+        "design": "US guidance",
+        "limitations": "Higher-risk dosing clinician-directed; not interchangeable with total folate DFE",
+        "access": "Official guidance HTML/index",
+        "correction_retraction_status": "full registry sweep pending",
+        "scope": "Average-risk people planning or capable of pregnancy",
+        "publication_status": "staged research only",
+        "funding": "Government guidance",
+        "financial_ties": "Panel/underlying trials not fully audited",
+        "prior_ids": [
+          "S088",
+          "DR027"
+        ]
+      },
+      "archived_funding_notes": [
+        "Government guidance"
+      ],
+      "archived_financial_interest_notes": [
+        "Panel/underlying trials not fully audited"
+      ],
+      "archived_finding_present": false,
+      "archived_design_or_limitations_present": true,
+      "next_checks": [
+        "Read original results or applicable non-clinical source purpose; extract source-specific finding and locator.",
+        "Verify original identity/version and correction/retraction status; assess bias and claim applicability before release."
+      ],
+      "scope": "Original repository record matched by source ID, not a newly inspected external publication.",
+      "independent_bias_appraisal_complete": false,
+      "clinical_review": false,
+      "publish": false
+    },
+    {
+      "id": "P5-04",
+      "origin": "research/staged-completion/stage-05/SOURCES.json",
+      "origin_index": 3,
+      "origin_blob_sha": "8032baf9bd472a662d1585aa53ba2465580e12a8",
+      "original_title": "MTHFR Gene Variant and Folic Acid Facts",
+      "archive_extraction": {
+        "design": "US guidance",
+        "limitations": "Do not claim all folate forms unsafe or identical; rare disorders separate.",
+        "access": "Official indexed guidance",
+        "correction_retraction_status": "full registry sweep pending",
+        "scope": "Common MTHFR variants",
+        "publication_status": "staged research only",
+        "funding": "CDC",
+        "financial_ties": "No product sponsor inference",
+        "prior_ids": [
+          "GE-H01"
+        ]
+      },
+      "archived_funding_notes": [
+        "CDC"
+      ],
+      "archived_financial_interest_notes": [
+        "No product sponsor inference"
+      ],
+      "archived_finding_present": false,
+      "archived_design_or_limitations_present": true,
+      "next_checks": [
+        "Read original results or applicable non-clinical source purpose; extract source-specific finding and locator.",
+        "Verify original identity/version and correction/retraction status; assess bias and claim applicability before release."
+      ],
+      "scope": "Original repository record matched by source ID, not a newly inspected external publication.",
+      "independent_bias_appraisal_complete": false,
+      "clinical_review": false,
+      "publish": false
+    },
+    {
+      "id": "P5-05",
+      "origin": "research/staged-completion/stage-05/SOURCES.json",
+      "origin_index": 4,
+      "origin_blob_sha": "8032baf9bd472a662d1585aa53ba2465580e12a8",
+      "original_title": "Calcium supplementation during pregnancy for preventing hypertensive disorders and related problems",
+      "archive_extraction": {
+        "design": "2025 Cochrane review",
+        "limitations": "Trustworthiness exclusions disputed; not dietary requirement; do not change prescribed calcium.",
+        "access": "Cochrane HTML funding and indexed abstract",
+        "correction_retraction_status": "full registry sweep pending",
+        "scope": "Placebo/standard care, 6 RCTs 15364 for PE",
+        "publication_status": "staged research only",
+        "funding": "Part-funded WHO",
+        "financial_ties": "Review-level full COI pending; trial-level separate",
+        "prior_ids": [
+          "S092"
+        ]
+      },
+      "archived_funding_notes": [
+        "Part-funded WHO"
+      ],
+      "archived_financial_interest_notes": [
+        "Review-level full COI pending; trial-level separate"
+      ],
+      "archived_finding_present": false,
+      "archived_design_or_limitations_present": true,
+      "next_checks": [
+        "Read original results or applicable non-clinical source purpose; extract source-specific finding and locator.",
+        "Verify original identity/version and correction/retraction status; assess bias and claim applicability before release."
+      ],
+      "scope": "Original repository record matched by source ID, not a newly inspected external publication.",
+      "independent_bias_appraisal_complete": false,
+      "clinical_review": false,
+      "publish": false
+    },
+    {
+      "id": "P5-06",
+      "origin": "research/staged-completion/stage-05/SOURCES.json",
+      "origin_index": 5,
+      "origin_blob_sha": "8032baf9bd472a662d1585aa53ba2465580e12a8",
+      "original_title": "Trial trustworthiness assessment: commentary on the Cochrane 2025 systematic review on calcium supplementation during pregnancy",
+      "archive_extraction": {
+        "design": "2026 commentary",
+        "limitations": "Academic intellectual conflict matters even without commercial funding; excluded trials need independent appraisal.",
+        "access": "Publisher HTML funding, competing interests, selected text",
+        "correction_retraction_status": "full registry sweep pending",
+        "scope": "Challenges exclusion criteria, e.g. Purwar 1996",
+        "publication_status": "staged research only",
+        "funding": "No specific grant declared",
+        "financial_ties": "Atallah and Torloni coauthored earlier Cochrane versions; Cormick no competing interests declared",
+        "prior_ids": [
+          "S093"
+        ]
+      },
+      "archived_funding_notes": [
+        "No specific grant declared"
+      ],
+      "archived_financial_interest_notes": [
+        "Atallah and Torloni coauthored earlier Cochrane versions; Cormick no competing interests declared"
+      ],
+      "archived_finding_present": false,
+      "archived_design_or_limitations_present": true,
+      "next_checks": [
+        "Read original results or applicable non-clinical source purpose; extract source-specific finding and locator.",
+        "Verify original identity/version and correction/retraction status; assess bias and claim applicability before release."
+      ],
+      "scope": "Original repository record matched by source ID, not a newly inspected external publication.",
+      "independent_bias_appraisal_complete": false,
+      "clinical_review": false,
+      "publish": false
+    },
+    {
+      "id": "P5-07",
+      "origin": "research/staged-completion/stage-05/SOURCES.json",
+      "origin_index": 6,
+      "origin_blob_sha": "8032baf9bd472a662d1585aa53ba2465580e12a8",
+      "original_title": "Calcium supplementation for prevention of pre-eclampsia: a systematic review and individual participant data meta-analysis of randomised trials",
+      "archive_extraction": {
+        "design": "2026 IPD meta-analysis",
+        "limitations": "Correct DR003 overbroad no effect modification statement: gestational start timing interaction reported. Not independent of Cochrane cohorts; not early-start advice.",
+        "access": "University of Birmingham publication abstract and funding; publisher 403",
+        "correction_retraction_status": "full registry sweep pending",
+        "scope": "5 trials 14763 PE; 3 trials 13413 early PE",
+        "publication_status": "staged research only",
+        "funding": "UKRI MRC, UN/WHO/World Bank HRP programme, NIHR (institution record describes as US; country label needs verification)",
+        "financial_ties": "Full author COI pending",
+        "prior_ids": [
+          "DR003"
+        ]
+      },
+      "archived_funding_notes": [
+        "UKRI MRC, UN/WHO/World Bank HRP programme, NIHR (institution record describes as US; country label needs verification)"
+      ],
+      "archived_financial_interest_notes": [
+        "Full author COI pending"
+      ],
+      "archived_finding_present": false,
+      "archived_design_or_limitations_present": true,
+      "next_checks": [
+        "Read original results or applicable non-clinical source purpose; extract source-specific finding and locator.",
+        "Verify original identity/version and correction/retraction status; assess bias and claim applicability before release."
+      ],
+      "scope": "Original repository record matched by source ID, not a newly inspected external publication.",
+      "independent_bias_appraisal_complete": false,
+      "clinical_review": false,
+      "publish": false
+    },
+    {
+      "id": "P5-08",
+      "origin": "research/staged-completion/stage-05/SOURCES.json",
+      "origin_index": 7,
+      "origin_blob_sha": "8032baf9bd472a662d1585aa53ba2465580e12a8",
+      "original_title": "Calcium supplementation commenced before pregnancy for preventing hypertensive disorders and related problems",
+      "archive_extraction": {
+        "design": "2025 Cochrane review",
+        "limitations": "No 3-year prevention recommendation.",
+        "access": "Indexed Cochrane/PubMed abstracts",
+        "correction_retraction_status": "full registry sweep pending",
+        "scope": "One trial beginning before pregnancy",
+        "publication_status": "staged research only",
+        "funding": "Part-funded WHO",
+        "financial_ties": "Full disclosure pending",
+        "prior_ids": [
+          "R012"
+        ]
+      },
+      "archived_funding_notes": [
+        "Part-funded WHO"
+      ],
+      "archived_financial_interest_notes": [
+        "Full disclosure pending"
+      ],
+      "archived_finding_present": false,
+      "archived_design_or_limitations_present": true,
+      "next_checks": [
+        "Read original results or applicable non-clinical source purpose; extract source-specific finding and locator.",
+        "Verify original identity/version and correction/retraction status; assess bias and claim applicability before release."
+      ],
+      "scope": "Original repository record matched by source ID, not a newly inspected external publication.",
+      "independent_bias_appraisal_complete": false,
+      "clinical_review": false,
+      "publish": false
+    },
+    {
+      "id": "P5-09",
+      "origin": "research/staged-completion/stage-05/SOURCES.json",
+      "origin_index": 8,
+      "origin_blob_sha": "8032baf9bd472a662d1585aa53ba2465580e12a8",
+      "original_title": "Two Randomized Trials of Low-Dose Calcium Supplementation in Pregnancy",
+      "archive_extraction": {
+        "design": "2024 two noninferiority RCTs",
+        "limitations": "Dose comparison not efficacy vs no calcium; do not generalize setting or self-prescribe.",
+        "access": "Indexed primary full-text and protocol",
+        "correction_retraction_status": "full registry sweep pending",
+        "scope": "India and Tanzania 11000 each; 500 vs 1500 mg/day",
+        "publication_status": "staged research only",
+        "funding": "Gates Foundation OPP1172660 and others",
+        "financial_ties": "Complete disclosure pending",
+        "prior_ids": [
+          "GE005"
+        ]
+      },
+      "archived_funding_notes": [
+        "Gates Foundation OPP1172660 and others"
+      ],
+      "archived_financial_interest_notes": [
+        "Complete disclosure pending"
+      ],
+      "archived_finding_present": false,
+      "archived_design_or_limitations_present": true,
+      "next_checks": [
+        "Read original results or applicable non-clinical source purpose; extract source-specific finding and locator.",
+        "Verify original identity/version and correction/retraction status; assess bias and claim applicability before release."
+      ],
+      "scope": "Original repository record matched by source ID, not a newly inspected external publication.",
+      "independent_bias_appraisal_complete": false,
+      "clinical_review": false,
+      "publish": false
+    },
+    {
+      "id": "P5-10",
+      "origin": "research/staged-completion/stage-05/SOURCES.json",
+      "origin_index": 9,
+      "origin_blob_sha": "8032baf9bd472a662d1585aa53ba2465580e12a8",
+      "original_title": "WHO pre-eclampsia fact sheet and calcium recommendation lineage",
+      "archive_extraction": {
+        "design": "WHO guidance",
+        "limitations": "Do not use new review to discontinue prescribed prevention; verify guideline release.",
+        "access": "Official HTML and ODS",
+        "correction_retraction_status": "full registry sweep pending",
+        "scope": "Low dietary calcium populations",
+        "publication_status": "staged research only",
+        "funding": "WHO",
+        "financial_ties": "Panel disclosures not audited",
+        "prior_ids": [
+          "S224"
+        ]
+      },
+      "archived_funding_notes": [
+        "WHO"
+      ],
+      "archived_financial_interest_notes": [
+        "Panel disclosures not audited"
+      ],
+      "archived_finding_present": false,
+      "archived_design_or_limitations_present": true,
+      "next_checks": [
+        "Read original results or applicable non-clinical source purpose; extract source-specific finding and locator.",
+        "Verify original identity/version and correction/retraction status; assess bias and claim applicability before release."
+      ],
+      "scope": "Original repository record matched by source ID, not a newly inspected external publication.",
+      "independent_bias_appraisal_complete": false,
+      "clinical_review": false,
+      "publish": false
+    },
+    {
+      "id": "P5-11",
+      "origin": "research/staged-completion/stage-05/SOURCES.json",
+      "origin_index": 10,
+      "origin_blob_sha": "8032baf9bd472a662d1585aa53ba2465580e12a8",
+      "original_title": "Probiotics to prevent gestational diabetes mellitus",
+      "archive_extraction": {
+        "design": "2021 Cochrane review",
+        "limitations": "Specific prevention populations; not fermented food or all strains; no pooling with broader review.",
+        "access": "Cochrane HTML",
+        "correction_retraction_status": "full registry sweep pending",
+        "scope": "4 RCTs 955 for PE",
+        "publication_status": "staged research only",
+        "funding": "Review funding not retrieved",
+        "financial_ties": "Authors include investigators in underlying trials; formal disclosure pending",
+        "prior_ids": [
+          "S094"
+        ]
+      },
+      "archived_funding_notes": [
+        "Review funding not retrieved"
+      ],
+      "archived_financial_interest_notes": [
+        "Authors include investigators in underlying trials; formal disclosure pending"
+      ],
+      "archived_finding_present": false,
+      "archived_design_or_limitations_present": true,
+      "next_checks": [
+        "Read original results or applicable non-clinical source purpose; extract source-specific finding and locator.",
+        "Verify original identity/version and correction/retraction status; assess bias and claim applicability before release."
+      ],
+      "scope": "Original repository record matched by source ID, not a newly inspected external publication.",
+      "independent_bias_appraisal_complete": false,
+      "clinical_review": false,
+      "publish": false
+    },
+    {
+      "id": "P5-12",
+      "origin": "research/staged-completion/stage-05/SOURCES.json",
+      "origin_index": 11,
+      "origin_blob_sha": "8032baf9bd472a662d1585aa53ba2465580e12a8",
+      "original_title": "The effects of probiotics administration during pregnancy on preeclampsia and associated maternal, fetal, and newborn outcomes",
+      "archive_extraction": {
+        "design": "2024 systematic review/meta-analysis",
+        "limitations": "Broader populations/eligibility; cannot dismiss earlier safety signal; overlapping trials.",
+        "access": "Indexed primary abstract and publisher funding",
+        "correction_retraction_status": "full registry sweep pending",
+        "scope": "11 trials 2401 for PE",
+        "publication_status": "staged research only",
+        "funding": "Gates Foundation INV-038938 and Harry Secomb Foundation IPAP2022/0475",
+        "financial_ties": "Full COI pending; underlying trials separate",
+        "prior_ids": [
+          "S095"
+        ]
+      },
+      "archived_funding_notes": [
+        "Gates Foundation INV-038938 and Harry Secomb Foundation IPAP2022/0475"
+      ],
+      "archived_financial_interest_notes": [
+        "Full COI pending; underlying trials separate"
+      ],
+      "archived_finding_present": false,
+      "archived_design_or_limitations_present": true,
+      "next_checks": [
+        "Read original results or applicable non-clinical source purpose; extract source-specific finding and locator.",
+        "Verify original identity/version and correction/retraction status; assess bias and claim applicability before release."
+      ],
+      "scope": "Original repository record matched by source ID, not a newly inspected external publication.",
+      "independent_bias_appraisal_complete": false,
+      "clinical_review": false,
+      "publish": false
+    },
+    {
+      "id": "P5-13",
+      "origin": "research/staged-completion/stage-05/SOURCES.json",
+      "origin_index": 12,
+      "origin_blob_sha": "8032baf9bd472a662d1585aa53ba2465580e12a8",
+      "original_title": "Probiotics for the Prevention of Gestational Diabetes Mellitus in Overweight and Obese Women: Findings From the SPRING Double-Blind Randomized Controlled Trial",
+      "archive_extraction": {
+        "design": "2019 RCT",
+        "limitations": "Adverse directional result despite in-kind support; full primary funding, exact arms and registry pending.",
+        "access": "Primary indexed abstract; inherited funding crosswalk",
+        "correction_retraction_status": "full registry sweep pending",
+        "scope": "Pregnant women with overweight/obesity",
+        "publication_status": "staged research only",
+        "funding": "NHMRC and Royal Brisbane and Women's Hospital Foundation reported in prior same-cohort disclosures; Chr Hansen donated active/placebo per prior H002/H003 audit",
+        "financial_ties": "Product supply linked through secondary reports; primary disclosures not newly verified",
+        "cohort": "SPRING",
+        "prior_ids": [
+          "R001",
+          "H002",
+          "H003"
+        ]
+      },
+      "archived_funding_notes": [
+        "NHMRC and Royal Brisbane and Women's Hospital Foundation reported in prior same-cohort disclosures; Chr Hansen donated active/placebo per prior H002/H003 audit"
+      ],
+      "archived_financial_interest_notes": [
+        "Product supply linked through secondary reports; primary disclosures not newly verified"
+      ],
+      "archived_finding_present": false,
+      "archived_design_or_limitations_present": true,
+      "next_checks": [
+        "Read original results or applicable non-clinical source purpose; extract source-specific finding and locator.",
+        "Verify original identity/version and correction/retraction status; assess bias and claim applicability before release."
+      ],
+      "scope": "Original repository record matched by source ID, not a newly inspected external publication.",
+      "independent_bias_appraisal_complete": false,
+      "clinical_review": false,
+      "publish": false
+    },
+    {
+      "id": "P5-14",
+      "origin": "research/staged-completion/stage-05/SOURCES.json",
+      "origin_index": 13,
+      "origin_blob_sha": "8032baf9bd472a662d1585aa53ba2465580e12a8",
+      "original_title": "A Randomized Trial of Prenatal n-3 Fatty Acid Supplementation and Preterm Delivery",
+      "archive_extraction": {
+        "design": "2019 ORIP RCT",
+        "limitations": "Different baseline status and comparator from ADORE; not proof fish unnecessary.",
+        "access": "Primary PubMed HTML, NEJM indexed funding",
+        "correction_retraction_status": "full registry sweep pending",
+        "scope": "5486 pregnancies primary analysis",
+        "publication_status": "staged research only",
+        "funding": "Australian NHMRC, Thyne Reid Foundation; Croda UK and Efamol/Wassen UK donated capsules, no other role reported",
+        "financial_ties": "Full author disclosure pending; commercial in-kind verified",
+        "cohort": "ORIP",
+        "prior_ids": [
+          "S082"
+        ]
+      },
+      "archived_funding_notes": [
+        "Australian NHMRC, Thyne Reid Foundation; Croda UK and Efamol/Wassen UK donated capsules, no other role reported"
+      ],
+      "archived_financial_interest_notes": [
+        "Full author disclosure pending; commercial in-kind verified"
+      ],
+      "archived_finding_present": false,
+      "archived_design_or_limitations_present": true,
+      "next_checks": [
+        "Read original results or applicable non-clinical source purpose; extract source-specific finding and locator.",
+        "Verify original identity/version and correction/retraction status; assess bias and claim applicability before release."
+      ],
+      "scope": "Original repository record matched by source ID, not a newly inspected external publication.",
+      "independent_bias_appraisal_complete": false,
+      "clinical_review": false,
+      "publish": false
+    },
+    {
+      "id": "P5-15",
+      "origin": "research/staged-completion/stage-05/SOURCES.json",
+      "origin_index": 14,
+      "origin_blob_sha": "8032baf9bd472a662d1585aa53ba2465580e12a8",
+      "original_title": "Higher dose docosahexaenoic acid supplementation during pregnancy and early preterm birth",
+      "archive_extraction": {
+        "design": "2021 adaptive Bayesian RCT",
+        "limitations": "Posterior probability is not individual benefit; no unsupervised high-dose advice.",
+        "access": "Indexed original abstract and university disclosure",
+        "correction_retraction_status": "full registry sweep pending",
+        "scope": "1032 analyzed; high vs lower DHA",
+        "publication_status": "staged research only",
+        "funding": "NICHD R01HD083292; DSM donated all capsules",
+        "financial_ties": "Susan Carlson reported DSM in-kind and outside-work DSM/Mead Johnson fees in institution record",
+        "cohort": "ADORE",
+        "prior_ids": [
+          "R007"
+        ]
+      },
+      "archived_funding_notes": [
+        "NICHD R01HD083292; DSM donated all capsules"
+      ],
+      "archived_financial_interest_notes": [
+        "Susan Carlson reported DSM in-kind and outside-work DSM/Mead Johnson fees in institution record"
+      ],
+      "archived_finding_present": false,
+      "archived_design_or_limitations_present": true,
+      "next_checks": [
+        "Read original results or applicable non-clinical source purpose; extract source-specific finding and locator.",
+        "Verify original identity/version and correction/retraction status; assess bias and claim applicability before release."
+      ],
+      "scope": "Original repository record matched by source ID, not a newly inspected external publication.",
+      "independent_bias_appraisal_complete": false,
+      "clinical_review": false,
+      "publish": false
+    },
+    {
+      "id": "P5-16",
+      "origin": "research/staged-completion/stage-05/SOURCES.json",
+      "origin_index": 15,
+      "origin_blob_sha": "8032baf9bd472a662d1585aa53ba2465580e12a8",
+      "original_title": "Genotype-informed docosahexaenoic acid dosing based on the FADS Indel to reduce preterm and prolonged gestation",
+      "archive_extraction": {
+        "design": "2026 post hoc secondary analysis",
+        "limitations": "Post hoc, small event counts; no genotype/race dosing or tests; preserve GE-H04.",
+        "access": "Original PLOS HTML and indexed abstract",
+        "correction_retraction_status": "full registry sweep pending",
+        "scope": "ADORE genotyped subset",
+        "publication_status": "staged research only",
+        "funding": "NIH R01HD083292; no sponsor role; parent trial DSM in-kind",
+        "financial_ties": "Current paper disclosure must be read with parent trial financial ties; no assumption of new independent cohort",
+        "cohort": "ADORE",
+        "prior_ids": [
+          "GE001",
+          "GE-H04"
+        ]
+      },
+      "archived_funding_notes": [
+        "NIH R01HD083292; no sponsor role; parent trial DSM in-kind"
+      ],
+      "archived_financial_interest_notes": [
+        "Current paper disclosure must be read with parent trial financial ties; no assumption of new independent cohort"
+      ],
+      "archived_finding_present": false,
+      "archived_design_or_limitations_present": true,
+      "next_checks": [
+        "Read original results or applicable non-clinical source purpose; extract source-specific finding and locator.",
+        "Verify original identity/version and correction/retraction status; assess bias and claim applicability before release."
+      ],
+      "scope": "Original repository record matched by source ID, not a newly inspected external publication.",
+      "independent_bias_appraisal_complete": false,
+      "clinical_review": false,
+      "publish": false
+    },
+    {
+      "id": "P5-17",
+      "origin": "research/staged-completion/stage-05/SOURCES.json",
+      "origin_index": 16,
+      "origin_blob_sha": "8032baf9bd472a662d1585aa53ba2465580e12a8",
+      "original_title": "Vitamin D supplementation for women during pregnancy",
+      "archive_extraction": {
+        "design": "2024 Cochrane review",
+        "limitations": "Very uncertain outcomes; not evidence to ignore deficiency.",
+        "access": "Official Cochrane indexed abstract",
+        "correction_retraction_status": "full registry sweep pending",
+        "scope": "Supplement vs placebo/no treatment",
+        "publication_status": "staged research only",
+        "funding": "Not verified",
+        "financial_ties": "Unknown",
+        "prior_ids": [
+          "S090"
+        ]
+      },
+      "archived_funding_notes": [
+        "Not verified"
+      ],
+      "archived_financial_interest_notes": [
+        "Unknown"
+      ],
+      "archived_finding_present": false,
+      "archived_design_or_limitations_present": true,
+      "next_checks": [
+        "Read original results or applicable non-clinical source purpose; extract source-specific finding and locator.",
+        "Verify original identity/version and correction/retraction status; assess bias and claim applicability before release."
+      ],
+      "scope": "Original repository record matched by source ID, not a newly inspected external publication.",
+      "independent_bias_appraisal_complete": false,
+      "clinical_review": false,
+      "publish": false
+    },
+    {
+      "id": "P5-18",
+      "origin": "research/staged-completion/stage-05/SOURCES.json",
+      "origin_index": 17,
+      "origin_blob_sha": "8032baf9bd472a662d1585aa53ba2465580e12a8",
+      "original_title": "Regimens of vitamin D supplementation for women during pregnancy",
+      "archive_extraction": {
+        "design": "2026 Cochrane dose comparison",
+        "limitations": "Version discrepancy, not evidence of fraud; check DOI version, full tables and correction before chart; no dosage change.",
+        "access": "Cochrane HTML results vs PubMed indexed abstract, direct PubMed captcha",
+        "correction_retraction_status": "full registry sweep pending",
+        "scope": "Higher vs lower doses; no zero dose arms",
+        "publication_status": "quarantined numeric conflict; research only",
+        "funding": "No dedicated review funding reported",
+        "financial_ties": "Full COI and primary trial funding pending",
+        "prior_ids": [
+          "GE002",
+          "GE-H07"
+        ]
+      },
+      "archived_funding_notes": [
+        "No dedicated review funding reported"
+      ],
+      "archived_financial_interest_notes": [
+        "Full COI and primary trial funding pending"
+      ],
+      "archived_finding_present": false,
+      "archived_design_or_limitations_present": true,
+      "next_checks": [
+        "Read original results or applicable non-clinical source purpose; extract source-specific finding and locator.",
+        "Verify original identity/version and correction/retraction status; assess bias and claim applicability before release."
+      ],
+      "scope": "Original repository record matched by source ID, not a newly inspected external publication.",
+      "independent_bias_appraisal_complete": false,
+      "clinical_review": false,
+      "publish": false
+    },
+    {
+      "id": "P5-19",
+      "origin": "research/staged-completion/stage-05/SOURCES.json",
+      "origin_index": 18,
+      "origin_blob_sha": "8032baf9bd472a662d1585aa53ba2465580e12a8",
+      "original_title": "Daily oral iron supplementation during pregnancy",
+      "archive_extraction": {
+        "design": "2024 Cochrane review",
+        "limitations": "Reported proportions and pooled RR differ; not individual dose, screening or infant dosing.",
+        "access": "Indexed primary review abstract; PMC direct captcha",
+        "correction_retraction_status": "full registry sweep pending",
+        "scope": "Pregnancy iron vs placebo/no iron",
+        "publication_status": "staged research only",
+        "funding": "Not retrieved",
+        "financial_ties": "Unknown",
+        "prior_ids": [
+          "S222"
+        ]
+      },
+      "archived_funding_notes": [
+        "Not retrieved"
+      ],
+      "archived_financial_interest_notes": [
+        "Unknown"
+      ],
+      "archived_finding_present": false,
+      "archived_design_or_limitations_present": true,
+      "next_checks": [
+        "Read original results or applicable non-clinical source purpose; extract source-specific finding and locator.",
+        "Verify original identity/version and correction/retraction status; assess bias and claim applicability before release."
+      ],
+      "scope": "Original repository record matched by source ID, not a newly inspected external publication.",
+      "independent_bias_appraisal_complete": false,
+      "clinical_review": false,
+      "publish": false
+    },
+    {
+      "id": "P5-20",
+      "origin": "research/staged-completion/stage-05/SOURCES.json",
+      "origin_index": 19,
+      "origin_blob_sha": "8032baf9bd472a662d1585aa53ba2465580e12a8",
+      "original_title": "Daily versus Alternate-Day Iron Supplementation for Pregnant Women with Iron Deficiency Anemia",
+      "archive_extraction": {
+        "design": "2025 randomized trial (online 2024)",
+        "limitations": "Treatment population, not prevention; no self-change in prescribed regimen.",
+        "access": "Original abstract and COI",
+        "correction_retraction_status": "full registry sweep pending",
+        "scope": "88 pregnant patients, mostly mild anemia",
+        "publication_status": "staged research only",
+        "funding": "Full funding statement not retrieved",
+        "financial_ties": "None declared in PubMed",
+        "prior_ids": []
+      },
+      "archived_funding_notes": [
+        "Full funding statement not retrieved"
+      ],
+      "archived_financial_interest_notes": [
+        "None declared in PubMed"
+      ],
+      "archived_finding_present": false,
+      "archived_design_or_limitations_present": true,
+      "next_checks": [
+        "Read original results or applicable non-clinical source purpose; extract source-specific finding and locator.",
+        "Verify original identity/version and correction/retraction status; assess bias and claim applicability before release."
+      ],
+      "scope": "Original repository record matched by source ID, not a newly inspected external publication.",
+      "independent_bias_appraisal_complete": false,
+      "clinical_review": false,
+      "publish": false
+    },
+    {
+      "id": "P5-21",
+      "origin": "research/staged-completion/stage-05/SOURCES.json",
+      "origin_index": 20,
+      "origin_blob_sha": "8032baf9bd472a662d1585aa53ba2465580e12a8",
+      "original_title": "Effect of iodine supplementation in pregnant women on child neurodevelopment",
+      "archive_extraction": {
+        "design": "2017 double blind RCT",
+        "limitations": "Attrition, timing and baseline status; no inference for severe deficiency or adequate intake guidance.",
+        "access": "Original PubMed abstract/funding",
+        "correction_retraction_status": "full registry sweep pending",
+        "scope": "832 women, mild deficiency context; 313 children IQ analysis",
+        "publication_status": "staged research only",
+        "funding": "Swiss National Science Foundation, Nestlé Foundation, Wageningen University and Research, ETH Zurich",
+        "financial_ties": "Foundation originates from Nestlé donation, states independent governance; current company influence not demonstrated; individual COI pending",
+        "prior_ids": []
+      },
+      "archived_funding_notes": [
+        "Swiss National Science Foundation, Nestlé Foundation, Wageningen University and Research, ETH Zurich"
+      ],
+      "archived_financial_interest_notes": [
+        "Foundation originates from Nestlé donation, states independent governance; current company influence not demonstrated; individual COI pending"
+      ],
+      "archived_finding_present": false,
+      "archived_design_or_limitations_present": true,
+      "next_checks": [
+        "Read original results or applicable non-clinical source purpose; extract source-specific finding and locator.",
+        "Verify original identity/version and correction/retraction status; assess bias and claim applicability before release."
+      ],
+      "scope": "Original repository record matched by source ID, not a newly inspected external publication.",
+      "independent_bias_appraisal_complete": false,
+      "clinical_review": false,
+      "publish": false
+    },
+    {
+      "id": "P5-22",
+      "origin": "research/staged-completion/stage-05/SOURCES.json",
+      "origin_index": 21,
+      "origin_blob_sha": "8032baf9bd472a662d1585aa53ba2465580e12a8",
+      "original_title": "About the Nestlé Foundation",
+      "archive_extraction": {
+        "design": "Organization self-description",
+        "limitations": "Not a clinical trial or independent verification of governance.",
+        "access": "Official indexed self-description",
+        "correction_retraction_status": "full registry sweep pending",
+        "scope": "Funding provenance",
+        "publication_status": "staged research only",
+        "funding": "Company-origin foundation; self-described autonomy",
+        "financial_ties": "No verified current company control; independent governance audit pending",
+        "prior_ids": []
+      },
+      "archived_funding_notes": [
+        "Company-origin foundation; self-described autonomy"
+      ],
+      "archived_financial_interest_notes": [
+        "No verified current company control; independent governance audit pending"
+      ],
+      "archived_finding_present": false,
+      "archived_design_or_limitations_present": true,
+      "next_checks": [
+        "Read original results or applicable non-clinical source purpose; extract source-specific finding and locator.",
+        "Verify original identity/version and correction/retraction status; assess bias and claim applicability before release."
+      ],
+      "scope": "Original repository record matched by source ID, not a newly inspected external publication.",
+      "independent_bias_appraisal_complete": false,
+      "clinical_review": false,
+      "publish": false
+    },
+    {
+      "id": "P5-23",
+      "origin": "research/staged-completion/stage-05/SOURCES.json",
+      "origin_index": 22,
+      "origin_blob_sha": "8032baf9bd472a662d1585aa53ba2465580e12a8",
+      "original_title": "Open label, dose escalation trial of creatine monohydrate in pregnancy",
+      "archive_extraction": {
+        "design": "2025 conference supplement abstract; pharmacokinetic open-label",
+        "limitations": "No randomized efficacy or long-term safety; preserve research-only status.",
+        "access": "Indexed abstract and registry ACTRN12620001373965",
+        "correction_retraction_status": "full registry sweep pending",
+        "scope": "Pregnancy",
+        "publication_status": "staged research only",
+        "funding": "Not verified",
+        "financial_ties": "Unknown",
+        "prior_ids": [
+          "S190"
+        ]
+      },
+      "archived_funding_notes": [
+        "Not verified"
+      ],
+      "archived_financial_interest_notes": [
+        "Unknown"
+      ],
+      "archived_finding_present": false,
+      "archived_design_or_limitations_present": true,
+      "next_checks": [
+        "Read original results or applicable non-clinical source purpose; extract source-specific finding and locator.",
+        "Verify original identity/version and correction/retraction status; assess bias and claim applicability before release."
+      ],
+      "scope": "Original repository record matched by source ID, not a newly inspected external publication.",
+      "independent_bias_appraisal_complete": false,
+      "clinical_review": false,
+      "publish": false
+    },
+    {
+      "id": "P5-24",
+      "origin": "research/staged-completion/stage-05/SOURCES.json",
+      "origin_index": 23,
+      "origin_blob_sha": "8032baf9bd472a662d1585aa53ba2465580e12a8",
+      "original_title": "Prenatal Supplements: Amounts of Some Key Nutrients Differed from Product Labels",
+      "archive_extraction": {
+        "design": "2023 government laboratory audit",
+        "limitations": "Selected anonymized sample, cannot identify brands or generalize prevalence; no inference all deviations dangerous.",
+        "access": "Official GAO HTML methods/results",
+        "correction_retraction_status": "full registry sweep pending",
+        "scope": "12 selected best-selling/top-rated products; 3 lots each",
+        "publication_status": "staged research only",
+        "funding": "US GAO commissioned blinded accredited laboratory",
+        "financial_ties": "No manufacturer funding described",
+        "prior_ids": []
+      },
+      "archived_funding_notes": [
+        "US GAO commissioned blinded accredited laboratory"
+      ],
+      "archived_financial_interest_notes": [
+        "No manufacturer funding described"
+      ],
+      "archived_finding_present": false,
+      "archived_design_or_limitations_present": true,
+      "next_checks": [
+        "Read original results or applicable non-clinical source purpose; extract source-specific finding and locator.",
+        "Verify original identity/version and correction/retraction status; assess bias and claim applicability before release."
+      ],
+      "scope": "Original repository record matched by source ID, not a newly inspected external publication.",
+      "independent_bias_appraisal_complete": false,
+      "clinical_review": false,
+      "publish": false
+    },
+    {
+      "id": "P5-25",
+      "origin": "research/staged-completion/stage-05/SOURCES.json",
+      "origin_index": 24,
+      "origin_blob_sha": "8032baf9bd472a662d1585aa53ba2465580e12a8",
+      "original_title": "Testing Results for Selected Prenatal Supplements",
+      "archive_extraction": {
+        "design": "GAO companion",
+        "limitations": "PDF and CSV not downloaded or inspected; not another sample.",
+        "access": "Official HTML landing page",
+        "correction_retraction_status": "full registry sweep pending",
+        "scope": "Same 12 products",
+        "publication_status": "staged research only",
+        "funding": "US GAO",
+        "financial_ties": "Same sample P5-24",
+        "prior_ids": []
+      },
+      "archived_funding_notes": [
+        "US GAO"
+      ],
+      "archived_financial_interest_notes": [
+        "Same sample P5-24"
+      ],
+      "archived_finding_present": false,
+      "archived_design_or_limitations_present": true,
+      "next_checks": [
+        "Read original results or applicable non-clinical source purpose; extract source-specific finding and locator.",
+        "Verify original identity/version and correction/retraction status; assess bias and claim applicability before release."
+      ],
+      "scope": "Original repository record matched by source ID, not a newly inspected external publication.",
+      "independent_bias_appraisal_complete": false,
+      "clinical_review": false,
+      "publish": false
+    },
+    {
+      "id": "P5-26",
+      "origin": "research/staged-completion/stage-05/SOURCES.json",
+      "origin_index": 25,
+      "origin_blob_sha": "8032baf9bd472a662d1585aa53ba2465580e12a8",
+      "original_title": "Selecting a dietary supplement with appropriate dosing for 6 key nutrients in pregnancy",
+      "archive_extraction": {
+        "design": "2023 label database modeling",
+        "limitations": "Model assumptions not personalized dose or verified actual product contents; no current brand ranking.",
+        "access": "Indexed primary abstract",
+        "correction_retraction_status": "full registry sweep pending",
+        "scope": "20547 products, 421 prenatal",
+        "publication_status": "staged research only",
+        "funding": "Full funding not retrieved",
+        "financial_ties": "Unknown",
+        "prior_ids": []
+      },
+      "archived_funding_notes": [
+        "Full funding not retrieved"
+      ],
+      "archived_financial_interest_notes": [
+        "Unknown"
+      ],
+      "archived_finding_present": false,
+      "archived_design_or_limitations_present": true,
+      "next_checks": [
+        "Read original results or applicable non-clinical source purpose; extract source-specific finding and locator.",
+        "Verify original identity/version and correction/retraction status; assess bias and claim applicability before release."
+      ],
+      "scope": "Original repository record matched by source ID, not a newly inspected external publication.",
+      "independent_bias_appraisal_complete": false,
+      "clinical_review": false,
+      "publish": false
+    },
+    {
+      "id": "P5-27",
+      "origin": "research/staged-completion/stage-05/SOURCES.json",
+      "origin_index": 26,
+      "origin_blob_sha": "8032baf9bd472a662d1585aa53ba2465580e12a8",
+      "original_title": "Content of selected nutrients and heavy metals in prenatal multivitamins and minerals",
+      "archive_extraction": {
+        "design": "2025 laboratory observational study",
+        "limitations": "Sampling and assays; no brand recommendation or prevalence estimate.",
+        "access": "Indexed primary abstract",
+        "correction_retraction_status": "full registry sweep pending",
+        "scope": "47 products, 25 listed iodine",
+        "publication_status": "staged research only",
+        "funding": "Not verified",
+        "financial_ties": "Full COI unknown; direct PMC captcha",
+        "prior_ids": []
+      },
+      "archived_funding_notes": [
+        "Not verified"
+      ],
+      "archived_financial_interest_notes": [
+        "Full COI unknown; direct PMC captcha"
+      ],
+      "archived_finding_present": false,
+      "archived_design_or_limitations_present": true,
+      "next_checks": [
+        "Read original results or applicable non-clinical source purpose; extract source-specific finding and locator.",
+        "Verify original identity/version and correction/retraction status; assess bias and claim applicability before release."
+      ],
+      "scope": "Original repository record matched by source ID, not a newly inspected external publication.",
+      "independent_bias_appraisal_complete": false,
+      "clinical_review": false,
+      "publish": false
+    },
+    {
+      "id": "P5-28",
+      "origin": "research/staged-completion/stage-05/SOURCES.json",
+      "origin_index": 27,
+      "origin_blob_sha": "8032baf9bd472a662d1585aa53ba2465580e12a8",
+      "original_title": "Dietary Supplements and Life Stages: Pregnancy",
+      "archive_extraction": {
+        "design": "NIH ODS reference",
+        "limitations": "Not supplement doses; ND is not unlimited safety; use age and stage.",
+        "access": "HTML tables 1–2 directly inspected",
+        "correction_retraction_status": "full registry sweep pending",
+        "scope": "Pregnancy ages 14–50",
+        "publication_status": "staged research only",
+        "funding": "NIH ODS",
+        "financial_ties": "Underlying evidence separate",
+        "prior_ids": []
+      },
+      "archived_funding_notes": [
+        "NIH ODS"
+      ],
+      "archived_financial_interest_notes": [
+        "Underlying evidence separate"
+      ],
+      "archived_finding_present": false,
+      "archived_design_or_limitations_present": true,
+      "next_checks": [
+        "Read original results or applicable non-clinical source purpose; extract source-specific finding and locator.",
+        "Verify original identity/version and correction/retraction status; assess bias and claim applicability before release."
+      ],
+      "scope": "Original repository record matched by source ID, not a newly inspected external publication.",
+      "independent_bias_appraisal_complete": false,
+      "clinical_review": false,
+      "publish": false
+    },
+    {
+      "id": "P5-29",
+      "origin": "research/staged-completion/stage-05/SOURCES.json",
+      "origin_index": 28,
+      "origin_blob_sha": "8032baf9bd472a662d1585aa53ba2465580e12a8",
+      "original_title": "Advice about Eating Fish",
+      "archive_extraction": {
+        "design": "FDA/EPA guidance",
+        "limitations": "No fish oil equivalence; allergy/food safety; check current chart.",
+        "access": "Official HTML indexed",
+        "correction_retraction_status": "full registry sweep pending",
+        "scope": "Pregnancy/lactation, children age-specific",
+        "publication_status": "staged research only",
+        "funding": "US FDA/EPA",
+        "financial_ties": "Panel evidence not audited",
+        "prior_ids": []
+      },
+      "archived_funding_notes": [
+        "US FDA/EPA"
+      ],
+      "archived_financial_interest_notes": [
+        "Panel evidence not audited"
+      ],
+      "archived_finding_present": false,
+      "archived_design_or_limitations_present": true,
+      "next_checks": [
+        "Read original results or applicable non-clinical source purpose; extract source-specific finding and locator.",
+        "Verify original identity/version and correction/retraction status; assess bias and claim applicability before release."
+      ],
+      "scope": "Original repository record matched by source ID, not a newly inspected external publication.",
+      "independent_bias_appraisal_complete": false,
+      "clinical_review": false,
+      "publish": false
+    },
+    {
+      "id": "P5-30",
+      "origin": "research/staged-completion/stage-05/SOURCES.json",
+      "origin_index": 29,
+      "origin_blob_sha": "8032baf9bd472a662d1585aa53ba2465580e12a8",
+      "original_title": "Folate and Folic Acid on the Nutrition and Supplement Facts Labels",
+      "archive_extraction": {
+        "design": "FDA label guidance",
+        "limitations": "Do not convert UL DFE as if same unit.",
+        "access": "Official indexed HTML",
+        "correction_retraction_status": "full registry sweep pending",
+        "scope": "Supplement/fortified foods",
+        "publication_status": "staged research only",
+        "funding": "FDA",
+        "financial_ties": "Not applicable",
+        "prior_ids": []
+      },
+      "archived_funding_notes": [
+        "FDA"
+      ],
+      "archived_financial_interest_notes": [
+        "Not applicable"
+      ],
+      "archived_finding_present": false,
+      "archived_design_or_limitations_present": true,
+      "next_checks": [
+        "Read original results or applicable non-clinical source purpose; extract source-specific finding and locator.",
+        "Verify original identity/version and correction/retraction status; assess bias and claim applicability before release."
+      ],
+      "scope": "Original repository record matched by source ID, not a newly inspected external publication.",
+      "independent_bias_appraisal_complete": false,
+      "clinical_review": false,
+      "publish": false
+    },
+    {
+      "id": "P5-31",
+      "origin": "research/staged-completion/stage-05/SOURCES.json",
+      "origin_index": 30,
+      "origin_blob_sha": "8032baf9bd472a662d1585aa53ba2465580e12a8",
+      "original_title": "Dietary Supplement Label Database",
+      "archive_extraction": {
+        "design": "NIH database",
+        "limitations": "Not proof of efficacy, actual contents or current recall status.",
+        "access": "Official indexed HTML",
+        "correction_retraction_status": "full registry sweep pending",
+        "scope": "US product labels",
+        "publication_status": "staged research only",
+        "funding": "NIH ODS",
+        "financial_ties": "Manufacturer-supplied labels; not independent assays",
+        "prior_ids": []
+      },
+      "archived_funding_notes": [
+        "NIH ODS"
+      ],
+      "archived_financial_interest_notes": [
+        "Manufacturer-supplied labels; not independent assays"
+      ],
+      "archived_finding_present": false,
+      "archived_design_or_limitations_present": true,
+      "next_checks": [
+        "Read original results or applicable non-clinical source purpose; extract source-specific finding and locator.",
+        "Verify original identity/version and correction/retraction status; assess bias and claim applicability before release."
+      ],
+      "scope": "Original repository record matched by source ID, not a newly inspected external publication.",
+      "independent_bias_appraisal_complete": false,
+      "clinical_review": false,
+      "publish": false
+    },
+    {
+      "id": "P6-01",
+      "origin": "research/staged-completion/stage-06/SOURCES.json",
+      "origin_index": 0,
+      "origin_blob_sha": "304a4e520aa7934fc6115ae311798729412d8b96",
+      "original_title": "Low-Level Environmental Lead Exposure and Children's Intellectual Function: An International Pooled Analysis",
+      "archive_extraction": {
+        "design": "Pooled observational analysis",
+        "population": "Seven international cohorts; 1333 children",
+        "limitations": "Observational estimates, not individual predictions or safe thresholds; do not use IQ chart to diagnose.",
+        "verification": "Indexed primary abstract and publisher disclosure",
+        "correction_retraction_status": "comprehensive registry sweep pending",
+        "publication_status": "staged research only",
+        "funding": "Exact primary grant list not extracted",
+        "financial_ties": "No competing financial interests per indexed publisher text",
+        "checked": "2026-11-26"
+      },
+      "archived_funding_notes": [
+        "Exact primary grant list not extracted"
+      ],
+      "archived_financial_interest_notes": [
+        "No competing financial interests per indexed publisher text"
+      ],
+      "archived_finding_present": false,
+      "archived_design_or_limitations_present": true,
+      "next_checks": [
+        "Read original results or applicable non-clinical source purpose; extract source-specific finding and locator.",
+        "Verify original identity/version and correction/retraction status; assess bias and claim applicability before release."
+      ],
+      "scope": "Original repository record matched by source ID, not a newly inspected external publication.",
+      "independent_bias_appraisal_complete": false,
+      "clinical_review": false,
+      "publish": false
+    },
+    {
+      "id": "P6-02",
+      "origin": "research/staged-completion/stage-06/SOURCES.json",
+      "origin_index": 1,
+      "origin_blob_sha": "304a4e520aa7934fc6115ae311798729412d8b96",
+      "original_title": "Risk Factors and Pregnancy",
+      "archive_extraction": {
+        "design": "CDC public health guidance",
+        "population": "Preconception/pregnancy",
+        "limitations": "No autonomous testing or treatment thresholds.",
+        "verification": "Official indexed HTML",
+        "correction_retraction_status": "comprehensive registry sweep pending",
+        "publication_status": "staged research only",
+        "funding": "CDC",
+        "financial_ties": "Agency guidance, panel/underlying funding separate",
+        "checked": "2026-11-26"
+      },
+      "archived_funding_notes": [
+        "CDC"
+      ],
+      "archived_financial_interest_notes": [
+        "Agency guidance, panel/underlying funding separate"
+      ],
+      "archived_finding_present": false,
+      "archived_design_or_limitations_present": true,
+      "next_checks": [
+        "Read original results or applicable non-clinical source purpose; extract source-specific finding and locator.",
+        "Verify original identity/version and correction/retraction status; assess bias and claim applicability before release."
+      ],
+      "scope": "Original repository record matched by source ID, not a newly inspected external publication.",
+      "independent_bias_appraisal_complete": false,
+      "clinical_review": false,
+      "publish": false
+    },
+    {
+      "id": "P6-03",
+      "origin": "research/staged-completion/stage-06/SOURCES.json",
+      "origin_index": 2,
+      "origin_blob_sha": "304a4e520aa7934fc6115ae311798729412d8b96",
+      "original_title": "Preventing Childhood Lead Poisoning",
+      "archive_extraction": {
+        "design": "CDC public health guidance",
+        "population": "Children",
+        "limitations": "Reference value not a toxicity threshold; prior PED-LEAD related, not independent trial.",
+        "verification": "Official indexed HTML",
+        "correction_retraction_status": "comprehensive registry sweep pending",
+        "publication_status": "staged research only",
+        "funding": "CDC",
+        "checked": "2026-11-26"
+      },
+      "archived_funding_notes": [
+        "CDC"
+      ],
+      "archived_financial_interest_notes": [],
+      "archived_finding_present": false,
+      "archived_design_or_limitations_present": true,
+      "next_checks": [
+        "Read original results or applicable non-clinical source purpose; extract source-specific finding and locator.",
+        "Extract author/institution interests and disclosure status from original source.",
+        "Verify original identity/version and correction/retraction status; assess bias and claim applicability before release."
+      ],
+      "scope": "Original repository record matched by source ID, not a newly inspected external publication.",
+      "independent_bias_appraisal_complete": false,
+      "clinical_review": false,
+      "publish": false
+    },
+    {
+      "id": "P6-04",
+      "origin": "research/staged-completion/stage-06/SOURCES.json",
+      "origin_index": 3,
+      "origin_blob_sha": "304a4e520aa7934fc6115ae311798729412d8b96",
+      "original_title": "Lead and Breastfeeding",
+      "archive_extraction": {
+        "design": "CDC clinical guidance",
+        "population": "Lactation",
+        "limitations": "No automatic breastfeeding cessation or threshold decision engine.",
+        "verification": "Official indexed HTML",
+        "correction_retraction_status": "comprehensive registry sweep pending",
+        "publication_status": "staged research only",
+        "funding": "CDC",
+        "checked": "2026-11-26"
+      },
+      "archived_funding_notes": [
+        "CDC"
+      ],
+      "archived_financial_interest_notes": [],
+      "archived_finding_present": false,
+      "archived_design_or_limitations_present": true,
+      "next_checks": [
+        "Read original results or applicable non-clinical source purpose; extract source-specific finding and locator.",
+        "Extract author/institution interests and disclosure status from original source.",
+        "Verify original identity/version and correction/retraction status; assess bias and claim applicability before release."
+      ],
+      "scope": "Original repository record matched by source ID, not a newly inspected external publication.",
+      "independent_bias_appraisal_complete": false,
+      "clinical_review": false,
+      "publish": false
+    },
+    {
+      "id": "P6-05",
+      "origin": "research/staged-completion/stage-06/SOURCES.json",
+      "origin_index": 4,
+      "origin_blob_sha": "304a4e520aa7934fc6115ae311798729412d8b96",
+      "original_title": "Basic Information about Lead in Drinking Water",
+      "archive_extraction": {
+        "design": "EPA guidance",
+        "population": "Households",
+        "limitations": "Local testing and instructions determine safe source; no universal flush duration.",
+        "verification": "Official indexed HTML",
+        "correction_retraction_status": "comprehensive registry sweep pending",
+        "publication_status": "staged research only",
+        "funding": "EPA",
+        "checked": "2026-11-26"
+      },
+      "archived_funding_notes": [
+        "EPA"
+      ],
+      "archived_financial_interest_notes": [],
+      "archived_finding_present": false,
+      "archived_design_or_limitations_present": true,
+      "next_checks": [
+        "Read original results or applicable non-clinical source purpose; extract source-specific finding and locator.",
+        "Extract author/institution interests and disclosure status from original source.",
+        "Verify original identity/version and correction/retraction status; assess bias and claim applicability before release."
+      ],
+      "scope": "Original repository record matched by source ID, not a newly inspected external publication.",
+      "independent_bias_appraisal_complete": false,
+      "clinical_review": false,
+      "publish": false
+    },
+    {
+      "id": "P6-06",
+      "origin": "research/staged-completion/stage-06/SOURCES.json",
+      "origin_index": 5,
+      "origin_blob_sha": "304a4e520aa7934fc6115ae311798729412d8b96",
+      "original_title": "Advice about Eating Fish",
+      "archive_extraction": {
+        "design": "FDA/EPA guidance",
+        "population": "Pregnancy, lactation, children",
+        "limitations": "Prior P5-29 link; not a new study or universal prescription.",
+        "verification": "Official HTML/index",
+        "correction_retraction_status": "comprehensive registry sweep pending",
+        "publication_status": "staged research only",
+        "funding": "FDA/EPA",
+        "financial_ties": "Panel/underlying trial ties not audited",
+        "prior_ids": [
+          "P5-29"
+        ],
+        "checked": "2026-11-26"
+      },
+      "archived_funding_notes": [
+        "FDA/EPA"
+      ],
+      "archived_financial_interest_notes": [
+        "Panel/underlying trial ties not audited"
+      ],
+      "archived_finding_present": false,
+      "archived_design_or_limitations_present": true,
+      "next_checks": [
+        "Read original results or applicable non-clinical source purpose; extract source-specific finding and locator.",
+        "Verify original identity/version and correction/retraction status; assess bias and claim applicability before release."
+      ],
+      "scope": "Original repository record matched by source ID, not a newly inspected external publication.",
+      "independent_bias_appraisal_complete": false,
+      "clinical_review": false,
+      "publish": false
+    },
+    {
+      "id": "P6-07",
+      "origin": "research/staged-completion/stage-06/SOURCES.json",
+      "origin_index": 6,
+      "origin_blob_sha": "304a4e520aa7934fc6115ae311798729412d8b96",
+      "original_title": "Prenatal exposure to organophosphate pesticides and IQ in 7-year-old children",
+      "archive_extraction": {
+        "design": "Prospective birth cohort",
+        "population": "329 CHAMACOS children, California agricultural community",
+        "limitations": "Residual confounding; nonspecific biomarkers; not personal prediction or evidence all produce unsafe.",
+        "verification": "Original PubMed abstract, grant and COI; indexed publisher funding",
+        "correction_retraction_status": "comprehensive registry sweep pending",
+        "publication_status": "staged research only",
+        "funding": "EPA, NIEHS P01 ES009605/R01 ES015572, NIOSH R01 OH007400 (publisher indexed acknowledgments)",
+        "financial_ties": "Eskenazi disclosed consultation on pesticide exposure case; other authors declared no competing financial interests.",
+        "cohort": "CHAMACOS",
+        "checked": "2026-11-26"
+      },
+      "archived_funding_notes": [
+        "EPA, NIEHS P01 ES009605/R01 ES015572, NIOSH R01 OH007400 (publisher indexed acknowledgments)"
+      ],
+      "archived_financial_interest_notes": [
+        "Eskenazi disclosed consultation on pesticide exposure case; other authors declared no competing financial interests."
+      ],
+      "archived_finding_present": false,
+      "archived_design_or_limitations_present": true,
+      "next_checks": [
+        "Read original results or applicable non-clinical source purpose; extract source-specific finding and locator.",
+        "Verify original identity/version and correction/retraction status; assess bias and claim applicability before release."
+      ],
+      "scope": "Original repository record matched by source ID, not a newly inspected external publication.",
+      "independent_bias_appraisal_complete": false,
+      "clinical_review": false,
+      "publish": false
+    },
+    {
+      "id": "P6-08",
+      "origin": "research/staged-completion/stage-06/SOURCES.json",
+      "origin_index": 7,
+      "origin_blob_sha": "304a4e520aa7934fc6115ae311798729412d8b96",
+      "original_title": "Early childhood adversity potentiates the adverse association between prenatal organophosphate pesticide exposure and child IQ: the CHAMACOS cohort",
+      "archive_extraction": {
+        "design": "Cohort secondary analysis",
+        "population": "329 children",
+        "limitations": "Same cohort P6-07, not independent replication.",
+        "verification": "Indexed primary methods and funding",
+        "correction_retraction_status": "comprehensive registry sweep pending",
+        "publication_status": "staged research only",
+        "funding": "EPA R82670901/RD83171001/RD83451301 and NIEHS P01 ES009605",
+        "financial_ties": "Individual disclosures not extracted",
+        "cohort": "CHAMACOS",
+        "checked": "2026-11-26"
+      },
+      "archived_funding_notes": [
+        "EPA R82670901/RD83171001/RD83451301 and NIEHS P01 ES009605"
+      ],
+      "archived_financial_interest_notes": [
+        "Individual disclosures not extracted"
+      ],
+      "archived_finding_present": false,
+      "archived_design_or_limitations_present": true,
+      "next_checks": [
+        "Read original results or applicable non-clinical source purpose; extract source-specific finding and locator.",
+        "Verify original identity/version and correction/retraction status; assess bias and claim applicability before release."
+      ],
+      "scope": "Original repository record matched by source ID, not a newly inspected external publication.",
+      "independent_bias_appraisal_complete": false,
+      "clinical_review": false,
+      "publish": false
+    },
+    {
+      "id": "P6-09",
+      "origin": "research/staged-completion/stage-06/SOURCES.json",
+      "origin_index": 8,
+      "origin_blob_sha": "304a4e520aa7934fc6115ae311798729412d8b96",
+      "original_title": "Organic diets significantly lower children's dietary exposure to organophosphorus pesticides",
+      "archive_extraction": {
+        "design": "Short diet intervention",
+        "population": "Children",
+        "limitations": "Biomarker not clinical health benefit; no organic-only recommendation.",
+        "verification": "Indexed primary abstract",
+        "correction_retraction_status": "comprehensive registry sweep pending",
+        "publication_status": "staged research only",
+        "funding": "Full disclosure not retrieved",
+        "financial_ties": "Unknown",
+        "checked": "2026-11-26"
+      },
+      "archived_funding_notes": [
+        "Full disclosure not retrieved"
+      ],
+      "archived_financial_interest_notes": [
+        "Unknown"
+      ],
+      "archived_finding_present": false,
+      "archived_design_or_limitations_present": true,
+      "next_checks": [
+        "Read original results or applicable non-clinical source purpose; extract source-specific finding and locator.",
+        "Verify original identity/version and correction/retraction status; assess bias and claim applicability before release."
+      ],
+      "scope": "Original repository record matched by source ID, not a newly inspected external publication.",
+      "independent_bias_appraisal_complete": false,
+      "clinical_review": false,
+      "publish": false
+    },
+    {
+      "id": "P6-10",
+      "origin": "research/staged-completion/stage-06/SOURCES.json",
+      "origin_index": 9,
+      "origin_blob_sha": "304a4e520aa7934fc6115ae311798729412d8b96",
+      "original_title": "Effect of Organic Diet Intervention on Pesticide Exposures in Young Children Living in Low-Income Urban and Agricultural Communities",
+      "archive_extraction": {
+        "design": "Within-person dietary intervention",
+        "population": "Young children",
+        "limitations": "Short-term urinary marker; no developmental outcomes or cost comparison.",
+        "verification": "Indexed primary abstract",
+        "correction_retraction_status": "comprehensive registry sweep pending",
+        "publication_status": "staged research only",
+        "funding": "Not verified",
+        "financial_ties": "Unknown",
+        "checked": "2026-11-26"
+      },
+      "archived_funding_notes": [
+        "Not verified"
+      ],
+      "archived_financial_interest_notes": [
+        "Unknown"
+      ],
+      "archived_finding_present": false,
+      "archived_design_or_limitations_present": true,
+      "next_checks": [
+        "Read original results or applicable non-clinical source purpose; extract source-specific finding and locator.",
+        "Verify original identity/version and correction/retraction status; assess bias and claim applicability before release."
+      ],
+      "scope": "Original repository record matched by source ID, not a newly inspected external publication.",
+      "independent_bias_appraisal_complete": false,
+      "clinical_review": false,
+      "publish": false
+    },
+    {
+      "id": "P6-11",
+      "origin": "research/staged-completion/stage-06/SOURCES.json",
+      "origin_index": 10,
+      "origin_blob_sha": "304a4e520aa7934fc6115ae311798729412d8b96",
+      "original_title": "The relationship between study sponsorship, risks of bias, and research outcomes in atrazine exposure studies conducted in non-human animals: Systematic review and meta-analysis",
+      "archive_extraction": {
+        "design": "Systematic review, animal toxicology",
+        "population": "51 studies; 39 at environmentally relevant concentrations as defined by reviewers",
+        "limitations": "Animal studies only; no human prenatal risk estimate or named company share.",
+        "verification": "Indexed primary PubMed/PMC/publisher results and funding",
+        "correction_retraction_status": "comprehensive registry sweep pending",
+        "publication_status": "staged research only",
+        "funding": "NIEHS R21ES021028",
+        "financial_ties": "Full reviewer disclosures and study-level sponsors not extracted",
+        "checked": "2026-11-26"
+      },
+      "archived_funding_notes": [
+        "NIEHS R21ES021028"
+      ],
+      "archived_financial_interest_notes": [
+        "Full reviewer disclosures and study-level sponsors not extracted"
+      ],
+      "archived_finding_present": false,
+      "archived_design_or_limitations_present": true,
+      "next_checks": [
+        "Read original results or applicable non-clinical source purpose; extract source-specific finding and locator.",
+        "Verify original identity/version and correction/retraction status; assess bias and claim applicability before release."
+      ],
+      "scope": "Original repository record matched by source ID, not a newly inspected external publication.",
+      "independent_bias_appraisal_complete": false,
+      "clinical_review": false,
+      "publish": false
+    },
+    {
+      "id": "P6-12",
+      "origin": "research/staged-completion/stage-06/SOURCES.json",
+      "origin_index": 11,
+      "origin_blob_sha": "304a4e520aa7934fc6115ae311798729412d8b96",
+      "original_title": "Birth weight and perfluorooctane sulfonic acid: a random-effects meta-regression analysis",
+      "archive_extraction": {
+        "design": "Meta-analysis/meta-regression",
+        "population": "29 observational studies",
+        "limitations": "Blood timing and plasma expansion/renal clearance confounding plausible; model intercept not directly observed effect; linear scale differs from P6-13; not evidence of fraud.",
+        "verification": "Original PubMed abstract and conflict disclosure, figures 1–2 captions",
+        "correction_retraction_status": "comprehensive registry sweep pending",
+        "publication_status": "staged research only",
+        "funding": "3M contract with Ramboll",
+        "financial_ties": "All authors Ramboll employees compensated via employer; report no 3M role preparing manuscript, sole author control; no direct 3M compensation; not then testifying for sponsors about compound.",
+        "checked": "2026-11-26"
+      },
+      "archived_funding_notes": [
+        "3M contract with Ramboll"
+      ],
+      "archived_financial_interest_notes": [
+        "All authors Ramboll employees compensated via employer; report no 3M role preparing manuscript, sole author control; no direct 3M compensation; not then testifying for sponsors about compound."
+      ],
+      "archived_finding_present": false,
+      "archived_design_or_limitations_present": true,
+      "next_checks": [
+        "Read original results or applicable non-clinical source purpose; extract source-specific finding and locator.",
+        "Verify original identity/version and correction/retraction status; assess bias and claim applicability before release."
+      ],
+      "scope": "Original repository record matched by source ID, not a newly inspected external publication.",
+      "independent_bias_appraisal_complete": false,
+      "clinical_review": false,
+      "publish": false
+    },
+    {
+      "id": "P6-13",
+      "origin": "research/staged-completion/stage-06/SOURCES.json",
+      "origin_index": 12,
+      "origin_blob_sha": "304a4e520aa7934fc6115ae311798729412d8b96",
+      "original_title": "Birth weight in relation to maternal and neonatal biomarker concentration of perfluorooctane sulfonic acid: a meta-analysis and meta-regression from a systematic review",
+      "archive_extraction": {
+        "design": "Meta-analysis/meta-regression",
+        "population": "53 observational studies; 18 early sample timing",
+        "limitations": "Overlapping studies; units different from 2020 review, no direct numeric comparison; observational.",
+        "verification": "Original PubMed abstract, affiliation, COI, figure 1/2 captions",
+        "correction_retraction_status": "comprehensive registry sweep pending",
+        "publication_status": "staged research only",
+        "funding": "US EPA authored government work; grant statement not extracted separately",
+        "financial_ties": "No competing interests declared; Dzierlenga also author of P6-12 with then-Ramboll affiliation. Prior dated employment not assumed current tie.",
+        "checked": "2026-11-26"
+      },
+      "archived_funding_notes": [
+        "US EPA authored government work; grant statement not extracted separately"
+      ],
+      "archived_financial_interest_notes": [
+        "No competing interests declared; Dzierlenga also author of P6-12 with then-Ramboll affiliation. Prior dated employment not assumed current tie."
+      ],
+      "archived_finding_present": false,
+      "archived_design_or_limitations_present": true,
+      "next_checks": [
+        "Read original results or applicable non-clinical source purpose; extract source-specific finding and locator.",
+        "Verify original identity/version and correction/retraction status; assess bias and claim applicability before release."
+      ],
+      "scope": "Original repository record matched by source ID, not a newly inspected external publication.",
+      "independent_bias_appraisal_complete": false,
+      "clinical_review": false,
+      "publish": false
+    },
+    {
+      "id": "P6-14",
+      "origin": "research/staged-completion/stage-06/SOURCES.json",
+      "origin_index": 13,
+      "origin_blob_sha": "304a4e520aa7934fc6115ae311798729412d8b96",
+      "original_title": "Systematic review and meta-analysis of birth weight and PFNA exposures",
+      "archive_extraction": {
+        "design": "Meta-analysis",
+        "population": "27 studies",
+        "limitations": "Different compound, not add to PFOS or generalize to every PFAS.",
+        "verification": "Indexed primary PubMed/PMC abstract",
+        "correction_retraction_status": "comprehensive registry sweep pending",
+        "publication_status": "staged research only",
+        "funding": "EPA affiliations; full funding statement pending",
+        "financial_ties": "Full COI pending",
+        "checked": "2026-11-26"
+      },
+      "archived_funding_notes": [
+        "EPA affiliations; full funding statement pending"
+      ],
+      "archived_financial_interest_notes": [
+        "Full COI pending"
+      ],
+      "archived_finding_present": false,
+      "archived_design_or_limitations_present": true,
+      "next_checks": [
+        "Read original results or applicable non-clinical source purpose; extract source-specific finding and locator.",
+        "Verify original identity/version and correction/retraction status; assess bias and claim applicability before release."
+      ],
+      "scope": "Original repository record matched by source ID, not a newly inspected external publication.",
+      "independent_bias_appraisal_complete": false,
+      "clinical_review": false,
+      "publish": false
+    },
+    {
+      "id": "P6-15",
+      "origin": "research/staged-completion/stage-06/SOURCES.json",
+      "origin_index": 14,
+      "origin_blob_sha": "304a4e520aa7934fc6115ae311798729412d8b96",
+      "original_title": "Systematic review and meta-analysis of birth weight and prenatal exposure to perfluoroundecanoic acid",
+      "archive_extraction": {
+        "design": "Meta-analysis",
+        "population": "28 studies",
+        "limitations": "Different chemical; not safe threshold, no pooled group total.",
+        "verification": "Indexed primary abstract and COI",
+        "correction_retraction_status": "comprehensive registry sweep pending",
+        "publication_status": "staged research only",
+        "funding": "EPA affiliations; full grant statement pending",
+        "financial_ties": "No competing interests declared in PubMed",
+        "checked": "2026-11-26"
+      },
+      "archived_funding_notes": [
+        "EPA affiliations; full grant statement pending"
+      ],
+      "archived_financial_interest_notes": [
+        "No competing interests declared in PubMed"
+      ],
+      "archived_finding_present": false,
+      "archived_design_or_limitations_present": true,
+      "next_checks": [
+        "Read original results or applicable non-clinical source purpose; extract source-specific finding and locator.",
+        "Verify original identity/version and correction/retraction status; assess bias and claim applicability before release."
+      ],
+      "scope": "Original repository record matched by source ID, not a newly inspected external publication.",
+      "independent_bias_appraisal_complete": false,
+      "clinical_review": false,
+      "publish": false
+    },
+    {
+      "id": "P6-16",
+      "origin": "research/staged-completion/stage-06/SOURCES.json",
+      "origin_index": 15,
+      "origin_blob_sha": "304a4e520aa7934fc6115ae311798729412d8b96",
+      "original_title": "Serum Vaccine Antibody Concentrations in Children Exposed to Perfluorinated Compounds",
+      "archive_extraction": {
+        "design": "Prospective cohort",
+        "population": "Faroe Islands children",
+        "limitations": "Antibody level is surrogate, not evidence vaccination ineffective; no change to immunization.",
+        "verification": "Indexed primary JAMA Table 3",
+        "correction_retraction_status": "comprehensive registry sweep pending",
+        "publication_status": "staged research only",
+        "funding": "Not verified",
+        "financial_ties": "Individual disclosures pending",
+        "cohort": "Faroe Islands PFAS",
+        "checked": "2026-11-26"
+      },
+      "archived_funding_notes": [
+        "Not verified"
+      ],
+      "archived_financial_interest_notes": [
+        "Individual disclosures pending"
+      ],
+      "archived_finding_present": false,
+      "archived_design_or_limitations_present": true,
+      "next_checks": [
+        "Read original results or applicable non-clinical source purpose; extract source-specific finding and locator.",
+        "Verify original identity/version and correction/retraction status; assess bias and claim applicability before release."
+      ],
+      "scope": "Original repository record matched by source ID, not a newly inspected external publication.",
+      "independent_bias_appraisal_complete": false,
+      "clinical_review": false,
+      "publish": false
+    },
+    {
+      "id": "P6-17",
+      "origin": "research/staged-completion/stage-06/SOURCES.json",
+      "origin_index": 16,
+      "origin_blob_sha": "304a4e520aa7934fc6115ae311798729412d8b96",
+      "original_title": "Guidance on PFAS Exposure, Testing, and Clinical Follow-Up",
+      "archive_extraction": {
+        "design": "Expert report",
+        "population": "Exposed communities, clinicians",
+        "limitations": "Not an app blood test threshold or advice to stop breastfeeding.",
+        "verification": "Official report HTML chapter",
+        "correction_retraction_status": "comprehensive registry sweep pending",
+        "publication_status": "staged research only",
+        "funding": "Full committee funding/disclosure audit pending",
+        "financial_ties": "Unknown",
+        "checked": "2026-11-26"
+      },
+      "archived_funding_notes": [
+        "Full committee funding/disclosure audit pending"
+      ],
+      "archived_financial_interest_notes": [
+        "Unknown"
+      ],
+      "archived_finding_present": false,
+      "archived_design_or_limitations_present": true,
+      "next_checks": [
+        "Read original results or applicable non-clinical source purpose; extract source-specific finding and locator.",
+        "Verify original identity/version and correction/retraction status; assess bias and claim applicability before release."
+      ],
+      "scope": "Original repository record matched by source ID, not a newly inspected external publication.",
+      "independent_bias_appraisal_complete": false,
+      "clinical_review": false,
+      "publish": false
+    },
+    {
+      "id": "P6-18",
+      "origin": "research/staged-completion/stage-06/SOURCES.json",
+      "origin_index": 17,
+      "origin_blob_sha": "304a4e520aa7934fc6115ae311798729412d8b96",
+      "original_title": "Clinical Evaluation and Management: PFAS Information for Clinicians",
+      "archive_extraction": {
+        "design": "Agency clinical guidance",
+        "population": "Known/suspected exposure",
+        "limitations": "Clinical decisions; avoid universal biomonitoring and detox claims.",
+        "verification": "Official indexed HTML",
+        "correction_retraction_status": "comprehensive registry sweep pending",
+        "publication_status": "staged research only",
+        "funding": "ATSDR",
+        "checked": "2026-11-26"
+      },
+      "archived_funding_notes": [
+        "ATSDR"
+      ],
+      "archived_financial_interest_notes": [],
+      "archived_finding_present": false,
+      "archived_design_or_limitations_present": true,
+      "next_checks": [
+        "Read original results or applicable non-clinical source purpose; extract source-specific finding and locator.",
+        "Extract author/institution interests and disclosure status from original source.",
+        "Verify original identity/version and correction/retraction status; assess bias and claim applicability before release."
+      ],
+      "scope": "Original repository record matched by source ID, not a newly inspected external publication.",
+      "independent_bias_appraisal_complete": false,
+      "clinical_review": false,
+      "publish": false
+    },
+    {
+      "id": "P6-19",
+      "origin": "research/staged-completion/stage-06/SOURCES.json",
+      "origin_index": 18,
+      "origin_blob_sha": "304a4e520aa7934fc6115ae311798729412d8b96",
+      "original_title": "Reducing PFAS in Your Drinking Water with a Home Filter",
+      "archive_extraction": {
+        "design": "EPA guidance",
+        "population": "Households with water exposure",
+        "limitations": "No specific product tested; check water results and certification.",
+        "verification": "Official indexed HTML",
+        "correction_retraction_status": "comprehensive registry sweep pending",
+        "publication_status": "staged research only",
+        "funding": "EPA",
+        "checked": "2026-11-26"
+      },
+      "archived_funding_notes": [
+        "EPA"
+      ],
+      "archived_financial_interest_notes": [],
+      "archived_finding_present": false,
+      "archived_design_or_limitations_present": true,
+      "next_checks": [
+        "Read original results or applicable non-clinical source purpose; extract source-specific finding and locator.",
+        "Extract author/institution interests and disclosure status from original source.",
+        "Verify original identity/version and correction/retraction status; assess bias and claim applicability before release."
+      ],
+      "scope": "Original repository record matched by source ID, not a newly inspected external publication.",
+      "independent_bias_appraisal_complete": false,
+      "clinical_review": false,
+      "publish": false
+    },
+    {
+      "id": "P6-20",
+      "origin": "research/staged-completion/stage-06/SOURCES.json",
+      "origin_index": 19,
+      "origin_blob_sha": "304a4e520aa7934fc6115ae311798729412d8b96",
+      "original_title": "Proposed PFOA and PFOS Compliance Extension Rule",
+      "archive_extraction": {
+        "design": "Regulatory proposal",
+        "population": "US water systems",
+        "limitations": "Final legal status not comprehensively verified; do not hardcode deadlines or equate legal limit with safety.",
+        "verification": "Official indexed proposal pages",
+        "correction_retraction_status": "comprehensive registry sweep pending",
+        "publication_status": "staged research only",
+        "funding": "EPA",
+        "checked": "2026-11-26"
+      },
+      "archived_funding_notes": [
+        "EPA"
+      ],
+      "archived_financial_interest_notes": [],
+      "archived_finding_present": false,
+      "archived_design_or_limitations_present": true,
+      "next_checks": [
+        "Read original results or applicable non-clinical source purpose; extract source-specific finding and locator.",
+        "Extract author/institution interests and disclosure status from original source.",
+        "Verify original identity/version and correction/retraction status; assess bias and claim applicability before release."
+      ],
+      "scope": "Original repository record matched by source ID, not a newly inspected external publication.",
+      "independent_bias_appraisal_complete": false,
+      "clinical_review": false,
+      "publish": false
+    },
+    {
+      "id": "P6-21",
+      "origin": "research/staged-completion/stage-06/SOURCES.json",
+      "origin_index": 20,
+      "origin_blob_sha": "304a4e520aa7934fc6115ae311798729412d8b96",
+      "original_title": "Associations Between Prenatal Urinary Biomarkers of Phthalate Exposure and Preterm Birth: A Pooled Study of 16 US Cohorts",
+      "archive_extraction": {
+        "design": "Pooled observational study",
+        "population": "More than 6000 pregnancies across 16 cohorts",
+        "limitations": "Observational, correlated exposure; no individual risk forecast.",
+        "verification": "Original JAMA disclosure and indexed primary abstract",
+        "correction_retraction_status": "comprehensive registry sweep pending",
+        "publication_status": "staged research only",
+        "funding": "NIH/NIEHS and EPA grants among disclosures; full grant list pending",
+        "financial_ties": "McElrath disclosed NxPrenatal/Mirvie equity and advisory roles/fees from Roche, Momenta, Comanche, Tectonic; Braun plaintiffs' PFAS expert-witness work paid into institutional account, not salary; Cordero outside Medtronic Foundation grant. Relevant direct plastic-industry sponsor not established.",
+        "cohort": "16 US pooled phthalate cohorts",
+        "checked": "2026-11-26"
+      },
+      "archived_funding_notes": [
+        "NIH/NIEHS and EPA grants among disclosures; full grant list pending"
+      ],
+      "archived_financial_interest_notes": [
+        "McElrath disclosed NxPrenatal/Mirvie equity and advisory roles/fees from Roche, Momenta, Comanche, Tectonic; Braun plaintiffs' PFAS expert-witness work paid into institutional account, not salary; Cordero outside Medtronic Foundation grant. Relevant direct plastic-industry sponsor not established."
+      ],
+      "archived_finding_present": false,
+      "archived_design_or_limitations_present": true,
+      "next_checks": [
+        "Read original results or applicable non-clinical source purpose; extract source-specific finding and locator.",
+        "Verify original identity/version and correction/retraction status; assess bias and claim applicability before release."
+      ],
+      "scope": "Original repository record matched by source ID, not a newly inspected external publication.",
+      "independent_bias_appraisal_complete": false,
+      "clinical_review": false,
+      "publish": false
+    },
+    {
+      "id": "P6-22",
+      "origin": "research/staged-completion/stage-06/SOURCES.json",
+      "origin_index": 21,
+      "origin_blob_sha": "304a4e520aa7934fc6115ae311798729412d8b96",
+      "original_title": "Periods of susceptibility for associations between phthalate exposure and preterm birth: Results from a pooled analysis of 16 US cohorts",
+      "archive_extraction": {
+        "design": "Secondary pooled observational analysis",
+        "population": "16 US cohorts",
+        "limitations": "Not independent replication; no precise trimester-specific safe period.",
+        "verification": "Indexed primary PMC methods/discussion/funding",
+        "correction_retraction_status": "comprehensive registry sweep pending",
+        "publication_status": "staged research only",
+        "funding": "NIH/NIEHS intramural ZIAES103321 partly",
+        "financial_ties": "Braun PFAS litigation disclosure noted in indexed full text; remaining disclosures pending",
+        "cohort": "16 US pooled phthalate cohorts",
+        "checked": "2026-11-26"
+      },
+      "archived_funding_notes": [
+        "NIH/NIEHS intramural ZIAES103321 partly"
+      ],
+      "archived_financial_interest_notes": [
+        "Braun PFAS litigation disclosure noted in indexed full text; remaining disclosures pending"
+      ],
+      "archived_finding_present": false,
+      "archived_design_or_limitations_present": true,
+      "next_checks": [
+        "Read original results or applicable non-clinical source purpose; extract source-specific finding and locator.",
+        "Verify original identity/version and correction/retraction status; assess bias and claim applicability before release."
+      ],
+      "scope": "Original repository record matched by source ID, not a newly inspected external publication.",
+      "independent_bias_appraisal_complete": false,
+      "clinical_review": false,
+      "publish": false
+    },
+    {
+      "id": "P6-23",
+      "origin": "research/staged-completion/stage-06/SOURCES.json",
+      "origin_index": 22,
+      "origin_blob_sha": "304a4e520aa7934fc6115ae311798729412d8b96",
+      "original_title": "Prenatal phthalate exposure and adverse birth outcomes in the USA: a prospective analysis of births and estimates of attributable burden and costs",
+      "archive_extraction": {
+        "design": "Prospective pooled ECHO analysis",
+        "population": "5006 mother-child dyads per linked cohort comparison",
+        "limitations": "Modeled attributable burden requires causality assumption; not verified preventable cases; overlap; no compare magnitude across different scaling.",
+        "verification": "Indexed primary abstract and ECHO overlap from P6-22",
+        "correction_retraction_status": "comprehensive registry sweep pending",
+        "publication_status": "staged research only",
+        "funding": "NIH",
+        "financial_ties": "Full COI pending",
+        "cohort": "ECHO phthalates, partial overlap P6-21/22",
+        "checked": "2026-11-26"
+      },
+      "archived_funding_notes": [
+        "NIH"
+      ],
+      "archived_financial_interest_notes": [
+        "Full COI pending"
+      ],
+      "archived_finding_present": false,
+      "archived_design_or_limitations_present": true,
+      "next_checks": [
+        "Read original results or applicable non-clinical source purpose; extract source-specific finding and locator.",
+        "Verify original identity/version and correction/retraction status; assess bias and claim applicability before release."
+      ],
+      "scope": "Original repository record matched by source ID, not a newly inspected external publication.",
+      "independent_bias_appraisal_complete": false,
+      "clinical_review": false,
+      "publish": false
+    },
+    {
+      "id": "P6-24",
+      "origin": "research/staged-completion/stage-06/SOURCES.json",
+      "origin_index": 23,
+      "origin_blob_sha": "304a4e520aa7934fc6115ae311798729412d8b96",
+      "original_title": "Gestational Exposure to 10 Classes of Priority Chemicals and Birth Outcomes in the ECHO Cohort",
+      "archive_extraction": {
+        "design": "Prospective observational study",
+        "population": "5318 mother-child pairs",
+        "limitations": "ECHO overlap not yet mapped; no independent cohort count; multiple comparisons.",
+        "verification": "Indexed primary article abstract",
+        "correction_retraction_status": "comprehensive registry sweep pending",
+        "publication_status": "staged research only",
+        "funding": "Funding and COI not extracted from indexed results",
+        "financial_ties": "Unknown",
+        "cohort": "ECHO priority chemicals",
+        "checked": "2026-11-26"
+      },
+      "archived_funding_notes": [
+        "Funding and COI not extracted from indexed results"
+      ],
+      "archived_financial_interest_notes": [
+        "Unknown"
+      ],
+      "archived_finding_present": false,
+      "archived_design_or_limitations_present": true,
+      "next_checks": [
+        "Read original results or applicable non-clinical source purpose; extract source-specific finding and locator.",
+        "Verify original identity/version and correction/retraction status; assess bias and claim applicability before release."
+      ],
+      "scope": "Original repository record matched by source ID, not a newly inspected external publication.",
+      "independent_bias_appraisal_complete": false,
+      "clinical_review": false,
+      "publish": false
+    },
+    {
+      "id": "P6-25",
+      "origin": "research/staged-completion/stage-06/SOURCES.json",
+      "origin_index": 24,
+      "origin_blob_sha": "304a4e520aa7934fc6115ae311798729412d8b96",
+      "original_title": "Food packaging and bisphenol A and bis(2-ethyhexyl) phthalate exposure: findings from a dietary intervention",
+      "archive_extraction": {
+        "design": "Short dietary intervention",
+        "population": "Families, usual diet vs 3-day fresh food phase",
+        "limitations": "Biomarkers, not pregnancy/child health outcomes; contrast P6-26.",
+        "verification": "Indexed primary abstract and byline",
+        "correction_retraction_status": "comprehensive registry sweep pending",
+        "publication_status": "staged research only",
+        "funding": "Primary study grant statement not verified",
+        "financial_ties": "Silent Spring Institute and Breast Cancer Fund author affiliations; not certified independent, advocacy context separate",
+        "checked": "2026-11-26"
+      },
+      "archived_funding_notes": [
+        "Primary study grant statement not verified"
+      ],
+      "archived_financial_interest_notes": [
+        "Silent Spring Institute and Breast Cancer Fund author affiliations; not certified independent, advocacy context separate"
+      ],
+      "archived_finding_present": false,
+      "archived_design_or_limitations_present": true,
+      "next_checks": [
+        "Read original results or applicable non-clinical source purpose; extract source-specific finding and locator.",
+        "Verify original identity/version and correction/retraction status; assess bias and claim applicability before release."
+      ],
+      "scope": "Original repository record matched by source ID, not a newly inspected external publication.",
+      "independent_bias_appraisal_complete": false,
+      "clinical_review": false,
+      "publish": false
+    },
+    {
+      "id": "P6-26",
+      "origin": "research/staged-completion/stage-06/SOURCES.json",
+      "origin_index": 25,
+      "origin_blob_sha": "304a4e520aa7934fc6115ae311798729412d8b96",
+      "original_title": "Unexpected results in a randomized dietary trial to reduce phthalate and bisphenol A exposures",
+      "archive_extraction": {
+        "design": "Randomized dietary intervention",
+        "population": "10 families, 21 complete diet replacement vs19 written advice",
+        "limitations": "Short study, particular ingredients; not evidence all spices or milk unsafe.",
+        "verification": "Indexed primary abstract and funding",
+        "correction_retraction_status": "comprehensive registry sweep pending",
+        "publication_status": "staged research only",
+        "funding": "University of Washington Center for Ecogenetics and Environmental Health, NIEHS ES007033 (indexed publisher acknowledgments)",
+        "financial_ties": "Full author disclosure pending",
+        "checked": "2026-11-26"
+      },
+      "archived_funding_notes": [
+        "University of Washington Center for Ecogenetics and Environmental Health, NIEHS ES007033 (indexed publisher acknowledgments)"
+      ],
+      "archived_financial_interest_notes": [
+        "Full author disclosure pending"
+      ],
+      "archived_finding_present": false,
+      "archived_design_or_limitations_present": true,
+      "next_checks": [
+        "Read original results or applicable non-clinical source purpose; extract source-specific finding and locator.",
+        "Verify original identity/version and correction/retraction status; assess bias and claim applicability before release."
+      ],
+      "scope": "Original repository record matched by source ID, not a newly inspected external publication.",
+      "independent_bias_appraisal_complete": false,
+      "clinical_review": false,
+      "publish": false
+    },
+    {
+      "id": "P6-27",
+      "origin": "research/staged-completion/stage-06/SOURCES.json",
+      "origin_index": 26,
+      "origin_blob_sha": "304a4e520aa7934fc6115ae311798729412d8b96",
+      "original_title": "Reducing Phthalate, Paraben, and Phenol Exposure from Personal Care Products in Adolescent Girls: Findings from the HERMOSA Intervention Study",
+      "archive_extraction": {
+        "design": "Short single-group intervention",
+        "population": "100 Latina adolescent girls, 3 days",
+        "limitations": "Adolescent not pregnant/infant cohort; biomarker only; no automatic shopping list.",
+        "verification": "Indexed primary abstract, official project funding",
+        "correction_retraction_status": "comprehensive registry sweep pending",
+        "publication_status": "staged research only",
+        "funding": "California Breast Cancer Research Program per state study page https://www.biomonitoring.ca.gov/projects/health-and-environmental-research-make-salinas-adolescents-hermosa-study",
+        "financial_ties": "Full COI and product donations not extracted",
+        "checked": "2026-11-26"
+      },
+      "archived_funding_notes": [
+        "California Breast Cancer Research Program per state study page https://www.biomonitoring.ca.gov/projects/health-and-environmental-research-make-salinas-adolescents-hermosa-study"
+      ],
+      "archived_financial_interest_notes": [
+        "Full COI and product donations not extracted"
+      ],
+      "archived_finding_present": false,
+      "archived_design_or_limitations_present": true,
+      "next_checks": [
+        "Read original results or applicable non-clinical source purpose; extract source-specific finding and locator.",
+        "Verify original identity/version and correction/retraction status; assess bias and claim applicability before release."
+      ],
+      "scope": "Original repository record matched by source ID, not a newly inspected external publication.",
+      "independent_bias_appraisal_complete": false,
+      "clinical_review": false,
+      "publish": false
+    },
+    {
+      "id": "P6-28",
+      "origin": "research/staged-completion/stage-06/SOURCES.json",
+      "origin_index": 27,
+      "origin_blob_sha": "304a4e520aa7934fc6115ae311798729412d8b96",
+      "original_title": "Large effects from small exposures. II. The importance of positive controls in low-dose research on bisphenol A",
+      "archive_extraction": {
+        "design": "Historical narrative review",
+        "population": "Low-dose animal studies through July 2005",
+        "limitations": "Historical, animal endpoints and narrative methods; no universal percentage, no direct human evidence, not current entire literature.",
+        "verification": "Original PubMed abstract",
+        "correction_retraction_status": "comprehensive registry sweep pending",
+        "publication_status": "staged research only",
+        "funding": "PubMed tags NIH and non-US governmental support; exact grants pending",
+        "financial_ties": "Full COI pending",
+        "checked": "2026-11-26"
+      },
+      "archived_funding_notes": [
+        "PubMed tags NIH and non-US governmental support; exact grants pending"
+      ],
+      "archived_financial_interest_notes": [
+        "Full COI pending"
+      ],
+      "archived_finding_present": false,
+      "archived_design_or_limitations_present": true,
+      "next_checks": [
+        "Read original results or applicable non-clinical source purpose; extract source-specific finding and locator.",
+        "Verify original identity/version and correction/retraction status; assess bias and claim applicability before release."
+      ],
+      "scope": "Original repository record matched by source ID, not a newly inspected external publication.",
+      "independent_bias_appraisal_complete": false,
+      "clinical_review": false,
+      "publish": false
+    },
+    {
+      "id": "P6-29",
+      "origin": "research/staged-completion/stage-06/SOURCES.json",
+      "origin_index": 28,
+      "origin_blob_sha": "304a4e520aa7934fc6115ae311798729412d8b96",
+      "original_title": "Re-evaluation of the risks to public health related to the presence of bisphenol A in foodstuffs",
+      "archive_extraction": {
+        "design": "Regulatory scientific assessment",
+        "population": "European food exposure",
+        "limitations": "Different methods/endpoints from FDA; not personal dose calculator.",
+        "verification": "Official indexed plain-language assessment",
+        "correction_retraction_status": "comprehensive registry sweep pending",
+        "publication_status": "staged research only",
+        "funding": "EFSA",
+        "financial_ties": "Panel disclosures and review membership pending",
+        "checked": "2026-11-26"
+      },
+      "archived_funding_notes": [
+        "EFSA"
+      ],
+      "archived_financial_interest_notes": [
+        "Panel disclosures and review membership pending"
+      ],
+      "archived_finding_present": false,
+      "archived_design_or_limitations_present": true,
+      "next_checks": [
+        "Read original results or applicable non-clinical source purpose; extract source-specific finding and locator.",
+        "Verify original identity/version and correction/retraction status; assess bias and claim applicability before release."
+      ],
+      "scope": "Original repository record matched by source ID, not a newly inspected external publication.",
+      "independent_bias_appraisal_complete": false,
+      "clinical_review": false,
+      "publish": false
+    },
+    {
+      "id": "P6-30",
+      "origin": "research/staged-completion/stage-06/SOURCES.json",
+      "origin_index": 29,
+      "origin_blob_sha": "304a4e520aa7934fc6115ae311798729412d8b96",
+      "original_title": "Bisphenol A (BPA): Use in Food Contact Application",
+      "archive_extraction": {
+        "design": "US regulatory position",
+        "population": "Food-contact exposure",
+        "limitations": "Agency disagreement not proof of corporate capture; verify current version before publication.",
+        "verification": "Official indexed HTML",
+        "correction_retraction_status": "comprehensive registry sweep pending",
+        "publication_status": "staged research only",
+        "funding": "FDA",
+        "financial_ties": "Panel and underlying study funding not audited",
+        "checked": "2026-11-26"
+      },
+      "archived_funding_notes": [
+        "FDA"
+      ],
+      "archived_financial_interest_notes": [
+        "Panel and underlying study funding not audited"
+      ],
+      "archived_finding_present": false,
+      "archived_design_or_limitations_present": true,
+      "next_checks": [
+        "Read original results or applicable non-clinical source purpose; extract source-specific finding and locator.",
+        "Verify original identity/version and correction/retraction status; assess bias and claim applicability before release."
+      ],
+      "scope": "Original repository record matched by source ID, not a newly inspected external publication.",
+      "independent_bias_appraisal_complete": false,
+      "clinical_review": false,
+      "publish": false
+    },
+    {
+      "id": "P6-31",
+      "origin": "research/staged-completion/stage-06/SOURCES.json",
+      "origin_index": 30,
+      "origin_blob_sha": "304a4e520aa7934fc6115ae311798729412d8b96",
+      "original_title": "CLARITY-BPA Core Study: A Perinatal and Chronic Extended-Dose-Range Study of Bisphenol A in Rats",
+      "archive_extraction": {
+        "design": "Regulatory animal experiment plus linked academic research",
+        "population": "Rats",
+        "limitations": "Animal evidence; no human clinical inference; companion compendium https://www.ncbi.nlm.nih.gov/books/NBK575830/.",
+        "verification": "Official report HTML overview",
+        "correction_retraction_status": "comprehensive registry sweep pending",
+        "publication_status": "staged research only",
+        "funding": "NTP/FDA/NIEHS",
+        "financial_ties": "Individual laboratory disclosures not extracted",
+        "checked": "2026-11-26"
+      },
+      "archived_funding_notes": [
+        "NTP/FDA/NIEHS"
+      ],
+      "archived_financial_interest_notes": [
+        "Individual laboratory disclosures not extracted"
+      ],
+      "archived_finding_present": false,
+      "archived_design_or_limitations_present": true,
+      "next_checks": [
+        "Read original results or applicable non-clinical source purpose; extract source-specific finding and locator.",
+        "Verify original identity/version and correction/retraction status; assess bias and claim applicability before release."
+      ],
+      "scope": "Original repository record matched by source ID, not a newly inspected external publication.",
+      "independent_bias_appraisal_complete": false,
+      "clinical_review": false,
+      "publish": false
+    },
+    {
+      "id": "P6-32",
+      "origin": "research/staged-completion/stage-06/SOURCES.json",
+      "origin_index": 31,
+      "origin_blob_sha": "304a4e520aa7934fc6115ae311798729412d8b96",
+      "original_title": "Plasticenta: First evidence of microplastics in human placenta",
+      "archive_extraction": {
+        "design": "Exploratory tissue study",
+        "population": "6 placentas",
+        "limitations": "Very small sample; contamination and methods limitations; detection not clinical harm or prevalence.",
+        "verification": "Indexed primary abstract",
+        "correction_retraction_status": "comprehensive registry sweep pending",
+        "publication_status": "staged research only",
+        "funding": "Not verified",
+        "financial_ties": "Unknown",
+        "checked": "2026-11-26"
+      },
+      "archived_funding_notes": [
+        "Not verified"
+      ],
+      "archived_financial_interest_notes": [
+        "Unknown"
+      ],
+      "archived_finding_present": false,
+      "archived_design_or_limitations_present": true,
+      "next_checks": [
+        "Read original results or applicable non-clinical source purpose; extract source-specific finding and locator.",
+        "Verify original identity/version and correction/retraction status; assess bias and claim applicability before release."
+      ],
+      "scope": "Original repository record matched by source ID, not a newly inspected external publication.",
+      "independent_bias_appraisal_complete": false,
+      "clinical_review": false,
+      "publish": false
+    },
+    {
+      "id": "P6-33",
+      "origin": "research/staged-completion/stage-06/SOURCES.json",
+      "origin_index": 32,
+      "origin_blob_sha": "304a4e520aa7934fc6115ae311798729412d8b96",
+      "original_title": "Microplastic release from the degradation of polypropylene feeding bottles during infant formula preparation",
+      "archive_extraction": {
+        "design": "Laboratory release/exposure modeling",
+        "population": "Polypropylene bottles under studied conditions",
+        "limitations": "Do not alter formula temperature/sterilization, concentration or storage; no clinical evidence glass improves health; avoid breakage.",
+        "verification": "Indexed original publisher abstract and grant statement; direct publisher blocked",
+        "correction_retraction_status": "comprehensive registry sweep pending",
+        "publication_status": "staged research only",
+        "funding": "Enterprise Ireland CF20180870; Science Foundation Ireland 12/RC/2278,16/IA/4462,16/RC/3889; Trinity engineering scholarship; China Scholarship Council awards",
+        "financial_ties": "Full competing-interest text blocked",
+        "checked": "2026-11-26"
+      },
+      "archived_funding_notes": [
+        "Enterprise Ireland CF20180870; Science Foundation Ireland 12/RC/2278,16/IA/4462,16/RC/3889; Trinity engineering scholarship; China Scholarship Council awards"
+      ],
+      "archived_financial_interest_notes": [
+        "Full competing-interest text blocked"
+      ],
+      "archived_finding_present": false,
+      "archived_design_or_limitations_present": true,
+      "next_checks": [
+        "Read original results or applicable non-clinical source purpose; extract source-specific finding and locator.",
+        "Verify original identity/version and correction/retraction status; assess bias and claim applicability before release."
+      ],
+      "scope": "Original repository record matched by source ID, not a newly inspected external publication.",
+      "independent_bias_appraisal_complete": false,
+      "clinical_review": false,
+      "publish": false
+    },
+    {
+      "id": "P6-34",
+      "origin": "research/staged-completion/stage-06/SOURCES.json",
+      "origin_index": 33,
+      "origin_blob_sha": "304a4e520aa7934fc6115ae311798729412d8b96",
+      "original_title": "Effects of Microplastic Exposure on Human Digestive, Reproductive, and Respiratory Health: A Rapid Systematic Review",
+      "archive_extraction": {
+        "design": "Rapid systematic review integrating animal and human evidence",
+        "population": "Digestive/reproductive/respiratory health",
+        "limitations": "Human and animal evidence streams must remain distinct.",
+        "verification": "Indexed primary abstract; ACS 403",
+        "correction_retraction_status": "comprehensive registry sweep pending",
+        "publication_status": "staged research only",
+        "funding": "Full funding statement inaccessible in this pass",
+        "financial_ties": "Unknown",
+        "checked": "2026-11-26"
+      },
+      "archived_funding_notes": [
+        "Full funding statement inaccessible in this pass"
+      ],
+      "archived_financial_interest_notes": [
+        "Unknown"
+      ],
+      "archived_finding_present": false,
+      "archived_design_or_limitations_present": true,
+      "next_checks": [
+        "Read original results or applicable non-clinical source purpose; extract source-specific finding and locator.",
+        "Verify original identity/version and correction/retraction status; assess bias and claim applicability before release."
+      ],
+      "scope": "Original repository record matched by source ID, not a newly inspected external publication.",
+      "independent_bias_appraisal_complete": false,
+      "clinical_review": false,
+      "publish": false
+    },
+    {
+      "id": "P6-35",
+      "origin": "research/staged-completion/stage-06/SOURCES.json",
+      "origin_index": 34,
+      "origin_blob_sha": "304a4e520aa7934fc6115ae311798729412d8b96",
+      "original_title": "Health impacts of micro- and nanoplastics in humans: systematic review of in vivo evidence",
+      "archive_extraction": {
+        "design": "Systematic review of human in vivo studies",
+        "population": "25 studies; seven reproductive reports n327",
+        "limitations": "Search date discrepancy: abstract Dec 2024, Fig 1 caption Dec 2020; verify original methods before relying on coverage. Not evidence of causality.",
+        "verification": "Original PubMed abstract and COI",
+        "correction_retraction_status": "comprehensive registry sweep pending",
+        "publication_status": "staged research only",
+        "funding": "Full funding statement not extracted",
+        "financial_ties": "No competing interests declared",
+        "checked": "2026-11-26"
+      },
+      "archived_funding_notes": [
+        "Full funding statement not extracted"
+      ],
+      "archived_financial_interest_notes": [
+        "No competing interests declared"
+      ],
+      "archived_finding_present": false,
+      "archived_design_or_limitations_present": true,
+      "next_checks": [
+        "Read original results or applicable non-clinical source purpose; extract source-specific finding and locator.",
+        "Verify original identity/version and correction/retraction status; assess bias and claim applicability before release."
+      ],
+      "scope": "Original repository record matched by source ID, not a newly inspected external publication.",
+      "independent_bias_appraisal_complete": false,
+      "clinical_review": false,
+      "publish": false
+    },
+    {
+      "id": "P6-36",
+      "origin": "research/staged-completion/stage-06/SOURCES.json",
+      "origin_index": 35,
+      "origin_blob_sha": "304a4e520aa7934fc6115ae311798729412d8b96",
+      "original_title": "Microplastics and Nanoplastics in Foods",
+      "archive_extraction": {
+        "design": "FDA scientific summary",
+        "population": "Food consumers",
+        "limitations": "Not proof of safety at all exposures; reconcile with hazard reviews, no detox products.",
+        "verification": "Official indexed HTML",
+        "correction_retraction_status": "comprehensive registry sweep pending",
+        "publication_status": "staged research only",
+        "funding": "FDA",
+        "checked": "2026-11-26"
+      },
+      "archived_funding_notes": [
+        "FDA"
+      ],
+      "archived_financial_interest_notes": [],
+      "archived_finding_present": false,
+      "archived_design_or_limitations_present": true,
+      "next_checks": [
+        "Read original results or applicable non-clinical source purpose; extract source-specific finding and locator.",
+        "Extract author/institution interests and disclosure status from original source.",
+        "Verify original identity/version and correction/retraction status; assess bias and claim applicability before release."
+      ],
+      "scope": "Original repository record matched by source ID, not a newly inspected external publication.",
+      "independent_bias_appraisal_complete": false,
+      "clinical_review": false,
+      "publish": false
+    },
+    {
+      "id": "P6-37",
+      "origin": "research/staged-completion/stage-06/SOURCES.json",
+      "origin_index": 36,
+      "origin_blob_sha": "304a4e520aa7934fc6115ae311798729412d8b96",
+      "original_title": "Portable HEPA Filter Air Cleaner Use during Pregnancy and Children's Cognitive Performance at Four Years of Age: The UGAAR Randomized Controlled Trial",
+      "archive_extraction": {
+        "design": "Randomized trial follow-up",
+        "population": "540 randomized pregnant nonsmokers in Ulaanbaatar",
+        "limitations": "High pollution setting; not brand endorsement, interval crosses zero, attrition/imputation.",
+        "registration": "NCT01741051",
+        "verification": "Indexed original abstract, full-text funding/PM passage; PMC captcha",
+        "correction_retraction_status": "comprehensive registry sweep pending",
+        "publication_status": "staged research only",
+        "funding": "Canadian Institutes of Health Research; Coway discounted modified cleaners",
+        "financial_ties": "Complete author disclosures pending; not commercial-free due in-kind support",
+        "cohort": "UGAAR",
+        "checked": "2026-11-26"
+      },
+      "archived_funding_notes": [
+        "Canadian Institutes of Health Research; Coway discounted modified cleaners"
+      ],
+      "archived_financial_interest_notes": [
+        "Complete author disclosures pending; not commercial-free due in-kind support"
+      ],
+      "archived_finding_present": false,
+      "archived_design_or_limitations_present": true,
+      "next_checks": [
+        "Read original results or applicable non-clinical source purpose; extract source-specific finding and locator.",
+        "Verify original identity/version and correction/retraction status; assess bias and claim applicability before release."
+      ],
+      "scope": "Original repository record matched by source ID, not a newly inspected external publication.",
+      "independent_bias_appraisal_complete": false,
+      "clinical_review": false,
+      "publish": false
+    },
+    {
+      "id": "P6-38",
+      "origin": "research/staged-completion/stage-06/SOURCES.json",
+      "origin_index": 37,
+      "origin_blob_sha": "304a4e520aa7934fc6115ae311798729412d8b96",
+      "original_title": "The effect of portable HEPA filter air cleaner use during pregnancy on fetal growth: The UGAAR randomized controlled trial",
+      "archive_extraction": {
+        "design": "Randomized trial primary growth report",
+        "population": "UGAAR same 540 randomized",
+        "limitations": "Not independent replication; no birthweight effect claim until full extraction.",
+        "verification": "Indexed primary abstract",
+        "correction_retraction_status": "comprehensive registry sweep pending",
+        "publication_status": "staged research only",
+        "funding": "Same cohort funding P6-37; report-specific verification pending",
+        "financial_ties": "Same lineage, full COI pending",
+        "cohort": "UGAAR",
+        "checked": "2026-11-26"
+      },
+      "archived_funding_notes": [
+        "Same cohort funding P6-37; report-specific verification pending"
+      ],
+      "archived_financial_interest_notes": [
+        "Same lineage, full COI pending"
+      ],
+      "archived_finding_present": false,
+      "archived_design_or_limitations_present": true,
+      "next_checks": [
+        "Read original results or applicable non-clinical source purpose; extract source-specific finding and locator.",
+        "Verify original identity/version and correction/retraction status; assess bias and claim applicability before release."
+      ],
+      "scope": "Original repository record matched by source ID, not a newly inspected external publication.",
+      "independent_bias_appraisal_complete": false,
+      "clinical_review": false,
+      "publish": false
+    },
+    {
+      "id": "P6-39",
+      "origin": "research/staged-completion/stage-06/SOURCES.json",
+      "origin_index": 38,
+      "origin_blob_sha": "304a4e520aa7934fc6115ae311798729412d8b96",
+      "original_title": "Liquefied Petroleum Gas or Biomass for Cooking and Effects on Birth Weight",
+      "archive_extraction": {
+        "design": "Randomized controlled trial",
+        "population": "3200 pregnant participants, Guatemala, India, Peru, Rwanda",
+        "limitations": "Biomass-to-LPG comparison in resource-limited settings, not US gas versus electric stove; no fuel recommendation.",
+        "registration": "NCT02944682",
+        "verification": "Indexed primary PubMed and NEJM HTML result",
+        "correction_retraction_status": "comprehensive registry sweep pending",
+        "publication_status": "staged research only",
+        "funding": "NIH and Bill & Melinda Gates Foundation",
+        "financial_ties": "Full supplier/individual COI pending",
+        "cohort": "HAPIN",
+        "checked": "2026-11-26"
+      },
+      "archived_funding_notes": [
+        "NIH and Bill & Melinda Gates Foundation"
+      ],
+      "archived_financial_interest_notes": [
+        "Full supplier/individual COI pending"
+      ],
+      "archived_finding_present": false,
+      "archived_design_or_limitations_present": true,
+      "next_checks": [
+        "Read original results or applicable non-clinical source purpose; extract source-specific finding and locator.",
+        "Verify original identity/version and correction/retraction status; assess bias and claim applicability before release."
+      ],
+      "scope": "Original repository record matched by source ID, not a newly inspected external publication.",
+      "independent_bias_appraisal_complete": false,
+      "clinical_review": false,
+      "publish": false
+    },
+    {
+      "id": "P6-40",
+      "origin": "research/staged-completion/stage-06/SOURCES.json",
+      "origin_index": 39,
+      "origin_blob_sha": "304a4e520aa7934fc6115ae311798729412d8b96",
+      "original_title": "Effects of Cooking with Liquefied Petroleum Gas or Biomass on Stunting in Infants",
+      "archive_extraction": {
+        "design": "RCT follow-up",
+        "population": "HAPIN same randomized group",
+        "limitations": "Same cohort; null not proof pollution harmless.",
+        "registration": "NCT02944682",
+        "verification": "Indexed primary abstract",
+        "correction_retraction_status": "comprehensive registry sweep pending",
+        "publication_status": "staged research only",
+        "funding": "NIH and Bill & Melinda Gates Foundation",
+        "financial_ties": "Full supplier/individual disclosures pending",
+        "cohort": "HAPIN",
+        "checked": "2026-11-26"
+      },
+      "archived_funding_notes": [
+        "NIH and Bill & Melinda Gates Foundation"
+      ],
+      "archived_financial_interest_notes": [
+        "Full supplier/individual disclosures pending"
+      ],
+      "archived_finding_present": false,
+      "archived_design_or_limitations_present": true,
+      "next_checks": [
+        "Read original results or applicable non-clinical source purpose; extract source-specific finding and locator.",
+        "Verify original identity/version and correction/retraction status; assess bias and claim applicability before release."
+      ],
+      "scope": "Original repository record matched by source ID, not a newly inspected external publication.",
+      "independent_bias_appraisal_complete": false,
+      "clinical_review": false,
+      "publish": false
+    }
+  ]
+}

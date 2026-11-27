@@ -1,0 +1,3741 @@
+{
+  "scope": "Archived source-specific evidence; not independent validation.",
+  "records": [
+    {
+      "id": "P6-41",
+      "origin": "research/staged-completion/stage-06/SOURCES.json",
+      "origin_index": 40,
+      "origin_blob_sha": "304a4e520aa7934fc6115ae311798729412d8b96",
+      "original_title": "A systematic review and meta-analysis of heat exposure impacts on maternal, fetal and neonatal health",
+      "archive_extraction": {
+        "design": "Systematic review/meta-analysis",
+        "population": "Pregnancy observational studies",
+        "limitations": "Exposure metrics and baseline climates vary; not personal threshold; overlaps older heat reviews.",
+        "verification": "Indexed primary abstract",
+        "correction_retraction_status": "comprehensive registry sweep pending",
+        "publication_status": "staged research only",
+        "funding": "Full grants not retrieved",
+        "financial_ties": "Unknown",
+        "checked": "2026-11-26"
+      },
+      "archived_funding_notes": [
+        "Full grants not retrieved"
+      ],
+      "archived_financial_interest_notes": [
+        "Unknown"
+      ],
+      "archived_finding_present": false,
+      "archived_design_or_limitations_present": true,
+      "next_checks": [
+        "Read original results or applicable non-clinical source purpose; extract source-specific finding and locator.",
+        "Verify original identity/version and correction/retraction status; assess bias and claim applicability before release."
+      ],
+      "scope": "Original repository record matched by source ID, not a newly inspected external publication.",
+      "independent_bias_appraisal_complete": false,
+      "clinical_review": false,
+      "publish": false
+    },
+    {
+      "id": "P6-42",
+      "origin": "research/staged-completion/stage-06/SOURCES.json",
+      "origin_index": 41,
+      "origin_blob_sha": "304a4e520aa7934fc6115ae311798729412d8b96",
+      "original_title": "The influence of environmental exposures during the preconception period on offspring outcomes: a systematic review",
+      "archive_extraction": {
+        "design": "Systematic review",
+        "population": "63 studies, maternal and paternal exposure before conception",
+        "limitations": "Sparse paternal data, older search, no quantified universal preconception period.",
+        "registration": "CRD42021240069",
+        "verification": "Original PubMed abstract, COI and registry",
+        "correction_retraction_status": "comprehensive registry sweep pending",
+        "publication_status": "staged research only",
+        "funding": "Grant statement pending",
+        "financial_ties": "No relevant commercial/financial relationships declared",
+        "checked": "2026-11-26"
+      },
+      "archived_funding_notes": [
+        "Grant statement pending"
+      ],
+      "archived_financial_interest_notes": [
+        "No relevant commercial/financial relationships declared"
+      ],
+      "archived_finding_present": false,
+      "archived_design_or_limitations_present": true,
+      "next_checks": [
+        "Read original results or applicable non-clinical source purpose; extract source-specific finding and locator.",
+        "Verify original identity/version and correction/retraction status; assess bias and claim applicability before release."
+      ],
+      "scope": "Original repository record matched by source ID, not a newly inspected external publication.",
+      "independent_bias_appraisal_complete": false,
+      "clinical_review": false,
+      "publish": false
+    },
+    {
+      "id": "P6-43",
+      "origin": "research/staged-completion/stage-06/SOURCES.json",
+      "origin_index": 42,
+      "origin_blob_sha": "304a4e520aa7934fc6115ae311798729412d8b96",
+      "original_title": "The influence of paternal preconception health on birth defects and head circumference: A scoping review",
+      "archive_extraction": {
+        "design": "Scoping review",
+        "population": "Paternal preconception observational literature",
+        "limitations": "Cannot prove causality or promise prevention; primary study overlap with P6-42 pending.",
+        "verification": "Indexed primary abstract",
+        "correction_retraction_status": "comprehensive registry sweep pending",
+        "publication_status": "staged research only",
+        "funding": "Not verified",
+        "financial_ties": "Unknown",
+        "checked": "2026-11-26"
+      },
+      "archived_funding_notes": [
+        "Not verified"
+      ],
+      "archived_financial_interest_notes": [
+        "Unknown"
+      ],
+      "archived_finding_present": false,
+      "archived_design_or_limitations_present": true,
+      "next_checks": [
+        "Read original results or applicable non-clinical source purpose; extract source-specific finding and locator.",
+        "Verify original identity/version and correction/retraction status; assess bias and claim applicability before release."
+      ],
+      "scope": "Original repository record matched by source ID, not a newly inspected external publication.",
+      "independent_bias_appraisal_complete": false,
+      "clinical_review": false,
+      "publish": false
+    },
+    {
+      "id": "P6-44",
+      "origin": "research/staged-completion/stage-06/SOURCES.json",
+      "origin_index": 43,
+      "origin_blob_sha": "304a4e520aa7934fc6115ae311798729412d8b96",
+      "original_title": "Seminal and molecular evidence that sauna exposure affects human spermatogenesis",
+      "archive_extraction": {
+        "design": "Small repeated exposure human study",
+        "population": "Men with normal sperm parameters",
+        "limitations": "Small nonrandomized study; surrogate; no mandatory washout interval.",
+        "verification": "Indexed primary abstract and funding/COI",
+        "correction_retraction_status": "comprehensive registry sweep pending",
+        "publication_status": "staged research only",
+        "funding": "No external funding sought",
+        "financial_ties": "No conflicts declared",
+        "checked": "2026-11-26"
+      },
+      "archived_funding_notes": [
+        "No external funding sought"
+      ],
+      "archived_financial_interest_notes": [
+        "No conflicts declared"
+      ],
+      "archived_finding_present": false,
+      "archived_design_or_limitations_present": true,
+      "next_checks": [
+        "Read original results or applicable non-clinical source purpose; extract source-specific finding and locator.",
+        "Verify original identity/version and correction/retraction status; assess bias and claim applicability before release."
+      ],
+      "scope": "Original repository record matched by source ID, not a newly inspected external publication.",
+      "independent_bias_appraisal_complete": false,
+      "clinical_review": false,
+      "publish": false
+    },
+    {
+      "id": "P6-45",
+      "origin": "research/staged-completion/stage-06/SOURCES.json",
+      "origin_index": 44,
+      "origin_blob_sha": "304a4e520aa7934fc6115ae311798729412d8b96",
+      "original_title": "Heat exposure during susceptible windows of spermatogenesis and sperm epigenetic age",
+      "archive_extraction": {
+        "design": "Observational secondary analysis",
+        "population": "Infertility treatment population",
+        "limitations": "No fertility or offspring causal inference; no automatic intervention.",
+        "verification": "Indexed primary abstract and funding",
+        "correction_retraction_status": "comprehensive registry sweep pending",
+        "publication_status": "staged research only",
+        "funding": "Parent trial NICHD intramural contracts HHSN275201200007C/HHSN275201300026I",
+        "financial_ties": "Other author disclosures pending",
+        "checked": "2026-11-26"
+      },
+      "archived_funding_notes": [
+        "Parent trial NICHD intramural contracts HHSN275201200007C/HHSN275201300026I"
+      ],
+      "archived_financial_interest_notes": [
+        "Other author disclosures pending"
+      ],
+      "archived_finding_present": false,
+      "archived_design_or_limitations_present": true,
+      "next_checks": [
+        "Read original results or applicable non-clinical source purpose; extract source-specific finding and locator.",
+        "Verify original identity/version and correction/retraction status; assess bias and claim applicability before release."
+      ],
+      "scope": "Original repository record matched by source ID, not a newly inspected external publication.",
+      "independent_bias_appraisal_complete": false,
+      "clinical_review": false,
+      "publish": false
+    },
+    {
+      "id": "P6-46",
+      "origin": "research/staged-completion/stage-06/SOURCES.json",
+      "origin_index": 45,
+      "origin_blob_sha": "304a4e520aa7934fc6115ae311798729412d8b96",
+      "original_title": "Congenital anomalies in the offspring of occupationally exposed mothers: a systematic review and meta-analysis of studies using expert assessment for occupational exposures",
+      "archive_extraction": {
+        "design": "Systematic review/meta-analysis",
+        "population": "Maternal workplace exposures",
+        "limitations": "Occupational not household exposure; specific solvents and effect sizes pending.",
+        "verification": "Indexed primary abstract",
+        "correction_retraction_status": "comprehensive registry sweep pending",
+        "publication_status": "staged research only",
+        "funding": "Not verified",
+        "financial_ties": "Unknown",
+        "checked": "2026-11-26"
+      },
+      "archived_funding_notes": [
+        "Not verified"
+      ],
+      "archived_financial_interest_notes": [
+        "Unknown"
+      ],
+      "archived_finding_present": false,
+      "archived_design_or_limitations_present": true,
+      "next_checks": [
+        "Read original results or applicable non-clinical source purpose; extract source-specific finding and locator.",
+        "Verify original identity/version and correction/retraction status; assess bias and claim applicability before release."
+      ],
+      "scope": "Original repository record matched by source ID, not a newly inspected external publication.",
+      "independent_bias_appraisal_complete": false,
+      "clinical_review": false,
+      "publish": false
+    },
+    {
+      "id": "P6-47",
+      "origin": "research/staged-completion/stage-06/SOURCES.json",
+      "origin_index": 46,
+      "origin_blob_sha": "304a4e520aa7934fc6115ae311798729412d8b96",
+      "original_title": "Association of arsenic with adverse pregnancy outcomes/infant mortality: a systematic review and meta-analysis",
+      "archive_extraction": {
+        "design": "Meta-analysis",
+        "population": "Four studies for birth weight",
+        "limitations": "Do not chart until scale and comparison verified; no universal risk from rice or water.",
+        "verification": "Indexed primary abstract",
+        "correction_retraction_status": "comprehensive registry sweep pending",
+        "publication_status": "staged research only",
+        "funding": "Not verified",
+        "financial_ties": "Unknown",
+        "checked": "2026-11-26"
+      },
+      "archived_funding_notes": [
+        "Not verified"
+      ],
+      "archived_financial_interest_notes": [
+        "Unknown"
+      ],
+      "archived_finding_present": false,
+      "archived_design_or_limitations_present": true,
+      "next_checks": [
+        "Read original results or applicable non-clinical source purpose; extract source-specific finding and locator.",
+        "Verify original identity/version and correction/retraction status; assess bias and claim applicability before release."
+      ],
+      "scope": "Original repository record matched by source ID, not a newly inspected external publication.",
+      "independent_bias_appraisal_complete": false,
+      "clinical_review": false,
+      "publish": false
+    },
+    {
+      "id": "P6-48",
+      "origin": "research/staged-completion/stage-06/SOURCES.json",
+      "origin_index": 47,
+      "origin_blob_sha": "304a4e520aa7934fc6115ae311798729412d8b96",
+      "original_title": "Association of arsenic exposure with adverse birth outcomes: A meta-analysis and a benchmark dose analysis",
+      "archive_extraction": {
+        "design": "Review and model",
+        "population": "Arsenic exposure and pregnancy",
+        "limitations": "Model not individual threshold; check study overlap and exposure definition.",
+        "verification": "Indexed primary abstract",
+        "correction_retraction_status": "comprehensive registry sweep pending",
+        "publication_status": "staged research only",
+        "funding": "Not verified",
+        "financial_ties": "Unknown",
+        "checked": "2026-11-26"
+      },
+      "archived_funding_notes": [
+        "Not verified"
+      ],
+      "archived_financial_interest_notes": [
+        "Unknown"
+      ],
+      "archived_finding_present": false,
+      "archived_design_or_limitations_present": true,
+      "next_checks": [
+        "Read original results or applicable non-clinical source purpose; extract source-specific finding and locator.",
+        "Verify original identity/version and correction/retraction status; assess bias and claim applicability before release."
+      ],
+      "scope": "Original repository record matched by source ID, not a newly inspected external publication.",
+      "independent_bias_appraisal_complete": false,
+      "clinical_review": false,
+      "publish": false
+    },
+    {
+      "id": "P6-G01",
+      "origin": "research/staged-completion/stage-06/SOURCES.json",
+      "origin_index": 48,
+      "origin_blob_sha": "304a4e520aa7934fc6115ae311798729412d8b96",
+      "original_title": "Guidelines for Testing Well Water",
+      "archive_extraction": {
+        "design": "Official public health guidance",
+        "population": "US families/households/workplaces",
+        "limitations": "Jurisdiction, version and clinical exceptions require release review; not clinical efficacy study.",
+        "verification": "Official indexed HTML",
+        "correction_retraction_status": "comprehensive registry sweep pending",
+        "publication_status": "staged research only",
+        "funding": "Government agency",
+        "checked": "2026-11-26"
+      },
+      "archived_funding_notes": [
+        "Government agency"
+      ],
+      "archived_financial_interest_notes": [],
+      "archived_finding_present": false,
+      "archived_design_or_limitations_present": true,
+      "next_checks": [
+        "Read original results or applicable non-clinical source purpose; extract source-specific finding and locator.",
+        "Extract author/institution interests and disclosure status from original source.",
+        "Verify original identity/version and correction/retraction status; assess bias and claim applicability before release."
+      ],
+      "scope": "Original repository record matched by source ID, not a newly inspected external publication.",
+      "independent_bias_appraisal_complete": false,
+      "clinical_review": false,
+      "publish": false
+    },
+    {
+      "id": "P6-G02",
+      "origin": "research/staged-completion/stage-06/SOURCES.json",
+      "origin_index": 49,
+      "origin_blob_sha": "304a4e520aa7934fc6115ae311798729412d8b96",
+      "original_title": "Private Wells and Drinking Water Safety and Infants",
+      "archive_extraction": {
+        "design": "Official public health guidance",
+        "population": "US families/households/workplaces",
+        "limitations": "Jurisdiction, version and clinical exceptions require release review; not clinical efficacy study.",
+        "verification": "Official indexed HTML",
+        "correction_retraction_status": "comprehensive registry sweep pending",
+        "publication_status": "staged research only",
+        "funding": "Government agency",
+        "checked": "2026-11-26"
+      },
+      "archived_funding_notes": [
+        "Government agency"
+      ],
+      "archived_financial_interest_notes": [],
+      "archived_finding_present": false,
+      "archived_design_or_limitations_present": true,
+      "next_checks": [
+        "Read original results or applicable non-clinical source purpose; extract source-specific finding and locator.",
+        "Extract author/institution interests and disclosure status from original source.",
+        "Verify original identity/version and correction/retraction status; assess bias and claim applicability before release."
+      ],
+      "scope": "Original repository record matched by source ID, not a newly inspected external publication.",
+      "independent_bias_appraisal_complete": false,
+      "clinical_review": false,
+      "publish": false
+    },
+    {
+      "id": "P6-G03",
+      "origin": "research/staged-completion/stage-06/SOURCES.json",
+      "origin_index": 50,
+      "origin_blob_sha": "304a4e520aa7934fc6115ae311798729412d8b96",
+      "original_title": "Infant Formula Preparation and Storage",
+      "archive_extraction": {
+        "design": "Official public health guidance",
+        "population": "US families/households/workplaces",
+        "limitations": "Jurisdiction, version and clinical exceptions require release review; not clinical efficacy study.",
+        "verification": "Official indexed HTML",
+        "correction_retraction_status": "comprehensive registry sweep pending",
+        "publication_status": "staged research only",
+        "funding": "Government agency",
+        "checked": "2026-11-26"
+      },
+      "archived_funding_notes": [
+        "Government agency"
+      ],
+      "archived_financial_interest_notes": [],
+      "archived_finding_present": false,
+      "archived_design_or_limitations_present": true,
+      "next_checks": [
+        "Read original results or applicable non-clinical source purpose; extract source-specific finding and locator.",
+        "Extract author/institution interests and disclosure status from original source.",
+        "Verify original identity/version and correction/retraction status; assess bias and claim applicability before release."
+      ],
+      "scope": "Original repository record matched by source ID, not a newly inspected external publication.",
+      "independent_bias_appraisal_complete": false,
+      "clinical_review": false,
+      "publish": false
+    },
+    {
+      "id": "P6-G04",
+      "origin": "research/staged-completion/stage-06/SOURCES.json",
+      "origin_index": 51,
+      "origin_blob_sha": "304a4e520aa7934fc6115ae311798729412d8b96",
+      "original_title": "About Take-Home Exposures",
+      "archive_extraction": {
+        "design": "Official public health guidance",
+        "population": "US families/households/workplaces",
+        "limitations": "Jurisdiction, version and clinical exceptions require release review; not clinical efficacy study.",
+        "verification": "Official indexed HTML",
+        "correction_retraction_status": "comprehensive registry sweep pending",
+        "publication_status": "staged research only",
+        "funding": "Government agency",
+        "checked": "2026-11-26"
+      },
+      "archived_funding_notes": [
+        "Government agency"
+      ],
+      "archived_financial_interest_notes": [],
+      "archived_finding_present": false,
+      "archived_design_or_limitations_present": true,
+      "next_checks": [
+        "Read original results or applicable non-clinical source purpose; extract source-specific finding and locator.",
+        "Extract author/institution interests and disclosure status from original source.",
+        "Verify original identity/version and correction/retraction status; assess bias and claim applicability before release."
+      ],
+      "scope": "Original repository record matched by source ID, not a newly inspected external publication.",
+      "independent_bias_appraisal_complete": false,
+      "clinical_review": false,
+      "publish": false
+    },
+    {
+      "id": "P6-G05",
+      "origin": "research/staged-completion/stage-06/SOURCES.json",
+      "origin_index": 52,
+      "origin_blob_sha": "304a4e520aa7934fc6115ae311798729412d8b96",
+      "original_title": "About Solvents and Reproductive Health",
+      "archive_extraction": {
+        "design": "Official public health guidance",
+        "population": "US families/households/workplaces",
+        "limitations": "Jurisdiction, version and clinical exceptions require release review; not clinical efficacy study.",
+        "verification": "Official indexed HTML",
+        "correction_retraction_status": "comprehensive registry sweep pending",
+        "publication_status": "staged research only",
+        "funding": "Government agency",
+        "checked": "2026-11-26"
+      },
+      "archived_funding_notes": [
+        "Government agency"
+      ],
+      "archived_financial_interest_notes": [],
+      "archived_finding_present": false,
+      "archived_design_or_limitations_present": true,
+      "next_checks": [
+        "Read original results or applicable non-clinical source purpose; extract source-specific finding and locator.",
+        "Extract author/institution interests and disclosure status from original source.",
+        "Verify original identity/version and correction/retraction status; assess bias and claim applicability before release."
+      ],
+      "scope": "Original repository record matched by source ID, not a newly inspected external publication.",
+      "independent_bias_appraisal_complete": false,
+      "clinical_review": false,
+      "publish": false
+    },
+    {
+      "id": "P6-G06",
+      "origin": "research/staged-completion/stage-06/SOURCES.json",
+      "origin_index": 53,
+      "origin_blob_sha": "304a4e520aa7934fc6115ae311798729412d8b96",
+      "original_title": "About Pesticides and Reproductive Health",
+      "archive_extraction": {
+        "design": "Official public health guidance",
+        "population": "US families/households/workplaces",
+        "limitations": "Jurisdiction, version and clinical exceptions require release review; not clinical efficacy study.",
+        "verification": "Official indexed HTML",
+        "correction_retraction_status": "comprehensive registry sweep pending",
+        "publication_status": "staged research only",
+        "funding": "Government agency",
+        "checked": "2026-11-26"
+      },
+      "archived_funding_notes": [
+        "Government agency"
+      ],
+      "archived_financial_interest_notes": [],
+      "archived_finding_present": false,
+      "archived_design_or_limitations_present": true,
+      "next_checks": [
+        "Read original results or applicable non-clinical source purpose; extract source-specific finding and locator.",
+        "Extract author/institution interests and disclosure status from original source.",
+        "Verify original identity/version and correction/retraction status; assess bias and claim applicability before release."
+      ],
+      "scope": "Original repository record matched by source ID, not a newly inspected external publication.",
+      "independent_bias_appraisal_complete": false,
+      "clinical_review": false,
+      "publish": false
+    },
+    {
+      "id": "P6-G07",
+      "origin": "research/staged-completion/stage-06/SOURCES.json",
+      "origin_index": 54,
+      "origin_blob_sha": "304a4e520aa7934fc6115ae311798729412d8b96",
+      "original_title": "About Noise and Reproductive Health",
+      "archive_extraction": {
+        "design": "Official public health guidance",
+        "population": "US families/households/workplaces",
+        "limitations": "Jurisdiction, version and clinical exceptions require release review; not clinical efficacy study.",
+        "verification": "Official indexed HTML",
+        "correction_retraction_status": "comprehensive registry sweep pending",
+        "publication_status": "staged research only",
+        "funding": "Government agency",
+        "checked": "2026-11-26"
+      },
+      "archived_funding_notes": [
+        "Government agency"
+      ],
+      "archived_financial_interest_notes": [],
+      "archived_finding_present": false,
+      "archived_design_or_limitations_present": true,
+      "next_checks": [
+        "Read original results or applicable non-clinical source purpose; extract source-specific finding and locator.",
+        "Extract author/institution interests and disclosure status from original source.",
+        "Verify original identity/version and correction/retraction status; assess bias and claim applicability before release."
+      ],
+      "scope": "Original repository record matched by source ID, not a newly inspected external publication.",
+      "independent_bias_appraisal_complete": false,
+      "clinical_review": false,
+      "publish": false
+    },
+    {
+      "id": "P6-G08",
+      "origin": "research/staged-completion/stage-06/SOURCES.json",
+      "origin_index": 55,
+      "origin_blob_sha": "304a4e520aa7934fc6115ae311798729412d8b96",
+      "original_title": "Heat and Pregnancy",
+      "archive_extraction": {
+        "design": "Official public health guidance",
+        "population": "US families/households/workplaces",
+        "limitations": "Jurisdiction, version and clinical exceptions require release review; not clinical efficacy study.",
+        "verification": "Official indexed HTML",
+        "correction_retraction_status": "comprehensive registry sweep pending",
+        "publication_status": "staged research only",
+        "funding": "Government agency",
+        "checked": "2026-11-26"
+      },
+      "archived_funding_notes": [
+        "Government agency"
+      ],
+      "archived_financial_interest_notes": [],
+      "archived_finding_present": false,
+      "archived_design_or_limitations_present": true,
+      "next_checks": [
+        "Read original results or applicable non-clinical source purpose; extract source-specific finding and locator.",
+        "Extract author/institution interests and disclosure status from original source.",
+        "Verify original identity/version and correction/retraction status; assess bias and claim applicability before release."
+      ],
+      "scope": "Original repository record matched by source ID, not a newly inspected external publication.",
+      "independent_bias_appraisal_complete": false,
+      "clinical_review": false,
+      "publish": false
+    },
+    {
+      "id": "P6-G09",
+      "origin": "research/staged-completion/stage-06/SOURCES.json",
+      "origin_index": 56,
+      "origin_blob_sha": "304a4e520aa7934fc6115ae311798729412d8b96",
+      "original_title": "Wildfire Smoke and Pregnancy",
+      "archive_extraction": {
+        "design": "Official public health guidance",
+        "population": "US families/households/workplaces",
+        "limitations": "Jurisdiction, version and clinical exceptions require release review; not clinical efficacy study.",
+        "verification": "Official indexed HTML",
+        "correction_retraction_status": "comprehensive registry sweep pending",
+        "publication_status": "staged research only",
+        "funding": "Government agency",
+        "checked": "2026-11-26"
+      },
+      "archived_funding_notes": [
+        "Government agency"
+      ],
+      "archived_financial_interest_notes": [],
+      "archived_finding_present": false,
+      "archived_design_or_limitations_present": true,
+      "next_checks": [
+        "Read original results or applicable non-clinical source purpose; extract source-specific finding and locator.",
+        "Extract author/institution interests and disclosure status from original source.",
+        "Verify original identity/version and correction/retraction status; assess bias and claim applicability before release."
+      ],
+      "scope": "Original repository record matched by source ID, not a newly inspected external publication.",
+      "independent_bias_appraisal_complete": false,
+      "clinical_review": false,
+      "publish": false
+    },
+    {
+      "id": "P6-G10",
+      "origin": "research/staged-completion/stage-06/SOURCES.json",
+      "origin_index": 57,
+      "origin_blob_sha": "304a4e520aa7934fc6115ae311798729412d8b96",
+      "original_title": "Guide to Air Cleaners in the Home",
+      "archive_extraction": {
+        "design": "Official public health guidance",
+        "population": "US families/households/workplaces",
+        "limitations": "Jurisdiction, version and clinical exceptions require release review; not clinical efficacy study.",
+        "verification": "Official indexed HTML",
+        "correction_retraction_status": "comprehensive registry sweep pending",
+        "publication_status": "staged research only",
+        "funding": "Government agency",
+        "checked": "2026-11-26"
+      },
+      "archived_funding_notes": [
+        "Government agency"
+      ],
+      "archived_financial_interest_notes": [],
+      "archived_finding_present": false,
+      "archived_design_or_limitations_present": true,
+      "next_checks": [
+        "Read original results or applicable non-clinical source purpose; extract source-specific finding and locator.",
+        "Extract author/institution interests and disclosure status from original source.",
+        "Verify original identity/version and correction/retraction status; assess bias and claim applicability before release."
+      ],
+      "scope": "Original repository record matched by source ID, not a newly inspected external publication.",
+      "independent_bias_appraisal_complete": false,
+      "clinical_review": false,
+      "publish": false
+    },
+    {
+      "id": "P6-G11",
+      "origin": "research/staged-completion/stage-06/SOURCES.json",
+      "origin_index": 58,
+      "origin_blob_sha": "304a4e520aa7934fc6115ae311798729412d8b96",
+      "original_title": "Pesticides and Food: Healthy, Sensible Food Practices",
+      "archive_extraction": {
+        "design": "Official public health guidance",
+        "population": "US families/households/workplaces",
+        "limitations": "Jurisdiction, version and clinical exceptions require release review; not clinical efficacy study.",
+        "verification": "Official indexed HTML",
+        "correction_retraction_status": "comprehensive registry sweep pending",
+        "publication_status": "staged research only",
+        "funding": "Government agency",
+        "checked": "2026-11-26"
+      },
+      "archived_funding_notes": [
+        "Government agency"
+      ],
+      "archived_financial_interest_notes": [],
+      "archived_finding_present": false,
+      "archived_design_or_limitations_present": true,
+      "next_checks": [
+        "Read original results or applicable non-clinical source purpose; extract source-specific finding and locator.",
+        "Extract author/institution interests and disclosure status from original source.",
+        "Verify original identity/version and correction/retraction status; assess bias and claim applicability before release."
+      ],
+      "scope": "Original repository record matched by source ID, not a newly inspected external publication.",
+      "independent_bias_appraisal_complete": false,
+      "clinical_review": false,
+      "publish": false
+    },
+    {
+      "id": "P6-G12",
+      "origin": "research/staged-completion/stage-06/SOURCES.json",
+      "origin_index": 59,
+      "origin_blob_sha": "304a4e520aa7934fc6115ae311798729412d8b96",
+      "original_title": "7 Tips for Cleaning Fruits, Vegetables",
+      "archive_extraction": {
+        "design": "Official public health guidance",
+        "population": "US families/households/workplaces",
+        "limitations": "Jurisdiction, version and clinical exceptions require release review; not clinical efficacy study.",
+        "verification": "Official indexed HTML",
+        "correction_retraction_status": "comprehensive registry sweep pending",
+        "publication_status": "staged research only",
+        "funding": "Government agency",
+        "checked": "2026-11-26"
+      },
+      "archived_funding_notes": [
+        "Government agency"
+      ],
+      "archived_financial_interest_notes": [],
+      "archived_finding_present": false,
+      "archived_design_or_limitations_present": true,
+      "next_checks": [
+        "Read original results or applicable non-clinical source purpose; extract source-specific finding and locator.",
+        "Extract author/institution interests and disclosure status from original source.",
+        "Verify original identity/version and correction/retraction status; assess bias and claim applicability before release."
+      ],
+      "scope": "Original repository record matched by source ID, not a newly inspected external publication.",
+      "independent_bias_appraisal_complete": false,
+      "clinical_review": false,
+      "publish": false
+    },
+    {
+      "id": "P6-G13",
+      "origin": "research/staged-completion/stage-06/SOURCES.json",
+      "origin_index": 60,
+      "origin_blob_sha": "304a4e520aa7934fc6115ae311798729412d8b96",
+      "original_title": "About Secondhand Smoke",
+      "archive_extraction": {
+        "design": "Official public health guidance",
+        "population": "US families/households/workplaces",
+        "limitations": "Jurisdiction, version and clinical exceptions require release review; not clinical efficacy study.",
+        "verification": "Official indexed HTML",
+        "correction_retraction_status": "comprehensive registry sweep pending",
+        "publication_status": "staged research only",
+        "funding": "Government agency",
+        "checked": "2026-11-26"
+      },
+      "archived_funding_notes": [
+        "Government agency"
+      ],
+      "archived_financial_interest_notes": [],
+      "archived_finding_present": false,
+      "archived_design_or_limitations_present": true,
+      "next_checks": [
+        "Read original results or applicable non-clinical source purpose; extract source-specific finding and locator.",
+        "Extract author/institution interests and disclosure status from original source.",
+        "Verify original identity/version and correction/retraction status; assess bias and claim applicability before release."
+      ],
+      "scope": "Original repository record matched by source ID, not a newly inspected external publication.",
+      "independent_bias_appraisal_complete": false,
+      "clinical_review": false,
+      "publish": false
+    },
+    {
+      "id": "P6-G14",
+      "origin": "research/staged-completion/stage-06/SOURCES.json",
+      "origin_index": 61,
+      "origin_blob_sha": "304a4e520aa7934fc6115ae311798729412d8b96",
+      "original_title": "Substance Use During Pregnancy",
+      "archive_extraction": {
+        "design": "Official public health guidance",
+        "population": "US families/households/workplaces",
+        "limitations": "Jurisdiction, version and clinical exceptions require release review; not clinical efficacy study.",
+        "verification": "Official indexed HTML",
+        "correction_retraction_status": "comprehensive registry sweep pending",
+        "publication_status": "staged research only",
+        "funding": "Government agency",
+        "checked": "2026-11-26"
+      },
+      "archived_funding_notes": [
+        "Government agency"
+      ],
+      "archived_financial_interest_notes": [],
+      "archived_finding_present": false,
+      "archived_design_or_limitations_present": true,
+      "next_checks": [
+        "Read original results or applicable non-clinical source purpose; extract source-specific finding and locator.",
+        "Extract author/institution interests and disclosure status from original source.",
+        "Verify original identity/version and correction/retraction status; assess bias and claim applicability before release."
+      ],
+      "scope": "Original repository record matched by source ID, not a newly inspected external publication.",
+      "independent_bias_appraisal_complete": false,
+      "clinical_review": false,
+      "publish": false
+    },
+    {
+      "id": "P6-G15",
+      "origin": "research/staged-completion/stage-06/SOURCES.json",
+      "origin_index": 62,
+      "origin_blob_sha": "304a4e520aa7934fc6115ae311798729412d8b96",
+      "original_title": "Cannabis and Pregnancy",
+      "archive_extraction": {
+        "design": "Official public health guidance",
+        "population": "US families/households/workplaces",
+        "limitations": "Jurisdiction, version and clinical exceptions require release review; not clinical efficacy study.",
+        "verification": "Official indexed HTML",
+        "correction_retraction_status": "comprehensive registry sweep pending",
+        "publication_status": "staged research only",
+        "funding": "Government agency",
+        "checked": "2026-11-26"
+      },
+      "archived_funding_notes": [
+        "Government agency"
+      ],
+      "archived_financial_interest_notes": [],
+      "archived_finding_present": false,
+      "archived_design_or_limitations_present": true,
+      "next_checks": [
+        "Read original results or applicable non-clinical source purpose; extract source-specific finding and locator.",
+        "Extract author/institution interests and disclosure status from original source.",
+        "Verify original identity/version and correction/retraction status; assess bias and claim applicability before release."
+      ],
+      "scope": "Original repository record matched by source ID, not a newly inspected external publication.",
+      "independent_bias_appraisal_complete": false,
+      "clinical_review": false,
+      "publish": false
+    },
+    {
+      "id": "P6-G16",
+      "origin": "research/staged-completion/stage-06/SOURCES.json",
+      "origin_index": 63,
+      "origin_blob_sha": "304a4e520aa7934fc6115ae311798729412d8b96",
+      "original_title": "A Brief Guide to Mold, Moisture and Your Home",
+      "archive_extraction": {
+        "design": "Official public health guidance",
+        "population": "US families/households/workplaces",
+        "limitations": "Jurisdiction, version and clinical exceptions require release review; not clinical efficacy study.",
+        "verification": "Official indexed HTML",
+        "correction_retraction_status": "comprehensive registry sweep pending",
+        "publication_status": "staged research only",
+        "funding": "Government agency",
+        "checked": "2026-11-26"
+      },
+      "archived_funding_notes": [
+        "Government agency"
+      ],
+      "archived_financial_interest_notes": [],
+      "archived_finding_present": false,
+      "archived_design_or_limitations_present": true,
+      "next_checks": [
+        "Read original results or applicable non-clinical source purpose; extract source-specific finding and locator.",
+        "Extract author/institution interests and disclosure status from original source.",
+        "Verify original identity/version and correction/retraction status; assess bias and claim applicability before release."
+      ],
+      "scope": "Original repository record matched by source ID, not a newly inspected external publication.",
+      "independent_bias_appraisal_complete": false,
+      "clinical_review": false,
+      "publish": false
+    },
+    {
+      "id": "P6-G17",
+      "origin": "research/staged-completion/stage-06/SOURCES.json",
+      "origin_index": 64,
+      "origin_blob_sha": "304a4e520aa7934fc6115ae311798729412d8b96",
+      "original_title": "Cleaning and Disinfecting",
+      "archive_extraction": {
+        "design": "Official public health guidance",
+        "population": "US families/households/workplaces",
+        "limitations": "Jurisdiction, version and clinical exceptions require release review; not clinical efficacy study.",
+        "verification": "Official indexed HTML",
+        "correction_retraction_status": "comprehensive registry sweep pending",
+        "publication_status": "staged research only",
+        "funding": "Government agency",
+        "checked": "2026-11-26"
+      },
+      "archived_funding_notes": [
+        "Government agency"
+      ],
+      "archived_financial_interest_notes": [],
+      "archived_finding_present": false,
+      "archived_design_or_limitations_present": true,
+      "next_checks": [
+        "Read original results or applicable non-clinical source purpose; extract source-specific finding and locator.",
+        "Extract author/institution interests and disclosure status from original source.",
+        "Verify original identity/version and correction/retraction status; assess bias and claim applicability before release."
+      ],
+      "scope": "Original repository record matched by source ID, not a newly inspected external publication.",
+      "independent_bias_appraisal_complete": false,
+      "clinical_review": false,
+      "publish": false
+    },
+    {
+      "id": "P6-G18",
+      "origin": "research/staged-completion/stage-06/SOURCES.json",
+      "origin_index": 65,
+      "origin_blob_sha": "304a4e520aa7934fc6115ae311798729412d8b96",
+      "original_title": "Carbon Monoxide Poisoning Prevention",
+      "archive_extraction": {
+        "design": "Official public health guidance",
+        "population": "US families/households/workplaces",
+        "limitations": "Jurisdiction, version and clinical exceptions require release review; not clinical efficacy study.",
+        "verification": "Official indexed HTML",
+        "correction_retraction_status": "comprehensive registry sweep pending",
+        "publication_status": "staged research only",
+        "funding": "Government agency",
+        "checked": "2026-11-26"
+      },
+      "archived_funding_notes": [
+        "Government agency"
+      ],
+      "archived_financial_interest_notes": [],
+      "archived_finding_present": false,
+      "archived_design_or_limitations_present": true,
+      "next_checks": [
+        "Read original results or applicable non-clinical source purpose; extract source-specific finding and locator.",
+        "Extract author/institution interests and disclosure status from original source.",
+        "Verify original identity/version and correction/retraction status; assess bias and claim applicability before release."
+      ],
+      "scope": "Original repository record matched by source ID, not a newly inspected external publication.",
+      "independent_bias_appraisal_complete": false,
+      "clinical_review": false,
+      "publish": false
+    },
+    {
+      "id": "P6-G19",
+      "origin": "research/staged-completion/stage-06/SOURCES.json",
+      "origin_index": 66,
+      "origin_blob_sha": "304a4e520aa7934fc6115ae311798729412d8b96",
+      "original_title": "Testing Your Home for Radon",
+      "archive_extraction": {
+        "design": "Official public health guidance",
+        "population": "US families/households/workplaces",
+        "limitations": "Jurisdiction, version and clinical exceptions require release review; not clinical efficacy study.",
+        "verification": "Official indexed HTML",
+        "correction_retraction_status": "comprehensive registry sweep pending",
+        "publication_status": "staged research only",
+        "funding": "Government agency",
+        "checked": "2026-11-26"
+      },
+      "archived_funding_notes": [
+        "Government agency"
+      ],
+      "archived_financial_interest_notes": [],
+      "archived_finding_present": false,
+      "archived_design_or_limitations_present": true,
+      "next_checks": [
+        "Read original results or applicable non-clinical source purpose; extract source-specific finding and locator.",
+        "Extract author/institution interests and disclosure status from original source.",
+        "Verify original identity/version and correction/retraction status; assess bias and claim applicability before release."
+      ],
+      "scope": "Original repository record matched by source ID, not a newly inspected external publication.",
+      "independent_bias_appraisal_complete": false,
+      "clinical_review": false,
+      "publish": false
+    },
+    {
+      "id": "P6-G20",
+      "origin": "research/staged-completion/stage-06/SOURCES.json",
+      "origin_index": 67,
+      "origin_blob_sha": "304a4e520aa7934fc6115ae311798729412d8b96",
+      "original_title": "How to Create a Cleaner Air Room at Home",
+      "archive_extraction": {
+        "design": "Official public health guidance",
+        "population": "US families/households/workplaces",
+        "limitations": "Jurisdiction, version and clinical exceptions require release review; not clinical efficacy study.",
+        "verification": "Official indexed HTML",
+        "correction_retraction_status": "comprehensive registry sweep pending",
+        "publication_status": "staged research only",
+        "funding": "Government agency",
+        "checked": "2026-11-26"
+      },
+      "archived_funding_notes": [
+        "Government agency"
+      ],
+      "archived_financial_interest_notes": [],
+      "archived_finding_present": false,
+      "archived_design_or_limitations_present": true,
+      "next_checks": [
+        "Read original results or applicable non-clinical source purpose; extract source-specific finding and locator.",
+        "Extract author/institution interests and disclosure status from original source.",
+        "Verify original identity/version and correction/retraction status; assess bias and claim applicability before release."
+      ],
+      "scope": "Original repository record matched by source ID, not a newly inspected external publication.",
+      "independent_bias_appraisal_complete": false,
+      "clinical_review": false,
+      "publish": false
+    },
+    {
+      "id": "P7-01",
+      "origin": "research/staged-completion/stage-07/SOURCES.json",
+      "origin_index": 0,
+      "origin_blob_sha": "de0626c06a72aee0a18ba59ea858ea3cf7a2427c",
+      "original_title": "The Use of Ginger Bioactive Compounds in Pregnancy: An Evidence Scan and Umbrella Review of Existing Meta-Analyses",
+      "archive_extraction": {
+        "design": "umbrella review",
+        "population": "Pregnancy nausea",
+        "limitations": "Not independent trials; mild nausea not hyperemesis; component funding supplement remains unextracted",
+        "verification": "Original HTML methods, results, Figure 3, funding/COI",
+        "correction_retraction_status": "not comprehensively checked",
+        "publication_status": "staged research only",
+        "funding": "Gates Foundation INV-047386; identified ginger topic, otherwise no analysis/writing/publication restrictions per authors",
+        "financial_ties": "No COI declared",
+        "prior_ids": [
+          "S102"
+        ],
+        "checked_date": "2026-11-26"
+      },
+      "archived_funding_notes": [
+        "Gates Foundation INV-047386; identified ginger topic, otherwise no analysis/writing/publication restrictions per authors"
+      ],
+      "archived_financial_interest_notes": [
+        "No COI declared"
+      ],
+      "archived_finding_present": false,
+      "archived_design_or_limitations_present": true,
+      "next_checks": [
+        "Read original results or applicable non-clinical source purpose; extract source-specific finding and locator.",
+        "Verify original identity/version and correction/retraction status; assess bias and claim applicability before release."
+      ],
+      "scope": "Original repository record matched by source ID, not a newly inspected external publication.",
+      "independent_bias_appraisal_complete": false,
+      "clinical_review": false,
+      "publish": false
+    },
+    {
+      "id": "P7-02",
+      "origin": "research/staged-completion/stage-07/SOURCES.json",
+      "origin_index": 1,
+      "origin_blob_sha": "de0626c06a72aee0a18ba59ea858ea3cf7a2427c",
+      "original_title": "Plant-derived complementary therapies for nausea and vomiting of pregnancy: a systematic review and network meta-analysis of randomized controlled trials",
+      "archive_extraction": {
+        "design": "2026 network meta-analysis",
+        "population": "28 RCTs 2798 participants; nausea up to 20 weeks",
+        "limitations": "Different symptom scales; no clinical ranking, no proof safety; overlap P7-01",
+        "verification": "Original publisher abstract, funding, COI; Oct 17 2026; CRD420251116302",
+        "correction_retraction_status": "not comprehensively checked",
+        "publication_status": "staged research only",
+        "funding": "No external funding; Srinakharinwirot University medical center publication support; no funder role declared",
+        "financial_ties": "No competing interests declared",
+        "prior_ids": [],
+        "checked_date": "2026-11-26"
+      },
+      "archived_funding_notes": [
+        "No external funding; Srinakharinwirot University medical center publication support; no funder role declared"
+      ],
+      "archived_financial_interest_notes": [
+        "No competing interests declared"
+      ],
+      "archived_finding_present": false,
+      "archived_design_or_limitations_present": true,
+      "next_checks": [
+        "Read original results or applicable non-clinical source purpose; extract source-specific finding and locator.",
+        "Verify original identity/version and correction/retraction status; assess bias and claim applicability before release."
+      ],
+      "scope": "Original repository record matched by source ID, not a newly inspected external publication.",
+      "independent_bias_appraisal_complete": false,
+      "clinical_review": false,
+      "publish": false
+    },
+    {
+      "id": "P7-03",
+      "origin": "research/staged-completion/stage-07/SOURCES.json",
+      "origin_index": 2,
+      "origin_blob_sha": "de0626c06a72aee0a18ba59ea858ea3cf7a2427c",
+      "original_title": "A systematic review and meta-analysis of the effect and safety of ginger in the treatment of pregnancy-associated nausea and vomiting",
+      "archive_extraction": {
+        "design": "systematic review",
+        "population": "Pregnancy nausea/vomiting",
+        "limitations": "Low quality, overlaps P7-01; hold numeric vomiting chart until coding confirmed",
+        "verification": "Indexed original abstract",
+        "correction_retraction_status": "not comprehensively checked",
+        "publication_status": "staged research only",
+        "funding": "Not extracted",
+        "financial_ties": "Unknown",
+        "prior_ids": [],
+        "checked_date": "2026-11-26"
+      },
+      "archived_funding_notes": [
+        "Not extracted"
+      ],
+      "archived_financial_interest_notes": [
+        "Unknown"
+      ],
+      "archived_finding_present": false,
+      "archived_design_or_limitations_present": true,
+      "next_checks": [
+        "Read original results or applicable non-clinical source purpose; extract source-specific finding and locator.",
+        "Verify original identity/version and correction/retraction status; assess bias and claim applicability before release."
+      ],
+      "scope": "Original repository record matched by source ID, not a newly inspected external publication.",
+      "independent_bias_appraisal_complete": false,
+      "clinical_review": false,
+      "publish": false
+    },
+    {
+      "id": "P7-04",
+      "origin": "research/staged-completion/stage-07/SOURCES.json",
+      "origin_index": 3,
+      "origin_blob_sha": "de0626c06a72aee0a18ba59ea858ea3cf7a2427c",
+      "original_title": "The Management of Nausea and Vomiting in Pregnancy and Hyperemesis Gravidarum (Green-top Guideline No. 69)",
+      "archive_extraction": {
+        "design": "RCOG guideline",
+        "population": "Severe pregnancy nausea/vomiting",
+        "limitations": "Do not extrapolate HG advice to all mild nausea; medical escalation visible",
+        "verification": "Indexed publisher guideline excerpt",
+        "correction_retraction_status": "not comprehensively checked",
+        "publication_status": "staged research only",
+        "funding": "Professional guideline; panel COI not extracted",
+        "financial_ties": "Unknown",
+        "prior_ids": [],
+        "checked_date": "2026-11-26"
+      },
+      "archived_funding_notes": [
+        "Professional guideline; panel COI not extracted"
+      ],
+      "archived_financial_interest_notes": [
+        "Unknown"
+      ],
+      "archived_finding_present": false,
+      "archived_design_or_limitations_present": true,
+      "next_checks": [
+        "Read original results or applicable non-clinical source purpose; extract source-specific finding and locator.",
+        "Verify original identity/version and correction/retraction status; assess bias and claim applicability before release."
+      ],
+      "scope": "Original repository record matched by source ID, not a newly inspected external publication.",
+      "independent_bias_appraisal_complete": false,
+      "clinical_review": false,
+      "publish": false
+    },
+    {
+      "id": "P7-05",
+      "origin": "research/staged-completion/stage-07/SOURCES.json",
+      "origin_index": 4,
+      "origin_blob_sha": "de0626c06a72aee0a18ba59ea858ea3cf7a2427c",
+      "original_title": "Is oral consumption of dates in the peripartum period effective and safe integrative care to facilitate childbirth and improve perinatal outcomes: a comprehensive revised systematic review and dose-response meta-analysis",
+      "archive_extraction": {
+        "design": "2024 mixed RCT/non-RCT review",
+        "population": "15 RCTs and 33 non-RCTs",
+        "limitations": "Primary funding not audited; some outcomes sensitive to study exclusion; no induction or dose protocol, glycemic considerations",
+        "verification": "Original HTML methods, Figs 1–2, RoB, funding and declarations; CRD42023399626",
+        "correction_retraction_status": "not comprehensively checked",
+        "publication_status": "staged research only",
+        "funding": "Abadan University of Medical Sciences Religion, Health and Technology Studies Center grant 1538; no funder role reported",
+        "financial_ties": "No competing financial interests declared",
+        "prior_ids": [],
+        "checked_date": "2026-11-26"
+      },
+      "archived_funding_notes": [
+        "Abadan University of Medical Sciences Religion, Health and Technology Studies Center grant 1538; no funder role reported"
+      ],
+      "archived_financial_interest_notes": [
+        "No competing financial interests declared"
+      ],
+      "archived_finding_present": false,
+      "archived_design_or_limitations_present": true,
+      "next_checks": [
+        "Read original results or applicable non-clinical source purpose; extract source-specific finding and locator.",
+        "Verify original identity/version and correction/retraction status; assess bias and claim applicability before release."
+      ],
+      "scope": "Original repository record matched by source ID, not a newly inspected external publication.",
+      "independent_bias_appraisal_complete": false,
+      "clinical_review": false,
+      "publish": false
+    },
+    {
+      "id": "P7-06",
+      "origin": "research/staged-completion/stage-07/SOURCES.json",
+      "origin_index": 5,
+      "origin_blob_sha": "de0626c06a72aee0a18ba59ea858ea3cf7a2427c",
+      "original_title": "Biophysical effects, safety and efficacy of raspberry leaf use in pregnancy: a systematic integrative review",
+      "archive_extraction": {
+        "design": "2021 integrative review",
+        "population": "13 studies including animal/laboratory and human",
+        "limitations": "No automatic late-pregnancy schedule; no extrapolation from isolated tissue",
+        "verification": "Original publisher declarations and abstract",
+        "correction_retraction_status": "not comprehensively checked",
+        "publication_status": "staged research only",
+        "funding": "Funding N/A per paper",
+        "financial_ties": "First author conducting raspberry leaf observational PhD study; not financial tie",
+        "prior_ids": [
+          "H015"
+        ],
+        "checked_date": "2026-11-26"
+      },
+      "archived_funding_notes": [
+        "Funding N/A per paper"
+      ],
+      "archived_financial_interest_notes": [
+        "First author conducting raspberry leaf observational PhD study; not financial tie"
+      ],
+      "archived_finding_present": false,
+      "archived_design_or_limitations_present": true,
+      "next_checks": [
+        "Read original results or applicable non-clinical source purpose; extract source-specific finding and locator.",
+        "Verify original identity/version and correction/retraction status; assess bias and claim applicability before release."
+      ],
+      "scope": "Original repository record matched by source ID, not a newly inspected external publication.",
+      "independent_bias_appraisal_complete": false,
+      "clinical_review": false,
+      "publish": false
+    },
+    {
+      "id": "P7-07",
+      "origin": "research/staged-completion/stage-07/SOURCES.json",
+      "origin_index": 6,
+      "origin_blob_sha": "de0626c06a72aee0a18ba59ea858ea3cf7a2427c",
+      "original_title": "Castor oil, bath and/or enema for cervical priming and induction of labour",
+      "archive_extraction": {
+        "design": "Cochrane review",
+        "population": "3 trials 233 women",
+        "limitations": "Older evidence; no instruction or dose",
+        "verification": "Official Cochrane abstract",
+        "correction_retraction_status": "not comprehensively checked",
+        "publication_status": "staged research only",
+        "funding": "Not extracted",
+        "financial_ties": "Unknown",
+        "prior_ids": [],
+        "checked_date": "2026-11-26"
+      },
+      "archived_funding_notes": [
+        "Not extracted"
+      ],
+      "archived_financial_interest_notes": [
+        "Unknown"
+      ],
+      "archived_finding_present": false,
+      "archived_design_or_limitations_present": true,
+      "next_checks": [
+        "Read original results or applicable non-clinical source purpose; extract source-specific finding and locator.",
+        "Verify original identity/version and correction/retraction status; assess bias and claim applicability before release."
+      ],
+      "scope": "Original repository record matched by source ID, not a newly inspected external publication.",
+      "independent_bias_appraisal_complete": false,
+      "clinical_review": false,
+      "publish": false
+    },
+    {
+      "id": "P7-08",
+      "origin": "research/staged-completion/stage-07/SOURCES.json",
+      "origin_index": 7,
+      "origin_blob_sha": "de0626c06a72aee0a18ba59ea858ea3cf7a2427c",
+      "original_title": "Inducing labour — recommendations",
+      "archive_extraction": {
+        "design": "NICE guideline",
+        "population": "Pregnancy/labor",
+        "limitations": "UK jurisdiction; respect clinician plan and urgent fetal warning signs",
+        "verification": "Official guideline HTML",
+        "correction_retraction_status": "not comprehensively checked",
+        "publication_status": "staged research only",
+        "funding": "NICE; committee disclosures not reviewed",
+        "financial_ties": "Unknown",
+        "prior_ids": [],
+        "checked_date": "2026-11-26"
+      },
+      "archived_funding_notes": [
+        "NICE; committee disclosures not reviewed"
+      ],
+      "archived_financial_interest_notes": [
+        "Unknown"
+      ],
+      "archived_finding_present": false,
+      "archived_design_or_limitations_present": true,
+      "next_checks": [
+        "Read original results or applicable non-clinical source purpose; extract source-specific finding and locator.",
+        "Verify original identity/version and correction/retraction status; assess bias and claim applicability before release."
+      ],
+      "scope": "Original repository record matched by source ID, not a newly inspected external publication.",
+      "independent_bias_appraisal_complete": false,
+      "clinical_review": false,
+      "publish": false
+    },
+    {
+      "id": "P7-09",
+      "origin": "research/staged-completion/stage-07/SOURCES.json",
+      "origin_index": 8,
+      "origin_blob_sha": "de0626c06a72aee0a18ba59ea858ea3cf7a2427c",
+      "original_title": "Cephalic version by moxibustion for breech presentation",
+      "archive_extraction": {
+        "design": "2023 Cochrane review",
+        "population": "13 studies 2181 women",
+        "limitations": "No DIY heat/smoke technique, no delay to assessment or ECV; review includes prior trials",
+        "verification": "Original official abstract outcomes and harms",
+        "correction_retraction_status": "not comprehensively checked",
+        "publication_status": "staged research only",
+        "funding": "Review/trial financing not extracted",
+        "financial_ties": "Unknown",
+        "prior_ids": [
+          "S167"
+        ],
+        "checked_date": "2026-11-26"
+      },
+      "archived_funding_notes": [
+        "Review/trial financing not extracted"
+      ],
+      "archived_financial_interest_notes": [
+        "Unknown"
+      ],
+      "archived_finding_present": false,
+      "archived_design_or_limitations_present": true,
+      "next_checks": [
+        "Read original results or applicable non-clinical source purpose; extract source-specific finding and locator.",
+        "Verify original identity/version and correction/retraction status; assess bias and claim applicability before release."
+      ],
+      "scope": "Original repository record matched by source ID, not a newly inspected external publication.",
+      "independent_bias_appraisal_complete": false,
+      "clinical_review": false,
+      "publish": false
+    },
+    {
+      "id": "P7-10",
+      "origin": "research/staged-completion/stage-07/SOURCES.json",
+      "origin_index": 9,
+      "origin_blob_sha": "de0626c06a72aee0a18ba59ea858ea3cf7a2427c",
+      "original_title": "Moxibustion did not have an effect in a randomised clinical trial for version of breech position",
+      "archive_extraction": {
+        "design": "RCT",
+        "population": "Breech pregnancy",
+        "limitations": "Not proof no protocol works; cohort membership P7-09 to verify",
+        "verification": "Indexed primary abstract; direct open blocked",
+        "correction_retraction_status": "not comprehensively checked",
+        "publication_status": "staged research only",
+        "funding": "None per indexed abstract",
+        "financial_ties": "Full COI not verified",
+        "prior_ids": [
+          "S168"
+        ],
+        "checked_date": "2026-11-26"
+      },
+      "archived_funding_notes": [
+        "None per indexed abstract"
+      ],
+      "archived_financial_interest_notes": [
+        "Full COI not verified"
+      ],
+      "archived_finding_present": false,
+      "archived_design_or_limitations_present": true,
+      "next_checks": [
+        "Read original results or applicable non-clinical source purpose; extract source-specific finding and locator.",
+        "Verify original identity/version and correction/retraction status; assess bias and claim applicability before release."
+      ],
+      "scope": "Original repository record matched by source ID, not a newly inspected external publication.",
+      "independent_bias_appraisal_complete": false,
+      "clinical_review": false,
+      "publish": false
+    },
+    {
+      "id": "P7-11",
+      "origin": "research/staged-completion/stage-07/SOURCES.json",
+      "origin_index": 10,
+      "origin_blob_sha": "de0626c06a72aee0a18ba59ea858ea3cf7a2427c",
+      "original_title": "Moxibustion for Correction of Breech Presentation: A Randomized Controlled Trial",
+      "archive_extraction": {
+        "design": "1998 RCT",
+        "population": "Breech pregnancy",
+        "limitations": "Not independent of review; no technique instructions",
+        "verification": "Indexed primary publisher abstract",
+        "correction_retraction_status": "not comprehensively checked",
+        "publication_status": "staged research only",
+        "funding": "Not extracted",
+        "financial_ties": "Unknown",
+        "prior_ids": [
+          "S165"
+        ],
+        "checked_date": "2026-11-26"
+      },
+      "archived_funding_notes": [
+        "Not extracted"
+      ],
+      "archived_financial_interest_notes": [
+        "Unknown"
+      ],
+      "archived_finding_present": false,
+      "archived_design_or_limitations_present": true,
+      "next_checks": [
+        "Read original results or applicable non-clinical source purpose; extract source-specific finding and locator.",
+        "Verify original identity/version and correction/retraction status; assess bias and claim applicability before release."
+      ],
+      "scope": "Original repository record matched by source ID, not a newly inspected external publication.",
+      "independent_bias_appraisal_complete": false,
+      "clinical_review": false,
+      "publish": false
+    },
+    {
+      "id": "P7-12",
+      "origin": "research/staged-completion/stage-07/SOURCES.json",
+      "origin_index": 11,
+      "origin_blob_sha": "de0626c06a72aee0a18ba59ea858ea3cf7a2427c",
+      "original_title": "Continuous support for women during childbirth",
+      "archive_extraction": {
+        "design": "2017 Cochrane review",
+        "population": "27 trials; 26 with usable data 15858 women",
+        "limitations": "Unblinded intervention; varied care settings, companion type and policies; no guaranteed vaginal birth",
+        "verification": "Official Cochrane HTML main results",
+        "correction_retraction_status": "not comprehensively checked",
+        "publication_status": "staged research only",
+        "funding": "Review and underlying trial funding not extracted",
+        "financial_ties": "Unknown",
+        "prior_ids": [],
+        "checked_date": "2026-11-26"
+      },
+      "archived_funding_notes": [
+        "Review and underlying trial funding not extracted"
+      ],
+      "archived_financial_interest_notes": [
+        "Unknown"
+      ],
+      "archived_finding_present": false,
+      "archived_design_or_limitations_present": true,
+      "next_checks": [
+        "Read original results or applicable non-clinical source purpose; extract source-specific finding and locator.",
+        "Verify original identity/version and correction/retraction status; assess bias and claim applicability before release."
+      ],
+      "scope": "Original repository record matched by source ID, not a newly inspected external publication.",
+      "independent_bias_appraisal_complete": false,
+      "clinical_review": false,
+      "publish": false
+    },
+    {
+      "id": "P7-13",
+      "origin": "research/staged-completion/stage-07/SOURCES.json",
+      "origin_index": 12,
+      "origin_blob_sha": "de0626c06a72aee0a18ba59ea858ea3cf7a2427c",
+      "original_title": "Massage, reflexology and other manual methods for managing pain in labour",
+      "archive_extraction": {
+        "design": "2018 Cochrane review",
+        "population": "Labor",
+        "limitations": "Consent and clinical circumstances; no standardized dose",
+        "verification": "Official review abstract",
+        "correction_retraction_status": "not comprehensively checked",
+        "publication_status": "staged research only",
+        "funding": "Not extracted",
+        "financial_ties": "Unknown",
+        "prior_ids": [],
+        "checked_date": "2026-11-26"
+      },
+      "archived_funding_notes": [
+        "Not extracted"
+      ],
+      "archived_financial_interest_notes": [
+        "Unknown"
+      ],
+      "archived_finding_present": false,
+      "archived_design_or_limitations_present": true,
+      "next_checks": [
+        "Read original results or applicable non-clinical source purpose; extract source-specific finding and locator.",
+        "Verify original identity/version and correction/retraction status; assess bias and claim applicability before release."
+      ],
+      "scope": "Original repository record matched by source ID, not a newly inspected external publication.",
+      "independent_bias_appraisal_complete": false,
+      "clinical_review": false,
+      "publish": false
+    },
+    {
+      "id": "P7-14",
+      "origin": "research/staged-completion/stage-07/SOURCES.json",
+      "origin_index": 13,
+      "origin_blob_sha": "de0626c06a72aee0a18ba59ea858ea3cf7a2427c",
+      "original_title": "Relaxation techniques for pain management in labour",
+      "archive_extraction": {
+        "design": "2018 Cochrane review",
+        "population": "Labor",
+        "limitations": "Separate yoga eligibility and medical analgesia",
+        "verification": "Official review abstract",
+        "correction_retraction_status": "not comprehensively checked",
+        "publication_status": "staged research only",
+        "funding": "Not extracted",
+        "financial_ties": "Unknown",
+        "prior_ids": [],
+        "checked_date": "2026-11-26"
+      },
+      "archived_funding_notes": [
+        "Not extracted"
+      ],
+      "archived_financial_interest_notes": [
+        "Unknown"
+      ],
+      "archived_finding_present": false,
+      "archived_design_or_limitations_present": true,
+      "next_checks": [
+        "Read original results or applicable non-clinical source purpose; extract source-specific finding and locator.",
+        "Verify original identity/version and correction/retraction status; assess bias and claim applicability before release."
+      ],
+      "scope": "Original repository record matched by source ID, not a newly inspected external publication.",
+      "independent_bias_appraisal_complete": false,
+      "clinical_review": false,
+      "publish": false
+    },
+    {
+      "id": "P7-15",
+      "origin": "research/staged-completion/stage-07/SOURCES.json",
+      "origin_index": 14,
+      "origin_blob_sha": "de0626c06a72aee0a18ba59ea858ea3cf7a2427c",
+      "original_title": "Acupuncture or acupressure for pain management during labour",
+      "archive_extraction": {
+        "design": "2020 Cochrane review",
+        "population": "28 trials 3960 women",
+        "limitations": "No needle or pressure-point instruction; clinical analgesia always available",
+        "verification": "Indexed primary review results",
+        "correction_retraction_status": "not comprehensively checked",
+        "publication_status": "staged research only",
+        "funding": "Not extracted",
+        "financial_ties": "Unknown",
+        "prior_ids": [],
+        "checked_date": "2026-11-26"
+      },
+      "archived_funding_notes": [
+        "Not extracted"
+      ],
+      "archived_financial_interest_notes": [
+        "Unknown"
+      ],
+      "archived_finding_present": false,
+      "archived_design_or_limitations_present": true,
+      "next_checks": [
+        "Read original results or applicable non-clinical source purpose; extract source-specific finding and locator.",
+        "Verify original identity/version and correction/retraction status; assess bias and claim applicability before release."
+      ],
+      "scope": "Original repository record matched by source ID, not a newly inspected external publication.",
+      "independent_bias_appraisal_complete": false,
+      "clinical_review": false,
+      "publish": false
+    },
+    {
+      "id": "P7-16",
+      "origin": "research/staged-completion/stage-07/SOURCES.json",
+      "origin_index": 15,
+      "origin_blob_sha": "de0626c06a72aee0a18ba59ea858ea3cf7a2427c",
+      "original_title": "Aromatherapy for Labour Pain Management: Umbrella Review",
+      "archive_extraction": {
+        "design": "2026 umbrella review",
+        "population": "Labor",
+        "limitations": "No ingestion or undiluted oils; not infant exposure recommendation; NICE differs",
+        "verification": "Indexed original review",
+        "correction_retraction_status": "not comprehensively checked",
+        "publication_status": "staged research only",
+        "funding": "Funding not extracted",
+        "financial_ties": "Unknown",
+        "prior_ids": [],
+        "checked_date": "2026-11-26"
+      },
+      "archived_funding_notes": [
+        "Funding not extracted"
+      ],
+      "archived_financial_interest_notes": [
+        "Unknown"
+      ],
+      "archived_finding_present": false,
+      "archived_design_or_limitations_present": true,
+      "next_checks": [
+        "Read original results or applicable non-clinical source purpose; extract source-specific finding and locator.",
+        "Verify original identity/version and correction/retraction status; assess bias and claim applicability before release."
+      ],
+      "scope": "Original repository record matched by source ID, not a newly inspected external publication.",
+      "independent_bias_appraisal_complete": false,
+      "clinical_review": false,
+      "publish": false
+    },
+    {
+      "id": "P7-17",
+      "origin": "research/staged-completion/stage-07/SOURCES.json",
+      "origin_index": 16,
+      "origin_blob_sha": "de0626c06a72aee0a18ba59ea858ea3cf7a2427c",
+      "original_title": "Intrapartum care — recommendations",
+      "archive_extraction": {
+        "design": "NICE guideline",
+        "population": "Labor",
+        "limitations": "Jurisdiction and phase specific; not a ban on all yoga",
+        "verification": "Official guideline HTML",
+        "correction_retraction_status": "not comprehensively checked",
+        "publication_status": "staged research only",
+        "funding": "NICE; panel disclosures not reviewed",
+        "financial_ties": "Unknown",
+        "prior_ids": [],
+        "checked_date": "2026-11-26"
+      },
+      "archived_funding_notes": [
+        "NICE; panel disclosures not reviewed"
+      ],
+      "archived_financial_interest_notes": [
+        "Unknown"
+      ],
+      "archived_finding_present": false,
+      "archived_design_or_limitations_present": true,
+      "next_checks": [
+        "Read original results or applicable non-clinical source purpose; extract source-specific finding and locator.",
+        "Verify original identity/version and correction/retraction status; assess bias and claim applicability before release."
+      ],
+      "scope": "Original repository record matched by source ID, not a newly inspected external publication.",
+      "independent_bias_appraisal_complete": false,
+      "clinical_review": false,
+      "publish": false
+    },
+    {
+      "id": "P7-18",
+      "origin": "research/staged-completion/stage-07/SOURCES.json",
+      "origin_index": 17,
+      "origin_blob_sha": "de0626c06a72aee0a18ba59ea858ea3cf7a2427c",
+      "original_title": "Immersion in water in labour and birth",
+      "archive_extraction": {
+        "design": "2018 Cochrane review",
+        "population": "First stage labor",
+        "limitations": "Laboring in water distinct from underwater delivery; clinical eligibility",
+        "verification": "Official Cochrane results",
+        "correction_retraction_status": "not comprehensively checked",
+        "publication_status": "staged research only",
+        "funding": "Not extracted",
+        "financial_ties": "Unknown",
+        "prior_ids": [],
+        "checked_date": "2026-11-26"
+      },
+      "archived_funding_notes": [
+        "Not extracted"
+      ],
+      "archived_financial_interest_notes": [
+        "Unknown"
+      ],
+      "archived_finding_present": false,
+      "archived_design_or_limitations_present": true,
+      "next_checks": [
+        "Read original results or applicable non-clinical source purpose; extract source-specific finding and locator.",
+        "Verify original identity/version and correction/retraction status; assess bias and claim applicability before release."
+      ],
+      "scope": "Original repository record matched by source ID, not a newly inspected external publication.",
+      "independent_bias_appraisal_complete": false,
+      "clinical_review": false,
+      "publish": false
+    },
+    {
+      "id": "P7-19",
+      "origin": "research/staged-completion/stage-07/SOURCES.json",
+      "origin_index": 18,
+      "origin_blob_sha": "de0626c06a72aee0a18ba59ea858ea3cf7a2427c",
+      "original_title": "Hypnosis for pain management during labour and childbirth",
+      "archive_extraction": {
+        "design": "2016 Cochrane review",
+        "population": "Labor",
+        "limitations": "No pressure to avoid analgesia; no commercial class superiority",
+        "verification": "Indexed original review",
+        "correction_retraction_status": "not comprehensively checked",
+        "publication_status": "staged research only",
+        "funding": "Not extracted",
+        "financial_ties": "Unknown",
+        "prior_ids": [],
+        "checked_date": "2026-11-26"
+      },
+      "archived_funding_notes": [
+        "Not extracted"
+      ],
+      "archived_financial_interest_notes": [
+        "Unknown"
+      ],
+      "archived_finding_present": false,
+      "archived_design_or_limitations_present": true,
+      "next_checks": [
+        "Read original results or applicable non-clinical source purpose; extract source-specific finding and locator.",
+        "Verify original identity/version and correction/retraction status; assess bias and claim applicability before release."
+      ],
+      "scope": "Original repository record matched by source ID, not a newly inspected external publication.",
+      "independent_bias_appraisal_complete": false,
+      "clinical_review": false,
+      "publish": false
+    },
+    {
+      "id": "P7-20",
+      "origin": "research/staged-completion/stage-07/SOURCES.json",
+      "origin_index": 19,
+      "origin_blob_sha": "de0626c06a72aee0a18ba59ea858ea3cf7a2427c",
+      "original_title": "Effect of Acupuncture vs Sham Acupuncture on Live Births Among Women Undergoing In Vitro Fertilization: A Randomized Clinical Trial",
+      "archive_extraction": {
+        "design": "2018 multicenter sham RCT",
+        "population": "848 randomized IVF participants; 809 live birth data",
+        "limitations": "Separate clinical pregnancy from live birth; no substitution for fertility care",
+        "verification": "Original PubMed abstract and COI, indexed JAMA funding; ACTRN12611000226909",
+        "correction_retraction_status": "not comprehensively checked",
+        "publication_status": "staged research only",
+        "funding": "Australian NHMRC APP1003661",
+        "financial_ties": "NICM accepts industry donations; author shares in IVF/fertility companies, Johnson pharmaceutical fees/support, Smith acupuncture clinic collaboration; not direct acupuncture manufacturer sponsor",
+        "prior_ids": [],
+        "checked_date": "2026-11-26"
+      },
+      "archived_funding_notes": [
+        "Australian NHMRC APP1003661"
+      ],
+      "archived_financial_interest_notes": [
+        "NICM accepts industry donations; author shares in IVF/fertility companies, Johnson pharmaceutical fees/support, Smith acupuncture clinic collaboration; not direct acupuncture manufacturer sponsor"
+      ],
+      "archived_finding_present": false,
+      "archived_design_or_limitations_present": true,
+      "next_checks": [
+        "Read original results or applicable non-clinical source purpose; extract source-specific finding and locator.",
+        "Verify original identity/version and correction/retraction status; assess bias and claim applicability before release."
+      ],
+      "scope": "Original repository record matched by source ID, not a newly inspected external publication.",
+      "independent_bias_appraisal_complete": false,
+      "clinical_review": false,
+      "publish": false
+    },
+    {
+      "id": "P7-21",
+      "origin": "research/staged-completion/stage-07/SOURCES.json",
+      "origin_index": 20,
+      "origin_blob_sha": "de0626c06a72aee0a18ba59ea858ea3cf7a2427c",
+      "original_title": "Acupuncture versus placebo acupuncture for in vitro fertilisation: a systematic review and meta-analysis",
+      "archive_extraction": {
+        "design": "2020 systematic review",
+        "population": "IVF sham comparisons",
+        "limitations": "Overlap P7-20; no independent count",
+        "verification": "Indexed primary abstract",
+        "correction_retraction_status": "not comprehensively checked",
+        "publication_status": "staged research only",
+        "funding": "Not extracted",
+        "financial_ties": "Unknown",
+        "prior_ids": [],
+        "checked_date": "2026-11-26"
+      },
+      "archived_funding_notes": [
+        "Not extracted"
+      ],
+      "archived_financial_interest_notes": [
+        "Unknown"
+      ],
+      "archived_finding_present": false,
+      "archived_design_or_limitations_present": true,
+      "next_checks": [
+        "Read original results or applicable non-clinical source purpose; extract source-specific finding and locator.",
+        "Verify original identity/version and correction/retraction status; assess bias and claim applicability before release."
+      ],
+      "scope": "Original repository record matched by source ID, not a newly inspected external publication.",
+      "independent_bias_appraisal_complete": false,
+      "clinical_review": false,
+      "publish": false
+    },
+    {
+      "id": "P7-22",
+      "origin": "research/staged-completion/stage-07/SOURCES.json",
+      "origin_index": 21,
+      "origin_blob_sha": "de0626c06a72aee0a18ba59ea858ea3cf7a2427c",
+      "original_title": "Timing and dose of acupuncture as adjuncts to assisted reproduction: a meta-analysis and model-based network meta-analysis",
+      "archive_extraction": {
+        "design": "2026 network meta-analysis",
+        "population": "Assisted reproduction",
+        "limitations": "Mixed comparators and model assumptions; not proof of optimal dose or live births",
+        "verification": "Indexed primary abstract",
+        "correction_retraction_status": "not comprehensively checked",
+        "publication_status": "staged research only",
+        "funding": "Not extracted",
+        "financial_ties": "Unknown",
+        "prior_ids": [],
+        "checked_date": "2026-11-26"
+      },
+      "archived_funding_notes": [
+        "Not extracted"
+      ],
+      "archived_financial_interest_notes": [
+        "Unknown"
+      ],
+      "archived_finding_present": false,
+      "archived_design_or_limitations_present": true,
+      "next_checks": [
+        "Read original results or applicable non-clinical source purpose; extract source-specific finding and locator.",
+        "Verify original identity/version and correction/retraction status; assess bias and claim applicability before release."
+      ],
+      "scope": "Original repository record matched by source ID, not a newly inspected external publication.",
+      "independent_bias_appraisal_complete": false,
+      "clinical_review": false,
+      "publish": false
+    },
+    {
+      "id": "P7-23",
+      "origin": "research/staged-completion/stage-07/SOURCES.json",
+      "origin_index": 22,
+      "origin_blob_sha": "de0626c06a72aee0a18ba59ea858ea3cf7a2427c",
+      "original_title": "Oral galactagogues (natural therapies or drugs) for increasing breast milk production in mothers of non-hospitalised term infants",
+      "archive_extraction": {
+        "design": "2020 Cochrane review",
+        "population": "27 natural-product comparisons; 13 milk-volume studies 962 participants",
+        "limitations": "Herbs/products not interchangeable; feeding assessment first",
+        "verification": "Official Cochrane abstract",
+        "correction_retraction_status": "not comprehensively checked",
+        "publication_status": "staged research only",
+        "funding": "Not extracted",
+        "financial_ties": "Unknown",
+        "prior_ids": [],
+        "checked_date": "2026-11-26"
+      },
+      "archived_funding_notes": [
+        "Not extracted"
+      ],
+      "archived_financial_interest_notes": [
+        "Unknown"
+      ],
+      "archived_finding_present": false,
+      "archived_design_or_limitations_present": true,
+      "next_checks": [
+        "Read original results or applicable non-clinical source purpose; extract source-specific finding and locator.",
+        "Verify original identity/version and correction/retraction status; assess bias and claim applicability before release."
+      ],
+      "scope": "Original repository record matched by source ID, not a newly inspected external publication.",
+      "independent_bias_appraisal_complete": false,
+      "clinical_review": false,
+      "publish": false
+    },
+    {
+      "id": "P7-24",
+      "origin": "research/staged-completion/stage-07/SOURCES.json",
+      "origin_index": 23,
+      "origin_blob_sha": "de0626c06a72aee0a18ba59ea858ea3cf7a2427c",
+      "original_title": "The effect of Moringa oleifera capsule in increasing breast milk volume in early postpartum patients: A double-blind, randomized controlled trial",
+      "archive_extraction": {
+        "design": "2022 double-blind RCT",
+        "population": "88 postpartum women",
+        "limitations": "Do not treat 47% descriptive ratio as proven effect; no comparison of long-term outcome extracted; no supplement dose",
+        "verification": "Original HTML methods, results, limitations, acknowledgement and COI",
+        "correction_retraction_status": "not comprehensively checked",
+        "publication_status": "staged research only",
+        "funding": "Chulalongkorn University Ratchadaphiseksomphot Endowment Fund and Placental related diseases Research Unit",
+        "financial_ties": "No known competing interests declared",
+        "prior_ids": [],
+        "checked_date": "2026-11-26"
+      },
+      "archived_funding_notes": [
+        "Chulalongkorn University Ratchadaphiseksomphot Endowment Fund and Placental related diseases Research Unit"
+      ],
+      "archived_financial_interest_notes": [
+        "No known competing interests declared"
+      ],
+      "archived_finding_present": false,
+      "archived_design_or_limitations_present": true,
+      "next_checks": [
+        "Read original results or applicable non-clinical source purpose; extract source-specific finding and locator.",
+        "Verify original identity/version and correction/retraction status; assess bias and claim applicability before release."
+      ],
+      "scope": "Original repository record matched by source ID, not a newly inspected external publication.",
+      "independent_bias_appraisal_complete": false,
+      "clinical_review": false,
+      "publish": false
+    },
+    {
+      "id": "P7-25",
+      "origin": "research/staged-completion/stage-07/SOURCES.json",
+      "origin_index": 24,
+      "origin_blob_sha": "de0626c06a72aee0a18ba59ea858ea3cf7a2427c",
+      "original_title": "Moringa oleifera Supplementation as a Natural Galactagogue: A Systematic Review on Its Role in Supporting Milk Volume and Prolactin Levels",
+      "archive_extraction": {
+        "design": "2025 systematic review",
+        "population": "Postpartum lactation",
+        "limitations": "Prolactin surrogate; check P7-24 overlap; no pooled prescription",
+        "verification": "Indexed primary abstract",
+        "correction_retraction_status": "not comprehensively checked",
+        "publication_status": "staged research only",
+        "funding": "Not extracted",
+        "financial_ties": "Unknown",
+        "prior_ids": [],
+        "checked_date": "2026-11-26"
+      },
+      "archived_funding_notes": [
+        "Not extracted"
+      ],
+      "archived_financial_interest_notes": [
+        "Unknown"
+      ],
+      "archived_finding_present": false,
+      "archived_design_or_limitations_present": true,
+      "next_checks": [
+        "Read original results or applicable non-clinical source purpose; extract source-specific finding and locator.",
+        "Verify original identity/version and correction/retraction status; assess bias and claim applicability before release."
+      ],
+      "scope": "Original repository record matched by source ID, not a newly inspected external publication.",
+      "independent_bias_appraisal_complete": false,
+      "clinical_review": false,
+      "publish": false
+    },
+    {
+      "id": "P7-26",
+      "origin": "research/staged-completion/stage-07/SOURCES.json",
+      "origin_index": 25,
+      "origin_blob_sha": "de0626c06a72aee0a18ba59ea858ea3cf7a2427c",
+      "original_title": "Fenugreek",
+      "archive_extraction": {
+        "design": "LactMed",
+        "population": "Lactation",
+        "limitations": "Allergy/interactions and formulations; not a substitute for feeding assessment",
+        "verification": "Official HTML indexed",
+        "correction_retraction_status": "not comprehensively checked",
+        "publication_status": "staged research only",
+        "funding": "NLM resource; primary funding separate",
+        "financial_ties": "Not applicable to guidance",
+        "prior_ids": [],
+        "checked_date": "2026-11-26"
+      },
+      "archived_funding_notes": [
+        "NLM resource; primary funding separate"
+      ],
+      "archived_financial_interest_notes": [
+        "Not applicable to guidance"
+      ],
+      "archived_finding_present": false,
+      "archived_design_or_limitations_present": true,
+      "next_checks": [
+        "Read original results or applicable non-clinical source purpose; extract source-specific finding and locator.",
+        "Verify original identity/version and correction/retraction status; assess bias and claim applicability before release."
+      ],
+      "scope": "Original repository record matched by source ID, not a newly inspected external publication.",
+      "independent_bias_appraisal_complete": false,
+      "clinical_review": false,
+      "publish": false
+    },
+    {
+      "id": "P7-27",
+      "origin": "research/staged-completion/stage-07/SOURCES.json",
+      "origin_index": 26,
+      "origin_blob_sha": "de0626c06a72aee0a18ba59ea858ea3cf7a2427c",
+      "original_title": "Breastfeeding Challenges",
+      "archive_extraction": {
+        "design": "ACOG guidance",
+        "population": "Lactation",
+        "limitations": "No infant hydration or milk adequacy judged by pump volume alone",
+        "verification": "Indexed official guidance",
+        "correction_retraction_status": "not comprehensively checked",
+        "publication_status": "staged research only",
+        "funding": "Professional guideline; panel COI not audited",
+        "financial_ties": "Unknown",
+        "prior_ids": [],
+        "checked_date": "2026-11-26"
+      },
+      "archived_funding_notes": [
+        "Professional guideline; panel COI not audited"
+      ],
+      "archived_financial_interest_notes": [
+        "Unknown"
+      ],
+      "archived_finding_present": false,
+      "archived_design_or_limitations_present": true,
+      "next_checks": [
+        "Read original results or applicable non-clinical source purpose; extract source-specific finding and locator.",
+        "Verify original identity/version and correction/retraction status; assess bias and claim applicability before release."
+      ],
+      "scope": "Original repository record matched by source ID, not a newly inspected external publication.",
+      "independent_bias_appraisal_complete": false,
+      "clinical_review": false,
+      "publish": false
+    },
+    {
+      "id": "P7-28",
+      "origin": "research/staged-completion/stage-07/SOURCES.json",
+      "origin_index": 27,
+      "origin_blob_sha": "de0626c06a72aee0a18ba59ea858ea3cf7a2427c",
+      "original_title": "Information about Domperidone",
+      "archive_extraction": {
+        "design": "FDA safety communication",
+        "population": "Lactation use",
+        "limitations": "No acquisition, self-dosing or abrupt cessation advice; clinician help",
+        "verification": "Official HTML",
+        "correction_retraction_status": "not comprehensively checked",
+        "publication_status": "staged research only",
+        "funding": "FDA",
+        "financial_ties": "Agency guidance",
+        "prior_ids": [],
+        "checked_date": "2026-11-26"
+      },
+      "archived_funding_notes": [
+        "FDA"
+      ],
+      "archived_financial_interest_notes": [
+        "Agency guidance"
+      ],
+      "archived_finding_present": false,
+      "archived_design_or_limitations_present": true,
+      "next_checks": [
+        "Read original results or applicable non-clinical source purpose; extract source-specific finding and locator.",
+        "Verify original identity/version and correction/retraction status; assess bias and claim applicability before release."
+      ],
+      "scope": "Original repository record matched by source ID, not a newly inspected external publication.",
+      "independent_bias_appraisal_complete": false,
+      "clinical_review": false,
+      "publish": false
+    },
+    {
+      "id": "P7-29",
+      "origin": "research/staged-completion/stage-07/SOURCES.json",
+      "origin_index": 28,
+      "origin_blob_sha": "de0626c06a72aee0a18ba59ea858ea3cf7a2427c",
+      "original_title": "Effects from a single application of photobiomodulation on pain intensity from perineal trauma related to childbirth: A randomized controlled trial",
+      "archive_extraction": {
+        "design": "2025 online /2026 issue, sham RCT",
+        "population": "60 immediate postpartum women with perineal trauma",
+        "limitations": "Single parameters, immediate postpartum; no home dose; no general claim all light therapy ineffective",
+        "verification": "Original full HTML abstract, registration, funding and acknowledgements; U1111-1279-3594",
+        "correction_retraction_status": "not comprehensively checked",
+        "publication_status": "staged research only",
+        "funding": "No specific research grant declared; CAPES Brazil paid publication charge",
+        "financial_ties": "No COI declared",
+        "prior_ids": [
+          "DR017"
+        ],
+        "checked_date": "2026-11-26"
+      },
+      "archived_funding_notes": [
+        "No specific research grant declared; CAPES Brazil paid publication charge"
+      ],
+      "archived_financial_interest_notes": [
+        "No COI declared"
+      ],
+      "archived_finding_present": false,
+      "archived_design_or_limitations_present": true,
+      "next_checks": [
+        "Read original results or applicable non-clinical source purpose; extract source-specific finding and locator.",
+        "Verify original identity/version and correction/retraction status; assess bias and claim applicability before release."
+      ],
+      "scope": "Original repository record matched by source ID, not a newly inspected external publication.",
+      "independent_bias_appraisal_complete": false,
+      "clinical_review": false,
+      "publish": false
+    },
+    {
+      "id": "P7-30",
+      "origin": "research/staged-completion/stage-07/SOURCES.json",
+      "origin_index": 29,
+      "origin_blob_sha": "de0626c06a72aee0a18ba59ea858ea3cf7a2427c",
+      "original_title": "Photobiomodulation as a promising approach in the management of nipple lesions during breastfeeding: a systematic review and meta-analysis of randomized clinical trials",
+      "archive_extraction": {
+        "design": "2025 review",
+        "population": "7 RCTs",
+        "limitations": "Do not equate nipple and perineal outcomes; no home device settings",
+        "verification": "Original PubMed abstract and COI",
+        "correction_retraction_status": "not comprehensively checked",
+        "publication_status": "staged research only",
+        "funding": "Not extracted",
+        "financial_ties": "No competing interests declared",
+        "prior_ids": [],
+        "checked_date": "2026-11-26"
+      },
+      "archived_funding_notes": [
+        "Not extracted"
+      ],
+      "archived_financial_interest_notes": [
+        "No competing interests declared"
+      ],
+      "archived_finding_present": false,
+      "archived_design_or_limitations_present": true,
+      "next_checks": [
+        "Read original results or applicable non-clinical source purpose; extract source-specific finding and locator.",
+        "Verify original identity/version and correction/retraction status; assess bias and claim applicability before release."
+      ],
+      "scope": "Original repository record matched by source ID, not a newly inspected external publication.",
+      "independent_bias_appraisal_complete": false,
+      "clinical_review": false,
+      "publish": false
+    },
+    {
+      "id": "P7-31",
+      "origin": "research/staged-completion/stage-07/SOURCES.json",
+      "origin_index": 30,
+      "origin_blob_sha": "de0626c06a72aee0a18ba59ea858ea3cf7a2427c",
+      "original_title": "Nonpharmacological Interventions for Treating Breastfeeding Nipple Pain: Systematic Review and Meta-Analysis",
+      "archive_extraction": {
+        "design": "2024 review",
+        "population": "139 participants,2 RCTs for PBM",
+        "limitations": "Hold numeric interval; check overlap with P7-30; different outcomes",
+        "verification": "Indexed primary abstract",
+        "correction_retraction_status": "not comprehensively checked",
+        "publication_status": "staged research only",
+        "funding": "Not extracted",
+        "financial_ties": "Unknown",
+        "prior_ids": [],
+        "checked_date": "2026-11-26"
+      },
+      "archived_funding_notes": [
+        "Not extracted"
+      ],
+      "archived_financial_interest_notes": [
+        "Unknown"
+      ],
+      "archived_finding_present": false,
+      "archived_design_or_limitations_present": true,
+      "next_checks": [
+        "Read original results or applicable non-clinical source purpose; extract source-specific finding and locator.",
+        "Verify original identity/version and correction/retraction status; assess bias and claim applicability before release."
+      ],
+      "scope": "Original repository record matched by source ID, not a newly inspected external publication.",
+      "independent_bias_appraisal_complete": false,
+      "clinical_review": false,
+      "publish": false
+    },
+    {
+      "id": "P7-32",
+      "origin": "research/staged-completion/stage-07/SOURCES.json",
+      "origin_index": 31,
+      "origin_blob_sha": "de0626c06a72aee0a18ba59ea858ea3cf7a2427c",
+      "original_title": "Low-level laser therapy for breastfeeding women with nipple pain in the early postpartum period: a randomized controlled trial",
+      "archive_extraction": {
+        "design": "2026 online RCT (Dec 2026 issue)",
+        "population": "Early postpartum nipple pain",
+        "limitations": "Online vs issue date separate; registration/overlap with P7-29 unresolved; no clinical prescription",
+        "verification": "Indexed primary abstract",
+        "correction_retraction_status": "not comprehensively checked",
+        "publication_status": "staged research only",
+        "funding": "Not extracted",
+        "financial_ties": "Unknown",
+        "prior_ids": [],
+        "checked_date": "2026-11-26"
+      },
+      "archived_funding_notes": [
+        "Not extracted"
+      ],
+      "archived_financial_interest_notes": [
+        "Unknown"
+      ],
+      "archived_finding_present": false,
+      "archived_design_or_limitations_present": true,
+      "next_checks": [
+        "Read original results or applicable non-clinical source purpose; extract source-specific finding and locator.",
+        "Verify original identity/version and correction/retraction status; assess bias and claim applicability before release."
+      ],
+      "scope": "Original repository record matched by source ID, not a newly inspected external publication.",
+      "independent_bias_appraisal_complete": false,
+      "clinical_review": false,
+      "publish": false
+    },
+    {
+      "id": "P7-33",
+      "origin": "research/staged-completion/stage-07/SOURCES.json",
+      "origin_index": 32,
+      "origin_blob_sha": "de0626c06a72aee0a18ba59ea858ea3cf7a2427c",
+      "original_title": "Local cooling for relieving pain from perineal trauma sustained during childbirth",
+      "archive_extraction": {
+        "design": "2020 Cochrane review",
+        "population": "Early postpartum",
+        "limitations": "Do not apply ice directly to tissue or delay wound/infection assessment",
+        "verification": "Official abstract",
+        "correction_retraction_status": "not comprehensively checked",
+        "publication_status": "staged research only",
+        "funding": "Not extracted",
+        "financial_ties": "Unknown",
+        "prior_ids": [],
+        "checked_date": "2026-11-26"
+      },
+      "archived_funding_notes": [
+        "Not extracted"
+      ],
+      "archived_financial_interest_notes": [
+        "Unknown"
+      ],
+      "archived_finding_present": false,
+      "archived_design_or_limitations_present": true,
+      "next_checks": [
+        "Read original results or applicable non-clinical source purpose; extract source-specific finding and locator.",
+        "Verify original identity/version and correction/retraction status; assess bias and claim applicability before release."
+      ],
+      "scope": "Original repository record matched by source ID, not a newly inspected external publication.",
+      "independent_bias_appraisal_complete": false,
+      "clinical_review": false,
+      "publish": false
+    },
+    {
+      "id": "P7-34",
+      "origin": "research/staged-completion/stage-07/SOURCES.json",
+      "origin_index": 33,
+      "origin_blob_sha": "de0626c06a72aee0a18ba59ea858ea3cf7a2427c",
+      "original_title": "Interventions for treating painful nipples among breastfeeding women",
+      "archive_extraction": {
+        "design": "2014 Cochrane review",
+        "population": "Breastfeeding nipple pain",
+        "limitations": "Older review; no medical treatment of infection; compare newer trials",
+        "verification": "Official abstract",
+        "correction_retraction_status": "not comprehensively checked",
+        "publication_status": "staged research only",
+        "funding": "Not extracted",
+        "financial_ties": "Unknown",
+        "prior_ids": [],
+        "checked_date": "2026-11-26"
+      },
+      "archived_funding_notes": [
+        "Not extracted"
+      ],
+      "archived_financial_interest_notes": [
+        "Unknown"
+      ],
+      "archived_finding_present": false,
+      "archived_design_or_limitations_present": true,
+      "next_checks": [
+        "Read original results or applicable non-clinical source purpose; extract source-specific finding and locator.",
+        "Verify original identity/version and correction/retraction status; assess bias and claim applicability before release."
+      ],
+      "scope": "Original repository record matched by source ID, not a newly inspected external publication.",
+      "independent_bias_appraisal_complete": false,
+      "clinical_review": false,
+      "publish": false
+    },
+    {
+      "id": "P7-35",
+      "origin": "research/staged-completion/stage-07/SOURCES.json",
+      "origin_index": 34,
+      "origin_blob_sha": "de0626c06a72aee0a18ba59ea858ea3cf7a2427c",
+      "original_title": "An open single-arm clinical study of microneedle radiofrequency technology for addressing abdominal skin laxity in postpartum women",
+      "archive_extraction": {
+        "design": "Single-arm clinical study",
+        "population": "Postpartum abdominal skin laxity",
+        "limitations": "No pregnancy use, brand endorsement or claims of proven tightening",
+        "verification": "Indexed primary record; direct opening blocked",
+        "correction_retraction_status": "not comprehensively checked",
+        "publication_status": "staged research only",
+        "funding": "Not verified",
+        "financial_ties": "Unknown",
+        "prior_ids": [
+          "DR014"
+        ],
+        "checked_date": "2026-11-26"
+      },
+      "archived_funding_notes": [
+        "Not verified"
+      ],
+      "archived_financial_interest_notes": [
+        "Unknown"
+      ],
+      "archived_finding_present": false,
+      "archived_design_or_limitations_present": true,
+      "next_checks": [
+        "Read original results or applicable non-clinical source purpose; extract source-specific finding and locator.",
+        "Verify original identity/version and correction/retraction status; assess bias and claim applicability before release."
+      ],
+      "scope": "Original repository record matched by source ID, not a newly inspected external publication.",
+      "independent_bias_appraisal_complete": false,
+      "clinical_review": false,
+      "publish": false
+    },
+    {
+      "id": "P7-36",
+      "origin": "research/staged-completion/stage-07/SOURCES.json",
+      "origin_index": 35,
+      "origin_blob_sha": "de0626c06a72aee0a18ba59ea858ea3cf7a2427c",
+      "original_title": "Reduction of abdominal skin laxity in women postvaginal delivery using the synergistic emission of radiofrequency and targeted pressure energies",
+      "archive_extraction": {
+        "design": "Device clinical study",
+        "population": "Postvaginal delivery",
+        "limitations": "Natural postpartum recovery and vendor ties not yet disentangled",
+        "verification": "Indexed primary abstract",
+        "correction_retraction_status": "not comprehensively checked",
+        "publication_status": "staged research only",
+        "funding": "Not verified",
+        "financial_ties": "Unknown",
+        "prior_ids": [
+          "DR015"
+        ],
+        "checked_date": "2026-11-26"
+      },
+      "archived_funding_notes": [
+        "Not verified"
+      ],
+      "archived_financial_interest_notes": [
+        "Unknown"
+      ],
+      "archived_finding_present": false,
+      "archived_design_or_limitations_present": true,
+      "next_checks": [
+        "Read original results or applicable non-clinical source purpose; extract source-specific finding and locator.",
+        "Verify original identity/version and correction/retraction status; assess bias and claim applicability before release."
+      ],
+      "scope": "Original repository record matched by source ID, not a newly inspected external publication.",
+      "independent_bias_appraisal_complete": false,
+      "clinical_review": false,
+      "publish": false
+    },
+    {
+      "id": "P7-37",
+      "origin": "research/staged-completion/stage-07/SOURCES.json",
+      "origin_index": 36,
+      "origin_blob_sha": "de0626c06a72aee0a18ba59ea858ea3cf7a2427c",
+      "original_title": "A Systematic Review on Treatment Outcomes of Striae",
+      "archive_extraction": {
+        "design": "2024 systematic review",
+        "population": "Mixed striae populations",
+        "limitations": "Small denominators, heterogeneity, mixed designs; no pregnancy treatment recommendation",
+        "verification": "Indexed primary abstract",
+        "correction_retraction_status": "not comprehensively checked",
+        "publication_status": "staged research only",
+        "funding": "Not verified",
+        "financial_ties": "Unknown",
+        "prior_ids": [],
+        "checked_date": "2026-11-26"
+      },
+      "archived_funding_notes": [
+        "Not verified"
+      ],
+      "archived_financial_interest_notes": [
+        "Unknown"
+      ],
+      "archived_finding_present": false,
+      "archived_design_or_limitations_present": true,
+      "next_checks": [
+        "Read original results or applicable non-clinical source purpose; extract source-specific finding and locator.",
+        "Verify original identity/version and correction/retraction status; assess bias and claim applicability before release."
+      ],
+      "scope": "Original repository record matched by source ID, not a newly inspected external publication.",
+      "independent_bias_appraisal_complete": false,
+      "clinical_review": false,
+      "publish": false
+    },
+    {
+      "id": "P7-38",
+      "origin": "research/staged-completion/stage-07/SOURCES.json",
+      "origin_index": 37,
+      "origin_blob_sha": "de0626c06a72aee0a18ba59ea858ea3cf7a2427c",
+      "original_title": "Potential Risks with Certain Uses of Radiofrequency (RF) Microneedling – FDA Safety Communication",
+      "archive_extraction": {
+        "design": "FDA notice 2025",
+        "population": "Aesthetic device use",
+        "limitations": "No home use, no pregnancy elective use, preserve previous hold",
+        "verification": "Official HTML",
+        "correction_retraction_status": "not comprehensively checked",
+        "publication_status": "staged research only",
+        "funding": "FDA",
+        "financial_ties": "Agency guidance",
+        "prior_ids": [
+          "S198",
+          "P3-31"
+        ],
+        "checked_date": "2026-11-26"
+      },
+      "archived_funding_notes": [
+        "FDA"
+      ],
+      "archived_financial_interest_notes": [
+        "Agency guidance"
+      ],
+      "archived_finding_present": false,
+      "archived_design_or_limitations_present": true,
+      "next_checks": [
+        "Read original results or applicable non-clinical source purpose; extract source-specific finding and locator.",
+        "Verify original identity/version and correction/retraction status; assess bias and claim applicability before release."
+      ],
+      "scope": "Original repository record matched by source ID, not a newly inspected external publication.",
+      "independent_bias_appraisal_complete": false,
+      "clinical_review": false,
+      "publish": false
+    },
+    {
+      "id": "P7-39",
+      "origin": "research/staged-completion/stage-07/SOURCES.json",
+      "origin_index": 38,
+      "origin_blob_sha": "de0626c06a72aee0a18ba59ea858ea3cf7a2427c",
+      "original_title": "Effect of radiofrequency therapy in the treatment of de novo dyspareunia at 4 to 12 months postpartum: a randomized clinical trial",
+      "archive_extraction": {
+        "design": "2026 sham RCT",
+        "population": "4–12 months postpartum dyspareunia",
+        "limitations": "Do not equate with cosmetic vaginal rejuvenation; no home or routine treatment recommendation",
+        "verification": "Indexed primary abstract; direct open blocked",
+        "correction_retraction_status": "not comprehensively checked",
+        "publication_status": "staged research only",
+        "funding": "Not verified",
+        "financial_ties": "Unknown",
+        "prior_ids": [],
+        "checked_date": "2026-11-26"
+      },
+      "archived_funding_notes": [
+        "Not verified"
+      ],
+      "archived_financial_interest_notes": [
+        "Unknown"
+      ],
+      "archived_finding_present": false,
+      "archived_design_or_limitations_present": true,
+      "next_checks": [
+        "Read original results or applicable non-clinical source purpose; extract source-specific finding and locator.",
+        "Verify original identity/version and correction/retraction status; assess bias and claim applicability before release."
+      ],
+      "scope": "Original repository record matched by source ID, not a newly inspected external publication.",
+      "independent_bias_appraisal_complete": false,
+      "clinical_review": false,
+      "publish": false
+    },
+    {
+      "id": "P7-40",
+      "origin": "research/staged-completion/stage-07/SOURCES.json",
+      "origin_index": 39,
+      "origin_blob_sha": "de0626c06a72aee0a18ba59ea858ea3cf7a2427c",
+      "original_title": "Treating infant colic with the probiotic Lactobacillus reuteri: double blind, placebo controlled randomised trial",
+      "archive_extraction": {
+        "design": "2014 RCT",
+        "population": "167 infants, breastfed and formula-fed",
+        "limitations": "Product-specific, adverse direction despite in-kind support; parent diary; included in P7-41",
+        "verification": "Indexed BMJ original funding, disclosures and results; direct opening 403/PMC captcha",
+        "correction_retraction_status": "not comprehensively checked",
+        "publication_status": "staged research only",
+        "funding": "Australian NHMRC; BioGaia supplied active and placebo free; authors report no sponsor involvement in design, analysis, writing or publication",
+        "financial_ties": "Tang and Heine Nestlé/Nutricia advisory/honoraria; Tang unrelated products from Nestlé and Dicofarm; other disclosures per primary article",
+        "prior_ids": [],
+        "checked_date": "2026-11-26"
+      },
+      "archived_funding_notes": [
+        "Australian NHMRC; BioGaia supplied active and placebo free; authors report no sponsor involvement in design, analysis, writing or publication"
+      ],
+      "archived_financial_interest_notes": [
+        "Tang and Heine Nestlé/Nutricia advisory/honoraria; Tang unrelated products from Nestlé and Dicofarm; other disclosures per primary article"
+      ],
+      "archived_finding_present": false,
+      "archived_design_or_limitations_present": true,
+      "next_checks": [
+        "Read original results or applicable non-clinical source purpose; extract source-specific finding and locator.",
+        "Verify original identity/version and correction/retraction status; assess bias and claim applicability before release."
+      ],
+      "scope": "Original repository record matched by source ID, not a newly inspected external publication.",
+      "independent_bias_appraisal_complete": false,
+      "clinical_review": false,
+      "publish": false
+    },
+    {
+      "id": "P7-41",
+      "origin": "research/staged-completion/stage-07/SOURCES.json",
+      "origin_index": 40,
+      "origin_blob_sha": "de0626c06a72aee0a18ba59ea858ea3cf7a2427c",
+      "original_title": "Lactobacillus reuteri to Treat Infant Colic: A Meta-analysis",
+      "archive_extraction": {
+        "design": "2018 individual participant meta-analysis",
+        "population": "4 trials 345 infants",
+        "limitations": "Includes P7-40; not independent contradiction, different day/feeding populations; strain typo in abstract selection DSM17398 vs DSM17938 elsewhere; verify before import",
+        "verification": "Original PubMed abstract and extensive COI",
+        "correction_retraction_status": "not comprehensively checked",
+        "publication_status": "staged research only",
+        "funding": "Review funding not extracted",
+        "financial_ties": "Sung Mead Johnson fees; Tancredi Pfizer fees; Cabana/Szajewska BioGaia fees; Dupont Nutricia/Nestlé boards and others; Savino multiple nutrition/pharma ties; full primary statement linked",
+        "prior_ids": [],
+        "checked_date": "2026-11-26"
+      },
+      "archived_funding_notes": [
+        "Review funding not extracted"
+      ],
+      "archived_financial_interest_notes": [
+        "Sung Mead Johnson fees; Tancredi Pfizer fees; Cabana/Szajewska BioGaia fees; Dupont Nutricia/Nestlé boards and others; Savino multiple nutrition/pharma ties; full primary statement linked"
+      ],
+      "archived_finding_present": false,
+      "archived_design_or_limitations_present": true,
+      "next_checks": [
+        "Read original results or applicable non-clinical source purpose; extract source-specific finding and locator.",
+        "Verify original identity/version and correction/retraction status; assess bias and claim applicability before release."
+      ],
+      "scope": "Original repository record matched by source ID, not a newly inspected external publication.",
+      "independent_bias_appraisal_complete": false,
+      "clinical_review": false,
+      "publish": false
+    },
+    {
+      "id": "P7-42",
+      "origin": "research/staged-completion/stage-07/SOURCES.json",
+      "origin_index": 41,
+      "origin_blob_sha": "de0626c06a72aee0a18ba59ea858ea3cf7a2427c",
+      "original_title": "Probiotics for infantile colic: a randomized, double-blind, placebo-controlled trial investigating Lactobacillus reuteri DSM 17938",
+      "archive_extraction": {
+        "design": "2015 RCT",
+        "population": "52 breastfed Canadian infants",
+        "limitations": "Confirm analysis denominators; overlapping review P7-41; no broad probiotic recommendation",
+        "verification": "Original PubMed abstract; NCT01541046",
+        "correction_retraction_status": "not comprehensively checked",
+        "publication_status": "staged research only",
+        "funding": "Not extracted",
+        "financial_ties": "Unknown",
+        "prior_ids": [],
+        "checked_date": "2026-11-26"
+      },
+      "archived_funding_notes": [
+        "Not extracted"
+      ],
+      "archived_financial_interest_notes": [
+        "Unknown"
+      ],
+      "archived_finding_present": false,
+      "archived_design_or_limitations_present": true,
+      "next_checks": [
+        "Read original results or applicable non-clinical source purpose; extract source-specific finding and locator.",
+        "Verify original identity/version and correction/retraction status; assess bias and claim applicability before release."
+      ],
+      "scope": "Original repository record matched by source ID, not a newly inspected external publication.",
+      "independent_bias_appraisal_complete": false,
+      "clinical_review": false,
+      "publish": false
+    },
+    {
+      "id": "P7-43",
+      "origin": "research/staged-completion/stage-07/SOURCES.json",
+      "origin_index": 42,
+      "origin_blob_sha": "de0626c06a72aee0a18ba59ea858ea3cf7a2427c",
+      "original_title": "Probiotics to prevent necrotising enterocolitis in very preterm or very low birth weight infants",
+      "archive_extraction": {
+        "design": "2023 Cochrane review",
+        "population": "60 trials 11156 infants",
+        "limitations": "Different strains/products; specialist NICU only; do not use as home advice; FDA alert P7-44",
+        "verification": "Original official Cochrane HTML",
+        "correction_retraction_status": "not comprehensively checked",
+        "publication_status": "staged research only",
+        "funding": "Not extracted",
+        "financial_ties": "Unknown",
+        "prior_ids": [],
+        "checked_date": "2026-11-26"
+      },
+      "archived_funding_notes": [
+        "Not extracted"
+      ],
+      "archived_financial_interest_notes": [
+        "Unknown"
+      ],
+      "archived_finding_present": false,
+      "archived_design_or_limitations_present": true,
+      "next_checks": [
+        "Read original results or applicable non-clinical source purpose; extract source-specific finding and locator.",
+        "Verify original identity/version and correction/retraction status; assess bias and claim applicability before release."
+      ],
+      "scope": "Original repository record matched by source ID, not a newly inspected external publication.",
+      "independent_bias_appraisal_complete": false,
+      "clinical_review": false,
+      "publish": false
+    },
+    {
+      "id": "P7-44",
+      "origin": "research/staged-completion/stage-07/SOURCES.json",
+      "origin_index": 43,
+      "origin_blob_sha": "de0626c06a72aee0a18ba59ea858ea3cf7a2427c",
+      "original_title": "FDA Raises Concerns About Probiotic Products Sold for Use in Hospitalized Preterm Infants",
+      "archive_extraction": {
+        "design": "2023 FDA warning",
+        "population": "Preterm infants",
+        "limitations": "No home administration, specialist care; no inference all probiotic food unsafe",
+        "verification": "Official HTML",
+        "correction_retraction_status": "not comprehensively checked",
+        "publication_status": "staged research only",
+        "funding": "FDA",
+        "financial_ties": "Agency guidance",
+        "prior_ids": [],
+        "checked_date": "2026-11-26"
+      },
+      "archived_funding_notes": [
+        "FDA"
+      ],
+      "archived_financial_interest_notes": [
+        "Agency guidance"
+      ],
+      "archived_finding_present": false,
+      "archived_design_or_limitations_present": true,
+      "next_checks": [
+        "Read original results or applicable non-clinical source purpose; extract source-specific finding and locator.",
+        "Verify original identity/version and correction/retraction status; assess bias and claim applicability before release."
+      ],
+      "scope": "Original repository record matched by source ID, not a newly inspected external publication.",
+      "independent_bias_appraisal_complete": false,
+      "clinical_review": false,
+      "publish": false
+    },
+    {
+      "id": "P7-45",
+      "origin": "research/staged-completion/stage-07/SOURCES.json",
+      "origin_index": 44,
+      "origin_blob_sha": "de0626c06a72aee0a18ba59ea858ea3cf7a2427c",
+      "original_title": "Manipulative therapies for infantile colic",
+      "archive_extraction": {
+        "design": "Cochrane review",
+        "population": "Infants <6 months",
+        "limitations": "No spinal manipulation or cranial procedure directions",
+        "verification": "Official review abstract",
+        "correction_retraction_status": "not comprehensively checked",
+        "publication_status": "staged research only",
+        "funding": "Not extracted",
+        "financial_ties": "Unknown",
+        "prior_ids": [],
+        "checked_date": "2026-11-26"
+      },
+      "archived_funding_notes": [
+        "Not extracted"
+      ],
+      "archived_financial_interest_notes": [
+        "Unknown"
+      ],
+      "archived_finding_present": false,
+      "archived_design_or_limitations_present": true,
+      "next_checks": [
+        "Read original results or applicable non-clinical source purpose; extract source-specific finding and locator.",
+        "Verify original identity/version and correction/retraction status; assess bias and claim applicability before release."
+      ],
+      "scope": "Original repository record matched by source ID, not a newly inspected external publication.",
+      "independent_bias_appraisal_complete": false,
+      "clinical_review": false,
+      "publish": false
+    },
+    {
+      "id": "P7-46",
+      "origin": "research/staged-completion/stage-07/SOURCES.json",
+      "origin_index": 45,
+      "origin_blob_sha": "de0626c06a72aee0a18ba59ea858ea3cf7a2427c",
+      "original_title": "Exploring Manual Interventions for Infantile Colic: A Scoping Review of the Evidence",
+      "archive_extraction": {
+        "design": "2025 scoping review",
+        "population": "7 RCTs",
+        "limitations": "Massage not interchangeable with manipulation; no clinical safety guarantee",
+        "verification": "Indexed primary abstract",
+        "correction_retraction_status": "not comprehensively checked",
+        "publication_status": "staged research only",
+        "funding": "Not extracted",
+        "financial_ties": "COI statement not fully inspected",
+        "prior_ids": [],
+        "checked_date": "2026-11-26"
+      },
+      "archived_funding_notes": [
+        "Not extracted"
+      ],
+      "archived_financial_interest_notes": [
+        "COI statement not fully inspected"
+      ],
+      "archived_finding_present": false,
+      "archived_design_or_limitations_present": true,
+      "next_checks": [
+        "Read original results or applicable non-clinical source purpose; extract source-specific finding and locator.",
+        "Verify original identity/version and correction/retraction status; assess bias and claim applicability before release."
+      ],
+      "scope": "Original repository record matched by source ID, not a newly inspected external publication.",
+      "independent_bias_appraisal_complete": false,
+      "clinical_review": false,
+      "publish": false
+    },
+    {
+      "id": "P7-47",
+      "origin": "research/staged-completion/stage-07/SOURCES.json",
+      "origin_index": 46,
+      "origin_blob_sha": "de0626c06a72aee0a18ba59ea858ea3cf7a2427c",
+      "original_title": "Spinal manipulation and mobilisation in paediatrics – an international evidence-based position statement for physiotherapists",
+      "archive_extraction": {
+        "design": "2024 professional statement",
+        "population": "Infants/children/adolescents",
+        "limitations": "Not a prohibition on normal gentle holding or indicated pediatric PT",
+        "verification": "Indexed original statement and PubMed",
+        "correction_retraction_status": "not comprehensively checked",
+        "publication_status": "staged research only",
+        "funding": "Professional specialty group initiative; funding not extracted",
+        "financial_ties": "Professional interests separate from commercial",
+        "prior_ids": [],
+        "checked_date": "2026-11-26"
+      },
+      "archived_funding_notes": [
+        "Professional specialty group initiative; funding not extracted"
+      ],
+      "archived_financial_interest_notes": [
+        "Professional interests separate from commercial"
+      ],
+      "archived_finding_present": false,
+      "archived_design_or_limitations_present": true,
+      "next_checks": [
+        "Read original results or applicable non-clinical source purpose; extract source-specific finding and locator.",
+        "Verify original identity/version and correction/retraction status; assess bias and claim applicability before release."
+      ],
+      "scope": "Original repository record matched by source ID, not a newly inspected external publication.",
+      "independent_bias_appraisal_complete": false,
+      "clinical_review": false,
+      "publish": false
+    },
+    {
+      "id": "P7-48",
+      "origin": "research/staged-completion/stage-07/SOURCES.json",
+      "origin_index": 47,
+      "origin_blob_sha": "de0626c06a72aee0a18ba59ea858ea3cf7a2427c",
+      "original_title": "Pediatric massage therapy in infants and children under 5 years: An umbrella review of systematic reviews",
+      "archive_extraction": {
+        "design": "2024 umbrella review",
+        "population": "Children under 5",
+        "limitations": "Prior P2-26 healthy infant review, no guaranteed developmental acceleration",
+        "verification": "Indexed primary abstract",
+        "correction_retraction_status": "not comprehensively checked",
+        "publication_status": "staged research only",
+        "funding": "Not extracted",
+        "financial_ties": "Unknown",
+        "prior_ids": [
+          "P2-26"
+        ],
+        "checked_date": "2026-11-26"
+      },
+      "archived_funding_notes": [
+        "Not extracted"
+      ],
+      "archived_financial_interest_notes": [
+        "Unknown"
+      ],
+      "archived_finding_present": false,
+      "archived_design_or_limitations_present": true,
+      "next_checks": [
+        "Read original results or applicable non-clinical source purpose; extract source-specific finding and locator.",
+        "Verify original identity/version and correction/retraction status; assess bias and claim applicability before release."
+      ],
+      "scope": "Original repository record matched by source ID, not a newly inspected external publication.",
+      "independent_bias_appraisal_complete": false,
+      "clinical_review": false,
+      "publish": false
+    },
+    {
+      "id": "P7-49",
+      "origin": "research/staged-completion/stage-07/SOURCES.json",
+      "origin_index": 48,
+      "origin_blob_sha": "de0626c06a72aee0a18ba59ea858ea3cf7a2427c",
+      "original_title": "The effectiveness of mother-led infant massage on symptoms of maternal postnatal depression: A systematic review",
+      "archive_extraction": {
+        "design": "Systematic review",
+        "population": "Mother-led massage",
+        "limitations": "Adjunct only, never replace mental health care",
+        "verification": "Indexed primary abstract",
+        "correction_retraction_status": "not comprehensively checked",
+        "publication_status": "staged research only",
+        "funding": "Not extracted",
+        "financial_ties": "Unknown",
+        "prior_ids": [],
+        "checked_date": "2026-11-26"
+      },
+      "archived_funding_notes": [
+        "Not extracted"
+      ],
+      "archived_financial_interest_notes": [
+        "Unknown"
+      ],
+      "archived_finding_present": false,
+      "archived_design_or_limitations_present": true,
+      "next_checks": [
+        "Read original results or applicable non-clinical source purpose; extract source-specific finding and locator.",
+        "Verify original identity/version and correction/retraction status; assess bias and claim applicability before release."
+      ],
+      "scope": "Original repository record matched by source ID, not a newly inspected external publication.",
+      "independent_bias_appraisal_complete": false,
+      "clinical_review": false,
+      "publish": false
+    },
+    {
+      "id": "P7-50",
+      "origin": "research/staged-completion/stage-07/SOURCES.json",
+      "origin_index": 49,
+      "origin_blob_sha": "de0626c06a72aee0a18ba59ea858ea3cf7a2427c",
+      "original_title": "Effects of Human Maternal Placentophagy on Maternal Postpartum Iron Status: A Randomized, Double-Blind, Placebo-Controlled Pilot Study",
+      "archive_extraction": {
+        "design": "Pilot RCT",
+        "population": "Postpartum mothers",
+        "limitations": "Small sample; not anemia treatment",
+        "verification": "Indexed primary abstract",
+        "correction_retraction_status": "not comprehensively checked",
+        "publication_status": "staged research only",
+        "funding": "Not extracted",
+        "financial_ties": "Unknown",
+        "prior_ids": [],
+        "checked_date": "2026-11-26"
+      },
+      "archived_funding_notes": [
+        "Not extracted"
+      ],
+      "archived_financial_interest_notes": [
+        "Unknown"
+      ],
+      "archived_finding_present": false,
+      "archived_design_or_limitations_present": true,
+      "next_checks": [
+        "Read original results or applicable non-clinical source purpose; extract source-specific finding and locator.",
+        "Verify original identity/version and correction/retraction status; assess bias and claim applicability before release."
+      ],
+      "scope": "Original repository record matched by source ID, not a newly inspected external publication.",
+      "independent_bias_appraisal_complete": false,
+      "clinical_review": false,
+      "publish": false
+    },
+    {
+      "id": "P7-51",
+      "origin": "research/staged-completion/stage-07/SOURCES.json",
+      "origin_index": 50,
+      "origin_blob_sha": "de0626c06a72aee0a18ba59ea858ea3cf7a2427c",
+      "original_title": "Notes from the Field: Late-Onset Infant Group B Streptococcus Infection Associated with Maternal Consumption of Capsules Containing Dehydrated Placenta — Oregon, 2016",
+      "archive_extraction": {
+        "design": "CDC case report",
+        "population": "Maternal placenta capsule use and infant infection",
+        "limitations": "Case cannot estimate frequency; avoid encapsulation guidance",
+        "verification": "Official MMWR HTML",
+        "correction_retraction_status": "not comprehensively checked",
+        "publication_status": "staged research only",
+        "funding": "CDC/Oregon public health",
+        "financial_ties": "Not a commercial trial",
+        "prior_ids": [],
+        "checked_date": "2026-11-26"
+      },
+      "archived_funding_notes": [
+        "CDC/Oregon public health"
+      ],
+      "archived_financial_interest_notes": [
+        "Not a commercial trial"
+      ],
+      "archived_finding_present": false,
+      "archived_design_or_limitations_present": true,
+      "next_checks": [
+        "Read original results or applicable non-clinical source purpose; extract source-specific finding and locator.",
+        "Verify original identity/version and correction/retraction status; assess bias and claim applicability before release."
+      ],
+      "scope": "Original repository record matched by source ID, not a newly inspected external publication.",
+      "independent_bias_appraisal_complete": false,
+      "clinical_review": false,
+      "publish": false
+    },
+    {
+      "id": "P7-52",
+      "origin": "research/staged-completion/stage-07/SOURCES.json",
+      "origin_index": 51,
+      "origin_blob_sha": "de0626c06a72aee0a18ba59ea858ea3cf7a2427c",
+      "original_title": "Oral administration of maternal vaginal microbes at birth to restore gut microbiome development in infants born by caesarean section: A pilot randomised placebo-controlled trial",
+      "archive_extraction": {
+        "design": "2021 ECOBABe RCT pilot",
+        "population": "Cesarean infants",
+        "limitations": "Different delivery method than swabbing; no clinical efficacy",
+        "verification": "Indexed primary abstract/funding; ACTRN12618000339257",
+        "correction_retraction_status": "not comprehensively checked",
+        "publication_status": "staged research only",
+        "funding": "Health Research Council of New Zealand, A Better Start National Science Challenge",
+        "financial_ties": "COI not extracted",
+        "prior_ids": [],
+        "checked_date": "2026-11-26"
+      },
+      "archived_funding_notes": [
+        "Health Research Council of New Zealand, A Better Start National Science Challenge"
+      ],
+      "archived_financial_interest_notes": [
+        "COI not extracted"
+      ],
+      "archived_finding_present": false,
+      "archived_design_or_limitations_present": true,
+      "next_checks": [
+        "Read original results or applicable non-clinical source purpose; extract source-specific finding and locator.",
+        "Verify original identity/version and correction/retraction status; assess bias and claim applicability before release."
+      ],
+      "scope": "Original repository record matched by source ID, not a newly inspected external publication.",
+      "independent_bias_appraisal_complete": false,
+      "clinical_review": false,
+      "publish": false
+    },
+    {
+      "id": "P7-53",
+      "origin": "research/staged-completion/stage-07/SOURCES.json",
+      "origin_index": 52,
+      "origin_blob_sha": "de0626c06a72aee0a18ba59ea858ea3cf7a2427c",
+      "original_title": "Effects of vaginal seeding on gut microbiota, body mass index, and allergy risks in infants born through cesarean delivery: a randomized clinical trial",
+      "archive_extraction": {
+        "design": "2023 RCT",
+        "population": "120 infants randomized",
+        "limitations": "No home technique or infection safety inference",
+        "verification": "Indexed primary abstract",
+        "correction_retraction_status": "not comprehensively checked",
+        "publication_status": "staged research only",
+        "funding": "Not extracted",
+        "financial_ties": "Unknown",
+        "prior_ids": [],
+        "checked_date": "2026-11-26"
+      },
+      "archived_funding_notes": [
+        "Not extracted"
+      ],
+      "archived_financial_interest_notes": [
+        "Unknown"
+      ],
+      "archived_finding_present": false,
+      "archived_design_or_limitations_present": true,
+      "next_checks": [
+        "Read original results or applicable non-clinical source purpose; extract source-specific finding and locator.",
+        "Verify original identity/version and correction/retraction status; assess bias and claim applicability before release."
+      ],
+      "scope": "Original repository record matched by source ID, not a newly inspected external publication.",
+      "independent_bias_appraisal_complete": false,
+      "clinical_review": false,
+      "publish": false
+    },
+    {
+      "id": "P7-54",
+      "origin": "research/staged-completion/stage-07/SOURCES.json",
+      "origin_index": 53,
+      "origin_blob_sha": "de0626c06a72aee0a18ba59ea858ea3cf7a2427c",
+      "original_title": "Effects of vaginal microbiota transfer on the neurodevelopment and microbiome of cesarean-born infants: A blinded randomized controlled trial",
+      "archive_extraction": {
+        "design": "2023 RCT",
+        "population": "Cesarean-born infants",
+        "limitations": "Short follow-up, developmental screening score not IQ, infection risks and conflicting results",
+        "verification": "Indexed primary abstract",
+        "correction_retraction_status": "not comprehensively checked",
+        "publication_status": "staged research only",
+        "funding": "Not extracted",
+        "financial_ties": "Unknown",
+        "prior_ids": [],
+        "checked_date": "2026-11-26"
+      },
+      "archived_funding_notes": [
+        "Not extracted"
+      ],
+      "archived_financial_interest_notes": [
+        "Unknown"
+      ],
+      "archived_finding_present": false,
+      "archived_design_or_limitations_present": true,
+      "next_checks": [
+        "Read original results or applicable non-clinical source purpose; extract source-specific finding and locator.",
+        "Verify original identity/version and correction/retraction status; assess bias and claim applicability before release."
+      ],
+      "scope": "Original repository record matched by source ID, not a newly inspected external publication.",
+      "independent_bias_appraisal_complete": false,
+      "clinical_review": false,
+      "publish": false
+    },
+    {
+      "id": "P7-55",
+      "origin": "research/staged-completion/stage-07/SOURCES.json",
+      "origin_index": 54,
+      "origin_blob_sha": "de0626c06a72aee0a18ba59ea858ea3cf7a2427c",
+      "original_title": "Maternal Bacterial Engraftment in Multiple Body Sites of Cesarean Section Born Neonates after Vaginal Seeding-a Randomized Controlled Trial",
+      "archive_extraction": {
+        "design": "2023 RCT",
+        "population": "20 newborns",
+        "limitations": "Microbial surrogate not clinical benefit",
+        "verification": "Indexed primary abstract and grant/COI",
+        "correction_retraction_status": "not comprehensively checked",
+        "publication_status": "staged research only",
+        "funding": "NIH NHLBI K01HL141589 among indexed grants; full list pending",
+        "financial_ties": "No COI declared",
+        "prior_ids": [],
+        "checked_date": "2026-11-26"
+      },
+      "archived_funding_notes": [
+        "NIH NHLBI K01HL141589 among indexed grants; full list pending"
+      ],
+      "archived_financial_interest_notes": [
+        "No COI declared"
+      ],
+      "archived_finding_present": false,
+      "archived_design_or_limitations_present": true,
+      "next_checks": [
+        "Read original results or applicable non-clinical source purpose; extract source-specific finding and locator.",
+        "Verify original identity/version and correction/retraction status; assess bias and claim applicability before release."
+      ],
+      "scope": "Original repository record matched by source ID, not a newly inspected external publication.",
+      "independent_bias_appraisal_complete": false,
+      "clinical_review": false,
+      "publish": false
+    },
+    {
+      "id": "P7-56",
+      "origin": "research/staged-completion/stage-07/SOURCES.json",
+      "origin_index": 55,
+      "origin_blob_sha": "de0626c06a72aee0a18ba59ea858ea3cf7a2427c",
+      "original_title": "Vaginal Seeding",
+      "archive_extraction": {
+        "design": "ACOG guideline",
+        "population": "Cesarean birth",
+        "limitations": "Recheck guidance date before release; no procedure instructions",
+        "verification": "Official indexed guidance",
+        "correction_retraction_status": "not comprehensively checked",
+        "publication_status": "staged research only",
+        "funding": "ACOG; panel COI not audited",
+        "financial_ties": "Unknown",
+        "prior_ids": [],
+        "checked_date": "2026-11-26"
+      },
+      "archived_funding_notes": [
+        "ACOG; panel COI not audited"
+      ],
+      "archived_financial_interest_notes": [
+        "Unknown"
+      ],
+      "archived_finding_present": false,
+      "archived_design_or_limitations_present": true,
+      "next_checks": [
+        "Read original results or applicable non-clinical source purpose; extract source-specific finding and locator.",
+        "Verify original identity/version and correction/retraction status; assess bias and claim applicability before release."
+      ],
+      "scope": "Original repository record matched by source ID, not a newly inspected external publication.",
+      "independent_bias_appraisal_complete": false,
+      "clinical_review": false,
+      "publish": false
+    },
+    {
+      "id": "P7-57",
+      "origin": "research/staged-completion/stage-07/SOURCES.json",
+      "origin_index": 56,
+      "origin_blob_sha": "de0626c06a72aee0a18ba59ea858ea3cf7a2427c",
+      "original_title": "Risks of Infectious Diseases in Newborns Exposed to Alternative Perinatal Practices",
+      "archive_extraction": {
+        "design": "2022 AAP clinical report",
+        "population": "Newborn alternative practices",
+        "limitations": "Not all cultural practices unsafe; assess individual practice",
+        "verification": "Indexed original report",
+        "correction_retraction_status": "not comprehensively checked",
+        "publication_status": "staged research only",
+        "funding": "AAP; panel disclosure pending",
+        "financial_ties": "Unknown",
+        "prior_ids": [],
+        "checked_date": "2026-11-26"
+      },
+      "archived_funding_notes": [
+        "AAP; panel disclosure pending"
+      ],
+      "archived_financial_interest_notes": [
+        "Unknown"
+      ],
+      "archived_finding_present": false,
+      "archived_design_or_limitations_present": true,
+      "next_checks": [
+        "Read original results or applicable non-clinical source purpose; extract source-specific finding and locator.",
+        "Verify original identity/version and correction/retraction status; assess bias and claim applicability before release."
+      ],
+      "scope": "Original repository record matched by source ID, not a newly inspected external publication.",
+      "independent_bias_appraisal_complete": false,
+      "clinical_review": false,
+      "publish": false
+    },
+    {
+      "id": "P7-58",
+      "origin": "research/staged-completion/stage-07/SOURCES.json",
+      "origin_index": 57,
+      "origin_blob_sha": "de0626c06a72aee0a18ba59ea858ea3cf7a2427c",
+      "original_title": "Immediate Kangaroo Mother Care and Survival of Infants with Low Birth Weight",
+      "archive_extraction": {
+        "design": "2021 multicenter RCT",
+        "population": "Hospitalized infants 1.0–1.799 kg in five countries",
+        "limitations": "Facility protocol and monitoring; not a substitute for neonatal care or safe sleep",
+        "verification": "Indexed primary NEJM abstract/funding",
+        "correction_retraction_status": "not comprehensively checked",
+        "publication_status": "staged research only",
+        "funding": "Gates Foundation grant to WHO OPP1151718",
+        "financial_ties": "Full individual disclosures not extracted",
+        "prior_ids": [],
+        "checked_date": "2026-11-26"
+      },
+      "archived_funding_notes": [
+        "Gates Foundation grant to WHO OPP1151718"
+      ],
+      "archived_financial_interest_notes": [
+        "Full individual disclosures not extracted"
+      ],
+      "archived_finding_present": false,
+      "archived_design_or_limitations_present": true,
+      "next_checks": [
+        "Read original results or applicable non-clinical source purpose; extract source-specific finding and locator.",
+        "Verify original identity/version and correction/retraction status; assess bias and claim applicability before release."
+      ],
+      "scope": "Original repository record matched by source ID, not a newly inspected external publication.",
+      "independent_bias_appraisal_complete": false,
+      "clinical_review": false,
+      "publish": false
+    },
+    {
+      "id": "P7-59",
+      "origin": "research/staged-completion/stage-07/SOURCES.json",
+      "origin_index": 58,
+      "origin_blob_sha": "de0626c06a72aee0a18ba59ea858ea3cf7a2427c",
+      "original_title": "Kangaroo mother care to reduce morbidity and mortality in low birthweight infants",
+      "archive_extraction": {
+        "design": "2026 updated Cochrane review",
+        "population": "Hospitalized preterm/LBW infants",
+        "limitations": "Do not assume old 2016 web-summary estimates belong to 2026 update; overlap P7-58",
+        "verification": "Indexed primary abstract; direct open blocked",
+        "correction_retraction_status": "not comprehensively checked",
+        "publication_status": "staged research only",
+        "funding": "None declared",
+        "financial_ties": "Full COI not extracted",
+        "prior_ids": [],
+        "checked_date": "2026-11-26"
+      },
+      "archived_funding_notes": [
+        "None declared"
+      ],
+      "archived_financial_interest_notes": [
+        "Full COI not extracted"
+      ],
+      "archived_finding_present": false,
+      "archived_design_or_limitations_present": true,
+      "next_checks": [
+        "Read original results or applicable non-clinical source purpose; extract source-specific finding and locator.",
+        "Verify original identity/version and correction/retraction status; assess bias and claim applicability before release."
+      ],
+      "scope": "Original repository record matched by source ID, not a newly inspected external publication.",
+      "independent_bias_appraisal_complete": false,
+      "clinical_review": false,
+      "publish": false
+    },
+    {
+      "id": "P7-60",
+      "origin": "research/staged-completion/stage-07/SOURCES.json",
+      "origin_index": 59,
+      "origin_blob_sha": "de0626c06a72aee0a18ba59ea858ea3cf7a2427c",
+      "original_title": "WHO recommendations for care of the preterm or low-birth-weight infant: Evidence and recommendations",
+      "archive_extraction": {
+        "design": "WHO guidance",
+        "population": "Preterm/LBW infant",
+        "limitations": "Clinical team, safe positioning/airway, no sleeping caregiver with infant",
+        "verification": "Official HTML guideline",
+        "correction_retraction_status": "not comprehensively checked",
+        "publication_status": "staged research only",
+        "funding": "WHO",
+        "financial_ties": "Panel disclosures not extracted",
+        "prior_ids": [],
+        "checked_date": "2026-11-26"
+      },
+      "archived_funding_notes": [
+        "WHO"
+      ],
+      "archived_financial_interest_notes": [
+        "Panel disclosures not extracted"
+      ],
+      "archived_finding_present": false,
+      "archived_design_or_limitations_present": true,
+      "next_checks": [
+        "Read original results or applicable non-clinical source purpose; extract source-specific finding and locator.",
+        "Verify original identity/version and correction/retraction status; assess bias and claim applicability before release."
+      ],
+      "scope": "Original repository record matched by source ID, not a newly inspected external publication.",
+      "independent_bias_appraisal_complete": false,
+      "clinical_review": false,
+      "publish": false
+    },
+    {
+      "id": "P7-61",
+      "origin": "research/staged-completion/stage-07/SOURCES.json",
+      "origin_index": 60,
+      "origin_blob_sha": "de0626c06a72aee0a18ba59ea858ea3cf7a2427c",
+      "original_title": "Physical activity and perinatal depression and anxiety: a global umbrella review and meta-meta-analysis",
+      "archive_extraction": {
+        "design": "2026 umbrella review",
+        "population": "20 systematic reviews of RCTs",
+        "limitations": "Reviews overlap; SMD not percent; no substitute for mental health treatment",
+        "verification": "Indexed primary abstract/funding",
+        "correction_retraction_status": "not comprehensively checked",
+        "publication_status": "staged research only",
+        "funding": "None declared",
+        "financial_ties": "Full COI not extracted",
+        "prior_ids": [],
+        "checked_date": "2026-11-26"
+      },
+      "archived_funding_notes": [
+        "None declared"
+      ],
+      "archived_financial_interest_notes": [
+        "Full COI not extracted"
+      ],
+      "archived_finding_present": false,
+      "archived_design_or_limitations_present": true,
+      "next_checks": [
+        "Read original results or applicable non-clinical source purpose; extract source-specific finding and locator.",
+        "Verify original identity/version and correction/retraction status; assess bias and claim applicability before release."
+      ],
+      "scope": "Original repository record matched by source ID, not a newly inspected external publication.",
+      "independent_bias_appraisal_complete": false,
+      "clinical_review": false,
+      "publish": false
+    },
+    {
+      "id": "P7-62",
+      "origin": "research/staged-completion/stage-07/SOURCES.json",
+      "origin_index": 61,
+      "origin_blob_sha": "de0626c06a72aee0a18ba59ea858ea3cf7a2427c",
+      "original_title": "Effects of different types of exercise interventions on perinatal depression, anxiety, and quality of life: a systematic review and meta-analysis",
+      "archive_extraction": {
+        "design": "2026 systematic review",
+        "population": "Perinatal exercise RCTs",
+        "limitations": "Avoid simplistic ranking; clinical eligibility and mental health referrals",
+        "verification": "Indexed primary abstract",
+        "correction_retraction_status": "not comprehensively checked",
+        "publication_status": "staged research only",
+        "funding": "Not extracted",
+        "financial_ties": "Unknown",
+        "prior_ids": [],
+        "checked_date": "2026-11-26"
+      },
+      "archived_funding_notes": [
+        "Not extracted"
+      ],
+      "archived_financial_interest_notes": [
+        "Unknown"
+      ],
+      "archived_finding_present": false,
+      "archived_design_or_limitations_present": true,
+      "next_checks": [
+        "Read original results or applicable non-clinical source purpose; extract source-specific finding and locator.",
+        "Verify original identity/version and correction/retraction status; assess bias and claim applicability before release."
+      ],
+      "scope": "Original repository record matched by source ID, not a newly inspected external publication.",
+      "independent_bias_appraisal_complete": false,
+      "clinical_review": false,
+      "publish": false
+    },
+    {
+      "id": "P7-63",
+      "origin": "research/staged-completion/stage-07/SOURCES.json",
+      "origin_index": 62,
+      "origin_blob_sha": "de0626c06a72aee0a18ba59ea858ea3cf7a2427c",
+      "original_title": "Herbal Products",
+      "archive_extraction": {
+        "design": "Teratology guidance",
+        "population": "Pregnancy/lactation",
+        "limitations": "No blanket approval for herbal mixtures",
+        "verification": "Official HTML",
+        "correction_retraction_status": "not comprehensively checked",
+        "publication_status": "staged research only",
+        "funding": "MotherToBaby; source funding not audited",
+        "financial_ties": "Not applicable",
+        "prior_ids": [
+          "N319"
+        ],
+        "checked_date": "2026-11-26"
+      },
+      "archived_funding_notes": [
+        "MotherToBaby; source funding not audited"
+      ],
+      "archived_financial_interest_notes": [
+        "Not applicable"
+      ],
+      "archived_finding_present": false,
+      "archived_design_or_limitations_present": true,
+      "next_checks": [
+        "Read original results or applicable non-clinical source purpose; extract source-specific finding and locator.",
+        "Verify original identity/version and correction/retraction status; assess bias and claim applicability before release."
+      ],
+      "scope": "Original repository record matched by source ID, not a newly inspected external publication.",
+      "independent_bias_appraisal_complete": false,
+      "clinical_review": false,
+      "publish": false
+    },
+    {
+      "id": "P7-64",
+      "origin": "research/staged-completion/stage-07/SOURCES.json",
+      "origin_index": 63,
+      "origin_blob_sha": "de0626c06a72aee0a18ba59ea858ea3cf7a2427c",
+      "original_title": "Ashwagandha: Usefulness and Safety",
+      "archive_extraction": {
+        "design": "NIH guidance",
+        "population": "Pregnancy/lactation",
+        "limitations": "Do not substitute for prescribed care",
+        "verification": "Official HTML",
+        "correction_retraction_status": "not comprehensively checked",
+        "publication_status": "staged research only",
+        "funding": "NIH NCCIH",
+        "financial_ties": "Agency guidance",
+        "prior_ids": [],
+        "checked_date": "2026-11-26"
+      },
+      "archived_funding_notes": [
+        "NIH NCCIH"
+      ],
+      "archived_financial_interest_notes": [
+        "Agency guidance"
+      ],
+      "archived_finding_present": false,
+      "archived_design_or_limitations_present": true,
+      "next_checks": [
+        "Read original results or applicable non-clinical source purpose; extract source-specific finding and locator.",
+        "Verify original identity/version and correction/retraction status; assess bias and claim applicability before release."
+      ],
+      "scope": "Original repository record matched by source ID, not a newly inspected external publication.",
+      "independent_bias_appraisal_complete": false,
+      "clinical_review": false,
+      "publish": false
+    },
+    {
+      "id": "P7-65",
+      "origin": "research/staged-completion/stage-07/SOURCES.json",
+      "origin_index": 64,
+      "origin_blob_sha": "de0626c06a72aee0a18ba59ea858ea3cf7a2427c",
+      "original_title": "Essential oils: Poisonous when misused",
+      "archive_extraction": {
+        "design": "Poison Control guidance",
+        "population": "Children and adults",
+        "limitations": "No ingestion, application or diffusion dosing for infants; emergency escalation",
+        "verification": "Original indexed guidance",
+        "correction_retraction_status": "not comprehensively checked",
+        "publication_status": "staged research only",
+        "funding": "Organization; funding not audited",
+        "financial_ties": "Not applicable",
+        "prior_ids": [],
+        "checked_date": "2026-11-26"
+      },
+      "archived_funding_notes": [
+        "Organization; funding not audited"
+      ],
+      "archived_financial_interest_notes": [
+        "Not applicable"
+      ],
+      "archived_finding_present": false,
+      "archived_design_or_limitations_present": true,
+      "next_checks": [
+        "Read original results or applicable non-clinical source purpose; extract source-specific finding and locator.",
+        "Verify original identity/version and correction/retraction status; assess bias and claim applicability before release."
+      ],
+      "scope": "Original repository record matched by source ID, not a newly inspected external publication.",
+      "independent_bias_appraisal_complete": false,
+      "clinical_review": false,
+      "publish": false
+    },
+    {
+      "id": "P7-66",
+      "origin": "research/staged-completion/stage-07/SOURCES.json",
+      "origin_index": 65,
+      "origin_blob_sha": "de0626c06a72aee0a18ba59ea858ea3cf7a2427c",
+      "original_title": "Foods and Drinks to Avoid or Limit",
+      "archive_extraction": {
+        "design": "CDC guidance",
+        "population": "Infants",
+        "limitations": "No home remedy exceptions; no infant herbal tea replacement for feeds",
+        "verification": "Official indexed HTML",
+        "correction_retraction_status": "not comprehensively checked",
+        "publication_status": "staged research only",
+        "funding": "CDC",
+        "financial_ties": "Agency guidance",
+        "prior_ids": [],
+        "checked_date": "2026-11-26"
+      },
+      "archived_funding_notes": [
+        "CDC"
+      ],
+      "archived_financial_interest_notes": [
+        "Agency guidance"
+      ],
+      "archived_finding_present": false,
+      "archived_design_or_limitations_present": true,
+      "next_checks": [
+        "Read original results or applicable non-clinical source purpose; extract source-specific finding and locator.",
+        "Verify original identity/version and correction/retraction status; assess bias and claim applicability before release."
+      ],
+      "scope": "Original repository record matched by source ID, not a newly inspected external publication.",
+      "independent_bias_appraisal_complete": false,
+      "clinical_review": false,
+      "publish": false
+    },
+    {
+      "id": "P7-67",
+      "origin": "research/staged-completion/stage-07/SOURCES.json",
+      "origin_index": 66,
+      "origin_blob_sha": "de0626c06a72aee0a18ba59ea858ea3cf7a2427c",
+      "original_title": "Safely Soothing Teething Pain in Infants and Children",
+      "archive_extraction": {
+        "design": "FDA guidance",
+        "population": "Infants and young children",
+        "limitations": "No necklaces or topical anesthetic instructions; pediatric guidance",
+        "verification": "Official indexed HTML",
+        "correction_retraction_status": "not comprehensively checked",
+        "publication_status": "staged research only",
+        "funding": "FDA",
+        "financial_ties": "Agency guidance",
+        "prior_ids": [],
+        "checked_date": "2026-11-26"
+      },
+      "archived_funding_notes": [
+        "FDA"
+      ],
+      "archived_financial_interest_notes": [
+        "Agency guidance"
+      ],
+      "archived_finding_present": false,
+      "archived_design_or_limitations_present": true,
+      "next_checks": [
+        "Read original results or applicable non-clinical source purpose; extract source-specific finding and locator.",
+        "Verify original identity/version and correction/retraction status; assess bias and claim applicability before release."
+      ],
+      "scope": "Original repository record matched by source ID, not a newly inspected external publication.",
+      "independent_bias_appraisal_complete": false,
+      "clinical_review": false,
+      "publish": false
+    },
+    {
+      "id": "P7-68",
+      "origin": "research/staged-completion/stage-07/SOURCES.json",
+      "origin_index": 67,
+      "origin_blob_sha": "de0626c06a72aee0a18ba59ea858ea3cf7a2427c",
+      "original_title": "Some Homeopathic Products May Put You at Risk",
+      "archive_extraction": {
+        "design": "FDA guidance",
+        "population": "Children and adults",
+        "limitations": "No substitute for established preventive or medical care",
+        "verification": "Official indexed HTML",
+        "correction_retraction_status": "not comprehensively checked",
+        "publication_status": "staged research only",
+        "funding": "FDA",
+        "financial_ties": "Agency guidance",
+        "prior_ids": [],
+        "checked_date": "2026-11-26"
+      },
+      "archived_funding_notes": [
+        "FDA"
+      ],
+      "archived_financial_interest_notes": [
+        "Agency guidance"
+      ],
+      "archived_finding_present": false,
+      "archived_design_or_limitations_present": true,
+      "next_checks": [
+        "Read original results or applicable non-clinical source purpose; extract source-specific finding and locator.",
+        "Verify original identity/version and correction/retraction status; assess bias and claim applicability before release."
+      ],
+      "scope": "Original repository record matched by source ID, not a newly inspected external publication.",
+      "independent_bias_appraisal_complete": false,
+      "clinical_review": false,
+      "publish": false
+    },
+    {
+      "id": "P9-G01",
+      "origin": "research/staged-completion/stage-09/GUIDANCE_REFRESH.json",
+      "origin_index": 0,
+      "origin_blob_sha": "d71de5e34471886193abd2993f89dfb6a3f3144c",
+      "original_title": "Planning for Pregnancy",
+      "archive_extraction": {
+        "verification": "Official original page indexed text checked 2026-11-26; version and exact release wording require final review",
+        "scope": "Preconception history, folic acid and medication review",
+        "publication_status": "draft guidance reference",
+        "publisher": "CDC",
+        "funding": "Agency or professional guidance; underlying study funding and panel conflicts not newly audited"
+      },
+      "archived_funding_notes": [
+        "Agency or professional guidance; underlying study funding and panel conflicts not newly audited"
+      ],
+      "archived_financial_interest_notes": [],
+      "archived_finding_present": false,
+      "archived_design_or_limitations_present": false,
+      "next_checks": [
+        "Read original results or applicable non-clinical source purpose; extract source-specific finding and locator.",
+        "Verify design/source type, population, comparator and method limitations (or non-clinical applicability).",
+        "Extract author/institution interests and disclosure status from original source.",
+        "Verify original identity/version and correction/retraction status; assess bias and claim applicability before release."
+      ],
+      "scope": "Original repository record matched by source ID, not a newly inspected external publication.",
+      "independent_bias_appraisal_complete": false,
+      "clinical_review": false,
+      "publish": false
+    },
+    {
+      "id": "P9-G02",
+      "origin": "research/staged-completion/stage-09/GUIDANCE_REFRESH.json",
+      "origin_index": 1,
+      "origin_blob_sha": "d71de5e34471886193abd2993f89dfb6a3f3144c",
+      "original_title": "Prenatal Care",
+      "archive_extraction": {
+        "verification": "Official original page indexed text checked 2026-11-26; version and exact release wording require final review",
+        "scope": "Individual prenatal care and screening",
+        "publication_status": "draft guidance reference",
+        "publisher": "ACOG",
+        "funding": "Agency or professional guidance; underlying study funding and panel conflicts not newly audited"
+      },
+      "archived_funding_notes": [
+        "Agency or professional guidance; underlying study funding and panel conflicts not newly audited"
+      ],
+      "archived_financial_interest_notes": [],
+      "archived_finding_present": false,
+      "archived_design_or_limitations_present": false,
+      "next_checks": [
+        "Read original results or applicable non-clinical source purpose; extract source-specific finding and locator.",
+        "Verify design/source type, population, comparator and method limitations (or non-clinical applicability).",
+        "Extract author/institution interests and disclosure status from original source.",
+        "Verify original identity/version and correction/retraction status; assess bias and claim applicability before release."
+      ],
+      "scope": "Original repository record matched by source ID, not a newly inspected external publication.",
+      "independent_bias_appraisal_complete": false,
+      "clinical_review": false,
+      "publish": false
+    },
+    {
+      "id": "P9-G03",
+      "origin": "research/staged-completion/stage-09/GUIDANCE_REFRESH.json",
+      "origin_index": 2,
+      "origin_blob_sha": "d71de5e34471886193abd2993f89dfb6a3f3144c",
+      "original_title": "Optimizing Postpartum Care",
+      "archive_extraction": {
+        "verification": "Official original page indexed text checked 2026-11-26; version and exact release wording require final review",
+        "scope": "Contact within 3 weeks; comprehensive visit no later than 12 weeks; earlier when indicated",
+        "publication_status": "draft guidance reference",
+        "publisher": "ACOG",
+        "funding": "Agency or professional guidance; underlying study funding and panel conflicts not newly audited"
+      },
+      "archived_funding_notes": [
+        "Agency or professional guidance; underlying study funding and panel conflicts not newly audited"
+      ],
+      "archived_financial_interest_notes": [],
+      "archived_finding_present": false,
+      "archived_design_or_limitations_present": false,
+      "next_checks": [
+        "Read original results or applicable non-clinical source purpose; extract source-specific finding and locator.",
+        "Verify design/source type, population, comparator and method limitations (or non-clinical applicability).",
+        "Extract author/institution interests and disclosure status from original source.",
+        "Verify original identity/version and correction/retraction status; assess bias and claim applicability before release."
+      ],
+      "scope": "Original repository record matched by source ID, not a newly inspected external publication.",
+      "independent_bias_appraisal_complete": false,
+      "clinical_review": false,
+      "publish": false
+    },
+    {
+      "id": "P9-G04",
+      "origin": "research/staged-completion/stage-09/GUIDANCE_REFRESH.json",
+      "origin_index": 3,
+      "origin_blob_sha": "d71de5e34471886193abd2993f89dfb6a3f3144c",
+      "original_title": "Urgent Maternal Warning Signs",
+      "archive_extraction": {
+        "verification": "Official original page indexed text checked 2026-11-26; version and exact release wording require final review",
+        "scope": "Pregnancy and year after birth; immediate care for warning signs",
+        "publication_status": "draft guidance reference",
+        "publisher": "CDC",
+        "funding": "Agency or professional guidance; underlying study funding and panel conflicts not newly audited"
+      },
+      "archived_funding_notes": [
+        "Agency or professional guidance; underlying study funding and panel conflicts not newly audited"
+      ],
+      "archived_financial_interest_notes": [],
+      "archived_finding_present": false,
+      "archived_design_or_limitations_present": false,
+      "next_checks": [
+        "Read original results or applicable non-clinical source purpose; extract source-specific finding and locator.",
+        "Verify design/source type, population, comparator and method limitations (or non-clinical applicability).",
+        "Extract author/institution interests and disclosure status from original source.",
+        "Verify original identity/version and correction/retraction status; assess bias and claim applicability before release."
+      ],
+      "scope": "Original repository record matched by source ID, not a newly inspected external publication.",
+      "independent_bias_appraisal_complete": false,
+      "clinical_review": false,
+      "publish": false
+    },
+    {
+      "id": "P9-G05",
+      "origin": "research/staged-completion/stage-09/GUIDANCE_REFRESH.json",
+      "origin_index": 4,
+      "origin_blob_sha": "d71de5e34471886193abd2993f89dfb6a3f3144c",
+      "original_title": "Providing Care for Babies to Sleep Safely",
+      "archive_extraction": {
+        "verification": "Official original page indexed text checked 2026-11-26; version and exact release wording require final review",
+        "scope": "Back, separate firm flat sleep surface, no soft items",
+        "publication_status": "draft guidance reference",
+        "publisher": "CDC",
+        "funding": "Agency or professional guidance; underlying study funding and panel conflicts not newly audited"
+      },
+      "archived_funding_notes": [
+        "Agency or professional guidance; underlying study funding and panel conflicts not newly audited"
+      ],
+      "archived_financial_interest_notes": [],
+      "archived_finding_present": false,
+      "archived_design_or_limitations_present": false,
+      "next_checks": [
+        "Read original results or applicable non-clinical source purpose; extract source-specific finding and locator.",
+        "Verify design/source type, population, comparator and method limitations (or non-clinical applicability).",
+        "Extract author/institution interests and disclosure status from original source.",
+        "Verify original identity/version and correction/retraction status; assess bias and claim applicability before release."
+      ],
+      "scope": "Original repository record matched by source ID, not a newly inspected external publication.",
+      "independent_bias_appraisal_complete": false,
+      "clinical_review": false,
+      "publish": false
+    },
+    {
+      "id": "P9-G06",
+      "origin": "research/staged-completion/stage-09/GUIDANCE_REFRESH.json",
+      "origin_index": 5,
+      "origin_blob_sha": "d71de5e34471886193abd2993f89dfb6a3f3144c",
+      "original_title": "Safer Food Choices for Pregnant Women",
+      "archive_extraction": {
+        "verification": "Official original page indexed text checked 2026-11-26; version and exact release wording require final review",
+        "scope": "Food safety; avoid higher-risk raw/unpasteurized foods",
+        "publication_status": "draft guidance reference",
+        "publisher": "CDC",
+        "funding": "Agency or professional guidance; underlying study funding and panel conflicts not newly audited"
+      },
+      "archived_funding_notes": [
+        "Agency or professional guidance; underlying study funding and panel conflicts not newly audited"
+      ],
+      "archived_financial_interest_notes": [],
+      "archived_finding_present": false,
+      "archived_design_or_limitations_present": false,
+      "next_checks": [
+        "Read original results or applicable non-clinical source purpose; extract source-specific finding and locator.",
+        "Verify design/source type, population, comparator and method limitations (or non-clinical applicability).",
+        "Extract author/institution interests and disclosure status from original source.",
+        "Verify original identity/version and correction/retraction status; assess bias and claim applicability before release."
+      ],
+      "scope": "Original repository record matched by source ID, not a newly inspected external publication.",
+      "independent_bias_appraisal_complete": false,
+      "clinical_review": false,
+      "publish": false
+    },
+    {
+      "id": "P9-G07",
+      "origin": "research/staged-completion/stage-09/GUIDANCE_REFRESH.json",
+      "origin_index": 6,
+      "origin_blob_sha": "d71de5e34471886193abd2993f89dfb6a3f3144c",
+      "original_title": "When, What, and How to Introduce Solid Foods",
+      "archive_extraction": {
+        "verification": "Official original page indexed text checked 2026-11-26; version and exact release wording require final review",
+        "scope": "Around six months, developmental readiness and appropriate textures",
+        "publication_status": "draft guidance reference",
+        "publisher": "CDC",
+        "funding": "Agency or professional guidance; underlying study funding and panel conflicts not newly audited"
+      },
+      "archived_funding_notes": [
+        "Agency or professional guidance; underlying study funding and panel conflicts not newly audited"
+      ],
+      "archived_financial_interest_notes": [],
+      "archived_finding_present": false,
+      "archived_design_or_limitations_present": false,
+      "next_checks": [
+        "Read original results or applicable non-clinical source purpose; extract source-specific finding and locator.",
+        "Verify design/source type, population, comparator and method limitations (or non-clinical applicability).",
+        "Extract author/institution interests and disclosure status from original source.",
+        "Verify original identity/version and correction/retraction status; assess bias and claim applicability before release."
+      ],
+      "scope": "Original repository record matched by source ID, not a newly inspected external publication.",
+      "independent_bias_appraisal_complete": false,
+      "clinical_review": false,
+      "publish": false
+    },
+    {
+      "id": "P9-G08",
+      "origin": "research/staged-completion/stage-09/GUIDANCE_REFRESH.json",
+      "origin_index": 7,
+      "origin_blob_sha": "d71de5e34471886193abd2993f89dfb6a3f3144c",
+      "original_title": "Choking Hazards",
+      "archive_extraction": {
+        "verification": "Official original page indexed text checked 2026-11-26; version and exact release wording require final review",
+        "scope": "Supervised eating and safe texture/shape",
+        "publication_status": "draft guidance reference",
+        "publisher": "CDC",
+        "funding": "Agency or professional guidance; underlying study funding and panel conflicts not newly audited"
+      },
+      "archived_funding_notes": [
+        "Agency or professional guidance; underlying study funding and panel conflicts not newly audited"
+      ],
+      "archived_financial_interest_notes": [],
+      "archived_finding_present": false,
+      "archived_design_or_limitations_present": false,
+      "next_checks": [
+        "Read original results or applicable non-clinical source purpose; extract source-specific finding and locator.",
+        "Verify design/source type, population, comparator and method limitations (or non-clinical applicability).",
+        "Extract author/institution interests and disclosure status from original source.",
+        "Verify original identity/version and correction/retraction status; assess bias and claim applicability before release."
+      ],
+      "scope": "Original repository record matched by source ID, not a newly inspected external publication.",
+      "independent_bias_appraisal_complete": false,
+      "clinical_review": false,
+      "publish": false
+    },
+    {
+      "id": "P9-G09",
+      "origin": "research/staged-completion/stage-09/GUIDANCE_REFRESH.json",
+      "origin_index": 8,
+      "origin_blob_sha": "d71de5e34471886193abd2993f89dfb6a3f3144c",
+      "original_title": "Vitamin D",
+      "archive_extraction": {
+        "verification": "Official original page indexed text checked 2026-11-26; version and exact release wording require final review",
+        "scope": "Feeding-specific vitamin D guidance; no auto-dose",
+        "publication_status": "draft guidance reference",
+        "publisher": "CDC",
+        "funding": "Agency or professional guidance; underlying study funding and panel conflicts not newly audited"
+      },
+      "archived_funding_notes": [
+        "Agency or professional guidance; underlying study funding and panel conflicts not newly audited"
+      ],
+      "archived_financial_interest_notes": [],
+      "archived_finding_present": false,
+      "archived_design_or_limitations_present": false,
+      "next_checks": [
+        "Read original results or applicable non-clinical source purpose; extract source-specific finding and locator.",
+        "Verify design/source type, population, comparator and method limitations (or non-clinical applicability).",
+        "Extract author/institution interests and disclosure status from original source.",
+        "Verify original identity/version and correction/retraction status; assess bias and claim applicability before release."
+      ],
+      "scope": "Original repository record matched by source ID, not a newly inspected external publication.",
+      "independent_bias_appraisal_complete": false,
+      "clinical_review": false,
+      "publish": false
+    },
+    {
+      "id": "P9-G10",
+      "origin": "research/staged-completion/stage-09/GUIDANCE_REFRESH.json",
+      "origin_index": 9,
+      "origin_blob_sha": "d71de5e34471886193abd2993f89dfb6a3f3144c",
+      "original_title": "Vaccine Recommendations Before, During, and After Pregnancy",
+      "archive_extraction": {
+        "verification": "Official original page indexed text checked 2026-11-26; version and exact release wording require final review",
+        "scope": "Current seasonal and pregnancy-specific guidance; recheck before release",
+        "publication_status": "draft guidance reference",
+        "publisher": "CDC",
+        "funding": "Agency or professional guidance; underlying study funding and panel conflicts not newly audited"
+      },
+      "archived_funding_notes": [
+        "Agency or professional guidance; underlying study funding and panel conflicts not newly audited"
+      ],
+      "archived_financial_interest_notes": [],
+      "archived_finding_present": false,
+      "archived_design_or_limitations_present": false,
+      "next_checks": [
+        "Read original results or applicable non-clinical source purpose; extract source-specific finding and locator.",
+        "Verify design/source type, population, comparator and method limitations (or non-clinical applicability).",
+        "Extract author/institution interests and disclosure status from original source.",
+        "Verify original identity/version and correction/retraction status; assess bias and claim applicability before release."
+      ],
+      "scope": "Original repository record matched by source ID, not a newly inspected external publication.",
+      "independent_bias_appraisal_complete": false,
+      "clinical_review": false,
+      "publish": false
+    },
+    {
+      "id": "P9-G11",
+      "origin": "research/staged-completion/stage-09/GUIDANCE_REFRESH.json",
+      "origin_index": 10,
+      "origin_blob_sha": "d71de5e34471886193abd2993f89dfb6a3f3144c",
+      "original_title": "Signs Your Child Is Hungry or Full",
+      "archive_extraction": {
+        "verification": "Official original page indexed text checked 2026-11-26; version and exact release wording require final review",
+        "scope": "Responsive feeding; avoid forcing completion",
+        "publication_status": "draft guidance reference",
+        "publisher": "CDC",
+        "funding": "Agency or professional guidance; underlying study funding and panel conflicts not newly audited"
+      },
+      "archived_funding_notes": [
+        "Agency or professional guidance; underlying study funding and panel conflicts not newly audited"
+      ],
+      "archived_financial_interest_notes": [],
+      "archived_finding_present": false,
+      "archived_design_or_limitations_present": false,
+      "next_checks": [
+        "Read original results or applicable non-clinical source purpose; extract source-specific finding and locator.",
+        "Verify design/source type, population, comparator and method limitations (or non-clinical applicability).",
+        "Extract author/institution interests and disclosure status from original source.",
+        "Verify original identity/version and correction/retraction status; assess bias and claim applicability before release."
+      ],
+      "scope": "Original repository record matched by source ID, not a newly inspected external publication.",
+      "independent_bias_appraisal_complete": false,
+      "clinical_review": false,
+      "publish": false
+    },
+    {
+      "id": "P9-G12",
+      "origin": "research/staged-completion/stage-09/GUIDANCE_REFRESH.json",
+      "origin_index": 11,
+      "origin_blob_sha": "d71de5e34471886193abd2993f89dfb6a3f3144c",
+      "original_title": "Postpartum Birth Control",
+      "archive_extraction": {
+        "verification": "Official original page indexed text checked 2026-11-26; version and exact release wording require final review",
+        "scope": "Individual contraceptive choice and birth spacing",
+        "publication_status": "draft guidance reference",
+        "publisher": "ACOG",
+        "funding": "Agency or professional guidance; underlying study funding and panel conflicts not newly audited"
+      },
+      "archived_funding_notes": [
+        "Agency or professional guidance; underlying study funding and panel conflicts not newly audited"
+      ],
+      "archived_financial_interest_notes": [],
+      "archived_finding_present": false,
+      "archived_design_or_limitations_present": false,
+      "next_checks": [
+        "Read original results or applicable non-clinical source purpose; extract source-specific finding and locator.",
+        "Verify design/source type, population, comparator and method limitations (or non-clinical applicability).",
+        "Extract author/institution interests and disclosure status from original source.",
+        "Verify original identity/version and correction/retraction status; assess bias and claim applicability before release."
+      ],
+      "scope": "Original repository record matched by source ID, not a newly inspected external publication.",
+      "independent_bias_appraisal_complete": false,
+      "clinical_review": false,
+      "publish": false
+    },
+    {
+      "id": "P9-G13",
+      "origin": "research/staged-completion/stage-09/GUIDANCE_REFRESH.json",
+      "origin_index": 12,
+      "origin_blob_sha": "d71de5e34471886193abd2993f89dfb6a3f3144c",
+      "original_title": "Pregnancy and Oral Health Facts",
+      "archive_extraction": {
+        "verification": "Official original page indexed text checked 2026-11-26; version and exact release wording require final review",
+        "scope": "Routine and emergency dental care during pregnancy",
+        "publication_status": "draft guidance reference",
+        "publisher": "CDC",
+        "funding": "Agency or professional guidance; underlying study funding and panel conflicts not newly audited"
+      },
+      "archived_funding_notes": [
+        "Agency or professional guidance; underlying study funding and panel conflicts not newly audited"
+      ],
+      "archived_financial_interest_notes": [],
+      "archived_finding_present": false,
+      "archived_design_or_limitations_present": false,
+      "next_checks": [
+        "Read original results or applicable non-clinical source purpose; extract source-specific finding and locator.",
+        "Verify design/source type, population, comparator and method limitations (or non-clinical applicability).",
+        "Extract author/institution interests and disclosure status from original source.",
+        "Verify original identity/version and correction/retraction status; assess bias and claim applicability before release."
+      ],
+      "scope": "Original repository record matched by source ID, not a newly inspected external publication.",
+      "independent_bias_appraisal_complete": false,
+      "clinical_review": false,
+      "publish": false
+    },
+    {
+      "id": "P9-G14",
+      "origin": "research/staged-completion/stage-09/GUIDANCE_REFRESH.json",
+      "origin_index": 13,
+      "origin_blob_sha": "d71de5e34471886193abd2993f89dfb6a3f3144c",
+      "original_title": "Developmental Monitoring and Screening",
+      "archive_extraction": {
+        "verification": "Official original page indexed text checked 2026-11-26; version and exact release wording require final review",
+        "scope": "9,18,30 month development screening; 18,24 autism screening; concerns anytime",
+        "publication_status": "draft guidance reference",
+        "publisher": "CDC",
+        "funding": "Agency or professional guidance; underlying study funding and panel conflicts not newly audited"
+      },
+      "archived_funding_notes": [
+        "Agency or professional guidance; underlying study funding and panel conflicts not newly audited"
+      ],
+      "archived_financial_interest_notes": [],
+      "archived_finding_present": false,
+      "archived_design_or_limitations_present": false,
+      "next_checks": [
+        "Read original results or applicable non-clinical source purpose; extract source-specific finding and locator.",
+        "Verify design/source type, population, comparator and method limitations (or non-clinical applicability).",
+        "Extract author/institution interests and disclosure status from original source.",
+        "Verify original identity/version and correction/retraction status; assess bias and claim applicability before release."
+      ],
+      "scope": "Original repository record matched by source ID, not a newly inspected external publication.",
+      "independent_bias_appraisal_complete": false,
+      "clinical_review": false,
+      "publish": false
+    }
+  ]
+}

@@ -1,0 +1,3569 @@
+{
+  "scope": "Archived source-specific evidence; not independent validation.",
+  "records": [
+    {
+      "id": "PED-BLISSCHOKE",
+      "origin": "research/child-health/sources.json",
+      "origin_index": 58,
+      "origin_blob_sha": "10c2adea813eb2b4272b16c7de20fad5eb179720",
+      "original_title": "A Baby-Led Approach to Eating Solids and Risk of Choking",
+      "archive_extraction": {
+        "verification": "Original publication abstract, results or table checked",
+        "kind": "research publication",
+        "checked": "2026-11-26"
+      },
+      "archived_funding_notes": [],
+      "archived_financial_interest_notes": [],
+      "archived_finding_present": false,
+      "archived_design_or_limitations_present": false,
+      "next_checks": [
+        "Read original results or applicable non-clinical source purpose; extract source-specific finding and locator.",
+        "Verify design/source type, population, comparator and method limitations (or non-clinical applicability).",
+        "Extract funding, in-kind contributions and funder role from original disclosure.",
+        "Extract author/institution interests and disclosure status from original source.",
+        "Verify original identity/version and correction/retraction status; assess bias and claim applicability before release."
+      ],
+      "scope": "Original repository record matched by source ID, not a newly inspected external publication.",
+      "independent_bias_appraisal_complete": false,
+      "clinical_review": false,
+      "publish": false
+    },
+    {
+      "id": "PED-RSVLABEL",
+      "origin": "research/child-health/sources.json",
+      "origin_index": 59,
+      "origin_blob_sha": "10c2adea813eb2b4272b16c7de20fad5eb179720",
+      "original_title": "ABRYSVO prescribing information",
+      "archive_extraction": {
+        "verification": "Warnings and precautions section 5.2",
+        "kind": "US regulatory label",
+        "checked": "2026-11-26"
+      },
+      "archived_funding_notes": [],
+      "archived_financial_interest_notes": [],
+      "archived_finding_present": false,
+      "archived_design_or_limitations_present": false,
+      "next_checks": [
+        "Read original results or applicable non-clinical source purpose; extract source-specific finding and locator.",
+        "Verify design/source type, population, comparator and method limitations (or non-clinical applicability).",
+        "Extract funding, in-kind contributions and funder role from original disclosure.",
+        "Extract author/institution interests and disclosure status from original source.",
+        "Verify original identity/version and correction/retraction status; assess bias and claim applicability before release."
+      ],
+      "scope": "Original repository record matched by source ID, not a newly inspected external publication.",
+      "independent_bias_appraisal_complete": false,
+      "clinical_review": false,
+      "publish": false
+    },
+    {
+      "id": "DR001",
+      "origin": "research/deep-research/TARGETED_GAP_AUDIT.json",
+      "origin_index": 0,
+      "origin_blob_sha": "1209be54accc9bd8554ce2cfee5bbd3d204fd610",
+      "original_title": "Preconception lifestyle interventions for women—a systematic review and meta-analysis of intervention characteristics and behaviour change techniques",
+      "archive_extraction": {
+        "design": "Systematic review of RCTs",
+        "finding": "24 trials/7795 women; most infertility populations; not all contributed to each outcome. Clinical pregnancy and live birth intervals include null.",
+        "checked_locator": "Abstract; indexed full-text results",
+        "correction_retraction_status": "not comprehensively checked",
+        "topics": [
+          "FIT-001",
+          "REPRO-001",
+          "NUTR-001"
+        ]
+      },
+      "archived_funding_notes": [],
+      "archived_financial_interest_notes": [],
+      "archived_finding_present": true,
+      "archived_design_or_limitations_present": true,
+      "next_checks": [
+        "Extract funding, in-kind contributions and funder role from original disclosure.",
+        "Extract author/institution interests and disclosure status from original source.",
+        "Verify original identity/version and correction/retraction status; assess bias and claim applicability before release."
+      ],
+      "scope": "Original repository record matched by source ID, not a newly inspected external publication.",
+      "independent_bias_appraisal_complete": false,
+      "clinical_review": false,
+      "publish": false
+    },
+    {
+      "id": "DR002",
+      "origin": "research/deep-research/TARGETED_GAP_AUDIT.json",
+      "origin_index": 1,
+      "origin_blob_sha": "1209be54accc9bd8554ce2cfee5bbd3d204fd610",
+      "original_title": "Preconception Interventions in Women at High Risk of Developing Gestational Diabetes: A Systematic Review",
+      "archive_extraction": {
+        "design": "Systematic review of RCTs",
+        "finding": "Six RCTs/nine reports; 909 participants, five underpowered for GDM, no significant GDM effect in any trial; four continued into pregnancy. No proof that prevention impossible.",
+        "checked_locator": "Abstract, methods and results",
+        "correction_retraction_status": "not comprehensively checked",
+        "topics": [
+          "FIT-001",
+          "NUTR-001",
+          "REPRO-001"
+        ]
+      },
+      "archived_funding_notes": [],
+      "archived_financial_interest_notes": [],
+      "archived_finding_present": true,
+      "archived_design_or_limitations_present": true,
+      "next_checks": [
+        "Extract funding, in-kind contributions and funder role from original disclosure.",
+        "Extract author/institution interests and disclosure status from original source.",
+        "Verify original identity/version and correction/retraction status; assess bias and claim applicability before release."
+      ],
+      "scope": "Original repository record matched by source ID, not a newly inspected external publication.",
+      "independent_bias_appraisal_complete": false,
+      "clinical_review": false,
+      "publish": false
+    },
+    {
+      "id": "DR003",
+      "origin": "research/deep-research/TARGETED_GAP_AUDIT.json",
+      "origin_index": 2,
+      "origin_blob_sha": "1209be54accc9bd8554ce2cfee5bbd3d204fd610",
+      "original_title": "Calcium supplementation for prevention of pre-eclampsia: a systematic review and individual participant data meta-analysis of randomised trials",
+      "archive_extraction": {
+        "design": "IPD meta-analysis",
+        "finding": "Allotey et al. October 2026. Five IPD trials n=14763 for PE, three n=13413 for early PE. No clear reduction or observed effect modification; no independent cohort count relative to S092. WHO process is not automatically an updated recommendation.",
+        "checked_locator": "Indexed publisher abstract and Birmingham institutional record; publisher full page blocked",
+        "correction_retraction_status": "not comprehensively checked",
+        "topics": [
+          "NUTR-001",
+          "NUTR-002"
+        ]
+      },
+      "archived_funding_notes": [],
+      "archived_financial_interest_notes": [],
+      "archived_finding_present": true,
+      "archived_design_or_limitations_present": true,
+      "next_checks": [
+        "Extract funding, in-kind contributions and funder role from original disclosure.",
+        "Extract author/institution interests and disclosure status from original source.",
+        "Verify original identity/version and correction/retraction status; assess bias and claim applicability before release."
+      ],
+      "scope": "Original repository record matched by source ID, not a newly inspected external publication.",
+      "independent_bias_appraisal_complete": false,
+      "clinical_review": false,
+      "publish": false
+    },
+    {
+      "id": "DR004",
+      "origin": "research/deep-research/TARGETED_GAP_AUDIT.json",
+      "origin_index": 3,
+      "origin_blob_sha": "1209be54accc9bd8554ce2cfee5bbd3d204fd610",
+      "original_title": "Calcium supplementation for prevention of pre-eclampsia in high-risk women: study protocol for a randomised triple-blind placebo-controlled trial (CaPE)",
+      "archive_extraction": {
+        "design": "Trial protocol; no results",
+        "finding": "NIHR HTA funded; high-risk women eligible for aspirin; calcium vs placebo added to usual care. Not an efficacy result or recommendation.",
+        "checked_locator": "Protocol; funding section indexed",
+        "correction_retraction_status": "not comprehensively checked",
+        "topics": [
+          "NUTR-001",
+          "NUTR-002"
+        ],
+        "funding": "NIHR HTA"
+      },
+      "archived_funding_notes": [
+        "NIHR HTA"
+      ],
+      "archived_financial_interest_notes": [],
+      "archived_finding_present": true,
+      "archived_design_or_limitations_present": true,
+      "next_checks": [
+        "Extract author/institution interests and disclosure status from original source.",
+        "Verify original identity/version and correction/retraction status; assess bias and claim applicability before release."
+      ],
+      "scope": "Original repository record matched by source ID, not a newly inspected external publication.",
+      "independent_bias_appraisal_complete": false,
+      "clinical_review": false,
+      "publish": false
+    },
+    {
+      "id": "DR005",
+      "origin": "research/deep-research/TARGETED_GAP_AUDIT.json",
+      "origin_index": 4,
+      "origin_blob_sha": "1209be54accc9bd8554ce2cfee5bbd3d204fd610",
+      "original_title": "Does probiotic ingestion reduce the risk of preeclampsia? A systematic review",
+      "archive_extraction": {
+        "design": "Systematic review",
+        "finding": "Search through February 2022; RR 1.12 (0.83–1.53), I² 0%, six comparisons inferred from df=5; exact n and overlap not extracted. Do not pool as independent with S094/S095.",
+        "checked_locator": "Indexed abstract",
+        "correction_retraction_status": "not comprehensively checked",
+        "topics": [
+          "NUTR-002"
+        ]
+      },
+      "archived_funding_notes": [],
+      "archived_financial_interest_notes": [],
+      "archived_finding_present": true,
+      "archived_design_or_limitations_present": true,
+      "next_checks": [
+        "Extract funding, in-kind contributions and funder role from original disclosure.",
+        "Extract author/institution interests and disclosure status from original source.",
+        "Verify original identity/version and correction/retraction status; assess bias and claim applicability before release."
+      ],
+      "scope": "Original repository record matched by source ID, not a newly inspected external publication.",
+      "independent_bias_appraisal_complete": false,
+      "clinical_review": false,
+      "publish": false
+    },
+    {
+      "id": "DR006",
+      "origin": "research/deep-research/TARGETED_GAP_AUDIT.json",
+      "origin_index": 5,
+      "origin_blob_sha": "1209be54accc9bd8554ce2cfee5bbd3d204fd610",
+      "original_title": "Omega-3 supplementation in addition to prenatal vitamins during pregnancy is associated with lower rates of preterm birth and small for gestational age",
+      "archive_extraction": {
+        "design": "Secondary observational cohort",
+        "finding": "nuMoM2b parent cohort 9461 nulliparous participants; actual analysis denominator not extracted; observational association, not randomized dose or causal proof.",
+        "checked_locator": "Indexed abstract",
+        "correction_retraction_status": "not comprehensively checked",
+        "topics": [
+          "NUTR-001",
+          "NUTR-002"
+        ]
+      },
+      "archived_funding_notes": [],
+      "archived_financial_interest_notes": [],
+      "archived_finding_present": true,
+      "archived_design_or_limitations_present": true,
+      "next_checks": [
+        "Extract funding, in-kind contributions and funder role from original disclosure.",
+        "Extract author/institution interests and disclosure status from original source.",
+        "Verify original identity/version and correction/retraction status; assess bias and claim applicability before release."
+      ],
+      "scope": "Original repository record matched by source ID, not a newly inspected external publication.",
+      "independent_bias_appraisal_complete": false,
+      "clinical_review": false,
+      "publish": false
+    },
+    {
+      "id": "DR007",
+      "origin": "research/deep-research/TARGETED_GAP_AUDIT.json",
+      "origin_index": 6,
+      "origin_blob_sha": "1209be54accc9bd8554ce2cfee5bbd3d204fd610",
+      "original_title": "A prospective study of breast anthropomorphic measurements, volume and ptosis in 605 Asian patients with breast cancer or benign breast disease",
+      "archive_extraction": {
+        "design": "Prospectively recruited cross-sectional surgical sample",
+        "finding": "605 breast-surgery patients; breastfeeding history associated with more severe ptosis in adjusted models; no prepregnancy measurements, no randomized feeding choice; differs from Rinker S044/S045; not a representative longitudinal pregnancy cohort.",
+        "checked_locator": "Abstract, methods, Table 4",
+        "correction_retraction_status": "not comprehensively checked",
+        "topics": [
+          "BREAST-001"
+        ]
+      },
+      "archived_funding_notes": [],
+      "archived_financial_interest_notes": [],
+      "archived_finding_present": true,
+      "archived_design_or_limitations_present": true,
+      "next_checks": [
+        "Extract funding, in-kind contributions and funder role from original disclosure.",
+        "Extract author/institution interests and disclosure status from original source.",
+        "Verify original identity/version and correction/retraction status; assess bias and claim applicability before release."
+      ],
+      "scope": "Original repository record matched by source ID, not a newly inspected external publication.",
+      "independent_bias_appraisal_complete": false,
+      "clinical_review": false,
+      "publish": false
+    },
+    {
+      "id": "DR008",
+      "origin": "research/deep-research/TARGETED_GAP_AUDIT.json",
+      "origin_index": 7,
+      "origin_blob_sha": "1209be54accc9bd8554ce2cfee5bbd3d204fd610",
+      "original_title": "Quantitative Changes in Breast Density and Mammographic Features Induced by Pregnancy and Lactation: A Longitudinal Study",
+      "archive_extraction": {
+        "design": "Retrospective longitudinal radiology sample",
+        "finding": "Three mammography timepoints: prepregnancy, lactation, postweaning. Density/compression are not external breast shape or ptosis; selection, therapy and weight confounding. Does not establish cosmetic prevention.",
+        "checked_locator": "Indexed abstract and full-text methods/limitations",
+        "correction_retraction_status": "not comprehensively checked",
+        "topics": [
+          "BREAST-001"
+        ]
+      },
+      "archived_funding_notes": [],
+      "archived_financial_interest_notes": [],
+      "archived_finding_present": true,
+      "archived_design_or_limitations_present": true,
+      "next_checks": [
+        "Extract funding, in-kind contributions and funder role from original disclosure.",
+        "Extract author/institution interests and disclosure status from original source.",
+        "Verify original identity/version and correction/retraction status; assess bias and claim applicability before release."
+      ],
+      "scope": "Original repository record matched by source ID, not a newly inspected external publication.",
+      "independent_bias_appraisal_complete": false,
+      "clinical_review": false,
+      "publish": false
+    },
+    {
+      "id": "DR009",
+      "origin": "research/deep-research/TARGETED_GAP_AUDIT.json",
+      "origin_index": 8,
+      "origin_blob_sha": "1209be54accc9bd8554ce2cfee5bbd3d204fd610",
+      "original_title": "Vastus Lateralis Architecture Changes During Pregnancy – A Longitudinal Study",
+      "archive_extraction": {
+        "design": "Longitudinal observational study",
+        "finding": "19 pregnant, 15 nonpregnant controls; 16±4 and 29±4 gestational weeks, 32±9 weeks postpartum. Knee extensor strength stable; thickness and pennation increased late then returned; hydration confounding. No training assignment; only two prepregnancy measures.",
+        "checked_locator": "Full-text abstract, methods, discussion",
+        "correction_retraction_status": "not comprehensively checked",
+        "topics": [
+          "FIT-002",
+          "FIT-003",
+          "MSK-001"
+        ]
+      },
+      "archived_funding_notes": [],
+      "archived_financial_interest_notes": [],
+      "archived_finding_present": true,
+      "archived_design_or_limitations_present": true,
+      "next_checks": [
+        "Extract funding, in-kind contributions and funder role from original disclosure.",
+        "Extract author/institution interests and disclosure status from original source.",
+        "Verify original identity/version and correction/retraction status; assess bias and claim applicability before release."
+      ],
+      "scope": "Original repository record matched by source ID, not a newly inspected external publication.",
+      "independent_bias_appraisal_complete": false,
+      "clinical_review": false,
+      "publish": false
+    },
+    {
+      "id": "DR010",
+      "origin": "research/deep-research/TARGETED_GAP_AUDIT.json",
+      "origin_index": 9,
+      "origin_blob_sha": "1209be54accc9bd8554ce2cfee5bbd3d204fd610",
+      "original_title": "Safety and efficacy of supervised strength training adopted in pregnancy",
+      "archive_extraction": {
+        "design": "Supervised training study",
+        "finding": "Small supervised strength-training cohort over 12 weeks; primary full text blocked at open. Not evidence of maximal load safety or preservation of whole-body muscle mass.",
+        "checked_locator": "Indexed abstract/full-text excerpt",
+        "correction_retraction_status": "not comprehensively checked",
+        "topics": [
+          "FIT-002"
+        ]
+      },
+      "archived_funding_notes": [],
+      "archived_financial_interest_notes": [],
+      "archived_finding_present": true,
+      "archived_design_or_limitations_present": true,
+      "next_checks": [
+        "Extract funding, in-kind contributions and funder role from original disclosure.",
+        "Extract author/institution interests and disclosure status from original source.",
+        "Verify original identity/version and correction/retraction status; assess bias and claim applicability before release."
+      ],
+      "scope": "Original repository record matched by source ID, not a newly inspected external publication.",
+      "independent_bias_appraisal_complete": false,
+      "clinical_review": false,
+      "publish": false
+    },
+    {
+      "id": "DR011",
+      "origin": "research/deep-research/TARGETED_GAP_AUDIT.json",
+      "origin_index": 10,
+      "origin_blob_sha": "1209be54accc9bd8554ce2cfee5bbd3d204fd610",
+      "original_title": "Effect of a Mobile App-Based Exercise Program on Diastasis Recti Abdominis, Muscle Strength, Anthropometric Measures, and Satisfaction Among Post-Cesarean Primiparous Mothers: A Randomized Controlled Trial",
+      "archive_extraction": {
+        "design": "Small RCT",
+        "finding": "40 primiparous post-CS women, 20 each app vs traditional exercise. Above navel post medians .89 vs 1.10 cm (p<.001); below 1.19 vs 1.30 cm (p=.122). Baseline above both 1.32; below 1.58 vs 1.44. Manual test medians 8 vs 7 after both started at 4; near/perfect separation and retrospective registration NCT07001046 merit scrutiny. No equivalence to this app, self-directed clearance or long-term efficacy. Funding PNURSP2025R785.",
+        "checked_locator": "Full text Results 3.2.1–2; ethics/funding",
+        "correction_retraction_status": "not comprehensively checked",
+        "topics": [
+          "ABD-001",
+          "FIT-003"
+        ],
+        "funding": "Princess Nourah bint Abdulrahman University PNURSP2025R785"
+      },
+      "archived_funding_notes": [
+        "Princess Nourah bint Abdulrahman University PNURSP2025R785"
+      ],
+      "archived_financial_interest_notes": [],
+      "archived_finding_present": true,
+      "archived_design_or_limitations_present": true,
+      "next_checks": [
+        "Extract author/institution interests and disclosure status from original source.",
+        "Verify original identity/version and correction/retraction status; assess bias and claim applicability before release."
+      ],
+      "scope": "Original repository record matched by source ID, not a newly inspected external publication.",
+      "independent_bias_appraisal_complete": false,
+      "clinical_review": false,
+      "publish": false
+    },
+    {
+      "id": "DR012",
+      "origin": "research/deep-research/TARGETED_GAP_AUDIT.json",
+      "origin_index": 11,
+      "origin_blob_sha": "1209be54accc9bd8554ce2cfee5bbd3d204fd610",
+      "original_title": "Effects of Pilates on inter-recti distance, thickness of rectus abdominis, waist circumference and abdominal muscle endurance in primiparous women",
+      "archive_extraction": {
+        "design": "Controlled exercise study; allocation not independently confirmed",
+        "finding": "20 exercise/15 controls analyzed; four weeks, 50 min/day five days/week. Reported improved gap, circumference, endurance; exact between-arm difference and attrition not extracted. No assertion of randomization, superiority or prevention.",
+        "checked_locator": "Indexed full-text results",
+        "correction_retraction_status": "not comprehensively checked",
+        "topics": [
+          "ABD-001",
+          "FIT-003"
+        ]
+      },
+      "archived_funding_notes": [],
+      "archived_financial_interest_notes": [],
+      "archived_finding_present": true,
+      "archived_design_or_limitations_present": true,
+      "next_checks": [
+        "Extract funding, in-kind contributions and funder role from original disclosure.",
+        "Extract author/institution interests and disclosure status from original source.",
+        "Verify original identity/version and correction/retraction status; assess bias and claim applicability before release."
+      ],
+      "scope": "Original repository record matched by source ID, not a newly inspected external publication.",
+      "independent_bias_appraisal_complete": false,
+      "clinical_review": false,
+      "publish": false
+    },
+    {
+      "id": "DR013",
+      "origin": "research/deep-research/TARGETED_GAP_AUDIT.json",
+      "origin_index": 12,
+      "origin_blob_sha": "1209be54accc9bd8554ce2cfee5bbd3d204fd610",
+      "original_title": "Pregnant women may exercise both abdominal and pelvic floor muscles during pregnancy without increasing the diastasis recti abdominis: a randomised trial",
+      "archive_extraction": {
+        "design": "RCT",
+        "finding": "12-week prenatal intervention in women with DRA; immediate and 6-week postpartum IRD assessment. Obtain exact confidence intervals, measurement site, sample and harms before charting. No unrestricted clearance.",
+        "checked_locator": "Indexed abstract/title",
+        "correction_retraction_status": "not comprehensively checked",
+        "topics": [
+          "ABD-001",
+          "FIT-002",
+          "PELV-001"
+        ]
+      },
+      "archived_funding_notes": [],
+      "archived_financial_interest_notes": [],
+      "archived_finding_present": true,
+      "archived_design_or_limitations_present": true,
+      "next_checks": [
+        "Extract funding, in-kind contributions and funder role from original disclosure.",
+        "Extract author/institution interests and disclosure status from original source.",
+        "Verify original identity/version and correction/retraction status; assess bias and claim applicability before release."
+      ],
+      "scope": "Original repository record matched by source ID, not a newly inspected external publication.",
+      "independent_bias_appraisal_complete": false,
+      "clinical_review": false,
+      "publish": false
+    },
+    {
+      "id": "DR014",
+      "origin": "research/deep-research/TARGETED_GAP_AUDIT.json",
+      "origin_index": 13,
+      "origin_blob_sha": "1209be54accc9bd8554ce2cfee5bbd3d204fd610",
+      "original_title": "An open single-arm clinical study of microneedle radiofrequency technology for addressing abdominal skin laxity in postpartum women",
+      "archive_extraction": {
+        "design": "Uncontrolled device study",
+        "finding": "17 women, mean 7.63±7.88 years after birth (range 1.75–37). Not early postpartum recovery; no comparator, no reliable causal or durability conclusion. FDA RF microneedling warning retains precedence.",
+        "checked_locator": "Indexed abstract and publisher methods; full page blocked",
+        "correction_retraction_status": "not comprehensively checked",
+        "topics": [
+          "SKIN-003",
+          "EMERG-001",
+          "ABD-002"
+        ]
+      },
+      "archived_funding_notes": [],
+      "archived_financial_interest_notes": [],
+      "archived_finding_present": true,
+      "archived_design_or_limitations_present": true,
+      "next_checks": [
+        "Extract funding, in-kind contributions and funder role from original disclosure.",
+        "Extract author/institution interests and disclosure status from original source.",
+        "Verify original identity/version and correction/retraction status; assess bias and claim applicability before release."
+      ],
+      "scope": "Original repository record matched by source ID, not a newly inspected external publication.",
+      "independent_bias_appraisal_complete": false,
+      "clinical_review": false,
+      "publish": false
+    },
+    {
+      "id": "DR015",
+      "origin": "research/deep-research/TARGETED_GAP_AUDIT.json",
+      "origin_index": 14,
+      "origin_blob_sha": "1209be54accc9bd8554ce2cfee5bbd3d204fd610",
+      "original_title": "Reduction of abdominal skin laxity in women postvaginal delivery using the synergistic emission of radiofrequency and targeted pressure energies",
+      "archive_extraction": {
+        "design": "RCT reported",
+        "finding": "Combined device after vaginal delivery; authors report improved signs, but exact n, between-arm effect and funding/harms not extracted. Not standalone RF, not microneedling, not pregnancy prevention.",
+        "checked_locator": "Indexed abstract",
+        "correction_retraction_status": "not comprehensively checked",
+        "topics": [
+          "SKIN-003",
+          "EMERG-001",
+          "ABD-002"
+        ]
+      },
+      "archived_funding_notes": [],
+      "archived_financial_interest_notes": [],
+      "archived_finding_present": true,
+      "archived_design_or_limitations_present": true,
+      "next_checks": [
+        "Extract funding, in-kind contributions and funder role from original disclosure.",
+        "Extract author/institution interests and disclosure status from original source.",
+        "Verify original identity/version and correction/retraction status; assess bias and claim applicability before release."
+      ],
+      "scope": "Original repository record matched by source ID, not a newly inspected external publication.",
+      "independent_bias_appraisal_complete": false,
+      "clinical_review": false,
+      "publish": false
+    },
+    {
+      "id": "DR016",
+      "origin": "research/deep-research/TARGETED_GAP_AUDIT.json",
+      "origin_index": 15,
+      "origin_blob_sha": "1209be54accc9bd8554ce2cfee5bbd3d204fd610",
+      "original_title": "Electrical stimulation and biofeedback combined with pelvic floor muscle training for pelvic floor dysfunction in postpartum women: a systematic review and meta-analysis",
+      "archive_extraction": {
+        "design": "Systematic review of RCTs",
+        "finding": "Triple combination vs PFMT alone; reported SUI RR .36 (.26–.49), sexual-function MD 4.38 (3.41–5.34); exact outcome scales, n, bias, overlap and reporting not fully extracted; no universal strengthening/device schedule.",
+        "checked_locator": "Indexed abstract; full-text access blocked",
+        "correction_retraction_status": "not comprehensively checked",
+        "topics": [
+          "PELV-001"
+        ]
+      },
+      "archived_funding_notes": [],
+      "archived_financial_interest_notes": [],
+      "archived_finding_present": true,
+      "archived_design_or_limitations_present": true,
+      "next_checks": [
+        "Extract funding, in-kind contributions and funder role from original disclosure.",
+        "Extract author/institution interests and disclosure status from original source.",
+        "Verify original identity/version and correction/retraction status; assess bias and claim applicability before release."
+      ],
+      "scope": "Original repository record matched by source ID, not a newly inspected external publication.",
+      "independent_bias_appraisal_complete": false,
+      "clinical_review": false,
+      "publish": false
+    },
+    {
+      "id": "DR017",
+      "origin": "research/deep-research/TARGETED_GAP_AUDIT.json",
+      "origin_index": 16,
+      "origin_blob_sha": "1209be54accc9bd8554ce2cfee5bbd3d204fd610",
+      "original_title": "Effects from a single application of photobiomodulation on pain intensity from perineal trauma related to childbirth: A randomized controlled trial",
+      "archive_extraction": {
+        "design": "Two-center double-blind sham RCT",
+        "finding": "60 postpartum participants with perineal trauma and NRS≥4. NRS at 30min 3.63±2.57 vs 2.53±2.15 p=.089; healing score no clear difference. Does not establish equivalence or repeated-session effects. Registry U1111-1279-3594.",
+        "checked_locator": "Indexed abstract",
+        "correction_retraction_status": "not comprehensively checked",
+        "topics": [
+          "EMERG-001",
+          "SCAR-001",
+          "BIRTH-001"
+        ]
+      },
+      "archived_funding_notes": [],
+      "archived_financial_interest_notes": [],
+      "archived_finding_present": true,
+      "archived_design_or_limitations_present": true,
+      "next_checks": [
+        "Extract funding, in-kind contributions and funder role from original disclosure.",
+        "Extract author/institution interests and disclosure status from original source.",
+        "Verify original identity/version and correction/retraction status; assess bias and claim applicability before release."
+      ],
+      "scope": "Original repository record matched by source ID, not a newly inspected external publication.",
+      "independent_bias_appraisal_complete": false,
+      "clinical_review": false,
+      "publish": false
+    },
+    {
+      "id": "DR018",
+      "origin": "research/deep-research/TARGETED_GAP_AUDIT.json",
+      "origin_index": 17,
+      "origin_blob_sha": "1209be54accc9bd8554ce2cfee5bbd3d204fd610",
+      "original_title": "Physical Rehabilitation for Postpartum Perineal Morbidity After Episiotomy and Childbirth-Related Perineal Trauma: A Systematic Review and Meta-analysis of Randomized Controlled Trials",
+      "archive_extraction": {
+        "design": "Systematic review of RCTs",
+        "finding": "Two laser vs sham RCTs n119: pain SMD -.16 (-.52,.19), p=.37. Trial overlap with DR017 not confirmed; do not combine as independent. Not evidence about other light doses or indications.",
+        "checked_locator": "Indexed full-text Results Figure 3",
+        "correction_retraction_status": "not comprehensively checked",
+        "topics": [
+          "EMERG-001",
+          "SCAR-001",
+          "BIRTH-001"
+        ]
+      },
+      "archived_funding_notes": [],
+      "archived_financial_interest_notes": [],
+      "archived_finding_present": true,
+      "archived_design_or_limitations_present": true,
+      "next_checks": [
+        "Extract funding, in-kind contributions and funder role from original disclosure.",
+        "Extract author/institution interests and disclosure status from original source.",
+        "Verify original identity/version and correction/retraction status; assess bias and claim applicability before release."
+      ],
+      "scope": "Original repository record matched by source ID, not a newly inspected external publication.",
+      "independent_bias_appraisal_complete": false,
+      "clinical_review": false,
+      "publish": false
+    },
+    {
+      "id": "DR019",
+      "origin": "research/deep-research/TARGETED_GAP_AUDIT.json",
+      "origin_index": 18,
+      "origin_blob_sha": "1209be54accc9bd8554ce2cfee5bbd3d204fd610",
+      "original_title": "Pregnancy, birth outcomes, and postpartum injury in elite to world-class runners: a mixed methods study",
+      "archive_extraction": {
+        "design": "Mixed methods study",
+        "finding": "Published 2026-09-18; elite runner sample, version subject to final edits; do not generalize to all postpartum people. Exact injury denominators, training exposure and ascertainment pending.",
+        "checked_locator": "Publisher accepted manuscript; abstract",
+        "correction_retraction_status": "not comprehensively checked",
+        "topics": [
+          "FIT-003",
+          "FIT-002"
+        ]
+      },
+      "archived_funding_notes": [],
+      "archived_financial_interest_notes": [],
+      "archived_finding_present": true,
+      "archived_design_or_limitations_present": true,
+      "next_checks": [
+        "Extract funding, in-kind contributions and funder role from original disclosure.",
+        "Extract author/institution interests and disclosure status from original source.",
+        "Verify original identity/version and correction/retraction status; assess bias and claim applicability before release."
+      ],
+      "scope": "Original repository record matched by source ID, not a newly inspected external publication.",
+      "independent_bias_appraisal_complete": false,
+      "clinical_review": false,
+      "publish": false
+    },
+    {
+      "id": "DR020",
+      "origin": "research/deep-research/TARGETED_GAP_AUDIT.json",
+      "origin_index": 19,
+      "origin_blob_sha": "1209be54accc9bd8554ce2cfee5bbd3d204fd610",
+      "original_title": "Mediterranean Diet, Semen Quality, and Medically Assisted Reproductive Outcomes in the Male Population: A Systematic Review and Meta-Analysis",
+      "archive_extraction": {
+        "design": "Systematic review, observational meta-analysis",
+        "finding": "11 articles/2558 individuals; eight observational studies n1835 pooled, two RCTs separately described. Semen parameters associated with adherence; only one prospective medically assisted reproduction outcome study, no association. Surrogates not live birth. PROSPERO CRD42024584003.",
+        "checked_locator": "Full text abstract and quantitative analysis",
+        "correction_retraction_status": "not comprehensively checked",
+        "topics": [
+          "REPRO-001",
+          "NUTR-001"
+        ]
+      },
+      "archived_funding_notes": [],
+      "archived_financial_interest_notes": [],
+      "archived_finding_present": true,
+      "archived_design_or_limitations_present": true,
+      "next_checks": [
+        "Extract funding, in-kind contributions and funder role from original disclosure.",
+        "Extract author/institution interests and disclosure status from original source.",
+        "Verify original identity/version and correction/retraction status; assess bias and claim applicability before release."
+      ],
+      "scope": "Original repository record matched by source ID, not a newly inspected external publication.",
+      "independent_bias_appraisal_complete": false,
+      "clinical_review": false,
+      "publish": false
+    },
+    {
+      "id": "DR021",
+      "origin": "research/deep-research/TARGETED_GAP_AUDIT.json",
+      "origin_index": 20,
+      "origin_blob_sha": "1209be54accc9bd8554ce2cfee5bbd3d204fd610",
+      "original_title": "Effectiveness of Exercise Training on Male Factor Infertility: A Systematic Review and Network Meta-analysis",
+      "archive_extraction": {
+        "design": "Network meta-analysis; hold",
+        "finding": "Seven RCTs/2641; includes three explicitly retracted reports DR023–025. Do not import pooled effects, ranks, or fertility claims until reanalysis removes invalid trials. No assertion NMA itself formally retracted.",
+        "checked_locator": "Full text Results, references 8,9,11",
+        "correction_retraction_status": "dependency hold; review not established formally retracted",
+        "topics": [
+          "REPRO-001",
+          "FIT-001"
+        ]
+      },
+      "archived_funding_notes": [],
+      "archived_financial_interest_notes": [],
+      "archived_finding_present": true,
+      "archived_design_or_limitations_present": true,
+      "next_checks": [
+        "Extract funding, in-kind contributions and funder role from original disclosure.",
+        "Extract author/institution interests and disclosure status from original source.",
+        "Verify original identity/version and correction/retraction status; assess bias and claim applicability before release."
+      ],
+      "scope": "Original repository record matched by source ID, not a newly inspected external publication.",
+      "independent_bias_appraisal_complete": false,
+      "clinical_review": false,
+      "publish": false
+    },
+    {
+      "id": "DR022",
+      "origin": "research/deep-research/TARGETED_GAP_AUDIT.json",
+      "origin_index": 21,
+      "origin_blob_sha": "1209be54accc9bd8554ce2cfee5bbd3d204fd610",
+      "original_title": "Exercise intervention improves fertility outcomes in females and males: an umbrella review of meta-analyses",
+      "archive_extraction": {
+        "design": "Umbrella review; dependent estimate hold",
+        "finding": "Includes DR021 as seven trials/2641, assigns low risk/moderate quality; no retraction discussion located in targeted page find. Hold DR021-derived male estimates, not unrelated female results; independent overlap and retraction-aware reassessment needed.",
+        "checked_locator": "Publisher Table 1 and reference 34",
+        "correction_retraction_status": "dependency hold; review not established formally retracted",
+        "topics": [
+          "REPRO-001",
+          "FIT-001"
+        ]
+      },
+      "archived_funding_notes": [],
+      "archived_financial_interest_notes": [],
+      "archived_finding_present": true,
+      "archived_design_or_limitations_present": true,
+      "next_checks": [
+        "Extract funding, in-kind contributions and funder role from original disclosure.",
+        "Extract author/institution interests and disclosure status from original source.",
+        "Verify original identity/version and correction/retraction status; assess bias and claim applicability before release."
+      ],
+      "scope": "Original repository record matched by source ID, not a newly inspected external publication.",
+      "independent_bias_appraisal_complete": false,
+      "clinical_review": false,
+      "publish": false
+    },
+    {
+      "id": "DR023",
+      "origin": "research/deep-research/TARGETED_GAP_AUDIT.json",
+      "origin_index": 22,
+      "origin_blob_sha": "1209be54accc9bd8554ce2cfee5bbd3d204fd610",
+      "original_title": "Moderate aerobic exercise training for improving reproductive function in infertile patients: A randomized controlled trial",
+      "archive_extraction": {
+        "design": "Retracted trial",
+        "finding": "Retraction notice PMID 38030527 (2024 issue; online 2023-11-28). Exclude from clinical evidence; provenance only. DR021 ref9.",
+        "checked_locator": "PubMed Retraction in / publication type",
+        "correction_retraction_status": "retracted; exclude",
+        "topics": [
+          "REPRO-001"
+        ]
+      },
+      "archived_funding_notes": [],
+      "archived_financial_interest_notes": [],
+      "archived_finding_present": true,
+      "archived_design_or_limitations_present": true,
+      "next_checks": [
+        "Extract funding, in-kind contributions and funder role from original disclosure.",
+        "Extract author/institution interests and disclosure status from original source.",
+        "Verify original identity/version and correction/retraction status; assess bias and claim applicability before release."
+      ],
+      "scope": "Original repository record matched by source ID, not a newly inspected external publication.",
+      "independent_bias_appraisal_complete": false,
+      "clinical_review": false,
+      "publish": false
+    },
+    {
+      "id": "DR024",
+      "origin": "research/deep-research/TARGETED_GAP_AUDIT.json",
+      "origin_index": 23,
+      "origin_blob_sha": "1209be54accc9bd8554ce2cfee5bbd3d204fd610",
+      "original_title": "High-intensity interval training modulates male factor infertility through anti-inflammatory and antioxidative mechanisms in infertile men: A randomized controlled trial",
+      "archive_extraction": {
+        "design": "Retracted trial",
+        "finding": "Retraction notice PMID 37277302. Exclude from clinical evidence; provenance only. DR021 ref8.",
+        "checked_locator": "PubMed retracted title, linked notice",
+        "correction_retraction_status": "retracted; exclude",
+        "topics": [
+          "REPRO-001"
+        ]
+      },
+      "archived_funding_notes": [],
+      "archived_financial_interest_notes": [],
+      "archived_finding_present": true,
+      "archived_design_or_limitations_present": true,
+      "next_checks": [
+        "Extract funding, in-kind contributions and funder role from original disclosure.",
+        "Extract author/institution interests and disclosure status from original source.",
+        "Verify original identity/version and correction/retraction status; assess bias and claim applicability before release."
+      ],
+      "scope": "Original repository record matched by source ID, not a newly inspected external publication.",
+      "independent_bias_appraisal_complete": false,
+      "clinical_review": false,
+      "publish": false
+    },
+    {
+      "id": "DR025",
+      "origin": "research/deep-research/TARGETED_GAP_AUDIT.json",
+      "origin_index": 24,
+      "origin_blob_sha": "1209be54accc9bd8554ce2cfee5bbd3d204fd610",
+      "original_title": "Effects of Aerobic, Resistance, and Combined Exercise on Markers of Male Reproduction in Healthy Human Subjects: A Randomized Controlled Trial",
+      "archive_extraction": {
+        "design": "Retracted trial",
+        "finding": "Retraction DOI 10.1519/JSC.0000000000004451 (July 2023). Exclude from clinical evidence; provenance only. DR021 ref11.",
+        "checked_locator": "PubMed retracted publication and publisher notice",
+        "correction_retraction_status": "retracted; exclude",
+        "topics": [
+          "REPRO-001"
+        ]
+      },
+      "archived_funding_notes": [],
+      "archived_financial_interest_notes": [],
+      "archived_finding_present": true,
+      "archived_design_or_limitations_present": true,
+      "next_checks": [
+        "Extract funding, in-kind contributions and funder role from original disclosure.",
+        "Extract author/institution interests and disclosure status from original source.",
+        "Verify original identity/version and correction/retraction status; assess bias and claim applicability before release."
+      ],
+      "scope": "Original repository record matched by source ID, not a newly inspected external publication.",
+      "independent_bias_appraisal_complete": false,
+      "clinical_review": false,
+      "publish": false
+    },
+    {
+      "id": "DR026",
+      "origin": "research/deep-research/TARGETED_GAP_AUDIT.json",
+      "origin_index": 25,
+      "origin_blob_sha": "1209be54accc9bd8554ce2cfee5bbd3d204fd610",
+      "original_title": "Sleeping for Two: a randomized controlled trial of cognitive behavioral therapy for insomnia in pregnancy",
+      "archive_extraction": {
+        "design": "RCT",
+        "finding": "Pregnancy-adapted CBT-I improved insomnia symptoms with benefits maintained up to six months postpartum per authors. Not generic sleep hygiene or a substitute for mental-health care. Secondary depression report PMID39029668 likely same cohort; verify.",
+        "checked_locator": "Indexed full-text study impact",
+        "correction_retraction_status": "not comprehensively checked",
+        "topics": [
+          "WELL-001"
+        ]
+      },
+      "archived_funding_notes": [],
+      "archived_financial_interest_notes": [],
+      "archived_finding_present": true,
+      "archived_design_or_limitations_present": true,
+      "next_checks": [
+        "Extract funding, in-kind contributions and funder role from original disclosure.",
+        "Extract author/institution interests and disclosure status from original source.",
+        "Verify original identity/version and correction/retraction status; assess bias and claim applicability before release."
+      ],
+      "scope": "Original repository record matched by source ID, not a newly inspected external publication.",
+      "independent_bias_appraisal_complete": false,
+      "clinical_review": false,
+      "publish": false
+    },
+    {
+      "id": "DR027",
+      "origin": "research/deep-research/TARGETED_GAP_AUDIT.json",
+      "origin_index": 26,
+      "origin_blob_sha": "1209be54accc9bd8554ce2cfee5bbd3d204fd610",
+      "original_title": "Folic Acid: Facts for Clinicians",
+      "archive_extraction": {
+        "design": "US clinical guidance",
+        "finding": "People planning pregnancy not already taking folic acid: begin at least one month before conception and continue during pregnancy; general prevention guidance, not individualized high-risk dosing.",
+        "checked_locator": "CDC patient counseling section",
+        "correction_retraction_status": "not comprehensively checked",
+        "topics": [
+          "NUTR-001",
+          "REPRO-001"
+        ]
+      },
+      "archived_funding_notes": [],
+      "archived_financial_interest_notes": [],
+      "archived_finding_present": true,
+      "archived_design_or_limitations_present": true,
+      "next_checks": [
+        "Extract funding, in-kind contributions and funder role from original disclosure.",
+        "Extract author/institution interests and disclosure status from original source.",
+        "Verify original identity/version and correction/retraction status; assess bias and claim applicability before release."
+      ],
+      "scope": "Original repository record matched by source ID, not a newly inspected external publication.",
+      "independent_bias_appraisal_complete": false,
+      "clinical_review": false,
+      "publish": false
+    },
+    {
+      "id": "DR028",
+      "origin": "research/deep-research/TARGETED_GAP_AUDIT.json",
+      "origin_index": 27,
+      "origin_blob_sha": "1209be54accc9bd8554ce2cfee5bbd3d204fd610",
+      "original_title": "Planning to Get Pregnant? Plan to See Your Ob-Gyn",
+      "archive_extraction": {
+        "design": "US patient guidance",
+        "finding": "Prepregnancy visit at least three months ahead and up to one year ahead suggested; does not establish exact three-year intervention efficacy.",
+        "checked_locator": "Indexed ACOG article",
+        "correction_retraction_status": "not comprehensively checked",
+        "topics": [
+          "REPRO-001",
+          "FIT-001"
+        ]
+      },
+      "archived_funding_notes": [],
+      "archived_financial_interest_notes": [],
+      "archived_finding_present": true,
+      "archived_design_or_limitations_present": true,
+      "next_checks": [
+        "Extract funding, in-kind contributions and funder role from original disclosure.",
+        "Extract author/institution interests and disclosure status from original source.",
+        "Verify original identity/version and correction/retraction status; assess bias and claim applicability before release."
+      ],
+      "scope": "Original repository record matched by source ID, not a newly inspected external publication.",
+      "independent_bias_appraisal_complete": false,
+      "clinical_review": false,
+      "publish": false
+    },
+    {
+      "id": "DR029",
+      "origin": "research/deep-research/TARGETED_GAP_AUDIT.json",
+      "origin_index": 28,
+      "origin_blob_sha": "1209be54accc9bd8554ce2cfee5bbd3d204fd610",
+      "original_title": "Factors influencing breast changes after pregnancy",
+      "archive_extraction": {
+        "design": "Questionnaire cohort",
+        "finding": "559 responses from 5991 eligible births; selection/nonresponse major limitation; exact effect direction and adjusted estimates not extracted, candidate only.",
+        "checked_locator": "Indexed abstract",
+        "correction_retraction_status": "not comprehensively checked",
+        "topics": [
+          "BREAST-001"
+        ]
+      },
+      "archived_funding_notes": [],
+      "archived_financial_interest_notes": [],
+      "archived_finding_present": true,
+      "archived_design_or_limitations_present": true,
+      "next_checks": [
+        "Extract funding, in-kind contributions and funder role from original disclosure.",
+        "Extract author/institution interests and disclosure status from original source.",
+        "Verify original identity/version and correction/retraction status; assess bias and claim applicability before release."
+      ],
+      "scope": "Original repository record matched by source ID, not a newly inspected external publication.",
+      "independent_bias_appraisal_complete": false,
+      "clinical_review": false,
+      "publish": false
+    },
+    {
+      "id": "DR030",
+      "origin": "research/deep-research/TARGETED_GAP_AUDIT.json",
+      "origin_index": 29,
+      "origin_blob_sha": "1209be54accc9bd8554ce2cfee5bbd3d204fd610",
+      "original_title": "Breastfeeding and perceived changes in the appearance of the breasts: a retrospective study",
+      "archive_extraction": {
+        "design": "Retrospective interview study",
+        "finding": "496 first-time mothers interviewed ~18 months after birth; no observed association with breastfeeding per authors. Self-perceived appearance, not objective change. Conflict with DR007 does not establish causal benefit or harm.",
+        "checked_locator": "Indexed abstract",
+        "correction_retraction_status": "not comprehensively checked",
+        "topics": [
+          "BREAST-001"
+        ]
+      },
+      "archived_funding_notes": [],
+      "archived_financial_interest_notes": [],
+      "archived_finding_present": true,
+      "archived_design_or_limitations_present": true,
+      "next_checks": [
+        "Extract funding, in-kind contributions and funder role from original disclosure.",
+        "Extract author/institution interests and disclosure status from original source.",
+        "Verify original identity/version and correction/retraction status; assess bias and claim applicability before release."
+      ],
+      "scope": "Original repository record matched by source ID, not a newly inspected external publication.",
+      "independent_bias_appraisal_complete": false,
+      "clinical_review": false,
+      "publish": false
+    },
+    {
+      "id": "DR031",
+      "origin": "research/deep-research/TARGETED_GAP_AUDIT.json",
+      "origin_index": 30,
+      "origin_blob_sha": "1209be54accc9bd8554ce2cfee5bbd3d204fd610",
+      "original_title": "Graduated compression stockings effects on chronic venous disease signs and symptoms during pregnancy",
+      "archive_extraction": {
+        "design": "RCT",
+        "finding": "60 women (30/30); vein diameter and symptoms reported; distinguish within-arm changes, edema and persistent cosmetic vein outcomes. Potential same cohort as PMID32659162, not separate until confirmed.",
+        "checked_locator": "Indexed publisher abstract",
+        "correction_retraction_status": "not comprehensively checked",
+        "topics": [
+          "VEIN-001"
+        ]
+      },
+      "archived_funding_notes": [],
+      "archived_financial_interest_notes": [],
+      "archived_finding_present": true,
+      "archived_design_or_limitations_present": true,
+      "next_checks": [
+        "Extract funding, in-kind contributions and funder role from original disclosure.",
+        "Extract author/institution interests and disclosure status from original source.",
+        "Verify original identity/version and correction/retraction status; assess bias and claim applicability before release."
+      ],
+      "scope": "Original repository record matched by source ID, not a newly inspected external publication.",
+      "independent_bias_appraisal_complete": false,
+      "clinical_review": false,
+      "publish": false
+    },
+    {
+      "id": "DR032",
+      "origin": "research/deep-research/TARGETED_GAP_AUDIT.json",
+      "origin_index": 31,
+      "origin_blob_sha": "1209be54accc9bd8554ce2cfee5bbd3d204fd610",
+      "original_title": "Compression stocking prevents increased venous retrograde flow time in the lower limbs of pregnant women",
+      "archive_extraction": {
+        "design": "RCT report",
+        "finding": "60 women (30/30), vein reflux measurements; possible shared cohort DR031. No prevention of long-term spider veins established.",
+        "checked_locator": "Indexed abstract",
+        "correction_retraction_status": "not comprehensively checked",
+        "topics": [
+          "VEIN-001"
+        ]
+      },
+      "archived_funding_notes": [],
+      "archived_financial_interest_notes": [],
+      "archived_finding_present": true,
+      "archived_design_or_limitations_present": true,
+      "next_checks": [
+        "Extract funding, in-kind contributions and funder role from original disclosure.",
+        "Extract author/institution interests and disclosure status from original source.",
+        "Verify original identity/version and correction/retraction status; assess bias and claim applicability before release."
+      ],
+      "scope": "Original repository record matched by source ID, not a newly inspected external publication.",
+      "independent_bias_appraisal_complete": false,
+      "clinical_review": false,
+      "publish": false
+    },
+    {
+      "id": "DR033",
+      "origin": "research/deep-research/TARGETED_GAP_AUDIT.json",
+      "origin_index": 32,
+      "origin_blob_sha": "1209be54accc9bd8554ce2cfee5bbd3d204fd610",
+      "original_title": "Preconception nutritional supplementation and behavioral interventions and their association with maternal and neonatal health: A systematic review and meta-analysis",
+      "archive_extraction": {
+        "design": "Mixed-design systematic review",
+        "finding": "24 studies; RCTs and nonrandomized designs. No pooled estimate combining intervention classes; abstract supports outcome-specific assessment. Publisher total n and listed arm totals differ; do not infer pooled sample until reconciled.",
+        "checked_locator": "Indexed abstract and publisher methods",
+        "correction_retraction_status": "not comprehensively checked",
+        "topics": [
+          "FIT-001",
+          "NUTR-001",
+          "REPRO-001"
+        ]
+      },
+      "archived_funding_notes": [],
+      "archived_financial_interest_notes": [],
+      "archived_finding_present": true,
+      "archived_design_or_limitations_present": true,
+      "next_checks": [
+        "Extract funding, in-kind contributions and funder role from original disclosure.",
+        "Extract author/institution interests and disclosure status from original source.",
+        "Verify original identity/version and correction/retraction status; assess bias and claim applicability before release."
+      ],
+      "scope": "Original repository record matched by source ID, not a newly inspected external publication.",
+      "independent_bias_appraisal_complete": false,
+      "clinical_review": false,
+      "publish": false
+    },
+    {
+      "id": "GE001",
+      "origin": "research/external-audits/gemini/RECONCILIATION.json",
+      "origin_index": 0,
+      "origin_blob_sha": "3e7eef47b210b139c3e69e2bb24e1e9da8d9e1e8",
+      "original_title": "Genotype-informed docosahexaenoic acid dosing based on the FADS Indel to reduce preterm and prolonged gestation: A secondary analysis of the ADORE randomized trial",
+      "archive_extraction": {
+        "design": "post hoc secondary analysis of randomized trial",
+        "finding": "761 of 1032 ADORE participants genotyped. I-allele group early preterm birth: 2/205 vs 9/214; total preterm 19/205 vs 31/214, higher vs lower DHA. D/D group prolonged gestation 49/191 vs 23/151.",
+        "limitations": "Small event counts, selection into genotyping, post hoc subgroup. Not independent replication; no race-based or genetic dosing recommendations. Week 40 or later is study definition, not standard postterm birth.",
+        "checked_locator": "Publisher full text, abstract, Results Fig 3 and S8–S10, funding/COI",
+        "correction_retraction_status": "comprehensive independent check pending",
+        "topics": [
+          "NUTR-001"
+        ],
+        "funding": "NIH R01HD083292; authors report funder had no role",
+        "conflicts": "Authors declare none"
+      },
+      "archived_funding_notes": [
+        "NIH R01HD083292; authors report funder had no role"
+      ],
+      "archived_financial_interest_notes": [
+        "Authors declare none"
+      ],
+      "archived_finding_present": true,
+      "archived_design_or_limitations_present": true,
+      "next_checks": [
+        "Verify original identity/version and correction/retraction status; assess bias and claim applicability before release."
+      ],
+      "scope": "Original repository record matched by source ID, not a newly inspected external publication.",
+      "independent_bias_appraisal_complete": false,
+      "clinical_review": false,
+      "publish": false
+    },
+    {
+      "id": "GE002",
+      "origin": "research/external-audits/gemini/RECONCILIATION.json",
+      "origin_index": 1,
+      "origin_blob_sha": "3e7eef47b210b139c3e69e2bb24e1e9da8d9e1e8",
+      "original_title": "Regimens of vitamin D supplementation for women during pregnancy",
+      "archive_extraction": {
+        "design": "Cochrane review of dose regimens",
+        "finding": "Higher-dose comparisons show little or no clear difference in several obstetric outcomes; separate question from vitamin D versus placebo.",
+        "limitations": "Not a substitute for deficiency care or nutritional intake guidance. Full text, DOI, funding and overlap pending.",
+        "checked_locator": "Indexed PubMed abstract; April 2026 search",
+        "correction_retraction_status": "comprehensive independent check pending",
+        "topics": [
+          "NUTR-001"
+        ]
+      },
+      "archived_funding_notes": [],
+      "archived_financial_interest_notes": [],
+      "archived_finding_present": true,
+      "archived_design_or_limitations_present": true,
+      "next_checks": [
+        "Extract funding, in-kind contributions and funder role from original disclosure.",
+        "Extract author/institution interests and disclosure status from original source.",
+        "Verify original identity/version and correction/retraction status; assess bias and claim applicability before release."
+      ],
+      "scope": "Original repository record matched by source ID, not a newly inspected external publication.",
+      "independent_bias_appraisal_complete": false,
+      "clinical_review": false,
+      "publish": false
+    },
+    {
+      "id": "GE003",
+      "origin": "research/external-audits/gemini/RECONCILIATION.json",
+      "origin_index": 2,
+      "origin_blob_sha": "3e7eef47b210b139c3e69e2bb24e1e9da8d9e1e8",
+      "original_title": "Impact of postpartum physical activity on maternal depression and anxiety: a systematic review and meta-analysis",
+      "archive_extraction": {
+        "design": "systematic review/meta-analysis",
+        "finding": "Exercise-only interventions reduced depressive symptom severity and anxiety severity; lower odds of postpartum depression.",
+        "limitations": "Depression symptom heterogeneity high; not replacement for indicated mental health treatment; exercise-only subset differs from total review.",
+        "checked_locator": "PubMed indexed abstract",
+        "correction_retraction_status": "comprehensive independent check pending",
+        "topics": [
+          "WELL-001",
+          "FIT-003"
+        ]
+      },
+      "archived_funding_notes": [],
+      "archived_financial_interest_notes": [],
+      "archived_finding_present": true,
+      "archived_design_or_limitations_present": true,
+      "next_checks": [
+        "Extract funding, in-kind contributions and funder role from original disclosure.",
+        "Extract author/institution interests and disclosure status from original source.",
+        "Verify original identity/version and correction/retraction status; assess bias and claim applicability before release."
+      ],
+      "scope": "Original repository record matched by source ID, not a newly inspected external publication.",
+      "independent_bias_appraisal_complete": false,
+      "clinical_review": false,
+      "publish": false
+    },
+    {
+      "id": "GE004",
+      "origin": "research/external-audits/gemini/RECONCILIATION.json",
+      "origin_index": 3,
+      "origin_blob_sha": "3e7eef47b210b139c3e69e2bb24e1e9da8d9e1e8",
+      "original_title": "Impact of postpartum physical activity on cardiometabolic health, breastfeeding, injury and infant growth and development: a systematic review and meta-analysis",
+      "archive_extraction": {
+        "design": "systematic review/meta-analysis",
+        "finding": "Relevant review identified. Gemini reports no adverse lactation signal and cardiometabolic benefits; hold precise estimates until results checked.",
+        "limitations": "Do not infer universal safety or equivalence, or cosmetic breast outcomes.",
+        "checked_locator": "PubMed indexed title/eligibility; outcome details need further extraction",
+        "correction_retraction_status": "comprehensive independent check pending",
+        "topics": [
+          "FIT-003",
+          "BREAST-001"
+        ]
+      },
+      "archived_funding_notes": [],
+      "archived_financial_interest_notes": [],
+      "archived_finding_present": true,
+      "archived_design_or_limitations_present": true,
+      "next_checks": [
+        "Extract funding, in-kind contributions and funder role from original disclosure.",
+        "Extract author/institution interests and disclosure status from original source.",
+        "Verify original identity/version and correction/retraction status; assess bias and claim applicability before release."
+      ],
+      "scope": "Original repository record matched by source ID, not a newly inspected external publication.",
+      "independent_bias_appraisal_complete": false,
+      "clinical_review": false,
+      "publish": false
+    },
+    {
+      "id": "GE005",
+      "origin": "research/external-audits/gemini/RECONCILIATION.json",
+      "origin_index": 4,
+      "origin_blob_sha": "3e7eef47b210b139c3e69e2bb24e1e9da8d9e1e8",
+      "original_title": "Two Randomized Trials of Low-Dose Calcium Supplementation in Pregnancy",
+      "archive_extraction": {
+        "design": "two randomized noninferiority trials",
+        "finding": "500 versus 1500 mg/day: preterm birth India RR .89 (.80–.98); Tanzania RR 1.07 (.95–1.21). Tanzania did not establish noninferiority.",
+        "limitations": "No placebo comparison. Noninferiority outcome-specific; do not replace guideline or prescribe a dose. Crosslink two trial cohorts to DR003 and S092/S093 where eligible.",
+        "checked_locator": "PubMed indexed abstract, preterm results",
+        "correction_retraction_status": "comprehensive independent check pending",
+        "topics": [
+          "NUTR-001"
+        ]
+      },
+      "archived_funding_notes": [],
+      "archived_financial_interest_notes": [],
+      "archived_finding_present": true,
+      "archived_design_or_limitations_present": true,
+      "next_checks": [
+        "Extract funding, in-kind contributions and funder role from original disclosure.",
+        "Extract author/institution interests and disclosure status from original source.",
+        "Verify original identity/version and correction/retraction status; assess bias and claim applicability before release."
+      ],
+      "scope": "Original repository record matched by source ID, not a newly inspected external publication.",
+      "independent_bias_appraisal_complete": false,
+      "clinical_review": false,
+      "publish": false
+    },
+    {
+      "id": "GE006",
+      "origin": "research/external-audits/gemini/RECONCILIATION.json",
+      "origin_index": 5,
+      "origin_blob_sha": "3e7eef47b210b139c3e69e2bb24e1e9da8d9e1e8",
+      "original_title": "Randomized controlled trial of digital cognitive behavior therapy for prenatal insomnia symptoms: effects on postpartum insomnia and mental health",
+      "archive_extraction": {
+        "design": "secondary follow-up of RCT",
+        "finding": "Probable major depression at 3 months postpartum 4% intervention vs 18% standard care; subgroup with minimal baseline symptoms 0% vs 18%.",
+        "limitations": "Screening-defined outcome, subgroup, no new independent trial; not substitute for mental health care. Extract denominators, confidence intervals, attrition and commercial involvement.",
+        "checked_locator": "PubMed indexed abstract, 3-month depression outcome",
+        "correction_retraction_status": "comprehensive independent check pending",
+        "topics": [
+          "WELL-001"
+        ]
+      },
+      "archived_funding_notes": [],
+      "archived_financial_interest_notes": [],
+      "archived_finding_present": true,
+      "archived_design_or_limitations_present": true,
+      "next_checks": [
+        "Extract funding, in-kind contributions and funder role from original disclosure.",
+        "Extract author/institution interests and disclosure status from original source.",
+        "Verify original identity/version and correction/retraction status; assess bias and claim applicability before release."
+      ],
+      "scope": "Original repository record matched by source ID, not a newly inspected external publication.",
+      "independent_bias_appraisal_complete": false,
+      "clinical_review": false,
+      "publish": false
+    },
+    {
+      "id": "GE007",
+      "origin": "research/external-audits/gemini/RECONCILIATION.json",
+      "origin_index": 6,
+      "origin_blob_sha": "3e7eef47b210b139c3e69e2bb24e1e9da8d9e1e8",
+      "original_title": "Acitretin capsule prescribing information",
+      "archive_extraction": {
+        "design": "US prescribing information",
+        "finding": "Avoid pregnancy during therapy and at least three years after stopping; nursing restriction is separate.",
+        "limitations": "Do not infer an identical fixed three-year breastfeeding washout from pregnancy warning. Prescriber handles medication plans.",
+        "checked_locator": "DailyMed pregnancy/nursing warnings",
+        "correction_retraction_status": "comprehensive independent check pending",
+        "topics": [
+          "REPRO-001",
+          "FACE-001"
+        ]
+      },
+      "archived_funding_notes": [],
+      "archived_financial_interest_notes": [],
+      "archived_finding_present": true,
+      "archived_design_or_limitations_present": true,
+      "next_checks": [
+        "Extract funding, in-kind contributions and funder role from original disclosure.",
+        "Extract author/institution interests and disclosure status from original source.",
+        "Verify original identity/version and correction/retraction status; assess bias and claim applicability before release."
+      ],
+      "scope": "Original repository record matched by source ID, not a newly inspected external publication.",
+      "independent_bias_appraisal_complete": false,
+      "clinical_review": false,
+      "publish": false
+    },
+    {
+      "id": "GE008",
+      "origin": "research/external-audits/gemini/RECONCILIATION.json",
+      "origin_index": 7,
+      "origin_blob_sha": "3e7eef47b210b139c3e69e2bb24e1e9da8d9e1e8",
+      "original_title": "Efficacy of topical silicone gel in scar management: A systematic review and meta-analysis of randomised controlled trials",
+      "archive_extraction": {
+        "design": "systematic review/meta-analysis",
+        "finding": "Relevant scar review identified; Gemini reports VSS pigmentation, height and pliability improvements.",
+        "limitations": "Mixed scar populations; no automatic transfer to cesarean-specific outcomes or open wounds.",
+        "checked_locator": "Indexed PubMed title; numerical details pending",
+        "correction_retraction_status": "comprehensive independent check pending",
+        "topics": [
+          "SCAR-001"
+        ]
+      },
+      "archived_funding_notes": [],
+      "archived_financial_interest_notes": [],
+      "archived_finding_present": true,
+      "archived_design_or_limitations_present": true,
+      "next_checks": [
+        "Extract funding, in-kind contributions and funder role from original disclosure.",
+        "Extract author/institution interests and disclosure status from original source.",
+        "Verify original identity/version and correction/retraction status; assess bias and claim applicability before release."
+      ],
+      "scope": "Original repository record matched by source ID, not a newly inspected external publication.",
+      "independent_bias_appraisal_complete": false,
+      "clinical_review": false,
+      "publish": false
+    },
+    {
+      "id": "P1-01",
+      "origin": "research/staged-completion/stage-01/SOURCES.json",
+      "origin_index": 0,
+      "origin_blob_sha": "ede745436b766aaa1d963d97fece1c9018d62e24",
+      "original_title": "Industry sponsorship and research outcome",
+      "archive_extraction": {
+        "design": "2017 Cochrane methods review",
+        "finding": "Efficacy favorable RR 1.27 (95% CI 1.17–1.37); conclusions favorable RR 1.34 (1.19–1.51); harms RR 1.37 (.64–2.93). Drug/device studies, not a universal correction.",
+        "access": "publisher indexed results",
+        "status": "staged methodological evidence or research lead; no automatic publication",
+        "funding": "review funding/COI extraction pending"
+      },
+      "archived_funding_notes": [
+        "review funding/COI extraction pending"
+      ],
+      "archived_financial_interest_notes": [],
+      "archived_finding_present": true,
+      "archived_design_or_limitations_present": true,
+      "next_checks": [
+        "Extract author/institution interests and disclosure status from original source.",
+        "Verify original identity/version and correction/retraction status; assess bias and claim applicability before release."
+      ],
+      "scope": "Original repository record matched by source ID, not a newly inspected external publication.",
+      "independent_bias_appraisal_complete": false,
+      "clinical_review": false,
+      "publish": false
+    },
+    {
+      "id": "P1-02",
+      "origin": "research/staged-completion/stage-01/SOURCES.json",
+      "origin_index": 1,
+      "origin_blob_sha": "ede745436b766aaa1d963d97fece1c9018d62e24",
+      "original_title": "Association of Industry Sponsorship With Outcomes of Nutrition Studies",
+      "archive_extraction": {
+        "design": "2016 systematic review/meta-analysis",
+        "finding": "Favorable conclusions RR 1.31 (.99–1.72); uncertainty includes null; nutrition evidence not equivalent to drug/device evidence.",
+        "access": "indexed abstract",
+        "status": "staged methodological evidence or research lead; no automatic publication",
+        "funding": "pending"
+      },
+      "archived_funding_notes": [
+        "pending"
+      ],
+      "archived_financial_interest_notes": [],
+      "archived_finding_present": true,
+      "archived_design_or_limitations_present": true,
+      "next_checks": [
+        "Extract author/institution interests and disclosure status from original source.",
+        "Verify original identity/version and correction/retraction status; assess bias and claim applicability before release."
+      ],
+      "scope": "Original repository record matched by source ID, not a newly inspected external publication.",
+      "independent_bias_appraisal_complete": false,
+      "clinical_review": false,
+      "publish": false
+    },
+    {
+      "id": "P1-03",
+      "origin": "research/staged-completion/stage-01/SOURCES.json",
+      "origin_index": 2,
+      "origin_blob_sha": "ede745436b766aaa1d963d97fece1c9018d62e24",
+      "original_title": "Conduct and reporting of formula milk trials",
+      "archive_extraction": {
+        "design": "2021 systematic review; 125 recent trials",
+        "finding": "100/125 high RoB; 5/125 low RoB; 98/117 with reported funding industry-supported; 60/81 with clear role industry involved analysis/report; 17/125 low COI by review criteria. Effect size not related to commercial involvement in superiority subset, high RoB associated with favorable conclusions.",
+        "access": "PMC Results Tables 2–3; disclosure indexed",
+        "status": "staged methodological evidence or research lead; no automatic publication",
+        "funding": "Imperial Health Charity support; lead author declared outside-work ties including expert witness formula claims and personal fees; full disclosures to extract"
+      },
+      "archived_funding_notes": [
+        "Imperial Health Charity support; lead author declared outside-work ties including expert witness formula claims and personal fees; full disclosures to extract"
+      ],
+      "archived_financial_interest_notes": [],
+      "archived_finding_present": true,
+      "archived_design_or_limitations_present": true,
+      "next_checks": [
+        "Extract author/institution interests and disclosure status from original source.",
+        "Verify original identity/version and correction/retraction status; assess bias and claim applicability before release."
+      ],
+      "scope": "Original repository record matched by source ID, not a newly inspected external publication.",
+      "independent_bias_appraisal_complete": false,
+      "clinical_review": false,
+      "publish": false
+    },
+    {
+      "id": "P1-04",
+      "origin": "research/staged-completion/stage-01/SOURCES.json",
+      "origin_index": 3,
+      "origin_blob_sha": "ede745436b766aaa1d963d97fece1c9018d62e24",
+      "original_title": "Assessing conflict of interest reporting and quality of clinical trials on infant formula",
+      "archive_extraction": {
+        "design": "2024 systematic review",
+        "finding": "Fortified formula trials often high risk of bias; overlap with P1-03 unresolved.",
+        "access": "indexed abstract",
+        "status": "staged methodological evidence or research lead; no automatic publication",
+        "funding": "pending"
+      },
+      "archived_funding_notes": [
+        "pending"
+      ],
+      "archived_financial_interest_notes": [],
+      "archived_finding_present": true,
+      "archived_design_or_limitations_present": true,
+      "next_checks": [
+        "Extract author/institution interests and disclosure status from original source.",
+        "Verify original identity/version and correction/retraction status; assess bias and claim applicability before release."
+      ],
+      "scope": "Original repository record matched by source ID, not a newly inspected external publication.",
+      "independent_bias_appraisal_complete": false,
+      "clinical_review": false,
+      "publish": false
+    },
+    {
+      "id": "P1-05",
+      "origin": "research/staged-completion/stage-01/SOURCES.json",
+      "origin_index": 4,
+      "origin_blob_sha": "ede745436b766aaa1d963d97fece1c9018d62e24",
+      "original_title": "Health and nutrition claims for infant formula: international cross sectional survey",
+      "archive_extraction": {
+        "design": "2023 cross-sectional marketing survey",
+        "finding": "Many claims lack robust clinical support; distinguish marketing claim evidence from nutritional adequacy. Not a clinical outcome study.",
+        "access": "indexed publisher/PMC; full access blocked",
+        "status": "staged methodological evidence or research lead; no automatic publication",
+        "funding": "pending"
+      },
+      "archived_funding_notes": [
+        "pending"
+      ],
+      "archived_financial_interest_notes": [],
+      "archived_finding_present": true,
+      "archived_design_or_limitations_present": true,
+      "next_checks": [
+        "Extract author/institution interests and disclosure status from original source.",
+        "Verify original identity/version and correction/retraction status; assess bias and claim applicability before release."
+      ],
+      "scope": "Original repository record matched by source ID, not a newly inspected external publication.",
+      "independent_bias_appraisal_complete": false,
+      "clinical_review": false,
+      "publish": false
+    },
+    {
+      "id": "P1-06",
+      "origin": "research/staged-completion/stage-01/SOURCES.json",
+      "origin_index": 5,
+      "origin_blob_sha": "ede745436b766aaa1d963d97fece1c9018d62e24",
+      "original_title": "Effects of Early Toilet Training and Elimination Communication With Respect to Diaper Types",
+      "archive_extraction": {
+        "design": "2023 observational study",
+        "finding": "Cloth and more diaper-free time associated with earlier toilet training. Confounding and definitions require extraction.",
+        "access": "indexed abstract",
+        "status": "staged methodological evidence or research lead; no automatic publication",
+        "funding": "pending"
+      },
+      "archived_funding_notes": [
+        "pending"
+      ],
+      "archived_financial_interest_notes": [],
+      "archived_finding_present": true,
+      "archived_design_or_limitations_present": true,
+      "next_checks": [
+        "Extract author/institution interests and disclosure status from original source.",
+        "Verify original identity/version and correction/retraction status; assess bias and claim applicability before release."
+      ],
+      "scope": "Original repository record matched by source ID, not a newly inspected external publication.",
+      "independent_bias_appraisal_complete": false,
+      "clinical_review": false,
+      "publish": false
+    },
+    {
+      "id": "P1-07",
+      "origin": "research/staged-completion/stage-01/SOURCES.json",
+      "origin_index": 6,
+      "origin_blob_sha": "ede745436b766aaa1d963d97fece1c9018d62e24",
+      "original_title": "Do disposable diapers reduce urination elimination signals in non-toilet-trained children?",
+      "archive_extraction": {
+        "design": "2025 prospective pilot",
+        "finding": "23 of 28 complete; reduced urination signals wearing diapers; not actual age of training completion.",
+        "access": "indexed abstract",
+        "status": "staged methodological evidence or research lead; no automatic publication",
+        "funding": "pending; check possible overlap with P1-08"
+      },
+      "archived_funding_notes": [
+        "pending; check possible overlap with P1-08"
+      ],
+      "archived_financial_interest_notes": [],
+      "archived_finding_present": true,
+      "archived_design_or_limitations_present": true,
+      "next_checks": [
+        "Extract author/institution interests and disclosure status from original source.",
+        "Verify original identity/version and correction/retraction status; assess bias and claim applicability before release."
+      ],
+      "scope": "Original repository record matched by source ID, not a newly inspected external publication.",
+      "independent_bias_appraisal_complete": false,
+      "clinical_review": false,
+      "publish": false
+    },
+    {
+      "id": "P1-08",
+      "origin": "research/staged-completion/stage-01/SOURCES.json",
+      "origin_index": 7,
+      "origin_blob_sha": "ede745436b766aaa1d963d97fece1c9018d62e24",
+      "original_title": "Measuring the impact of disposable diapers on urination elimination signals in non-toilet-trained children",
+      "archive_extraction": {
+        "design": "2025 crossover pilot",
+        "finding": "Observe with and without diaper. Check sample identity with P1-07; no independent count yet.",
+        "access": "indexed publisher funding and abstract",
+        "status": "staged methodological evidence or research lead; no automatic publication",
+        "funding": "authors report no specific grant, no competing interests (indexed PMID 40640001)"
+      },
+      "archived_funding_notes": [
+        "authors report no specific grant, no competing interests (indexed PMID 40640001)"
+      ],
+      "archived_financial_interest_notes": [],
+      "archived_finding_present": true,
+      "archived_design_or_limitations_present": true,
+      "next_checks": [
+        "Extract author/institution interests and disclosure status from original source.",
+        "Verify original identity/version and correction/retraction status; assess bias and claim applicability before release."
+      ],
+      "scope": "Original repository record matched by source ID, not a newly inspected external publication.",
+      "independent_bias_appraisal_complete": false,
+      "clinical_review": false,
+      "publish": false
+    },
+    {
+      "id": "P1-09",
+      "origin": "research/staged-completion/stage-01/SOURCES.json",
+      "origin_index": 8,
+      "origin_blob_sha": "ede745436b766aaa1d963d97fece1c9018d62e24",
+      "original_title": "Assisted Infant Toilet Training and Bladder and Bowel Health: A Global Integrative Review",
+      "archive_extraction": {
+        "design": "2025 integrative review",
+        "finding": "Observational findings potentially protective but serious risk of bias. Review reports cultural variation and evidence gaps.",
+        "access": "publisher full text methods/discussion/disclosures",
+        "status": "staged methodological evidence or research lead; no automatic publication",
+        "funding": "open access support CAUL/member institutions; no declared COI"
+      },
+      "archived_funding_notes": [
+        "open access support CAUL/member institutions; no declared COI"
+      ],
+      "archived_financial_interest_notes": [],
+      "archived_finding_present": true,
+      "archived_design_or_limitations_present": true,
+      "next_checks": [
+        "Extract author/institution interests and disclosure status from original source.",
+        "Verify original identity/version and correction/retraction status; assess bias and claim applicability before release."
+      ],
+      "scope": "Original repository record matched by source ID, not a newly inspected external publication.",
+      "independent_bias_appraisal_complete": false,
+      "clinical_review": false,
+      "publish": false
+    },
+    {
+      "id": "P1-10",
+      "origin": "research/staged-completion/stage-01/SOURCES.json",
+      "origin_index": 9,
+      "origin_blob_sha": "ede745436b766aaa1d963d97fece1c9018d62e24",
+      "original_title": "Assisted infant toilet training and the prevalence of functional gastrointestinal disorders up to the age of 9 months: a randomised, controlled trial",
+      "archive_extraction": {
+        "design": "BABITT ongoing Swedish RCT, early endpoint",
+        "finding": "Early assisted training at moderate frequency did not reduce functional GI disorders by nine months. Long-term continence outcomes not established.",
+        "access": "indexed publisher results and funding; full page blocked",
+        "status": "staged methodological evidence or research lead; no automatic publication",
+        "funding": "Region Dalarna, Regional Research Council Uppsala–Örebro, Mayflower Association, Samaritan Foundation for Paediatric Research, Swedish Enuresis Academy; full COI pending"
+      },
+      "archived_funding_notes": [
+        "Region Dalarna, Regional Research Council Uppsala–Örebro, Mayflower Association, Samaritan Foundation for Paediatric Research, Swedish Enuresis Academy; full COI pending"
+      ],
+      "archived_financial_interest_notes": [],
+      "archived_finding_present": true,
+      "archived_design_or_limitations_present": true,
+      "next_checks": [
+        "Extract author/institution interests and disclosure status from original source.",
+        "Verify original identity/version and correction/retraction status; assess bias and claim applicability before release."
+      ],
+      "scope": "Original repository record matched by source ID, not a newly inspected external publication.",
+      "independent_bias_appraisal_complete": false,
+      "clinical_review": false,
+      "publish": false
+    },
+    {
+      "id": "P1-11",
+      "origin": "research/staged-completion/stage-01/SOURCES.json",
+      "origin_index": 10,
+      "origin_blob_sha": "ede745436b766aaa1d963d97fece1c9018d62e24",
+      "original_title": "Does the development and use of modern disposable diapers affect bladder control? A systematic review",
+      "archive_extraction": {
+        "design": "2021 review",
+        "finding": "Relevant historical and clinical synthesis; full funding statement and study membership needed before interpretation.",
+        "access": "indexed abstract/disclosure excerpt",
+        "status": "staged methodological evidence or research lead; no automatic publication",
+        "funding": "commercial involvement flagged in indexed disclosure; exact sponsor and role pending"
+      },
+      "archived_funding_notes": [
+        "commercial involvement flagged in indexed disclosure; exact sponsor and role pending"
+      ],
+      "archived_financial_interest_notes": [],
+      "archived_finding_present": true,
+      "archived_design_or_limitations_present": true,
+      "next_checks": [
+        "Extract author/institution interests and disclosure status from original source.",
+        "Verify original identity/version and correction/retraction status; assess bias and claim applicability before release."
+      ],
+      "scope": "Original repository record matched by source ID, not a newly inspected external publication.",
+      "independent_bias_appraisal_complete": false,
+      "clinical_review": false,
+      "publish": false
+    },
+    {
+      "id": "P1-12",
+      "origin": "research/staged-completion/stage-01/SOURCES.json",
+      "origin_index": 11,
+      "origin_blob_sha": "ede745436b766aaa1d963d97fece1c9018d62e24",
+      "original_title": "A child-oriented approach to toilet training",
+      "archive_extraction": {
+        "design": "1962 historical pediatric practice series",
+        "finding": "1170 records; mean daytime training 28.5 months; cannot infer historical causal diaper effect.",
+        "access": "indexed abstract",
+        "status": "staged methodological evidence or research lead; no automatic publication",
+        "funding": "historical funding and later industry ties must be documented separately"
+      },
+      "archived_funding_notes": [
+        "historical funding and later industry ties must be documented separately"
+      ],
+      "archived_financial_interest_notes": [],
+      "archived_finding_present": true,
+      "archived_design_or_limitations_present": true,
+      "next_checks": [
+        "Extract author/institution interests and disclosure status from original source.",
+        "Verify original identity/version and correction/retraction status; assess bias and claim applicability before release."
+      ],
+      "scope": "Original repository record matched by source ID, not a newly inspected external publication.",
+      "independent_bias_appraisal_complete": false,
+      "clinical_review": false,
+      "publish": false
+    },
+    {
+      "id": "P1-13",
+      "origin": "research/staged-completion/stage-01/SOURCES.json",
+      "origin_index": 12,
+      "origin_blob_sha": "ede745436b766aaa1d963d97fece1c9018d62e24",
+      "original_title": "Choosing an Infant Formula",
+      "archive_extraction": {
+        "design": "US authoritative guidance",
+        "finding": "Regulated commercial infant formula meets minimum nutrient and safety requirements; homemade formula unsafe.",
+        "access": "indexed CDC guidance",
+        "status": "staged methodological evidence or research lead; no automatic publication",
+        "funding": "government guidance; panel/underlying evidence review separate"
+      },
+      "archived_funding_notes": [
+        "government guidance; panel/underlying evidence review separate"
+      ],
+      "archived_financial_interest_notes": [],
+      "archived_finding_present": true,
+      "archived_design_or_limitations_present": true,
+      "next_checks": [
+        "Extract author/institution interests and disclosure status from original source.",
+        "Verify original identity/version and correction/retraction status; assess bias and claim applicability before release."
+      ],
+      "scope": "Original repository record matched by source ID, not a newly inspected external publication.",
+      "independent_bias_appraisal_complete": false,
+      "clinical_review": false,
+      "publish": false
+    },
+    {
+      "id": "P2-01",
+      "origin": "research/staged-completion/stage-02/SOURCES.json",
+      "origin_index": 0,
+      "origin_blob_sha": "d8c079aba6abf5369b352ae805ec00a1be6c6e3b",
+      "original_title": "Breastfeeding and Health Outcomes for Infants and Children",
+      "archive_extraction": {
+        "design": "AHRQ systematic review of reviews and newer primary evidence",
+        "population": "Term infants in developed countries",
+        "comparison": "Breastfeeding exposure intensity/duration vs less or none",
+        "followup": "Outcome-specific",
+        "finding": "Benefits associated with some infections, asthma and other outcomes; low-to-moderate certainty of no clear association for cognition, eczema and celiac disease. No clear universal duration threshold.",
+        "limitations": "Most primary evidence observational; exposure heterogeneity; not causal proof for every endpoint.",
+        "access": "Indexed executive summary, results and discussion; Table 5 locator",
+        "publication_integrity": "full correction/retraction registry sweep pending",
+        "publication_status": "staged research only",
+        "funding": "AHRQ, US HHS contract",
+        "conflicts": "Complete contractor and panel disclosures pending",
+        "related_ids": [
+          "PED-PROBIT"
+        ]
+      },
+      "archived_funding_notes": [
+        "AHRQ, US HHS contract"
+      ],
+      "archived_financial_interest_notes": [
+        "Complete contractor and panel disclosures pending"
+      ],
+      "archived_finding_present": true,
+      "archived_design_or_limitations_present": true,
+      "next_checks": [
+        "Verify original identity/version and correction/retraction status; assess bias and claim applicability before release."
+      ],
+      "scope": "Original repository record matched by source ID, not a newly inspected external publication.",
+      "independent_bias_appraisal_complete": false,
+      "clinical_review": false,
+      "publish": false
+    },
+    {
+      "id": "P2-02",
+      "origin": "research/staged-completion/stage-02/SOURCES.json",
+      "origin_index": 1,
+      "origin_blob_sha": "d8c079aba6abf5369b352ae805ec00a1be6c6e3b",
+      "original_title": "Breastfeeding during infancy and neurocognitive function in adolescence: 16-year follow-up of the PROBIT cluster-randomized trial",
+      "archive_extraction": {
+        "design": "Cluster RCT follow-up",
+        "population": "Belarus; 12,912 with neurocognitive testing in analysis",
+        "comparison": "Breastfeeding promotion vs usual care; not formula assignment",
+        "followup": "16 years",
+        "finding": "Adjusted verbal function +1.4 points (95% CI 0.3 to 2.5); no broad global cognitive advantage established.",
+        "limitations": "Attrition, assessment measurement reliability, same PROBIT cohort; no comparison of all formula-fed vs breastfed infants.",
+        "registration": "ISRCTN37687716",
+        "access": "Publisher full-text disclosure, indexed results",
+        "publication_integrity": "full correction/retraction registry sweep pending",
+        "publication_status": "staged research only",
+        "funding": "CIHR MOP-53155 and NIH R01HD050758",
+        "conflicts": "GD and SA NeuroTrax employees; data curation, writing/review roles; no formula industry support identified in checked disclosure",
+        "cohort": "PROBIT",
+        "related_ids": [
+          "PED-PROBIT"
+        ]
+      },
+      "archived_funding_notes": [
+        "CIHR MOP-53155 and NIH R01HD050758"
+      ],
+      "archived_financial_interest_notes": [
+        "GD and SA NeuroTrax employees; data curation, writing/review roles; no formula industry support identified in checked disclosure"
+      ],
+      "archived_finding_present": true,
+      "archived_design_or_limitations_present": true,
+      "next_checks": [
+        "Verify original identity/version and correction/retraction status; assess bias and claim applicability before release."
+      ],
+      "scope": "Original repository record matched by source ID, not a newly inspected external publication.",
+      "independent_bias_appraisal_complete": false,
+      "clinical_review": false,
+      "publish": false
+    },
+    {
+      "id": "P2-03",
+      "origin": "research/staged-completion/stage-02/SOURCES.json",
+      "origin_index": 2,
+      "origin_blob_sha": "d8c079aba6abf5369b352ae805ec00a1be6c6e3b",
+      "original_title": "Breastfeeding and child cognitive development: new evidence from a large randomized trial",
+      "archive_extraction": {
+        "design": "Cluster RCT follow-up",
+        "population": "PROBIT mother-infant cohort",
+        "comparison": "Promotion vs usual care",
+        "followup": "6.5 years",
+        "finding": "Reported cognitive advantages, particularly verbal outcomes; later follow-up shows smaller effects.",
+        "limitations": "Not independent replication of P2-02; measurement and assessor bias; numerical extraction pending.",
+        "registration": "ISRCTN37687716",
+        "access": "Indexed abstract",
+        "publication_integrity": "full correction/retraction registry sweep pending",
+        "publication_status": "staged research only",
+        "funding": "Full disclosure pending",
+        "conflicts": "Unknown",
+        "cohort": "PROBIT",
+        "related_ids": [
+          "PED-PROBIT",
+          "P2-02"
+        ]
+      },
+      "archived_funding_notes": [
+        "Full disclosure pending"
+      ],
+      "archived_financial_interest_notes": [
+        "Unknown"
+      ],
+      "archived_finding_present": true,
+      "archived_design_or_limitations_present": true,
+      "next_checks": [
+        "Verify original identity/version and correction/retraction status; assess bias and claim applicability before release."
+      ],
+      "scope": "Original repository record matched by source ID, not a newly inspected external publication.",
+      "independent_bias_appraisal_complete": false,
+      "clinical_review": false,
+      "publish": false
+    },
+    {
+      "id": "P2-04",
+      "origin": "research/staged-completion/stage-02/SOURCES.json",
+      "origin_index": 3,
+      "origin_blob_sha": "d8c079aba6abf5369b352ae805ec00a1be6c6e3b",
+      "original_title": "Is breast truly best? Estimating the effects of breastfeeding on long-term child health and wellbeing in the United States using sibling comparisons",
+      "archive_extraction": {
+        "design": "Observational sibling fixed-effects analysis",
+        "population": "US NLSY children aged 4–14",
+        "comparison": "Differently fed siblings vs between-family comparisons",
+        "followup": "Childhood",
+        "finding": "10/11 outcomes favored breastfeeding in standard models; all but one lost statistical significance in within-family models.",
+        "limitations": "Within-family confounding and measurement error remain; does not negate short-term infection benefits; compare with P2-05 due shared NLSY source.",
+        "access": "Indexed abstract/results",
+        "publication_integrity": "full correction/retraction registry sweep pending",
+        "publication_status": "staged research only",
+        "funding": "Unknown; full acknowledgement extraction pending",
+        "conflicts": "Unknown",
+        "cohort": "NLSY family dataset; overlap with P2-05 possible",
+        "related_ids": []
+      },
+      "archived_funding_notes": [
+        "Unknown; full acknowledgement extraction pending"
+      ],
+      "archived_financial_interest_notes": [
+        "Unknown"
+      ],
+      "archived_finding_present": true,
+      "archived_design_or_limitations_present": true,
+      "next_checks": [
+        "Verify original identity/version and correction/retraction status; assess bias and claim applicability before release."
+      ],
+      "scope": "Original repository record matched by source ID, not a newly inspected external publication.",
+      "independent_bias_appraisal_complete": false,
+      "clinical_review": false,
+      "publish": false
+    },
+    {
+      "id": "P2-05",
+      "origin": "research/staged-completion/stage-02/SOURCES.json",
+      "origin_index": 4,
+      "origin_blob_sha": "d8c079aba6abf5369b352ae805ec00a1be6c6e3b",
+      "original_title": "Effect of breast feeding on intelligence in children: prospective study, sibling pairs analysis, and meta-analysis",
+      "archive_extraction": {
+        "design": "Observational prospective and sibling analysis plus meta-analysis",
+        "population": "US children; maternal IQ measured",
+        "comparison": "Breastfeeding vs not, adjusted models",
+        "followup": "Childhood",
+        "finding": "Maternal IQ strongly predicted breastfeeding and accounted for much apparent association.",
+        "limitations": "Residual confounding; NLSY lineage may overlap P2-04.",
+        "access": "Indexed abstract/byline",
+        "publication_integrity": "full correction/retraction registry sweep pending",
+        "publication_status": "staged research only",
+        "funding": "Wellcome fellowship noted in author affiliation; study-level grants unverified",
+        "conflicts": "Unknown",
+        "related_ids": [
+          "P2-04"
+        ]
+      },
+      "archived_funding_notes": [
+        "Wellcome fellowship noted in author affiliation; study-level grants unverified"
+      ],
+      "archived_financial_interest_notes": [
+        "Unknown"
+      ],
+      "archived_finding_present": true,
+      "archived_design_or_limitations_present": true,
+      "next_checks": [
+        "Verify original identity/version and correction/retraction status; assess bias and claim applicability before release."
+      ],
+      "scope": "Original repository record matched by source ID, not a newly inspected external publication.",
+      "independent_bias_appraisal_complete": false,
+      "clinical_review": false,
+      "publish": false
+    },
+    {
+      "id": "P2-06",
+      "origin": "research/staged-completion/stage-02/SOURCES.json",
+      "origin_index": 5,
+      "origin_blob_sha": "d8c079aba6abf5369b352ae805ec00a1be6c6e3b",
+      "original_title": "Human milk composition: nutrients and bioactive factors",
+      "archive_extraction": {
+        "design": "Narrative biological review",
+        "population": "Human milk",
+        "comparison": "Composition across lactation; no randomized formula comparison",
+        "finding": "Human milk contains dynamic nutrients, immune factors and bioactive constituents.",
+        "limitations": "Composition does not prove clinical superiority for every long-term outcome.",
+        "access": "Indexed bibliographic identity; quantitative composition extraction pending",
+        "publication_integrity": "full correction/retraction registry sweep pending",
+        "publication_status": "staged research only",
+        "funding": "Unknown",
+        "conflicts": "Unknown",
+        "related_ids": []
+      },
+      "archived_funding_notes": [
+        "Unknown"
+      ],
+      "archived_financial_interest_notes": [
+        "Unknown"
+      ],
+      "archived_finding_present": true,
+      "archived_design_or_limitations_present": true,
+      "next_checks": [
+        "Verify original identity/version and correction/retraction status; assess bias and claim applicability before release."
+      ],
+      "scope": "Original repository record matched by source ID, not a newly inspected external publication.",
+      "independent_bias_appraisal_complete": false,
+      "clinical_review": false,
+      "publish": false
+    },
+    {
+      "id": "P2-07",
+      "origin": "research/staged-completion/stage-02/SOURCES.json",
+      "origin_index": 6,
+      "origin_blob_sha": "d8c079aba6abf5369b352ae805ec00a1be6c6e3b",
+      "original_title": "Conduct and reporting of formula milk trials: systematic review",
+      "archive_extraction": {
+        "design": "Systematic methods review",
+        "population": "125 trials, 23,757 children, 2015–2020 subset",
+        "comparison": "Trial conduct and disclosures",
+        "followup": "Trial-specific",
+        "finding": "100/125 high risk of bias, 5/125 low; 98/117 reporting funding industry-supported; 87/112 reporting COI had industry-related author COI; favorable conclusions associated with high RoB OR 7.58 (1.95–29.46).",
+        "limitations": "Not every trial invalid; review does not establish harms of regulated formula; outcome and review funding separate; 2021 correction n2890 needs inspection.",
+        "access": "Indexed primary publication methods/results/disclosures",
+        "publication_integrity": "Correction doi:10.1136/bmj.n2890 identified; correction contents not independently extracted",
+        "publication_status": "staged research only",
+        "funding": "Imperial Health Charity; no role in design/analysis/writing/decision per authors",
+        "conflicts": "Lead author outside-work fees including DBV, Prota, Cochrane, expert witness work involving formula claims, and public health committee roles; other disclosures require full extraction",
+        "related_ids": [
+          "P1-03"
+        ]
+      },
+      "archived_funding_notes": [
+        "Imperial Health Charity; no role in design/analysis/writing/decision per authors"
+      ],
+      "archived_financial_interest_notes": [
+        "Lead author outside-work fees including DBV, Prota, Cochrane, expert witness work involving formula claims, and public health committee roles; other disclosures require full extraction"
+      ],
+      "archived_finding_present": true,
+      "archived_design_or_limitations_present": true,
+      "next_checks": [
+        "Verify original identity/version and correction/retraction status; assess bias and claim applicability before release."
+      ],
+      "scope": "Original repository record matched by source ID, not a newly inspected external publication.",
+      "independent_bias_appraisal_complete": false,
+      "clinical_review": false,
+      "publish": false
+    },
+    {
+      "id": "P2-08",
+      "origin": "research/staged-completion/stage-02/SOURCES.json",
+      "origin_index": 7,
+      "origin_blob_sha": "d8c079aba6abf5369b352ae805ec00a1be6c6e3b",
+      "original_title": "Health and nutrition claims for infant formula: international cross sectional survey",
+      "archive_extraction": {
+        "design": "Cross-sectional marketing survey",
+        "population": "757 products in 15 countries",
+        "comparison": "Claims, references, registered trial support",
+        "finding": "1884 claims; 161/608 products with claims cited references; 28/32 registered trials industry-funded and/or industry-affiliated authors.",
+        "limitations": "Product snapshot not current recall or composition list; not clinical efficacy trial; full author disclosure extraction pending.",
+        "access": "Indexed original results and funding statement",
+        "publication_integrity": "full correction/retraction registry sweep pending",
+        "publication_status": "staged research only",
+        "funding": "No external funding reported",
+        "conflicts": "Full competing-interest details pending",
+        "related_ids": [
+          "P1-05"
+        ]
+      },
+      "archived_funding_notes": [
+        "No external funding reported"
+      ],
+      "archived_financial_interest_notes": [
+        "Full competing-interest details pending"
+      ],
+      "archived_finding_present": true,
+      "archived_design_or_limitations_present": true,
+      "next_checks": [
+        "Verify original identity/version and correction/retraction status; assess bias and claim applicability before release."
+      ],
+      "scope": "Original repository record matched by source ID, not a newly inspected external publication.",
+      "independent_bias_appraisal_complete": false,
+      "clinical_review": false,
+      "publish": false
+    },
+    {
+      "id": "P2-09",
+      "origin": "research/staged-completion/stage-02/SOURCES.json",
+      "origin_index": 8,
+      "origin_blob_sha": "d8c079aba6abf5369b352ae805ec00a1be6c6e3b",
+      "original_title": "Effects of Infant Formula With Human Milk Oligosaccharides on Growth and Morbidity: A Randomized Multicenter Trial",
+      "archive_extraction": {
+        "design": "Randomized multicenter trial",
+        "population": "175 healthy term newborns; 88 test,87 control",
+        "comparison": "1 g/L 2'FL + .5 g/L LNnT vs identical base formula without these HMOs",
+        "followup": "Formula to 6 months, outcomes through 12 months",
+        "finding": "Growth/tolerance primary context; parent-reported bronchitis 10.2% vs 27.6% through 12 months; antibiotics 42.0% vs 60.9%.",
+        "limitations": "Secondary outcomes, multiple comparisons and parent report; no equivalence to breast milk; independent replication needed.",
+        "adverse_events": "Secondary morbidity/adverse-event clusters reported; comprehensive SAE and denominators extraction pending",
+        "access": "PMC original affiliations and disclosure, indexed results",
+        "publication_integrity": "full correction/retraction registry sweep pending",
+        "publication_status": "staged research only",
+        "funding": "Nestlé grants and nonfinancial support to participating hospitals",
+        "conflicts": "Several current/former Nestlé employees; GP/CC other sponsored studies",
+        "related_ids": []
+      },
+      "archived_funding_notes": [
+        "Nestlé grants and nonfinancial support to participating hospitals"
+      ],
+      "archived_financial_interest_notes": [
+        "Several current/former Nestlé employees; GP/CC other sponsored studies"
+      ],
+      "archived_finding_present": true,
+      "archived_design_or_limitations_present": true,
+      "next_checks": [
+        "Verify original identity/version and correction/retraction status; assess bias and claim applicability before release."
+      ],
+      "scope": "Original repository record matched by source ID, not a newly inspected external publication.",
+      "independent_bias_appraisal_complete": false,
+      "clinical_review": false,
+      "publish": false
+    },
+    {
+      "id": "P2-10",
+      "origin": "research/staged-completion/stage-02/SOURCES.json",
+      "origin_index": 9,
+      "origin_blob_sha": "d8c079aba6abf5369b352ae805ec00a1be6c6e3b",
+      "original_title": "Long chain polyunsaturated fatty acid supplementation in infants born at term",
+      "archive_extraction": {
+        "design": "Cochrane systematic review",
+        "population": "Term infants receiving formula",
+        "comparison": "Added LCPUFA vs no added LCPUFA",
+        "followup": "Trial-specific",
+        "finding": "No consistent neurodevelopmental benefit supporting routine addition in reviewed trials.",
+        "limitations": "Older formulations; no conclusion that DHA is biologically unnecessary or current regulatory standards should change.",
+        "access": "Indexed abstract",
+        "publication_integrity": "full correction/retraction registry sweep pending",
+        "publication_status": "staged research only",
+        "funding": "Unknown",
+        "conflicts": "Unknown",
+        "related_ids": []
+      },
+      "archived_funding_notes": [
+        "Unknown"
+      ],
+      "archived_financial_interest_notes": [
+        "Unknown"
+      ],
+      "archived_finding_present": true,
+      "archived_design_or_limitations_present": true,
+      "next_checks": [
+        "Verify original identity/version and correction/retraction status; assess bias and claim applicability before release."
+      ],
+      "scope": "Original repository record matched by source ID, not a newly inspected external publication.",
+      "independent_bias_appraisal_complete": false,
+      "clinical_review": false,
+      "publish": false
+    },
+    {
+      "id": "P2-11",
+      "origin": "research/staged-completion/stage-02/SOURCES.json",
+      "origin_index": 10,
+      "origin_blob_sha": "d8c079aba6abf5369b352ae805ec00a1be6c6e3b",
+      "original_title": "Infant formula supplementation with long-chain polyunsaturated fatty acids has no effect on Bayley developmental scores at 18 months of age--IPD meta-analysis of 4 large clinical trials",
+      "archive_extraction": {
+        "design": "IPD meta-analysis",
+        "population": "Term and preterm infants in four trials",
+        "comparison": "LCPUFA supplemented vs control formula",
+        "followup": "18 months",
+        "finding": "Mental developmental index MD -0.8 (-2.8 to 1.2); psychomotor MD -1.0 (-2.7 to 0.7).",
+        "limitations": "Mixed term/preterm; review overlap with P2-10 requires matching; not all contemporary formulations.",
+        "access": "Indexed abstract",
+        "publication_integrity": "full correction/retraction registry sweep pending",
+        "publication_status": "staged research only",
+        "funding": "Unknown",
+        "conflicts": "Unknown",
+        "related_ids": [
+          "P2-10"
+        ]
+      },
+      "archived_funding_notes": [
+        "Unknown"
+      ],
+      "archived_financial_interest_notes": [
+        "Unknown"
+      ],
+      "archived_finding_present": true,
+      "archived_design_or_limitations_present": true,
+      "next_checks": [
+        "Verify original identity/version and correction/retraction status; assess bias and claim applicability before release."
+      ],
+      "scope": "Original repository record matched by source ID, not a newly inspected external publication.",
+      "independent_bias_appraisal_complete": false,
+      "clinical_review": false,
+      "publish": false
+    },
+    {
+      "id": "P2-12",
+      "origin": "research/staged-completion/stage-02/SOURCES.json",
+      "origin_index": 11,
+      "origin_blob_sha": "d8c079aba6abf5369b352ae805ec00a1be6c6e3b",
+      "original_title": "Hydrolysed formula and risk of allergic or autoimmune disease: systematic review and meta-analysis",
+      "archive_extraction": {
+        "design": "Systematic review/meta-analysis",
+        "population": "Infants at risk or general populations, trial-specific",
+        "comparison": "Hydrolysed vs other formula or breastfeeding comparison",
+        "followup": "Outcome-specific",
+        "finding": "No consistent prevention benefit; excluded Chandra studies implicated in research integrity concerns.",
+        "limitations": "Prevention distinct from treatment of diagnosed allergy; full trial funding and notice reconciliation pending.",
+        "access": "Indexed publisher and abstract",
+        "publication_integrity": "full correction/retraction registry sweep pending",
+        "publication_status": "staged research only",
+        "funding": "Full review funding disclosure pending",
+        "conflicts": "Unknown",
+        "related_ids": []
+      },
+      "archived_funding_notes": [
+        "Full review funding disclosure pending"
+      ],
+      "archived_financial_interest_notes": [
+        "Unknown"
+      ],
+      "archived_finding_present": true,
+      "archived_design_or_limitations_present": true,
+      "next_checks": [
+        "Verify original identity/version and correction/retraction status; assess bias and claim applicability before release."
+      ],
+      "scope": "Original repository record matched by source ID, not a newly inspected external publication.",
+      "independent_bias_appraisal_complete": false,
+      "clinical_review": false,
+      "publish": false
+    },
+    {
+      "id": "P2-13",
+      "origin": "research/staged-completion/stage-02/SOURCES.json",
+      "origin_index": 12,
+      "origin_blob_sha": "d8c079aba6abf5369b352ae805ec00a1be6c6e3b",
+      "original_title": "Does a profound change in toilet-training affect development of bowel and bladder control?",
+      "archive_extraction": {
+        "design": "Two historical longitudinal cohorts",
+        "population": "Zurich: 320 born 1954–56 and 309 born 1974–84",
+        "comparison": "Earlier vs later birth cohorts",
+        "followup": "Childhood",
+        "finding": "Median training onset 13 months later; bowel control 16 months later; day/night bladder control not affected according to authors.",
+        "limitations": "Different caregiving methods; no random assignment to diaper type; authors distinguish maternal control vs child initiative; not US national trend.",
+        "access": "Publisher abstract",
+        "publication_integrity": "full correction/retraction registry sweep pending",
+        "publication_status": "staged research only",
+        "funding": "Unknown",
+        "conflicts": "Unknown",
+        "related_ids": []
+      },
+      "archived_funding_notes": [
+        "Unknown"
+      ],
+      "archived_financial_interest_notes": [
+        "Unknown"
+      ],
+      "archived_finding_present": true,
+      "archived_design_or_limitations_present": true,
+      "next_checks": [
+        "Verify original identity/version and correction/retraction status; assess bias and claim applicability before release."
+      ],
+      "scope": "Original repository record matched by source ID, not a newly inspected external publication.",
+      "independent_bias_appraisal_complete": false,
+      "clinical_review": false,
+      "publish": false
+    },
+    {
+      "id": "P2-14",
+      "origin": "research/staged-completion/stage-02/SOURCES.json",
+      "origin_index": 13,
+      "origin_blob_sha": "d8c079aba6abf5369b352ae805ec00a1be6c6e3b",
+      "original_title": "Effects of Early Toilet Training and Elimination Communication With Respect to Diaper Types",
+      "archive_extraction": {
+        "design": "Web survey",
+        "population": "Caregivers reporting diaper and training patterns",
+        "comparison": "Diaper-free time and cloth/disposable use",
+        "followup": "Retrospective/cross-sectional",
+        "finding": "More diaper-free time associated with earlier toilet training, enhanced by cloth use; cloth not associated with rash/balm use; more diaper-free time associated with reduced caregiver continuous sleep.",
+        "limitations": "Self-selection, reverse causation, recall bias, unknown endpoint definitions/adjustment; sample and adjusted effect extraction pending.",
+        "access": "Indexed abstract and results",
+        "publication_integrity": "full correction/retraction registry sweep pending",
+        "publication_status": "staged research only",
+        "funding": "Unknown",
+        "conflicts": "Unknown",
+        "related_ids": [
+          "P1-06"
+        ]
+      },
+      "archived_funding_notes": [
+        "Unknown"
+      ],
+      "archived_financial_interest_notes": [
+        "Unknown"
+      ],
+      "archived_finding_present": true,
+      "archived_design_or_limitations_present": true,
+      "next_checks": [
+        "Verify original identity/version and correction/retraction status; assess bias and claim applicability before release."
+      ],
+      "scope": "Original repository record matched by source ID, not a newly inspected external publication.",
+      "independent_bias_appraisal_complete": false,
+      "clinical_review": false,
+      "publish": false
+    },
+    {
+      "id": "P2-15",
+      "origin": "research/staged-completion/stage-02/SOURCES.json",
+      "origin_index": 14,
+      "origin_blob_sha": "d8c079aba6abf5369b352ae805ec00a1be6c6e3b",
+      "original_title": "Measuring the impact of disposable diapers on urination elimination signals in non-toilet-trained children",
+      "archive_extraction": {
+        "design": "Prospective crossover pilot methods report",
+        "population": "Not-yet-toilet-trained children",
+        "comparison": "With vs without diaper",
+        "followup": "Observation session",
+        "finding": "Within-child observation using moisture sensor and cue assessment.",
+        "limitations": "Treat as linked to P2-16 until cohort identity established; not a separate replication.",
+        "access": "Indexed publisher methods/funding",
+        "publication_integrity": "full correction/retraction registry sweep pending",
+        "publication_status": "staged research only",
+        "funding": "No specific grant reported",
+        "conflicts": "Full COI statement pending",
+        "cohort": "Antwerp crossover pilot; link to P2-16 provisional",
+        "related_ids": [
+          "P1-08",
+          "P2-16"
+        ]
+      },
+      "archived_funding_notes": [
+        "No specific grant reported"
+      ],
+      "archived_financial_interest_notes": [
+        "Full COI statement pending"
+      ],
+      "archived_finding_present": true,
+      "archived_design_or_limitations_present": true,
+      "next_checks": [
+        "Verify original identity/version and correction/retraction status; assess bias and claim applicability before release."
+      ],
+      "scope": "Original repository record matched by source ID, not a newly inspected external publication.",
+      "independent_bias_appraisal_complete": false,
+      "clinical_review": false,
+      "publish": false
+    },
+    {
+      "id": "P2-16",
+      "origin": "research/staged-completion/stage-02/SOURCES.json",
+      "origin_index": 15,
+      "origin_blob_sha": "d8c079aba6abf5369b352ae805ec00a1be6c6e3b",
+      "original_title": "Do disposable diapers reduce urination elimination signals in non-toilet-trained children?",
+      "archive_extraction": {
+        "design": "Prospective within-child crossover study",
+        "population": "28 enrolled, 23 complete; 19–30 months, mean 24",
+        "comparison": "Without vs with disposable diaper",
+        "followup": "Observation session",
+        "finding": "Verbal cues 43% vs 13%; seeking caregiver contact 52% vs 13%; leg movement and activity cessation each 87% vs 35%; genital attention during urination 78% vs 13%.",
+        "limitations": "Small sample, incomplete cases, repeated paired outcomes; no long-term training age; do not reconstruct matched counts or calculate independent RR.",
+        "access": "Indexed abstract",
+        "publication_integrity": "full correction/retraction registry sweep pending",
+        "publication_status": "staged research only",
+        "funding": "Full final-paper disclosure pending; related methods paper reports no specific grant, not proof for this report",
+        "conflicts": "Unknown",
+        "cohort": "Antwerp crossover pilot; probable shared lineage",
+        "related_ids": [
+          "P1-07",
+          "P2-15"
+        ]
+      },
+      "archived_funding_notes": [
+        "Full final-paper disclosure pending; related methods paper reports no specific grant, not proof for this report"
+      ],
+      "archived_financial_interest_notes": [
+        "Unknown"
+      ],
+      "archived_finding_present": true,
+      "archived_design_or_limitations_present": true,
+      "next_checks": [
+        "Verify original identity/version and correction/retraction status; assess bias and claim applicability before release."
+      ],
+      "scope": "Original repository record matched by source ID, not a newly inspected external publication.",
+      "independent_bias_appraisal_complete": false,
+      "clinical_review": false,
+      "publish": false
+    },
+    {
+      "id": "P2-17",
+      "origin": "research/staged-completion/stage-02/SOURCES.json",
+      "origin_index": 16,
+      "origin_blob_sha": "d8c079aba6abf5369b352ae805ec00a1be6c6e3b",
+      "original_title": "Assisted infant toilet training and the prevalence of functional gastrointestinal disorders up to the age of 9 months: a randomised, controlled trial",
+      "archive_extraction": {
+        "design": "Randomized controlled trial, first BABITT report (online 2025)",
+        "population": "271 infants, median 34 days; 136 vs 135 assigned; complete cases 127 vs 132",
+        "comparison": "Early assisted infant toilet training vs delayed start",
+        "followup": "9 months",
+        "finding": "Composite functional GI disorder prevalence 52.0% vs 49.6%; difference +2.4 percentage points (95% CI -9.8 to 14.7).",
+        "limitations": "Caregiver reported; moderate practice frequency; early GI outcome not independent toileting or later bladder health; later follow-up planned.",
+        "registration": "NCT04082689",
+        "access": "Indexed original results and funding",
+        "publication_integrity": "full correction/retraction registry sweep pending",
+        "publication_status": "staged research only",
+        "funding": "Region Dalarna, Regional Research Council Uppsala–Örebro, Mayflower Association, Samaritan Foundation, Swedish Enuresis Academy; authors state no funder role",
+        "conflicts": "Full conflicts statement pending",
+        "cohort": "BABITT",
+        "related_ids": [
+          "P1-10"
+        ]
+      },
+      "archived_funding_notes": [
+        "Region Dalarna, Regional Research Council Uppsala–Örebro, Mayflower Association, Samaritan Foundation, Swedish Enuresis Academy; authors state no funder role"
+      ],
+      "archived_financial_interest_notes": [
+        "Full conflicts statement pending"
+      ],
+      "archived_finding_present": true,
+      "archived_design_or_limitations_present": true,
+      "next_checks": [
+        "Verify original identity/version and correction/retraction status; assess bias and claim applicability before release."
+      ],
+      "scope": "Original repository record matched by source ID, not a newly inspected external publication.",
+      "independent_bias_appraisal_complete": false,
+      "clinical_review": false,
+      "publish": false
+    },
+    {
+      "id": "P2-18",
+      "origin": "research/staged-completion/stage-02/SOURCES.json",
+      "origin_index": 17,
+      "origin_blob_sha": "d8c079aba6abf5369b352ae805ec00a1be6c6e3b",
+      "original_title": "Bowel and bladder function in infant toilet training (BABITT) - protocol for a randomized, two-armed intervention study",
+      "archive_extraction": {
+        "design": "Protocol",
+        "population": "Swedish infants",
+        "comparison": "Early vs later assisted toilet training",
+        "followup": "Planned through four years",
+        "finding": "Defines study rationale; no efficacy outcome.",
+        "limitations": "Do not count as clinical results; later bladder outcomes not established in current extraction.",
+        "registration": "NCT04082689",
+        "access": "Indexed abstract",
+        "publication_integrity": "full correction/retraction registry sweep pending",
+        "publication_status": "staged research only",
+        "funding": "See BABITT funding; protocol-specific verification pending",
+        "conflicts": "Unknown",
+        "cohort": "BABITT",
+        "related_ids": [
+          "P2-17"
+        ]
+      },
+      "archived_funding_notes": [
+        "See BABITT funding; protocol-specific verification pending"
+      ],
+      "archived_financial_interest_notes": [
+        "Unknown"
+      ],
+      "archived_finding_present": true,
+      "archived_design_or_limitations_present": true,
+      "next_checks": [
+        "Verify original identity/version and correction/retraction status; assess bias and claim applicability before release."
+      ],
+      "scope": "Original repository record matched by source ID, not a newly inspected external publication.",
+      "independent_bias_appraisal_complete": false,
+      "clinical_review": false,
+      "publish": false
+    },
+    {
+      "id": "P2-19",
+      "origin": "research/staged-completion/stage-02/SOURCES.json",
+      "origin_index": 18,
+      "origin_blob_sha": "d8c079aba6abf5369b352ae805ec00a1be6c6e3b",
+      "original_title": "Assisted Infant Toilet Training and Bladder and Bowel Health: A Global Integrative Review",
+      "archive_extraction": {
+        "design": "Integrative review",
+        "population": "International infant toileting studies",
+        "comparison": "Assisted training vs varying conventional practices",
+        "followup": "Varies",
+        "finding": "Suggestive observational benefits and serious bias limitations; no definitive prevention claim.",
+        "limitations": "Review overlap with historical/cultural studies pending.",
+        "access": "Inherited Stage 1 publisher extraction; not re-read this pass",
+        "publication_integrity": "full correction/retraction registry sweep pending",
+        "publication_status": "staged research only",
+        "funding": "CAUL/member institutions open-access support as recorded in Stage 1; project grant disclosure to recheck",
+        "conflicts": "No declared COI per Stage 1 extraction; recheck full text",
+        "related_ids": [
+          "P1-09"
+        ]
+      },
+      "archived_funding_notes": [
+        "CAUL/member institutions open-access support as recorded in Stage 1; project grant disclosure to recheck"
+      ],
+      "archived_financial_interest_notes": [
+        "No declared COI per Stage 1 extraction; recheck full text"
+      ],
+      "archived_finding_present": true,
+      "archived_design_or_limitations_present": true,
+      "next_checks": [
+        "Verify original identity/version and correction/retraction status; assess bias and claim applicability before release."
+      ],
+      "scope": "Original repository record matched by source ID, not a newly inspected external publication.",
+      "independent_bias_appraisal_complete": false,
+      "clinical_review": false,
+      "publish": false
+    },
+    {
+      "id": "P2-20",
+      "origin": "research/staged-completion/stage-02/SOURCES.json",
+      "origin_index": 19,
+      "origin_blob_sha": "d8c079aba6abf5369b352ae805ec00a1be6c6e3b",
+      "original_title": "Urinary bladder control during the first 3 years of life in healthy children in Vietnam--a comparison study with Swedish children",
+      "archive_extraction": {
+        "design": "Longitudinal cross-cultural comparison",
+        "population": "47 Vietnamese children with Swedish reference comparison",
+        "comparison": "Early caregiver-assisted training vs historical Swedish practices",
+        "followup": "3 years",
+        "finding": "Early toileting routine and different bladder development observations; 81% of mothers began at 3 months in earlier linked report; all regularly potty trained at 12 months.",
+        "limitations": "Caregiver-assisted routine not autonomous continence; culture, cohort, design differences; no causal inference.",
+        "access": "Indexed original abstract/results",
+        "publication_integrity": "full correction/retraction registry sweep pending",
+        "publication_status": "staged research only",
+        "funding": "Unknown",
+        "conflicts": "Unknown",
+        "cohort": "Vietnam 47-child cohort; companion PMID 23182948",
+        "related_ids": []
+      },
+      "archived_funding_notes": [
+        "Unknown"
+      ],
+      "archived_financial_interest_notes": [
+        "Unknown"
+      ],
+      "archived_finding_present": true,
+      "archived_design_or_limitations_present": true,
+      "next_checks": [
+        "Verify original identity/version and correction/retraction status; assess bias and claim applicability before release."
+      ],
+      "scope": "Original repository record matched by source ID, not a newly inspected external publication.",
+      "independent_bias_appraisal_complete": false,
+      "clinical_review": false,
+      "publish": false
+    },
+    {
+      "id": "P2-21",
+      "origin": "research/staged-completion/stage-02/SOURCES.json",
+      "origin_index": 20,
+      "origin_blob_sha": "d8c079aba6abf5369b352ae805ec00a1be6c6e3b",
+      "original_title": "Does the development and use of modern disposable diapers affect bladder control? A systematic review",
+      "archive_extraction": {
+        "design": "Systematic review",
+        "population": "Diaper use and bladder control studies",
+        "comparison": "Disposable/cloth/toilet training comparisons",
+        "followup": "Varies",
+        "finding": "Relevant review; cannot assign causal estimate until eligible study results and bias extracted.",
+        "limitations": "Stage 1 flagged possible commercial involvement but sponsor not verified; do not name a company or infer misconduct.",
+        "access": "Indexed abstract/identity only",
+        "publication_integrity": "full correction/retraction registry sweep pending",
+        "publication_status": "staged research only",
+        "funding": "Unknown; source-level sponsor role not verified",
+        "conflicts": "Unverified",
+        "related_ids": [
+          "P1-11"
+        ]
+      },
+      "archived_funding_notes": [
+        "Unknown; source-level sponsor role not verified"
+      ],
+      "archived_financial_interest_notes": [
+        "Unverified"
+      ],
+      "archived_finding_present": true,
+      "archived_design_or_limitations_present": true,
+      "next_checks": [
+        "Verify original identity/version and correction/retraction status; assess bias and claim applicability before release."
+      ],
+      "scope": "Original repository record matched by source ID, not a newly inspected external publication.",
+      "independent_bias_appraisal_complete": false,
+      "clinical_review": false,
+      "publish": false
+    },
+    {
+      "id": "P2-22",
+      "origin": "research/staged-completion/stage-02/SOURCES.json",
+      "origin_index": 21,
+      "origin_blob_sha": "d8c079aba6abf5369b352ae805ec00a1be6c6e3b",
+      "original_title": "Relationship between age at initiation of toilet training and duration of training: a prospective study",
+      "archive_extraction": {
+        "design": "Prospective observational study",
+        "population": "Young children beginning toilet training",
+        "comparison": "Age of training initiation",
+        "followup": "Training completion",
+        "finding": "Earlier starts associated with longer training duration in published literature; exact estimates pending.",
+        "limitations": "No randomized diaper comparison; readiness and family factors.",
+        "access": "Indexed abstract/identity only",
+        "publication_integrity": "full correction/retraction registry sweep pending",
+        "publication_status": "staged research only",
+        "funding": "Unknown",
+        "conflicts": "Unknown",
+        "related_ids": []
+      },
+      "archived_funding_notes": [
+        "Unknown"
+      ],
+      "archived_financial_interest_notes": [
+        "Unknown"
+      ],
+      "archived_finding_present": true,
+      "archived_design_or_limitations_present": true,
+      "next_checks": [
+        "Verify original identity/version and correction/retraction status; assess bias and claim applicability before release."
+      ],
+      "scope": "Original repository record matched by source ID, not a newly inspected external publication.",
+      "independent_bias_appraisal_complete": false,
+      "clinical_review": false,
+      "publish": false
+    },
+    {
+      "id": "P2-23",
+      "origin": "research/staged-completion/stage-02/SOURCES.json",
+      "origin_index": 22,
+      "origin_blob_sha": "d8c079aba6abf5369b352ae805ec00a1be6c6e3b",
+      "original_title": "Disposable nappies for preventing napkin dermatitis in infants",
+      "archive_extraction": {
+        "design": "Cochrane review",
+        "population": "Infants using nappies",
+        "comparison": "Disposable types and cloth comparators",
+        "followup": "Varies",
+        "finding": "Insufficient high-quality randomized evidence for prevention superiority.",
+        "limitations": "Old search through 2004; one cloth arm not adequately randomized; newer products not assessed.",
+        "access": "Indexed abstract and review methods",
+        "publication_integrity": "full correction/retraction registry sweep pending",
+        "publication_status": "staged research only",
+        "funding": "Unknown",
+        "conflicts": "Unknown",
+        "related_ids": []
+      },
+      "archived_funding_notes": [
+        "Unknown"
+      ],
+      "archived_financial_interest_notes": [
+        "Unknown"
+      ],
+      "archived_finding_present": true,
+      "archived_design_or_limitations_present": true,
+      "next_checks": [
+        "Verify original identity/version and correction/retraction status; assess bias and claim applicability before release."
+      ],
+      "scope": "Original repository record matched by source ID, not a newly inspected external publication.",
+      "independent_bias_appraisal_complete": false,
+      "clinical_review": false,
+      "publish": false
+    },
+    {
+      "id": "P2-24",
+      "origin": "research/staged-completion/stage-02/SOURCES.json",
+      "origin_index": 23,
+      "origin_blob_sha": "d8c079aba6abf5369b352ae805ec00a1be6c6e3b",
+      "original_title": "Increased carrying reduces infant crying: a randomized controlled trial",
+      "archive_extraction": {
+        "design": "Randomized controlled trial",
+        "population": "Healthy infants",
+        "comparison": "Supplemental carrying vs control",
+        "followup": "6 weeks peak crying",
+        "finding": "1.23 vs 2.16 hours/day crying/fussing; 43% less in trial.",
+        "limitations": "Old trial, subjective outcomes; carrying does not imply safe sleep in a carrier; newer replication and harms pending.",
+        "access": "Indexed abstract",
+        "publication_integrity": "full correction/retraction registry sweep pending",
+        "publication_status": "staged research only",
+        "funding": "Unknown",
+        "conflicts": "Unknown",
+        "related_ids": []
+      },
+      "archived_funding_notes": [
+        "Unknown"
+      ],
+      "archived_financial_interest_notes": [
+        "Unknown"
+      ],
+      "archived_finding_present": true,
+      "archived_design_or_limitations_present": true,
+      "next_checks": [
+        "Verify original identity/version and correction/retraction status; assess bias and claim applicability before release."
+      ],
+      "scope": "Original repository record matched by source ID, not a newly inspected external publication.",
+      "independent_bias_appraisal_complete": false,
+      "clinical_review": false,
+      "publish": false
+    },
+    {
+      "id": "P2-25",
+      "origin": "research/staged-completion/stage-02/SOURCES.json",
+      "origin_index": 24,
+      "origin_blob_sha": "d8c079aba6abf5369b352ae805ec00a1be6c6e3b",
+      "original_title": "Five-year follow-up of harms and benefits of behavioral infant sleep intervention: randomized trial",
+      "archive_extraction": {
+        "design": "RCT follow-up",
+        "population": "Children in infant behavioral sleep intervention trial",
+        "comparison": "Behavioral support vs usual care",
+        "followup": "Age 6 years",
+        "finding": "No marked lasting benefit or harm detected in measured outcomes.",
+        "limitations": "Not proof every method is safe, especially newborns or medically vulnerable infants; attrition and precision need full extraction.",
+        "access": "Indexed original disclosure and abstract",
+        "publication_integrity": "full correction/retraction registry sweep pending",
+        "publication_status": "staged research only",
+        "funding": "Foundation for Children support",
+        "conflicts": "Authors report no relevant financial relationships in prior 3 years or other influencing activities",
+        "related_ids": [
+          "PED-SETTLE",
+          "PED-SLEEP"
+        ]
+      },
+      "archived_funding_notes": [
+        "Foundation for Children support"
+      ],
+      "archived_financial_interest_notes": [
+        "Authors report no relevant financial relationships in prior 3 years or other influencing activities"
+      ],
+      "archived_finding_present": true,
+      "archived_design_or_limitations_present": true,
+      "next_checks": [
+        "Verify original identity/version and correction/retraction status; assess bias and claim applicability before release."
+      ],
+      "scope": "Original repository record matched by source ID, not a newly inspected external publication.",
+      "independent_bias_appraisal_complete": false,
+      "clinical_review": false,
+      "publish": false
+    },
+    {
+      "id": "P2-26",
+      "origin": "research/staged-completion/stage-02/SOURCES.json",
+      "origin_index": 25,
+      "origin_blob_sha": "d8c079aba6abf5369b352ae805ec00a1be6c6e3b",
+      "original_title": "Massage for promoting mental and physical health in typically developing infants under the age of six months",
+      "archive_extraction": {
+        "design": "Cochrane review",
+        "population": "Healthy infants under 6 months",
+        "comparison": "Massage vs no treatment",
+        "followup": "Varies",
+        "finding": "Evidence poor quality; no robust broad developmental claim.",
+        "limitations": "Version lineage 2022 listing requires verification; no extrapolation to preterm infants or oils.",
+        "access": "Indexed original review abstract and text",
+        "publication_integrity": "full correction/retraction registry sweep pending",
+        "publication_status": "staged research only",
+        "funding": "Unknown",
+        "conflicts": "Unknown",
+        "related_ids": []
+      },
+      "archived_funding_notes": [
+        "Unknown"
+      ],
+      "archived_financial_interest_notes": [
+        "Unknown"
+      ],
+      "archived_finding_present": true,
+      "archived_design_or_limitations_present": true,
+      "next_checks": [
+        "Verify original identity/version and correction/retraction status; assess bias and claim applicability before release."
+      ],
+      "scope": "Original repository record matched by source ID, not a newly inspected external publication.",
+      "independent_bias_appraisal_complete": false,
+      "clinical_review": false,
+      "publish": false
+    },
+    {
+      "id": "P2-27",
+      "origin": "research/staged-completion/stage-02/SOURCES.json",
+      "origin_index": 26,
+      "origin_blob_sha": "d8c079aba6abf5369b352ae805ec00a1be6c6e3b",
+      "original_title": "Disposable and reusable nappies in the UK: life cycle assessment",
+      "archive_extraction": {
+        "design": "Environmental LCA",
+        "population": "UK diaper systems",
+        "comparison": "Reusable vs disposable",
+        "followup": "Modelled use and disposal",
+        "finding": "Relevant historical reference; later 2023 Defra assessment compares 18 impact categories; no universal winner stated in 2025 parliamentary response.",
+        "limitations": "Not US household cost or health study; assumptions washing, drying, reuse and energy mix matter.",
+        "access": "Indexed publication identity",
+        "publication_integrity": "full correction/retraction registry sweep pending",
+        "publication_status": "staged research only",
+        "funding": "UK Environment Agency publication",
+        "conflicts": "Underlying contractor disclosures pending",
+        "related_ids": []
+      },
+      "archived_funding_notes": [
+        "UK Environment Agency publication"
+      ],
+      "archived_financial_interest_notes": [
+        "Underlying contractor disclosures pending"
+      ],
+      "archived_finding_present": true,
+      "archived_design_or_limitations_present": true,
+      "next_checks": [
+        "Verify original identity/version and correction/retraction status; assess bias and claim applicability before release."
+      ],
+      "scope": "Original repository record matched by source ID, not a newly inspected external publication.",
+      "independent_bias_appraisal_complete": false,
+      "clinical_review": false,
+      "publish": false
+    },
+    {
+      "id": "P2-28",
+      "origin": "research/staged-completion/stage-02/SOURCES.json",
+      "origin_index": 27,
+      "origin_blob_sha": "d8c079aba6abf5369b352ae805ec00a1be6c6e3b",
+      "original_title": "Choosing an Infant Formula",
+      "archive_extraction": {
+        "design": "US public health guidance",
+        "population": "Infants needing formula",
+        "comparison": "Regulated age-appropriate formula vs unsafe homemade substitutes",
+        "finding": "FDA regulates nutrient and safety minimums; homemade formula unsafe.",
+        "limitations": "Not product-specific proof of equivalence or no risks; specific age/medical indication matters.",
+        "access": "Indexed CDC guidance",
+        "publication_integrity": "full correction/retraction registry sweep pending",
+        "publication_status": "staged research only",
+        "funding": "Government guidance",
+        "conflicts": "Panel evidence disclosures not audited",
+        "related_ids": [
+          "P1-13"
+        ]
+      },
+      "archived_funding_notes": [
+        "Government guidance"
+      ],
+      "archived_financial_interest_notes": [
+        "Panel evidence disclosures not audited"
+      ],
+      "archived_finding_present": true,
+      "archived_design_or_limitations_present": true,
+      "next_checks": [
+        "Verify original identity/version and correction/retraction status; assess bias and claim applicability before release."
+      ],
+      "scope": "Original repository record matched by source ID, not a newly inspected external publication.",
+      "independent_bias_appraisal_complete": false,
+      "clinical_review": false,
+      "publish": false
+    },
+    {
+      "id": "P2-29",
+      "origin": "research/staged-completion/stage-02/SOURCES.json",
+      "origin_index": 28,
+      "origin_blob_sha": "d8c079aba6abf5369b352ae805ec00a1be6c6e3b",
+      "original_title": "Infant Formula Preparation and Storage",
+      "archive_extraction": {
+        "design": "US public health guidance",
+        "population": "Formula-fed infants including higher-risk groups",
+        "comparison": "Safe preparation and storage",
+        "finding": "Powder is not sterile; correct label ratio and special precautions for vulnerable babies.",
+        "limitations": "No generic preparation override; follow current local guidance and medical plan.",
+        "access": "Indexed CDC guidance",
+        "publication_integrity": "full correction/retraction registry sweep pending",
+        "publication_status": "staged research only",
+        "funding": "Government guidance",
+        "conflicts": "Not applicable to trial funding",
+        "related_ids": [
+          "PED-FORMULA"
+        ]
+      },
+      "archived_funding_notes": [
+        "Government guidance"
+      ],
+      "archived_financial_interest_notes": [
+        "Not applicable to trial funding"
+      ],
+      "archived_finding_present": true,
+      "archived_design_or_limitations_present": true,
+      "next_checks": [
+        "Verify original identity/version and correction/retraction status; assess bias and claim applicability before release."
+      ],
+      "scope": "Original repository record matched by source ID, not a newly inspected external publication.",
+      "independent_bias_appraisal_complete": false,
+      "clinical_review": false,
+      "publish": false
+    },
+    {
+      "id": "P2-30",
+      "origin": "research/staged-completion/stage-02/SOURCES.json",
+      "origin_index": 29,
+      "origin_blob_sha": "d8c079aba6abf5369b352ae805ec00a1be6c6e3b",
+      "original_title": "CPSC Approves New Federal Safety Standard for Infant Sling Carriers",
+      "archive_extraction": {
+        "design": "US safety regulatory notice",
+        "population": "Infant sling users",
+        "comparison": "Airway positioning and product standard",
+        "finding": "Suffocation/fall hazards; keep airway visible and unobstructed, chin away from chest.",
+        "limitations": "Not efficacy evidence or current model recall clearance; safe sleep separate.",
+        "access": "Indexed CPSC notice",
+        "publication_integrity": "full correction/retraction registry sweep pending",
+        "publication_status": "staged research only",
+        "funding": "Government notice",
+        "conflicts": "Not applicable",
+        "related_ids": [
+          "PED-SLEEP"
+        ]
+      },
+      "archived_funding_notes": [
+        "Government notice"
+      ],
+      "archived_financial_interest_notes": [
+        "Not applicable"
+      ],
+      "archived_finding_present": true,
+      "archived_design_or_limitations_present": true,
+      "next_checks": [
+        "Verify original identity/version and correction/retraction status; assess bias and claim applicability before release."
+      ],
+      "scope": "Original repository record matched by source ID, not a newly inspected external publication.",
+      "independent_bias_appraisal_complete": false,
+      "clinical_review": false,
+      "publish": false
+    },
+    {
+      "id": "P2-31",
+      "origin": "research/staged-completion/stage-02/SOURCES.json",
+      "origin_index": 30,
+      "origin_blob_sha": "d8c079aba6abf5369b352ae805ec00a1be6c6e3b",
+      "original_title": "Healthy Habits: Diaper Changing at Home",
+      "archive_extraction": {
+        "design": "US hygiene guidance",
+        "population": "Caregivers",
+        "comparison": "Cloth and disposable diaper hygiene",
+        "finding": "Includes both diaper types; hygiene and prompt changing remain important.",
+        "limitations": "Not comparative effectiveness evidence.",
+        "access": "Indexed CDC guidance",
+        "publication_integrity": "full correction/retraction registry sweep pending",
+        "publication_status": "staged research only",
+        "funding": "Government guidance",
+        "conflicts": "Not applicable",
+        "related_ids": []
+      },
+      "archived_funding_notes": [
+        "Government guidance"
+      ],
+      "archived_financial_interest_notes": [
+        "Not applicable"
+      ],
+      "archived_finding_present": true,
+      "archived_design_or_limitations_present": true,
+      "next_checks": [
+        "Verify original identity/version and correction/retraction status; assess bias and claim applicability before release."
+      ],
+      "scope": "Original repository record matched by source ID, not a newly inspected external publication.",
+      "independent_bias_appraisal_complete": false,
+      "clinical_review": false,
+      "publish": false
+    },
+    {
+      "id": "P2-32",
+      "origin": "research/staged-completion/stage-02/SOURCES.json",
+      "origin_index": 31,
+      "origin_blob_sha": "d8c079aba6abf5369b352ae805ec00a1be6c6e3b",
+      "original_title": "Infant and young child feeding",
+      "archive_extraction": {
+        "design": "International public health guidance",
+        "population": "Infants and young children",
+        "comparison": "Breastfeeding support and complementary feeding",
+        "finding": "Exclusive breastfeeding for first 6 months, complementary foods from around 6 months and continued breastfeeding to 2 years or beyond as feasible.",
+        "limitations": "Population guidance; adequate nutrition and individual circumstances matter; no coercion.",
+        "access": "Indexed fact sheet",
+        "publication_integrity": "full correction/retraction registry sweep pending",
+        "publication_status": "staged research only",
+        "funding": "WHO/UNICEF guidance",
+        "conflicts": "Panel and underlying evidence disclosures pending",
+        "related_ids": []
+      },
+      "archived_funding_notes": [
+        "WHO/UNICEF guidance"
+      ],
+      "archived_financial_interest_notes": [
+        "Panel and underlying evidence disclosures pending"
+      ],
+      "archived_finding_present": true,
+      "archived_design_or_limitations_present": true,
+      "next_checks": [
+        "Verify original identity/version and correction/retraction status; assess bias and claim applicability before release."
+      ],
+      "scope": "Original repository record matched by source ID, not a newly inspected external publication.",
+      "independent_bias_appraisal_complete": false,
+      "clinical_review": false,
+      "publish": false
+    },
+    {
+      "id": "P2-33",
+      "origin": "research/staged-completion/stage-02/SOURCES.json",
+      "origin_index": 32,
+      "origin_blob_sha": "d8c079aba6abf5369b352ae805ec00a1be6c6e3b",
+      "original_title": "Nutrient specifications, 21 CFR 107.100",
+      "archive_extraction": {
+        "design": "US regulation mirror",
+        "population": "Infant formula manufacturers",
+        "comparison": "Minimum and maximum nutrient specifications",
+        "finding": "Per 100 kcal as prepared; regulatory adequacy separate from extra benefit claims.",
+        "limitations": "FDA official guidance cross-reference; no brand-specific guarantee.",
+        "access": "Indexed legal text",
+        "publication_integrity": "full correction/retraction registry sweep pending",
+        "publication_status": "staged research only",
+        "funding": "US regulation",
+        "conflicts": "Not applicable",
+        "related_ids": []
+      },
+      "archived_funding_notes": [
+        "US regulation"
+      ],
+      "archived_financial_interest_notes": [
+        "Not applicable"
+      ],
+      "archived_finding_present": true,
+      "archived_design_or_limitations_present": true,
+      "next_checks": [
+        "Verify original identity/version and correction/retraction status; assess bias and claim applicability before release."
+      ],
+      "scope": "Original repository record matched by source ID, not a newly inspected external publication.",
+      "independent_bias_appraisal_complete": false,
+      "clinical_review": false,
+      "publish": false
+    },
+    {
+      "id": "P2-34",
+      "origin": "research/staged-completion/stage-02/SOURCES.json",
+      "origin_index": 33,
+      "origin_blob_sha": "d8c079aba6abf5369b352ae805ec00a1be6c6e3b",
+      "original_title": "Infant Formula Guidance Documents & Regulatory Information",
+      "archive_extraction": {
+        "design": "US regulatory guidance",
+        "population": "Infant formula manufacturers",
+        "comparison": "Applicable requirements",
+        "finding": "Regulatory nutrient and manufacturing requirements; check current recalls and exact labels separately.",
+        "limitations": "Not clinical superiority evidence.",
+        "access": "Indexed agency page",
+        "publication_integrity": "full correction/retraction registry sweep pending",
+        "publication_status": "staged research only",
+        "funding": "FDA",
+        "conflicts": "Not applicable",
+        "related_ids": [
+          "P2-33"
+        ]
+      },
+      "archived_funding_notes": [
+        "FDA"
+      ],
+      "archived_financial_interest_notes": [
+        "Not applicable"
+      ],
+      "archived_finding_present": true,
+      "archived_design_or_limitations_present": true,
+      "next_checks": [
+        "Verify original identity/version and correction/retraction status; assess bias and claim applicability before release."
+      ],
+      "scope": "Original repository record matched by source ID, not a newly inspected external publication.",
+      "independent_bias_appraisal_complete": false,
+      "clinical_review": false,
+      "publish": false
+    },
+    {
+      "id": "P3-01",
+      "origin": "research/staged-completion/stage-03/SOURCES.json",
+      "origin_index": 0,
+      "origin_blob_sha": "27d4a430f3ded64a2025ce81f04159ce2cbc4952",
+      "original_title": "Topical preparations for preventing stretch marks in pregnancy",
+      "archive_extraction": {
+        "design": "Cochrane review",
+        "population": "6 trials, 800 women; 5 trials 474 for incidence",
+        "limitations": "Old search; heterogeneous products and substantial heterogeneity; not proof no topical can help",
+        "access": "Indexed full text, risk-of-bias/funding passage",
+        "correction_retraction_status": "comprehensive check pending",
+        "publication_status": "staged; not automatic guidance",
+        "funding": "Trial funding unknown except Osman lotion donation and Taavoni 2011 no funding reported; review-level disclosure not extracted"
+      },
+      "archived_funding_notes": [
+        "Trial funding unknown except Osman lotion donation and Taavoni 2011 no funding reported; review-level disclosure not extracted"
+      ],
+      "archived_financial_interest_notes": [],
+      "archived_finding_present": false,
+      "archived_design_or_limitations_present": true,
+      "next_checks": [
+        "Read original results or applicable non-clinical source purpose; extract source-specific finding and locator.",
+        "Extract author/institution interests and disclosure status from original source.",
+        "Verify original identity/version and correction/retraction status; assess bias and claim applicability before release."
+      ],
+      "scope": "Original repository record matched by source ID, not a newly inspected external publication.",
+      "independent_bias_appraisal_complete": false,
+      "clinical_review": false,
+      "publish": false
+    },
+    {
+      "id": "P3-02",
+      "origin": "research/staged-completion/stage-03/SOURCES.json",
+      "origin_index": 1,
+      "origin_blob_sha": "27d4a430f3ded64a2025ce81f04159ce2cbc4952",
+      "original_title": "Cocoa butter lotion for prevention of striae gravidarum: a double-blind, randomised and placebo-controlled trial",
+      "archive_extraction": {
+        "design": "Double-blind RCT",
+        "population": "Pregnancy",
+        "limitations": "In-kind support is a tie, not proof of biased results; negative trial retained",
+        "access": "Primary abstract and P3-01 funding passage",
+        "correction_retraction_status": "comprehensive check pending",
+        "publication_status": "staged; not automatic guidance",
+        "funding": "ET Browne Drug Company supplied active and placebo lotions per Cochrane trial characterization; cash and sponsor role unknown"
+      },
+      "archived_funding_notes": [
+        "ET Browne Drug Company supplied active and placebo lotions per Cochrane trial characterization; cash and sponsor role unknown"
+      ],
+      "archived_financial_interest_notes": [],
+      "archived_finding_present": false,
+      "archived_design_or_limitations_present": true,
+      "next_checks": [
+        "Read original results or applicable non-clinical source purpose; extract source-specific finding and locator.",
+        "Extract author/institution interests and disclosure status from original source.",
+        "Verify original identity/version and correction/retraction status; assess bias and claim applicability before release."
+      ],
+      "scope": "Original repository record matched by source ID, not a newly inspected external publication.",
+      "independent_bias_appraisal_complete": false,
+      "clinical_review": false,
+      "publish": false
+    },
+    {
+      "id": "P3-03",
+      "origin": "research/staged-completion/stage-03/SOURCES.json",
+      "origin_index": 2,
+      "origin_blob_sha": "27d4a430f3ded64a2025ce81f04159ce2cbc4952",
+      "original_title": "The effect of bitter almond oil and massaging on striae gravidarum in primiparaous women",
+      "archive_extraction": {
+        "design": "Comparative study",
+        "population": "Primiparous pregnant women",
+        "limitations": "Nonrandomized or allocation methods need verification; no massage-only group; bitter almond oil product safety/formulation not established; not home instructions",
+        "access": "Indexed primary abstract",
+        "correction_retraction_status": "comprehensive check pending",
+        "publication_status": "staged; not automatic guidance",
+        "funding": "Not verified"
+      },
+      "archived_funding_notes": [
+        "Not verified"
+      ],
+      "archived_financial_interest_notes": [],
+      "archived_finding_present": false,
+      "archived_design_or_limitations_present": true,
+      "next_checks": [
+        "Read original results or applicable non-clinical source purpose; extract source-specific finding and locator.",
+        "Extract author/institution interests and disclosure status from original source.",
+        "Verify original identity/version and correction/retraction status; assess bias and claim applicability before release."
+      ],
+      "scope": "Original repository record matched by source ID, not a newly inspected external publication.",
+      "independent_bias_appraisal_complete": false,
+      "clinical_review": false,
+      "publish": false
+    },
+    {
+      "id": "P3-04",
+      "origin": "research/staged-completion/stage-03/SOURCES.json",
+      "origin_index": 3,
+      "origin_blob_sha": "27d4a430f3ded64a2025ce81f04159ce2cbc4952",
+      "original_title": "The Effect of Topical Virgin Coconut Oil on Striae Gravidarum Prevention and Severity: A Randomized Controlled Trial",
+      "archive_extraction": {
+        "design": "RCT",
+        "population": "200 participants second trimester, Indonesia",
+        "limitations": "Full allocation, attrition, denominators, protocol, outcome validation, harm ascertainment and sponsor disclosure unverified. No derived RR/CI; no universal safety claim.",
+        "adverse_events": "None reported in abstract; ascertainment pending",
+        "access": "Publisher abstract and publication metadata",
+        "correction_retraction_status": "comprehensive check pending",
+        "publication_status": "staged; not automatic guidance",
+        "funding": "Not disclosed on accessible article landing page"
+      },
+      "archived_funding_notes": [
+        "Not disclosed on accessible article landing page"
+      ],
+      "archived_financial_interest_notes": [],
+      "archived_finding_present": false,
+      "archived_design_or_limitations_present": true,
+      "next_checks": [
+        "Read original results or applicable non-clinical source purpose; extract source-specific finding and locator.",
+        "Extract author/institution interests and disclosure status from original source.",
+        "Verify original identity/version and correction/retraction status; assess bias and claim applicability before release."
+      ],
+      "scope": "Original repository record matched by source ID, not a newly inspected external publication.",
+      "independent_bias_appraisal_complete": false,
+      "clinical_review": false,
+      "publish": false
+    },
+    {
+      "id": "P3-05",
+      "origin": "research/staged-completion/stage-03/SOURCES.json",
+      "origin_index": 4,
+      "origin_blob_sha": "27d4a430f3ded64a2025ce81f04159ce2cbc4952",
+      "original_title": "Effects of Collagen Supplements on Skin Aging: A Systematic Review and Meta-Analysis of Randomized Controlled Trials",
+      "archive_extraction": {
+        "design": "Systematic review/meta-analysis",
+        "population": "Adult skin aging trials, not pregnancy prevention",
+        "limitations": "Funding subgroup significance differences are not a formal interaction test; indirect to pregnancy",
+        "access": "Indexed abstract and publisher COI",
+        "correction_retraction_status": "comprehensive check pending",
+        "publication_status": "staged; not automatic guidance",
+        "funding": "Review grant statement not retrieved; underlying trials separated by sponsor",
+        "conflicts": "Authors Myung and Park declare none per publisher indexed disclosure"
+      },
+      "archived_funding_notes": [
+        "Review grant statement not retrieved; underlying trials separated by sponsor"
+      ],
+      "archived_financial_interest_notes": [
+        "Authors Myung and Park declare none per publisher indexed disclosure"
+      ],
+      "archived_finding_present": false,
+      "archived_design_or_limitations_present": true,
+      "next_checks": [
+        "Read original results or applicable non-clinical source purpose; extract source-specific finding and locator.",
+        "Verify original identity/version and correction/retraction status; assess bias and claim applicability before release."
+      ],
+      "scope": "Original repository record matched by source ID, not a newly inspected external publication.",
+      "independent_bias_appraisal_complete": false,
+      "clinical_review": false,
+      "publish": false
+    },
+    {
+      "id": "P3-06",
+      "origin": "research/staged-completion/stage-03/SOURCES.json",
+      "origin_index": 5,
+      "origin_blob_sha": "27d4a430f3ded64a2025ce81f04159ce2cbc4952",
+      "original_title": "Hydrolyzed Collagen for Skin Aging Meta-Analyses Are Unreliable",
+      "archive_extraction": {
+        "design": "Technical reanalysis",
+        "population": "Adult skin aging trials in earlier meta-analyses",
+        "limitations": "Not a new primary cohort; vote count not pooled effect; no pregnancy outcomes; authors' methodological critique should be checked against original trial data",
+        "access": "Full text selected Table 1, Table 2, Figure 1, discussion, disclosure",
+        "correction_retraction_status": "comprehensive check pending",
+        "publication_status": "staged; not automatic guidance",
+        "funding": "Review grant support not established from inspected passages; underlying trial sponsorship counts reported",
+        "conflicts": "Authors declare no conflicts"
+      },
+      "archived_funding_notes": [
+        "Review grant support not established from inspected passages; underlying trial sponsorship counts reported"
+      ],
+      "archived_financial_interest_notes": [
+        "Authors declare no conflicts"
+      ],
+      "archived_finding_present": false,
+      "archived_design_or_limitations_present": true,
+      "next_checks": [
+        "Read original results or applicable non-clinical source purpose; extract source-specific finding and locator.",
+        "Verify original identity/version and correction/retraction status; assess bias and claim applicability before release."
+      ],
+      "scope": "Original repository record matched by source ID, not a newly inspected external publication.",
+      "independent_bias_appraisal_complete": false,
+      "clinical_review": false,
+      "publish": false
+    },
+    {
+      "id": "P3-07",
+      "origin": "research/staged-completion/stage-03/SOURCES.json",
+      "origin_index": 6,
+      "origin_blob_sha": "27d4a430f3ded64a2025ce81f04159ce2cbc4952",
+      "original_title": "Oral Collagen Peptides and Skin Rejuvenation: A Systematic Review and an Updated Meta-Analysis of Randomized Controlled Trials",
+      "archive_extraction": {
+        "design": "Meta-analysis",
+        "population": "Adult skin measures",
+        "limitations": "Overlapping trials likely with P3-05/06; instrumentation surrogate; no direct striae prevention",
+        "access": "Indexed abstract",
+        "correction_retraction_status": "comprehensive check pending",
+        "publication_status": "staged; not automatic guidance",
+        "funding": "Not verified"
+      },
+      "archived_funding_notes": [
+        "Not verified"
+      ],
+      "archived_financial_interest_notes": [],
+      "archived_finding_present": false,
+      "archived_design_or_limitations_present": true,
+      "next_checks": [
+        "Read original results or applicable non-clinical source purpose; extract source-specific finding and locator.",
+        "Extract author/institution interests and disclosure status from original source.",
+        "Verify original identity/version and correction/retraction status; assess bias and claim applicability before release."
+      ],
+      "scope": "Original repository record matched by source ID, not a newly inspected external publication.",
+      "independent_bias_appraisal_complete": false,
+      "clinical_review": false,
+      "publish": false
+    },
+    {
+      "id": "P3-08",
+      "origin": "research/staged-completion/stage-03/SOURCES.json",
+      "origin_index": 7,
+      "origin_blob_sha": "27d4a430f3ded64a2025ce81f04159ce2cbc4952",
+      "original_title": "The effect of breastfeeding on breast aesthetics",
+      "archive_extraction": {
+        "design": "Retrospective selected surgery cohort",
+        "population": "93 participants with prior pregnancy; 54 breastfed",
+        "limitations": "Selection, recall and confounding; does not establish causal null or bra/exercise prevention",
+        "access": "Primary abstract and author affiliations",
+        "correction_retraction_status": "comprehensive check pending",
+        "publication_status": "staged; not automatic guidance",
+        "funding": "Not available in accessible abstract"
+      },
+      "archived_funding_notes": [
+        "Not available in accessible abstract"
+      ],
+      "archived_financial_interest_notes": [],
+      "archived_finding_present": false,
+      "archived_design_or_limitations_present": true,
+      "next_checks": [
+        "Read original results or applicable non-clinical source purpose; extract source-specific finding and locator.",
+        "Extract author/institution interests and disclosure status from original source.",
+        "Verify original identity/version and correction/retraction status; assess bias and claim applicability before release."
+      ],
+      "scope": "Original repository record matched by source ID, not a newly inspected external publication.",
+      "independent_bias_appraisal_complete": false,
+      "clinical_review": false,
+      "publish": false
+    },
+    {
+      "id": "P3-09",
+      "origin": "research/staged-completion/stage-03/SOURCES.json",
+      "origin_index": 8,
+      "origin_blob_sha": "27d4a430f3ded64a2025ce81f04159ce2cbc4952",
+      "original_title": "Assessment of breast volume changes during human pregnancy using a three-dimensional surface assessment technique in the prospective CGATE study",
+      "archive_extraction": {
+        "design": "Prospective observational",
+        "population": "Week 12 to delivery",
+        "limitations": "Volume not ptosis or cosmetic outcome; no preventative treatment comparison",
+        "access": "Primary abstract",
+        "correction_retraction_status": "comprehensive check pending",
+        "publication_status": "staged; not automatic guidance",
+        "funding": "PubMed indexes non-US government support; exact source and commercial ties not verified"
+      },
+      "archived_funding_notes": [
+        "PubMed indexes non-US government support; exact source and commercial ties not verified"
+      ],
+      "archived_financial_interest_notes": [],
+      "archived_finding_present": false,
+      "archived_design_or_limitations_present": true,
+      "next_checks": [
+        "Read original results or applicable non-clinical source purpose; extract source-specific finding and locator.",
+        "Extract author/institution interests and disclosure status from original source.",
+        "Verify original identity/version and correction/retraction status; assess bias and claim applicability before release."
+      ],
+      "scope": "Original repository record matched by source ID, not a newly inspected external publication.",
+      "independent_bias_appraisal_complete": false,
+      "clinical_review": false,
+      "publish": false
+    },
+    {
+      "id": "P3-10",
+      "origin": "research/staged-completion/stage-03/SOURCES.json",
+      "origin_index": 9,
+      "origin_blob_sha": "27d4a430f3ded64a2025ce81f04159ce2cbc4952",
+      "original_title": "Curl-up exercises improve abdominal muscle strength without worsening inter-recti distance in women with diastasis recti abdominis postpartum: a randomised controlled trial",
+      "archive_extraction": {
+        "design": "RCT",
+        "population": "70 women 6–12 months postpartum; 12 weeks home exercise vs no intervention",
+        "limitations": "Specific program, late postpartum; cannot generalize to immediate postpartum, hernia or symptomatic complications",
+        "access": "Primary abstract and publisher snippet",
+        "correction_retraction_status": "comprehensive check pending",
+        "publication_status": "staged; not automatic guidance",
+        "funding": "Not independently retrieved",
+        "conflicts": "Nil per publisher indexed disclosure"
+      },
+      "archived_funding_notes": [
+        "Not independently retrieved"
+      ],
+      "archived_financial_interest_notes": [
+        "Nil per publisher indexed disclosure"
+      ],
+      "archived_finding_present": false,
+      "archived_design_or_limitations_present": true,
+      "next_checks": [
+        "Read original results or applicable non-clinical source purpose; extract source-specific finding and locator.",
+        "Verify original identity/version and correction/retraction status; assess bias and claim applicability before release."
+      ],
+      "scope": "Original repository record matched by source ID, not a newly inspected external publication.",
+      "independent_bias_appraisal_complete": false,
+      "clinical_review": false,
+      "publish": false
+    },
+    {
+      "id": "P3-11",
+      "origin": "research/staged-completion/stage-03/SOURCES.json",
+      "origin_index": 10,
+      "origin_blob_sha": "27d4a430f3ded64a2025ce81f04159ce2cbc4952",
+      "original_title": "Impact of postpartum exercise on pelvic floor disorders and diastasis recti abdominis: a systematic review and meta-analysis",
+      "archive_extraction": {
+        "design": "Systematic review/meta-analysis",
+        "population": "65 studies 21,334 overall; endpoint-specific subsets",
+        "limitations": "Moderate UI/POP certainty; low overall rest IRD certainty; clinical important gap difference unknown; correction updates guideline title",
+        "access": "Full text results, figures 6–7 and funding footnote",
+        "correction_retraction_status": "Publisher correction note: guideline title updated; full registry sweep pending",
+        "publication_status": "staged; not automatic guidance",
+        "funding": "UQTR research chair, Christenson Professorship, Alberta Innovates studentship (author support; underlying trial funding separate)",
+        "conflicts": "Full author COI not extracted"
+      },
+      "archived_funding_notes": [
+        "UQTR research chair, Christenson Professorship, Alberta Innovates studentship (author support; underlying trial funding separate)"
+      ],
+      "archived_financial_interest_notes": [
+        "Full author COI not extracted"
+      ],
+      "archived_finding_present": false,
+      "archived_design_or_limitations_present": true,
+      "next_checks": [
+        "Read original results or applicable non-clinical source purpose; extract source-specific finding and locator.",
+        "Verify original identity/version and correction/retraction status; assess bias and claim applicability before release."
+      ],
+      "scope": "Original repository record matched by source ID, not a newly inspected external publication.",
+      "independent_bias_appraisal_complete": false,
+      "clinical_review": false,
+      "publish": false
+    },
+    {
+      "id": "P3-12",
+      "origin": "research/staged-completion/stage-03/SOURCES.json",
+      "origin_index": 11,
+      "origin_blob_sha": "27d4a430f3ded64a2025ce81f04159ce2cbc4952",
+      "original_title": "What is the evidence for abdominal and pelvic floor muscle training to treat diastasis recti abdominis postpartum? An updated systematic review and meta-analysis of randomized clinical trials and trial sequential analysis",
+      "archive_extraction": {
+        "design": "Review and trial sequential analysis",
+        "population": "15 studies 803 participants; only 3 pooled",
+        "limitations": "Narrow comparison; heterogeneity; does not show exercise useless for strength or pain. Overlap with P3-11/13.",
+        "registration": "CRD420251276159",
+        "access": "Publisher abstract, reference list",
+        "correction_retraction_status": "comprehensive check pending",
+        "publication_status": "staged; not automatic guidance",
+        "funding": "Not verified; subscription restriction"
+      },
+      "archived_funding_notes": [
+        "Not verified; subscription restriction"
+      ],
+      "archived_financial_interest_notes": [],
+      "archived_finding_present": false,
+      "archived_design_or_limitations_present": true,
+      "next_checks": [
+        "Read original results or applicable non-clinical source purpose; extract source-specific finding and locator.",
+        "Extract author/institution interests and disclosure status from original source.",
+        "Verify original identity/version and correction/retraction status; assess bias and claim applicability before release."
+      ],
+      "scope": "Original repository record matched by source ID, not a newly inspected external publication.",
+      "independent_bias_appraisal_complete": false,
+      "clinical_review": false,
+      "publish": false
+    },
+    {
+      "id": "P3-13",
+      "origin": "research/staged-completion/stage-03/SOURCES.json",
+      "origin_index": 12,
+      "origin_blob_sha": "27d4a430f3ded64a2025ce81f04159ce2cbc4952",
+      "original_title": "Non operative management of postpartum Diastasis Recti: a systematic review and metanalysis of randomized controlled trials",
+      "archive_extraction": {
+        "design": "Systematic review/meta-analysis",
+        "population": "Postpartum structured programs vs standard exercise or no intervention",
+        "limitations": "High heterogeneity, site/measurement and co-intervention confounding; overlapping trials; do not infer ideal timing from subgroup comparisons",
+        "access": "Publisher indexed results and discussion",
+        "correction_retraction_status": "comprehensive check pending",
+        "publication_status": "staged; not automatic guidance",
+        "funding": "Not verified"
+      },
+      "archived_funding_notes": [
+        "Not verified"
+      ],
+      "archived_financial_interest_notes": [],
+      "archived_finding_present": false,
+      "archived_design_or_limitations_present": true,
+      "next_checks": [
+        "Read original results or applicable non-clinical source purpose; extract source-specific finding and locator.",
+        "Extract author/institution interests and disclosure status from original source.",
+        "Verify original identity/version and correction/retraction status; assess bias and claim applicability before release."
+      ],
+      "scope": "Original repository record matched by source ID, not a newly inspected external publication.",
+      "independent_bias_appraisal_complete": false,
+      "clinical_review": false,
+      "publish": false
+    },
+    {
+      "id": "P3-14",
+      "origin": "research/staged-completion/stage-03/SOURCES.json",
+      "origin_index": 13,
+      "origin_blob_sha": "27d4a430f3ded64a2025ce81f04159ce2cbc4952",
+      "original_title": "Pregnant women may exercise both abdominal and pelvic floor muscles during pregnancy without increasing the diastasis recti abdominis: a randomised trial",
+      "archive_extraction": {
+        "design": "RCT",
+        "population": "Pregnant women with DRA",
+        "limitations": "Exact estimates and harms pending; do not imply universal clearance",
+        "access": "Indexed abstract/title",
+        "correction_retraction_status": "comprehensive check pending",
+        "publication_status": "staged; not automatic guidance",
+        "funding": "Not verified"
+      },
+      "archived_funding_notes": [
+        "Not verified"
+      ],
+      "archived_financial_interest_notes": [],
+      "archived_finding_present": false,
+      "archived_design_or_limitations_present": true,
+      "next_checks": [
+        "Read original results or applicable non-clinical source purpose; extract source-specific finding and locator.",
+        "Extract author/institution interests and disclosure status from original source.",
+        "Verify original identity/version and correction/retraction status; assess bias and claim applicability before release."
+      ],
+      "scope": "Original repository record matched by source ID, not a newly inspected external publication.",
+      "independent_bias_appraisal_complete": false,
+      "clinical_review": false,
+      "publish": false
+    },
+    {
+      "id": "P3-15",
+      "origin": "research/staged-completion/stage-03/SOURCES.json",
+      "origin_index": 14,
+      "origin_blob_sha": "27d4a430f3ded64a2025ce81f04159ce2cbc4952",
+      "original_title": "Transversus abdominis and rectus abdominis activation exercises do not alter inter-recti distance in pregnant women: a randomised trial",
+      "archive_extraction": {
+        "design": "RCT",
+        "population": "Pregnant women; targeted TrA or RA vs general exercise",
+        "limitations": "Sample, absolute effect, registration and adverse events still need extraction",
+        "access": "Indexed abstract and publisher disclosure",
+        "correction_retraction_status": "comprehensive check pending",
+        "publication_status": "staged; not automatic guidance",
+        "funding": "Not verified",
+        "conflicts": "Nil per publisher indexed disclosure"
+      },
+      "archived_funding_notes": [
+        "Not verified"
+      ],
+      "archived_financial_interest_notes": [
+        "Nil per publisher indexed disclosure"
+      ],
+      "archived_finding_present": false,
+      "archived_design_or_limitations_present": true,
+      "next_checks": [
+        "Read original results or applicable non-clinical source purpose; extract source-specific finding and locator.",
+        "Verify original identity/version and correction/retraction status; assess bias and claim applicability before release."
+      ],
+      "scope": "Original repository record matched by source ID, not a newly inspected external publication.",
+      "independent_bias_appraisal_complete": false,
+      "clinical_review": false,
+      "publish": false
+    },
+    {
+      "id": "P3-16",
+      "origin": "research/staged-completion/stage-03/SOURCES.json",
+      "origin_index": 15,
+      "origin_blob_sha": "27d4a430f3ded64a2025ce81f04159ce2cbc4952",
+      "original_title": "Evaluation of Postpartum Pelvic Floor Physical Therapy on Obstetrical Anal Sphincter Injury: A Randomized Controlled Trial",
+      "archive_extraction": {
+        "design": "RCT",
+        "population": "OASIS; outcome table n19 PFPT and n24 control",
+        "limitations": "Small sample, baseline imbalance, no objective manometry; IQR not CI; specific injury group",
+        "access": "Full text Table 2, acknowledgments and financial disclosures",
+        "correction_retraction_status": "comprehensive check pending",
+        "publication_status": "staged; not automatic guidance",
+        "funding": "Harvard Catalyst NIH UL1TR002541 and Harvard/affiliated academic centers; no funder role reported",
+        "conflicts": "Authors report no potential conflicts"
+      },
+      "archived_funding_notes": [
+        "Harvard Catalyst NIH UL1TR002541 and Harvard/affiliated academic centers; no funder role reported"
+      ],
+      "archived_financial_interest_notes": [
+        "Authors report no potential conflicts"
+      ],
+      "archived_finding_present": false,
+      "archived_design_or_limitations_present": true,
+      "next_checks": [
+        "Read original results or applicable non-clinical source purpose; extract source-specific finding and locator.",
+        "Verify original identity/version and correction/retraction status; assess bias and claim applicability before release."
+      ],
+      "scope": "Original repository record matched by source ID, not a newly inspected external publication.",
+      "independent_bias_appraisal_complete": false,
+      "clinical_review": false,
+      "publish": false
+    },
+    {
+      "id": "P3-17",
+      "origin": "research/staged-completion/stage-03/SOURCES.json",
+      "origin_index": 16,
+      "origin_blob_sha": "27d4a430f3ded64a2025ce81f04159ce2cbc4952",
+      "original_title": "The Impact of Exercising on Pelvic Symptom Severity, Pelvic Floor Muscle Strength, and Diastasis Recti Abdominis After Pregnancy: A Longitudinal Prospective Cohort Study",
+      "archive_extraction": {
+        "design": "Prospective cohort",
+        "population": "503 included; 424 completed questionnaire, 410 clinical assessment at 12 months",
+        "limitations": "Self-selection/reverse causality; no causal exercise clearance; 32 high-impact at 3 months",
+        "registration": "NCT03703804",
+        "access": "Full text Results and Funding/Disclosures",
+        "correction_retraction_status": "comprehensive check pending",
+        "publication_status": "staged; not automatic guidance",
+        "funding": "Healthcare Committee Region Västra Götaland, Research and Development Centre Gothenburg and Södra Bohuslän; no funder influence reported",
+        "conflicts": "ICMJE no conflicts reported",
+        "cohort": "AfterBabyBodyStudy"
+      },
+      "archived_funding_notes": [
+        "Healthcare Committee Region Västra Götaland, Research and Development Centre Gothenburg and Södra Bohuslän; no funder influence reported"
+      ],
+      "archived_financial_interest_notes": [
+        "ICMJE no conflicts reported"
+      ],
+      "archived_finding_present": false,
+      "archived_design_or_limitations_present": true,
+      "next_checks": [
+        "Read original results or applicable non-clinical source purpose; extract source-specific finding and locator.",
+        "Verify original identity/version and correction/retraction status; assess bias and claim applicability before release."
+      ],
+      "scope": "Original repository record matched by source ID, not a newly inspected external publication.",
+      "independent_bias_appraisal_complete": false,
+      "clinical_review": false,
+      "publish": false
+    },
+    {
+      "id": "P3-18",
+      "origin": "research/staged-completion/stage-03/SOURCES.json",
+      "origin_index": 17,
+      "origin_blob_sha": "27d4a430f3ded64a2025ce81f04159ce2cbc4952",
+      "original_title": "Pushing limits: the acute effects of a heavy-load resistance protocol and supine exercise on fetal well-being",
+      "archive_extraction": {
+        "design": "Acute laboratory experiment",
+        "population": "48 healthy pregnant athletes (7 elite,41 recreational)",
+        "limitations": "Acute measures not long-term pregnancy safety; selected trained population; no blanket clearance or fetal home monitoring",
+        "adverse_events": "One symptomatic vena cava compression event",
+        "access": "Indexed primary abstract and funding snippet",
+        "correction_retraction_status": "comprehensive check pending",
+        "publication_status": "staged; not automatic guidance",
+        "funding": "Norwegian Women's Public Health Association, indexed PDF funding text; authors report no sponsor role. PDF not opened; full disclosure needs confirmation."
+      },
+      "archived_funding_notes": [
+        "Norwegian Women's Public Health Association, indexed PDF funding text; authors report no sponsor role. PDF not opened; full disclosure needs confirmation."
+      ],
+      "archived_financial_interest_notes": [],
+      "archived_finding_present": false,
+      "archived_design_or_limitations_present": true,
+      "next_checks": [
+        "Read original results or applicable non-clinical source purpose; extract source-specific finding and locator.",
+        "Extract author/institution interests and disclosure status from original source.",
+        "Verify original identity/version and correction/retraction status; assess bias and claim applicability before release."
+      ],
+      "scope": "Original repository record matched by source ID, not a newly inspected external publication.",
+      "independent_bias_appraisal_complete": false,
+      "clinical_review": false,
+      "publish": false
+    },
+    {
+      "id": "P3-19",
+      "origin": "research/staged-completion/stage-03/SOURCES.json",
+      "origin_index": 18,
+      "origin_blob_sha": "27d4a430f3ded64a2025ce81f04159ce2cbc4952",
+      "original_title": "2025 Canadian guideline for physical activity, sedentary behaviour and sleep throughout the first year post partum",
+      "archive_extraction": {
+        "design": "GRADE-informed guideline",
+        "population": "Postpartum first year, without contraindications",
+        "limitations": "Canadian jurisdiction; compare ACOG and US guidance; not universal permission or deadline",
+        "access": "Indexed guideline recommendations and discussion",
+        "correction_retraction_status": "comprehensive check pending",
+        "publication_status": "staged; not automatic guidance",
+        "funding": "Panel and funder disclosures pending; related review P3-11 author support checked"
+      },
+      "archived_funding_notes": [
+        "Panel and funder disclosures pending; related review P3-11 author support checked"
+      ],
+      "archived_financial_interest_notes": [],
+      "archived_finding_present": false,
+      "archived_design_or_limitations_present": true,
+      "next_checks": [
+        "Read original results or applicable non-clinical source purpose; extract source-specific finding and locator.",
+        "Extract author/institution interests and disclosure status from original source.",
+        "Verify original identity/version and correction/retraction status; assess bias and claim applicability before release."
+      ],
+      "scope": "Original repository record matched by source ID, not a newly inspected external publication.",
+      "independent_bias_appraisal_complete": false,
+      "clinical_review": false,
+      "publish": false
+    },
+    {
+      "id": "P3-20",
+      "origin": "research/staged-completion/stage-03/SOURCES.json",
+      "origin_index": 19,
+      "origin_blob_sha": "27d4a430f3ded64a2025ce81f04159ce2cbc4952",
+      "original_title": "Antenatal perineal massage for reducing perineal trauma",
+      "archive_extraction": {
+        "design": "Cochrane review",
+        "population": "4 trials 2480 women",
+        "limitations": "Older review; distinct from intrapartum massage; appropriate consent and clinical timing",
+        "access": "Cochrane results",
+        "correction_retraction_status": "comprehensive check pending",
+        "publication_status": "staged; not automatic guidance",
+        "funding": "Review and trial disclosures pending"
+      },
+      "archived_funding_notes": [
+        "Review and trial disclosures pending"
+      ],
+      "archived_financial_interest_notes": [],
+      "archived_finding_present": false,
+      "archived_design_or_limitations_present": true,
+      "next_checks": [
+        "Read original results or applicable non-clinical source purpose; extract source-specific finding and locator.",
+        "Extract author/institution interests and disclosure status from original source.",
+        "Verify original identity/version and correction/retraction status; assess bias and claim applicability before release."
+      ],
+      "scope": "Original repository record matched by source ID, not a newly inspected external publication.",
+      "independent_bias_appraisal_complete": false,
+      "clinical_review": false,
+      "publish": false
+    }
+  ]
+}

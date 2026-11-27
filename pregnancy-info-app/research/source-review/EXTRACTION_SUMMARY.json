@@ -1,0 +1,36 @@
+{
+  "date": "2026-11-27",
+  "counts": {
+    "origin_records_resolved": 770,
+    "origin_files": 12,
+    "archived_source_finding": 88,
+    "archived_design_or_limitations": 314,
+    "archived_funding_note": 318,
+    "archived_financial_interest_note": 218,
+    "archived_both_disclosures": 216,
+    "completed_new_bias_appraisals": 0
+  },
+  "origin_files": [
+    "research/integrated/CANONICAL_SOURCE_REGISTRY.json",
+    "research/child-health/sources.json",
+    "research/deep-research/TARGETED_GAP_AUDIT.json",
+    "research/external-audits/gemini/RECONCILIATION.json",
+    "research/staged-completion/stage-01/SOURCES.json",
+    "research/staged-completion/stage-02/SOURCES.json",
+    "research/staged-completion/stage-03/SOURCES.json",
+    "research/staged-completion/stage-04/SOURCES.json",
+    "research/staged-completion/stage-05/SOURCES.json",
+    "research/staged-completion/stage-06/SOURCES.json",
+    "research/staged-completion/stage-07/SOURCES.json",
+    "research/staged-completion/stage-09/GUIDANCE_REFRESH.json"
+  ],
+  "files": [
+    "research/source-review/extractions-001-110.json",
+    "research/source-review/extractions-111-220.json",
+    "research/source-review/extractions-221-330.json",
+    "research/source-review/extractions-331-440.json",
+    "research/source-review/extractions-441-550.json",
+    "research/source-review/extractions-551-660.json",
+    "research/source-review/extractions-661-770.json"
+  ]
+}

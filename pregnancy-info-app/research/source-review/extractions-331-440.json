@@ -1,0 +1,3187 @@
+{
+  "scope": "Archived source-specific evidence; not independent validation.",
+  "records": [
+    {
+      "id": "H019",
+      "origin": "research/integrated/CANONICAL_SOURCE_REGISTRY.json",
+      "origin_index": 330,
+      "origin_blob_sha": "ce3f5cd03c5e35d426d99b3f637b9ea7adf295c0",
+      "original_title": "Double-blind randomized trial of niacinamide 4% vs hydroquinone 4% for melasma",
+      "archive_extraction": {
+        "verification_scope": "selected indexed excerpt or source section checked in high pass; see high-audit/EVIDENCE_CHECKS.json",
+        "kind": "primary trial",
+        "current_pass_status": "selected excerpt checked",
+        "topics": [
+          "FACE-001"
+        ]
+      },
+      "archived_funding_notes": [],
+      "archived_financial_interest_notes": [],
+      "archived_finding_present": false,
+      "archived_design_or_limitations_present": false,
+      "next_checks": [
+        "Read original results or applicable non-clinical source purpose; extract source-specific finding and locator.",
+        "Verify design/source type, population, comparator and method limitations (or non-clinical applicability).",
+        "Extract funding, in-kind contributions and funder role from original disclosure.",
+        "Extract author/institution interests and disclosure status from original source.",
+        "Verify original identity/version and correction/retraction status; assess bias and claim applicability before release."
+      ],
+      "scope": "Original repository record matched by source ID, not a newly inspected external publication.",
+      "independent_bias_appraisal_complete": false,
+      "clinical_review": false,
+      "publish": false
+    },
+    {
+      "id": "H020",
+      "origin": "research/integrated/CANONICAL_SOURCE_REGISTRY.json",
+      "origin_index": 331,
+      "origin_blob_sha": "ce3f5cd03c5e35d426d99b3f637b9ea7adf295c0",
+      "original_title": "Update on Melasma—Part II: Treatment",
+      "archive_extraction": {
+        "verification_scope": "selected indexed excerpt or source section checked in high pass; see high-audit/EVIDENCE_CHECKS.json",
+        "kind": "narrative review",
+        "current_pass_status": "selected excerpt checked",
+        "topics": [
+          "FACE-001"
+        ]
+      },
+      "archived_funding_notes": [],
+      "archived_financial_interest_notes": [],
+      "archived_finding_present": false,
+      "archived_design_or_limitations_present": false,
+      "next_checks": [
+        "Read original results or applicable non-clinical source purpose; extract source-specific finding and locator.",
+        "Verify design/source type, population, comparator and method limitations (or non-clinical applicability).",
+        "Extract funding, in-kind contributions and funder role from original disclosure.",
+        "Extract author/institution interests and disclosure status from original source.",
+        "Verify original identity/version and correction/retraction status; assess bias and claim applicability before release."
+      ],
+      "scope": "Original repository record matched by source ID, not a newly inspected external publication.",
+      "independent_bias_appraisal_complete": false,
+      "clinical_review": false,
+      "publish": false
+    },
+    {
+      "id": "H021",
+      "origin": "research/integrated/CANONICAL_SOURCE_REGISTRY.json",
+      "origin_index": 332,
+      "origin_blob_sha": "ce3f5cd03c5e35d426d99b3f637b9ea7adf295c0",
+      "original_title": "Core muscle strength and stability-oriented breathing training in postpartum women",
+      "archive_extraction": {
+        "verification_scope": "selected indexed excerpt or source section checked in high pass; see high-audit/EVIDENCE_CHECKS.json",
+        "kind": "primary study, methods not fully extracted",
+        "current_pass_status": "selected excerpt checked",
+        "topics": [
+          "ABD-001"
+        ]
+      },
+      "archived_funding_notes": [],
+      "archived_financial_interest_notes": [],
+      "archived_finding_present": false,
+      "archived_design_or_limitations_present": false,
+      "next_checks": [
+        "Read original results or applicable non-clinical source purpose; extract source-specific finding and locator.",
+        "Verify design/source type, population, comparator and method limitations (or non-clinical applicability).",
+        "Extract funding, in-kind contributions and funder role from original disclosure.",
+        "Extract author/institution interests and disclosure status from original source.",
+        "Verify original identity/version and correction/retraction status; assess bias and claim applicability before release."
+      ],
+      "scope": "Original repository record matched by source ID, not a newly inspected external publication.",
+      "independent_bias_appraisal_complete": false,
+      "clinical_review": false,
+      "publish": false
+    },
+    {
+      "id": "H022",
+      "origin": "research/integrated/CANONICAL_SOURCE_REGISTRY.json",
+      "origin_index": 333,
+      "origin_blob_sha": "ce3f5cd03c5e35d426d99b3f637b9ea7adf295c0",
+      "original_title": "Effect of inspiratory plus expiratory neuromuscular electrical stimulation on postpartum diastasis",
+      "archive_extraction": {
+        "verification_scope": "selected indexed excerpt or source section checked in high pass; see high-audit/EVIDENCE_CHECKS.json",
+        "kind": "primary RCT abstract",
+        "current_pass_status": "selected excerpt checked",
+        "topics": [
+          "ABD-001"
+        ]
+      },
+      "archived_funding_notes": [],
+      "archived_financial_interest_notes": [],
+      "archived_finding_present": false,
+      "archived_design_or_limitations_present": false,
+      "next_checks": [
+        "Read original results or applicable non-clinical source purpose; extract source-specific finding and locator.",
+        "Verify design/source type, population, comparator and method limitations (or non-clinical applicability).",
+        "Extract funding, in-kind contributions and funder role from original disclosure.",
+        "Extract author/institution interests and disclosure status from original source.",
+        "Verify original identity/version and correction/retraction status; assess bias and claim applicability before release."
+      ],
+      "scope": "Original repository record matched by source ID, not a newly inspected external publication.",
+      "independent_bias_appraisal_complete": false,
+      "clinical_review": false,
+      "publish": false
+    },
+    {
+      "id": "H023",
+      "origin": "research/integrated/CANONICAL_SOURCE_REGISTRY.json",
+      "origin_index": 334,
+      "origin_blob_sha": "ce3f5cd03c5e35d426d99b3f637b9ea7adf295c0",
+      "original_title": "MotherToBaby Exercise fact sheet",
+      "archive_extraction": {
+        "verification_scope": "selected indexed excerpt or source section checked in high pass; see high-audit/EVIDENCE_CHECKS.json",
+        "kind": "teratology information guidance",
+        "current_pass_status": "selected excerpt checked",
+        "topics": [
+          "FIT-002"
+        ]
+      },
+      "archived_funding_notes": [],
+      "archived_financial_interest_notes": [],
+      "archived_finding_present": false,
+      "archived_design_or_limitations_present": false,
+      "next_checks": [
+        "Read original results or applicable non-clinical source purpose; extract source-specific finding and locator.",
+        "Verify design/source type, population, comparator and method limitations (or non-clinical applicability).",
+        "Extract funding, in-kind contributions and funder role from original disclosure.",
+        "Extract author/institution interests and disclosure status from original source.",
+        "Verify original identity/version and correction/retraction status; assess bias and claim applicability before release."
+      ],
+      "scope": "Original repository record matched by source ID, not a newly inspected external publication.",
+      "independent_bias_appraisal_complete": false,
+      "clinical_review": false,
+      "publish": false
+    },
+    {
+      "id": "H024",
+      "origin": "research/integrated/CANONICAL_SOURCE_REGISTRY.json",
+      "origin_index": 335,
+      "origin_blob_sha": "ce3f5cd03c5e35d426d99b3f637b9ea7adf295c0",
+      "original_title": "OpenStax Anatomy and Physiology 2e preface and licensing",
+      "archive_extraction": {
+        "verification_scope": "selected indexed excerpt or source section checked in high pass; see high-audit/EVIDENCE_CHECKS.json",
+        "kind": "asset licensing guidance",
+        "current_pass_status": "selected excerpt checked",
+        "topics": [
+          "UX"
+        ]
+      },
+      "archived_funding_notes": [],
+      "archived_financial_interest_notes": [],
+      "archived_finding_present": false,
+      "archived_design_or_limitations_present": false,
+      "next_checks": [
+        "Read original results or applicable non-clinical source purpose; extract source-specific finding and locator.",
+        "Verify design/source type, population, comparator and method limitations (or non-clinical applicability).",
+        "Extract funding, in-kind contributions and funder role from original disclosure.",
+        "Extract author/institution interests and disclosure status from original source.",
+        "Verify original identity/version and correction/retraction status; assess bias and claim applicability before release."
+      ],
+      "scope": "Original repository record matched by source ID, not a newly inspected external publication.",
+      "independent_bias_appraisal_complete": false,
+      "clinical_review": false,
+      "publish": false
+    },
+    {
+      "id": "H025",
+      "origin": "research/integrated/CANONICAL_SOURCE_REGISTRY.json",
+      "origin_index": 336,
+      "origin_blob_sha": "ce3f5cd03c5e35d426d99b3f637b9ea7adf295c0",
+      "original_title": "OpenStax changes during pregnancy, labor and birth",
+      "archive_extraction": {
+        "verification_scope": "selected indexed excerpt or source section checked in high pass; see high-audit/EVIDENCE_CHECKS.json",
+        "kind": "anatomy reference",
+        "current_pass_status": "selected excerpt checked",
+        "topics": [
+          "BIRTH-001"
+        ]
+      },
+      "archived_funding_notes": [],
+      "archived_financial_interest_notes": [],
+      "archived_finding_present": false,
+      "archived_design_or_limitations_present": false,
+      "next_checks": [
+        "Read original results or applicable non-clinical source purpose; extract source-specific finding and locator.",
+        "Verify design/source type, population, comparator and method limitations (or non-clinical applicability).",
+        "Extract funding, in-kind contributions and funder role from original disclosure.",
+        "Extract author/institution interests and disclosure status from original source.",
+        "Verify original identity/version and correction/retraction status; assess bias and claim applicability before release."
+      ],
+      "scope": "Original repository record matched by source ID, not a newly inspected external publication.",
+      "independent_bias_appraisal_complete": false,
+      "clinical_review": false,
+      "publish": false
+    },
+    {
+      "id": "H026",
+      "origin": "research/integrated/CANONICAL_SOURCE_REGISTRY.json",
+      "origin_index": 337,
+      "origin_blob_sha": "ce3f5cd03c5e35d426d99b3f637b9ea7adf295c0",
+      "original_title": "OpenStax lactation",
+      "archive_extraction": {
+        "verification_scope": "selected indexed excerpt or source section checked in high pass; see high-audit/EVIDENCE_CHECKS.json",
+        "kind": "anatomy reference",
+        "current_pass_status": "selected excerpt checked",
+        "topics": [
+          "BREAST-001"
+        ]
+      },
+      "archived_funding_notes": [],
+      "archived_financial_interest_notes": [],
+      "archived_finding_present": false,
+      "archived_design_or_limitations_present": false,
+      "next_checks": [
+        "Read original results or applicable non-clinical source purpose; extract source-specific finding and locator.",
+        "Verify design/source type, population, comparator and method limitations (or non-clinical applicability).",
+        "Extract funding, in-kind contributions and funder role from original disclosure.",
+        "Extract author/institution interests and disclosure status from original source.",
+        "Verify original identity/version and correction/retraction status; assess bias and claim applicability before release."
+      ],
+      "scope": "Original repository record matched by source ID, not a newly inspected external publication.",
+      "independent_bias_appraisal_complete": false,
+      "clinical_review": false,
+      "publish": false
+    },
+    {
+      "id": "H027",
+      "origin": "research/integrated/CANONICAL_SOURCE_REGISTRY.json",
+      "origin_index": 338,
+      "origin_blob_sha": "ce3f5cd03c5e35d426d99b3f637b9ea7adf295c0",
+      "original_title": "Calcium supplementation other than hypertension prevention: pregnancy and infant outcomes",
+      "archive_extraction": {
+        "verification_scope": "selected indexed excerpt or source section checked in high pass; see high-audit/EVIDENCE_CHECKS.json",
+        "kind": "systematic review",
+        "current_pass_status": "selected excerpt checked",
+        "topics": [
+          "NUTR-001"
+        ]
+      },
+      "archived_funding_notes": [],
+      "archived_financial_interest_notes": [],
+      "archived_finding_present": false,
+      "archived_design_or_limitations_present": false,
+      "next_checks": [
+        "Read original results or applicable non-clinical source purpose; extract source-specific finding and locator.",
+        "Verify design/source type, population, comparator and method limitations (or non-clinical applicability).",
+        "Extract funding, in-kind contributions and funder role from original disclosure.",
+        "Extract author/institution interests and disclosure status from original source.",
+        "Verify original identity/version and correction/retraction status; assess bias and claim applicability before release."
+      ],
+      "scope": "Original repository record matched by source ID, not a newly inspected external publication.",
+      "independent_bias_appraisal_complete": false,
+      "clinical_review": false,
+      "publish": false
+    },
+    {
+      "id": "H028",
+      "origin": "research/integrated/CANONICAL_SOURCE_REGISTRY.json",
+      "origin_index": 339,
+      "origin_blob_sha": "ce3f5cd03c5e35d426d99b3f637b9ea7adf295c0",
+      "original_title": "ADORE randomized controlled trial protocol",
+      "archive_extraction": {
+        "verification_scope": "selected indexed excerpt or source section checked in high pass; see high-audit/EVIDENCE_CHECKS.json",
+        "kind": "trial protocol",
+        "current_pass_status": "selected excerpt checked",
+        "topics": [
+          "NUTR-001"
+        ]
+      },
+      "archived_funding_notes": [],
+      "archived_financial_interest_notes": [],
+      "archived_finding_present": false,
+      "archived_design_or_limitations_present": false,
+      "next_checks": [
+        "Read original results or applicable non-clinical source purpose; extract source-specific finding and locator.",
+        "Verify design/source type, population, comparator and method limitations (or non-clinical applicability).",
+        "Extract funding, in-kind contributions and funder role from original disclosure.",
+        "Extract author/institution interests and disclosure status from original source.",
+        "Verify original identity/version and correction/retraction status; assess bias and claim applicability before release."
+      ],
+      "scope": "Original repository record matched by source ID, not a newly inspected external publication.",
+      "independent_bias_appraisal_complete": false,
+      "clinical_review": false,
+      "publish": false
+    },
+    {
+      "id": "H029",
+      "origin": "research/integrated/CANONICAL_SOURCE_REGISTRY.json",
+      "origin_index": 340,
+      "origin_blob_sha": "ce3f5cd03c5e35d426d99b3f637b9ea7adf295c0",
+      "original_title": "Probiotics in overweight or obese pregnant women systematic review",
+      "archive_extraction": {
+        "verification_scope": "selected indexed excerpt or source section checked in high pass; see high-audit/EVIDENCE_CHECKS.json",
+        "kind": "systematic review",
+        "current_pass_status": "selected excerpt checked",
+        "topics": [
+          "NUTR-002"
+        ]
+      },
+      "archived_funding_notes": [],
+      "archived_financial_interest_notes": [],
+      "archived_finding_present": false,
+      "archived_design_or_limitations_present": false,
+      "next_checks": [
+        "Read original results or applicable non-clinical source purpose; extract source-specific finding and locator.",
+        "Verify design/source type, population, comparator and method limitations (or non-clinical applicability).",
+        "Extract funding, in-kind contributions and funder role from original disclosure.",
+        "Extract author/institution interests and disclosure status from original source.",
+        "Verify original identity/version and correction/retraction status; assess bias and claim applicability before release."
+      ],
+      "scope": "Original repository record matched by source ID, not a newly inspected external publication.",
+      "independent_bias_appraisal_complete": false,
+      "clinical_review": false,
+      "publish": false
+    },
+    {
+      "id": "H030",
+      "origin": "research/integrated/CANONICAL_SOURCE_REGISTRY.json",
+      "origin_index": 341,
+      "origin_blob_sha": "ce3f5cd03c5e35d426d99b3f637b9ea7adf295c0",
+      "original_title": "2022 probiotic GDM prevention systematic review",
+      "archive_extraction": {
+        "verification_scope": "selected indexed excerpt or source section checked in high pass; see high-audit/EVIDENCE_CHECKS.json",
+        "kind": "systematic review",
+        "current_pass_status": "selected excerpt checked",
+        "topics": [
+          "NUTR-002"
+        ]
+      },
+      "archived_funding_notes": [],
+      "archived_financial_interest_notes": [],
+      "archived_finding_present": false,
+      "archived_design_or_limitations_present": false,
+      "next_checks": [
+        "Read original results or applicable non-clinical source purpose; extract source-specific finding and locator.",
+        "Verify design/source type, population, comparator and method limitations (or non-clinical applicability).",
+        "Extract funding, in-kind contributions and funder role from original disclosure.",
+        "Extract author/institution interests and disclosure status from original source.",
+        "Verify original identity/version and correction/retraction status; assess bias and claim applicability before release."
+      ],
+      "scope": "Original repository record matched by source ID, not a newly inspected external publication.",
+      "independent_bias_appraisal_complete": false,
+      "clinical_review": false,
+      "publish": false
+    },
+    {
+      "id": "H031",
+      "origin": "research/integrated/CANONICAL_SOURCE_REGISTRY.json",
+      "origin_index": 342,
+      "origin_blob_sha": "ce3f5cd03c5e35d426d99b3f637b9ea7adf295c0",
+      "original_title": "HUMBA study protocol",
+      "archive_extraction": {
+        "verification_scope": "selected indexed excerpt or source section checked in high pass; see high-audit/EVIDENCE_CHECKS.json",
+        "kind": "trial protocol",
+        "current_pass_status": "selected excerpt checked",
+        "topics": [
+          "NUTR-002"
+        ]
+      },
+      "archived_funding_notes": [],
+      "archived_financial_interest_notes": [],
+      "archived_finding_present": false,
+      "archived_design_or_limitations_present": false,
+      "next_checks": [
+        "Read original results or applicable non-clinical source purpose; extract source-specific finding and locator.",
+        "Verify design/source type, population, comparator and method limitations (or non-clinical applicability).",
+        "Extract funding, in-kind contributions and funder role from original disclosure.",
+        "Extract author/institution interests and disclosure status from original source.",
+        "Verify original identity/version and correction/retraction status; assess bias and claim applicability before release."
+      ],
+      "scope": "Original repository record matched by source ID, not a newly inspected external publication.",
+      "independent_bias_appraisal_complete": false,
+      "clinical_review": false,
+      "publish": false
+    },
+    {
+      "id": "H032",
+      "origin": "research/integrated/CANONICAL_SOURCE_REGISTRY.json",
+      "origin_index": 343,
+      "origin_blob_sha": "ce3f5cd03c5e35d426d99b3f637b9ea7adf295c0",
+      "original_title": "Assessment of breast volume changes during human pregnancy: prospective CGATE study",
+      "archive_extraction": {
+        "verification_scope": "see high-audit/EVIDENCE_CHECKS.json or asset reference",
+        "kind": "prospective measurement study",
+        "current_pass_status": "selected public source section or indexed excerpt checked",
+        "topics": [
+          "BREAST-001"
+        ]
+      },
+      "archived_funding_notes": [],
+      "archived_financial_interest_notes": [],
+      "archived_finding_present": false,
+      "archived_design_or_limitations_present": false,
+      "next_checks": [
+        "Read original results or applicable non-clinical source purpose; extract source-specific finding and locator.",
+        "Verify design/source type, population, comparator and method limitations (or non-clinical applicability).",
+        "Extract funding, in-kind contributions and funder role from original disclosure.",
+        "Extract author/institution interests and disclosure status from original source.",
+        "Verify original identity/version and correction/retraction status; assess bias and claim applicability before release."
+      ],
+      "scope": "Original repository record matched by source ID, not a newly inspected external publication.",
+      "independent_bias_appraisal_complete": false,
+      "clinical_review": false,
+      "publish": false
+    },
+    {
+      "id": "H033",
+      "origin": "research/integrated/CANONICAL_SOURCE_REGISTRY.json",
+      "origin_index": 344,
+      "origin_blob_sha": "ce3f5cd03c5e35d426d99b3f637b9ea7adf295c0",
+      "original_title": "Maternal and fetal responses to acute high-intensity resistance exercise during pregnancy",
+      "archive_extraction": {
+        "verification_scope": "see high-audit/EVIDENCE_CHECKS.json or asset reference",
+        "kind": "acute physiology study",
+        "current_pass_status": "selected public source section or indexed excerpt checked",
+        "topics": [
+          "FIT-002"
+        ]
+      },
+      "archived_funding_notes": [],
+      "archived_financial_interest_notes": [],
+      "archived_finding_present": false,
+      "archived_design_or_limitations_present": false,
+      "next_checks": [
+        "Read original results or applicable non-clinical source purpose; extract source-specific finding and locator.",
+        "Verify design/source type, population, comparator and method limitations (or non-clinical applicability).",
+        "Extract funding, in-kind contributions and funder role from original disclosure.",
+        "Extract author/institution interests and disclosure status from original source.",
+        "Verify original identity/version and correction/retraction status; assess bias and claim applicability before release."
+      ],
+      "scope": "Original repository record matched by source ID, not a newly inspected external publication.",
+      "independent_bias_appraisal_complete": false,
+      "clinical_review": false,
+      "publish": false
+    },
+    {
+      "id": "H034",
+      "origin": "research/integrated/CANONICAL_SOURCE_REGISTRY.json",
+      "origin_index": 345,
+      "origin_blob_sha": "ce3f5cd03c5e35d426d99b3f637b9ea7adf295c0",
+      "original_title": "Maternal and foetal cardiovascular responses to moderate-to-high intensity resistance exercise",
+      "archive_extraction": {
+        "verification_scope": "see high-audit/EVIDENCE_CHECKS.json or asset reference",
+        "kind": "acute physiology study",
+        "current_pass_status": "selected public source section or indexed excerpt checked",
+        "topics": [
+          "FIT-002"
+        ]
+      },
+      "archived_funding_notes": [],
+      "archived_financial_interest_notes": [],
+      "archived_finding_present": false,
+      "archived_design_or_limitations_present": false,
+      "next_checks": [
+        "Read original results or applicable non-clinical source purpose; extract source-specific finding and locator.",
+        "Verify design/source type, population, comparator and method limitations (or non-clinical applicability).",
+        "Extract funding, in-kind contributions and funder role from original disclosure.",
+        "Extract author/institution interests and disclosure status from original source.",
+        "Verify original identity/version and correction/retraction status; assess bias and claim applicability before release."
+      ],
+      "scope": "Original repository record matched by source ID, not a newly inspected external publication.",
+      "independent_bias_appraisal_complete": false,
+      "clinical_review": false,
+      "publish": false
+    },
+    {
+      "id": "H035",
+      "origin": "research/integrated/CANONICAL_SOURCE_REGISTRY.json",
+      "origin_index": 346,
+      "origin_blob_sha": "ce3f5cd03c5e35d426d99b3f637b9ea7adf295c0",
+      "original_title": "Pushing limits: acute heavy-load resistance and supine exercise fetal well-being",
+      "archive_extraction": {
+        "verification_scope": "see high-audit/EVIDENCE_CHECKS.json or asset reference",
+        "kind": "acute physiology study",
+        "current_pass_status": "selected public source section or indexed excerpt checked",
+        "topics": [
+          "FIT-002"
+        ]
+      },
+      "archived_funding_notes": [],
+      "archived_financial_interest_notes": [],
+      "archived_finding_present": false,
+      "archived_design_or_limitations_present": false,
+      "next_checks": [
+        "Read original results or applicable non-clinical source purpose; extract source-specific finding and locator.",
+        "Verify design/source type, population, comparator and method limitations (or non-clinical applicability).",
+        "Extract funding, in-kind contributions and funder role from original disclosure.",
+        "Extract author/institution interests and disclosure status from original source.",
+        "Verify original identity/version and correction/retraction status; assess bias and claim applicability before release."
+      ],
+      "scope": "Original repository record matched by source ID, not a newly inspected external publication.",
+      "independent_bias_appraisal_complete": false,
+      "clinical_review": false,
+      "publish": false
+    },
+    {
+      "id": "H036",
+      "origin": "research/integrated/CANONICAL_SOURCE_REGISTRY.json",
+      "origin_index": 347,
+      "origin_blob_sha": "ce3f5cd03c5e35d426d99b3f637b9ea7adf295c0",
+      "original_title": "Impact of heavy resistance training on pregnancy and postpartum health outcomes",
+      "archive_extraction": {
+        "verification_scope": "see high-audit/EVIDENCE_CHECKS.json or asset reference",
+        "kind": "observational study",
+        "current_pass_status": "selected public source section or indexed excerpt checked",
+        "topics": [
+          "FIT-002"
+        ]
+      },
+      "archived_funding_notes": [],
+      "archived_financial_interest_notes": [],
+      "archived_finding_present": false,
+      "archived_design_or_limitations_present": false,
+      "next_checks": [
+        "Read original results or applicable non-clinical source purpose; extract source-specific finding and locator.",
+        "Verify design/source type, population, comparator and method limitations (or non-clinical applicability).",
+        "Extract funding, in-kind contributions and funder role from original disclosure.",
+        "Extract author/institution interests and disclosure status from original source.",
+        "Verify original identity/version and correction/retraction status; assess bias and claim applicability before release."
+      ],
+      "scope": "Original repository record matched by source ID, not a newly inspected external publication.",
+      "independent_bias_appraisal_complete": false,
+      "clinical_review": false,
+      "publish": false
+    },
+    {
+      "id": "H037",
+      "origin": "research/integrated/CANONICAL_SOURCE_REGISTRY.json",
+      "origin_index": 348,
+      "origin_blob_sha": "ce3f5cd03c5e35d426d99b3f637b9ea7adf295c0",
+      "original_title": "Microneedling as standalone treatment for striae rubrae and albae",
+      "archive_extraction": {
+        "verification_scope": "see high-audit/EVIDENCE_CHECKS.json or asset reference",
+        "kind": "comparative cosmetic study",
+        "current_pass_status": "selected public source section or indexed excerpt checked",
+        "topics": [
+          "SKIN-003"
+        ]
+      },
+      "archived_funding_notes": [],
+      "archived_financial_interest_notes": [],
+      "archived_finding_present": false,
+      "archived_design_or_limitations_present": false,
+      "next_checks": [
+        "Read original results or applicable non-clinical source purpose; extract source-specific finding and locator.",
+        "Verify design/source type, population, comparator and method limitations (or non-clinical applicability).",
+        "Extract funding, in-kind contributions and funder role from original disclosure.",
+        "Extract author/institution interests and disclosure status from original source.",
+        "Verify original identity/version and correction/retraction status; assess bias and claim applicability before release."
+      ],
+      "scope": "Original repository record matched by source ID, not a newly inspected external publication.",
+      "independent_bias_appraisal_complete": false,
+      "clinical_review": false,
+      "publish": false
+    },
+    {
+      "id": "H038",
+      "origin": "research/integrated/CANONICAL_SOURCE_REGISTRY.json",
+      "origin_index": 349,
+      "origin_blob_sha": "ce3f5cd03c5e35d426d99b3f637b9ea7adf295c0",
+      "original_title": "Evaluating microneedling technique for striae alba lesions",
+      "archive_extraction": {
+        "verification_scope": "see high-audit/EVIDENCE_CHECKS.json or asset reference",
+        "kind": "small treatment study",
+        "current_pass_status": "selected public source section or indexed excerpt checked",
+        "topics": [
+          "SKIN-003"
+        ]
+      },
+      "archived_funding_notes": [],
+      "archived_financial_interest_notes": [],
+      "archived_finding_present": false,
+      "archived_design_or_limitations_present": false,
+      "next_checks": [
+        "Read original results or applicable non-clinical source purpose; extract source-specific finding and locator.",
+        "Verify design/source type, population, comparator and method limitations (or non-clinical applicability).",
+        "Extract funding, in-kind contributions and funder role from original disclosure.",
+        "Extract author/institution interests and disclosure status from original source.",
+        "Verify original identity/version and correction/retraction status; assess bias and claim applicability before release."
+      ],
+      "scope": "Original repository record matched by source ID, not a newly inspected external publication.",
+      "independent_bias_appraisal_complete": false,
+      "clinical_review": false,
+      "publish": false
+    },
+    {
+      "id": "H039",
+      "origin": "research/integrated/CANONICAL_SOURCE_REGISTRY.json",
+      "origin_index": 350,
+      "origin_blob_sha": "ce3f5cd03c5e35d426d99b3f637b9ea7adf295c0",
+      "original_title": "Ablative fractional CO2 laser with rhEGF versus aloe vera for striae alba",
+      "archive_extraction": {
+        "verification_scope": "see high-audit/EVIDENCE_CHECKS.json or asset reference",
+        "kind": "split-area randomized trial",
+        "current_pass_status": "selected public source section or indexed excerpt checked",
+        "topics": [
+          "SKIN-003"
+        ]
+      },
+      "archived_funding_notes": [],
+      "archived_financial_interest_notes": [],
+      "archived_finding_present": false,
+      "archived_design_or_limitations_present": false,
+      "next_checks": [
+        "Read original results or applicable non-clinical source purpose; extract source-specific finding and locator.",
+        "Verify design/source type, population, comparator and method limitations (or non-clinical applicability).",
+        "Extract funding, in-kind contributions and funder role from original disclosure.",
+        "Extract author/institution interests and disclosure status from original source.",
+        "Verify original identity/version and correction/retraction status; assess bias and claim applicability before release."
+      ],
+      "scope": "Original repository record matched by source ID, not a newly inspected external publication.",
+      "independent_bias_appraisal_complete": false,
+      "clinical_review": false,
+      "publish": false
+    },
+    {
+      "id": "H040",
+      "origin": "research/integrated/CANONICAL_SOURCE_REGISTRY.json",
+      "origin_index": 351,
+      "origin_blob_sha": "ce3f5cd03c5e35d426d99b3f637b9ea7adf295c0",
+      "original_title": "EVA trial: lateral episiotomy or no episiotomy in vacuum assisted delivery",
+      "archive_extraction": {
+        "verification_scope": "see high-audit/EVIDENCE_CHECKS.json or asset reference",
+        "kind": "primary RCT",
+        "current_pass_status": "selected public source section or indexed excerpt checked",
+        "topics": [
+          "BIRTH-001"
+        ]
+      },
+      "archived_funding_notes": [],
+      "archived_financial_interest_notes": [],
+      "archived_finding_present": false,
+      "archived_design_or_limitations_present": false,
+      "next_checks": [
+        "Read original results or applicable non-clinical source purpose; extract source-specific finding and locator.",
+        "Verify design/source type, population, comparator and method limitations (or non-clinical applicability).",
+        "Extract funding, in-kind contributions and funder role from original disclosure.",
+        "Extract author/institution interests and disclosure status from original source.",
+        "Verify original identity/version and correction/retraction status; assess bias and claim applicability before release."
+      ],
+      "scope": "Original repository record matched by source ID, not a newly inspected external publication.",
+      "independent_bias_appraisal_complete": false,
+      "clinical_review": false,
+      "publish": false
+    },
+    {
+      "id": "H041",
+      "origin": "research/integrated/CANONICAL_SOURCE_REGISTRY.json",
+      "origin_index": 352,
+      "origin_blob_sha": "ce3f5cd03c5e35d426d99b3f637b9ea7adf295c0",
+      "original_title": "Contemporary trends in operative vaginal delivery and obstetric anal sphincter injuries 2016–2023",
+      "archive_extraction": {
+        "verification_scope": "see high-audit/EVIDENCE_CHECKS.json or asset reference",
+        "kind": "observational register study",
+        "current_pass_status": "selected public source section or indexed excerpt checked",
+        "topics": [
+          "BIRTH-001"
+        ]
+      },
+      "archived_funding_notes": [],
+      "archived_financial_interest_notes": [],
+      "archived_finding_present": false,
+      "archived_design_or_limitations_present": false,
+      "next_checks": [
+        "Read original results or applicable non-clinical source purpose; extract source-specific finding and locator.",
+        "Verify design/source type, population, comparator and method limitations (or non-clinical applicability).",
+        "Extract funding, in-kind contributions and funder role from original disclosure.",
+        "Extract author/institution interests and disclosure status from original source.",
+        "Verify original identity/version and correction/retraction status; assess bias and claim applicability before release."
+      ],
+      "scope": "Original repository record matched by source ID, not a newly inspected external publication.",
+      "independent_bias_appraisal_complete": false,
+      "clinical_review": false,
+      "publish": false
+    },
+    {
+      "id": "H042",
+      "origin": "research/integrated/CANONICAL_SOURCE_REGISTRY.json",
+      "origin_index": 353,
+      "origin_blob_sha": "ce3f5cd03c5e35d426d99b3f637b9ea7adf295c0",
+      "original_title": "Management of pregnancy-related pelvic girdle pain: international Delphi study",
+      "archive_extraction": {
+        "verification_scope": "see high-audit/EVIDENCE_CHECKS.json or asset reference",
+        "kind": "consensus",
+        "current_pass_status": "selected public source section or indexed excerpt checked",
+        "topics": [
+          "MSK-001"
+        ]
+      },
+      "archived_funding_notes": [],
+      "archived_financial_interest_notes": [],
+      "archived_finding_present": false,
+      "archived_design_or_limitations_present": false,
+      "next_checks": [
+        "Read original results or applicable non-clinical source purpose; extract source-specific finding and locator.",
+        "Verify design/source type, population, comparator and method limitations (or non-clinical applicability).",
+        "Extract funding, in-kind contributions and funder role from original disclosure.",
+        "Extract author/institution interests and disclosure status from original source.",
+        "Verify original identity/version and correction/retraction status; assess bias and claim applicability before release."
+      ],
+      "scope": "Original repository record matched by source ID, not a newly inspected external publication.",
+      "independent_bias_appraisal_complete": false,
+      "clinical_review": false,
+      "publish": false
+    },
+    {
+      "id": "H043",
+      "origin": "research/integrated/CANONICAL_SOURCE_REGISTRY.json",
+      "origin_index": 354,
+      "origin_blob_sha": "ce3f5cd03c5e35d426d99b3f637b9ea7adf295c0",
+      "original_title": "Management of symphysis pubis dysfunction during pregnancy using exercise and pelvic support belts",
+      "archive_extraction": {
+        "verification_scope": "see high-audit/EVIDENCE_CHECKS.json or asset reference",
+        "kind": "clinical trial",
+        "current_pass_status": "selected public source section or indexed excerpt checked",
+        "topics": [
+          "MSK-001"
+        ]
+      },
+      "archived_funding_notes": [],
+      "archived_financial_interest_notes": [],
+      "archived_finding_present": false,
+      "archived_design_or_limitations_present": false,
+      "next_checks": [
+        "Read original results or applicable non-clinical source purpose; extract source-specific finding and locator.",
+        "Verify design/source type, population, comparator and method limitations (or non-clinical applicability).",
+        "Extract funding, in-kind contributions and funder role from original disclosure.",
+        "Extract author/institution interests and disclosure status from original source.",
+        "Verify original identity/version and correction/retraction status; assess bias and claim applicability before release."
+      ],
+      "scope": "Original repository record matched by source ID, not a newly inspected external publication.",
+      "independent_bias_appraisal_complete": false,
+      "clinical_review": false,
+      "publish": false
+    },
+    {
+      "id": "H044",
+      "origin": "research/integrated/CANONICAL_SOURCE_REGISTRY.json",
+      "origin_index": 355,
+      "origin_blob_sha": "ce3f5cd03c5e35d426d99b3f637b9ea7adf295c0",
+      "original_title": "CDC guidelines for vaccinating pregnant women",
+      "archive_extraction": {
+        "verification_scope": "see high-audit/EVIDENCE_CHECKS.json or asset reference",
+        "kind": "US clinical guidance",
+        "current_pass_status": "selected public source section or indexed excerpt checked",
+        "topics": [
+          "REPRO-001"
+        ]
+      },
+      "archived_funding_notes": [],
+      "archived_financial_interest_notes": [],
+      "archived_finding_present": false,
+      "archived_design_or_limitations_present": false,
+      "next_checks": [
+        "Read original results or applicable non-clinical source purpose; extract source-specific finding and locator.",
+        "Verify design/source type, population, comparator and method limitations (or non-clinical applicability).",
+        "Extract funding, in-kind contributions and funder role from original disclosure.",
+        "Extract author/institution interests and disclosure status from original source.",
+        "Verify original identity/version and correction/retraction status; assess bias and claim applicability before release."
+      ],
+      "scope": "Original repository record matched by source ID, not a newly inspected external publication.",
+      "independent_bias_appraisal_complete": false,
+      "clinical_review": false,
+      "publish": false
+    },
+    {
+      "id": "H045",
+      "origin": "research/integrated/CANONICAL_SOURCE_REGISTRY.json",
+      "origin_index": 356,
+      "origin_blob_sha": "ce3f5cd03c5e35d426d99b3f637b9ea7adf295c0",
+      "original_title": "ACOG carrier screening for genetic conditions",
+      "archive_extraction": {
+        "verification_scope": "see high-audit/EVIDENCE_CHECKS.json or asset reference",
+        "kind": "US clinical guidance",
+        "current_pass_status": "selected public source section or indexed excerpt checked",
+        "topics": [
+          "REPRO-001"
+        ]
+      },
+      "archived_funding_notes": [],
+      "archived_financial_interest_notes": [],
+      "archived_finding_present": false,
+      "archived_design_or_limitations_present": false,
+      "next_checks": [
+        "Read original results or applicable non-clinical source purpose; extract source-specific finding and locator.",
+        "Verify design/source type, population, comparator and method limitations (or non-clinical applicability).",
+        "Extract funding, in-kind contributions and funder role from original disclosure.",
+        "Extract author/institution interests and disclosure status from original source.",
+        "Verify original identity/version and correction/retraction status; assess bias and claim applicability before release."
+      ],
+      "scope": "Original repository record matched by source ID, not a newly inspected external publication.",
+      "independent_bias_appraisal_complete": false,
+      "clinical_review": false,
+      "publish": false
+    },
+    {
+      "id": "H046",
+      "origin": "research/integrated/CANONICAL_SOURCE_REGISTRY.json",
+      "origin_index": 357,
+      "origin_blob_sha": "ce3f5cd03c5e35d426d99b3f637b9ea7adf295c0",
+      "original_title": "Online education of men's reproductive health before childbearing: randomized trial",
+      "archive_extraction": {
+        "verification_scope": "see high-audit/EVIDENCE_CHECKS.json or asset reference",
+        "kind": "primary RCT",
+        "current_pass_status": "selected public source section or indexed excerpt checked",
+        "topics": [
+          "REPRO-001"
+        ]
+      },
+      "archived_funding_notes": [],
+      "archived_financial_interest_notes": [],
+      "archived_finding_present": false,
+      "archived_design_or_limitations_present": false,
+      "next_checks": [
+        "Read original results or applicable non-clinical source purpose; extract source-specific finding and locator.",
+        "Verify design/source type, population, comparator and method limitations (or non-clinical applicability).",
+        "Extract funding, in-kind contributions and funder role from original disclosure.",
+        "Extract author/institution interests and disclosure status from original source.",
+        "Verify original identity/version and correction/retraction status; assess bias and claim applicability before release."
+      ],
+      "scope": "Original repository record matched by source ID, not a newly inspected external publication.",
+      "independent_bias_appraisal_complete": false,
+      "clinical_review": false,
+      "publish": false
+    },
+    {
+      "id": "H047",
+      "origin": "research/integrated/CANONICAL_SOURCE_REGISTRY.json",
+      "origin_index": 358,
+      "origin_blob_sha": "ce3f5cd03c5e35d426d99b3f637b9ea7adf295c0",
+      "original_title": "Preconception care for men: scoping review",
+      "archive_extraction": {
+        "verification_scope": "see high-audit/EVIDENCE_CHECKS.json or asset reference",
+        "kind": "scoping review",
+        "current_pass_status": "selected public source section or indexed excerpt checked",
+        "topics": [
+          "FIT-001"
+        ]
+      },
+      "archived_funding_notes": [],
+      "archived_financial_interest_notes": [],
+      "archived_finding_present": false,
+      "archived_design_or_limitations_present": false,
+      "next_checks": [
+        "Read original results or applicable non-clinical source purpose; extract source-specific finding and locator.",
+        "Verify design/source type, population, comparator and method limitations (or non-clinical applicability).",
+        "Extract funding, in-kind contributions and funder role from original disclosure.",
+        "Extract author/institution interests and disclosure status from original source.",
+        "Verify original identity/version and correction/retraction status; assess bias and claim applicability before release."
+      ],
+      "scope": "Original repository record matched by source ID, not a newly inspected external publication.",
+      "independent_bias_appraisal_complete": false,
+      "clinical_review": false,
+      "publish": false
+    },
+    {
+      "id": "H048",
+      "origin": "research/integrated/CANONICAL_SOURCE_REGISTRY.json",
+      "origin_index": 359,
+      "origin_blob_sha": "ce3f5cd03c5e35d426d99b3f637b9ea7adf295c0",
+      "original_title": "Group parenting intervention for male postpartum depression: cluster RCT",
+      "archive_extraction": {
+        "verification_scope": "see high-audit/EVIDENCE_CHECKS.json or asset reference",
+        "kind": "cluster RCT",
+        "current_pass_status": "selected public source section or indexed excerpt checked",
+        "topics": [
+          "WELL-001"
+        ]
+      },
+      "archived_funding_notes": [],
+      "archived_financial_interest_notes": [],
+      "archived_finding_present": false,
+      "archived_design_or_limitations_present": false,
+      "next_checks": [
+        "Read original results or applicable non-clinical source purpose; extract source-specific finding and locator.",
+        "Verify design/source type, population, comparator and method limitations (or non-clinical applicability).",
+        "Extract funding, in-kind contributions and funder role from original disclosure.",
+        "Extract author/institution interests and disclosure status from original source.",
+        "Verify original identity/version and correction/retraction status; assess bias and claim applicability before release."
+      ],
+      "scope": "Original repository record matched by source ID, not a newly inspected external publication.",
+      "independent_bias_appraisal_complete": false,
+      "clinical_review": false,
+      "publish": false
+    },
+    {
+      "id": "H049",
+      "origin": "research/integrated/CANONICAL_SOURCE_REGISTRY.json",
+      "origin_index": 360,
+      "origin_blob_sha": "ce3f5cd03c5e35d426d99b3f637b9ea7adf295c0",
+      "original_title": "NCI skin anatomy illustration (Don Bliss)",
+      "archive_extraction": {
+        "verification_scope": "see high-audit/EVIDENCE_CHECKS.json or asset reference",
+        "kind": "asset license record",
+        "current_pass_status": "selected public source section or indexed excerpt checked",
+        "topics": [
+          "SKIN-001"
+        ]
+      },
+      "archived_funding_notes": [],
+      "archived_financial_interest_notes": [],
+      "archived_finding_present": false,
+      "archived_design_or_limitations_present": false,
+      "next_checks": [
+        "Read original results or applicable non-clinical source purpose; extract source-specific finding and locator.",
+        "Verify design/source type, population, comparator and method limitations (or non-clinical applicability).",
+        "Extract funding, in-kind contributions and funder role from original disclosure.",
+        "Extract author/institution interests and disclosure status from original source.",
+        "Verify original identity/version and correction/retraction status; assess bias and claim applicability before release."
+      ],
+      "scope": "Original repository record matched by source ID, not a newly inspected external publication.",
+      "independent_bias_appraisal_complete": false,
+      "clinical_review": false,
+      "publish": false
+    },
+    {
+      "id": "H050",
+      "origin": "research/integrated/CANONICAL_SOURCE_REGISTRY.json",
+      "origin_index": 361,
+      "origin_blob_sha": "ce3f5cd03c5e35d426d99b3f637b9ea7adf295c0",
+      "original_title": "OpenStax 2016 muscles of pelvic floor illustration",
+      "archive_extraction": {
+        "verification_scope": "see high-audit/EVIDENCE_CHECKS.json or asset reference",
+        "kind": "asset license record",
+        "current_pass_status": "selected public source section or indexed excerpt checked",
+        "topics": [
+          "PELV-001"
+        ]
+      },
+      "archived_funding_notes": [],
+      "archived_financial_interest_notes": [],
+      "archived_finding_present": false,
+      "archived_design_or_limitations_present": false,
+      "next_checks": [
+        "Read original results or applicable non-clinical source purpose; extract source-specific finding and locator.",
+        "Verify design/source type, population, comparator and method limitations (or non-clinical applicability).",
+        "Extract funding, in-kind contributions and funder role from original disclosure.",
+        "Extract author/institution interests and disclosure status from original source.",
+        "Verify original identity/version and correction/retraction status; assess bias and claim applicability before release."
+      ],
+      "scope": "Original repository record matched by source ID, not a newly inspected external publication.",
+      "independent_bias_appraisal_complete": false,
+      "clinical_review": false,
+      "publish": false
+    },
+    {
+      "id": "H051",
+      "origin": "research/integrated/CANONICAL_SOURCE_REGISTRY.json",
+      "origin_index": 362,
+      "origin_blob_sha": "ce3f5cd03c5e35d426d99b3f637b9ea7adf295c0",
+      "original_title": "NCI female pelvis illustration",
+      "archive_extraction": {
+        "verification_scope": "see high-audit/EVIDENCE_CHECKS.json or asset reference",
+        "kind": "asset license record",
+        "current_pass_status": "selected public source section or indexed excerpt checked",
+        "topics": [
+          "REPRO-001"
+        ]
+      },
+      "archived_funding_notes": [],
+      "archived_financial_interest_notes": [],
+      "archived_finding_present": false,
+      "archived_design_or_limitations_present": false,
+      "next_checks": [
+        "Read original results or applicable non-clinical source purpose; extract source-specific finding and locator.",
+        "Verify design/source type, population, comparator and method limitations (or non-clinical applicability).",
+        "Extract funding, in-kind contributions and funder role from original disclosure.",
+        "Extract author/institution interests and disclosure status from original source.",
+        "Verify original identity/version and correction/retraction status; assess bias and claim applicability before release."
+      ],
+      "scope": "Original repository record matched by source ID, not a newly inspected external publication.",
+      "independent_bias_appraisal_complete": false,
+      "clinical_review": false,
+      "publish": false
+    },
+    {
+      "id": "H052",
+      "origin": "research/integrated/CANONICAL_SOURCE_REGISTRY.json",
+      "origin_index": 363,
+      "origin_blob_sha": "ce3f5cd03c5e35d426d99b3f637b9ea7adf295c0",
+      "original_title": "Effectiveness of physiotherapy interventions for pregnancy-related lumbopelvic pain",
+      "archive_extraction": {
+        "verification_scope": "see high-audit/EVIDENCE_CHECKS.json or asset reference",
+        "kind": "systematic review",
+        "current_pass_status": "selected public source section or indexed excerpt checked",
+        "topics": [
+          "MSK-001"
+        ]
+      },
+      "archived_funding_notes": [],
+      "archived_financial_interest_notes": [],
+      "archived_finding_present": false,
+      "archived_design_or_limitations_present": false,
+      "next_checks": [
+        "Read original results or applicable non-clinical source purpose; extract source-specific finding and locator.",
+        "Verify design/source type, population, comparator and method limitations (or non-clinical applicability).",
+        "Extract funding, in-kind contributions and funder role from original disclosure.",
+        "Extract author/institution interests and disclosure status from original source.",
+        "Verify original identity/version and correction/retraction status; assess bias and claim applicability before release."
+      ],
+      "scope": "Original repository record matched by source ID, not a newly inspected external publication.",
+      "independent_bias_appraisal_complete": false,
+      "clinical_review": false,
+      "publish": false
+    },
+    {
+      "id": "G001",
+      "origin": "research/integrated/CANONICAL_SOURCE_REGISTRY.json",
+      "origin_index": 364,
+      "origin_blob_sha": "ce3f5cd03c5e35d426d99b3f637b9ea7adf295c0",
+      "original_title": "Postpartum stretchmarks: repairing activity of an oral Centella asiatica supplementation (Centellicum®)",
+      "archive_extraction": {
+        "verification_scope": "PubMed and publisher abstract; full text blocked; product-specific funding and breastfeeding status not verified",
+        "kind": "observational comparative registry study",
+        "current_pass_status": "selected source section or indexed excerpt checked",
+        "topics": [
+          "SKIN-003"
+        ]
+      },
+      "archived_funding_notes": [],
+      "archived_financial_interest_notes": [],
+      "archived_finding_present": false,
+      "archived_design_or_limitations_present": false,
+      "next_checks": [
+        "Read original results or applicable non-clinical source purpose; extract source-specific finding and locator.",
+        "Verify design/source type, population, comparator and method limitations (or non-clinical applicability).",
+        "Extract funding, in-kind contributions and funder role from original disclosure.",
+        "Extract author/institution interests and disclosure status from original source.",
+        "Verify original identity/version and correction/retraction status; assess bias and claim applicability before release."
+      ],
+      "scope": "Original repository record matched by source ID, not a newly inspected external publication.",
+      "independent_bias_appraisal_complete": false,
+      "clinical_review": false,
+      "publish": false
+    },
+    {
+      "id": "G002",
+      "origin": "research/integrated/CANONICAL_SOURCE_REGISTRY.json",
+      "origin_index": 365,
+      "origin_blob_sha": "ce3f5cd03c5e35d426d99b3f637b9ea7adf295c0",
+      "original_title": "European Union herbal monograph on Centella asiatica (L.) Urb., herba, revision 1",
+      "archive_extraction": {
+        "verification_scope": "Section 4.6, printed page 6 of 7; page image inspected; pertains to specified cutaneous herbal medicinal preparations, not all cosmetic products or oral supplements",
+        "kind": "regulatory herbal monograph",
+        "current_pass_status": "selected source section or indexed excerpt checked",
+        "topics": [
+          "SKIN-001",
+          "SKIN-003",
+          "NUTR-002"
+        ]
+      },
+      "archived_funding_notes": [],
+      "archived_financial_interest_notes": [],
+      "archived_finding_present": false,
+      "archived_design_or_limitations_present": false,
+      "next_checks": [
+        "Read original results or applicable non-clinical source purpose; extract source-specific finding and locator.",
+        "Verify design/source type, population, comparator and method limitations (or non-clinical applicability).",
+        "Extract funding, in-kind contributions and funder role from original disclosure.",
+        "Extract author/institution interests and disclosure status from original source.",
+        "Verify original identity/version and correction/retraction status; assess bias and claim applicability before release."
+      ],
+      "scope": "Original repository record matched by source ID, not a newly inspected external publication.",
+      "independent_bias_appraisal_complete": false,
+      "clinical_review": false,
+      "publish": false
+    },
+    {
+      "id": "G003",
+      "origin": "research/integrated/CANONICAL_SOURCE_REGISTRY.json",
+      "origin_index": 366,
+      "origin_blob_sha": "ce3f5cd03c5e35d426d99b3f637b9ea7adf295c0",
+      "original_title": "NHS South Yorkshire: Pelvic Health - Exercises",
+      "archive_extraction": {
+        "verification_scope": "Video title/description and official NHS parent page confirmed; playback, duration, captioning, rights and clinical review pending",
+        "kind": "institutional video candidate",
+        "current_pass_status": "selected source section or indexed excerpt checked",
+        "topics": [
+          "PELV-001"
+        ]
+      },
+      "archived_funding_notes": [],
+      "archived_financial_interest_notes": [],
+      "archived_finding_present": false,
+      "archived_design_or_limitations_present": false,
+      "next_checks": [
+        "Read original results or applicable non-clinical source purpose; extract source-specific finding and locator.",
+        "Verify design/source type, population, comparator and method limitations (or non-clinical applicability).",
+        "Extract funding, in-kind contributions and funder role from original disclosure.",
+        "Extract author/institution interests and disclosure status from original source.",
+        "Verify original identity/version and correction/retraction status; assess bias and claim applicability before release."
+      ],
+      "scope": "Original repository record matched by source ID, not a newly inspected external publication.",
+      "independent_bias_appraisal_complete": false,
+      "clinical_review": false,
+      "publish": false
+    },
+    {
+      "id": "G004",
+      "origin": "research/integrated/CANONICAL_SOURCE_REGISTRY.json",
+      "origin_index": 367,
+      "origin_blob_sha": "ce3f5cd03c5e35d426d99b3f637b9ea7adf295c0",
+      "original_title": "The Royal Women's Hospital: Exercise after birth",
+      "archive_extraction": {
+        "verification_scope": "Official page loaded, includes pelvic floor video; original Grok class-series URL failed. No playback or license review; page contains a simplified impact-readiness test that must not be copied as universal clearance.",
+        "kind": "institutional video and patient information candidate",
+        "current_pass_status": "selected source section or indexed excerpt checked",
+        "topics": [
+          "FIT-003",
+          "ABD-001",
+          "PELV-001"
+        ]
+      },
+      "archived_funding_notes": [],
+      "archived_financial_interest_notes": [],
+      "archived_finding_present": false,
+      "archived_design_or_limitations_present": false,
+      "next_checks": [
+        "Read original results or applicable non-clinical source purpose; extract source-specific finding and locator.",
+        "Verify design/source type, population, comparator and method limitations (or non-clinical applicability).",
+        "Extract funding, in-kind contributions and funder role from original disclosure.",
+        "Extract author/institution interests and disclosure status from original source.",
+        "Verify original identity/version and correction/retraction status; assess bias and claim applicability before release."
+      ],
+      "scope": "Original repository record matched by source ID, not a newly inspected external publication.",
+      "independent_bias_appraisal_complete": false,
+      "clinical_review": false,
+      "publish": false
+    },
+    {
+      "id": "IA001",
+      "origin": "research/integrated/CANONICAL_SOURCE_REGISTRY.json",
+      "origin_index": 368,
+      "origin_blob_sha": "ce3f5cd03c5e35d426d99b3f637b9ea7adf295c0",
+      "original_title": "Hydroquinone (StatPearls)",
+      "archive_extraction": {
+        "checked_locator": "Pharmacokinetics; pregnancy and breastfeeding considerations",
+        "verification_scope": "indexed monograph excerpt",
+        "correction_retraction_status": "independent registry check pending",
+        "kind": "clinical pharmacology reference",
+        "current_pass_status": "selected finding or identity checked",
+        "topics": [
+          "FACE-001"
+        ]
+      },
+      "archived_funding_notes": [],
+      "archived_financial_interest_notes": [],
+      "archived_finding_present": false,
+      "archived_design_or_limitations_present": false,
+      "next_checks": [
+        "Read original results or applicable non-clinical source purpose; extract source-specific finding and locator.",
+        "Verify design/source type, population, comparator and method limitations (or non-clinical applicability).",
+        "Extract funding, in-kind contributions and funder role from original disclosure.",
+        "Extract author/institution interests and disclosure status from original source.",
+        "Verify original identity/version and correction/retraction status; assess bias and claim applicability before release."
+      ],
+      "scope": "Original repository record matched by source ID, not a newly inspected external publication.",
+      "independent_bias_appraisal_complete": false,
+      "clinical_review": false,
+      "publish": false
+    },
+    {
+      "id": "IA002",
+      "origin": "research/integrated/CANONICAL_SOURCE_REGISTRY.json",
+      "origin_index": 369,
+      "origin_blob_sha": "ce3f5cd03c5e35d426d99b3f637b9ea7adf295c0",
+      "original_title": "Exposure to hydroquinone in pregnancy",
+      "archive_extraction": {
+        "checked_locator": "Public summary only; full monograph requires login",
+        "correction_retraction_status": "independent registry check pending",
+        "kind": "teratology guidance",
+        "current_pass_status": "selected finding or identity checked",
+        "topics": [
+          "FACE-001"
+        ]
+      },
+      "archived_funding_notes": [],
+      "archived_financial_interest_notes": [],
+      "archived_finding_present": false,
+      "archived_design_or_limitations_present": false,
+      "next_checks": [
+        "Read original results or applicable non-clinical source purpose; extract source-specific finding and locator.",
+        "Verify design/source type, population, comparator and method limitations (or non-clinical applicability).",
+        "Extract funding, in-kind contributions and funder role from original disclosure.",
+        "Extract author/institution interests and disclosure status from original source.",
+        "Verify original identity/version and correction/retraction status; assess bias and claim applicability before release."
+      ],
+      "scope": "Original repository record matched by source ID, not a newly inspected external publication.",
+      "independent_bias_appraisal_complete": false,
+      "clinical_review": false,
+      "publish": false
+    },
+    {
+      "id": "IA003",
+      "origin": "research/integrated/CANONICAL_SOURCE_REGISTRY.json",
+      "origin_index": 370,
+      "origin_blob_sha": "ce3f5cd03c5e35d426d99b3f637b9ea7adf295c0",
+      "original_title": "Hydroquinone (LactMed)",
+      "archive_extraction": {
+        "checked_locator": "Summary of use during lactation",
+        "correction_retraction_status": "independent registry check pending",
+        "kind": "lactation reference",
+        "current_pass_status": "selected finding or identity checked",
+        "topics": [
+          "FACE-001"
+        ]
+      },
+      "archived_funding_notes": [],
+      "archived_financial_interest_notes": [],
+      "archived_finding_present": false,
+      "archived_design_or_limitations_present": false,
+      "next_checks": [
+        "Read original results or applicable non-clinical source purpose; extract source-specific finding and locator.",
+        "Verify design/source type, population, comparator and method limitations (or non-clinical applicability).",
+        "Extract funding, in-kind contributions and funder role from original disclosure.",
+        "Extract author/institution interests and disclosure status from original source.",
+        "Verify original identity/version and correction/retraction status; assess bias and claim applicability before release."
+      ],
+      "scope": "Original repository record matched by source ID, not a newly inspected external publication.",
+      "independent_bias_appraisal_complete": false,
+      "clinical_review": false,
+      "publish": false
+    },
+    {
+      "id": "IA004",
+      "origin": "research/integrated/CANONICAL_SOURCE_REGISTRY.json",
+      "origin_index": 371,
+      "origin_blob_sha": "ce3f5cd03c5e35d426d99b3f637b9ea7adf295c0",
+      "original_title": "Prospective, randomized, double-blind assessment of topical bakuchiol and retinol for facial photoageing",
+      "archive_extraction": {
+        "checked_locator": "Methods, Results, funding and conflicts",
+        "correction_retraction_status": "independent registry check pending",
+        "kind": "primary trial",
+        "current_pass_status": "selected finding or identity checked",
+        "topics": [
+          "FACE-001"
+        ],
+        "funding": "UC Davis Department of Dermatology",
+        "conflicts": "R.K. Sivamani advisor Dermveda; consultant Burt's Bees and Dermala",
+        "checked_url": "https://onlinelibrary.wiley.com/doi/full/10.1111/bjd.16918"
+      },
+      "archived_funding_notes": [
+        "UC Davis Department of Dermatology"
+      ],
+      "archived_financial_interest_notes": [
+        "R.K. Sivamani advisor Dermveda; consultant Burt's Bees and Dermala"
+      ],
+      "archived_finding_present": false,
+      "archived_design_or_limitations_present": false,
+      "next_checks": [
+        "Read original results or applicable non-clinical source purpose; extract source-specific finding and locator.",
+        "Verify design/source type, population, comparator and method limitations (or non-clinical applicability).",
+        "Verify original identity/version and correction/retraction status; assess bias and claim applicability before release."
+      ],
+      "scope": "Original repository record matched by source ID, not a newly inspected external publication.",
+      "independent_bias_appraisal_complete": false,
+      "clinical_review": false,
+      "publish": false
+    },
+    {
+      "id": "IA005",
+      "origin": "research/integrated/CANONICAL_SOURCE_REGISTRY.json",
+      "origin_index": 372,
+      "origin_blob_sha": "ce3f5cd03c5e35d426d99b3f637b9ea7adf295c0",
+      "original_title": "Tretinoin (LactMed)",
+      "archive_extraction": {
+        "checked_locator": "Summary of use during lactation",
+        "correction_retraction_status": "independent registry check pending",
+        "kind": "lactation reference",
+        "current_pass_status": "selected finding or identity checked",
+        "topics": [
+          "FACE-001",
+          "SKIN-003"
+        ]
+      },
+      "archived_funding_notes": [],
+      "archived_financial_interest_notes": [],
+      "archived_finding_present": false,
+      "archived_design_or_limitations_present": false,
+      "next_checks": [
+        "Read original results or applicable non-clinical source purpose; extract source-specific finding and locator.",
+        "Verify design/source type, population, comparator and method limitations (or non-clinical applicability).",
+        "Extract funding, in-kind contributions and funder role from original disclosure.",
+        "Extract author/institution interests and disclosure status from original source.",
+        "Verify original identity/version and correction/retraction status; assess bias and claim applicability before release."
+      ],
+      "scope": "Original repository record matched by source ID, not a newly inspected external publication.",
+      "independent_bias_appraisal_complete": false,
+      "clinical_review": false,
+      "publish": false
+    },
+    {
+      "id": "IA006",
+      "origin": "research/integrated/CANONICAL_SOURCE_REGISTRY.json",
+      "origin_index": 373,
+      "origin_blob_sha": "ce3f5cd03c5e35d426d99b3f637b9ea7adf295c0",
+      "original_title": "Maternal choline supplementation during the third trimester of pregnancy improves infant information processing speed: a randomized, double-blind, controlled feeding study",
+      "archive_extraction": {
+        "checked_locator": "Abstract; cohort link verified via IA007",
+        "correction_retraction_status": "independent registry check pending",
+        "kind": "primary trial",
+        "current_pass_status": "selected finding or identity checked",
+        "topics": [
+          "NUTR-001"
+        ]
+      },
+      "archived_funding_notes": [],
+      "archived_financial_interest_notes": [],
+      "archived_finding_present": false,
+      "archived_design_or_limitations_present": false,
+      "next_checks": [
+        "Read original results or applicable non-clinical source purpose; extract source-specific finding and locator.",
+        "Verify design/source type, population, comparator and method limitations (or non-clinical applicability).",
+        "Extract funding, in-kind contributions and funder role from original disclosure.",
+        "Extract author/institution interests and disclosure status from original source.",
+        "Verify original identity/version and correction/retraction status; assess bias and claim applicability before release."
+      ],
+      "scope": "Original repository record matched by source ID, not a newly inspected external publication.",
+      "independent_bias_appraisal_complete": false,
+      "clinical_review": false,
+      "publish": false
+    },
+    {
+      "id": "IA007",
+      "origin": "research/integrated/CANONICAL_SOURCE_REGISTRY.json",
+      "origin_index": 374,
+      "origin_blob_sha": "ce3f5cd03c5e35d426d99b3f637b9ea7adf295c0",
+      "original_title": "Prenatal choline supplementation improves child sustained attention: A 7-year follow-up of a randomized controlled feeding trial",
+      "archive_extraction": {
+        "checked_locator": "Results 3.1–3.4, Table 3, acknowledgments and disclosures",
+        "correction_retraction_status": "independent registry check pending",
+        "kind": "primary trial follow-up",
+        "current_pass_status": "selected finding or identity checked",
+        "topics": [
+          "NUTR-001"
+        ],
+        "funding": "NIFA/USDA Hatch 1007195 and Balchem Corp; individual support NICHD traineeship and Egg Nutrition Center award",
+        "conflicts": "Authors declare none; funders reported no role in design, collection, analysis or interpretation",
+        "checked_url": "https://faseb.onlinelibrary.wiley.com/doi/full/10.1096/fj.202101217R"
+      },
+      "archived_funding_notes": [
+        "NIFA/USDA Hatch 1007195 and Balchem Corp; individual support NICHD traineeship and Egg Nutrition Center award"
+      ],
+      "archived_financial_interest_notes": [
+        "Authors declare none; funders reported no role in design, collection, analysis or interpretation"
+      ],
+      "archived_finding_present": false,
+      "archived_design_or_limitations_present": false,
+      "next_checks": [
+        "Read original results or applicable non-clinical source purpose; extract source-specific finding and locator.",
+        "Verify design/source type, population, comparator and method limitations (or non-clinical applicability).",
+        "Verify original identity/version and correction/retraction status; assess bias and claim applicability before release."
+      ],
+      "scope": "Original repository record matched by source ID, not a newly inspected external publication.",
+      "independent_bias_appraisal_complete": false,
+      "clinical_review": false,
+      "publish": false
+    },
+    {
+      "id": "IA008",
+      "origin": "research/integrated/CANONICAL_SOURCE_REGISTRY.json",
+      "origin_index": 375,
+      "origin_blob_sha": "ce3f5cd03c5e35d426d99b3f637b9ea7adf295c0",
+      "original_title": "Effect of Folic Acid and Zinc Supplementation in Men on Semen Quality and Live Birth Among Couples Undergoing Infertility Treatment: A Randomized Clinical Trial",
+      "archive_extraction": {
+        "checked_locator": "Abstract, funding/support and disclosures",
+        "correction_retraction_status": "independent registry check pending",
+        "kind": "primary trial",
+        "current_pass_status": "selected finding or identity checked",
+        "topics": [
+          "REPRO-001",
+          "NUTR-001"
+        ],
+        "funding": "NICHD intramural contracts HHSN275201200007C and HHSN275201300026I",
+        "conflicts": "Hotaling reported consulting, patent pending and industry grants; no other disclosures reported"
+      },
+      "archived_funding_notes": [
+        "NICHD intramural contracts HHSN275201200007C and HHSN275201300026I"
+      ],
+      "archived_financial_interest_notes": [
+        "Hotaling reported consulting, patent pending and industry grants; no other disclosures reported"
+      ],
+      "archived_finding_present": false,
+      "archived_design_or_limitations_present": false,
+      "next_checks": [
+        "Read original results or applicable non-clinical source purpose; extract source-specific finding and locator.",
+        "Verify design/source type, population, comparator and method limitations (or non-clinical applicability).",
+        "Verify original identity/version and correction/retraction status; assess bias and claim applicability before release."
+      ],
+      "scope": "Original repository record matched by source ID, not a newly inspected external publication.",
+      "independent_bias_appraisal_complete": false,
+      "clinical_review": false,
+      "publish": false
+    },
+    {
+      "id": "IA009",
+      "origin": "research/integrated/CANONICAL_SOURCE_REGISTRY.json",
+      "origin_index": 376,
+      "origin_blob_sha": "ce3f5cd03c5e35d426d99b3f637b9ea7adf295c0",
+      "original_title": "The Postpartum Playbook with Margie Davenport. EP#576",
+      "archive_extraction": {
+        "checked_locator": "Official BJSM podcast listing",
+        "correction_retraction_status": "independent registry check pending",
+        "kind": "educational audio candidate",
+        "current_pass_status": "selected finding or identity checked",
+        "topics": [
+          "FIT-003",
+          "PELV-001",
+          "WELL-001"
+        ]
+      },
+      "archived_funding_notes": [],
+      "archived_financial_interest_notes": [],
+      "archived_finding_present": false,
+      "archived_design_or_limitations_present": false,
+      "next_checks": [
+        "Read original results or applicable non-clinical source purpose; extract source-specific finding and locator.",
+        "Verify design/source type, population, comparator and method limitations (or non-clinical applicability).",
+        "Extract funding, in-kind contributions and funder role from original disclosure.",
+        "Extract author/institution interests and disclosure status from original source.",
+        "Verify original identity/version and correction/retraction status; assess bias and claim applicability before release."
+      ],
+      "scope": "Original repository record matched by source ID, not a newly inspected external publication.",
+      "independent_bias_appraisal_complete": false,
+      "clinical_review": false,
+      "publish": false
+    },
+    {
+      "id": "RP001",
+      "origin": "research/integrated/CANONICAL_SOURCE_REGISTRY.json",
+      "origin_index": 377,
+      "origin_blob_sha": "ce3f5cd03c5e35d426d99b3f637b9ea7adf295c0",
+      "original_title": "Dual Topical Therapy. The Future of Stretch Marks?",
+      "archive_extraction": {
+        "checked_locator": "Abstract, Conclusion, Table 1, Conflicts of Interest",
+        "verification_scope": "Safety conflict documented; not endorsed for clinical use",
+        "correction_retraction_status": "independent registry check pending",
+        "kind": "clinical research/guidance",
+        "current_pass_status": "selected source passage checked; research only",
+        "status": "QUARANTINE: unsafe pregnancy recommendation; research context only",
+        "topics": [
+          "SKIN-001",
+          "SKIN-003",
+          "FACE-001"
+        ],
+        "conflicts": "Authors declare none"
+      },
+      "archived_funding_notes": [],
+      "archived_financial_interest_notes": [
+        "Authors declare none"
+      ],
+      "archived_finding_present": false,
+      "archived_design_or_limitations_present": false,
+      "next_checks": [
+        "Read original results or applicable non-clinical source purpose; extract source-specific finding and locator.",
+        "Verify design/source type, population, comparator and method limitations (or non-clinical applicability).",
+        "Extract funding, in-kind contributions and funder role from original disclosure.",
+        "Verify original identity/version and correction/retraction status; assess bias and claim applicability before release."
+      ],
+      "scope": "Original repository record matched by source ID, not a newly inspected external publication.",
+      "independent_bias_appraisal_complete": false,
+      "clinical_review": false,
+      "publish": false
+    },
+    {
+      "id": "RP002",
+      "origin": "research/integrated/CANONICAL_SOURCE_REGISTRY.json",
+      "origin_index": 378,
+      "origin_blob_sha": "ce3f5cd03c5e35d426d99b3f637b9ea7adf295c0",
+      "original_title": "iPLEDGE Risk Evaluation and Mitigation Strategy (REMS)",
+      "archive_extraction": {
+        "checked_locator": "iPLEDGE modifications implemented; patient and prescriber information",
+        "verification_scope": "US-specific oral isotretinoin rules; no relaxation of pregnancy avoidance",
+        "correction_retraction_status": "independent registry check pending",
+        "kind": "FDA regulatory guidance",
+        "current_pass_status": "selected source passage checked; research only",
+        "topics": [
+          "FACE-001",
+          "REPRO-001"
+        ]
+      },
+      "archived_funding_notes": [],
+      "archived_financial_interest_notes": [],
+      "archived_finding_present": false,
+      "archived_design_or_limitations_present": false,
+      "next_checks": [
+        "Read original results or applicable non-clinical source purpose; extract source-specific finding and locator.",
+        "Verify design/source type, population, comparator and method limitations (or non-clinical applicability).",
+        "Extract funding, in-kind contributions and funder role from original disclosure.",
+        "Extract author/institution interests and disclosure status from original source.",
+        "Verify original identity/version and correction/retraction status; assess bias and claim applicability before release."
+      ],
+      "scope": "Original repository record matched by source ID, not a newly inspected external publication.",
+      "independent_bias_appraisal_complete": false,
+      "clinical_review": false,
+      "publish": false
+    },
+    {
+      "id": "RP003",
+      "origin": "research/integrated/CANONICAL_SOURCE_REGISTRY.json",
+      "origin_index": 379,
+      "origin_blob_sha": "ce3f5cd03c5e35d426d99b3f637b9ea7adf295c0",
+      "original_title": "Effect of Aromatherapy Oil Applications on Striae Gravidarum: A Systematic Review",
+      "archive_extraction": {
+        "checked_locator": "Abstract, trial summaries, Conclusion, Funding and Conflicts",
+        "correction_retraction_status": "independent registry check pending",
+        "kind": "clinical research/guidance",
+        "current_pass_status": "selected source passage checked; research only",
+        "topics": [
+          "SKIN-001"
+        ],
+        "funding": "Authors have nothing to report",
+        "conflicts": "Authors declare none"
+      },
+      "archived_funding_notes": [
+        "Authors have nothing to report"
+      ],
+      "archived_financial_interest_notes": [
+        "Authors declare none"
+      ],
+      "archived_finding_present": false,
+      "archived_design_or_limitations_present": false,
+      "next_checks": [
+        "Read original results or applicable non-clinical source purpose; extract source-specific finding and locator.",
+        "Verify design/source type, population, comparator and method limitations (or non-clinical applicability).",
+        "Verify original identity/version and correction/retraction status; assess bias and claim applicability before release."
+      ],
+      "scope": "Original repository record matched by source ID, not a newly inspected external publication.",
+      "independent_bias_appraisal_complete": false,
+      "clinical_review": false,
+      "publish": false
+    },
+    {
+      "id": "RP004",
+      "origin": "research/integrated/CANONICAL_SOURCE_REGISTRY.json",
+      "origin_index": 380,
+      "origin_blob_sha": "ce3f5cd03c5e35d426d99b3f637b9ea7adf295c0",
+      "original_title": "The Effect of Topical Virgin Coconut Oil on Striae Gravidarum Prevention and Severity: A Randomized Controlled Trial",
+      "archive_extraction": {
+        "checked_locator": "Original publisher abstract",
+        "verification_scope": "Randomization reported; allocation, denominators, exact interval, funding and harms ascertainment not fully appraised",
+        "correction_retraction_status": "independent registry check pending",
+        "kind": "clinical research/guidance",
+        "current_pass_status": "selected source passage checked; research only",
+        "topics": [
+          "SKIN-001"
+        ]
+      },
+      "archived_funding_notes": [],
+      "archived_financial_interest_notes": [],
+      "archived_finding_present": false,
+      "archived_design_or_limitations_present": false,
+      "next_checks": [
+        "Read original results or applicable non-clinical source purpose; extract source-specific finding and locator.",
+        "Verify design/source type, population, comparator and method limitations (or non-clinical applicability).",
+        "Extract funding, in-kind contributions and funder role from original disclosure.",
+        "Extract author/institution interests and disclosure status from original source.",
+        "Verify original identity/version and correction/retraction status; assess bias and claim applicability before release."
+      ],
+      "scope": "Original repository record matched by source ID, not a newly inspected external publication.",
+      "independent_bias_appraisal_complete": false,
+      "clinical_review": false,
+      "publish": false
+    },
+    {
+      "id": "RP005",
+      "origin": "research/integrated/CANONICAL_SOURCE_REGISTRY.json",
+      "origin_index": 381,
+      "origin_blob_sha": "ce3f5cd03c5e35d426d99b3f637b9ea7adf295c0",
+      "original_title": "Topical retinoids and risk of major congenital malformations and spontaneous abortion: a systematic review and meta-analysis",
+      "archive_extraction": {
+        "checked_locator": "Results narrative, Tables 2–3, Funding and Conflicts",
+        "correction_retraction_status": "independent registry check pending",
+        "kind": "clinical research/guidance",
+        "current_pass_status": "selected source passage checked; research only",
+        "status": "Numerical inconsistency; hold charts; no change to pregnancy avoidance",
+        "topics": [
+          "FACE-001",
+          "SKIN-003"
+        ],
+        "funding": "Authors declare no financial support",
+        "conflicts": "Authors declare no commercial/financial relationship"
+      },
+      "archived_funding_notes": [
+        "Authors declare no financial support"
+      ],
+      "archived_financial_interest_notes": [
+        "Authors declare no commercial/financial relationship"
+      ],
+      "archived_finding_present": false,
+      "archived_design_or_limitations_present": false,
+      "next_checks": [
+        "Read original results or applicable non-clinical source purpose; extract source-specific finding and locator.",
+        "Verify design/source type, population, comparator and method limitations (or non-clinical applicability).",
+        "Verify original identity/version and correction/retraction status; assess bias and claim applicability before release."
+      ],
+      "scope": "Original repository record matched by source ID, not a newly inspected external publication.",
+      "independent_bias_appraisal_complete": false,
+      "clinical_review": false,
+      "publish": false
+    },
+    {
+      "id": "PED-LEAP",
+      "origin": "research/child-health/sources.json",
+      "origin_index": 0,
+      "origin_blob_sha": "10c2adea813eb2b4272b16c7de20fad5eb179720",
+      "original_title": "Randomized trial of peanut consumption in infants at risk for peanut allergy.",
+      "archive_extraction": {
+        "verification": "Selected source passages or indexed source excerpts only",
+        "kind": "research publication",
+        "checked": "2026-11-26"
+      },
+      "archived_funding_notes": [],
+      "archived_financial_interest_notes": [],
+      "archived_finding_present": false,
+      "archived_design_or_limitations_present": false,
+      "next_checks": [
+        "Read original results or applicable non-clinical source purpose; extract source-specific finding and locator.",
+        "Verify design/source type, population, comparator and method limitations (or non-clinical applicability).",
+        "Extract funding, in-kind contributions and funder role from original disclosure.",
+        "Extract author/institution interests and disclosure status from original source.",
+        "Verify original identity/version and correction/retraction status; assess bias and claim applicability before release."
+      ],
+      "scope": "Original repository record matched by source ID, not a newly inspected external publication.",
+      "independent_bias_appraisal_complete": false,
+      "clinical_review": false,
+      "publish": false
+    },
+    {
+      "id": "PED-iKMC",
+      "origin": "research/child-health/sources.json",
+      "origin_index": 1,
+      "origin_blob_sha": "10c2adea813eb2b4272b16c7de20fad5eb179720",
+      "original_title": "Immediate \"Kangaroo Mother Care\" and Survival of Infants with Low Birth Weight",
+      "archive_extraction": {
+        "verification": "Selected source passages or indexed source excerpts only",
+        "kind": "research publication",
+        "checked": "2026-11-26"
+      },
+      "archived_funding_notes": [],
+      "archived_financial_interest_notes": [],
+      "archived_finding_present": false,
+      "archived_design_or_limitations_present": false,
+      "next_checks": [
+        "Read original results or applicable non-clinical source purpose; extract source-specific finding and locator.",
+        "Verify design/source type, population, comparator and method limitations (or non-clinical applicability).",
+        "Extract funding, in-kind contributions and funder role from original disclosure.",
+        "Extract author/institution interests and disclosure status from original source.",
+        "Verify original identity/version and correction/retraction status; assess bias and claim applicability before release."
+      ],
+      "scope": "Original repository record matched by source ID, not a newly inspected external publication.",
+      "independent_bias_appraisal_complete": false,
+      "clinical_review": false,
+      "publish": false
+    },
+    {
+      "id": "PED-MOTOR",
+      "origin": "research/child-health/sources.json",
+      "origin_index": 2,
+      "origin_blob_sha": "10c2adea813eb2b4272b16c7de20fad5eb179720",
+      "original_title": "WHO Motor Development Study: windows of achievement for six gross motor development milestones",
+      "archive_extraction": {
+        "verification": "Selected source passages or indexed source excerpts only",
+        "kind": "research publication",
+        "checked": "2026-11-26"
+      },
+      "archived_funding_notes": [],
+      "archived_financial_interest_notes": [],
+      "archived_finding_present": false,
+      "archived_design_or_limitations_present": false,
+      "next_checks": [
+        "Read original results or applicable non-clinical source purpose; extract source-specific finding and locator.",
+        "Verify design/source type, population, comparator and method limitations (or non-clinical applicability).",
+        "Extract funding, in-kind contributions and funder role from original disclosure.",
+        "Extract author/institution interests and disclosure status from original source.",
+        "Verify original identity/version and correction/retraction status; assess bias and claim applicability before release."
+      ],
+      "scope": "Original repository record matched by source ID, not a newly inspected external publication.",
+      "independent_bias_appraisal_complete": false,
+      "clinical_review": false,
+      "publish": false
+    },
+    {
+      "id": "PED-PARENT",
+      "origin": "research/child-health/sources.json",
+      "origin_index": 3,
+      "origin_blob_sha": "10c2adea813eb2b4272b16c7de20fad5eb179720",
+      "original_title": "Parenting interventions to promote early child development in the first three years of life: A global systematic review and meta-analysis",
+      "archive_extraction": {
+        "verification": "Selected source passages or indexed source excerpts only",
+        "kind": "research publication",
+        "checked": "2026-11-26"
+      },
+      "archived_funding_notes": [],
+      "archived_financial_interest_notes": [],
+      "archived_finding_present": false,
+      "archived_design_or_limitations_present": false,
+      "next_checks": [
+        "Read original results or applicable non-clinical source purpose; extract source-specific finding and locator.",
+        "Verify design/source type, population, comparator and method limitations (or non-clinical applicability).",
+        "Extract funding, in-kind contributions and funder role from original disclosure.",
+        "Extract author/institution interests and disclosure status from original source.",
+        "Verify original identity/version and correction/retraction status; assess bias and claim applicability before release."
+      ],
+      "scope": "Original repository record matched by source ID, not a newly inspected external publication.",
+      "independent_bias_appraisal_complete": false,
+      "clinical_review": false,
+      "publish": false
+    },
+    {
+      "id": "PED-SLEEP",
+      "origin": "research/child-health/sources.json",
+      "origin_index": 4,
+      "origin_blob_sha": "10c2adea813eb2b4272b16c7de20fad5eb179720",
+      "original_title": "Sleep-Related Infant Deaths: Updated 2022 Recommendations for Reducing Infant Deaths in the Sleep Environment.",
+      "archive_extraction": {
+        "verification": "Selected source passages or indexed source excerpts only",
+        "kind": "guidance or educational resource",
+        "checked": "2026-11-26"
+      },
+      "archived_funding_notes": [],
+      "archived_financial_interest_notes": [],
+      "archived_finding_present": false,
+      "archived_design_or_limitations_present": false,
+      "next_checks": [
+        "Read original results or applicable non-clinical source purpose; extract source-specific finding and locator.",
+        "Verify design/source type, population, comparator and method limitations (or non-clinical applicability).",
+        "Extract funding, in-kind contributions and funder role from original disclosure.",
+        "Extract author/institution interests and disclosure status from original source.",
+        "Verify original identity/version and correction/retraction status; assess bias and claim applicability before release."
+      ],
+      "scope": "Original repository record matched by source ID, not a newly inspected external publication.",
+      "independent_bias_appraisal_complete": false,
+      "clinical_review": false,
+      "publish": false
+    },
+    {
+      "id": "PED-FORMULA",
+      "origin": "research/child-health/sources.json",
+      "origin_index": 5,
+      "origin_blob_sha": "10c2adea813eb2b4272b16c7de20fad5eb179720",
+      "original_title": "Infant Formula Preparation and Storage | Infant and Toddler Nutrition | CDC",
+      "archive_extraction": {
+        "verification": "Selected source passages or indexed source excerpts only",
+        "kind": "guidance or educational resource",
+        "checked": "2026-11-26"
+      },
+      "archived_funding_notes": [],
+      "archived_financial_interest_notes": [],
+      "archived_finding_present": false,
+      "archived_design_or_limitations_present": false,
+      "next_checks": [
+        "Read original results or applicable non-clinical source purpose; extract source-specific finding and locator.",
+        "Verify design/source type, population, comparator and method limitations (or non-clinical applicability).",
+        "Extract funding, in-kind contributions and funder role from original disclosure.",
+        "Extract author/institution interests and disclosure status from original source.",
+        "Verify original identity/version and correction/retraction status; assess bias and claim applicability before release."
+      ],
+      "scope": "Original repository record matched by source ID, not a newly inspected external publication.",
+      "independent_bias_appraisal_complete": false,
+      "clinical_review": false,
+      "publish": false
+    },
+    {
+      "id": "PED-FEVER",
+      "origin": "research/child-health/sources.json",
+      "origin_index": 6,
+      "origin_blob_sha": "10c2adea813eb2b4272b16c7de20fad5eb179720",
+      "original_title": "Fever and Your Baby - HealthyChildren.org",
+      "archive_extraction": {
+        "verification": "Selected source passages or indexed source excerpts only",
+        "kind": "guidance or educational resource",
+        "checked": "2026-11-26"
+      },
+      "archived_funding_notes": [],
+      "archived_financial_interest_notes": [],
+      "archived_finding_present": false,
+      "archived_design_or_limitations_present": false,
+      "next_checks": [
+        "Read original results or applicable non-clinical source purpose; extract source-specific finding and locator.",
+        "Verify design/source type, population, comparator and method limitations (or non-clinical applicability).",
+        "Extract funding, in-kind contributions and funder role from original disclosure.",
+        "Extract author/institution interests and disclosure status from original source.",
+        "Verify original identity/version and correction/retraction status; assess bias and claim applicability before release."
+      ],
+      "scope": "Original repository record matched by source ID, not a newly inspected external publication.",
+      "independent_bias_appraisal_complete": false,
+      "clinical_review": false,
+      "publish": false
+    },
+    {
+      "id": "PED-SCREEN",
+      "origin": "research/child-health/sources.json",
+      "origin_index": 7,
+      "origin_blob_sha": "10c2adea813eb2b4272b16c7de20fad5eb179720",
+      "original_title": "Clinical Screening for Autism Spectrum Disorder | Autism Spectrum Disorder (ASD) | CDC",
+      "archive_extraction": {
+        "verification": "Selected source passages or indexed source excerpts only",
+        "kind": "guidance or educational resource",
+        "checked": "2026-11-26"
+      },
+      "archived_funding_notes": [],
+      "archived_financial_interest_notes": [],
+      "archived_finding_present": false,
+      "archived_design_or_limitations_present": false,
+      "next_checks": [
+        "Read original results or applicable non-clinical source purpose; extract source-specific finding and locator.",
+        "Verify design/source type, population, comparator and method limitations (or non-clinical applicability).",
+        "Extract funding, in-kind contributions and funder role from original disclosure.",
+        "Extract author/institution interests and disclosure status from original source.",
+        "Verify original identity/version and correction/retraction status; assess bias and claim applicability before release."
+      ],
+      "scope": "Original repository record matched by source ID, not a newly inspected external publication.",
+      "independent_bias_appraisal_complete": false,
+      "clinical_review": false,
+      "publish": false
+    },
+    {
+      "id": "PED-NBS",
+      "origin": "research/child-health/sources.json",
+      "origin_index": 8,
+      "origin_blob_sha": "10c2adea813eb2b4272b16c7de20fad5eb179720",
+      "original_title": "Newborn Screening Results and Follow-Up | Newborn Screening",
+      "archive_extraction": {
+        "verification": "Selected source passages or indexed source excerpts only",
+        "kind": "guidance or educational resource",
+        "checked": "2026-11-26"
+      },
+      "archived_funding_notes": [],
+      "archived_financial_interest_notes": [],
+      "archived_finding_present": false,
+      "archived_design_or_limitations_present": false,
+      "next_checks": [
+        "Read original results or applicable non-clinical source purpose; extract source-specific finding and locator.",
+        "Verify design/source type, population, comparator and method limitations (or non-clinical applicability).",
+        "Extract funding, in-kind contributions and funder role from original disclosure.",
+        "Extract author/institution interests and disclosure status from original source.",
+        "Verify original identity/version and correction/retraction status; assess bias and claim applicability before release."
+      ],
+      "scope": "Original repository record matched by source ID, not a newly inspected external publication.",
+      "independent_bias_appraisal_complete": false,
+      "clinical_review": false,
+      "publish": false
+    },
+    {
+      "id": "PED-PROBIO",
+      "origin": "research/child-health/sources.json",
+      "origin_index": 9,
+      "origin_blob_sha": "10c2adea813eb2b4272b16c7de20fad5eb179720",
+      "original_title": "Risk of Invasive Disease in Preterm Infants Given Probiotics Formulated to Contain Live Bacteria or Yeast | FDA",
+      "archive_extraction": {
+        "verification": "Selected source passages or indexed source excerpts only",
+        "kind": "guidance or educational resource",
+        "checked": "2026-11-26"
+      },
+      "archived_funding_notes": [],
+      "archived_financial_interest_notes": [],
+      "archived_finding_present": false,
+      "archived_design_or_limitations_present": false,
+      "next_checks": [
+        "Read original results or applicable non-clinical source purpose; extract source-specific finding and locator.",
+        "Verify design/source type, population, comparator and method limitations (or non-clinical applicability).",
+        "Extract funding, in-kind contributions and funder role from original disclosure.",
+        "Extract author/institution interests and disclosure status from original source.",
+        "Verify original identity/version and correction/retraction status; assess bias and claim applicability before release."
+      ],
+      "scope": "Original repository record matched by source ID, not a newly inspected external publication.",
+      "independent_bias_appraisal_complete": false,
+      "clinical_review": false,
+      "publish": false
+    },
+    {
+      "id": "PED-AUDITORY",
+      "origin": "research/child-health/sources.json",
+      "origin_index": 10,
+      "origin_blob_sha": "10c2adea813eb2b4272b16c7de20fad5eb179720",
+      "original_title": "Learning-induced neural plasticity of speech processing before birth",
+      "archive_extraction": {
+        "verification": "Selected source passages or indexed source excerpts only",
+        "kind": "research publication",
+        "checked": "2026-11-26"
+      },
+      "archived_funding_notes": [],
+      "archived_financial_interest_notes": [],
+      "archived_finding_present": false,
+      "archived_design_or_limitations_present": false,
+      "next_checks": [
+        "Read original results or applicable non-clinical source purpose; extract source-specific finding and locator.",
+        "Verify design/source type, population, comparator and method limitations (or non-clinical applicability).",
+        "Extract funding, in-kind contributions and funder role from original disclosure.",
+        "Extract author/institution interests and disclosure status from original source.",
+        "Verify original identity/version and correction/retraction status; assess bias and claim applicability before release."
+      ],
+      "scope": "Original repository record matched by source ID, not a newly inspected external publication.",
+      "independent_bias_appraisal_complete": false,
+      "clinical_review": false,
+      "publish": false
+    },
+    {
+      "id": "PED-FETUS",
+      "origin": "research/child-health/sources.json",
+      "origin_index": 11,
+      "origin_blob_sha": "10c2adea813eb2b4272b16c7de20fad5eb179720",
+      "original_title": "How Your Fetus Grows During Pregnancy | ACOG",
+      "archive_extraction": {
+        "verification": "Selected source passages or indexed source excerpts only",
+        "kind": "guidance or educational resource",
+        "checked": "2026-11-26"
+      },
+      "archived_funding_notes": [],
+      "archived_financial_interest_notes": [],
+      "archived_finding_present": false,
+      "archived_design_or_limitations_present": false,
+      "next_checks": [
+        "Read original results or applicable non-clinical source purpose; extract source-specific finding and locator.",
+        "Verify design/source type, population, comparator and method limitations (or non-clinical applicability).",
+        "Extract funding, in-kind contributions and funder role from original disclosure.",
+        "Extract author/institution interests and disclosure status from original source.",
+        "Verify original identity/version and correction/retraction status; assess bias and claim applicability before release."
+      ],
+      "scope": "Original repository record matched by source ID, not a newly inspected external publication.",
+      "independent_bias_appraisal_complete": false,
+      "clinical_review": false,
+      "publish": false
+    },
+    {
+      "id": "PED-CORRECTED",
+      "origin": "research/child-health/sources.json",
+      "origin_index": 12,
+      "origin_blob_sha": "10c2adea813eb2b4272b16c7de20fad5eb179720",
+      "original_title": "Your Preemie's Growth & Developmental Milestones - HealthyChildren.org",
+      "archive_extraction": {
+        "verification": "Selected source passages or indexed source excerpts only",
+        "kind": "guidance or educational resource",
+        "checked": "2026-11-26"
+      },
+      "archived_funding_notes": [],
+      "archived_financial_interest_notes": [],
+      "archived_finding_present": false,
+      "archived_design_or_limitations_present": false,
+      "next_checks": [
+        "Read original results or applicable non-clinical source purpose; extract source-specific finding and locator.",
+        "Verify design/source type, population, comparator and method limitations (or non-clinical applicability).",
+        "Extract funding, in-kind contributions and funder role from original disclosure.",
+        "Extract author/institution interests and disclosure status from original source.",
+        "Verify original identity/version and correction/retraction status; assess bias and claim applicability before release."
+      ],
+      "scope": "Original repository record matched by source ID, not a newly inspected external publication.",
+      "independent_bias_appraisal_complete": false,
+      "clinical_review": false,
+      "publish": false
+    },
+    {
+      "id": "PED-ALLERGY",
+      "origin": "research/child-health/sources.json",
+      "origin_index": 13,
+      "origin_blob_sha": "10c2adea813eb2b4272b16c7de20fad5eb179720",
+      "original_title": "Addendum Guidelines for the Prevention of Peanut Allergy in the United States",
+      "archive_extraction": {
+        "verification": "Selected source passages or indexed source excerpts only",
+        "kind": "guidance or educational resource",
+        "checked": "2026-11-26"
+      },
+      "archived_funding_notes": [],
+      "archived_financial_interest_notes": [],
+      "archived_finding_present": false,
+      "archived_design_or_limitations_present": false,
+      "next_checks": [
+        "Read original results or applicable non-clinical source purpose; extract source-specific finding and locator.",
+        "Verify design/source type, population, comparator and method limitations (or non-clinical applicability).",
+        "Extract funding, in-kind contributions and funder role from original disclosure.",
+        "Extract author/institution interests and disclosure status from original source.",
+        "Verify original identity/version and correction/retraction status; assess bias and claim applicability before release."
+      ],
+      "scope": "Original repository record matched by source ID, not a newly inspected external publication.",
+      "independent_bias_appraisal_complete": false,
+      "clinical_review": false,
+      "publish": false
+    },
+    {
+      "id": "PED-CPR",
+      "origin": "research/child-health/sources.json",
+      "origin_index": 14,
+      "origin_blob_sha": "10c2adea813eb2b4272b16c7de20fad5eb179720",
+      "original_title": "Adult and Pediatric (Child and Baby) CPR/AED Online",
+      "archive_extraction": {
+        "verification": "Selected source passages or indexed source excerpts only",
+        "kind": "guidance or educational resource",
+        "checked": "2026-11-26"
+      },
+      "archived_funding_notes": [],
+      "archived_financial_interest_notes": [],
+      "archived_finding_present": false,
+      "archived_design_or_limitations_present": false,
+      "next_checks": [
+        "Read original results or applicable non-clinical source purpose; extract source-specific finding and locator.",
+        "Verify design/source type, population, comparator and method limitations (or non-clinical applicability).",
+        "Extract funding, in-kind contributions and funder role from original disclosure.",
+        "Extract author/institution interests and disclosure status from original source.",
+        "Verify original identity/version and correction/retraction status; assess bias and claim applicability before release."
+      ],
+      "scope": "Original repository record matched by source ID, not a newly inspected external publication.",
+      "independent_bias_appraisal_complete": false,
+      "clinical_review": false,
+      "publish": false
+    },
+    {
+      "id": "PED-EMS",
+      "origin": "research/child-health/sources.json",
+      "origin_index": 15,
+      "origin_blob_sha": "10c2adea813eb2b4272b16c7de20fad5eb179720",
+      "original_title": "When to Call Emergency Medical Services (EMS) for Your Child - HealthyChildren.org",
+      "archive_extraction": {
+        "verification": "Selected source passages or indexed source excerpts only",
+        "kind": "guidance or educational resource",
+        "checked": "2026-11-26"
+      },
+      "archived_funding_notes": [],
+      "archived_financial_interest_notes": [],
+      "archived_finding_present": false,
+      "archived_design_or_limitations_present": false,
+      "next_checks": [
+        "Read original results or applicable non-clinical source purpose; extract source-specific finding and locator.",
+        "Verify design/source type, population, comparator and method limitations (or non-clinical applicability).",
+        "Extract funding, in-kind contributions and funder role from original disclosure.",
+        "Extract author/institution interests and disclosure status from original source.",
+        "Verify original identity/version and correction/retraction status; assess bias and claim applicability before release."
+      ],
+      "scope": "Original repository record matched by source ID, not a newly inspected external publication.",
+      "independent_bias_appraisal_complete": false,
+      "clinical_review": false,
+      "publish": false
+    },
+    {
+      "id": "PED-VK",
+      "origin": "research/child-health/sources.json",
+      "origin_index": 16,
+      "origin_blob_sha": "10c2adea813eb2b4272b16c7de20fad5eb179720",
+      "original_title": "About Vitamin K Deficiency Bleeding | Vitamin K Deficiency Bleeding | CDC",
+      "archive_extraction": {
+        "verification": "Selected source passages or indexed source excerpts only",
+        "kind": "guidance or educational resource",
+        "checked": "2026-11-26"
+      },
+      "archived_funding_notes": [],
+      "archived_financial_interest_notes": [],
+      "archived_finding_present": false,
+      "archived_design_or_limitations_present": false,
+      "next_checks": [
+        "Read original results or applicable non-clinical source purpose; extract source-specific finding and locator.",
+        "Verify design/source type, population, comparator and method limitations (or non-clinical applicability).",
+        "Extract funding, in-kind contributions and funder role from original disclosure.",
+        "Extract author/institution interests and disclosure status from original source.",
+        "Verify original identity/version and correction/retraction status; assess bias and claim applicability before release."
+      ],
+      "scope": "Original repository record matched by source ID, not a newly inspected external publication.",
+      "independent_bias_appraisal_complete": false,
+      "clinical_review": false,
+      "publish": false
+    },
+    {
+      "id": "PED-PROBIT",
+      "origin": "research/child-health/sources.json",
+      "origin_index": 17,
+      "origin_blob_sha": "10c2adea813eb2b4272b16c7de20fad5eb179720",
+      "original_title": "Promotion of Breastfeeding Intervention Trial (PROBIT): a randomized trial in the Republic of Belarus",
+      "archive_extraction": {
+        "verification": "Selected source passages or indexed source excerpts only",
+        "kind": "research publication",
+        "checked": "2026-11-26"
+      },
+      "archived_funding_notes": [],
+      "archived_financial_interest_notes": [],
+      "archived_finding_present": false,
+      "archived_design_or_limitations_present": false,
+      "next_checks": [
+        "Read original results or applicable non-clinical source purpose; extract source-specific finding and locator.",
+        "Verify design/source type, population, comparator and method limitations (or non-clinical applicability).",
+        "Extract funding, in-kind contributions and funder role from original disclosure.",
+        "Extract author/institution interests and disclosure status from original source.",
+        "Verify original identity/version and correction/retraction status; assess bias and claim applicability before release."
+      ],
+      "scope": "Original repository record matched by source ID, not a newly inspected external publication.",
+      "independent_bias_appraisal_complete": false,
+      "clinical_review": false,
+      "publish": false
+    },
+    {
+      "id": "PED-SETTLE",
+      "origin": "research/child-health/sources.json",
+      "origin_index": 18,
+      "origin_blob_sha": "10c2adea813eb2b4272b16c7de20fad5eb179720",
+      "original_title": "Behavioral Interventions for Infant Sleep Problems: A Randomized Controlled Trial",
+      "archive_extraction": {
+        "verification": "Selected source passages or indexed source excerpts only",
+        "kind": "research publication",
+        "checked": "2026-11-26"
+      },
+      "archived_funding_notes": [],
+      "archived_financial_interest_notes": [],
+      "archived_finding_present": false,
+      "archived_design_or_limitations_present": false,
+      "next_checks": [
+        "Read original results or applicable non-clinical source purpose; extract source-specific finding and locator.",
+        "Verify design/source type, population, comparator and method limitations (or non-clinical applicability).",
+        "Extract funding, in-kind contributions and funder role from original disclosure.",
+        "Extract author/institution interests and disclosure status from original source.",
+        "Verify original identity/version and correction/retraction status; assess bias and claim applicability before release."
+      ],
+      "scope": "Original repository record matched by source ID, not a newly inspected external publication.",
+      "independent_bias_appraisal_complete": false,
+      "clinical_review": false,
+      "publish": false
+    },
+    {
+      "id": "PED-WINDOW",
+      "origin": "research/child-health/sources.json",
+      "origin_index": 19,
+      "origin_blob_sha": "10c2adea813eb2b4272b16c7de20fad5eb179720",
+      "original_title": "Windows of achievement for six gross motor milestones",
+      "archive_extraction": {
+        "verification": "Selected source passages or indexed source excerpts only",
+        "kind": "linked data table",
+        "checked": "2026-11-26"
+      },
+      "archived_funding_notes": [],
+      "archived_financial_interest_notes": [],
+      "archived_finding_present": false,
+      "archived_design_or_limitations_present": false,
+      "next_checks": [
+        "Read original results or applicable non-clinical source purpose; extract source-specific finding and locator.",
+        "Verify design/source type, population, comparator and method limitations (or non-clinical applicability).",
+        "Extract funding, in-kind contributions and funder role from original disclosure.",
+        "Extract author/institution interests and disclosure status from original source.",
+        "Verify original identity/version and correction/retraction status; assess bias and claim applicability before release."
+      ],
+      "scope": "Original repository record matched by source ID, not a newly inspected external publication.",
+      "independent_bias_appraisal_complete": false,
+      "clinical_review": false,
+      "publish": false
+    },
+    {
+      "id": "PED-SOLIDS",
+      "origin": "research/child-health/sources.json",
+      "origin_index": 20,
+      "origin_blob_sha": "10c2adea813eb2b4272b16c7de20fad5eb179720",
+      "original_title": "Frequently Asked Questions (FAQs) | Infant and Toddler Nutrition | CDC",
+      "archive_extraction": {
+        "verification": "Selected source passages or indexed source excerpts only",
+        "kind": "guidance or educational resource",
+        "checked": "2026-11-26"
+      },
+      "archived_funding_notes": [],
+      "archived_financial_interest_notes": [],
+      "archived_finding_present": false,
+      "archived_design_or_limitations_present": false,
+      "next_checks": [
+        "Read original results or applicable non-clinical source purpose; extract source-specific finding and locator.",
+        "Verify design/source type, population, comparator and method limitations (or non-clinical applicability).",
+        "Extract funding, in-kind contributions and funder role from original disclosure.",
+        "Extract author/institution interests and disclosure status from original source.",
+        "Verify original identity/version and correction/retraction status; assess bias and claim applicability before release."
+      ],
+      "scope": "Original repository record matched by source ID, not a newly inspected external publication.",
+      "independent_bias_appraisal_complete": false,
+      "clinical_review": false,
+      "publish": false
+    },
+    {
+      "id": "PED-MILK",
+      "origin": "research/child-health/sources.json",
+      "origin_index": 21,
+      "origin_blob_sha": "10c2adea813eb2b4272b16c7de20fad5eb179720",
+      "original_title": "Storage and Preparation of Breast Milk",
+      "archive_extraction": {
+        "verification": "Selected source passages or indexed source excerpts only",
+        "kind": "guidance or educational resource",
+        "checked": "2026-11-26"
+      },
+      "archived_funding_notes": [],
+      "archived_financial_interest_notes": [],
+      "archived_finding_present": false,
+      "archived_design_or_limitations_present": false,
+      "next_checks": [
+        "Read original results or applicable non-clinical source purpose; extract source-specific finding and locator.",
+        "Verify design/source type, population, comparator and method limitations (or non-clinical applicability).",
+        "Extract funding, in-kind contributions and funder role from original disclosure.",
+        "Extract author/institution interests and disclosure status from original source.",
+        "Verify original identity/version and correction/retraction status; assess bias and claim applicability before release."
+      ],
+      "scope": "Original repository record matched by source ID, not a newly inspected external publication.",
+      "independent_bias_appraisal_complete": false,
+      "clinical_review": false,
+      "publish": false
+    },
+    {
+      "id": "PED-LEAD",
+      "origin": "research/child-health/sources.json",
+      "origin_index": 22,
+      "origin_blob_sha": "10c2adea813eb2b4272b16c7de20fad5eb179720",
+      "original_title": "About Lead in Paint | Childhood Lead Poisoning Prevention | CDC",
+      "archive_extraction": {
+        "verification": "Selected source passages or indexed source excerpts only",
+        "kind": "guidance or educational resource",
+        "checked": "2026-11-26"
+      },
+      "archived_funding_notes": [],
+      "archived_financial_interest_notes": [],
+      "archived_finding_present": false,
+      "archived_design_or_limitations_present": false,
+      "next_checks": [
+        "Read original results or applicable non-clinical source purpose; extract source-specific finding and locator.",
+        "Verify design/source type, population, comparator and method limitations (or non-clinical applicability).",
+        "Extract funding, in-kind contributions and funder role from original disclosure.",
+        "Extract author/institution interests and disclosure status from original source.",
+        "Verify original identity/version and correction/retraction status; assess bias and claim applicability before release."
+      ],
+      "scope": "Original repository record matched by source ID, not a newly inspected external publication.",
+      "independent_bias_appraisal_complete": false,
+      "clinical_review": false,
+      "publish": false
+    },
+    {
+      "id": "PED-SEAT",
+      "origin": "research/child-health/sources.json",
+      "origin_index": 23,
+      "origin_blob_sha": "10c2adea813eb2b4272b16c7de20fad5eb179720",
+      "original_title": "How to Install Rear-Facing Car Seats | NHTSA",
+      "archive_extraction": {
+        "verification": "Selected source passages or indexed source excerpts only",
+        "kind": "guidance or educational resource",
+        "checked": "2026-11-26"
+      },
+      "archived_funding_notes": [],
+      "archived_financial_interest_notes": [],
+      "archived_finding_present": false,
+      "archived_design_or_limitations_present": false,
+      "next_checks": [
+        "Read original results or applicable non-clinical source purpose; extract source-specific finding and locator.",
+        "Verify design/source type, population, comparator and method limitations (or non-clinical applicability).",
+        "Extract funding, in-kind contributions and funder role from original disclosure.",
+        "Extract author/institution interests and disclosure status from original source.",
+        "Verify original identity/version and correction/retraction status; assess bias and claim applicability before release."
+      ],
+      "scope": "Original repository record matched by source ID, not a newly inspected external publication.",
+      "independent_bias_appraisal_complete": false,
+      "clinical_review": false,
+      "publish": false
+    },
+    {
+      "id": "PED-WATER",
+      "origin": "research/child-health/sources.json",
+      "origin_index": 24,
+      "origin_blob_sha": "10c2adea813eb2b4272b16c7de20fad5eb179720",
+      "original_title": "Drowning Prevention for Curious Toddlers: What Parents Need to Know - HealthyChildren.org",
+      "archive_extraction": {
+        "verification": "Selected source passages or indexed source excerpts only",
+        "kind": "guidance or educational resource",
+        "checked": "2026-11-26"
+      },
+      "archived_funding_notes": [],
+      "archived_financial_interest_notes": [],
+      "archived_finding_present": false,
+      "archived_design_or_limitations_present": false,
+      "next_checks": [
+        "Read original results or applicable non-clinical source purpose; extract source-specific finding and locator.",
+        "Verify design/source type, population, comparator and method limitations (or non-clinical applicability).",
+        "Extract funding, in-kind contributions and funder role from original disclosure.",
+        "Extract author/institution interests and disclosure status from original source.",
+        "Verify original identity/version and correction/retraction status; assess bias and claim applicability before release."
+      ],
+      "scope": "Original repository record matched by source ID, not a newly inspected external publication.",
+      "independent_bias_appraisal_complete": false,
+      "clinical_review": false,
+      "publish": false
+    },
+    {
+      "id": "PED-RSV",
+      "origin": "research/child-health/sources.json",
+      "origin_index": 25,
+      "origin_blob_sha": "10c2adea813eb2b4272b16c7de20fad5eb179720",
+      "original_title": "RSV Immunization Guidance for Infants and Young Children | RSV | CDC",
+      "archive_extraction": {
+        "verification": "Selected source passages or indexed source excerpts only",
+        "kind": "guidance or educational resource",
+        "checked": "2026-11-26"
+      },
+      "archived_funding_notes": [],
+      "archived_financial_interest_notes": [],
+      "archived_finding_present": false,
+      "archived_design_or_limitations_present": false,
+      "next_checks": [
+        "Read original results or applicable non-clinical source purpose; extract source-specific finding and locator.",
+        "Verify design/source type, population, comparator and method limitations (or non-clinical applicability).",
+        "Extract funding, in-kind contributions and funder role from original disclosure.",
+        "Extract author/institution interests and disclosure status from original source.",
+        "Verify original identity/version and correction/retraction status; assess bias and claim applicability before release."
+      ],
+      "scope": "Original repository record matched by source ID, not a newly inspected external publication.",
+      "independent_bias_appraisal_complete": false,
+      "clinical_review": false,
+      "publish": false
+    },
+    {
+      "id": "PED-JAUNDICE",
+      "origin": "research/child-health/sources.json",
+      "origin_index": 26,
+      "origin_blob_sha": "10c2adea813eb2b4272b16c7de20fad5eb179720",
+      "original_title": "Jaundiced Newborn",
+      "archive_extraction": {
+        "verification": "Selected source passages or indexed source excerpts only",
+        "kind": "guidance or educational resource",
+        "checked": "2026-11-26"
+      },
+      "archived_funding_notes": [],
+      "archived_financial_interest_notes": [],
+      "archived_finding_present": false,
+      "archived_design_or_limitations_present": false,
+      "next_checks": [
+        "Read original results or applicable non-clinical source purpose; extract source-specific finding and locator.",
+        "Verify design/source type, population, comparator and method limitations (or non-clinical applicability).",
+        "Extract funding, in-kind contributions and funder role from original disclosure.",
+        "Extract author/institution interests and disclosure status from original source.",
+        "Verify original identity/version and correction/retraction status; assess bias and claim applicability before release."
+      ],
+      "scope": "Original repository record matched by source ID, not a newly inspected external publication.",
+      "independent_bias_appraisal_complete": false,
+      "clinical_review": false,
+      "publish": false
+    },
+    {
+      "id": "PED-IRON",
+      "origin": "research/child-health/sources.json",
+      "origin_index": 27,
+      "origin_blob_sha": "10c2adea813eb2b4272b16c7de20fad5eb179720",
+      "original_title": "Office of Dietary Supplements - Iron",
+      "archive_extraction": {
+        "verification": "Selected source passages or indexed source excerpts only",
+        "kind": "guidance or educational resource",
+        "checked": "2026-11-26"
+      },
+      "archived_funding_notes": [],
+      "archived_financial_interest_notes": [],
+      "archived_finding_present": false,
+      "archived_design_or_limitations_present": false,
+      "next_checks": [
+        "Read original results or applicable non-clinical source purpose; extract source-specific finding and locator.",
+        "Verify design/source type, population, comparator and method limitations (or non-clinical applicability).",
+        "Extract funding, in-kind contributions and funder role from original disclosure.",
+        "Extract author/institution interests and disclosure status from original source.",
+        "Verify original identity/version and correction/retraction status; assess bias and claim applicability before release."
+      ],
+      "scope": "Original repository record matched by source ID, not a newly inspected external publication.",
+      "independent_bias_appraisal_complete": false,
+      "clinical_review": false,
+      "publish": false
+    },
+    {
+      "id": "PED-FEED",
+      "origin": "research/child-health/sources.json",
+      "origin_index": 28,
+      "origin_blob_sha": "10c2adea813eb2b4272b16c7de20fad5eb179720",
+      "original_title": "WHO Guideline for complementary feeding of infants and young children 6-23 months of age",
+      "archive_extraction": {
+        "verification": "Selected source passages or indexed source excerpts only",
+        "kind": "guidance or educational resource",
+        "checked": "2026-11-26"
+      },
+      "archived_funding_notes": [],
+      "archived_financial_interest_notes": [],
+      "archived_finding_present": false,
+      "archived_design_or_limitations_present": false,
+      "next_checks": [
+        "Read original results or applicable non-clinical source purpose; extract source-specific finding and locator.",
+        "Verify design/source type, population, comparator and method limitations (or non-clinical applicability).",
+        "Extract funding, in-kind contributions and funder role from original disclosure.",
+        "Extract author/institution interests and disclosure status from original source.",
+        "Verify original identity/version and correction/retraction status; assess bias and claim applicability before release."
+      ],
+      "scope": "Original repository record matched by source ID, not a newly inspected external publication.",
+      "independent_bias_appraisal_complete": false,
+      "clinical_review": false,
+      "publish": false
+    },
+    {
+      "id": "PED-VACCINE",
+      "origin": "research/child-health/sources.json",
+      "origin_index": 29,
+      "origin_blob_sha": "10c2adea813eb2b4272b16c7de20fad5eb179720",
+      "original_title": "Vaccines and Other Immunizing Agents in the Child and Adolescent Immunization Schedule* | Vaccines & Immunizations | CDC",
+      "archive_extraction": {
+        "verification": "Selected source passages or indexed source excerpts only",
+        "kind": "guidance or educational resource",
+        "checked": "2026-11-26"
+      },
+      "archived_funding_notes": [],
+      "archived_financial_interest_notes": [],
+      "archived_finding_present": false,
+      "archived_design_or_limitations_present": false,
+      "next_checks": [
+        "Read original results or applicable non-clinical source purpose; extract source-specific finding and locator.",
+        "Verify design/source type, population, comparator and method limitations (or non-clinical applicability).",
+        "Extract funding, in-kind contributions and funder role from original disclosure.",
+        "Extract author/institution interests and disclosure status from original source.",
+        "Verify original identity/version and correction/retraction status; assess bias and claim applicability before release."
+      ],
+      "scope": "Original repository record matched by source ID, not a newly inspected external publication.",
+      "independent_bias_appraisal_complete": false,
+      "clinical_review": false,
+      "publish": false
+    },
+    {
+      "id": "PED-GROWTH",
+      "origin": "research/child-health/sources.json",
+      "origin_index": 30,
+      "origin_blob_sha": "10c2adea813eb2b4272b16c7de20fad5eb179720",
+      "original_title": "Summary: Using WHO Child Growth Standards | Growth Chart Training | CDC",
+      "archive_extraction": {
+        "verification": "Selected source passages or indexed source excerpts only",
+        "kind": "guidance or educational resource",
+        "checked": "2026-11-26"
+      },
+      "archived_funding_notes": [],
+      "archived_financial_interest_notes": [],
+      "archived_finding_present": false,
+      "archived_design_or_limitations_present": false,
+      "next_checks": [
+        "Read original results or applicable non-clinical source purpose; extract source-specific finding and locator.",
+        "Verify design/source type, population, comparator and method limitations (or non-clinical applicability).",
+        "Extract funding, in-kind contributions and funder role from original disclosure.",
+        "Extract author/institution interests and disclosure status from original source.",
+        "Verify original identity/version and correction/retraction status; assess bias and claim applicability before release."
+      ],
+      "scope": "Original repository record matched by source ID, not a newly inspected external publication.",
+      "independent_bias_appraisal_complete": false,
+      "clinical_review": false,
+      "publish": false
+    },
+    {
+      "id": "PED-DENTAL",
+      "origin": "research/child-health/sources.json",
+      "origin_index": 31,
+      "origin_blob_sha": "10c2adea813eb2b4272b16c7de20fad5eb179720",
+      "original_title": "Good Oral Health Starts Early: AAP Policy Explained - HealthyChildren.org",
+      "archive_extraction": {
+        "verification": "Selected source passages or indexed source excerpts only",
+        "kind": "guidance or educational resource",
+        "checked": "2026-11-26"
+      },
+      "archived_funding_notes": [],
+      "archived_financial_interest_notes": [],
+      "archived_finding_present": false,
+      "archived_design_or_limitations_present": false,
+      "next_checks": [
+        "Read original results or applicable non-clinical source purpose; extract source-specific finding and locator.",
+        "Verify design/source type, population, comparator and method limitations (or non-clinical applicability).",
+        "Extract funding, in-kind contributions and funder role from original disclosure.",
+        "Extract author/institution interests and disclosure status from original source.",
+        "Verify original identity/version and correction/retraction status; assess bias and claim applicability before release."
+      ],
+      "scope": "Original repository record matched by source ID, not a newly inspected external publication.",
+      "independent_bias_appraisal_complete": false,
+      "clinical_review": false,
+      "publish": false
+    },
+    {
+      "id": "PED-ACTIVE",
+      "origin": "research/child-health/sources.json",
+      "origin_index": 32,
+      "origin_blob_sha": "10c2adea813eb2b4272b16c7de20fad5eb179720",
+      "original_title": "Guidelines on physical activity, sedentary behaviour and sleep for children under 5 years of age",
+      "archive_extraction": {
+        "verification": "Selected source passages or indexed source excerpts only",
+        "kind": "guidance or educational resource",
+        "checked": "2026-11-26"
+      },
+      "archived_funding_notes": [],
+      "archived_financial_interest_notes": [],
+      "archived_finding_present": false,
+      "archived_design_or_limitations_present": false,
+      "next_checks": [
+        "Read original results or applicable non-clinical source purpose; extract source-specific finding and locator.",
+        "Verify design/source type, population, comparator and method limitations (or non-clinical applicability).",
+        "Extract funding, in-kind contributions and funder role from original disclosure.",
+        "Extract author/institution interests and disclosure status from original source.",
+        "Verify original identity/version and correction/retraction status; assess bias and claim applicability before release."
+      ],
+      "scope": "Original repository record matched by source ID, not a newly inspected external publication.",
+      "independent_bias_appraisal_complete": false,
+      "clinical_review": false,
+      "publish": false
+    },
+    {
+      "id": "PED-CORRECTION",
+      "origin": "research/child-health/sources.json",
+      "origin_index": 33,
+      "origin_blob_sha": "10c2adea813eb2b4272b16c7de20fad5eb179720",
+      "original_title": "Randomized Trial of Peanut Consumption in Infants at Risk for Peanut Allergy",
+      "archive_extraction": {
+        "verification": "Selected source passages or indexed source excerpts only",
+        "kind": "correction",
+        "checked": "2026-11-26"
+      },
+      "archived_funding_notes": [],
+      "archived_financial_interest_notes": [],
+      "archived_finding_present": false,
+      "archived_design_or_limitations_present": false,
+      "next_checks": [
+        "Read original results or applicable non-clinical source purpose; extract source-specific finding and locator.",
+        "Verify design/source type, population, comparator and method limitations (or non-clinical applicability).",
+        "Extract funding, in-kind contributions and funder role from original disclosure.",
+        "Extract author/institution interests and disclosure status from original source.",
+        "Verify original identity/version and correction/retraction status; assess bias and claim applicability before release."
+      ],
+      "scope": "Original repository record matched by source ID, not a newly inspected external publication.",
+      "independent_bias_appraisal_complete": false,
+      "clinical_review": false,
+      "publish": false
+    },
+    {
+      "id": "PED-OMWANA",
+      "origin": "research/child-health/sources.json",
+      "origin_index": 34,
+      "origin_blob_sha": "10c2adea813eb2b4272b16c7de20fad5eb179720",
+      "original_title": "Effectiveness of kangaroo mother care before clinical stabilisation versus standard care among neonates at five hospitals in Uganda (OMWaNA): a parallel-group, individually randomised controlled trial and economic evaluation",
+      "archive_extraction": {
+        "verification": "Selected source passages or indexed source excerpts only",
+        "kind": "research publication",
+        "checked": "2026-11-26"
+      },
+      "archived_funding_notes": [],
+      "archived_financial_interest_notes": [],
+      "archived_finding_present": false,
+      "archived_design_or_limitations_present": false,
+      "next_checks": [
+        "Read original results or applicable non-clinical source purpose; extract source-specific finding and locator.",
+        "Verify design/source type, population, comparator and method limitations (or non-clinical applicability).",
+        "Extract funding, in-kind contributions and funder role from original disclosure.",
+        "Extract author/institution interests and disclosure status from original source.",
+        "Verify original identity/version and correction/retraction status; assess bias and claim applicability before release."
+      ],
+      "scope": "Original repository record matched by source ID, not a newly inspected external publication.",
+      "independent_bias_appraisal_complete": false,
+      "clinical_review": false,
+      "publish": false
+    },
+    {
+      "id": "PED-GESTATION",
+      "origin": "research/child-health/sources.json",
+      "origin_index": 35,
+      "origin_blob_sha": "10c2adea813eb2b4272b16c7de20fad5eb179720",
+      "original_title": "Fetal development: MedlinePlus Medical Encyclopedia",
+      "archive_extraction": {
+        "verification": "Selected source passages or indexed source excerpts only",
+        "kind": "guidance or educational resource",
+        "checked": "2026-11-26"
+      },
+      "archived_funding_notes": [],
+      "archived_financial_interest_notes": [],
+      "archived_finding_present": false,
+      "archived_design_or_limitations_present": false,
+      "next_checks": [
+        "Read original results or applicable non-clinical source purpose; extract source-specific finding and locator.",
+        "Verify design/source type, population, comparator and method limitations (or non-clinical applicability).",
+        "Extract funding, in-kind contributions and funder role from original disclosure.",
+        "Extract author/institution interests and disclosure status from original source.",
+        "Verify original identity/version and correction/retraction status; assess bias and claim applicability before release."
+      ],
+      "scope": "Original repository record matched by source ID, not a newly inspected external publication.",
+      "independent_bias_appraisal_complete": false,
+      "clinical_review": false,
+      "publish": false
+    },
+    {
+      "id": "PED-CHOLINE",
+      "origin": "research/child-health/sources.json",
+      "origin_index": 36,
+      "origin_blob_sha": "10c2adea813eb2b4272b16c7de20fad5eb179720",
+      "original_title": "Office of Dietary Supplements - Choline",
+      "archive_extraction": {
+        "verification": "Selected source passages or indexed source excerpts only",
+        "kind": "guidance or educational resource",
+        "checked": "2026-11-26"
+      },
+      "archived_funding_notes": [],
+      "archived_financial_interest_notes": [],
+      "archived_finding_present": false,
+      "archived_design_or_limitations_present": false,
+      "next_checks": [
+        "Read original results or applicable non-clinical source purpose; extract source-specific finding and locator.",
+        "Verify design/source type, population, comparator and method limitations (or non-clinical applicability).",
+        "Extract funding, in-kind contributions and funder role from original disclosure.",
+        "Extract author/institution interests and disclosure status from original source.",
+        "Verify original identity/version and correction/retraction status; assess bias and claim applicability before release."
+      ],
+      "scope": "Original repository record matched by source ID, not a newly inspected external publication.",
+      "independent_bias_appraisal_complete": false,
+      "clinical_review": false,
+      "publish": false
+    },
+    {
+      "id": "PED-IRONFOOD",
+      "origin": "research/child-health/sources.json",
+      "origin_index": 37,
+      "origin_blob_sha": "10c2adea813eb2b4272b16c7de20fad5eb179720",
+      "original_title": "Iron | Infant and Toddler Nutrition | CDC",
+      "archive_extraction": {
+        "verification": "Selected source passages or indexed source excerpts only",
+        "kind": "guidance or educational resource",
+        "checked": "2026-11-26"
+      },
+      "archived_funding_notes": [],
+      "archived_financial_interest_notes": [],
+      "archived_finding_present": false,
+      "archived_design_or_limitations_present": false,
+      "next_checks": [
+        "Read original results or applicable non-clinical source purpose; extract source-specific finding and locator.",
+        "Verify design/source type, population, comparator and method limitations (or non-clinical applicability).",
+        "Extract funding, in-kind contributions and funder role from original disclosure.",
+        "Extract author/institution interests and disclosure status from original source.",
+        "Verify original identity/version and correction/retraction status; assess bias and claim applicability before release."
+      ],
+      "scope": "Original repository record matched by source ID, not a newly inspected external publication.",
+      "independent_bias_appraisal_complete": false,
+      "clinical_review": false,
+      "publish": false
+    },
+    {
+      "id": "PED-LEAPFOLLOW",
+      "origin": "research/child-health/sources.json",
+      "origin_index": 38,
+      "origin_blob_sha": "10c2adea813eb2b4272b16c7de20fad5eb179720",
+      "original_title": "Follow-up to Adolescence after Early Peanut Introduction for Allergy Prevention",
+      "archive_extraction": {
+        "verification": "Selected source passages or indexed source excerpts only",
+        "kind": "research publication",
+        "checked": "2026-11-26"
+      },
+      "archived_funding_notes": [],
+      "archived_financial_interest_notes": [],
+      "archived_finding_present": false,
+      "archived_design_or_limitations_present": false,
+      "next_checks": [
+        "Read original results or applicable non-clinical source purpose; extract source-specific finding and locator.",
+        "Verify design/source type, population, comparator and method limitations (or non-clinical applicability).",
+        "Extract funding, in-kind contributions and funder role from original disclosure.",
+        "Extract author/institution interests and disclosure status from original source.",
+        "Verify original identity/version and correction/retraction status; assess bias and claim applicability before release."
+      ],
+      "scope": "Original repository record matched by source ID, not a newly inspected external publication.",
+      "independent_bias_appraisal_complete": false,
+      "clinical_review": false,
+      "publish": false
+    },
+    {
+      "id": "PED-ANAPHYLAXIS",
+      "origin": "research/child-health/sources.json",
+      "origin_index": 39,
+      "origin_blob_sha": "10c2adea813eb2b4272b16c7de20fad5eb179720",
+      "original_title": "Anaphylaxis in Infants & Children: Responding to Severe Allergic Reactions - HealthyChildren.org",
+      "archive_extraction": {
+        "verification": "Selected source passages or indexed source excerpts only",
+        "kind": "guidance or educational resource",
+        "checked": "2026-11-26"
+      },
+      "archived_funding_notes": [],
+      "archived_financial_interest_notes": [],
+      "archived_finding_present": false,
+      "archived_design_or_limitations_present": false,
+      "next_checks": [
+        "Read original results or applicable non-clinical source purpose; extract source-specific finding and locator.",
+        "Verify design/source type, population, comparator and method limitations (or non-clinical applicability).",
+        "Extract funding, in-kind contributions and funder role from original disclosure.",
+        "Extract author/institution interests and disclosure status from original source.",
+        "Verify original identity/version and correction/retraction status; assess bias and claim applicability before release."
+      ],
+      "scope": "Original repository record matched by source ID, not a newly inspected external publication.",
+      "independent_bias_appraisal_complete": false,
+      "clinical_review": false,
+      "publish": false
+    },
+    {
+      "id": "PED-POISON",
+      "origin": "research/child-health/sources.json",
+      "origin_index": 40,
+      "origin_blob_sha": "10c2adea813eb2b4272b16c7de20fad5eb179720",
+      "original_title": "Need immediate assistance? | Poison Control",
+      "archive_extraction": {
+        "verification": "Selected source passages or indexed source excerpts only",
+        "kind": "guidance or educational resource",
+        "checked": "2026-11-26"
+      },
+      "archived_funding_notes": [],
+      "archived_financial_interest_notes": [],
+      "archived_finding_present": false,
+      "archived_design_or_limitations_present": false,
+      "next_checks": [
+        "Read original results or applicable non-clinical source purpose; extract source-specific finding and locator.",
+        "Verify design/source type, population, comparator and method limitations (or non-clinical applicability).",
+        "Extract funding, in-kind contributions and funder role from original disclosure.",
+        "Extract author/institution interests and disclosure status from original source.",
+        "Verify original identity/version and correction/retraction status; assess bias and claim applicability before release."
+      ],
+      "scope": "Original repository record matched by source ID, not a newly inspected external publication.",
+      "independent_bias_appraisal_complete": false,
+      "clinical_review": false,
+      "publish": false
+    },
+    {
+      "id": "PED-CRY",
+      "origin": "research/child-health/sources.json",
+      "origin_index": 41,
+      "origin_blob_sha": "10c2adea813eb2b4272b16c7de20fad5eb179720",
+      "original_title": "About Abusive Head Trauma | Child Abuse and Neglect Prevention | CDC",
+      "archive_extraction": {
+        "verification": "Selected source passages or indexed source excerpts only",
+        "kind": "guidance or educational resource",
+        "checked": "2026-11-26"
+      },
+      "archived_funding_notes": [],
+      "archived_financial_interest_notes": [],
+      "archived_finding_present": false,
+      "archived_design_or_limitations_present": false,
+      "next_checks": [
+        "Read original results or applicable non-clinical source purpose; extract source-specific finding and locator.",
+        "Verify design/source type, population, comparator and method limitations (or non-clinical applicability).",
+        "Extract funding, in-kind contributions and funder role from original disclosure.",
+        "Extract author/institution interests and disclosure status from original source.",
+        "Verify original identity/version and correction/retraction status; assess bias and claim applicability before release."
+      ],
+      "scope": "Original repository record matched by source ID, not a newly inspected external publication.",
+      "independent_bias_appraisal_complete": false,
+      "clinical_review": false,
+      "publish": false
+    },
+    {
+      "id": "PED-DRI-vitamins",
+      "origin": "research/child-health/sources.json",
+      "origin_index": 42,
+      "origin_blob_sha": "10c2adea813eb2b4272b16c7de20fad5eb179720",
+      "original_title": "Dietary reference intakes tables: Reference values for vitamins",
+      "archive_extraction": {
+        "verification": "Source age rows and intake columns extracted; common US/Canadian DRI framework. UL scope not extracted.",
+        "kind": "reference dataset",
+        "checked": "2026-11-26"
+      },
+      "archived_funding_notes": [],
+      "archived_financial_interest_notes": [],
+      "archived_finding_present": false,
+      "archived_design_or_limitations_present": false,
+      "next_checks": [
+        "Read original results or applicable non-clinical source purpose; extract source-specific finding and locator.",
+        "Verify design/source type, population, comparator and method limitations (or non-clinical applicability).",
+        "Extract funding, in-kind contributions and funder role from original disclosure.",
+        "Extract author/institution interests and disclosure status from original source.",
+        "Verify original identity/version and correction/retraction status; assess bias and claim applicability before release."
+      ],
+      "scope": "Original repository record matched by source ID, not a newly inspected external publication.",
+      "independent_bias_appraisal_complete": false,
+      "clinical_review": false,
+      "publish": false
+    },
+    {
+      "id": "PED-DRI-elements",
+      "origin": "research/child-health/sources.json",
+      "origin_index": 43,
+      "origin_blob_sha": "10c2adea813eb2b4272b16c7de20fad5eb179720",
+      "original_title": "Dietary reference intakes tables: Reference values for elements",
+      "archive_extraction": {
+        "verification": "Source age rows and intake columns extracted; common US/Canadian DRI framework. UL scope not extracted.",
+        "kind": "reference dataset",
+        "checked": "2026-11-26"
+      },
+      "archived_funding_notes": [],
+      "archived_financial_interest_notes": [],
+      "archived_finding_present": false,
+      "archived_design_or_limitations_present": false,
+      "next_checks": [
+        "Read original results or applicable non-clinical source purpose; extract source-specific finding and locator.",
+        "Verify design/source type, population, comparator and method limitations (or non-clinical applicability).",
+        "Extract funding, in-kind contributions and funder role from original disclosure.",
+        "Extract author/institution interests and disclosure status from original source.",
+        "Verify original identity/version and correction/retraction status; assess bias and claim applicability before release."
+      ],
+      "scope": "Original repository record matched by source ID, not a newly inspected external publication.",
+      "independent_bias_appraisal_complete": false,
+      "clinical_review": false,
+      "publish": false
+    },
+    {
+      "id": "PED-DRI-macronutrients",
+      "origin": "research/child-health/sources.json",
+      "origin_index": 44,
+      "origin_blob_sha": "10c2adea813eb2b4272b16c7de20fad5eb179720",
+      "original_title": "Dietary reference intakes tables: Reference values for macronutrients",
+      "archive_extraction": {
+        "verification": "Source age rows and intake columns extracted; common US/Canadian DRI framework. UL scope not extracted.",
+        "kind": "reference dataset",
+        "checked": "2026-11-26"
+      },
+      "archived_funding_notes": [],
+      "archived_financial_interest_notes": [],
+      "archived_finding_present": false,
+      "archived_design_or_limitations_present": false,
+      "next_checks": [
+        "Read original results or applicable non-clinical source purpose; extract source-specific finding and locator.",
+        "Verify design/source type, population, comparator and method limitations (or non-clinical applicability).",
+        "Extract funding, in-kind contributions and funder role from original disclosure.",
+        "Extract author/institution interests and disclosure status from original source.",
+        "Verify original identity/version and correction/retraction status; assess bias and claim applicability before release."
+      ],
+      "scope": "Original repository record matched by source ID, not a newly inspected external publication.",
+      "independent_bias_appraisal_complete": false,
+      "clinical_review": false,
+      "publish": false
+    },
+    {
+      "id": "PED-HAPO",
+      "origin": "research/child-health/sources.json",
+      "origin_index": 45,
+      "origin_blob_sha": "10c2adea813eb2b4272b16c7de20fad5eb179720",
+      "original_title": "Association between maternal glucose levels in pregnancy and offspring's metabolism and adiposity: an 18-year birth cohort study",
+      "archive_extraction": {
+        "verification": "Selected source passages; full review pending",
+        "kind": "research publication",
+        "checked": "2026-11-26"
+      },
+      "archived_funding_notes": [],
+      "archived_financial_interest_notes": [],
+      "archived_finding_present": false,
+      "archived_design_or_limitations_present": false,
+      "next_checks": [
+        "Read original results or applicable non-clinical source purpose; extract source-specific finding and locator.",
+        "Verify design/source type, population, comparator and method limitations (or non-clinical applicability).",
+        "Extract funding, in-kind contributions and funder role from original disclosure.",
+        "Extract author/institution interests and disclosure status from original source.",
+        "Verify original identity/version and correction/retraction status; assess bias and claim applicability before release."
+      ],
+      "scope": "Original repository record matched by source ID, not a newly inspected external publication.",
+      "independent_bias_appraisal_complete": false,
+      "clinical_review": false,
+      "publish": false
+    },
+    {
+      "id": "PED-PLACENTA",
+      "origin": "research/child-health/sources.json",
+      "origin_index": 46,
+      "origin_blob_sha": "10c2adea813eb2b4272b16c7de20fad5eb179720",
+      "original_title": "Human placenta has no microbiome but can contain potential pathogens",
+      "archive_extraction": {
+        "verification": "Selected source passages; full review pending",
+        "kind": "research publication",
+        "checked": "2026-11-26"
+      },
+      "archived_funding_notes": [],
+      "archived_financial_interest_notes": [],
+      "archived_finding_present": false,
+      "archived_design_or_limitations_present": false,
+      "next_checks": [
+        "Read original results or applicable non-clinical source purpose; extract source-specific finding and locator.",
+        "Verify design/source type, population, comparator and method limitations (or non-clinical applicability).",
+        "Extract funding, in-kind contributions and funder role from original disclosure.",
+        "Extract author/institution interests and disclosure status from original source.",
+        "Verify original identity/version and correction/retraction status; assess bias and claim applicability before release."
+      ],
+      "scope": "Original repository record matched by source ID, not a newly inspected external publication.",
+      "independent_bias_appraisal_complete": false,
+      "clinical_review": false,
+      "publish": false
+    },
+    {
+      "id": "PED-HEARING",
+      "origin": "research/child-health/sources.json",
+      "origin_index": 47,
+      "origin_blob_sha": "10c2adea813eb2b4272b16c7de20fad5eb179720",
+      "original_title": "EHDI 1-3-6 Benchmarks | Hearing Loss in Children | CDC",
+      "archive_extraction": {
+        "verification": "Selected source passages; full review pending",
+        "kind": "guidance",
+        "checked": "2026-11-26"
+      },
+      "archived_funding_notes": [],
+      "archived_financial_interest_notes": [],
+      "archived_finding_present": false,
+      "archived_design_or_limitations_present": false,
+      "next_checks": [
+        "Read original results or applicable non-clinical source purpose; extract source-specific finding and locator.",
+        "Verify design/source type, population, comparator and method limitations (or non-clinical applicability).",
+        "Extract funding, in-kind contributions and funder role from original disclosure.",
+        "Extract author/institution interests and disclosure status from original source.",
+        "Verify original identity/version and correction/retraction status; assess bias and claim applicability before release."
+      ],
+      "scope": "Original repository record matched by source ID, not a newly inspected external publication.",
+      "independent_bias_appraisal_complete": false,
+      "clinical_review": false,
+      "publish": false
+    },
+    {
+      "id": "PED-REFERRAL",
+      "origin": "research/child-health/sources.json",
+      "origin_index": 48,
+      "origin_blob_sha": "10c2adea813eb2b4272b16c7de20fad5eb179720",
+      "original_title": "Milestones by 15 Months | Learn the Signs. Act Early. | CDC",
+      "archive_extraction": {
+        "verification": "Selected source passages; full review pending",
+        "kind": "guidance",
+        "checked": "2026-11-26"
+      },
+      "archived_funding_notes": [],
+      "archived_financial_interest_notes": [],
+      "archived_finding_present": false,
+      "archived_design_or_limitations_present": false,
+      "next_checks": [
+        "Read original results or applicable non-clinical source purpose; extract source-specific finding and locator.",
+        "Verify design/source type, population, comparator and method limitations (or non-clinical applicability).",
+        "Extract funding, in-kind contributions and funder role from original disclosure.",
+        "Extract author/institution interests and disclosure status from original source.",
+        "Verify original identity/version and correction/retraction status; assess bias and claim applicability before release."
+      ],
+      "scope": "Original repository record matched by source ID, not a newly inspected external publication.",
+      "independent_bias_appraisal_complete": false,
+      "clinical_review": false,
+      "publish": false
+    },
+    {
+      "id": "PED-CORDTERM",
+      "origin": "research/child-health/sources.json",
+      "origin_index": 49,
+      "origin_blob_sha": "10c2adea813eb2b4272b16c7de20fad5eb179720",
+      "original_title": "Delayed Umbilical Cord Clamping After Birth: ACOG Committee Opinion, Number 814.",
+      "archive_extraction": {
+        "verification": "Selected source passages; full review pending",
+        "kind": "guidance",
+        "checked": "2026-11-26"
+      },
+      "archived_funding_notes": [],
+      "archived_financial_interest_notes": [],
+      "archived_finding_present": false,
+      "archived_design_or_limitations_present": false,
+      "next_checks": [
+        "Read original results or applicable non-clinical source purpose; extract source-specific finding and locator.",
+        "Verify design/source type, population, comparator and method limitations (or non-clinical applicability).",
+        "Extract funding, in-kind contributions and funder role from original disclosure.",
+        "Extract author/institution interests and disclosure status from original source.",
+        "Verify original identity/version and correction/retraction status; assess bias and claim applicability before release."
+      ],
+      "scope": "Original repository record matched by source ID, not a newly inspected external publication.",
+      "independent_bias_appraisal_complete": false,
+      "clinical_review": false,
+      "publish": false
+    },
+    {
+      "id": "PED-CORDUPDATE",
+      "origin": "research/child-health/sources.json",
+      "origin_index": 50,
+      "origin_blob_sha": "10c2adea813eb2b4272b16c7de20fad5eb179720",
+      "original_title": "ACOG Clinical Practice Update: An Update to Clinical Guidance for Delayed Umbilical Cord Clamping After Birth in Preterm Neonates",
+      "archive_extraction": {
+        "verification": "Selected source passages; full review pending",
+        "kind": "guidance",
+        "checked": "2026-11-26"
+      },
+      "archived_funding_notes": [],
+      "archived_financial_interest_notes": [],
+      "archived_finding_present": false,
+      "archived_design_or_limitations_present": false,
+      "next_checks": [
+        "Read original results or applicable non-clinical source purpose; extract source-specific finding and locator.",
+        "Verify design/source type, population, comparator and method limitations (or non-clinical applicability).",
+        "Extract funding, in-kind contributions and funder role from original disclosure.",
+        "Extract author/institution interests and disclosure status from original source.",
+        "Verify original identity/version and correction/retraction status; assess bias and claim applicability before release."
+      ],
+      "scope": "Original repository record matched by source ID, not a newly inspected external publication.",
+      "independent_bias_appraisal_complete": false,
+      "clinical_review": false,
+      "publish": false
+    },
+    {
+      "id": "PED-DONOR",
+      "origin": "research/child-health/sources.json",
+      "origin_index": 51,
+      "origin_blob_sha": "10c2adea813eb2b4272b16c7de20fad5eb179720",
+      "original_title": "Donor human milk for preventing necrotising enterocolitis in very preterm or very low-birthweight infants",
+      "archive_extraction": {
+        "verification": "Author results and relevant references inspected",
+        "kind": "research publication",
+        "checked": "2026-11-26"
+      },
+      "archived_funding_notes": [],
+      "archived_financial_interest_notes": [],
+      "archived_finding_present": false,
+      "archived_design_or_limitations_present": false,
+      "next_checks": [
+        "Read original results or applicable non-clinical source purpose; extract source-specific finding and locator.",
+        "Verify design/source type, population, comparator and method limitations (or non-clinical applicability).",
+        "Extract funding, in-kind contributions and funder role from original disclosure.",
+        "Extract author/institution interests and disclosure status from original source.",
+        "Verify original identity/version and correction/retraction status; assess bias and claim applicability before release."
+      ],
+      "scope": "Original repository record matched by source ID, not a newly inspected external publication.",
+      "independent_bias_appraisal_complete": false,
+      "clinical_review": false,
+      "publish": false
+    },
+    {
+      "id": "PED-FERTILITY-HOLD",
+      "origin": "research/child-health/sources.json",
+      "origin_index": 52,
+      "origin_blob_sha": "10c2adea813eb2b4272b16c7de20fad5eb179720",
+      "original_title": "Effects of Physical Activity on Fertility Parameters: A Meta-Analysis of Randomized Controlled Trials",
+      "archive_extraction": {
+        "verification": "Author results and relevant references inspected",
+        "kind": "dependency audit only",
+        "checked": "2026-11-26"
+      },
+      "archived_funding_notes": [],
+      "archived_financial_interest_notes": [],
+      "archived_finding_present": false,
+      "archived_design_or_limitations_present": false,
+      "next_checks": [
+        "Read original results or applicable non-clinical source purpose; extract source-specific finding and locator.",
+        "Verify design/source type, population, comparator and method limitations (or non-clinical applicability).",
+        "Extract funding, in-kind contributions and funder role from original disclosure.",
+        "Extract author/institution interests and disclosure status from original source.",
+        "Verify original identity/version and correction/retraction status; assess bias and claim applicability before release."
+      ],
+      "scope": "Original repository record matched by source ID, not a newly inspected external publication.",
+      "independent_bias_appraisal_complete": false,
+      "clinical_review": false,
+      "publish": false
+    },
+    {
+      "id": "PED-MATISSE",
+      "origin": "research/child-health/sources.json",
+      "origin_index": 53,
+      "origin_blob_sha": "10c2adea813eb2b4272b16c7de20fad5eb179720",
+      "original_title": "Bivalent Prefusion F Vaccine in Pregnancy to Prevent RSV Illness in Infants",
+      "archive_extraction": {
+        "verification": "Original publication abstract, results or table checked",
+        "kind": "research publication",
+        "checked": "2026-11-26"
+      },
+      "archived_funding_notes": [],
+      "archived_financial_interest_notes": [],
+      "archived_finding_present": false,
+      "archived_design_or_limitations_present": false,
+      "next_checks": [
+        "Read original results or applicable non-clinical source purpose; extract source-specific finding and locator.",
+        "Verify design/source type, population, comparator and method limitations (or non-clinical applicability).",
+        "Extract funding, in-kind contributions and funder role from original disclosure.",
+        "Extract author/institution interests and disclosure status from original source.",
+        "Verify original identity/version and correction/retraction status; assess bias and claim applicability before release."
+      ],
+      "scope": "Original repository record matched by source ID, not a newly inspected external publication.",
+      "independent_bias_appraisal_complete": false,
+      "clinical_review": false,
+      "publish": false
+    },
+    {
+      "id": "PED-HARMONIE",
+      "origin": "research/child-health/sources.json",
+      "origin_index": 54,
+      "origin_blob_sha": "10c2adea813eb2b4272b16c7de20fad5eb179720",
+      "original_title": "Nirsevimab for Prevention of Hospitalizations Due to RSV in Infants",
+      "archive_extraction": {
+        "verification": "Original publication abstract, results or table checked",
+        "kind": "research publication",
+        "checked": "2026-11-26"
+      },
+      "archived_funding_notes": [],
+      "archived_financial_interest_notes": [],
+      "archived_finding_present": false,
+      "archived_design_or_limitations_present": false,
+      "next_checks": [
+        "Read original results or applicable non-clinical source purpose; extract source-specific finding and locator.",
+        "Verify design/source type, population, comparator and method limitations (or non-clinical applicability).",
+        "Extract funding, in-kind contributions and funder role from original disclosure.",
+        "Extract author/institution interests and disclosure status from original source.",
+        "Verify original identity/version and correction/retraction status; assess bias and claim applicability before release."
+      ],
+      "scope": "Original repository record matched by source ID, not a newly inspected external publication.",
+      "independent_bias_appraisal_complete": false,
+      "clinical_review": false,
+      "publish": false
+    },
+    {
+      "id": "PED-BEEP",
+      "origin": "research/child-health/sources.json",
+      "origin_index": 55,
+      "origin_blob_sha": "10c2adea813eb2b4272b16c7de20fad5eb179720",
+      "original_title": "Daily emollient during infancy for prevention of eczema: the BEEP randomised controlled trial",
+      "archive_extraction": {
+        "verification": "Original publication abstract, results or table checked",
+        "kind": "research publication",
+        "checked": "2026-11-26"
+      },
+      "archived_funding_notes": [],
+      "archived_financial_interest_notes": [],
+      "archived_finding_present": false,
+      "archived_design_or_limitations_present": false,
+      "next_checks": [
+        "Read original results or applicable non-clinical source purpose; extract source-specific finding and locator.",
+        "Verify design/source type, population, comparator and method limitations (or non-clinical applicability).",
+        "Extract funding, in-kind contributions and funder role from original disclosure.",
+        "Extract author/institution interests and disclosure status from original source.",
+        "Verify original identity/version and correction/retraction status; assess bias and claim applicability before release."
+      ],
+      "scope": "Original repository record matched by source ID, not a newly inspected external publication.",
+      "independent_bias_appraisal_complete": false,
+      "clinical_review": false,
+      "publish": false
+    },
+    {
+      "id": "PED-CASCADE",
+      "origin": "research/child-health/sources.json",
+      "origin_index": 56,
+      "origin_blob_sha": "10c2adea813eb2b4272b16c7de20fad5eb179720",
+      "original_title": "Emollients to Prevent Pediatric Eczema: A Randomized Clinical Trial",
+      "archive_extraction": {
+        "verification": "Original publication abstract, results or table checked",
+        "kind": "research publication",
+        "checked": "2026-11-26"
+      },
+      "archived_funding_notes": [],
+      "archived_financial_interest_notes": [],
+      "archived_finding_present": false,
+      "archived_design_or_limitations_present": false,
+      "next_checks": [
+        "Read original results or applicable non-clinical source purpose; extract source-specific finding and locator.",
+        "Verify design/source type, population, comparator and method limitations (or non-clinical applicability).",
+        "Extract funding, in-kind contributions and funder role from original disclosure.",
+        "Extract author/institution interests and disclosure status from original source.",
+        "Verify original identity/version and correction/retraction status; assess bias and claim applicability before release."
+      ],
+      "scope": "Original repository record matched by source ID, not a newly inspected external publication.",
+      "independent_bias_appraisal_complete": false,
+      "clinical_review": false,
+      "publish": false
+    },
+    {
+      "id": "PED-BLISSGROW",
+      "origin": "research/child-health/sources.json",
+      "origin_index": 57,
+      "origin_blob_sha": "10c2adea813eb2b4272b16c7de20fad5eb179720",
+      "original_title": "Effect of a Baby-Led Approach to Complementary Feeding on Infant Growth and Overweight: A Randomized Clinical Trial",
+      "archive_extraction": {
+        "verification": "Original publication abstract, results or table checked",
+        "kind": "research publication",
+        "checked": "2026-11-26"
+      },
+      "archived_funding_notes": [],
+      "archived_financial_interest_notes": [],
+      "archived_finding_present": false,
+      "archived_design_or_limitations_present": false,
+      "next_checks": [
+        "Read original results or applicable non-clinical source purpose; extract source-specific finding and locator.",
+        "Verify design/source type, population, comparator and method limitations (or non-clinical applicability).",
+        "Extract funding, in-kind contributions and funder role from original disclosure.",
+        "Extract author/institution interests and disclosure status from original source.",
+        "Verify original identity/version and correction/retraction status; assess bias and claim applicability before release."
+      ],
+      "scope": "Original repository record matched by source ID, not a newly inspected external publication.",
+      "independent_bias_appraisal_complete": false,
+      "clinical_review": false,
+      "publish": false
+    }
+  ]
+}
