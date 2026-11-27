@@ -1,5 +1,8 @@
 # Cursor / Claude — implementation handoff
 
+> **CURRENT HANDOFF — 26 November 2026 (Stages 1–11 scoped checkpoints complete).** The owner authorized both final stages. Start with [final Claude prompt](research/staged-completion/stage-11/FINAL_CLAUDE_PROMPT.md), [owner report](research/staged-completion/stage-11/README.md), [consolidated import](research/staged-completion/stage-10/CONSOLIDATED_IMPORT.json) and [publication gate](research/staged-completion/stage-10/PUBLICATION_GATE.json). The legacy maternal-only import remains preserved and its 25 exports regenerated. 770 source records, 311 outcomes, 403 nutrient reference rows, 52 curated articles/actions/FAQs, 28 family phases and 40 fetal week rows. Not independent study counts. All clinical content remains draft. Claude owns architecture and implementation; no deployment or recurring monitoring. See [release checklist](research/staged-completion/stage-11/IMPLEMENTATION_CHECKLIST.md) and [open review](research/staged-completion/stage-11/OPEN_REVIEW.md). The older text below is historical; any previous stage authorization statements and inventory counts are superseded by this checkpoint.
+
+
 **Latest research checkpoint:** [TRANSFER.md](TRANSFER.md) documents the staged deep-research audit and Gemini reconciliation. Apply its fertility retraction holds and preserve the existing consolidated import until verification; development can proceed.
 
 This is the initial development assignment, not a description of a completed app. Open the repository in Cursor, work inside pregnancy-info-app/, and preserve the legacy leaderboard outside this folder. No previous conversation is required.

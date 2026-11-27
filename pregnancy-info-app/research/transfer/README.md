@@ -1,5 +1,8 @@
 # Research transfer and portable exports
 
+> **CURRENT HANDOFF — 26 November 2026 (Stages 1–11 scoped checkpoints complete).** The owner authorized both final stages. Start with [final Claude prompt](../staged-completion/stage-11/FINAL_CLAUDE_PROMPT.md), [owner report](../staged-completion/stage-11/README.md), [consolidated import](../staged-completion/stage-10/CONSOLIDATED_IMPORT.json) and [publication gate](../staged-completion/stage-10/PUBLICATION_GATE.json). The legacy maternal-only import remains preserved and its 25 exports regenerated. 770 source records, 311 outcomes, 403 nutrient reference rows, 52 curated articles/actions/FAQs, 28 family phases and 40 fetal week rows. Not independent study counts. All clinical content remains draft. Claude owns architecture and implementation; no deployment or recurring monitoring. See [release checklist](../staged-completion/stage-11/IMPLEMENTATION_CHECKLIST.md) and [open review](../staged-completion/stage-11/OPEN_REVIEW.md). The older text below is historical; any previous stage authorization statements and inventory counts are superseded by this checkpoint.
+
+
 The repository is the project source of truth. Start at [START_HERE.md](../../START_HERE.md), then [final research import](../release-prep/FINAL_RESEARCH_IMPORT.json). These derived formats supplement, never replace, the authoritative original JSON, Markdown and SVG. They include no personal health information.
 
 | Format | Best use | Files |

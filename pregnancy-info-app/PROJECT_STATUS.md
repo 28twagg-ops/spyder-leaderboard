@@ -1,5 +1,8 @@
 # Project status — research handoff; implementation pending
 
+> **CURRENT HANDOFF — 26 November 2026 (Stages 1–11 scoped checkpoints complete).** The owner authorized both final stages. Start with [final Claude prompt](research/staged-completion/stage-11/FINAL_CLAUDE_PROMPT.md), [owner report](research/staged-completion/stage-11/README.md), [consolidated import](research/staged-completion/stage-10/CONSOLIDATED_IMPORT.json) and [publication gate](research/staged-completion/stage-10/PUBLICATION_GATE.json). The legacy maternal-only import remains preserved and its 25 exports regenerated. 770 source records, 311 outcomes, 403 nutrient reference rows, 52 curated articles/actions/FAQs, 28 family phases and 40 fetal week rows. Not independent study counts. All clinical content remains draft. Claude owns architecture and implementation; no deployment or recurring monitoring. See [release checklist](research/staged-completion/stage-11/IMPLEMENTATION_CHECKLIST.md) and [open review](research/staged-completion/stage-11/OPEN_REVIEW.md). The older text below is historical; any previous stage authorization statements and inventory counts are superseded by this checkpoint.
+
+
 Completed: initial project brief, Claude/agent roles, UX direction, timeline and topic scope, research/evidence/safety/privacy standards, conceptual schema, starter research backlog and handoff template.
 
 Not completed: actual app code, stack choice, final design system, database, source verification, scientific content, reference pages, tests, deployment and personalized guidance. Claude owns the initial architecture and must fill the handoff template after implementation.

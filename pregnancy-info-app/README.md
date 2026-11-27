@@ -1,5 +1,8 @@
 # Pregnancy Info App — project transfer
 
+> **CURRENT HANDOFF — 26 November 2026 (Stages 1–11 scoped checkpoints complete).** The owner authorized both final stages. Start with [final Claude prompt](research/staged-completion/stage-11/FINAL_CLAUDE_PROMPT.md), [owner report](research/staged-completion/stage-11/README.md), [consolidated import](research/staged-completion/stage-10/CONSOLIDATED_IMPORT.json) and [publication gate](research/staged-completion/stage-10/PUBLICATION_GATE.json). The legacy maternal-only import remains preserved and its 25 exports regenerated. 770 source records, 311 outcomes, 403 nutrient reference rows, 52 curated articles/actions/FAQs, 28 family phases and 40 fetal week rows. Not independent study counts. All clinical content remains draft. Claude owns architecture and implementation; no deployment or recurring monitoring. See [release checklist](research/staged-completion/stage-11/IMPLEMENTATION_CHECKLIST.md) and [open review](research/staged-completion/stage-11/OPEN_REVIEW.md). The older text below is historical; any previous stage authorization statements and inventory counts are superseded by this checkpoint.
+
+
 Working name: Everwell (Claude may choose a better name). This folder is the project boundary. Do not modify the legacy backend at repository root.
 
 ## Start here
