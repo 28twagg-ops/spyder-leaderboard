@@ -113,6 +113,8 @@ describe('expanded week 22 topic coverage',()=>{
   render(<MemoryRouter initialEntries={['/timeline/week/'+week+'?subject=mother']}><App/></MemoryRouter>)
   fireEvent.click(screen.getByRole('link',{name:/Nutrients, vitamins & medicines/}))
   expect(await screen.findByRole('heading',{name:'Nutrients, vitamins & medicines',level:1})).toBeVisible()
+  expect(screen.getByRole('heading',{name:'Why it matters'})).toBeVisible()
+  expect(screen.getByRole('heading',{name:'Essentials to check first'})).toBeVisible()
   expect(screen.getByRole('heading',{name:'Common intake gaps'})).toBeVisible()
   expect(screen.getByText('52.9%')).toBeVisible()
   expect(screen.getByText('93%')).toBeVisible()
@@ -123,6 +125,14 @@ describe('expanded week 22 topic coverage',()=>{
   expect(screen.getByText('At a glance')).toBeVisible()
   expect(screen.getByText('Worth asking your care team')).toBeVisible()
   expect(document.querySelectorAll('.skin-page details').length).toBeLessThanOrEqual(3)
+ })
+ it('nutrition landing places the approved highlight and priority guide before general readings',async()=>{
+  render(<MemoryRouter initialEntries={['/timeline/week/22/mother/nutrition']}><App/></MemoryRouter>)
+  const highlight=await screen.findByRole('region',{name:'Why it matters'})
+  const guide=screen.getByRole('link',{name:/Nutrition essentials · start here/})
+  const general=screen.getByRole('heading',{name:'Read about it'})
+  expect(highlight.compareDocumentPosition(guide)&Node.DOCUMENT_POSITION_FOLLOWING).toBeTruthy()
+  expect(guide.compareDocumentPosition(general)&Node.DOCUMENT_POSITION_FOLLOWING).toBeTruthy()
  })
  it('directory links are all dedicated week routes',()=>{
   render(<MemoryRouter initialEntries={['/timeline/week/22']}><App/></MemoryRouter>)

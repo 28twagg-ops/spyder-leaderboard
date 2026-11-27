@@ -989,3 +989,6 @@ button.reader-back:focus-visible{outline-offset:3px}
 
 /* Population statistics: concise textual evidence extracts, no released chart. */
 .nutrient-priority{display:grid;gap:.55rem;min-width:0;padding-top:.35rem}.nutrient-stat-row{display:grid;grid-template-columns:minmax(0,1fr) auto;gap:.75rem;align-items:center;min-height:64px;padding:.65rem 0;border-bottom:1px solid var(--line)}.nutrient-stat-row strong{display:block;font-size:1rem;line-height:1.35}.nutrient-stat-row small{display:block;font-size:.78rem;line-height:1.45;color:var(--ink-muted);margin-top:.2rem}.nutrient-stat-value{display:flex;align-items:center;gap:.35rem;font:500 1.65rem/1.1 var(--font-display);color:var(--accent-text);font-variant-numeric:tabular-nums;white-space:nowrap}.nutrient-stat-value small{font-size:1rem}.nutrient-priority>p{margin:0}.nutrient-priority .reading-row{min-height:54px}
+
+/* Owner-approved selective relevance highlight, using the current theme. */
+.nutrition-relevance{display:grid;gap:.45rem;padding:1rem;background:var(--bg-soft);border-radius:12px;min-width:0}.nutrition-relevance h2{font:500 1.2rem/1.3 var(--font-display);margin:0;color:var(--accent-deep)}.nutrition-relevance strong{font-size:1rem;line-height:1.4}.nutrition-relevance p{margin:0;line-height:1.6;overflow-wrap:break-word}.nutrition-relevance .small-copy{font-size:.83rem}
