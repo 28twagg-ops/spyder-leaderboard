@@ -1,0 +1,316 @@
+{
+  "stage": 7,
+  "batch": "09",
+  "date": "2026-11-27",
+  "scope": "20 additional targeted original-source checks in contradictory evidence inventory; no formal full appraisal. Preserve all existing holds.",
+  "counted_ids": [
+    "CS5-002",
+    "CS5-011",
+    "CS5-012",
+    "CS5-013",
+    "CS5-014",
+    "CS5-015",
+    "CS5-016",
+    "CS5-017",
+    "CS5-018",
+    "CS5-019",
+    "CS5-021",
+    "CS5-022",
+    "CS5-023",
+    "CS5-025",
+    "CS5-039",
+    "CS5-056",
+    "CS5-057",
+    "CS5-058",
+    "CS5-062",
+    "CS5-078"
+  ],
+  "checks": [
+    {
+      "id": "CS5-002",
+      "pmid": "34383914",
+      "sources": [
+        "https://pmc.ncbi.nlm.nih.gov/articles/PMC8764572/",
+        "https://www.sciencedirect.com/science/article/pii/S0022316622004114"
+      ],
+      "findings": "USDA dietary guidelines systematic review; eight prenatal-only RCTs all reported at least one nonsignificant endpoint, despite selected favorable results. Funding-source employees participated in design, execution, analysis, writing and publication decisions. Separate primary outcomes and multiplicity; no general cognitive improvement promise. Full underlying trial disclosure/overlap review pending.",
+      "verification_scope": "Original publisher/PubMed abstract or selected full-text passages inspected; not a complete original-source appraisal or systematic retraction check",
+      "clinical_review": false,
+      "publish": false,
+      "automation_allowed": false
+    },
+    {
+      "id": "CS5-011",
+      "pmid": "32023372",
+      "sources": [
+        "https://www.nejm.org/doi/full/10.1056/NEJMoa1906137",
+        "https://pubmed.ncbi.nlm.nih.gov/32023372/"
+      ],
+      "findings": "VDAART six-year follow-up found no reduction in asthma/recurrent wheeze from prenatal intervention alone. NHLBI funding, NCT00920621. Same cohort as CS5-016; not independent replication. Sponsor role at six-year report and complete disclosures pending.",
+      "verification_scope": "Original publisher/PubMed abstract or selected full-text passages inspected; not a complete original-source appraisal or systematic retraction check",
+      "clinical_review": false,
+      "publish": false,
+      "automation_allowed": false
+    },
+    {
+      "id": "CS5-012",
+      "pmid": "30528218",
+      "sources": [
+        "https://pubmed.ncbi.nlm.nih.gov/30528218/"
+      ],
+      "findings": "GRoW Australian double-blind placebo RCT, metformin added to lifestyle advice in overweight/obese pregnancy did not improve birth or pregnancy outcomes. NHMRC funding listed. Full author interests, sponsor role and harms pending; do not generalize to diabetes treatment.",
+      "verification_scope": "Original publisher/PubMed abstract or selected full-text passages inspected; not a complete original-source appraisal or systematic retraction check",
+      "clinical_review": false,
+      "publish": false,
+      "automation_allowed": false
+    },
+    {
+      "id": "CS5-013",
+      "pmid": "40665107",
+      "sources": [
+        "https://pubmed.ncbi.nlm.nih.gov/40665107/"
+      ],
+      "findings": "Pessary-versus-progesterone systematic review found no clinical advantage for pessary in short-cervix singleton pregnancy. Review funding, exact eligibility, pooled estimates and membership overlap with CS5-009 and earlier trials pending; not independent primary evidence.",
+      "verification_scope": "Original publisher/PubMed abstract or selected full-text passages inspected; not a complete original-source appraisal or systematic retraction check",
+      "clinical_review": false,
+      "publish": false,
+      "automation_allowed": false
+    },
+    {
+      "id": "CS5-014",
+      "pmid": "38236281",
+      "sources": [
+        "https://pubmed.ncbi.nlm.nih.gov/38236281/",
+        "https://www.cochrane.org/evidence/CD009951_probiotics-prevent-gestational-diabetes-mellitus"
+      ],
+      "findings": "Meta-analysis of probiotics in established GDM reported improvements in selected glycemic markers and neonatal outcomes, with varying GRADE certainty. Distinguish treatment population from GDM prevention review and its preeclampsia signal. Strain, outcome and trial-level overlap, funding and sponsor role unresolved; no recommendation.",
+      "verification_scope": "Original publisher/PubMed abstract or selected full-text passages inspected; not a complete original-source appraisal or systematic retraction check",
+      "clinical_review": false,
+      "publish": false,
+      "automation_allowed": false
+    },
+    {
+      "id": "CS5-015",
+      "pmid": "36936217",
+      "sources": [
+        "https://pubmed.ncbi.nlm.nih.gov/36936217/"
+      ],
+      "findings": "Identity confirmed as 2023 review of progesterone, cerclage, pessary and aspirin in singleton and multifetal pregnancy. Original abstract inspected for scope only; detailed result, funding and trial membership extraction remains pending. No pooling across risk groups.",
+      "verification_scope": "Original publisher/PubMed abstract or selected full-text passages inspected; not a complete original-source appraisal or systematic retraction check",
+      "clinical_review": false,
+      "publish": false,
+      "automation_allowed": false
+    },
+    {
+      "id": "CS5-016",
+      "pmid": "26813209",
+      "sources": [
+        "https://jamanetwork.com/journals/jama/fullarticle/2484339"
+      ],
+      "findings": "VDAART double-blind RCT, 881 randomized, child outcome data available for 806; 6.1 percentage-point lower incidence of asthma/recurrent wheeze at age three did not reach statistical significance. NHLBI U01HL091528 and NCATS U54TR001012. NHLBI monitored conduct and selected DSMB; DSMB reviewed manuscript, otherwise sponsor declared no role. Authors disclosed pharmaceutical and publisher relationships. Protocol analysis change approved before unblinding; incomplete follow-up and multiple exploratory secondary outcomes require formal appraisal. Same cohort as CS5-011.",
+      "verification_scope": "Original publisher/PubMed abstract or selected full-text passages inspected; not a complete original-source appraisal or systematic retraction check",
+      "clinical_review": false,
+      "publish": false,
+      "automation_allowed": false
+    },
+    {
+      "id": "CS5-017",
+      "pmid": "41204244",
+      "sources": [
+        "https://pubmed.ncbi.nlm.nih.gov/41204244/"
+      ],
+      "findings": "2025 review: asthma RR 0.94 (0.67–1.31), wheeze 0.82 (0.62–1.09); no significant effect. Asthma heterogeneity substantial. Compare VDAART and other constituent trials, not independent replication. Funding and sponsor disclosure unresolved.",
+      "verification_scope": "Original publisher/PubMed abstract or selected full-text passages inspected; not a complete original-source appraisal or systematic retraction check",
+      "clinical_review": false,
+      "publish": false,
+      "automation_allowed": false
+    },
+    {
+      "id": "CS5-018",
+      "pmid": "28276151",
+      "sources": [
+        "https://pubmed.ncbi.nlm.nih.gov/28276151/"
+      ],
+      "findings": "Identity confirmed as network meta-analysis of progesterone, cerclage and pessary in singleton pregnancies. Indirect contrasts require transitivity and consistency assessment; trial membership, full results and funding unresolved.",
+      "verification_scope": "Original publisher/PubMed abstract or selected full-text passages inspected; not a complete original-source appraisal or systematic retraction check",
+      "clinical_review": false,
+      "publish": false,
+      "automation_allowed": false
+    },
+    {
+      "id": "CS5-019",
+      "pmid": "40334982",
+      "sources": [
+        "https://doi.org/10.1016/j.ajogmf.2025.101690",
+        "https://pubmed.ncbi.nlm.nih.gov/40334982/"
+      ],
+      "findings": "IPD meta-analysis in singleton pregnancies after arrested preterm labor; no prevention of delivery within seven days, preterm birth or neonatal outcomes reported. Not applicable to all asymptomatic short-cervix populations. Full funding, data availability bias and constituent trial membership pending.",
+      "verification_scope": "Original publisher/PubMed abstract or selected full-text passages inspected; not a complete original-source appraisal or systematic retraction check",
+      "clinical_review": false,
+      "publish": false,
+      "automation_allowed": false
+    },
+    {
+      "id": "CS5-021",
+      "pmid": "40535465",
+      "sources": [
+        "https://pmc.ncbi.nlm.nih.gov/articles/PMC12174595/",
+        "https://www.worldallergyorganizationjournal.org/article/S1939-4551%2825%2900052-3/fulltext"
+      ],
+      "findings": "2025 prenatal vitamin D review of respiratory/allergy outcomes; conflicting evidence and overlapping trials. No clear childhood eczema effect in reported strata. Previously flagged inconsistent forest caption not adjudicated; numeric use stays held. Funding and sponsor role pending.",
+      "verification_scope": "Original publisher/PubMed abstract or selected full-text passages inspected; not a complete original-source appraisal or systematic retraction check",
+      "clinical_review": false,
+      "publish": false,
+      "automation_allowed": false
+    },
+    {
+      "id": "CS5-022",
+      "pmid": "27444208",
+      "sources": [
+        "https://pmc.ncbi.nlm.nih.gov/articles/PMC5053235/"
+      ],
+      "findings": "Updated 2016 meta-analysis includes OPPTIMUM subgroup and four other studies, 974 women; RR 0.66 (0.52–0.83) for preterm birth by 34 weeks or fetal death. Narrow short-cervix population differs from broad high-risk OPPTIMUM. Same OPPTIMUM patients contribute to review; do not independently count. Full sponsor and author disclosure extraction pending.",
+      "verification_scope": "Original publisher/PubMed abstract or selected full-text passages inspected; not a complete original-source appraisal or systematic retraction check",
+      "clinical_review": false,
+      "publish": false,
+      "automation_allowed": false
+    },
+    {
+      "id": "CS5-023",
+      "pmid": "20091317",
+      "sources": [
+        "https://pubmed.ncbi.nlm.nih.gov/20091317/"
+      ],
+      "findings": "Placebo-controlled RCT of progesterone in heterogeneous high-risk pregnancies including prior spontaneous preterm birth, twins and uterine malformation. Identity and eligibility confirmed; outcome-specific extraction, strata, funding and harms pending. Do not extrapolate.",
+      "verification_scope": "Original publisher/PubMed abstract or selected full-text passages inspected; not a complete original-source appraisal or systematic retraction check",
+      "clinical_review": false,
+      "publish": false,
+      "automation_allowed": false
+    },
+    {
+      "id": "CS5-025",
+      "pmid": "28940481",
+      "sources": [
+        "https://pubmed.ncbi.nlm.nih.gov/28940481/",
+        "https://pmc.ncbi.nlm.nih.gov/articles/PMC10776795/"
+      ],
+      "findings": "PoPPS RCT in singleton short cervix, NCT02056652. Progesterone recommended in very short cervix subgroup. Prior and prospective meta-analysis includes same trial; no independent evidence count for protocol. Full outcome, sponsor and safety extraction pending.",
+      "verification_scope": "Original publisher/PubMed abstract or selected full-text passages inspected; not a complete original-source appraisal or systematic retraction check",
+      "clinical_review": false,
+      "publish": false,
+      "automation_allowed": false
+    },
+    {
+      "id": "CS5-039",
+      "pmid": "19054529",
+      "sources": [
+        "https://pubmed.ncbi.nlm.nih.gov/19054529/"
+      ],
+      "findings": "Infant lansoprazole double-blind placebo RCT: serious adverse events 10 vs 2, p=.032, especially lower respiratory infections. New explicit safety flag for educational review; no infant medication regimen. Full text inaccessible on repeat open; efficacy and commercial sponsor details need independent extraction.",
+      "verification_scope": "Original publisher/PubMed abstract or selected full-text passages inspected; not a complete original-source appraisal or systematic retraction check",
+      "clinical_review": false,
+      "publish": false,
+      "automation_allowed": false
+    },
+    {
+      "id": "CS5-056",
+      "pmid": "8008533",
+      "sources": [
+        "https://pubmed.ncbi.nlm.nih.gov/8008533/",
+        "https://www.cochrane.org/evidence/CD009999_pain-relieving-agents-infantile-colic"
+      ],
+      "findings": "Identity confirmed as multicenter randomized placebo-controlled simethicone colic trial; Cochrane reports no advantage over placebo in simethicone trials. Exact original endpoints, funding and harms not extracted; overlap with CS5-073 requires reconciliation.",
+      "verification_scope": "Original publisher/PubMed abstract or selected full-text passages inspected; not a complete original-source appraisal or systematic retraction check",
+      "clinical_review": false,
+      "publish": false,
+      "automation_allowed": false
+    },
+    {
+      "id": "CS5-057",
+      "pmid": "23158465",
+      "sources": [
+        "https://pubmed.ncbi.nlm.nih.gov/23158465/"
+      ],
+      "findings": "Pragmatic single-blind chiropractic colic RCT reported selected favorable parent-reported crying outcomes, with wide adjusted OR intervals (e.g. day 8 OR 8.1, 1.4–45.0). Check prespecification, multiple time points, comparator and attrition. Funding and harms unresolved. No manipulation instruction or efficacy guarantee.",
+      "verification_scope": "Original publisher/PubMed abstract or selected full-text passages inspected; not a complete original-source appraisal or systematic retraction check",
+      "clinical_review": false,
+      "publish": false,
+      "automation_allowed": false
+    },
+    {
+      "id": "CS5-058",
+      "pmid": "33874955",
+      "sources": [
+        "https://pmc.ncbi.nlm.nih.gov/articles/PMC8054384/",
+        "https://clinicaltrials.gov/study/NCT02595515",
+        "https://pmc.ncbi.nlm.nih.gov/articles/PMC8054382/"
+      ],
+      "findings": "Danish parent-blinded RCT: small possible effect, clinical significance uncertain; provider unblinded, parent-reported outcomes. Foundation for Chiropractic Research and Postgraduate Education primary funding, with European chiropractic and general-practice/regional research support. Authors declare no sponsor role in design, analysis or reporting. Secondary analyses share same trial; no independent count. No infant manipulation protocol; systematic harms evaluation pending.",
+      "verification_scope": "Original publisher/PubMed abstract or selected full-text passages inspected; not a complete original-source appraisal or systematic retraction check",
+      "clinical_review": false,
+      "publish": false,
+      "automation_allowed": false
+    },
+    {
+      "id": "CS5-062",
+      "pmid": "11159288",
+      "sources": [
+        "https://adc.bmj.com/content/84/2/138",
+        "https://pmc.ncbi.nlm.nih.gov/articles/PMC1718650/"
+      ],
+      "findings": "Blinded placebo RCT of 100 infants found chiropractic manipulation no more effective than placebo. Contrast CS5-057 and CS5-058 by sham, blinding, outcome definitions, power and harms rather than vote-count. Original funding and interests pending.",
+      "verification_scope": "Original publisher/PubMed abstract or selected full-text passages inspected; not a complete original-source appraisal or systematic retraction check",
+      "clinical_review": false,
+      "publish": false,
+      "automation_allowed": false
+    },
+    {
+      "id": "CS5-078",
+      "pmid": "42494300",
+      "sources": [
+        "https://pmc.ncbi.nlm.nih.gov/articles/PMC13397051/",
+        "https://onlinelibrary.wiley.com/doi/10.1002/dev.70184"
+      ],
+      "findings": "2026 DHA systematic review identity confirmed, group sizes variable and evidence of neurodevelopment effects inconsistent. Do not infer that biochemical essentiality implies benefit of extra supplementation. Full pooled endpoints, funding, overlapping trials and sponsor role unresolved.",
+      "verification_scope": "Original publisher/PubMed abstract or selected full-text passages inspected; not a complete original-source appraisal or systematic retraction check",
+      "clinical_review": false,
+      "publish": false,
+      "automation_allowed": false
+    }
+  ],
+  "relationships": [
+    {
+      "ids": [
+        "CS5-011",
+        "CS5-016"
+      ],
+      "family": "VDAART",
+      "relationship": "Same NCT00920621 randomized cohort, age-three and age-six reports"
+    },
+    {
+      "ids": [
+        "CS5-007",
+        "CS5-008",
+        "CS5-022"
+      ],
+      "family": "OPPTIMUM",
+      "relationship": "Parent trial and HTA companion, selected participants also included in updated short-cervix meta-analysis; avoid independent counts"
+    },
+    {
+      "ids": [
+        "CS5-058"
+      ],
+      "registry": "NCT02595515",
+      "related": "PMC8054382 secondary analysis; same trial"
+    }
+  ],
+  "new_safety_flags": [
+    {
+      "id": "CS5-039",
+      "finding": "Serious adverse-event imbalance in infant PPI trial; no recommendation use until full safety appraisal."
+    }
+  ],
+  "clinical_review": false,
+  "publish": false,
+  "automation_allowed": false
+}
