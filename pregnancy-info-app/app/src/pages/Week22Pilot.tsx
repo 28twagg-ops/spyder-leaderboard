@@ -1,4 +1,4 @@
-import { Link } from 'react-router-dom'
+import { Link,useSearchParams } from 'react-router-dom'
 import { useViewState } from '../hooks/useViewMemory'
 import { Glyph } from '../components/Glyph'
 
@@ -30,7 +30,11 @@ export function TopicArt({subject,topic}:{subject:'mother'|'baby';topic:string})
  </g></svg>
 }
 export function Week22Pilot(){
- const [subject,setSubject]=useViewState<'baby'|'mother'>('pilot.week22.subject','baby')
+ const [savedSubject,setSavedSubject]=useViewState<'baby'|'mother'>('pilot.week22.subject','baby')
+ const [params,setParams]=useSearchParams()
+ const requested=params.get('subject')
+ const subject=requested==='mother'||requested==='baby'?requested:savedSubject
+ const setSubject=(next:'baby'|'mother')=>{setSavedSubject(next);setParams({subject:next},{replace:true})}
  return <div className="pilot-week week-directory" id="week-22">
  <header className="pilot-header"><div className="pilot-header-top"><Link className="reader-back" to="/timeline/pregnancy"><Glyph name="back"/>Pregnancy</Link><span className="pilot-kicker">SECOND TRIMESTER</span></div><h1 className="page-title">Week 22</h1><div className="pilot-progress" role="img" aria-label="Week 22 of a 40-week pregnancy reference timeline"><div><span style={{width:'55%'}}/></div><div className="pilot-progress-meta"><small>22 of 40 weeks</small><small>Research draft · review pending</small></div></div></header>
  <div className="pilot-subject" role="group" aria-label="Whose changes are shown?"><button type="button" aria-pressed={subject==='mother'} onClick={()=>setSubject('mother')}>Mother <small>Your body</small></button><button type="button" aria-pressed={subject==='baby'} onClick={()=>setSubject('baby')}>Baby <small>Development</small></button></div>
