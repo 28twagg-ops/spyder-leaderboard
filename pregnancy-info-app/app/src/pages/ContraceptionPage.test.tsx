@@ -5,6 +5,17 @@ import App from '../App'
 import {contraception} from '../data/contraception'
 afterEach(()=>{cleanup();localStorage.clear()})
 describe('preconception contraception navigation',()=>{
+ it('shows live yearly cost estimates alongside method rankings',async()=>{
+  render(<MemoryRouter initialEntries={['/contraception']}><App/></MemoryRouter>)
+  const panel=await screen.findByRole('region',{name:'Personal preference comparison'})
+  const table=within(panel).getByRole('region',{name:'Scrollable live method ranking'})
+  expect(within(table).getByRole('link',{name:/External condom/})).toHaveTextContent('Est. $252/yr')
+  expect(within(table).getByRole('link',{name:/Copper IUD/})).toHaveTextContent('Est. $0–$600/yr avg.')
+  fireEvent.click(within(panel).getByText('Cost scenario · 21 acts/month'))
+  fireEvent.change(within(panel).getByLabelText('Sex acts per month'),{target:{value:'10'}})
+  expect(within(table).getByRole('link',{name:/External condom/})).toHaveTextContent('Est. $120/yr')
+ })
+
  it('removes podium methods, supports group exclusions and restores the lineup',async()=>{
   render(<MemoryRouter initialEntries={['/contraception']}><App/></MemoryRouter>)
   const panel=await screen.findByRole('region',{name:'Personal preference comparison'})
@@ -26,7 +37,7 @@ describe('preconception contraception navigation',()=>{
   expect(within(live).getByRole('link',{name:/Copper IUD/})).toBeVisible()
   expect(eff).toHaveValue('10')
   fireEvent.click(within(live).getByRole('button',{name:'Remove Copper IUD from lineup'}))
-  fireEvent.click(within(panel).getByRole('button',{name:'Reset',exact:true}))
+  fireEvent.click(within(panel).getByRole('button',{name:'Reset'}))
   const table=within(panel).getByRole('region',{name:'Scrollable live method ranking'})
   expect(within(table).getAllByRole('link')).toHaveLength(15)
   expect(within(panel).queryByRole('button',{name:'Restore all methods'})).not.toBeInTheDocument()

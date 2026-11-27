@@ -46,3 +46,13 @@ export function usageCosts(scenario:CostScenario,months:number){
  const acts=Math.max(0,scenario.condomsPerMonth)*months
  return {acts,external:acts,internal:[acts*2,acts*3] as const,spermicide:[acts*.6,acts*3] as const,phexxi:Math.ceil(acts/12)*361.66}
 }
+
+/** Annualized average of the available 36-month example, not a recurring bill or quote. */
+export function annualCostLabel(slug:string,scenario:CostScenario){
+ const estimate=threeYearCost(slug,scenario)
+ if(!estimate)return 'Est. yearly cost: unknown'
+ const format=(n:number)=>new Intl.NumberFormat('en-US',{style:'currency',currency:'USD',maximumFractionDigits:0}).format(n/3)
+ const amount=estimate.low===estimate.high?format(estimate.low):format(estimate.low)+'–'+format(estimate.high)
+ const entered=Number.isFinite(scenario.quotes[slug])&&scenario.quotes[slug]>=0
+ return (entered?'Your quote: ':'Est. ')+amount+'/yr'+(entered?' avg.':slug==='gel'?' (OTC only)':slug==='copper-iud'||slug==='hormonal-iud'||slug==='implant'||slug==='diaphragm'?' avg.':'')
+}

@@ -126,3 +126,5 @@ Evidence: prior preview 8b51b5f76a0d4624cf2c1879021c52da98f82de1; preference/sea
 - [ ] Seven priority sliders, sexual spontaneity feature and review-only pleasure evidence, 21 acts/month adjustable supply scenario with annual and 36-month examples; source and automated test additions. Clinical and device validation pending.
 
 - [ ] Manual individual/group method exclusions, automatic reranking, individual undo, restore all methods, and full reset; repair prior cost display compile failure. Verify CI/deployment and physical touch behavior.
+
+- [ ] Annual cost labels on podium and all-method rankings, live frequency and quote updates, and repair production build TypeScript test error; verify deployment.

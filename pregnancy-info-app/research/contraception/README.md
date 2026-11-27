@@ -53,3 +53,6 @@ Seven sliders now include sexual feel & spontaneity. Only documented absence of 
 
 ## Reversible method exclusions
 Podium and all-method rows expose independent remove controls, with a multi-select exclusion list and grouped shortcuts for both IUDs and procedure/injection methods. The underlying candidate set is filtered before calculating competitive ranks, ties, and possible podium matches. Individual restore and Restore all methods preserve other priorities; full Reset restores default sliders, filters, quotes and usage scenario. Removal does not delete research or constitute clinical exclusion. Repair duplicated TSX tail from prior cost-display change. Unit and integration coverage added; physical iPhone verification remains pending.
+
+## Annual cost labels
+Live podium and all-method list show estimated yearly averages of known 36-month cost components; one-time placements and reusable devices explicitly labeled averages, not recurring bills. OTC spermicide label not Phexxi cost. Unknown prices remain unknown. Frequency changes update labels, entered quote supersedes examples; no new scoring assumptions. Fixed TypeScript test option causing prior build failure after successful test suite.
