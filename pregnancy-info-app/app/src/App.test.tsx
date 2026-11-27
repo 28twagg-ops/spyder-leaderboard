@@ -23,6 +23,16 @@ describe('Everwell shell', () => {
     expect(screen.getByRole('navigation', { name: 'Primary' })).toBeInTheDocument()
   })
 
+  it('does not substitute unrelated research for an unknown article ID', () => {
+    render(
+      <MemoryRouter initialEntries={['/research/UNKNOWN-ARTICLE']}>
+        <App />
+      </MemoryRouter>,
+    )
+    expect(screen.getByRole('heading', { name: 'Research article not found' })).toBeInTheDocument()
+    expect(screen.getByRole('link', { name: 'Browse library' })).toBeInTheDocument()
+  })
+
   it('shows install help for Home Screen', () => {
     render(
       <MemoryRouter initialEntries={['/install']}>
