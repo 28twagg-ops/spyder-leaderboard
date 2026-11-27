@@ -1,10 +1,12 @@
+import { lazy, Suspense } from 'react'
 import { Link, useLocation } from 'react-router-dom'
 import { useLocalPrefs } from '../hooks/useLocalPrefs'
 import { ScreenHeading } from '../components/ReadingUI'
 import { Glyph } from '../components/Glyph'
 import { catalogStats, searchArticles, listDomains } from '../data/researchCatalog'
 import { emptyBrowse, domainLabels, type BrowseState } from '../data/browseState'
-export function LibraryPage({browse,setBrowse}:{browse:BrowseState;setBrowse:(state:BrowseState)=>void}){
+const FocusedResults=lazy(()=>import('../components/FocusedResults'))
+export function LibraryPage({browse,setBrowse,currentWeek=null}:{browse:BrowseState;setBrowse:(state:BrowseState)=>void;currentWeek?:number|null}){
  const {pathname}=useLocation()
  const savedOnly=pathname==='/saved'
  const {prefs,toggleBookmark}=useLocalPrefs()
@@ -23,9 +25,10 @@ export function LibraryPage({browse,setBrowse}:{browse:BrowseState;setBrowse:(st
  <label className="visually-hidden" htmlFor="topic-domain">Topic category</label><select id="topic-domain" value={domain} onChange={e=>setBrowse({...browse,domain:e.target.value,page:1})}><option value="all">All topics</option>{listDomains().map(d=><option key={d} value={d}>{domainLabels[d]??d}</option>)}</select>
  {(query||domain!=='all')&&<button className="btn btn-ghost" onClick={()=>setBrowse(emptyBrowse)}>Clear search</button>}</section><nav className="section-links" aria-label="Research collections"><Link to="/evidence">Research &amp; sources ›</Link><Link to="/visuals">Visual references ›</Link></nav></>}
  {!savedOnly&&weekNumber>=1&&weekNumber<=40&&<Link className="topic-link" to={`/timeline/week/${weekNumber}`}>Open pregnancy week {weekNumber} ›</Link>}
+ {!savedOnly&&query.trim()&&!/^[a-z]+(?:-[a-z0-9]+)*-\d+$/i.test(query.trim())&&<Suspense fallback={<p className="small-copy muted">Finding detailed topics…</p>}><FocusedResults key={query+domain} query={query} domain={domain} currentWeek={weekNumber>=1&&weekNumber<=40?weekNumber:currentWeek}/></Suspense>}
  <p className="muted small-copy" role="status">{matches.length} of {stats.articles} articles · {prefs.bookmarks.length} saved</p>
  <section className="surface-list result-list" aria-label={savedOnly?'Saved articles':'Search results'}>{shown.map(a=><article key={a.id} className="result-row"><Link to={`/research/${a.id}`}><strong>{a.title}</strong><small>{domainLabels[a.domain]??a.domain}{prefs.readArticles.includes(a.id)?' · Read':''}</small></Link><button className="bookmark-control" aria-label={`${prefs.bookmarks.includes(a.id)?'Remove bookmark for':'Save bookmark for'} ${a.title}`} aria-pressed={prefs.bookmarks.includes(a.id)} onClick={()=>toggleBookmark(a.id)}><Glyph name="bookmark"/></button></article>)}</section>
- {!matches.length&&<p>{savedOnly?'No saved articles yet. Bookmark a topic to find it here.':'No matching topics. Try a shorter phrase or browse a category. Missing results do not mean a health concern is safe.'}</p>}
+ {!matches.length&&<p>{savedOnly?'No saved articles yet. Bookmark a topic to find it here.':'No matching core articles. Try a shorter phrase, browse Explore, or check the detailed topics above.'}</p>}
  {!savedOnly&&pages>1&&<div className="page-controls"><button className="btn btn-ghost" disabled={currentPage===1} onClick={()=>setBrowse({...browse,page:currentPage-1})}>Previous</button><span style={{textAlign:'center'}}>Page {currentPage} of {pages}</span><button className="btn btn-ghost" disabled={currentPage===pages} onClick={()=>setBrowse({...browse,page:currentPage+1})}>Next</button></div>}
 
  </div>

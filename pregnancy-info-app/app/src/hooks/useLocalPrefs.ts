@@ -1,4 +1,5 @@
-import { getArticle, timeline } from '../data/researchCatalog'
+import { gestationalWeeks, getArticle, timeline } from '../data/researchCatalog'
+import { canSavePregnancyDate, isCalendarDate, pregnancyPosition, type PregnancyDateSource } from '../data/pregnancyCalendar'
 import { createContext, createElement, useContext, useEffect, useState, type ReactNode } from 'react'
 import {
   DEFAULT_THEME,
@@ -10,6 +11,8 @@ import {
 export interface LocalPrefs {
   selectedPhaseId: string | null
   setupComplete: boolean
+  pregnancyDueDate: string | null
+  pregnancyDateSource: PregnancyDateSource | null
   bookmarks: string[]
   readArticles: string[]
   reducedMotion: boolean
@@ -21,6 +24,8 @@ export const PREFS_KEY = 'everwell.local.prefs.v1'
 const defaults: LocalPrefs = {
   selectedPhaseId: null,
   setupComplete: false,
+  pregnancyDueDate: null,
+  pregnancyDateSource: null,
   bookmarks: [],
   readArticles: [],
   reducedMotion: false,
@@ -38,6 +43,8 @@ function readPrefs(): LocalPrefs {
     return {
       selectedPhaseId: validPhase(parsed.selectedPhaseId) ? parsed.selectedPhaseId : null,
       setupComplete: parsed.setupComplete === true || validPhase(parsed.selectedPhaseId),
+      pregnancyDueDate: isCalendarDate(parsed.pregnancyDueDate)?parsed.pregnancyDueDate:null,
+      pregnancyDateSource: isCalendarDate(parsed.pregnancyDueDate)&&(parsed.pregnancyDateSource==='due-date'||parsed.pregnancyDateSource==='week-days')?parsed.pregnancyDateSource:null,
       bookmarks: knownArticles(parsed.bookmarks),
       readArticles: knownArticles(parsed.readArticles),
       reducedMotion: parsed.reducedMotion === true,
@@ -89,7 +96,21 @@ function usePrefsState() {
 
   function setPhase(phaseId: string | null) {
     if(phaseId!==null&&!validPhase(phaseId))return
-    setPrefs((prev) => ({ ...prev, selectedPhaseId: phaseId, setupComplete: true }))
+    setPrefs((prev) => {
+      const pregnancy=timeline.some(p=>p.id===phaseId&&p.track==='pregnancy')
+      return {...prev,selectedPhaseId:phaseId,setupComplete:true,...(!pregnancy?{pregnancyDueDate:null,pregnancyDateSource:null}:{})}
+    })
+  }
+
+  function setPregnancyDate(dueDate:string|null,source:PregnancyDateSource='due-date') {
+    if(dueDate!==null&&!canSavePregnancyDate(dueDate))return false
+    setPrefs(prev=>{
+      if(dueDate===null)return {...prev,pregnancyDueDate:null,pregnancyDateSource:null}
+      const position=pregnancyPosition(dueDate)
+      const phase=gestationalWeeks.find(w=>w.week===position?.readingWeek)?.maternal_phase
+      return {...prev,pregnancyDueDate:dueDate,pregnancyDateSource:source,setupComplete:true,selectedPhaseId:validPhase(phase)?phase:timeline.find(p=>p.track==='pregnancy')?.id??null}
+    })
+    return true
   }
 
   function setTheme(themeId: ThemeId) {
@@ -117,6 +138,7 @@ function usePrefsState() {
     toggleBookmark,
     markRead,
     setPhase,
+    setPregnancyDate,
     setTheme,
     exportPrefs,
     clearPrefs,

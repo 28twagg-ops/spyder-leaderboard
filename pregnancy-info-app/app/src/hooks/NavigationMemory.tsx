@@ -18,7 +18,8 @@ function defaultTab(path:string):PrimaryTab{
 function nextSnapshot(key:string,pathname:string,action:string,previous?:NavigationSnapshot):NavigationSnapshot{
  const known=previous?.entries.get(key)
  const depth=known?.depth??(action==='PUSH'&&previous?previous.entry.depth+1:action==='REPLACE'?(previous?.entry.depth??0):0)
- const tab=primary(pathname)??known?.tab??(action==='POP'?defaultTab(pathname):previous?.entry.tab??defaultTab(pathname))
+ const contextualWeek=action==='PUSH'&&/^\/timeline\/week\/\d+\//.test(pathname)&&(previous?.entry.tab==='/library'||previous?.entry.tab==='/explore')?previous.entry.tab:undefined
+ const tab=known?.tab??contextualWeek??primary(pathname)??(action==='POP'?defaultTab(pathname):previous?.entry.tab??defaultTab(pathname))
  const entry={depth,tab}
  const entries=new Map(previous?.entries)
  entries.set(key,entry)

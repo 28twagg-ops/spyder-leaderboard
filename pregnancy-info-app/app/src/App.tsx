@@ -1,5 +1,7 @@
 import { lazy, Suspense, useState } from 'react'
 import { Link, Navigate, Route, Routes } from 'react-router-dom'
+import { useCalendarDay } from './hooks/useCalendarDay'
+import { pregnancyPosition } from './data/pregnancyCalendar'
 import { LocalPrefsProvider, useLocalPrefs } from './hooks/useLocalPrefs'
 import { useClearViewMemory } from './hooks/useViewMemory'
 import { ViewMemoryProvider } from './hooks/ViewMemoryProvider'
@@ -35,6 +37,9 @@ function AppShell() {
   const clearViews=useClearViewMemory()
   const navigation=useNavigationMemory()
   const {prefs}=useLocalPrefs()
+  const today=useCalendarDay()
+  const position=pregnancyPosition(prefs.pregnancyDueDate,today)
+  const currentWeek=position&&!position.pastReadingWindow?position.readingWeek:null
   const clearTransient=()=>{setBrowse(emptyBrowse);clearViews();navigation?.clearPositions()}
   return (
     <div className="app-shell">
@@ -45,10 +50,10 @@ function AppShell() {
         <Suspense fallback={<p className="muted">Loading…</p>}>
           <RoutePosition />
           <Routes>
-            <Route path="/" element={<TodayPage />} />
-            <Route path="/timeline" element={<TimelinePage selectedPhaseId={prefs.selectedPhaseId} />} />
-            <Route path="/timeline/:track" element={<TimelinePage selectedPhaseId={prefs.selectedPhaseId} />} />
-            <Route path="/timeline/:track/:phaseId" element={<TimelinePage selectedPhaseId={prefs.selectedPhaseId} />} />
+            <Route path="/" element={<TodayPage currentWeek={currentWeek} onSearch={query=>setBrowse({...emptyBrowse,query})}/>} />
+            <Route path="/timeline" element={<TimelinePage selectedPhaseId={prefs.selectedPhaseId} currentWeek={currentWeek} />} />
+            <Route path="/timeline/:track" element={<TimelinePage selectedPhaseId={prefs.selectedPhaseId} currentWeek={currentWeek} />} />
+            <Route path="/timeline/:track/:phaseId" element={<TimelinePage selectedPhaseId={prefs.selectedPhaseId} currentWeek={currentWeek} />} />
             <Route path="/timeline/week/20/mother/skin" element={<SkinTopicPage/>}/>
             <Route path="/timeline/week/20/mother/skin/:section" element={<SkinTopicPage/>}/>
             <Route path="/timeline/week/20/mother/skin/:section/:child" element={<SkinTopicPage/>}/>
@@ -249,15 +254,15 @@ function AppShell() {
             <Route path="/timeline/week/40/mother/skin/:section/:child" element={<SkinTopicPage/>}/>
             <Route path="/timeline/week/40/:subject/:topic" element={<Week22TopicPage/>}/>
             <Route path="/timeline/week/40/:subject/:topic/:subtopic" element={<Week22TopicPage/>}/>
-            <Route path="/timeline/week/:weekNumber" element={<TimelinePage selectedPhaseId={prefs.selectedPhaseId} />} />
-            <Route path="/explore" element={<ExplorePage />} />
-            <Route path="/explore/:domain" element={<ExplorePage />} />
+            <Route path="/timeline/week/:weekNumber" element={<TimelinePage selectedPhaseId={prefs.selectedPhaseId} currentWeek={currentWeek} />} />
+            <Route path="/explore" element={<ExplorePage currentWeek={currentWeek} />} />
+            <Route path="/explore/:domain" element={<ExplorePage currentWeek={currentWeek} />} />
             <Route path="/research" element={<Navigate to="/library" replace />} />
             <Route path="/research/:topicId" element={<ResearchPage />} />
             <Route path="/evidence" element={<EvidencePage />} />
             <Route path="/evidence/:collection" element={<EvidencePage />} />
-            <Route path="/library" element={<LibraryPage browse={browse} setBrowse={setBrowse}/>} />
-            <Route path="/saved" element={<LibraryPage browse={browse} setBrowse={setBrowse}/>} />
+            <Route path="/library" element={<LibraryPage browse={browse} setBrowse={setBrowse} currentWeek={currentWeek}/>} />
+            <Route path="/saved" element={<LibraryPage browse={browse} setBrowse={setBrowse} currentWeek={currentWeek}/>} />
             <Route path="/settings" element={<SettingsPage onClear={clearTransient}/>} />
             <Route path="/urgent" element={<UrgentPage/>} />
             <Route path="/visuals" element={<VisualLibraryPage />} />

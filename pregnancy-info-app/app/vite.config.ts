@@ -8,7 +8,7 @@ export default defineConfig({
     react(),
     VitePWA({
       registerType: 'prompt',
-      includeAssets: ['favicon.svg', 'apple-touch-icon.png'],
+      includeAssets: ['everwell-mark-v2.svg', 'everwell-apple-v2.png'],
       manifest: {
         name: 'Everwell',
         short_name: 'Everwell',
@@ -22,17 +22,17 @@ export default defineConfig({
         scope: '/',
         icons: [
           {
-            src: 'pwa-192.png',
+            src: 'everwell-192-v2.png',
             sizes: '192x192',
             type: 'image/png',
           },
           {
-            src: 'pwa-512.png',
+            src: 'everwell-512-v2.png',
             sizes: '512x512',
             type: 'image/png',
           },
           {
-            src: 'pwa-512.png',
+            src: 'everwell-512-v2.png',
             sizes: '512x512',
             type: 'image/png',
             purpose: 'maskable',

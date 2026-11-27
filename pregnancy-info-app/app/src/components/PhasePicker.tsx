@@ -1,6 +1,7 @@
 import { useEffect, useRef, useState } from 'react'
 import { timeline } from '../data/researchCatalog'
 import { useLocalPrefs } from '../hooks/useLocalPrefs'
+import { PregnancyDateEditor } from './PregnancyDateCard'
 import { Glyph } from './Glyph'
 
 import { stageChoices } from '../data/stageChoices'
@@ -31,8 +32,8 @@ export function PhasePicker({firstLaunch=false}:{firstLaunch?:boolean}){
  <div className="sheet-handle" aria-hidden="true"/>
  <div className="sheet-header"><span className="section-label">Everwell</span><button className="plain-control" type="button" aria-label="Close setup" onClick={cancel}>×</button></div>
  <h2 ref={heading} tabIndex={-1} id="setup-title" className="page-title">{stage?'Choose your reading period':'Where are you in your journey?'}</h2>
- <p id="setup-description" className="muted">{stage?'Choose a reading period.':'Choose a reading focus. Change it anytime.'} {storageAvailable?'Saved on this device only.':'Browser storage is unavailable; this choice may reset after reload.'} Not a medical schedule.</p>
- {!stage?<div className="sheet-options">{stageChoices.map(s=><button type="button" className="choice-row" key={s.id} onClick={()=>setStage(s.id)}><Glyph name={s.icon}/><span><strong>{s.title}</strong><small>{s.subtitle}</small></span><span aria-hidden="true">›</span></button>)}</div>:<><button type="button" className="reader-back" onClick={()=>setStage('')}>‹ All stages</button><div className="sheet-options">{timeline.filter(p=>p.track===stage).map(p=><button type="button" className="choice-row" key={p.id} onClick={()=>finish(p.id)}><span className="choice-dot" aria-hidden="true"/><strong>{p.label}</strong><span aria-hidden="true">{p.id===prefs.selectedPhaseId?'✓':'›'}</span></button>)}</div></>}
+ <p id="setup-description" className="muted">{stage?'Choose a reading period.':'Choose a reading focus. Change it anytime.'} {storageAvailable?'Saved on this device only.':'Browser storage is unavailable; this choice may reset after reload.'} {prefs.pregnancyDueDate&&' Choosing a different life stage or browsing without a phase clears the saved pregnancy date.'}</p>
+ {!stage?<div className="sheet-options">{stageChoices.map(s=><button type="button" className="choice-row" key={s.id} onClick={()=>setStage(s.id)}><Glyph name={s.icon}/><span><strong>{s.title}</strong><small>{s.subtitle}</small></span><span aria-hidden="true">›</span></button>)}</div>:<><button type="button" className="reader-back" onClick={()=>setStage('')}>‹ All stages</button>{stage==='pregnancy'&&<PregnancyDateEditor onDone={()=>{setManual(false);setStage('');dialog.current?.close?.();trigger.current?.focus()}}/>}<div className="sheet-options">{timeline.filter(p=>p.track===stage).map(p=><button type="button" className="choice-row" key={p.id} onClick={()=>finish(p.id)}><span className="choice-dot" aria-hidden="true"/><strong>{p.label}</strong><span aria-hidden="true">{p.id===prefs.selectedPhaseId?'✓':'›'}</span></button>)}</div></>}
  <button type="button" className="btn btn-ghost sheet-skip" onClick={()=>finish(null)}>Browse without a phase</button>
  </dialog>}
  </>
