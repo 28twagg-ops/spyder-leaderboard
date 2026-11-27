@@ -17,7 +17,8 @@
     "validate:research": "python ../research/integrated/validate_import.py && python ../research/child-health/validate.py",
     "postbuild": "node scripts/check-production-media.mjs",
     "build:portable": "node scripts/build-portable.mjs",
-    "prebuild:portable": "node scripts/sync-research.mjs"
+    "prebuild:portable": "node scripts/sync-research.mjs",
+    "audit:dependencies": "node scripts/audit-dependencies.mjs"
   },
   "dependencies": {
     "@fontsource-variable/fraunces": "5.3.0",

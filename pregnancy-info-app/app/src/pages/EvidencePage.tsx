@@ -1,3 +1,4 @@
+import { useMemo } from 'react'
 import { useViewState } from '../hooks/useViewMemory'
 import { safeVisualUrl } from '../data/visualCatalog'
 import { Link, useParams, useNavigate } from 'react-router-dom'
@@ -10,6 +11,7 @@ import {
 
 const lifeStages = [...new Set(nutrients.map((row) => row.life_stage).filter((stage): stage is string => Boolean(stage)))].sort()
 const pageSize = 8
+const stats = evidenceStats()
 
 function displayValue(value: unknown): string {
   if (typeof value === 'number' && Number.isFinite(value)) return String(value)
@@ -61,7 +63,6 @@ function PageControls({ page, pages, first, last, total, setPage }: {
 }
 
 export function EvidencePage() {
-  const stats = evidenceStats()
   const {collection}=useParams()
   const navigate=useNavigate()
   const mode=collection==='nutrients'?'nutrients':'outcomes'
@@ -69,8 +70,10 @@ export function EvidencePage() {
   const [hold, setHold] = useViewState<HoldFilter>('evidence.'+mode+'.hold','all')
   const [lifeStage, setLifeStage] = useViewState('evidence.'+mode+'.lifeStage','all')
   const [page, setPage] = useViewState('evidence.'+mode+'.page',1)
-  const outcomePage = paginate(filterOutcomes({ query, hold }), page, pageSize)
-  const nutrientPage = paginate(filterNutrients({ query, hold, lifeStage }), page, pageSize)
+  const matchingOutcomes=useMemo(()=>collection==='outcomes'?filterOutcomes({query,hold}):[],[collection,query,hold])
+  const matchingNutrients=useMemo(()=>collection==='nutrients'?filterNutrients({query,hold,lifeStage}):[],[collection,query,hold,lifeStage])
+  const outcomePage = paginate(matchingOutcomes, page, pageSize)
+  const nutrientPage = paginate(matchingNutrients, page, pageSize)
   const current = mode === 'outcomes' ? outcomePage : nutrientPage
 
   if(collection&&collection!=='outcomes'&&collection!=='nutrients')return <div className="stack-lg"><ScreenHeading title="Collection not found" back="/evidence" backLabel="Research & sources"/><p>Choose a research collection.</p></div>

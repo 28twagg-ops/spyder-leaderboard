@@ -54,14 +54,18 @@ function usePrefsState() {
   const [storageAvailable,setStorageAvailable]=useState(true)
 
   useEffect(() => {
+    let available=true
     try {
       if (JSON.stringify(prefs) === JSON.stringify(defaults)) localStorage.removeItem(PREFS_KEY)
       else localStorage.setItem(PREFS_KEY, JSON.stringify(prefs))
-      setStorageAvailable(true)
     } catch {
-      setStorageAvailable(false) // Choices remain in memory but may not persist.
+      available=false // Choices remain in memory but may not persist.
     }
     applyTheme(prefs.themeId)
+    let active=true
+    // Report the completed browser I/O on the next microtask; cancel obsolete results.
+    queueMicrotask(()=>{if(active)setStorageAvailable(available)})
+    return ()=>{active=false}
   }, [prefs])
 
   function toggleBookmark(articleId: string) {

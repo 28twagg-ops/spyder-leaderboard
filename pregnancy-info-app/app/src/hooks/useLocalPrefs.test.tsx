@@ -1,4 +1,4 @@
-import { cleanup, fireEvent, render, screen } from '@testing-library/react'
+import { cleanup, fireEvent, render, screen, waitFor } from '@testing-library/react'
 import { afterEach, beforeEach, describe, expect, it, vi } from 'vitest'
 import { LocalPrefsProvider, PREFS_KEY, useLocalPrefs } from './useLocalPrefs'
 
@@ -42,11 +42,24 @@ describe('local reading preferences', () => {
     expect(screen.getByText('EV-ART-001 / No phase')).toBeInTheDocument()
     expect(JSON.parse(localStorage.getItem(PREFS_KEY)??'{}').setupComplete).toBe(false)
   })
-  it('retains transient preferences and reports unavailable persistence when writes fail',()=>{
+  it('retains transient preferences and reports unavailable persistence when writes fail',async()=>{
     vi.spyOn(Storage.prototype,'setItem').mockImplementation(()=>{throw new Error('Storage unavailable')})
     render(<LocalPrefsProvider><Controls/><Reader/></LocalPrefsProvider>)
     fireEvent.click(screen.getByText('Phase'))
     expect(screen.getByText('No bookmarks / PRE04')).toBeInTheDocument()
-    expect(screen.getByText('Storage unavailable')).toBeInTheDocument()
+    await waitFor(()=>expect(screen.getByText('Storage unavailable')).toBeInTheDocument())
+  })
+  it('reports failed removal rather than claiming deletion, then recovers on retry',async()=>{
+    localStorage.setItem(PREFS_KEY,JSON.stringify({selectedPhaseId:'PRE04',setupComplete:true}))
+    render(<LocalPrefsProvider><Controls/><Reader/></LocalPrefsProvider>)
+    const remove=vi.spyOn(Storage.prototype,'removeItem').mockImplementation(()=>{throw new Error('blocked')})
+    fireEvent.click(screen.getByText('Clear'))
+    expect(screen.getByText('No bookmarks / No phase')).toBeInTheDocument()
+    await waitFor(()=>expect(screen.getByText('Storage unavailable')).toBeInTheDocument())
+    expect(localStorage.getItem(PREFS_KEY)).not.toBeNull()
+    remove.mockRestore()
+    fireEvent.click(screen.getByText('Clear'))
+    await waitFor(()=>expect(screen.getByText('Storage available')).toBeInTheDocument())
+    expect(localStorage.getItem(PREFS_KEY)).toBeNull()
   })
 })

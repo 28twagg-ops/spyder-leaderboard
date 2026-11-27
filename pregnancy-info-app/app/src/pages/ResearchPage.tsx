@@ -37,11 +37,12 @@ export function ResearchPage() {
   const visuals = articleVisuals(article.id, article.visual_ids ?? [])
   const purpose=readingOverview(article.id)
   const plain=plainReading(article.id)
-  const urgent=article.priority==='urgent'||article.high_risk===true
+  const emergencyTopic=article.priority==='urgent'
+  const urgent=emergencyTopic||article.high_risk===true
   const why=purpose&&<section className="reader-purpose-block"><h2 className="section-title">Why it matters</h2><p className="reader-purpose">{purpose.why}</p></section>
 
   return (
-    <div className="stack-lg reader-page">
+    <div key={article.id} className="stack-lg reader-page">
       <div className="reader-toolbar"><button type="button" className="reader-back" onClick={back}><Glyph name="back"/>Back</button><div className="reader-tools"><button type="button" className="header-action plain-icon" aria-label={prefs.bookmarks.includes(article.id)?'Remove bookmark':'Save bookmark'} aria-pressed={prefs.bookmarks.includes(article.id)} onClick={()=>toggleBookmark(article.id)}><Glyph name="bookmark"/><span>{prefs.bookmarks.includes(article.id)?'Saved':'Save'}</span></button><button type="button" className="header-action plain-icon" disabled={prefs.readArticles.includes(article.id)} onClick={()=>markRead(article.id)}><Glyph name="check"/><span>{prefs.readArticles.includes(article.id)?'Read':'Mark read'}</span></button></div></div>
       <header className="screen-heading reader-heading">
         <div className="eyebrow">
@@ -50,26 +51,29 @@ export function ResearchPage() {
         <h1 className="page-title">
           {article.title}
         </h1>
-        <p className="small-copy muted">Draft · medical review still needed</p>
+        <p className="small-copy muted">Research draft · medical review pending</p>
       </header>
 
       <DraftBanner status="research_only" />
       {!urgent&&why}
       <section className="panel stack safety-panel">
         <div className="section-label danger">Visible safety</div>
-        <p style={{ margin: 0 }}>{plain?.safety??article.visible_safety}</p>
-        {plain&&<details className="disclosure"><summary>Full safety note</summary><p>{article.visible_safety}</p></details>}
+        <p style={{ margin: 0 }}>{urgent?article.visible_safety:plain?.safety??article.visible_safety}</p>
+        {emergencyTopic&&<p className="urgent-reading-note">{article.learn_more}</p>}
+        {!urgent&&plain&&<details className="disclosure"><summary>Full safety note</summary><p>{article.visible_safety}</p></details>}
+        {emergencyTopic&&<Link className="topic-link" to="/urgent">Urgent signs &amp; getting help ›</Link>}
       </section>
 
       {urgent&&why}
-      <TopicOverview key={article.id} id={article.id} visuals={visuals}/>
-      <h2 className="section-title">Research in detail</h2>
+      <TopicOverview key={article.id} id={article.id} visuals={visuals}>
+        {plain&&<details className="panel disclosure reader-understand" id="understand-more"><summary><span><strong>Understand more</strong><small>How it works, what studies found and what is still uncertain.</small></span></summary><p className="small-copy muted">Unreviewed research summary, not medical advice.</p><p>{plain.detail}</p><Link className="topic-link" to={{hash:"#research-details"}}>Explore the science ›</Link></details>}
+      </TopicOverview>
+      <h2 className="section-title" id="research-details">Explore the science</h2>
       <div className="surface-list reader-sections">
       <details className="panel disclosure reader-section">
         <summary>Archived AI summary for comparison</summary>
         <p>This is a draft, not medical advice. Experts still need to check the studies and the health information.</p>
-        {plain&&<><h3 className="section-title">In plain words</h3><p>{plain.detail}</p></>}
-        <details className="disclosure"><summary>Original research draft</summary><p>{article.quick_answer}</p><p className="muted">{article.learn_more}</p></details>
+        <p>{article.quick_answer}</p><p className="muted">{article.learn_more}</p>
       </details>
 
       <details className="panel disclosure reader-section">

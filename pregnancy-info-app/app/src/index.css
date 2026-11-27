@@ -826,3 +826,13 @@ button.reader-back:focus-visible{outline-offset:3px}
 .topic-map-node{background:transparent;border:1px solid var(--line);padding:.55rem .3rem}
 .topic-map{background:var(--bg-elevated)}
 @media(max-width:360px){.topic-map-node .concept-art{width:30px;height:30px}}
+
+/* Clarity-first reading: direct optional explanation, then source archive. */
+.reader-understand{padding:.6rem .8rem;background:var(--bg-elevated)}
+.reader-understand summary{min-height:48px;align-items:center}
+.reader-understand summary strong{display:block;font-size:1rem}
+.reader-understand summary small{display:block;font-size:.76rem;color:var(--ink-muted);font-weight:400;line-height:1.4;margin-top:.2rem}
+.reader-understand p{margin:.65rem 0;line-height:1.55}
+.reader-understand .topic-link{display:flex;align-items:center;min-height:44px}
+.reader-page .urgent-reading-note{margin:0;font-weight:500}
+#research-details{scroll-margin-top:1rem}
