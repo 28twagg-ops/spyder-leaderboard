@@ -1,0 +1,26 @@
+{
+  "date": "2026-11-27",
+  "base": "ae320c266c1189fad08baf06ba2d43524d39980c",
+  "counts": {
+    "records": 770,
+    "archived_checks": 69,
+    "high_audit": 100,
+    "linked_outcomes": 150,
+    "linked_claims": 176,
+    "with_article_candidate": 362,
+    "cohort_linked": 73,
+    "explicit_exclusions": 3,
+    "specific_holds": 11
+  },
+  "files": [
+    "research/source-review/crosswalk-001-110.json",
+    "research/source-review/crosswalk-111-220.json",
+    "research/source-review/crosswalk-221-330.json",
+    "research/source-review/crosswalk-331-440.json",
+    "research/source-review/crosswalk-441-550.json",
+    "research/source-review/crosswalk-551-660.json",
+    "research/source-review/crosswalk-661-770.json",
+    "research/source-review/ARTICLE_EVIDENCE_CROSSWALK.json"
+  ],
+  "scope": "Exact registry join; no new clinical review, citations or release."
+}

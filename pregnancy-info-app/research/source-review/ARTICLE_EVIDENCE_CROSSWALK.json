@@ -1,0 +1,1390 @@
+[
+  {
+    "article_id": "EV-ART-001",
+    "title": "Getting ready for pregnancy",
+    "phase_ids": [
+      "PRE01",
+      "PRE02",
+      "PRE03",
+      "PRE04",
+      "PRE05",
+      "PRE06",
+      "M07"
+    ],
+    "existing_source_ids": [
+      "P9-G01",
+      "P9-G13",
+      "P6-G04"
+    ],
+    "additional_candidate_ids": [
+      "S142",
+      "S143",
+      "S191",
+      "DR001",
+      "DR002",
+      "DR028",
+      "DR033"
+    ],
+    "review_pending": true
+  },
+  {
+    "article_id": "EV-ART-002",
+    "title": "Folic acid before conception",
+    "phase_ids": [
+      "PRE01",
+      "PRE02",
+      "PRE03",
+      "PRE04",
+      "PRE05",
+      "PRE06",
+      "PREG01",
+      "M07"
+    ],
+    "existing_source_ids": [
+      "P5-01",
+      "P5-02",
+      "P5-03",
+      "P5-04",
+      "P5-30"
+    ],
+    "additional_candidate_ids": [
+      "DR027"
+    ],
+    "review_pending": true
+  },
+  {
+    "article_id": "EV-ART-003",
+    "title": "Fathers' health and work exposures",
+    "phase_ids": [
+      "PRE01",
+      "PRE02",
+      "PRE03",
+      "PRE04",
+      "PRE05",
+      "PRE06",
+      "M07"
+    ],
+    "existing_source_ids": [
+      "P6-42",
+      "P6-43",
+      "P6-44",
+      "P6-G04",
+      "P6-G05"
+    ],
+    "additional_candidate_ids": [
+      "S192",
+      "CL22",
+      "H046",
+      "DR020",
+      "DR021",
+      "DR024",
+      "DR025",
+      "P6-45"
+    ],
+    "review_pending": true
+  },
+  {
+    "article_id": "EV-ART-004",
+    "title": "Fertility treatments and acupuncture",
+    "phase_ids": [
+      "M07"
+    ],
+    "existing_source_ids": [
+      "P7-20",
+      "P7-21",
+      "P7-22"
+    ],
+    "additional_candidate_ids": [
+      "S144",
+      "S145",
+      "S146",
+      "S219",
+      "PED-FERTILITY-HOLD",
+      "DR022",
+      "DR023"
+    ],
+    "review_pending": true
+  },
+  {
+    "article_id": "EV-ART-005",
+    "title": "Food first, supplements when needed",
+    "phase_ids": [
+      "PRE02",
+      "PRE03",
+      "PRE04",
+      "PRE05",
+      "PRE06",
+      "PREG01",
+      "PREG02",
+      "PREG03",
+      "M05",
+      "M06",
+      "M07"
+    ],
+    "existing_source_ids": [
+      "P5-28",
+      "P5-19",
+      "P5-21",
+      "P5-29"
+    ],
+    "additional_candidate_ids": [
+      "PED-CHOLINE",
+      "PED-DRI-macronutrients"
+    ],
+    "review_pending": true
+  },
+  {
+    "article_id": "EV-ART-006",
+    "title": "Choosing prenatal supplements",
+    "phase_ids": [
+      "PRE02",
+      "PRE03",
+      "PRE04",
+      "PRE05",
+      "PRE06",
+      "PREG01",
+      "PREG02",
+      "PREG03",
+      "M05",
+      "M06",
+      "M07"
+    ],
+    "existing_source_ids": [
+      "P5-24",
+      "P5-25",
+      "P5-26",
+      "P5-27",
+      "P5-28",
+      "P5-31"
+    ],
+    "additional_candidate_ids": [],
+    "review_pending": true
+  },
+  {
+    "article_id": "EV-ART-007",
+    "title": "Fish, DHA and brain development",
+    "phase_ids": [
+      "PRE02",
+      "PRE03",
+      "PRE04",
+      "PRE05",
+      "PRE06",
+      "PREG01",
+      "PREG02",
+      "PREG03",
+      "M05",
+      "M06",
+      "M07"
+    ],
+    "existing_source_ids": [
+      "P4-12",
+      "P5-14",
+      "P5-15",
+      "P5-16",
+      "P5-29"
+    ],
+    "additional_candidate_ids": [
+      "DR006",
+      "GE001",
+      "P6-06"
+    ],
+    "review_pending": true
+  },
+  {
+    "article_id": "EV-ART-008",
+    "title": "Choline and iodine",
+    "phase_ids": [
+      "PRE02",
+      "PRE03",
+      "PRE04",
+      "PRE05",
+      "PRE06",
+      "PREG01",
+      "PREG02",
+      "PREG03",
+      "M05",
+      "M06",
+      "M07"
+    ],
+    "existing_source_ids": [
+      "P4-08",
+      "P4-09",
+      "P4-10",
+      "P5-21",
+      "P5-28"
+    ],
+    "additional_candidate_ids": [
+      "PED-CHOLINE",
+      "PED-DRI-macronutrients"
+    ],
+    "review_pending": true
+  },
+  {
+    "article_id": "EV-ART-009",
+    "title": "Calcium, vitamin D, iron and probiotics",
+    "phase_ids": [
+      "PRE02",
+      "PRE03",
+      "PRE04",
+      "PRE05",
+      "PRE06",
+      "PREG01",
+      "PREG02",
+      "PREG03",
+      "M05",
+      "M06",
+      "M07"
+    ],
+    "existing_source_ids": [
+      "P5-05",
+      "P5-06",
+      "P5-07",
+      "P5-10",
+      "P5-11",
+      "P5-12",
+      "P5-17",
+      "P5-18",
+      "P5-19"
+    ],
+    "additional_candidate_ids": [
+      "DR003",
+      "DR004",
+      "DR005",
+      "GE002",
+      "GE005"
+    ],
+    "review_pending": true
+  },
+  {
+    "article_id": "EV-ART-010",
+    "title": "Home and workplace exposure basics",
+    "phase_ids": [
+      "PRE01",
+      "PRE02",
+      "PRE03",
+      "PRE04",
+      "PRE05",
+      "PRE06",
+      "PREG01",
+      "PREG02",
+      "PREG03"
+    ],
+    "existing_source_ids": [
+      "P6-02",
+      "P6-03",
+      "P6-05",
+      "P6-G04",
+      "P6-G13",
+      "P6-G18"
+    ],
+    "additional_candidate_ids": [],
+    "review_pending": true
+  },
+  {
+    "article_id": "EV-ART-011",
+    "title": "PFAS, plastics and affordable choices",
+    "phase_ids": [
+      "PRE01",
+      "PRE02",
+      "PRE03",
+      "PRE04",
+      "PRE05",
+      "PRE06",
+      "PREG01",
+      "PREG02",
+      "PREG03"
+    ],
+    "existing_source_ids": [
+      "P6-12",
+      "P6-13",
+      "P6-19",
+      "P6-25",
+      "P6-26",
+      "P6-33",
+      "P6-35",
+      "P6-G03"
+    ],
+    "additional_candidate_ids": [
+      "P6-20",
+      "P6-G01"
+    ],
+    "review_pending": true
+  },
+  {
+    "article_id": "EV-ART-012",
+    "title": "Produce, air and heat",
+    "phase_ids": [
+      "PRE01",
+      "PRE02",
+      "PRE03",
+      "PRE04",
+      "PRE05",
+      "PRE06",
+      "PREG01",
+      "PREG02",
+      "PREG03"
+    ],
+    "existing_source_ids": [
+      "P6-09",
+      "P6-10",
+      "P6-G11",
+      "P6-G12",
+      "P6-G08",
+      "P6-G09",
+      "P6-G10"
+    ],
+    "additional_candidate_ids": [],
+    "review_pending": true
+  },
+  {
+    "article_id": "EV-ART-013",
+    "title": "Prenatal visits and preventive care",
+    "phase_ids": [
+      "PREG01",
+      "PREG02",
+      "PREG03"
+    ],
+    "existing_source_ids": [
+      "P9-G02",
+      "P9-G10",
+      "P9-G13",
+      "P9-G04"
+    ],
+    "additional_candidate_ids": [
+      "S171",
+      "S172",
+      "S180",
+      "CL19",
+      "H044",
+      "H045",
+      "PED-HAPO",
+      "PED-RSVLABEL"
+    ],
+    "review_pending": true
+  },
+  {
+    "article_id": "EV-ART-014",
+    "title": "How the baby develops",
+    "phase_ids": [
+      "PREG01",
+      "PREG02",
+      "PREG03"
+    ],
+    "existing_source_ids": [
+      "PED-GESTATION",
+      "PED-FETUS",
+      "P4-06",
+      "P4-07",
+      "P9-G04"
+    ],
+    "additional_candidate_ids": [
+      "PED-AUDITORY",
+      "PED-PLACENTA"
+    ],
+    "review_pending": true
+  },
+  {
+    "article_id": "EV-ART-015",
+    "title": "Eating safely in pregnancy",
+    "phase_ids": [
+      "PREG01",
+      "PREG02",
+      "PREG03"
+    ],
+    "existing_source_ids": [
+      "P9-G06",
+      "P5-29",
+      "P5-28"
+    ],
+    "additional_candidate_ids": [],
+    "review_pending": true
+  },
+  {
+    "article_id": "EV-ART-016",
+    "title": "Movement and strength",
+    "phase_ids": [
+      "PREG01",
+      "PREG02",
+      "PREG03"
+    ],
+    "existing_source_ids": [
+      "P3-18",
+      "P3-33",
+      "P9-G04"
+    ],
+    "additional_candidate_ids": [
+      "CL05",
+      "DR009",
+      "DR010"
+    ],
+    "review_pending": true
+  },
+  {
+    "article_id": "EV-ART-017",
+    "title": "Nausea and traditional remedies",
+    "phase_ids": [
+      "PREG01",
+      "PREG02",
+      "PREG03"
+    ],
+    "existing_source_ids": [
+      "P7-01",
+      "P7-02",
+      "P7-04",
+      "P7-63"
+    ],
+    "additional_candidate_ids": [],
+    "review_pending": true
+  },
+  {
+    "article_id": "EV-ART-018",
+    "title": "Stretch marks and skin comfort",
+    "phase_ids": [
+      "PREG01",
+      "PREG02",
+      "PREG03"
+    ],
+    "existing_source_ids": [
+      "P3-01",
+      "P3-02",
+      "P3-03",
+      "P3-04",
+      "P3-05",
+      "P3-06",
+      "P3-30"
+    ],
+    "additional_candidate_ids": [],
+    "review_pending": true
+  },
+  {
+    "article_id": "EV-ART-019",
+    "title": "Breast changes and appearance",
+    "phase_ids": [
+      "PREG01",
+      "PREG02",
+      "PREG03"
+    ],
+    "existing_source_ids": [
+      "P3-08",
+      "P3-09"
+    ],
+    "additional_candidate_ids": [
+      "DR007",
+      "DR008",
+      "DR029",
+      "DR030"
+    ],
+    "review_pending": true
+  },
+  {
+    "article_id": "EV-ART-020",
+    "title": "Pelvic floor, pelvic pain and perineal preparation",
+    "phase_ids": [
+      "PREG01",
+      "PREG02",
+      "PREG03"
+    ],
+    "existing_source_ids": [
+      "P3-11",
+      "P3-16",
+      "P3-20",
+      "P3-21",
+      "P3-22"
+    ],
+    "additional_candidate_ids": [
+      "CL03",
+      "CL04",
+      "DR013",
+      "DR031",
+      "DR032"
+    ],
+    "review_pending": true
+  },
+  {
+    "article_id": "EV-ART-021",
+    "title": "Preparing for labor and birth",
+    "phase_ids": [
+      "PREG03",
+      "BIRTH01",
+      "C01"
+    ],
+    "existing_source_ids": [
+      "P7-12",
+      "P7-13",
+      "P7-14",
+      "P7-17",
+      "P7-18"
+    ],
+    "additional_candidate_ids": [
+      "S186",
+      "CL07",
+      "CL08"
+    ],
+    "review_pending": true
+  },
+  {
+    "article_id": "EV-ART-022",
+    "title": "Dates, herbs and breech positioning",
+    "phase_ids": [
+      "PREG03",
+      "BIRTH01",
+      "C01"
+    ],
+    "existing_source_ids": [
+      "P7-05",
+      "P7-06",
+      "P7-07",
+      "P7-08",
+      "P7-09",
+      "P7-10"
+    ],
+    "additional_candidate_ids": [
+      "S165",
+      "S166",
+      "S167",
+      "S168",
+      "P7-11"
+    ],
+    "review_pending": true
+  },
+  {
+    "article_id": "EV-ART-023",
+    "title": "Newborn transition and clinical care",
+    "phase_ids": [
+      "PREG03",
+      "BIRTH01",
+      "C01"
+    ],
+    "existing_source_ids": [
+      "PED-CORDTERM",
+      "PED-CORDUPDATE",
+      "PED-VK",
+      "PED-NBS",
+      "PED-HEARING",
+      "PED-iKMC",
+      "P7-58",
+      "P7-60"
+    ],
+    "additional_candidate_ids": [
+      "PED-OMWANA",
+      "PED-DONOR"
+    ],
+    "review_pending": true
+  },
+  {
+    "article_id": "EV-ART-024",
+    "title": "Maternal warning signs",
+    "phase_ids": [
+      "PREG01",
+      "PREG02",
+      "PREG03",
+      "BIRTH01",
+      "M01",
+      "M02",
+      "M03",
+      "M04",
+      "M05",
+      "M06",
+      "M07"
+    ],
+    "existing_source_ids": [
+      "P9-G04",
+      "P3-32"
+    ],
+    "additional_candidate_ids": [],
+    "review_pending": true
+  },
+  {
+    "article_id": "EV-ART-025",
+    "title": "Postpartum visits and rest",
+    "phase_ids": [
+      "BIRTH01",
+      "M01",
+      "M02",
+      "M03",
+      "M04",
+      "M05",
+      "M06",
+      "M07"
+    ],
+    "existing_source_ids": [
+      "P9-G03",
+      "P9-G04"
+    ],
+    "additional_candidate_ids": [
+      "P7-50"
+    ],
+    "review_pending": true
+  },
+  {
+    "article_id": "EV-ART-026",
+    "title": "Cesarean and perineal healing",
+    "phase_ids": [
+      "BIRTH01",
+      "M01",
+      "M02",
+      "M03",
+      "M04",
+      "M05",
+      "M06",
+      "M07"
+    ],
+    "existing_source_ids": [
+      "P3-23",
+      "P3-24",
+      "P3-25",
+      "P7-29",
+      "P7-33",
+      "P9-G04"
+    ],
+    "additional_candidate_ids": [
+      "DR018"
+    ],
+    "review_pending": true
+  },
+  {
+    "article_id": "EV-ART-027",
+    "title": "Core strength and diastasis recti",
+    "phase_ids": [
+      "BIRTH01",
+      "M01",
+      "M02",
+      "M03",
+      "M04",
+      "M05",
+      "M06",
+      "M07"
+    ],
+    "existing_source_ids": [
+      "P3-10",
+      "P3-11",
+      "P3-12",
+      "P3-13",
+      "P3-15",
+      "P3-35"
+    ],
+    "additional_candidate_ids": [
+      "DR011",
+      "DR012"
+    ],
+    "review_pending": true
+  },
+  {
+    "article_id": "EV-ART-028",
+    "title": "Pelvic floor recovery and return to activity",
+    "phase_ids": [
+      "BIRTH01",
+      "M01",
+      "M02",
+      "M03",
+      "M04",
+      "M05",
+      "M06",
+      "M07"
+    ],
+    "existing_source_ids": [
+      "P3-11",
+      "P3-16",
+      "P3-17",
+      "P3-19",
+      "P3-33"
+    ],
+    "additional_candidate_ids": [
+      "S064",
+      "S065",
+      "S066",
+      "S067",
+      "S068",
+      "S196",
+      "S218",
+      "N305",
+      "DR016",
+      "DR019",
+      "GE004",
+      "P7-39"
+    ],
+    "review_pending": true
+  },
+  {
+    "article_id": "EV-ART-029",
+    "title": "Mood, sleep and family support",
+    "phase_ids": [
+      "BIRTH01",
+      "M01",
+      "M02",
+      "M03",
+      "M04",
+      "M05",
+      "M06",
+      "M07"
+    ],
+    "existing_source_ids": [
+      "P9-G03",
+      "P9-G04",
+      "P7-61",
+      "P7-62"
+    ],
+    "additional_candidate_ids": [
+      "CL17",
+      "CL18",
+      "DR026",
+      "GE003",
+      "GE006"
+    ],
+    "review_pending": true
+  },
+  {
+    "article_id": "EV-ART-030",
+    "title": "Sex, contraception and future pregnancy",
+    "phase_ids": [
+      "BIRTH01",
+      "M01",
+      "M02",
+      "M03",
+      "M04",
+      "M05",
+      "M06",
+      "M07"
+    ],
+    "existing_source_ids": [
+      "P9-G03",
+      "P9-G12"
+    ],
+    "additional_candidate_ids": [
+      "DR016",
+      "P7-39"
+    ],
+    "review_pending": true
+  },
+  {
+    "article_id": "EV-ART-031",
+    "title": "Hair, skin and elective treatments",
+    "phase_ids": [
+      "BIRTH01",
+      "M01",
+      "M02",
+      "M03",
+      "M04",
+      "M05",
+      "M06",
+      "M07"
+    ],
+    "existing_source_ids": [
+      "P3-05",
+      "P3-06",
+      "P3-24",
+      "P3-29",
+      "P3-31",
+      "P7-29",
+      "P7-38"
+    ],
+    "additional_candidate_ids": [
+      "S162",
+      "S163",
+      "S164",
+      "S210",
+      "DR015",
+      "GE007",
+      "P7-36"
+    ],
+    "review_pending": true
+  },
+  {
+    "article_id": "EV-ART-032",
+    "title": "Breastfeeding, formula and mixed feeding",
+    "phase_ids": [
+      "PREG03",
+      "BIRTH01",
+      "M01",
+      "M02",
+      "M03",
+      "M04",
+      "M05",
+      "M06",
+      "C01",
+      "C02",
+      "C03",
+      "C04",
+      "C05",
+      "C06",
+      "C07"
+    ],
+    "existing_source_ids": [
+      "P2-01",
+      "P2-02",
+      "P2-04",
+      "P2-06",
+      "P2-07",
+      "P2-08",
+      "P2-28",
+      "P7-27"
+    ],
+    "additional_candidate_ids": [
+      "S211",
+      "S221",
+      "PED-PROBIT",
+      "P1-03",
+      "P1-04",
+      "P1-05",
+      "P1-13",
+      "P2-03",
+      "P2-05",
+      "P2-09",
+      "P2-10",
+      "P2-11",
+      "P2-12",
+      "P2-33",
+      "P2-34"
+    ],
+    "review_pending": true
+  },
+  {
+    "article_id": "EV-ART-033",
+    "title": "Safe formula preparation",
+    "phase_ids": [
+      "PREG03",
+      "BIRTH01",
+      "M01",
+      "M02",
+      "M03",
+      "M04",
+      "M05",
+      "M06",
+      "C01",
+      "C02",
+      "C03",
+      "C04",
+      "C05",
+      "C06",
+      "C07"
+    ],
+    "existing_source_ids": [
+      "PED-FORMULA",
+      "P2-29",
+      "P6-G02",
+      "P6-G03"
+    ],
+    "additional_candidate_ids": [
+      "P1-03",
+      "P1-04",
+      "P1-05",
+      "P1-13",
+      "P2-09",
+      "P2-10",
+      "P2-11",
+      "P2-12",
+      "P2-33",
+      "P2-34"
+    ],
+    "review_pending": true
+  },
+  {
+    "article_id": "EV-ART-034",
+    "title": "Milk supply and feeding cues",
+    "phase_ids": [
+      "PREG03",
+      "BIRTH01",
+      "M01",
+      "M02",
+      "M03",
+      "M04",
+      "M05",
+      "M06",
+      "C01",
+      "C02",
+      "C03",
+      "C04",
+      "C05",
+      "C06",
+      "C07"
+    ],
+    "existing_source_ids": [
+      "P9-G11",
+      "P7-23",
+      "P7-24",
+      "P7-26",
+      "P7-27",
+      "P7-28"
+    ],
+    "additional_candidate_ids": [
+      "PED-MILK",
+      "P7-25",
+      "P7-30",
+      "P7-31",
+      "P7-32",
+      "P7-34"
+    ],
+    "review_pending": true
+  },
+  {
+    "article_id": "EV-ART-035",
+    "title": "Infant vitamin D and iron",
+    "phase_ids": [
+      "PREG03",
+      "BIRTH01",
+      "M01",
+      "M02",
+      "M03",
+      "M04",
+      "M05",
+      "M06",
+      "C01",
+      "C02",
+      "C03",
+      "C04",
+      "C05",
+      "C06",
+      "C07"
+    ],
+    "existing_source_ids": [
+      "P9-G09",
+      "PED-IRON",
+      "PED-IRONFOOD",
+      "PED-DRI-vitamins",
+      "PED-DRI-elements"
+    ],
+    "additional_candidate_ids": [],
+    "review_pending": true
+  },
+  {
+    "article_id": "EV-ART-036",
+    "title": "Safe sleep every time",
+    "phase_ids": [
+      "PREG03",
+      "BIRTH01",
+      "C01",
+      "C02",
+      "C03",
+      "C04",
+      "C05",
+      "C06",
+      "C07"
+    ],
+    "existing_source_ids": [
+      "PED-SLEEP",
+      "P9-G05",
+      "P2-30",
+      "P7-60"
+    ],
+    "additional_candidate_ids": [
+      "PED-SETTLE",
+      "P2-25"
+    ],
+    "review_pending": true
+  },
+  {
+    "article_id": "EV-ART-037",
+    "title": "Fever, illness and emergency help",
+    "phase_ids": [
+      "BIRTH01",
+      "C01",
+      "C02",
+      "C03",
+      "C04",
+      "C05",
+      "C06",
+      "C07"
+    ],
+    "existing_source_ids": [
+      "PED-FEVER",
+      "PED-EMS",
+      "PED-CORRECTED"
+    ],
+    "additional_candidate_ids": [
+      "PED-PROBIO",
+      "P7-57"
+    ],
+    "review_pending": true
+  },
+  {
+    "article_id": "EV-ART-038",
+    "title": "Newborn screening, jaundice and hearing",
+    "phase_ids": [
+      "BIRTH01",
+      "C01",
+      "C02",
+      "C03",
+      "C04",
+      "C05",
+      "C06",
+      "C07"
+    ],
+    "existing_source_ids": [
+      "PED-NBS",
+      "PED-HEARING",
+      "PED-JAUNDICE",
+      "PED-FEVER"
+    ],
+    "additional_candidate_ids": [],
+    "review_pending": true
+  },
+  {
+    "article_id": "EV-ART-039",
+    "title": "Diapers and elimination communication",
+    "phase_ids": [
+      "BIRTH01",
+      "C01",
+      "C02",
+      "C03",
+      "C04",
+      "C05",
+      "C06",
+      "C07"
+    ],
+    "existing_source_ids": [
+      "P2-13",
+      "P2-14",
+      "P2-16",
+      "P2-17",
+      "P2-21",
+      "P2-23",
+      "P2-31"
+    ],
+    "additional_candidate_ids": [
+      "P1-06",
+      "P1-07",
+      "P1-08",
+      "P1-09",
+      "P1-10",
+      "P1-11",
+      "P1-12",
+      "P2-15",
+      "P2-18",
+      "P2-27"
+    ],
+    "review_pending": true
+  },
+  {
+    "article_id": "EV-ART-040",
+    "title": "Crying, carrying and colic",
+    "phase_ids": [
+      "BIRTH01",
+      "C01",
+      "C02",
+      "C03",
+      "C04",
+      "C05",
+      "C06",
+      "C07"
+    ],
+    "existing_source_ids": [
+      "P2-24",
+      "P2-30",
+      "P7-40",
+      "P7-41",
+      "P7-47",
+      "PED-CRY",
+      "PED-FEVER"
+    ],
+    "additional_candidate_ids": [
+      "P7-42",
+      "P7-45",
+      "P7-46"
+    ],
+    "review_pending": true
+  },
+  {
+    "article_id": "EV-ART-041",
+    "title": "Skin-to-skin and gentle touch",
+    "phase_ids": [
+      "BIRTH01",
+      "C01",
+      "C02",
+      "C03",
+      "C04",
+      "C05",
+      "C06",
+      "C07"
+    ],
+    "existing_source_ids": [
+      "P7-58",
+      "P7-59",
+      "P7-60",
+      "P2-26",
+      "P7-47",
+      "P7-65"
+    ],
+    "additional_candidate_ids": [
+      "P7-48",
+      "P7-49"
+    ],
+    "review_pending": true
+  },
+  {
+    "article_id": "EV-ART-042",
+    "title": "Talking, reading and playing",
+    "phase_ids": [
+      "C03",
+      "C04",
+      "C05",
+      "C06",
+      "C07",
+      "C08",
+      "C09",
+      "C10",
+      "C11"
+    ],
+    "existing_source_ids": [
+      "P4-01",
+      "P4-02",
+      "P4-03",
+      "P4-17",
+      "P4-18"
+    ],
+    "additional_candidate_ids": [
+      "PED-PARENT"
+    ],
+    "review_pending": true
+  },
+  {
+    "article_id": "EV-ART-043",
+    "title": "Tummy time and movement",
+    "phase_ids": [
+      "C03",
+      "C04",
+      "C05",
+      "C06",
+      "C07",
+      "C08",
+      "C09",
+      "C10",
+      "C11"
+    ],
+    "existing_source_ids": [
+      "P4-19",
+      "P4-20",
+      "P4-21",
+      "PED-MOTOR",
+      "PED-WINDOW",
+      "PED-SLEEP"
+    ],
+    "additional_candidate_ids": [
+      "PED-ACTIVE"
+    ],
+    "review_pending": true
+  },
+  {
+    "article_id": "EV-ART-044",
+    "title": "Milestones and screening",
+    "phase_ids": [
+      "C03",
+      "C04",
+      "C05",
+      "C06",
+      "C07",
+      "C08",
+      "C09",
+      "C10",
+      "C11"
+    ],
+    "existing_source_ids": [
+      "PED-SCREEN",
+      "PED-CORRECTED",
+      "PED-REFERRAL",
+      "P9-G14"
+    ],
+    "additional_candidate_ids": [
+      "P4-22"
+    ],
+    "review_pending": true
+  },
+  {
+    "article_id": "EV-ART-045",
+    "title": "Screens and family languages",
+    "phase_ids": [
+      "C03",
+      "C04",
+      "C05",
+      "C06",
+      "C07",
+      "C08",
+      "C09",
+      "C10",
+      "C11"
+    ],
+    "existing_source_ids": [
+      "P4-04",
+      "P4-05",
+      "P4-23"
+    ],
+    "additional_candidate_ids": [],
+    "review_pending": true
+  },
+  {
+    "article_id": "EV-ART-046",
+    "title": "Starting complementary foods",
+    "phase_ids": [
+      "C05",
+      "C06",
+      "C07",
+      "C08",
+      "C09"
+    ],
+    "existing_source_ids": [
+      "P9-G07",
+      "P9-G08",
+      "PED-SOLIDS",
+      "PED-FEED",
+      "PED-IRONFOOD",
+      "PED-BLISSGROW",
+      "PED-BLISSCHOKE",
+      "P7-66"
+    ],
+    "additional_candidate_ids": [
+      "P2-32"
+    ],
+    "review_pending": true
+  },
+  {
+    "article_id": "EV-ART-047",
+    "title": "Allergens and choking prevention",
+    "phase_ids": [
+      "C05",
+      "C06",
+      "C07",
+      "C08",
+      "C09"
+    ],
+    "existing_source_ids": [
+      "PED-LEAP",
+      "PED-LEAPFOLLOW",
+      "PED-ALLERGY",
+      "PED-ANAPHYLAXIS",
+      "PED-CPR",
+      "P9-G08"
+    ],
+    "additional_candidate_ids": [
+      "PED-CORRECTION"
+    ],
+    "review_pending": true
+  },
+  {
+    "article_id": "EV-ART-048",
+    "title": "Growth and responsive meals",
+    "phase_ids": [
+      "C06",
+      "C07",
+      "C08",
+      "C09",
+      "C10",
+      "C11"
+    ],
+    "existing_source_ids": [
+      "PED-GROWTH",
+      "PED-FEED",
+      "P9-G11"
+    ],
+    "additional_candidate_ids": [],
+    "review_pending": true
+  },
+  {
+    "article_id": "EV-ART-049",
+    "title": "Dental, water and travel safety",
+    "phase_ids": [
+      "C06",
+      "C07",
+      "C08",
+      "C09",
+      "C10",
+      "C11"
+    ],
+    "existing_source_ids": [
+      "PED-DENTAL",
+      "PED-SEAT",
+      "PED-WATER",
+      "PED-POISON",
+      "PED-EMS"
+    ],
+    "additional_candidate_ids": [
+      "PED-LEAD"
+    ],
+    "review_pending": true
+  },
+  {
+    "article_id": "EV-ART-050",
+    "title": "Vaccines and preventive visits",
+    "phase_ids": [
+      "C06",
+      "C07",
+      "C08",
+      "C09",
+      "C10",
+      "C11"
+    ],
+    "existing_source_ids": [
+      "PED-VACCINE",
+      "PED-RSV",
+      "PED-MATISSE",
+      "PED-HARMONIE",
+      "P9-G10"
+    ],
+    "additional_candidate_ids": [],
+    "review_pending": true
+  },
+  {
+    "article_id": "EV-ART-051",
+    "title": "Toddler toilet learning",
+    "phase_ids": [
+      "C06",
+      "C07",
+      "C08",
+      "C09",
+      "C10",
+      "C11"
+    ],
+    "existing_source_ids": [
+      "P2-13",
+      "P2-17",
+      "P2-19",
+      "P2-20",
+      "P2-22"
+    ],
+    "additional_candidate_ids": [
+      "P1-06",
+      "P1-07",
+      "P1-08",
+      "P1-09",
+      "P1-10",
+      "P1-11",
+      "P1-12",
+      "P2-15",
+      "P2-18",
+      "P2-27"
+    ],
+    "review_pending": true
+  },
+  {
+    "article_id": "EV-ART-052",
+    "title": "Natural infant remedies and experimental practices",
+    "phase_ids": [
+      "C06",
+      "C07",
+      "C08",
+      "C09",
+      "C10",
+      "C11"
+    ],
+    "existing_source_ids": [
+      "P7-43",
+      "P7-44",
+      "P7-47",
+      "P7-51",
+      "P7-52",
+      "P7-54",
+      "P7-56",
+      "P7-65",
+      "P7-66",
+      "P7-67",
+      "P7-68"
+    ],
+    "additional_candidate_ids": [
+      "PED-PROBIO",
+      "PED-BEEP",
+      "PED-CASCADE",
+      "P7-53",
+      "P7-55",
+      "P7-57"
+    ],
+    "review_pending": true
+  }
+]
