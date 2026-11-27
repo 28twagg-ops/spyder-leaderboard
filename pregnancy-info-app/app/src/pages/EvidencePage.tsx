@@ -21,7 +21,7 @@ function Provenance({ sourceId, origin, blob, index, locator }: {
   sourceId: string; origin?: string; blob?: string; index?: number; locator?: unknown
 }) {
   const source = getEvidenceSource(sourceId)
-  const safeUrl = safeVisualUrl(source?.url)
+  const safeUrl = safeVisualUrl(source?.url??undefined)
   return (
     <details className="disclosure">
       <summary>Source, funding & provenance</summary>
