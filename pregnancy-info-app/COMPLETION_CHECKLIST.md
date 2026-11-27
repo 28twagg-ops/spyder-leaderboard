@@ -106,3 +106,5 @@ Evidence: prior preview 8b51b5f76a0d4624cf2c1879021c52da98f82de1; preference/sea
 - [ ] PWA update reliability: online-first Pages navigation with precache fallback; uncached same-origin build marker; automatic and manual release checks, activation-state fallback and one-reload recovery guard. Physical iPhone installed-mode test and exact live endpoint verification pending. No preference clearing or origin migration.
 
 - [ ] Correct Workbox NetworkOnly configuration after first update candidate passed 396 tests but failed production worker generation; preserve offline fallback. Re-run full deployment. Add local-only feature preference weights, must-have filters and method explanations; health, pain and cost remain unscored review priorities. Test physical iPhone and owner acceptance separately.
+
+- [ ] Live preference top-three display with shared ranks, cutoff tie disclosure, instant recalculation and method deep links. No ranks before comparable weights are selected; medical outcomes remain unscored. Deployment and physical device acceptance pending.

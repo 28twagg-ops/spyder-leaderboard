@@ -13,9 +13,13 @@ describe('preconception contraception navigation',()=>{
   fireEvent.change(screen.getByRole('slider',{name:'Prevent pregnancy as reliably as possible'}),{target:{value:'5'}})
   fireEvent.change(screen.getByRole('slider',{name:'Long-term physical health'}),{target:{value:'5'}})
   expect(screen.getByText('10/10 points')).toBeVisible()
+  const live=screen.getByRole('region',{name:'Live top three matches'})
+  expect(within(live).getAllByRole('link')).toHaveLength(3)
+  expect(within(live).getAllByRole('link')[0]).toHaveTextContent('Copper IUD')
   expect(screen.getByText(/Review closely: Long-term physical health/)).toBeVisible()
   fireEvent.click(screen.getByRole('checkbox',{name:'No invasive placement or injection'}))
   expect(screen.queryByText('10/10 points')).not.toBeInTheDocument()
+  expect(within(live).queryByRole('link',{name:/Copper IUD/})).not.toBeInTheDocument()
  })
  it('puts all research graphs on the overview with compact method navigation',async()=>{
   render(<MemoryRouter initialEntries={['/timeline/preconception']}><App/></MemoryRouter>)

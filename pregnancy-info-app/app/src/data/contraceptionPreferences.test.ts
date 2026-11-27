@@ -1,6 +1,16 @@
 import {describe,it,expect} from 'vitest'
 import {comparePreferences,defaultPreferenceWeights,defaultPreferenceFilters} from './contraceptionPreferences'
 describe('contraception feature preference matching',()=>{
+ it('updates the first match when weights change and shares ranks for ties',()=>{
+  const a=comparePreferences({hormones:5,effectiveness:5},defaultPreferenceFilters)
+  expect(a.results[0].method.slug).toBe('copper-iud')
+  expect(a.results[0].rank).toBe(1)
+  const b=comparePreferences({procedure:5,sti:5},defaultPreferenceFilters)
+  expect(b.results.slice(0,2).map(x=>x.method.slug)).toEqual(['external-condom','internal-condom'])
+  expect(b.results.slice(0,2).map(x=>x.rank)).toEqual([1,1])
+  expect(b.results[2].rank).toBe(3)
+ })
+ it('does not label default results as ranked',()=>expect(comparePreferences({},defaultPreferenceFilters).results.every(r=>r.rank===null)).toBe(true))
  it('does not create an overall score by default',()=>{const r=comparePreferences(defaultPreferenceWeights(),defaultPreferenceFilters);expect(r.possible).toBe(0);expect(r.results).toHaveLength(15)})
  it('uses documented feature weights and preserves tied results',()=>{const r=comparePreferences({hormones:5,effectiveness:5},defaultPreferenceFilters);expect(r.possible).toBe(10);expect(r.results[0].method.slug).toBe('copper-iud');expect(r.results[0].minimum).toBe(10)})
  it('never scores uncertain long term outcomes or costs',()=>{const r=comparePreferences({physical:5,mental:5,pain:5,cost:5},defaultPreferenceFilters);expect(r.possible).toBe(0);expect(r.reviewOnly).toHaveLength(4)})

@@ -35,5 +35,7 @@ export function comparePreferences(weights:PreferenceWeights,filters:PreferenceF
  })
  // A lower bound is an explicitly conservative sort, not a clinical rank.
  // Stable source order for ties; overlapping scores are not unique winners.
- return {possible,results:results.sort((a,b)=>b.minimum-a.minimum),reviewOnly:active.filter(c=>!c.match).map(c=>c.label)}
+ const ordered=results.sort((a,b)=>b.minimum-a.minimum)
+ const ranked=ordered.map(r=>({...r,rank:possible>0?1+ordered.filter(x=>x.minimum>r.minimum).length:null,tied:possible>0&&ordered.filter(x=>x.minimum===r.minimum).length>1,uncertain:r.minimum!==r.maximum||ordered.some(x=>x!==r&&x.minimum!==x.maximum&&x.minimum<=r.minimum&&x.maximum>=r.minimum)}))
+ return {possible,results:ranked,reviewOnly:active.filter(c=>!c.match).map(c=>c.label)}
 }
