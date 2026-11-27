@@ -10,6 +10,15 @@ beforeEach(()=>localStorage.clear())
 afterEach(()=>{cleanup();localStorage.clear();document.documentElement.scrollTop=0;document.body.scrollTop=0})
 
 describe('contextual navigation and privacy',()=>{
+ it('retains accessible landmark focus when switching between primary pages',()=>{
+  view('/')
+  const main=screen.getByRole('main')
+  for(const tab of ['Timeline','Explore','Search','Home']){
+   fireEvent.click(primary().getByRole('link',{name:tab}))
+   expect(main).toHaveAttribute('tabindex','-1')
+   expect(main).toHaveFocus()
+  }
+ })
  it('preserves query and active search tab through an article and Back',async()=>{
   view('/library')
   fireEvent.change(screen.getByLabelText('Search articles'),{target:{value:'EV-ART-001'}})
