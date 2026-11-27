@@ -1,0 +1,497 @@
+[
+  {
+    "ids": [
+      "O001",
+      "P3-E01"
+    ],
+    "sources": [
+      "S001",
+      "P3-01"
+    ],
+    "status": "candidate overlapping extraction; check outcome, timing, units, cohort"
+  },
+  {
+    "ids": [
+      "O003",
+      "P3-E10"
+    ],
+    "sources": [
+      "S028",
+      "P3-10"
+    ],
+    "status": "candidate overlapping extraction; check outcome, timing, units, cohort"
+  },
+  {
+    "ids": [
+      "O010",
+      "K-omega3-2"
+    ],
+    "sources": [
+      "S082",
+      "S082"
+    ],
+    "status": "candidate overlapping extraction; check outcome, timing, units, cohort"
+  },
+  {
+    "ids": [
+      "O010",
+      "P5-E13"
+    ],
+    "sources": [
+      "S082",
+      "P5-14"
+    ],
+    "status": "candidate overlapping extraction; check outcome, timing, units, cohort"
+  },
+  {
+    "ids": [
+      "O011",
+      "K-omega3-1"
+    ],
+    "sources": [
+      "S083",
+      "S083"
+    ],
+    "status": "candidate overlapping extraction; check outcome, timing, units, cohort"
+  },
+  {
+    "ids": [
+      "O013",
+      "P5-E01"
+    ],
+    "sources": [
+      "S085",
+      "P5-01"
+    ],
+    "status": "candidate overlapping extraction; check outcome, timing, units, cohort"
+  },
+  {
+    "ids": [
+      "O014",
+      "P5-E02"
+    ],
+    "sources": [
+      "S089",
+      "P5-02"
+    ],
+    "status": "candidate overlapping extraction; check outcome, timing, units, cohort"
+  },
+  {
+    "ids": [
+      "O016",
+      "K-probiotic-review-1"
+    ],
+    "sources": [
+      "S094",
+      "S094"
+    ],
+    "status": "candidate overlapping extraction; check outcome, timing, units, cohort"
+  },
+  {
+    "ids": [
+      "O016",
+      "P5-E10"
+    ],
+    "sources": [
+      "S094",
+      "P5-11"
+    ],
+    "status": "candidate overlapping extraction; check outcome, timing, units, cohort"
+  },
+  {
+    "ids": [
+      "O017",
+      "K-probiotic-review-2"
+    ],
+    "sources": [
+      "S095",
+      "S095"
+    ],
+    "status": "candidate overlapping extraction; check outcome, timing, units, cohort"
+  },
+  {
+    "ids": [
+      "O017",
+      "P5-E11"
+    ],
+    "sources": [
+      "S095",
+      "P5-12"
+    ],
+    "status": "candidate overlapping extraction; check outcome, timing, units, cohort"
+  },
+  {
+    "ids": [
+      "O026",
+      "P7-E05"
+    ],
+    "sources": [
+      "S167",
+      "P7-09"
+    ],
+    "status": "candidate overlapping extraction; check outcome, timing, units, cohort"
+  },
+  {
+    "ids": [
+      "O027",
+      "P7-E06"
+    ],
+    "sources": [
+      "S167",
+      "P7-09"
+    ],
+    "status": "candidate overlapping extraction; check outcome, timing, units, cohort"
+  },
+  {
+    "ids": [
+      "O028",
+      "P7-E11"
+    ],
+    "sources": [
+      "S169",
+      "P7-12"
+    ],
+    "status": "candidate overlapping extraction; check outcome, timing, units, cohort"
+  },
+  {
+    "ids": [
+      "O029",
+      "P3-E22"
+    ],
+    "sources": [
+      "S170",
+      "P3-20"
+    ],
+    "status": "candidate overlapping extraction; check outcome, timing, units, cohort"
+  },
+  {
+    "ids": [
+      "H02",
+      "P3-E07"
+    ],
+    "sources": [
+      "S012",
+      "P3-07"
+    ],
+    "status": "candidate overlapping extraction; check outcome, timing, units, cohort"
+  },
+  {
+    "ids": [
+      "K-probiotic-review-1",
+      "P5-E10"
+    ],
+    "sources": [
+      "S094",
+      "P5-11"
+    ],
+    "status": "candidate overlapping extraction; check outcome, timing, units, cohort"
+  },
+  {
+    "ids": [
+      "K-probiotic-review-2",
+      "P5-E11"
+    ],
+    "sources": [
+      "S095",
+      "P5-12"
+    ],
+    "status": "candidate overlapping extraction; check outcome, timing, units, cohort"
+  },
+  {
+    "ids": [
+      "K-omega3-2",
+      "P5-E13"
+    ],
+    "sources": [
+      "S082",
+      "P5-14"
+    ],
+    "status": "candidate overlapping extraction; check outcome, timing, units, cohort"
+  },
+  {
+    "ids": [
+      "K-calcium-1",
+      "P5-E03"
+    ],
+    "sources": [
+      "S092",
+      "P5-05"
+    ],
+    "status": "candidate overlapping extraction; check outcome, timing, units, cohort"
+  },
+  {
+    "ids": [
+      "K-abdominal-distance",
+      "IA-N05"
+    ],
+    "sources": [
+      "R009",
+      "R009"
+    ],
+    "status": "candidate overlapping extraction; check outcome, timing, units, cohort"
+  },
+  {
+    "ids": [
+      "HA-N11",
+      "P3-E24"
+    ],
+    "sources": [
+      "S036",
+      "P3-23"
+    ],
+    "status": "candidate overlapping extraction; check outcome, timing, units, cohort"
+  },
+  {
+    "ids": [
+      "HA-N12",
+      "P3-E25"
+    ],
+    "sources": [
+      "S036",
+      "P3-23"
+    ],
+    "status": "candidate overlapping extraction; check outcome, timing, units, cohort"
+  },
+  {
+    "ids": [
+      "HA-N13",
+      "P3-E26"
+    ],
+    "sources": [
+      "S036",
+      "P3-23"
+    ],
+    "status": "candidate overlapping extraction; check outcome, timing, units, cohort"
+  },
+  {
+    "ids": [
+      "HA-N14",
+      "P3-E27"
+    ],
+    "sources": [
+      "S036",
+      "P3-23"
+    ],
+    "status": "candidate overlapping extraction; check outcome, timing, units, cohort"
+  },
+  {
+    "ids": [
+      "GA-N01",
+      "P3-E17"
+    ],
+    "sources": [
+      "S030",
+      "P3-12"
+    ],
+    "status": "candidate overlapping extraction; check outcome, timing, units, cohort"
+  },
+  {
+    "ids": [
+      "IA-N01",
+      "P3-E12"
+    ],
+    "sources": [
+      "S032",
+      "P3-11"
+    ],
+    "status": "candidate overlapping extraction; check outcome, timing, units, cohort"
+  },
+  {
+    "ids": [
+      "IA-N02",
+      "P3-E13"
+    ],
+    "sources": [
+      "S032",
+      "P3-11"
+    ],
+    "status": "candidate overlapping extraction; check outcome, timing, units, cohort"
+  },
+  {
+    "ids": [
+      "IA-N03",
+      "P3-E14"
+    ],
+    "sources": [
+      "S032",
+      "P3-11"
+    ],
+    "status": "candidate overlapping extraction; check outcome, timing, units, cohort"
+  },
+  {
+    "ids": [
+      "IA-N04",
+      "P3-E11"
+    ],
+    "sources": [
+      "S028",
+      "P3-10"
+    ],
+    "status": "candidate overlapping extraction; check outcome, timing, units, cohort"
+  },
+  {
+    "ids": [
+      "DR-N03",
+      "P5-E05"
+    ],
+    "sources": [
+      "DR003",
+      "P5-07"
+    ],
+    "status": "candidate overlapping extraction; check outcome, timing, units, cohort"
+  },
+  {
+    "ids": [
+      "DR-N04",
+      "P5-E06"
+    ],
+    "sources": [
+      "DR003",
+      "P5-07"
+    ],
+    "status": "candidate overlapping extraction; check outcome, timing, units, cohort"
+  },
+  {
+    "ids": [
+      "GE-N01",
+      "P5-E15"
+    ],
+    "sources": [
+      "GE001",
+      "P5-16"
+    ],
+    "status": "candidate overlapping extraction; check outcome, timing, units, cohort"
+  },
+  {
+    "ids": [
+      "GE-N04",
+      "P5-E19"
+    ],
+    "sources": [
+      "GE002",
+      "P5-18"
+    ],
+    "status": "candidate overlapping extraction; check outcome, timing, units, cohort"
+  },
+  {
+    "ids": [
+      "GE-N09",
+      "P5-E08"
+    ],
+    "sources": [
+      "GE005",
+      "P5-09"
+    ],
+    "status": "candidate overlapping extraction; check outcome, timing, units, cohort"
+  },
+  {
+    "ids": [
+      "GE-N10",
+      "P5-E09"
+    ],
+    "sources": [
+      "GE005",
+      "P5-09"
+    ],
+    "status": "candidate overlapping extraction; check outcome, timing, units, cohort"
+  },
+  {
+    "ids": [
+      "P4-E01",
+      "PED-E10"
+    ],
+    "sources": [
+      "P4-01",
+      "PED-PARENT"
+    ],
+    "status": "candidate overlapping extraction; check outcome, timing, units, cohort"
+  },
+  {
+    "ids": [
+      "P4-E02",
+      "PED-E11"
+    ],
+    "sources": [
+      "P4-01",
+      "PED-PARENT"
+    ],
+    "status": "candidate overlapping extraction; check outcome, timing, units, cohort"
+  },
+  {
+    "ids": [
+      "P4-E03",
+      "PED-E12"
+    ],
+    "sources": [
+      "P4-01",
+      "PED-PARENT"
+    ],
+    "status": "candidate overlapping extraction; check outcome, timing, units, cohort"
+  },
+  {
+    "ids": [
+      "P4-E04",
+      "PED-E13"
+    ],
+    "sources": [
+      "P4-01",
+      "PED-PARENT"
+    ],
+    "status": "candidate overlapping extraction; check outcome, timing, units, cohort"
+  },
+  {
+    "ids": [
+      "P4-E05",
+      "PED-E14"
+    ],
+    "sources": [
+      "P4-01",
+      "PED-PARENT"
+    ],
+    "status": "candidate overlapping extraction; check outcome, timing, units, cohort"
+  },
+  {
+    "ids": [
+      "P4-E06",
+      "PED-E15"
+    ],
+    "sources": [
+      "P4-01",
+      "PED-PARENT"
+    ],
+    "status": "candidate overlapping extraction; check outcome, timing, units, cohort"
+  },
+  {
+    "ids": [
+      "P6-E16",
+      "P6-E17"
+    ],
+    "sources": [
+      "P6-21",
+      "P6-21"
+    ],
+    "status": "candidate overlapping extraction; check outcome, timing, units, cohort"
+  },
+  {
+    "ids": [
+      "P7-E38",
+      "PED-E1"
+    ],
+    "sources": [
+      "P7-58",
+      "PED-iKMC"
+    ],
+    "status": "candidate overlapping extraction; check outcome, timing, units, cohort"
+  },
+  {
+    "ids": [
+      "P7-E39",
+      "PED-E2"
+    ],
+    "sources": [
+      "P7-58",
+      "PED-iKMC"
+    ],
+    "status": "candidate overlapping extraction; check outcome, timing, units, cohort"
+  }
+]

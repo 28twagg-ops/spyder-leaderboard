@@ -1,0 +1,43 @@
+{
+  "outcome_rows": 311,
+  "interval_rows": 287,
+  "arm_rows": 21,
+  "explicit_hold_rows": 9,
+  "duplicate_outcome_ids": 0,
+  "possible_overlap_pairs": 45,
+  "numeric_errors": [],
+  "arm_errors": [
+    {
+      "id": "H11",
+      "flags": [
+        "invalid or incomplete arms"
+      ]
+    },
+    {
+      "id": "K-striae-cohort",
+      "flags": [
+        "invalid or incomplete arms"
+      ]
+    },
+    {
+      "id": "PED-E20",
+      "flags": [
+        "invalid or incomplete arms"
+      ]
+    },
+    {
+      "id": "PED-E21",
+      "flags": [
+        "invalid or incomplete arms"
+      ]
+    },
+    {
+      "id": "PED-E22",
+      "flags": [
+        "invalid or incomplete arms"
+      ]
+    }
+  ],
+  "chart_eligible": 0,
+  "clinical_review": false
+}
