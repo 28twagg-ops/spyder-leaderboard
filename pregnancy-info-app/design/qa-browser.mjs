@@ -40,7 +40,7 @@ const routes=[
  ['home','/'],['journey','/timeline'],['preparation','/timeline/preconception'],['pregnancy','/timeline/pregnancy'],
  ['week-22','/timeline/week/22'],['phase','/timeline/preconception/PRE04'],['explore','/explore'],
  ['body','/explore/body'],['child-collection','/explore/baby-child'],['nutrition','/explore/nutrition'],
- ['search','/library'],['saved','/saved'],['reader','/research/EV-ART-018'],['evidence','/evidence'],
+ ['search','/library'],['saved','/saved'],['reader','/research/EV-ART-018'],['urgent-reader','/research/EV-ART-037'],['evidence','/evidence'],
  ['outcomes','/evidence/outcomes'],['nutrients','/evidence/nutrients'],['visuals','/visuals'],
  ['settings','/settings'],['urgent','/urgent'],['install','/install'],['not-found','/unknown-route']
 ]
@@ -92,6 +92,23 @@ try{
      await page.getByRole('link',{name:/Nausea and traditional remedies/}).click()
      await page.getByRole('button',{name:'Back',exact:true}).click()
      assert.equal(await page.getByLabel('Search articles').inputValue(),'morning sickness')
+    })
+    await check('reading layers keep original archive separate',async()=>{
+     await open(page,'/research/EV-ART-018')
+     const learn=page.locator('#understand-more')
+     assert.equal(await learn.getAttribute('open'),null)
+     const archive=page.locator('details').filter({has:page.locator('summary').getByText('Archived AI summary for comparison',{exact:true})})
+     assert.equal(await archive.first().getAttribute('open'),null)
+     await learn.locator('summary').click()
+     assert.notEqual(await learn.getAttribute('open'),null)
+     assert.equal(await archive.first().getAttribute('open'),null)
+     await shot(page,'reader-expanded',size)
+    })
+    await check('urgent source safety is visible before reading overview',async()=>{
+     await open(page,'/research/EV-ART-037')
+     assert.equal(await page.locator('.urgent-reading-note').isVisible(),true)
+     assert.ok((await page.locator('.urgent-reading-note').innerText()).includes('100.4°F (38°C)'))
+     assert.ok(await page.evaluate(()=>Boolean(document.querySelector('.safety-panel').compareDocumentPosition(document.querySelector('.reader-purpose-block'))&Node.DOCUMENT_POSITION_FOLLOWING)))
     })
     await check('visual search survives return',async()=>{
      await open(page,'/visuals');await page.getByLabel('Search visual references').fill('pelvic floor')

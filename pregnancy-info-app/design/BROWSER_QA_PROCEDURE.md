@@ -9,3 +9,5 @@ This is the next required visual gate, not a claim that browser tests have alrea
 5. This is Chromium responsive emulation, not iPhone Safari, VoiceOver or installed PWA acceptance. Manually test these, 200% text, keyboard, device/browser safe areas, update behavior and actual iPhone setup. Require independent visual review where available and owner acceptance. No public clinical release.
 
 The script is an unexecuted QA candidate in this chat because the local environment cannot retrieve the current application source/build and independent agents are unavailable. Validate the harness itself in the first PC run; fix any selector/runner assumptions without weakening meaningful assertions. Do not represent a successful fixture or unit test as actual visual verification.
+
+The runner now includes the urgent infant reader and separate optional reading layer, and checks that the archive stays collapsed. These added checks still require an actual local run. The main checklist is authoritative for verified evidence, not the existence of a QA script.
