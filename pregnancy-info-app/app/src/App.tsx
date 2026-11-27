@@ -1,3 +1,4 @@
+import { lazy, Suspense } from 'react'
 import { Navigate, Route, Routes } from 'react-router-dom'
 import { BottomNav } from './components/BottomNav'
 import { ExplorePage } from './pages/ExplorePage'
@@ -7,6 +8,11 @@ import { ResearchPage } from './pages/ResearchPage'
 import { TimelinePage } from './pages/TimelinePage'
 import { TodayPage } from './pages/TodayPage'
 
+const EvidencePage = lazy(async () => {
+  const mod = await import('./pages/EvidencePage')
+  return { default: mod.EvidencePage }
+})
+
 export default function App() {
   return (
     <div className="app-shell">
@@ -14,16 +20,19 @@ export default function App() {
         Skip to content
       </a>
       <main id="main">
-        <Routes>
-          <Route path="/" element={<TodayPage />} />
-          <Route path="/timeline" element={<TimelinePage />} />
-          <Route path="/explore" element={<ExplorePage />} />
-          <Route path="/research" element={<ResearchPage />} />
-          <Route path="/research/:topicId" element={<ResearchPage />} />
-          <Route path="/library" element={<LibraryPage />} />
-          <Route path="/install" element={<InstallPage />} />
-          <Route path="*" element={<Navigate to="/" replace />} />
-        </Routes>
+        <Suspense fallback={<p className="muted">Loading…</p>}>
+          <Routes>
+            <Route path="/" element={<TodayPage />} />
+            <Route path="/timeline" element={<TimelinePage />} />
+            <Route path="/explore" element={<ExplorePage />} />
+            <Route path="/research" element={<ResearchPage />} />
+            <Route path="/research/:topicId" element={<ResearchPage />} />
+            <Route path="/evidence" element={<EvidencePage />} />
+            <Route path="/library" element={<LibraryPage />} />
+            <Route path="/install" element={<InstallPage />} />
+            <Route path="*" element={<Navigate to="/" replace />} />
+          </Routes>
+        </Suspense>
       </main>
       <BottomNav />
     </div>

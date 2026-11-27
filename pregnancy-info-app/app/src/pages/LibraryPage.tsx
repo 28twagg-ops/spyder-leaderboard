@@ -24,6 +24,15 @@ export function LibraryPage() {
       </header>
       <DraftBanner status="research_only" />
 
+      <div className="cta-row">
+        <Link className="btn btn-primary" to="/evidence">
+          Open evidence browser
+        </Link>
+        <Link className="btn btn-ghost" to="/install">
+          Home Screen help
+        </Link>
+      </div>
+
       <section className="panel stack">
         <h2 style={{ margin: 0, fontSize: '1.1rem' }}>Loaded into the app</h2>
         <ul className="list-clean">

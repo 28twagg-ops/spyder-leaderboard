@@ -1,5 +1,7 @@
 import { Link } from 'react-router-dom'
+import { BodyMap } from '../components/BodyMap'
 import { DraftBanner } from '../components/DraftBanner'
+import { OfflineBanner } from '../components/OfflineBanner'
 import { articlesByDomain, listDomains } from '../data/researchCatalog'
 import { editorialPriorityLabel } from '../data/researchGate'
 
@@ -14,13 +16,16 @@ export function ExplorePage() {
           Topic map
         </h1>
         <p className="lede" style={{ margin: 0 }}>
-          Staged research articles by domain. Priority labels are editorial navigation, not GRADE
-          or personal medical orders.
+          Body-map regions plus full domain lists. Priority labels are editorial navigation, not
+          GRADE or personal medical orders.
         </p>
       </header>
       <DraftBanner status="research_only" />
+      <OfflineBanner />
 
-      <section className="panel" aria-label="Domains">
+      <BodyMap />
+
+      <section className="panel" aria-label="All domains">
         <div
           style={{
             display: 'grid',
@@ -42,7 +47,12 @@ export function ExplorePage() {
       </section>
 
       {domains.map((domain) => (
-        <section key={domain} id={`domain-${domain}`} className="stack" aria-labelledby={`h-${domain}`}>
+        <section
+          key={domain}
+          id={`domain-${domain}`}
+          className="stack"
+          aria-labelledby={`h-${domain}`}
+        >
           <h2 id={`h-${domain}`} style={{ margin: 0, fontSize: '1.2rem' }}>
             {domain}
           </h2>

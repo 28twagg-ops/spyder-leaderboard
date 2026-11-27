@@ -1,5 +1,5 @@
 /**
- * Sync stage-09/10 research JSON into the app data package.
+ * Sync stage-09/10 research JSON/JSONL into the app data package.
  * Does not promote clinical publication; preserves draft + hold metadata.
  */
 import fs from 'node:fs'
@@ -11,7 +11,7 @@ const appRoot = path.resolve(__dirname, '..')
 const researchRoot = path.resolve(appRoot, '..', 'research')
 const outDir = path.join(appRoot, 'src', 'data', 'imported')
 
-const files = [
+const jsonFiles = [
   ['staged-completion/stage-09/ARTICLES.json', 'articles.json'],
   ['staged-completion/stage-09/ACTIONS.json', 'actions.json'],
   ['staged-completion/stage-09/FAQ.json', 'faq.json'],
@@ -23,6 +23,11 @@ const files = [
   ['staged-completion/stage-10/CONSOLIDATED_IMPORT.json', 'consolidated_import.json'],
 ]
 
+const jsonlFiles = [
+  ['staged-completion/stage-10/OUTCOMES.jsonl', 'outcomes.json'],
+  ['staged-completion/stage-10/NUTRIENTS.jsonl', 'nutrients.json'],
+]
+
 fs.mkdirSync(outDir, { recursive: true })
 
 const summary = {
@@ -30,27 +35,46 @@ const summary = {
   integration_mode: 'research_draft_navigation',
   clinical_publication: false,
   archived_ai_conclusions_are_guidance: false,
+  chart_publication: false,
   files: [],
 }
 
-for (const [rel, outName] of files) {
-  const src = path.join(researchRoot, rel)
+function writeSynced(outName, sourceRel, parsed, rawBytes) {
   const dest = path.join(outDir, outName)
+  const text = JSON.stringify(parsed)
+  fs.writeFileSync(dest, text)
+  summary.files.push({
+    source: sourceRel,
+    output: outName,
+    bytes: rawBytes ?? Buffer.byteLength(text),
+    records: Array.isArray(parsed) ? parsed.length : undefined,
+  })
+  console.log('synced', outName, Array.isArray(parsed) ? `(${parsed.length})` : '')
+}
+
+for (const [rel, outName] of jsonFiles) {
+  const src = path.join(researchRoot, rel)
   if (!fs.existsSync(src)) {
     console.warn('missing', src)
     continue
   }
   const raw = fs.readFileSync(src, 'utf8')
-  JSON.parse(raw) // validate
-  fs.writeFileSync(dest, raw)
-  const parsed = JSON.parse(raw)
-  summary.files.push({
-    source: rel,
-    output: outName,
-    bytes: Buffer.byteLength(raw),
-    records: Array.isArray(parsed) ? parsed.length : undefined,
-  })
-  console.log('synced', outName)
+  writeSynced(outName, rel, JSON.parse(raw), Buffer.byteLength(raw))
+}
+
+for (const [rel, outName] of jsonlFiles) {
+  const src = path.join(researchRoot, rel)
+  if (!fs.existsSync(src)) {
+    console.warn('missing', src)
+    continue
+  }
+  const raw = fs.readFileSync(src, 'utf8')
+  const rows = raw
+    .split(/\r?\n/)
+    .map((line) => line.trim())
+    .filter(Boolean)
+    .map((line) => JSON.parse(line))
+  writeSynced(outName, rel, rows, Buffer.byteLength(raw))
 }
 
 fs.writeFileSync(path.join(outDir, 'sync_meta.json'), JSON.stringify(summary, null, 2))

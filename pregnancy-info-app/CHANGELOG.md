@@ -1,5 +1,13 @@
 # Changelog
 
+## 0.3.0 — 2026-11-27
+
+- Body-map SVG with accessible list twin on Explore
+- Offline/online freshness banner with research sync timestamp
+- Evidence browser for 311 outcomes + 403 nutrient rows (charts/dosing still blocked)
+- Clinical review packaging doc + independent appraisal ledger scaffold
+- Final software milestone push candidate (human clinical/device gates remain)
+
 ## 0.2.0 — 2026-11-27
 
 - Integrated stage-09/10 research inventory into the app (52 articles, 52 actions, 52 FAQs, 28 phases, 40 gestational weeks, 217 source links, 9 routines)

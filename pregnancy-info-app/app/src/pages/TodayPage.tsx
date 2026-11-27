@@ -1,5 +1,6 @@
 import { Link } from 'react-router-dom'
 import { DraftBanner } from '../components/DraftBanner'
+import { OfflineBanner } from '../components/OfflineBanner'
 import { UrgentSigns } from '../components/UrgentSigns'
 import {
   catalogStats,
@@ -39,6 +40,7 @@ export function TodayPage() {
       </header>
 
       <DraftBanner status="research_only" />
+      <OfflineBanner />
 
       <section className="panel stack" aria-labelledby="start-heading">
         <div>

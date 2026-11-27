@@ -1,8 +1,9 @@
 {
-  "synced_at": "2026-11-27T12:04:29.638Z",
+  "synced_at": "2026-11-27T12:09:12.038Z",
   "integration_mode": "research_draft_navigation",
   "clinical_publication": false,
   "archived_ai_conclusions_are_guidance": false,
+  "chart_publication": false,
   "files": [
     {
       "source": "staged-completion/stage-09/ARTICLES.json",
@@ -55,6 +56,18 @@
       "source": "staged-completion/stage-10/CONSOLIDATED_IMPORT.json",
       "output": "consolidated_import.json",
       "bytes": 58180
+    },
+    {
+      "source": "staged-completion/stage-10/OUTCOMES.jsonl",
+      "output": "outcomes.json",
+      "bytes": 298417,
+      "records": 311
+    },
+    {
+      "source": "staged-completion/stage-10/NUTRIENTS.jsonl",
+      "output": "nutrients.json",
+      "bytes": 286881,
+      "records": 403
     }
   ]
 }
