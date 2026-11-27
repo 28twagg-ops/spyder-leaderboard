@@ -1,3 +1,5 @@
+> **Budget-aware execution:** For Everwell, read [Cursor usage strategy](pregnancy-info-app/CURSOR_USAGE_STRATEGY.md) before planning model selection or work batches. Use actual remaining included allowances and reset dates; preserve a reserve, prefer efficient models for mechanical work, and never incur extra charges without owner approval. Independent evidence and safety requirements remain controlling.
+
 # Claude entry point — Everwell (pregnancy-info-app)
 
 If assigned to Everwell or pregnancy research, **read these in order before any work**:
