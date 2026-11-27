@@ -3,7 +3,9 @@ import {getEvidenceSource, outcomes, hasEvidenceHold} from './evidenceCatalog'
 import {isSourceOrOutcomeHeld} from './researchGate'
 export const skinTopicMap=data
 export const slug=(title:string)=>title.toLowerCase().replace(/&/g,'and').replace(/[^a-z0-9]+/g,'-').replace(/^-|-$/g,'')
-export const skinSections=data.sections
+interface SkinChild {title:string;source_ids:string[];outcome_ids:string[];explicit_hold_source_ids:string[];note?:string}
+interface SkinSection {id:string;title:string;stage:string;children:SkinChild[]}
+export const skinSections:SkinSection[]=data.sections
 export function skinSection(id:string|undefined){return skinSections.find(s=>s.id===id)}
 export function skinChild(section:string|undefined,child:string|undefined){return skinSection(section)?.children.find(c=>slug(c.title)===child)}
 export function sourceGroups(ids:string[]){
