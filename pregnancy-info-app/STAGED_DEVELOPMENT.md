@@ -21,7 +21,7 @@ Remaining findings:
 - Current draft text is still visible for private review; disclaimers do not constitute clinical clearance.
 - Body map is a basic navigational silhouette; scientific illustrations and licenses pending.
 - Sync timestamp represents packaging, not evidence freshness; add separate provenance/version dates.
-- Local storage preference hook is not yet a shared app-wide state provider. Review before implementing bookmarks, privacy controls and phase selection.
+- Local preferences now use a shared app-wide provider (Stage 4); device storage and privacy tests remain pending.
 - Verify PWA caching, offline routes, contrast, accessible targets, icon artwork, device behavior, and external resource privacy in an execution environment.
 - Qualified clinical review, independent source appraisal and owner release remain open.
 
@@ -41,9 +41,22 @@ Remaining findings:
 - Regression tests added for pagination, search, source linking and hold suppression; not run in an execution environment.
 - Commits: `1fd1bc67af7b5abc550dfbb095eed83d079cd365`, `d369c303540f8414f4d9f5f7943d7d95f6abd490`, `fb753c91401ccf546bf890a820deb36110d66898`, `3c1154d43fa317c63dca50322c0a7cc40c17a8b5`, `cd282473b3bca2ca4e29886ab1cf63a8dc442b1c`, `fda93e7cb05d5ea023f04b80538400ecd09605ea`.
 
+## Stage 4 — local search and preferences (changes committed; execution verification pending)
+
+- Shared app-wide preferences provider; optional phase selection without assuming pregnancy or personal status; bookmarks and manually marked reading items; search and category/saved filters on all 52 articles in source order.
+- Local-only theme, phase and reading markers; no default stored personal stage, search history, cloud sync, analytics or health records. Export shown only on request, explicit clear confirmation; local storage is not encrypted, and device users may see interests. Cross-tab synchronization and runtime privacy verification pending.
+- Morning Stone default and Soft Fog alternative retained; regression tests for shared preferences, malformed data, clearing, search and saving added, not run.
+- Commits: `132937219d94329b298604d4ac7d83bd364d3fb1`, `bf226c9a280e7db75104f63624b45803ea781426`, `64d41f5e46fa9ab52bb0e147c6e49b5e2d26bfcb`, `6a242d6b0a81964771eb6ec13e819b6fa36863a7`, `281ee9fcde4cfb0fa868243766531d9c95a8f55d`, `09612d8f71feb6019e221dbb4a82c27979d837de`, `104289322958841d7344c4a2350c8f60693a301d`, `9571e0a3cbf1570e8b3d1563e668b9fa8e4622e8`, `35cb2a575bf6bc2a4f391b95bef92bd3032bd160`.
+
+## Stage 5 — independent scientific appraisal (initial batch committed; broader appraisal ongoing)
+
+- [Original-source batch 001](research/independent-appraisal/BATCH_001.md) covers six primary publications across five cohorts: prenatal NTD prevention, later postpartum exercise, and complementary feeding. Five existing publications represented by six source IDs; one external candidate. Original abstract or accessible full text and recorded funding evidence were inspected with explicit access caveats and prior-summary exposure disclosure.
+- [Archive comparison](research/independent-appraisal/BATCH_001_COMPARISON.md) recorded separately after first-pass commit. Seven existing numeric rows matched original sources, representing six distinct effect estimates. MRC S089/P5-02 duplicate publication and effect; NZ BLISS growth/choking reports share a cohort. Mixed trial funding and in-kind support recorded; unknown disclosures remain unknown.
+- [Ledger](research/independent-appraisal/LEDGER.md) populated; further source batches, protocol/retraction/full-text and claim-level hold review, funding tracing, independent reviewer and qualified clinical review pending. No changes to publication gates, clinical copy or canonical research data. Stage 5 is not fully completed across 770 source records.
+- Commits: `7d0a079cd1eb4157c15a47a52abfe3b9d041e336`, `55407e10f6227c2379e97bf6672a9ee03facb074`, `1034f4dd2e9ec4b6663babd1608723a6b2e46bda`.
+
 ## Subsequent stages (stop after each checkpoint)
-4. Search and local preferences: topic search, bookmarks, optional phase navigation, clear/export preferences, privacy tests.
-5. Independent scientific appraisal: source-linked evidence/funding/risk-of-bias ledger; original papers, duplicate cohort checks, no promotion without clinical review.
+5. Continue independent appraisal in bounded batches alongside remaining development, before any clinical release.
 6. Scientific visuals: license/attribution verification, accessible accurate figures, no clinical claims from unverified figures.
 7. Morning Stone UX polish: responsive design, accessibility, user testing, no architectural rewrite without owner approval.
 8. Execution/device verification: install dependencies, run build/tests, inspect browser, verify offline behavior, iPhone Home Screen testing by owner.
