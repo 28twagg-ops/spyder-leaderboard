@@ -77,6 +77,8 @@ export interface TimelinePhase {
 
 export interface GestationalWeek {
   week: number
+  source_window_start?: number
+  source_window_end?: number
   description: string
   source_id?: string
   maternal_phase?: string
