@@ -29,7 +29,7 @@ export function TodayPage() {
         <div className="eyebrow">Research draft · for families</div>
         <h1 className="brand">Everwell</h1>
         <p className="lede" style={{ margin: 0, position: 'relative', zIndex: 1 }}>
-          Clear, calm guidance for preparation, pregnancy, recovery, and early childhood — with
+          Clear, calm research education for preparation, pregnancy, recovery, and early childhood — with
           deeper evidence available when you want it.
         </p>
         <div className="cta-row" style={{ position: 'relative', zIndex: 1 }}>
