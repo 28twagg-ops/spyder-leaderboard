@@ -23,3 +23,6 @@ Do not confuse conventional wisdom, authority, peer review, independence, popula
 - Cochrane Handbook Ch 14, certainty by outcome: https://www.cochrane.org/authors/handbooks-and-manuals/handbook/current/chapter-14 (risk of bias, inconsistency, indirectness, imprecision, publication bias).
 - FDA AEMS dashboard limitations: https://www.fda.gov/drugs/fda-adverse-event-monitoring-system-aems/fda-adverse-event-monitoring-system-aems-public-dashboard (reports are safety signals, not incidence/causation).
 These are methodology references, not independent clinical treatment evidence. No new clinical recommendation or completed review claimed.
+
+## Traditional-practice clarification — 2026-11-27
+Treat longevity and informal observation as reasons to investigate; absence of disproof is not proof of benefit or safety. Apply the same methods to pharmaceutical, herbal, food, manual, device and traditional approaches; examine commercial interests beyond pharmaceutical industry. Preserve favorable, unfavorable and null outcomes; distinguish lack of evidence from convincing evidence of no meaningful benefit. Keep unsafe or unsubstantiated protocols out of recommendations; do not suppress safe historical/contextual questions merely because they lack formal accreditation.

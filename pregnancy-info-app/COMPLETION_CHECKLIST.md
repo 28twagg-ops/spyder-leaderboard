@@ -141,3 +141,6 @@ Evidence: prior preview 8b51b5f76a0d4624cf2c1879021c52da98f82de1; preference/sea
 
 - [x] Authored inline cross-reference navigation and route/phrase tests; previous stage 7–14 CI/deployment passed.
 - [ ] Verify new candidate build, actual iPhone article links/Back, and refine phrase coverage from owner feedback.
+
+- [x] Traditional practices: 28 targeted source checks, five draft pathways, media leads and cross-links authored.
+- [ ] Complete full-text, trial-level funding/COI/retraction/overlap, historical/ethnographic and nonacademic media search, clinical and device review; verify new CI.

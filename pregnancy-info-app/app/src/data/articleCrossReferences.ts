@@ -566,7 +566,12 @@ export const referenceRules:ReferenceRule[]=[
     ],
     "to": "/contraception/barriers",
     "label": "Barrier methods and gels"
-  }
+  },
+{"phrases":["raspberry leaf","raspberry leaf tea","dates for labor","warm perineal compress"],"to":"/research-pathways/traditional-birth","label":"Traditional birth preparation"},
+{"phrases":["aromatherapy","acupressure","lemon aroma"],"to":"/research-pathways/traditional-nausea","label":"Traditional nausea research"},
+{"phrases":["cabbage leaves","abdominal binding","abdominal binder"],"to":"/research-pathways/traditional-recovery","label":"Traditional postpartum comfort"},
+{"phrases":["pregnancy folklore","old wives' tales","old wives’ tales"],"to":"/research-pathways/folklore","label":"Pregnancy folklore research"},
+{"phrases":["fennel oil","herbal colic remedies","honey for cough"],"to":"/research-pathways/traditional-child","label":"Traditional childhood remedies"}
 ]
 export type TextPart={text:string;to?:string;label?:string}
 const escapeRegExp=(text:string)=>text.replace(/[.*+?^$\{\}()|[\]\\]/g,'\\$&')

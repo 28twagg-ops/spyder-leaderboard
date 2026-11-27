@@ -349,6 +349,407 @@
       "review": "preliminary source check; independent human/clinical review pending",
       "clinical_review": false,
       "publish": false
+    },
+    {
+      "id": "TR-01",
+      "title": "Costigan et al. (2006): pregnancy folklore, heartburn and newborn hair",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/17150070/",
+      "type": "Observational study",
+      "checked": "64 participants; rank correlation 0.40, p<0.001. Average/above-average newborn hair in 23/28 moderate/severe heartburn cases versus 2/12 no-heartburn cases.",
+      "funding": "Johns Hopkins affiliation; funding, conflicts and sponsor role not verified.",
+      "limits": "Small sample, self-reported symptom scores, observational correlation; biological mechanism proposed, not tested. Not a prediction or treatment.",
+      "aliases": [],
+      "locator": "PubMed abstract methods and results; full text not retrieved",
+      "review": "Preliminary source check; independent and clinical review pending",
+      "clinical_review": false,
+      "publish": false
+    },
+    {
+      "id": "TR-02",
+      "title": "Costigan et al. (1999): testing fetal-sex folklore",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/10655817/",
+      "type": "Observational questionnaire",
+      "checked": "104 pregnant participants unaware of fetal sex; survey examined folklore-based and other predictions. Carrying shape was not validated as a reliable prediction method.",
+      "funding": "Funding and COI unknown.",
+      "limits": "Small questionnaire; subgroup findings and multiple comparisons require review; no clinical sex determination.",
+      "aliases": [],
+      "locator": "Indexed original abstract or publisher excerpt; full-text audit pending",
+      "review": "Preliminary source check; independent and clinical review pending",
+      "clinical_review": false,
+      "publish": false
+    },
+    {
+      "id": "TR-03",
+      "title": "Retrospective report of nausea and fetal sex (2021)",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/33098451/",
+      "type": "Observational study",
+      "checked": "Higher first-trimester nausea/vomiting frequency was reported with female fetuses.",
+      "funding": "Funding and COI unknown.",
+      "limits": "Recall bias and overlapping distributions; association cannot determine fetal sex.",
+      "aliases": [],
+      "locator": "Indexed original abstract or publisher excerpt; full-text audit pending",
+      "review": "Preliminary source check; independent and clinical review pending",
+      "clinical_review": false,
+      "publish": false
+    },
+    {
+      "id": "TR-04",
+      "title": "2026 plant-derived remedies network meta-analysis",
+      "url": "https://link.springer.com/article/10.1186/s12906-026-05647-1",
+      "type": "Systematic review",
+      "checked": "VAS nausea network: ginger MD −2.06 (95% CI −2.91 to −1.20) versus placebo, low confidence. PUQE network inconsistent and unreliable.",
+      "funding": "Existing stage-07 archive reports no external funding, academic publication support; original full disclosure not rechecked.",
+      "limits": "Distinct scales and symptoms; low certainty, overlapping trials, no reliable safety or universal treatment inference.",
+      "aliases": [
+        "P7-02"
+      ],
+      "locator": "Indexed original abstract or publisher excerpt; full-text audit pending",
+      "review": "Preliminary source check; independent and clinical review pending",
+      "clinical_review": false,
+      "publish": false
+    },
+    {
+      "id": "TR-05",
+      "title": "2024 acupressure meta-analysis",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/38104041/",
+      "type": "Systematic review",
+      "checked": "Sham comparison for prevention of nausea/vomiting: RR 0.83 (95% CI 0.50–1.38); no clear benefit on that endpoint.",
+      "funding": "Traditional Chinese medicine academic affiliations; actual grants and COI not verified.",
+      "limits": "Do not conflate prevention with symptom relief; sham comparisons and quality differ.",
+      "aliases": [],
+      "locator": "Indexed original abstract or publisher excerpt; full-text audit pending",
+      "review": "Preliminary source check; independent and clinical review pending",
+      "clinical_review": false,
+      "publish": false
+    },
+    {
+      "id": "TR-06",
+      "title": "2014 lemon inhalation randomized trial",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/24829772/",
+      "type": "Randomized trial",
+      "checked": "Studied lemon aroma for pregnancy nausea versus placebo; preliminary favorable symptom finding.",
+      "funding": "Academic affiliation; funding/COI and product supply not verified.",
+      "limits": "Odor can compromise blinding, subjective symptoms, limited duration. No essential oil ingestion or home regimen.",
+      "aliases": [],
+      "locator": "Indexed original abstract or publisher excerpt; full-text audit pending",
+      "review": "Preliminary source check; independent and clinical review pending",
+      "clinical_review": false,
+      "publish": false
+    },
+    {
+      "id": "TR-07",
+      "title": "2020 combined lemon and peppermint aroma trial",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC7737842/",
+      "type": "Randomized trial",
+      "checked": "Studied combined aromas versus placebo; not a test of each ingredient independently.",
+      "funding": "Birjand University research support acknowledged; Barij Essence Pharmaceutical Company assisted formulation of intervention and placebo. Exact sponsor role pending.",
+      "limits": "Short symptom trial; odor blinding and generalizability; even traditional remedies can have commercial involvement.",
+      "aliases": [],
+      "locator": "Indexed original acknowledgment and methods; direct page captcha",
+      "review": "Preliminary source check; independent and clinical review pending",
+      "clinical_review": false,
+      "publish": false
+    },
+    {
+      "id": "TR-08",
+      "title": "2018 peppermint aroma placebo-controlled trial",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC5960050/",
+      "type": "Randomized trial",
+      "checked": "56 participants studied; compare reported symptom change against placebo rather than assume peppermint is effective.",
+      "funding": "Academic affiliations; direct funding/COI not verified.",
+      "limits": "Limited sample and subjective symptoms; outcome extraction pending. No essential oil use protocol.",
+      "aliases": [],
+      "locator": "Indexed original abstract or publisher excerpt; full-text audit pending",
+      "review": "Preliminary source check; independent and clinical review pending",
+      "clinical_review": false,
+      "publish": false
+    },
+    {
+      "id": "TR-09",
+      "title": "2013 Cochrane antenatal perineal massage",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/23633325/",
+      "type": "Systematic review",
+      "checked": "Four trials, 2,480 women: trauma requiring suturing RR 0.91 (95% CI 0.86–0.96); episiotomy RR 0.84 (0.74–0.95).",
+      "funding": "Review and constituent trial funding/COI pending.",
+      "limits": "Older review, different parity and protocols; distinct from massage during labor; not home instructions.",
+      "aliases": [],
+      "locator": "Indexed original abstract or publisher excerpt; full-text audit pending",
+      "review": "Preliminary source check; independent and clinical review pending",
+      "clinical_review": false,
+      "publish": false
+    },
+    {
+      "id": "TR-10",
+      "title": "2024 Cochrane perineal techniques during labor",
+      "url": "https://doi.org/10.1002/14651858.CD016148",
+      "type": "Systematic review",
+      "checked": "Warm compress estimates for separate third- and fourth-degree tears very uncertain: RR 0.51 (0.04–7.05) and RR 0.11 (0.01–2.06), respectively.",
+      "funding": "Funding/COI and individual trials not fully audited.",
+      "limits": "Sparse event counts, broad intervals and different endpoints; not equivalent to antenatal massage.",
+      "aliases": [],
+      "locator": "Indexed original abstract or publisher excerpt; full-text audit pending",
+      "review": "Preliminary source check; independent and clinical review pending",
+      "clinical_review": false,
+      "publish": false
+    },
+    {
+      "id": "TR-11",
+      "title": "2019 warm compress meta-analysis",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/31238205/",
+      "type": "Systematic review",
+      "checked": "Combined severe tears 1.9% versus 5.8%, RR 0.34 (0.20–0.56), reported in older pooled trials.",
+      "funding": "Review and trial funders not verified.",
+      "limits": "Overlap with later reviews; endpoint combines severe tear grades, unlike separate-grade estimates; no independent pooling.",
+      "aliases": [],
+      "locator": "Indexed original abstract or publisher excerpt; full-text audit pending",
+      "review": "Preliminary source check; independent and clinical review pending",
+      "clinical_review": false,
+      "publish": false
+    },
+    {
+      "id": "TR-12",
+      "title": "2024 dates and peripartum outcomes systematic review",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/38166785/",
+      "type": "Systematic review",
+      "checked": "Includes randomized and nonrandomized studies of dates in late pregnancy, labor and postpartum. Potential benefits need outcome-specific appraisal.",
+      "funding": "Existing Stage 7 notes university grant; original disclosure not rechecked.",
+      "limits": "Mix of designs and times; safety not comprehensively established; no food-as-induction prescription.",
+      "aliases": [],
+      "locator": "Indexed original abstract or publisher excerpt; full-text audit pending",
+      "review": "Preliminary source check; independent and clinical review pending",
+      "clinical_review": false,
+      "publish": false
+    },
+    {
+      "id": "TR-13",
+      "title": "2021 raspberry leaf integrative review",
+      "url": "https://link.springer.com/article/10.1186/s12906-021-03230-4",
+      "type": "Systematic integrative review",
+      "checked": "Human evidence weak; laboratory findings include both smooth-muscle stimulation and relaxation. Observational report of higher cesarean odds, not causal.",
+      "funding": "Funding section exists; exact disclosure not reverified.",
+      "limits": "Animal/lab findings not evidence of human benefit; heterogeneous preparations; selection and indication bias.",
+      "aliases": [
+        "P7-06"
+      ],
+      "locator": "Indexed original abstract or publisher excerpt; full-text audit pending",
+      "review": "Preliminary source check; independent and clinical review pending",
+      "clinical_review": false,
+      "publish": false
+    },
+    {
+      "id": "TR-14",
+      "title": "2024 raspberry leaf prospective observational study",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/38649906/",
+      "type": "Observational study",
+      "checked": "Reported associations with less labor augmentation and more vaginal births; authors warn absence of observed harm does not prove safety.",
+      "funding": "Indexed full-text disclosure states no outside support or funding; complete COI and study role not verified.",
+      "limits": "Nonrandomized, likely confounding by birth preferences and care model; no causal effect or safety guarantee.",
+      "aliases": [],
+      "locator": "Indexed original abstract or publisher excerpt; full-text audit pending",
+      "review": "Preliminary source check; independent and clinical review pending",
+      "clinical_review": false,
+      "publish": false
+    },
+    {
+      "id": "TR-15",
+      "title": "Cochrane 2020 treatments for breast engorgement",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/32944940/",
+      "type": "Systematic review",
+      "checked": "Cold cabbage leaves versus usual care: pain MD −1.03 on 0–10 scale (95% CI −1.53 to −0.53; 152 women), very low certainty. Versus cold gel packs MD −0.63 (−1.09 to −0.17).",
+      "funding": "Funding and trial-level ties not fully audited.",
+      "limits": "Subjective pain, low certainty; not proof of improved milk supply or mastitis treatment.",
+      "aliases": [],
+      "locator": "Indexed original abstract or publisher excerpt; full-text audit pending",
+      "review": "Preliminary source check; independent and clinical review pending",
+      "clinical_review": false,
+      "publish": false
+    },
+    {
+      "id": "TR-16",
+      "title": "2021 abdominal binder meta-analysis (pain and distress)",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/33993065/",
+      "type": "Systematic review",
+      "checked": "Four randomized trials, 601 women; authors found no significant reduction in postoperative VAS pain, with lower distress.",
+      "funding": "Funding and product supply unknown.",
+      "limits": "Small heterogeneous studies; short postoperative outcomes; no evidence of permanent waist change or diastasis cure.",
+      "aliases": [],
+      "locator": "Indexed original abstract or publisher excerpt; full-text audit pending",
+      "review": "Preliminary source check; independent and clinical review pending",
+      "clinical_review": false,
+      "publish": false
+    },
+    {
+      "id": "TR-17",
+      "title": "2021 abdominal binder review (pain relief)",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/33471362/",
+      "type": "Systematic review",
+      "checked": "24h pain MD −1.76 (95% CI −3.14 to −0.39) reported favoring binder; 48h MD −1.21 (−1.51 to −0.90).",
+      "funding": "Funding and product supply unknown.",
+      "limits": "Potential overlap with TR-16, divergent inclusion/analysis; cannot combine as independent confirmation.",
+      "aliases": [],
+      "locator": "Indexed original abstract or publisher excerpt; full-text audit pending",
+      "review": "Preliminary source check; independent and clinical review pending",
+      "clinical_review": false,
+      "publish": false
+    },
+    {
+      "id": "TR-18",
+      "title": "2016 abdominal binder randomized trial",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/26892694/",
+      "type": "Randomized trial",
+      "checked": "No clear difference in day-1 postoperative pain (3.1 vs 3.4, p=.33).",
+      "funding": "Funding and COI not verified.",
+      "limits": "Postrandomization exclusions, no blinding to binder; compare with reviews, no cosmetic claims.",
+      "aliases": [
+        "S039"
+      ],
+      "locator": "Indexed original abstract or publisher excerpt; full-text audit pending",
+      "review": "Preliminary source check; independent and clinical review pending",
+      "clinical_review": false,
+      "publish": false
+    },
+    {
+      "id": "TR-19",
+      "title": "2025 abdominal binder updated meta-analysis",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/39793406/",
+      "type": "Systematic review",
+      "checked": "Reported reduced pain interference with breastfeeding (WMD −1.30, 95% CI −2.24 to −0.36).",
+      "funding": "Funding and manufacturer involvement unknown.",
+      "limits": "Need scale and cohort reconciliation; functional endpoint differs from waist or abdominal separation.",
+      "aliases": [
+        "S036",
+        "P3-23"
+      ],
+      "locator": "Indexed original abstract or publisher excerpt; full-text audit pending",
+      "review": "Preliminary source check; independent and clinical review pending",
+      "clinical_review": false,
+      "publish": false
+    },
+    {
+      "id": "TR-20",
+      "title": "2003 fennel oil emulsion infant colic trial",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/12868253/",
+      "type": "Randomized trial",
+      "checked": "125 enrolled; colic outcome in 40/62 versus 14/59 analyzed. Positive early result retained for research context only.",
+      "funding": "PubMed labels non-US government research support; specific grant, product formulation and conflicts unknown.",
+      "limits": "Small short trial; crying reports and formulation specificity; no established infant safety. Not appropriate for self-administration.",
+      "aliases": [],
+      "locator": "PubMed abstract and funding publication type",
+      "review": "Preliminary source check; independent and clinical review pending",
+      "clinical_review": false,
+      "publish": false
+    },
+    {
+      "id": "TR-21",
+      "title": "2011 complementary treatments for infant colic review",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/21444591/",
+      "type": "Systematic review",
+      "checked": "Encouraging results for some fennel and mixed herbal products, but major trial limitations precluded firm effectiveness conclusions.",
+      "funding": "Review and constituent funding not fully audited.",
+      "limits": "Older small trials, possible selective publication and heterogeneous products.",
+      "aliases": [],
+      "locator": "Indexed original abstract or publisher excerpt; full-text audit pending",
+      "review": "Preliminary source check; independent and clinical review pending",
+      "clinical_review": false,
+      "publish": false
+    },
+    {
+      "id": "TR-22",
+      "title": "EFSA 2025 draft assessment of estragole in fennel preparations",
+      "url": "https://www.efsa.europa.eu/en/news/have-your-say-estragole-fennel-seed-preparations",
+      "type": "Safety assessment draft",
+      "checked": "Draft assessment could not establish a safe exposure level and highlighted concern for vulnerable groups, including infants and pregnancy/lactation.",
+      "funding": "European public agency; underlying data submissions and interests need assessment.",
+      "limits": "Draft consultation, not final opinion; final status not verified. No infant herbal preparation or essential oil instructions.",
+      "aliases": [],
+      "locator": "Indexed original abstract or publisher excerpt; full-text audit pending",
+      "review": "Preliminary source check; independent and clinical review pending",
+      "clinical_review": false,
+      "publish": false
+    },
+    {
+      "id": "TR-23",
+      "title": "2018 Cochrane honey for acute cough in children",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC6513626/",
+      "type": "Systematic review",
+      "checked": "Short-term cough symptom relief may improve in children at least 12 months old.",
+      "funding": "Review reports two pharmaceutical-supported trials, university support, Honey Board of Israel/non-government support, US National Honey Board support, and one unknown.",
+      "limits": "Honey industry is a relevant conflict as well as pharma; subjective symptoms, short follow-up; never extrapolate to infants.",
+      "aliases": [],
+      "locator": "Indexed original abstract or publisher excerpt; full-text audit pending",
+      "review": "Preliminary source check; independent and clinical review pending",
+      "clinical_review": false,
+      "publish": false
+    },
+    {
+      "id": "TR-24",
+      "title": "CDC botulism prevention",
+      "url": "https://www.cdc.gov/botulism/prevention/",
+      "type": "Safety guidance",
+      "checked": "Do not give honey to infants under 12 months because of infant botulism risk.",
+      "funding": "US public agency; underlying source appraisal separate.",
+      "limits": "Safety boundary, not comparative cough efficacy.",
+      "aliases": [],
+      "locator": "Indexed original abstract or publisher excerpt; full-text audit pending",
+      "review": "Preliminary source check; independent and clinical review pending",
+      "clinical_review": false,
+      "publish": false
+    },
+    {
+      "id": "TR-25",
+      "title": "Evidence Based Birth podcast episode 218 replay: perineal massage in labor",
+      "url": "https://evidencebasedbirth.com/replay-ebb-218-the-evidence-on-perineal-massage-during-labor-with-dr-rebecca-dekker/",
+      "type": "Media lead",
+      "checked": "Transcript discusses warm compress, massage and hands-off comparison; use as a lead to original research TR-10/TR-11, not additional participants.",
+      "funding": "Publisher offers education products; exact creator financial interests and sponsor roles not audited.",
+      "limits": "Secondary commentary, replay may predate newer review; verify cited studies, no reuse of audio or transcript.",
+      "aliases": [],
+      "locator": "Publisher transcript excerpt; precise timestamp pending",
+      "review": "Preliminary source check; independent and clinical review pending",
+      "clinical_review": false,
+      "publish": false
+    },
+    {
+      "id": "TR-26",
+      "title": "NCT: Is it possible to bring on labour?",
+      "url": "https://www.nct.org.uk/information/labour-birth/planning-birth/it-possible-bring-labour",
+      "type": "Media lead",
+      "checked": "Public-facing educational article describes traditional raspberry leaf claims and other proposed labor-starting methods; trace to TR-12/TR-13/TR-14.",
+      "funding": "Charity publisher; specific funding and author interests not verified.",
+      "limits": "Not original empirical data; distinguish food research from unsafe self-induction; no instructions.",
+      "aliases": [],
+      "locator": "Publisher article excerpt; full source crosswalk pending",
+      "review": "Preliminary source check; independent and clinical review pending",
+      "clinical_review": false,
+      "publish": false
+    },
+    {
+      "id": "TR-27",
+      "title": "2022 survey of raspberry leaf tea in pregnancy",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/35188267/",
+      "type": "Observational survey",
+      "checked": "46 respondents (38%) reported use; 88 (73%) aware of herbal tea use.",
+      "funding": "Funding and conflicts unknown.",
+      "limits": "Measures use and awareness, not benefit; useful for identifying research priorities.",
+      "aliases": [],
+      "locator": "Indexed original abstract or publisher excerpt; full-text audit pending",
+      "review": "Preliminary source check; independent and clinical review pending",
+      "clinical_review": false,
+      "publish": false
+    },
+    {
+      "id": "TR-28",
+      "title": "2019 systematic review of herbal products in pregnancy and postpartum",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/30969204/",
+      "type": "Systematic review",
+      "checked": "Reported observational associations for almond oil, raspberry leaf and heavy licorice use; signals require exposure and confounding assessment.",
+      "funding": "Funding/COI pending.",
+      "limits": "Do not infer causality from observational associations; no safety clearance based on traditional use.",
+      "aliases": [],
+      "locator": "Indexed original abstract or publisher excerpt; full-text audit pending",
+      "review": "Preliminary source check; independent and clinical review pending",
+      "clinical_review": false,
+      "publish": false
     }
   ],
   "topics": [
@@ -624,6 +1025,176 @@
         ]
       ],
       "pending": "Full trial-level funding and conflicts, exact outcome extraction, recent follow-up, independent reviews, feeding readiness and safety, elimination communication, sleep and family experience research."
+    },
+    {
+      "id": "folklore",
+      "stage": 13,
+      "title": "Pregnancy folklore: what has been tested?",
+      "why": "Long-standing observations can be worth examining. An association may be real without being a useful individual prediction.",
+      "question": "Which familiar beliefs have human data?",
+      "refs": [
+        "TR-01",
+        "TR-02",
+        "TR-03"
+      ],
+      "articleIds": [
+        "EV-ART-014",
+        "EV-ART-017"
+      ],
+      "compare": [
+        [
+          "Heartburn and newborn hair",
+          "A small study found a moderate association; 23 of 28 with moderate or severe heartburn had babies with average or above-average hair. The mechanism was not demonstrated."
+        ],
+        [
+          "Baby's sex and symptoms",
+          "Some symptom patterns differ on average by fetal sex, but overlap is substantial. Abdominal shape and symptoms are not reliable sex tests."
+        ]
+      ],
+      "pending": "Replicate findings, inspect exact full texts, search ethnographic and historical literature; no unsupported claims."
+    },
+    {
+      "id": "traditional-nausea",
+      "stage": 13,
+      "title": "Traditional approaches to pregnancy nausea",
+      "why": "Symptom relief, vomiting prevention, hydration and pregnancy safety are separate outcomes.",
+      "question": "What has been tested beyond standard medicines?",
+      "refs": [
+        "TR-04",
+        "TR-05",
+        "TR-06",
+        "TR-07",
+        "TR-08"
+      ],
+      "articleIds": [
+        "EV-ART-017"
+      ],
+      "compare": [
+        [
+          "Ginger",
+          "A recent review found a possible reduction in nausea on one scale, with low confidence; another symptom scale produced inconsistent results."
+        ],
+        [
+          "Acupressure",
+          "Sham comparisons do not establish prevention. Investigate individual symptom outcomes and blinding separately."
+        ],
+        [
+          "Aromatherapy",
+          "Small inhalation trials deserve review, but findings cannot be generalized to oral oils, all products or long-term safety. One trial had commercial formulation assistance."
+        ]
+      ],
+      "pending": "Full trial funding, product identity, symptoms/harms and retraction checks; no self-treatment protocol; persistent or severe vomiting needs assessment."
+    },
+    {
+      "id": "traditional-birth",
+      "stage": 13,
+      "title": "Traditional birth preparation & labor comfort",
+      "why": "Long-used physical techniques and foods have different evidence bases. Comfort is not the same as preventing injury or initiating birth.",
+      "question": "Which low-cost practices have direct human evidence?",
+      "refs": [
+        "TR-09",
+        "TR-10",
+        "TR-11",
+        "TR-12",
+        "TR-13",
+        "TR-14",
+        "TR-25",
+        "TR-26",
+        "TR-27",
+        "TR-28"
+      ],
+      "articleIds": [
+        "EV-ART-020",
+        "EV-ART-021",
+        "EV-ART-022"
+      ],
+      "compare": [
+        [
+          "Perineal massage",
+          "Older antenatal review found fewer injuries requiring sutures and fewer episiotomies. Labor massage is a different intervention."
+        ],
+        [
+          "Warm compresses",
+          "Older pooled results favored fewer combined severe tears; later review estimates for individual tear grades were very imprecise."
+        ],
+        [
+          "Dates and raspberry leaf",
+          "Dates have suggestive but heterogeneous evidence. Raspberry leaf has weak evidence and conflicting observational associations; one newer study reports no outside funding, not absence of bias."
+        ],
+        [
+          "Midwifery media",
+          "Podcast and NCT article provide discovery leads, not extra independent trials. Original sources and limits are linked."
+        ]
+      ],
+      "pending": "No home induction or herb schedule; verify contraindications and safety with qualified reviewers. Investigate other cultural and midwifery traditions."
+    },
+    {
+      "id": "traditional-recovery",
+      "stage": 13,
+      "title": "Traditional postpartum comfort & recovery",
+      "why": "Symptom relief, breast feeding function, healing and permanent physical changes are different outcomes.",
+      "question": "Can inexpensive physical practices help with specific recovery symptoms?",
+      "refs": [
+        "TR-15",
+        "TR-16",
+        "TR-17",
+        "TR-18",
+        "TR-19"
+      ],
+      "articleIds": [
+        "EV-ART-026",
+        "EV-ART-027",
+        "EV-ART-028",
+        "EV-ART-034"
+      ],
+      "compare": [
+        [
+          "Cabbage leaves and cooling",
+          "Small evidence base suggests possible pain relief during engorgement. No proof of improved supply or treatment of infection."
+        ],
+        [
+          "Abdominal binding",
+          "Two reviews in 2021 reached differing postoperative pain findings; updated evidence examines interference with breastfeeding. No proof of permanent shaping or healing diastasis."
+        ],
+        [
+          "Practical implications",
+          "These are outcome-specific research questions, not a protocol. New or worsening postpartum symptoms should be assessed."
+        ]
+      ],
+      "pending": "Reconcile trial overlap, timing, clinically meaningful pain changes, safety and device supply funding; investigate culturally specific practices separately."
+    },
+    {
+      "id": "traditional-child",
+      "stage": 13,
+      "title": "Traditional childhood remedies: benefit and safety",
+      "why": "Young children are not small adults. A traditional product may have a positive symptom trial but insufficient safety evidence.",
+      "question": "Which remedies have evidence, and which remain unsafe or unverified?",
+      "refs": [
+        "TR-20",
+        "TR-21",
+        "TR-22",
+        "TR-23",
+        "TR-24"
+      ],
+      "articleIds": [
+        "EV-ART-040",
+        "EV-ART-052"
+      ],
+      "compare": [
+        [
+          "Infant colic and fennel",
+          "A positive older trial is a research lead, not a recommendation. Reviews identified serious limitations; a 2025 EFSA draft raised safety concerns for vulnerable groups. Do not administer fennel oil or herbal preparations to an infant based on this evidence."
+        ],
+        [
+          "Honey for cough",
+          "Some short-term benefit has been reported for children aged at least one year. Trial funding includes honey-industry and pharmaceutical interests. Never give honey to a child younger than 12 months because of botulism risk."
+        ],
+        [
+          "Family experiences",
+          "Reports of improvement matter as experiences, but natural recovery and differences in severity can make cause difficult to establish."
+        ]
+      ],
+      "pending": "Current pediatric safety and full disclosures, additional independent reviews and qualitative caregiver accounts; no infant dosing or unsafe self-treatment."
     }
   ],
   "weekQuestions": [
