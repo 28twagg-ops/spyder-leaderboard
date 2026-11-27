@@ -130,5 +130,7 @@ Highest priority: execute actual app browser screenshot matrix, independent visu
 ## Topic-first and bias-integrated information architecture — latest owner direction
 - [x] UX-06i: authored topic-first skin navigation and source/outcome crosswalk in design/SKIN_TOPIC_MAP.json; 111 source records linked, all 86 original registry records with the six selected skin/face/hair/scar tags mapped. Counts are records, not unique studies. Existing holds retained. No new deployment or claim of clinical review.
 - [x] GOV-06: documented mandatory claim-level footnotes, comparator reporting, funding and methodological bias separation in design/TOPIC_FIRST_EVIDENCE_STANDARD.md; prior approved independence standards remain controlling.
-- [ ] UX-06j: implement bounded Week 22 topic directory and skin subsections after owner design review; verify navigation, compact overview, accessibility and disclosure behavior in actual app.
+- [ ] UX-06j: bounded Week 22 topic directory and skin subsections implemented on preview candidate; owner approved design direction. Final build verification and actual-app visual/accessibility acceptance remain open.
 - [ ] SAFE-05: map remaining research inventory across every domain, resolve duplicate publications/cohorts, independently verify funding/author conflicts/sponsor role and claim-level citations, preserve all publication holds. Do not count draft mapping as qualified review.
+
+- [x] GOV-07: owner approved visual-first, short-takeaway evidence presentation. Documented approval and chart-release distinction; updated actual-app browser QA script for directory and skin navigation, not yet executed.

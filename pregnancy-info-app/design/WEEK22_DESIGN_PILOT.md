@@ -31,3 +31,7 @@ Local Chromium layout fixture (not the deployed React app): rendered matched fir
 
 ## Latest owner direction: topic-first directory
 See [TOPIC_FIRST_EVIDENCE_STANDARD.md](TOPIC_FIRST_EVIDENCE_STANDARD.md) and [SKIN_TOPIC_MAP.json](SKIN_TOPIC_MAP.json). Replace the long weekly reading interface with compact subject-specific topic entry points. Skin leads to focused questions and interventions; evidence and funding/bias are integrated within each subsection. No blanket implementation before owner review. This supersedes earlier pilot layout requirements where incompatible; theme, safety and clinical gates remain.
+
+
+## Approved visual-first pilot direction
+Owner approved compact evidence presentation and asked to proceed. Implemented candidate uses six illustrated topic links per subject, compact week controls, explicit research status and urgent safety link. Mother Skin opens four main sections and related hair/scar topics, then specific intervention subsections. Three examples use source-reported numerical text or a qualitative funding matrix, with expandable funding/methods and numbered source links. All 111 mapped source IDs and 18 outcome IDs remain reachable within the mapped subsections. Charts remain clinically locked; no quantitative plot or unreviewed treatment recommendation. Other topics link to existing research or original week concept pages; do not claim full domain mapping. Current browser QA now checks both overview variants and the skin flow. Owner/device/clinical visual acceptance still open.

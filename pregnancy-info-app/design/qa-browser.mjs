@@ -89,16 +89,17 @@ try{
    for(const [label,path] of routes){
     await open(page,path);await shot(page,label,size)
     if(label==='week-22'){
-     await check('Week 22 mother/baby first screen '+size.width+'x'+size.height,async()=>{
+     await check('Week 22 visual directory '+size.width+'x'+size.height,async()=>{
       const group=page.getByRole('group',{name:'Whose changes are shown?'})
-      for(const [subject,heading] of [['Mother','Your skin is stretching'],['Baby','A fine layer of hair']]){
+      for(const [subject,heading] of [['Mother','Your changing body'],['Baby','Your growing baby']]){
        await group.getByRole('button',{name:new RegExp(subject)}).click()
        await page.getByRole('heading',{name:heading}).waitFor()
+       assert.equal(await page.getByRole('navigation',{name:'Development topics'}).getByRole('link').count(),6)
        await page.evaluate(()=>window.scrollTo(0,0))
-       await shot(page,'week22-'+subject.toLowerCase(),size)
+       await shot(page,'week22-directory-'+subject.toLowerCase(),size)
        if(size.width===390&&size.height>=700){
-        const m=await page.evaluate(()=>({text:document.querySelector('.pilot-concept-text>p').getBoundingClientRect().bottom,nav:document.querySelector('.bottom-nav').getBoundingClientRect().top}))
-        assert.ok(m.text<=m.nav+1,'The primary explanation is below navigation')
+        const m=await page.evaluate(()=>({last:document.querySelector('.week-directory .page-controls').getBoundingClientRect().bottom,nav:document.querySelector('.bottom-nav').getBoundingClientRect().top}))
+        assert.ok(m.last<=m.nav+1,'Weekly directory needs vertical scrolling')
        }
       }
      })
@@ -128,20 +129,33 @@ try{
      assert.ok((await page.locator('.urgent-reading-note').innerText()).includes('100.4°F (38°C)'))
      assert.ok(await page.evaluate(()=>Boolean(document.querySelector('.safety-panel').compareDocumentPosition(document.querySelector('.reader-purpose-block'))&Node.DOCUMENT_POSITION_FOLLOWING)))
     })
-    await check('Week 22 pilot concept and reference return',async()=>{
+    await check('Week 22 skin topic hierarchy, sources and comparison',async()=>{
      await open(page,'/timeline/week/22')
-     await page.getByRole('button',{name:'Movement',exact:true}).click()
+     await page.getByRole('button',{name:/Mother/}).click()
+     await page.getByRole('navigation',{name:'Development topics'}).getByRole('link',{name:/Skin/}).click()
+     await page.getByRole('heading',{name:'Skin',exact:true}).waitFor()
+     await shot(page,'skin-directory',size)
+     await page.getByRole('link',{name:/Stretch mark prevention/}).click()
+     await page.getByRole('link',{name:/Creams and moisturizers/}).click()
+     await page.getByText('45.1%',{exact:true}).waitFor()
+     await page.getByText('48.8%',{exact:true}).waitFor()
+     await shot(page,'skin-cocoa-butter',size)
+     await page.getByText('Funding & limitations',{exact:true}).click()
+     assert.ok(await page.getByText(/35 participants did not complete/).isVisible())
+     await page.getByRole('link',{name:'Stretch mark prevention',exact:true}).click()
+     await page.getByRole('link',{name:/Collagen and supplements/}).click()
+     await page.getByRole('table').waitFor()
+     await shot(page,'skin-collagen-funding',size)
+     assert.ok(await page.getByText('Pregnancy prevention remains unproven.').isVisible())
+    })
+    await check('Week 22 baby concept and reference return',async()=>{
+     await open(page,'/timeline/week/22')
+     await page.getByRole('button',{name:/Baby/}).click()
+     await page.getByRole('navigation',{name:'Development topics'}).getByRole('link',{name:/Movement/}).click()
      await page.getByRole('heading',{name:'Muscles are developing'}).waitFor()
-     const subject=page.getByRole('group',{name:'Whose changes are shown?'})
-     await subject.getByRole('button',{name:/Mother/}).click()
-     await page.getByRole('heading',{name:'You may feel your baby move'}).waitFor()
-     await subject.getByRole('button',{name:/Baby/}).click()
-     await page.getByRole('heading',{name:'Muscles are developing'}).waitFor()
-     await shot(page,'week22-movement',size)
      await page.getByRole('link',{name:/Explore the placenta/}).click()
      await page.getByRole('button',{name:'Back',exact:true}).click()
      await page.getByRole('heading',{name:'Muscles are developing'}).waitFor()
-     assert.equal(await page.getByRole('button',{name:'Movement',exact:true}).getAttribute('aria-pressed'),'true')
     })
     await check('visual search survives return',async()=>{
      await open(page,'/visuals');await page.getByLabel('Search visual references').fill('pelvic floor')

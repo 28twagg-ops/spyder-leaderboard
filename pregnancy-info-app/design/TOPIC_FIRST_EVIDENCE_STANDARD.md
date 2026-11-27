@@ -24,3 +24,7 @@ Reconcile entire existing research inventory to relevant topic/subsection routes
 
 ## Visual-first evidence presentation — latest owner feedback
 Prefer meaningful figures, labeled diagrams, comparable outcome charts and compact funding/quality comparisons over lengthy prose. Show one plain-language takeaway, then optional methods, funding details, limitations and numbered citations. Use actual study values and scales only; qualitative findings use labeled comparisons rather than invented numerical bars. Do not imply that statistical significance proves clinical benefit or funding causation. Keep essential safety visible and retain all chart publication/review gates. This is a design requirement, not an approval to deploy unreviewed charts.
+
+
+## Owner approval of presentation direction
+Owner approved the visual-first concept and requested continued implementation. Use the bounded Week 22 directory/skin pilot as the first implementation target. This is approval of the direction, not final acceptance of rendered production UI or clinical chart release. Until numerical chart clearance, use compact source-reported values, accessible qualitative comparisons, and original concept illustrations; preserve all holds.
