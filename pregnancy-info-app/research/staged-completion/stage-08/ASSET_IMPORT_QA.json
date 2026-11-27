@@ -1,0 +1,14 @@
+{
+  "baseline": "4bc57ceb93a0113a3225f6870b61d03bd49b6c3d",
+  "upstream_commit": "30f1dd71314bf99d22668318769e5f91834660ee",
+  "imported": 7,
+  "failed": [
+    {
+      "name": "oocyte",
+      "reason": "upstream SHA or conservative SVG text safety check failed"
+    }
+  ],
+  "clinical_review": false,
+  "rendered": false,
+  "security": "conservative source text scan only"
+}
