@@ -8,7 +8,7 @@ export function DraftBanner({
 }) {
   return (
     <aside className="panel" role="note" aria-label="Content status">
-      <div className="badge warn">{labelForStatus(status)}</div>
+      <div className="section-label warn">{labelForStatus(status)}</div>
       <p className="muted" style={{ margin: '0.65rem 0 0', fontSize: '0.92rem' }}>
         {APP_DISCLAIMER}
       </p>

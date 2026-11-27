@@ -45,3 +45,7 @@ Set CHROMIUM_PATH if using an existing Chromium executable. Browser tooling is i
 | `3932cac` | Eleven production screenshots |
 
 **Recommended next assignment:** complete Stage 8 physical iPhone Safari and Home Screen testing with synthetic reading choices, revisit restricted source pages and review the PWA dependency advisories. Record the model, iOS version, installed/offline behavior, Dynamic Type, VoiceOver and safe-area findings. No deployment is authorized by this assignment. Stage 5 appraisal, scientific and clinical review, privacy/security verification, visual clearance and owner release approval remain open.
+
+## Navigable owner preview
+
+From the app directory run `npm run build:portable` to create `dist-portable/Everwell.html`. Open the downloaded file in a browser. It includes the production interface, research snapshots and fonts in one file and supports hash-based navigation and refresh. Home Screen installation uses the standard served PWA build. Headings and status text are unboxed, Explore opens articles by title, and Today links directly to Appearance, the visual library and install help. A browser pass opened all 52 article routes, paged through 311 outcomes and 403 nutrient records and followed the weekly timeline back to its maternal phase. Physical iPhone verification remains open.

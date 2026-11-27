@@ -49,7 +49,7 @@ export function ResearchPage() {
       <p className="muted">Optional reading markers stay in this browser; they do not affect medical recommendations.</p>
 
       <section className="panel stack">
-        <div className="badge danger">Visible safety</div>
+        <div className="section-label danger">Visible safety</div>
         <p style={{ margin: 0 }}>{article.visible_safety}</p>
       </section>
 
@@ -69,7 +69,7 @@ export function ResearchPage() {
         <ul className="list-clean">
           {relatedActions.map((action) => (
             <li key={action.id}>
-              <div className="badge">{editorialPriorityLabel(action.priority)}</div>
+              <div className="section-label">{editorialPriorityLabel(action.priority)}</div>
               <strong style={{ display: 'block', marginTop: '0.35rem' }}>{action.what}</strong>
               <div className="muted" style={{ marginTop: '0.25rem', fontSize: '0.9rem' }}>
                 {action.why}

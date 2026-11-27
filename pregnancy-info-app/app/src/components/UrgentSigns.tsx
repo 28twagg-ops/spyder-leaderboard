@@ -4,7 +4,7 @@ export function UrgentSigns() {
   return (
     <section className="panel stack" aria-labelledby="urgent-heading">
       <div>
-        <div className="badge danger">Urgent signs</div>
+        <div className="section-label danger">Urgent signs</div>
         <h2 id="urgent-heading" style={{ margin: '0.55rem 0 0.25rem', fontSize: '1.15rem' }}>
           Get help right away for these
         </h2>

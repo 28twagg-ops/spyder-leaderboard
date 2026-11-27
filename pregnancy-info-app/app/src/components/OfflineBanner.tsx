@@ -19,7 +19,7 @@ export function OfflineBanner() {
 
   return (
     <aside className="panel" role="status" aria-live="polite">
-      <div className={`badge ${online ? '' : 'warn'}`.trim()}>
+      <div className={`section-label ${online ? '' : 'warn'}`.trim()}>
         {online ? 'Online' : 'Offline'}
       </div>
       <p className="muted" style={{ margin: '0.55rem 0 0', fontSize: '0.9rem' }}>

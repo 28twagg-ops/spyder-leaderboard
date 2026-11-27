@@ -41,6 +41,11 @@ export function TodayPage() {
         </div>
       </header>
 
+      <nav className="section-links" aria-label="More destinations">
+        <Link to="/visuals">Visual library</Link>
+        <Link to="#appearance">Appearance</Link>
+        <Link to="/install">Install help</Link>
+      </nav>
       <DraftBanner status="research_only" />
       <UrgentSigns />
       <section className="journey-grid" aria-label="Explore Everwell">
@@ -51,7 +56,7 @@ export function TodayPage() {
       </section>
       <section className="panel stack" aria-labelledby="start-heading">
         <div>
-          <div className="badge">Starting points</div>
+          <div className="section-label">Starting points</div>
           <h2 id="start-heading" style={{ margin: '0.55rem 0 0.2rem', fontSize: '1.2rem' }}>
             {startingPhase?.label ?? 'Explore at your own pace'}
           </h2>
@@ -75,10 +80,10 @@ export function TodayPage() {
         <ul className="list-clean">
           {featured.map((article) => (
             <li key={article.id}>
-              <div className="badge">{editorialPriorityLabel(article.priority)}</div>
+              <div className="section-label">{editorialPriorityLabel(article.priority)}</div>
               <strong style={{ display: 'block', marginTop: '0.35rem' }}>{article.title}</strong>
               <Link className="btn btn-ghost" to={`/research/${article.id}`}>
-                Open layers
+                Read article
               </Link>
             </li>
           ))}
@@ -87,7 +92,7 @@ export function TodayPage() {
 
       {urgent.length > 0 && (
         <section className="panel stack" aria-labelledby="urgent-edu-heading">
-          <div className="badge danger">Urgent education</div>
+          <div className="section-label danger">Urgent education</div>
           <h2 id="urgent-edu-heading" style={{ margin: 0, fontSize: '1.1rem' }}>
             Always-visible safety topics
           </h2>
@@ -106,7 +111,7 @@ export function TodayPage() {
         </section>
       )}
 
-      <details className="panel disclosure">
+      <details id="appearance" className="panel disclosure">
         <summary>Appearance</summary>
         <div className="stack">
       <ThemePicker value={prefs.themeId} onChange={setTheme} />

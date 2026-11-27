@@ -10,7 +10,7 @@ export function ThemePicker({
   return (
     <section className="panel stack" aria-labelledby="theme-heading">
       <div>
-        <div className="badge">Look & feel</div>
+        <div className="section-label">Look & feel</div>
         <h2 id="theme-heading" style={{ margin: '0.55rem 0 0.25rem', fontSize: '1.15rem' }}>
           Choose a calmer theme
         </h2>

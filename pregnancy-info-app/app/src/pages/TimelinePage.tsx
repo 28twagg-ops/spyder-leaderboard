@@ -44,8 +44,8 @@ export function TimelinePage() {
           {tracks.map((track) => <option key={track} value={track}>{trackNames[track] ?? track}</option>)}
         </select>
         <p className="muted" role="status">{timeline.filter((p) => shownTracks.includes(p.track)).length} of {timeline.length} phases</p>
-        <a className="btn btn-ghost" href="#gestation-heading">Jump to weekly pregnancy notes</a>
-        <Link className="btn btn-ghost" to="/research/EV-ART-003">Father and partner preparation: health and work exposures</Link>
+        <Link to="#gestation-heading">Jump to weekly pregnancy notes</Link>
+        <Link className="article-title-link" to="/research/EV-ART-003">Father and partner preparation: health and work exposures</Link>
       </section>
 
       {shownTracks.map((track) => (
@@ -65,7 +65,7 @@ export function TimelinePage() {
               })
               return (
                 <article key={phase.id} className="phase-item" id={phase.id}>
-                  <div className="badge">{phase.label}</div>
+                  <div className="section-label">{phase.label}</div>
                   <h3 style={{ margin: 0, fontSize: '1.05rem' }}>{phase.focus}</h3>
                   {phase.safety && <p className="muted" style={{ margin: 0, fontSize: '0.9rem' }}>{phase.safety}</p>}
                   {safety.length > 0 && (
@@ -118,7 +118,7 @@ export function TimelinePage() {
                     <p className="muted">Source window: weeks {week.source_window_start}–{week.source_window_end}</p>
                   )}
                   {week.interpretation && <p className="muted">{week.interpretation}</p>}
-                  {maternal && <p>Maternal phase: {maternal.label}{' '}<button type="button" className="btn btn-ghost" onClick={() => { setTrackFilter(maternal.track); }}>Show pregnancy track</button></p>}
+                  {maternal && <p>Maternal phase: {maternal.label}{' '}<Link to={`#${maternal.id}`} onClick={() => setTrackFilter(maternal.track)}>Open maternal phase</Link></p>}
                   {fetal && <p><Link to={`/research/${fetal.id}`}>{fetal.title}</Link></p>}
                   <p className="muted">Source: {source?.title ?? week.source_id ?? 'Not recorded'} {source?.url && /^https?:\/\//i.test(source.url) && <a href={source.url} target="_blank" rel="noreferrer">Open source</a>}</p>
                 </details>

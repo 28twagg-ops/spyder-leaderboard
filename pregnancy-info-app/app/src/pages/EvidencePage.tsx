@@ -122,7 +122,7 @@ export function EvidencePage() {
         <section className="stack" aria-label="Scientific outcome records">
           {outcomePage.rows.map((row) => (
             <article className="panel stack" key={row.id}>
-              <div className={`badge ${row.held ? 'warn' : ''}`.trim()}>{row.displayNote}</div>
+              <div className={`section-label ${row.held ? 'warn' : ''}`.trim()}>{row.displayNote}</div>
               <h2 style={{ margin: 0, fontSize: '1.05rem' }}>{row.outcome}</h2>
               <p className="muted">{row.id} · Source {row.source_id}</p>
               {row.held ? <p>Numerical results withheld pending review.</p> : <>
@@ -141,7 +141,7 @@ export function EvidencePage() {
           <p className="muted">These are reference records, not supplement prescriptions. Upper limits are not targets. Scope, units and life stage matter; missing limits do not establish safety.</p>
           {nutrientPage.rows.map((row) => (
             <article className="panel stack" key={row.id}>
-              <div className={`badge ${row.held || row.isDoseClaim ? 'warn' : ''}`.trim()}>{row.displayNote}</div>
+              <div className={`section-label ${row.held || row.isDoseClaim ? 'warn' : ''}`.trim()}>{row.displayNote}</div>
               <h2 style={{ margin: 0, fontSize: '1.05rem' }}>{row.nutrient} · {displayValue(row.life_stage)}</h2>
               <p className="muted">{row.id} · Age: {displayValue(row.age)}</p>
               {row.held || row.isDoseClaim ? <p>Numerical values withheld pending review.</p> : <>

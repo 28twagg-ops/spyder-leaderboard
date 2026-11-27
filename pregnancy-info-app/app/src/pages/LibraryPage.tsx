@@ -114,7 +114,7 @@ export function LibraryPage() {
         {matches.map((article) => (
           <article key={article.id} className="panel stack">
             <Link to={`/research/${article.id}`}>
-            <div className="badge">{editorialPriorityLabel(article.priority)}</div>
+            <div className="section-label">{editorialPriorityLabel(article.priority)}</div>
             <strong style={{ display: 'block', marginTop: '0.4rem' }}>{article.title}</strong>
             <div className="muted" style={{ marginTop: '0.35rem', fontSize: '0.9rem' }}>
               {article.domain} · {article.id}

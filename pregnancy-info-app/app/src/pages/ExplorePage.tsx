@@ -38,14 +38,14 @@ export function ExplorePage() {
           }}
         >
           {domains.map((domain) => (
-            <a
+            <Link
               key={domain}
               className="btn btn-ghost"
-              href={`#domain-${domain}`}
+              to={`#domain-${domain}`}
               style={{ textAlign: 'center' }}
             >
               {domain}
-            </a>
+            </Link>
           ))}
         </div>
       </section>
@@ -63,11 +63,10 @@ export function ExplorePage() {
           <div className="topic-grid">
             {articlesByDomain(domain).map((article) => (
               <article key={article.id} className="panel stack">
-                <div className="badge">{editorialPriorityLabel(article.priority)}</div>
-                <h3 style={{ margin: 0, fontSize: '1.05rem' }}>{article.title}</h3>
-                <Link className="btn btn-ghost" to={`/research/${article.id}`}>
-                  Open layers
-                </Link>
+                <div className="section-label">{editorialPriorityLabel(article.priority)}</div>
+                <h3 style={{ margin: 0, fontSize: '1.05rem' }}>
+                  <Link className="article-title-link" to={`/research/${article.id}`}>{article.title}</Link>
+                </h3>
               </article>
             ))}
           </div>
