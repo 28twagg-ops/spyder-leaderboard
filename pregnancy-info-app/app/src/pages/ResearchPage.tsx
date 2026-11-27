@@ -67,7 +67,7 @@ export function ResearchPage() {
 
       {urgent&&why}
       <TopicOverview key={article.id} id={article.id} visuals={visuals}>
-        {plain&&<RememberedReadingDetails articleId={article.id}><p className="small-copy muted">Unreviewed research summary, not medical advice.</p><p>{plain.detail}</p><Link className="topic-link" to={{hash:"#research-details"}}>Explore the science ›</Link></RememberedReadingDetails>
+        {plain&&<RememberedReadingDetails articleId={article.id}><p className="small-copy muted">Unreviewed research summary, not medical advice.</p><p>{plain.detail}</p><Link className="topic-link" to={{hash:"#research-details"}}>Explore the science ›</Link></RememberedReadingDetails>}
       </TopicOverview>
       <h2 className="section-title" id="research-details">Explore the science</h2>
       <div className="surface-list reader-sections">
