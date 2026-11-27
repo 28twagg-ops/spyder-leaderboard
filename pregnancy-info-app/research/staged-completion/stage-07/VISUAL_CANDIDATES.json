@@ -1,0 +1,110 @@
+[
+  {
+    "id": "P7-V1",
+    "title": "Ginger review Figure 3 overlap matrix",
+    "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC11536023/",
+    "notes": "Existing citation matrix and supplemental primary trial funding table; original figure caption checked; license/credits pending.",
+    "redistribution_cleared": false,
+    "clinical_review": false,
+    "status": "link-only source candidate; no figure copied"
+  },
+  {
+    "id": "P7-V2",
+    "title": "Dates review Figures 1 and 2",
+    "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC10759543/",
+    "notes": "Original forest plots separated by timing and RCT/non-RCT, captions checked; exact asset licensing before reuse.",
+    "redistribution_cleared": false,
+    "clinical_review": false,
+    "status": "link-only source candidate; no figure copied"
+  },
+  {
+    "id": "P7-V3",
+    "title": "Moringa trial Figure 1 flow diagram",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/36440058/",
+    "notes": "Original figure caption checked; useful to show study selection, not product marketing.",
+    "redistribution_cleared": false,
+    "clinical_review": false,
+    "status": "link-only source candidate; no figure copied"
+  },
+  {
+    "id": "P7-V4",
+    "title": "Perineal light trial tables and flow diagram",
+    "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC13094685/",
+    "notes": "Article CC BY 4.0; original abstract and article license checked; use data-based simple pain chart, no procedural image without review; exact figure credits pending.",
+    "redistribution_cleared": false,
+    "clinical_review": false,
+    "status": "link-only source candidate; no figure copied"
+  },
+  {
+    "id": "P7-V5",
+    "title": "Raspberry leaf review",
+    "url": "https://link.springer.com/article/10.1186/s12906-021-03230-4",
+    "notes": "CC BY 4.0 article per publisher; exact figure/third-party credits check; evidence flow rather than commercial herb artwork.",
+    "redistribution_cleared": false,
+    "clinical_review": false,
+    "status": "link-only source candidate; no figure copied"
+  },
+  {
+    "id": "P7-V6",
+    "title": "NHS stages of labor and birth",
+    "url": "https://www.nhs.uk/pregnancy/labour-and-birth/the-stages-of-labour-and-birth/",
+    "notes": "Official educational resource; locate actual position images and rights before embedding.",
+    "redistribution_cleared": false,
+    "clinical_review": false,
+    "status": "link-only source candidate; no figure copied"
+  },
+  {
+    "id": "P7-V7",
+    "title": "NHS pain relief in labor",
+    "url": "https://www.nhs.uk/pregnancy/labour-and-birth/pain-relief-in-labour/",
+    "notes": "Original patient education; link, exact illustrations/rights pending.",
+    "redistribution_cleared": false,
+    "clinical_review": false,
+    "status": "link-only source candidate; no figure copied"
+  },
+  {
+    "id": "P7-V8",
+    "title": "WHO kangaroo care",
+    "url": "https://www.who.int/news/item/26-05-2021-kangaroo-mother-care-started-immediately-after-birth-critical-for-saving-lives-new-research-shows",
+    "notes": "Original official article and existing imagery if available; exact credit/permission, neonatal positioning review.",
+    "redistribution_cleared": false,
+    "clinical_review": false,
+    "status": "link-only source candidate; no figure copied"
+  },
+  {
+    "id": "P7-V9",
+    "title": "CDC placenta capsule infection report",
+    "url": "https://www.cdc.gov/mmwr/volumes/66/wr/mm6625a4.htm",
+    "notes": "Original clinical report, link for source; no patient images to reuse; original non-identifying conceptual chart only if needed.",
+    "redistribution_cleared": false,
+    "clinical_review": false,
+    "status": "link-only source candidate; no figure copied"
+  },
+  {
+    "id": "P7-V10",
+    "title": "FDA teething educational resource",
+    "url": "https://www.fda.gov/consumers/consumer-updates/safely-soothing-teething-pain-infants-and-children",
+    "notes": "Official page and any associated visuals; exact image credits pending.",
+    "redistribution_cleared": false,
+    "clinical_review": false,
+    "status": "link-only source candidate; no figure copied"
+  },
+  {
+    "id": "P7-V11",
+    "title": "WHO infant feeding counseling cards",
+    "url": "https://www.who.int/publications/i/item/9789240035560",
+    "notes": "Inherited P2-V02 existing illustrations for latch/support; link only until asset rights reviewed.",
+    "redistribution_cleared": false,
+    "clinical_review": false,
+    "status": "link-only source candidate; no figure copied"
+  },
+  {
+    "id": "P7-V12",
+    "title": "OpenStax anatomy of skin and dermis",
+    "url": "https://openstax.org/books/anatomy-and-physiology-2e/pages/5-1-layers-of-the-skin",
+    "notes": "Inherited Stage 3 source; edition CC BY-NC-SA restrictions; no commercial reuse clearance.",
+    "redistribution_cleared": false,
+    "clinical_review": false,
+    "status": "link-only source candidate; no figure copied"
+  }
+]

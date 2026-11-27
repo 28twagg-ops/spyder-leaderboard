@@ -5,8 +5,8 @@ Only run one authorized stage at a time. Stop and report results before starting
 3. Maternal health, rehabilitation, appearance preservation — [Stage 3](stage-03/README.md) scoped packet complete. Stage 4 authorized and completed to checkpoint level.
 4. Fetal and childhood cognitive, motor and emotional development — [Stage 4](stage-04/README.md) scoped checkpoint complete. Stage 5 authorized and completed to checkpoint level.
 5. Nutrition, supplements and ingredients, trial reconciliation — [Stage 5](stage-05/README.md) scoped checkpoint complete. Stage 6 authorized and completed to checkpoint level.
-6. Environmental exposures and long-term health — [Stage 6](stage-06/README.md) scoped checkpoint complete. Stage 7 requires user approval.
-7. Natural, emerging, controversial interventions.
+6. Environmental exposures and long-term health — [Stage 6](stage-06/README.md) scoped checkpoint complete. Stage 7 authorized and completed to checkpoint level.
+7. Natural, emerging, controversial interventions — [Stage 7](stage-07/README.md) scoped checkpoint complete. Stage 8 requires user approval.
 8. Existing textbook diagrams, figures, videos and illustrations; rights/accuracy checks and asset manifest. Use original source materials rather than AI where suitable; source candidates can be collected throughout stages.
 9. Practical routines, educational articles, parallel timelines.
 10. Work preferred: consolidated research manifest, canonical/staged crosswalk, reproducible export regeneration and full QA.
@@ -21,3 +21,6 @@ Apply [Compare Evidence Standard](COMPARE_EVIDENCE_STANDARD.md) throughout all d
 
 ## Stage 6 checkpoint · 2026-11-26
 Read [environmental health packet](stage-06/README.md), [funding comparisons](stage-06/COMPARISONS.json), [funding cards](stage-06/FUNDING_CARDS.json), [practical precautions](stage-06/PRACTICAL_ACTIONS.json) and [holds](stage-06/PUBLICATION_HOLDS.json). 68 staged resources, 36 numeric records, 14 existing visual links. Preserve PFOS differing units/overlap, historical animal study funding limits, explicit uncertainty, safe formula and breastfeeding, no arbitrary toxic exposure scores. No clinical review, canonical promotion or visual reuse clearance. Stage 7 requires explicit user approval.
+
+## Stage 7 checkpoint · 2026-11-26
+Read [natural and emerging interventions](stage-07/README.md), [funding comparisons](stage-07/COMPARISONS.json), [safety holds](stage-07/PUBLICATION_HOLDS.json) and [existing visual candidates](stage-07/VISUAL_CANDIDATES.json). 68 staged resources, 41 numeric records, 16 comparisons, 12 visual links. Preserve public-funded and sponsor-unfavorable results, no automatic treatment protocols or product endorsement. No clinical review, canonical promotion or asset reuse clearance. Stage 8 requires explicit user approval.

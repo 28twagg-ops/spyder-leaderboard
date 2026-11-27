@@ -1,0 +1,22 @@
+{
+  "date": "2026-11-26",
+  "baseline_commit": "f9d33fcc5d17f0f2c5e5ab7e44f757b5b86a14d8",
+  "sources": 68,
+  "numeric_rows": 41,
+  "comparisons": 16,
+  "funding_records": 68,
+  "funding_cards": 4,
+  "actions": 9,
+  "visuals": 12,
+  "holds": 21,
+  "safety_cases": 15,
+  "unique_source_ids": true,
+  "missing_links": [],
+  "invalid_intervals": [],
+  "invalid_funding_denominators": [],
+  "clinical_review": false,
+  "canonical_changed": false,
+  "full_repository_validation": false,
+  "stage8_authorized": false,
+  "limitations": "Targeted web searches, selected full original HTML and indexed abstracts. Not exhaustive systematic review, complete funding census or correction/retraction sweep. No asset copied, product testing, price verification or clinical review."
+}

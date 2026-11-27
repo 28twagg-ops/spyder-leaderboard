@@ -1,0 +1,241 @@
+[
+  {
+    "topic": "Ginger and nausea",
+    "source_ids": [
+      "P7-01",
+      "P7-02",
+      "P7-03",
+      "P7-04"
+    ],
+    "quick": "Ginger may help mild nausea; seek care for severe symptoms.",
+    "public_academic_or_no_declared_commercial_ties": "Gates-supported review and no-external-grant 2026 network show potential with low confidence.",
+    "industry_linked": "No audited comparable industry subgroup.",
+    "unknown_or_open": "Underlying trial funding and exact harms pending.",
+    "comparison_limit": "Overlap and incompatible scales; no ranking or dosing.",
+    "clinical_review": false
+  },
+  {
+    "topic": "Dates and labor",
+    "source_ids": [
+      "P7-05",
+      "P7-08"
+    ],
+    "quick": "Promising food, not a home induction treatment.",
+    "public_academic_or_no_declared_commercial_ties": "University review favorable but only 4/15 RCTs low RoB.",
+    "industry_linked": "No comparable sponsor subset extracted.",
+    "unknown_or_open": "Trial disclosures, diabetes subgroups and harms pending.",
+    "comparison_limit": "Late-pregnancy versus during-labor intervention distinct.",
+    "clinical_review": false
+  },
+  {
+    "topic": "Raspberry leaf and castor oil",
+    "source_ids": [
+      "P7-06",
+      "P7-07",
+      "P7-08"
+    ],
+    "quick": "Tradition is not proof of safe induction.",
+    "public_academic_or_no_declared_commercial_ties": "Raspberry review funding N/A; first author PhD interest; limited evidence.",
+    "industry_linked": "No comparable audited subgroup.",
+    "unknown_or_open": "Castor primary and review disclosure pending.",
+    "comparison_limit": "No home induction or herbal doses.",
+    "clinical_review": false
+  },
+  {
+    "topic": "Moxibustion",
+    "source_ids": [
+      "P7-09",
+      "P7-10",
+      "P7-11"
+    ],
+    "quick": "Possible fetal-position benefit; no clear cesarean reduction.",
+    "public_academic_or_no_declared_commercial_ties": "2016 no-funding trial reported null.",
+    "industry_linked": "No verified industry subgroup.",
+    "unknown_or_open": "Review and 1998 funding unknown.",
+    "comparison_limit": "Different protocols, harms uncertain; obstetric assessment and no DIY.",
+    "clinical_review": false
+  },
+  {
+    "topic": "Labor support and comfort",
+    "source_ids": [
+      "P7-12",
+      "P7-13",
+      "P7-14",
+      "P7-15",
+      "P7-16",
+      "P7-17",
+      "P7-18",
+      "P7-19"
+    ],
+    "quick": "Support, massage and relaxation may help; pain-relief choice belongs to mother.",
+    "public_academic_or_no_declared_commercial_ties": "Professional guidance and reviews support some comfort measures; funding not fully audited.",
+    "industry_linked": "No commercial class or product superiority extracted.",
+    "unknown_or_open": "Primary funding, safety, active controls and comparators pending.",
+    "comparison_limit": "Low certainty and intervention differences; no pressure to avoid analgesia.",
+    "clinical_review": false
+  },
+  {
+    "topic": "Acupuncture and IVF",
+    "source_ids": [
+      "P7-20",
+      "P7-21",
+      "P7-22"
+    ],
+    "quick": "Live-birth improvement is not established.",
+    "public_academic_or_no_declared_commercial_ties": "NHMRC-funded sham trial had null live birth; disclosed fertility/business ties.",
+    "industry_linked": "Author ties and institutional mixed funding in P7-20; not direct commercial sponsorship.",
+    "unknown_or_open": "Other reviews' funding and overlap pending.",
+    "comparison_limit": "Clinical pregnancy distinct from live birth; no sponsor-group effect estimate.",
+    "clinical_review": false
+  },
+  {
+    "topic": "Milk boosters",
+    "source_ids": [
+      "P7-23",
+      "P7-24",
+      "P7-25",
+      "P7-26",
+      "P7-27",
+      "P7-28"
+    ],
+    "quick": "Check milk transfer and infant growth first; herbs have uncertain benefit.",
+    "public_academic_or_no_declared_commercial_ties": "Thai university trial null primary endpoint; authors use positive descriptive language.",
+    "industry_linked": "No fully audited manufacturer comparator group.",
+    "unknown_or_open": "Review-level and primary disclosures, harms and infant outcomes pending.",
+    "comparison_limit": "Milk volume, prolactin and infant feeding outcomes different; no self-medication.",
+    "clinical_review": false
+  },
+  {
+    "topic": "Red light and nipple/perineal healing",
+    "source_ids": [
+      "P7-29",
+      "P7-30",
+      "P7-31",
+      "P7-32",
+      "P7-33",
+      "P7-34"
+    ],
+    "quick": "One perineal trial was null; nipple research is promising but uncertain.",
+    "public_academic_or_no_declared_commercial_ties": "No-specific-grant sham trial with public publication support, null perineal result.",
+    "industry_linked": "No verified device-funded subgroup.",
+    "unknown_or_open": "Nipple review funding and protocol overlap pending.",
+    "comparison_limit": "Different tissue, outcome, parameters; no home device settings; malformed P7-31 interval held.",
+    "clinical_review": false
+  },
+  {
+    "topic": "Cosmetic and pelvic devices",
+    "source_ids": [
+      "P7-35",
+      "P7-36",
+      "P7-37",
+      "P7-38",
+      "P7-39"
+    ],
+    "quick": "Promising reports do not justify routine device use.",
+    "public_academic_or_no_declared_commercial_ties": "FDA adverse-event warning; not an efficacy comparison.",
+    "industry_linked": "Manufacturer links not verified for efficacy studies.",
+    "unknown_or_open": "Full primary disclosures and device claims pending.",
+    "comparison_limit": "Single-arm natural recovery confounding; postpartum vs pregnancy; no procedure protocol.",
+    "clinical_review": false
+  },
+  {
+    "topic": "Infant colic probiotics",
+    "source_ids": [
+      "P7-40",
+      "P7-41",
+      "P7-42"
+    ],
+    "quick": "A particular strain may help some breastfed infants but may not help others.",
+    "public_academic_or_no_declared_commercial_ties": "No verified comparable commercial-free subgroup.",
+    "industry_linked": "BioGaia donated product in negative trial; pooled review has author financial ties, favors breastfed group.",
+    "unknown_or_open": "Canadian trial funding, trial-level membership and harms pending.",
+    "comparison_limit": "Nested evidence; 21 days vs one month, feeding type; no group-level causation.",
+    "clinical_review": false
+  },
+  {
+    "topic": "Preterm probiotics",
+    "source_ids": [
+      "P7-43",
+      "P7-44"
+    ],
+    "quick": "Hospital evidence suggests benefit for some infants; serious infection is possible.",
+    "public_academic_or_no_declared_commercial_ties": "Cochrane and FDA official evidence; review funding not extracted.",
+    "industry_linked": "Products differ; no supplier audit.",
+    "unknown_or_open": "Trial-level sponsorship and formulation pending.",
+    "comparison_limit": "NICU-only specialist decision; extremely preterm subset uncertain.",
+    "clinical_review": false
+  },
+  {
+    "topic": "Infant manual therapy and massage",
+    "source_ids": [
+      "P7-45",
+      "P7-46",
+      "P7-47",
+      "P7-48",
+      "P7-49"
+    ],
+    "quick": "Gentle bonding is different from manipulating an infant's spine.",
+    "public_academic_or_no_declared_commercial_ties": "Professional position against infant manipulation; review evidence weak.",
+    "industry_linked": "No verified product or practitioner financial subgroup.",
+    "unknown_or_open": "Review disclosures and harms pending.",
+    "comparison_limit": "No technique instructions or replacement for pediatric assessment.",
+    "clinical_review": false
+  },
+  {
+    "topic": "Placenta capsules",
+    "source_ids": [
+      "P7-50",
+      "P7-51"
+    ],
+    "quick": "No clear iron benefit and an infectious risk.",
+    "public_academic_or_no_declared_commercial_ties": "CDC case report; pilot RCT no clear iron benefit, funding unknown.",
+    "industry_linked": "No comparable sponsor studies verified.",
+    "unknown_or_open": "Primary disclosure and other clinical outcomes pending.",
+    "comparison_limit": "Case not incidence estimate; avoid capsules.",
+    "clinical_review": false
+  },
+  {
+    "topic": "Vaginal seeding",
+    "source_ids": [
+      "P7-52",
+      "P7-53",
+      "P7-54",
+      "P7-55",
+      "P7-56",
+      "P7-57"
+    ],
+    "quick": "Early microbiome or developmental results disagree; keep within approved research.",
+    "public_academic_or_no_declared_commercial_ties": "Publicly supported New Zealand null microbiome pilot; NIH-supported small engraftment study.",
+    "industry_linked": "No audited industry comparator.",
+    "unknown_or_open": "Chinese trials funding and long-term clinical data pending.",
+    "comparison_limit": "Different methods and surrogate endpoints; infection risk; no home instructions.",
+    "clinical_review": false
+  },
+  {
+    "topic": "Kangaroo care",
+    "source_ids": [
+      "P7-58",
+      "P7-59",
+      "P7-60"
+    ],
+    "quick": "Supervised skin-to-skin and feeding support are valuable neonatal care.",
+    "public_academic_or_no_declared_commercial_ties": "Gates through WHO trial; 2026 review funding none per abstract.",
+    "industry_linked": "No sponsor comparator required for clinical practice synthesis.",
+    "unknown_or_open": "Trial COI and updated review estimates pending.",
+    "comparison_limit": "Hospital protocol vs routine home holding; no unsafe sleep.",
+    "clinical_review": false
+  },
+  {
+    "topic": "Yoga and perinatal mental health",
+    "source_ids": [
+      "P7-61",
+      "P7-62"
+    ],
+    "quick": "Movement and support may help mood; clinical care remains important.",
+    "public_academic_or_no_declared_commercial_ties": "No-funding umbrella review reports favorable effects; active controls attenuate benefit.",
+    "industry_linked": "No audited commercial subgroup.",
+    "unknown_or_open": "Underlying review funding, overlap and safety pending.",
+    "comparison_limit": "SMD not IQ/percent; no guaranteed prevention or treatment.",
+    "clinical_review": false
+  }
+]

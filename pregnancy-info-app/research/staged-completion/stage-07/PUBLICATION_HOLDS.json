@@ -1,0 +1,128 @@
+[
+  {
+    "id": "P7-H01",
+    "source_id": "P7-04",
+    "rule": "Severe vomiting/dehydration must trigger care; no ginger treatment delay.",
+    "clinical_review": false
+  },
+  {
+    "id": "P7-H02",
+    "source_id": "P7-05",
+    "rule": "No dates induction recipe or claim of avoiding cesarean; distinguish food from intervention, timing and glycemic needs.",
+    "clinical_review": false
+  },
+  {
+    "id": "P7-H03",
+    "source_id": "P7-07",
+    "rule": "No castor oil or herbal self-induction, or delay indicated obstetric care.",
+    "clinical_review": false
+  },
+  {
+    "id": "P7-H04",
+    "source_id": "P7-09",
+    "rule": "No DIY moxibustion heat/smoke technique, no replacement for obstetric breech assessment.",
+    "clinical_review": false
+  },
+  {
+    "id": "P7-H05",
+    "source_id": "P7-24",
+    "rule": "Do not advertise 47% increased supply from nonsignificant primary result.",
+    "clinical_review": false
+  },
+  {
+    "id": "P7-H06",
+    "source_id": "P7-28",
+    "rule": "No domperidone acquisition/dosing or abrupt stopping advice.",
+    "clinical_review": false
+  },
+  {
+    "id": "P7-H07",
+    "source_id": "P7-31",
+    "rule": "Malformed indexed interval; quarantine until original corrected result verified.",
+    "clinical_review": false
+  },
+  {
+    "id": "P7-H08",
+    "source_id": "P7-38",
+    "rule": "No home RF or elective pregnancy device recommendation; retain serious adverse event warning.",
+    "clinical_review": false
+  },
+  {
+    "id": "P7-H09",
+    "source_id": "P7-39",
+    "rule": "Postpartum RF dyspareunia trial research only; no vaginal rejuvenation endorsement; full disclosure and safety pending.",
+    "clinical_review": false
+  },
+  {
+    "id": "P7-H10",
+    "source_id": "P7-41",
+    "rule": "Confirm DSM strain discrepancy in original article and linked studies before import; no broad probiotic recommendation.",
+    "clinical_review": false
+  },
+  {
+    "id": "P7-H11",
+    "source_id": "P7-44",
+    "rule": "No preterm infant home probiotic use; specialist NICU safety and regulation.",
+    "clinical_review": false
+  },
+  {
+    "id": "P7-H12",
+    "source_id": "P7-47",
+    "rule": "No spinal manipulation/mobilization on infants or at-home manipulation directions.",
+    "clinical_review": false
+  },
+  {
+    "id": "P7-H13",
+    "source_id": "P7-51",
+    "rule": "Avoid placenta capsule ingestion; no encapsulation steps or infection reassurance.",
+    "clinical_review": false
+  },
+  {
+    "id": "P7-H14",
+    "source_id": "P7-56",
+    "rule": "No vaginal seeding outside approved clinical research; no DIY transfer.",
+    "clinical_review": false
+  },
+  {
+    "id": "P7-H15",
+    "source_id": "P7-59",
+    "rule": "Do not merge 2016 Cochrane web summary with 2026 update; verify version-specific results.",
+    "clinical_review": false
+  },
+  {
+    "id": "P7-H16",
+    "source_id": "P7-60",
+    "rule": "Kangaroo care under appropriate neonatal plan; no sleeping caregiver or unsafe infant sleep.",
+    "clinical_review": false
+  },
+  {
+    "id": "P7-H17",
+    "source_id": "P7-64",
+    "rule": "Avoid ashwagandha in pregnancy/lactation; no high-dose herbal mixtures.",
+    "clinical_review": false
+  },
+  {
+    "id": "P7-H18",
+    "source_id": "P7-65",
+    "rule": "No infant essential oil ingestion or concentrated application; suspected poisoning needs poison control/emergency guidance.",
+    "clinical_review": false
+  },
+  {
+    "id": "P7-H19",
+    "source_id": "P7-66",
+    "rule": "No honey under 12 months; no herbal liquids replacing appropriate milk.",
+    "clinical_review": false
+  },
+  {
+    "id": "P7-H20",
+    "source_id": "P7-67",
+    "rule": "No teething jewelry, homeopathic tablets, benzocaine or lidocaine recommendation.",
+    "clinical_review": false
+  },
+  {
+    "id": "P7-H21",
+    "source_id": "P7-61",
+    "rule": "No yoga/exercise replacement for clinical mental health care; urgent self-harm or postpartum psychosis escalation.",
+    "clinical_review": false
+  }
+]

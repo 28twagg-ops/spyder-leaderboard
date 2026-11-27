@@ -1,0 +1,61 @@
+[
+  {
+    "id": "P7-F01",
+    "source_id": "P7-01",
+    "metric": "AMSTAR-2 review quality",
+    "denominator": 7,
+    "denominator_type": "meta-analyses",
+    "groups": [
+      {
+        "name": "Critically low",
+        "count": 4
+      },
+      {
+        "name": "Low",
+        "count": 3
+      }
+    ],
+    "note": "All seven failed to report component study funding; no claim about how many primary trials were sponsored. Gates Foundation identified topic and otherwise no role reported."
+  },
+  {
+    "id": "P7-F02",
+    "source_id": "P7-05",
+    "metric": "RoB2 trial quality",
+    "denominator": 15,
+    "denominator_type": "randomized trials in mixed-design review",
+    "groups": [
+      {
+        "name": "Low risk in all domains",
+        "count": 4
+      },
+      {
+        "name": "Other methodological concerns",
+        "count": 11
+      }
+    ],
+    "note": "33 nonrandomized trials separate; no trial-level funding census; review university grant."
+  },
+  {
+    "id": "P7-F03",
+    "source_ids": [
+      "P7-40",
+      "P7-41",
+      "P7-42"
+    ],
+    "metric": "qualitative funding and results comparison",
+    "denominator": null,
+    "groups": [],
+    "note": "BioGaia in-kind trial P7-40 reported unfavorable result; IPD includes that trial and discloses multiple company ties. No independent-only trial subgroup or company percentage available. Different populations and time points."
+  },
+  {
+    "id": "P7-F04",
+    "source_ids": [
+      "P7-24",
+      "P7-29"
+    ],
+    "metric": "single-study disclosures",
+    "denominator": null,
+    "groups": [],
+    "note": "University-funded moringa trial primary result not significant; authors positive language. Light therapy study no specific research grant, CAPES publication support and no declared COI; null sham comparison. Different interventions/outcomes, not pooled or vote-counted."
+  }
+]

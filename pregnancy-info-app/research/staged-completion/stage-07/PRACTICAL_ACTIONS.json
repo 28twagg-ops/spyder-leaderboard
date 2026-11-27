@@ -1,0 +1,101 @@
+[
+  {
+    "id": "P7-A1",
+    "topic": "Mild nausea",
+    "stage": "Pregnancy",
+    "action": "Discuss evidence-based options including ordinary ginger food/preparations with clinician if appropriate.",
+    "cost": "Low to variable",
+    "source_id": "P7-01",
+    "safety": "Do not delay care for inability to keep fluids down, dehydration or severe symptoms.",
+    "clinical_review": false,
+    "status": "draft education; costs not surveyed"
+  },
+  {
+    "id": "P7-A2",
+    "topic": "Labor comfort",
+    "stage": "Birth",
+    "action": "Support person, breathing, massage with consent and position choices in care setting.",
+    "cost": "Low; paid doula optional",
+    "source_id": "P7-12",
+    "safety": "No pressure to forgo analgesia or necessary interventions.",
+    "clinical_review": false,
+    "status": "draft education; costs not surveyed"
+  },
+  {
+    "id": "P7-A3",
+    "topic": "Late pregnancy foods",
+    "stage": "Pregnancy",
+    "action": "Dates may be eaten as food if appropriate to diet; discuss glucose/clinical concerns.",
+    "cost": "Low to variable",
+    "source_id": "P7-05",
+    "safety": "No induction target, dosing schedule or guarantee.",
+    "clinical_review": false,
+    "status": "draft education; costs not surveyed"
+  },
+  {
+    "id": "P7-A4",
+    "topic": "Feeding support",
+    "stage": "Postpartum",
+    "action": "Assess feeding, milk transfer, infant growth and latch with qualified support before buying boosters.",
+    "cost": "Variable; free resources may exist",
+    "source_id": "P7-27",
+    "safety": "Do not delay feeding assessment or supplementation when indicated.",
+    "clinical_review": false,
+    "status": "draft education; costs not surveyed"
+  },
+  {
+    "id": "P7-A5",
+    "topic": "Recovery comfort",
+    "stage": "Postpartum",
+    "action": "Discuss safe local comfort measures and wound care with care team.",
+    "cost": "Usually low",
+    "source_id": "P7-33",
+    "safety": "No unreviewed device or wound protocol; fever, worsening pain or wound opening prompt care.",
+    "clinical_review": false,
+    "status": "draft education; costs not surveyed"
+  },
+  {
+    "id": "P7-A6",
+    "topic": "Responsive touch",
+    "stage": "Infancy",
+    "action": "Gentle awake holding and parent-child interaction; stop if distressed.",
+    "cost": "Minimal",
+    "source_id": "P7-48",
+    "safety": "No spinal/cranial manipulation; maintain safe sleep.",
+    "clinical_review": false,
+    "status": "draft education; costs not surveyed"
+  },
+  {
+    "id": "P7-A7",
+    "topic": "Kangaroo care",
+    "stage": "Preterm/LBW",
+    "action": "Follow neonatal team skin-to-skin and feeding plan.",
+    "cost": "Care setting dependent",
+    "source_id": "P7-60",
+    "safety": "Clinical monitoring, airway and safe sleep; do not replace neonatal care.",
+    "clinical_review": false,
+    "status": "draft education; costs not surveyed"
+  },
+  {
+    "id": "P7-A8",
+    "topic": "Herbal safety",
+    "stage": "All",
+    "action": "Review exact ingredient, formulation and stage with clinician; prefer ordinary foods where appropriate.",
+    "cost": "Usually low",
+    "source_id": "P7-63",
+    "safety": "No concentrated oils, unknown mixtures or unsafe infant remedies.",
+    "clinical_review": false,
+    "status": "draft education; costs not surveyed"
+  },
+  {
+    "id": "P7-A9",
+    "topic": "Mood support",
+    "stage": "Pregnancy/postpartum",
+    "action": "Discuss suitable movement, social support and mental health care.",
+    "cost": "Low to variable",
+    "source_id": "P7-61",
+    "safety": "Not a replacement for depression or emergency care.",
+    "clinical_review": false,
+    "status": "draft education; costs not surveyed"
+  }
+]
