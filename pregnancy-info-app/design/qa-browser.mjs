@@ -152,10 +152,35 @@ try{
      await open(page,'/timeline/week/22')
      await page.getByRole('button',{name:/Baby/}).click()
      await page.getByRole('navigation',{name:'Development topics'}).getByRole('link',{name:/Movement/}).click()
-     await page.getByRole('heading',{name:'Muscles are developing'}).waitFor()
-     await page.getByRole('link',{name:/Explore the placenta/}).click()
+     await page.getByRole('link',{name:/Muscles are developing/}).click()
+     await page.getByRole('heading',{name:'Muscles are developing',exact:true}).waitFor()
+     await page.getByRole('link',{name:/Foetus skeleton/}).click()
      await page.getByRole('button',{name:'Back',exact:true}).click()
-     await page.getByRole('heading',{name:'Muscles are developing'}).waitFor()
+     await page.getByRole('heading',{name:'Muscles are developing',exact:true}).waitFor()
+    })
+    await check('Week 22 every directory destination and overview return',async()=>{
+     for(const subject of ['Mother','Baby']){
+      await open(page,'/timeline/week/22')
+      await page.getByRole('button',{name:new RegExp(subject)}).click()
+      const nav=page.getByRole('navigation',{name:'Development topics'})
+      const destinations=await nav.getByRole('link').evaluateAll(links=>links.map(link=>link.getAttribute('href')))
+      assert.equal(destinations.length,6)
+      for(const href of destinations){
+       await open(page,href)
+       await page.locator('h1').waitFor()
+       assert.ok(!(await page.locator('h1').innerText()).includes('not found'))
+       await shot(page,'week22-'+href.split('/').slice(-2).join('-'),size)
+       await page.getByRole('link',{name:'Week 22',exact:true}).click()
+       await page.getByRole('heading',{name:subject==='Mother'?'Your changing body':'Your growing baby'}).waitFor()
+      }
+     }
+    })
+    await check('Week 22 nutrition comparison',async()=>{
+     await open(page,'/timeline/week/22/mother/nutrition/omega-3')
+     await page.getByText('2.2%',{exact:true}).waitFor()
+     await page.getByText('2.0%',{exact:true}).waitFor()
+     await page.getByText('Funding & limitations',{exact:true}).click()
+     await shot(page,'week22-omega3-comparison',size)
     })
     await check('visual search survives return',async()=>{
      await open(page,'/visuals');await page.getByLabel('Search visual references').fill('pelvic floor')

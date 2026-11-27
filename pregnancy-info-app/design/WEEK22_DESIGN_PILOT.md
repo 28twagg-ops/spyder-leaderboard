@@ -35,3 +35,7 @@ See [TOPIC_FIRST_EVIDENCE_STANDARD.md](TOPIC_FIRST_EVIDENCE_STANDARD.md) and [SK
 
 ## Approved visual-first pilot direction
 Owner approved compact evidence presentation and asked to proceed. Implemented candidate uses six illustrated topic links per subject, compact week controls, explicit research status and urgent safety link. Mother Skin opens four main sections and related hair/scar topics, then specific intervention subsections. Three examples use source-reported numerical text or a qualitative funding matrix, with expandable funding/methods and numbered source links. All 111 mapped source IDs and 18 outcome IDs remain reachable within the mapped subsections. Charts remain clinically locked; no quantitative plot or unreviewed treatment recommendation. Other topics link to existing research or original week concept pages; do not claim full domain mapping. Current browser QA now checks both overview variants and the skin flow. Owner/device/clinical visual acceptance still open.
+
+
+## Expanded Week 22 implementation
+All twelve tiles now have dedicated topic directories. All second-trimester articles are linked through focused subsections; 50 leaf sections, 482 explicitly mapped source IDs and 191 outcome IDs including the skin map. No claim of unique study count. Funding details and holds are integrated. See [WEEK22_INDEPENDENT_REVIEW.md](WEEK22_INDEPENDENT_REVIEW.md) for pending independent reviews. Browser QA script updated, not executed. Owner acceptance, qualified clinical review and chart release remain open.
