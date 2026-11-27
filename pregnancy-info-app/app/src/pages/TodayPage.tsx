@@ -46,7 +46,7 @@ export function TodayPage() {
       <section className="journey-grid" aria-label="Explore Everwell">
         <Link className="journey-tile" to="/timeline"><span className="journey-number">01</span><strong>Family journey</strong><span>Preparation to early childhood</span></Link>
         <Link className="journey-tile" to="/explore"><span className="journey-number">02</span><strong>Explore topics</strong><span>Body areas and visual references</span></Link>
-        <Link className="journey-tile" to="/library#topic-search-heading"><span className="journey-number">03</span><strong>Find and save</strong><span>Educational reading library</span></Link>
+        <Link className="journey-tile" to="/library"><span className="journey-number">03</span><strong>Find and save</strong><span>Educational reading library</span></Link>
         <Link className="journey-tile" to="/evidence"><span className="journey-number">04</span><strong>Evidence library</strong><span>Original research and nutrition</span></Link>
       </section>
       <section className="panel stack" aria-labelledby="start-heading">
@@ -56,12 +56,21 @@ export function TodayPage() {
             {startingPhase?.label ?? 'Explore at your own pace'}
           </h2>
           <p className="muted" style={{ margin: 0 }}>
-            {startingPhase ? [startingPhase.focus, startingPhase.featured_note].filter(Boolean).join('. ') : 'Choose any phase above or browse all topics. No timeline is assumed.'}
+            {startingPhase ? [startingPhase.focus, startingPhase.featured_note].filter(Boolean).join('. ') : 'Choose any reading phase below or browse all topics. No timeline is assumed.'}
           </p>
           <p className="muted" style={{ margin: '0.45rem 0 0', fontSize: '0.85rem' }}>
             Inventory loaded: {stats.articles} articles · {stats.phases} phases ·{' '}
             {stats.sourceLinks} sources
           </p>
+        </div>
+        <div className="stack">
+        <label htmlFor="reading-phase">Optional reading phase</label>
+        <select id="reading-phase" value={startingPhase?.id ?? ''} onChange={(event) => setPhase(event.target.value || null)} style={{ minHeight: 44 }}>
+          <option value="">Browse without selecting a phase</option>
+          {timeline.map((phase) => <option key={phase.id} value={phase.id}>{phase.track.replaceAll('_', ' ')} · {phase.label} · {phase.focus}</option>)}
+        </select>
+        <p className="muted">Stored only in this browser. This selection is a reading filter, not a record of pregnancy, a diagnosis or a care schedule.</p>
+        <Link to="/library">Search topics and manage saved items</Link>
         </div>
         <ul className="list-clean">
           {featured.map((article) => (
@@ -101,18 +110,10 @@ export function TodayPage() {
       )}
 
       <details className="panel disclosure">
-        <summary>Reading phase and appearance</summary>
+        <summary>Appearance</summary>
         <div className="stack">
       <ThemePicker value={prefs.themeId} onChange={setTheme} />
-      <section className="panel stack">
-        <label htmlFor="reading-phase">Optional reading phase</label>
-        <select id="reading-phase" value={startingPhase?.id ?? ''} onChange={(event) => setPhase(event.target.value || null)} style={{ minHeight: 44 }}>
-          <option value="">Browse without selecting a phase</option>
-          {timeline.map((phase) => <option key={phase.id} value={phase.id}>{phase.track.replaceAll('_', ' ')} · {phase.label} · {phase.focus}</option>)}
-        </select>
-        <p className="muted">Stored only in this browser. This selection is a reading filter, not a record of pregnancy, a diagnosis or a care schedule.</p>
-        <Link to="/library">Search topics and manage saved items</Link>
-      </section>
+
 
 
         </div>
