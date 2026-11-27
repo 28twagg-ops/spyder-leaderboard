@@ -1,3 +1,5 @@
+import { VisualCard } from '../components/VisualCard'
+import { articleVisuals } from '../data/visualCatalog'
 import { useLocalPrefs } from '../hooks/useLocalPrefs'
 import { Link, useParams } from 'react-router-dom'
 import { DraftBanner } from '../components/DraftBanner'
@@ -23,6 +25,7 @@ export function ResearchPage() {
 
   const { article, relatedActions, relatedFaqs, sources, heldSources, safety } = bundle
   const guidanceBlocked = !maySurfaceAsGuidance(safety)
+  const visuals = articleVisuals(article.id, article.visual_ids ?? [])
 
   return (
     <div className="stack-lg">
@@ -102,6 +105,11 @@ export function ResearchPage() {
         </ul>
       </details>
 
+      {visuals.length > 0 && <details className="panel disclosure">
+        <summary>Visual references ({visuals.length})</summary>
+        <p className="muted">Original illustrations and source links for review. Not evidence of treatment effectiveness or individual development.</p>
+        <div className="stack">{visuals.map((record) => <VisualCard key={record.id} record={record} />)}</div>
+      </details>}
       <details className="panel disclosure">
         <summary>Sources & funding context</summary>
         <p className="muted">
