@@ -1,5 +1,6 @@
 import { describe, expect, it } from 'vitest'
 import {
+  assertNotClinicalAdvice,
   createSafetyFlags,
   maySurfaceAsGuidance,
 } from './publicationGate'
@@ -27,15 +28,27 @@ describe('publication gate fail-closed', () => {
     expect(maySurfaceAsGuidance(flags)).toBe(false)
   })
 
-  it('requires clinically_reviewed + empty holds + explicit allow', () => {
+  it('blocks even clinically reviewed flags until an explicit global release', () => {
     const flags = createSafetyFlags({
       publicationStatus: 'clinically_reviewed',
       contentKind: 'established_guidance',
       holds: [],
       canDriveRecommendation: true,
     })
-    // createSafetyFlags still defaults holds if not careful — force empty
-    const cleared = { ...flags, holds: [] as string[], canDriveRecommendation: true }
-    expect(maySurfaceAsGuidance(cleared)).toBe(true)
+    expect(flags.canDriveRecommendation).toBe(false)
+    expect(maySurfaceAsGuidance({ ...flags, canDriveRecommendation: true })).toBe(false)
+  })
+
+  it('blocks ranking and automation even with reviewed flags and no holds', () => {
+    const flags = createSafetyFlags({
+      publicationStatus: 'clinically_reviewed',
+      contentKind: 'established_guidance',
+      holds: [],
+      canDriveRanking: true,
+      canDriveAutomation: true,
+    })
+    expect(flags.canDriveRanking).toBe(false)
+    expect(flags.canDriveAutomation).toBe(false)
+    expect(() => assertNotClinicalAdvice({ ...flags, canDriveRanking: true })).toThrow()
   })
 })
