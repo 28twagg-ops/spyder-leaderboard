@@ -1,3 +1,5 @@
+> **CURRENT CHECKPOINT — 2026-11-27, post annual-cost deployment:** Read [CURRENT_TRANSFER.md](CURRENT_TRANSFER.md) first for verified branch/deployment status, full prioritized continuation, contraindication/clinical review gates and research standards. [Open-source discovery standard](research/OPEN_SOURCE_DISCOVERY_STANDARD.md) requires independent-first review of conventional, unconventional, grey literature and media with equal scientific rigor. Older entries below are retained for provenance; current checkpoint supersedes conflicting counts/status. This is a documentation update; no clinical publication approval.
+
 # Project status — private prototype started
 
 ## Application Stage 8 · 27 November 2026
