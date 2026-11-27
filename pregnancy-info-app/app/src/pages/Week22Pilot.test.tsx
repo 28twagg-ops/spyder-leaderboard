@@ -1,0 +1,37 @@
+import {cleanup,fireEvent,render,screen,within} from '@testing-library/react'
+import {MemoryRouter} from 'react-router-dom'
+import {afterEach,describe,expect,it} from 'vitest'
+import App from '../App'
+afterEach(()=>{cleanup();localStorage.clear()})
+const view=(path:string)=>render(<MemoryRouter initialEntries={[path]}><App/></MemoryRouter>)
+describe('week 22 design pilot',()=>{
+ it('shows the overview and lets readers explore three illustrated concepts',()=>{
+  view('/timeline/week/22')
+  expect(screen.getByRole('heading',{name:'Week 22',exact:true})).toBeVisible()
+  expect(screen.getByRole('heading',{name:'A fine layer of hair'})).toBeVisible()
+  const group=screen.getByRole('group',{name:'Development topic'})
+  fireEvent.click(within(group).getByRole('button',{name:'Movement'}))
+  expect(screen.getByRole('heading',{name:'Muscles are developing'})).toBeVisible()
+  expect(within(group).getByRole('button',{name:'Movement'})).toHaveAttribute('aria-pressed','true')
+  fireEvent.click(within(group).getByRole('button',{name:'Digestion'}))
+  expect(screen.getByRole('heading',{name:'The first stool is forming'})).toBeVisible()
+  expect(screen.getByRole('note',{name:'Content status'})).toBeVisible()
+  expect(screen.getByText('Explore the science & sources').closest('details')).not.toHaveAttribute('open')
+  expect(localStorage.length).toBe(0)
+ })
+ it('retains original source and contextual navigation without external media',async()=>{
+  view('/timeline/week/22')
+  fireEvent.click(screen.getByRole('button',{name:'Movement',exact:true}))
+  fireEvent.click(screen.getByRole('link',{name:/Explore the placenta/}))
+  expect(await screen.findByRole('heading',{name:'The placenta',level:1})).toBeVisible()
+  fireEvent.click(screen.getByRole('button',{name:'Back'}))
+  expect(await screen.findByRole('heading',{name:'Muscles are developing'})).toBeVisible()
+  expect(document.querySelectorAll('img[src^="http"],iframe,video').length).toBe(0)
+ })
+ it('does not apply the pilot to adjacent weeks',async()=>{
+  view('/timeline/week/22')
+  fireEvent.click(screen.getByRole('link',{name:'Next',exact:true}))
+  expect(await screen.findByRole('heading',{name:'Week 23'})).toBeVisible()
+  expect(screen.queryByRole('heading',{name:'Look a little closer'})).not.toBeInTheDocument()
+ })
+})
