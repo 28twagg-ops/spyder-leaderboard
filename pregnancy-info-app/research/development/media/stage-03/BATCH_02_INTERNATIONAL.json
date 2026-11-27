@@ -1,0 +1,1167 @@
+{
+  "date": "2026-11-27",
+  "stage": 3,
+  "batch": 2,
+  "candidates": 39,
+  "retained": 39,
+  "duplicate_count": 0,
+  "baseline": [
+    {
+      "path": "pregnancy-info-app/research/development/media/stage-03/BATCH_01.json",
+      "sha": "3324872e2f3c770f4574b0c2931f2c281b14fe39"
+    },
+    {
+      "path": "app/src/data/imported/source_index.json",
+      "sha": "d475aa4e01d9109f5c4ed26ccd4e949f5d7505c2"
+    },
+    {
+      "path": "research/implementation-handoff/MEDIA_CATALOG.json",
+      "sha": "8aec702e0463346aa6bf89ef0b333f61fdedd7ec"
+    },
+    {
+      "path": "research/integrated/MEDIA_LINKED.json",
+      "sha": "fd405c0068db1c97d4d3562db639ff786c4165cb"
+    },
+    {
+      "path": "research/external-audits/grok/MEDIA_CANDIDATES.json",
+      "sha": "8e152eedd8b9fdfec25074126aed96a92718ccdb"
+    },
+    {
+      "path": "research/child-health/visuals-and-media.json",
+      "sha": "5815b5cb5d34e77900d4c15dd4bd423d1636264e"
+    },
+    {
+      "path": "research/development/traditional-practices/EVIDENCE_CONTINUATION.md",
+      "sha": "e96a2812f810ef41c7112da65b074202ffdd833e"
+    }
+  ],
+  "methods": "Targeted non-English and regional web search. Actual search result URLs used; Apple episode links shortened by stable episode ID. Exact normalized URL dedup against first batch and six selected archives, not entire repository. Record counts exclude series directories and login-gated seminar listings; no full translation, playback or sponsor verification. Search France Radio France blocked; selected indexed Europe 1 page returned 403. Evidence comparisons not unique new studies. All research only.",
+  "records": [
+    {
+      "url": "https://www.radiopodcast.unam.mx/podcast/audio/46746",
+      "region": "Mexico",
+      "language": "es",
+      "publisher": "Radio UNAM",
+      "media_type": "podcast",
+      "title": "Cuarto trimestre / posparto",
+      "locator": "Indexed episode summary: recovery and expectations in fourth trimester.",
+      "locator_type": "indexed description / show notes / page section",
+      "evidence_comparison_note": "Context; no clinical efficacy claim.",
+      "evidence_links": [],
+      "commercial_and_funding_context": "University broadcaster; production funding unknown.",
+      "independence": "not established",
+      "verification_scope": "web search returned indexed title/description; selected pages opened; no full listening/viewing; translation and exact claims pending",
+      "rights": "link-only; no redistribution permission",
+      "clinical_review": false,
+      "publish": false,
+      "automation_allowed": false,
+      "id": "MED3-B02-001"
+    },
+    {
+      "url": "https://www.radiopodcast.unam.mx/podcast/audio/30811",
+      "region": "Mexico",
+      "language": "es",
+      "publisher": "Radio UNAM",
+      "media_type": "expert interview",
+      "title": "Embarazo de alto riesgo",
+      "locator": "Summary and guest biography: Dulce Camarena Cabrera; high-risk pregnancy and prevention.",
+      "locator_type": "indexed description / show notes / page section",
+      "evidence_comparison_note": "Clinical navigation only; do not infer every complication preventable.",
+      "evidence_links": [],
+      "commercial_and_funding_context": "UNAM PUIS listed as coproducer; guest funding unknown.",
+      "independence": "not established",
+      "verification_scope": "web search returned indexed title/description; selected pages opened; no full listening/viewing; translation and exact claims pending",
+      "rights": "link-only; no redistribution permission",
+      "clinical_review": false,
+      "publish": false,
+      "automation_allowed": false,
+      "id": "MED3-B02-002"
+    },
+    {
+      "url": "https://www.radiopodcast.unam.mx/podcast/audio/43422",
+      "region": "Mexico",
+      "language": "es",
+      "publisher": "Radio UNAM",
+      "media_type": "podcast",
+      "title": "Lactancia materna",
+      "locator": "Summary lists immunity, cognitive/emotional development and costs.",
+      "locator_type": "indexed description / show notes / page section",
+      "evidence_comparison_note": "11242425,29131887; PROBIT randomized promotion intervention and follow-up, not direct randomized milk comparison or guaranteed cognitive gain.",
+      "evidence_links": [
+        {
+          "pmid": "11242425",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/11242425/",
+          "relationship": "related comparison, not necessarily cited in media; abstract-level, not full claim trace"
+        },
+        {
+          "pmid": "29131887",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/29131887/",
+          "relationship": "related comparison, not necessarily cited in media; abstract-level, not full claim trace"
+        }
+      ],
+      "commercial_and_funding_context": "University broadcaster; production funding unknown.",
+      "independence": "not established",
+      "verification_scope": "web search returned indexed title/description; selected pages opened; no full listening/viewing; translation and exact claims pending",
+      "rights": "link-only; no redistribution permission",
+      "clinical_review": false,
+      "publish": false,
+      "automation_allowed": false,
+      "id": "MED3-B02-003"
+    },
+    {
+      "url": "https://www.radiopodcast.unam.mx/podcast/audio/28828",
+      "region": "Mexico",
+      "language": "es",
+      "publisher": "Radio UNAM",
+      "media_type": "podcast",
+      "title": "Salud materna y alimentación",
+      "locator": "Summary lists iron, folate, iodine, exercise, weight and diet myths.",
+      "locator_type": "indexed description / show notes / page section",
+      "evidence_comparison_note": "39145520,29030199; compare anemia outcomes and iodine neurodevelopment null result; no dose guidance.",
+      "evidence_links": [
+        {
+          "pmid": "39145520",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/39145520/",
+          "relationship": "related comparison, not necessarily cited in media; abstract-level, not full claim trace"
+        },
+        {
+          "pmid": "29030199",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/29030199/",
+          "relationship": "related comparison, not necessarily cited in media; abstract-level, not full claim trace"
+        }
+      ],
+      "commercial_and_funding_context": "University broadcaster; production funding unknown.",
+      "independence": "not established",
+      "verification_scope": "web search returned indexed title/description; selected pages opened; no full listening/viewing; translation and exact claims pending",
+      "rights": "link-only; no redistribution permission",
+      "clinical_review": false,
+      "publish": false,
+      "automation_allowed": false,
+      "id": "MED3-B02-004"
+    },
+    {
+      "url": "https://www.radiopodcast.unam.mx/podcast/audio/44068",
+      "region": "Mexico",
+      "language": "es",
+      "publisher": "Radio UNAM",
+      "media_type": "expert interview",
+      "title": "Vacunas durante el embarazo",
+      "locator": "Summary and guest biography; vaccine discussion.",
+      "locator_type": "indexed description / show notes / page section",
+      "evidence_comparison_note": "Current product-specific guidance and evidence needed; no recommendation inferred from summary.",
+      "evidence_links": [],
+      "commercial_and_funding_context": "UNAM PUIS coproducer; guest ties unknown.",
+      "independence": "not established",
+      "verification_scope": "web search returned indexed title/description; selected pages opened; no full listening/viewing; translation and exact claims pending",
+      "rights": "link-only; no redistribution permission",
+      "clinical_review": false,
+      "publish": false,
+      "automation_allowed": false,
+      "id": "MED3-B02-005"
+    },
+    {
+      "url": "https://www.radiopodcast.unam.mx/podcast/audio/48220",
+      "region": "Mexico",
+      "language": "es",
+      "publisher": "Radio UNAM",
+      "media_type": "podcast",
+      "title": "Lactancia, microbioma y alimentación complementaria",
+      "locator": "Content list; milk composition and microbiome.",
+      "locator_type": "indexed description / show notes / page section",
+      "evidence_comparison_note": "11242425; infection/eczema outcomes are not proof of microbiome mechanism or developmental superiority.",
+      "evidence_links": [
+        {
+          "pmid": "11242425",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/11242425/",
+          "relationship": "related comparison, not necessarily cited in media; abstract-level, not full claim trace"
+        }
+      ],
+      "commercial_and_funding_context": "University broadcaster; production funding unknown.",
+      "independence": "not established",
+      "verification_scope": "web search returned indexed title/description; selected pages opened; no full listening/viewing; translation and exact claims pending",
+      "rights": "link-only; no redistribution permission",
+      "clinical_review": false,
+      "publish": false,
+      "automation_allowed": false,
+      "id": "MED3-B02-006"
+    },
+    {
+      "url": "https://www.radiopodcast.unam.mx/podcast/audio/36631",
+      "region": "Mexico",
+      "language": "es",
+      "publisher": "Radio UNAM",
+      "media_type": "podcast",
+      "title": "Salud mental materna",
+      "locator": "Summary includes depression, community and emotional support.",
+      "locator_type": "indexed description / show notes / page section",
+      "evidence_comparison_note": "19147637,31469084; structured peer support trials; not proof any informal support prevents depression.",
+      "evidence_links": [
+        {
+          "pmid": "19147637",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/19147637/",
+          "relationship": "related comparison, not necessarily cited in media; abstract-level, not full claim trace"
+        },
+        {
+          "pmid": "31469084",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/31469084/",
+          "relationship": "related comparison, not necessarily cited in media; abstract-level, not full claim trace"
+        }
+      ],
+      "commercial_and_funding_context": "University broadcaster; production funding unknown.",
+      "independence": "not established",
+      "verification_scope": "web search returned indexed title/description; selected pages opened; no full listening/viewing; translation and exact claims pending",
+      "rights": "link-only; no redistribution permission",
+      "clinical_review": false,
+      "publish": false,
+      "automation_allowed": false,
+      "id": "MED3-B02-007"
+    },
+    {
+      "url": "https://www.spreaker.com/episode/ep-126-guia-completa-del-embarazo-peso-alimentacion-epidural-y-posparto-naza-olivera--70440082",
+      "region": "Spain",
+      "language": "es",
+      "publisher": "Naza Olivera interview",
+      "media_type": "practitioner podcast",
+      "title": "Guía completa del embarazo",
+      "locator": "Episode description: GDM, pain, epidural, postpartum.",
+      "locator_type": "indexed description / show notes / page section",
+      "evidence_comparison_note": "28681500; labor support evidence not equivalence to analgesia; exact claim tracing pending.",
+      "evidence_links": [
+        {
+          "pmid": "28681500",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/28681500/",
+          "relationship": "related comparison, not necessarily cited in media; abstract-level, not full claim trace"
+        }
+      ],
+      "commercial_and_funding_context": "Guest described as midwife and lactation consultant; commercial services and sponsorship unknown.",
+      "independence": "not established",
+      "verification_scope": "web search returned indexed title/description; selected pages opened; no full listening/viewing; translation and exact claims pending",
+      "rights": "link-only; no redistribution permission",
+      "clinical_review": false,
+      "publish": false,
+      "automation_allowed": false,
+      "id": "MED3-B02-008"
+    },
+    {
+      "url": "https://www.spreaker.com/episode/neuromaternal-la-maternidad-nos-cambia-empezando-por-el-cerebro-con-la-dra-susana-carmona-neuromaternal--60025490",
+      "region": "Spain",
+      "language": "es",
+      "publisher": "Madresfera",
+      "media_type": "researcher interview",
+      "title": "Neuromaternal",
+      "locator": "Description names Susana Carmona and book about maternal brain changes.",
+      "locator_type": "indexed description / show notes / page section",
+      "evidence_comparison_note": "27991897,38492349; imaging changes and maternal behavior associations, not cognitive decline or guaranteed bonding.",
+      "evidence_links": [
+        {
+          "pmid": "27991897",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/27991897/",
+          "relationship": "related comparison, not necessarily cited in media; abstract-level, not full claim trace"
+        },
+        {
+          "pmid": "38492349",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/38492349/",
+          "relationship": "related comparison, not necessarily cited in media; abstract-level, not full claim trace"
+        }
+      ],
+      "commercial_and_funding_context": "Guest promotes book; podcast supporter solicitation; individual research funding pending.",
+      "independence": "not established",
+      "verification_scope": "web search returned indexed title/description; selected pages opened; no full listening/viewing; translation and exact claims pending",
+      "rights": "link-only; no redistribution permission",
+      "clinical_review": false,
+      "publish": false,
+      "automation_allowed": false,
+      "id": "MED3-B02-009"
+    },
+    {
+      "url": "https://www.spreaker.com/episode/lactancia-y-embarazo-con-dolores-sevillano--51637636",
+      "region": "Spain",
+      "language": "es",
+      "publisher": "EDULACTA",
+      "media_type": "practitioner interview",
+      "title": "Lactancia y embarazo",
+      "locator": "Description identifies Dolores Sevillano, midwife and IBCLC.",
+      "locator_type": "indexed description / show notes / page section",
+      "evidence_comparison_note": "Exact discussion and evidence on breastfeeding during pregnancy pending; do not generalize to high-risk pregnancy.",
+      "evidence_links": [],
+      "commercial_and_funding_context": "Lactation education publisher; services/sponsors not audited.",
+      "independence": "not established",
+      "verification_scope": "web search returned indexed title/description; selected pages opened; no full listening/viewing; translation and exact claims pending",
+      "rights": "link-only; no redistribution permission",
+      "clinical_review": false,
+      "publish": false,
+      "automation_allowed": false,
+      "id": "MED3-B02-010"
+    },
+    {
+      "url": "https://www.spreaker.com/episode/relacion-entre-el-parto-y-la-lactancia-materna-entrevista-a-chiqui-de-cos--48234679",
+      "region": "Spain",
+      "language": "es",
+      "publisher": "EDULACTA",
+      "media_type": "practitioner interview",
+      "title": "Relación entre el parto y la lactancia materna",
+      "locator": "Episode title and topic.",
+      "locator_type": "indexed description / show notes / page section",
+      "evidence_comparison_note": "34038632; KMC in clinical low-birthweight infants, not proof of every birth intervention's feeding effect.",
+      "evidence_links": [
+        {
+          "pmid": "34038632",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/34038632/",
+          "relationship": "related comparison, not necessarily cited in media; abstract-level, not full claim trace"
+        }
+      ],
+      "commercial_and_funding_context": "Lactation education publisher; services/sponsors not audited.",
+      "independence": "not established",
+      "verification_scope": "web search returned indexed title/description; selected pages opened; no full listening/viewing; translation and exact claims pending",
+      "rights": "link-only; no redistribution permission",
+      "clinical_review": false,
+      "publish": false,
+      "automation_allowed": false,
+      "id": "MED3-B02-011"
+    },
+    {
+      "url": "https://www.spreaker.com/episode/con-ovarios-una-lucha-contra-el-abuso-medico--64714248",
+      "region": "Latin America",
+      "language": "es",
+      "publisher": "CLIP / Tanto Coraje",
+      "media_type": "investigative journalism podcast",
+      "title": "Con Ovarios: una lucha contra el abuso médico",
+      "locator": "Description identifies collaborative cross-border journalism from six countries.",
+      "locator_type": "indexed description / show notes / page section",
+      "evidence_comparison_note": "Respectful care and consent; testimonies not incidence estimate or evidence against necessary care.",
+      "evidence_links": [],
+      "commercial_and_funding_context": "Collaborating journalism organizations identified; project grants and editorial funding unknown.",
+      "independence": "not established",
+      "verification_scope": "web search returned indexed title/description; selected pages opened; no full listening/viewing; translation and exact claims pending",
+      "rights": "link-only; no redistribution permission",
+      "clinical_review": false,
+      "publish": false,
+      "automation_allowed": false,
+      "id": "MED3-B02-012"
+    },
+    {
+      "url": "https://www.spreaker.com/episode/e14-mitos-de-redes-vs-ciencia-la-verdad-sobre-el-ultrasonido-dra-maria-amparo-podcast--75079837",
+      "region": "Spanish-language Latin American context",
+      "language": "es",
+      "publisher": "Dra Maria Amparo Podcast",
+      "media_type": "expert interview",
+      "title": "Mitos de redes vs. Ciencia: ultrasonido",
+      "locator": "Description addresses ultrasound physics and ALARA.",
+      "locator_type": "indexed description / show notes / page section",
+      "evidence_comparison_note": "Safety evidence and current clinical guidance need direct trace; no claim all uses safe.",
+      "evidence_links": [],
+      "commercial_and_funding_context": "Host/guest practices and commercial ties unverified.",
+      "independence": "not established",
+      "verification_scope": "web search returned indexed title/description; selected pages opened; no full listening/viewing; translation and exact claims pending",
+      "rights": "link-only; no redistribution permission",
+      "clinical_review": false,
+      "publish": false,
+      "automation_allowed": false,
+      "id": "MED3-B02-013"
+    },
+    {
+      "url": "https://www.canalsaude.fiocruz.br/videos/2686?lang=en",
+      "region": "Brazil",
+      "language": "pt",
+      "publisher": "Canal Saúde / Fiocruz",
+      "media_type": "video interview",
+      "title": "Amamentação",
+      "locator": "Portuguese synopsis names Marcus Renato de Carvalho and Verônica Linder; query language does not change original program.",
+      "locator_type": "indexed description / show notes / page section",
+      "evidence_comparison_note": "11242425,29131887; feeding-support trial and long-term follow-up, same parent study.",
+      "evidence_links": [
+        {
+          "pmid": "11242425",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/11242425/",
+          "relationship": "related comparison, not necessarily cited in media; abstract-level, not full claim trace"
+        },
+        {
+          "pmid": "29131887",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/29131887/",
+          "relationship": "related comparison, not necessarily cited in media; abstract-level, not full claim trace"
+        }
+      ],
+      "commercial_and_funding_context": "Public research institution; production/guest funding unknown.",
+      "independence": "not established",
+      "verification_scope": "web search returned indexed title/description; selected pages opened; no full listening/viewing; translation and exact claims pending",
+      "rights": "link-only; no redistribution permission",
+      "clinical_review": false,
+      "publish": false,
+      "automation_allowed": false,
+      "id": "MED3-B02-014"
+    },
+    {
+      "url": "https://educare.fiocruz.br/resource/show?id=3lIRgzhY",
+      "region": "Brazil",
+      "language": "pt",
+      "publisher": "Educare Fiocruz",
+      "media_type": "educational podcast",
+      "title": "Da barriga ao berço: O Papel do ferro no desenvolvimento",
+      "locator": "Learning objectives and rights terms on resource page.",
+      "locator_type": "indexed description / show notes / page section",
+      "evidence_comparison_note": "39145520,37403900; reviews support anemia prevention, not proof every infant development endpoint improves.",
+      "evidence_links": [
+        {
+          "pmid": "39145520",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/39145520/",
+          "relationship": "related comparison, not necessarily cited in media; abstract-level, not full claim trace"
+        },
+        {
+          "pmid": "37403900",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/37403900/",
+          "relationship": "related comparison, not necessarily cited in media; abstract-level, not full claim trace"
+        }
+      ],
+      "commercial_and_funding_context": "Public institution; resource-specific support unknown. Noncommercial open-access reuse terms shown; exact asset and downstream licensing review required.",
+      "independence": "not established",
+      "verification_scope": "web search returned indexed title/description; selected pages opened; no full listening/viewing; translation and exact claims pending",
+      "rights": "link-only; no redistribution permission",
+      "clinical_review": false,
+      "publish": false,
+      "automation_allowed": false,
+      "id": "MED3-B02-015"
+    },
+    {
+      "url": "https://www.epsjv.fiocruz.br/podcast/agosto-dourado-voce-sabia-que-a-amamentacao-reduz-o-risco-de-alguns-tipos-de-cancer",
+      "region": "Brazil",
+      "language": "pt",
+      "publisher": "EPSJV Fiocruz",
+      "media_type": "podcast / article",
+      "title": "Agosto Dourado: amamentação e câncer",
+      "locator": "Article text attributes claims to Louise Munier; includes broad disease prevention claims.",
+      "locator_type": "indexed description / show notes / page section",
+      "evidence_comparison_note": "12133652,11242425,29131887; breast cancer pooled observational association, randomized promotion and same-trial follow-up; not proof of preventing every listed disease.",
+      "evidence_links": [
+        {
+          "pmid": "12133652",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/12133652/",
+          "relationship": "related comparison, not necessarily cited in media; abstract-level, not full claim trace"
+        },
+        {
+          "pmid": "11242425",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/11242425/",
+          "relationship": "related comparison, not necessarily cited in media; abstract-level, not full claim trace"
+        },
+        {
+          "pmid": "29131887",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/29131887/",
+          "relationship": "related comparison, not necessarily cited in media; abstract-level, not full claim trace"
+        }
+      ],
+      "commercial_and_funding_context": "Public institution; interviewee lactation consulting and doula association roles; financial ties unknown.",
+      "independence": "not established",
+      "verification_scope": "web search returned indexed title/description; selected pages opened; no full listening/viewing; translation and exact claims pending",
+      "rights": "link-only; no redistribution permission",
+      "clinical_review": false,
+      "publish": false,
+      "automation_allowed": false,
+      "id": "MED3-B02-016"
+    },
+    {
+      "url": "https://portaldeboaspraticas.iff.fiocruz.br/atencao-mulher/o-cuidado-em-rede-e-a-prevencao-da-morte-materna-e-perinatal/",
+      "region": "Brazil",
+      "language": "pt",
+      "publisher": "IFF Fiocruz",
+      "media_type": "expert webconference excerpt",
+      "title": "O Cuidado em Rede e a Prevenção da Morte Materna e Perinatal",
+      "locator": "Page summary and webconference excerpt section.",
+      "locator_type": "indexed description / show notes / page section",
+      "evidence_comparison_note": "28681500; labor support is a separate component; no inference whole program effect.",
+      "evidence_links": [
+        {
+          "pmid": "28681500",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/28681500/",
+          "relationship": "related comparison, not necessarily cited in media; abstract-level, not full claim trace"
+        }
+      ],
+      "commercial_and_funding_context": "Public health institution; event-specific funding unknown.",
+      "independence": "not established",
+      "verification_scope": "web search returned indexed title/description; selected pages opened; no full listening/viewing; translation and exact claims pending",
+      "rights": "link-only; no redistribution permission",
+      "clinical_review": false,
+      "publish": false,
+      "automation_allowed": false,
+      "id": "MED3-B02-017"
+    },
+    {
+      "url": "https://ideiasus.fiocruz.br/praticas/projeto-florescer-gestacao-um-processo-que-transforma/",
+      "region": "Brazil",
+      "language": "pt",
+      "publisher": "IdeiaSUS Fiocruz",
+      "media_type": "program report",
+      "title": "Projeto Florescer",
+      "locator": "Project description: education, autonomy and concerns about unnecessary intervention.",
+      "locator_type": "indexed description / show notes / page section",
+      "evidence_comparison_note": "Program description not controlled outcome evidence; preserve indicated cesarean care.",
+      "evidence_links": [],
+      "commercial_and_funding_context": "Public institution and local project; funding not verified.",
+      "independence": "not established",
+      "verification_scope": "web search returned indexed title/description; selected pages opened; no full listening/viewing; translation and exact claims pending",
+      "rights": "link-only; no redistribution permission",
+      "clinical_review": false,
+      "publish": false,
+      "automation_allowed": false,
+      "id": "MED3-B02-018"
+    },
+    {
+      "url": "https://podcasts.apple.com/jp/podcast/episode/id1828109269?i=1000744600439",
+      "region": "Japan",
+      "language": "ja",
+      "publisher": "LADYのおとも",
+      "media_type": "midwife podcast",
+      "title": "妊娠中の栄養の基本②〜妊娠中にお寿司は食べていいのか？〜",
+      "locator": "Episode 20 show notes; Hokkaido study link and MHLW link; notes acknowledge difficulty finding evidence for zero caffeine.",
+      "locator_type": "indexed description / show notes / page section",
+      "evidence_comparison_note": "28355205,31020683,25773355; separate Hokkaido cohort, JECS and Osaka cohort; observational estimates and genotype subgroup cannot establish safe threshold or zero-intake requirement.",
+      "evidence_links": [
+        {
+          "pmid": "28355205",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/28355205/",
+          "relationship": "related comparison, not necessarily cited in media; abstract-level, not full claim trace"
+        },
+        {
+          "pmid": "31020683",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/31020683/",
+          "relationship": "related comparison, not necessarily cited in media; abstract-level, not full claim trace"
+        },
+        {
+          "pmid": "25773355",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/25773355/",
+          "relationship": "related comparison, not necessarily cited in media; abstract-level, not full claim trace"
+        }
+      ],
+      "commercial_and_funding_context": "Host's food-advisor credential is disclosed in series; sponsor and ties unknown.",
+      "independence": "not established",
+      "verification_scope": "web search returned indexed title/description; selected pages opened; no full listening/viewing; translation and exact claims pending",
+      "rights": "link-only; no redistribution permission",
+      "clinical_review": false,
+      "publish": false,
+      "automation_allowed": false,
+      "id": "MED3-B02-019"
+    },
+    {
+      "url": "https://podcasts.apple.com/jp/podcast/episode/id1828109269?i=1000738302464",
+      "region": "Japan",
+      "language": "ja",
+      "publisher": "LADYのおとも",
+      "media_type": "midwife podcast",
+      "title": "妊娠中の栄養の基本①",
+      "locator": "Episode 18 show notes, early pregnancy nutrients and vitamin D news; 19 min.",
+      "locator_type": "indexed description / show notes / page section",
+      "evidence_comparison_note": "30089075; Bangladesh MDIG null infant growth comparison, not the cited Japanese news item; existing erratum hold applies.",
+      "evidence_links": [
+        {
+          "pmid": "30089075",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/30089075/",
+          "relationship": "related comparison, not necessarily cited in media; abstract-level, not full claim trace"
+        }
+      ],
+      "commercial_and_funding_context": "Host discloses maternal-food advisor credential; financial ties unknown.",
+      "independence": "not established",
+      "verification_scope": "web search returned indexed title/description; selected pages opened; no full listening/viewing; translation and exact claims pending",
+      "rights": "link-only; no redistribution permission",
+      "clinical_review": false,
+      "publish": false,
+      "automation_allowed": false,
+      "id": "MED3-B02-020"
+    },
+    {
+      "url": "https://podcasts.apple.com/jp/podcast/episode/id1828109269?i=1000736957125",
+      "region": "Japan",
+      "language": "ja",
+      "publisher": "LADYのおとも",
+      "media_type": "midwife podcast",
+      "title": "母乳について後悔はしてほしくないなという助産師が通ります",
+      "locator": "Episode 17 show notes; tradeoffs between maternal rest and feeding; 13 min.",
+      "locator_type": "indexed description / show notes / page section",
+      "evidence_comparison_note": "Context: informed feeding choices, no superiority claim or fixed feeding schedule.",
+      "evidence_links": [],
+      "commercial_and_funding_context": "Host affiliation and sponsors unverified.",
+      "independence": "not established",
+      "verification_scope": "web search returned indexed title/description; selected pages opened; no full listening/viewing; translation and exact claims pending",
+      "rights": "link-only; no redistribution permission",
+      "clinical_review": false,
+      "publish": false,
+      "automation_allowed": false,
+      "id": "MED3-B02-021"
+    },
+    {
+      "url": "https://podcasts.apple.com/jp/podcast/episode/id1828109269?i=1000735048399",
+      "region": "Japan",
+      "language": "ja",
+      "publisher": "LADYのおとも",
+      "media_type": "midwife podcast",
+      "title": "産後に必要なサポートとは？",
+      "locator": "Episode 15 show notes; postpartum support, sleep deprivation and hormonal changes; 12 min.",
+      "locator_type": "indexed description / show notes / page section",
+      "evidence_comparison_note": "19147637,31469084; structured peer-support interventions not proof number of supporters alone changes outcomes.",
+      "evidence_links": [
+        {
+          "pmid": "19147637",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/19147637/",
+          "relationship": "related comparison, not necessarily cited in media; abstract-level, not full claim trace"
+        },
+        {
+          "pmid": "31469084",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/31469084/",
+          "relationship": "related comparison, not necessarily cited in media; abstract-level, not full claim trace"
+        }
+      ],
+      "commercial_and_funding_context": "Host sponsors and ties unknown.",
+      "independence": "not established",
+      "verification_scope": "web search returned indexed title/description; selected pages opened; no full listening/viewing; translation and exact claims pending",
+      "rights": "link-only; no redistribution permission",
+      "clinical_review": false,
+      "publish": false,
+      "automation_allowed": false,
+      "id": "MED3-B02-022"
+    },
+    {
+      "url": "https://www.youtube.com/watch?v=3bUpS65TBuk",
+      "region": "Japan",
+      "language": "ja",
+      "publisher": "助産師はるかの安産塾",
+      "media_type": "midwife video",
+      "title": "産後の注意点と過ごし方",
+      "locator": "Publisher chapter 08:31 newborn care and milk; video description; no playback.",
+      "locator_type": "publisher chapter time; not audio verified",
+      "evidence_comparison_note": "General postpartum care; warning signs and perineal injury care independently review; no claim injury can always be prevented.",
+      "evidence_links": [],
+      "commercial_and_funding_context": "Practitioner channel; sponsorship and products unknown.",
+      "independence": "not established",
+      "verification_scope": "web search returned indexed title/description; selected pages opened; no full listening/viewing; translation and exact claims pending",
+      "rights": "link-only; no redistribution permission",
+      "clinical_review": false,
+      "publish": false,
+      "automation_allowed": false,
+      "id": "MED3-B02-023"
+    },
+    {
+      "url": "https://www.crumii.com/categories/srhrandowomensmedical/321",
+      "region": "Japan",
+      "language": "ja",
+      "publisher": "crumii",
+      "media_type": "practitioner interview",
+      "title": "助産師シオリーヌさんが語る出産・母乳のリアル（後編）",
+      "locator": "Interview introduction: midwife discusses her personal birth and feeding experience.",
+      "locator_type": "indexed description / show notes / page section",
+      "evidence_comparison_note": "Experience only; not comparative effectiveness.",
+      "evidence_links": [],
+      "commercial_and_funding_context": "Editorial platform and creator; sponsorship unverified.",
+      "independence": "not established",
+      "verification_scope": "web search returned indexed title/description; selected pages opened; no full listening/viewing; translation and exact claims pending",
+      "rights": "link-only; no redistribution permission",
+      "clinical_review": false,
+      "publish": false,
+      "automation_allowed": false,
+      "id": "MED3-B02-024"
+    },
+    {
+      "url": "https://podcasts.apple.com/jp/podcast/episode/id1835129803?i=1000745198110",
+      "region": "Japan",
+      "language": "ja",
+      "publisher": "私はママで研究者 #ままけん",
+      "media_type": "personal account podcast",
+      "title": "母乳育児がほぼ軌道に乗るまで",
+      "locator": "Publisher chapter 03:45 postpartum hospital experience; researcher-parent narrative.",
+      "locator_type": "publisher chapter time; not audio verified",
+      "evidence_comparison_note": "Personal experience not clinical trial; no assumption her field confers lactation expertise.",
+      "evidence_links": [],
+      "commercial_and_funding_context": "Host university biology researcher per bio; funding and commercial ties unknown.",
+      "independence": "not established",
+      "verification_scope": "web search returned indexed title/description; selected pages opened; no full listening/viewing; translation and exact claims pending",
+      "rights": "link-only; no redistribution permission",
+      "clinical_review": false,
+      "publish": false,
+      "automation_allowed": false,
+      "id": "MED3-B02-025"
+    },
+    {
+      "url": "https://podcasts.apple.com/id/podcast/pendekatan-holistik-untuk-kehamilan-persalinan-tia/id1502436322?i=1000656026352",
+      "region": "Indonesia",
+      "language": "id",
+      "publisher": "Wholystically",
+      "media_type": "practitioner interview",
+      "title": "Pendekatan Holistik untuk Kehamilan & Persalinan",
+      "locator": "Publisher chapter 17:23 holistic pregnancy, 28:05 PPD, 43:33 bonding, 46:29 spirituality.",
+      "locator_type": "publisher chapter time; not audio verified",
+      "evidence_comparison_note": "19147637,32029010; prevention via structured support distinct from treatment with nurse-delivered IPT; spirituality not proven depression treatment.",
+      "evidence_links": [
+        {
+          "pmid": "19147637",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/19147637/",
+          "relationship": "related comparison, not necessarily cited in media; abstract-level, not full claim trace"
+        },
+        {
+          "pmid": "32029010",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/32029010/",
+          "relationship": "related comparison, not necessarily cited in media; abstract-level, not full claim trace"
+        }
+      ],
+      "commercial_and_funding_context": "Guest describes Nujuh Bulan birth of business/practice; services and episode sponsorship need audit.",
+      "independence": "not established",
+      "verification_scope": "web search returned indexed title/description; selected pages opened; no full listening/viewing; translation and exact claims pending",
+      "rights": "link-only; no redistribution permission",
+      "clinical_review": false,
+      "publish": false,
+      "automation_allowed": false,
+      "id": "MED3-B02-026"
+    },
+    {
+      "url": "https://podcasts.apple.com/id/podcast/tanda-bahaya-kehamilan/id1516849149?i=1000649173375&l=id",
+      "region": "Indonesia",
+      "language": "id",
+      "publisher": "Ibu Bayi Podcast",
+      "media_type": "midwife podcast",
+      "title": "Tanda BAHAYA kehamilan",
+      "locator": "Episode 14 Mar 2024, 21 min; pregnancy warning signs.",
+      "locator_type": "indexed description / show notes / page section",
+      "evidence_comparison_note": "Clinical safety hold: independently compare current maternal warning guidance, not instructions from show summary.",
+      "evidence_links": [],
+      "commercial_and_funding_context": "Host social accounts promoted; financial sponsorship unknown.",
+      "independence": "not established",
+      "verification_scope": "web search returned indexed title/description; selected pages opened; no full listening/viewing; translation and exact claims pending",
+      "rights": "link-only; no redistribution permission",
+      "clinical_review": false,
+      "publish": false,
+      "automation_allowed": false,
+      "id": "MED3-B02-027"
+    },
+    {
+      "url": "https://www.europe1.fr/emissions/sage-meuf-le-podcast-maternite-qui-vous-accompagne-pendant-votre-grossesse-et-apres-laccouchement/est-ce-vraiment-mieux-dallaiter-mon-bebe-69379",
+      "region": "France",
+      "language": "fr",
+      "publisher": "Europe 1 / Sage-Meuf",
+      "media_type": "midwife podcast",
+      "title": "Est-ce vraiment mieux d'allaiter mon bébé ?",
+      "locator": "Indexed publisher synopsis; direct page returned 403.",
+      "locator_type": "indexed description / show notes / page section",
+      "evidence_comparison_note": "11242425,29131887; randomized promotion and same-trial follow-up, not all claimed benefits; preserve formula access.",
+      "evidence_links": [
+        {
+          "pmid": "11242425",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/11242425/",
+          "relationship": "related comparison, not necessarily cited in media; abstract-level, not full claim trace"
+        },
+        {
+          "pmid": "29131887",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/29131887/",
+          "relationship": "related comparison, not necessarily cited in media; abstract-level, not full claim trace"
+        }
+      ],
+      "commercial_and_funding_context": "Publisher explicitly notes Carrefour support for French national college of midwives for season 2; exact editorial control unknown.",
+      "independence": "not established",
+      "verification_scope": "web search returned indexed title/description; selected pages opened; no full listening/viewing; translation and exact claims pending",
+      "rights": "link-only; no redistribution permission",
+      "clinical_review": false,
+      "publish": false,
+      "automation_allowed": false,
+      "id": "MED3-B02-028"
+    },
+    {
+      "url": "https://www.youtube.com/watch?v=10klMVYw_B4",
+      "region": "France",
+      "language": "fr",
+      "publisher": "Fondation Mustela / Accouche",
+      "media_type": "expert interview",
+      "title": "Devenir parent dès la grossesse",
+      "locator": "Episode 12 description; Jessica Letot and Candie Grangé discuss support.",
+      "locator_type": "indexed description / show notes / page section",
+      "evidence_comparison_note": "19147637,31469084; targeted peer support evidence, not proof all pregnancy parenting support prevents depression.",
+      "evidence_links": [
+        {
+          "pmid": "19147637",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/19147637/",
+          "relationship": "related comparison, not necessarily cited in media; abstract-level, not full claim trace"
+        },
+        {
+          "pmid": "31469084",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/31469084/",
+          "relationship": "related comparison, not necessarily cited in media; abstract-level, not full claim trace"
+        }
+      ],
+      "commercial_and_funding_context": "Producer Fondation Mustela; guests identified as recipients of foundation research awards 2022 and 2021; commercial connections and influence require separate audit.",
+      "independence": "not established",
+      "verification_scope": "web search returned indexed title/description; selected pages opened; no full listening/viewing; translation and exact claims pending",
+      "rights": "link-only; no redistribution permission",
+      "clinical_review": false,
+      "publish": false,
+      "automation_allowed": false,
+      "id": "MED3-B02-029"
+    },
+    {
+      "url": "https://www.gesund-ins-leben.de/netzwerk-gesund-ins-leben/aktuelle-meldungen/meldungen-2022/neues-video-breast-crawl/",
+      "region": "Germany",
+      "language": "de",
+      "publisher": "Gesund ins Leben",
+      "media_type": "educational video page",
+      "title": "Breast Crawl",
+      "locator": "Publisher summary of short video about early feeding behavior.",
+      "locator_type": "indexed description / show notes / page section",
+      "evidence_comparison_note": "34038632; immediate KMC trial concerns low-birthweight infants in hospitals; not direct proof breast crawl improves every feeding outcome.",
+      "evidence_links": [
+        {
+          "pmid": "34038632",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/34038632/",
+          "relationship": "related comparison, not necessarily cited in media; abstract-level, not full claim trace"
+        }
+      ],
+      "commercial_and_funding_context": "Institutional education network; exact production financing unknown.",
+      "independence": "not established",
+      "verification_scope": "web search returned indexed title/description; selected pages opened; no full listening/viewing; translation and exact claims pending",
+      "rights": "link-only; no redistribution permission",
+      "clinical_review": false,
+      "publish": false,
+      "automation_allowed": false,
+      "id": "MED3-B02-030"
+    },
+    {
+      "url": "https://www.kindergesundheit-info.de/infomaterial-service/nachrichten/artikel/artikel/neue-nzfh-filme-informieren-ueber-stillbeginn-und-schwere-gefuehle-vor-und-nach-der-geburt/",
+      "region": "Germany",
+      "language": "de",
+      "publisher": "kindergesundheit-info.de / NZFH",
+      "media_type": "video announcement",
+      "title": "Stillbeginn und schwere Gefühle vor und nach der Geburt",
+      "locator": "Publisher announcement describes two educational films; counted as one page, individual films not counted.",
+      "locator_type": "indexed description / show notes / page section",
+      "evidence_comparison_note": "19147637,32029010; evidence for selected support and treatment approaches; no self-diagnosis.",
+      "evidence_links": [
+        {
+          "pmid": "19147637",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/19147637/",
+          "relationship": "related comparison, not necessarily cited in media; abstract-level, not full claim trace"
+        },
+        {
+          "pmid": "32029010",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/32029010/",
+          "relationship": "related comparison, not necessarily cited in media; abstract-level, not full claim trace"
+        }
+      ],
+      "commercial_and_funding_context": "Institutional public education; film-specific funding and rights unknown.",
+      "independence": "not established",
+      "verification_scope": "web search returned indexed title/description; selected pages opened; no full listening/viewing; translation and exact claims pending",
+      "rights": "link-only; no redistribution permission",
+      "clinical_review": false,
+      "publish": false,
+      "automation_allowed": false,
+      "id": "MED3-B02-031"
+    },
+    {
+      "url": "https://www.youtube.com/watch?v=cVUZYXzvGUI",
+      "region": "Arabic-language; country unverified",
+      "language": "ar",
+      "publisher": "بودكاست رعاية",
+      "media_type": "obstetrician interview",
+      "title": "لا تفعلي هذا أثناء الحمل",
+      "locator": "Publisher description and chapter 03:26 fertility delay; pregnancy myths and folate.",
+      "locator_type": "indexed description / show notes / page section",
+      "evidence_comparison_note": "Specific recommendations and speaker credentials require verification; no dose or treatment clearance.",
+      "evidence_links": [],
+      "commercial_and_funding_context": "Clinical media publisher; sponsors and geographic setting unverified.",
+      "independence": "not established",
+      "verification_scope": "web search returned indexed title/description; selected pages opened; no full listening/viewing; translation and exact claims pending",
+      "rights": "link-only; no redistribution permission",
+      "clinical_review": false,
+      "publish": false,
+      "automation_allowed": false,
+      "id": "MED3-B02-032"
+    },
+    {
+      "url": "https://www.youtube.com/watch?v=9iUv1CcE6Og",
+      "region": "India",
+      "language": "hi",
+      "publisher": "Spiritual Breastfeeding / Hindi channel",
+      "media_type": "expert interview",
+      "title": "Spiritual Breastfeeding",
+      "locator": "Publisher description combines health benefits and spiritual framing.",
+      "locator_type": "indexed description / show notes / page section",
+      "evidence_comparison_note": "11242425,29131887; clinical outcomes cannot substantiate spiritual or intelligence-enhancement claims.",
+      "evidence_links": [
+        {
+          "pmid": "11242425",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/11242425/",
+          "relationship": "related comparison, not necessarily cited in media; abstract-level, not full claim trace"
+        },
+        {
+          "pmid": "29131887",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/29131887/",
+          "relationship": "related comparison, not necessarily cited in media; abstract-level, not full claim trace"
+        }
+      ],
+      "commercial_and_funding_context": "Channel explicitly describes spiritual mission; financial support and expert ties unknown.",
+      "independence": "not established",
+      "verification_scope": "web search returned indexed title/description; selected pages opened; no full listening/viewing; translation and exact claims pending",
+      "rights": "link-only; no redistribution permission",
+      "clinical_review": false,
+      "publish": false,
+      "automation_allowed": false,
+      "id": "MED3-B02-033"
+    },
+    {
+      "url": "https://afro.who.int/countries/sierra-leone/news/uncertainty-confidence-how-breastfeeding-support-transforming-care-mothers-and-newborns-sierra-leone",
+      "region": "Sierra Leone",
+      "language": "en",
+      "publisher": "WHO Africa",
+      "media_type": "field report",
+      "title": "Breastfeeding support in Sierra Leone",
+      "locator": "News feature on midwives and training, selected mother story.",
+      "locator_type": "indexed description / show notes / page section",
+      "evidence_comparison_note": "11242425,21752462; structured breastfeeding promotion trials, not evaluation of this program.",
+      "evidence_links": [
+        {
+          "pmid": "11242425",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/11242425/",
+          "relationship": "related comparison, not necessarily cited in media; abstract-level, not full claim trace"
+        },
+        {
+          "pmid": "21752462",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/21752462/",
+          "relationship": "related comparison, not necessarily cited in media; abstract-level, not full claim trace"
+        }
+      ],
+      "commercial_and_funding_context": "WHO institutional communication; specific program sponsor audit pending.",
+      "independence": "not established",
+      "verification_scope": "web search returned indexed title/description; selected pages opened; no full listening/viewing; translation and exact claims pending",
+      "rights": "link-only; no redistribution permission",
+      "clinical_review": false,
+      "publish": false,
+      "automation_allowed": false,
+      "id": "MED3-B02-034"
+    },
+    {
+      "url": "https://afro.who.int/countries/cameroon/news/when-science-protects-most-vulnerable-interview-professor-anne-esther-njom-nlend-cameroon",
+      "region": "Cameroon",
+      "language": "en",
+      "publisher": "WHO Africa",
+      "media_type": "researcher interview",
+      "title": "When science protects the most vulnerable",
+      "locator": "Interview on neonatal care, KMC and pediatric HIV.",
+      "locator_type": "indexed description / show notes / page section",
+      "evidence_comparison_note": "34038632; direct KMC survival RCT in five countries. HIV transmission discussion requires current clinical guidance.",
+      "evidence_links": [
+        {
+          "pmid": "34038632",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/34038632/",
+          "relationship": "related comparison, not necessarily cited in media; abstract-level, not full claim trace"
+        }
+      ],
+      "commercial_and_funding_context": "WHO institutional communication; guest research funding and interests unknown.",
+      "independence": "not established",
+      "verification_scope": "web search returned indexed title/description; selected pages opened; no full listening/viewing; translation and exact claims pending",
+      "rights": "link-only; no redistribution permission",
+      "clinical_review": false,
+      "publish": false,
+      "automation_allowed": false,
+      "id": "MED3-B02-035"
+    },
+    {
+      "url": "https://afro.who.int/countries/senegal/news/senegal-transforms-childbirth-experience-through-who-recommended-care-models",
+      "region": "Senegal",
+      "language": "en",
+      "publisher": "WHO Africa",
+      "media_type": "field report",
+      "title": "Respectful maternity care in Senegal",
+      "locator": "Report describes birth preparedness, labor management, listening and emotional support.",
+      "locator_type": "indexed description / show notes / page section",
+      "evidence_comparison_note": "28681500; continuous support review, not controlled evaluation of Senegal program.",
+      "evidence_links": [
+        {
+          "pmid": "28681500",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/28681500/",
+          "relationship": "related comparison, not necessarily cited in media; abstract-level, not full claim trace"
+        }
+      ],
+      "commercial_and_funding_context": "WHO support stated; specific funding and outcome audit pending.",
+      "independence": "not established",
+      "verification_scope": "web search returned indexed title/description; selected pages opened; no full listening/viewing; translation and exact claims pending",
+      "rights": "link-only; no redistribution permission",
+      "clinical_review": false,
+      "publish": false,
+      "automation_allowed": false,
+      "id": "MED3-B02-036"
+    },
+    {
+      "url": "https://www.afro.who.int/countries/cote-divoire/news/aissata-coulibaly-serving-women-heart-life",
+      "region": "Côte d’Ivoire",
+      "language": "en",
+      "publisher": "WHO Africa",
+      "media_type": "midwife profile",
+      "title": "Aïssata Coulibaly: Serving women",
+      "locator": "Profile of certified midwife and care roles.",
+      "locator_type": "indexed description / show notes / page section",
+      "evidence_comparison_note": "Personal/practitioner context only, not treatment effectiveness.",
+      "evidence_links": [],
+      "commercial_and_funding_context": "WHO institutional communication; funding unknown.",
+      "independence": "not established",
+      "verification_scope": "web search returned indexed title/description; selected pages opened; no full listening/viewing; translation and exact claims pending",
+      "rights": "link-only; no redistribution permission",
+      "clinical_review": false,
+      "publish": false,
+      "automation_allowed": false,
+      "id": "MED3-B02-037"
+    },
+    {
+      "url": "https://afro.who.int/countries/central-african-republic/news/regina-patricia-pepa-midwife-taking-challenges-help-women-central-african-republic",
+      "region": "Central African Republic",
+      "language": "en",
+      "publisher": "WHO Africa",
+      "media_type": "midwife profile",
+      "title": "Regina Patricia Pepa",
+      "locator": "Profile of midwife and birth attendants association president; antenatal monitoring and spacing.",
+      "locator_type": "indexed description / show notes / page section",
+      "evidence_comparison_note": "Context only; spacing evidence and local care access need independent appraisal.",
+      "evidence_links": [],
+      "commercial_and_funding_context": "WHO institutional communication; funding unknown.",
+      "independence": "not established",
+      "verification_scope": "web search returned indexed title/description; selected pages opened; no full listening/viewing; translation and exact claims pending",
+      "rights": "link-only; no redistribution permission",
+      "clinical_review": false,
+      "publish": false,
+      "automation_allowed": false,
+      "id": "MED3-B02-038"
+    },
+    {
+      "url": "https://www.afro.who.int/news/midwives-south-sudan-provide-lifeline-times-calm-and-crisis",
+      "region": "South Sudan",
+      "language": "en",
+      "publisher": "WHO Africa",
+      "media_type": "field report",
+      "title": "Midwives in South Sudan",
+      "locator": "Midwife and maternal accounts in crisis settings.",
+      "locator_type": "indexed description / show notes / page section",
+      "evidence_comparison_note": "Access to skilled care context; no comparative birth-setting estimate.",
+      "evidence_links": [],
+      "commercial_and_funding_context": "WHO institutional communication; program support unknown.",
+      "independence": "not established",
+      "verification_scope": "web search returned indexed title/description; selected pages opened; no full listening/viewing; translation and exact claims pending",
+      "rights": "link-only; no redistribution permission",
+      "clinical_review": false,
+      "publish": false,
+      "automation_allowed": false,
+      "id": "MED3-B02-039"
+    }
+  ],
+  "duplicates": [],
+  "uncounted_discovery_leads": [
+    {
+      "url": "https://portaldeboaspraticas.iff.fiocruz.br/especialista/pos-parto-e-os-circulos-de-cuidado-na-terra-indigena-yanomami/",
+      "region": "Brazil",
+      "language": "pt",
+      "title": "Yanomami postpartum circles of care",
+      "note": "Individual seminar listing requires login; no content reviewed. Prioritize consent and community-specific interpretation.",
+      "publish": false,
+      "clinical_review": false,
+      "automation_allowed": false
+    },
+    {
+      "url": "https://portaldeboaspraticas.iff.fiocruz.br/especialista/cuidados-no-puerperio-2/",
+      "region": "Brazil",
+      "language": "pt",
+      "title": "Cuidados no Puerpério",
+      "note": "Login required; listing only.",
+      "publish": false,
+      "clinical_review": false,
+      "automation_allowed": false
+    },
+    {
+      "url": "https://portaldeboaspraticas.iff.fiocruz.br/especialista/mastite-lactacional-e-cuidados-da-mama-no-puerperio/",
+      "region": "Brazil",
+      "language": "pt",
+      "title": "Mastite Lactacional",
+      "note": "Login required; listing only; clinical safety review needed.",
+      "publish": false,
+      "clinical_review": false,
+      "automation_allowed": false
+    },
+    {
+      "url": "https://podcasts.apple.com/id/podcast/cerita-bidan-laila/id1502249947?l=id",
+      "region": "Indonesia",
+      "language": "id",
+      "title": "Cerita Bidan Laila",
+      "note": "Series directory, not episode; prenatal massage and acupressure require harm review.",
+      "publish": false,
+      "clinical_review": false,
+      "automation_allowed": false
+    },
+    {
+      "url": "https://podcasts.apple.com/us/podcast/roompi-sehat/id1534269396",
+      "region": "Indonesia",
+      "language": "id",
+      "title": "ROOMpi Sehat",
+      "note": "Series directory, three midwives; individual episodes not screened.",
+      "publish": false,
+      "clinical_review": false,
+      "automation_allowed": false
+    },
+    {
+      "url": "https://podcasts.apple.com/jp/podcast/episode/id1889423572",
+      "region": "Japan",
+      "language": "ja",
+      "title": "ママポ",
+      "note": "Series directory; microchimerism and preparation topics; no individual claims screened.",
+      "publish": false,
+      "clinical_review": false,
+      "automation_allowed": false
+    },
+    {
+      "url": "https://www.hahatoko.jp/hospital/class/movie/",
+      "region": "Japan",
+      "language": "ja",
+      "title": "Hospital prenatal and midwife class videos",
+      "note": "Collection only; individual videos need review; hospital service interests.",
+      "publish": false,
+      "clinical_review": false,
+      "automation_allowed": false
+    },
+    {
+      "url": "https://podcasts.apple.com/fr/podcast/mamelles/id1646814212",
+      "region": "France",
+      "language": "fr",
+      "title": "MAM'ELLES",
+      "note": "Series directory, maternity journalism and stories.",
+      "publish": false,
+      "clinical_review": false,
+      "automation_allowed": false
+    },
+    {
+      "url": "https://podcasts.apple.com/fr/podcast/grandir-nature-le-podcast/id1846360650",
+      "region": "France",
+      "language": "fr",
+      "title": "Grandir Nature",
+      "note": "Series directory; commercial/lactation equipment interests need verification.",
+      "publish": false,
+      "clinical_review": false,
+      "automation_allowed": false
+    },
+    {
+      "url": "https://pmnch.who.int/news-and-events/touchpoint-podcast",
+      "region": "International",
+      "language": "en",
+      "title": "Touchpoint",
+      "note": "Series directory, maternal child health in low- and middle-income countries.",
+      "publish": false,
+      "clinical_review": false,
+      "automation_allowed": false
+    },
+    {
+      "url": "https://podcasts.apple.com/fr/podcast/la-voix-lact%C3%A9e-podcast/id1560287997",
+      "region": "France",
+      "language": "fr",
+      "title": "La Voix Lactée",
+      "note": "Directory; host explicitly promotes paid doula and carrying support services.",
+      "publish": false,
+      "clinical_review": false,
+      "automation_allowed": false
+    },
+    {
+      "url": "https://podcasts.apple.com/fr/podcast/sage-meuf-le-podcast-maternit%C3%A9-qui-vous-accompagne/id1514395613",
+      "region": "France",
+      "language": "fr",
+      "title": "Sage-Meuf",
+      "note": "Series directory; Carrefour sponsorship disclosed; individual episodes not counted.",
+      "publish": false,
+      "clinical_review": false,
+      "automation_allowed": false
+    }
+  ]
+}
