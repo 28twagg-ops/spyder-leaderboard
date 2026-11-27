@@ -1,6 +1,6 @@
 import { Link, NavLink } from 'react-router-dom'
 import { Glyph } from './Glyph'
-import { useNavigationMemory } from '../hooks/NavigationMemory'
+import { useNavigationMemory } from '../hooks/navigationContext'
 const items = [
  {to:'/',label:'Home',icon:'home'},
  {to:'/timeline',label:'Journey',icon:'journey'},

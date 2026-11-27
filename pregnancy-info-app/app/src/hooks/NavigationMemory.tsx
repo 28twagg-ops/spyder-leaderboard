@@ -1,7 +1,9 @@
-import { createContext, useContext, useLayoutEffect, useEffect, useRef, type ReactNode } from 'react'
-import { useLocation, useNavigate, useNavigationType } from 'react-router-dom'
-export type PrimaryTab='/'|'/timeline'|'/explore'|'/library'
-interface Entry {depth:number;tab:PrimaryTab;scroll:number}
+import { useCallback, useEffect, useLayoutEffect, useRef, useState, type ReactNode } from 'react'
+import { useLocation, useNavigationType } from 'react-router-dom'
+import { NavigationContext, type PrimaryTab } from './navigationContext'
+
+interface Entry {depth:number;tab:PrimaryTab}
+interface NavigationSnapshot {key:string;entry:Entry;entries:Map<string,Entry>}
 function primary(path:string):PrimaryTab|undefined {
  if(path==='/')return '/'
  if(path==='/timeline'||path.startsWith('/timeline/'))return '/timeline'
@@ -13,34 +15,45 @@ function defaultTab(path:string):PrimaryTab{
  if(path.startsWith('/research'))return '/library'
  return '/'
 }
-const Context=createContext<{tab:PrimaryTab;canGoBack:boolean;position:number;clearPositions:()=>void;recordPosition:(top:number)=>void}|null>(null)
+function nextSnapshot(key:string,pathname:string,action:string,previous?:NavigationSnapshot):NavigationSnapshot{
+ const known=previous?.entries.get(key)
+ const depth=known?.depth??(action==='PUSH'&&previous?previous.entry.depth+1:action==='REPLACE'?(previous?.entry.depth??0):0)
+ const tab=primary(pathname)??known?.tab??(action==='POP'?defaultTab(pathname):previous?.entry.tab??defaultTab(pathname))
+ const entry={depth,tab}
+ const entries=new Map(previous?.entries)
+ entries.set(key,entry)
+ // Limit volatile history. Older entries degrade to safe fallback navigation.
+ if(entries.size>256)entries.delete(entries.keys().next().value!)
+ return {key,entry,entries}
+}
 
-/** In-memory history only, including per-entry scroll and the origin tab of secondary screens. */
+/** React state drives the active tab and in-app history depth. Scroll refs are used only in effects and callbacks. */
 export function NavigationMemoryProvider({children}:{children:ReactNode}){
- const location=useLocation(), action=useNavigationType()
- const {key,pathname}=location
- const entries=useRef(new Map<string,Entry>())
- const roots=useRef(new Map<string,number>())
- const last=useRef<Entry|null>(null)
- const known=entries.current.get(key)
- const depth=known?.depth??(action==='PUSH'&&last.current?last.current.depth+1:action==='REPLACE'?(last.current?.depth??0):0)
- const tab=primary(pathname)??known?.tab??(action==='POP'?defaultTab(pathname):last.current?.tab??defaultTab(pathname))
- const rootReturn=location.state?.everwellTabReturn===true&&primary(pathname)===pathname
- const position=action==='POP'?(known?.scroll??0):rootReturn?(roots.current.get(pathname)??0):0
- const recordPosition=(top:number)=>{
-  const entry=entries.current.get(key)
-  if(entry)entry.scroll=Math.max(0,top)
-  if(primary(pathname)===pathname)roots.current.set(pathname,Math.max(0,top))
+ const {key,pathname}=useLocation()
+ const action=useNavigationType()
+ const [snapshot,setSnapshot]=useState(()=>nextSnapshot(key,pathname,action))
+ let current=snapshot
+ // Adjust state on a location change before children render; do not read mutable refs during render.
+ if(snapshot.key!==key){
+  current=nextSnapshot(key,pathname,action,snapshot)
+  setSnapshot(current)
  }
+ const positions=useRef(new Map<string,number>())
+ const roots=useRef(new Map<string,number>())
+ const getPosition=useCallback((entryKey:string,path:string,pop:boolean,rootReturn:boolean)=>{
+  if(pop)return positions.current.get(entryKey)??0
+  return rootReturn&&primary(path)===path?roots.current.get(path)??0:0
+ },[])
+ const clearPositions=useCallback(()=>{positions.current.clear();roots.current.clear()},[])
  useLayoutEffect(()=>{
-  const entry:Entry={depth,tab,scroll:known?.scroll??position}
-  entries.current.set(key,entry)
-  last.current=entry
-  const onScroll=()=>recordPosition(document.documentElement.scrollTop||document.body.scrollTop||0)
+  const onScroll=()=>{
+   const top=Math.max(0,document.documentElement.scrollTop||document.body.scrollTop||0)
+   positions.current.set(key,top)
+   if(positions.current.size>256)positions.current.delete(positions.current.keys().next().value!)
+   if(primary(pathname)===pathname)roots.current.set(pathname,top)
+  }
   window.addEventListener('scroll',onScroll,{passive:true})
   return ()=>window.removeEventListener('scroll',onScroll)
- // A location entry is registered exactly once per navigation, not on every view-state change.
- // eslint-disable-next-line react-hooks/exhaustive-deps
  },[key,pathname])
  useEffect(()=>{
   if(!('scrollRestoration' in window.history))return
@@ -48,45 +61,5 @@ export function NavigationMemoryProvider({children}:{children:ReactNode}){
   window.history.scrollRestoration='manual'
   return ()=>{window.history.scrollRestoration=previous}
  },[])
- const clearPositions=()=>{roots.current.clear();for(const entry of entries.current.values())entry.scroll=0}
- return <Context.Provider value={{tab,canGoBack:depth>0,position,clearPositions,recordPosition}}>{children}</Context.Provider>
-}
-export function useNavigationMemory(){return useContext(Context)}
-export function useAppBack(fallback:string){
- const memory=useContext(Context), navigate=useNavigate()
- return ()=>{if(memory?.canGoBack)navigate(-1);else navigate(fallback,{replace:true})}
-}
-
-/** Mounted inside Suspense so a lazy route has committed before restoring position. */
-export function RoutePosition(){
- const {key,pathname,hash}=useLocation()
- const action=useNavigationType()
- const memory=useNavigationMemory()
- useLayoutEffect(()=>{
-  if(hash){
-   let id=hash.slice(1)
-   try{id=decodeURIComponent(id)}catch{/* use literal ID */}
-   const target=document.getElementById(id)
-   if(target instanceof HTMLDetailsElement)target.open=true
-   let parent=target?.parentElement
-   while(parent){if(parent instanceof HTMLDetailsElement)parent.open=true;parent=parent.parentElement}
-   target?.scrollIntoView?.({block:'start'})
-   if(id==='main')target?.focus({preventScroll:true})
-   return
-  }
-  const y=memory?.position??0
-  document.documentElement.scrollTop=y
-  document.body.scrollTop=y
-  if(action!=='POP'&&!document.querySelector('dialog[open]'))document.getElementById('main')?.focus({preventScroll:true})
-  // Restore once more after layout; avoid delayed restoration if the user has already scrolled.
-  if(typeof requestAnimationFrame!=='function')return
-  const frame=requestAnimationFrame(()=>{
-   const current=document.documentElement.scrollTop||document.body.scrollTop||0
-   if(current===0&&y>0){document.documentElement.scrollTop=y;document.body.scrollTop=y}
-  })
-  return ()=>cancelAnimationFrame(frame)
- // View state changes must not reset scroll.
- // eslint-disable-next-line react-hooks/exhaustive-deps
- },[key,pathname,hash,action])
- return null
+ return <NavigationContext.Provider value={{tab:current.entry.tab,canGoBack:current.entry.depth>0,getPosition,clearPositions}}>{children}</NavigationContext.Provider>
 }

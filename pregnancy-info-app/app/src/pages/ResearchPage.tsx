@@ -1,5 +1,5 @@
 import { Glyph } from '../components/Glyph'
-import { useAppBack } from '../hooks/NavigationMemory'
+import { useAppBack } from '../hooks/navigationContext'
 import { safeVisualUrl } from '../data/visualCatalog'
 import { domainLabels } from '../data/browseState'
 import { ReadingRow } from '../components/ReadingUI'

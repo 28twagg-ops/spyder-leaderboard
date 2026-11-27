@@ -1,7 +1,7 @@
 import { Link } from 'react-router-dom'
 import type { ReactNode } from 'react'
 import { Glyph } from './Glyph'
-import { useAppBack } from '../hooks/NavigationMemory'
+import { useAppBack } from '../hooks/navigationContext'
 export function ScreenHeading({title,subtitle,back,backLabel='Back',historyBack=false,action}:{title:string;subtitle?:string;back?:string;backLabel?:string;historyBack?:boolean;action?:ReactNode}){
  const goBack=useAppBack(back??"/")
  return <header className="screen-heading">{back&&(historyBack?<button type="button" className="reader-back" onClick={goBack}><Glyph name="back"/>{backLabel}</button>:<Link className="reader-back" to={back}><Glyph name="back"/>{backLabel}</Link>)}<div className="editorial-section-head"><h1 className="page-title">{title}</h1>{action}</div>{subtitle&&<p className="muted screen-subtitle">{subtitle}</p>}</header>
