@@ -12,6 +12,7 @@ const researchRoot = path.resolve(appRoot, '..', 'research')
 const outDir = path.join(appRoot, 'src', 'data', 'imported')
 
 const jsonFiles = [
+  ['staged-completion/stage-08/ASSET_CATALOG.json', 'visual_catalog.json'],
   ['staged-completion/stage-09/ARTICLES.json', 'articles.json'],
   ['staged-completion/stage-09/ACTIONS.json', 'actions.json'],
   ['staged-completion/stage-09/FAQ.json', 'faq.json'],
