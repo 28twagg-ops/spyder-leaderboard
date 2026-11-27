@@ -1,8 +1,8 @@
 # Approval-gated research completion stages
 Only run one authorized stage at a time. Stop and report results before starting next. No recurring monitoring. Regular ChatGPT first; Work preferred only for large file operations, running validation on full checkout, exports and final document/asset packaging.
 1. Scientific integrity, funding standards and safety reconciliation — initial scoped audit complete; ongoing individual disclosures and clinical approval remain.
-2. Breastfeeding/formula, diapers, elimination communication, parenting alternatives — scoped packet complete; [Stage 2](stage-02/README.md). Remaining primary-source verification recorded. Stage 3 requires user approval.
-3. Maternal health, rehabilitation, appearance preservation.
+2. Breastfeeding/formula, diapers, elimination communication, parenting alternatives — scoped packet complete; [Stage 2](stage-02/README.md). Remaining primary-source verification recorded. Stage 3 was authorized and completed to checkpoint level.
+3. Maternal health, rehabilitation, appearance preservation — [Stage 3](stage-03/README.md) scoped packet complete. Stage 4 requires user approval.
 4. Fetal and childhood cognitive, motor and emotional development.
 5. Nutrition, supplements and ingredients, trial reconciliation.
 6. Environmental exposures and long-term health.

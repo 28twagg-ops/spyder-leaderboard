@@ -1,0 +1,147 @@
+[
+  {
+    "topic": "Stretch mark prevention",
+    "interpretation": "Cocoa/olive oil null or unclear; Centella combinations and massage limited; coconut oil promising single trial. No proven prevention or 3-year regimen.",
+    "source_ids": [
+      "P3-01",
+      "P3-02",
+      "P3-03",
+      "P3-04"
+    ],
+    "clinical_review": false,
+    "release": "draft"
+  },
+  {
+    "topic": "Collagen",
+    "interpretation": "Adult indirect findings conflict; industry and high-quality sensitivity analyses undermine marketing claims. No pregnancy prevention proof.",
+    "source_ids": [
+      "P3-05",
+      "P3-06",
+      "P3-07"
+    ],
+    "clinical_review": false,
+    "release": "draft"
+  },
+  {
+    "topic": "Breast appearance",
+    "interpretation": "Pregnancy volume changes, selected ptosis predictors; no causal feeding recommendation. Support bra for comfort, not proven prevention.",
+    "source_ids": [
+      "P3-08",
+      "P3-09"
+    ],
+    "clinical_review": false,
+    "release": "draft"
+  },
+  {
+    "topic": "DRA exercise",
+    "interpretation": "Separate strength, symptoms, anatomical gap, functional endpoints. Compare TrA, RA, hypopressive without blanket prohibition.",
+    "source_ids": [
+      "P3-10",
+      "P3-11",
+      "P3-12",
+      "P3-13",
+      "P3-14",
+      "P3-15",
+      "P3-35"
+    ],
+    "clinical_review": false,
+    "release": "draft"
+  },
+  {
+    "topic": "Pelvic floor",
+    "interpretation": "PFMT may reduce UI; POP only one trial; injury-focused PFPT supports symptom improvement. Pain/overactivity may need relaxation not more contractions.",
+    "source_ids": [
+      "P3-11",
+      "P3-16",
+      "P3-17",
+      "S194"
+    ],
+    "clinical_review": false,
+    "release": "draft"
+  },
+  {
+    "topic": "Heavy exercise and return",
+    "interpretation": "Acute athlete evidence encouraging, no long-term universal clearance. US guidance and Canadian gradual postpartum progression; running readiness consensus not fixed deadline.",
+    "source_ids": [
+      "P3-18",
+      "P3-19",
+      "P3-33",
+      "S066",
+      "S067"
+    ],
+    "clinical_review": false,
+    "release": "draft"
+  },
+  {
+    "topic": "Perineal trauma",
+    "interpretation": "Antenatal massage lowers suturing/episiotomy in old review; no guarantee of intact perineum. Separate intrapartum and postpartum repair.",
+    "source_ids": [
+      "P3-20",
+      "P3-16",
+      "S074"
+    ],
+    "clinical_review": false,
+    "release": "draft"
+  },
+  {
+    "topic": "Pelvic girdle pain",
+    "interpretation": "Stabilising and acupuncture may help in some comparisons; sham trial less convincing; individual physiotherapy.",
+    "source_ids": [
+      "P3-21",
+      "P3-22",
+      "P3-34"
+    ],
+    "clinical_review": false,
+    "release": "draft"
+  },
+  {
+    "topic": "Binder",
+    "interpretation": "Short-term pain support after cesarean; not waist training or permanent structural correction.",
+    "source_ids": [
+      "P3-23"
+    ],
+    "clinical_review": false,
+    "release": "draft"
+  },
+  {
+    "topic": "Scars",
+    "interpretation": "Silicone may improve some scar appearance measures; evidence heterogeneous and no brand superiority. Only after wound status reviewed.",
+    "source_ids": [
+      "P3-24",
+      "P3-25",
+      "P3-26"
+    ],
+    "clinical_review": false,
+    "release": "draft"
+  },
+  {
+    "topic": "Venous changes",
+    "interpretation": "Compression symptoms and reflux vs structural prevention; urgent unilateral swelling not routine compression.",
+    "source_ids": [
+      "P3-27",
+      "P3-32"
+    ],
+    "clinical_review": false,
+    "release": "draft"
+  },
+  {
+    "topic": "Melasma/acne/hair",
+    "interpretation": "Sun protection and stage-appropriate clinician care; no causal comparison to historical melasma control or weaning for shedding; retain retinoid hold.",
+    "source_ids": [
+      "P3-28",
+      "P3-29",
+      "P3-30"
+    ],
+    "clinical_review": false,
+    "release": "draft"
+  },
+  {
+    "topic": "RF microneedling",
+    "interpretation": "FDA serious injury signal; no elective pregnancy or at-home recommendation; stage 7 device efficacy review separate.",
+    "source_ids": [
+      "P3-31"
+    ],
+    "clinical_review": false,
+    "release": "draft"
+  }
+]

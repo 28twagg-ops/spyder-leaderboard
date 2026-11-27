@@ -1,0 +1,122 @@
+[
+  {
+    "id": "P3-V01",
+    "publisher": "OpenStax A&P 2e",
+    "asset": "Figure 5.2 skin layers; Figure 5.7 dermis histology",
+    "url": "https://openstax.org/books/anatomy-and-physiology-2e/pages/5-1-layers-of-the-skin",
+    "rights": "CC BY-NC-SA 4.0 per edition preface; check individual credits, no commercial clearance",
+    "redistribution_cleared": false,
+    "clinical_review": false,
+    "access": "source page or indexed figure caption; artwork not downloaded or verified for reuse"
+  },
+  {
+    "id": "P3-V02",
+    "publisher": "OpenStax A&P 2e",
+    "asset": "Figure 11.16 and Table 11.6 abdominal muscle groups",
+    "url": "https://openstax.org/books/anatomy-and-physiology-2e/pages/11-4-axial-muscles-of-the-abdominal-wall-and-thorax",
+    "rights": "CC BY-NC-SA 4.0; confirm asset-specific terms",
+    "redistribution_cleared": false,
+    "clinical_review": false,
+    "access": "source page or indexed figure caption; artwork not downloaded or verified for reuse"
+  },
+  {
+    "id": "P3-V03",
+    "publisher": "OpenStax A&P 2e",
+    "asset": "Figure 11.19 muscles of pelvic floor",
+    "url": "https://openstax.org/books/anatomy-and-physiology-2e/pages/11-4-axial-muscles-of-the-abdominal-wall-and-thorax",
+    "rights": "CC BY-NC-SA 4.0; confirm asset-specific terms",
+    "redistribution_cleared": false,
+    "clinical_review": false,
+    "access": "source page or indexed figure caption; artwork not downloaded or verified for reuse"
+  },
+  {
+    "id": "P3-V04",
+    "publisher": "OpenStax A&P 2e",
+    "asset": "Section 28.6, figure 28.23 let-down reflex and mammary anatomy in section",
+    "url": "https://openstax.org/books/anatomy-and-physiology-2e/pages/28-6-lactation",
+    "rights": "CC BY-NC-SA 4.0; verify figure numbers/credits for anatomy",
+    "redistribution_cleared": false,
+    "clinical_review": false,
+    "access": "source page or indexed figure caption; artwork not downloaded or verified for reuse"
+  },
+  {
+    "id": "P3-V05",
+    "publisher": "RCOG",
+    "asset": "OASI tear diagrams and repair education",
+    "url": "https://www.rcog.org.uk/for-the-public/perineal-tears-and-episiotomies-in-childbirth/third-and-fourth-degree-tears-oasi/",
+    "rights": "Link-only until permission; UK context, sensitive anatomy",
+    "redistribution_cleared": false,
+    "clinical_review": false,
+    "access": "source page or indexed figure caption; artwork not downloaded or verified for reuse"
+  },
+  {
+    "id": "P3-V06",
+    "publisher": "RCOG",
+    "asset": "Perineal massage illustration in reducing tears page",
+    "url": "https://www.rcog.org.uk/for-the-public/perineal-tears-and-episiotomies-in-childbirth/reducing-your-risk-of-perineal-tears/",
+    "rights": "Link only; clinician review before procedural content",
+    "redistribution_cleared": false,
+    "clinical_review": false,
+    "access": "source page or indexed figure caption; artwork not downloaded or verified for reuse"
+  },
+  {
+    "id": "P3-V07",
+    "publisher": "RCOG",
+    "asset": "Pelvic girdle pain and pregnancy diagrams/education",
+    "url": "https://www.rcog.org.uk/for-the-public/browse-our-patient-information/pelvic-girdle-pain-and-pregnancy/",
+    "rights": "Link only; individual image presence/rights pending",
+    "redistribution_cleared": false,
+    "clinical_review": false,
+    "access": "source page or indexed figure caption; artwork not downloaded or verified for reuse"
+  },
+  {
+    "id": "P3-V08",
+    "publisher": "Beamish et al.",
+    "asset": "Figures 6–7 forest plots and results",
+    "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC12013572/",
+    "rights": "Original article license and credits to verify; redraw from verified data if necessary",
+    "redistribution_cleared": false,
+    "clinical_review": false,
+    "access": "source page or indexed figure caption; artwork not downloaded or verified for reuse"
+  },
+  {
+    "id": "P3-V09",
+    "publisher": "Collagen reanalysis",
+    "asset": "Table 1 errors, Figure 1 dose meta-regressions",
+    "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC13618891/",
+    "rights": "Link only; chart data interpretation and license verification pending",
+    "redistribution_cleared": false,
+    "clinical_review": false,
+    "access": "source page or indexed figure caption; artwork not downloaded or verified for reuse"
+  },
+  {
+    "id": "P3-V10",
+    "publisher": "CSEP guideline",
+    "asset": "Figures 1–2 postpartum preparticipation screening framework",
+    "url": "https://bjsm.bmj.com/content/59/8/515",
+    "rights": "Link only; not an automated clearance tool",
+    "redistribution_cleared": false,
+    "clinical_review": false,
+    "access": "source page or indexed figure caption; artwork not downloaded or verified for reuse"
+  },
+  {
+    "id": "P3-V11",
+    "publisher": "CDC Hear Her",
+    "asset": "Urgent maternal warning signs educational materials and posters",
+    "url": "https://www.cdc.gov/hearher/hcp/toolkit/warning-signs-educational-materials.html",
+    "rights": "Review individual asset restrictions and branding; no delay to care",
+    "redistribution_cleared": false,
+    "clinical_review": false,
+    "access": "source page or indexed figure caption; artwork not downloaded or verified for reuse"
+  },
+  {
+    "id": "P3-V12",
+    "publisher": "CGATE",
+    "asset": "Three-dimensional breast volume study source for educational data chart",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/24100511/",
+    "rights": "No reuse of participant images; numeric chart only with attribution",
+    "redistribution_cleared": false,
+    "clinical_review": false,
+    "access": "source page or indexed figure caption; artwork not downloaded or verified for reuse"
+  }
+]

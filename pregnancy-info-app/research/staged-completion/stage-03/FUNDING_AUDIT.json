@@ -1,0 +1,340 @@
+[
+  {
+    "source_id": "P3-01",
+    "prior_ids": [
+      "S001"
+    ],
+    "funding": "Trial funding unknown except Osman lotion donation and Taavoni 2011 no funding reported; review-level disclosure not extracted",
+    "coi": null,
+    "access": "Indexed full text, risk-of-bias/funding passage",
+    "independence_status": "see disclosure; no independent certification"
+  },
+  {
+    "source_id": "P3-02",
+    "prior_ids": [
+      "S004"
+    ],
+    "funding": "ET Browne Drug Company supplied active and placebo lotions per Cochrane trial characterization; cash and sponsor role unknown",
+    "coi": null,
+    "access": "Primary abstract and P3-01 funding passage",
+    "independence_status": "in-kind manufacturer supply documented; other support unknown"
+  },
+  {
+    "source_id": "P3-03",
+    "prior_ids": [
+      "S010"
+    ],
+    "funding": "Not verified",
+    "coi": null,
+    "access": "Indexed primary abstract",
+    "independence_status": "see disclosure; no independent certification"
+  },
+  {
+    "source_id": "P3-04",
+    "prior_ids": [
+      "RP004"
+    ],
+    "funding": "Not disclosed on accessible article landing page",
+    "coi": null,
+    "access": "Publisher abstract and publication metadata",
+    "independence_status": "see disclosure; no independent certification"
+  },
+  {
+    "source_id": "P3-05",
+    "prior_ids": [
+      "S011"
+    ],
+    "funding": "Review grant statement not retrieved; underlying trials separated by sponsor",
+    "coi": "Authors Myung and Park declare none per publisher indexed disclosure",
+    "access": "Indexed abstract and publisher COI",
+    "independence_status": "see disclosure; no independent certification"
+  },
+  {
+    "source_id": "P3-06",
+    "prior_ids": [
+      "CL02"
+    ],
+    "funding": "Review grant support not established from inspected passages; underlying trial sponsorship counts reported",
+    "coi": "Authors declare no conflicts",
+    "access": "Full text selected Table 1, Table 2, Figure 1, discussion, disclosure",
+    "independence_status": "see disclosure; no independent certification"
+  },
+  {
+    "source_id": "P3-07",
+    "prior_ids": [
+      "S012"
+    ],
+    "funding": "Not verified",
+    "coi": null,
+    "access": "Indexed abstract",
+    "independence_status": "see disclosure; no independent certification"
+  },
+  {
+    "source_id": "P3-08",
+    "prior_ids": [
+      "S044"
+    ],
+    "funding": "Not available in accessible abstract",
+    "coi": null,
+    "access": "Primary abstract and author affiliations",
+    "independence_status": "see disclosure; no independent certification"
+  },
+  {
+    "source_id": "P3-09",
+    "prior_ids": [
+      "H032"
+    ],
+    "funding": "PubMed indexes non-US government support; exact source and commercial ties not verified",
+    "coi": null,
+    "access": "Primary abstract",
+    "independence_status": "see disclosure; no independent certification"
+  },
+  {
+    "source_id": "P3-10",
+    "prior_ids": [
+      "S028"
+    ],
+    "funding": "Not independently retrieved",
+    "coi": "Nil per publisher indexed disclosure",
+    "access": "Primary abstract and publisher snippet",
+    "independence_status": "see disclosure; no independent certification"
+  },
+  {
+    "source_id": "P3-11",
+    "prior_ids": [
+      "S032"
+    ],
+    "funding": "UQTR research chair, Christenson Professorship, Alberta Innovates studentship (author support; underlying trial funding separate)",
+    "coi": "Full author COI not extracted",
+    "access": "Full text results, figures 6–7 and funding footnote",
+    "independence_status": "see disclosure; no independent certification"
+  },
+  {
+    "source_id": "P3-12",
+    "prior_ids": [
+      "S030"
+    ],
+    "funding": "Not verified; subscription restriction",
+    "coi": null,
+    "access": "Publisher abstract, reference list",
+    "independence_status": "see disclosure; no independent certification"
+  },
+  {
+    "source_id": "P3-13",
+    "prior_ids": [
+      "N301"
+    ],
+    "funding": "Not verified",
+    "coi": null,
+    "access": "Publisher indexed results and discussion",
+    "independence_status": "see disclosure; no independent certification"
+  },
+  {
+    "source_id": "P3-14",
+    "prior_ids": [
+      "DR013"
+    ],
+    "funding": "Not verified",
+    "coi": null,
+    "access": "Indexed abstract/title",
+    "independence_status": "see disclosure; no independent certification"
+  },
+  {
+    "source_id": "P3-15",
+    "prior_ids": [],
+    "funding": "Not verified",
+    "coi": "Nil per publisher indexed disclosure",
+    "access": "Indexed abstract and publisher disclosure",
+    "independence_status": "see disclosure; no independent certification"
+  },
+  {
+    "source_id": "P3-16",
+    "prior_ids": [
+      "H016"
+    ],
+    "funding": "Harvard Catalyst NIH UL1TR002541 and Harvard/affiliated academic centers; no funder role reported",
+    "coi": "Authors report no potential conflicts",
+    "access": "Full text Table 2, acknowledgments and financial disclosures",
+    "independence_status": "declared public/academic sources, no conflicts reported; underlying relationships not fully audited"
+  },
+  {
+    "source_id": "P3-17",
+    "prior_ids": [],
+    "funding": "Healthcare Committee Region Västra Götaland, Research and Development Centre Gothenburg and Södra Bohuslän; no funder influence reported",
+    "coi": "ICMJE no conflicts reported",
+    "access": "Full text Results and Funding/Disclosures",
+    "independence_status": "declared public/academic sources, no conflicts reported; underlying relationships not fully audited"
+  },
+  {
+    "source_id": "P3-18",
+    "prior_ids": [
+      "H035"
+    ],
+    "funding": "Norwegian Women's Public Health Association, indexed PDF funding text; authors report no sponsor role. PDF not opened; full disclosure needs confirmation.",
+    "coi": null,
+    "access": "Indexed primary abstract and funding snippet",
+    "independence_status": "see disclosure; no independent certification"
+  },
+  {
+    "source_id": "P3-19",
+    "prior_ids": [
+      "S064",
+      "N305"
+    ],
+    "funding": "Panel and funder disclosures pending; related review P3-11 author support checked",
+    "coi": null,
+    "access": "Indexed guideline recommendations and discussion",
+    "independence_status": "see disclosure; no independent certification"
+  },
+  {
+    "source_id": "P3-20",
+    "prior_ids": [
+      "S170"
+    ],
+    "funding": "Review and trial disclosures pending",
+    "coi": null,
+    "access": "Cochrane results",
+    "independence_status": "see disclosure; no independent certification"
+  },
+  {
+    "source_id": "P3-21",
+    "prior_ids": [
+      "S134"
+    ],
+    "funding": "Vardal Foundation, Dagmar Foundation, Trygg-Hansa Insurance Company, Sahlgrenska University Foundation; no sponsor role reported",
+    "coi": "None declared",
+    "access": "Full text results and funding",
+    "independence_status": "mixed (insurer and foundations); no sponsor role reported"
+  },
+  {
+    "source_id": "P3-22",
+    "prior_ids": [
+      "S220"
+    ],
+    "funding": "Not verified",
+    "coi": null,
+    "access": "Indexed primary identity and Cochrane synthesis",
+    "independence_status": "see disclosure; no independent certification"
+  },
+  {
+    "source_id": "P3-23",
+    "prior_ids": [
+      "S036"
+    ],
+    "funding": "Not verified",
+    "coi": null,
+    "access": "Indexed abstract",
+    "independence_status": "see disclosure; no independent certification"
+  },
+  {
+    "source_id": "P3-24",
+    "prior_ids": [
+      "S118"
+    ],
+    "funding": "Not verified",
+    "coi": null,
+    "access": "Indexed abstract",
+    "independence_status": "see disclosure; no independent certification"
+  },
+  {
+    "source_id": "P3-25",
+    "prior_ids": [
+      "GE008"
+    ],
+    "funding": "Not verified",
+    "coi": null,
+    "access": "Indexed results/discussion",
+    "independence_status": "see disclosure; no independent certification"
+  },
+  {
+    "source_id": "P3-26",
+    "prior_ids": [],
+    "funding": "Publisher funding page inaccessible; not verified",
+    "coi": null,
+    "access": "Indexed article identity/abstract; blocked full-text",
+    "independence_status": "see disclosure; no independent certification"
+  },
+  {
+    "source_id": "P3-27",
+    "prior_ids": [
+      "S127"
+    ],
+    "funding": "Not verified",
+    "coi": null,
+    "access": "Indexed abstract",
+    "independence_status": "see disclosure; no independent certification"
+  },
+  {
+    "source_id": "P3-28",
+    "prior_ids": [],
+    "funding": "Not verified; manufacturer ties must be checked before product-specific claim",
+    "coi": null,
+    "access": "Indexed abstract",
+    "independence_status": "see disclosure; no independent certification"
+  },
+  {
+    "source_id": "P3-29",
+    "prior_ids": [
+      "S114"
+    ],
+    "funding": "Not verified",
+    "coi": null,
+    "access": "Indexed primary passages",
+    "independence_status": "see disclosure; no independent certification"
+  },
+  {
+    "source_id": "P3-30",
+    "prior_ids": [
+      "S105",
+      "RP001"
+    ],
+    "funding": "Organization guidance; study funding separate",
+    "coi": null,
+    "access": "Indexed original fact sheet",
+    "independence_status": "see disclosure; no independent certification"
+  },
+  {
+    "source_id": "P3-31",
+    "prior_ids": [],
+    "funding": "FDA",
+    "coi": null,
+    "access": "Indexed original FDA notice",
+    "independence_status": "see disclosure; no independent certification"
+  },
+  {
+    "source_id": "P3-32",
+    "prior_ids": [],
+    "funding": "CDC",
+    "coi": null,
+    "access": "Indexed original CDC guidance",
+    "independence_status": "see disclosure; no independent certification"
+  },
+  {
+    "source_id": "P3-33",
+    "prior_ids": [
+      "S059"
+    ],
+    "funding": "Panel disclosure not checked",
+    "coi": null,
+    "access": "Indexed guideline passages",
+    "independence_status": "see disclosure; no independent certification"
+  },
+  {
+    "source_id": "P3-34",
+    "prior_ids": [],
+    "funding": "Review and trial funding not fully extracted",
+    "coi": null,
+    "access": "Indexed full-text passages",
+    "independence_status": "see disclosure; no independent certification"
+  },
+  {
+    "source_id": "P3-35",
+    "prior_ids": [
+      "S031"
+    ],
+    "funding": "Not verified",
+    "coi": "Authors declared no competing interests",
+    "access": "Indexed primary abstract",
+    "independence_status": "see disclosure; no independent certification"
+  }
+]

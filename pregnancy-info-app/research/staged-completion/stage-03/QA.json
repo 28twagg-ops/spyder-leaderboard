@@ -1,0 +1,19 @@
+{
+  "date": "2026-11-26",
+  "baseline_commit": "423375a67af84d9bbc2484b88ce1b15b5747ff1b",
+  "source_records": 35,
+  "records_with_prior_links": 28,
+  "unmatched_candidates": 7,
+  "numeric_rows": 29,
+  "comparison_rows": 13,
+  "visual_rows": 12,
+  "safety_cases": 10,
+  "unique_ids": true,
+  "unresolved_numeric_sources": [],
+  "interval_errors": [],
+  "canonical_changed": false,
+  "clinical_reviews": 0,
+  "stage4_authorized": false,
+  "checks": "Constructed JSON and checked source IDs and numerical interval ordering. Crosswalk based on current registry titles/identifiers; unmatched does not mean verified unique. No full validator or runtime tests.",
+  "limits": "Targeted web searches and selected full-text passages. No exhaustive systematic screening, complete disclosure/retraction checks, double extraction, exact primary trial arm audit, or original figure reuse clearance."
+}
