@@ -1,4 +1,4 @@
-import { useState } from 'react'
+import { useViewState } from '../hooks/useViewMemory'
 import { Link, useParams } from 'react-router-dom'
 import { Glyph } from '../components/Glyph'
 import { ScreenHeading } from '../components/ReadingUI'
@@ -9,21 +9,21 @@ import { getVisual, searchVisuals, visualCatalog } from '../data/visualCatalog'
 const topics = [...new Set(visualCatalog.map((record) => record.topic))].sort()
 
 export function VisualLibraryPage() {
-  const [query, setQuery] = useState('')
-  const [topic, setTopic] = useState('all')
-  const [page,setPage]=useState(1)
+  const [query, setQuery] = useViewState('visual.query','')
+  const [topic, setTopic] = useViewState('visual.topic','all')
+  const [page,setPage]=useViewState('visual.page',1)
   const records = searchVisuals(query, topic)
   const pages=Math.max(1,Math.ceil(records.length/8)),current=Math.min(page,pages)
   const {visualId}=useParams()
   const selected=visualId?getVisual(visualId):undefined
-  if(visualId)return <div className="stack-lg"><ScreenHeading title={selected?.title??'Reference not found'} subtitle="Original reference · review library" back="/visuals" backLabel="Visual references"/>{selected?<VisualCard record={selected}/>:<p>Choose an available reference from the library.</p>}<DraftBanner status="research_only"/></div>
+  if(visualId)return <div className="stack-lg"><ScreenHeading title={selected?.title??'Reference not found'} subtitle="Original reference · review library" back="/visuals" backLabel="Back" historyBack/>{selected?<VisualCard record={selected}/>:<p>Choose an available reference from the library.</p>}<DraftBanner status="research_only"/></div>
   return (
     <div className="stack-lg">
       <ScreenHeading title="See the science" subtitle="Original illustrations, figures and educational resources." back="/explore" backLabel="Explore"/>
       <DraftBanner status="research_only" />
       <section className="panel stack" aria-label="Filter visual references">
         <label htmlFor="visual-query">Search visual references</label>
-        <input id="visual-query" type="search" value={query} onChange={(event) => {setQuery(event.target.value);setPage(1)}} placeholder="Anatomy, sleep, development…" />
+        <input id="visual-query" type="search" autoComplete="off" maxLength={200} value={query} onChange={(event) => {setQuery(event.target.value);setPage(1)}} placeholder="Anatomy, sleep, development…" />
         <label htmlFor="visual-topic">Visual category</label>
         <select id="visual-topic" value={topic} onChange={(event) => {setTopic(event.target.value);setPage(1)}}>
           <option value="all">All categories</option>

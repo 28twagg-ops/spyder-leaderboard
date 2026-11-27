@@ -771,3 +771,23 @@ body{background:var(--bg)}
 .phase-dialog .choice-row strong{font-size:.86rem}.phase-dialog .choice-row small{font-size:.71rem}
 .phase-dialog .sheet-skip{margin-top:.45rem;font-size:.82rem}
 @media(max-width:360px){.reference-home{gap:8px}.ref-intro h2{font-size:27px}.ref-intro{min-height:90px}.ref-plant{height:100px}.ref-row{min-height:56px;gap:8px}.phase-dialog{padding-inline:14px}}
+
+/* UX-04/05/11: stage rail, body selection and secondary navigation. Existing theme tokens retained. */
+.journey-rail{position:relative;display:grid;gap:.65rem;padding-left:19px}
+.journey-rail::before{content:'';position:absolute;left:6px;top:34px;bottom:34px;border-left:1px solid var(--accent)}
+.journey-rail .journey-card{position:relative;grid-template-columns:62px minmax(0,1fr) auto;padding:.5rem .7rem;min-height:78px;gap:.65rem}
+.journey-node{position:absolute;left:-18px;top:50%;transform:translateY(-50%);width:10px;height:10px;border:2px solid var(--accent);background:var(--bg);border-radius:50%}
+.current-stage{border-color:var(--accent)}.current-stage .journey-node{background:var(--accent)}
+.stage-art{height:62px;width:62px;display:grid;place-items:center;background:var(--accent-soft);border-radius:10px;color:var(--accent-text)}
+.stage-art svg{width:55px;height:57px}
+.journey-rail .journey-card:nth-child(even) .stage-art{background:var(--bg-soft)}
+.explore-collections{display:grid;gap:.55rem}
+.body-feature{grid-template-columns:minmax(0,.9fr) minmax(0,1.1fr);align-items:center;gap:.65rem}
+.body-feature .body-map-figure{min-width:0}.body-feature .body-map-figure svg{max-height:275px;width:100%}.body-feature figcaption{font-size:.7rem;line-height:1.35}
+.body-feature .region-grid{grid-template-columns:minmax(0,1fr);gap:.5rem;min-width:0}
+.body-feature .region-grid button{display:grid;grid-template-columns:20px minmax(0,1fr);gap:.4rem;align-items:center;text-align:left;min-height:48px;padding:.4rem .45rem;line-height:1.35}
+.body-choice-number{display:grid;place-items:center;border:1px solid var(--accent);border-radius:50%;font-size:.7rem;width:20px;height:20px;color:var(--accent-text)}
+.body-marker{cursor:pointer}.body-marker text{pointer-events:none}
+button.reader-back:focus-visible{outline-offset:3px}
+@media(max-width:360px){.journey-rail .journey-card{grid-template-columns:48px minmax(0,1fr) auto;gap:.5rem}.stage-art{width:48px;height:54px}.stage-art svg{width:46px;height:48px}.body-feature{gap:.4rem;padding:.5rem}.body-feature .region-grid button{font-size:.75rem;grid-template-columns:18px minmax(0,1fr);gap:.3rem}.body-choice-number{width:18px;height:18px}}
+@media(prefers-reduced-motion:reduce){html{scroll-behavior:auto}}

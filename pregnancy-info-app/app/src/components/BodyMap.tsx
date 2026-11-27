@@ -1,5 +1,5 @@
 import { Link } from 'react-router-dom'
-import { useState } from 'react'
+import { useViewState } from '../hooks/useViewMemory'
 import { getArticle } from '../data/researchCatalog'
 
 const regions = [
@@ -10,7 +10,7 @@ const regions = [
 ] as const
 
 export function BodyMap() {
-  const [selected,setSelected]=useState<string>('skin')
+  const [selected,setSelected]=useViewState<string>('body.region','skin')
   const active=regions.find(r=>r.id===selected)??regions[0]
   return (
     <section className="stack" aria-labelledby="body-map-heading">
@@ -19,24 +19,24 @@ export function BodyMap() {
         <p className="muted">A stylized topic navigator, not an anatomical diagram or symptom checker.</p>
       </div>
       <div className="body-feature"><figure className="panel body-map-figure">
-        <svg viewBox="0 0 320 265" aria-hidden="true" focusable="false">
+        <svg viewBox="68 0 184 265" aria-hidden="true" focusable="false">
           <g stroke="var(--accent)" fill="var(--bg-soft)" strokeWidth="1.6" strokeLinejoin="round">
             <ellipse cx="160" cy="29" rx="22" ry="25" />
             <path d="M145 52 L140 60 Q118 62 109 79 Q96 107 83 164 L96 170 L123 111 Q120 139 129 157 Q114 181 122 205 L143 249 L155 249 L160 208 L165 249 L177 249 L198 205 Q206 181 191 157 Q200 139 197 111 L224 170 L237 164 Q224 107 211 79 Q202 62 180 60 L175 52" />
           </g>
           {regions.map((region, i) => (
-            <g key={region.id}>
-              <path d={`M ${region.x} ${region.y} L ${region.labelX < 100 ? region.labelX + 54 : region.labelX - 6} ${region.labelY + 10}`} stroke="var(--accent)" strokeWidth="1.2" fill="none" />
-              <circle cx={region.x} cy={region.y} r={selected===region.id?13:10} fill={selected===region.id?"var(--button-surface)":"var(--accent)"} />
+            <g key={region.id} className="body-marker" data-region={region.id} onClick={()=>setSelected(region.id)}>
+              <circle cx={region.x} cy={region.y} r="22" fill="transparent"/>
+              <circle cx={region.x} cy={region.y} r={selected===region.id?13:10} fill="var(--button-surface)" opacity={selected===region.id?1:.8} />
               <text x={region.x} y={region.y + 4} textAnchor="middle" fontSize="11" fill="var(--map-marker-ink)" fontWeight="700">{i + 1}</text>
-              <text x={region.labelX} y={region.labelY} fontSize="10.5" fill="var(--ink)">{region.label}</text>
+
             </g>
           ))}
         </svg>
-        <figcaption>Illustrative topic positions only. Choose a body area to see related topics.</figcaption>
+        <figcaption>Illustrative topic positions only.</figcaption>
       </figure>
       <div className="region-grid" aria-label="Choose a body region">
-        {regions.map((region,i)=><button type="button" className="btn btn-ghost" key={region.id} aria-pressed={selected===region.id} onClick={()=>setSelected(region.id)}>{i+1}. {region.label}</button>)}
+        {regions.map((region,i)=><button type="button" className="btn btn-ghost" key={region.id} aria-pressed={selected===region.id} onClick={()=>setSelected(region.id)}><span className="body-choice-number">{i+1}</span><span>{region.label}</span></button>)}
       </div></div>
       <section className="panel stack" aria-live="polite"><h3 className="section-title">{active.label}</h3>{active.articleIds.map(id=>{const a=getArticle(id);return a?<Link key={id} className="topic-link" to={`/research/${id}`}>{a.title} ›</Link>:null})}</section>
       <div className="panel stack">

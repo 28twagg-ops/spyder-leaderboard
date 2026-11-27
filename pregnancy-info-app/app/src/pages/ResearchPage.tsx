@@ -1,10 +1,12 @@
 import { Glyph } from '../components/Glyph'
+import { useAppBack } from '../hooks/NavigationMemory'
+import { safeVisualUrl } from '../data/visualCatalog'
 import { domainLabels } from './LibraryPage'
 import { ReadingRow } from '../components/ReadingUI'
 import { articlesByDomain } from '../data/researchCatalog'
 import { articleVisuals } from '../data/visualCatalog'
 import { useLocalPrefs } from '../hooks/useLocalPrefs'
-import { Link, useParams, useNavigate, useLocation } from 'react-router-dom'
+import { Link, useParams } from 'react-router-dom'
 import { DraftBanner } from '../components/DraftBanner'
 import { maySurfaceAsGuidance } from '../data/publicationGate'
 import { articleBundle } from '../data/researchCatalog'
@@ -13,9 +15,7 @@ import { editorialPriorityLabel } from '../data/researchGate'
 export function ResearchPage() {
   const { prefs, toggleBookmark, markRead } = useLocalPrefs()
   const { topicId } = useParams()
-  const navigate=useNavigate()
-  const location=useLocation()
-  const back=()=>{if(location.key!=='default' && window.history.state?.idx>0) navigate(-1);else navigate('/library')}
+  const back=useAppBack('/library')
   const bundle = topicId ? articleBundle(topicId) : null
 
   if (!bundle) {
@@ -86,7 +86,8 @@ export function ResearchPage() {
       </details>
 
       <details className="panel disclosure reader-section">
-        <summary>FAQ ({relatedFaqs.length})</summary>
+        <summary>Archived FAQ ({relatedFaqs.length})</summary>
+        <p className="muted">Unreviewed comparison material, not individualized advice.</p>
         <ul className="list-clean">
           {relatedFaqs.map((faq) => (
             <li key={faq.id}>
@@ -131,8 +132,8 @@ export function ResearchPage() {
               <div className="muted" style={{ fontSize: '0.85rem', marginTop: '0.25rem' }}>
                 Funding: {source.funding ?? 'unknown / not newly audited'}
               </div>
-              {source.url && (
-                <a href={source.url} target="_blank" rel="noreferrer">
+              {safeVisualUrl(source.url) && (
+                <a href={safeVisualUrl(source.url)} target="_blank" rel="noreferrer">
                   Open original
                 </a>
               )}
@@ -148,9 +149,7 @@ export function ResearchPage() {
         appraisal and qualified clinical review.
       </p>
 
-      <Link className="btn btn-ghost" to="/library">
-        Back to library
-      </Link>
+      <button type="button" className="btn btn-ghost" onClick={back}>Back to previous view</button>
     </div>
   )
 }

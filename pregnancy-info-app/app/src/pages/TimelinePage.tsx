@@ -1,13 +1,15 @@
 import { Link, useLocation, useParams, useNavigate } from 'react-router-dom'
 import { DraftBanner } from '../components/DraftBanner'
 import { Glyph } from '../components/Glyph'
+import { StageArt } from '../components/StageArt'
+import { safeVisualUrl } from '../data/visualCatalog'
 import { stageChoices } from '../components/PhasePicker'
 import { ReadingRow, ScreenHeading } from '../components/ReadingUI'
 import { featuredForPhase, gestationalWeeks, getArticle, getSource, timeline } from '../data/researchCatalog'
 
 const phasePath=(p:typeof timeline[number])=>`/timeline/${p.track}/${p.id}`
 const weeks=[...gestationalWeeks].sort((a,b)=>a.week-b.week)
-export function TimelinePage(){
+export function TimelinePage({selectedPhaseId}:{selectedPhaseId?:string|null}={}){
  const {track,phaseId,weekNumber}=useParams()
  const {hash}=useLocation()
  const navigate=useNavigate()
@@ -15,12 +17,14 @@ export function TimelinePage(){
  const legacyWeek=hash.match(/^#week-(\d+)$/)?.[1]
  const week=weeks.find(w=>w.week===Number(weekNumber||legacyWeek))
  const chosenTrack=stageChoices.find(s=>s.id===(phase?.track||track||hash.replace(/^#track-/,'')))
+ const activeTrack=timeline.find(p=>p.id===selectedPhaseId)?.track
  const weekPicker=<div className="panel stack"><label htmlFor="chosen-week" className="section-title">Pregnancy week</label><select id="chosen-week" value={week?.week??''} onChange={e=>navigate(e.target.value?`/timeline/week/${e.target.value}`:'/timeline/pregnancy')}><option value="">Choose a week</option>{weeks.map(w=><option key={w.week} value={w.week}>Week {w.week}</option>)}</select></div>
+ if((weekNumber&&!week)||(phaseId&&!phase)||(track&&!chosenTrack))return <div className="stack-lg"><ScreenHeading title="Reading period not found" back="/timeline" backLabel="Journey"/><p>Choose an available stage or pregnancy week.</p></div>
  if(week){
   const source=week.source_id?getSource(week.source_id):undefined
   const maternal=timeline.find(p=>p.id===week.maternal_phase)
   const fetal=week.fetal_article_id?getArticle(week.fetal_article_id):undefined
-  return <div className="stack-lg" id={`week-${week.week}`}><ScreenHeading title={`Week ${week.week}`} subtitle="A developmental reading window, not an individual prediction." back="/timeline/pregnancy" backLabel="Pregnancy"/><div className="phase-feature stack"><div className="section-label">Developmental notes · draft</div><p>{week.description}</p>{week.source_window_start!=null&&week.source_window_end!=null&&<small className="muted">Source window: weeks {week.source_window_start}–{week.source_window_end}</small>}{week.interpretation&&<p className="muted">{week.interpretation}</p>}</div><div className="page-controls">{week.week>1?<Link className="btn btn-ghost" to={`/timeline/week/${week.week-1}`}>Previous</Link>:<span/>}<span className="muted" style={{textAlign:'center'}}>{week.week} / 40</span>{week.week<40?<Link className="btn btn-ghost" to={`/timeline/week/${week.week+1}`}>Next</Link>:<span/>}</div>{weekPicker}<section className="stack"><h2 className="section-title">Related reading</h2>{maternal&&<ReadingRow to={phasePath(maternal)} title={maternal.label} subtitle="Maternal phase"/>}{fetal&&<ReadingRow to={`/research/${fetal.id}`} title={fetal.title}/>}<details className="panel disclosure"><summary>Original source</summary><p>{source?.title??week.source_id??'Not recorded'} {source?.url&&/^https?:\/\//i.test(source.url)&&<a className="topic-link" href={source.url} target="_blank" rel="noreferrer">Open source</a>}</p></details></section><DraftBanner status="research_only"/></div>
+  return <div className="stack-lg" id={`week-${week.week}`}><ScreenHeading title={`Week ${week.week}`} subtitle="A developmental reading window, not an individual prediction." back="/timeline/pregnancy" backLabel="Pregnancy"/><div className="phase-feature stack"><div className="section-label">Developmental notes · draft</div><p>{week.description}</p>{week.source_window_start!=null&&week.source_window_end!=null&&<small className="muted">Source window: weeks {week.source_window_start}–{week.source_window_end}</small>}{week.interpretation&&<p className="muted">{week.interpretation}</p>}</div><div className="page-controls">{week.week>1?<Link className="btn btn-ghost" to={`/timeline/week/${week.week-1}`}>Previous</Link>:<span/>}<span className="muted" style={{textAlign:'center'}}>{week.week} / 40</span>{week.week<40?<Link className="btn btn-ghost" to={`/timeline/week/${week.week+1}`}>Next</Link>:<span/>}</div>{weekPicker}<section className="stack"><h2 className="section-title">Related reading</h2>{maternal&&<ReadingRow to={phasePath(maternal)} title={maternal.label} subtitle="Maternal phase"/>}{fetal&&<ReadingRow to={`/research/${fetal.id}`} title={fetal.title}/>}<details className="panel disclosure"><summary>Original source</summary><p>{source?.title??week.source_id??'Not recorded'} {safeVisualUrl(source?.url)&&<a className="topic-link" href={safeVisualUrl(source?.url)} target="_blank" rel="noreferrer">Open source</a>}</p></details></section><DraftBanner status="research_only"/></div>
  }
  if(phase&&chosenTrack){
   const featured=featuredForPhase(phase)
@@ -35,5 +39,5 @@ export function TimelinePage(){
   const phases=timeline.filter(p=>p.track===selected.id)
   return <div className="stack-lg" id={`track-${selected.id}`}><ScreenHeading title={selected.title} subtitle={selected.subtitle} back="/timeline" backLabel="Journey"/>{selected.id==='pregnancy'&&<div id="gestation-heading">{weekPicker}</div>}<section className="stack"><h2 className="section-title">Reading periods</h2><div className="surface-list">{phases.map(p=><ReadingRow key={p.id} to={phasePath(p)} title={p.label} subtitle={p.focus}/>)}</div></section>{selected.id==='preconception'&&<ReadingRow to="/research/EV-ART-003" title="Father & partner preparation"/>}<DraftBanner status="research_only"/></div>
  }
- return <div className="stack-lg"><ScreenHeading title="Journey" subtitle="From preparation to early childhood. Explore at your own pace."/><div className="journey-cards">{stageChoices.map((s,i)=><Link key={s.id} className="journey-card" to={`/timeline/${s.id}`}><span className="journey-emblem"><Glyph name={s.icon}/></span><span><small className="muted">Stage {i+1}</small><strong>{s.title}</strong><small>{s.subtitle}</small></span><span aria-hidden="true">›</span></Link>)}</div><DraftBanner status="research_only"/></div>
+ return <div className="stack-lg"><ScreenHeading title="Journey" subtitle="From preparation to early childhood. Explore at your own pace."/><div className="journey-rail">{stageChoices.map((s,i)=><Link key={s.id} className={`journey-card${activeTrack===s.id?' current-stage':''}`} to={`/timeline/${s.id}`}><span className="journey-node" aria-hidden="true"/><span className="stage-art"><StageArt stage={s.id}/></span><span><small className="muted">{activeTrack===s.id?'Your reading focus':`Stage ${i+1}`}</small><strong>{s.title}</strong><small>{s.subtitle}</small></span><span aria-hidden="true">›</span></Link>)}</div><DraftBanner status="research_only"/></div>
 }
