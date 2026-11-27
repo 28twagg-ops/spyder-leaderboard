@@ -24,5 +24,10 @@
   "readability_tested": false,
   "runtime_tests_run": false,
   "canonical_changed": false,
-  "limitations": "Editorial synthesis of existing staged sources and selected official guidance indexed text; no systematic reappraisal, no independent clinical review, no measured readability, no exhaustive legacy FAQ review. Prior hold resolution and database consolidation deferred."
+  "limitations": "Editorial synthesis of existing staged sources and selected official guidance indexed text; no systematic reappraisal, no independent clinical review, no measured readability, no exhaustive legacy FAQ review. Prior hold resolution and database consolidation deferred.",
+  "featured_phases": 28,
+  "featured_article_links": 97,
+  "missing_featured_links": [],
+  "featured_research_only": [],
+  "verified_content_commit": "a595b1ffa519b8b971bceb3bc48382a53da97d49"
 }

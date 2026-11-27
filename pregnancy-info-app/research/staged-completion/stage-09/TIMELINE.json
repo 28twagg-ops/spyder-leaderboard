@@ -6,16 +6,26 @@
     "focus": "Optional long-range planning",
     "article_ids": [
       "EV-ART-001",
+      "EV-ART-010",
       "EV-ART-002",
       "EV-ART-003",
-      "EV-ART-010",
       "EV-ART-011",
       "EV-ART-012"
     ],
     "safety": "No requirement to start this early.",
     "optional_navigation": true,
     "clinical_review": false,
-    "publish": false
+    "publish": false,
+    "featured_article_ids": [
+      "EV-ART-001",
+      "EV-ART-010"
+    ],
+    "featured_action_ids": [
+      "EV-ACT-001",
+      "EV-ACT-010"
+    ],
+    "persistent_safety_article_ids": [],
+    "featured_note": "Editorial starting points, not due tasks. Show relevant safety independently, adapt feeding and clinical context. Never automatically assign treatment or dose. Optional material may be skipped."
   },
   {
     "id": "PRE02",
@@ -24,9 +34,9 @@
     "focus": "Review care and exposures",
     "article_ids": [
       "EV-ART-001",
-      "EV-ART-002",
       "EV-ART-003",
       "EV-ART-005",
+      "EV-ART-002",
       "EV-ART-006",
       "EV-ART-007",
       "EV-ART-008",
@@ -38,7 +48,19 @@
     "safety": "No target weight, fertility score or compulsory schedule.",
     "optional_navigation": true,
     "clinical_review": false,
-    "publish": false
+    "publish": false,
+    "featured_article_ids": [
+      "EV-ART-001",
+      "EV-ART-003",
+      "EV-ART-005"
+    ],
+    "featured_action_ids": [
+      "EV-ACT-001",
+      "EV-ACT-003",
+      "EV-ACT-005"
+    ],
+    "persistent_safety_article_ids": [],
+    "featured_note": "Editorial starting points, not due tasks. Show relevant safety independently, adapt feeding and clinical context. Never automatically assign treatment or dose. Optional material may be skipped."
   },
   {
     "id": "PRE03",
@@ -47,10 +69,10 @@
     "focus": "Health questions that may take time",
     "article_ids": [
       "EV-ART-001",
-      "EV-ART-002",
-      "EV-ART-003",
-      "EV-ART-005",
       "EV-ART-006",
+      "EV-ART-003",
+      "EV-ART-002",
+      "EV-ART-005",
       "EV-ART-007",
       "EV-ART-008",
       "EV-ART-009",
@@ -61,7 +83,19 @@
     "safety": "Prescriber-specific review, no universal washout.",
     "optional_navigation": true,
     "clinical_review": false,
-    "publish": false
+    "publish": false,
+    "featured_article_ids": [
+      "EV-ART-001",
+      "EV-ART-006",
+      "EV-ART-003"
+    ],
+    "featured_action_ids": [
+      "EV-ACT-001",
+      "EV-ACT-006",
+      "EV-ACT-003"
+    ],
+    "persistent_safety_article_ids": [],
+    "featured_note": "Editorial starting points, not due tasks. Show relevant safety independently, adapt feeding and clinical context. Never automatically assign treatment or dose. Optional material may be skipped."
   },
   {
     "id": "PRE04",
@@ -70,9 +104,9 @@
     "focus": "Both parents' health and support",
     "article_ids": [
       "EV-ART-001",
-      "EV-ART-002",
       "EV-ART-003",
       "EV-ART-005",
+      "EV-ART-002",
       "EV-ART-006",
       "EV-ART-007",
       "EV-ART-008",
@@ -84,7 +118,19 @@
     "safety": "No semen surrogate guarantee.",
     "optional_navigation": true,
     "clinical_review": false,
-    "publish": false
+    "publish": false,
+    "featured_article_ids": [
+      "EV-ART-001",
+      "EV-ART-003",
+      "EV-ART-005"
+    ],
+    "featured_action_ids": [
+      "EV-ACT-001",
+      "EV-ACT-003",
+      "EV-ACT-005"
+    ],
+    "persistent_safety_article_ids": [],
+    "featured_note": "Editorial starting points, not due tasks. Show relevant safety independently, adapt feeding and clinical context. Never automatically assign treatment or dose. Optional material may be skipped."
   },
   {
     "id": "PRE05",
@@ -92,22 +138,36 @@
     "label": "Final three months",
     "focus": "Preconception prevention and planning",
     "article_ids": [
-      "EV-ART-001",
       "EV-ART-002",
+      "EV-ART-001",
+      "EV-ART-006",
+      "EV-ART-010",
       "EV-ART-003",
       "EV-ART-005",
-      "EV-ART-006",
       "EV-ART-007",
       "EV-ART-008",
       "EV-ART-009",
-      "EV-ART-010",
       "EV-ART-011",
       "EV-ART-012"
     ],
     "safety": "Folic acid guidance applies before conception; no experimental dosing.",
     "optional_navigation": true,
     "clinical_review": false,
-    "publish": false
+    "publish": false,
+    "featured_article_ids": [
+      "EV-ART-002",
+      "EV-ART-001",
+      "EV-ART-006",
+      "EV-ART-010"
+    ],
+    "featured_action_ids": [
+      "EV-ACT-002",
+      "EV-ACT-001",
+      "EV-ACT-006",
+      "EV-ACT-010"
+    ],
+    "persistent_safety_article_ids": [],
+    "featured_note": "Editorial starting points, not due tasks. Show relevant safety independently, adapt feeding and clinical context. Never automatically assign treatment or dose. Optional material may be skipped."
   },
   {
     "id": "PRE06",
@@ -115,10 +175,10 @@
     "label": "Trying to conceive",
     "focus": "Continue care plan",
     "article_ids": [
-      "EV-ART-001",
       "EV-ART-002",
-      "EV-ART-003",
+      "EV-ART-001",
       "EV-ART-005",
+      "EV-ART-003",
       "EV-ART-006",
       "EV-ART-007",
       "EV-ART-008",
@@ -130,7 +190,19 @@
     "safety": "No universal fertility timetable or diagnosis.",
     "optional_navigation": true,
     "clinical_review": false,
-    "publish": false
+    "publish": false,
+    "featured_article_ids": [
+      "EV-ART-002",
+      "EV-ART-001",
+      "EV-ART-005"
+    ],
+    "featured_action_ids": [
+      "EV-ACT-002",
+      "EV-ACT-001",
+      "EV-ACT-005"
+    ],
+    "persistent_safety_article_ids": [],
+    "featured_note": "Editorial starting points, not due tasks. Show relevant safety independently, adapt feeding and clinical context. Never automatically assign treatment or dose. Optional material may be skipped."
   },
   {
     "id": "PREG01",
@@ -138,6 +210,10 @@
     "label": "Weeks 1–13",
     "focus": "Early development and prenatal care",
     "article_ids": [
+      "EV-ART-013",
+      "EV-ART-002",
+      "EV-ART-015",
+      "EV-ART-017",
       "EV-ART-005",
       "EV-ART-006",
       "EV-ART-007",
@@ -146,11 +222,8 @@
       "EV-ART-010",
       "EV-ART-011",
       "EV-ART-012",
-      "EV-ART-013",
       "EV-ART-014",
-      "EV-ART-015",
       "EV-ART-016",
-      "EV-ART-017",
       "EV-ART-018",
       "EV-ART-019",
       "EV-ART-020",
@@ -159,7 +232,23 @@
     "safety": "Clinician-established gestational dating; urgent signs always accessible.",
     "optional_navigation": true,
     "clinical_review": false,
-    "publish": false
+    "publish": false,
+    "featured_article_ids": [
+      "EV-ART-013",
+      "EV-ART-002",
+      "EV-ART-015",
+      "EV-ART-017"
+    ],
+    "featured_action_ids": [
+      "EV-ACT-013",
+      "EV-ACT-002",
+      "EV-ACT-015",
+      "EV-ACT-017"
+    ],
+    "persistent_safety_article_ids": [
+      "EV-ART-024"
+    ],
+    "featured_note": "Editorial starting points, not due tasks. Show relevant safety independently, adapt feeding and clinical context. Never automatically assign treatment or dose. Optional material may be skipped."
   },
   {
     "id": "PREG02",
@@ -167,7 +256,10 @@
     "label": "Weeks 14–27",
     "focus": "Growth, nutrition and movement",
     "article_ids": [
+      "EV-ART-013",
       "EV-ART-005",
+      "EV-ART-016",
+      "EV-ART-014",
       "EV-ART-006",
       "EV-ART-007",
       "EV-ART-008",
@@ -175,10 +267,7 @@
       "EV-ART-010",
       "EV-ART-011",
       "EV-ART-012",
-      "EV-ART-013",
-      "EV-ART-014",
       "EV-ART-015",
-      "EV-ART-016",
       "EV-ART-017",
       "EV-ART-018",
       "EV-ART-019",
@@ -188,7 +277,23 @@
     "safety": "No exact fetal milestone or activity clearance.",
     "optional_navigation": true,
     "clinical_review": false,
-    "publish": false
+    "publish": false,
+    "featured_article_ids": [
+      "EV-ART-013",
+      "EV-ART-005",
+      "EV-ART-016",
+      "EV-ART-014"
+    ],
+    "featured_action_ids": [
+      "EV-ACT-013",
+      "EV-ACT-005",
+      "EV-ACT-016",
+      "EV-ACT-014"
+    ],
+    "persistent_safety_article_ids": [
+      "EV-ART-024"
+    ],
+    "featured_note": "Editorial starting points, not due tasks. Show relevant safety independently, adapt feeding and clinical context. Never automatically assign treatment or dose. Optional material may be skipped."
   },
   {
     "id": "PREG03",
@@ -196,6 +301,10 @@
     "label": "Week 28 to birth",
     "focus": "Birth and feeding preparation",
     "article_ids": [
+      "EV-ART-021",
+      "EV-ART-013",
+      "EV-ART-032",
+      "EV-ART-036",
       "EV-ART-005",
       "EV-ART-006",
       "EV-ART-007",
@@ -204,7 +313,6 @@
       "EV-ART-010",
       "EV-ART-011",
       "EV-ART-012",
-      "EV-ART-013",
       "EV-ART-014",
       "EV-ART-015",
       "EV-ART-016",
@@ -212,11 +320,9 @@
       "EV-ART-018",
       "EV-ART-019",
       "EV-ART-020",
-      "EV-ART-021",
       "EV-ART-022",
       "EV-ART-023",
       "EV-ART-024",
-      "EV-ART-032",
       "EV-ART-033",
       "EV-ART-034",
       "EV-ART-035"
@@ -224,7 +330,23 @@
     "safety": "No self-induction or delay for symptoms.",
     "optional_navigation": true,
     "clinical_review": false,
-    "publish": false
+    "publish": false,
+    "featured_article_ids": [
+      "EV-ART-021",
+      "EV-ART-013",
+      "EV-ART-032",
+      "EV-ART-036"
+    ],
+    "featured_action_ids": [
+      "EV-ACT-021",
+      "EV-ACT-013",
+      "EV-ACT-032",
+      "EV-ACT-036"
+    ],
+    "persistent_safety_article_ids": [
+      "EV-ART-024"
+    ],
+    "featured_note": "Editorial starting points, not due tasks. Show relevant safety independently, adapt feeding and clinical context. Never automatically assign treatment or dose. Optional material may be skipped."
   },
   {
     "id": "BIRTH01",
@@ -232,9 +354,10 @@
     "label": "Labor and first hour",
     "focus": "Birth team and newborn transition",
     "article_ids": [
-      "EV-ART-021",
-      "EV-ART-022",
       "EV-ART-023",
+      "EV-ART-021",
+      "EV-ART-032",
+      "EV-ART-022",
       "EV-ART-024",
       "EV-ART-025",
       "EV-ART-026",
@@ -243,7 +366,6 @@
       "EV-ART-029",
       "EV-ART-030",
       "EV-ART-031",
-      "EV-ART-032",
       "EV-ART-033",
       "EV-ART-034",
       "EV-ART-035",
@@ -257,7 +379,22 @@
     "safety": "Maternal and infant clinical needs separate; hospital plan controls.",
     "optional_navigation": true,
     "clinical_review": false,
-    "publish": false
+    "publish": false,
+    "featured_article_ids": [
+      "EV-ART-023",
+      "EV-ART-021",
+      "EV-ART-032"
+    ],
+    "featured_action_ids": [
+      "EV-ACT-023",
+      "EV-ACT-021",
+      "EV-ACT-032"
+    ],
+    "persistent_safety_article_ids": [
+      "EV-ART-024",
+      "EV-ART-037"
+    ],
+    "featured_note": "Editorial starting points, not due tasks. Show relevant safety independently, adapt feeding and clinical context. Never automatically assign treatment or dose. Optional material may be skipped."
   },
   {
     "id": "M01",
@@ -265,12 +402,12 @@
     "label": "Birth–24 hours",
     "focus": "Immediate healing and warning signs",
     "article_ids": [
-      "EV-ART-024",
       "EV-ART-025",
       "EV-ART-026",
+      "EV-ART-029",
+      "EV-ART-024",
       "EV-ART-027",
       "EV-ART-028",
-      "EV-ART-029",
       "EV-ART-030",
       "EV-ART-031",
       "EV-ART-032",
@@ -281,7 +418,21 @@
     "safety": "Discharge and clinical plan, not routine progression.",
     "optional_navigation": true,
     "clinical_review": false,
-    "publish": false
+    "publish": false,
+    "featured_article_ids": [
+      "EV-ART-025",
+      "EV-ART-026",
+      "EV-ART-029"
+    ],
+    "featured_action_ids": [
+      "EV-ACT-025",
+      "EV-ACT-026",
+      "EV-ACT-029"
+    ],
+    "persistent_safety_article_ids": [
+      "EV-ART-024"
+    ],
+    "featured_note": "Editorial starting points, not due tasks. Show relevant safety independently, adapt feeding and clinical context. Never automatically assign treatment or dose. Optional material may be skipped."
   },
   {
     "id": "M02",
@@ -289,9 +440,10 @@
     "label": "Days 2–7",
     "focus": "Healing, feeding and rest",
     "article_ids": [
-      "EV-ART-024",
       "EV-ART-025",
       "EV-ART-026",
+      "EV-ART-034",
+      "EV-ART-024",
       "EV-ART-027",
       "EV-ART-028",
       "EV-ART-029",
@@ -299,13 +451,26 @@
       "EV-ART-031",
       "EV-ART-032",
       "EV-ART-033",
-      "EV-ART-034",
       "EV-ART-035"
     ],
     "safety": "Earlier care for complications; no exercise deadline.",
     "optional_navigation": true,
     "clinical_review": false,
-    "publish": false
+    "publish": false,
+    "featured_article_ids": [
+      "EV-ART-025",
+      "EV-ART-026",
+      "EV-ART-034"
+    ],
+    "featured_action_ids": [
+      "EV-ACT-025",
+      "EV-ACT-026",
+      "EV-ACT-034"
+    ],
+    "persistent_safety_article_ids": [
+      "EV-ART-024"
+    ],
+    "featured_note": "Editorial starting points, not due tasks. Show relevant safety independently, adapt feeding and clinical context. Never automatically assign treatment or dose. Optional material may be skipped."
   },
   {
     "id": "M03",
@@ -313,23 +478,37 @@
     "label": "Weeks 2–4",
     "focus": "Early follow-up and support",
     "article_ids": [
-      "EV-ART-024",
       "EV-ART-025",
+      "EV-ART-029",
+      "EV-ART-034",
+      "EV-ART-024",
       "EV-ART-026",
       "EV-ART-027",
       "EV-ART-028",
-      "EV-ART-029",
       "EV-ART-030",
       "EV-ART-031",
       "EV-ART-032",
       "EV-ART-033",
-      "EV-ART-034",
       "EV-ART-035"
     ],
     "safety": "ACOG contact within 3 weeks; earlier if indicated.",
     "optional_navigation": true,
     "clinical_review": false,
-    "publish": false
+    "publish": false,
+    "featured_article_ids": [
+      "EV-ART-025",
+      "EV-ART-029",
+      "EV-ART-034"
+    ],
+    "featured_action_ids": [
+      "EV-ACT-025",
+      "EV-ACT-029",
+      "EV-ACT-034"
+    ],
+    "persistent_safety_article_ids": [
+      "EV-ART-024"
+    ],
+    "featured_note": "Editorial starting points, not due tasks. Show relevant safety independently, adapt feeding and clinical context. Never automatically assign treatment or dose. Optional material may be skipped."
   },
   {
     "id": "M04",
@@ -337,13 +516,13 @@
     "label": "Weeks 5–12",
     "focus": "Comprehensive follow-up and gradual recovery",
     "article_ids": [
-      "EV-ART-024",
       "EV-ART-025",
+      "EV-ART-028",
+      "EV-ART-030",
+      "EV-ART-024",
       "EV-ART-026",
       "EV-ART-027",
-      "EV-ART-028",
       "EV-ART-029",
-      "EV-ART-030",
       "EV-ART-031",
       "EV-ART-032",
       "EV-ART-033",
@@ -353,7 +532,21 @@
     "safety": "Comprehensive visit by 12 weeks; no automatic clearance.",
     "optional_navigation": true,
     "clinical_review": false,
-    "publish": false
+    "publish": false,
+    "featured_article_ids": [
+      "EV-ART-025",
+      "EV-ART-028",
+      "EV-ART-030"
+    ],
+    "featured_action_ids": [
+      "EV-ACT-025",
+      "EV-ACT-028",
+      "EV-ACT-030"
+    ],
+    "persistent_safety_article_ids": [
+      "EV-ART-024"
+    ],
+    "featured_note": "Editorial starting points, not due tasks. Show relevant safety independently, adapt feeding and clinical context. Never automatically assign treatment or dose. Optional material may be skipped."
   },
   {
     "id": "M05",
@@ -361,6 +554,9 @@
     "label": "Months 3–6",
     "focus": "Function and symptom-based progression",
     "article_ids": [
+      "EV-ART-027",
+      "EV-ART-028",
+      "EV-ART-029",
       "EV-ART-005",
       "EV-ART-006",
       "EV-ART-007",
@@ -369,9 +565,6 @@
       "EV-ART-024",
       "EV-ART-025",
       "EV-ART-026",
-      "EV-ART-027",
-      "EV-ART-028",
-      "EV-ART-029",
       "EV-ART-030",
       "EV-ART-031",
       "EV-ART-032",
@@ -382,7 +575,21 @@
     "safety": "No weight or appearance goal.",
     "optional_navigation": true,
     "clinical_review": false,
-    "publish": false
+    "publish": false,
+    "featured_article_ids": [
+      "EV-ART-027",
+      "EV-ART-028",
+      "EV-ART-029"
+    ],
+    "featured_action_ids": [
+      "EV-ACT-027",
+      "EV-ACT-028",
+      "EV-ACT-029"
+    ],
+    "persistent_safety_article_ids": [
+      "EV-ART-024"
+    ],
+    "featured_note": "Editorial starting points, not due tasks. Show relevant safety independently, adapt feeding and clinical context. Never automatically assign treatment or dose. Optional material may be skipped."
   },
   {
     "id": "M06",
@@ -390,6 +597,9 @@
     "label": "Months 6–12",
     "focus": "Ongoing physical and emotional health",
     "article_ids": [
+      "EV-ART-028",
+      "EV-ART-029",
+      "EV-ART-030",
       "EV-ART-005",
       "EV-ART-006",
       "EV-ART-007",
@@ -399,9 +609,6 @@
       "EV-ART-025",
       "EV-ART-026",
       "EV-ART-027",
-      "EV-ART-028",
-      "EV-ART-029",
-      "EV-ART-030",
       "EV-ART-031",
       "EV-ART-032",
       "EV-ART-033",
@@ -411,7 +618,21 @@
     "safety": "Urgent maternal warning signs remain visible through year one.",
     "optional_navigation": true,
     "clinical_review": false,
-    "publish": false
+    "publish": false,
+    "featured_article_ids": [
+      "EV-ART-028",
+      "EV-ART-029",
+      "EV-ART-030"
+    ],
+    "featured_action_ids": [
+      "EV-ACT-028",
+      "EV-ACT-029",
+      "EV-ACT-030"
+    ],
+    "persistent_safety_article_ids": [
+      "EV-ART-024"
+    ],
+    "featured_note": "Editorial starting points, not due tasks. Show relevant safety independently, adapt feeding and clinical context. Never automatically assign treatment or dose. Optional material may be skipped."
   },
   {
     "id": "M07",
@@ -419,6 +640,9 @@
     "label": "Months 12–24",
     "focus": "Longer-term recovery and future plans",
     "article_ids": [
+      "EV-ART-027",
+      "EV-ART-030",
+      "EV-ART-029",
       "EV-ART-001",
       "EV-ART-002",
       "EV-ART-003",
@@ -431,16 +655,27 @@
       "EV-ART-024",
       "EV-ART-025",
       "EV-ART-026",
-      "EV-ART-027",
       "EV-ART-028",
-      "EV-ART-029",
-      "EV-ART-030",
       "EV-ART-031"
     ],
     "safety": "No mandatory recovery deadline or pregnancy spacing prescription.",
     "optional_navigation": true,
     "clinical_review": false,
-    "publish": false
+    "publish": false,
+    "featured_article_ids": [
+      "EV-ART-027",
+      "EV-ART-030",
+      "EV-ART-029"
+    ],
+    "featured_action_ids": [
+      "EV-ACT-027",
+      "EV-ACT-030",
+      "EV-ACT-029"
+    ],
+    "persistent_safety_article_ids": [
+      "EV-ART-024"
+    ],
+    "featured_note": "Editorial starting points, not due tasks. Show relevant safety independently, adapt feeding and clinical context. Never automatically assign treatment or dose. Optional material may be skipped."
   },
   {
     "id": "C01",
@@ -448,16 +683,16 @@
     "label": "Birth–24 hours",
     "focus": "Newborn transition and safety",
     "article_ids": [
-      "EV-ART-021",
-      "EV-ART-022",
       "EV-ART-023",
       "EV-ART-032",
+      "EV-ART-036",
+      "EV-ART-038",
+      "EV-ART-021",
+      "EV-ART-022",
       "EV-ART-033",
       "EV-ART-034",
       "EV-ART-035",
-      "EV-ART-036",
       "EV-ART-037",
-      "EV-ART-038",
       "EV-ART-039",
       "EV-ART-040",
       "EV-ART-041"
@@ -465,7 +700,23 @@
     "safety": "Neonatal team guidance; chronological age for illness.",
     "optional_navigation": true,
     "clinical_review": false,
-    "publish": false
+    "publish": false,
+    "featured_article_ids": [
+      "EV-ART-023",
+      "EV-ART-032",
+      "EV-ART-036",
+      "EV-ART-038"
+    ],
+    "featured_action_ids": [
+      "EV-ACT-023",
+      "EV-ACT-032",
+      "EV-ACT-036",
+      "EV-ACT-038"
+    ],
+    "persistent_safety_article_ids": [
+      "EV-ART-037"
+    ],
+    "featured_note": "Editorial starting points, not due tasks. Show relevant safety independently, adapt feeding and clinical context. Never automatically assign treatment or dose. Optional material may be skipped."
   },
   {
     "id": "C02",
@@ -473,13 +724,13 @@
     "label": "Days 2–7",
     "focus": "Feeding, screening and jaundice",
     "article_ids": [
+      "EV-ART-038",
       "EV-ART-032",
+      "EV-ART-036",
+      "EV-ART-035",
       "EV-ART-033",
       "EV-ART-034",
-      "EV-ART-035",
-      "EV-ART-036",
       "EV-ART-037",
-      "EV-ART-038",
       "EV-ART-039",
       "EV-ART-040",
       "EV-ART-041"
@@ -487,7 +738,23 @@
     "safety": "Urgent symptoms override normal schedule.",
     "optional_navigation": true,
     "clinical_review": false,
-    "publish": false
+    "publish": false,
+    "featured_article_ids": [
+      "EV-ART-038",
+      "EV-ART-032",
+      "EV-ART-036",
+      "EV-ART-035"
+    ],
+    "featured_action_ids": [
+      "EV-ACT-038",
+      "EV-ACT-032",
+      "EV-ACT-036",
+      "EV-ACT-035"
+    ],
+    "persistent_safety_article_ids": [
+      "EV-ART-037"
+    ],
+    "featured_note": "Editorial starting points, not due tasks. Show relevant safety independently, adapt feeding and clinical context. Never automatically assign treatment or dose. Optional material may be skipped."
   },
   {
     "id": "C03",
@@ -495,17 +762,17 @@
     "label": "Weeks 2–4",
     "focus": "Feeding and safety",
     "article_ids": [
+      "EV-ART-034",
+      "EV-ART-036",
+      "EV-ART-042",
       "EV-ART-032",
       "EV-ART-033",
-      "EV-ART-034",
       "EV-ART-035",
-      "EV-ART-036",
       "EV-ART-037",
       "EV-ART-038",
       "EV-ART-039",
       "EV-ART-040",
       "EV-ART-041",
-      "EV-ART-042",
       "EV-ART-043",
       "EV-ART-044",
       "EV-ART-045"
@@ -513,7 +780,21 @@
     "safety": "No newborn sleep-training program.",
     "optional_navigation": true,
     "clinical_review": false,
-    "publish": false
+    "publish": false,
+    "featured_article_ids": [
+      "EV-ART-034",
+      "EV-ART-036",
+      "EV-ART-042"
+    ],
+    "featured_action_ids": [
+      "EV-ACT-034",
+      "EV-ACT-036",
+      "EV-ACT-042"
+    ],
+    "persistent_safety_article_ids": [
+      "EV-ART-037"
+    ],
+    "featured_note": "Editorial starting points, not due tasks. Show relevant safety independently, adapt feeding and clinical context. Never automatically assign treatment or dose. Optional material may be skipped."
   },
   {
     "id": "C04",
@@ -521,25 +802,41 @@
     "label": "Months 1–3",
     "focus": "Safe sleep, feeding, responsive interaction",
     "article_ids": [
+      "EV-ART-036",
+      "EV-ART-043",
+      "EV-ART-042",
+      "EV-ART-035",
       "EV-ART-032",
       "EV-ART-033",
       "EV-ART-034",
-      "EV-ART-035",
-      "EV-ART-036",
       "EV-ART-037",
       "EV-ART-038",
       "EV-ART-039",
       "EV-ART-040",
       "EV-ART-041",
-      "EV-ART-042",
-      "EV-ART-043",
       "EV-ART-044",
       "EV-ART-045"
     ],
     "safety": "Awake supervised floor play, back to sleep.",
     "optional_navigation": true,
     "clinical_review": false,
-    "publish": false
+    "publish": false,
+    "featured_article_ids": [
+      "EV-ART-036",
+      "EV-ART-043",
+      "EV-ART-042",
+      "EV-ART-035"
+    ],
+    "featured_action_ids": [
+      "EV-ACT-036",
+      "EV-ACT-043",
+      "EV-ACT-042",
+      "EV-ACT-035"
+    ],
+    "persistent_safety_article_ids": [
+      "EV-ART-037"
+    ],
+    "featured_note": "Editorial starting points, not due tasks. Show relevant safety independently, adapt feeding and clinical context. Never automatically assign treatment or dose. Optional material may be skipped."
   },
   {
     "id": "C05",
@@ -547,6 +844,10 @@
     "label": "Months 3–6",
     "focus": "Movement and readiness",
     "article_ids": [
+      "EV-ART-043",
+      "EV-ART-042",
+      "EV-ART-046",
+      "EV-ART-047",
       "EV-ART-032",
       "EV-ART-033",
       "EV-ART-034",
@@ -557,17 +858,29 @@
       "EV-ART-039",
       "EV-ART-040",
       "EV-ART-041",
-      "EV-ART-042",
-      "EV-ART-043",
       "EV-ART-044",
-      "EV-ART-045",
-      "EV-ART-046",
-      "EV-ART-047"
+      "EV-ART-045"
     ],
     "safety": "No automatic solid-food introduction based on age alone.",
     "optional_navigation": true,
     "clinical_review": false,
-    "publish": false
+    "publish": false,
+    "featured_article_ids": [
+      "EV-ART-043",
+      "EV-ART-042",
+      "EV-ART-046",
+      "EV-ART-047"
+    ],
+    "featured_action_ids": [
+      "EV-ACT-043",
+      "EV-ACT-042",
+      "EV-ACT-046",
+      "EV-ACT-047"
+    ],
+    "persistent_safety_article_ids": [
+      "EV-ART-037"
+    ],
+    "featured_note": "Editorial starting points, not due tasks. Show relevant safety independently, adapt feeding and clinical context. Never automatically assign treatment or dose. Optional material may be skipped."
   },
   {
     "id": "C06",
@@ -575,22 +888,22 @@
     "label": "Months 6–9",
     "focus": "Complementary foods and play",
     "article_ids": [
+      "EV-ART-046",
+      "EV-ART-047",
+      "EV-ART-035",
+      "EV-ART-042",
       "EV-ART-032",
       "EV-ART-033",
       "EV-ART-034",
-      "EV-ART-035",
       "EV-ART-036",
       "EV-ART-037",
       "EV-ART-038",
       "EV-ART-039",
       "EV-ART-040",
       "EV-ART-041",
-      "EV-ART-042",
       "EV-ART-043",
       "EV-ART-044",
       "EV-ART-045",
-      "EV-ART-046",
-      "EV-ART-047",
       "EV-ART-048",
       "EV-ART-049",
       "EV-ART-050",
@@ -600,7 +913,23 @@
     "safety": "Safe texture, readiness and allergy plan.",
     "optional_navigation": true,
     "clinical_review": false,
-    "publish": false
+    "publish": false,
+    "featured_article_ids": [
+      "EV-ART-046",
+      "EV-ART-047",
+      "EV-ART-035",
+      "EV-ART-042"
+    ],
+    "featured_action_ids": [
+      "EV-ACT-046",
+      "EV-ACT-047",
+      "EV-ACT-035",
+      "EV-ACT-042"
+    ],
+    "persistent_safety_article_ids": [
+      "EV-ART-037"
+    ],
+    "featured_note": "Editorial starting points, not due tasks. Show relevant safety independently, adapt feeding and clinical context. Never automatically assign treatment or dose. Optional material may be skipped."
   },
   {
     "id": "C07",
@@ -608,11 +937,14 @@
     "label": "Months 9–12",
     "focus": "Development, dental and nutrition",
     "article_ids": [
+      "EV-ART-044",
+      "EV-ART-046",
+      "EV-ART-049",
+      "EV-ART-036",
       "EV-ART-032",
       "EV-ART-033",
       "EV-ART-034",
       "EV-ART-035",
-      "EV-ART-036",
       "EV-ART-037",
       "EV-ART-038",
       "EV-ART-039",
@@ -620,12 +952,9 @@
       "EV-ART-041",
       "EV-ART-042",
       "EV-ART-043",
-      "EV-ART-044",
       "EV-ART-045",
-      "EV-ART-046",
       "EV-ART-047",
       "EV-ART-048",
-      "EV-ART-049",
       "EV-ART-050",
       "EV-ART-051",
       "EV-ART-052"
@@ -633,7 +962,23 @@
     "safety": "General developmental screen at 9 months; concern anytime.",
     "optional_navigation": true,
     "clinical_review": false,
-    "publish": false
+    "publish": false,
+    "featured_article_ids": [
+      "EV-ART-044",
+      "EV-ART-046",
+      "EV-ART-049",
+      "EV-ART-036"
+    ],
+    "featured_action_ids": [
+      "EV-ACT-044",
+      "EV-ACT-046",
+      "EV-ACT-049",
+      "EV-ACT-036"
+    ],
+    "persistent_safety_article_ids": [
+      "EV-ART-037"
+    ],
+    "featured_note": "Editorial starting points, not due tasks. Show relevant safety independently, adapt feeding and clinical context. Never automatically assign treatment or dose. Optional material may be skipped."
   },
   {
     "id": "C08",
@@ -641,14 +986,14 @@
     "label": "Months 12–18",
     "focus": "Toddler movement, meals and safety",
     "article_ids": [
+      "EV-ART-048",
+      "EV-ART-049",
+      "EV-ART-044",
       "EV-ART-042",
       "EV-ART-043",
-      "EV-ART-044",
       "EV-ART-045",
       "EV-ART-046",
       "EV-ART-047",
-      "EV-ART-048",
-      "EV-ART-049",
       "EV-ART-050",
       "EV-ART-051",
       "EV-ART-052"
@@ -656,7 +1001,23 @@
     "safety": "18-month screening at applicable visit; no milestone deadlines.",
     "optional_navigation": true,
     "clinical_review": false,
-    "publish": false
+    "publish": false,
+    "featured_article_ids": [
+      "EV-ART-048",
+      "EV-ART-049",
+      "EV-ART-044",
+      "EV-ART-042"
+    ],
+    "featured_action_ids": [
+      "EV-ACT-048",
+      "EV-ACT-049",
+      "EV-ACT-044",
+      "EV-ACT-042"
+    ],
+    "persistent_safety_article_ids": [
+      "EV-ART-037"
+    ],
+    "featured_note": "Editorial starting points, not due tasks. Show relevant safety independently, adapt feeding and clinical context. Never automatically assign treatment or dose. Optional material may be skipped."
   },
   {
     "id": "C09",
@@ -664,22 +1025,38 @@
     "label": "Months 18–24",
     "focus": "Language, play and screening",
     "article_ids": [
-      "EV-ART-042",
-      "EV-ART-043",
       "EV-ART-044",
+      "EV-ART-048",
+      "EV-ART-042",
+      "EV-ART-051",
+      "EV-ART-043",
       "EV-ART-045",
       "EV-ART-046",
       "EV-ART-047",
-      "EV-ART-048",
       "EV-ART-049",
       "EV-ART-050",
-      "EV-ART-051",
       "EV-ART-052"
     ],
     "safety": "18/24-month autism screening per guidance; no diagnosis.",
     "optional_navigation": true,
     "clinical_review": false,
-    "publish": false
+    "publish": false,
+    "featured_article_ids": [
+      "EV-ART-044",
+      "EV-ART-048",
+      "EV-ART-042",
+      "EV-ART-051"
+    ],
+    "featured_action_ids": [
+      "EV-ACT-044",
+      "EV-ACT-048",
+      "EV-ACT-042",
+      "EV-ACT-051"
+    ],
+    "persistent_safety_article_ids": [
+      "EV-ART-037"
+    ],
+    "featured_note": "Editorial starting points, not due tasks. Show relevant safety independently, adapt feeding and clinical context. Never automatically assign treatment or dose. Optional material may be skipped."
   },
   {
     "id": "C10",
@@ -687,20 +1064,36 @@
     "label": "Ages 2–3",
     "focus": "Play, toilet learning and family meals",
     "article_ids": [
+      "EV-ART-044",
+      "EV-ART-048",
+      "EV-ART-051",
+      "EV-ART-049",
       "EV-ART-042",
       "EV-ART-043",
-      "EV-ART-044",
       "EV-ART-045",
-      "EV-ART-048",
-      "EV-ART-049",
       "EV-ART-050",
-      "EV-ART-051",
       "EV-ART-052"
     ],
     "safety": "30-month development screen; optional toileting.",
     "optional_navigation": true,
     "clinical_review": false,
-    "publish": false
+    "publish": false,
+    "featured_article_ids": [
+      "EV-ART-044",
+      "EV-ART-048",
+      "EV-ART-051",
+      "EV-ART-049"
+    ],
+    "featured_action_ids": [
+      "EV-ACT-044",
+      "EV-ACT-048",
+      "EV-ACT-051",
+      "EV-ACT-049"
+    ],
+    "persistent_safety_article_ids": [
+      "EV-ART-037"
+    ],
+    "featured_note": "Editorial starting points, not due tasks. Show relevant safety independently, adapt feeding and clinical context. Never automatically assign treatment or dose. Optional material may be skipped."
   },
   {
     "id": "C11",
@@ -709,18 +1102,34 @@
     "focus": "Preschool foundations",
     "article_ids": [
       "EV-ART-042",
-      "EV-ART-043",
-      "EV-ART-044",
       "EV-ART-045",
-      "EV-ART-048",
       "EV-ART-049",
       "EV-ART-050",
+      "EV-ART-043",
+      "EV-ART-044",
+      "EV-ART-048",
       "EV-ART-051",
       "EV-ART-052"
     ],
     "safety": "Secondary scope; no intelligence or school-readiness ranking.",
     "optional_navigation": true,
     "clinical_review": false,
-    "publish": false
+    "publish": false,
+    "featured_article_ids": [
+      "EV-ART-042",
+      "EV-ART-045",
+      "EV-ART-049",
+      "EV-ART-050"
+    ],
+    "featured_action_ids": [
+      "EV-ACT-042",
+      "EV-ACT-045",
+      "EV-ACT-049",
+      "EV-ACT-050"
+    ],
+    "persistent_safety_article_ids": [
+      "EV-ART-037"
+    ],
+    "featured_note": "Editorial starting points, not due tasks. Show relevant safety independently, adapt feeding and clinical context. Never automatically assign treatment or dose. Optional material may be skipped."
   }
 ]
