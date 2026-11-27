@@ -42,10 +42,10 @@ export function Week22Pilot({week,weekPicker}:{week:GestationalWeek;weekPicker:R
  const concept=items.find(item=>item.id===selected)??items[0]
  const source=week.source_id?getSource(week.source_id):undefined
  return <div className="pilot-week" id="week-22">
-  <header className="pilot-header"><Link className="reader-back" to="/timeline/pregnancy"><Glyph name="back"/>Pregnancy</Link><span className="pilot-kicker">PREGNANCY · SECOND TRIMESTER</span><h1 className="page-title">Week 22</h1><p>See how your baby develops and how your body changes.</p><div className="pilot-progress" role="img" aria-label="Week 22 of a 40-week pregnancy reference timeline"><div><span style={{width:'55%'}}/></div><small>22 of 40 weeks · Reference timeline</small></div></header>
+  <header className="pilot-header"><div className="pilot-header-top"><Link className="reader-back" to="/timeline/pregnancy"><Glyph name="back"/>Pregnancy</Link><span className="pilot-kicker">SECOND TRIMESTER</span></div><h1 className="page-title">Week 22</h1><div className="pilot-progress" role="img" aria-label="Week 22 of a 40-week pregnancy reference timeline"><div><span style={{width:'55%'}}/></div><div className="pilot-progress-meta"><small>22 of 40 weeks</small><small>Research draft · review pending</small></div></div></header>
   <div className="pilot-subject" role="group" aria-label="Whose changes are shown?"><button type="button" aria-pressed={!isBaby} onClick={()=>setSubject('mother')}>Mother <small>Your body</small></button><button type="button" aria-pressed={isBaby} onClick={()=>setSubject('baby')}>Baby <small>Development</small></button></div>
   <section className="pilot-learn" aria-labelledby="pilot-learn">
-   <div className="pilot-section-heading"><h2 id="pilot-learn">{isBaby?'Your baby':'Your body'}</h2><p>{isBaby?'Changes in your baby around this week.':'Changes you may notice during pregnancy.'}</p></div>
+   <div className="pilot-section-heading"><h2 id="pilot-learn">{isBaby?'Your baby':'Your body'}</h2></div>
    <div className="pilot-tabs" role="group" aria-label="Development topic">{items.map(item=><button type="button" key={item.id} aria-pressed={selected===item.id} onClick={()=>setSelected(item.id)}>{item.label}</button>)}</div>
    <div className="pilot-concept" aria-live="polite" key={subject}>
     <div className="pilot-visual">{isBaby?<ConceptDiagram kind={concept.id}/>:<MotherDiagram kind={concept.id}/>}</div>

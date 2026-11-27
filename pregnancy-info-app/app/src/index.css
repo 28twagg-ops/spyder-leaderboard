@@ -884,3 +884,15 @@ button.reader-back:focus-visible{outline-offset:3px}
 .pilot-safety strong{font-size:.87rem}.pilot-safety p{font-size:.79rem;line-height:1.45;margin:0}.pilot-safety a{min-height:44px;display:flex;align-items:center;font-weight:600;font-size:.83rem}
 .pilot-week .page-controls>span{align-self:center;text-align:center}
 @media(max-width:360px){.pilot-week{gap:.8rem}.pilot-visual{padding:.45rem}.pilot-diagram{max-height:143px}.pilot-tabs button{font-size:.76rem}}
+
+/* Compact pilot header; keep subject context and the first explanation above the fold. */
+.pilot-week{gap:.75rem}
+.pilot-header-top{display:flex;align-items:center;justify-content:space-between;gap:.5rem;min-width:0}
+.pilot-header-top .pilot-kicker{text-align:right;font-size:.65rem;line-height:1.35}
+.pilot-progress-meta{display:flex;justify-content:space-between;align-items:baseline;gap:.35rem;flex-wrap:wrap}
+.pilot-progress-meta small:last-child{color:var(--accent-text)}
+.pilot-learn{gap:.5rem}
+.pilot-concept{gap:.5rem}
+.pilot-concept-text{gap:.3rem}
+@media(max-height:750px){.pilot-visual{padding:.45rem .65rem}.pilot-diagram{max-height:135px}.pilot-header h1.page-title{font-size:2.05rem}.pilot-week{gap:.65rem}}
+@media(max-width:360px){.pilot-progress-meta small{font-size:.64rem}.pilot-diagram{max-height:128px}}
