@@ -64,7 +64,8 @@ describe('Everwell shell', () => {
     const archive = screen.getByText('Archived AI summary for comparison').closest('details')
     expect(archive).toBeInTheDocument()
     expect(archive).not.toHaveAttribute('open')
-    expect(screen.getByText('Visible safety')).toBeVisible()
+    expect(screen.queryByRole('note',{name:'Content status'})).not.toBeInTheDocument()
+    expect(screen.getByText('Topic-specific safety')).toBeInTheDocument()
   })
 
   it('searches, saves and clears articles without storing search text', () => {

@@ -3,7 +3,6 @@ import { useViewState } from '../hooks/useViewMemory'
 import { safeVisualUrl } from '../data/visualCatalog'
 import { Link, useParams, useNavigate } from 'react-router-dom'
 import { ScreenHeading, FeatureCard } from '../components/ReadingUI'
-import { DraftBanner } from '../components/DraftBanner'
 import {
   evidenceStats, filterNutrients, filterOutcomes, getEvidenceSource, nutrients, paginate,
   type HoldFilter,
@@ -80,11 +79,11 @@ export function EvidencePage() {
   const current = mode === 'outcomes' ? outcomePage : nutrientPage
 
   if(collection&&collection!=='outcomes'&&collection!=='nutrients')return <div className="stack-lg"><ScreenHeading title="Collection not found" back="/evidence" backLabel="Research & sources"/><p>Choose a research collection.</p></div>
-  if(!collection) return <div className="stack-lg"><ScreenHeading title="Research & sources" subtitle="Explore the science behind Everwell." back="/explore" backLabel="Explore"/><FeatureCard to="/evidence/outcomes" title="Scientific outcomes" subtitle={`${stats.outcomes} research records · ${stats.heldOutcomes} held`} icon="chart"/><FeatureCard to="/evidence/nutrients" title="Nutrition references" subtitle={`${stats.nutrients} reference records · ${stats.heldNutrients} held`} icon="leaf"/><section className="panel stack"><h2 className="section-title">Understanding the evidence</h2><p className="muted">Records are not independent study counts. Held values are hidden. Other records are unverified drafts, not individual risk estimates or supplement prescriptions.</p><p className="muted">Original sources and funding information are available within each record.</p></section><DraftBanner status="research_only"/></div>
+  if(!collection) return <div className="stack-lg"><ScreenHeading title="Research & sources" subtitle="Explore the science behind Everwell." back="/explore" backLabel="Explore"/><FeatureCard to="/evidence/outcomes" title="Scientific outcomes" subtitle={`${stats.outcomes} research records · ${stats.heldOutcomes} held`} icon="chart"/><FeatureCard to="/evidence/nutrients" title="Nutrition references" subtitle={`${stats.nutrients} reference records · ${stats.heldNutrients} held`} icon="leaf"/><section className="panel stack"><h2 className="section-title">Understanding the evidence</h2><p className="muted">Records are not independent study counts. Held values are hidden. Other records are unverified drafts, not individual risk estimates or supplement prescriptions.</p><p className="muted">Original sources and funding information are available within each record.</p></section></div>
   return (
     <div className="stack-lg">
       <ScreenHeading title={mode==='outcomes'?'Scientific outcomes':'Nutrition references'} subtitle="Browse draft records and their original sources." back="/evidence" backLabel="Research & sources"/>
-      <DraftBanner status="research_only" />
+
       <details className="panel disclosure">
         <summary>Research inventory</summary>
         <ul className="list-clean">

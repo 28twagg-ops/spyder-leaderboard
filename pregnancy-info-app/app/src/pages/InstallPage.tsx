@@ -1,11 +1,9 @@
 import { ScreenHeading } from '../components/ReadingUI'
-import { DraftBanner } from '../components/DraftBanner'
-
 export function InstallPage() {
   return (
     <div className="stack-lg">
       <ScreenHeading title="Add Everwell" subtitle="Install the private preview on your device. Real-device checks remain pending." back="/settings" backLabel="Settings"/>
-      <DraftBanner status="research_only" />
+
       <section className="panel install-help stack">
         <h2 className="section-title">iPhone Safari</h2>
         <ol>

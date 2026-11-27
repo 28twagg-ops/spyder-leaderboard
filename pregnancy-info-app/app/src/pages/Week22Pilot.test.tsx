@@ -32,7 +32,7 @@ describe('week 22 visual directory',()=>{
   expect(screen.getByText('48.8%')).toBeVisible()
   expect(screen.getByText(/Manufacturer supplied both lotions/)).toBeVisible()
   expect(screen.getByRole('link',{name:/Source 1:/})).toHaveAttribute('href','https://pubmed.ncbi.nlm.nih.gov/18715434/')
-  expect(screen.getByRole('note',{name:'Content status'})).toBeVisible()
+  expect(screen.queryByRole('note',{name:'Content status'})).not.toBeInTheDocument()
  })
  it('shows funding groups and explicit limitations for collagen',async()=>{
   view(root+'/prevention/collagen-and-supplements')

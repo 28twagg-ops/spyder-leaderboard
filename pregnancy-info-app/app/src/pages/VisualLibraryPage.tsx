@@ -2,7 +2,6 @@ import { useViewState } from '../hooks/useViewMemory'
 import { Link, useParams } from 'react-router-dom'
 import { Glyph } from '../components/Glyph'
 import { ScreenHeading } from '../components/ReadingUI'
-import { DraftBanner } from '../components/DraftBanner'
 import { VisualCard } from '../components/VisualCard'
 import { getVisual, searchVisuals, visualCatalog, visualGroups, visualGroupLabel } from '../data/visualCatalog'
 
@@ -15,11 +14,11 @@ export function VisualLibraryPage() {
   const pages=Math.max(1,Math.ceil(records.length/8)),current=Math.min(page,pages)
   const {visualId}=useParams()
   const selected=visualId?getVisual(visualId):undefined
-  if(visualId)return <div className="stack-lg"><ScreenHeading title={selected?.title??'Reference not found'} subtitle="Original reference · review library" back="/visuals" backLabel="Back" historyBack/>{selected?<VisualCard key={selected.id} record={selected}/>:<p>Choose an available reference from the library.</p>}<DraftBanner status="research_only"/></div>
+  if(visualId)return <div className="stack-lg"><ScreenHeading title={selected?.title??'Reference not found'} subtitle="Original reference · review library" back="/visuals" backLabel="Back" historyBack/>{selected?<VisualCard key={selected.id} record={selected}/>:<p>Choose an available reference from the library.</p>}</div>
   return (
     <div className="stack-lg">
       <ScreenHeading title="See the science" subtitle="Find an illustration, photo or video to help you understand a topic." back="/explore" backLabel="Explore"/>
-      <DraftBanner status="research_only" />
+
       <section className="panel stack" aria-label="Filter visual references">
         <label htmlFor="visual-query">Search visual references</label>
         <input id="visual-query" type="search" autoComplete="off" maxLength={200} value={query} onChange={(event) => {setQuery(event.target.value);setPage(1)}} placeholder="Anatomy, sleep, development…" />

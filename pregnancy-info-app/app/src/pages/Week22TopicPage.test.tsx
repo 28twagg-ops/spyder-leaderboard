@@ -57,7 +57,7 @@ describe('expanded week 22 topic coverage',()=>{
   expect(within(studies).getByText(/Study references/)).toBeInTheDocument()
   expect(document.querySelectorAll('.skin-page details').length).toBeLessThanOrEqual(3)
   expect(document.querySelector('.skin-page details details')).toBeNull()
-  expect(screen.getByRole('note',{name:'Content status'})).toBeVisible()
+  expect(screen.queryByRole('note',{name:'Content status'})).not.toBeInTheDocument()
  })
  it.each(skinSections.flatMap(s=>s.children.map(c=>[s.id,slug(c.title),c.title])))('opens skin subsection %s/%s',async(section,id,title)=>{
   render(<MemoryRouter initialEntries={['/timeline/week/22/mother/skin/'+section+'/'+id]}><App/></MemoryRouter>)

@@ -13,7 +13,6 @@ import { articlesByDomain } from '../data/researchCatalog'
 import { articleVisuals } from '../data/visualCatalog'
 import { useLocalPrefs } from '../hooks/useLocalPrefs'
 import { Link, useParams } from 'react-router-dom'
-import { DraftBanner } from '../components/DraftBanner'
 import { maySurfaceAsGuidance } from '../data/publicationGate'
 import { articleBundle } from '../data/researchCatalog'
 import { editorialPriorityLabel } from '../data/researchGate'
@@ -27,7 +26,7 @@ export function ResearchPage() {
   if (!bundle) {
     return (
       <div className="stack-lg">
-        <DraftBanner status="research_only" />
+
         <h1>Research article not found</h1>
         <p>The requested article is unavailable. Choose a topic from the library.</p>
         <Link className="btn btn-ghost" to="/library">Browse library</Link>
@@ -56,25 +55,24 @@ export function ResearchPage() {
         <h1 className="page-title">
           {article.title}
         </h1>
-        <p className="small-copy muted">Research draft · medical review pending</p>
       </header>
 
-      <DraftBanner status="research_only" />
+
       {!urgent&&why}
-      <section className="panel stack safety-panel">
-        <h2 className="section-title danger">Visible safety</h2>
-        <p style={{ margin: 0 }}>{urgent?article.visible_safety:plain?.safety??article.visible_safety}</p>
+      {urgent&&<section className="panel stack safety-panel">
+        <h2 className="section-title danger">When to seek help &amp; safety</h2>
+        <p style={{ margin: 0 }}>{article.visible_safety}</p>
         {emergencyTopic&&<p className="urgent-reading-note">{article.learn_more}</p>}
-        {!urgent&&plain&&plain.safety!==article.visible_safety&&<p className="small-copy muted">{article.visible_safety}</p>}
         {emergencyTopic&&<Link className="topic-link" to="/urgent">Urgent signs &amp; getting help ›</Link>}
-      </section>
+      </section>}
 
       {urgent&&why}
       <TopicOverview key={article.id} id={article.id} visuals={visuals} compact>
-        {plain&&<RememberedReadingDetails articleId={article.id}><p className="small-copy muted">Unreviewed research summary, not medical advice.</p><p>{plain.detail}</p><Link className="topic-link" to={{hash:"#research-details"}}>Explore the science ›</Link></RememberedReadingDetails>}
+        {plain&&<RememberedReadingDetails articleId={article.id}><p>{plain.detail}</p><Link className="topic-link" to={{hash:"#research-details"}}>Explore the science ›</Link></RememberedReadingDetails>}
       </TopicOverview>
       {externalVisuals.length>0&&<a className="ref-row editorial-reading-row" href={safeVisualUrl(externalVisuals[0][1])} target="_blank" rel="noreferrer"><span className="ref-row-icon"><Glyph name="image"/></span><span><strong>{externalVisuals[0][0]}</strong><small>{externalVisuals[0][2]} · original reference</small></span><span aria-hidden="true">↗</span></a>}
       <div id="research-details"><WeekDisclosure id={'library/'+article.id+'/sources'} title="Studies & references">
+        {!urgent&&<section className="research-group"><h3>Topic-specific safety</h3><p>{plain?.safety??article.visible_safety}</p>{plain&&plain.safety!==article.visible_safety&&<p>{article.visible_safety}</p>}</section>}
         <section className="research-group"><h3>Archived AI summary for comparison</h3>
         <p>This is a draft, not medical advice. Experts still need to check the studies and the health information.</p>
         <p>{article.quick_answer}</p><p className="muted">{article.learn_more}</p>
@@ -129,8 +127,8 @@ export function ResearchPage() {
       <section className="research-group">
         <h3>Original studies</h3>
         <p className="muted">
-          Can this app use this draft for medical advice?{' '}
-          <strong>{guidanceBlocked ? 'No — blocked until review' : 'allowed'}</strong>
+          Review status:{' '}
+          <strong>{guidanceBlocked ? 'Medical review pending; not cleared for clinical guidance' : 'allowed'}</strong>
         </p>
         {heldSources.length > 0 && (
           <p className="muted">
@@ -159,9 +157,6 @@ export function ResearchPage() {
       </section>
       </WeekDisclosure></div>
       {related.length>0&&<details className="panel disclosure compact-reader-section"><summary>Related reading</summary><div className="ref-rows">{related.map((a,index)=><EditorialReadingRow key={a.id} index={index} to={`/research/${a.id}`} title={a.title}/>)}</div></details>}
-      <p className="muted" style={{ fontSize: '0.85rem' }}>
-        These research notes were drafted with AI. Independent study checks and medical review are still needed.
-      </p>
 
       <button type="button" className="btn btn-ghost" onClick={back}>Back to previous view</button>
     </div>

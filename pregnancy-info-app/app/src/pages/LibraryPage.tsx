@@ -1,6 +1,5 @@
 import { Link, useLocation } from 'react-router-dom'
 import { useLocalPrefs } from '../hooks/useLocalPrefs'
-import { DraftBanner } from '../components/DraftBanner'
 import { ScreenHeading } from '../components/ReadingUI'
 import { Glyph } from '../components/Glyph'
 import { catalogStats, searchArticles, listDomains } from '../data/researchCatalog'
@@ -28,6 +27,6 @@ export function LibraryPage({browse,setBrowse}:{browse:BrowseState;setBrowse:(st
  <section className="surface-list result-list" aria-label={savedOnly?'Saved articles':'Search results'}>{shown.map(a=><article key={a.id} className="result-row"><Link to={`/research/${a.id}`}><strong>{a.title}</strong><small>{domainLabels[a.domain]??a.domain}{prefs.readArticles.includes(a.id)?' · Read':''}</small></Link><button className="bookmark-control" aria-label={`${prefs.bookmarks.includes(a.id)?'Remove bookmark for':'Save bookmark for'} ${a.title}`} aria-pressed={prefs.bookmarks.includes(a.id)} onClick={()=>toggleBookmark(a.id)}><Glyph name="bookmark"/></button></article>)}</section>
  {!matches.length&&<p>{savedOnly?'No saved articles yet. Bookmark a topic to find it here.':'No matching topics. Try a shorter phrase or browse a category. Missing results do not mean a health concern is safe.'}</p>}
  {!savedOnly&&pages>1&&<div className="page-controls"><button className="btn btn-ghost" disabled={currentPage===1} onClick={()=>setBrowse({...browse,page:currentPage-1})}>Previous</button><span style={{textAlign:'center'}}>Page {currentPage} of {pages}</span><button className="btn btn-ghost" disabled={currentPage===pages} onClick={()=>setBrowse({...browse,page:currentPage+1})}>Next</button></div>}
- <DraftBanner status="research_only"/>
+
  </div>
 }

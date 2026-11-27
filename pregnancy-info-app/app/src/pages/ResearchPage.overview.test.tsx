@@ -11,7 +11,7 @@ describe('visual-first research reading',()=>{
   expect(screen.getByRole('heading',{name:'Why it matters'})).toBeVisible()
   expect(screen.getByText('What you\'ll learn')).toBeVisible()
   expect(screen.getByRole('link',{name:new RegExp(source)})).toHaveAttribute('target','_blank')
-  expect(screen.getByText('Visible safety')).toBeVisible()
+  expect(screen.queryByRole('note',{name:'Content status'})).not.toBeInTheDocument()
   const understand=screen.getByText('Understand more').closest('details')!
   expect(understand).not.toHaveAttribute('open')
   expect(screen.getByText('Archived AI summary for comparison').closest('details')).not.toHaveAttribute('open')

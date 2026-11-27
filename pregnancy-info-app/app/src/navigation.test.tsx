@@ -21,12 +21,12 @@ describe('contextual navigation and privacy',()=>{
   expect(localStorage.getItem('everwell.local.prefs.v1')).toBeNull()
  })
  it('keeps the journey tab active and urgent help returns to its origin',async()=>{
-  view('/timeline/week/22')
+  view('/timeline/week/22/mother/checkups/urgent')
   expect(primary().getByRole('link',{name:'Journey'})).toHaveAttribute('aria-current','page')
-  fireEvent.click(screen.getByRole('link',{name:/Urgent signs & getting help/}))
+  fireEvent.click(await screen.findByRole('link',{name:/Open urgent warning signs now/}))
   expect(await screen.findByRole('heading',{name:'Urgent signs & getting help'})).toBeInTheDocument()
   fireEvent.click(screen.getByRole('button',{name:'Back'}))
-  expect(await screen.findByRole('heading',{name:'Week 22'})).toBeInTheDocument()
+  expect(await screen.findByRole('link',{name:/Open urgent warning signs now/})).toBeInTheDocument()
  })
  it('retains selected body region through reading and supports marker selection',async()=>{
   view('/explore/body')
@@ -70,7 +70,7 @@ describe('contextual navigation and privacy',()=>{
  it.each([['/unknown','Page not found'],['/explore/missing','Topic not found'],['/timeline/week/99','Reading period not found'],['/timeline/preconception/INVALID','Reading period not found'],['/evidence/unknown','Collection not found'],['/visuals/unknown','Reference not found']])('handles invalid destination %s explicitly',async(path,heading)=>{
   view(path)
   expect(await screen.findByRole('heading',{name:heading})).toBeInTheDocument()
-  expect(screen.getByRole('link',{name:/Urgent signs & getting help/})).toBeInTheDocument()
+  expect(primary().getByRole('link',{name:'Home'})).toBeInTheDocument()
  })
  it('remembers open reading and visual lists when returning from a scientific reference, without saving them',async()=>{
   view('/research/EV-ART-014')
