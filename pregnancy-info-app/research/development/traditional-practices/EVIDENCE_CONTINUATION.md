@@ -56,17 +56,17 @@ Preliminary targeted appraisal of existing 120 TX questions, using web-indexed P
 | TX-047 | Calf stretching for cramps | Prior register retained | D2 | See expanded discovery register and prior source checks; no new appraisal asserted. |
 | TX-048 | Foot elevation for ordinary swelling | Context/indirect only | R16 | Included approach, direct elevation trial estimate not extracted. |
 | TX-049 | Compression stockings for leg symptoms | Preliminary source-linked | R16,R17 | Small direct trial null; review versions overlap. |
-| TX-050 | Side-lying rest and positional discomfort | Open — no matched new source | — | Do not infer efficacy or safety from missing evidence. |
+| TX-050 | Side-lying rest and positional discomfort | Preliminary source-linked | R50,R51 | Side-sleep comfort and pillow trials; distinguish position safety from pillow purchase. Regular pillows can be comparable for positional outcomes. |
 | TX-051 | Prenatal yoga and anxiety | Preliminary source-linked | R18,R20 | Preliminary source-linked, modality-specific effect extraction needed. |
 | TX-052 | Mindfulness-based stress reduction | Preliminary source-linked | R19 | Positive symptom-scale evidence; high heterogeneity. |
-| TX-053 | Guided imagery for antenatal stress | Open — no matched new source | — | Do not infer efficacy or safety from missing evidence. |
+| TX-053 | Guided imagery for antenatal stress | Preliminary source-linked | R52,R53 | Imagery trials and older Cochrane review; possible anxiety benefit, limited certainty and new trial extraction pending. |
 | TX-054 | Progressive muscle relaxation for sleep | Context/indirect only | R20,R21 | Relaxation evidence; PMR-only sleep effect unverified. |
 | TX-055 | Music listening for stress | Preliminary source-linked | R18,R20 | Music in reviews, separate stress/anxiety outcomes. |
 | TX-056 | Outdoor walking and mood | Context/indirect only | R19 | Context only; physical activity not specific outdoor walking. |
-| TX-057 | Light exposure and sleep timing | Open — no matched new source | — | Do not infer efficacy or safety from missing evidence. |
+| TX-057 | Light exposure and sleep timing | Context/indirect only | R54,R55 | Clinical bright-light therapy trials not equivalent to ordinary daylight or sleep timing; depression and sleep endpoints separate. |
 | TX-058 | Partner massage for relaxation | Preliminary source-linked | R18 | Partner massage studied; outcome and trial limitations pending. |
 | TX-059 | Peer support groups and postpartum wellbeing | Context/indirect only | R22 | Structured telephone support; general groups are not tested. |
-| TX-060 | Gratitude journaling versus structured psychotherapy | Open — no matched new source | — | Do not infer efficacy or safety from missing evidence. |
+| TX-060 | Gratitude journaling versus structured psychotherapy | Context/indirect only | R56 | Small combined mindfulness/gratitude pilot; not isolated journaling or comparison against psychotherapy. |
 | TX-061 | Antenatal perineal massage | Prior register retained | B1 | See expanded discovery register and prior source checks; no new appraisal asserted. |
 | TX-062 | Warm perineal compress during birth | Prior register retained | B2 | See expanded discovery register and prior source checks; no new appraisal asserted. |
 | TX-063 | Intrapartum perineal massage | Prior register retained | B2 | See expanded discovery register and prior source checks; no new appraisal asserted. |
@@ -79,13 +79,13 @@ Preliminary targeted appraisal of existing 120 TX questions, using web-indexed P
 | TX-070 | Birth ball use for comfort | Preliminary source-linked | R23 | Pain benefit signal with high heterogeneity. |
 | TX-071 | Dates and labor outcomes | Prior register retained | B5,B6 | See expanded discovery register and prior source checks; no new appraisal asserted. |
 | TX-072 | Red raspberry leaf and labor outcomes | Prior register retained | B7,H1 | See expanded discovery register and prior source checks; no new appraisal asserted. |
-| TX-073 | Pineapple and onset-of-labor claims | Open — no matched new source | — | Do not infer efficacy or safety from missing evidence. |
+| TX-073 | Pineapple and onset-of-labor claims | Context/indirect only | R57 | Public education source reports no good evidence that pineapple starts labor. Direct primary trial search remains incomplete; no self-induction advice. |
 | TX-074 | Evening primrose oil (safety-only review) | Safety hold — screened | R24,R25 | Safety hold; heterogeneous evidence. |
 | TX-075 | Castor oil (safety-only review) | Safety hold — screened | R24 | Safety hold; guidance does not support induction use. |
 | TX-076 | Moxibustion for breech (clinician-only research) | Safety hold — screened | R26,R27 | Safety hold; positive presentation outcome, no cesarean reduction. |
 | TX-077 | Sexual intercourse and spontaneous labor claims | Preliminary source-linked | R24,R28 | Direct trial did not improve spontaneous labor. |
 | TX-078 | Walking and labor onset versus comfort | Preliminary source-linked | R29,R30 | Positive selected-population trials; not a self-induction protocol. |
-| TX-079 | Spicy food and labor onset claims | Open — no matched new source | — | Do not infer efficacy or safety from missing evidence. |
+| TX-079 | Spicy food and labor onset claims | Context/indirect only | R57 | Public education source reports no proof for spicy food induction claims; possible heartburn. No direct primary trial located in this pass. |
 | TX-080 | Acupuncture for labor onset (clinician-only research) | Safety hold — screened | R24 | Safety hold; guidance does not support induction. |
 | TX-081 | Chinese zuo yuezi / doing the month | Prior register retained | C3 | See expanded discovery register and prior source checks; no new appraisal asserted. |
 | TX-082 | Latin American cuarentena recovery customs | Preliminary source-linked | R31,R32 | Qualitative cultural context, not clinical efficacy. |
@@ -128,7 +128,7 @@ Preliminary targeted appraisal of existing 120 TX questions, using web-indexed P
 | TX-119 | Responsive feeding versus rigid feeding schedules | Context/indirect only | R47,R36 | Age-specific guidance; no rigid-schedule comparison extracted. |
 | TX-120 | Honey for child cough and infant age restrictions | Preliminary source-linked | R48,R49 | Age boundary and acute cough symptom evidence. |
 
-Coverage check: 120 rows, 26 preliminary source-linked in this pass, 23 context/indirect-only, 6 newly screened safety holds, 59 carried forward, 6 open without a new matched source. 55 topics receive new disposition notes. 49 source/report records (not unique underlying studies). All counts mutually exclusive in the crosswalk; previously source-linked records may still require direct appraisal.
+Coverage check: 120 rows, 28 preliminary source-linked in this pass, 27 context/indirect-only, 6 newly screened safety holds, 59 carried forward, 0 open without a matched source or context. 61 topics receive new disposition notes. 57 source/report records (not unique underlying studies). All counts mutually exclusive; context-only and previously source-linked topics still require direct appraisal. A context match does not close an evidence gap.
 
 ## Source ledger
 
@@ -376,6 +376,23 @@ Coverage check: 120 rows, 26 preliminary source-linked in this pass, 23 context/
 - Appraisal: Different nonspecific cough review; explicitly notes infant botulism boundary. Not interchangeable with acute cough review.
 - Funding / interests: Unknown.
 - Access: indexed abstract or summary unless funding details specifically extracted; exact full-text tables, registrations, corrections and underlying trial overlap pending.
+
+### R50 — [Sleeping posture in pregnancy](https://pmc.ncbi.nlm.nih.gov/articles/PMC12187203/)
+- Appraisal: summarizes observational and trial evidence; a small randomized comparison across 35 pregnancies found regular and pregnancy pillows similarly effective for reducing supine sleep. Separate comfort, sleep position and fetal outcomes. Funding unknown.
+### R51 — [Pregnancy pillow comfort and sleep RCT](https://pubmed.ncbi.nlm.nih.gov/41764446/)
+- Appraisal: direct trial lead; quantitative effect and allocation concealment not yet extracted. Cannot infer device superiority or a requirement to buy a pillow. Funding unknown.
+### R52 — [Cochrane mind-body anxiety review](https://pubmed.ncbi.nlm.nih.gov/21735413/)
+- Appraisal: 8 trials, 556 participants; five imagery trials, one each yoga, hypnosis and autogenic training. Evidence limited. Two authors disclosed a Canadian Institutes of Health Research grant for a related hypnosis trial; exact review funding and individual trial conflicts pending.
+### R53 — [Guided imagery RCT in expectant couples](https://pubmed.ncbi.nlm.nih.gov/42986861/)
+- Appraisal: 177 couples across guided imagery, fetal-heart-sound and control groups; indexed abstract describes attachment, anxiety and sleep outcomes; effects and methods not fully extracted. No recommendation for fetal monitoring devices. Funding unknown.
+### R54 — [Perinatal light therapy meta-analysis](https://pubmed.ncbi.nlm.nih.gov/38031199/)
+- Appraisal: pooled clinical therapy comparisons favored depression and sleep scores, but mixed antenatal/postnatal populations and small trials limit generalization. Not a daylight routine study. Funding unknown.
+### R55 — [Bright light pregnancy depression placebo-controlled RCT](https://pubmed.ncbi.nlm.nih.gov/33115894/)
+- Appraisal: trial comparing active and dim red light; extract outcomes and reconcile with R54. Clinical intervention, not home-use instructions; screen for relevant contraindications. Funding unknown.
+### R56 — [Mindfulness and gratitude pilot RCT](https://pubmed.ncbi.nlm.nih.gov/27810284/)
+- Appraisal: 46 pregnant participants; combined intervention showed possible stress benefit; small sample and component attribution unresolved. Not a substitute for psychotherapy. Funding unknown.
+### R57 — [Tommy's public education: labor onset claims](https://www.tommys.org/pregnancy-information/giving-birth/labour-and-birth-faqs/can-anything-bring-labour)
+- Appraisal: identifies pineapple and spicy-food beliefs and lack of supporting evidence; secondary education source only, not a formal systematic search. Financial interests unknown. No induction protocol.
 
 ## Media and history leads (not independent clinical evidence)
 - [Evidence Based Birth episode 221, birthing positions and midwifery traditions](https://evidencebasedbirth.com/replay-ebb-221-evidence-on-birthing-positions-and-tried-and-true-midwifery-practices-for-protecting-the-perineum/): creator Rebecca Dekker; transcript topic is positional techniques and historically shared midwifery practices; map to TX-062/067, compare RCTs and reviews. Exact timestamps and commercial education interests not audited; no quoted transcript or reuse authorization.
