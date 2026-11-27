@@ -2,6 +2,7 @@ import { Link,useParams } from 'react-router-dom'
 import {ScreenHeading,ReadingRow} from '../components/ReadingUI'
 import {EditorialReadingRow} from '../components/EditorialArticle'
 import {plainReading} from '../data/plainReading'
+import {WeekContext,WeekConnections,WeekDisclosure} from '../components/Week22Reading'
 import {DraftBanner} from '../components/DraftBanner'
 import {TopicArt} from './Week22Pilot'
 import {Footnote,SourceDisclosure,NumericRecords} from './SkinTopicPage'
@@ -31,17 +32,18 @@ export function Week22TopicPage(){
  const c=t?.children.find(x=>x.id===subtopic)
  if(!t||(subtopic&&!c))return <div className="stack"><ScreenHeading title="Topic not found" back={base}/></div>
  const path=base+'/'+t.subject+'/'+t.id
+ const readingId=t.subject+'/'+t.id+(c?'/'+c.id:'')
  const week=gestationalWeeks.find(x=>x.week===22)
  return <div className="pilot-week skin-page">
  <ScreenHeading title={c?.title??t.title} subtitle={(t.subject==='mother'?'Mother':'Baby')+' · Week 22'} back={c?path:base+'?subject='+t.subject} backLabel={c?t.title:'Week 22'}/>
+ <WeekContext subject={t.subject==='mother'?'mother':'baby'} topic={c?{label:t.title,to:path}:undefined}/>
  <div className="pilot-visual"><TopicArt subject={t.subject==='mother'?'mother':'baby'} topic={t.id}/></div>
- <p className="skin-lede">{c?.summary??t.summary}</p><p className="small-copy muted">Topic context: <Footnote id={t.source_id} n={1}/> · Detailed claim sources below.</p>
- <small className="muted">Concept illustration · Research draft</small>
+ <p className="skin-lede">{c?.summary??t.summary} <Footnote id={t.source_id} n={1}/></p><small className="muted">Concept illustration · Research draft</small>
  {!c?<><h2 className="section-title">Read about it</h2><div className="ref-rows">{t.children.map((item,index)=><EditorialReadingRow key={item.id} index={index} to={path+'/'+item.id} title={item.title} subtitle={item.summary}/>)}</div>{t.subject==='baby'&&<details className="panel disclosure"><summary>Original week description</summary><p>{week?.description}</p><p>{week?.interpretation}</p><Footnote id="PED-GESTATION" n={1}/></details>}</>:<>
  <StudyComparison id={c.id}/>
  {c.note&&<p className="skin-lede">{c.note}</p>}
- <details className="panel disclosure compact-reader-section"><summary>Read the full explanation</summary><p className="small-copy muted">Plain-language research drafts · medical review pending</p>{c.article_ids.map((id,index)=>{const a=getArticle(id);const plain=plainReading(id);return a?<section key={id} className="research-group"><h3>{a.title}</h3><p>{plain?.detail??a.quick_answer}</p><p className="small-copy muted">{a.visible_safety}</p><p className="small-copy muted">Related archive references: {a.source_ids.map((id,i)=><Footnote key={id} id={id} n={i+1}/>)}</p><EditorialReadingRow index={index} to={'/research/'+id} title="Full research, FAQs & sources" subtitle={a.title}/></section>:null})}</details>
- <details className="panel disclosure compact-reader-section"><summary>Studies &amp; references</summary><SourceDisclosure ids={c.source_ids}/><NumericRecords ids={c.outcome_ids}/>{c.visual_ids.length>0&&<section className="research-group"><h3>Original illustrations</h3>{c.visual_ids.map(id=><ReadingRow key={id} to={'/visuals/'+id} title={getVisual(id)?.title??id} subtitle="Original reference · review pending"/>)}</section>}</details>{t.children.length>1&&<details className="panel disclosure compact-reader-section"><summary>Related reading</summary><div className="ref-rows">{t.children.filter(item=>item.id!==c.id).map((item,index)=><EditorialReadingRow key={item.id} index={index} to={path+'/'+item.id} title={item.title}/>)}</div></details>}
+ <WeekDisclosure id={readingId+'/read'} title="Read the full explanation"><p className="small-copy muted">Plain-language research drafts · medical review pending</p>{c.article_ids.map((id,index)=>{const a=getArticle(id);const plain=plainReading(id);return a?<section key={id} className="research-group"><h3>{a.title}</h3><p>{plain?.detail??a.quick_answer}</p><p className="small-copy muted">{a.visible_safety}</p><p className="small-copy muted">Related archive references: {a.source_ids.map((id,i)=><Footnote key={id} id={id} n={i+1}/>)}</p><EditorialReadingRow index={index} to={'/research/'+id} title="Full research, FAQs & sources" subtitle={a.title}/></section>:null})}</WeekDisclosure>
+ <WeekDisclosure id={readingId+'/sources'} title="Studies & references"><SourceDisclosure ids={c.source_ids}/><NumericRecords ids={c.outcome_ids}/>{c.visual_ids.length>0&&<section className="research-group"><h3>Original illustrations</h3>{c.visual_ids.map(id=><ReadingRow key={id} to={'/visuals/'+id} title={getVisual(id)?.title??id} subtitle="Original reference · review pending"/>)}</section>}</WeekDisclosure><WeekConnections id={readingId}/>{t.children.length>1&&<WeekDisclosure id={readingId+'/related'} title={'More about '+t.title.toLowerCase()}><div className="ref-rows">{t.children.filter(item=>item.id!==c.id).map((item,index)=><EditorialReadingRow key={item.id} index={index} to={path+'/'+item.id} title={item.title}/>)}</div></WeekDisclosure>}
  </>}
  <div className="pilot-safety"><strong>Safety comes first</strong><p>Contact your maternity care team immediately if usual baby movements slow, stop or change. Urgent signs override routine reading.</p><Link to="/urgent">Know the warning signs ›</Link></div><DraftBanner status="research_only"/>
  </div>
