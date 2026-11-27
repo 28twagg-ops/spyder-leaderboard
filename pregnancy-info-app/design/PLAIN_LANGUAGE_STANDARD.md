@@ -16,3 +16,6 @@ Latest owner direction, 2026-11-27: **No fixed reading-grade target.** Write for
 - Preserve source archives, existing evidence restrictions, privacy, theme and navigation. No new third-party imagery without exact rights and approval.
 
 Existing article, phase and week restatements remain editorial drafts pending review. Raw FAQs, actions and source records remain intact.
+
+## Selective evidence presentation (owner refinement, 2026-11-27)
+Use two optional expansions normally, at most three, and omit unnecessary or empty sections. Lead with a useful visual or interesting, properly contextualized statistic when available; do not force one. Bias/funding is not a mandatory reader heading. Highlight a documented conflict, sponsor role, funding-related difference or other limitation when material to interpretation; use a brief note, or a dedicated section only when the issue genuinely merits it and the three-section limit is maintained. Routine disclosures remain accessible in study references and the evidence registry; unknown funding is not proof of independence. Do not suppress material uncertainty, methodological limitations, safety, citation links or clinical holds. Independent appraisal requirements remain unchanged.
