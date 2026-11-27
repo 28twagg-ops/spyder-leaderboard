@@ -41,7 +41,7 @@ function MethodComparison({compact=false}:{compact?:boolean}){
  <p className="bc-takeaway">IUDs and implants have the lowest fixed estimates. The copper IUD is hormone-free. Ranges overlap and are not individual safety rankings.</p>
  <label className="bc-select-label" htmlFor={compact?'bc-overview-filter':'contraception-filter'}>Filter by hormone exposure</label><select id={compact?'bc-overview-filter':'contraception-filter'} value={filter} onChange={e=>setFilter(e.target.value)}>{filterOptions.map(([v,l])=><option key={v} value={v}>{v==='all'?'All methods':l}</option>)}</select>
  <div className="bc-bars">{shown.map(m=><Link className="bc-chart-link" aria-label={m.name+' '+rate(m)+' · '+m.tradeoff} to={methodPath(m)} key={m.slug}><div className="bc-bar-label"><strong>{m.name}</strong><span>{rate(m)}</span></div><Bar low={m.low} value={m.high} max={25}/><small>{m.short}</small></Link>)}</div>
- <div className="bc-axis"><span>0</span><span>10</span><span>20</span><span>25%</span></div>
+ <div className="bc-axis"><span>0</span><span>25%</span></div>
  {compact&&filter==='all'&&<button className="bc-more" type="button" aria-expanded={expanded} onClick={()=>setExpanded(!expanded)}>{expanded?'Show key comparisons':'Compare all '+methods.length+' methods'}</button>}
  <details className="bc-note"><summary>Source &amp; interpretation <SourceLinks ids={['CT-01']}/></summary><p>CDC 2024 summary, not a head-to-head experiment. Ranges represent method variation, not confidence intervals; dashed bars represent ranges. Emergency, permanent and postpartum-only options are excluded from the annual reversible-method comparison. Lower means fewer unintended pregnancies, not fewer side effects.</p></details>
  </section>
@@ -74,7 +74,7 @@ function ComparisonTable(){
 }
 function ResearchDashboard(){
  const groups=[{title:'Fertility after stopping',ids:['fertility-delay']},{title:'Placement & pain',ids:['pain-2018','pain-2026']},{title:'Long-term health',ids:['vte','breast-age','mood-echo']}]
- return <section className="bc-section" aria-label="Research comparisons"><div className="bc-heading"><h2>Compare the evidence</h2><span>Measured outcomes</span></div><MethodComparison compact/><ComparisonTable/>{groups.map(g=><section className="bc-chart-group" key={g.title}><h2>{g.title}</h2>{evidencePanels.filter(p=>g.ids.includes(p.id)).sort((a,b)=>g.ids.indexOf(a.id)-g.ids.indexOf(b.id)).map(p=><EvidenceChart key={p.id} panel={p} overview/>)}</section>)}</section>
+ return <section id="bc-research-comparisons" className="bc-section" aria-label="Research comparisons"><div className="bc-heading"><h2>Compare the evidence</h2><span>Measured outcomes</span></div><MethodComparison compact/><ComparisonTable/>{groups.map(g=><section className="bc-chart-group" key={g.title}><h2>{g.title}</h2>{evidencePanels.filter(p=>g.ids.includes(p.id)).sort((a,b)=>g.ids.indexOf(a.id)-g.ids.indexOf(b.id)).map(p=><EvidenceChart key={p.id} panel={p} overview/>)}</section>)}</section>
 }
 function Overview(){
  return <div className="bc-page stack-lg"><ScreenHeading title="Birth control & family planning" subtitle="Preparing for pregnancy" back="/timeline/preconception" historyBack/>
@@ -83,7 +83,7 @@ function Overview(){
  <Link to={path('method-hormonal-iud')}><small>Lower systemic LNG</small><strong>Hormonal IUD</strong><span>0.1–0.4% · not hormone-free</span></Link>
  <Link to={path('decision-guide')}><small>No placement</small><strong>Barriers &amp; pills</strong><span>Explore the trade-offs</span></Link>
  </div><p className="bc-subtle">These are examples for different priorities, not an overall medical ranking. <SourceLinks ids={['CT-01','CT-02','CT-06']}/></p></section>
- <MethodDirectory/><ResearchDashboard/>
+ <button type="button" className="bc-more" onClick={()=>document.getElementById("bc-research-comparisons")?.scrollIntoView({block:"start"})}>Jump to comparison graphs <span aria-hidden="true">↓</span></button><MethodDirectory/><ResearchDashboard/>
  <section className="bc-section"><div className="bc-heading"><h2>Read more</h2></div><div className="surface-list">{['decision-guide','after-conception','sexual-health','side-effects','emergency-postpartum'].map(id=>{const s=sections.find(x=>x.id===id)!;return <ReadingRow key={id} to={path(id)} title={s.title} subtitle={s.summary}/>})}<ReadingRow to="/explore/prep" title="More preparation for pregnancy"/></div></section>
  <References ids={sources.map(s=>s.id)}/><p className="small-copy muted">Source-linked educational research. Full independent and qualified clinical review pending.</p></div>
 }
