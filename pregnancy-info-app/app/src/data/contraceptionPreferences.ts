@@ -23,7 +23,7 @@ export const defaultPreferenceWeights=():PreferenceWeights=>Object.fromEntries(p
 export type PreferenceFilters={hormoneFree:boolean;noProcedure:boolean;underOne:boolean}
 export const defaultPreferenceFilters:PreferenceFilters={hormoneFree:false,noProcedure:false,underOne:false}
 export function comparePreferences(weights:PreferenceWeights,filters:PreferenceFilters,costs:CostScenario=defaultCostScenario()){
- const weight=(id:string)=>Math.max(0,Math.min(5,(Number.isFinite(weights[id])?weights[id]:0)))
+ const weight=(id:string)=>Math.max(0,Math.min(10,(Number.isFinite(weights[id])?weights[id]:0)))
  const active=preferenceCriteria.filter(c=>weight(c.id)>0)
  // Procedure and placement-pain preferences express the same feature.
  // Count only the larger weight, not both. Cycle preference separately excludes copper IUD.
@@ -44,8 +44,8 @@ export function comparePreferences(weights:PreferenceWeights,filters:PreferenceF
 
 export const preferenceThemes=[['hormones','Hormone exposure'],['health','Long-term health'],['comfort','Comfort & periods'],['effectiveness','Effectiveness'],['fertility','Future fertility'],['cost','Total 3-year cost']] as const
 /** Essential comfort is a user-facing constraint, not a prediction of individual pain. */
-export function themeFilters(themes:PreferenceWeights,filters:PreferenceFilters):PreferenceFilters{return {...filters,noProcedure:filters.noProcedure||(themes.comfort??0)>=5}}
-export const defaultThemeWeights=()=>({hormones:4,health:5,comfort:3,effectiveness:5,fertility:5,cost:3})
+export function themeFilters(themes:PreferenceWeights,filters:PreferenceFilters):PreferenceFilters{return {...filters,noProcedure:filters.noProcedure||(themes.comfort??0)>=10}}
+export const defaultThemeWeights=()=>({hormones:8,health:10,comfort:6,effectiveness:10,fertility:10,cost:6})
 // Equal split of the comfort weight across two documented feature preferences.
 // The health theme uses the limited physical feature proxy; mood remains review-only.
 export function themePreferences(themes:PreferenceWeights):PreferenceWeights{

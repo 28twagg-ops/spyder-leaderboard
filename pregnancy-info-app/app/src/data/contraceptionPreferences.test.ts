@@ -1,6 +1,13 @@
 import {describe,it,expect} from 'vitest'
 import {comparePreferences,defaultPreferenceWeights,defaultPreferenceFilters,themePreferences,themeFilters} from './contraceptionPreferences'
 describe('contraception feature preference matching',()=>{
+ it('uses the full ten-point range without clamping upper-half weights',()=>{
+  const r=comparePreferences(themePreferences({effectiveness:10,comfort:8}),defaultPreferenceFilters)
+  expect(r.possible).toBe(18)
+  expect(themeFilters({comfort:9},defaultPreferenceFilters).noProcedure).toBe(false)
+  expect(themeFilters({comfort:10},defaultPreferenceFilters).noProcedure).toBe(true)
+  expect(comparePreferences({hormones:10},defaultPreferenceFilters).results[0].minimum).toBe(10)
+ })
  it('differentiates effectiveness across intermediate and low-effectiveness methods in the live theme tool',()=>{
   const r=comparePreferences(themePreferences({effectiveness:5}),defaultPreferenceFilters)
   const pts=(slug:string)=>r.results.find(x=>x.method.slug===slug)!.minimum
@@ -12,7 +19,7 @@ describe('contraception feature preference matching',()=>{
   expect(r.results).toHaveLength(15)
  })
  it('permits pills to move above condoms when effectiveness and noninvasive comfort matter',()=>{
-  const w={effectiveness:5,comfort:5,hormones:0,health:0,fertility:0,cost:0}
+  const w={effectiveness:10,comfort:10,hormones:0,health:0,fertility:0,cost:0}
   const r=comparePreferences(themePreferences(w),themeFilters(w,defaultPreferenceFilters))
   const pts=(slug:string)=>r.results.find(x=>x.method.slug===slug)!.minimum
   // Natural-cycle preference gives condoms half the comfort weight;
@@ -23,11 +30,11 @@ describe('contraception feature preference matching',()=>{
   expect(p.results.find(x=>x.method.slug==='mini-pill')!.minimum).toBeGreaterThan(p.results.find(x=>x.method.slug==='external-condom')!.minimum)
  })
  it('excludes invasive options at essential comfort despite high other priorities',()=>{
-  const w={comfort:5,hormones:5,effectiveness:5,health:5,fertility:5,cost:5}
+  const w={comfort:10,hormones:10,effectiveness:10,health:10,fertility:10,cost:10}
   const r=comparePreferences(themePreferences(w),themeFilters(w,defaultPreferenceFilters))
   expect(r.results.length).toBeGreaterThan(0)
   expect(r.results.every(x=>!['iud','implant','injection'].includes(x.method.art))).toBe(true)
-  expect(comparePreferences(themePreferences({...w,comfort:4}),themeFilters({...w,comfort:4},defaultPreferenceFilters)).results.some(x=>x.method.slug==='copper-iud')).toBe(true)
+  expect(comparePreferences(themePreferences({...w,comfort:9}),themeFilters({...w,comfort:9},defaultPreferenceFilters)).results.some(x=>x.method.slug==='copper-iud')).toBe(true)
  })
  it('maps the six themes to comparable features without doubling comfort',()=>{
   const w=themePreferences({comfort:3,health:5})

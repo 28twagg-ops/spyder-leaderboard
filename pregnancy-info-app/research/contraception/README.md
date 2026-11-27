@@ -41,3 +41,6 @@ At comfort 5, apply the existing no-procedure filter automatically and visibly; 
 
 ## Live full comparison revision
 The six-theme effectiveness slider now uses a transparent linear feature utility (1 minus the annual typical-use pregnancy estimate divided by 25, clipped 0–1), with ranges propagated from the recorded method estimates. The 25-point anchor is a UI design choice, not a study-derived clinical preference or risk score. Existing <1% must-have filter remains separate. Rankings by lower score; ties and uncertainty retained. Compact scrollable list includes all 15 routine methods, including excluded rows clearly identified; every product attached to a routine method is expandable and links to its own research. Emergency-only products remain in the product library, not routine rankings. Product class scores are not claimed as individual brand scores. No fabricated comparative safety or cost scores. Test deployment and physical UI pending.
+
+## Ten-point preference scale
+All six main and optional importance sliders now use 0–10 integer steps; default weights doubled to preserve their relative proportions. Scoring caps updated to ten; essential comfort no-procedure constraint applies only at 10. Comfort remains equally split between procedure and period features. No changes to underlying clinical evidence or safety interpretation.

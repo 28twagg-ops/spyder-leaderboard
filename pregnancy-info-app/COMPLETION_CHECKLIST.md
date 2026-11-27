@@ -118,3 +118,5 @@ Evidence: prior preview 8b51b5f76a0d4624cf2c1879021c52da98f82de1; preference/sea
 - [ ] Essential comfort excludes invasive methods, adds visible warning and tests. Added 13 US product/label profiles and 20 source records; four identified Amazon product URLs, two manufacturer fallback links. Exact stock/market inventory and independent clinical review unresolved. Verify build and physical app handoff.
 
 - [ ] Live full routine-method ranking and expandable product links, graded effectiveness feature scoring with range propagation, filtered options retained as excluded. New automated coverage; deployment and phone acceptance pending.
+
+- [ ] Deploy 0–10 importance scale, proportional defaults, essential comfort threshold at 10, and test upper-half weights and all six slider maxima.
