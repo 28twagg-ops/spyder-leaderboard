@@ -216,3 +216,15 @@ export function catalogStats() {
     sync: syncMeta,
   }
 }
+
+
+/** Plain text matching in source order; no medical ranking or recommendation. */
+export function searchArticles(query = '', domain = 'all') {
+  const terms = query.toLowerCase().trim().split(/\s+/).filter(Boolean)
+  return articles.filter((article) => {
+    if (domain !== 'all' && article.domain !== domain) return false
+    const questions = (article.faq_ids ?? []).map((id) => getFaq(id)?.question ?? '')
+    const text = [article.id, article.title, article.domain, article.quick_answer, article.learn_more, ...questions, ...article.source_ids].filter(Boolean).join(' ').toLowerCase()
+    return terms.every((term) => text.includes(term))
+  })
+}
