@@ -1,131 +1,39 @@
-import { useState } from 'react'
-import { Link } from 'react-router-dom'
+import { Link, useLocation, useParams, useNavigate } from 'react-router-dom'
 import { DraftBanner } from '../components/DraftBanner'
+import { Glyph } from '../components/Glyph'
+import { stageChoices } from '../components/PhasePicker'
+import { ReadingRow, ScreenHeading } from '../components/ReadingUI'
 import { featuredForPhase, gestationalWeeks, getArticle, getSource, timeline } from '../data/researchCatalog'
 
-const trackNames: Record<string, string> = {
-  preconception: 'Preparing together',
-  pregnancy: 'Pregnancy',
-  shared_birth: 'Birth together',
-  maternal: 'Maternal recovery',
-  child: 'Child development',
-}
-const weekBands = [
-  { label: 'Weeks 1–13', start: 1, end: 13 },
-  { label: 'Weeks 14–27', start: 14, end: 27 },
-  { label: 'Weeks 28–40', start: 28, end: 40 },
-]
-
-export function TimelinePage() {
-  const tracks = [...new Set(timeline.map((p) => p.track))]
-  const [trackFilter, setTrackFilter] = useState('all')
-  const [weekFilter, setWeekFilter] = useState('all')
-  const [chosenWeek, setChosenWeek] = useState('')
-  const shownTracks = tracks.filter((track) => trackFilter === 'all' || trackFilter === track)
-  const orderedWeeks = [...gestationalWeeks].sort((a, b) => a.week - b.week)
-
-  return (
-    <div className="stack-lg">
-      <header className="stack">
-        <div className="eyebrow">Journey</div>
-        <h1 style={{ fontFamily: 'var(--font-display)', margin: 0, fontSize: '1.8rem' }}>Your family journey</h1>
-        <p className="lede" style={{ margin: 0 }}>
-          Explore preparation, pregnancy, birth, maternal recovery and childhood in parallel.
-          These are optional educational bands, not deadlines or individual predictions.
-        </p>
-      </header>
-      <DraftBanner status="research_only" />
-      <section className="panel stack" aria-labelledby="journey-filter-heading">
-        <h2 id="journey-filter-heading" style={{ margin: 0, fontSize: '1.15rem' }}>Choose a timeline</h2>
-        <label htmlFor="timeline-track">Family phase track</label>
-        <select id="timeline-track" value={trackFilter} onChange={(event) => setTrackFilter(event.target.value)} style={{ minHeight: 44 }}>
-          <option value="all">All family phases</option>
-          {tracks.map((track) => <option key={track} value={track}>{trackNames[track] ?? track}</option>)}
-        </select>
-        <p className="muted" role="status">{timeline.filter((p) => shownTracks.includes(p.track)).length} of {timeline.length} phases</p>
-        <Link to="#gestation-heading">Jump to weekly pregnancy notes</Link>
-        <Link className="article-title-link" to="/research/EV-ART-003">Father and partner preparation: health and work exposures</Link>
-      </section>
-
-      {shownTracks.map((track) => (
-        <details key={track} className="panel disclosure timeline-track" open={trackFilter !== 'all'}>
-          <summary><h2 id={`track-${track}`}>{trackNames[track] ?? track}</h2></summary>
-          <div className="phase-rail">
-            {timeline.filter((p) => p.track === track).map((phase) => {
-              const featured = featuredForPhase(phase)
-              const featuredIds = new Set(featured.map((article) => article.id))
-              const remaining = [...new Set(phase.article_ids)].flatMap((id) => {
-                const article = getArticle(id)
-                return article && !featuredIds.has(article.id) ? [article] : []
-              })
-              const safety = [...new Set(phase.persistent_safety_article_ids ?? [])].flatMap((id) => {
-                const article = getArticle(id)
-                return article ? [article] : []
-              })
-              return (
-                <details key={phase.id} className="phase-item disclosure" id={phase.id}>
-                  <summary><span><span className="phase-summary-label">{phase.label}</span><span className="phase-summary-focus">{phase.focus}</span></span></summary>
-                  {phase.safety && <p className="muted" style={{ margin: 0, fontSize: '0.9rem' }}>{phase.safety}</p>}
-                  {safety.length > 0 && (
-                    <div className="stack">
-                      <strong>Safety topics (draft)</strong>
-                      {safety.map((article) => <Link key={article.id} to={`/research/${article.id}`}>{article.title}</Link>)}
-                    </div>
-                  )}
-                  <ul className="list-clean">
-                    {featured.map((article) => <li key={article.id}><Link to={`/research/${article.id}`}>{article.title}</Link></li>)}
-                  </ul>
-                  {remaining.length > 0 && (
-                    <details className="disclosure">
-                      <summary>More topics ({remaining.length})</summary>
-                      <ul className="list-clean">
-                        {remaining.map((article) => <li key={article.id}><Link to={`/research/${article.id}`}>{article.title}</Link></li>)}
-                      </ul>
-                    </details>
-                  )}
-                </details>
-              )
-            })}
-          </div>
-        </details>
-      ))}
-
-      <section className="panel stack" aria-labelledby="gestation-heading">
-        <h2 id="gestation-heading" style={{ margin: 0, fontSize: '1.2rem' }}>Weekly pregnancy notes ({gestationalWeeks.length})</h2>
-        <p className="muted" style={{ margin: 0 }}>
-          Research draft descriptions inherit source date windows. They are not individual measurements or milestones that must occur in a particular week.
-          Clinical dating belongs with a clinician.
-        </p>
-        <label htmlFor="chosen-week">Go to a specific week</label><select id="chosen-week" value={chosenWeek} onChange={e=>{setChosenWeek(e.target.value);setWeekFilter('all')}}><option value="">Browse all weeks</option>{orderedWeeks.map(w=><option key={w.week} value={String(w.week)}>Week {w.week}</option>)}</select>
-        <label htmlFor="week-band">Pregnancy week range</label>
-        <select id="week-band" value={weekFilter} onChange={(event) => {setWeekFilter(event.target.value);setChosenWeek('')}} style={{ minHeight: 44 }}>
-          <option value="all">All 40 weeks</option>
-          {weekBands.map((band) => <option key={band.label} value={band.label}>{band.label}</option>)}
-        </select>
-        {weekBands.filter((band) => chosenWeek ? Number(chosenWeek)>=band.start&&Number(chosenWeek)<=band.end : weekFilter === 'all' || weekFilter === band.label).map((band) => (
-          <details key={band.label} className="panel disclosure week-band" open={!!chosenWeek || weekFilter !== 'all'}>
-            <summary>{band.label}</summary>
-            {orderedWeeks.filter((week) => week.week >= band.start && week.week <= band.end && (!chosenWeek || week.week===Number(chosenWeek))).map((week) => {
-              const source = week.source_id ? getSource(week.source_id) : undefined
-              const maternal = timeline.find((phase) => phase.id === week.maternal_phase)
-              const fetal = week.fetal_article_id ? getArticle(week.fetal_article_id) : undefined
-              return (
-                <details key={week.week} id={`week-${week.week}`} className="panel disclosure" open={!!chosenWeek}>
-                  <summary>Week {week.week}</summary>
-                  <p>{week.description}</p>
-                  {week.source_window_start != null && week.source_window_end != null && (
-                    <p className="muted">Source window: weeks {week.source_window_start}–{week.source_window_end}</p>
-                  )}
-                  {week.interpretation && <p className="muted">{week.interpretation}</p>}
-                  {maternal && <p>Maternal phase: {maternal.label}{' '}<Link to={`#${maternal.id}`} onClick={() => setTrackFilter(maternal.track)}>Open maternal phase</Link></p>}
-                  {fetal && <p><Link to={`/research/${fetal.id}`}>{fetal.title}</Link></p>}
-                  <p className="muted">Source: {source?.title ?? week.source_id ?? 'Not recorded'} {source?.url && /^https?:\/\//i.test(source.url) && <a href={source.url} target="_blank" rel="noreferrer">Open source</a>}</p>
-                </details>
-              )
-            })}
-          </details>
-        ))}
-      </section>
-    </div>
-  )
+const phasePath=(p:typeof timeline[number])=>`/timeline/${p.track}/${p.id}`
+const weeks=[...gestationalWeeks].sort((a,b)=>a.week-b.week)
+export function TimelinePage(){
+ const {track,phaseId,weekNumber}=useParams()
+ const {hash}=useLocation()
+ const navigate=useNavigate()
+ const phase=timeline.find(p=>p.id===(phaseId||hash.slice(1))&&(!track||p.track===track))
+ const legacyWeek=hash.match(/^#week-(\d+)$/)?.[1]
+ const week=weeks.find(w=>w.week===Number(weekNumber||legacyWeek))
+ const chosenTrack=stageChoices.find(s=>s.id===(phase?.track||track||hash.replace(/^#track-/,'')))
+ const weekPicker=<div className="panel stack"><label htmlFor="chosen-week" className="section-title">Pregnancy week</label><select id="chosen-week" value={week?.week??''} onChange={e=>navigate(e.target.value?`/timeline/week/${e.target.value}`:'/timeline/pregnancy')}><option value="">Choose a week</option>{weeks.map(w=><option key={w.week} value={w.week}>Week {w.week}</option>)}</select></div>
+ if(week){
+  const source=week.source_id?getSource(week.source_id):undefined
+  const maternal=timeline.find(p=>p.id===week.maternal_phase)
+  const fetal=week.fetal_article_id?getArticle(week.fetal_article_id):undefined
+  return <div className="stack-lg" id={`week-${week.week}`}><ScreenHeading title={`Week ${week.week}`} subtitle="A developmental reading window, not an individual prediction." back="/timeline/pregnancy" backLabel="Pregnancy"/><div className="phase-feature stack"><div className="section-label">Developmental notes · draft</div><p>{week.description}</p>{week.source_window_start!=null&&week.source_window_end!=null&&<small className="muted">Source window: weeks {week.source_window_start}–{week.source_window_end}</small>}{week.interpretation&&<p className="muted">{week.interpretation}</p>}</div><div className="page-controls">{week.week>1?<Link className="btn btn-ghost" to={`/timeline/week/${week.week-1}`}>Previous</Link>:<span/>}<span className="muted" style={{textAlign:'center'}}>{week.week} / 40</span>{week.week<40?<Link className="btn btn-ghost" to={`/timeline/week/${week.week+1}`}>Next</Link>:<span/>}</div>{weekPicker}<section className="stack"><h2 className="section-title">Related reading</h2>{maternal&&<ReadingRow to={phasePath(maternal)} title={maternal.label} subtitle="Maternal phase"/>}{fetal&&<ReadingRow to={`/research/${fetal.id}`} title={fetal.title}/>}<details className="panel disclosure"><summary>Original source</summary><p>{source?.title??week.source_id??'Not recorded'} {source?.url&&/^https?:\/\//i.test(source.url)&&<a className="topic-link" href={source.url} target="_blank" rel="noreferrer">Open source</a>}</p></details></section><DraftBanner status="research_only"/></div>
+ }
+ if(phase&&chosenTrack){
+  const featured=featuredForPhase(phase)
+  const ids=new Set(featured.map(a=>a.id))
+  const more=[...new Set(phase.article_ids)].flatMap(id=>{const a=getArticle(id);return a&&!ids.has(id)?[a]:[]})
+  const safety=[...new Set(phase.persistent_safety_article_ids??[])].flatMap(id=>{const a=getArticle(id);return a?[a]:[]})
+  const siblings=timeline.filter(p=>p.track===phase.track),index=siblings.findIndex(p=>p.id===phase.id)
+  return <div className="stack-lg" id={phase.id}><ScreenHeading title={phase.label} subtitle={chosenTrack.title} back={`/timeline/${phase.track}`} backLabel={chosenTrack.title}/><div className="phase-feature stack"><Glyph name={chosenTrack.icon}/><h2 className="section-title">{phase.focus}</h2>{phase.featured_note&&<p className="muted">{phase.featured_note}</p>}<p className="muted small-copy">Optional reading period, not a deadline or medical schedule.</p></div>{phase.safety&&<section className="panel stack safety-panel"><h2 className="section-title">Safety context</h2><p>{phase.safety}</p>{safety.map(a=><ReadingRow key={a.id} to={`/research/${a.id}`} title={a.title}/>)}</section>}{!phase.safety&&safety.length>0&&<section className="panel stack safety-panel"><h2 className="section-title">Safety topics</h2>{safety.map(a=><ReadingRow key={a.id} to={`/research/${a.id}`} title={a.title}/>)}</section>}<section className="stack"><h2 className="section-title">Start reading</h2><div className="surface-list">{featured.map(a=><ReadingRow key={a.id} to={`/research/${a.id}`} title={a.title} subtitle="Research draft"/>)}</div>{more.length>0&&<details className="panel disclosure"><summary>More topics ({more.length})</summary>{more.map(a=><ReadingRow key={a.id} to={`/research/${a.id}`} title={a.title}/>)}</details>}</section><div className="page-controls">{index>0?<Link className="btn btn-ghost" to={phasePath(siblings[index-1])}>Previous</Link>:<span/>}<span className="muted" style={{textAlign:'center'}}>{index+1} / {siblings.length}</span>{index<siblings.length-1?<Link className="btn btn-ghost" to={phasePath(siblings[index+1])}>Next</Link>:<span/>}</div><DraftBanner status="research_only"/></div>
+ }
+ if(chosenTrack||hash==='#gestation-heading'){
+  const selected=chosenTrack??stageChoices[1]
+  const phases=timeline.filter(p=>p.track===selected.id)
+  return <div className="stack-lg" id={`track-${selected.id}`}><ScreenHeading title={selected.title} subtitle={selected.subtitle} back="/timeline" backLabel="Journey"/>{selected.id==='pregnancy'&&<div id="gestation-heading">{weekPicker}</div>}<section className="stack"><h2 className="section-title">Reading periods</h2><div className="surface-list">{phases.map(p=><ReadingRow key={p.id} to={phasePath(p)} title={p.label} subtitle={p.focus}/>)}</div></section>{selected.id==='preconception'&&<ReadingRow to="/research/EV-ART-003" title="Father & partner preparation"/>}<DraftBanner status="research_only"/></div>
+ }
+ return <div className="stack-lg"><ScreenHeading title="Journey" subtitle="From preparation to early childhood. Explore at your own pace."/><div className="journey-cards">{stageChoices.map((s,i)=><Link key={s.id} className="journey-card" to={`/timeline/${s.id}`}><span className="journey-emblem"><Glyph name={s.icon}/></span><span><small className="muted">Stage {i+1}</small><strong>{s.title}</strong><small>{s.subtitle}</small></span><span aria-hidden="true">›</span></Link>)}</div><DraftBanner status="research_only"/></div>
 }

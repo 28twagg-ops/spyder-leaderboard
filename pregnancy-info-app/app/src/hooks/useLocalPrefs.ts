@@ -8,6 +8,7 @@ import {
 
 export interface LocalPrefs {
   selectedPhaseId: string | null
+  setupComplete: boolean
   bookmarks: string[]
   readArticles: string[]
   reducedMotion: boolean
@@ -18,6 +19,7 @@ export const PREFS_KEY = 'everwell.local.prefs.v1'
 
 const defaults: LocalPrefs = {
   selectedPhaseId: null,
+  setupComplete: false,
   bookmarks: [],
   readArticles: [],
   reducedMotion: false,
@@ -32,6 +34,7 @@ function readPrefs(): LocalPrefs {
     if (!parsed || typeof parsed !== 'object' || Array.isArray(parsed)) return { ...defaults }
     return {
       selectedPhaseId: typeof parsed.selectedPhaseId === 'string' ? parsed.selectedPhaseId : null,
+      setupComplete: parsed.setupComplete === true || typeof parsed.selectedPhaseId === 'string',
       bookmarks: Array.isArray(parsed.bookmarks) ? parsed.bookmarks.filter((id) => typeof id === 'string') : [],
       readArticles: Array.isArray(parsed.readArticles) ? parsed.readArticles.filter((id) => typeof id === 'string') : [],
       reducedMotion: parsed.reducedMotion === true,
@@ -74,7 +77,7 @@ function usePrefsState() {
   }
 
   function setPhase(phaseId: string | null) {
-    setPrefs((prev) => ({ ...prev, selectedPhaseId: phaseId }))
+    setPrefs((prev) => ({ ...prev, selectedPhaseId: phaseId, setupComplete: true }))
   }
 
   function setTheme(themeId: ThemeId) {

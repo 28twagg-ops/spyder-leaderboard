@@ -1,0 +1,41 @@
+import { useEffect, useRef, useState } from 'react'
+import { timeline } from '../data/researchCatalog'
+import { useLocalPrefs } from '../hooks/useLocalPrefs'
+import { Glyph } from './Glyph'
+
+export const stageChoices = [
+ {id:'preconception',title:'Preparing for pregnancy',subtitle:'Before conception',icon:'leaf'},
+ {id:'pregnancy',title:'Pregnancy',subtitle:'First trimester through birth',icon:'journey'},
+ {id:'shared_birth',title:'Birth',subtitle:'Labor and the first hour',icon:'body'},
+ {id:'maternal',title:'Postpartum recovery',subtitle:'After birth and beyond',icon:'body'},
+ {id:'child',title:'Baby & child',subtitle:'Newborn through age five',icon:'child'},
+] as const
+
+export function PhasePicker({firstLaunch=false}:{firstLaunch?:boolean}){
+ const {prefs,setPhase}=useLocalPrefs()
+ const [manual,setManual]=useState(false)
+ const [stage,setStage]=useState('')
+ const dialog=useRef<HTMLDialogElement>(null)
+ const trigger=useRef<HTMLButtonElement>(null)
+ const open=manual||(firstLaunch&&!prefs.setupComplete)
+ const finish=(id:string|null)=>{setPhase(id);setManual(false);setStage('');dialog.current?.close?.();trigger.current?.focus()}
+ const cancel=()=>{if(!prefs.setupComplete)finish(null);else{setManual(false);setStage('');dialog.current?.close?.();trigger.current?.focus()}}
+ useEffect(()=>{
+   const el=dialog.current
+   if(!open||!el)return
+   if(typeof el.showModal==='function'){if(!el.open)el.showModal()}else el.setAttribute('open','')
+   return ()=>{if(el.open&&typeof el.close==='function')el.close()}
+ },[open])
+ const current=timeline.find(p=>p.id===prefs.selectedPhaseId)
+ return <>
+ <button ref={trigger} type="button" className="phase-change" onClick={()=>{setStage('');setManual(true)}}>{current?'Change phase':prefs.setupComplete?'Choose phase':'Choose your phase'} <span aria-hidden="true">›</span></button>
+ {open&&<dialog className="phase-dialog" ref={dialog} aria-labelledby="setup-title" aria-describedby="setup-description" onCancel={e=>{e.preventDefault();cancel()}}>
+ <div className="sheet-handle" aria-hidden="true"/>
+ <div className="editorial-section-head"><span className="section-label">Everwell</span><button className="plain-control" type="button" aria-label="Close setup" onClick={cancel}>×</button></div>
+ <h2 id="setup-title" className="page-title">{stage?'Choose your reading period':'Where are you in your journey?'}</h2>
+ <p id="setup-description" className="muted">{stage?'Pick a period to open related reading.':'Choose an optional reading focus. You can change it anytime.'} Saved only on this device, not a medical profile or schedule.</p>
+ {!stage?<div className="sheet-options">{stageChoices.map(s=><button type="button" className="choice-row" key={s.id} onClick={()=>setStage(s.id)}><Glyph name={s.icon}/><span><strong>{s.title}</strong><small>{s.subtitle}</small></span><span aria-hidden="true">›</span></button>)}</div>:<><button type="button" className="reader-back" onClick={()=>setStage('')}>‹ All stages</button><div className="sheet-options">{timeline.filter(p=>p.track===stage).map(p=><button type="button" className="choice-row" key={p.id} onClick={()=>finish(p.id)}><span className="choice-dot" aria-hidden="true"/><strong>{p.label}</strong><span aria-hidden="true">{p.id===prefs.selectedPhaseId?'✓':'›'}</span></button>)}</div></>}
+ <button type="button" className="btn btn-ghost sheet-skip" onClick={()=>finish(null)}>Browse without a phase</button>
+ </dialog>}
+ </>
+}

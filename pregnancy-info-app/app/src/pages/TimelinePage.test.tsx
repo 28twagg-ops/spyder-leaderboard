@@ -1,23 +1,29 @@
-import { fireEvent, render, screen } from '@testing-library/react'
-import { MemoryRouter } from 'react-router-dom'
-import { describe, expect, it } from 'vitest'
+import { cleanup, fireEvent, render, screen } from '@testing-library/react'
+import { MemoryRouter, Routes, Route } from 'react-router-dom'
+import { afterEach, describe, expect, it } from 'vitest'
 import { TimelinePage } from './TimelinePage'
-
-describe('developmental timeline', () => {
-  it('makes all 40 week records and 28 family phases reachable', () => {
-    render(<MemoryRouter><TimelinePage /></MemoryRouter>)
-    expect(screen.getByText('28 of 28 phases')).toBeInTheDocument()
-    for (let week = 1; week <= 40; week++) {
-      expect(document.getElementById(`week-${week}`)).toBeInTheDocument()
-    }
-    fireEvent.change(screen.getByLabelText('Family phase track'), { target: { value: 'child' } })
-    expect(screen.getByText('11 of 28 phases')).toBeInTheDocument()
-    expect(screen.getByRole('heading', { name: 'Child development' })).toBeInTheDocument()
-    fireEvent.change(screen.getByLabelText('Pregnancy week range'), { target: { value: 'Weeks 28–40' } })
-    expect(document.getElementById('week-1')).not.toBeInTheDocument()
-    expect(document.getElementById('week-40')).toBeInTheDocument()
-    fireEvent.change(screen.getByLabelText('Go to a specific week'), {target:{value:'22'}})
-    expect(document.getElementById('week-22')).toHaveAttribute('open')
-    expect(document.getElementById('week-40')).not.toBeInTheDocument()
-  })
+import { timeline,gestationalWeeks } from '../data/researchCatalog'
+function view(path='/timeline'){return render(<MemoryRouter initialEntries={[path]}><Routes><Route path="/timeline" element={<TimelinePage/>}/><Route path="/timeline/:track" element={<TimelinePage/>}/><Route path="/timeline/:track/:phaseId" element={<TimelinePage/>}/><Route path="/timeline/week/:weekNumber" element={<TimelinePage/>}/></Routes></MemoryRouter>)}
+afterEach(cleanup)
+describe('developmental journey',()=>{
+ it('links every phase across five stage destinations',()=>{
+  view()
+  expect(screen.getByRole('link',{name:/Preparing for pregnancy/})).toHaveAttribute('href','/timeline/preconception')
+  for(const track of new Set(timeline.map(p=>p.track))){cleanup();view('/timeline/'+track);for(const p of timeline.filter(p=>p.track===track))expect(document.querySelector(`a[href="/timeline/${track}/${p.id}"]`)).toBeInTheDocument()}
+  expect(timeline).toHaveLength(28)
+ })
+ it('offers all forty weeks and opens the selected week, with source and adjacent navigation',()=>{
+  view('/timeline/pregnancy')
+  expect(gestationalWeeks).toHaveLength(40)
+  expect(screen.getByLabelText('Pregnancy week').querySelectorAll('option')).toHaveLength(41)
+  fireEvent.change(screen.getByLabelText('Pregnancy week'),{target:{value:'22'}})
+  expect(screen.getByRole('heading',{name:'Week 22'})).toBeInTheDocument()
+  expect(screen.getByRole('link',{name:'Next'})).toHaveAttribute('href','/timeline/week/23')
+ })
+ it('opens legacy phase and week deep links',()=>{
+  view('/timeline#PRE04')
+  expect(screen.getByRole('heading',{name:timeline.find(p=>p.id==='PRE04')?.label})).toBeInTheDocument()
+  cleanup();view('/timeline#week-22')
+  expect(screen.getByRole('heading',{name:'Week 22'})).toBeInTheDocument()
+ })
 })

@@ -1,14 +1,13 @@
 import { useState } from 'react'
 import { Link } from 'react-router-dom'
 import { DraftBanner } from '../components/DraftBanner'
-import { OfflineBanner } from '../components/OfflineBanner'
 import {
   evidenceStats, filterNutrients, filterOutcomes, getEvidenceSource, nutrients, paginate,
   type HoldFilter,
 } from '../data/evidenceCatalog'
 
 const lifeStages = [...new Set(nutrients.map((row) => row.life_stage).filter((stage): stage is string => Boolean(stage)))].sort()
-const pageSize = 20
+const pageSize = 8
 
 function displayValue(value: unknown): string {
   if (typeof value === 'number' && Number.isFinite(value)) return String(value)
@@ -72,16 +71,16 @@ export function EvidencePage() {
 
   return (
     <div className="stack-lg">
-      <header className="stack">
+      <Link className="reader-back" to="/explore">‹ Explore</Link>
+      <header className="screen-heading">
         <div className="eyebrow">Evidence library</div>
-        <h1 style={{ fontFamily: 'var(--font-display)', margin: 0, fontSize: '1.8rem' }}>Outcomes & nutrients</h1>
+        <h1 className="page-title">Outcomes & nutrients</h1>
         <p className="lede" style={{ margin: 0 }}>
           Explore the complete draft evidence inventory. Records are not independent study counts.
           Clinical charting, individualized dosing, ranking and automated recommendations remain blocked.
         </p>
       </header>
       <DraftBanner status="research_only" />
-      <OfflineBanner />
       <details className="panel disclosure">
         <summary>Research inventory</summary>
         <ul className="list-clean">

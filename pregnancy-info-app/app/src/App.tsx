@@ -57,6 +57,9 @@ export default function App() {
           <Routes>
             <Route path="/" element={<TodayPage />} />
             <Route path="/timeline" element={<TimelinePage />} />
+            <Route path="/timeline/:track" element={<TimelinePage />} />
+            <Route path="/timeline/:track/:phaseId" element={<TimelinePage />} />
+            <Route path="/timeline/week/:weekNumber" element={<TimelinePage />} />
             <Route path="/explore" element={<ExplorePage />} />
             <Route path="/explore/:domain" element={<ExplorePage />} />
             <Route path="/research" element={<Navigate to="/library" replace />} />

@@ -1,3 +1,5 @@
+import { Glyph } from '../components/Glyph'
+import { domainLabels } from './LibraryPage'
 import { VisualCard } from '../components/VisualCard'
 import { articleVisuals } from '../data/visualCatalog'
 import { useLocalPrefs } from '../hooks/useLocalPrefs'
@@ -31,13 +33,13 @@ export function ResearchPage() {
   const visuals = articleVisuals(article.id, article.visual_ids ?? [])
 
   return (
-    <div className="stack-lg">
+    <div className="stack-lg reader-page">
       <button type="button" className="reader-back" onClick={back}>‹ Back</button>
       <header className="stack">
         <div className="eyebrow">
-          {article.domain} · {editorialPriorityLabel(article.priority)}
+          {domainLabels[article.domain]??article.domain} · {editorialPriorityLabel(article.priority)}
         </div>
-        <h1 style={{ fontFamily: 'var(--font-display)', margin: 0, fontSize: '1.8rem' }}>
+        <h1 className="page-title">
           {article.title}
         </h1>
         <p className="lede" style={{ margin: 0 }}>
@@ -46,25 +48,26 @@ export function ResearchPage() {
       </header>
 
       <DraftBanner status="research_only" />
-      <div className="cta-row">
-        <button type="button" className="btn btn-ghost" aria-pressed={prefs.bookmarks.includes(article.id)} onClick={() => toggleBookmark(article.id)}>{prefs.bookmarks.includes(article.id) ? 'Remove bookmark' : 'Save bookmark'}</button>
+      <div className="reader-actions">
+        <button type="button" className="btn btn-ghost" aria-pressed={prefs.bookmarks.includes(article.id)} onClick={() => toggleBookmark(article.id)}><Glyph name="bookmark"/>{prefs.bookmarks.includes(article.id) ? 'Remove bookmark' : 'Save bookmark'}</button>
         <button type="button" className="btn btn-ghost" disabled={prefs.readArticles.includes(article.id)} onClick={() => markRead(article.id)}>{prefs.readArticles.includes(article.id) ? 'Marked read' : 'Mark as read'}</button>
       </div>
       <p className="muted small-copy">Reading markers stay on this device; not medical recommendations.</p>
 
-      <section className="panel stack">
+      <section className="panel stack safety-panel">
         <div className="section-label danger">Visible safety</div>
         <p style={{ margin: 0 }}>{article.visible_safety}</p>
       </section>
 
-      <details className="panel disclosure">
+      <h2 className="section-title">Read & explore</h2>
+      <details className="panel disclosure reader-section">
         <summary>Archived AI summary for comparison</summary>
         <p>Independent appraisal and clinical review are pending. This draft is for research comparison only.</p>
         <p>{article.quick_answer}</p>
         <p className="muted">{article.learn_more}</p>
       </details>
 
-      <details className="panel disclosure">
+      <details className="panel disclosure reader-section">
         <summary>Archived draft actions ({relatedActions.length})</summary>
         <p className="muted">
           These are unreviewed comparison records, not instructions to follow or a personal care plan.
@@ -86,7 +89,7 @@ export function ResearchPage() {
         </ul>
       </details>
 
-      <details className="panel disclosure">
+      <details className="panel disclosure reader-section">
         <summary>FAQ ({relatedFaqs.length})</summary>
         <ul className="list-clean">
           {relatedFaqs.map((faq) => (
@@ -105,12 +108,12 @@ export function ResearchPage() {
         </ul>
       </details>
 
-      {visuals.length > 0 && <details className="panel disclosure">
+      {visuals.length > 0 && <details className="panel disclosure reader-section">
         <summary>Visual references ({visuals.length})</summary>
         <p className="muted">Original illustrations and source links for review. Not evidence of treatment effectiveness or individual development.</p>
         <div className="stack">{visuals.map((record) => <VisualCard key={record.id} record={record} />)}</div>
       </details>}
-      <details className="panel disclosure">
+      <details className="panel disclosure reader-section">
         <summary>Sources & funding context</summary>
         <p className="muted">
           Guidance path for this article:{' '}

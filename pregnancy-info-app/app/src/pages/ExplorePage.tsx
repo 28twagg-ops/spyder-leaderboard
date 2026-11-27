@@ -1,36 +1,26 @@
 import { Link, useParams } from 'react-router-dom'
-import { domainLabels } from './LibraryPage'
 import { BodyMap } from '../components/BodyMap'
 import { DraftBanner } from '../components/DraftBanner'
+import { Glyph } from '../components/Glyph'
+import { ReadingRow, ScreenHeading } from '../components/ReadingUI'
 import { articlesByDomain, listDomains } from '../data/researchCatalog'
-
-export function ExplorePage() {
-  const domains = listDomains()
-  const {domain}=useParams()
-  if(domain && domains.includes(domain)) return <div className="stack-lg"><Link className="reader-back" to="/explore">‹ Explore</Link><h1 className="page-title">{domainLabels[domain]??domain}</h1><DraftBanner status="research_only"/><section className="result-list">{articlesByDomain(domain).map(a=><Link className="topic-link" key={a.id} to={`/research/${a.id}`}>{a.title} ›</Link>)}</section></div>
-
-  return (
-    <div className="stack-lg">
-      <header className="stack">
-        <div className="eyebrow">Explore</div>
-        <h1 style={{ fontFamily: 'var(--font-display)', margin: 0, fontSize: '1.8rem' }}>
-          Explore
-        </h1>
-        <p className="lede" style={{ margin: 0 }}>
-          Choose an area or browse a topic. Labels organize reading, not medical priorities.
-        </p>
-      </header>
-      <DraftBanner status="research_only" />
-      
-
-      <div className="cta-row">
-        <Link className="btn btn-primary" to="/library">Search topics</Link>
-        <Link className="btn btn-ghost" to="/visuals">Visual reference library</Link>
-      </div>
-      <BodyMap />
-
-      <section className="domain-list" aria-label="All domains"><h2 className="section-title">Browse topics</h2>
-      <div className="result-list">{domains.map(d=><Link className="topic-link" key={d} to={`/explore/${d}`}>{domainLabels[d]??d} <span aria-hidden="true">›</span></Link>)}</div></section>
-    </div>
-  )
+import { domainLabels } from './LibraryPage'
+const groups=[
+ {id:'prep',icon:'leaf',desc:'Preparing together'},
+ {id:'nutrition',icon:'leaf',desc:'Food & supplements'},
+ {id:'environment',icon:'leaf',desc:'Home & workplace'},
+ {id:'pregnancy',icon:'journey',desc:'Pregnancy changes'},
+ {id:'birth',icon:'body',desc:'Labor & delivery'},
+ {id:'recovery',icon:'body',desc:'Healing & wellbeing'},
+ {id:'feeding',icon:'child',desc:'Milk & formula'},
+ {id:'infant',icon:'child',desc:'Early care & sleep'},
+ {id:'development',icon:'child',desc:'Growth & play'},
+ {id:'solids',icon:'leaf',desc:'Food introduction'},
+ {id:'child',icon:'child',desc:'Health & prevention'}
+] as const
+export function ExplorePage(){
+ const {domain}=useParams()
+ if(domain==='body')return <div className="stack-lg"><ScreenHeading title="Your body" subtitle="Choose a body area to find related reading." back="/explore" backLabel="Explore"/><BodyMap/><DraftBanner status="research_only"/></div>
+ if(domain&&listDomains().includes(domain))return <div className="stack-lg"><ScreenHeading title={domainLabels[domain]??domain} back="/explore" backLabel="Explore" subtitle="Choose a topic to read the research."/><div className="surface-list">{articlesByDomain(domain).map(a=><ReadingRow key={a.id} to={`/research/${a.id}`} title={a.title} subtitle="Research draft"/>)}</div><DraftBanner status="research_only"/></div>
+ return <div className="stack-lg"><ScreenHeading title="Explore" subtitle="Find the information that matters to you."/><Link to="/explore/body" className="feature-link"><span className="journey-emblem"><Glyph name="body"/></span><span><strong>Your body</strong><small>Interactive topic map</small></span><span aria-hidden="true">›</span></Link><section className="stack"><h2 className="section-title">Topics</h2><div className="explore-grid">{groups.map(g=><Link className="discover-tile" key={g.id} to={`/explore/${g.id}`}><Glyph name={g.icon}/><strong>{domainLabels[g.id]}</strong><span aria-hidden="true">›</span><small>{g.desc}</small></Link>)}</div></section><section className="stack"><h2 className="section-title">Go deeper</h2><div className="surface-list"><ReadingRow to="/visuals" title="Visual references" subtitle="Original illustrations and figures"/><ReadingRow to="/evidence" title="Research & sources" subtitle="Scientific records and funding"/></div></section><DraftBanner status="research_only"/></div>
 }
