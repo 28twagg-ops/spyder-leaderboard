@@ -1,0 +1,11 @@
+# Plain-language and comprehension standard
+
+Owner direction, 2026-11-27: make the everyday experience very simple. Adults are the intended audience, not children. Keep mature Morning Stone design; reading grade describes language complexity, not a user's age or ability.
+
+- Level 1: target US grades 5–6 or easier for relevance, labels, everyday reading and urgent warnings. Prefer short active sentences, familiar words and a visual that explains the concept. Explain needed medical terms on first use. No infantilizing language.
+- Level 2: target grades 7–8, with grade 9 (high-school freshman) as an upper design target for optional explanation. Use plain words before technical terms. Retain uncertainty, risks, population limits, exact clinically important thresholds and source context; do not simplify away qualifiers.
+- Level 3: original study language, numerical records, funding, research methods and original archive remain intact. Optional and clearly separated. Never promote archived AI material into medical guidance; existing release locks and independent clinical appraisal remain mandatory.
+- Safety: prioritize accurate and immediate safety language over numerical readability goals. Keep original safety notes available. Do not use readability scores to establish medical accuracy or proof of comprehension.
+- Verification: report approximate Flesch–Kincaid grade using the same heuristic across revisions. Aggregate scores can hide difficult individual items; human comprehension tests must check individual pages, technical terms, uncertainty and urgent actions. Target understanding the point in 10–15 seconds as a future usability measure, not a demonstrated outcome.
+- Do not alter reference artwork, typography or theme to meet a reading score. Use visual learning standard and approved assets; no automatic third-party image loading.
+- Scope of current implementation: all 52 article purpose statements, concept labels, visible safety restatements and optional plain-language draft explanations; all 28 phase labels and safety notes and 40 week descriptions; shared disclaimer/urgent copy. Exact original archive and research data remain. Technical titles, raw FAQs/actions, source records and evidence views remain unchanged unless separately reviewed. This is an editorial draft, not clinical approval.

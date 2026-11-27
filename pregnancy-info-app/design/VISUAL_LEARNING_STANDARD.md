@@ -28,3 +28,6 @@ Current [OpenStax licensing page](https://help.openstax.org/s/article/Licensing-
 
 ## QA gates
 Actual app: first meaningful scope visible early on phone; labels legible at 320px and 200% zoom; high-risk safety above scope; no forced media, no external requests before user follows a link; all detail retained; back navigation and source links work; test comprehension with novice users (explain relevance, identify a concept and source, identify draft status). Compare real screenshots; distinguish pictograms from medical artwork. Do not mark UX-06 or UX-09 complete on a unit test. The 52 scope statements are editorial navigation, not clinically validated takeaways. 
+
+## Plain-language requirement (owner directive)
+Follow [PLAIN_LANGUAGE_STANDARD.md](PLAIN_LANGUAGE_STANDARD.md). Everyday pages should be grade 5–6 or easier; optional explanations no harder than grade 9 where feasible. Keep original scientific records and medical safety limits unchanged. Readability estimates are not clinical review or comprehension results.
