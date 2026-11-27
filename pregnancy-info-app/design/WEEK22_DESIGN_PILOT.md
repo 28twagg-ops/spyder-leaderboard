@@ -1,3 +1,5 @@
+> **Superseding layout reference (owner-approved chat concept, 2026-11-27):** [JOURNEY_EDITORIAL_STANDARD.md](JOURNEY_EDITORIAL_STANDARD.md) and [completion tracker](../research/TIMELINE_COMPLETION_TRACKER.md) now govern the reusable experience. This historical document is retained. Actual deployed app visual acceptance remains pending.
+
 # Week 22 — focused design pilot
 
 Owner direction (2026-11-27): develop one specific topic thoroughly and let the owner judge the experience before applying it to every page. Chosen example: /timeline/week/22. This is an intentionally bounded pilot on the protected preview, not a new design standard approved by the owner.
