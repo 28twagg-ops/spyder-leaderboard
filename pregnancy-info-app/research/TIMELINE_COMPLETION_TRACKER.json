@@ -26,7 +26,7 @@
       "independent_appraisal_complete": false,
       "editorial_draft_complete": false,
       "implementation_candidate": true,
-      "build_verified": false,
+      "build_verified": true,
       "visual_verified": false,
       "owner_app_accepted": false,
       "clinical_review": false,
@@ -37,7 +37,6 @@
         "editorial_refinement",
         "visual_rights",
         "route_integration_verification",
-        "build_and_tests",
         "rendered_QA",
         "owner_acceptance",
         "qualified_clinical_review"
@@ -83,7 +82,7 @@
         ]
       },
       "editorial_draft_present": true,
-      "latest_test_evidence": "All-week navigation and suite passed on fdab0e3; corrected candidate awaiting exact build verification."
+      "latest_test_evidence": "Exact b163680 candidate production build and 356-test suite passed; individual real-device and clinical review pending."
     },
     {
       "week": 2,
@@ -101,7 +100,7 @@
       "independent_appraisal_complete": false,
       "editorial_draft_complete": false,
       "implementation_candidate": true,
-      "build_verified": false,
+      "build_verified": true,
       "visual_verified": false,
       "owner_app_accepted": false,
       "clinical_review": false,
@@ -112,7 +111,6 @@
         "editorial_refinement",
         "visual_rights",
         "route_integration_verification",
-        "build_and_tests",
         "rendered_QA",
         "owner_acceptance",
         "qualified_clinical_review"
@@ -164,7 +162,7 @@
         ]
       },
       "editorial_draft_present": true,
-      "latest_test_evidence": "All-week navigation and suite passed on fdab0e3; corrected candidate awaiting exact build verification."
+      "latest_test_evidence": "Exact b163680 candidate production build and 356-test suite passed; individual real-device and clinical review pending."
     },
     {
       "week": 3,
@@ -182,7 +180,7 @@
       "independent_appraisal_complete": false,
       "editorial_draft_complete": false,
       "implementation_candidate": true,
-      "build_verified": false,
+      "build_verified": true,
       "visual_verified": false,
       "owner_app_accepted": false,
       "clinical_review": false,
@@ -193,7 +191,6 @@
         "editorial_refinement",
         "visual_rights",
         "route_integration_verification",
-        "build_and_tests",
         "rendered_QA",
         "owner_acceptance",
         "qualified_clinical_review"
@@ -245,7 +242,7 @@
         ]
       },
       "editorial_draft_present": true,
-      "latest_test_evidence": "All-week navigation and suite passed on fdab0e3; corrected candidate awaiting exact build verification."
+      "latest_test_evidence": "Exact b163680 candidate production build and 356-test suite passed; individual real-device and clinical review pending."
     },
     {
       "week": 4,
@@ -263,7 +260,7 @@
       "independent_appraisal_complete": false,
       "editorial_draft_complete": false,
       "implementation_candidate": true,
-      "build_verified": false,
+      "build_verified": true,
       "visual_verified": false,
       "owner_app_accepted": false,
       "clinical_review": false,
@@ -274,7 +271,6 @@
         "editorial_refinement",
         "visual_rights",
         "route_integration_verification",
-        "build_and_tests",
         "rendered_QA",
         "owner_acceptance",
         "qualified_clinical_review"
@@ -326,7 +322,7 @@
         ]
       },
       "editorial_draft_present": true,
-      "latest_test_evidence": "All-week navigation and suite passed on fdab0e3; corrected candidate awaiting exact build verification."
+      "latest_test_evidence": "Exact b163680 candidate production build and 356-test suite passed; individual real-device and clinical review pending."
     },
     {
       "week": 5,
@@ -344,7 +340,7 @@
       "independent_appraisal_complete": false,
       "editorial_draft_complete": false,
       "implementation_candidate": true,
-      "build_verified": false,
+      "build_verified": true,
       "visual_verified": false,
       "owner_app_accepted": false,
       "clinical_review": false,
@@ -355,7 +351,6 @@
         "editorial_refinement",
         "visual_rights",
         "route_integration_verification",
-        "build_and_tests",
         "rendered_QA",
         "owner_acceptance",
         "qualified_clinical_review"
@@ -407,7 +402,7 @@
         ]
       },
       "editorial_draft_present": true,
-      "latest_test_evidence": "All-week navigation and suite passed on fdab0e3; corrected candidate awaiting exact build verification."
+      "latest_test_evidence": "Exact b163680 candidate production build and 356-test suite passed; individual real-device and clinical review pending."
     },
     {
       "week": 6,
@@ -425,7 +420,7 @@
       "independent_appraisal_complete": false,
       "editorial_draft_complete": false,
       "implementation_candidate": true,
-      "build_verified": false,
+      "build_verified": true,
       "visual_verified": false,
       "owner_app_accepted": false,
       "clinical_review": false,
@@ -436,7 +431,6 @@
         "editorial_refinement",
         "visual_rights",
         "route_integration_verification",
-        "build_and_tests",
         "rendered_QA",
         "owner_acceptance",
         "qualified_clinical_review"
@@ -488,7 +482,7 @@
         ]
       },
       "editorial_draft_present": true,
-      "latest_test_evidence": "All-week navigation and suite passed on fdab0e3; corrected candidate awaiting exact build verification."
+      "latest_test_evidence": "Exact b163680 candidate production build and 356-test suite passed; individual real-device and clinical review pending."
     },
     {
       "week": 7,
@@ -506,7 +500,7 @@
       "independent_appraisal_complete": false,
       "editorial_draft_complete": false,
       "implementation_candidate": true,
-      "build_verified": false,
+      "build_verified": true,
       "visual_verified": false,
       "owner_app_accepted": false,
       "clinical_review": false,
@@ -517,7 +511,6 @@
         "editorial_refinement",
         "visual_rights",
         "route_integration_verification",
-        "build_and_tests",
         "rendered_QA",
         "owner_acceptance",
         "qualified_clinical_review"
@@ -569,7 +562,7 @@
         ]
       },
       "editorial_draft_present": true,
-      "latest_test_evidence": "All-week navigation and suite passed on fdab0e3; corrected candidate awaiting exact build verification."
+      "latest_test_evidence": "Exact b163680 candidate production build and 356-test suite passed; individual real-device and clinical review pending."
     },
     {
       "week": 8,
@@ -587,7 +580,7 @@
       "independent_appraisal_complete": false,
       "editorial_draft_complete": false,
       "implementation_candidate": true,
-      "build_verified": false,
+      "build_verified": true,
       "visual_verified": false,
       "owner_app_accepted": false,
       "clinical_review": false,
@@ -598,7 +591,6 @@
         "editorial_refinement",
         "visual_rights",
         "route_integration_verification",
-        "build_and_tests",
         "rendered_QA",
         "owner_acceptance",
         "qualified_clinical_review"
@@ -650,7 +642,7 @@
         ]
       },
       "editorial_draft_present": true,
-      "latest_test_evidence": "All-week navigation and suite passed on fdab0e3; corrected candidate awaiting exact build verification."
+      "latest_test_evidence": "Exact b163680 candidate production build and 356-test suite passed; individual real-device and clinical review pending."
     },
     {
       "week": 9,
@@ -668,7 +660,7 @@
       "independent_appraisal_complete": false,
       "editorial_draft_complete": false,
       "implementation_candidate": true,
-      "build_verified": false,
+      "build_verified": true,
       "visual_verified": false,
       "owner_app_accepted": false,
       "clinical_review": false,
@@ -679,7 +671,6 @@
         "editorial_refinement",
         "visual_rights",
         "route_integration_verification",
-        "build_and_tests",
         "rendered_QA",
         "owner_acceptance",
         "qualified_clinical_review"
@@ -731,7 +722,7 @@
         ]
       },
       "editorial_draft_present": true,
-      "latest_test_evidence": "All-week navigation and suite passed on fdab0e3; corrected candidate awaiting exact build verification."
+      "latest_test_evidence": "Exact b163680 candidate production build and 356-test suite passed; individual real-device and clinical review pending."
     },
     {
       "week": 10,
@@ -749,7 +740,7 @@
       "independent_appraisal_complete": false,
       "editorial_draft_complete": false,
       "implementation_candidate": true,
-      "build_verified": false,
+      "build_verified": true,
       "visual_verified": false,
       "owner_app_accepted": false,
       "clinical_review": false,
@@ -760,7 +751,6 @@
         "editorial_refinement",
         "visual_rights",
         "route_integration_verification",
-        "build_and_tests",
         "rendered_QA",
         "owner_acceptance",
         "qualified_clinical_review"
@@ -812,7 +802,7 @@
         ]
       },
       "editorial_draft_present": true,
-      "latest_test_evidence": "All-week navigation and suite passed on fdab0e3; corrected candidate awaiting exact build verification."
+      "latest_test_evidence": "Exact b163680 candidate production build and 356-test suite passed; individual real-device and clinical review pending."
     },
     {
       "week": 11,
@@ -830,7 +820,7 @@
       "independent_appraisal_complete": false,
       "editorial_draft_complete": false,
       "implementation_candidate": true,
-      "build_verified": false,
+      "build_verified": true,
       "visual_verified": false,
       "owner_app_accepted": false,
       "clinical_review": false,
@@ -841,7 +831,6 @@
         "editorial_refinement",
         "visual_rights",
         "route_integration_verification",
-        "build_and_tests",
         "rendered_QA",
         "owner_acceptance",
         "qualified_clinical_review"
@@ -893,7 +882,7 @@
         ]
       },
       "editorial_draft_present": true,
-      "latest_test_evidence": "All-week navigation and suite passed on fdab0e3; corrected candidate awaiting exact build verification."
+      "latest_test_evidence": "Exact b163680 candidate production build and 356-test suite passed; individual real-device and clinical review pending."
     },
     {
       "week": 12,
@@ -911,7 +900,7 @@
       "independent_appraisal_complete": false,
       "editorial_draft_complete": false,
       "implementation_candidate": true,
-      "build_verified": false,
+      "build_verified": true,
       "visual_verified": false,
       "owner_app_accepted": false,
       "clinical_review": false,
@@ -922,7 +911,6 @@
         "editorial_refinement",
         "visual_rights",
         "route_integration_verification",
-        "build_and_tests",
         "rendered_QA",
         "owner_acceptance",
         "qualified_clinical_review"
@@ -974,7 +962,7 @@
         ]
       },
       "editorial_draft_present": true,
-      "latest_test_evidence": "All-week navigation and suite passed on fdab0e3; corrected candidate awaiting exact build verification."
+      "latest_test_evidence": "Exact b163680 candidate production build and 356-test suite passed; individual real-device and clinical review pending."
     },
     {
       "week": 13,
@@ -992,7 +980,7 @@
       "independent_appraisal_complete": false,
       "editorial_draft_complete": false,
       "implementation_candidate": true,
-      "build_verified": false,
+      "build_verified": true,
       "visual_verified": false,
       "owner_app_accepted": false,
       "clinical_review": false,
@@ -1003,7 +991,6 @@
         "editorial_refinement",
         "visual_rights",
         "route_integration_verification",
-        "build_and_tests",
         "rendered_QA",
         "owner_acceptance",
         "qualified_clinical_review"
@@ -1055,7 +1042,7 @@
         ]
       },
       "editorial_draft_present": true,
-      "latest_test_evidence": "All-week navigation and suite passed on fdab0e3; corrected candidate awaiting exact build verification."
+      "latest_test_evidence": "Exact b163680 candidate production build and 356-test suite passed; individual real-device and clinical review pending."
     },
     {
       "week": 14,
@@ -1073,7 +1060,7 @@
       "independent_appraisal_complete": false,
       "editorial_draft_complete": false,
       "implementation_candidate": true,
-      "build_verified": false,
+      "build_verified": true,
       "visual_verified": false,
       "owner_app_accepted": false,
       "clinical_review": false,
@@ -1084,7 +1071,6 @@
         "editorial_refinement",
         "visual_rights",
         "route_integration_verification",
-        "build_and_tests",
         "rendered_QA",
         "owner_acceptance",
         "qualified_clinical_review"
@@ -1136,7 +1122,7 @@
         ]
       },
       "editorial_draft_present": true,
-      "latest_test_evidence": "All-week navigation and suite passed on fdab0e3; corrected candidate awaiting exact build verification."
+      "latest_test_evidence": "Exact b163680 candidate production build and 356-test suite passed; individual real-device and clinical review pending."
     },
     {
       "week": 15,
@@ -1154,7 +1140,7 @@
       "independent_appraisal_complete": false,
       "editorial_draft_complete": false,
       "implementation_candidate": true,
-      "build_verified": false,
+      "build_verified": true,
       "visual_verified": false,
       "owner_app_accepted": false,
       "clinical_review": false,
@@ -1165,7 +1151,6 @@
         "editorial_refinement",
         "visual_rights",
         "route_integration_verification",
-        "build_and_tests",
         "rendered_QA",
         "owner_acceptance",
         "qualified_clinical_review"
@@ -1217,7 +1202,7 @@
         ]
       },
       "editorial_draft_present": true,
-      "latest_test_evidence": "All-week navigation and suite passed on fdab0e3; corrected candidate awaiting exact build verification."
+      "latest_test_evidence": "Exact b163680 candidate production build and 356-test suite passed; individual real-device and clinical review pending."
     },
     {
       "week": 16,
@@ -1235,7 +1220,7 @@
       "independent_appraisal_complete": false,
       "editorial_draft_complete": false,
       "implementation_candidate": true,
-      "build_verified": false,
+      "build_verified": true,
       "visual_verified": false,
       "owner_app_accepted": false,
       "clinical_review": false,
@@ -1246,7 +1231,6 @@
         "editorial_refinement",
         "visual_rights",
         "route_integration_verification",
-        "build_and_tests",
         "rendered_QA",
         "owner_acceptance",
         "qualified_clinical_review"
@@ -1298,7 +1282,7 @@
         ]
       },
       "editorial_draft_present": true,
-      "latest_test_evidence": "All-week navigation and suite passed on fdab0e3; corrected candidate awaiting exact build verification."
+      "latest_test_evidence": "Exact b163680 candidate production build and 356-test suite passed; individual real-device and clinical review pending."
     },
     {
       "week": 17,
@@ -1316,7 +1300,7 @@
       "independent_appraisal_complete": false,
       "editorial_draft_complete": false,
       "implementation_candidate": true,
-      "build_verified": false,
+      "build_verified": true,
       "visual_verified": false,
       "owner_app_accepted": false,
       "clinical_review": false,
@@ -1327,7 +1311,6 @@
         "editorial_refinement",
         "visual_rights",
         "route_integration_verification",
-        "build_and_tests",
         "rendered_QA",
         "owner_acceptance",
         "qualified_clinical_review"
@@ -1379,7 +1362,7 @@
         ]
       },
       "editorial_draft_present": true,
-      "latest_test_evidence": "All-week navigation and suite passed on fdab0e3; corrected candidate awaiting exact build verification."
+      "latest_test_evidence": "Exact b163680 candidate production build and 356-test suite passed; individual real-device and clinical review pending."
     },
     {
       "week": 18,
@@ -1397,7 +1380,7 @@
       "independent_appraisal_complete": false,
       "editorial_draft_complete": false,
       "implementation_candidate": true,
-      "build_verified": false,
+      "build_verified": true,
       "visual_verified": false,
       "owner_app_accepted": false,
       "clinical_review": false,
@@ -1408,7 +1391,6 @@
         "editorial_refinement",
         "visual_rights",
         "route_integration_verification",
-        "build_and_tests",
         "rendered_QA",
         "owner_acceptance",
         "qualified_clinical_review"
@@ -1460,7 +1442,7 @@
         ]
       },
       "editorial_draft_present": true,
-      "latest_test_evidence": "All-week navigation and suite passed on fdab0e3; corrected candidate awaiting exact build verification."
+      "latest_test_evidence": "Exact b163680 candidate production build and 356-test suite passed; individual real-device and clinical review pending."
     },
     {
       "week": 19,
@@ -1478,7 +1460,7 @@
       "independent_appraisal_complete": false,
       "editorial_draft_complete": false,
       "implementation_candidate": true,
-      "build_verified": false,
+      "build_verified": true,
       "visual_verified": false,
       "owner_app_accepted": false,
       "clinical_review": false,
@@ -1489,7 +1471,6 @@
         "editorial_refinement",
         "visual_rights",
         "route_integration_verification",
-        "build_and_tests",
         "rendered_QA",
         "owner_acceptance",
         "qualified_clinical_review"
@@ -1541,7 +1522,7 @@
         ]
       },
       "editorial_draft_present": true,
-      "latest_test_evidence": "All-week navigation and suite passed on fdab0e3; corrected candidate awaiting exact build verification."
+      "latest_test_evidence": "Exact b163680 candidate production build and 356-test suite passed; individual real-device and clinical review pending."
     },
     {
       "week": 20,
@@ -1559,7 +1540,7 @@
       "independent_appraisal_complete": false,
       "editorial_draft_complete": false,
       "implementation_candidate": true,
-      "build_verified": false,
+      "build_verified": true,
       "visual_verified": false,
       "owner_app_accepted": false,
       "clinical_review": false,
@@ -1570,7 +1551,6 @@
         "editorial_refinement",
         "visual_rights",
         "route_integration_verification",
-        "build_and_tests",
         "rendered_QA",
         "owner_acceptance",
         "qualified_clinical_review"
@@ -1590,7 +1570,7 @@
         "size": "25.6 cm · banana"
       },
       "editorial_draft_present": true,
-      "latest_test_evidence": "All-week navigation and suite passed on fdab0e3; corrected candidate awaiting exact build verification."
+      "latest_test_evidence": "Exact b163680 candidate production build and 356-test suite passed; individual real-device and clinical review pending."
     },
     {
       "week": 21,
@@ -1608,7 +1588,7 @@
       "independent_appraisal_complete": false,
       "editorial_draft_complete": false,
       "implementation_candidate": true,
-      "build_verified": false,
+      "build_verified": true,
       "visual_verified": false,
       "owner_app_accepted": false,
       "clinical_review": false,
@@ -1619,7 +1599,6 @@
         "editorial_refinement",
         "visual_rights",
         "route_integration_verification",
-        "build_and_tests",
         "rendered_QA",
         "owner_acceptance",
         "qualified_clinical_review"
@@ -1639,7 +1618,7 @@
         "size": "26.7 cm · carrot"
       },
       "editorial_draft_present": true,
-      "latest_test_evidence": "All-week navigation and suite passed on fdab0e3; corrected candidate awaiting exact build verification."
+      "latest_test_evidence": "Exact b163680 candidate production build and 356-test suite passed; individual real-device and clinical review pending."
     },
     {
       "week": 22,
@@ -1657,7 +1636,7 @@
       "independent_appraisal_complete": false,
       "editorial_draft_complete": false,
       "implementation_candidate": true,
-      "build_verified": false,
+      "build_verified": true,
       "visual_verified": false,
       "owner_app_accepted": false,
       "clinical_review": false,
@@ -1668,7 +1647,6 @@
         "editorial_refinement",
         "visual_rights",
         "route_integration_verification",
-        "build_and_tests",
         "rendered_QA",
         "owner_acceptance",
         "qualified_clinical_review"
@@ -1688,7 +1666,7 @@
         "size": "27.8 cm · sweet potato"
       },
       "editorial_draft_present": true,
-      "latest_test_evidence": "All-week navigation and suite passed on fdab0e3; corrected candidate awaiting exact build verification."
+      "latest_test_evidence": "Exact b163680 candidate production build and 356-test suite passed; individual real-device and clinical review pending."
     },
     {
       "week": 23,
@@ -1706,7 +1684,7 @@
       "independent_appraisal_complete": false,
       "editorial_draft_complete": false,
       "implementation_candidate": true,
-      "build_verified": false,
+      "build_verified": true,
       "visual_verified": false,
       "owner_app_accepted": false,
       "clinical_review": false,
@@ -1717,7 +1695,6 @@
         "editorial_refinement",
         "visual_rights",
         "route_integration_verification",
-        "build_and_tests",
         "rendered_QA",
         "owner_acceptance",
         "qualified_clinical_review"
@@ -1737,7 +1714,7 @@
         "size": "28.9 cm · large mango"
       },
       "editorial_draft_present": true,
-      "latest_test_evidence": "All-week navigation and suite passed on fdab0e3; corrected candidate awaiting exact build verification."
+      "latest_test_evidence": "Exact b163680 candidate production build and 356-test suite passed; individual real-device and clinical review pending."
     },
     {
       "week": 24,
@@ -1755,7 +1732,7 @@
       "independent_appraisal_complete": false,
       "editorial_draft_complete": false,
       "implementation_candidate": true,
-      "build_verified": false,
+      "build_verified": true,
       "visual_verified": false,
       "owner_app_accepted": false,
       "clinical_review": false,
@@ -1766,7 +1743,6 @@
         "editorial_refinement",
         "visual_rights",
         "route_integration_verification",
-        "build_and_tests",
         "rendered_QA",
         "owner_acceptance",
         "qualified_clinical_review"
@@ -1786,7 +1762,7 @@
         "size": "30 cm · corn on the cob"
       },
       "editorial_draft_present": true,
-      "latest_test_evidence": "All-week navigation and suite passed on fdab0e3; corrected candidate awaiting exact build verification."
+      "latest_test_evidence": "Exact b163680 candidate production build and 356-test suite passed; individual real-device and clinical review pending."
     },
     {
       "week": 25,
@@ -1804,7 +1780,7 @@
       "independent_appraisal_complete": false,
       "editorial_draft_complete": false,
       "implementation_candidate": true,
-      "build_verified": false,
+      "build_verified": true,
       "visual_verified": false,
       "owner_app_accepted": false,
       "clinical_review": false,
@@ -1815,7 +1791,6 @@
         "editorial_refinement",
         "visual_rights",
         "route_integration_verification",
-        "build_and_tests",
         "rendered_QA",
         "owner_acceptance",
         "qualified_clinical_review"
@@ -1835,7 +1810,7 @@
         "size": "34.6 cm · zucchini"
       },
       "editorial_draft_present": true,
-      "latest_test_evidence": "All-week navigation and suite passed on fdab0e3; corrected candidate awaiting exact build verification."
+      "latest_test_evidence": "Exact b163680 candidate production build and 356-test suite passed; individual real-device and clinical review pending."
     },
     {
       "week": 26,
@@ -1853,7 +1828,7 @@
       "independent_appraisal_complete": false,
       "editorial_draft_complete": false,
       "implementation_candidate": true,
-      "build_verified": false,
+      "build_verified": true,
       "visual_verified": false,
       "owner_app_accepted": false,
       "clinical_review": false,
@@ -1864,7 +1839,6 @@
         "editorial_refinement",
         "visual_rights",
         "route_integration_verification",
-        "build_and_tests",
         "rendered_QA",
         "owner_acceptance",
         "qualified_clinical_review"
@@ -1884,7 +1858,7 @@
         "size": "35.6 cm · cucumber"
       },
       "editorial_draft_present": true,
-      "latest_test_evidence": "All-week navigation and suite passed on fdab0e3; corrected candidate awaiting exact build verification."
+      "latest_test_evidence": "Exact b163680 candidate production build and 356-test suite passed; individual real-device and clinical review pending."
     },
     {
       "week": 27,
@@ -1902,7 +1876,7 @@
       "independent_appraisal_complete": false,
       "editorial_draft_complete": false,
       "implementation_candidate": true,
-      "build_verified": false,
+      "build_verified": true,
       "visual_verified": false,
       "owner_app_accepted": false,
       "clinical_review": false,
@@ -1913,7 +1887,6 @@
         "editorial_refinement",
         "visual_rights",
         "route_integration_verification",
-        "build_and_tests",
         "rendered_QA",
         "owner_acceptance",
         "qualified_clinical_review"
@@ -1933,7 +1906,7 @@
         "size": "36.6 cm · head of cauliflower"
       },
       "editorial_draft_present": true,
-      "latest_test_evidence": "All-week navigation and suite passed on fdab0e3; corrected candidate awaiting exact build verification."
+      "latest_test_evidence": "Exact b163680 candidate production build and 356-test suite passed; individual real-device and clinical review pending."
     },
     {
       "week": 28,
@@ -1951,7 +1924,7 @@
       "independent_appraisal_complete": false,
       "editorial_draft_complete": false,
       "implementation_candidate": true,
-      "build_verified": false,
+      "build_verified": true,
       "visual_verified": false,
       "owner_app_accepted": false,
       "clinical_review": false,
@@ -1962,7 +1935,6 @@
         "editorial_refinement",
         "visual_rights",
         "route_integration_verification",
-        "build_and_tests",
         "rendered_QA",
         "owner_acceptance",
         "qualified_clinical_review"
@@ -1982,7 +1954,7 @@
         "size": "37.6 cm · eggplant"
       },
       "editorial_draft_present": true,
-      "latest_test_evidence": "All-week navigation and suite passed on fdab0e3; corrected candidate awaiting exact build verification."
+      "latest_test_evidence": "Exact b163680 candidate production build and 356-test suite passed; individual real-device and clinical review pending."
     },
     {
       "week": 29,
@@ -2000,7 +1972,7 @@
       "independent_appraisal_complete": false,
       "editorial_draft_complete": false,
       "implementation_candidate": true,
-      "build_verified": false,
+      "build_verified": true,
       "visual_verified": false,
       "owner_app_accepted": false,
       "clinical_review": false,
@@ -2011,7 +1983,6 @@
         "editorial_refinement",
         "visual_rights",
         "route_integration_verification",
-        "build_and_tests",
         "rendered_QA",
         "owner_acceptance",
         "qualified_clinical_review"
@@ -2031,7 +2002,7 @@
         "size": "38.6 cm · butternut squash"
       },
       "editorial_draft_present": true,
-      "latest_test_evidence": "All-week navigation and suite passed on fdab0e3; corrected candidate awaiting exact build verification."
+      "latest_test_evidence": "Exact b163680 candidate production build and 356-test suite passed; individual real-device and clinical review pending."
     },
     {
       "week": 30,
@@ -2049,7 +2020,7 @@
       "independent_appraisal_complete": false,
       "editorial_draft_complete": false,
       "implementation_candidate": true,
-      "build_verified": false,
+      "build_verified": true,
       "visual_verified": false,
       "owner_app_accepted": false,
       "clinical_review": false,
@@ -2060,7 +2031,6 @@
         "editorial_refinement",
         "visual_rights",
         "route_integration_verification",
-        "build_and_tests",
         "rendered_QA",
         "owner_acceptance",
         "qualified_clinical_review"
@@ -2080,7 +2050,7 @@
         "size": "39.9 cm · cabbage"
       },
       "editorial_draft_present": true,
-      "latest_test_evidence": "All-week navigation and suite passed on fdab0e3; corrected candidate awaiting exact build verification."
+      "latest_test_evidence": "Exact b163680 candidate production build and 356-test suite passed; individual real-device and clinical review pending."
     },
     {
       "week": 31,
@@ -2098,7 +2068,7 @@
       "independent_appraisal_complete": false,
       "editorial_draft_complete": false,
       "implementation_candidate": true,
-      "build_verified": false,
+      "build_verified": true,
       "visual_verified": false,
       "owner_app_accepted": false,
       "clinical_review": false,
@@ -2109,7 +2079,6 @@
         "editorial_refinement",
         "visual_rights",
         "route_integration_verification",
-        "build_and_tests",
         "rendered_QA",
         "owner_acceptance",
         "qualified_clinical_review"
@@ -2129,7 +2098,7 @@
         "size": "41.1 cm · coconut"
       },
       "editorial_draft_present": true,
-      "latest_test_evidence": "All-week navigation and suite passed on fdab0e3; corrected candidate awaiting exact build verification."
+      "latest_test_evidence": "Exact b163680 candidate production build and 356-test suite passed; individual real-device and clinical review pending."
     },
     {
       "week": 32,
@@ -2147,7 +2116,7 @@
       "independent_appraisal_complete": false,
       "editorial_draft_complete": false,
       "implementation_candidate": true,
-      "build_verified": false,
+      "build_verified": true,
       "visual_verified": false,
       "owner_app_accepted": false,
       "clinical_review": false,
@@ -2158,7 +2127,6 @@
         "editorial_refinement",
         "visual_rights",
         "route_integration_verification",
-        "build_and_tests",
         "rendered_QA",
         "owner_acceptance",
         "qualified_clinical_review"
@@ -2210,7 +2178,7 @@
         ]
       },
       "editorial_draft_present": true,
-      "latest_test_evidence": "All-week navigation and suite passed on fdab0e3; corrected candidate awaiting exact build verification."
+      "latest_test_evidence": "Exact b163680 candidate production build and 356-test suite passed; individual real-device and clinical review pending."
     },
     {
       "week": 33,
@@ -2228,7 +2196,7 @@
       "independent_appraisal_complete": false,
       "editorial_draft_complete": false,
       "implementation_candidate": true,
-      "build_verified": false,
+      "build_verified": true,
       "visual_verified": false,
       "owner_app_accepted": false,
       "clinical_review": false,
@@ -2239,7 +2207,6 @@
         "editorial_refinement",
         "visual_rights",
         "route_integration_verification",
-        "build_and_tests",
         "rendered_QA",
         "owner_acceptance",
         "qualified_clinical_review"
@@ -2291,7 +2258,7 @@
         ]
       },
       "editorial_draft_present": true,
-      "latest_test_evidence": "All-week navigation and suite passed on fdab0e3; corrected candidate awaiting exact build verification."
+      "latest_test_evidence": "Exact b163680 candidate production build and 356-test suite passed; individual real-device and clinical review pending."
     },
     {
       "week": 34,
@@ -2309,7 +2276,7 @@
       "independent_appraisal_complete": false,
       "editorial_draft_complete": false,
       "implementation_candidate": true,
-      "build_verified": false,
+      "build_verified": true,
       "visual_verified": false,
       "owner_app_accepted": false,
       "clinical_review": false,
@@ -2320,7 +2287,6 @@
         "editorial_refinement",
         "visual_rights",
         "route_integration_verification",
-        "build_and_tests",
         "rendered_QA",
         "owner_acceptance",
         "qualified_clinical_review"
@@ -2372,7 +2338,7 @@
         ]
       },
       "editorial_draft_present": true,
-      "latest_test_evidence": "All-week navigation and suite passed on fdab0e3; corrected candidate awaiting exact build verification."
+      "latest_test_evidence": "Exact b163680 candidate production build and 356-test suite passed; individual real-device and clinical review pending."
     },
     {
       "week": 35,
@@ -2390,7 +2356,7 @@
       "independent_appraisal_complete": false,
       "editorial_draft_complete": false,
       "implementation_candidate": true,
-      "build_verified": false,
+      "build_verified": true,
       "visual_verified": false,
       "owner_app_accepted": false,
       "clinical_review": false,
@@ -2401,7 +2367,6 @@
         "editorial_refinement",
         "visual_rights",
         "route_integration_verification",
-        "build_and_tests",
         "rendered_QA",
         "owner_acceptance",
         "qualified_clinical_review"
@@ -2453,7 +2418,7 @@
         ]
       },
       "editorial_draft_present": true,
-      "latest_test_evidence": "All-week navigation and suite passed on fdab0e3; corrected candidate awaiting exact build verification."
+      "latest_test_evidence": "Exact b163680 candidate production build and 356-test suite passed; individual real-device and clinical review pending."
     },
     {
       "week": 36,
@@ -2471,7 +2436,7 @@
       "independent_appraisal_complete": false,
       "editorial_draft_complete": false,
       "implementation_candidate": true,
-      "build_verified": false,
+      "build_verified": true,
       "visual_verified": false,
       "owner_app_accepted": false,
       "clinical_review": false,
@@ -2482,7 +2447,6 @@
         "editorial_refinement",
         "visual_rights",
         "route_integration_verification",
-        "build_and_tests",
         "rendered_QA",
         "owner_acceptance",
         "qualified_clinical_review"
@@ -2534,7 +2498,7 @@
         ]
       },
       "editorial_draft_present": true,
-      "latest_test_evidence": "All-week navigation and suite passed on fdab0e3; corrected candidate awaiting exact build verification."
+      "latest_test_evidence": "Exact b163680 candidate production build and 356-test suite passed; individual real-device and clinical review pending."
     },
     {
       "week": 37,
@@ -2552,7 +2516,7 @@
       "independent_appraisal_complete": false,
       "editorial_draft_complete": false,
       "implementation_candidate": true,
-      "build_verified": false,
+      "build_verified": true,
       "visual_verified": false,
       "owner_app_accepted": false,
       "clinical_review": false,
@@ -2563,7 +2527,6 @@
         "editorial_refinement",
         "visual_rights",
         "route_integration_verification",
-        "build_and_tests",
         "rendered_QA",
         "owner_acceptance",
         "qualified_clinical_review"
@@ -2615,7 +2578,7 @@
         ]
       },
       "editorial_draft_present": true,
-      "latest_test_evidence": "All-week navigation and suite passed on fdab0e3; corrected candidate awaiting exact build verification."
+      "latest_test_evidence": "Exact b163680 candidate production build and 356-test suite passed; individual real-device and clinical review pending."
     },
     {
       "week": 38,
@@ -2633,7 +2596,7 @@
       "independent_appraisal_complete": false,
       "editorial_draft_complete": false,
       "implementation_candidate": true,
-      "build_verified": false,
+      "build_verified": true,
       "visual_verified": false,
       "owner_app_accepted": false,
       "clinical_review": false,
@@ -2644,7 +2607,6 @@
         "editorial_refinement",
         "visual_rights",
         "route_integration_verification",
-        "build_and_tests",
         "rendered_QA",
         "owner_acceptance",
         "qualified_clinical_review"
@@ -2696,7 +2658,7 @@
         ]
       },
       "editorial_draft_present": true,
-      "latest_test_evidence": "All-week navigation and suite passed on fdab0e3; corrected candidate awaiting exact build verification."
+      "latest_test_evidence": "Exact b163680 candidate production build and 356-test suite passed; individual real-device and clinical review pending."
     },
     {
       "week": 39,
@@ -2714,7 +2676,7 @@
       "independent_appraisal_complete": false,
       "editorial_draft_complete": false,
       "implementation_candidate": true,
-      "build_verified": false,
+      "build_verified": true,
       "visual_verified": false,
       "owner_app_accepted": false,
       "clinical_review": false,
@@ -2725,7 +2687,6 @@
         "editorial_refinement",
         "visual_rights",
         "route_integration_verification",
-        "build_and_tests",
         "rendered_QA",
         "owner_acceptance",
         "qualified_clinical_review"
@@ -2777,7 +2738,7 @@
         ]
       },
       "editorial_draft_present": true,
-      "latest_test_evidence": "All-week navigation and suite passed on fdab0e3; corrected candidate awaiting exact build verification."
+      "latest_test_evidence": "Exact b163680 candidate production build and 356-test suite passed; individual real-device and clinical review pending."
     },
     {
       "week": 40,
@@ -2795,7 +2756,7 @@
       "independent_appraisal_complete": false,
       "editorial_draft_complete": false,
       "implementation_candidate": true,
-      "build_verified": false,
+      "build_verified": true,
       "visual_verified": false,
       "owner_app_accepted": false,
       "clinical_review": false,
@@ -2806,7 +2767,6 @@
         "editorial_refinement",
         "visual_rights",
         "route_integration_verification",
-        "build_and_tests",
         "rendered_QA",
         "owner_acceptance",
         "qualified_clinical_review"
@@ -2858,7 +2818,7 @@
         ]
       },
       "editorial_draft_present": true,
-      "latest_test_evidence": "All-week navigation and suite passed on fdab0e3; corrected candidate awaiting exact build verification."
+      "latest_test_evidence": "Exact b163680 candidate production build and 356-test suite passed; individual real-device and clinical review pending."
     }
   ],
   "phases": [
@@ -4894,9 +4854,10 @@
     "reference_records": 86,
     "unique_week_route_types": 169,
     "static_route_validation": "239 featured routes, 248 related links, 29 connected-topic links, 19 guide destinations and source keys checked without missing IDs; not full browser traversal.",
-    "actual_build": "Latest Vercel build in progress; 173/173 subsection tests passed. Full build and device review pending.",
+    "actual_build": "READY: 356/356 tests, 15 files, TypeScript/Vite, production privacy/media validation passed; 4 lint warnings, 4 moderate toolchain dependency findings, 0 runtime findings.",
     "complete_weeks": 0,
     "complete_phases": 0,
-    "next_proposed_batch": "Verify full production build and protected iPhone PWA, then prioritize detailed evidence review, visual QA and remaining life-stage chapters."
+    "next_proposed_batch": "Verify full production build and protected iPhone PWA, then prioritize detailed evidence review, visual QA and remaining life-stage chapters.",
+    "preview_url": "https://everwell-iphone-test-k3huvf0qg-28twagg-9796.vercel.app"
   }
 }
