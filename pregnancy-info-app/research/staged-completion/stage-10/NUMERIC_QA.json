@@ -39,5 +39,29 @@
     }
   ],
   "chart_eligible": 0,
-  "clinical_review": false
+  "clinical_review": false,
+  "arm_review_disposition": [
+    {
+      "id": "H11",
+      "status": "single-cohort 5/185; not two-arm comparison"
+    },
+    {
+      "id": "K-striae-cohort",
+      "status": "single cohort n1017 with reported 59%; exact event count not supplied; not two-arm comparison"
+    },
+    {
+      "id": "PED-E20",
+      "status": "MATISSE endpoint-specific denominators absent; preserve actual counts and interval type; no arm-rate calculation"
+    },
+    {
+      "id": "PED-E21",
+      "status": "MATISSE endpoint-specific denominators absent; preserve actual counts and interval type; no arm-rate calculation"
+    },
+    {
+      "id": "PED-E22",
+      "status": "MATISSE endpoint-specific denominators absent; preserve actual counts and interval type; no arm-rate calculation"
+    }
+  ],
+  "invalid_complete_two_arm_records": 0,
+  "incomplete_or_noncomparative_records": 5
 }

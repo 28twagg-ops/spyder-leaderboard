@@ -1,0 +1,19 @@
+{
+  "checked_commit": "24bda117cde5c5faab5b89898d1aaf3e9b0f714c",
+  "articles": 52,
+  "actions": 52,
+  "faqs": 52,
+  "phases": 28,
+  "weeks": 40,
+  "routines": 9,
+  "questions": 15,
+  "synthetic_tests": 16,
+  "linked_sources": 217,
+  "asset_candidates": 44,
+  "verified_original_svg_hashes": 7,
+  "errors": [],
+  "clinical_review": false,
+  "semantic_claim_validation": "not performed comprehensively; source IDs and structural links are not claim support verification",
+  "readability_testing": false,
+  "runtime_tests": false
+}
