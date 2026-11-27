@@ -8,21 +8,30 @@
       name="viewport"
       content="width=device-width, initial-scale=1.0, viewport-fit=cover"
     />
-    <meta name="theme-color" content="#0f2f2c" />
+    <meta name="theme-color" content="#5a7d86" />
     <meta
       name="description"
       content="Everwell — educational pregnancy preparation and early childhood health. Research draft only; not clinical advice."
     />
     <meta name="apple-mobile-web-app-capable" content="yes" />
-    <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
+    <meta name="apple-mobile-web-app-status-bar-style" content="default" />
     <meta name="apple-mobile-web-app-title" content="Everwell" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
-      href="https://fonts.googleapis.com/css2?family=Figtree:wght@400;500;600;700&family=Syne:wght@600;700;800&display=swap"
+      href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,500;600;700&family=Manrope:wght@400;500;600;700&display=swap"
       rel="stylesheet"
     />
     <title>Everwell</title>
+    <script>
+      try {
+        var prefs = JSON.parse(localStorage.getItem('everwell.local.prefs.v1') || '{}')
+        var theme = prefs.themeId || 'soft-fog'
+        document.documentElement.setAttribute('data-theme', theme)
+      } catch (e) {
+        document.documentElement.setAttribute('data-theme', 'soft-fog')
+      }
+    </script>
   </head>
   <body>
     <div id="root"></div>

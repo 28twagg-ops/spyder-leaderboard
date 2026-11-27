@@ -12,7 +12,8 @@ describe('Everwell shell', () => {
     )
     expect(screen.getByRole('heading', { name: 'Everwell' })).toBeInTheDocument()
     expect(screen.getByText(/educational research prototype/i)).toBeInTheDocument()
-    expect(screen.getByText(/52 staged articles/i)).toBeInTheDocument()
+    expect(screen.getByText(/Choose a calmer theme/i)).toBeInTheDocument()
+    expect(screen.getByText(/52 articles/i)).toBeInTheDocument()
     expect(screen.getByRole('navigation', { name: 'Primary' })).toBeInTheDocument()
   })
 

@@ -24,22 +24,22 @@ export function BodyMap() {
           <desc id="bodymap-desc">
             Stylized silhouette with selectable educational topic regions. Equivalent list follows.
           </desc>
-          <ellipse cx="120" cy="36" rx="22" ry="26" fill="#1f8f84" opacity="0.35" />
+          <ellipse cx="120" cy="36" rx="22" ry="26" fill="var(--accent)" opacity="0.28" />
           <path
             d="M78 70 C70 120 74 170 84 220 L100 250 L140 250 L156 220 C166 170 170 120 162 70 Z"
-            fill="#163330"
-            stroke="#3ecfbe"
+            fill="var(--bg-soft)"
+            stroke="var(--accent)"
             strokeWidth="2"
           />
           {REGIONS.map((region) => (
             <a key={region.id} href={`#map-${region.id}`}>
-              <circle cx={region.cx} cy={region.cy} r="12" fill="#3ecfbe" opacity="0.85" />
+              <circle cx={region.cx} cy={region.cy} r="12" fill="var(--accent)" opacity="0.9" />
               <text
                 x={region.cx + 16}
                 y={region.cy + 4}
-                fill="#e8f2ef"
+                fill="var(--ink)"
                 fontSize="11"
-                fontFamily="Figtree, sans-serif"
+                fontFamily="Manrope, sans-serif"
               >
                 {region.label}
               </text>

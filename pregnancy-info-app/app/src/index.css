@@ -1,19 +1,130 @@
-:root {
+:root,
+[data-theme='soft-fog'] {
+  color-scheme: light;
+  --bg: #eef2f4;
+  --bg-elevated: #f8fafb;
+  --bg-soft: #e4ebef;
+  --ink: #2a3439;
+  --ink-muted: #5f6d75;
+  --accent: #5a7d86;
+  --accent-deep: #3f616a;
+  --accent-soft: rgba(90, 125, 134, 0.12);
+  --warn: #9a7040;
+  --danger: #a45b55;
+  --line: rgba(42, 52, 57, 0.1);
+  --radius: 20px;
+  --shadow: 0 14px 36px rgba(58, 78, 88, 0.08);
+  --font-display: 'Fraunces', Georgia, serif;
+  --font-body: 'Manrope', system-ui, sans-serif;
+  --nav-bg: color-mix(in oklab, #f8fafb 90%, transparent);
+  --hero-bg:
+    linear-gradient(160deg, rgba(180, 205, 212, 0.45), transparent 48%),
+    linear-gradient(180deg, #f4f7f8 0%, #e7eef1 100%);
+  --hero-glow: rgba(140, 170, 178, 0.28);
+  --list-bg: rgba(255, 255, 255, 0.72);
+  --phase-bg: rgba(255, 255, 255, 0.7);
+  --btn-primary-ink: #f7fbfc;
+  --page-bg:
+    radial-gradient(900px 520px at 12% -8%, rgba(170, 198, 205, 0.35), transparent 55%),
+    radial-gradient(700px 420px at 92% 8%, rgba(210, 198, 188, 0.28), transparent 50%),
+    linear-gradient(180deg, #f5f7f8 0%, var(--bg) 45%, #e8eef1 100%);
+  --theme-color: #5a7d86;
+}
+
+[data-theme='morning-stone'] {
+  color-scheme: light;
+  --bg: #f1efe9;
+  --bg-elevated: #faf8f4;
+  --bg-soft: #e7e3da;
+  --ink: #2f312c;
+  --ink-muted: #6a6d64;
+  --accent: #6d7a5f;
+  --accent-deep: #556148;
+  --accent-soft: rgba(109, 122, 95, 0.14);
+  --warn: #9b7342;
+  --danger: #9e5d57;
+  --line: rgba(47, 49, 44, 0.1);
+  --shadow: 0 14px 36px rgba(70, 68, 58, 0.08);
+  --font-display: 'Fraunces', Georgia, serif;
+  --font-body: 'Manrope', system-ui, sans-serif;
+  --nav-bg: color-mix(in oklab, #faf8f4 92%, transparent);
+  --hero-bg:
+    linear-gradient(155deg, rgba(186, 196, 168, 0.35), transparent 46%),
+    linear-gradient(180deg, #f7f5f0 0%, #ebe7de 100%);
+  --hero-glow: rgba(160, 168, 140, 0.25);
+  --list-bg: rgba(255, 253, 248, 0.8);
+  --phase-bg: rgba(255, 253, 248, 0.78);
+  --btn-primary-ink: #f8faf4;
+  --page-bg:
+    radial-gradient(860px 480px at 8% -6%, rgba(190, 198, 170, 0.28), transparent 55%),
+    radial-gradient(720px 420px at 95% 4%, rgba(210, 188, 170, 0.2), transparent 48%),
+    linear-gradient(180deg, #f6f4ef 0%, var(--bg) 48%, #e9e5dc 100%);
+  --theme-color: #6d7a5f;
+}
+
+[data-theme='quiet-rose'] {
+  color-scheme: light;
+  --bg: #f3ece8;
+  --bg-elevated: #fbf7f5;
+  --bg-soft: #eadfd9;
+  --ink: #3a3030;
+  --ink-muted: #746666;
+  --accent: #8d6d6a;
+  --accent-deep: #6f5451;
+  --accent-soft: rgba(141, 109, 106, 0.14);
+  --warn: #9a7048;
+  --danger: #a25555;
+  --line: rgba(58, 48, 48, 0.1);
+  --shadow: 0 14px 36px rgba(90, 70, 68, 0.08);
+  --font-display: 'Fraunces', Georgia, serif;
+  --font-body: 'Manrope', system-ui, sans-serif;
+  --nav-bg: color-mix(in oklab, #fbf7f5 92%, transparent);
+  --hero-bg:
+    linear-gradient(150deg, rgba(214, 186, 180, 0.4), transparent 48%),
+    linear-gradient(180deg, #f8f2ef 0%, #eee3de 100%);
+  --hero-glow: rgba(196, 164, 158, 0.28);
+  --list-bg: rgba(255, 251, 249, 0.82);
+  --phase-bg: rgba(255, 251, 249, 0.8);
+  --btn-primary-ink: #fff9f7;
+  --page-bg:
+    radial-gradient(880px 500px at 10% -8%, rgba(220, 190, 184, 0.34), transparent 55%),
+    radial-gradient(700px 400px at 90% 0%, rgba(210, 198, 180, 0.22), transparent 50%),
+    linear-gradient(180deg, #f7f1ee 0%, var(--bg) 46%, #ebe1db 100%);
+  --theme-color: #8d6d6a;
+}
+
+[data-theme='deep-calm'] {
   color-scheme: dark;
-  --bg: #0b1a19;
-  --bg-elevated: #122826;
-  --bg-soft: #163330;
-  --ink: #e8f2ef;
-  --ink-muted: #9bb5ae;
-  --accent: #3ecfbe;
-  --accent-deep: #1f8f84;
-  --warn: #e8b86d;
-  --danger: #e07a6a;
-  --line: rgba(232, 242, 239, 0.12);
-  --radius: 18px;
+  --bg: #121a1c;
+  --bg-elevated: #1a2427;
+  --bg-soft: #223034;
+  --ink: #e6ecee;
+  --ink-muted: #9aabae;
+  --accent: #7f9ea4;
+  --accent-deep: #5f7d84;
+  --accent-soft: rgba(127, 158, 164, 0.14);
+  --warn: #c4a06a;
+  --danger: #c48880;
+  --line: rgba(230, 236, 238, 0.12);
   --shadow: 0 18px 50px rgba(0, 0, 0, 0.35);
-  --font-display: 'Syne', system-ui, sans-serif;
-  --font-body: 'Figtree', system-ui, sans-serif;
+  --font-display: 'Fraunces', Georgia, serif;
+  --font-body: 'Manrope', system-ui, sans-serif;
+  --nav-bg: color-mix(in oklab, #10171a 88%, transparent);
+  --hero-bg:
+    linear-gradient(145deg, rgba(127, 158, 164, 0.16), transparent 42%),
+    linear-gradient(180deg, #1c2a2e, #141c1f 70%);
+  --hero-glow: rgba(127, 158, 164, 0.18);
+  --list-bg: rgba(26, 36, 39, 0.75);
+  --phase-bg: rgba(26, 36, 39, 0.7);
+  --btn-primary-ink: #10171a;
+  --page-bg:
+    radial-gradient(1000px 560px at 10% -10%, rgba(127, 158, 164, 0.12), transparent 55%),
+    radial-gradient(800px 480px at 90% 0%, rgba(95, 125, 132, 0.1), transparent 50%),
+    linear-gradient(180deg, #152024 0%, var(--bg) 42%, #0e1416 100%);
+  --theme-color: #7f9ea4;
+}
+
+:root {
   --safe-bottom: env(safe-area-inset-bottom, 0px);
   --safe-top: env(safe-area-inset-top, 0px);
   --nav-h: 72px;
@@ -37,10 +148,9 @@ body,
 
 body {
   margin: 0;
-  background:
-    radial-gradient(1200px 600px at 10% -10%, rgba(62, 207, 190, 0.16), transparent 55%),
-    radial-gradient(900px 500px at 90% 0%, rgba(31, 143, 132, 0.18), transparent 50%),
-    linear-gradient(180deg, #0d221f 0%, var(--bg) 42%, #081412 100%);
+  background: var(--page-bg);
+  color: var(--ink);
+  transition: background 220ms ease, color 220ms ease;
 }
 
 a {
@@ -69,10 +179,10 @@ img {
 
 .brand {
   font-family: var(--font-display);
-  font-weight: 800;
-  letter-spacing: -0.03em;
-  font-size: clamp(2rem, 7vw, 2.75rem);
-  line-height: 0.95;
+  font-weight: 650;
+  letter-spacing: -0.02em;
+  font-size: clamp(2.1rem, 7vw, 2.9rem);
+  line-height: 0.98;
   margin: 0;
 }
 
@@ -80,10 +190,10 @@ img {
   display: inline-flex;
   align-items: center;
   gap: 0.45rem;
-  color: var(--accent);
+  color: var(--accent-deep);
   font-size: 0.78rem;
   font-weight: 600;
-  letter-spacing: 0.08em;
+  letter-spacing: 0.06em;
   text-transform: uppercase;
   margin-bottom: 0.75rem;
 }
@@ -91,12 +201,12 @@ img {
 .lede {
   color: var(--ink-muted);
   font-size: 1.05rem;
-  line-height: 1.5;
+  line-height: 1.55;
   max-width: 36rem;
 }
 
 .panel {
-  background: color-mix(in oklab, var(--bg-elevated) 88%, transparent);
+  background: color-mix(in oklab, var(--bg-elevated) 92%, transparent);
   border: 1px solid var(--line);
   border-radius: var(--radius);
   padding: 1rem 1.1rem;
@@ -127,17 +237,17 @@ img {
   font-size: 0.78rem;
   font-weight: 600;
   border: 1px solid var(--line);
-  background: rgba(62, 207, 190, 0.08);
-  color: var(--accent);
+  background: var(--accent-soft);
+  color: var(--accent-deep);
 }
 
 .badge.warn {
-  background: rgba(232, 184, 109, 0.12);
+  background: color-mix(in oklab, var(--warn) 14%, transparent);
   color: var(--warn);
 }
 
 .badge.danger {
-  background: rgba(224, 122, 106, 0.14);
+  background: color-mix(in oklab, var(--danger) 14%, transparent);
   color: var(--danger);
 }
 
@@ -165,7 +275,7 @@ img {
 
 .btn-primary {
   background: linear-gradient(135deg, var(--accent), var(--accent-deep));
-  color: #041312;
+  color: var(--btn-primary-ink);
 }
 
 .btn-ghost {
@@ -180,7 +290,7 @@ img {
   right: 0;
   bottom: 0;
   padding: 0.55rem 0.75rem calc(0.55rem + var(--safe-bottom));
-  background: color-mix(in oklab, #071514 86%, transparent);
+  background: var(--nav-bg);
   border-top: 1px solid var(--line);
   backdrop-filter: blur(16px);
   z-index: 40;
@@ -212,7 +322,7 @@ img {
 
 .nav-link.active {
   color: var(--ink);
-  background: rgba(62, 207, 190, 0.12);
+  background: var(--accent-soft);
 }
 
 .hero {
@@ -221,9 +331,7 @@ img {
   border-radius: calc(var(--radius) + 6px);
   padding: 1.35rem 1.2rem 1.5rem;
   border: 1px solid var(--line);
-  background:
-    linear-gradient(145deg, rgba(62, 207, 190, 0.18), transparent 42%),
-    linear-gradient(180deg, #143532, #0d2421 70%);
+  background: var(--hero-bg);
   min-height: 280px;
   display: grid;
   align-content: end;
@@ -236,7 +344,7 @@ img {
   position: absolute;
   inset: auto -20% -40% 20%;
   height: 70%;
-  background: radial-gradient(circle, rgba(62, 207, 190, 0.25), transparent 65%);
+  background: radial-gradient(circle, var(--hero-glow), transparent 65%);
   pointer-events: none;
 }
 
@@ -252,7 +360,7 @@ img {
   padding: 0.85rem 0.95rem;
   border-radius: 14px;
   border: 1px solid var(--line);
-  background: rgba(18, 40, 38, 0.7);
+  background: var(--list-bg);
 }
 
 .phase-rail {
@@ -264,8 +372,8 @@ img {
   display: grid;
   gap: 0.35rem;
   padding: 1rem;
-  border-left: 3px solid var(--accent-deep);
-  background: rgba(18, 40, 38, 0.65);
+  border-left: 3px solid var(--accent);
+  background: var(--phase-bg);
   border-radius: 0 14px 14px 0;
 }
 
@@ -296,6 +404,46 @@ img {
   margin: 0.4rem 0 0;
   padding-left: 1.15rem;
   color: var(--ink-muted);
+}
+
+.theme-grid {
+  display: grid;
+  gap: 0.7rem;
+}
+
+@media (min-width: 560px) {
+  .theme-grid {
+    grid-template-columns: 1fr 1fr;
+  }
+}
+
+.theme-option {
+  text-align: left;
+  border: 1px solid var(--line);
+  border-radius: 16px;
+  padding: 0.85rem;
+  background: var(--bg-elevated);
+  color: var(--ink);
+  cursor: pointer;
+  min-height: 44px;
+}
+
+.theme-option[aria-pressed='true'] {
+  border-color: var(--accent);
+  box-shadow: 0 0 0 2px var(--accent-soft);
+}
+
+.theme-swatches {
+  display: flex;
+  gap: 0.35rem;
+  margin-bottom: 0.55rem;
+}
+
+.theme-swatches span {
+  width: 18px;
+  height: 18px;
+  border-radius: 999px;
+  border: 1px solid rgba(0, 0, 0, 0.08);
 }
 
 .visually-hidden {

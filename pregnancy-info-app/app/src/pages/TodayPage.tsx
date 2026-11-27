@@ -1,6 +1,7 @@
 import { Link } from 'react-router-dom'
 import { DraftBanner } from '../components/DraftBanner'
 import { OfflineBanner } from '../components/OfflineBanner'
+import { ThemePicker } from '../components/ThemePicker'
 import { UrgentSigns } from '../components/UrgentSigns'
 import {
   catalogStats,
@@ -9,10 +10,13 @@ import {
   urgentArticles,
 } from '../data/researchCatalog'
 import { editorialPriorityLabel } from '../data/researchGate'
+import { useLocalPrefs } from '../hooks/useLocalPrefs'
 
 export function TodayPage() {
+  const { prefs, setTheme } = useLocalPrefs()
   const stats = catalogStats()
   const startingPhase =
+    timeline.find((p) => p.id === prefs.selectedPhaseId) ??
     timeline.find((p) => p.track === 'preconception' && p.id === 'PRE04') ??
     timeline.find((p) => p.track === 'pregnancy') ??
     timeline[0]
@@ -22,12 +26,11 @@ export function TodayPage() {
   return (
     <div className="stack-lg">
       <header className="hero">
-        <div className="eyebrow">Research draft · integrated inventory</div>
+        <div className="eyebrow">Research draft · for families</div>
         <h1 className="brand">Everwell</h1>
         <p className="lede" style={{ margin: 0, position: 'relative', zIndex: 1 }}>
-          {stats.articles} staged articles, {stats.phases} phases, and{' '}
-          {stats.sourceLinks} source links from the GitHub research foundation — shown as
-          educational drafts, not clinical advice.
+          Clear, calm guidance for preparation, pregnancy, recovery, and early childhood — with
+          deeper evidence available when you want it.
         </p>
         <div className="cta-row" style={{ position: 'relative', zIndex: 1 }}>
           <Link className="btn btn-primary" to="/timeline">
@@ -38,6 +41,8 @@ export function TodayPage() {
           </Link>
         </div>
       </header>
+
+      <ThemePicker value={prefs.themeId} onChange={setTheme} />
 
       <DraftBanner status="research_only" />
       <OfflineBanner />
@@ -50,6 +55,10 @@ export function TodayPage() {
           </h2>
           <p className="muted" style={{ margin: 0 }}>
             {startingPhase.focus}. {startingPhase.featured_note}
+          </p>
+          <p className="muted" style={{ margin: '0.45rem 0 0', fontSize: '0.85rem' }}>
+            Inventory loaded: {stats.articles} articles · {stats.phases} phases ·{' '}
+            {stats.sourceLinks} sources
           </p>
         </div>
         <ul className="list-clean">

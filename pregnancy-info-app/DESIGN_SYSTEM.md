@@ -2,39 +2,39 @@
 
 ## Direction
 
-Mineral teal / deep slate editorial UI — calm, contemporary, scientifically credible.  
-**Avoided:** purple SaaS gradients; cream + terracotta + serif pregnancy cliché; dense broadsheet chrome; pink “baby” stereotypes.
+Calm, inviting, premium family-health product — not neon tech, not pink pregnancy cliché, not a spreadsheet.
 
-## Tokens
+## Selectable themes
 
-| Token | Value | Use |
+Pick in-app on **Today** (saved locally):
+
+| Theme | Feel | Notes |
 |---|---|---|
-| `--bg` | `#0b1a19` | Page ground |
-| `--bg-elevated` | `#122826` | Panels |
-| `--ink` | `#e8f2ef` | Primary text |
-| `--ink-muted` | `#9bb5ae` | Secondary text |
-| `--accent` | `#3ecfbe` | Focus / brand accent |
-| `--accent-deep` | `#1f8f84` | Accent depth |
-| `--warn` | `#e8b86d` | Draft / caution |
-| `--danger` | `#e07a6a` | Urgent signs |
-| Display font | Syne | Brand / titles |
-| Body font | Figtree | Reading text |
+| **Soft Fog** (default) | Cool mist, muted blue-slate | Airy and quiet; least “neon” |
+| **Morning Stone** | Soft botanical neutrals | Warm without cream/terracotta stereotypes |
+| **Quiet Rose** | Dusty rose-taupe | Softer / more intimate |
+| **Deep Calm** | Desaturated dark slate | Evening mode; neon removed |
+
+## Shared tokens
+
+| Role | Soft Fog example |
+|---|---|
+| Background | `#eef2f4` |
+| Elevated surface | `#f8fafb` |
+| Ink | `#2a3439` |
+| Muted text | `#5f6d75` |
+| Accent | `#5a7d86` |
+| Display font | Fraunces |
+| Body font | Manrope |
 
 ## Composition rules
 
-- First viewport is one composition: brand, one headline, short support line, CTA group, atmospheric plane.
-- No hero cards/stats strips; urgent signs and draft banners are purposeful, not decorative clutter.
-- Bottom nav for iPhone thumb reach; ≥44px targets; safe-area insets.
-- Motion: short rise on hero only; honor `prefers-reduced-motion`.
-
-## Information layers
-
-1. 5–15s takeaway  
-2. 30–60s priorities  
-3. Learn more  
-4. Evidence / funding context  
-5. Sources & holds  
+- First viewport: brand, one headline, short support, CTA, atmosphere
+- Progressive disclosure over dense science
+- Safety always visible
+- ≥44px targets; safe-area insets
+- Honor `prefers-reduced-motion`
 
 ## Status
 
-Prototype tokens live in `app/src/index.css`. Light mode and illustration library remain open.
+Theme CSS lives in `app/src/index.css`. Theme definitions in `app/src/theme/themes.ts`.
