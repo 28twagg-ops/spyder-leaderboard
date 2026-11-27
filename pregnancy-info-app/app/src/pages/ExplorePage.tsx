@@ -23,6 +23,7 @@ export function ExplorePage() {
       <DraftBanner status="research_only" />
       <OfflineBanner />
 
+      <Link className="btn btn-primary" to="/library">Search all topics or saved articles</Link>
       <BodyMap />
 
       <section className="panel" aria-label="All domains">
