@@ -1,76 +1,55 @@
 import { Link } from 'react-router-dom'
-import { articlesByDomain } from '../data/researchCatalog'
+import { getArticle } from '../data/researchCatalog'
 
-const REGIONS = [
-  { id: 'nutrition', label: 'Nutrition', cx: 120, cy: 48, domain: 'nutrition' },
-  { id: 'skin', label: 'Skin', cx: 120, cy: 92, domain: 'skin' },
-  { id: 'breast', label: 'Breast', cx: 96, cy: 128, domain: 'feeding' },
-  { id: 'abdomen', label: 'Abdomen', cx: 120, cy: 168, domain: 'recovery' },
-  { id: 'pelvic', label: 'Pelvic floor', cx: 120, cy: 208, domain: 'recovery' },
-  { id: 'child', label: 'Child health', cx: 176, cy: 240, domain: 'infant' },
+const regions = [
+  { id: 'skin', label: 'Skin', articleIds: ['EV-ART-018', 'EV-ART-031'], x: 108, y: 55, labelX: 14, labelY: 48 },
+  { id: 'breast', label: 'Breast & feeding', articleIds: ['EV-ART-019', 'EV-ART-032', 'EV-ART-034'], x: 155, y: 91, labelX: 206, labelY: 85 },
+  { id: 'core', label: 'Core & abdomen', articleIds: ['EV-ART-027'], x: 160, y: 145, labelX: 206, labelY: 143 },
+  { id: 'pelvic', label: 'Pelvic floor', articleIds: ['EV-ART-020', 'EV-ART-028'], x: 136, y: 186, labelX: 14, labelY: 183 },
 ] as const
 
 export function BodyMap() {
   return (
-    <div className="stack">
-      <figure className="panel" style={{ margin: 0 }}>
-        <svg
-          viewBox="0 0 240 280"
-          role="img"
-          aria-labelledby="bodymap-title bodymap-desc"
-          style={{ width: '100%', maxWidth: 360, margin: '0 auto' }}
-        >
-          <title id="bodymap-title">Accessible topic body map</title>
-          <desc id="bodymap-desc">
-            Stylized silhouette with selectable educational topic regions. Equivalent list follows.
-          </desc>
-          <ellipse cx="120" cy="36" rx="22" ry="26" fill="var(--accent)" opacity="0.28" />
-          <path
-            d="M78 70 C70 120 74 170 84 220 L100 250 L140 250 L156 220 C166 170 170 120 162 70 Z"
-            fill="var(--bg-soft)"
-            stroke="var(--accent)"
-            strokeWidth="2"
-          />
-          {REGIONS.map((region) => (
-            <a key={region.id} href={`#map-${region.id}`}>
-              <circle cx={region.cx} cy={region.cy} r="12" fill="var(--accent)" opacity="0.9" />
-              <text
-                x={region.cx + 16}
-                y={region.cy + 4}
-                fill="var(--ink)"
-                fontSize="11"
-                fontFamily="Manrope, sans-serif"
-              >
-                {region.label}
-              </text>
-            </a>
+    <section className="stack" aria-labelledby="body-map-heading">
+      <div>
+        <h2 id="body-map-heading" className="section-title">Explore by body area</h2>
+        <p className="muted">A stylized topic navigator, not an anatomical diagram or symptom checker.</p>
+      </div>
+      <figure className="panel body-map-figure">
+        <svg viewBox="0 0 320 265" aria-hidden="true" focusable="false">
+          <g stroke="var(--accent)" fill="var(--bg-soft)" strokeWidth="1.6" strokeLinejoin="round">
+            <ellipse cx="160" cy="29" rx="22" ry="25" />
+            <path d="M145 52 L140 60 Q118 62 109 79 Q96 107 83 164 L96 170 L123 111 Q120 139 129 157 Q114 181 122 205 L143 249 L155 249 L160 208 L165 249 L177 249 L198 205 Q206 181 191 157 Q200 139 197 111 L224 170 L237 164 Q224 107 211 79 Q202 62 180 60 L175 52" />
+          </g>
+          {regions.map((region, i) => (
+            <g key={region.id}>
+              <path d={`M ${region.x} ${region.y} L ${region.labelX < 100 ? region.labelX + 54 : region.labelX - 6} ${region.labelY + 10}`} stroke="var(--accent)" strokeWidth="1.2" fill="none" />
+              <circle cx={region.x} cy={region.y} r="11" fill="var(--accent)" />
+              <text x={region.x} y={region.y + 4} textAnchor="middle" fontSize="11" fill="var(--map-marker-ink)" fontWeight="700">{i + 1}</text>
+              <text x={region.labelX} y={region.labelY} fontSize="10.5" fill="var(--ink)">{region.label}</text>
+            </g>
           ))}
         </svg>
-        <figcaption className="muted" style={{ fontSize: '0.85rem', marginTop: '0.5rem' }}>
-          Decorative map only — use the list below for the same destinations.
-        </figcaption>
+        <figcaption>Illustrative topic positions only. Use the accessible links below to open the corresponding research topics.</figcaption>
       </figure>
-
-      <div className="stack" aria-label="Body map topic list">
-        {REGIONS.map((region) => {
-          const articles = articlesByDomain(region.domain).slice(0, 3)
-          return (
-            <section key={region.id} id={`map-${region.id}`} className="panel stack">
-              <h3 style={{ margin: 0, fontSize: '1.05rem' }}>{region.label}</h3>
-              <ul className="list-clean">
-                {articles.map((article) => (
-                  <li key={article.id}>
-                    <Link to={`/research/${article.id}`}>{article.title}</Link>
-                  </li>
-                ))}
-                {articles.length === 0 && (
-                  <li className="muted">No staged articles in this domain yet.</li>
-                )}
-              </ul>
-            </section>
-          )
-        })}
+      <div className="region-grid">
+        {regions.map((region, i) => (
+          <section className="panel stack" key={region.id} aria-label={region.label}>
+            <h3 className="region-title"><span aria-hidden="true">{i + 1}</span>{region.label}</h3>
+            {region.articleIds.map((id) => {
+              const article = getArticle(id)
+              return article ? <Link key={id} className="topic-link" to={`/research/${id}`}>{article.title}</Link> : null
+            })}
+          </section>
+        ))}
       </div>
-    </div>
+      <div className="panel stack">
+        <h3 className="section-title">Beyond anatomy</h3>
+        <Link className="topic-link" to="/research/EV-ART-005">Nutrition and supplements</Link>
+        <Link className="topic-link" to="/research/EV-ART-014">Fetal development</Link>
+        <Link className="topic-link" to="/timeline">Child development and family timelines</Link>
+        <Link className="topic-link" to="/visuals">Original anatomy and visual reference library</Link>
+      </div>
+    </section>
   )
 }
