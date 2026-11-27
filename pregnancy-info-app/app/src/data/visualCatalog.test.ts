@@ -1,5 +1,7 @@
 import { describe, expect, it } from 'vitest'
-import { articleVisuals, mayPublishVisual, safeVisualUrl, searchVisuals, visualCatalog } from './visualCatalog'
+import { articleVisuals, mayPublishVisual, safeVisualUrl, searchVisuals, visualCatalog, visualGroups } from './visualCatalog'
+
+import { visualPageReviews, pinnedVisualPage } from './visualReview'
 
 describe('visual reference catalog', () => {
   it('retains every source and blocks production publication', () => {
@@ -18,6 +20,24 @@ describe('visual reference catalog', () => {
     expect(articleVisuals('EV-ART-043',['EV-V019','EV-V020','EV-V025']).map(row=>row.id)).toEqual(['EV-V019','EV-V020','EV-V025'])
     expect(articleVisuals('EV-ART-037',['EV-V025'])).toEqual([])
     expect(visualCatalog.every(row=>!mayPublishVisual(row))).toBe(true)
+  })
+  it('groups all 44 references exactly once and supports everyday search terms',()=>{
+    const all=visualGroups.flatMap(group=>group.ids)
+    expect(all).toHaveLength(44)
+    expect(new Set(all)).toEqual(new Set(visualCatalog.map(record=>record.id)))
+    for(const group of visualGroups)expect(searchVisuals('',group.key).map(record=>record.id).sort()).toEqual([...group.ids].sort())
+    expect(searchVisuals('stretch marks','body').map(row=>row.id)).toContain('EV-V003')
+    expect(searchVisuals('first steps','development').map(row=>row.id)).toContain('EV-V020')
+  })
+  it('retains exact file-page rights information without approving reproduction',()=>{
+    expect(Object.keys(visualPageReviews)).toHaveLength(6)
+    for(const [id,review] of Object.entries(visualPageReviews)){
+      const record=visualCatalog.find(row=>row.id===id)!
+      expect(record.rights).toBe(review.license)
+      expect(safeVisualUrl(pinnedVisualPage(review))).toBeTruthy()
+      expect(review.sha1).toMatch(/^[a-f0-9]{40}$/)
+      expect(mayPublishVisual(record)).toBe(false)
+    }
   })
   it('rejects insecure and executable external URLs', () => {
     expect(safeVisualUrl('javascript:alert(1)')).toBeUndefined()

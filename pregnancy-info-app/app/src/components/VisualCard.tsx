@@ -1,4 +1,5 @@
 import { useState } from 'react'
+import { visualPageReview,pinnedVisualPage } from '../data/visualReview'
 import { mayPublishVisual, safeVisualUrl, type VisualRecord } from '../data/visualCatalog'
 
 const localPreviews: Record<string, string> = import.meta.env.DEV ? {
@@ -16,11 +17,12 @@ export function VisualCard({ record }: { record: VisualRecord }) {
   const source = safeVisualUrl(record.url)
   const license = safeVisualUrl(record.license_url)
   const preview = localPreviews[record.id]
+  const review=visualPageReview(record.id)
   return (
     <article className="panel stack visual-card">
       <div className="eyebrow">{record.topic.replaceAll('/', ' / ')}</div>
-      <h3>{record.title}</h3>
-      <p className="muted">{record.creator} · {record.license ?? record.rights ?? 'Rights not confirmed'}</p>
+      {review?<section className="stack visual-purpose"><h2 className="section-title">What to look for</h2><p>{review.description}</p><p className="small-copy muted">{review.limit}</p></section>:<p className="muted">Original educational resource. Open the source to view its illustrations or videos.</p>}
+      <p className="muted">{review?.credit??record.creator} · {review?.license??record.license??record.rights??'Rights not confirmed'}</p>
       <p className="muted">Research reference only · {mayPublishVisual(record) ? 'Publication eligible' : 'Production approval pending'}</p>
       {preview && <>
         <button type="button" className="btn btn-ghost" aria-expanded={show} onClick={() => setShow(!show)}>
@@ -34,6 +36,7 @@ export function VisualCard({ record }: { record: VisualRecord }) {
       {source && <a className="btn btn-ghost" href={source} target="_blank" rel="noopener noreferrer">Open original resource ↗</a>}
       <details className="disclosure">
         <summary>Attribution, rights and limitations</summary>
+        {review&&<><p>File-page license checked November 27, 2026. Image bytes and clinical/accessibility review are pending.</p><p><a href={pinnedVisualPage(review)} target="_blank" rel="noopener noreferrer">Open checked file-page revision ↗</a></p><p>Original dimensions: {review.width} × {review.height} pixels.</p><p className="provenance-hash">Source-reported SHA-1: {review.sha1}</p></>}
         <p>{record.attribution ?? record.creator}</p>
         {license && <p><a href={license} target="_blank" rel="noopener noreferrer">Read license terms ↗</a></p>}
         <p>{record.rights_status}</p>

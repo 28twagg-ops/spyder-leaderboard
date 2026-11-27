@@ -3,6 +3,7 @@ import { useState } from 'react'
 import { Link } from 'react-router-dom'
 import { readingOverview,textbookLinks } from '../data/readingOverviews'
 import { safeVisualUrl, type VisualRecord } from '../data/visualCatalog'
+import { visualPageReview } from '../data/visualReview'
 import { Glyph } from './Glyph'
 import { ConceptArt } from './ConceptArt'
 
@@ -17,7 +18,7 @@ export function TopicOverview({id,visuals,children}:{id:string;visuals:VisualRec
   {children}
   {(external.length>0||visuals.length>0)&&<section className="reader-visual-entry" aria-labelledby="visual-entry"><h2 className="section-title" id="visual-entry">See it visually</h2><div className="surface-list">
    {external.map(([title,url,description])=><a key={url} className="reading-row visual-source-row" href={safeVisualUrl(url)} target="_blank" rel="noopener noreferrer"><span><strong>{title}</strong><small>{description} · opens source</small></span><span aria-hidden="true">↗</span></a>)}
-   {visuals.slice(0,expanded?visuals.length:1).map(record=><Link key={record.id} className="reading-row visual-source-row" to={`/visuals/${record.id}`}><span><strong>{record.title}</strong><small>Picture or video · review pending</small></span><Glyph name="image"/></Link>)}
+   {visuals.slice(0,expanded?visuals.length:1).map(record=><Link key={record.id} className="reading-row visual-source-row" to={`/visuals/${record.id}`}><span><strong>{record.title}</strong><small>{visualPageReview(record.id)?.description??'Picture or video · opens reference'}</small></span><Glyph name="image"/></Link>)}
   </div>{visuals.length>1&&<button className="btn btn-ghost" type="button" aria-expanded={expanded} onClick={()=>setExpanded(!expanded)}>{expanded?'Show fewer references':`See ${visuals.length-1} more visual references`}</button>}<p className="small-copy muted">Pictures open at their source or on a reference page. Medical images still need review.</p></section>}
  </section>
 }

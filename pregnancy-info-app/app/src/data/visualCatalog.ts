@@ -1,3 +1,4 @@
+import { visualPageReview } from './visualReview'
 import visualJson from './imported/visual_catalog.json'
 
 export interface VisualRecord {
@@ -155,11 +156,112 @@ export function articleVisuals(articleId: string, candidateIds: string[] = []) {
   })
 }
 
+export const visualGroups=[
+  {
+    "key": "body",
+    "label": "Body & anatomy",
+    "ids": [
+      "EV-V001",
+      "EV-V002",
+      "EV-V003",
+      "EV-V010",
+      "EV-SVG-1",
+      "EV-SVG-3",
+      "EV-SVG-4",
+      "EV-SVG-5",
+      "EV-SVG-6"
+    ]
+  },
+  {
+    "key": "pregnancy",
+    "label": "Pregnancy & fetal growth",
+    "ids": [
+      "EV-V004",
+      "EV-V005",
+      "EV-V006",
+      "EV-V007",
+      "EV-V008",
+      "EV-V009",
+      "EV-V012",
+      "EV-V013",
+      "EV-V014",
+      "EV-V015",
+      "EV-V016",
+      "EV-V017"
+    ]
+  },
+  {
+    "key": "development",
+    "label": "Baby & child development",
+    "ids": [
+      "EV-V019",
+      "EV-V020",
+      "EV-V025",
+      "EV-V033",
+      "EV-SVG-2",
+      "EV-SVG-7"
+    ]
+  },
+  {
+    "key": "feeding",
+    "label": "Feeding & nutrition",
+    "ids": [
+      "EV-V011",
+      "EV-V018",
+      "EV-V032",
+      "EV-V034"
+    ]
+  },
+  {
+    "key": "care",
+    "label": "Care, recovery & safety",
+    "ids": [
+      "EV-V021",
+      "EV-V022",
+      "EV-V023",
+      "EV-V024",
+      "EV-V026",
+      "EV-V027",
+      "EV-V028",
+      "EV-V029",
+      "EV-V030",
+      "EV-V031"
+    ]
+  },
+  {
+    "key": "research",
+    "label": "Research figures",
+    "ids": [
+      "EV-V035",
+      "EV-V036",
+      "EV-V037"
+    ]
+  }
+]
+const groupById=new Map(visualGroups.flatMap(group=>group.ids.map(id=>[id,group.key] as const)))
+const aliases:Record<string,string>={
+  "EV-V001": "abs core belly muscles abdominal separation diastasis",
+  "EV-V002": "pelvic muscles bladder pelvic pain",
+  "EV-V003": "stretch marks skin layers",
+  "EV-V004": "womb growing uterus pregnancy stages",
+  "EV-V005": "placenta baby cord",
+  "EV-V006": "blood flow fetal circulation",
+  "EV-V011": "breast milk breastfeeding milk flow",
+  "EV-V018": "hunger feeding baby cues",
+  "EV-V019": "hands passing toys movement",
+  "EV-V020": "walking first steps movement",
+  "EV-V021": "crib bassinet back sleep",
+  "EV-V022": "crib bassinet back sleep",
+  "EV-V025": "milestones crawling rolling walking baby development",
+  "EV-V026": "maternal warning signs postpartum urgent",
+  "EV-V037": "prenatal vitamins supplements label"
+}
+export function visualGroupLabel(id:string){return visualGroups.find(group=>group.key===groupById.get(id))?.label??'Other references'}
 export function searchVisuals(query = '', topic = 'all') {
   const terms = query.trim().toLowerCase().split(/\s+/).filter(Boolean)
   return visualCatalog.filter((record) => {
-    if (topic !== 'all' && record.topic !== topic) return false
-    const text = [record.id, record.title, record.topic, record.creator, record.rights_status].join(' ').toLowerCase()
+    if (topic !== 'all' && record.topic !== topic && groupById.get(record.id)!==topic) return false
+    const text = [record.id, record.title, record.topic, record.creator, record.rights_status, visualGroupLabel(record.id), aliases[record.id], visualPageReview(record.id)?.description].join(' ').toLowerCase()
     return terms.every((term) => text.includes(term))
   })
 }
