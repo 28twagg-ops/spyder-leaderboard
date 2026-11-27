@@ -19,3 +19,6 @@ See [EXPANDED_DISCOVERY_REGISTER.md](EXPANDED_DISCOVERY_REGISTER.md) for 120 dis
 
 ## Second expansion · 200 total discovery questions
 [Additional discovery TX-121–200](ADDITIONAL_DISCOVERY_121_200.md) adds 80 entries, 36 preliminary source records, 42 source-linked topics, 12 context-only topics, 12 safety holds and 14 unscreened leads. Counts are distinct question entries across these two registers, not globally new articles or fully audited interventions. Preserve research-only status and reconcile sources and claims before integration.
+
+## Stage 2 — traditional and historical expansion
+[Stage 2 research checkpoint](stage-02/README.md) and [source ledger](stage-02/BATCH_01.json): 116 screened, 111 retained preliminary source records, 4 pending setting checks, 1 retracted cohort quarantined (PMID 37073619; retraction PMID 37553823). Historical, cultural, clinical and safety evidence are distinguished. No clinical publication authorization. Full deduplication and funding/bias/translation checks remain pending.
