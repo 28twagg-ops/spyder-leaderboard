@@ -1,0 +1,838 @@
+{
+  "checked_date": "2026-11-26",
+  "method": "Targeted web-indexed searches, followed by selected original source passages, tables, PubMed records and publications. first_result is a discovery trace, not an inclusion decision. This is not a systematic database export or PRISMA flow.",
+  "searches": [
+    {
+      "key": "qs.0",
+      "query": "site:pubmed.ncbi.nlm.nih.gov randomized trial peanut consumption infants risk allergy LEAP 13.7 35.3",
+      "first_result": [
+        "Randomized trial of peanut consumption in infants at risk for peanut allergy.",
+        "https://pubmed.ncbi.nlm.nih.gov/25705822/"
+      ]
+    },
+    {
+      "key": "qs.1",
+      "query": "site:pubmed.ncbi.nlm.nih.gov immediate kangaroo mother care survival infants low birth weight 28 days 1.0 1.799",
+      "first_result": [
+        "Immediate \"Kangaroo Mother Care\" and Survival of Infants with Low Birth Weight",
+        "https://pubmed.ncbi.nlm.nih.gov/34038632/"
+      ]
+    },
+    {
+      "key": "qs.2",
+      "query": "site:pubmed.ncbi.nlm.nih.gov WHO Motor Development Study windows achievement six gross motor milestones 1st 99th",
+      "first_result": [
+        "WHO Motor Development Study: windows of achievement for six gross motor development milestones",
+        "https://pubmed.ncbi.nlm.nih.gov/16817682/"
+      ]
+    },
+    {
+      "key": "qs.3",
+      "query": "site:pubmed.ncbi.nlm.nih.gov parenting interventions promote early child development first three years life global systematic review 102 trials Jeong",
+      "first_result": [
+        "Parenting interventions to promote early child development in the first three years of life: A global systematic review and meta-analysis",
+        "https://pubmed.ncbi.nlm.nih.gov/33970913/?dopt=Abstract"
+      ]
+    },
+    {
+      "key": "qs.4",
+      "query": "site:pubmed.ncbi.nlm.nih.gov sleep related infant deaths updated 2022 recommendations reducing infant deaths",
+      "first_result": [
+        "Sleep-Related Infant Deaths: Updated 2022 Recommendations for Reducing Infant Deaths in the Sleep Environment.",
+        "https://pubmed.ncbi.nlm.nih.gov/35726558/"
+      ]
+    },
+    {
+      "key": "qs.5",
+      "query": "site:cdc.gov infant formula preparation storage two hours one hour extra precautions premature",
+      "first_result": [
+        "Infant Formula Preparation and Storage | Infant and Toddler Nutrition | CDC",
+        "https://www.cdc.gov/infant-toddler-nutrition/formula-feeding/preparation-and-storage.html"
+      ]
+    },
+    {
+      "key": "qs.6",
+      "query": "site:healthychildren.org fever infant 3 months 100.4 emergency trouble breathing",
+      "first_result": [
+        "Fever and Your Baby - HealthyChildren.org",
+        "https://www.healthychildren.org/english/health-issues/conditions/fever/pages/fever-and-your-baby.aspx?form=HealthyChildren"
+      ]
+    },
+    {
+      "key": "qs.7",
+      "query": "site:cdc.gov developmental screening 9 18 30 months autism 18 24 corrected age premature healthychildren",
+      "first_result": [
+        "Clinical Screening for Autism Spectrum Disorder | Autism Spectrum Disorder (ASD) | CDC",
+        "https://www.cdc.gov/autism/hcp/diagnosis/screening.html"
+      ]
+    },
+    {
+      "key": "qs.8",
+      "query": "site:hrsa.gov newborn screening blood spot hearing pulse oximetry out of range follow up",
+      "first_result": [
+        "Newborn Screening Results and Follow-Up | Newborn Screening",
+        "https://newbornscreening.hrsa.gov/newborn-screening-process/newborn-screening-results-and-follow"
+      ]
+    },
+    {
+      "key": "qs.9",
+      "query": "site:fda.gov preterm infants probiotics invasive disease FDA warning",
+      "first_result": [
+        "Risk of Invasive Disease in Preterm Infants Given Probiotics Formulated to Contain Live Bacteria or Yeast | FDA",
+        "https://www.fda.gov/safety/medical-product-safety-information/risk-invasive-disease-preterm-infants-given-probiotics-formulated-contain-live-bacteria-or-yeast"
+      ]
+    },
+    {
+      "key": "qs2.0",
+      "query": "site:pubmed.ncbi.nlm.nih.gov fetal learning speech exposure before birth Partanen neural correlates learning",
+      "first_result": [
+        "Learning-induced neural plasticity of speech processing before birth",
+        "https://pubmed.ncbi.nlm.nih.gov/23980148/"
+      ]
+    },
+    {
+      "key": "qs2.1",
+      "query": "site:acog.org how your fetus grows during pregnancy weeks gestational age organs",
+      "first_result": [
+        "How Your Fetus Grows During Pregnancy | ACOG",
+        "https://www.acog.org/womens-health/faqs/how-your-fetus-grows-during-pregnancy"
+      ]
+    },
+    {
+      "key": "qs2.2",
+      "query": "site:healthychildren.org corrected age preemies 2 years milestones",
+      "first_result": [
+        "Your Preemie's Growth & Developmental Milestones - HealthyChildren.org",
+        "https://www.healthychildren.org/English/ages-stages/baby/preemie/pages/Preemie-Milestones.aspx"
+      ]
+    },
+    {
+      "key": "qs2.3",
+      "query": "site:nih.gov NIAID addendum guidelines peanut severe eczema evaluation whole peanuts choking",
+      "first_result": [
+        "Addendum Guidelines for the",
+        "https://www.niaid.nih.gov/sites/default/files/addendum-peanut-allergy-prevention-guidelines.pdf"
+      ]
+    },
+    {
+      "key": "qs2.4",
+      "query": "site:redcross.org infant CPR classes online hands on",
+      "first_result": [
+        "Adult and Pediatric (Child and Baby) CPR/AED Online",
+        "https://www.redcross.org/take-a-class/classes/adult-and-pediatric-child-and-baby-cpr%2Faed-online/a6RVx000000a6zl.html"
+      ]
+    },
+    {
+      "key": "qs2.5",
+      "query": "site:healthychildren.org when your child needs emergency medical services blue lips unresponsive 911",
+      "first_result": [
+        "When to Call Emergency Medical Services (EMS) for Your Child - HealthyChildren.org",
+        "https://www.healthychildren.org/english/health-issues/injuries-emergencies/pages/when-to-call-emergency-medical-services-ems.aspx"
+      ]
+    },
+    {
+      "key": "qs2.6",
+      "query": "site:ods.od.nih.gov choline fact sheet infants 125 150 lactation 550 pregnancy 450",
+      "first_result": [
+        "Office of Dietary Supplements - Choline",
+        "https://ods.od.nih.gov/factsheets/choline-consumer/"
+      ]
+    },
+    {
+      "key": "qs2.7",
+      "query": "site:cdc.gov vitamin K deficiency bleeding newborns jaundice warning signs",
+      "first_result": [
+        "About Vitamin K Deficiency Bleeding | Vitamin K Deficiency Bleeding | CDC",
+        "https://www.cdc.gov/vitamin-k-deficiency/about/"
+      ]
+    },
+    {
+      "key": "qs2.8",
+      "query": "site:pubmed.ncbi.nlm.nih.gov PROBIT randomized breastfeeding promotion gastrointestinal infection 9.1 13.2 Belarus",
+      "first_result": [
+        "Promotion of Breastfeeding Intervention Trial (PROBIT): a randomized trial in the Republic of Belarus",
+        "https://pubmed.ncbi.nlm.nih.gov/11242425/"
+      ]
+    },
+    {
+      "key": "qs2.9",
+      "query": "site:pubmed.ncbi.nlm.nih.gov behavioral interventions infant sleep problems randomized controlled trial Gradisar attachment",
+      "first_result": [
+        "Behavioral Interventions for Infant Sleep Problems: A Randomized Controlled Trial",
+        "https://pubmed.ncbi.nlm.nih.gov/27221288/"
+      ]
+    },
+    {
+      "key": "qs3.0",
+      "query": "LEAP PMC 530 98 peanut 13.7 1.9 35.3 10.6 absolute difference CI NCT",
+      "first_result": [
+        "Addendum Guidelines for the Prevention of Peanut Allergy in the United States: Report of the NIAID-Sponsored Expert Panel",
+        "https://pmc.ncbi.nlm.nih.gov/articles/PMC5226648/"
+      ]
+    },
+    {
+      "key": "qs3.1",
+      "query": "WHO motor development study 816 months 3.8 9.2 5.2 13.5 99th windows",
+      "first_result": [
+        "# Windows of achievement for six gross motor milestones",
+        "https://cdn.who.int/media/docs/default-source/child-growth/child-growth-standards/indicators/motor-development-milestones/mm_windows_table.pdf"
+      ]
+    },
+    {
+      "key": "qs3.2",
+      "query": "Jeong Franchett parenting interventions 102 trials SMD language cognitive 95 CI funding PLOS funding",
+      "first_result": [
+        "Parenting interventions to promote early child development in the first three years of life: A global systematic review and meta-analysis",
+        "https://journals.plos.org/plosmedicine/article/file?id=10.1371%2Fjournal.pmed.1003602&type=printable"
+      ]
+    },
+    {
+      "key": "qs3.3",
+      "query": "Gradisar 43 infants 6 16 months graduated extinction bedtime fading results cortisol 12 months",
+      "first_result": [
+        "Getting an Infant to Sleep: Graduated Extinction and Sleep Fading Are Effective",
+        "https://www.aafp.org/afp/2016/1101/p750"
+      ]
+    },
+    {
+      "key": "qs3.4",
+      "query": "Immediate kangaroo mother care 191 249 72 hours CI NCT 28 days denominators 1596 1587",
+      "first_result": [
+        "Immediate “Kangaroo Mother Care” and Survival of Infants with Low Birth Weight",
+        "https://www.nejm.org/doi/pdf/10.1056/NEJMoa2026486?listPDF=true"
+      ]
+    },
+    {
+      "key": "qs3.5",
+      "query": "site:acog.org how your fetus grows weeks 13 16 17 20 21 24 25 28 29 32 33 36 37 40",
+      "first_result": [
+        "How Your Fetus Grows During Pregnancy | ACOG",
+        "https://www.acog.org/womens-health/faqs/how-your-fetus-grows-during-pregnancy"
+      ]
+    },
+    {
+      "key": "qs3.6",
+      "query": "site:pubmed.ncbi.nlm.nih.gov Partanen speech processing before birth learning group 17 control 16 newborns",
+      "first_result": [
+        "Learning-induced neural plasticity of speech processing before birth",
+        "https://pubmed.ncbi.nlm.nih.gov/23980148/"
+      ]
+    },
+    {
+      "key": "qs3.7",
+      "query": "site:pubmed.ncbi.nlm.nih.gov retraction 38030527 37277302 Hajizadeh exercise fertility 10.1519/JSC.0000000000004451",
+      "first_result": [
+        "Retraction notice to \"Moderate aerobic exercise training for improving reproductive function in infertile patients: A randomized controlled trial\" [Cytokine 92 (2017) 55-67]",
+        "https://pubmed.ncbi.nlm.nih.gov/38030527/"
+      ]
+    },
+    {
+      "key": "qs4.0",
+      "query": "site:cdc.gov infant toddler nutrition choking hazards iron rich foods introducing solids about 6 months",
+      "first_result": [
+        "Frequently Asked Questions (FAQs) | Infant and Toddler Nutrition | CDC",
+        "https://www.cdc.gov/infant-toddler-nutrition/faqs/index.html"
+      ]
+    },
+    {
+      "key": "qs4.1",
+      "query": "site:cdc.gov breast milk storage 4 days 4 hours thawed 24 hours",
+      "first_result": [
+        "Storage and Preparation of Breast Milk",
+        "https://www.cdc.gov/breastfeeding/pdf/preparation-of-breast-milk_h.pdf"
+      ]
+    },
+    {
+      "key": "qs4.2",
+      "query": "site:cdc.gov lead prevention children before 1978 paint wet cleaning",
+      "first_result": [
+        "About Lead in Paint | Childhood Lead Poisoning Prevention | CDC",
+        "https://www.cdc.gov/lead-prevention/prevention/paint.html"
+      ]
+    },
+    {
+      "key": "qs4.3",
+      "query": "site:nhtsa.gov car seats rear facing until height weight limit",
+      "first_result": [
+        "How to Install Rear-Facing Car Seats | NHTSA",
+        "https://www.nhtsa.gov/car-seats-and-booster-seats/how-install-rear-facing-car-seats"
+      ]
+    },
+    {
+      "key": "qs4.4",
+      "query": "site:healthychildren.org drowning toddlers touch supervision four sided fence",
+      "first_result": [
+        "Drowning Prevention for Curious Toddlers: What Parents Need to Know - HealthyChildren.org",
+        "https://www.healthychildren.org/English/safety-prevention/at-play/Pages/Water-Safety-And-Young-Children.aspx"
+      ]
+    },
+    {
+      "key": "qs4.5",
+      "query": "site:cdc.gov RSV infants maternal vaccine infant antibody most infants do not need both",
+      "first_result": [
+        "RSV Immunization Guidance for Infants and Young Children | RSV | CDC",
+        "https://www.cdc.gov/rsv/hcp/vaccine-clinical-guidance/infants-young-children.html"
+      ]
+    },
+    {
+      "key": "qs4.6",
+      "query": "site:healthychildren.org jaundice newborn worsening hard to wake feeding call doctor",
+      "first_result": [
+        "symptomviewer - HealthyChildren.org",
+        "https://www.healthychildren.org/English/tips-tools/symptom-checker/Pages/symptomviewer.aspx?symptom=Jaundiced+Newborn"
+      ]
+    },
+    {
+      "key": "qs4.7",
+      "query": "site:ods.od.nih.gov iron health professional 0.27 11 7 10 infants vitamin D 10 15",
+      "first_result": [
+        "Office of Dietary Supplements - Iron",
+        "https://ods.od.nih.gov/factsheets/iron-consumer/"
+      ]
+    },
+    {
+      "key": "qs4.8",
+      "query": "site:who.int complementary feeding 6 23 months responsive feeding guideline 2023",
+      "first_result": [
+        "WHO Guideline for complementary feeding of infants and young children 6-23 months of age",
+        "https://www.who.int/publications/i/item/9789240081864"
+      ]
+    },
+    {
+      "key": "qs4.9",
+      "query": "site:medlineplus.gov fetal development week 25 weeks 31 34 gestational age lungs",
+      "first_result": [
+        "Amniotic fluid: MedlinePlus Medical Encyclopedia",
+        "https://www.medlineplus.gov/ency/article/002220.htm"
+      ]
+    },
+    {
+      "key": "qs4.10",
+      "query": "site:cdc.gov vaccines children schedule current 2026 November 2025 schedule court stay",
+      "first_result": [
+        "Vaccines and Other Immunizing Agents in the Child and Adolescent Immunization Schedule* | Vaccines & Immunizations | CDC",
+        "https://www.cdc.gov/vaccines/hcp/imz-schedules/child-schedule-vaccines.html"
+      ]
+    },
+    {
+      "key": "qs4.11",
+      "query": "site:cdc.gov growth chart WHO birth to 2 CDC two years length stature",
+      "first_result": [
+        "Summary: Using WHO Child Growth Standards | Growth Chart Training | CDC",
+        "https://www.cdc.gov/growth-chart-training/hcp/using-growth-charts/who-summary.html"
+      ]
+    },
+    {
+      "key": "qs5.0",
+      "query": "site:pubmed.ncbi.nlm.nih.gov folic acid supplementation prevention neural tube defects USPSTF one month before conception",
+      "first_result": [
+        "Folic acid for the prevention of neural tube defects. American Academy of Pediatrics. Committee on Genetics",
+        "https://pubmed.ncbi.nlm.nih.gov/10429019/"
+      ]
+    },
+    {
+      "key": "qs5.1",
+      "query": "site:pubmed.ncbi.nlm.nih.gov effects folic acid zinc supplementation men semen quality live birth 2370 trial FAZST",
+      "first_result": [
+        "A Randomized Trial to Evaluate the Effects of Folic Acid and Zinc Supplementation on Male Fertility and Livebirth: Design and Baseline Characteristics.",
+        "https://pubmed.ncbi.nlm.nih.gov/31712803/"
+      ]
+    },
+    {
+      "key": "qs5.2",
+      "query": "site:pubmed.ncbi.nlm.nih.gov glycemia pregnancy childhood adiposity HAPO follow up obesity confounding",
+      "first_result": [
+        "Association between maternal glucose levels in pregnancy and offspring's metabolism and adiposity: an 18-year birth cohort study",
+        "https://pubmed.ncbi.nlm.nih.gov/40603555/"
+      ]
+    },
+    {
+      "key": "qs5.3",
+      "query": "site:pubmed.ncbi.nlm.nih.gov placental microbiome human placenta has no microbiome potential pathogens 2019",
+      "first_result": [
+        "Human placenta has no microbiome but can contain potential pathogens",
+        "https://pubmed.ncbi.nlm.nih.gov/31367035/"
+      ]
+    },
+    {
+      "key": "qs5.4",
+      "query": "site:pubmed.ncbi.nlm.nih.gov cord clamping term preterm delayed clamping infant outcomes ACOG jaundice",
+      "first_result": [
+        "Delayed Umbilical Cord Clamping After Birth: ACOG Committee Opinion, Number 814.",
+        "https://pubmed.ncbi.nlm.nih.gov/33214530/"
+      ]
+    },
+    {
+      "key": "qs5.5",
+      "query": "site:healthychildren.org brush first tooth fluoride rice grain first birthday dentist",
+      "first_result": [
+        "Good Oral Health Starts Early: AAP Policy Explained - HealthyChildren.org",
+        "https://www.healthychildren.org/English/healthy-living/oral-health/Pages/Brushing-Up-on-Oral-Health-Never-Too-Early-to-Start.aspx"
+      ]
+    },
+    {
+      "key": "qs5.6",
+      "query": "site:who.int guidelines physical activity sedentary behaviour sleep children under 5 tummy time screen",
+      "first_result": [
+        "Guidelines on physical activity, sedentary behaviour and sleep for children under 5 years of age",
+        "https://www.who.int/publications/i/item/9789241550536/"
+      ]
+    },
+    {
+      "key": "qs5.7",
+      "query": "site:pubmed.ncbi.nlm.nih.gov reading aloud children shared picture book reading interventions language development meta-analysis Dowdall",
+      "first_result": [
+        "Shared Picture Book Reading Interventions for Child Language Development: A Systematic Review and Meta-Analysis",
+        "https://pubmed.ncbi.nlm.nih.gov/30737957/"
+      ]
+    },
+    {
+      "key": "qs5.8",
+      "query": "site:pubmed.ncbi.nlm.nih.gov infant massage typically developing infants under age six months Cochrane evidence",
+      "first_result": [
+        "Massage for promoting mental and physical health in typically developing infants under the age of six months",
+        "https://pubmed.ncbi.nlm.nih.gov/23633323/"
+      ]
+    },
+    {
+      "key": "qs5.9",
+      "query": "site:pubmed.ncbi.nlm.nih.gov donor human milk formula preterm low birth weight necrotising enterocolitis Cochrane 2024",
+      "first_result": [
+        "Donor human milk storage and gastrointestinal morbidities in preterm infants: A case-control study",
+        "https://pubmed.ncbi.nlm.nih.gov/40483590/"
+      ]
+    },
+    {
+      "key": "qs5.10",
+      "query": "site:pubmed.ncbi.nlm.nih.gov randomized trial peanut consumption infants erratum correction LEAP PubMed 2015 641 530 98",
+      "first_result": [
+        "Randomized Trial of Peanut Consumption in Infants at Risk for Peanut Allergy",
+        "https://pubmed.ncbi.nlm.nih.gov/27464222/"
+      ]
+    },
+    {
+      "key": "qs5.11",
+      "query": "site:clinicaltrials.gov NCT00329784 LEAP NCT02811432 kangaroo mother care",
+      "first_result": [
+        "OMWaNA Study, Protocol Version 2.1.1",
+        "https://cdn.clinicaltrials.gov/large-docs/32/NCT02811432/Prot_001.pdf"
+      ]
+    },
+    {
+      "key": "qs6.0",
+      "query": "OMWaNA trial kangaroo mother care Uganda 7 day 28 day mortality randomized results Lancet 2024 RR funding",
+      "first_result": [
+        "Effectiveness of kangaroo mother care before clinical stabilisation versus standard care among neonates at five hospitals in Uganda (OMWaNA): a parallel-group, individually randomised controlled trial and economic evaluation",
+        "https://pubmed.ncbi.nlm.nih.gov/38754454/"
+      ]
+    },
+    {
+      "key": "qs6.1",
+      "query": "NEJMx150044 correction peanut allergy exact corrections figure baseline table peanut 2016 NEJM",
+      "first_result": [
+        "Randomized Trial of Peanut Consumption in Infants at Risk for Peanut Allergy",
+        "https://www.nejm.org/doi/full/10.1056/NEJMx150044"
+      ]
+    },
+    {
+      "key": "qs6.2",
+      "query": "site:pmc.ncbi.nlm.nih.gov PMC4416404 36 263 5 267 LEAP table confidence intervals 60 months",
+      "first_result": [
+        "Figure S2\n\n<visual_element id=\"e1\">\n**A. Risk of P",
+        "https://pmc.ncbi.nlm.nih.gov/articles/instance/13014096/bin/BLOOD_BLD-2025-031476-mmc1.pdf"
+      ]
+    },
+    {
+      "key": "qs6.3",
+      "query": "site:journals.plos.org 1003602 cognitive language 0.32 0.28 95% funding",
+      "first_result": [
+        "RESEARCH ARTICLE",
+        "https://journals.plos.org/plosone/article/file?id=10.1371%2Fjournal.pmed.1003602&type=printable"
+      ]
+    },
+    {
+      "key": "qs6.4",
+      "query": "site:pubmed.ncbi.nlm.nih.gov immediate kangaroo mother care Gates registration ACTRN 3211 funding",
+      "first_result": [
+        "Immediate \"Kangaroo Mother Care\" and Survival of Infants with Low Birth Weight",
+        "https://pubmed.ncbi.nlm.nih.gov/34038632/"
+      ]
+    },
+    {
+      "key": "qs6.5",
+      "query": "site:pubmed.ncbi.nlm.nih.gov motor milestones 816 4.3% children WHO 2006",
+      "first_result": [
+        "Relationship between physical growth and motor development in the WHO Child Growth Standards",
+        "https://pubmed.ncbi.nlm.nih.gov/16817683/"
+      ]
+    },
+    {
+      "key": "qs6.6",
+      "query": "site:publications.aap.org Gradisar graduated extinction bedtime fading 43 infants results attachment funding",
+      "first_result": [
+        "Behavioral Interventions for Infant Sleep Problems: A Randomized Controlled Trial",
+        "https://publications.aap.org/pediatrics/article/137/6/e20151486/52401/Behavioral-Interventions-for-Infant-Sleep-Problems"
+      ]
+    },
+    {
+      "key": "qs6.7",
+      "query": "site:medlineplus.gov fetal development weeks 1 2 3 4 blastocyst weeks 35 37 fetal development",
+      "first_result": [
+        "Fetal development: MedlinePlus Medical Encyclopedia",
+        "https://www.medlineplus.gov/ency/article/002398.htm"
+      ]
+    },
+    {
+      "key": "qs6.8",
+      "query": "site:ods.od.nih.gov Choline Health Professional Table 1 125 150 200 250 iron 0.27 11",
+      "first_result": [
+        "Office of Dietary Supplements - Choline",
+        "https://ods.od.nih.gov/factsheets/Choline-HealthProfessional/?uid=fc3baa0d974e68s16"
+      ]
+    },
+    {
+      "key": "qs7.0",
+      "query": "Tumukunde OMWaNA 7 days 28 days mortality 2221 95% CI before stabilisation Wellcome Trust 7 days 28 days results Uganda",
+      "first_result": [
+        "Articles\nEffectiveness of kangaroo mother care bef",
+        "https://researchonline.lshtm.ac.uk/id/eprint/4672649/1/OMWaNA%20trial%20paper_TheLancet_May24.pdf"
+      ]
+    },
+    {
+      "key": "qs7.1",
+      "query": "site:nejm.org randomized trial peanut consumption infants 11.8 percentage points 24.7 95% confidence 641",
+      "first_result": [
+        "Randomized Trial of Peanut Consumption in Infants at Risk for Peanut Allergy",
+        "https://www.nejm.org/doi/pdf/10.1056/NEJMoa1414850?listPDF=true"
+      ]
+    },
+    {
+      "key": "qs7.2",
+      "query": "MedlinePlus fetal development week 5 6 7 8 9 10 weeks 11 to 14 15 to 18 19 to 21 22 26 30",
+      "first_result": [
+        "Fetal development: MedlinePlus Medical Encyclopedia",
+        "https://medline-plus.org/ency/article/002398.htm"
+      ]
+    },
+    {
+      "key": "qs8.0",
+      "query": "site:canada.ca dietary reference intakes tables reference values vitamins minerals infants 0 through 6 months 7 through 12 RDA AI",
+      "first_result": [
+        "Dietary reference intakes tables: Reference values for vitamins - Canada.ca",
+        "https://www.canada.ca/en/health-canada/services/food-nutrition/healthy-eating/dietary-reference-intakes/tables/reference-values-vitamins.html"
+      ]
+    },
+    {
+      "key": "qs8.1",
+      "query": "site:medlineplus.gov/ency/article/002398.htm weeks 27 to 30 weeks 31 to 34 35 to 37 baby bones lungs",
+      "first_result": [
+        "Fetal development: MedlinePlus Medical Encyclopedia",
+        "https://medlineplus.gov/ency/article/002398.htm?referer=www.cuteslator.com"
+      ]
+    },
+    {
+      "key": "qs8.2",
+      "query": "site:acog.org how your fetus grows weeks 17 20 21 24 25 28 29 32 33 36 37 40 vernix surfactant",
+      "first_result": [
+        "How Your Fetus Grows During Pregnancy | ACOG",
+        "https://www.acog.org/womens-health/faqs/how-your-fetus-grows-during-pregnancy"
+      ]
+    },
+    {
+      "key": "qs8.3",
+      "query": "site:cdc.gov infant toddler nutrition iron rich foods vegetarian 6 months breast milk iron",
+      "first_result": [
+        "Iron | Infant and Toddler Nutrition | CDC",
+        "https://www.cdc.gov/infant-toddler-nutrition/vitamins-minerals/iron.html"
+      ]
+    },
+    {
+      "key": "qs8.4",
+      "query": "site:cdc.gov folic acid before during pregnancy at least one month folic acid prevention",
+      "first_result": [
+        "About Folic Acid | Folic Acid | CDC",
+        "https://www.cdc.gov/folic-acid/about/"
+      ]
+    },
+    {
+      "key": "qs8.5",
+      "query": "site:pubmed.ncbi.nlm.nih.gov 37277302 retraction exercise",
+      "first_result": [
+        "Retraction notice to \"High-intensity interval training modulates male factor infertility though anti-inflammatory and antioxidative mechanisms in infertile men: A randomized controlled trial\" [Cytokine 125 (2020) 154861]",
+        "https://pubmed.ncbi.nlm.nih.gov/37277302/"
+      ]
+    },
+    {
+      "key": "qs8.6",
+      "query": "\"10.1519/JSC.0000000000004451\" retraction interval training male fertility",
+      "first_result": [
+        "Effects of Aerobic, Resistance, and Combined Exercise on Markers of Male Reproduction in Healthy Human Subjects: A Randomized Controlled Trial: Retraction",
+        "https://doi.org/10.1519/JSC.0000000000004451"
+      ]
+    },
+    {
+      "key": "qs8.7",
+      "query": "site:pubmed.ncbi.nlm.nih.gov LEAP trilogy adolescence peanut consumption 15.4 4.4 2024",
+      "first_result": [
+        "Follow-up to Adolescence after Early Peanut Introduction for Allergy Prevention",
+        "https://pubmed.ncbi.nlm.nih.gov/38804779/"
+      ]
+    },
+    {
+      "key": "qs8.8",
+      "query": "site:pubmed.ncbi.nlm.nih.gov delayed cord clamping 2025 ACOG preterm update 60 seconds",
+      "first_result": [
+        "ACOG Clinical Practice Update: An Update to Clinical Guidance for Delayed Umbilical Cord Clamping After Birth in Preterm Neonates",
+        "https://pubmed.ncbi.nlm.nih.gov/40706055/"
+      ]
+    },
+    {
+      "key": "qs8.9",
+      "query": "site:redcross.org take a class child baby first aid CPR hands-on pediatric",
+      "first_result": [
+        "Babysitter's Training with Pediatric First Aid/CPR/AED-r.25 Pompano Beach, FL | Red Cross",
+        "https://www.redcross.org/take-a-class/classes/babysitters-training-with-pediatric-first-aid%2Fcpr%2Faed-r.25/a65Vx0000065T2l.html?cgid=cpr&isCourse=true&storedistance=21.22"
+      ]
+    },
+    {
+      "key": "qs9.0",
+      "query": "\"Effectiveness of Exercise Training on Male Factor Infertility\" \"Resistance\" references 8 9 10 11 Hajizadeh resistance exercise infertile RETRACTION",
+      "first_result": [
+        "Effectiveness of Exercise Training on Male Factor Infertility: A Systematic Review and Network Meta-analysis.",
+        "https://pubmed.ncbi.nlm.nih.gov/34806474/"
+      ]
+    },
+    {
+      "key": "qs9.1",
+      "query": "\"Resistance exercise modulates male factor infertility\" retraction \"Combined aerobic\" infertile retraction exercise male factor network meta-analysis",
+      "first_result": [
+        "DRAFT FOR CONSULTATION",
+        "https://www.nice.org.uk/guidance/ng257/documents/evidence-review-19"
+      ]
+    },
+    {
+      "key": "qs9.2",
+      "query": "site:clinicaltrials.gov LEAP peanut NCT00329784",
+      "first_result": [
+        "Record History | NCT00329784 | ClinicalTrials.gov",
+        "https://clinicaltrials.gov/study/NCT00329784?a=18&tab=history"
+      ]
+    },
+    {
+      "key": "ex.0",
+      "query": "site:pubmed.ncbi.nlm.nih.gov 38804779 246 251 11 allergy funding",
+      "first_result": [
+        "Follow-up to Adolescence after Early Peanut Introduction for Allergy Prevention",
+        "https://pubmed.ncbi.nlm.nih.gov/38804779/"
+      ]
+    },
+    {
+      "key": "ex.1",
+      "query": "site:pubmed.ncbi.nlm.nih.gov OMWaNA trial funding inclusion 700 2000 serious adverse events",
+      "first_result": [
+        "Effectiveness of kangaroo mother care before clinical stabilisation versus standard care among neonates at five hospitals in Uganda (OMWaNA): a parallel-group, individually randomised controlled trial and economic evaluation",
+        "https://pubmed.ncbi.nlm.nih.gov/38754454/"
+      ]
+    },
+    {
+      "key": "ex.2",
+      "query": "site:pmc.ncbi.nlm.nih.gov field study fetus Partanen 17 16 EEG prenatal pseudo words published methods",
+      "first_result": [
+        "Learning-induced neural plasticity of speech processing before birth",
+        "https://pmc.ncbi.nlm.nih.gov/articles/PMC3773755/"
+      ]
+    },
+    {
+      "key": "ex.3",
+      "query": "site:healthychildren.org choking infant emergency severe allergic reaction epinephrine 911",
+      "first_result": [
+        "Anaphylaxis in Infants & Children: Responding to Severe Allergic Reactions - HealthyChildren.org",
+        "https://www.healthychildren.org/English/health-issues/injuries-emergencies/pages/anaphylaxis.aspx"
+      ]
+    },
+    {
+      "key": "ex.4",
+      "query": "site:poison.org child suspected poisoning United States call poison help 1-800",
+      "first_result": [
+        "Need immediate assistance? | Poison Control",
+        "https://www.poison.org/need-immediate-assistance"
+      ]
+    },
+    {
+      "key": "ex.5",
+      "query": "site:cdc.gov abusive head trauma baby crying place safe place walk away",
+      "first_result": [
+        "About Abusive Head Trauma | Child Abuse and Neglect Prevention | CDC",
+        "https://www.cdc.gov/child-abuse-neglect/about/about-abusive-head-trauma.html"
+      ]
+    },
+    {
+      "key": "more.0",
+      "query": "\"11 of 251\" peanut follow-up adolescence difference percentage points 95% NCT",
+      "first_result": [
+        "Follow-up to Adolescence after Early Peanut Introduction for Allergy Prevention",
+        "https://pubmed.ncbi.nlm.nih.gov/38804779/"
+      ]
+    },
+    {
+      "key": "more.1",
+      "query": "\"OMWaNA\" \"Funding\" 700 2000 trial Uganda funding serious adverse events Lancet",
+      "first_result": [
+        "Articles\nEffectiveness of kangaroo mother care bef",
+        "https://researchonline.lshtm.ac.uk/id/eprint/4672649/1/OMWaNA%20trial%20paper_TheLancet_May24.pdf"
+      ]
+    },
+    {
+      "key": "more.2",
+      "query": "PROBIT Kramer Belarus 2001 full author list Shishko Chalmers grants Canadian",
+      "first_result": [
+        "Promotion of Breastfeeding Intervention Trial (PROBIT): A Randomized Trial in the Republic of Belarus",
+        "https://jamanetwork.com/journals/jama/fullarticle/193490"
+      ]
+    },
+    {
+      "key": "more.3",
+      "query": "WHO motor development study 816 infants 4.3 percent never crawled windows first 99th WHO abstract",
+      "first_result": [
+        "Spae_95_S450_cover.qxp",
+        "https://cdn.who.int/media/docs/default-source/child-growth/child-growth-standards/indicators/motor-development-milestones/who-motor-development-study-windows-of-achievement-for-six-gross-motor-development-milestones.pdf"
+      ]
+    },
+    {
+      "key": "more.4",
+      "query": "site:medlineplus.gov fetal development 27 to 30 31 to 34 35 to 37 week 38 to 40",
+      "first_result": [
+        "Gestational age: MedlinePlus Medical Encyclopedia",
+        "https://medlineplus.gov/ency/article/002367.htm"
+      ]
+    },
+    {
+      "key": "more.5",
+      "query": "site:publications.aap.org behavioral interventions infant sleep latency attachment 43 infants 12 months",
+      "first_result": [
+        "The Tension Between AAP Safe Sleep Guidelines and Infant Sleep",
+        "https://publications.aap.org/pediatrics/article/153/4/e2023064675/196919/The-Tension-Between-AAP-Safe-Sleep-Guidelines-and"
+      ]
+    },
+    {
+      "key": "more.6",
+      "query": "site:pubmed.ncbi.nlm.nih.gov randomized peanut consumption 640 4 months 11 months serious adverse events funded",
+      "first_result": [
+        "Impact of peanut consumption in the LEAP Study: Feasibility, growth, and nutrition",
+        "https://pubmed.ncbi.nlm.nih.gov/27297994/"
+      ]
+    },
+    {
+      "key": "more2.0",
+      "query": "site:nejm.org EVIDoa2300311 11 251 peanut allergy 95% 144 months",
+      "first_result": [
+        "Follow-up to Adolescence after Early Peanut Introduction for Allergy Prevention",
+        "https://evidence.nejm.org/doi/full/10.1056/EVIDoa2300311"
+      ]
+    },
+    {
+      "key": "more2.1",
+      "query": "site:pubmed.ncbi.nlm.nih.gov PROBIT bacterial infections funding Canada grant breastfeeding Kramer 2001",
+      "first_result": [
+        "Promotion of Breastfeeding Intervention Trial (PROBIT): a randomized trial in the Republic of Belarus",
+        "https://pubmed.ncbi.nlm.nih.gov/11242425/"
+      ]
+    },
+    {
+      "key": "more2.2",
+      "query": "site:medlineplus.gov fetal development week 27 30 eyebrows surfactant",
+      "first_result": [
+        "Desarrollo fetal: MedlinePlus enciclopedia médica",
+        "https://www.medlineplus.gov/spanish/ency/article/002398.htm"
+      ]
+    },
+    {
+      "key": "more2.3",
+      "query": "site:pubmed.ncbi.nlm.nih.gov USPSTF screening hypertensive disorders pregnancy blood pressure 2023 gestational diabetes 24 weeks",
+      "first_result": [
+        "Screening for Hypertensive Disorders of Pregnancy: US Preventive Services Task Force Final Recommendation Statement",
+        "https://pubmed.ncbi.nlm.nih.gov/37721605/"
+      ]
+    },
+    {
+      "key": "more2.4",
+      "query": "site:cdc.gov infant child motor milestones loss skills early intervention referral",
+      "first_result": [
+        "Milestones by 15 Months | Learn the Signs. Act Early. | CDC",
+        "https://www.cdc.gov/act-early/milestones/15-months.html"
+      ]
+    },
+    {
+      "key": "more2.5",
+      "query": "site:cdc.gov newborn screening hearing 1 3 6 months diagnosis intervention",
+      "first_result": [
+        "EHDI 1-3-6 Benchmarks | Hearing Loss in Children | CDC",
+        "https://www.cdc.gov/hearing-loss-children/articles/baby-hearing-screening-infographic.html"
+      ]
+    },
+    {
+      "key": "more3.0",
+      "query": "\"REP-16-0318\" retraction expression of concern Reproduction 27920258",
+      "first_result": [
+        "The effects of three different exercise modalities on markers of male reproduction in healthy subjects: a randomized controlled trial.",
+        "https://pubmed.ncbi.nlm.nih.gov/27920258/"
+      ]
+    },
+    {
+      "key": "more3.1",
+      "query": "\"Exercise\" \"male\" \"Lo Giudice\" meta-analysis fertility Hajizadeh retracted reference 28092795",
+      "first_result": [
+        "Effects of Physical Activity on Fertility Parameters: A Meta-Analysis of Randomized Controlled Trials",
+        "https://pubmed.ncbi.nlm.nih.gov/38164031/"
+      ]
+    },
+    {
+      "key": "more3.2",
+      "query": "site:europepmc.org 25705822 10.1056/NEJMoa1414850 LEAP",
+      "first_result": [
+        "Research Summary",
+        "https://staging.europepmc.org/backend/picrender.fcgi?accid=PMC8220996&blobname=NEJMoa2101544_research-summary.pdf"
+      ]
+    },
+    {
+      "key": "more3.3",
+      "query": "site:cochrane.org donor human milk preventing necrotising enterocolitis very preterm very low birthweight 2024 risk ratio 0.53",
+      "first_result": [
+        "Does donor human milk prevent severe bowel disorders in very preterm or very low-birthweight infants? | Cochrane",
+        "https://www.cochrane.org/evidence/CD002971_does-donor-human-milk-prevent-severe-bowel-disorders-very-preterm-or-very-low-birthweight-infants"
+      ]
+    },
+    {
+      "key": "more3.4",
+      "query": "site:crossref.org Crossmark corrections retractions metadata Crossref Retraction Watch clinical evidence",
+      "first_result": [
+        "Crossmark - registering updates – Support Center",
+        "https://support.crossref.org/hc/en-us/articles/115000501246-Crossmark-registering-updates"
+      ]
+    },
+    {
+      "key": "more4.0",
+      "query": "\"Lo Giudice\" \"Cytokine\" \"Hajizadeh\" fertility parameters Table 1 retracted PMC studies included 2017 2020 pregnancy live birth",
+      "first_result": [
+        "Effects of Physical Activity on Fertility Parameters: A Meta-Analysis of Randomized Controlled Trials",
+        "https://wjmh.org/DOIx.php?id=10.5534%2Fwjmh.230106"
+      ]
+    },
+    {
+      "key": "more4.1",
+      "query": "site:pmc.ncbi.nlm.nih.gov \"Effects of Physical Activity on Fertility Parameters\" study table interval pregnancy aerobic 2017 Tartibian",
+      "first_result": [
+        "Effects of Physical Activity on Fertility Parameters: A Meta-Analysis of Randomized Controlled Trials",
+        "https://pmc.ncbi.nlm.nih.gov/articles/PMC11216966/"
+      ]
+    }
+  ],
+  "direct_table_reads": [
+    "https://www.canada.ca/en/health-canada/services/food-nutrition/healthy-eating/dietary-reference-intakes/tables/reference-values-vitamins.html",
+    "https://www.canada.ca/en/health-canada/services/food-nutrition/healthy-eating/dietary-reference-intakes/tables/reference-values-elements.html",
+    "https://www.canada.ca/en/health-canada/services/food-nutrition/healthy-eating/dietary-reference-intakes/tables/reference-values-macronutrients.html"
+  ],
+  "inclusion": "Original human outcomes, reference distributions and applicable official guidance. Independent follow-ups share cohort IDs. Clinical rules require pediatric review.",
+  "exclusions": "Wrong topic, mirrors, commercial summaries when originals available, unsupported extrapolations and retracted primary evidence. Nonselected results were not all formally screened.",
+  "limitations": "No exhaustive MEDLINE/Embase/Europe PMC export, citation-network sweep or comprehensive Crossref corrections/COI audit. Null fields require completion against full text and supplements."
+}

@@ -61,3 +61,7 @@ See [START_HERE.md](../START_HERE.md) and [research transfer](transfer/README.md
 
 ## Additional targeted research — 2026-11-26
 Read [deep-research/README.md](deep-research/README.md) and [TARGETED_GAP_AUDIT.json](deep-research/TARGETED_GAP_AUDIT.json) before promoting fertility or calcium findings. Retraction dependency chain DR021–025 requires quarantine. This overlay contains 33 provisional source records and 10 candidate intervals; no canonical import or export count change. Existing clinical review gates and open gaps remain. Gemini complementary prompt is stored beside it.
+
+## Child health research checkpoint · 2026-11-26
+
+Start with the [pediatric research index](child-health/README.md), [pediatric safety rules](child-health/SAFETY.md) and [retraction and correction crosswalk](child-health/integrity-and-overlap.md). Keep the pregnancy and postpartum focus, with parallel infant development through age two and secondary coverage through age five. Claude owns implementation and iPhone Home Screen integration. The new packet is staged separately from the canonical maternal import. Hold Lo Giudice pregnancy/live-birth estimates and their downstream use; preserve DR021–025 and all prior safety holds. See the [domain continuation queue](child-health/gaps.md) before starting new research. Clinical, app and device review remain pending.

@@ -1,0 +1,126 @@
+{
+  "review_status": "All concepts require clinical, rights and accessibility review",
+  "briefs": [
+    {
+      "title": "Organ development during pregnancy",
+      "data": "gestational-weeks.csv",
+      "caption": "Development across gestational week ranges",
+      "alt": "The early nervous system and heart form before later maturation of the lungs and mineral storage.",
+      "render": "Highlight the entire source window. An event spanning four weeks must not appear as four independent events.",
+      "source_ids": [
+        "PED-GESTATION",
+        "PED-FETUS"
+      ]
+    },
+    {
+      "title": "Two timelines after birth",
+      "data": "family-timeline.csv",
+      "caption": "Maternal recovery and child development can progress on different schedules.",
+      "alt": "Separate parent and infant tracks share the date of birth, then have independently reviewed topics.",
+      "render": "Link the existing maternal phases without inferring recovery milestones. Place urgent actions above both tracks.",
+      "source_ids": [
+        "PED-NBS",
+        "PED-GROWTH"
+      ]
+    },
+    {
+      "title": "Six motor windows",
+      "data": "motor-windows.csv",
+      "caption": "Ages at attainment varied among children in the WHO reference sample.",
+      "alt": "Walking alone ranged from 8.2 to 17.6 months between the first and 99th percentiles; the other skills also have overlapping ranges.",
+      "render": "Horizontal range bars in months; distinguish percentile windows from confidence intervals. No red deadline or ranking.",
+      "source_ids": [
+        "PED-MOTOR",
+        "PED-WINDOW"
+      ]
+    },
+    {
+      "title": "Kangaroo care in neonatal units",
+      "data": "outcomes.csv",
+      "caption": "Mortality in two hospital trials, shown at their own follow-up times.",
+      "alt": "The multicountry trial reported fewer deaths at 28 days; the Ugandan estimate also favored early care but its interval includes no difference.",
+      "render": "Show event counts and denominators per arm; forest panels for 28 days, 7 days and 72 hours. Log ratio axis at 1. No pooled diamond.",
+      "source_ids": [
+        "PED-iKMC",
+        "PED-OMWANA"
+      ]
+    },
+    {
+      "title": "Early peanut introduction",
+      "data": "outcomes.csv",
+      "caption": "Allergy at age five among selected high-risk infants, by entry skin-test group.",
+      "alt": "Among initially skin-test-negative infants, 13.7% with avoidance and 1.9% with consumption developed allergy.",
+      "render": "Show arm percentages and difference in percentage points with CI. Accompany with clinician review pathway.",
+      "source_ids": [
+        "PED-LEAP",
+        "PED-ALLERGY"
+      ]
+    },
+    {
+      "title": "Daily intake references",
+      "data": "nutrient-reference.csv",
+      "caption": "Dietary reference intakes across age bands and lactation.",
+      "alt": "The table distinguishes an adequate intake from a recommended dietary allowance and identifies the unit for every nutrient.",
+      "render": "Keep maternal and child series separate. No dose conversion, compliance score or infant water-volume recommendation.",
+      "source_ids": [
+        "PED-DRI-vitamins",
+        "PED-DRI-elements",
+        "PED-DRI-macronutrients"
+      ]
+    },
+    {
+      "title": "Recognizing urgent illness",
+      "data": "safety-cases.json",
+      "caption": "When a young infant needs immediate medical attention",
+      "alt": "Text connects breathing difficulty with blue lips or unresponsiveness to emergency services.",
+      "render": "Warnings must work in text, without color or an illustration. No skin-tone-based diagnosis or child photos.",
+      "source_ids": [
+        "PED-EMS",
+        "PED-FEVER",
+        "PED-JAUNDICE"
+      ]
+    }
+  ],
+  "media": [
+    {
+      "source_id": "PED-SEAT",
+      "url": "https://www.nhtsa.gov/car-seats-and-booster-seats/how-install-rear-facing-car-seats",
+      "owner": "NHTSA",
+      "format": "Rear-facing installation video",
+      "limitations": "Seat model and vehicle instructions control.",
+      "license": null,
+      "use": "External link only; no downloaded images or videos",
+      "review": "Not reviewed for embedding or accessibility"
+    },
+    {
+      "source_id": "PED-CPR",
+      "url": "https://www.redcross.org/take-a-class/classes/adult-and-pediatric-child-and-baby-cpr%2Faed-online/a6RVx000000a6zl.html",
+      "owner": "American Red Cross",
+      "format": "Pediatric CPR/AED course",
+      "limitations": "Online learning and hands-on certification differ. Check class type.",
+      "license": null,
+      "use": "External link only; no downloaded images or videos",
+      "review": "Not reviewed for embedding or accessibility"
+    },
+    {
+      "source_id": "PED-GESTATION",
+      "url": "https://medlineplus.gov/ency/article/002398.htm",
+      "owner": "MedlinePlus / third-party encyclopedia contributors",
+      "format": "Developmental illustrations and linked cell-division animation",
+      "limitations": "Do not presume third-party media is public domain.",
+      "license": null,
+      "use": "External link only; no downloaded images or videos",
+      "review": "Not reviewed for embedding or accessibility"
+    },
+    {
+      "source_id": "PED-WINDOW",
+      "url": "https://cdn.who.int/media/docs/default-source/child-growth/child-growth-standards/indicators/motor-development-milestones/mm_windows_table.pdf",
+      "owner": "World Health Organization",
+      "format": "Motor milestone data table",
+      "limitations": "Replot data with source attribution after rights review.",
+      "license": null,
+      "use": "External link only; no downloaded images or videos",
+      "review": "Not reviewed for embedding or accessibility"
+    }
+  ]
+}

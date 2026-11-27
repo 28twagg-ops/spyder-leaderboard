@@ -1,0 +1,7 @@
+"skill","p1","p1_low","p1_high","p99","p99_low","p99_high","unit","bound_uncertainty","source_id","study_source"
+"Sitting unsupported","3.8","3.7","3.9","9.2","8.9","9.4","months","95% CI for estimated percentile","PED-WINDOW","PED-MOTOR"
+"Standing with support","4.8","4.7","5","11.4","11.2","11.7","months","95% CI for estimated percentile","PED-WINDOW","PED-MOTOR"
+"Hands-and-knees crawling","5.2","5","5.3","13.5","13.1","13.9","months","95% CI for estimated percentile","PED-WINDOW","PED-MOTOR"
+"Walking with support","6","5.8","6.1","13.7","13.4","14.1","months","95% CI for estimated percentile","PED-WINDOW","PED-MOTOR"
+"Standing alone","6.9","6.8","7.1","16.9","16.4","17.4","months","95% CI for estimated percentile","PED-WINDOW","PED-MOTOR"
+"Walking alone","8.2","8","8.4","17.6","17.1","18","months","95% CI for estimated percentile","PED-WINDOW","PED-MOTOR"

@@ -9,3 +9,7 @@ Postpartum progression must be based on individual healing, symptoms, delivery a
 Include source-backed urgent maternal warning signs and appropriate emergency guidance in relevant sections; verify current guidance before publication. Avoid alarmist presentation and do not suggest delaying care. Do not use appearance scoring, compulsive tracking or body-shaming language. Keep personal plans optional and editable.
 
 No AI-generated clinical claims become verified simply because structural tests pass. Use substantive source checks and suitable professional review; high-risk content remains research-only until review. Document uncertainties, limitations and conflicts.
+
+## Child health research checkpoint · 2026-11-26
+
+Start with the [pediatric research index](research/child-health/README.md), [pediatric safety rules](research/child-health/SAFETY.md) and [retraction and correction crosswalk](research/child-health/integrity-and-overlap.md). Keep the pregnancy and postpartum focus, with parallel infant development through age two and secondary coverage through age five. Claude owns implementation and iPhone Home Screen integration. The new packet is staged separately from the canonical maternal import. Hold Lo Giudice pregnancy/live-birth estimates and their downstream use; preserve DR021–025 and all prior safety holds. See the [domain continuation queue](research/child-health/gaps.md) before starting new research. Clinical, app and device review remain pending.

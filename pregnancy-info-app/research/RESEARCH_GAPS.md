@@ -28,3 +28,7 @@
 | EMERG-001 | Extract device-specific energy, indication, adverse events and skin type in appropriate settings. Review PRP, peptides, light, ultrasound and late surgery separately. |
 
 Cross-cutting gaps include payer-specific cost, underserved populations, disability, twins, subsequent pregnancies, lactation-specific infant safety, adverse-event denominators, current corrections/retractions and independently replicated clinical review. Unlinked registry items are starting points for extraction. Interviews and lived experience need separate consent/licensing and labeling if later included. No estimate of success may be inferred from missing trials.
+
+## Child health research checkpoint · 2026-11-26
+
+Start with the [pediatric research index](child-health/README.md), [pediatric safety rules](child-health/SAFETY.md) and [retraction and correction crosswalk](child-health/integrity-and-overlap.md). Keep the pregnancy and postpartum focus, with parallel infant development through age two and secondary coverage through age five. Claude owns implementation and iPhone Home Screen integration. The new packet is staged separately from the canonical maternal import. Hold Lo Giudice pregnancy/live-birth estimates and their downstream use; preserve DR021–025 and all prior safety holds. See the [domain continuation queue](child-health/gaps.md) before starting new research. Clinical, app and device review remain pending.

@@ -1,0 +1,37 @@
+{
+  "run_date": "2026-11-26",
+  "baseline_commit": "cd7bbeb0be38bc2ac2d1826291d815cd6fb9f195",
+  "inventory": {
+    "sources": 53,
+    "study_reports": 12,
+    "distinct_study_group_keys_including_reviews": 11,
+    "claims": 27,
+    "safety_assessments": 27,
+    "numeric_estimates": 19,
+    "motor_windows": 6,
+    "nutrient_rows": 245,
+    "weeks": 40,
+    "safety_cases": 15,
+    "visual_briefs": 7,
+    "media": 4,
+    "family_phases": 19,
+    "queries": 103,
+    "nutrients": 36
+  },
+  "passed": [
+    "Parsed JSON/JSONL/CSV; unique source IDs and URLs",
+    "Claim to safety one-to-one coverage and source joins",
+    "Numeric interval ordering and arm event bounds",
+    "Four neonatal mortality rows compared to reported event counts, LEAP absolute difference arithmetic",
+    "WHO motor percentile and confidence-bound order",
+    "245 unique age–stage–nutrient rows; eight pediatric iron/choline values checked against NIH; age group counts",
+    "Exactly 40 gestational weeks inside source windows; no automatic actions",
+    "RIS ID parity; visual data references resolve; synthetic case and hold flags",
+    "Exact normalized DOI, PMID, URL or title match against 382-record canonical registry: 0"
+  ],
+  "baseline_matches": [],
+  "limitations": [
+    "Record checks do not constitute evidence certification. Not all funding, harms, version history, cross-review cohorts or nutrient UL footnotes audited.",
+    "No pediatric reviewer, independent double extraction, live clinical escalation test, device test, media license clearance or user-data processing."
+  ]
+}

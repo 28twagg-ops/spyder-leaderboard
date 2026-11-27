@@ -1,0 +1,65 @@
+[
+  {
+    "topic": "Timing of neonatal kangaroo care",
+    "intervention": "Immediate, monitored care",
+    "comparator": "Care after stabilization",
+    "population": "Hospital newborns with study-specific weight and clinical eligibility",
+    "interpretation": "Observed mortality depends on setting and follow-up; see both trials.",
+    "source_ids": [
+      "PED-iKMC",
+      "PED-OMWANA"
+    ]
+  },
+  {
+    "topic": "Support for breastfeeding",
+    "intervention": "Facility support",
+    "comparator": "Usual services",
+    "population": "Healthy term dyads intending to breastfeed",
+    "interpretation": "Neither group was assigned exclusive formula; comparison cannot rank all feeding methods.",
+    "source_ids": [
+      "PED-PROBIT"
+    ]
+  },
+  {
+    "topic": "Supplemental neonatal milk",
+    "intervention": "Donor human milk",
+    "comparator": "Formula",
+    "population": "Very preterm or very low birthweight infants in hospital",
+    "interpretation": "Lower NEC risk; mortality estimate remains imprecise. Clinical feeding plan required.",
+    "source_ids": [
+      "PED-DONOR"
+    ]
+  },
+  {
+    "topic": "Preventing peanut allergy",
+    "intervention": "Early consumption",
+    "comparator": "Avoidance",
+    "population": "Eligible infants with severe eczema and/or egg allergy",
+    "interpretation": "Trial effect depends on entry skin-test stratum. Use formal clinical guidance for first introduction.",
+    "source_ids": [
+      "PED-LEAP",
+      "PED-ALLERGY"
+    ]
+  },
+  {
+    "topic": "Behavioral settling",
+    "intervention": "Bedtime fading or graduated extinction",
+    "comparator": "Education; usual family routines remain options",
+    "population": "6–16 months in the trial",
+    "interpretation": "Small trial supports more than one choice; feeding, development and safe sleep remain separate.",
+    "source_ids": [
+      "PED-SETTLE",
+      "PED-SLEEP"
+    ]
+  },
+  {
+    "topic": "Caregiver support",
+    "intervention": "Programs for responsive interaction",
+    "comparator": "Trial-specific controls",
+    "population": "Children under three and caregivers",
+    "interpretation": "Effects vary by program and setting; depression needs its own evidence and care pathway.",
+    "source_ids": [
+      "PED-PARENT"
+    ]
+  }
+]

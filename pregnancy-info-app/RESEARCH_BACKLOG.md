@@ -28,3 +28,7 @@ Status for all: not started; do not interpret as verified medical findings. Clau
 | EMERG-001 | Device-based and alternative therapies, evidence and stage safety |
 
 Prioritize direct high-quality systematic reviews and guidelines, then underlying studies and emerging leads. Do not create unsupported daily actions. Split work packages by specific outcome and population where needed. Add IDs and track status rather than duplicating prior work.
+
+## Child health research checkpoint · 2026-11-26
+
+Start with the [pediatric research index](research/child-health/README.md), [pediatric safety rules](research/child-health/SAFETY.md) and [retraction and correction crosswalk](research/child-health/integrity-and-overlap.md). Keep the pregnancy and postpartum focus, with parallel infant development through age two and secondary coverage through age five. Claude owns implementation and iPhone Home Screen integration. The new packet is staged separately from the canonical maternal import. Hold Lo Giudice pregnancy/live-birth estimates and their downstream use; preserve DR021–025 and all prior safety holds. See the [domain continuation queue](research/child-health/gaps.md) before starting new research. Clinical, app and device review remain pending.
