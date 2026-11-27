@@ -7,7 +7,7 @@
     "tracker": "research/TIMELINE_COMPLETION_TRACKER.md",
     "base_week_data": "research/staged-completion/stage-09/GESTATIONAL_WEEKS.json",
     "base_phase_data": "research/staged-completion/stage-09/TIMELINE.json",
-    "preview_candidate": "fdab0e359a4a347e2e4cc492b7da25e583bb8573"
+    "preview_candidate": "b4514e07ef546d0cb2e6cb1311149cc7b13b2a92"
   },
   "weeks": [
     {
@@ -82,7 +82,8 @@
           }
         ]
       },
-      "editorial_draft_present": true
+      "editorial_draft_present": true,
+      "latest_test_evidence": "All-week navigation and suite passed on fdab0e3; corrected candidate awaiting exact build verification."
     },
     {
       "week": 2,
@@ -162,7 +163,8 @@
           }
         ]
       },
-      "editorial_draft_present": true
+      "editorial_draft_present": true,
+      "latest_test_evidence": "All-week navigation and suite passed on fdab0e3; corrected candidate awaiting exact build verification."
     },
     {
       "week": 3,
@@ -242,7 +244,8 @@
           }
         ]
       },
-      "editorial_draft_present": true
+      "editorial_draft_present": true,
+      "latest_test_evidence": "All-week navigation and suite passed on fdab0e3; corrected candidate awaiting exact build verification."
     },
     {
       "week": 4,
@@ -322,7 +325,8 @@
           }
         ]
       },
-      "editorial_draft_present": true
+      "editorial_draft_present": true,
+      "latest_test_evidence": "All-week navigation and suite passed on fdab0e3; corrected candidate awaiting exact build verification."
     },
     {
       "week": 5,
@@ -402,7 +406,8 @@
           }
         ]
       },
-      "editorial_draft_present": true
+      "editorial_draft_present": true,
+      "latest_test_evidence": "All-week navigation and suite passed on fdab0e3; corrected candidate awaiting exact build verification."
     },
     {
       "week": 6,
@@ -482,7 +487,8 @@
           }
         ]
       },
-      "editorial_draft_present": true
+      "editorial_draft_present": true,
+      "latest_test_evidence": "All-week navigation and suite passed on fdab0e3; corrected candidate awaiting exact build verification."
     },
     {
       "week": 7,
@@ -562,7 +568,8 @@
           }
         ]
       },
-      "editorial_draft_present": true
+      "editorial_draft_present": true,
+      "latest_test_evidence": "All-week navigation and suite passed on fdab0e3; corrected candidate awaiting exact build verification."
     },
     {
       "week": 8,
@@ -642,7 +649,8 @@
           }
         ]
       },
-      "editorial_draft_present": true
+      "editorial_draft_present": true,
+      "latest_test_evidence": "All-week navigation and suite passed on fdab0e3; corrected candidate awaiting exact build verification."
     },
     {
       "week": 9,
@@ -722,7 +730,8 @@
           }
         ]
       },
-      "editorial_draft_present": true
+      "editorial_draft_present": true,
+      "latest_test_evidence": "All-week navigation and suite passed on fdab0e3; corrected candidate awaiting exact build verification."
     },
     {
       "week": 10,
@@ -802,7 +811,8 @@
           }
         ]
       },
-      "editorial_draft_present": true
+      "editorial_draft_present": true,
+      "latest_test_evidence": "All-week navigation and suite passed on fdab0e3; corrected candidate awaiting exact build verification."
     },
     {
       "week": 11,
@@ -882,7 +892,8 @@
           }
         ]
       },
-      "editorial_draft_present": true
+      "editorial_draft_present": true,
+      "latest_test_evidence": "All-week navigation and suite passed on fdab0e3; corrected candidate awaiting exact build verification."
     },
     {
       "week": 12,
@@ -962,7 +973,8 @@
           }
         ]
       },
-      "editorial_draft_present": true
+      "editorial_draft_present": true,
+      "latest_test_evidence": "All-week navigation and suite passed on fdab0e3; corrected candidate awaiting exact build verification."
     },
     {
       "week": 13,
@@ -1042,7 +1054,8 @@
           }
         ]
       },
-      "editorial_draft_present": true
+      "editorial_draft_present": true,
+      "latest_test_evidence": "All-week navigation and suite passed on fdab0e3; corrected candidate awaiting exact build verification."
     },
     {
       "week": 14,
@@ -1122,7 +1135,8 @@
           }
         ]
       },
-      "editorial_draft_present": true
+      "editorial_draft_present": true,
+      "latest_test_evidence": "All-week navigation and suite passed on fdab0e3; corrected candidate awaiting exact build verification."
     },
     {
       "week": 15,
@@ -1202,7 +1216,8 @@
           }
         ]
       },
-      "editorial_draft_present": true
+      "editorial_draft_present": true,
+      "latest_test_evidence": "All-week navigation and suite passed on fdab0e3; corrected candidate awaiting exact build verification."
     },
     {
       "week": 16,
@@ -1282,7 +1297,8 @@
           }
         ]
       },
-      "editorial_draft_present": true
+      "editorial_draft_present": true,
+      "latest_test_evidence": "All-week navigation and suite passed on fdab0e3; corrected candidate awaiting exact build verification."
     },
     {
       "week": 17,
@@ -1362,7 +1378,8 @@
           }
         ]
       },
-      "editorial_draft_present": true
+      "editorial_draft_present": true,
+      "latest_test_evidence": "All-week navigation and suite passed on fdab0e3; corrected candidate awaiting exact build verification."
     },
     {
       "week": 18,
@@ -1442,7 +1459,8 @@
           }
         ]
       },
-      "editorial_draft_present": true
+      "editorial_draft_present": true,
+      "latest_test_evidence": "All-week navigation and suite passed on fdab0e3; corrected candidate awaiting exact build verification."
     },
     {
       "week": 19,
@@ -1522,7 +1540,8 @@
           }
         ]
       },
-      "editorial_draft_present": true
+      "editorial_draft_present": true,
+      "latest_test_evidence": "All-week navigation and suite passed on fdab0e3; corrected candidate awaiting exact build verification."
     },
     {
       "week": 20,
@@ -1570,7 +1589,8 @@
         ],
         "size": "25.6 cm · banana"
       },
-      "editorial_draft_present": true
+      "editorial_draft_present": true,
+      "latest_test_evidence": "All-week navigation and suite passed on fdab0e3; corrected candidate awaiting exact build verification."
     },
     {
       "week": 21,
@@ -1618,7 +1638,8 @@
         ],
         "size": "26.7 cm · carrot"
       },
-      "editorial_draft_present": true
+      "editorial_draft_present": true,
+      "latest_test_evidence": "All-week navigation and suite passed on fdab0e3; corrected candidate awaiting exact build verification."
     },
     {
       "week": 22,
@@ -1666,7 +1687,8 @@
         ],
         "size": "27.8 cm · sweet potato"
       },
-      "editorial_draft_present": true
+      "editorial_draft_present": true,
+      "latest_test_evidence": "All-week navigation and suite passed on fdab0e3; corrected candidate awaiting exact build verification."
     },
     {
       "week": 23,
@@ -1714,7 +1736,8 @@
         ],
         "size": "28.9 cm · large mango"
       },
-      "editorial_draft_present": true
+      "editorial_draft_present": true,
+      "latest_test_evidence": "All-week navigation and suite passed on fdab0e3; corrected candidate awaiting exact build verification."
     },
     {
       "week": 24,
@@ -1762,7 +1785,8 @@
         ],
         "size": "30 cm · corn on the cob"
       },
-      "editorial_draft_present": true
+      "editorial_draft_present": true,
+      "latest_test_evidence": "All-week navigation and suite passed on fdab0e3; corrected candidate awaiting exact build verification."
     },
     {
       "week": 25,
@@ -1810,7 +1834,8 @@
         ],
         "size": "34.6 cm · zucchini"
       },
-      "editorial_draft_present": true
+      "editorial_draft_present": true,
+      "latest_test_evidence": "All-week navigation and suite passed on fdab0e3; corrected candidate awaiting exact build verification."
     },
     {
       "week": 26,
@@ -1858,7 +1883,8 @@
         ],
         "size": "35.6 cm · cucumber"
       },
-      "editorial_draft_present": true
+      "editorial_draft_present": true,
+      "latest_test_evidence": "All-week navigation and suite passed on fdab0e3; corrected candidate awaiting exact build verification."
     },
     {
       "week": 27,
@@ -1906,7 +1932,8 @@
         ],
         "size": "36.6 cm · head of cauliflower"
       },
-      "editorial_draft_present": true
+      "editorial_draft_present": true,
+      "latest_test_evidence": "All-week navigation and suite passed on fdab0e3; corrected candidate awaiting exact build verification."
     },
     {
       "week": 28,
@@ -1954,7 +1981,8 @@
         ],
         "size": "37.6 cm · eggplant"
       },
-      "editorial_draft_present": true
+      "editorial_draft_present": true,
+      "latest_test_evidence": "All-week navigation and suite passed on fdab0e3; corrected candidate awaiting exact build verification."
     },
     {
       "week": 29,
@@ -2002,7 +2030,8 @@
         ],
         "size": "38.6 cm · butternut squash"
       },
-      "editorial_draft_present": true
+      "editorial_draft_present": true,
+      "latest_test_evidence": "All-week navigation and suite passed on fdab0e3; corrected candidate awaiting exact build verification."
     },
     {
       "week": 30,
@@ -2050,7 +2079,8 @@
         ],
         "size": "39.9 cm · cabbage"
       },
-      "editorial_draft_present": true
+      "editorial_draft_present": true,
+      "latest_test_evidence": "All-week navigation and suite passed on fdab0e3; corrected candidate awaiting exact build verification."
     },
     {
       "week": 31,
@@ -2098,7 +2128,8 @@
         ],
         "size": "41.1 cm · coconut"
       },
-      "editorial_draft_present": true
+      "editorial_draft_present": true,
+      "latest_test_evidence": "All-week navigation and suite passed on fdab0e3; corrected candidate awaiting exact build verification."
     },
     {
       "week": 32,
@@ -2178,7 +2209,8 @@
           }
         ]
       },
-      "editorial_draft_present": true
+      "editorial_draft_present": true,
+      "latest_test_evidence": "All-week navigation and suite passed on fdab0e3; corrected candidate awaiting exact build verification."
     },
     {
       "week": 33,
@@ -2258,7 +2290,8 @@
           }
         ]
       },
-      "editorial_draft_present": true
+      "editorial_draft_present": true,
+      "latest_test_evidence": "All-week navigation and suite passed on fdab0e3; corrected candidate awaiting exact build verification."
     },
     {
       "week": 34,
@@ -2338,7 +2371,8 @@
           }
         ]
       },
-      "editorial_draft_present": true
+      "editorial_draft_present": true,
+      "latest_test_evidence": "All-week navigation and suite passed on fdab0e3; corrected candidate awaiting exact build verification."
     },
     {
       "week": 35,
@@ -2418,7 +2452,8 @@
           }
         ]
       },
-      "editorial_draft_present": true
+      "editorial_draft_present": true,
+      "latest_test_evidence": "All-week navigation and suite passed on fdab0e3; corrected candidate awaiting exact build verification."
     },
     {
       "week": 36,
@@ -2498,7 +2533,8 @@
           }
         ]
       },
-      "editorial_draft_present": true
+      "editorial_draft_present": true,
+      "latest_test_evidence": "All-week navigation and suite passed on fdab0e3; corrected candidate awaiting exact build verification."
     },
     {
       "week": 37,
@@ -2578,7 +2614,8 @@
           }
         ]
       },
-      "editorial_draft_present": true
+      "editorial_draft_present": true,
+      "latest_test_evidence": "All-week navigation and suite passed on fdab0e3; corrected candidate awaiting exact build verification."
     },
     {
       "week": 38,
@@ -2658,7 +2695,8 @@
           }
         ]
       },
-      "editorial_draft_present": true
+      "editorial_draft_present": true,
+      "latest_test_evidence": "All-week navigation and suite passed on fdab0e3; corrected candidate awaiting exact build verification."
     },
     {
       "week": 39,
@@ -2738,7 +2776,8 @@
           }
         ]
       },
-      "editorial_draft_present": true
+      "editorial_draft_present": true,
+      "latest_test_evidence": "All-week navigation and suite passed on fdab0e3; corrected candidate awaiting exact build verification."
     },
     {
       "week": 40,
@@ -2818,7 +2857,8 @@
           }
         ]
       },
-      "editorial_draft_present": true
+      "editorial_draft_present": true,
+      "latest_test_evidence": "All-week navigation and suite passed on fdab0e3; corrected candidate awaiting exact build verification."
     }
   ],
   "phases": [
@@ -4883,7 +4923,7 @@
     "focused_readings_added": 49,
     "reference_records": 65,
     "static_route_validation": "239 feature paths and all 83 focused reading reference keys, related destinations and registry-backed IDs checked without missing IDs. All 18 PREG01 and 25 PREG03 phase article IDs represented in structure.",
-    "actual_build": "Exact candidate deployment BUILDING when recorded. Week22Pilot suite 44/44 passed, including all 40 week navigation. Complete build not yet verified.",
+    "actual_build": "fdab0e3: 335/335 tests passed across 15 files; research display validation passed, lint 3 warnings/0 errors; production TypeScript build failed two type errors (early size guard and unsupported test selector exact option). Both corrected in b4514e0; exact corrected deployment not yet observed. Build/visual/clinical gates remain open.",
     "complete_weeks": 0,
     "complete_phases": 0,
     "next_proposed_batch": "Validate pregnancy candidate and actual mobile rendering, then life-stage phase development. Maintain source/appraisal and publication gates."
