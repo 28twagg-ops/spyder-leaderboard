@@ -29,6 +29,8 @@ const ContraceptionPage=lazy(async()=>({default:(await import('./pages/Contracep
 const Week22TopicPage=lazy(async()=>({default:(await import('./pages/Week22TopicPage')).Week22TopicPage}))
 const SkinTopicPage=lazy(async()=>({default:(await import('./pages/SkinTopicPage')).SkinTopicPage}))
 
+const DevelopmentEvidencePage=lazy(async()=>({default:(await import('./pages/DevelopmentEvidencePage')).DevelopmentEvidencePage}))
+
 const EvidencePage = lazy(async () => {
   const mod = await import('./pages/EvidencePage')
   return { default: mod.EvidencePage }
@@ -53,6 +55,8 @@ function AppShell() {
         <Suspense fallback={<p className="muted">Loading…</p>}>
           <RoutePosition />
           <Routes>
+            <Route path="/research-pathways" element={<DevelopmentEvidencePage/>}/>
+            <Route path="/research-pathways/:topicId" element={<DevelopmentEvidencePage/>}/>
             <Route path="/contraception" element={<ContraceptionPage/>}/>
             <Route path="/contraception/:topic" element={<ContraceptionPage/>}/>
             <Route path="/" element={<TodayPage activePhaseId={activePhaseId} currentWeek={currentWeek} onSearch={query=>setBrowse({...emptyBrowse,query})}/>} />

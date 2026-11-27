@@ -132,3 +132,6 @@ Evidence: prior preview 8b51b5f76a0d4624cf2c1879021c52da98f82de1; preference/sea
 - [ ] Annual cost labels on podium and all-method rankings, live frequency and quote updates, and repair production build TypeScript test error; verify deployment.
 
 - [x] DOC-current: verified Pages 48e5f6ad deployment (430 tests/23 suites), created CURRENT_TRANSFER.md and open-source discovery standard; N01–N12 remain open as listed. No source-level clinical or real-device acceptance implied.
+
+- [x] ST1–7 targeted first development batch: source-check ledger, stage learning questions and app pathways authored; branch commits record implementation. Clinical and CI/owner verification pending.
+- [ ] ST1–7 comprehensive completion: full independent claim/funding/retraction/media audit, complete week/stage editorial depth, nutrition/product and maternal/paternal/environmental comparisons, clinical and device review. See batch report.
