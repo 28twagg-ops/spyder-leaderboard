@@ -1,29 +1,15 @@
-import { Link, useParams } from 'react-router-dom'
+import { Link } from 'react-router-dom'
 import { useViewState } from '../hooks/useViewMemory'
 import { Glyph } from '../components/Glyph'
-import { ReadingRow } from '../components/ReadingUI'
-import { DraftBanner } from '../components/DraftBanner'
-import { type GestationalWeek, gestationalWeeks, getSource } from '../data/researchCatalog'
-import { safeVisualUrl } from '../data/visualCatalog'
 
 /** One deliberately bounded design pilot. General educational concepts, not individual measurements or care instructions. */
-const concepts=[
- {id:'skin',label:'Skin',heading:'A fine layer of hair',copy:'Soft, tiny hairs called lanugo cover much of the body around this stage.',detail:'Lanugo is a normal part of fetal development. It is temporary and is different from the thicker hair that develops later.',source:'https://medlineplus.gov/ency/article/002398.htm'},
- {id:'movement',label:'Movement',heading:'Muscles are developing',copy:'As muscles develop, movement becomes more active. You may notice movement during this part of pregnancy.',detail:'The timing and way movement is felt vary. A week-by-week illustration cannot establish whether your baby is healthy. Contact your maternity care team if movement concerns you.',source:'https://medlineplus.gov/ency/article/002398.htm'},
- {id:'digestion',label:'Digestion',heading:'The first stool is forming',copy:'The intestines are beginning to contain meconium, the material that will become the first stool.',detail:'The word meconium describes the dark first stool. Its formation is a normal developmental process before birth, not a sign that the baby is ready for delivery.',source:'https://medlineplus.gov/ency/article/002398.htm'},
-] as const
-type Concept=typeof concepts[number]['id']
+type Concept='skin'|'movement'|'digestion'
 function ConceptDiagram({kind}:{kind:Concept}){
  return <svg viewBox="0 0 280 140" role="img" aria-label={kind==='skin'?'Schematic showing fine hairs on a skin surface':kind==='movement'?'Schematic showing movement in two directions around a joint':'Schematic showing material accumulating in an intestinal passage'} className="pilot-diagram">
  <g fill="none" stroke="currentColor" strokeWidth="1.7" strokeLinecap="round" strokeLinejoin="round">
  {kind==='skin'?<><path d="M27 78 Q83 70 140 78 T253 78L253 115H27Z" fill="var(--accent-soft)"/><path d="M27 96H253" opacity=".45"/>{[48,83,118,153,188,223].map(x=><path key={x} d={`M${x} 78q-3-24 9-38`}/>)}<path d="M188 35l25-17h37" strokeDasharray="2 4"/><text x="251" y="15" textAnchor="end" fill="currentColor" stroke="none" fontSize="11">Fine hair</text><text x="140" y="129" textAnchor="middle" fill="currentColor" stroke="none" fontSize="11">Skin surface</text></>:kind==='movement'?<><path d="M64 35l58 44 69-34" strokeWidth="17" stroke="var(--accent)" opacity=".28"/><path d="M64 35l58 44 69-34"/><circle cx="122" cy="79" r="9" fill="var(--bg-elevated)"/><path d="M122 79l65 34" strokeDasharray="5 5"/><path d="M213 42q30 38-2 75m0 0 3-15m-3 15 15-5"/><text x="139" y="20" textAnchor="middle" fill="currentColor" stroke="none" fontSize="11">Changing position</text></>:<><path d="M75 29h130q18 0 18 18t-18 18H87q-18 0-18 18t18 18h116" strokeWidth="22" opacity=".13"/><path d="M75 29h130q18 0 18 18t-18 18H87q-18 0-18 18t18 18h116" strokeWidth="1.7"/>{[100,120,140,160,180,200].map(x=><circle key={x} cx={x} cy="101" r="4" fill="var(--accent)" stroke="none"/>)}<path d="M150 110v13h64" strokeDasharray="2 4"/><text x="216" y="126" fill="currentColor" stroke="none" fontSize="11">Meconium</text></>}
  </g></svg>
 }
-const motherConcepts=[
- {id:'skin',label:'Skin',heading:'Your skin is stretching',copy:'As your belly grows, stretch marks may appear. Hormonal changes can also affect your skin.',detail:'Stretch marks are common, but not everyone develops them. They often fade over time. No product has been shown to reliably prevent them.',source:'https://www.nhs.uk/pregnancy/common-symptoms/stretch-marks/'},
- {id:'movement',label:'Movement',heading:'You may feel your baby move',copy:'Early movements can feel like small flutters. When you first notice them varies from one pregnancy to another.',detail:'If your baby is moving less than usual, stops moving, or its usual movement pattern changes, contact your maternity care team immediately. Do not wait until the next day.',source:'https://www.nhs.uk/pregnancy/keeping-well/your-babys-movements/'},
- {id:'digestion',label:'Digestion',heading:'Digestion may feel different',copy:'Bloating, constipation and heartburn can occur during pregnancy, including around this stage.',detail:'These symptoms vary. Discuss persistent or concerning symptoms with your care team rather than assuming they are caused by pregnancy.',source:'https://www.nhs.uk/best-start-in-life/pregnancy/week-by-week-guide-to-pregnancy/2nd-trimester/week-22/'},
-] as const
 function MotherDiagram({kind}:{kind:Concept}){
  return <svg viewBox="0 0 280 140" role="img" aria-label={kind==='skin'?'Concept illustration of skin expanding, with arrows pointing outward':kind==='movement'?'Concept illustration of movement sensations near a pregnant abdomen':'Concept illustration of digestion, with a dotted path through the intestine'} className="pilot-diagram">
  <g fill="none" stroke="currentColor" strokeWidth="1.7" strokeLinecap="round" strokeLinejoin="round">
@@ -31,20 +17,13 @@ function MotherDiagram({kind}:{kind:Concept}){
  </g></svg>
 }
 
-function PlacentaDiagram(){
- return <figure className="pilot-flow"><figcaption>How the connection works</figcaption><div className="pilot-flow-line"><div><strong>Mother</strong><small>Blood supply</small></div><span aria-hidden="true">↔</span><div><strong>Placenta</strong><small>Exchange</small></div><span aria-hidden="true">↔</span><div><strong>Baby</strong><small>Umbilical cord</small></div></div><p className="pilot-flow-key">Oxygen and nutrients pass toward the baby; waste products pass back through the placenta. The two blood supplies normally remain separate.</p><small>Concept diagram, not an anatomical drawing.</small></figure>
-}
-
 const base='/timeline/week/22'
 const entries={
  mother:[['Skin','Stretch marks & care','skin'],['Movement','Activity & movement','movement'],['Digestion','Digestive changes','digestion'],['Nutrition','Food & nutrients','nutrition'],['Your body','Pelvic floor & anatomy','body'],['Checkups','Prenatal care','checkups']],
  baby:[['Skin','Skin & fine hair','skin'],['Movement','Muscle development','movement'],['Digestion','First stool','digestion'],['Placenta','Oxygen & nutrients','placenta'],['Senses','Hearing & responses','senses'],['Growth','Development & anatomy','growth']]
 } as const
-function topicPath(subject:'mother'|'baby',topic:string){
- const direct:Record<string,string>={nutrition:'/research/EV-ART-015',body:'/research/EV-ART-020',checkups:'/research/EV-ART-013',placenta:'/visuals/EV-V005',senses:'/research/EV-ART-014',growth:'/research/EV-ART-014'}
- return direct[topic]??base+'/'+subject+'/'+topic
-}
-function TopicArt({subject,topic}:{subject:'mother'|'baby';topic:string}){
+function topicPath(subject:'mother'|'baby',topic:string){return base+'/'+subject+'/'+topic}
+export function TopicArt({subject,topic}:{subject:'mother'|'baby';topic:string}){
  if(topic==='skin'||topic==='movement'||topic==='digestion')return subject==='mother'?<MotherDiagram kind={topic}/>:<ConceptDiagram kind={topic}/>
  return <svg viewBox="0 0 140 75" aria-hidden="true" focusable="false" className="directory-art"><g stroke="currentColor" strokeWidth="1.65" fill="none" strokeLinecap="round" strokeLinejoin="round">
  {topic==='nutrition'?<><path d="M70 23c-14-14-33-3-29 16 3 14 13 25 22 24l7-3 7 3c10 1 20-13 22-24 3-19-15-30-29-16Z" fill="var(--accent-soft)"/><path d="M70 24c0-15 9-17 21-17-3 10-11 14-21 12"/></>:topic==='body'?<><path d="M49 12q-12 23-2 36t23 16q13-2 23-16t-2-36M49 38q21 18 42 0M70 18v35" fill="var(--accent-soft)"/><path d="M49 50q21 13 42 0"/></>:topic==='checkups'?<><rect x="44" y="13" width="52" height="52" rx="6" fill="var(--accent-soft)"/><path d="M59 13v-5h22v5M54 40h9l5-10 7 21 5-11h7"/></>:topic==='placenta'?<><ellipse cx="65" cy="35" rx="27" ry="22" fill="var(--accent-soft)"/><path d="M65 54V34l-12-12m12 12 13-15M65 34l-17 8m17-8 19 8M65 54q8 13 26 10"/></>:topic==='senses'?<><path d="M57 55c-9-8-15-14-15-24a24 24 0 1 1 48 0c0 13-14 18-15 27-2 15-18 13-18-3Z" fill="var(--accent-soft)"/><path d="M56 32c0-15 20-17 20-3 0 8-9 10-11 18M102 22q12 10 0 22"/></>:<><circle cx="70" cy="21" r="13" fill="var(--accent-soft)"/><path d="M70 34v21m-19-15 19 8 19-8m-31 26 12-11 12 11"/></>}
@@ -60,20 +39,4 @@ export function Week22Pilot(){
  <div className="week-safety-note" role="note" aria-label="Content status">Research draft, not medical advice. If usual baby movements slow, stop or change, contact your maternity team immediately. <Link to="/urgent">Warning signs</Link></div>
  <div className="page-controls"><Link className="btn btn-ghost" to="/timeline/week/21">Previous</Link><Link className="week-select-link" to="/timeline/pregnancy">Choose week</Link><Link className="btn btn-ghost" to="/timeline/week/23">Next</Link></div>
  </div>
-}
-export function Week22ConceptPage(){
- const {subject,topic}=useParams()
- const validSubject=subject==='mother'||subject==='baby'
- const week=gestationalWeeks.find(w=>w.week===22) as GestationalWeek|undefined
- if(!validSubject||!week||!['skin','movement','digestion'].includes(topic??''))return <div className="stack"><h1 className="page-title">Topic not found</h1><Link to={base}>Back to Week 22</Link></div>
- const isBaby=subject==='baby',items=isBaby?concepts:motherConcepts
- const concept=items.find(item=>item.id===topic)!
- const source=week.source_id?getSource(week.source_id):undefined
- return <div className="pilot-week stack-lg"><header className="pilot-header"><Link className="reader-back" to={base}><Glyph name="back"/>Week 22</Link><small className="pilot-kicker">{isBaby?'BABY':'MOTHER'}</small><h1 className="page-title">{concept.label}</h1></header>
- <div className="pilot-visual">{isBaby?<ConceptDiagram kind={concept.id}/>:<MotherDiagram kind={concept.id}/>}</div><h2 className="section-title">{concept.heading}</h2><p>{concept.copy} <a href={concept.source} target="_blank" rel="noreferrer">[1]</a></p><small className="muted">Concept illustration, not clinical anatomy.</small>
- <details className="panel disclosure"><summary>Understand more</summary><p>{concept.detail} <a href={concept.source} target="_blank" rel="noreferrer">[1]</a></p></details>
- <div className="pilot-safety"><strong>Safety comes first</strong><p>Contact your maternity care team immediately if movements slow, stop or change from their usual pattern.</p><Link to="/urgent">Know the warning signs ›</Link></div>
- {isBaby?<><ReadingRow to="/research/EV-ART-014" title="How the baby develops"/><ReadingRow to="/visuals/EV-V005" title="Explore the placenta"/><details className="panel disclosure"><summary>How the placenta supports your baby</summary><PlacentaDiagram/></details></>:<ReadingRow to={topic==='movement'?'/research/EV-ART-016':'/research/EV-ART-015'} title={topic==='movement'?'Activity and strength':'Nutrition and food safety'}/>}
- <details className="panel disclosure"><summary>Original week sources</summary><p>{week.description}</p><p>{week.interpretation}</p>{safeVisualUrl(source?.url)&&<a href={safeVisualUrl(source?.url)} target="_blank" rel="noreferrer">{source?.title??'Original week reference'} ↗</a>}<p><a href={concept.source} target="_blank" rel="noreferrer">[1] Original topic source ↗</a></p></details>
- <DraftBanner status="research_only"/></div>
 }

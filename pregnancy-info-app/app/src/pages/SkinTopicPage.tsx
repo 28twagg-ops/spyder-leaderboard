@@ -8,15 +8,15 @@ import {isSourceOrOutcomeHeld} from '../data/researchGate'
 
 const root='/timeline/week/22/mother/skin'
 const subtitles:Record<string,string>={prevention:'Creams, oils, massage and collagen',comfort:'Dryness and everyday care','acne-pigmentation':'Acne, dark spots and sun protection',treatment:'Existing marks and elective procedures',hair:'Hair cycle and shedding',scar:'Surgical scars and wound recovery'}
-function Footnote({id,n}:{id:string;n:number}){
+export function Footnote({id,n}:{id:string;n:number}){
  const source=getEvidenceSource(id),url=safeVisualUrl(source?.url??undefined)
  return url&&!isSourceOrOutcomeHeld(id)?<a className="skin-footnote" href={url} target="_blank" rel="noreferrer" aria-label={`Source ${n}: ${source?.title??id}`}>[{n}]</a>:<span>[{n}]</span>
 }
-function SourceDisclosure({ids}:{ids:string[]}){
+export function SourceDisclosure({ids}:{ids:string[]}){
  const groups=sourceGroups(ids)
  return <details className="panel disclosure"><summary>Sources &amp; funding ({ids.length} records)</summary><p className="small-copy muted">Source records, not independent study counts. Possible duplicate publications grouped; cohort review remains pending.</p>{groups.map(group=><details className="skin-source disclosure" key={group.ids.join(':')}><summary>{group.sources[0]?.title??group.ids.join(', ')}{group.held?' · Held':''}</summary><p className="small-copy muted">{group.ids.join(' · ')}</p>{group.held?<p>Held for review. No results or treatment guidance displayed.</p>:group.sources.map(source=><div key={source.id} className="skin-source-meta"><p><strong>{source.id}</strong> · {source.year??'Year not recorded'}</p><p><strong>Funding:</strong> {source.funding??'Not verified'}</p><p><strong>Author ties:</strong> {source.financial_ties??'Not verified'}</p><p><strong>Sponsor role / methods:</strong> Further appraisal required.</p>{safeVisualUrl(source.url??undefined)&&<a href={safeVisualUrl(source.url??undefined)} target="_blank" rel="noreferrer">Original source ↗</a>}</div>)}</details>)}</details>
 }
-function NumericRecords({ids}:{ids:string[]}){
+export function NumericRecords({ids}:{ids:string[]}){
  const rows=subsectionOutcomes(ids)
  if(!rows.length)return null
  return <details className="panel disclosure"><summary>Recorded outcomes ({rows.length})</summary>{rows.map(row=><div className="skin-source-meta" key={row.id}><strong>{row.outcome}</strong><p className="small-copy muted">{row.id} · {row.source_id}</p>{row.held?<p>Held — values withheld.</p>:<><p>{row.estimate==null?'See original report for group results':`${row.measure??'Estimate'}: ${row.estimate}${row.lower!=null&&row.upper!=null?` (interval ${row.lower}–${row.upper})`:''}`}</p><p className="small-copy muted">Research extraction only; chart approval pending.</p></>}</div>)}</details>
