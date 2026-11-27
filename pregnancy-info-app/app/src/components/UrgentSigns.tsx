@@ -9,7 +9,7 @@ export function UrgentSigns() {
           Get help right away for these
         </h2>
         <p className="muted" style={{ margin: 0, fontSize: '0.92rem' }}>
-          This list is always available. The app cannot triage emergencies.
+          This is not a full list. The app cannot tell how serious an emergency is.
         </p>
       </div>
       <ul className="list-clean">

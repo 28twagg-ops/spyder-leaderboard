@@ -2,316 +2,316 @@
 export interface ReadingOverview {why:string;concepts:[string,string,string]}
 const topics:[string,string,string,string][]=[
   [
-    "Understand which preparation questions concern you and your partner before conception.",
-    "Health history",
-    "Everyday habits",
-    "Care planning"
+    "Thinking about a baby? Learn what you and your partner can plan for.",
+    "Your health",
+    "Daily habits",
+    "Care plans"
   ],
   [
-    "Understand why folic acid is discussed before pregnancy and what to ask about supplements.",
-    "Timing",
-    "Development",
-    "Supplement questions"
+    "Learn why this B vitamin matters before a baby starts to grow.",
+    "When",
+    "Baby's growth",
+    "Vitamin choices"
   ],
   [
-    "Include the father's health and workplace conditions in family preparation.",
-    "Father's health",
-    "Work exposures",
-    "Research limits"
+    "A dad's health is part of the story, too. Learn what to ask about at work and at home.",
+    "Dad's health",
+    "Work risks",
+    "What we know"
   ],
   [
-    "Understand fertility treatment options and the difference between an IVF outcome and a claim about acupuncture.",
-    "Treatment options",
-    "Outcome measures",
-    "Evidence limits"
+    "Learn how fertility care works. See what studies of IVF and acupuncture can tell us.",
+    "Care choices",
+    "Birth rates",
+    "Study limits"
   ],
   [
-    "Make sense of food and supplement choices without assuming more products are better.",
+    "Learn how food and vitamins fit together. More is not always better.",
     "Food",
     "Nutrients",
-    "Supplement labels"
+    "Vitamin labels"
   ],
   [
-    "Compare prenatal supplement labels, ingredients and quality questions.",
-    "Ingredients",
-    "Product testing",
-    "Care discussion"
+    "Not all prenatal vitamins are the same. Learn what a label can tell you.",
+    "What's inside",
+    "Product tests",
+    "Questions to ask"
   ],
   [
-    "Understand the research linking fish, DHA and early brain development.",
-    "Food sources",
+    "Learn how fish and a fat called DHA fit into the baby's brain research.",
+    "Fish",
     "DHA",
-    "Development evidence"
+    "Brain studies"
   ],
   [
-    "Learn what research examines about choline and iodine in early development.",
+    "Learn about two nutrients that are studied in a baby's growth.",
     "Choline",
     "Iodine",
-    "Evidence limits"
+    "Study limits"
   ],
   [
-    "Distinguish nutrient questions instead of treating every supplement as interchangeable.",
+    "Learn why the body needs different nutrients. See how they differ.",
     "Minerals",
     "Vitamin D",
     "Probiotics"
   ],
   [
-    "Identify the kinds of everyday and occupational exposures worth learning about.",
+    "Learn what risks to look for at home and at work.",
     "Home",
-    "Workplace",
-    "Exposure context"
+    "Work",
+    "Health risks"
   ],
   [
-    "Understand where questions about PFAS and plastics fit into practical household choices.",
+    "Learn about plastics and PFAS, a group of chemicals that last a long time.",
     "Materials",
-    "Exposure routes",
-    "Costs and evidence"
+    "How they spread",
+    "Cost and evidence"
   ],
   [
-    "Understand environmental questions that can affect everyday decisions during pregnancy.",
-    "Produce",
-    "Air quality",
+    "Learn about food, smoke in the air and hot days.",
+    "Food",
+    "Air",
     "Heat"
   ],
   [
-    "Know the purpose of prenatal visits, screening and follow-up discussions.",
+    "Learn what happens at a pregnancy checkup and why tests are done.",
     "Visits",
-    "Screening",
-    "Follow-up"
+    "Tests",
+    "Next steps"
   ],
   [
-    "Understand the sequence of fetal development without treating a timeline as an individual prediction.",
-    "Early development",
-    "Placenta and circulation",
+    "See how a baby grows before birth. Every baby grows at their own pace.",
+    "Early growth",
+    "Placenta",
     "Later growth"
   ],
   [
-    "Recognize the food-safety topics that are especially relevant when preparing meals during pregnancy.",
+    "Learn which food safety questions matter when you are pregnant.",
     "Food types",
-    "Preparation",
-    "Infection questions"
+    "Cooking",
+    "Germs"
   ],
   [
-    "Understand what the research considers when discussing movement during pregnancy.",
+    "Learn about staying active and getting stronger while pregnant.",
     "Movement",
     "Strength",
-    "Safety context"
+    "Safety"
   ],
   [
-    "Distinguish common nausea questions from questions about remedies and when symptoms require care.",
-    "Symptoms",
-    "Remedy evidence",
-    "Care and safety"
+    "Feeling sick is a common topic in pregnancy. Learn about nausea and what needs care.",
+    "Feeling sick",
+    "Remedies",
+    "When to get help"
   ],
   [
-    "Understand skin changes, comfort questions and what evidence is needed for product claims.",
-    "Skin structure",
+    "Learn how the skin changes as your belly grows. See what is known about skin products.",
+    "Skin layers",
     "Comfort",
-    "Product evidence"
+    "Product claims"
   ],
   [
-    "Understand why breast changes and appearance are discussed separately from feeding choices.",
+    "Learn why breasts change in pregnancy and why looks and feeding are separate topics.",
     "Body changes",
-    "Appearance",
-    "Feeding questions"
+    "Looks",
+    "Feeding"
   ],
   [
-    "Locate the body structures and understand why strength, relaxation and pain are separate questions.",
-    "Pelvic floor",
-    "Pain and comfort",
-    "Birth preparation"
+    "Learn about the muscles at the bottom of your pelvis. They can be weak, tight or sore.",
+    "Pelvic muscles",
+    "Pain",
+    "Birth prep"
   ],
   [
-    "Understand what can be discussed before labor, including preferences and support.",
+    "Learn what you can talk about before birth, from comfort to your care team.",
     "Support",
-    "Preferences",
+    "Your wishes",
     "Birth care"
   ],
   [
-    "Distinguish traditional birth-related practices from questions that require professional assessment.",
-    "Traditional claims",
-    "Breech position",
-    "Safety limits"
+    "Learn what studies say about herbs, dates and a baby that is bottom-first.",
+    "Traditions",
+    "Baby's position",
+    "Safety"
   ],
   [
-    "Know what topics are involved in the baby's transition immediately after birth.",
-    "Clinical checks",
+    "Learn what the birth team checks just after your baby is born.",
+    "Baby's checks",
     "Warmth",
     "Feeding"
   ],
   [
-    "Recognize that urgent maternal warning signs are a distinct topic, not something to sort by popularity.",
+    "Know where to find signs that you need help right away during or after pregnancy.",
     "Warning signs",
-    "Getting help",
-    "Pregnancy and recovery"
+    "Get help",
+    "Before and after birth"
   ],
   [
-    "Understand why postpartum recovery includes follow-up, rest and changing needs.",
-    "Follow-up",
+    "Recovery does not end at one visit. Learn about rest, healing and support.",
+    "Checkups",
     "Rest",
     "Support"
   ],
   [
-    "Understand the different healing questions after cesarean birth or perineal injury.",
-    "Cesarean healing",
-    "Perineal healing",
-    "Activity questions"
+    "Learn about healing after a C-section or a tear during birth.",
+    "C-section",
+    "Birth tears",
+    "Movement"
   ],
   [
-    "Understand the abdominal structures and the difference between muscle function and separation.",
-    "Abdominal wall",
-    "Muscle separation",
-    "Function"
+    "Learn about the belly muscles and the gap that can form between them.",
+    "Belly muscles",
+    "The gap",
+    "Strength"
   ],
   [
-    "Understand recovery questions about pelvic floor function and returning to activity.",
-    "Pelvic floor",
+    "Learn about the muscles that support your bladder and how movement fits into recovery.",
+    "Pelvic muscles",
     "Symptoms",
-    "Activity"
+    "Movement"
   ],
   [
-    "Recognize mood, sleep and family support as distinct parts of postpartum wellbeing.",
+    "Learn why sleep, feelings and help from others are part of healing.",
     "Mood",
     "Sleep",
     "Support"
   ],
   [
-    "Understand the personal and health questions around intimacy, contraception and another pregnancy.",
+    "Learn about sex after birth, birth control and plans for another baby.",
     "Comfort and consent",
-    "Contraception",
+    "Birth control",
     "Future pregnancy"
   ],
   [
-    "Compare common appearance concerns with evidence questions about elective treatments.",
+    "Learn about hair and skin changes after birth and what studies say about treatments.",
     "Hair",
     "Skin",
-    "Treatment evidence"
+    "Treatment claims"
   ],
   [
-    "Understand the different feeding approaches without turning feeding into a competition.",
-    "Breastfeeding",
+    "Learn about the ways to feed a baby. All parents deserve support.",
+    "Breast milk",
     "Formula",
-    "Mixed feeding"
+    "Both"
   ],
   [
-    "Understand the topics involved in preparing and handling infant formula safely.",
-    "Preparation",
-    "Handling",
+    "Learn about the steps and safety rules behind making a bottle of formula.",
+    "Making bottles",
+    "Storage",
     "Safety"
   ],
   [
-    "Understand the distinction between milk supply, feeding cues and growth questions.",
+    "Learn about breast milk supply, hunger signs and how babies grow.",
     "Milk supply",
-    "Feeding cues",
+    "Hunger signs",
     "Growth"
   ],
   [
-    "Recognize why infant nutrient questions depend on age and feeding context.",
+    "Learn why a baby's need for vitamins and iron can change with age and feeding.",
     "Vitamin D",
     "Iron",
-    "Feeding context"
+    "Feeding"
   ],
   [
-    "Find the original visual guidance about an infant's sleep environment.",
+    "Learn where to find pictures of a safe place for a baby to sleep.",
     "Sleep surface",
-    "Sleep setting",
-    "Original safety guidance"
+    "Sleep space",
+    "Safety guide"
   ],
   [
-    "Know where to find urgent infant illness information rather than relying on search results for triage.",
+    "Find the signs that a sick baby may need help right away.",
     "Illness",
-    "Urgent help",
-    "Care context"
+    "Get help",
+    "Care"
   ],
   [
-    "Understand the purpose of newborn screening and follow-up for jaundice and hearing.",
-    "Screening",
-    "Jaundice",
+    "Learn about tests after birth, yellow skin and hearing checks.",
+    "Tests",
+    "Yellow skin",
     "Hearing"
   ],
   [
-    "Compare diapering options and understand where optional cue-based toileting fits.",
+    "Learn about diaper choices and signs a baby may need to go to the toilet.",
     "Diapers",
-    "Cues",
-    "Toileting"
+    "Signs",
+    "Toilet learning"
   ],
   [
-    "Understand crying and colic questions alongside caregiver comfort and support.",
+    "Learn about crying and ways to think about comfort and getting help.",
     "Crying",
-    "Carrying",
-    "Caregiver support"
-  ],
-  [
-    "Understand the different contexts of gentle contact and clinical kangaroo care.",
-    "Gentle touch",
-    "Awake contact",
-    "Clinical context"
-  ],
-  [
-    "Find everyday interaction topics that relate to early communication and play.",
-    "Talking",
-    "Reading",
-    "Playing"
-  ],
-  [
-    "Understand the movement and floor-play topics used in early developmental reading.",
-    "Floor play",
-    "Movement",
-    "Development"
-  ],
-  [
-    "Understand the difference between everyday milestone observation and formal screening.",
-    "Observation",
-    "Milestones",
-    "Screening"
-  ],
-  [
-    "Explore screen-use questions and communication in the family's languages.",
-    "Screens",
-    "Language",
-    "Interaction"
-  ],
-  [
-    "Understand the transition from milk feeding to complementary foods.",
-    "Milk feeding",
-    "Food introduction",
-    "Readiness questions"
-  ],
-  [
-    "Distinguish allergy questions from choking-prevention questions when learning about foods.",
-    "Allergens",
-    "Food texture",
-    "Choking safety"
-  ],
-  [
-    "Understand growth and mealtime questions without turning food into a performance score.",
-    "Growth",
-    "Meals",
-    "Hunger and fullness"
-  ],
-  [
-    "Find child-safety topics for teeth, water and travel.",
-    "Dental care",
-    "Water safety",
-    "Travel"
-  ],
-  [
-    "Understand preventive visits and how to locate vaccine information for discussion with a clinician.",
-    "Checkups",
-    "Immunization",
-    "Care questions"
-  ],
-  [
-    "Explore toilet-learning readiness and caregiver questions without treating age as a deadline.",
-    "Readiness",
-    "Routines",
+    "Holding",
     "Support"
   ],
   [
-    "Understand why natural or experimental infant remedies need careful evidence and safety review.",
-    "Remedy claims",
-    "Evidence quality",
-    "Infant safety"
+    "Learn about gentle touch, skin-to-skin time and special care in the hospital.",
+    "Touch",
+    "Skin-to-skin",
+    "Hospital care"
+  ],
+  [
+    "Learn how talking, books and play fit into the way babies learn.",
+    "Talking",
+    "Reading",
+    "Play"
+  ],
+  [
+    "Learn about floor play and how babies learn to move.",
+    "Floor play",
+    "Movement",
+    "Growth"
+  ],
+  [
+    "Learn about skills to watch for as a child grows and when checks may help.",
+    "Skills",
+    "Watching growth",
+    "Checkups"
+  ],
+  [
+    "Learn about screen time and the ways a family talks and plays together.",
+    "Screens",
+    "Language",
+    "Play"
+  ],
+  [
+    "Learn about the move from milk to food and signs of being ready.",
+    "Milk",
+    "First foods",
+    "Readiness"
+  ],
+  [
+    "Learn the difference between food allergies and the risk of choking.",
+    "Allergy",
+    "Food texture",
+    "Choking"
+  ],
+  [
+    "Learn about growth, meals and how children show they are hungry or full.",
+    "Growth",
+    "Meals",
+    "Hunger signs"
+  ],
+  [
+    "Find safety topics for teeth, water and car rides.",
+    "Teeth",
+    "Water",
+    "Car rides"
+  ],
+  [
+    "Learn what to ask about vaccines and health visits for your child.",
+    "Checkups",
+    "Vaccines",
+    "Questions"
+  ],
+  [
+    "Learn about signs a child may be ready to use the toilet. It is not a race.",
+    "Readiness",
+    "Daily habits",
+    "Support"
+  ],
+  [
+    "Learn why a remedy that is natural still needs to be checked for safety.",
+    "Remedies",
+    "Study results",
+    "Baby safety"
   ]
 ]
 const byId=new Map(topics.map(([why,...concepts],index)=>['EV-ART-'+String(index+1).padStart(3,'0'),{why,concepts}] as const))

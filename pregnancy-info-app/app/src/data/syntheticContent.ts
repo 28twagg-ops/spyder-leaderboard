@@ -27,7 +27,7 @@ export interface UrgentSign {
 }
 
 export const APP_DISCLAIMER =
-  'Everwell is an educational research prototype. It does not diagnose, treat, or replace care from a qualified clinician. All clinical content remains draft until qualified review and owner release.'
+  'Everwell is a research draft, not medical advice. It cannot diagnose or treat you. A qualified health professional must review the content before release. Do not use it instead of medical care.'
 
 export const phases: PhaseCard[] = [
   {
@@ -160,19 +160,19 @@ export const topics: TopicCard[] = [
 export const urgentSigns: UrgentSign[] = [
   {
     id: 'u-maternal-bleeding',
-    title: 'Heavy bleeding or severe abdominal pain in pregnancy',
-    detail: 'Seek urgent clinical evaluation. This app cannot triage emergencies.',
+    title: 'Heavy bleeding or severe belly pain in pregnancy',
+    detail: 'Get medical help right away. This app cannot tell how serious an emergency is.',
     audience: 'maternal',
   },
   {
     id: 'u-postpartum-mood',
-    title: 'Thoughts of self-harm or harming the baby',
+    title: 'Thoughts of hurting yourself or the baby',
     detail: 'Get urgent help from emergency services or a crisis line. You are not alone.',
     audience: 'maternal',
   },
   {
     id: 'u-infant-breathing',
-    title: 'Infant breathing trouble, blue lips, or unresponsiveness',
+    title: 'Baby has trouble breathing, blue lips, or does not respond',
     detail: 'Call emergency services immediately.',
     audience: 'infant',
   },

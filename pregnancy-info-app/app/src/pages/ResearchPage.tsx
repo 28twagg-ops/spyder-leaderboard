@@ -1,4 +1,5 @@
 import { Glyph } from '../components/Glyph'
+import { plainReading } from '../data/plainReading'
 import { readingOverview } from '../data/readingOverviews'
 import { TopicOverview } from '../components/TopicOverview'
 import { useAppBack } from '../hooks/navigationContext'
@@ -35,6 +36,7 @@ export function ResearchPage() {
   const guidanceBlocked = !maySurfaceAsGuidance(safety)
   const visuals = articleVisuals(article.id, article.visual_ids ?? [])
   const purpose=readingOverview(article.id)
+  const plain=plainReading(article.id)
   const urgent=article.priority==='urgent'||article.high_risk===true
   const why=purpose&&<section className="reader-purpose-block"><h2 className="section-title">Why it matters</h2><p className="reader-purpose">{purpose.why}</p></section>
 
@@ -48,14 +50,15 @@ export function ResearchPage() {
         <h1 className="page-title">
           {article.title}
         </h1>
-        <p className="small-copy muted">Research draft · clinical review pending</p>
+        <p className="small-copy muted">Draft · medical review still needed</p>
       </header>
 
       <DraftBanner status="research_only" />
       {!urgent&&why}
       <section className="panel stack safety-panel">
         <div className="section-label danger">Visible safety</div>
-        <p style={{ margin: 0 }}>{article.visible_safety}</p>
+        <p style={{ margin: 0 }}>{plain?.safety??article.visible_safety}</p>
+        {plain&&<details className="disclosure"><summary>Full safety note</summary><p>{article.visible_safety}</p></details>
       </section>
 
       {urgent&&why}
@@ -64,16 +67,15 @@ export function ResearchPage() {
       <div className="surface-list reader-sections">
       <details className="panel disclosure reader-section">
         <summary>Archived AI summary for comparison</summary>
-        <p>Independent appraisal and clinical review are pending. This draft is for research comparison only.</p>
-        <p>{article.quick_answer}</p>
-        <p className="muted">{article.learn_more}</p>
+        <p>This is a draft, not medical advice. Experts still need to check the studies and the health information.</p>
+        {plain&&<><h3 className="section-title">In plain words</h3><p>{plain.detail}</p></>}
+        <details className="disclosure"><summary>Original research draft</summary><p>{article.quick_answer}</p><p className="muted">{article.learn_more}</p></details>
       </details>
 
       <details className="panel disclosure reader-section">
         <summary>Archived draft actions ({relatedActions.length})</summary>
         <p className="muted">
-          These are unreviewed comparison records, not instructions to follow or a personal care plan.
-          Automation remains blocked.
+          These are draft records to compare, not a care plan or steps to follow. The app does not turn them into tasks.
         </p>
         <ul className="list-clean">
           {relatedActions.map((action) => (
@@ -93,7 +95,7 @@ export function ResearchPage() {
 
       <details className="panel disclosure reader-section">
         <summary>Archived FAQ ({relatedFaqs.length})</summary>
-        <p className="muted">Unreviewed comparison material, not individualized advice.</p>
+        <p className="muted">Draft answers, not advice for your own care.</p>
         <ul className="list-clean">
           {relatedFaqs.map((faq) => (
             <li key={faq.id}>
@@ -117,10 +119,10 @@ export function ResearchPage() {
         <div className="stack">{visuals.map(record=><ReadingRow key={record.id} to={`/visuals/${record.id}`} title={record.title} subtitle="Original reference · approval pending"/>)}</div>
       </details>}
       <details className="panel disclosure reader-section">
-        <summary>Sources & funding context</summary>
+        <summary>Studies & who paid for them</summary>
         <p className="muted">
-          Guidance path for this article:{' '}
-          <strong>{guidanceBlocked ? 'blocked (fail-closed)' : 'allowed'}</strong>
+          Can this app use this draft for medical advice?{' '}
+          <strong>{guidanceBlocked ? 'No — blocked until review' : 'allowed'}</strong>
         </p>
         {heldSources.length > 0 && (
           <p className="muted">
@@ -151,8 +153,7 @@ export function ResearchPage() {
       </div>
       <section className="stack"><h2 className="section-title">Related reading</h2><div className="surface-list">{articlesByDomain(article.domain).filter(a=>a.id!==article.id).slice(0,3).map(a=><ReadingRow key={a.id} to={`/research/${a.id}`} title={a.title}/>)}</div></section>
       <p className="muted" style={{ fontSize: '0.85rem' }}>
-        Stage-09 curated text is archived AI comparison/navigation material until independent
-        appraisal and qualified clinical review.
+        These research notes were drafted with AI. Independent study checks and medical review are still needed.
       </p>
 
       <button type="button" className="btn btn-ghost" onClick={back}>Back to previous view</button>
