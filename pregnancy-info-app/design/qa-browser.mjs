@@ -12,7 +12,7 @@ import { spawnSync } from 'node:child_process'
 
 const app = resolve(process.argv[2] || process.cwd())
 const dist = join(app, 'dist')
-const artifacts = join(app, 'qa-artifacts')
+const artifacts = join(app, 'qa-artifacts.local')
 await stat(join(dist, 'index.html'))
 await mkdir(artifacts, { recursive:true })
 const require = createRequire(join(app, 'package.json'))
