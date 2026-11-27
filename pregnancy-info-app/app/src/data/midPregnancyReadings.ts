@@ -3,6 +3,22 @@
 export type MidReference={title:string;url:string;sourceId?:string}
 export type MidReading={title:string;art:string;window:string;summary?:string;question?:string;sections:{title:string;body:string;refs:string[]}[];related:[string,string][]}
 export const midReferences:Record<string,MidReference>={
+"ECHO": {
+    "title": "ECHO Consortium, 2021: prenatal micronutrient intake",
+    "url": "https://doi.org/10.1093/jn/nxab273"
+  },
+  "GAP2019": {
+    "title": "Bailey et al., 2019: US pregnancy nutrient intakes (industry-funded comparison)",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/31225890/"
+  },
+  "IRON2026": {
+    "title": "Weyand et al., 2026: iron deficiency in US pregnancy",
+    "url": "https://doi.org/10.1002/ajh.70207"
+  },
+  "IOD2024": {
+    "title": "Sun and Weaver, 2024: iodine intake trends in US girls and women",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/38218541/"
+  },
 "CHOL1": {
     "title": "Caudill et al. 2018: randomized choline feeding trial",
     "url": "https://pubmed.ncbi.nlm.nih.gov/29217669/",
@@ -369,7 +385,7 @@ export const midReferences:Record<string,MidReference>={
   }
 }
 export const midReadings:Record<string,MidReading>={
-"mother/nutrition/choline": {
+  "mother/nutrition/choline": {
     "title": "Choline: membranes, signaling and brain research",
     "art": "brain",
     "window": "Throughout pregnancy; no established week-specific extra dose",
@@ -381,6 +397,14 @@ export const midReadings:Record<string,MidReading>={
         "body": "Eggs, meat, fish, dairy and soy foods contribute choline. It participates in phospholipid formation and methyl-group metabolism. Check what a prenatal actually contains rather than assuming every prenatal includes it.",
         "refs": [
           "NUTR"
+        ]
+      },
+      {
+        "title": "How common is low intake?",
+        "body": "In 15 US ECHO cohorts (1999–2019), only 7% exceeded the adequate-intake benchmark when supplements were included. The complement, 93%, did not exceed that benchmark; it is not a clinical deficiency rate. A separate 2019 NHANES analysis similarly found only 8% met the benchmark, but was funded by Nestlé Nutrition, with employee authors and a paid statistical analysis agreement. Agreement does not make the studies independent replications of clinical deficiency.",
+        "refs": [
+          "ECHO",
+          "GAP2019"
         ]
       },
       {
@@ -428,6 +452,14 @@ export const midReadings:Record<string,MidReading>={
         "title": "Food and product sources",
         "body": "Iodized salt, dairy, eggs and seafood can contribute iodine. Salt used in packaged foods is not necessarily iodized. Seaweed iodine content can vary substantially. Adequacy is not a reason to add extra salt or concentrated kelp supplements.",
         "refs": [
+          "NUTR"
+        ]
+      },
+      {
+        "title": "What population measurements show",
+        "body": "NIH summarizes a 2017–2020 NHANES analysis in which pregnant participants had a median urinary iodine concentration of 131.4 mcg/L, below the population benchmark of 150 mcg/L. A spot urine result cannot diagnose individual iodine deficiency; the population median and dietary estimate answer different questions. Review thyroid history and intake rather than adding concentrated iodine.",
+        "refs": [
+          "IOD2024",
           "NUTR"
         ]
       },
@@ -510,6 +542,14 @@ export const midReadings:Record<string,MidReading>={
         "body": "Nuts, seeds, beans, whole grains and leafy vegetables contribute magnesium. It participates in enzyme activity and normal nerve and muscle function.",
         "refs": [
           "NUTR"
+        ]
+      },
+      {
+        "title": "How common is low intake?",
+        "body": "In ECHO, 39–41% had estimated total intake below the average requirement; a separate 2019 NHANES analysis estimated 47.5%. These are estimates from reported dietary intake, not blood-test diagnoses. The latter study had commercial funding; both have measurement limitations.",
+        "refs": [
+          "ECHO",
+          "GAP2019"
         ]
       },
       {
@@ -680,6 +720,13 @@ export const midReadings:Record<string,MidReading>={
         ]
       },
       {
+        "title": "How common is laboratory-defined deficiency?",
+        "body": "In a 2026 analysis of 726 pregnant NHANES participants (2003–2010 and 2015–2023), 52.9% had ferritin below 30 ng/mL (95% CI 47.6–58.1); 26.9% were below 15 ng/mL (95% CI 22.5–31.3). Iron-deficiency anemia was estimated at 6.9%. Gestational age was unavailable and inflammation can raise ferritin. Authors reported nothing under funding and declared no conflicts. Population estimates do not establish a personal diagnosis or an indication for extra iron.",
+        "refs": [
+          "IRON2026"
+        ]
+      },
+      {
         "title": "What prevention research shows",
         "body": "A Cochrane review of daily oral supplementation examines maternal anemia and related pregnancy outcomes. Evidence for anemia prevention is distinct from claims of improved child development, and routine prevention trials should not be treated as treatment protocols for established deficiency.",
         "refs": [
@@ -760,6 +807,13 @@ export const midReadings:Record<string,MidReading>={
         "body": "Vitamin D supports calcium absorption and normal bone mineralization. Fatty fish and fortified foods can contribute, and skin can synthesize vitamin D in response to sunlight. Avoid equating intentional excess sun exposure with a treatment plan.",
         "refs": [
           "NUTR"
+        ]
+      },
+      {
+        "title": "How common is low intake?",
+        "body": "ECHO estimated 20–38% below the average requirement including supplements, varying by assessment method. This is not the prevalence of low serum vitamin D. Sun exposure, metabolism and other factors influence status.",
+        "refs": [
+          "ECHO"
         ]
       },
       {
@@ -958,7 +1012,7 @@ export const midReadings:Record<string,MidReading>={
       ]
     ]
   },
-"mother/checkups/pregnancy-dating": {
+  "mother/checkups/pregnancy-dating": {
     "title": "Why pregnancy dating begins before conception",
     "art": "calendar",
     "window": "Gestational weeks 1–2 are a dating convention",
@@ -1767,7 +1821,7 @@ export const midReadings:Record<string,MidReading>={
       ]
     ]
   },
-"mother/body/second-trimester": {
+  "mother/body/second-trimester": {
     "title": "Entering the second trimester",
     "art": "body",
     "window": "Weeks 14–27 in US trimester convention",
@@ -2641,7 +2695,7 @@ export const midReadings:Record<string,MidReading>={
       ]
     ]
   },
-"mother/movement/sleep-changes": {
+  "mother/movement/sleep-changes": {
     "title": "Sleep changes and vivid dreams",
     "art": "rest",
     "window": "Late pregnancy; NHS week 30 highlights sleep",
@@ -2985,7 +3039,7 @@ export const midReadings:Record<string,MidReading>={
       ]
     ]
   },
-"mother/body/third-trimester": {
+  "mother/body/third-trimester": {
     "title": "Entering the third trimester",
     "art": "body",
     "window": "Weeks 28–40 · editorial orientation",
@@ -3382,7 +3436,7 @@ export const midReadings:Record<string,MidReading>={
       ]
     ]
   },
-"mother/checkups/anatomy-scan": {
+  "mother/checkups/anatomy-scan": {
     "title": "Understanding the anatomy scan",
     "art": "checkups",
     "window": "Mid-pregnancy assessment; individual timing and indications vary",
@@ -3953,6 +4007,47 @@ export const midReadings:Record<string,MidReading>={
       [
         "baby/senses/hearing",
         "Other developing senses"
+      ]
+    ]
+  },
+  "mother/nutrition/vitamin-e": {
+    "title": "Vitamin E: antioxidant function and dietary gaps",
+    "art": "nutrition",
+    "window": "Throughout pregnancy · food adequacy is not a high-dose treatment",
+    "summary": "Low estimated intake is relatively common; this does not establish a need for separate high-dose vitamin E.",
+    "question": "Do my usual food choices and prenatal product cover vitamin E without unnecessary overlap?",
+    "sections": [
+      {
+        "title": "Why it matters",
+        "body": "Vitamin E helps protect cell membranes from oxidative damage. Nuts, seeds and vegetable oils are common food sources.",
+        "refs": [
+          "NUTR"
+        ]
+      },
+      {
+        "title": "How common is low intake?",
+        "body": "ECHO estimated that 17–22% had total intake below the estimated average requirement, including supplements. A 2019 NHANES analysis estimated 43.3%, with industry funding. Different survey methods, populations and periods limit direct comparison. Neither statistic is a diagnosis.",
+        "refs": [
+          "ECHO",
+          "GAP2019"
+        ]
+      },
+      {
+        "title": "What it does not mean",
+        "body": "Meeting a nutrient requirement is distinct from taking high-dose antioxidant supplements to prevent pregnancy complications. Extra supplementation may have risks, and clinical outcome evidence and individual circumstances matter.",
+        "refs": [
+          "NUTR"
+        ]
+      }
+    ],
+    "related": [
+      [
+        "mother/nutrition/food",
+        "Food and prenatal nutrition"
+      ],
+      [
+        "mother/nutrition/supplements",
+        "Prenatal supplement quality"
       ]
     ]
   }

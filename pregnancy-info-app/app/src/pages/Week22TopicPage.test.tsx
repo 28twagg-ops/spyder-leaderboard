@@ -10,7 +10,7 @@ import {getVisual} from '../data/visualCatalog'
 import {midReadings,midReferences} from '../data/midPregnancyReadings'
 import {weeklyFeatures} from '../data/weeklyFeatures'
 import {weekConnections} from '../components/Week22Reading'
-import {healthResearchGroups} from '../data/healthResearchGroups'
+import {healthResearchGroups,nutrientSpotlights} from '../data/healthResearchGroups'
 import {topicEditorial,skinSpecific} from '../data/weekEditorial'
 afterEach(()=>{cleanup();localStorage.clear()})
 describe('expanded week 22 topic coverage',()=>{
@@ -107,11 +107,16 @@ describe('expanded week 22 topic coverage',()=>{
   for(const reading of Object.values(midReadings))for(const [path] of reading.related)check(path)
   for(const [key,connections] of Object.entries(weekConnections)){check(key);for(const item of connections)check(item.to)}
   for(const group of healthResearchGroups)for(const [path] of group.items)check(path)
+  for(const item of nutrientSpotlights){check(item.path);expect(midReferences[item.source]).toBeDefined()}
  })
  it.each([1,5,12,20,28,40])('opens the nutrient and medicine guide in week %s',async(week)=>{
   render(<MemoryRouter initialEntries={['/timeline/week/'+week+'?subject=mother']}><App/></MemoryRouter>)
   fireEvent.click(screen.getByRole('link',{name:/Nutrients, vitamins & medicines/}))
   expect(await screen.findByRole('heading',{name:'Nutrients, vitamins & medicines',level:1})).toBeVisible()
+  expect(screen.getByRole('heading',{name:'Common intake gaps'})).toBeVisible()
+  expect(screen.getByText('52.9%')).toBeVisible()
+  expect(screen.getByText('93%')).toBeVisible()
+  expect(screen.getByText('Explore other nutrients, medicines & research').closest('details')).not.toHaveAttribute('open')
   fireEvent.click(screen.getByRole('link',{name:/^Choline/}))
   expect(await screen.findByRole('heading',{name:'Choline: membranes, signaling and brain research'})).toBeVisible()
   expect(screen.getByRole('navigation',{name:'Week '+week+' context'})).toBeVisible()

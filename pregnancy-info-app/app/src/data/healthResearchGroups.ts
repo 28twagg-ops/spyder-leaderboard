@@ -9,6 +9,7 @@ export const healthResearchGroups=[
  ['mother/nutrition/iron','Iron','Blood formation and deficiency'],
  ['mother/nutrition/calcium','Calcium','Skeletal health and prevention debate'],
  ['mother/nutrition/vitamin-d','Vitamin D','Calcium regulation and deficiency'],
+ ['mother/nutrition/vitamin-e','Vitamin E','Antioxidant function and dietary adequacy'],
  ['mother/nutrition/magnesium','Magnesium','Muscle and nerve function'],
  ['mother/nutrition/zinc','Zinc','Growth and enzyme function'],
  ['mother/nutrition/vitamin-a','Vitamin A','Essential nutrient · excess preformed vitamin A risk']
@@ -26,3 +27,12 @@ export const healthResearchGroups=[
  ['mother/digestion/gut-health','Probiotics','Outcome-specific evidence and possible harms']
  ]}
 ] as const
+
+/** Candidate descriptive population statistics. Not a clinical risk score, dosage or cleared chart. */
+export const nutrientSpotlights=[
+ {path:'mother/nutrition/choline',name:'Choline',stat:'93%',measure:'Did not exceed adequate intake',context:'Brain development and cell membranes · often overlooked in prenatals',source:'ECHO'},
+ {path:'mother/nutrition/magnesium',name:'Magnesium',stat:'39–41%',measure:'Below estimated average requirement',context:'Muscle and nerve function',source:'ECHO'},
+ {path:'mother/nutrition/vitamin-d',name:'Vitamin D',stat:'20–38%',measure:'Below estimated average requirement',context:'Calcium regulation and bones',source:'ECHO'},
+ {path:'mother/nutrition/vitamin-e',name:'Vitamin E',stat:'17–22%',measure:'Below estimated average requirement',context:'Cell protection and food adequacy',source:'ECHO'}
+] as const
+export const priorityNutrientPaths=new Set<string>([...nutrientSpotlights.map(x=>x.path),'mother/nutrition/iron','mother/nutrition/iodine','mother/nutrition/folic-acid'])
