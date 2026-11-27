@@ -104,7 +104,7 @@
       "title": "Yland et al. (2020): pregravid contraceptive use and fecundability",
       "url": "https://pubmed.ncbi.nlm.nih.gov/33177047/",
       "design": "Prospective cohort, 17,954 pregnancy planners, Denmark and North America, 2007–2019",
-      "finding": "Injectable vs barrier fecundability ratio 0.65 (95% CI 0.47–0.89); temporary delays differed by method; little evidence for lasting effect of duration.",
+      "finding": "Injectable vs barrier fecundability ratio 0.65 (95% CI 0.47–0.89); temporary delays differed by method; little evidence for lasting effect of duration. Approximate method-group delay in return of usual fecundability: IUDs/implant 2 cycles, oral/ring 3, patch 4, injection 5–8; not median time to pregnancy.",
       "funding": "NIH/NICHD grant listed; full funding allocation pending. PRESTO disclosed in-kind contributions from fertility-related companies.",
       "coi": "In-kind donations from Sandstone Diagnostics, Swiss Precision Diagnostics, Kindara and FertilityFriend; Aarhus department receives industry grants for other work.",
       "bias": "Observational self-selected prior methods, pregnancy planners and questionnaire outcomes; confounding and small method groups; time to pregnancy is not time to ovulation.",
@@ -188,11 +188,11 @@
       "title": "Yonis et al. (2025): contemporary contraception and venous thromboembolism",
       "url": "https://doi.org/10.1001/jama.2024.28778",
       "design": "Danish nationwide observational cohort",
-      "finding": "Thrombosis associations differed across products; combined pills showed higher rates and LNG IUDs had no significant excess relative to nonuse in this analysis.",
+      "finding": "Thrombosis associations differed across products; combined pills showed higher rates and LNG IUDs had no significant excess relative to nonuse in this analysis. Original table now checked for standardized event rates and 95% CIs; see physical-health panel.",
       "funding": "Sygeforsikringen Danmark grant 2021-0128 (indexed funding declaration).",
       "coi": "Løkkegaard reported Pfizer personal fees, Astellas meeting compensation to hospital and Radiometer-supported PhD salary; other disclosures pending.",
       "bias": "Rare events, residual confounding, prescriptions rather than adherence, selected cohort; nonsignificance not proof of zero risk. Numerical comparisons withheld until full table extraction.",
-      "access": "Original journal indexed excerpts",
+      "access": "Original JAMA table and indexed disclosures",
       "verified": "2026-11-27",
       "certainty": "Not formally graded; preliminary outcome-specific appraisal",
       "sponsorRole": "Not fully established unless explicitly described in funding or COI note",
@@ -205,11 +205,11 @@
       "title": "Fitzpatrick et al. (2023): hormonal contraception and breast cancer",
       "url": "https://journals.plos.org/plosmedicine/article?id=10.1371%2Fjournal.pmed.1004188",
       "design": "UK nested case-control and meta-analysis; 9,498 cases and 18,171 controls",
-      "finding": "Recent/current hormonal prescriptions associated with increased breast cancer risk across several combined and progestin-only methods.",
+      "finding": "Recent/current hormonal prescriptions associated with increased breast cancer risk across several combined and progestin-only methods. Age-specific modeled excess after five years of oral use over 15-year horizon: 8/100,000 age 16–20, 265/100,000 age 35–39.",
       "funding": "Cancer Research UK (C570/A16491, A29186) and Medical Research Council (MR/K02700X/1), indexed funding statement.",
       "coi": "Full disclosures and underlying studies pending.",
       "bias": "Observational prescription records, confounding and incomplete lifetime exposure; absolute excess depends strongly on age. Does not establish causation or a single risk for all methods.",
-      "access": "Original abstract and indexed funding excerpts",
+      "access": "Original journal abstract and result/disclosure excerpts",
       "verified": "2026-11-27",
       "certainty": "Not formally graded; preliminary outcome-specific appraisal",
       "sponsorRole": "Not fully established unless explicitly described in funding or COI note",
@@ -325,6 +325,330 @@
       "certainty": "Not formally graded; preliminary outcome-specific appraisal",
       "sponsorRole": "Not fully established unless explicitly described in funding or COI note",
       "integrity": "Correction/retraction and registry cross-check outstanding; not independently cleared"
+    },
+    {
+      "id": "CT-21",
+      "title": "Mody et al. (2018): paracervical block for IUD placement",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/30095776/",
+      "design": "Randomized trial; 64 nulliparous participants; paracervical anesthetic vs no block",
+      "finding": "Median insertion VAS 33 vs 54 mm on 100-mm scale; p=.002. Injection of anesthetic itself can hurt.",
+      "funding": "NIH K12 HD001259 partial investigator support, indexed original article.",
+      "coi": "Complete financial disclosure and other institutional support not retrieved.",
+      "bias": "Small trial, incomplete masking, subjective pain outcome, procedural technique and population limit applicability. Medians are not universal patient scores.",
+      "access": "Original abstract and indexed PMC methods/funding; full page blocked",
+      "verified": "2026-11-27",
+      "certainty": "Provisional outcome appraisal; no formal GRADE",
+      "sponsorRole": "Not fully established; protocol, data ownership and sponsor influence still to be audited",
+      "integrity": "Correction/retraction and registry linkage not comprehensively checked",
+      "doi": "10.1097/AOG.0000000000002790",
+      "pmid": "30095776",
+      "n": 64
+    },
+    {
+      "id": "CT-22",
+      "title": "ACOG (2025): pain management for in-office uterine and cervical procedures",
+      "url": "https://www.acog.org/clinical/clinical-guidance/clinical-consensus/articles/2025/05/pain-management-for-in-office-uterine-and-cervical-procedures",
+      "design": "Clinical consensus informed by evidence review",
+      "finding": "Local anesthetic evidence supports discussing pain control for IUD placement; patient-centered discussion of options, preferences and alternatives.",
+      "funding": "Professional society publisher; panel and underlying-study funding not fully audited.",
+      "coi": "Full disclosures pending.",
+      "bias": "Heterogeneity in pain protocols and populations. Does not establish a single best treatment or specific removal regimen.",
+      "access": "Original guideline indexed text",
+      "verified": "2026-11-27",
+      "certainty": "Provisional outcome appraisal; no formal GRADE",
+      "sponsorRole": "Not fully established; protocol, data ownership and sponsor influence still to be audited",
+      "integrity": "Correction/retraction and registry linkage not comprehensively checked"
+    },
+    {
+      "id": "CT-23",
+      "title": "2026 triple-arm randomized trial of paracervical block",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/41587631/",
+      "design": "Randomized double-blind comparison of local anesthetic, saline injection and capped needle, 2022–24 enrollment",
+      "finding": "Nulliparous subgroup medians: 40 (IQR 25–53), 50 (30–68), 60 (33–70) mm; p<.001 across groups.",
+      "funding": "Violet River Grant (2021), University of Toronto CREMS, publisher-indexed funding.",
+      "coi": "Full disclosures unavailable.",
+      "bias": "Subgroup results; procedural variation, subjective pain; full trial size, protocol and adverse effects pending extraction. Not a head-to-head comparison of copper versus LNG devices.",
+      "access": "Original indexed abstract and publisher funding",
+      "verified": "2026-11-27",
+      "certainty": "Provisional outcome appraisal; no formal GRADE",
+      "sponsorRole": "Not fully established; protocol, data ownership and sponsor influence still to be audited",
+      "integrity": "Correction/retraction and registry linkage not comprehensively checked",
+      "pmid": "41587631"
+    },
+    {
+      "id": "CT-24",
+      "title": "Singata-Madliki et al. (2021): ECHO ancillary mood and sexual function study",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC8359257/",
+      "design": "Open-label randomized trial ancillary study at one South African site; 605 enrolled, 487 with 12-month data; DMPA, copper IUD, LNG implant",
+      "finding": "At 12 months moderate/severe BDI symptoms: 16/167 (9.6%), 28/158 (17.7%), 21/162 (13.0%) respectively. Copper versus DMPA p=.032; no significant sexual-function differences.",
+      "funding": "South African Medical Research Council RCDI funded ancillary study. Parent ECHO funding and product donations require separate audit.",
+      "coi": "Authors reported no conflicts; parent trial ties not fully audited.",
+      "bias": "Enrollment after randomization, no baseline mood/sexual scores, loss to follow-up, unblinded, preferred method locally DMPA and switching; single site, multiple outcomes. No general mood ranking; not etonogestrel implant.",
+      "access": "Original full text table 3, discussion, funding, conflicts",
+      "verified": "2026-11-27",
+      "certainty": "Provisional outcome appraisal; no formal GRADE",
+      "sponsorRole": "Not fully established; protocol, data ownership and sponsor influence still to be audited",
+      "integrity": "Correction/retraction and registry linkage not comprehensively checked",
+      "doi": "10.1002/ijgo.13594",
+      "pmid": "33448029",
+      "n": 605
+    },
+    {
+      "id": "CT-25",
+      "title": "IUDs and female sexual function systematic review (2023)",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/38596762/",
+      "design": "Systematic review of 35 quantitative and 2 qualitative reports",
+      "finding": "Generally neutral to positive desire, some improvement in sexual pain with LNG IUD, other domains largely neutral; more research needed.",
+      "funding": "Review funding not verified.",
+      "coi": "Review and primary author disclosures pending.",
+      "bias": "Heterogeneous measures, before/after and observational designs, selection, inconsistent comparators; no causal or individual libido prediction.",
+      "access": "Original indexed abstract",
+      "verified": "2026-11-27",
+      "certainty": "Provisional outcome appraisal; no formal GRADE",
+      "sponsorRole": "Not fully established; protocol, data ownership and sponsor influence still to be audited",
+      "integrity": "Correction/retraction and registry linkage not comprehensively checked",
+      "pmid": "38596762"
+    },
+    {
+      "id": "CT-26",
+      "title": "2026 retrospective cohort: copper IUD, LNG IUS and etonogestrel implant sexual function",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/42277791/",
+      "design": "Retrospective cohort, 90 total, 30 per self-selected method",
+      "finding": "Copper users scored higher on desire and satisfaction, LNG IUS users lower on total FSFI; differs from broadly neutral review.",
+      "funding": "Funding not retrieved.",
+      "coi": "Full conflicts unknown.",
+      "bias": "Small, nonrandomized, selection and baseline symptom differences, multiple comparisons; cannot establish causation or rank methods.",
+      "access": "Original indexed abstract",
+      "verified": "2026-11-27",
+      "certainty": "Provisional outcome appraisal; no formal GRADE",
+      "sponsorRole": "Not fully established; protocol, data ownership and sponsor influence still to be audited",
+      "integrity": "Correction/retraction and registry linkage not comprehensively checked",
+      "pmid": "42277791",
+      "n": 90
+    },
+    {
+      "id": "CT-27",
+      "title": "2021 review: copper IUDs and circulating copper",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/33460577/",
+      "design": "Literature review of human blood copper studies",
+      "finding": "Results on total blood copper inconsistent; studies measured total rather than free copper, limiting toxicity interpretation.",
+      "funding": "Unknown; full funding declaration not retrieved.",
+      "coi": "Unknown.",
+      "bias": "Surrogate assays, variation in timing, small studies, not clinical toxicity endpoints. Cannot prove absence or presence of systemic toxicity in healthy users.",
+      "access": "Original indexed abstract",
+      "verified": "2026-11-27",
+      "certainty": "Provisional outcome appraisal; no formal GRADE",
+      "sponsorRole": "Not fully established; protocol, data ownership and sponsor influence still to be audited",
+      "integrity": "Correction/retraction and registry linkage not comprehensively checked",
+      "pmid": "33460577"
+    },
+    {
+      "id": "CT-28",
+      "title": "Raine-Bennett et al. (2019): DMPA, oral contraceptives, IUDs and fractures",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/31403601/",
+      "design": "Retrospective cohort of contraceptive users",
+      "finding": "Fracture risk studied across current and prior exposure; distinguish bone mineral density from fracture events. Numeric extraction withheld.",
+      "funding": "Funding not verified.",
+      "coi": "Full COI unknown.",
+      "bias": "Confounding by baseline fracture risk, activity, prescribing, age and duration; past/current exposure definitions differ.",
+      "access": "Original indexed abstract",
+      "verified": "2026-11-27",
+      "certainty": "Provisional outcome appraisal; no formal GRADE",
+      "sponsorRole": "Not fully established; protocol, data ownership and sponsor influence still to be audited",
+      "integrity": "Correction/retraction and registry linkage not comprehensively checked",
+      "pmid": "31403601"
+    },
+    {
+      "id": "CT-29",
+      "title": "Lanza et al. (2013): DMPA and fracture incidence",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/23635623/",
+      "design": "Retrospective cohort using UK general practice data, including pre-exposure fracture history",
+      "finding": "Crude fracture rates after starting 9.1 vs 7.3 per 1,000 person-years; preexisting differences complicate interpretation.",
+      "funding": "Pfizer-affiliated authors and RTI Health Solutions; full sponsorship not verified.",
+      "coi": "Pfizer affiliation is a relevant tie; role and full declarations pending.",
+      "bias": "Nonrandom selection, baseline fracture differences, crude comparison not causal. Do not pool with other UK registry analyses without overlap checks.",
+      "access": "Original indexed abstract and affiliations",
+      "verified": "2026-11-27",
+      "certainty": "Provisional outcome appraisal; no formal GRADE",
+      "sponsorRole": "Not fully established; protocol, data ownership and sponsor influence still to be audited",
+      "integrity": "Correction/retraction and registry linkage not comprehensively checked",
+      "pmid": "23635623"
+    },
+    {
+      "id": "CT-30",
+      "title": "ACOG: DMPA and bone effects (2014)",
+      "url": "https://www.acog.org/clinical/clinical-guidance/committee-opinion/articles/2014/06/depot-medroxyprogesterone-acetate-and-bone-effects",
+      "design": "Professional committee opinion",
+      "finding": "Bone density declines during DMPA use; recovery after stopping documented, long-term fracture consequences remain uncertain. Balance against pregnancy prevention.",
+      "funding": "Professional society publisher; panel and study funding audit pending.",
+      "coi": "Full declarations not extracted.",
+      "bias": "Older guidance; verify current labels and newer fracture studies. Bone density is not identical to clinical fracture risk.",
+      "access": "Original indexed guideline text",
+      "verified": "2026-11-27",
+      "certainty": "Provisional outcome appraisal; no formal GRADE",
+      "sponsorRole": "Not fully established; protocol, data ownership and sponsor influence still to be audited",
+      "integrity": "Correction/retraction and registry linkage not comprehensively checked"
+    },
+    {
+      "id": "CT-31",
+      "title": "Roland et al. (2024): progestogens and intracranial meningioma",
+      "url": "https://www.bmj.com/content/384/bmj-2023-078078",
+      "design": "French national case-control study, 18,061 surgical cases and 90,305 controls",
+      "finding": "Prolonged exposure to injectable medroxyprogesterone associated with surgical meningioma; OR 5.62 (95% CI 2.19–14.42); rare exposure and wide CI.",
+      "funding": "Funding declaration not retrievable in this pass; French public health database study.",
+      "coi": "Author declarations not fully retrieved.",
+      "bias": "Observational, rare exposed cases, surgery endpoint not all diagnosed tumors; odds ratio not absolute risk. Negative control copper OR 1.13 suggests residual bias possible.",
+      "access": "Original indexed journal abstract and table excerpts",
+      "verified": "2026-11-27",
+      "certainty": "Provisional outcome appraisal; no formal GRADE",
+      "sponsorRole": "Not fully established; protocol, data ownership and sponsor influence still to be audited",
+      "integrity": "Correction/retraction and registry linkage not comprehensively checked",
+      "doi": "10.1136/bmj-2023-078078",
+      "n": 108366
+    },
+    {
+      "id": "CT-32",
+      "title": "2026 Danish contraceptive progestogens and incident meningioma",
+      "url": "https://doi.org/10.1001/jamanetworkopen.2026.22603",
+      "design": "Nationwide nested case-control study within approximately 3 million Danish residents aged 15–59, 2000–2024",
+      "finding": "Associations reported for DMPA and several progestogens including high-dose LNG IUD, contrasting with some earlier surgical-endpoint findings.",
+      "funding": "Danish Medicines Agency author affiliation; exact funding not retrieved.",
+      "coi": "Full COI not retrieved.",
+      "bias": "Registry confounding, exposure classification, detection, low-dose IUD shorter market history, endpoint includes incident diagnoses not just surgery; cannot infer a safe dose or rank formulations.",
+      "access": "Original indexed journal abstract and methods",
+      "verified": "2026-11-27",
+      "certainty": "Provisional outcome appraisal; no formal GRADE",
+      "sponsorRole": "Not fully established; protocol, data ownership and sponsor influence still to be audited",
+      "integrity": "Correction/retraction and registry linkage not comprehensively checked",
+      "doi": "10.1001/jamanetworkopen.2026.22603",
+      "pmid": "42390859"
+    },
+    {
+      "id": "CT-33",
+      "title": "Danish Medicines Agency (July 2026): meningioma safety communication",
+      "url": "https://laegemiddelstyrelsen.dk/en/news/2026/register-based-study-suggests-a-slightly-increased-risk-of-meningiomas-in-women-using-hormonal-contraception-containing-a-progestogen/",
+      "design": "Regulator communication summarizing CT-32",
+      "finding": "Describes a small increase in risk with some products and ongoing pharmacovigilance; not a separate replication.",
+      "funding": "Public regulator publisher.",
+      "coi": "Underlying study full disclosures pending.",
+      "bias": "Derivative of CT-32; cannot count as independent evidence. Products available in Denmark differ from other jurisdictions.",
+      "access": "Original indexed agency communication",
+      "verified": "2026-11-27",
+      "certainty": "Provisional outcome appraisal; no formal GRADE",
+      "sponsorRole": "Not fully established; protocol, data ownership and sponsor influence still to be audited",
+      "integrity": "Correction/retraction and registry linkage not comprehensively checked"
+    },
+    {
+      "id": "CT-34",
+      "title": "2025 Swedish cohort: contraceptive formulations and breast cancer",
+      "url": "https://doi.org/10.1001/jamaoncol.2025.4480",
+      "design": "Registry cohort, more than 2 million adolescents and premenopausal women",
+      "finding": "Ever use HR 1.24 (95% CI 1.20–1.28); estimated 13 additional cases per 100,000 person-years (CI 7–19); formulation variation. Some products had no statistically significant association.",
+      "funding": "Swedish Cancer Society (22 2222 Pj, 21 0447 FE, 22 2320 Pj), Sjöberg Foundation, Swedish Research Council 2023-02983.",
+      "coi": "Full conflict disclosure and sponsor-role statement not retrieved.",
+      "bias": "Nonrandomized, prescriptions proxy exposure, product selection and surveillance differences; ever-use comparison not identical to recent use; null associations are not proof of safety.",
+      "access": "Original indexed journal abstract, results and funding",
+      "verified": "2026-11-27",
+      "certainty": "Provisional outcome appraisal; no formal GRADE",
+      "sponsorRole": "Not fully established; protocol, data ownership and sponsor influence still to be audited",
+      "integrity": "Correction/retraction and registry linkage not comprehensively checked",
+      "doi": "10.1001/jamaoncol.2025.4480"
+    },
+    {
+      "id": "CT-35",
+      "title": "2025 Danish cohort: hormonal contraception, ischemic stroke and myocardial infarction",
+      "url": "https://www.bmj.com/content/388/bmj-2024-082801",
+      "design": "Nationwide prospective registry cohort, age 15–49, 1996–2021",
+      "finding": "Arterial-event associations varied by formulation; low baseline risk. Progestin-only pill stroke IRR 1.6 (1.3–2.0), estimated excess 15 (6–24) per 100,000 person-years.",
+      "funding": "Full funding statement not retrieved.",
+      "coi": "Full COI not retrieved.",
+      "bias": "Excluded several baseline conditions; prescription and residual confounding; overlapping Danish registries with CT-12, but different outcomes. Do not equate venous and arterial thrombosis.",
+      "access": "Original indexed abstract/table discussion",
+      "verified": "2026-11-27",
+      "certainty": "Provisional outcome appraisal; no formal GRADE",
+      "sponsorRole": "Not fully established; protocol, data ownership and sponsor influence still to be audited",
+      "integrity": "Correction/retraction and registry linkage not comprehensively checked",
+      "doi": "10.1136/bmj-2024-082801"
+    },
+    {
+      "id": "CT-36",
+      "title": "Yland et al. (2023): preconception contraceptive use and miscarriage",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC10496668/",
+      "design": "Prospective PRESTO cohort of pregnancy planners, analysis among conceptions",
+      "finding": "Little association with miscarriage for oral contraceptives, IUDs, ring and implant; patch and injection estimates imprecise, possible positive association.",
+      "funding": "NICHD R01-HD086742.",
+      "coi": "Full author declarations and PRESTO in-kind relationships need recheck; linked to CT-07 cohort.",
+      "bias": "Self-reported exposures/outcomes, selection of pregnancies, uncommon methods imprecise; cohort overlap. No proof of zero risk or causation.",
+      "access": "Original full text conclusions, indexed funding",
+      "verified": "2026-11-27",
+      "certainty": "Provisional outcome appraisal; no formal GRADE",
+      "sponsorRole": "Not fully established; protocol, data ownership and sponsor influence still to be audited",
+      "integrity": "Correction/retraction and registry linkage not comprehensively checked",
+      "doi": "10.1136/bmjmed-2023-000569"
+    },
+    {
+      "id": "CT-37",
+      "title": "Charlton et al. (2016): oral contraception around conception and birth defects",
+      "url": "https://www.bmj.com/content/352/bmj.h6712",
+      "design": "Danish nationwide observational study of 880,694 live births, 1997–2011",
+      "finding": "No evidence of increased major birth defects associated with recent oral contraceptive use before pregnancy or use after onset in this cohort.",
+      "funding": "Harvard Maternal Health Task Force and Rose fellowship; NICHD T32HD060454, F32HD084000; NCI T32CA09001.",
+      "coi": "Full COI not retrieved.",
+      "bias": "Live-birth selection, prescriptions rather than actual ingestion, rare individual defects and formulations; not a recommendation to continue contraception during pregnancy.",
+      "access": "Original indexed journal abstract and funding",
+      "verified": "2026-11-27",
+      "certainty": "Provisional outcome appraisal; no formal GRADE",
+      "sponsorRole": "Not fully established; protocol, data ownership and sponsor influence still to be audited",
+      "integrity": "Correction/retraction and registry linkage not comprehensively checked",
+      "doi": "10.1136/bmj.h6712",
+      "pmid": "26738512",
+      "n": 880694
+    },
+    {
+      "id": "CT-38",
+      "title": "Gemmill et al. (2023): return of fecundity across low- and middle-income countries",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC10529236/",
+      "design": "Retrospective survey-based multinational analysis, time to pregnancy after stopping methods",
+      "finding": "Injectables showed longest delay; broadly corroborates but does not exactly reproduce CT-07 method timing.",
+      "funding": "Funding not fully verified.",
+      "coi": "Full COI not retrieved.",
+      "bias": "Retrospective monthly calendars, self-selection, country heterogeneity, method reporting and recall error; different population and outcome definitions than CT-07.",
+      "access": "Original indexed abstract and discussion",
+      "verified": "2026-11-27",
+      "certainty": "Provisional outcome appraisal; no formal GRADE",
+      "sponsorRole": "Not fully established; protocol, data ownership and sponsor influence still to be audited",
+      "integrity": "Correction/retraction and registry linkage not comprehensively checked"
+    },
+    {
+      "id": "CT-39",
+      "title": "2026 national survey of IUD insertion pain",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC13071863/",
+      "design": "Cross-sectional survey of 347 current users reporting insertion pain",
+      "finding": "No statistically significant difference in recalled insertion pain between hormonal and copper IUDs (p=.546).",
+      "funding": "Funding not retrieved.",
+      "coi": "Full declarations pending.",
+      "bias": "Current-user/survivor selection, recall bias, uncontrolled provider and device factors; not equivalence evidence.",
+      "access": "Original indexed abstract",
+      "verified": "2026-11-27",
+      "certainty": "Provisional outcome appraisal; no formal GRADE",
+      "sponsorRole": "Not fully established; protocol, data ownership and sponsor influence still to be audited",
+      "integrity": "Correction/retraction and registry linkage not comprehensively checked",
+      "n": 347
+    },
+    {
+      "id": "CT-40",
+      "title": "WHO selected practice recommendations, fourth edition (2025)",
+      "url": "https://www.ncbi.nlm.nih.gov/books/NBK619444/",
+      "design": "International evidence-based practice guidance, evidence reviews and GRADE tables",
+      "finding": "Local anesthesia may be offered for IUD placement where available; routine misoprostol not recommended; selected exceptions.",
+      "funding": "WHO publisher; guideline declarations and underlying study funding not fully audited.",
+      "coi": "Panel disclosures pending.",
+      "bias": "Guideline based on mixed pain-control trials and local resource availability. No universal pain score or protocol.",
+      "access": "Original indexed WHO recommendation and evidence-summary text",
+      "verified": "2026-11-27",
+      "certainty": "Provisional outcome appraisal; no formal GRADE",
+      "sponsorRole": "Not fully established; protocol, data ownership and sponsor influence still to be audited",
+      "integrity": "Correction/retraction and registry linkage not comprehensively checked"
     }
   ],
   "sections": [
@@ -355,6 +679,16 @@
           [
             "CT-02",
             "CT-03"
+          ]
+        ],
+        [
+          "Compare by outcome, not a single health score",
+          "A lower contraceptive failure rate is not a measure of mental health or long-term harm. The decision guide separates hormone exposure, pregnancy prevention, insertion burden, bleeding, and time to fertility. Eligibility and individual preferences can change which options are reasonable.",
+          [
+            "CT-01",
+            "CT-02",
+            "CT-07",
+            "CT-22"
           ]
         ]
       ]
@@ -398,6 +732,26 @@
             "CT-08",
             "CT-02"
           ]
+        ],
+        [
+          "Copper toxicity and sexual wellbeing",
+          "Human copper measurements have been inconsistent and largely assessed total rather than free copper. This does not establish systemic poisoning from routine use, or rule out all effects. Sexual-function studies are mixed; pain and heavier bleeding can influence sexual wellbeing even without added hormones.",
+          [
+            "CT-27",
+            "CT-25",
+            "CT-26"
+          ]
+        ],
+        [
+          "Placement pain",
+          "The same uterine placement discussion applies to both copper and hormonal IUDs. A 2026 survey did not identify a significant difference in recalled pain, but cannot demonstrate equal pain. Ask about anesthetic options and a plan to pause if needed.",
+          [
+            "CT-21",
+            "CT-22",
+            "CT-23",
+            "CT-39",
+            "CT-40"
+          ]
         ]
       ]
     },
@@ -437,6 +791,17 @@
             "CT-02",
             "CT-03",
             "CT-15"
+          ]
+        ],
+        [
+          "Long-term outcomes are not all explained by blood hormone levels",
+          "Observational VTE data are reassuring for LNG IUDs in one Danish cohort, but breast cancer findings vary by formulation. A 2026 registry study also reported a meningioma association with high-dose LNG IUD; earlier French data on surgical meningioma differ. These are rare-event observational findings, not a causal ranking or proof that a lower-dose device is safe.",
+          [
+            "CT-12",
+            "CT-13",
+            "CT-31",
+            "CT-32",
+            "CT-34"
           ]
         ]
       ]
@@ -478,6 +843,15 @@
             "CT-07",
             "CT-08"
           ]
+        ],
+        [
+          "Beyond the pill: arterial and venous events",
+          "Registry research associates combined pills, patch and ring with increased clot risk. Arterial stroke and myocardial infarction are distinct outcomes. Choice of estrogen and progestin matters, but a lower estimate for a formulation cannot override clinical eligibility.",
+          [
+            "CT-12",
+            "CT-35",
+            "CT-02"
+          ]
         ]
       ]
     },
@@ -511,6 +885,15 @@
             "CT-13",
             "CT-17"
           ]
+        ],
+        [
+          "Physical outcomes beyond estrogen",
+          "The 2025 cohorts observed progestin-only pill associations with VTE, arterial stroke and breast cancer; relative and absolute risks depend on population, product and time window. Do not assume no estrogen means no vascular or cancer concerns.",
+          [
+            "CT-12",
+            "CT-34",
+            "CT-35"
+          ]
         ]
       ]
     },
@@ -542,6 +925,24 @@
           [
             "CT-07",
             "CT-08"
+          ]
+        ],
+        [
+          "Bone and rare tumor outcomes",
+          "DMPA is associated with bone density loss, with recovery documented after discontinuation; actual later fracture risk is harder to establish. French and Danish registry studies found meningioma associations for injectable medroxyprogesterone. Implant findings cannot be borrowed from DMPA, or vice versa.",
+          [
+            "CT-28",
+            "CT-29",
+            "CT-30",
+            "CT-31",
+            "CT-32"
+          ]
+        ],
+        [
+          "Mood evidence that challenges a simple hormone ranking",
+          "In a single-site ECHO ancillary randomized study, the injectable group had fewer moderate/severe depressive symptoms than the copper IUD group at 12 months. The study lacked baseline mood data and had a strong local method preference. It neither proves injections improve mental health nor shows hormone-free methods cause depression.",
+          [
+            "CT-24"
           ]
         ]
       ]
@@ -694,6 +1095,22 @@
             "CT-07",
             "CT-08"
           ]
+        ],
+        [
+          "Outcomes after conception",
+          "A prospective cohort found little association between miscarriage and prior use of pills, IUDs, ring or implant; patch and injection results were uncertain. Danish live-birth data did not show increased major birth defects after recent pill use. These studies are not guarantees about individual pregnancy outcomes.",
+          [
+            "CT-36",
+            "CT-37"
+          ]
+        ],
+        [
+          "Other populations",
+          "Multinational survey evidence broadly supports the longer temporary delay with injectable contraception, while exact timing differs from the North American/Danish prospective cohort. Age, underlying fertility and method choice matter.",
+          [
+            "CT-38",
+            "CT-07"
+          ]
         ]
       ]
     },
@@ -728,6 +1145,240 @@
           ]
         ]
       ]
+    },
+    {
+      "id": "decision-guide",
+      "title": "Decision guide: compare your priorities",
+      "summary": "Compare specific measurable priorities and trade-offs, not an algorithm that chooses a method for you.",
+      "keywords": "best top ranking decision matrix safest least hormone lowest hormones compare choice risk pain insertion fertility",
+      "paragraphs": [
+        [
+          "No universal winner",
+          "When no added contraceptive hormones and low typical-use pregnancy risk are the priorities, the copper IUD is a useful comparator. External condoms and other barriers avoid placement but have higher fixed typical-use estimates; fertility-awareness methods span a wide range. The chart separates these facts from medical eligibility.",
+          [
+            "CT-01",
+            "CT-02",
+            "CT-09"
+          ]
+        ],
+        [
+          "If lower systemic hormone exposure matters",
+          "The studied LNG IUDs yielded lower circulating LNG than the specific oral and subdermal products in the pharmacokinetic model. This is not a clinical safety score or a cross-progestin dose comparison.",
+          [
+            "CT-06"
+          ]
+        ],
+        [
+          "If placement or removal matters",
+          "Pills, patches, rings and barriers avoid a clinician placement procedure. Arm implants involve skin insertion and removal with local anesthesia; both types of IUD require uterine placement. Injections do not require device removal but cannot be undone once given. Pain comparisons between these procedures are not directly established.",
+          [
+            "CT-03",
+            "CT-22"
+          ]
+        ],
+        [
+          "If pregnancy is planned soon",
+          "Barrier methods have no pharmacologic delay; reversible methods have different average short-term delays. DMPA warrants separate discussion because of prolonged drug action. Avoid treating observational cycles as a waiting instruction.",
+          [
+            "CT-07",
+            "CT-08",
+            "CT-38"
+          ]
+        ]
+      ]
+    },
+    {
+      "id": "placement-pain",
+      "title": "IUD placement, removal & procedure pain",
+      "summary": "Actual study pain measurements, patient choice and pain-control options.",
+      "keywords": "pain scale painful insertion removal iud implant numbing anesthesia lidocaine cramping procedure pain score",
+      "paragraphs": [
+        [
+          "What pain scores mean",
+          "Pain varies considerably, including for people who have never given birth. Two randomized trials measured insertion pain on a 100-mm visual analog scale. These group medians are not predictions of a particular person's pain or a valid copper-versus-hormonal ranking.",
+          [
+            "CT-21",
+            "CT-23",
+            "CT-39"
+          ]
+        ],
+        [
+          "What helps",
+          "Recent CDC, ACOG and WHO guidance supports discussing local anesthetic approaches. Routine cervical priming with misoprostol has not consistently improved pain and is not routinely advised. A provider should discuss pain control, alternatives and the option to pause or stop; no self-directed medication regimen.",
+          [
+            "CT-03",
+            "CT-22",
+            "CT-40"
+          ]
+        ],
+        [
+          "After placement and removal",
+          "Short-term cramping and spotting may occur. Both IUD types carry risks of expulsion and rare perforation; timing and breastfeeding affect risk. Severe or increasing pain, fever, heavy bleeding or suspected pregnancy with an IUD warrant prompt clinical assessment; severe symptoms may require emergency care.",
+          [
+            "CT-15",
+            "CT-20",
+            "CT-03"
+          ]
+        ]
+      ]
+    },
+    {
+      "id": "mental-health",
+      "title": "Mental health, mood & emotional wellbeing",
+      "summary": "Randomized trials and registry observations can tell different stories. Compare their endpoints before interpreting risk.",
+      "keywords": "mental health depression anxiety mood emotional effects suicide irritability hormonal contraception brain mental side effects",
+      "paragraphs": [
+        [
+          "Randomized versus observational evidence",
+          "Trial synthesis did not show an average worsening of depressive symptoms among studied adults. A large Danish registry study reported associations with depression-related diagnoses/prescriptions, especially in adolescents. Trial enrollment can exclude vulnerable first-time users; registry designs are affected by confounding and healthcare seeking.",
+          [
+            "CT-10",
+            "CT-11"
+          ]
+        ],
+        [
+          "A direct comparison",
+          "The ECHO ancillary study compared DMPA, copper IUD and an LNG implant over a year; the DMPA group had fewer moderate/severe depressive symptoms than the copper group. No baseline symptom scores were collected, and local preference, switching and missing outcomes matter. Not transferable to every implant or pill.",
+          [
+            "CT-24"
+          ]
+        ],
+        [
+          "Individual experience",
+          "There is no defensible universal ordering for depression, anxiety, libido or mood. Symptoms can arise with or without contraceptive hormones, and the effect of bleeding, pain and pregnancy anxiety may matter. Discuss new or worsening symptoms with a clinician; seek immediate help for thoughts of self-harm.",
+          [
+            "CT-10",
+            "CT-11",
+            "CT-24",
+            "CT-25"
+          ]
+        ]
+      ]
+    },
+    {
+      "id": "sexual-health",
+      "title": "Libido, sexual comfort & relationship effects",
+      "summary": "Separate desire, arousal, lubrication, orgasm, discomfort and satisfaction.",
+      "keywords": "libido sex drive sexual function dryness lubrication intercourse pain desire relationship orgasm",
+      "paragraphs": [
+        [
+          "What the review found",
+          "A review of copper and LNG IUD research found generally neutral or favorable desire results, with some evidence of improved sexual pain for LNG IUDs. Other aspects often showed little change. Many studies were observational and heterogeneous.",
+          [
+            "CT-25"
+          ]
+        ],
+        [
+          "Conflicting newer evidence",
+          "A 2026 retrospective 90-person cohort observed lower sexual-function scores in LNG IUS users than copper or implant users. Its small self-selected groups cannot distinguish method effects from baseline differences. The ECHO randomized ancillary analysis found no statistically significant sexual dysfunction differences among its three methods at one year.",
+          [
+            "CT-26",
+            "CT-24"
+          ]
+        ],
+        [
+          "Do not rank libido from dose",
+          "Hormone levels alone cannot determine sexual wellbeing. Bleeding, pelvic discomfort, body image, medications, stress and relationship factors may contribute. Separate method-specific claims from personal experiences and unknowns.",
+          [
+            "CT-06",
+            "CT-24",
+            "CT-25"
+          ]
+        ]
+      ]
+    },
+    {
+      "id": "physical-long-term",
+      "title": "Long-term physical health: clots, heart, bones & cancer",
+      "summary": "Absolute risks, exposure durations and limitations of each study.",
+      "keywords": "long term effects physical health cancer blood clots stroke heart attack bone density fracture meningioma tumor risks years",
+      "paragraphs": [
+        [
+          "Venous clot risk",
+          "A Danish registry cohort compared VTE rates for specific method classes. Absolute rates were low but differed. Confidence intervals and method formulation matter; estimates are associations, not individualized predictions. Eligibility can be more important than an average rate.",
+          [
+            "CT-12",
+            "CT-02"
+          ]
+        ],
+        [
+          "Heart and stroke",
+          "A related Danish cohort found associations with some arterial outcomes for both combined and some progestin-only methods. These outcomes cannot be added to the VTE rate or treated as independent replication of it.",
+          [
+            "CT-35",
+            "CT-12"
+          ]
+        ],
+        [
+          "Breast cancer and other cancers",
+          "UK and Swedish observational research associates hormonal contraceptive use with modestly higher breast cancer risk on average; results vary across exposure timing and formulation. Oral contraceptive evidence also includes lower ovarian/endometrial cancer associations. A 2023 analysis estimated age-dependent 15-year excess breast cancer risk after five years of oral contraceptive use; it is not an annual IUD risk.",
+          [
+            "CT-13",
+            "CT-14",
+            "CT-34"
+          ]
+        ],
+        [
+          "Meningioma: emerging evidence",
+          "A French case-control study found an association between prolonged injectable medroxyprogesterone use and surgery for meningioma. A 2026 Danish study of incident meningioma also found signals for some additional progestogens and high-dose LNG IUD. These are rare outcomes; differing definitions, indications and surveillance can explain differences. Do not infer product-specific safety from absence of a significant signal.",
+          [
+            "CT-31",
+            "CT-32",
+            "CT-33"
+          ]
+        ],
+        [
+          "Bone density, fracture and weight",
+          "DMPA warrants specific attention to bone density, recovery after stopping and fracture uncertainty. Some progestin-only weight studies identify larger gains with DMPA, while combined-method trial evidence does not establish a large average causal weight effect. Avoid applying injection findings to all hormonal methods.",
+          [
+            "CT-16",
+            "CT-17",
+            "CT-28",
+            "CT-29",
+            "CT-30"
+          ]
+        ]
+      ]
+    },
+    {
+      "id": "after-conception",
+      "title": "After stopping: miscarriage, birth defects & a future baby",
+      "summary": "What studies actually measure after contraception ends.",
+      "keywords": "fertility conceive baby miscarriage birth defects pregnancy outcomes after pill birth control washout infertility",
+      "paragraphs": [
+        [
+          "Ability to become pregnant",
+          "Temporary differences in fecundability should not be confused with permanent infertility. The prospective cohort and multinational survey both suggest longer delays for injections; other reversible methods have shorter estimates.",
+          [
+            "CT-07",
+            "CT-08",
+            "CT-38"
+          ]
+        ],
+        [
+          "Miscarriage",
+          "In PRESTO, prior use of oral contraceptives, IUDs, rings and implants showed little association with miscarriage. Results for patch/injection were uncertain. This study shares population history with CT-07 and is not an independent fertility replication.",
+          [
+            "CT-36"
+          ]
+        ],
+        [
+          "Birth defects",
+          "A Danish registry study of live births did not find increased major defects with oral contraceptive exposure near pregnancy onset. It cannot establish absence of rare specific effects, apply to all contraceptive routes, or justify using a contraceptive during pregnancy.",
+          [
+            "CT-37"
+          ]
+        ],
+        [
+          "Preparing for pregnancy",
+          "Discuss any concerns, removal appointments, health history and preconception care before stopping. A universal detox interval is not supported by these data. Fertility may return before a period; maintain protection until pregnancy is desired.",
+          [
+            "CT-03",
+            "CT-07",
+            "CT-08"
+          ]
+        ]
+      ]
     }
   ],
   "methods": [
@@ -738,7 +1389,18 @@
       "high": 0.8,
       "tradeoff": "Long-acting; insertion/removal; bleeding may increase",
       "topic": "copper-iud",
-      "source": "CT-01"
+      "source": "CT-01",
+      "placement": "Clinician uterine placement and removal; variable pain",
+      "physical": "Heavier bleeding/cramps; device harms; total copper evidence uncertain",
+      "mental": "No added hormones; mood and sexual effects still variable",
+      "fertility": "About 2 cycles to usual fecundability in one cohort; may conceive immediately",
+      "profileSources": [
+        "CT-03",
+        "CT-07",
+        "CT-24",
+        "CT-25",
+        "CT-27"
+      ]
     },
     {
       "name": "LNG IUD",
@@ -747,7 +1409,20 @@
       "high": 0.4,
       "tradeoff": "Long-acting; often lighter periods",
       "topic": "hormonal-iud",
-      "source": "CT-01"
+      "source": "CT-01",
+      "placement": "Clinician uterine placement/removal; pain not reliably ranked by device",
+      "physical": "Spotting then often lighter bleeding; rare device harms; observational breast/meningioma signals",
+      "mental": "Systemic exposure is lower in studied LNG comparison; no reliable mood rank",
+      "fertility": "About 2 cycles in one cohort; pregnancy possible after removal",
+      "profileSources": [
+        "CT-03",
+        "CT-06",
+        "CT-07",
+        "CT-12",
+        "CT-25",
+        "CT-32",
+        "CT-34"
+      ]
     },
     {
       "name": "Arm implant",
@@ -756,7 +1431,19 @@
       "high": 0.1,
       "tradeoff": "Long-acting; removal visit; irregular bleeding",
       "topic": "implant-injection",
-      "source": "CT-01"
+      "source": "CT-01",
+      "placement": "Clinician skin insertion and removal with local anesthesia",
+      "physical": "Irregular bleeding; systemic progestin; vascular/breast evidence formulation-specific",
+      "mental": "No reliable mood or libido ranking; LNG trial not transferable to all implants",
+      "fertility": "About 2 cycles in one cohort; pregnancy may occur soon after removal",
+      "profileSources": [
+        "CT-03",
+        "CT-07",
+        "CT-12",
+        "CT-24",
+        "CT-34",
+        "CT-35"
+      ]
     },
     {
       "name": "Injection",
@@ -765,7 +1452,20 @@
       "high": 4,
       "tradeoff": "Repeat injection; possible longer fertility delay",
       "topic": "implant-injection",
-      "source": "CT-01"
+      "source": "CT-01",
+      "placement": "Injection, no removable device; cannot reverse dose",
+      "physical": "DMPA bone density loss, weight signal, VTE and meningioma associations",
+      "mental": "Randomized ancillary study did not support worse mood than copper; individual response varies",
+      "fertility": "Longest temporary delay (about 5–8 cycles) in cohort",
+      "profileSources": [
+        "CT-07",
+        "CT-12",
+        "CT-17",
+        "CT-24",
+        "CT-30",
+        "CT-31",
+        "CT-32"
+      ]
     },
     {
       "name": "Combined pill",
@@ -774,7 +1474,20 @@
       "high": 7,
       "tradeoff": "Daily; estrogen eligibility",
       "topic": "pill-patch-ring",
-      "source": "CT-01"
+      "source": "CT-01",
+      "placement": "No clinician placement; self-administered",
+      "physical": "Estrogen-related vascular risks; route/formulation matter; cancer evidence strongest for pills",
+      "mental": "Mixed evidence; no robust method-specific mental ranking",
+      "fertility": "About 3 cycles in one cohort; not a mandatory wait",
+      "profileSources": [
+        "CT-02",
+        "CT-07",
+        "CT-10",
+        "CT-11",
+        "CT-12",
+        "CT-13",
+        "CT-35"
+      ]
     },
     {
       "name": "Patch",
@@ -783,7 +1496,20 @@
       "high": 7,
       "tradeoff": "Scheduled changes; systemic exposure",
       "topic": "pill-patch-ring",
-      "source": "CT-01"
+      "source": "CT-01",
+      "placement": "No clinician placement; self-administered",
+      "physical": "Estrogen-related vascular risks; route/formulation matter; cancer evidence strongest for pills",
+      "mental": "Mixed evidence; no robust method-specific mental ranking",
+      "fertility": "About 4 cycles in one cohort; imprecise",
+      "profileSources": [
+        "CT-02",
+        "CT-07",
+        "CT-10",
+        "CT-11",
+        "CT-12",
+        "CT-13",
+        "CT-35"
+      ]
     },
     {
       "name": "Vaginal ring",
@@ -792,7 +1518,20 @@
       "high": 7,
       "tradeoff": "Scheduled changes; systemic exposure",
       "topic": "pill-patch-ring",
-      "source": "CT-01"
+      "source": "CT-01",
+      "placement": "No clinician placement; self-administered",
+      "physical": "Estrogen-related vascular risks; route/formulation matter; cancer evidence strongest for pills",
+      "mental": "Mixed evidence; no robust method-specific mental ranking",
+      "fertility": "About 3 cycles in one cohort; not a mandatory wait",
+      "profileSources": [
+        "CT-02",
+        "CT-07",
+        "CT-10",
+        "CT-11",
+        "CT-12",
+        "CT-13",
+        "CT-35"
+      ]
     },
     {
       "name": "Progestin-only pill",
@@ -801,7 +1540,20 @@
       "high": 7,
       "tradeoff": "Daily; product-specific timing",
       "topic": "mini-pill",
-      "source": "CT-01"
+      "source": "CT-01",
+      "placement": "No placement; daily use",
+      "physical": "Unscheduled bleeding; observational clot, stroke and breast associations vary",
+      "mental": "Mixed and limited product-specific evidence",
+      "fertility": "Oral group about 3 cycles; individual POP timing not established by that grouped estimate",
+      "profileSources": [
+        "CT-02",
+        "CT-07",
+        "CT-10",
+        "CT-11",
+        "CT-12",
+        "CT-34",
+        "CT-35"
+      ]
     },
     {
       "name": "External condom",
@@ -810,7 +1562,15 @@
       "high": 13,
       "tradeoff": "Each sex act; STI protection for appropriate materials",
       "topic": "barriers",
-      "source": "CT-01"
+      "source": "CT-01",
+      "placement": "No clinician device placement; fitting may be needed",
+      "physical": "No added hormones; local irritation or material sensitivity possible; pregnancy prevention depends on use",
+      "mental": "No direct comparative long-term mood or libido estimate; comfort, anxiety and adherence may matter",
+      "fertility": "No pharmacologic washout; underlying fertility still varies",
+      "profileSources": [
+        "CT-01",
+        "CT-03"
+      ]
     },
     {
       "name": "Internal condom",
@@ -819,7 +1579,15 @@
       "high": 21,
       "tradeoff": "Each sex act; STI protection",
       "topic": "barriers",
-      "source": "CT-01"
+      "source": "CT-01",
+      "placement": "No clinician device placement; fitting may be needed",
+      "physical": "No added hormones; local irritation or material sensitivity possible; pregnancy prevention depends on use",
+      "mental": "No direct comparative long-term mood or libido estimate; comfort, anxiety and adherence may matter",
+      "fertility": "No pharmacologic washout; underlying fertility still varies",
+      "profileSources": [
+        "CT-01",
+        "CT-03"
+      ]
     },
     {
       "name": "Diaphragm",
@@ -828,7 +1596,15 @@
       "high": 17,
       "tradeoff": "Each sex act; fitting and spermicide",
       "topic": "barriers",
-      "source": "CT-01"
+      "source": "CT-01",
+      "placement": "No clinician device placement; fitting may be needed",
+      "physical": "No added hormones; local irritation or material sensitivity possible; pregnancy prevention depends on use",
+      "mental": "No direct comparative long-term mood or libido estimate; comfort, anxiety and adherence may matter",
+      "fertility": "No pharmacologic washout; underlying fertility still varies",
+      "profileSources": [
+        "CT-01",
+        "CT-03"
+      ]
     },
     {
       "name": "Cervical cap",
@@ -837,7 +1613,15 @@
       "high": 22,
       "tradeoff": "Each sex act; fitting and spermicide",
       "topic": "barriers",
-      "source": "CT-01"
+      "source": "CT-01",
+      "placement": "No clinician device placement; fitting may be needed",
+      "physical": "No added hormones; local irritation or material sensitivity possible; pregnancy prevention depends on use",
+      "mental": "No direct comparative long-term mood or libido estimate; comfort, anxiety and adherence may matter",
+      "fertility": "No pharmacologic washout; underlying fertility still varies",
+      "profileSources": [
+        "CT-01",
+        "CT-03"
+      ]
     },
     {
       "name": "Sponge",
@@ -846,7 +1630,15 @@
       "high": 17,
       "tradeoff": "Each sex act; product instructions",
       "topic": "barriers",
-      "source": "CT-01"
+      "source": "CT-01",
+      "placement": "No clinician device placement; fitting may be needed",
+      "physical": "No added hormones; local irritation or material sensitivity possible; pregnancy prevention depends on use",
+      "mental": "No direct comparative long-term mood or libido estimate; comfort, anxiety and adherence may matter",
+      "fertility": "No pharmacologic washout; underlying fertility still varies",
+      "profileSources": [
+        "CT-01",
+        "CT-03"
+      ]
     },
     {
       "name": "Spermicide / pH regulator",
@@ -855,7 +1647,15 @@
       "high": 21,
       "tradeoff": "Grouped CDC reference; individual products vary",
       "topic": "barriers",
-      "source": "CT-01"
+      "source": "CT-01",
+      "placement": "No clinician device placement; fitting may be needed",
+      "physical": "No added hormones; local irritation or material sensitivity possible; pregnancy prevention depends on use",
+      "mental": "No direct comparative long-term mood or libido estimate; comfort, anxiety and adherence may matter",
+      "fertility": "No pharmacologic washout; underlying fertility still varies",
+      "profileSources": [
+        "CT-01",
+        "CT-03"
+      ]
     },
     {
       "name": "Fertility-awareness methods",
@@ -864,7 +1664,241 @@
       "high": 23,
       "tradeoff": "Training and adherence; method-dependent range",
       "topic": "fertility-awareness",
-      "source": "CT-01"
+      "source": "CT-01",
+      "placement": "No placement; method training and tracking",
+      "physical": "No added contraceptive hormones; unintended pregnancy risk varies",
+      "mental": "No direct comparative long-term mood or libido estimate; comfort, anxiety and adherence may matter",
+      "fertility": "No pharmacologic washout; underlying fertility still varies",
+      "profileSources": [
+        "CT-01",
+        "CT-09"
+      ]
+    }
+  ],
+  "evidencePanels": [
+    {
+      "id": "fertility-delay",
+      "topics": [
+        "return-to-fertility",
+        "decision-guide",
+        "after-conception"
+      ],
+      "title": "Estimated temporary delay in return of usual fecundability",
+      "unit": "Menstrual cycles",
+      "max": 8,
+      "note": "Yland et al. (2020), 17,954 pregnancy planners. Relative to barrier users; approximate modeled time until usual per-cycle conception probability returned, not median time to pregnancy, time to ovulation, or a required wait. Observational, especially uncertain for less common methods.",
+      "sources": [
+        "CT-07"
+      ],
+      "rows": [
+        {
+          "label": "Copper IUD / hormonal IUD / implant",
+          "low": 2,
+          "high": 2,
+          "display": "About 2 cycles"
+        },
+        {
+          "label": "Oral pill / vaginal ring",
+          "low": 3,
+          "high": 3,
+          "display": "About 3 cycles"
+        },
+        {
+          "label": "Patch",
+          "low": 4,
+          "high": 4,
+          "display": "About 4 cycles"
+        },
+        {
+          "label": "Injection",
+          "low": 5,
+          "high": 8,
+          "display": "About 5–8 cycles"
+        }
+      ]
+    },
+    {
+      "id": "pain-2018",
+      "topics": [
+        "placement-pain"
+      ],
+      "title": "IUD insertion pain: 2018 randomized trial",
+      "unit": "Median VAS, 0–100 mm",
+      "max": 100,
+      "note": "64 nulliparous participants, no-block comparator. p=.002 for insertion pain; block administration itself may cause pain. Not a device comparison or personal pain forecast.",
+      "sources": [
+        "CT-21"
+      ],
+      "rows": [
+        {
+          "label": "Local anesthetic block",
+          "low": 33,
+          "high": 33,
+          "display": "33/100 (3.3/10 equivalent)"
+        },
+        {
+          "label": "No block",
+          "low": 54,
+          "high": 54,
+          "display": "54/100 (5.4/10 equivalent)"
+        }
+      ]
+    },
+    {
+      "id": "pain-2026",
+      "topics": [
+        "placement-pain"
+      ],
+      "title": "IUD insertion pain: 2026 randomized trial subgroup",
+      "unit": "Median VAS, 0–100 mm",
+      "max": 100,
+      "note": "Nulliparous subgroup: three arms, overall p<.001. IQRs shown in labels (middle half of observations, not confidence intervals). Do not combine these groups with the 2018 study or compare brands.",
+      "sources": [
+        "CT-23"
+      ],
+      "rows": [
+        {
+          "label": "Local anesthetic block",
+          "low": 40,
+          "high": 40,
+          "display": "40 (IQR 25–53)"
+        },
+        {
+          "label": "Saline injection",
+          "low": 50,
+          "high": 50,
+          "display": "50 (IQR 30–68)"
+        },
+        {
+          "label": "Capped needle",
+          "low": 60,
+          "high": 60,
+          "display": "60 (IQR 33–70)"
+        }
+      ]
+    },
+    {
+      "id": "mood-echo",
+      "topics": [
+        "mental-health"
+      ],
+      "title": "Moderate/severe depressive symptoms at 12 months",
+      "unit": "Percent of participants with BDI ≥20",
+      "max": 25,
+      "note": "ECHO ancillary study, South Africa. Group symptom-score threshold, not incident clinical depression. No baseline scores; comparison of copper and injection p=.032; other pairwise comparisons not significant. No general mood ranking.",
+      "sources": [
+        "CT-24"
+      ],
+      "rows": [
+        {
+          "label": "DMPA injection",
+          "low": 9.6,
+          "high": 9.6,
+          "display": "9.6% (16/167)"
+        },
+        {
+          "label": "LNG implant",
+          "low": 13,
+          "high": 13,
+          "display": "13.0% (21/162)"
+        },
+        {
+          "label": "Copper IUD",
+          "low": 17.7,
+          "high": 17.7,
+          "display": "17.7% (28/158)"
+        }
+      ]
+    },
+    {
+      "id": "vte",
+      "topics": [
+        "physical-long-term"
+      ],
+      "title": "Venous thromboembolism in Danish registry data (2025)",
+      "unit": "Standardized events per 10,000 person-years",
+      "max": 26,
+      "note": "Yonis et al.; observed standardized rates (95% confidence intervals), not causal risks. Nonuse of hormonal contraception is reference, not specifically copper IUD. Wide intervals for patch/injection; no direct safety ranking. Venous events only.",
+      "sources": [
+        "CT-12"
+      ],
+      "rows": [
+        {
+          "label": "No hormonal use",
+          "low": 2,
+          "high": 2,
+          "display": "2.0 (1.9–2.1)"
+        },
+        {
+          "label": "LNG IUD",
+          "low": 2.1,
+          "high": 2.1,
+          "display": "2.1 (1.7–2.6)"
+        },
+        {
+          "label": "Implant",
+          "low": 3.4,
+          "high": 3.4,
+          "display": "3.4 (1.7–6.3)"
+        },
+        {
+          "label": "Progestin-only pill",
+          "low": 3.6,
+          "high": 3.6,
+          "display": "3.6 (2.8–4.7)"
+        },
+        {
+          "label": "Vaginal ring",
+          "low": 8,
+          "high": 8,
+          "display": "8.0 (4.6–12.8)"
+        },
+        {
+          "label": "Patch",
+          "low": 8.1,
+          "high": 8.1,
+          "display": "8.1 (1.5–25.1)"
+        },
+        {
+          "label": "Combined pill",
+          "low": 10,
+          "high": 10,
+          "display": "10.0 (9.2–10.9)"
+        },
+        {
+          "label": "Injection",
+          "low": 11.9,
+          "high": 11.9,
+          "display": "11.9 (4.4–25.6)"
+        }
+      ]
+    },
+    {
+      "id": "breast-age",
+      "topics": [
+        "physical-long-term"
+      ],
+      "title": "Estimated excess breast cancers after five years of oral contraception",
+      "unit": "Additional cases per 100,000 users over 15 years",
+      "max": 300,
+      "note": "Fitzpatrick et al. (2023), modeled absolute excess in high-income countries, during 5 years' use plus 10 after stopping. Two age examples; not annual incidence or applicable to every IUD or progestin.",
+      "sources": [
+        "CT-13"
+      ],
+      "rows": [
+        {
+          "label": "Use at age 16–20",
+          "low": 8,
+          "high": 8,
+          "display": "8 extra cases"
+        },
+        {
+          "label": "Use at age 35–39",
+          "low": 265,
+          "high": 265,
+          "display": "265 extra cases"
+        }
+      ]
     }
   ]
 }

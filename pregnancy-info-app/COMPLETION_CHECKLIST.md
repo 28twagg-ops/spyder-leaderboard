@@ -97,3 +97,6 @@ Evidence: prior preview 8b51b5f76a0d4624cf2c1879021c52da98f82de1; preference/sea
 - [ ] Verify deployment and rendered phone navigation; full test/build results pending at commit.
 - [ ] Independent full-text appraisal, underlying study overlap/funding/corrections, full numeric extraction and clinical review; see research/contraception/README.md. No clinical publication approval.
 - [ ] Reconcile additive packet with canonical main inventory after verification.
+
+- [x] Additive outcome comparison: 20 further original-source records and endpoint-specific preliminary risk-of-bias/funding notes; 6 source-labeled numerical panels, profiles for all 15 comparison methods, outcome-specific decision guide. No overall best-method ranking or formal clinical review.
+- [ ] Full-text/COI, independent reviewer, clinical review and rendered-device verification of contraception expansion; confirm exact build/deployment. First contraception build failed on accessibility-name test; fixed explicit accessible label in this candidate, retest pending.
