@@ -14,8 +14,8 @@ export default defineConfig({
         short_name: 'Everwell',
         description:
           'Educational pregnancy preparation, pregnancy, postpartum and early childhood health — research draft, not clinical advice.',
-        theme_color: '#0f2f2c',
-        background_color: '#0b1a19',
+        theme_color: '#6d7a5f',
+        background_color: '#f1efe9',
         display: 'standalone',
         orientation: 'portrait-primary',
         start_url: '/',
