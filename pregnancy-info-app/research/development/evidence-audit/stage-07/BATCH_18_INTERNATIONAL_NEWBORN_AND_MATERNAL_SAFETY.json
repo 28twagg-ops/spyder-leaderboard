@@ -1,0 +1,234 @@
+{
+  "batch": "18",
+  "stage": 7,
+  "date": "2026-11-27",
+  "scope": "International newborn and maternal safety: targeted identity, outcome, shared-cohort, selected funding and article-applicability checks",
+  "count": 12,
+  "counted_ids": [
+    "I1-B03-011",
+    "I1-B03-012",
+    "I1-B01-043",
+    "I1-B01-044",
+    "I1-B01-045",
+    "I1-B01-046",
+    "I1-B01-047",
+    "I1-B02-032",
+    "I1-B02-033",
+    "I1-B03-026",
+    "I1-B03-006",
+    "I1-B03-035"
+  ],
+  "records": [
+    {
+      "id": "I1-B03-011",
+      "source": "https://pubmed.ncbi.nlm.nih.gov/28044049/",
+      "sources": [
+        "https://pubmed.ncbi.nlm.nih.gov/28044049/",
+        "https://pubmed.ncbi.nlm.nih.gov/25262145/",
+        "https://adc.bmj.com/content/archdischild/early/2017/10/13/archdischild-2017-313512"
+      ],
+      "findings": "200 mainly Māori women randomized to wahakura or bassinet; reported breastfeeding difference at six months, no significant difference in direct bedsharing. Not powered for rare sudden infant deaths.",
+      "cohort": "Related physiological paper I1-B03-012 from same randomized cohort; do not count independently.",
+      "funding": "Funding for shared trial reported in related paper: Health Research Council of New Zealand and University of Otago; this paper's own disclosures pending.",
+      "article_applicability": "Infant safe sleep: contextual harm-reduction evidence only; no endorsement of unapproved sleep products or bedsharing.",
+      "integrity": "Correction/retraction search not completed; no clearance inferred.",
+      "scope": "Indexed original-publication metadata/abstract, selected registry and publisher excerpts; no formal full-text risk-of-bias appraisal.",
+      "clinical_review": false,
+      "publish": false,
+      "automation_allowed": false
+    },
+    {
+      "id": "I1-B03-012",
+      "source": "https://pubmed.ncbi.nlm.nih.gov/29030386/",
+      "sources": [
+        "https://pubmed.ncbi.nlm.nih.gov/29030386/",
+        "https://adc.bmj.com/content/archdischild/early/2017/10/13/archdischild-2017-313512",
+        "https://pubmed.ncbi.nlm.nih.gov/28044049/"
+      ],
+      "findings": "Physiological monitoring of 167 infants (83 bassinet,84 wahakura); oxygenation, heart rate and temperature comparisons did not show significant differences. Short-term surrogate outcomes cannot establish mortality equivalence.",
+      "cohort": "Same participants as I1-B03-011; authors explicitly identify behavioral publication.",
+      "funding": "Health Research Council NZ grant 10/477 and University of Otago Research Grant reported; full COI and sponsor-role audit pending.",
+      "article_applicability": "Infant safe sleep: no mortality or device certification claim.",
+      "integrity": "Correction/retraction search not completed; no clearance inferred.",
+      "scope": "Indexed original-publication metadata/abstract, selected registry and publisher excerpts; no formal full-text risk-of-bias appraisal.",
+      "clinical_review": false,
+      "publish": false,
+      "automation_allowed": false
+    },
+    {
+      "id": "I1-B01-043",
+      "source": "https://pubmed.ncbi.nlm.nih.gov/39021147/",
+      "sources": [
+        "https://pubmed.ncbi.nlm.nih.gov/39021147/",
+        "https://pmc.ncbi.nlm.nih.gov/articles/PMC11261424/"
+      ],
+      "findings": "BEEP UK HTA report of 1394 randomized infants: no preventive eczema benefit; skin infection adjusted incidence rate ratio 1.55 (95% CI 1.15–2.09). Unblinded families, contamination and differing products limit interpretation.",
+      "cohort": "BEEP ISRCTN21528841; report is not independent replication of prior BEEP publications.",
+      "funding": "NIHR HTA award 12/67/12; named branded products used; author relationships and supply terms require detailed review.",
+      "article_applicability": "Newborn skin: distinguish eczema prevention in healthy high-risk infants from treatment of established eczema; retain adverse-event context.",
+      "integrity": "Correction/retraction search not completed; no clearance inferred.",
+      "scope": "Indexed original-publication metadata/abstract, selected registry and publisher excerpts; no formal full-text risk-of-bias appraisal.",
+      "clinical_review": false,
+      "publish": false,
+      "automation_allowed": false
+    },
+    {
+      "id": "I1-B01-044",
+      "source": "https://pubmed.ncbi.nlm.nih.gov/32087121/",
+      "sources": [
+        "https://pubmed.ncbi.nlm.nih.gov/32087121/",
+        "https://research.monash.edu/en/publications/skin-emollient-and-early-complementary-feeding-to-prevent-infant-/",
+        "https://pubmed.ncbi.nlm.nih.gov/35753340/"
+      ],
+      "findings": "PreventADALL factorial cluster trial: neither early food intervention nor skin emollient reduced atopic dermatitis in infancy; skin risk difference 3.1 percentage points (95% CI -0.3 to 6.5) in direction favoring control.",
+      "cohort": "Same trial family as I1-B01-045 and PMID 35753340; different endpoints/ages, not independent samples.",
+      "funding": "Multiple Norwegian and Swedish public, hospital, research and charitable funders reported; individual product supply, author ties and sponsor role unresolved.",
+      "article_applicability": "Newborn skin and food allergy: do not equate eczema outcomes with food allergy outcomes.",
+      "integrity": "Correction/retraction search not completed; no clearance inferred.",
+      "scope": "Indexed original-publication metadata/abstract, selected registry and publisher excerpts; no formal full-text risk-of-bias appraisal.",
+      "clinical_review": false,
+      "publish": false,
+      "automation_allowed": false
+    },
+    {
+      "id": "I1-B01-045",
+      "source": "https://pubmed.ncbi.nlm.nih.gov/43039015/",
+      "sources": [
+        "https://pubmed.ncbi.nlm.nih.gov/43039015/",
+        "https://pubmed.ncbi.nlm.nih.gov/35753340/"
+      ],
+      "findings": "Indexed abstract of seven-year PreventADALL follow-up: short early food intervention did not yield sustained food allergy prevention despite reduced sensitization. Direct page unavailable; indexed excerpt only.",
+      "cohort": "Same PreventADALL trial as I1-B01-044 and PMID 35753340; verify follow-up attrition and arm denominators before extraction.",
+      "funding": "Follow-up-specific funding, commercial relationships and sponsor role unresolved.",
+      "article_applicability": "Allergy article: differentiate clinical allergy from sensitization and age-specific effects; no advice to stop established guidance.",
+      "integrity": "Correction/retraction search not completed; no clearance inferred.",
+      "scope": "Indexed original-publication metadata/abstract, selected registry and publisher excerpts; no formal full-text risk-of-bias appraisal.",
+      "clinical_review": false,
+      "publish": false,
+      "automation_allowed": false
+    },
+    {
+      "id": "I1-B01-046",
+      "source": "https://pubmed.ncbi.nlm.nih.gov/39536734/",
+      "sources": [
+        "https://pubmed.ncbi.nlm.nih.gov/39536734/",
+        "https://doi.org/10.1159/000542037"
+      ],
+      "findings": "Japan historical comparison 132 controls (2019) and 140 intervention (2020): no overall dermatitis difference at 6 or 12 months; winter-born subgroup favored intervention. Nonconcurrent groups, questionnaire outcome, season and pandemic-period confounding, multiplicity concerns.",
+      "cohort": "Distinct design from 2019 factorial trial; overlap not established.",
+      "funding": "Funding, product supply and author interests unresolved.",
+      "article_applicability": "Newborn skin: subgroup exploratory, cannot justify universal prevention or specific product.",
+      "integrity": "Correction/retraction search not completed; no clearance inferred.",
+      "scope": "Indexed original-publication metadata/abstract, selected registry and publisher excerpts; no formal full-text risk-of-bias appraisal.",
+      "clinical_review": false,
+      "publish": false,
+      "automation_allowed": false
+    },
+    {
+      "id": "I1-B01-047",
+      "source": "https://pubmed.ncbi.nlm.nih.gov/31394530/",
+      "sources": [
+        "https://pubmed.ncbi.nlm.nih.gov/31394530/",
+        "https://center6.umin.ac.jp/cgi-open-bin/ctr/ctr_view.cgi?recptno=R000012665",
+        "https://openalex.org/W2976709398"
+      ],
+      "findings": "Japanese 2x2 randomized trial: indexed results report neither emollient nor synbiotic reduced dermatitis or food allergy at one year. Direct PubMed page access limited; registry confirms identity/design.",
+      "cohort": "Registry record R000012665; independent relationship to other Chiba studies unresolved.",
+      "funding": "Registry and author disclosures require detailed extraction; no independence conclusion.",
+      "article_applicability": "Infant skin/allergy: no preventive supplement or emollient recommendation from this alone.",
+      "integrity": "Correction/retraction search not completed; no clearance inferred.",
+      "scope": "Indexed original-publication metadata/abstract, selected registry and publisher excerpts; no formal full-text risk-of-bias appraisal.",
+      "clinical_review": false,
+      "publish": false,
+      "automation_allowed": false
+    },
+    {
+      "id": "I1-B02-032",
+      "source": "https://pubmed.ncbi.nlm.nih.gov/26303808/",
+      "sources": [
+        "https://pubmed.ncbi.nlm.nih.gov/26303808/",
+        "https://doi.org/10.1111/apa.13164"
+      ],
+      "findings": "Vietnam randomized trial, 50 per arm, 1500–2500 g newborns without life-threatening conditions; skin-to-skin improved six-hour physiological stability score. Small trial, surrogate primary endpoint.",
+      "cohort": "Replication of earlier trial noted; exact prior cohort identity unresolved.",
+      "funding": "Funding, author interests and sponsor role unresolved.",
+      "article_applicability": "Newborn care: hospital-supervised skin-to-skin; not a substitute for medical stabilization, monitoring or resuscitation.",
+      "integrity": "Correction/retraction search not completed; no clearance inferred.",
+      "scope": "Indexed original-publication metadata/abstract, selected registry and publisher excerpts; no formal full-text risk-of-bias appraisal.",
+      "clinical_review": false,
+      "publish": false,
+      "automation_allowed": false
+    },
+    {
+      "id": "I1-B02-033",
+      "source": "https://pubmed.ncbi.nlm.nih.gov/41725074/",
+      "sources": [
+        "https://pubmed.ncbi.nlm.nih.gov/41725074/",
+        "https://pmc.ncbi.nlm.nih.gov/articles/PMC13159764/",
+        "https://doi.org/10.1111/apa.70478"
+      ],
+      "findings": "China single-center randomized trial, 209 dyads, short-term feeding and temperature improvements after cesarean; abstract contains implausible gestational-age unit ('years old'), check table/erratum before numerical reuse.",
+      "cohort": "Distinct recruitment period from PMID 37244638; formal overlap review pending.",
+      "funding": "Funding/COI and registration analysis not completed.",
+      "article_applicability": "Newborn care: supervised stable infants only; no long-term or mortality claims; numerical extraction hold on inconsistent demographic field.",
+      "integrity": "Correction/retraction search not completed; no clearance inferred.",
+      "scope": "Indexed original-publication metadata/abstract, selected registry and publisher excerpts; no formal full-text risk-of-bias appraisal.",
+      "clinical_review": false,
+      "publish": false,
+      "automation_allowed": false
+    },
+    {
+      "id": "I1-B03-026",
+      "source": "https://pubmed.ncbi.nlm.nih.gov/26348751/",
+      "sources": [
+        "https://pubmed.ncbi.nlm.nih.gov/26348751/"
+      ],
+      "findings": "Kenyan placebo-controlled trial of 470 pregnant women in malaria-endemic area; infection risk at birth 50.9% vs 52.1%, risk difference -1.2 percentage points (95% CI -11.8 to 9.5); birthweight higher in iron arm. Wide interval does not prove absence of harm in all settings.",
+      "cohort": "Check linked trial reports and thesis before pooled use.",
+      "funding": "Funding, supply and commercial relationships unresolved.",
+      "article_applicability": "Nutrition: context-specific antenatal iron evidence; not a reason for self-dosing or omitting malaria prevention.",
+      "integrity": "Correction/retraction search not completed; no clearance inferred.",
+      "scope": "Indexed original-publication metadata/abstract, selected registry and publisher excerpts; no formal full-text risk-of-bias appraisal.",
+      "clinical_review": false,
+      "publish": false,
+      "automation_allowed": false
+    },
+    {
+      "id": "I1-B03-006",
+      "source": "https://pubmed.ncbi.nlm.nih.gov/22398174/",
+      "sources": [
+        "https://pubmed.ncbi.nlm.nih.gov/22398174/",
+        "https://www.sciencedirect.com/science/article/pii/S0140673612602062"
+      ],
+      "findings": "Multicountry randomized noninferiority trial of active third-stage management with or without controlled cord traction. Indexed title and sponsor verified; full quantitative noninferiority appraisal not performed.",
+      "cohort": "Trial family and registry linkage pending.",
+      "funding": "USAID and UNDP/UNFPA/WHO/World Bank HRP program reported; funder role and COI pending.",
+      "article_applicability": "Birth safety: clinician-led intervention only; no self-managed cord traction or hemorrhage protocol.",
+      "integrity": "Correction/retraction search not completed; no clearance inferred.",
+      "scope": "Indexed original-publication metadata/abstract, selected registry and publisher excerpts; no formal full-text risk-of-bias appraisal.",
+      "clinical_review": false,
+      "publish": false,
+      "automation_allowed": false
+    },
+    {
+      "id": "I1-B03-035",
+      "source": "https://pubmed.ncbi.nlm.nih.gov/39607079/",
+      "sources": [
+        "https://pubmed.ncbi.nlm.nih.gov/39607079/",
+        "https://pmc.ncbi.nlm.nih.gov/articles/PMC11970304/"
+      ],
+      "findings": "Thai randomized screening trial reports higher GDM detection with one-step testing; no demonstrated difference in maternal/newborn outcomes in small sample. Abstract allocation (72/71) differs from reported result denominators (73/70); reconcile before graphing.",
+      "cohort": "Single trial; registration and other reports pending.",
+      "funding": "Funding and COI unresolved; PMC full-text access blocked during this check.",
+      "article_applicability": "GDM screening: diagnostic yield is not proof of improved outcomes; do not alter local clinician screening protocols. Numerical denominator hold.",
+      "integrity": "Correction/retraction search not completed; no clearance inferred.",
+      "scope": "Indexed original-publication metadata/abstract, selected registry and publisher excerpts; no formal full-text risk-of-bias appraisal.",
+      "clinical_review": false,
+      "publish": false,
+      "automation_allowed": false
+    }
+  ],
+  "clinical_review": false,
+  "publish": false,
+  "automation_allowed": false
+}
