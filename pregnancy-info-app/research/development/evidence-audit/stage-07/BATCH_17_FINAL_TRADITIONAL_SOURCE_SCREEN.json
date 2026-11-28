@@ -1,0 +1,442 @@
+{
+  "batch": "17",
+  "stage": 7,
+  "scope": "Remaining 33 traditional-practice sources: partial original-source verification, historical and qualitative evidence classification, access and reuse limitations",
+  "count": 33,
+  "counted_ids": [
+    "TH2-105",
+    "TH2-106",
+    "TH2-107",
+    "TH2-108",
+    "TH2-110",
+    "TH2-111",
+    "TH2-112",
+    "TH2-011",
+    "TH2-012",
+    "TH2-013",
+    "TH2-014",
+    "TH2-015",
+    "TH2-016",
+    "TH2-017",
+    "TH2-048",
+    "TH2-049",
+    "TH2-050",
+    "TH2-051",
+    "TH2-053",
+    "TH2-054",
+    "TH2-055",
+    "TH2-056",
+    "TH2-057",
+    "TH2-058",
+    "TH2-059",
+    "TH2-060",
+    "TH2-061",
+    "TH2-089",
+    "TH2-090",
+    "TH2-091",
+    "TH2-092",
+    "TH2-093",
+    "TH2-094"
+  ],
+  "records": [
+    {
+      "id": "TH2-105",
+      "source": "https://pubmed.ncbi.nlm.nih.gov/37978929/",
+      "sources": [
+        "https://pubmed.ncbi.nlm.nih.gov/37978929/"
+      ],
+      "findings": "Northern Nigerian federal teaching hospital cross-sectional research; herbal-use group less likely to use routine iron/folic acid. Association, not causal evidence; complete estimates and funding pending.",
+      "scope": "Original-source indexed metadata/abstract or catalogue check; selected disclosures where explicitly noted. No formal full-text appraisal.",
+      "clinical_review": false,
+      "publish": false,
+      "automation_allowed": false
+    },
+    {
+      "id": "TH2-106",
+      "source": "https://pubmed.ncbi.nlm.nih.gov/24269772/",
+      "sources": [
+        "https://pubmed.ncbi.nlm.nih.gov/24269772/"
+      ],
+      "findings": "Southeast Asian review of approximately 200 studies covering traditional plant use, constituents and pharmacology. Not 200 independently tested clinical interventions. High-risk indications held; funding and membership unresolved.",
+      "scope": "Original-source indexed metadata/abstract or catalogue check; selected disclosures where explicitly noted. No formal full-text appraisal.",
+      "clinical_review": false,
+      "publish": false,
+      "automation_allowed": false
+    },
+    {
+      "id": "TH2-107",
+      "source": "https://pubmed.ncbi.nlm.nih.gov/30876425/",
+      "sources": [
+        "https://pubmed.ncbi.nlm.nih.gov/30876425/"
+      ],
+      "findings": "Rural Ghana qualitative research on perceived herbal use during pregnancy, norms, beliefs and autonomy. Cannot establish safety or efficacy. Funding unresolved.",
+      "scope": "Original-source indexed metadata/abstract or catalogue check; selected disclosures where explicitly noted. No formal full-text appraisal.",
+      "clinical_review": false,
+      "publish": false,
+      "automation_allowed": false
+    },
+    {
+      "id": "TH2-108",
+      "source": "https://pubmed.ncbi.nlm.nih.gov/17293070/",
+      "sources": [
+        "https://pubmed.ncbi.nlm.nih.gov/17293070/"
+      ],
+      "findings": "Indonesian Minahasa Bakera herbal steam bath documentation and assessment. Exact clinical evaluation not extracted. Postpartum heat, burns and exposure safety unresolved; no procedural instructions.",
+      "scope": "Original-source indexed metadata/abstract or catalogue check; selected disclosures where explicitly noted. No formal full-text appraisal.",
+      "clinical_review": false,
+      "publish": false,
+      "automation_allowed": false
+    },
+    {
+      "id": "TH2-110",
+      "source": "https://pubmed.ncbi.nlm.nih.gov/34249557/",
+      "sources": [
+        "https://pubmed.ncbi.nlm.nih.gov/34249557/"
+      ],
+      "findings": "Cross-sectional rural public clinic sample in Bagan Serai, Malaysia, January 2–April 30, 2019. Prevalence not efficacy; ethics committee information observed, funding not extracted.",
+      "scope": "Original-source indexed metadata/abstract or catalogue check; selected disclosures where explicitly noted. No formal full-text appraisal.",
+      "clinical_review": false,
+      "publish": false,
+      "automation_allowed": false
+    },
+    {
+      "id": "TH2-111",
+      "source": "https://pubmed.ncbi.nlm.nih.gov/33794888/",
+      "sources": [
+        "https://pubmed.ncbi.nlm.nih.gov/33794888/"
+      ],
+      "findings": "Convenience hospital/clinic sample in Nablus, Palestine, on herbal-use prevalence and motivations. Selection bias; no causal outcome evidence. Funding unresolved.",
+      "scope": "Original-source indexed metadata/abstract or catalogue check; selected disclosures where explicitly noted. No formal full-text appraisal.",
+      "clinical_review": false,
+      "publish": false,
+      "automation_allowed": false
+    },
+    {
+      "id": "TH2-112",
+      "source": "https://pubmed.ncbi.nlm.nih.gov/37452524/",
+      "sources": [
+        "https://pubmed.ncbi.nlm.nih.gov/37452524/"
+      ],
+      "findings": "Systematic review of herbal-use prevalence and motivations in WHO Eastern Mediterranean Region. Geographic designation is not WHO endorsement. Funding and primary study overlap unresolved.",
+      "scope": "Original-source indexed metadata/abstract or catalogue check; selected disclosures where explicitly noted. No formal full-text appraisal.",
+      "clinical_review": false,
+      "publish": false,
+      "automation_allowed": false
+    },
+    {
+      "id": "TH2-011",
+      "source": "https://www.sciencedirect.com/science/article/pii/S0254629923000091",
+      "sources": [
+        "https://www.sciencedirect.com/science/article/pii/S0254629923000091"
+      ],
+      "findings": "2023 secondary compilation of historical and contemporary perinatal plant-use reports in Sub-Saharan Africa. Counts of reported uses do not represent independent clinical participants or trials. Indexed publisher abstract checked; direct article access returned 403. Funding unresolved; high-risk indications held.",
+      "scope": "Original-source indexed metadata/abstract or catalogue check; selected disclosures where explicitly noted. No formal full-text appraisal.",
+      "clinical_review": false,
+      "publish": false,
+      "automation_allowed": false
+    },
+    {
+      "id": "TH2-012",
+      "source": "https://academic.oup.com/shm/article/24/1/74/1669107",
+      "sources": [
+        "https://academic.oup.com/shm/article/24/1/74/1669107"
+      ],
+      "findings": "Laurence Totelin, 2011, DOI 10.1093/shm/hkq103. Historical scholarship on Latin adaptations of Hippocratic gynecological treatises; textual transmission and translation, not clinical evidence. Funding and rights in individual illustrations not established.",
+      "scope": "Original-source indexed metadata/abstract or catalogue check; selected disclosures where explicitly noted. No formal full-text appraisal.",
+      "clinical_review": false,
+      "publish": false,
+      "automation_allowed": false
+    },
+    {
+      "id": "TH2-013",
+      "source": "https://pubmed.ncbi.nlm.nih.gov/19367345/",
+      "sources": [
+        "https://pubmed.ncbi.nlm.nih.gov/19367345/"
+      ],
+      "findings": "Historical scholarship on sources and antecedents of Rösslin's 1513 Rosegarden, including earlier translations and adaptations. Distinguish date of original book from modern scholarship. No clinical recommendation or image clearance.",
+      "scope": "Original-source indexed metadata/abstract or catalogue check; selected disclosures where explicitly noted. No formal full-text appraisal.",
+      "clinical_review": false,
+      "publish": false,
+      "automation_allowed": false
+    },
+    {
+      "id": "TH2-014",
+      "source": "https://wellcomecollection.org/works/sw68jftr",
+      "sources": [
+        "https://wellcomecollection.org/works/sw68jftr"
+      ],
+      "findings": "Wellcome catalogue sw68jftr: Jane Sharp, The Midwives Book, London, S. Miller, 1671. Catalogue public-domain mark and Wellcome credit checked; item-specific visual reuse not approved here. Historical text, not current clinical guidance.",
+      "scope": "Original-source indexed metadata/abstract or catalogue check; selected disclosures where explicitly noted. No formal full-text appraisal.",
+      "clinical_review": false,
+      "publish": false,
+      "automation_allowed": false
+    },
+    {
+      "id": "TH2-015",
+      "source": "https://academic.oup.com/chicago-scholarship-online/book/17974",
+      "sources": [
+        "https://academic.oup.com/chicago-scholarship-online/book/17974"
+      ],
+      "findings": "Justine Siegemund's The Court Midwife, originally 1690; modern English translation by Lynne Tatlock, University of Chicago Press, 2005, DOI 10.7208/chicago/9780226757100.001.0001. Subscriber access limits full text; translation is not presumed public domain. Related historical subject to TH2-016, not separate clinical evidence.",
+      "scope": "Original-source indexed metadata/abstract or catalogue check; selected disclosures where explicitly noted. No formal full-text appraisal.",
+      "clinical_review": false,
+      "publish": false,
+      "automation_allowed": false
+    },
+    {
+      "id": "TH2-016",
+      "source": "https://pmc.ncbi.nlm.nih.gov/articles/PMC2791243/",
+      "sources": [
+        "https://pmc.ncbi.nlm.nih.gov/articles/PMC2791243/"
+      ],
+      "findings": "Illustrated history of Justina Siegemund, PMC2791243, PMID 19910341. Historical book illustration credit observed; modern reproduction rights not cleared. No current technique endorsement.",
+      "scope": "Original-source indexed metadata/abstract or catalogue check; selected disclosures where explicitly noted. No formal full-text appraisal.",
+      "clinical_review": false,
+      "publish": false,
+      "automation_allowed": false
+    },
+    {
+      "id": "TH2-017",
+      "source": "https://wellcomecollection.org/works/yz4v9nmd",
+      "sources": [
+        "https://wellcomecollection.org/works/yz4v9nmd"
+      ],
+      "findings": "Wellcome catalogue yz4v9nmd: 1680 fourth enlarged edition of The Complete Midwife's Practice, composite work with contributions attributed to several authors including Louise Bourgeois. Do not attribute entire edition solely to Bourgeois. Catalogue public-domain mark and credit observed; no item-specific clinical or visual approval.",
+      "scope": "Original-source indexed metadata/abstract or catalogue check; selected disclosures where explicitly noted. No formal full-text appraisal.",
+      "clinical_review": false,
+      "publish": false,
+      "automation_allowed": false
+    },
+    {
+      "id": "TH2-048",
+      "source": "https://pubmed.ncbi.nlm.nih.gov/42270156/",
+      "sources": [
+        "https://pubmed.ncbi.nlm.nih.gov/42270156/"
+      ],
+      "findings": "Qualitative systematic review/meta-synthesis of pregnant women, women with pregnancy experience and key informants; cultural beliefs and social support among eight categories. No causal effect estimates; funding and primary study membership unresolved.",
+      "scope": "Original-source indexed metadata/abstract or catalogue check; selected disclosures where explicitly noted. No formal full-text appraisal.",
+      "clinical_review": false,
+      "publish": false,
+      "automation_allowed": false
+    },
+    {
+      "id": "TH2-049",
+      "source": "https://pubmed.ncbi.nlm.nih.gov/33119079/",
+      "sources": [
+        "https://pubmed.ncbi.nlm.nih.gov/33119079/"
+      ],
+      "findings": "Systematic review of cultural food beliefs, including family, community and religious influences. Contextual findings, not nutrition intervention efficacy. Funding and primary study overlap unresolved.",
+      "scope": "Original-source indexed metadata/abstract or catalogue check; selected disclosures where explicitly noted. No formal full-text appraisal.",
+      "clinical_review": false,
+      "publish": false,
+      "automation_allowed": false
+    },
+    {
+      "id": "TH2-050",
+      "source": "https://pubmed.ncbi.nlm.nih.gov/27456151/",
+      "sources": [
+        "https://pubmed.ncbi.nlm.nih.gov/27456151/"
+      ],
+      "findings": "Rural Arsi, Ethiopia qualitative cross-sectional study of dietary and weight perceptions during pregnancy. Contextual reported beliefs, not causal nutrition evidence. Funding unresolved.",
+      "scope": "Original-source indexed metadata/abstract or catalogue check; selected disclosures where explicitly noted. No formal full-text appraisal.",
+      "clinical_review": false,
+      "publish": false,
+      "automation_allowed": false
+    },
+    {
+      "id": "TH2-051",
+      "source": "https://pubmed.ncbi.nlm.nih.gov/25116652/",
+      "sources": [
+        "https://pubmed.ncbi.nlm.nih.gov/25116652/"
+      ],
+      "findings": "Ghana exploration of food beliefs and practices, relevant to culturally informed programs but not evidence that such programs improve outcomes. Funding and sample overlap unresolved.",
+      "scope": "Original-source indexed metadata/abstract or catalogue check; selected disclosures where explicitly noted. No formal full-text appraisal.",
+      "clinical_review": false,
+      "publish": false,
+      "automation_allowed": false
+    },
+    {
+      "id": "TH2-053",
+      "source": "https://pubmed.ncbi.nlm.nih.gov/36927859/",
+      "sources": [
+        "https://pubmed.ncbi.nlm.nih.gov/36927859/"
+      ],
+      "findings": "Ethiopian food-taboo prevalence meta-analysis, PMC10020167: pooled 34.22% (95% CI 25.47–42.96); trim-and-fill estimate 21.31% (10.85–31.67). Illustrates publication-bias sensitivity, not intervention causality. TH2-045 appears in references; verify actual pooled membership. Formal methods and funding appraisal pending.",
+      "scope": "Original-source indexed metadata/abstract or catalogue check; selected disclosures where explicitly noted. No formal full-text appraisal.",
+      "clinical_review": false,
+      "publish": false,
+      "automation_allowed": false
+    },
+    {
+      "id": "TH2-054",
+      "source": "https://pubmed.ncbi.nlm.nih.gov/41593435/",
+      "sources": [
+        "https://pubmed.ncbi.nlm.nih.gov/41593435/"
+      ],
+      "findings": "Jimma, southwest Ethiopia qualitative research on pregnancy diet, taboo and weight perceptions among relatives, pregnant women, clinicians and specialists. Four themes, not measured outcome risk. Funding unresolved.",
+      "scope": "Original-source indexed metadata/abstract or catalogue check; selected disclosures where explicitly noted. No formal full-text appraisal.",
+      "clinical_review": false,
+      "publish": false,
+      "automation_allowed": false
+    },
+    {
+      "id": "TH2-055",
+      "source": "https://pubmed.ncbi.nlm.nih.gov/26182983/",
+      "sources": [
+        "https://pubmed.ncbi.nlm.nih.gov/26182983/"
+      ],
+      "findings": "Upper Manya Krobo, Ghana qualitative study on food prohibitions and enforcement. Describes social context, not efficacy or biological risk. Funding unresolved.",
+      "scope": "Original-source indexed metadata/abstract or catalogue check; selected disclosures where explicitly noted. No formal full-text appraisal.",
+      "clinical_review": false,
+      "publish": false,
+      "automation_allowed": false
+    },
+    {
+      "id": "TH2-056",
+      "source": "https://pubmed.ncbi.nlm.nih.gov/34261513/",
+      "sources": [
+        "https://pubmed.ncbi.nlm.nih.gov/34261513/"
+      ],
+      "findings": "Rural northern Ghana community dietary perceptions; economic access and education discussed, not evaluated intervention. OpenAlex metadata lists NIHR G3631478702; original funding declaration not verified. No causal inference.",
+      "scope": "Original-source indexed metadata/abstract or catalogue check; selected disclosures where explicitly noted. No formal full-text appraisal.",
+      "clinical_review": false,
+      "publish": false,
+      "automation_allowed": false
+    },
+    {
+      "id": "TH2-057",
+      "source": "https://pubmed.ncbi.nlm.nih.gov/42158244/",
+      "sources": [
+        "https://pubmed.ncbi.nlm.nih.gov/42158244/"
+      ],
+      "findings": "Brunei Indigenous postpartum care cross-sectional study of practices and perceptions. Commercial postpartum products mentioned in regional context, not evidence of author conflicts or efficacy. Funding unresolved.",
+      "scope": "Original-source indexed metadata/abstract or catalogue check; selected disclosures where explicitly noted. No formal full-text appraisal.",
+      "clinical_review": false,
+      "publish": false,
+      "automation_allowed": false
+    },
+    {
+      "id": "TH2-058",
+      "source": "https://pubmed.ncbi.nlm.nih.gov/30998436/",
+      "sources": [
+        "https://pubmed.ncbi.nlm.nih.gov/30998436/"
+      ],
+      "findings": "Review identified more than 50 foods subject to pregnancy taboos; cultural restriction does not establish biological harm. Full methods, funding and study membership pending.",
+      "scope": "Original-source indexed metadata/abstract or catalogue check; selected disclosures where explicitly noted. No formal full-text appraisal.",
+      "clinical_review": false,
+      "publish": false,
+      "automation_allowed": false
+    },
+    {
+      "id": "TH2-059",
+      "source": "https://pubmed.ncbi.nlm.nih.gov/9313183/",
+      "sources": [
+        "https://pubmed.ncbi.nlm.nih.gov/9313183/"
+      ],
+      "findings": "Historical overview of Indian traditional pregnancy practices; cannot establish present-day prevalence or clinical efficacy. No instructions or endorsement.",
+      "scope": "Original-source indexed metadata/abstract or catalogue check; selected disclosures where explicitly noted. No formal full-text appraisal.",
+      "clinical_review": false,
+      "publish": false,
+      "automation_allowed": false
+    },
+    {
+      "id": "TH2-060",
+      "source": "https://pubmed.ncbi.nlm.nih.gov/41439093/",
+      "sources": [
+        "https://pubmed.ncbi.nlm.nih.gov/41439093/"
+      ],
+      "findings": "African scoping review of dietary taboos including avoidance of nutrient-dense foods. Useful context for culturally responsive counseling; not measured causal outcome risk. Funding and study overlap unresolved.",
+      "scope": "Original-source indexed metadata/abstract or catalogue check; selected disclosures where explicitly noted. No formal full-text appraisal.",
+      "clinical_review": false,
+      "publish": false,
+      "automation_allowed": false
+    },
+    {
+      "id": "TH2-061",
+      "source": "https://pubmed.ncbi.nlm.nih.gov/42958690/",
+      "sources": [
+        "https://pubmed.ncbi.nlm.nih.gov/42958690/"
+      ],
+      "findings": "Central Ghana qualitative research into dietary practices among women experiencing anemia. Does not test anemia treatment. Funding unresolved.",
+      "scope": "Original-source indexed metadata/abstract or catalogue check; selected disclosures where explicitly noted. No formal full-text appraisal.",
+      "clinical_review": false,
+      "publish": false,
+      "automation_allowed": false
+    },
+    {
+      "id": "TH2-089",
+      "source": "https://www.jstage.jst.go.jp/article/jjam/24/1/24_1_28/_article/-char/ja/",
+      "sources": [
+        "https://www.jstage.jst.go.jp/article/jjam/24/1/24_1_28/_article/-char/ja/"
+      ],
+      "findings": "Japanese J-STAGE original abstract, 2010, DOI 10.3418/jjam.24.28: 15 semi-structured interviews (10 primiparous, five multiparous). Satogaeri family assistance associated in accounts with rest, support and anxiety, but also privacy loss, overinvolvement and withdrawal of help. Translated contextual findings, not causal outcome evidence.",
+      "scope": "Original-source indexed metadata/abstract or catalogue check; selected disclosures where explicitly noted. No formal full-text appraisal.",
+      "clinical_review": false,
+      "publish": false,
+      "automation_allowed": false
+    },
+    {
+      "id": "TH2-090",
+      "source": "https://www.scielo.br/j/sess/a/yWpMCwqPXHVKpLVrty5DFsv/",
+      "sources": [
+        "https://www.scielo.br/j/sess/a/yWpMCwqPXHVKpLVrty5DFsv/"
+      ],
+      "findings": "Portuguese-language original title and indexed passages on traditional midwives mediating traditional and biomedical services in rural Amazonas. Ethnography, not safety comparison. Direct SciELO access blocked by JavaScript; funding unresolved.",
+      "scope": "Original-source indexed metadata/abstract or catalogue check; selected disclosures where explicitly noted. No formal full-text appraisal.",
+      "clinical_review": false,
+      "publish": false,
+      "automation_allowed": false
+    },
+    {
+      "id": "TH2-091",
+      "source": "https://new.scielo.br/j/ref/a/PHb5WWmL6wHT4PFVgcmpkPs/",
+      "sources": [
+        "https://new.scielo.br/j/ref/a/PHb5WWmL6wHT4PFVgcmpkPs/"
+      ],
+      "findings": "Portuguese-language historical account of twentieth-century childbirth in Bahia, Matarandiba memories, gender, race and loss of traditions. Indexed publisher and alternate university publisher identified; direct SciELO access blocked. Not clinical evidence.",
+      "scope": "Original-source indexed metadata/abstract or catalogue check; selected disclosures where explicitly noted. No formal full-text appraisal.",
+      "clinical_review": false,
+      "publish": false,
+      "automation_allowed": false
+    },
+    {
+      "id": "TH2-092",
+      "source": "https://www.scielo.br/j/ean/a/VQbwFwMvT4CLcB3NnLg3c6c/",
+      "sources": [
+        "https://www.scielo.br/j/ean/a/VQbwFwMvT4CLcB3NnLg3c6c/"
+      ],
+      "findings": "Qualitative reports by multiparous women with home and hospital birth experience, selected via community health agents. Selection and self-report cannot establish comparative safety. Indexed original; direct access 403. Funding unresolved.",
+      "scope": "Original-source indexed metadata/abstract or catalogue check; selected disclosures where explicitly noted. No formal full-text appraisal.",
+      "clinical_review": false,
+      "publish": false,
+      "automation_allowed": false
+    },
+    {
+      "id": "TH2-093",
+      "source": "https://www.scielo.br/scielo.php?pid=S0104-59702011000500006&script=sci_arttext",
+      "sources": [
+        "https://www.scielo.br/scielo.php?pid=S0104-59702011000500006&script=sci_arttext"
+      ],
+      "findings": "Historical Brazilian public-health training and control of folk midwives, 1940–1960; PMID 22240949. Indexed newer SciELO record checked; old URL inaccessible. Historical context, not clinical evidence.",
+      "scope": "Original-source indexed metadata/abstract or catalogue check; selected disclosures where explicitly noted. No formal full-text appraisal.",
+      "clinical_review": false,
+      "publish": false,
+      "automation_allowed": false
+    },
+    {
+      "id": "TH2-094",
+      "source": "https://new.scielo.br/j/reben/a/ptXC56fyHVwdcw4dbnbND5H/",
+      "sources": [
+        "https://new.scielo.br/j/reben/a/ptXC56fyHVwdcw4dbnbND5H/"
+      ],
+      "findings": "Portuguese sociohistorical study of Florianópolis Carmela Dutra maternity practices, 1967–1994. Some historical routines now regarded as harmful or ineffective; no endorsement. Indexed variant checked, direct link blocked. Funding unresolved.",
+      "scope": "Original-source indexed metadata/abstract or catalogue check; selected disclosures where explicitly noted. No formal full-text appraisal.",
+      "clinical_review": false,
+      "publish": false,
+      "automation_allowed": false
+    }
+  ],
+  "clinical_review": false,
+  "publish": false,
+  "automation_allowed": false
+}
