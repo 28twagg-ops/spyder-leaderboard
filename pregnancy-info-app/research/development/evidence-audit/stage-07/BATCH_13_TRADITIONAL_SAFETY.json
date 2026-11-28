@@ -1,0 +1,370 @@
+{
+  "stage": 7,
+  "batch": "13",
+  "date": "2026-11-27",
+  "scope": "26 traditional-practice source-level partial external checks, with priority on herbal safety, neonatal oil studies and historical/contextual reviews.",
+  "counted_ids": [
+    "TH2-038",
+    "TH2-041",
+    "TH2-052",
+    "TH2-063",
+    "TH2-064",
+    "TH2-065",
+    "TH2-066",
+    "TH2-067",
+    "TH2-068",
+    "TH2-069",
+    "TH2-070",
+    "TH2-071",
+    "TH2-072",
+    "TH2-073",
+    "TH2-074",
+    "TH2-075",
+    "TH2-096",
+    "TH2-097",
+    "TH2-098",
+    "TH2-099",
+    "TH2-100",
+    "TH2-101",
+    "TH2-102",
+    "TH2-103",
+    "TH2-104",
+    "TH2-109"
+  ],
+  "checks": [
+    {
+      "id": "TH2-038",
+      "source": "https://pubmed.ncbi.nlm.nih.gov/34192598/",
+      "sources": [
+        "https://pubmed.ncbi.nlm.nih.gov/34192598/"
+      ],
+      "findings": "Literature review of traditional and contemporary plant use during lactation and postpartum recovery, including pharmacology/toxicology and sociocultural data. Mechanistic claims about phytochemicals are hypotheses, not infant health trial outcomes. Sponsor and review selection methods unresolved.",
+      "scope": "Indexed original abstract or source metadata and selected passages; no systematic integrity, funding or full-text appraisal. Access limits noted where applicable.",
+      "clinical_review": false,
+      "publish": false,
+      "automation_allowed": false
+    },
+    {
+      "id": "TH2-041",
+      "source": "https://pubmed.ncbi.nlm.nih.gov/33450288/",
+      "sources": [
+        "https://pubmed.ncbi.nlm.nih.gov/33450288/"
+      ],
+      "findings": "Global literature survey ranks plants from prior surveys and reviews and investigates scientific literature for 20 frequently cited plants. Citation frequency and potential biological activity cannot establish lactation safety or clinical benefit. Author interpretation is not clinical guidance. Funding and overlap with TH2-038 pending.",
+      "scope": "Indexed original abstract or source metadata and selected passages; no systematic integrity, funding or full-text appraisal. Access limits noted where applicable.",
+      "clinical_review": false,
+      "publish": false,
+      "automation_allowed": false
+    },
+    {
+      "id": "TH2-052",
+      "source": "https://pubmed.ncbi.nlm.nih.gov/26167656/",
+      "sources": [
+        "https://pubmed.ncbi.nlm.nih.gov/26167656/"
+      ],
+      "findings": "Narrative review of Malaysian postpartum traditions across ethnic groups, identifies food beliefs, massage, herbal use and family support. Descriptive context; does not measure intervention efficacy or justify restrictive diet. Funding and primary source overlap unresolved.",
+      "scope": "Indexed original abstract or source metadata and selected passages; no systematic integrity, funding or full-text appraisal. Access limits noted where applicable.",
+      "clinical_review": false,
+      "publish": false,
+      "automation_allowed": false
+    },
+    {
+      "id": "TH2-063",
+      "source": "https://pubmed.ncbi.nlm.nih.gov/32581815/",
+      "sources": [
+        "https://pubmed.ncbi.nlm.nih.gov/32581815/"
+      ],
+      "findings": "Narrative review of herbal medicines during pregnancy in sub-Saharan Africa. Multiple preparations and potential contamination, interactions and toxic effects; not a controlled trial or evidence of blanket safety/toxicity. Full funding and methods unresolved.",
+      "scope": "Indexed original abstract or source metadata and selected passages; no systematic integrity, funding or full-text appraisal. Access limits noted where applicable.",
+      "clinical_review": false,
+      "publish": false,
+      "automation_allowed": false
+    },
+    {
+      "id": "TH2-064",
+      "source": "https://pubmed.ncbi.nlm.nih.gov/41519415/",
+      "sources": [
+        "https://pubmed.ncbi.nlm.nih.gov/41519415/"
+      ],
+      "findings": "Systematic review of 111 studies (39 randomized, 36 cohort, 18 case-control, 18 cross-sectional). Pooled adjusted observational estimates showed no significant associations for examined major outcomes; heterogeneous exposures, imprecision and observational confounding preclude general reassurance. Verify primary membership including retracted research and funding before using pooled estimates.",
+      "scope": "Indexed original abstract or source metadata and selected passages; no systematic integrity, funding or full-text appraisal. Access limits noted where applicable.",
+      "clinical_review": false,
+      "publish": false,
+      "automation_allowed": false
+    },
+    {
+      "id": "TH2-065",
+      "source": "https://pubmed.ncbi.nlm.nih.gov/39515097/",
+      "sources": [
+        "https://pubmed.ncbi.nlm.nih.gov/39515097/"
+      ],
+      "findings": "Linked Xiamen, mainland China live-birth data 2013–2018: 195,824 pregnancies, 3,024 herbal monotherapy. Adjusted RR for birth defects 1.25 (95% CI 0.69–2.29) versus unexposed. Live-birth selection, prescription versus ingestion, confounding and wide CI constrain causal inference. No broad safety claim; sponsor role unresolved.",
+      "scope": "Indexed original abstract or source metadata and selected passages; no systematic integrity, funding or full-text appraisal. Access limits noted where applicable.",
+      "clinical_review": false,
+      "publish": false,
+      "automation_allowed": false
+    },
+    {
+      "id": "TH2-066",
+      "source": "https://pubmed.ncbi.nlm.nih.gov/31734622/",
+      "sources": [
+        "https://pubmed.ncbi.nlm.nih.gov/31734622/"
+      ],
+      "findings": "EBCOG position statement identity verified. Guidance/consensus rather than original trial; full recommendations and disclosures not extracted.",
+      "scope": "Indexed original abstract or source metadata and selected passages; no systematic integrity, funding or full-text appraisal. Access limits noted where applicable.",
+      "clinical_review": false,
+      "publish": false,
+      "automation_allowed": false
+    },
+    {
+      "id": "TH2-067",
+      "source": "https://pubmed.ncbi.nlm.nih.gov/12186200/",
+      "sources": [
+        "https://pubmed.ncbi.nlm.nih.gov/12186200/"
+      ],
+      "findings": "Bangladesh neonatal oil massage practice report. Prevalence and choice of oils do not establish treatment efficacy or safety. Full design and funding unresolved.",
+      "scope": "Indexed original abstract or source metadata and selected passages; no systematic integrity, funding or full-text appraisal. Access limits noted where applicable.",
+      "clinical_review": false,
+      "publish": false,
+      "automation_allowed": false
+    },
+    {
+      "id": "TH2-068",
+      "source": "https://pubmed.ncbi.nlm.nih.gov/17985826/",
+      "sources": [
+        "https://pubmed.ncbi.nlm.nih.gov/17985826/"
+      ],
+      "findings": "Dhaka neonatal admission/discharge acceptability survey. Potential companion to hospital emollient trial; not independent clinical outcome evidence. PMC direct access CAPTCHA; indexed abstract only. Funding unresolved.",
+      "scope": "Indexed original abstract or source metadata and selected passages; no systematic integrity, funding or full-text appraisal. Access limits noted where applicable.",
+      "clinical_review": false,
+      "publish": false,
+      "automation_allowed": false
+    },
+    {
+      "id": "TH2-069",
+      "source": "https://pubmed.ncbi.nlm.nih.gov/36409192/",
+      "sources": [
+        "https://pubmed.ncbi.nlm.nih.gov/36409192/"
+      ],
+      "findings": "Topical oils and newborn skin systematic review identity checked. Heterogeneity of formulations and populations inherited from archive; results and sponsor disclosures not freshly extracted.",
+      "scope": "Indexed original abstract or source metadata and selected passages; no systematic integrity, funding or full-text appraisal. Access limits noted where applicable.",
+      "clinical_review": false,
+      "publish": false,
+      "automation_allowed": false
+    },
+    {
+      "id": "TH2-070",
+      "source": "https://pubmed.ncbi.nlm.nih.gov/12113324/",
+      "sources": [
+        "https://pubmed.ncbi.nlm.nih.gov/12113324/"
+      ],
+      "findings": "Indexed source describes faster skin barrier recovery with sunflower oil in experimental model. Species and clinical translation not verified; direct PubMed page did not expose body. No inference about routine newborn care.",
+      "scope": "Indexed original abstract or source metadata and selected passages; no systematic integrity, funding or full-text appraisal. Access limits noted where applicable.",
+      "clinical_review": false,
+      "publish": false,
+      "automation_allowed": false
+    },
+    {
+      "id": "TH2-071",
+      "source": "https://pubmed.ncbi.nlm.nih.gov/26551528/",
+      "sources": [
+        "https://pubmed.ncbi.nlm.nih.gov/26551528/"
+      ],
+      "findings": "OBSeRvE UK assessor-blinded pilot, 115 healthy term newborns randomized; about 80% retained. Oil groups showed greater hydration but less improvement in lipid lamellae than no-oil group; no clear TEWL, pH or skin score difference. Pilot not powered for clinical outcomes; funding and product supply unresolved. No universal oil recommendation.",
+      "scope": "Indexed original abstract or source metadata and selected passages; no systematic integrity, funding or full-text appraisal. Access limits noted where applicable.",
+      "clinical_review": false,
+      "publish": false,
+      "automation_allowed": false
+    },
+    {
+      "id": "TH2-072",
+      "source": "https://pubmed.ncbi.nlm.nih.gov/15781099/",
+      "sources": [
+        "https://pubmed.ncbi.nlm.nih.gov/15781099/"
+      ],
+      "findings": "Hospital RCT in Dhaka, infants born before 33 weeks. Aquaphor infection RR 0.60 (95% CI 0.35–1.03); no statistically clear difference for that comparison. Likely same parent trial as TH2-073; secondary PMID 24853544 reports 491 infants, denominators require reconciliation. Not home-care evidence; funding and harms unresolved.",
+      "scope": "Indexed original abstract or source metadata and selected passages; no systematic integrity, funding or full-text appraisal. Access limits noted where applicable.",
+      "clinical_review": false,
+      "publish": false,
+      "automation_allowed": false
+    },
+    {
+      "id": "TH2-073",
+      "source": "https://pubmed.ncbi.nlm.nih.gov/18310201/",
+      "sources": [
+        "https://pubmed.ncbi.nlm.nih.gov/18310201/"
+      ],
+      "findings": "Dhaka hospital preterm emollient trial mortality report, 497 infants; reported relative mortality reduction 26% with sunflower oil and 32% with Aquaphor. Likely same parent study as TH2-072; verify dates and denominators before counting. Government support indexing is not a full funding/sponsor disclosure. Not generalizable to healthy term newborns.",
+      "scope": "Indexed original abstract or source metadata and selected passages; no systematic integrity, funding or full-text appraisal. Access limits noted where applicable.",
+      "clinical_review": false,
+      "publish": false,
+      "automation_allowed": false
+    },
+    {
+      "id": "TH2-074",
+      "source": "https://pubmed.ncbi.nlm.nih.gov/38423547/",
+      "sources": [
+        "https://pubmed.ncbi.nlm.nih.gov/38423547/"
+      ],
+      "findings": "Nepal Sarlahi cluster trial, 340 communities, 16,327 versus 15,676 births. Neonatal mortality 31.8 versus 30.5 per 1,000, RR 0.95 (95% CI 0.84–1.08). No clear overall difference; active comparator (two oils), not versus no oil. PMC access CAPTCHA; indexed report. No home recommendation; funding and full harms pending.",
+      "scope": "Indexed original abstract or source metadata and selected passages; no systematic integrity, funding or full-text appraisal. Access limits noted where applicable.",
+      "clinical_review": false,
+      "publish": false,
+      "automation_allowed": false
+    },
+    {
+      "id": "TH2-075",
+      "source": "https://pubmed.ncbi.nlm.nih.gov/33791313/",
+      "sources": [
+        "https://pubmed.ncbi.nlm.nih.gov/33791313/"
+      ],
+      "findings": "Indexed report investigates birthweight/environment-related skin adaptation in Sarlahi; likely related cohort to TH2-074, membership not independently confirmed. Skin pH surrogate not mortality or infection endpoint. Funding unresolved.",
+      "scope": "Indexed original abstract or source metadata and selected passages; no systematic integrity, funding or full-text appraisal. Access limits noted where applicable.",
+      "clinical_review": false,
+      "publish": false,
+      "automation_allowed": false
+    },
+    {
+      "id": "TH2-096",
+      "source": "https://pubmed.ncbi.nlm.nih.gov/36813231/",
+      "sources": [
+        "https://pubmed.ncbi.nlm.nih.gov/36813231/"
+      ],
+      "findings": "Prescription database and product label study. Among 100 common formulas, 43% of labels cited randomized efficacy or safety data and 7% indicated pregnancy/postpartum use. Labeling does not establish pregnancy safety; geography and funding not newly extracted.",
+      "scope": "Indexed original abstract or source metadata and selected passages; no systematic integrity, funding or full-text appraisal. Access limits noted where applicable.",
+      "clinical_review": false,
+      "publish": false,
+      "automation_allowed": false
+    },
+    {
+      "id": "TH2-097",
+      "source": "https://pubmed.ncbi.nlm.nih.gov/22706624/",
+      "sources": [
+        "https://pubmed.ncbi.nlm.nih.gov/22706624/"
+      ],
+      "findings": "Norwegian observational population study of ginger exposure and selected pregnancy outcomes. No increased risk identified in examined outcomes in indexed evidence and UKTIS summary; residual confounding, formulation and rare-harm uncertainty. Primary estimates and funding pending; not a universal safety guarantee.",
+      "scope": "Indexed original abstract or source metadata and selected passages; no systematic integrity, funding or full-text appraisal. Access limits noted where applicable.",
+      "clinical_review": false,
+      "publish": false,
+      "automation_allowed": false
+    },
+    {
+      "id": "TH2-098",
+      "source": "https://pubmed.ncbi.nlm.nih.gov/19782445/",
+      "sources": [
+        "https://pubmed.ncbi.nlm.nih.gov/19782445/"
+      ],
+      "findings": "Historical review of 14 human studies on herbal remedies in obstetrics. Update needed and study overlap must be checked; no broad claim of safety or efficacy. Full methods/funding unresolved.",
+      "scope": "Indexed original abstract or source metadata and selected passages; no systematic integrity, funding or full-text appraisal. Access limits noted where applicable.",
+      "clinical_review": false,
+      "publish": false,
+      "automation_allowed": false
+    },
+    {
+      "id": "TH2-099",
+      "source": "https://pubmed.ncbi.nlm.nih.gov/24535321/",
+      "sources": [
+        "https://pubmed.ncbi.nlm.nih.gov/24535321/"
+      ],
+      "findings": "Older herbal therapy review identity confirmed; popularity, safety and efficacy context, not current exhaustive appraisal. Full estimates, primary study membership and funding unresolved.",
+      "scope": "Indexed original abstract or source metadata and selected passages; no systematic integrity, funding or full-text appraisal. Access limits noted where applicable.",
+      "clinical_review": false,
+      "publish": false,
+      "automation_allowed": false
+    },
+    {
+      "id": "TH2-100",
+      "source": "https://pubmed.ncbi.nlm.nih.gov/24330413/",
+      "sources": [
+        "https://pubmed.ncbi.nlm.nih.gov/24330413/"
+      ],
+      "findings": "Multinational self-reported herbal use survey; many users self-initiated and about one in five reported physician recommendation. Prevalence, not clinical benefit. Likely shared dataset with TH2-101; verify dates and recruitment before counting separately.",
+      "scope": "Indexed original abstract or source metadata and selected passages; no systematic integrity, funding or full-text appraisal. Access limits noted where applicable.",
+      "clinical_review": false,
+      "publish": false,
+      "automation_allowed": false
+    },
+    {
+      "id": "TH2-101",
+      "source": "https://pubmed.ncbi.nlm.nih.gov/26980526/",
+      "sources": [
+        "https://pubmed.ncbi.nlm.nih.gov/26980526/"
+      ],
+      "findings": "Multinational 2011–2012 cross-sectional classification of reported herbs. Safety classifications are literature-based, not observed harm incidence. Potential same survey as TH2-100; direct PMC CAPTCHA. Funding and overlap unresolved.",
+      "scope": "Indexed original abstract or source metadata and selected passages; no systematic integrity, funding or full-text appraisal. Access limits noted where applicable.",
+      "clinical_review": false,
+      "publish": false,
+      "automation_allowed": false
+    },
+    {
+      "id": "TH2-102",
+      "source": "https://pubmed.ncbi.nlm.nih.gov/15170766/",
+      "sources": [
+        "https://pubmed.ncbi.nlm.nih.gov/15170766/"
+      ],
+      "findings": "Norwegian hospital survey of 400 postpartum women interviewed shortly after delivery in 2001. 36% reported herbal use; 39% of users reported products considered possibly harmful or with insufficient pregnancy safety data. Recall and selection bias; not measured adverse-event incidence. Funding unresolved.",
+      "scope": "Indexed original abstract or source metadata and selected passages; no systematic integrity, funding or full-text appraisal. Access limits noted where applicable.",
+      "clinical_review": false,
+      "publish": false,
+      "automation_allowed": false
+    },
+    {
+      "id": "TH2-103",
+      "source": "https://pubmed.ncbi.nlm.nih.gov/21742280/",
+      "sources": [
+        "https://pubmed.ncbi.nlm.nih.gov/21742280/"
+      ],
+      "findings": "Norwegian study of concurrent herbal and conventional drug use among 600 women. Identity/scope checked; individual outcome estimates and funding not independently extracted. No medication changes inferred.",
+      "scope": "Indexed original abstract or source metadata and selected passages; no systematic integrity, funding or full-text appraisal. Access limits noted where applicable.",
+      "clinical_review": false,
+      "publish": false,
+      "automation_allowed": false
+    },
+    {
+      "id": "TH2-104",
+      "source": "https://pubmed.ncbi.nlm.nih.gov/17992658/",
+      "sources": [
+        "https://pubmed.ncbi.nlm.nih.gov/17992658/"
+      ],
+      "findings": "Swedish Medical Birth Register observational analysis, July 1995–2004, early-pregnancy herbal exposure and maternal/neonatal outcomes. Indexed original abstract verifies design and outcomes assessed; estimates not freshly extracted. Self-report, confounding and live-birth selection. Funding unresolved.",
+      "scope": "Indexed original abstract or source metadata and selected passages; no systematic integrity, funding or full-text appraisal. Access limits noted where applicable.",
+      "clinical_review": false,
+      "publish": false,
+      "automation_allowed": false
+    },
+    {
+      "id": "TH2-109",
+      "source": "https://pubmed.ncbi.nlm.nih.gov/33782702/",
+      "sources": [
+        "https://pubmed.ncbi.nlm.nih.gov/33782702/"
+      ],
+      "findings": "Ghana observational study reporting association of self-reported maternal plant use with poorer neonatal outcomes. Cannot infer causation, species-specific effect or magnitude without complete methods; archive sample size not independently extracted. Funding unresolved.",
+      "scope": "Indexed original abstract or source metadata and selected passages; no systematic integrity, funding or full-text appraisal. Access limits noted where applicable.",
+      "clinical_review": false,
+      "publish": false,
+      "automation_allowed": false
+    }
+  ],
+  "cohort_candidates": [
+    [
+      "TH2-068",
+      "TH2-072",
+      "TH2-073"
+    ],
+    [
+      "TH2-074",
+      "TH2-075"
+    ],
+    [
+      "TH2-100",
+      "TH2-101"
+    ],
+    [
+      "TH2-038",
+      "TH2-041"
+    ]
+  ],
+  "clinical_review": false,
+  "publish": false,
+  "automation_allowed": false
+}
