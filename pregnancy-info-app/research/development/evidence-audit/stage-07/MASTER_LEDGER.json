@@ -20,8 +20,8 @@
     "hold_entries": 18,
     "exceptions": [],
     "full_external_appraisals": 0,
-    "partial_external_audit_records": 340,
-    "pending_without_new_external_audit": 1097,
+    "partial_external_audit_records": 352,
+    "pending_without_new_external_audit": 1085,
     "uncounted_integrity_holds_rechecked": 4,
     "archive_dispositions_complete": 1437,
     "archive_dispositions_pending": 0,
@@ -63,7 +63,7 @@
       "visual_reuse_approved": 0,
       "missing": 0
     },
-    "partial_original_source_checks": 284,
+    "partial_original_source_checks": 296,
     "visual_publisher_policy_checks": 57,
     "additional_correction_holds": 1,
     "visual_reuse_approved": 0,
@@ -73,7 +73,8 @@
     "underpublished_inventory_partial_checks": 75,
     "underpublished_inventory_total": 75,
     "additional_access_holds": 2,
-    "traditional_inventory_partial_checks": 111
+    "traditional_inventory_partial_checks": 111,
+    "international_inventory_partial_checks": 13
   },
   "manifest": [
     {
@@ -19964,7 +19965,7 @@
       "index": 42,
       "url": "https://pubmed.ncbi.nlm.nih.gov/39021147/",
       "family": "BEEP",
-      "status": "archive_disposition_complete_external_audit_unresolved",
+      "status": "partial_external_original_source_check",
       "clinical_review": false,
       "publish": false,
       "automation_allowed": false,
@@ -19974,7 +19975,8 @@
       "identity_group": null,
       "cohort_family_candidates": [
         "BEEP"
-      ]
+      ],
+      "audit_batch": "18"
     },
     {
       "id": "I1-B01-044",
@@ -19983,7 +19985,7 @@
       "index": 43,
       "url": "https://pubmed.ncbi.nlm.nih.gov/32087121/",
       "family": "PreventADALL",
-      "status": "archive_disposition_complete_external_audit_unresolved",
+      "status": "partial_external_original_source_check",
       "clinical_review": false,
       "publish": false,
       "automation_allowed": false,
@@ -19993,7 +19995,8 @@
       "identity_group": null,
       "cohort_family_candidates": [
         "PreventADALL"
-      ]
+      ],
+      "audit_batch": "18"
     },
     {
       "id": "I1-B01-045",
@@ -20002,7 +20005,7 @@
       "index": 44,
       "url": "https://pubmed.ncbi.nlm.nih.gov/43039015/",
       "family": "PreventADALL",
-      "status": "archive_disposition_complete_external_audit_unresolved",
+      "status": "partial_external_original_source_check",
       "clinical_review": false,
       "publish": false,
       "automation_allowed": false,
@@ -20012,7 +20015,8 @@
       "identity_group": null,
       "cohort_family_candidates": [
         "PreventADALL"
-      ]
+      ],
+      "audit_batch": "18"
     },
     {
       "id": "I1-B01-046",
@@ -20020,7 +20024,7 @@
       "file": 7,
       "index": 45,
       "url": "https://pubmed.ncbi.nlm.nih.gov/39536734/",
-      "status": "archive_disposition_complete_external_audit_unresolved",
+      "status": "partial_external_original_source_check",
       "clinical_review": false,
       "publish": false,
       "automation_allowed": false,
@@ -20028,7 +20032,8 @@
       "disposition": "international_research_original_source_hold",
       "disposition_batch": "03",
       "identity_group": null,
-      "cohort_family_candidates": []
+      "cohort_family_candidates": [],
+      "audit_batch": "18"
     },
     {
       "id": "I1-B01-047",
@@ -20036,7 +20041,7 @@
       "file": 7,
       "index": 46,
       "url": "https://pubmed.ncbi.nlm.nih.gov/31394530/",
-      "status": "archive_disposition_complete_external_audit_unresolved",
+      "status": "partial_external_original_source_check",
       "clinical_review": false,
       "publish": false,
       "automation_allowed": false,
@@ -20044,7 +20049,8 @@
       "disposition": "international_research_original_source_hold",
       "disposition_batch": "03",
       "identity_group": null,
-      "cohort_family_candidates": []
+      "cohort_family_candidates": [],
+      "audit_batch": "18"
     },
     {
       "id": "I1-B01-048",
@@ -21451,7 +21457,7 @@
       "file": 8,
       "index": 31,
       "url": "https://pubmed.ncbi.nlm.nih.gov/26303808/",
-      "status": "archive_disposition_complete_external_audit_unresolved",
+      "status": "partial_external_original_source_check",
       "clinical_review": false,
       "publish": false,
       "automation_allowed": false,
@@ -21459,7 +21465,8 @@
       "disposition": "international_research_original_source_hold",
       "disposition_batch": "03",
       "identity_group": null,
-      "cohort_family_candidates": []
+      "cohort_family_candidates": [],
+      "audit_batch": "18"
     },
     {
       "id": "I1-B02-033",
@@ -21467,7 +21474,7 @@
       "file": 8,
       "index": 32,
       "url": "https://pubmed.ncbi.nlm.nih.gov/41725074/",
-      "status": "archive_disposition_complete_external_audit_unresolved",
+      "status": "partial_external_original_source_check",
       "clinical_review": false,
       "publish": false,
       "automation_allowed": false,
@@ -21475,7 +21482,8 @@
       "disposition": "international_research_original_source_hold",
       "disposition_batch": "03",
       "identity_group": null,
-      "cohort_family_candidates": []
+      "cohort_family_candidates": [],
+      "audit_batch": "18"
     },
     {
       "id": "I1-B03-001",
@@ -21566,7 +21574,7 @@
       "file": 9,
       "index": 5,
       "url": "https://pubmed.ncbi.nlm.nih.gov/22398174/",
-      "status": "archive_disposition_complete_external_audit_unresolved",
+      "status": "partial_external_original_source_check",
       "clinical_review": false,
       "publish": false,
       "automation_allowed": false,
@@ -21574,7 +21582,8 @@
       "disposition": "international_research_original_source_hold",
       "disposition_batch": "03",
       "identity_group": null,
-      "cohort_family_candidates": []
+      "cohort_family_candidates": [],
+      "audit_batch": "18"
     },
     {
       "id": "I1-B03-007",
@@ -21659,7 +21668,7 @@
       "index": 10,
       "url": "https://pubmed.ncbi.nlm.nih.gov/28044049/",
       "family": "Wahakura trial",
-      "status": "archive_disposition_complete_external_audit_unresolved",
+      "status": "partial_external_original_source_check",
       "clinical_review": false,
       "publish": false,
       "automation_allowed": false,
@@ -21669,7 +21678,8 @@
       "identity_group": null,
       "cohort_family_candidates": [
         "Wahakura trial"
-      ]
+      ],
+      "audit_batch": "18"
     },
     {
       "id": "I1-B03-012",
@@ -21678,7 +21688,7 @@
       "index": 11,
       "url": "https://pubmed.ncbi.nlm.nih.gov/29030386/",
       "family": "Wahakura trial",
-      "status": "archive_disposition_complete_external_audit_unresolved",
+      "status": "partial_external_original_source_check",
       "clinical_review": false,
       "publish": false,
       "automation_allowed": false,
@@ -21688,7 +21698,8 @@
       "identity_group": null,
       "cohort_family_candidates": [
         "Wahakura trial"
-      ]
+      ],
+      "audit_batch": "18"
     },
     {
       "id": "I1-B03-013",
@@ -21937,7 +21948,7 @@
       "file": 9,
       "index": 25,
       "url": "https://pubmed.ncbi.nlm.nih.gov/26348751/",
-      "status": "archive_disposition_complete_external_audit_unresolved",
+      "status": "partial_external_original_source_check",
       "clinical_review": false,
       "publish": false,
       "automation_allowed": false,
@@ -21945,7 +21956,8 @@
       "disposition": "international_research_original_source_hold",
       "disposition_batch": "03",
       "identity_group": null,
-      "cohort_family_candidates": []
+      "cohort_family_candidates": [],
+      "audit_batch": "18"
     },
     {
       "id": "I1-B03-027",
@@ -22084,7 +22096,7 @@
       "file": 9,
       "index": 34,
       "url": "https://pubmed.ncbi.nlm.nih.gov/39607079/",
-      "status": "archive_disposition_complete_external_audit_unresolved",
+      "status": "partial_external_original_source_check",
       "clinical_review": false,
       "publish": false,
       "automation_allowed": false,
@@ -22092,7 +22104,8 @@
       "disposition": "international_research_original_source_hold",
       "disposition_batch": "03",
       "identity_group": null,
-      "cohort_family_candidates": []
+      "cohort_family_candidates": [],
+      "audit_batch": "18"
     },
     {
       "id": "I1-B03-036",
@@ -32097,6 +32110,12 @@
       "scope": "Remaining 33 traditional-practice records: partial original-source and catalogue checks, contextual classification and access limitations",
       "commit": "5a0dff63900193d2912232055280ab879509cb7c",
       "file": "BATCH_17_FINAL_TRADITIONAL_SOURCE_SCREEN.json"
+    },
+    {
+      "batch": "18",
+      "scope": "International newborn and maternal safety: targeted identity, outcome, shared-cohort, selected funding and article-applicability checks",
+      "commit": "1ebc021c8b0317a03ddba2fe76df4f2fa6ef1290",
+      "file": "BATCH_18_INTERNATIONAL_NEWBORN_AND_MATERNAL_SAFETY.json"
     }
   ],
   "next_batches": {
@@ -32115,7 +32134,7 @@
     "archive_disposition_pass": "complete",
     "full_original_source_verification": "incomplete",
     "clinical_release": "held",
-    "note": "Stage 7 remains in progress. 340 unique records have partial external checks, including 284 original-source or indexed-metadata checks and 57 visual publisher-policy checks (one overlapping record). All 111 traditional-practice, 75 underpublished and 83 contradictory-evidence records now have preliminary checks. Formal individual appraisals, complete funding and sponsor verification, cohort reconciliation, retraction searches, clinical review and reuse clearance remain pending; all safety and publication holds remain in force.",
+    "note": "Stage 7 remains in progress. 352 unique records have partial external checks, including 296 original-source or indexed-metadata checks and 57 visual publisher-policy checks (one overlapping record). All 111 traditional-practice, 75 underpublished and 83 contradictory-evidence records have preliminary checks; 13 international records have partial checks. Full appraisals, funding and sponsor verification, cohort reconciliation, retraction searches, clinical review and reuse clearance remain pending. All existing holds remain in force. Batch 18 adds source-level numerical reuse cautions for I1-B02-033 and I1-B03-035.",
     "visual_publisher_policy_pass": "complete_for_57_expansion_visuals",
     "contradictory_evidence_identity_screen": "83 of 83 publication records have partial external checks; not formal appraisals",
     "underpublished_identity_screen": "75 of 75 records have partial external checks; two embargo/withheld access holds recorded; not formal appraisals"
