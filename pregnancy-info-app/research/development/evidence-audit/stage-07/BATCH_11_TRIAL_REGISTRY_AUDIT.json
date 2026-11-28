@@ -1,0 +1,382 @@
+{
+  "stage": 7,
+  "batch": "11",
+  "date": "2026-11-27",
+  "scope": "25 registry records individually checked; registered design, selected sponsor disclosures and linked reports distinguished from clinical outcomes. Partial external verification only.",
+  "counted_ids": [
+    "UP4-043",
+    "UP4-044",
+    "UP4-045",
+    "UP4-046",
+    "UP4-047",
+    "UP4-048",
+    "UP4-049",
+    "UP4-050",
+    "UP4-051",
+    "UP4-052",
+    "UP4-053",
+    "UP4-054",
+    "UP4-055",
+    "UP4-056",
+    "UP4-057",
+    "UP4-058",
+    "UP4-059",
+    "UP4-060",
+    "UP4-061",
+    "UP4-062",
+    "UP4-063",
+    "UP4-064",
+    "UP4-065",
+    "UP4-066",
+    "UP4-067"
+  ],
+  "checks": [
+    {
+      "id": "UP4-043",
+      "registration": "NCT07467837",
+      "sponsor_verified": "Stratpharma AG",
+      "scope": "Indexed official registry and selected journal passages; original page access limitations noted. Sponsor is not necessarily funder; full version history, trial-level bias and integrity search unresolved.",
+      "findings": "Sponsor and observational branded-product design verified; no randomized comparator or outcome data extracted. Commercial product sponsor; actual cash/in-kind contributions and author interests unresolved. No prevention or product claim.",
+      "sources": [
+        "https://clinicaltrials.gov/study/NCT07467837"
+      ],
+      "clinical_review": false,
+      "publish": false,
+      "automation_allowed": false
+    },
+    {
+      "id": "UP4-044",
+      "registration": "NCT07579039",
+      "sponsor_verified": "Riphah International University",
+      "scope": "Indexed official registry and selected journal passages; original page access limitations noted. Sponsor is not necessarily funder; full version history, trial-level bias and integrity search unresolved.",
+      "findings": "Registry identity, university sponsor and stretching/taping low back pain comparison verified. Skin allergy exclusions matter; no outcomes extracted, no universal pregnancy exercise recommendation.",
+      "sources": [
+        "https://clinicaltrials.gov/study/NCT07579039"
+      ],
+      "clinical_review": false,
+      "publish": false,
+      "automation_allowed": false
+    },
+    {
+      "id": "UP4-045",
+      "registration": "NCT06841939",
+      "sponsor_verified": null,
+      "scope": "Indexed official registry and selected journal passages; original page access limitations noted. Sponsor is not necessarily funder; full version history, trial-level bias and integrity search unresolved.",
+      "findings": "Nigerian registry and matching journal title/institution located; journal page returned 502. Candidate same trial, not proven via identifier in paper. No numeric extraction, funding or home induction advice. Registry shows no results posted; published article may exist separately.",
+      "sources": [
+        "https://clinicaltrials.gov/study/NCT06841939",
+        "https://tnhjph.com/index.php/tnhj/article/view/1043",
+        "https://www.ajol.info/index.php/nhj/article/view/310873"
+      ],
+      "clinical_review": false,
+      "publish": false,
+      "automation_allowed": false
+    },
+    {
+      "id": "UP4-046",
+      "registration": "NCT07710911",
+      "sponsor_verified": null,
+      "scope": "Indexed official registry and selected journal passages; original page access limitations noted. Sponsor is not necessarily funder; full version history, trial-level bias and integrity search unresolved.",
+      "findings": "Official registry confirms hypopressive versus core stability comparison; sponsor indicated University of Lahore by secondary registry mirror only. No results inspected; active comparator does not establish superiority over usual care.",
+      "sources": [
+        "https://clinicaltrials.gov/study/NCT07710911",
+        "https://docregistry.org/trials/NCT07710911"
+      ],
+      "clinical_review": false,
+      "publish": false,
+      "automation_allowed": false
+    },
+    {
+      "id": "UP4-047",
+      "registration": "NCT07613333",
+      "sponsor_verified": "Carroll University",
+      "scope": "Indexed official registry and selected journal passages; original page access limitations noted. Sponsor is not necessarily funder; full version history, trial-level bias and integrity search unresolved.",
+      "findings": "Registry sponsor and randomized postpartum exercise design verified. Neuromuscular and well-being outcomes are planned, not results. Funding and safety outcomes pending.",
+      "sources": [
+        "https://clinicaltrials.gov/study/NCT07613333"
+      ],
+      "clinical_review": false,
+      "publish": false,
+      "automation_allowed": false
+    },
+    {
+      "id": "UP4-048",
+      "registration": "NCT07426770",
+      "sponsor_verified": "Vilnius University",
+      "scope": "Indexed official registry and selected journal passages; original page access limitations noted. Sponsor is not necessarily funder; full version history, trial-level bias and integrity search unresolved.",
+      "findings": "Registry compares supervised rehabilitation with self-training for postpartum pelvic floor dysfunction. No outcome extraction; verify allocation, clinical vs self-reported outcomes and funding.",
+      "sources": [
+        "https://clinicaltrials.gov/study/NCT07426770"
+      ],
+      "clinical_review": false,
+      "publish": false,
+      "automation_allowed": false
+    },
+    {
+      "id": "UP4-049",
+      "registration": "NCT07313683",
+      "sponsor_verified": "University of Alcala",
+      "scope": "Indexed official registry and selected journal passages; original page access limitations noted. Sponsor is not necessarily funder; full version history, trial-level bias and integrity search unresolved.",
+      "findings": "PelviRecover registry lists multimodal physiotherapy interventions and postpartum eligibility. Bundled intervention prevents attribution to individual exercise without design support; no clinical results extracted.",
+      "sources": [
+        "https://clinicaltrials.gov/study/NCT07313683"
+      ],
+      "clinical_review": false,
+      "publish": false,
+      "automation_allowed": false
+    },
+    {
+      "id": "UP4-050",
+      "registration": "NCT05252455",
+      "sponsor_verified": null,
+      "scope": "Indexed official registry and selected journal passages; original page access limitations noted. Sponsor is not necessarily funder; full version history, trial-level bias and integrity search unresolved.",
+      "findings": "Official registry title and registered cesarean and dysfunction outcomes verified. Secondary listing names Qiu Jin; primary sponsor field not confirmed. No outcome evidence extracted.",
+      "sources": [
+        "https://clinicaltrials.gov/study/NCT05252455",
+        "https://www.centerwatch.com/clinical-trials/listings/NCT05252455/a-rct-to-evaluate-the-effects-of-pelvic-and-abdominal-mechanical-exercises-during-pregnancy-on-reducing-the-rate-of-cs-and-preventing-pfd"
+      ],
+      "clinical_review": false,
+      "publish": false,
+      "automation_allowed": false
+    },
+    {
+      "id": "UP4-051",
+      "registration": "NCT06382428",
+      "sponsor_verified": null,
+      "scope": "Indexed official registry and selected journal passages; original page access limitations noted. Sponsor is not necessarily funder; full version history, trial-level bias and integrity search unresolved.",
+      "findings": "Registry confirms supervised versus remote postpartum pelvic floor training; no result or sponsor field verified in retrieved excerpt. Study-site affiliation does not establish financing.",
+      "sources": [
+        "https://clinicaltrials.gov/study/NCT06382428"
+      ],
+      "clinical_review": false,
+      "publish": false,
+      "automation_allowed": false
+    },
+    {
+      "id": "UP4-052",
+      "registration": "NCT03041246",
+      "sponsor_verified": null,
+      "scope": "Indexed official registry and selected journal passages; original page access limitations noted. Sponsor is not necessarily funder; full version history, trial-level bias and integrity search unresolved.",
+      "findings": "Registry links PMID 39593622, DOI 10.1016/j.jbmt.2024.04.032: same trial. Israeli pilot 40 randomized, 26 completed, attrition 35%; article reports no grant funding and no conflicts. Both groups improved on symptom scale, group-by-time effects vary by measure. Internal manual therapy clinician-only; small study cannot establish cervical or obstetric safety. No registry results posted does not mean unpublished.",
+      "sources": [
+        "https://clinicaltrials.gov/study/NCT03041246?tab=results",
+        "https://pubmed.ncbi.nlm.nih.gov/39593622/"
+      ],
+      "clinical_review": false,
+      "publish": false,
+      "automation_allowed": false
+    },
+    {
+      "id": "UP4-053",
+      "registration": "NCT04401384",
+      "sponsor_verified": null,
+      "scope": "Indexed official registry and selected journal passages; original page access limitations noted. Sponsor is not necessarily funder; full version history, trial-level bias and integrity search unresolved.",
+      "findings": "Registry and PMID 37335994 explicitly linked. Factorial randomized acupuncture/doxylamine-pyridoxine comparison. Indexed abstract lists Chinese national R&D and Heilongjiang innovation-team funding. Direct repeat PubMed open returned no text; numeric outcomes inherited from archive, not freshly re-extracted. Sponsor role/harms pending; no substitute for medical treatment.",
+      "sources": [
+        "https://clinicaltrials.gov/study/NCT04401384",
+        "https://pubmed.ncbi.nlm.nih.gov/37335994/"
+      ],
+      "clinical_review": false,
+      "publish": false,
+      "automation_allowed": false
+    },
+    {
+      "id": "UP4-054",
+      "registration": "NCT06520735",
+      "sponsor_verified": "Cairo University",
+      "scope": "Indexed official registry and selected journal passages; original page access limitations noted. Sponsor is not necessarily funder; full version history, trial-level bias and integrity search unresolved.",
+      "findings": "Registry sponsor and active TENS versus capsicum comparison confirmed. No result extracted; skin reactions and maternal-fetal safety unresolved; no self-use regimen.",
+      "sources": [
+        "https://clinicaltrials.gov/study/NCT06520735"
+      ],
+      "clinical_review": false,
+      "publish": false,
+      "automation_allowed": false
+    },
+    {
+      "id": "UP4-055",
+      "registration": "NCT06246240",
+      "sponsor_verified": "Hitit University",
+      "scope": "Indexed official registry and selected journal passages; original page access limitations noted. Sponsor is not necessarily funder; full version history, trial-level bias and integrity search unresolved.",
+      "findings": "Registry sponsor and vitamin C gum nausea comparison verified. Formulation, product supply and efficacy/safety not extracted.",
+      "sources": [
+        "https://clinicaltrials.gov/study/NCT06246240"
+      ],
+      "clinical_review": false,
+      "publish": false,
+      "automation_allowed": false
+    },
+    {
+      "id": "UP4-056",
+      "registration": "NCT01668940",
+      "sponsor_verified": "The Hospital for Sick Children",
+      "scope": "Indexed official registry and selected journal passages; original page access limitations noted. Sponsor is not necessarily funder; full version history, trial-level bias and integrity search unresolved.",
+      "findings": "Official registry lists terminated trial and results posted; product names visible but results table and termination rationale not extracted. Do not infer failure or success, or safety from absence of published data.",
+      "sources": [
+        "https://clinicaltrials.gov/study/NCT01668940?tab=table"
+      ],
+      "clinical_review": false,
+      "publish": false,
+      "automation_allowed": false
+    },
+    {
+      "id": "UP4-057",
+      "registration": "NCT04259619",
+      "sponsor_verified": "University of Zurich",
+      "scope": "Indexed official registry and selected journal passages; original page access limitations noted. Sponsor is not necessarily funder; full version history, trial-level bias and integrity search unresolved.",
+      "findings": "Registry lists terminated status. Swiss registry links SNCTP000003512 and BASEC2019-01374; one trial family. Reasons, actual enrollment and results not extracted. Device safety and infant exposure remain held.",
+      "sources": [
+        "https://clinicaltrials.gov/study/NCT04259619",
+        "https://www.humanforschung-schweiz.ch/en/trial-search/study-detail/47711/translate/en/"
+      ],
+      "clinical_review": false,
+      "publish": false,
+      "automation_allowed": false
+    },
+    {
+      "id": "UP4-058",
+      "registration": "NCT01723995",
+      "sponsor_verified": "Federal University of São Paulo",
+      "scope": "Indexed official registry and selected journal passages; original page access limitations noted. Sponsor is not necessarily funder; full version history, trial-level bias and integrity search unresolved.",
+      "findings": "Registry and journal report Efficacy of Low-Level Laser Therapy in Relieving Nipple Pain in Breastfeeding Women: A Triple-Blind, Randomized, Controlled Trial explicitly associated. Published excerpt reports immediate pain benefit; exact estimate, funding and infant safety not extracted. One trial family, no home laser instruction.",
+      "sources": [
+        "https://clinicaltrials.gov/study/NCT01723995",
+        "https://www.sciencedirect.com/science/article/pii/S1524904216300236"
+      ],
+      "clinical_review": false,
+      "publish": false,
+      "automation_allowed": false
+    },
+    {
+      "id": "UP4-059",
+      "registration": "NCT03496753",
+      "sponsor_verified": "University of Nove de Julho",
+      "scope": "Indexed official registry and selected journal passages; original page access limitations noted. Sponsor is not necessarily funder; full version history, trial-level bias and integrity search unresolved.",
+      "findings": "Registry and protocol PMC6203513 explicitly linked. Protocol describes planned trial; no results established. Do not count protocol as outcome report.",
+      "sources": [
+        "https://clinicaltrials.gov/study/NCT03496753",
+        "https://pmc.ncbi.nlm.nih.gov/articles/PMC6203513/"
+      ],
+      "clinical_review": false,
+      "publish": false,
+      "automation_allowed": false
+    },
+    {
+      "id": "UP4-060",
+      "registration": "NCT05456438",
+      "sponsor_verified": null,
+      "scope": "Indexed official registry and selected journal passages; original page access limitations noted. Sponsor is not necessarily funder; full version history, trial-level bias and integrity search unresolved.",
+      "findings": "Registry and PMID 36763614 expressly linked; one trial family. Product-specific nipple crack study, full effect, funding and infant ingestion safety unresolved. No topical oil instruction.",
+      "sources": [
+        "https://clinicaltrials.gov/study/NCT05456438",
+        "https://pubmed.ncbi.nlm.nih.gov/36763614/"
+      ],
+      "clinical_review": false,
+      "publish": false,
+      "automation_allowed": false
+    },
+    {
+      "id": "UP4-061",
+      "registration": "NCT07529067",
+      "sponsor_verified": "Medipol University",
+      "scope": "Indexed official registry and selected journal passages; original page access limitations noted. Sponsor is not necessarily funder; full version history, trial-level bias and integrity search unresolved.",
+      "findings": "Registry sponsor and breastfeeding self-efficacy/problem outcomes confirmed. No results extracted; technique-specific benefit cannot be assumed.",
+      "sources": [
+        "https://clinicaltrials.gov/study/NCT07529067"
+      ],
+      "clinical_review": false,
+      "publish": false,
+      "automation_allowed": false
+    },
+    {
+      "id": "UP4-062",
+      "registration": "NCT01631461",
+      "sponsor_verified": null,
+      "scope": "Indexed official registry and selected journal passages; original page access limitations noted. Sponsor is not necessarily funder; full version history, trial-level bias and integrity search unresolved.",
+      "findings": "Registry verifies prevalence/association study objectives for microbial findings and painful breastfeeding. Colonization is not infection or indication for therapy. Journal match, sponsor and results unresolved.",
+      "sources": [
+        "https://clinicaltrials.gov/study/NCT01631461"
+      ],
+      "clinical_review": false,
+      "publish": false,
+      "automation_allowed": false
+    },
+    {
+      "id": "UP4-063",
+      "registration": "ISRCTN16425597",
+      "sponsor_verified": "NHS Blood and Transplant",
+      "scope": "Indexed official registry and selected journal passages; original page access limitations noted. Sponsor is not necessarily funder; full version history, trial-level bias and integrity search unresolved.",
+      "findings": "Indexed registry and HRA verify phase III prevention trial; protocol PMID 42805644 explicitly references registration. Protocol not efficacy evidence; distinct from treating diagnosed anemia. Direct registry blocked by JavaScript/cookies.",
+      "sources": [
+        "https://www.isrctn.com/ISRCTN16425597",
+        "https://pubmed.ncbi.nlm.nih.gov/42805644/",
+        "https://www.hra.nhs.uk/planning-and-improving-research/application-summaries/research-summaries/panda-prevention-of-anaemia/"
+      ],
+      "clinical_review": false,
+      "publish": false,
+      "automation_allowed": false
+    },
+    {
+      "id": "UP4-064",
+      "registration": "ISRCTN16299220",
+      "sponsor_verified": "Queen's University Belfast",
+      "scope": "Indexed official registry and selected journal passages; original page access limitations noted. Sponsor is not necessarily funder; full version history, trial-level bias and integrity search unresolved.",
+      "findings": "Registry, protocol PMID 38719295 and recruitment paper PMID 43065105 explicitly linked. Recruitment paper reports 892 randomized, not treatment efficacy. Direct registry blocked; primary outcomes and funding unresolved. No restrictive postpartum weight-loss advice.",
+      "sources": [
+        "https://www.isrctn.com/ISRCTN16299220",
+        "https://pubmed.ncbi.nlm.nih.gov/38719295/",
+        "https://pubmed.ncbi.nlm.nih.gov/43065105/"
+      ],
+      "clinical_review": false,
+      "publish": false,
+      "automation_allowed": false
+    },
+    {
+      "id": "UP4-065",
+      "registration": "ISRCTN85493925",
+      "sponsor_verified": null,
+      "scope": "Indexed official registry and selected journal passages; original page access limitations noted. Sponsor is not necessarily funder; full version history, trial-level bias and integrity search unresolved.",
+      "findings": "Indexed official registry PDF title confirms WISE breastfeeding self-efficacy study. Direct page blocked by JavaScript/cookies, screenshot unavailable. No full PDF, funding, trial outcome or publication verified. Identity-only indexed check.",
+      "sources": [
+        "https://www.isrctn.com/ISRCTN85493925",
+        "https://www.isrctn.com/pdf/ISRCTN85493925"
+      ],
+      "clinical_review": false,
+      "publish": false,
+      "automation_allowed": false
+    },
+    {
+      "id": "UP4-066",
+      "registration": "ISRCTN25664149",
+      "sponsor_verified": "University of Reading",
+      "scope": "Indexed official registry and selected journal passages; original page access limitations noted. Sponsor is not necessarily funder; full version history, trial-level bias and integrity search unresolved.",
+      "findings": "Registry and 2009 BMJ report PMID 19366752 explicitly linked; later cognitive report PMC4945696 and genetic reanalysis PMID 28245280 same cohort. Attachment benefit does not imply cognition benefit: cognitive report says no overall effect at 18 months. Primary BMJ full text returned 403, exact estimates and funding unresolved.",
+      "sources": [
+        "https://www.isrctn.com/ISRCTN25664149",
+        "https://pubmed.ncbi.nlm.nih.gov/19366752/",
+        "https://pmc.ncbi.nlm.nih.gov/articles/PMC4945696/",
+        "https://pubmed.ncbi.nlm.nih.gov/28245280/"
+      ],
+      "clinical_review": false,
+      "publish": false,
+      "automation_allowed": false
+    },
+    {
+      "id": "UP4-067",
+      "registration": "ISRCTN14819650",
+      "sponsor_verified": null,
+      "scope": "Indexed official registry and selected journal passages; original page access limitations noted. Sponsor is not necessarily funder; full version history, trial-level bias and integrity search unresolved.",
+      "findings": "Published Latch On report DOI 10.1111/1471-0528.17782 confirms registry. Irish multicentre RCT 225 randomized, primary outcome available 194; 3-month any breastfeeding 68/99 vs 59/95, adjusted OR 1.33 (0.72–2.46), p=.36. No clear effect. Control group sought more private support; self-selection, missing outcomes and disclosed deviations from planned clustering model limit interpretation. HSE regional nursing/midwifery unit partly funded staff time; authors state no design/analysis role, no conflicts declared; UCD and IReL administrative/open-access support. Registry sponsor field inaccessible. Support remains appropriate, no outcome guarantee.",
+      "sources": [
+        "https://www.isrctn.com/ISRCTN14819650",
+        "https://obgyn.onlinelibrary.wiley.com/doi/10.1111/1471-0528.17782"
+      ],
+      "clinical_review": false,
+      "publish": false,
+      "automation_allowed": false
+    }
+  ],
+  "clinical_review": false,
+  "publish": false,
+  "automation_allowed": false
+}
