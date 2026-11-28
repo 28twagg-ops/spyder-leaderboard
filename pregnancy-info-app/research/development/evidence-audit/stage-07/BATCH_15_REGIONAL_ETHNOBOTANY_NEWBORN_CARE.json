@@ -1,0 +1,254 @@
+{
+  "stage": 7,
+  "batch": "15",
+  "date": "2026-11-27",
+  "scope": "18 traditional practice records covering regional ethnobotanical, neonatal care and cultural studies, including explicit sponsor involvement and no-funding declarations.",
+  "counted_ids": [
+    "TH2-002",
+    "TH2-003",
+    "TH2-004",
+    "TH2-005",
+    "TH2-006",
+    "TH2-007",
+    "TH2-008",
+    "TH2-009",
+    "TH2-010",
+    "TH2-018",
+    "TH2-019",
+    "TH2-020",
+    "TH2-021",
+    "TH2-022",
+    "TH2-023",
+    "TH2-024",
+    "TH2-025",
+    "TH2-026"
+  ],
+  "checks": [
+    {
+      "id": "TH2-002",
+      "source": "https://pubmed.ncbi.nlm.nih.gov/36959588/",
+      "sources": [
+        "https://pubmed.ncbi.nlm.nih.gov/36959588/"
+      ],
+      "findings": "Tanzania, Manyara Indigenous pastoralist women descriptive qualitative study of pregnancy, childbirth and postpartum beliefs. Self-reported practices, not evaluated treatment or safety outcomes. Full sampling, funding and disclosures pending.",
+      "scope": "Partial indexed original-source identity/abstract and selected disclosure passages; no comprehensive appraisal or systematic integrity search.",
+      "clinical_review": false,
+      "publish": false,
+      "automation_allowed": false
+    },
+    {
+      "id": "TH2-003",
+      "source": "https://pubmed.ncbi.nlm.nih.gov/16901666/",
+      "sources": [
+        "https://pubmed.ncbi.nlm.nih.gov/16901666/"
+      ],
+      "findings": "Western Uganda ethnobotanical investigation of plants used around childbirth. Indexed source identity verified; direct abstract body unavailable. No efficacy, safety or clinical instructions inferred; particularly high-risk indication requires hold.",
+      "scope": "Partial indexed original-source identity/abstract and selected disclosure passages; no comprehensive appraisal or systematic integrity search.",
+      "clinical_review": false,
+      "publish": false,
+      "automation_allowed": false
+    },
+    {
+      "id": "TH2-004",
+      "source": "https://pubmed.ncbi.nlm.nih.gov/29624949/",
+      "sources": [
+        "https://pubmed.ncbi.nlm.nih.gov/29624949/"
+      ],
+      "findings": "Eastern Uganda study of plants used during antenatal care. Indexed identity verified; direct article body unavailable. Traditional use is not clinical evidence; sample and funding not newly extracted.",
+      "scope": "Partial indexed original-source identity/abstract and selected disclosure passages; no comprehensive appraisal or systematic integrity search.",
+      "clinical_review": false,
+      "publish": false,
+      "automation_allowed": false
+    },
+    {
+      "id": "TH2-005",
+      "source": "https://pubmed.ncbi.nlm.nih.gov/36521900/",
+      "sources": [
+        "https://pubmed.ncbi.nlm.nih.gov/36521900/"
+      ],
+      "findings": "Qualitative study of urban eastern Tanzanian nurse-midwives' local knowledge and pregnancy/childbirth/postpartum safety practices. Describes perceived practices and care context, not experimental evaluation of safety. Funding unresolved.",
+      "scope": "Partial indexed original-source identity/abstract and selected disclosure passages; no comprehensive appraisal or systematic integrity search.",
+      "clinical_review": false,
+      "publish": false,
+      "automation_allowed": false
+    },
+    {
+      "id": "TH2-006",
+      "source": "https://doi.org/10.3389/fphar.2025.1567930",
+      "sources": [
+        "https://doi.org/10.3389/fphar.2025.1567930",
+        "https://pubmed.ncbi.nlm.nih.gov/40417217/",
+        "https://www.frontiersin.org/journals/pharmacology/articles/10.3389/fphar.2025.1567930/full"
+      ],
+      "findings": "2025 Morocco Souss Massa ethnopharmacological survey. Publisher reports no financial support or commercial/financial conflicts; hospital department and staff assisted data collection. Self-reported use and adverse-event observations cannot establish causation or formulation safety. Distinguish institutional assistance from cash funding. DOI 10.3389/fphar.2025.1567930.",
+      "scope": "Partial indexed original-source identity/abstract and selected disclosure passages; no comprehensive appraisal or systematic integrity search.",
+      "clinical_review": false,
+      "publish": false,
+      "automation_allowed": false
+    },
+    {
+      "id": "TH2-007",
+      "source": "https://pmc.ncbi.nlm.nih.gov/articles/PMC9690511/",
+      "sources": [
+        "https://pmc.ncbi.nlm.nih.gov/articles/PMC9690511/",
+        "https://pubmed.ncbi.nlm.nih.gov/36421651/"
+      ],
+      "findings": "Southern Morocco ethnobotanical study, 560 participants. Authors report no funds and no conflicts; botanical specialists assisted plant identification and academic translation acknowledged. Survey describes use, not intervention efficacy or pregnancy safety. Ethics dossier 29/19. Compare TH2-006 for setting but no overlap established.",
+      "scope": "Partial indexed original-source identity/abstract and selected disclosure passages; no comprehensive appraisal or systematic integrity search.",
+      "clinical_review": false,
+      "publish": false,
+      "automation_allowed": false
+    },
+    {
+      "id": "TH2-008",
+      "source": "https://pmc.ncbi.nlm.nih.gov/articles/PMC7014728/",
+      "sources": [
+        "https://pmc.ncbi.nlm.nih.gov/articles/PMC7014728/",
+        "https://pubmed.ncbi.nlm.nih.gov/32050919/"
+      ],
+      "findings": "Qualitative study of Maasai women and other stakeholders in Ngorongoro, Tanzania, concerning facility-assisted delivery. Child Health Foundation funded study, approved design/instruments and reviewed/approved final report for publication; not directly involved in data collection, analysis or interpretation. EbOO project funded by Mennonite Central Committee via Luann Martin Legacy Fund; MCC leadership approved publication; first author employed by MCC. Explicit sponsor involvement and potential institutional allegiance recorded, not evidence of misconduct. Care access and acceptability not intervention effects.",
+      "scope": "Partial indexed original-source identity/abstract and selected disclosure passages; no comprehensive appraisal or systematic integrity search.",
+      "clinical_review": false,
+      "publish": false,
+      "automation_allowed": false
+    },
+    {
+      "id": "TH2-009",
+      "source": "https://pmc.ncbi.nlm.nih.gov/articles/PMC11507931/",
+      "sources": [
+        "https://pmc.ncbi.nlm.nih.gov/articles/PMC11507931/",
+        "https://pubmed.ncbi.nlm.nih.gov/39457317/"
+      ],
+      "findings": "Rural Bangladesh qualitative study of cultural maternal and newborn postnatal practices. Descriptive policy context and reported beliefs, not comparative health outcomes. Funding and complete methods unresolved.",
+      "scope": "Partial indexed original-source identity/abstract and selected disclosure passages; no comprehensive appraisal or systematic integrity search.",
+      "clinical_review": false,
+      "publish": false,
+      "automation_allowed": false
+    },
+    {
+      "id": "TH2-010",
+      "source": "https://pmc.ncbi.nlm.nih.gov/articles/PMC4774132/",
+      "sources": [
+        "https://pmc.ncbi.nlm.nih.gov/articles/PMC4774132/",
+        "https://pubmed.ncbi.nlm.nih.gov/26931132/"
+      ],
+      "findings": "Qualitative study of community and provider perceptions in pastoralist Kenya; describes reasons for avoiding skilled attendance and importance of respectful communication. Not evidence of equivalence of care or safety of individual practices. Funding and sampling unresolved.",
+      "scope": "Partial indexed original-source identity/abstract and selected disclosure passages; no comprehensive appraisal or systematic integrity search.",
+      "clinical_review": false,
+      "publish": false,
+      "automation_allowed": false
+    },
+    {
+      "id": "TH2-018",
+      "source": "https://pubmed.ncbi.nlm.nih.gov/21705765/",
+      "sources": [
+        "https://pubmed.ncbi.nlm.nih.gov/21705765/"
+      ],
+      "findings": "Rural southern Nepal early newborn home care practice report, first two weeks. Indexed identity verified; detailed trial parent and participant membership not reconciled. Observed use of practices not randomized exposure; no home-care protocol.",
+      "scope": "Partial indexed original-source identity/abstract and selected disclosure passages; no comprehensive appraisal or systematic integrity search.",
+      "clinical_review": false,
+      "publish": false,
+      "automation_allowed": false
+    },
+    {
+      "id": "TH2-019",
+      "source": "https://pubmed.ncbi.nlm.nih.gov/37082394/",
+      "sources": [
+        "https://pubmed.ncbi.nlm.nih.gov/37082394/"
+      ],
+      "findings": "Tamil Nadu concurrent mixed-methods study, 59 mothers, two focus groups with seven mothers each and one traditional attendant. Reports 38.9% colostrum use, 61.1% prelacteal feeding, 84.7% appropriate thermal care; prevalence and qualitative beliefs, not effects. Authors declare no conflicts; funding pending. Unsafe practices retained as counseling context, not instructions.",
+      "scope": "Partial indexed original-source identity/abstract and selected disclosure passages; no comprehensive appraisal or systematic integrity search.",
+      "clinical_review": false,
+      "publish": false,
+      "automation_allowed": false
+    },
+    {
+      "id": "TH2-020",
+      "source": "https://pubmed.ncbi.nlm.nih.gov/12424164/",
+      "sources": [
+        "https://pubmed.ncbi.nlm.nih.gov/12424164/"
+      ],
+      "findings": "Historical community-based cross-sectional Nepal newborn care study. Indexed identity verified; quantitative results and funding not newly extracted. Prevalence evidence, no causal effect or current generalization.",
+      "scope": "Partial indexed original-source identity/abstract and selected disclosure passages; no comprehensive appraisal or systematic integrity search.",
+      "clinical_review": false,
+      "publish": false,
+      "automation_allowed": false
+    },
+    {
+      "id": "TH2-021",
+      "source": "https://pubmed.ncbi.nlm.nih.gov/19919700/",
+      "sources": [
+        "https://pubmed.ncbi.nlm.nih.gov/19919700/"
+      ],
+      "findings": "Exploratory mixed-methods newborn care study in Dhaka slums. Indexed identity and design checked; individual practices and outcomes not independently appraised. Not a remedy trial; funding unresolved.",
+      "scope": "Partial indexed original-source identity/abstract and selected disclosure passages; no comprehensive appraisal or systematic integrity search.",
+      "clinical_review": false,
+      "publish": false,
+      "automation_allowed": false
+    },
+    {
+      "id": "TH2-022",
+      "source": "https://pubmed.ncbi.nlm.nih.gov/40750871/",
+      "sources": [
+        "https://pubmed.ncbi.nlm.nih.gov/40750871/"
+      ],
+      "findings": "2025 Ethiopian cross-sectional study of essential newborn care in homes and facilities. Facility-selection confounding and reported practice indicators limit causal comparisons; exact estimates and funding pending.",
+      "scope": "Partial indexed original-source identity/abstract and selected disclosure passages; no comprehensive appraisal or systematic integrity search.",
+      "clinical_review": false,
+      "publish": false,
+      "automation_allowed": false
+    },
+    {
+      "id": "TH2-023",
+      "source": "https://pubmed.ncbi.nlm.nih.gov/29661239/",
+      "sources": [
+        "https://pubmed.ncbi.nlm.nih.gov/29661239/"
+      ],
+      "findings": "Systematic review combining quantitative and qualitative sub-Saharan African newborn care evidence. Describes barriers to thermal care, cord care and feeding; authors call for wider geographic coverage and standardized measures. Does not test safety of historical applications; primary overlap and funding pending.",
+      "scope": "Partial indexed original-source identity/abstract and selected disclosure passages; no comprehensive appraisal or systematic integrity search.",
+      "clinical_review": false,
+      "publish": false,
+      "automation_allowed": false
+    },
+    {
+      "id": "TH2-024",
+      "source": "https://pubmed.ncbi.nlm.nih.gov/24742223/",
+      "sources": [
+        "https://pubmed.ncbi.nlm.nih.gov/24742223/"
+      ],
+      "findings": "Qualitative Ethiopian umbilical cord care study focused on behavioral change. Local belief and care context, not a clinical comparison of substances. Funding and full methods pending; no cord application recommendations.",
+      "scope": "Partial indexed original-source identity/abstract and selected disclosure passages; no comprehensive appraisal or systematic integrity search.",
+      "clinical_review": false,
+      "publish": false,
+      "automation_allowed": false
+    },
+    {
+      "id": "TH2-025",
+      "source": "https://pubmed.ncbi.nlm.nih.gov/19248648/",
+      "sources": [
+        "https://pubmed.ncbi.nlm.nih.gov/19248648/",
+        "https://clinicaltrials.gov/study/NCT01177111"
+      ],
+      "findings": "Rural southern Nepal traditional birth attendant neonatal healthcare study. Indexed abstract scope and trial registry citation verified. Registry NCT01177111 lists this publication; that does not mean participants overlap with later trial. Knowledge/practice rather than intervention outcome; funding pending.",
+      "scope": "Partial indexed original-source identity/abstract and selected disclosure passages; no comprehensive appraisal or systematic integrity search.",
+      "clinical_review": false,
+      "publish": false,
+      "automation_allowed": false
+    },
+    {
+      "id": "TH2-026",
+      "source": "https://pubmed.ncbi.nlm.nih.gov/41034748/",
+      "sources": [
+        "https://pubmed.ncbi.nlm.nih.gov/41034748/"
+      ],
+      "findings": "Southeastern Türkiye qualitative first-1000-days study of pregnant women and health professionals, identifies newborn practices and rationales. Reports include practices with significant safety concerns; no procedural details reproduced or endorsed. Funding, sampling and formal clinical comparison pending.",
+      "scope": "Partial indexed original-source identity/abstract and selected disclosure passages; no comprehensive appraisal or systematic integrity search.",
+      "clinical_review": false,
+      "publish": false,
+      "automation_allowed": false
+    }
+  ],
+  "clinical_review": false,
+  "publish": false,
+  "automation_allowed": false
+}
