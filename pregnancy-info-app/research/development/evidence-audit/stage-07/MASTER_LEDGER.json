@@ -20,8 +20,8 @@
     "hold_entries": 18,
     "exceptions": [],
     "full_external_appraisals": 0,
-    "partial_external_audit_records": 517,
-    "pending_without_new_external_audit": 920,
+    "partial_external_audit_records": 539,
+    "pending_without_new_external_audit": 898,
     "uncounted_integrity_holds_rechecked": 4,
     "archive_dispositions_complete": 1437,
     "archive_dispositions_pending": 0,
@@ -63,7 +63,7 @@
       "visual_reuse_approved": 0,
       "missing": 0
     },
-    "partial_original_source_checks": 461,
+    "partial_original_source_checks": 483,
     "visual_publisher_policy_checks": 57,
     "additional_correction_holds": 2,
     "visual_reuse_approved": 0,
@@ -74,7 +74,7 @@
     "underpublished_inventory_total": 75,
     "additional_access_holds": 2,
     "traditional_inventory_partial_checks": 111,
-    "international_inventory_partial_checks": 178,
+    "international_inventory_partial_checks": 200,
     "additional_version_holds": 2
   },
   "manifest": [
@@ -22278,7 +22278,7 @@
       "file": 9,
       "index": 36,
       "url": "https://pubmed.ncbi.nlm.nih.gov/17391562/",
-      "status": "archive_disposition_complete_external_audit_unresolved",
+      "status": "partial_external_original_source_check",
       "clinical_review": false,
       "publish": false,
       "automation_allowed": false,
@@ -22286,7 +22286,8 @@
       "disposition": "international_research_original_source_hold",
       "disposition_batch": "03",
       "identity_group": null,
-      "cohort_family_candidates": []
+      "cohort_family_candidates": [],
+      "audit_batch": "22"
     },
     {
       "id": "I1-B04-001",
@@ -22638,7 +22639,7 @@
       "index": 17,
       "url": "https://pubmed.ncbi.nlm.nih.gov/35627403/",
       "family": "GeMuKi",
-      "status": "archive_disposition_complete_external_audit_unresolved",
+      "status": "partial_external_original_source_check",
       "clinical_review": false,
       "publish": false,
       "automation_allowed": false,
@@ -22648,7 +22649,8 @@
       "identity_group": null,
       "cohort_family_candidates": [
         "GeMuKi"
-      ]
+      ],
+      "audit_batch": "22"
     },
     {
       "id": "I1-B04-019",
@@ -22657,7 +22659,7 @@
       "index": 18,
       "url": "https://pubmed.ncbi.nlm.nih.gov/30636636/",
       "family": "GeliS",
-      "status": "archive_disposition_complete_external_audit_unresolved",
+      "status": "partial_external_original_source_check",
       "clinical_review": false,
       "publish": false,
       "automation_allowed": false,
@@ -22667,7 +22669,8 @@
       "identity_group": null,
       "cohort_family_candidates": [
         "GeliS"
-      ]
+      ],
+      "audit_batch": "22"
     },
     {
       "id": "I1-B04-020",
@@ -22676,7 +22679,7 @@
       "index": 19,
       "url": "https://pubmed.ncbi.nlm.nih.gov/32725809/",
       "family": "GeliS",
-      "status": "archive_disposition_complete_external_audit_unresolved",
+      "status": "partial_external_original_source_check",
       "clinical_review": false,
       "publish": false,
       "automation_allowed": false,
@@ -22686,7 +22689,8 @@
       "identity_group": null,
       "cohort_family_candidates": [
         "GeliS"
-      ]
+      ],
+      "audit_batch": "22"
     },
     {
       "id": "I1-B04-021",
@@ -22695,7 +22699,7 @@
       "index": 20,
       "url": "https://pubmed.ncbi.nlm.nih.gov/35815097/",
       "family": "GeliS",
-      "status": "archive_disposition_complete_external_audit_unresolved",
+      "status": "partial_external_original_source_check",
       "clinical_review": false,
       "publish": false,
       "automation_allowed": false,
@@ -22705,7 +22709,8 @@
       "identity_group": null,
       "cohort_family_candidates": [
         "GeliS"
-      ]
+      ],
+      "audit_batch": "22"
     },
     {
       "id": "I1-B04-022",
@@ -22713,7 +22718,7 @@
       "file": 10,
       "index": 21,
       "url": "https://pubmed.ncbi.nlm.nih.gov/42027115/",
-      "status": "archive_disposition_complete_external_audit_unresolved",
+      "status": "partial_external_original_source_check",
       "clinical_review": false,
       "publish": false,
       "automation_allowed": false,
@@ -22721,7 +22726,8 @@
       "disposition": "international_research_original_source_hold",
       "disposition_batch": "03",
       "identity_group": null,
-      "cohort_family_candidates": []
+      "cohort_family_candidates": [],
+      "audit_batch": "22"
     },
     {
       "id": "I1-B04-023",
@@ -22730,7 +22736,7 @@
       "index": 22,
       "url": "https://pubmed.ncbi.nlm.nih.gov/32412417/",
       "family": "Smarter Pregnancy",
-      "status": "archive_disposition_complete_external_audit_unresolved",
+      "status": "partial_external_original_source_check",
       "clinical_review": false,
       "publish": false,
       "automation_allowed": false,
@@ -22740,7 +22746,8 @@
       "identity_group": null,
       "cohort_family_candidates": [
         "Smarter Pregnancy"
-      ]
+      ],
+      "audit_batch": "22"
     },
     {
       "id": "I1-B04-024",
@@ -22768,7 +22775,7 @@
       "index": 24,
       "url": "https://pubmed.ncbi.nlm.nih.gov/42808599/",
       "family": "SCRaTCH-OFO",
-      "status": "archive_disposition_complete_external_audit_unresolved",
+      "status": "partial_external_original_source_check",
       "clinical_review": false,
       "publish": false,
       "automation_allowed": false,
@@ -22778,7 +22785,8 @@
       "identity_group": null,
       "cohort_family_candidates": [
         "SCRaTCH-OFO"
-      ]
+      ],
+      "audit_batch": "22"
     },
     {
       "id": "I1-B04-026",
@@ -22787,7 +22795,7 @@
       "index": 25,
       "url": "https://pubmed.ncbi.nlm.nih.gov/33782086/",
       "family": "NiPPeR",
-      "status": "archive_disposition_complete_external_audit_unresolved",
+      "status": "partial_external_original_source_check",
       "clinical_review": false,
       "publish": false,
       "automation_allowed": false,
@@ -22797,7 +22805,8 @@
       "identity_group": null,
       "cohort_family_candidates": [
         "NiPPeR"
-      ]
+      ],
+      "audit_batch": "22"
     },
     {
       "id": "I1-B04-027",
@@ -22806,7 +22815,7 @@
       "index": 26,
       "url": "https://pubmed.ncbi.nlm.nih.gov/36866469/",
       "family": "NiPPeR",
-      "status": "archive_disposition_complete_external_audit_unresolved",
+      "status": "partial_external_original_source_check",
       "clinical_review": false,
       "publish": false,
       "automation_allowed": false,
@@ -22816,7 +22825,8 @@
       "identity_group": null,
       "cohort_family_candidates": [
         "NiPPeR"
-      ]
+      ],
+      "audit_batch": "22"
     },
     {
       "id": "I1-B04-028",
@@ -22825,7 +22835,7 @@
       "index": 27,
       "url": "https://pubmed.ncbi.nlm.nih.gov/41578268/",
       "family": "NiPPeR",
-      "status": "archive_disposition_complete_external_audit_unresolved",
+      "status": "partial_external_original_source_check",
       "clinical_review": false,
       "publish": false,
       "automation_allowed": false,
@@ -22835,7 +22845,8 @@
       "identity_group": null,
       "cohort_family_candidates": [
         "NiPPeR"
-      ]
+      ],
+      "audit_batch": "22"
     },
     {
       "id": "I1-B04-029",
@@ -22843,7 +22854,7 @@
       "file": 10,
       "index": 28,
       "url": "https://pubmed.ncbi.nlm.nih.gov/42491974/",
-      "status": "archive_disposition_complete_external_audit_unresolved",
+      "status": "partial_external_original_source_check",
       "clinical_review": false,
       "publish": false,
       "automation_allowed": false,
@@ -22851,7 +22862,8 @@
       "disposition": "international_research_original_source_hold",
       "disposition_batch": "03",
       "identity_group": null,
-      "cohort_family_candidates": []
+      "cohort_family_candidates": [],
+      "audit_batch": "22"
     },
     {
       "id": "I1-B05-001",
@@ -22859,7 +22871,7 @@
       "file": 11,
       "index": 0,
       "url": "https://pubmed.ncbi.nlm.nih.gov/26241428/",
-      "status": "archive_disposition_complete_external_audit_unresolved",
+      "status": "partial_external_original_source_check",
       "clinical_review": false,
       "publish": false,
       "automation_allowed": false,
@@ -22867,7 +22879,8 @@
       "disposition": "international_research_original_source_hold",
       "disposition_batch": "03",
       "identity_group": null,
-      "cohort_family_candidates": []
+      "cohort_family_candidates": [],
+      "audit_batch": "22"
     },
     {
       "id": "I1-B05-002",
@@ -22875,7 +22888,7 @@
       "file": 11,
       "index": 1,
       "url": "https://pubmed.ncbi.nlm.nih.gov/38636537/",
-      "status": "archive_disposition_complete_external_audit_unresolved",
+      "status": "partial_external_original_source_check",
       "clinical_review": false,
       "publish": false,
       "automation_allowed": false,
@@ -22883,7 +22896,8 @@
       "disposition": "international_research_original_source_hold",
       "disposition_batch": "03",
       "identity_group": null,
-      "cohort_family_candidates": []
+      "cohort_family_candidates": [],
+      "audit_batch": "22"
     },
     {
       "id": "I1-B05-003",
@@ -22891,7 +22905,7 @@
       "file": 11,
       "index": 2,
       "url": "https://pubmed.ncbi.nlm.nih.gov/42269702/",
-      "status": "archive_disposition_complete_external_audit_unresolved",
+      "status": "partial_external_original_source_check",
       "clinical_review": false,
       "publish": false,
       "automation_allowed": false,
@@ -22899,7 +22913,8 @@
       "disposition": "international_research_original_source_hold",
       "disposition_batch": "03",
       "identity_group": null,
-      "cohort_family_candidates": []
+      "cohort_family_candidates": [],
+      "audit_batch": "22"
     },
     {
       "id": "I1-B05-004",
@@ -22907,7 +22922,7 @@
       "file": 11,
       "index": 3,
       "url": "https://pubmed.ncbi.nlm.nih.gov/41736089/",
-      "status": "archive_disposition_complete_external_audit_unresolved",
+      "status": "partial_external_original_source_check",
       "clinical_review": false,
       "publish": false,
       "automation_allowed": false,
@@ -22915,7 +22930,8 @@
       "disposition": "international_research_original_source_hold",
       "disposition_batch": "03",
       "identity_group": null,
-      "cohort_family_candidates": []
+      "cohort_family_candidates": [],
+      "audit_batch": "22"
     },
     {
       "id": "I1-B05-005",
@@ -22923,7 +22939,7 @@
       "file": 11,
       "index": 4,
       "url": "https://pubmed.ncbi.nlm.nih.gov/34551744/",
-      "status": "archive_disposition_complete_external_audit_unresolved",
+      "status": "partial_external_original_source_check",
       "clinical_review": false,
       "publish": false,
       "automation_allowed": false,
@@ -22931,7 +22947,8 @@
       "disposition": "international_research_original_source_hold",
       "disposition_batch": "03",
       "identity_group": null,
-      "cohort_family_candidates": []
+      "cohort_family_candidates": [],
+      "audit_batch": "22"
     },
     {
       "id": "I1-B05-006",
@@ -22939,7 +22956,7 @@
       "file": 11,
       "index": 5,
       "url": "https://pubmed.ncbi.nlm.nih.gov/43052803/",
-      "status": "archive_disposition_complete_external_audit_unresolved",
+      "status": "partial_external_original_source_check",
       "clinical_review": false,
       "publish": false,
       "automation_allowed": false,
@@ -22947,7 +22964,8 @@
       "disposition": "international_research_original_source_hold",
       "disposition_batch": "03",
       "identity_group": null,
-      "cohort_family_candidates": []
+      "cohort_family_candidates": [],
+      "audit_batch": "22"
     },
     {
       "id": "I1-B05-007",
@@ -22955,7 +22973,7 @@
       "file": 11,
       "index": 6,
       "url": "https://pubmed.ncbi.nlm.nih.gov/41732926/",
-      "status": "archive_disposition_complete_external_audit_unresolved",
+      "status": "partial_external_original_source_check",
       "clinical_review": false,
       "publish": false,
       "automation_allowed": false,
@@ -22963,7 +22981,8 @@
       "disposition": "international_research_original_source_hold",
       "disposition_batch": "03",
       "identity_group": null,
-      "cohort_family_candidates": []
+      "cohort_family_candidates": [],
+      "audit_batch": "22"
     },
     {
       "id": "I1-B05-008",
@@ -22971,7 +22990,7 @@
       "file": 11,
       "index": 7,
       "url": "https://pubmed.ncbi.nlm.nih.gov/25660465/",
-      "status": "archive_disposition_complete_external_audit_unresolved",
+      "status": "partial_external_original_source_check",
       "clinical_review": false,
       "publish": false,
       "automation_allowed": false,
@@ -22979,7 +22998,8 @@
       "disposition": "international_research_original_source_hold",
       "disposition_batch": "03",
       "identity_group": null,
-      "cohort_family_candidates": []
+      "cohort_family_candidates": [],
+      "audit_batch": "22"
     },
     {
       "id": "I1-B05-009",
@@ -22988,7 +23008,7 @@
       "index": 8,
       "url": "https://pubmed.ncbi.nlm.nih.gov/31810217/",
       "family": "OPTIMISE",
-      "status": "archive_disposition_complete_external_audit_unresolved",
+      "status": "partial_external_original_source_check",
       "clinical_review": false,
       "publish": false,
       "automation_allowed": false,
@@ -22998,7 +23018,8 @@
       "identity_group": null,
       "cohort_family_candidates": [
         "OPTIMISE"
-      ]
+      ],
+      "audit_batch": "22"
     },
     {
       "id": "I1-B05-010",
@@ -23006,7 +23027,7 @@
       "file": 11,
       "index": 9,
       "url": "https://pubmed.ncbi.nlm.nih.gov/40269899/",
-      "status": "archive_disposition_complete_external_audit_unresolved",
+      "status": "partial_external_original_source_check",
       "clinical_review": false,
       "publish": false,
       "automation_allowed": false,
@@ -23014,7 +23035,8 @@
       "disposition": "international_research_original_source_hold",
       "disposition_batch": "03",
       "identity_group": null,
-      "cohort_family_candidates": []
+      "cohort_family_candidates": [],
+      "audit_batch": "22"
     },
     {
       "id": "TH2-001",
@@ -32303,6 +32325,12 @@
       "scope": "International pelvic-floor, environmental, fertility, breastfeeding, parenting, nutrition, sleep, and clinical intervention indexed publication screens",
       "commit": "411567c183d2b30ef4859b9662c5886b1e762fa9",
       "file": "BATCH_21_INTERNATIONAL_CLINICAL_AND_FAMILY.json"
+    },
+    {
+      "batch": "22",
+      "scope": "Remaining international clinical and lifestyle source screens; one bibliographic-only record explicitly excluded from external-original-source counts",
+      "commit": "59c4e7694d36a7f946a23767561f394d342dd273",
+      "file": "BATCH_22_INTERNATIONAL_REMAINDER.json"
     }
   ],
   "next_batches": {
@@ -32321,7 +32349,7 @@
     "archive_disposition_pass": "complete",
     "full_original_source_verification": "incomplete",
     "clinical_release": "held",
-    "note": "External preliminary checks: 517/1437; no full appraisals completed; holds and release gates retained.",
+    "note": "External preliminary checks: 539/1437; no full appraisals completed; holds and release gates retained.",
     "visual_publisher_policy_pass": "complete_for_57_expansion_visuals",
     "contradictory_evidence_identity_screen": "83 of 83 publication records have partial external checks; not formal appraisals",
     "underpublished_identity_screen": "75 of 75 records have partial external checks; two embargo/withheld access holds recorded; not formal appraisals"
