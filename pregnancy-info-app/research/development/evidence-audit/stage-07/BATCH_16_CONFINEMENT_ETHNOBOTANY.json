@@ -1,0 +1,231 @@
+{
+  "stage": 7,
+  "batch": "16",
+  "date": "2026-11-27",
+  "scope": "16 additional traditional-practice records, including confinement experiences and international reproductive ethnobotany.",
+  "counted_ids": [
+    "TH2-029",
+    "TH2-030",
+    "TH2-031",
+    "TH2-032",
+    "TH2-034",
+    "TH2-035",
+    "TH2-036",
+    "TH2-037",
+    "TH2-039",
+    "TH2-040",
+    "TH2-042",
+    "TH2-043",
+    "TH2-044",
+    "TH2-045",
+    "TH2-046",
+    "TH2-047"
+  ],
+  "checks": [
+    {
+      "id": "TH2-029",
+      "source": "https://pubmed.ncbi.nlm.nih.gov/38379023/",
+      "sources": [
+        "https://pubmed.ncbi.nlm.nih.gov/38379023/"
+      ],
+      "findings": "Qualitative meta-synthesis of 13 studies, 423 women across home and nursing-care settings. Describes support, stress, coping and caregiver conflict during confinement. Does not yield causal clinical effect estimates; primary-study overlap and funding pending.",
+      "scope": "Partial original-source identity/abstract checks; selected linked metadata where specified; no full independent appraisal or systematic integrity search.",
+      "clinical_review": false,
+      "publish": false,
+      "automation_allowed": false
+    },
+    {
+      "id": "TH2-030",
+      "source": "https://pubmed.ncbi.nlm.nih.gov/16977638/",
+      "sources": [
+        "https://pubmed.ncbi.nlm.nih.gov/16977638/"
+      ],
+      "findings": "Taiwan observational association of adherence to postpartum confinement with fewer physical and depressive symptoms. Confounding by baseline health, caregiver support and self-selection remains; not evidence that the whole practice prevents depression. Funding and exact adjusted results pending.",
+      "scope": "Partial original-source identity/abstract checks; selected linked metadata where specified; no full independent appraisal or systematic integrity search.",
+      "clinical_review": false,
+      "publish": false,
+      "automation_allowed": false
+    },
+    {
+      "id": "TH2-031",
+      "source": "https://pubmed.ncbi.nlm.nih.gov/27018256/",
+      "sources": [
+        "https://pubmed.ncbi.nlm.nih.gov/27018256/",
+        "https://gtr.ukri.org/publication/overview?outcomeid=632cf94c869854.92965877&projectref=MR%2FJ000094%2F1"
+      ],
+      "findings": "Singapore study of 1,220 Chinese, Malay and Indian mothers followed at three weeks postpartum, reporting adherence to practices and caregiver assistance. Comparative descriptive data, not randomized treatment. GUSTO cohort linkage remains to be confirmed against full paper; UKRI grant-linked record MR/J000094/1 found but study-specific funding and role pending.",
+      "scope": "Partial original-source identity/abstract checks; selected linked metadata where specified; no full independent appraisal or systematic integrity search.",
+      "clinical_review": false,
+      "publish": false,
+      "automation_allowed": false
+    },
+    {
+      "id": "TH2-032",
+      "source": "https://pubmed.ncbi.nlm.nih.gov/39153470/",
+      "sources": [
+        "https://pubmed.ncbi.nlm.nih.gov/39153470/"
+      ],
+      "findings": "Qualitative study of Chinese mothers following childbirth in Switzerland, examining adaptations of practices and social support. Migration context not comparative efficacy; full methods and funding pending.",
+      "scope": "Partial original-source identity/abstract checks; selected linked metadata where specified; no full independent appraisal or systematic integrity search.",
+      "clinical_review": false,
+      "publish": false,
+      "automation_allowed": false
+    },
+    {
+      "id": "TH2-034",
+      "source": "https://pubmed.ncbi.nlm.nih.gov/36054950/",
+      "sources": [
+        "https://pubmed.ncbi.nlm.nih.gov/36054950/"
+      ],
+      "findings": "Singapore qualitative study of first-time mothers from three major ethnic groups; identifies experiences and need for education on potentially harmful practices. Not comparative clinical evidence; sampling/funding pending.",
+      "scope": "Partial original-source identity/abstract checks; selected linked metadata where specified; no full independent appraisal or systematic integrity search.",
+      "clinical_review": false,
+      "publish": false,
+      "automation_allowed": false
+    },
+    {
+      "id": "TH2-035",
+      "source": "https://pubmed.ncbi.nlm.nih.gov/37659150/",
+      "sources": [
+        "https://pubmed.ncbi.nlm.nih.gov/37659150/"
+      ],
+      "findings": "Qualitative meta-synthesis of experience of postpartum depression among Chinese women. Context for help-seeking, support and barriers, not prevention efficacy or a quantitative risk estimate. Primary-study membership and funding unresolved.",
+      "scope": "Partial original-source identity/abstract checks; selected linked metadata where specified; no full independent appraisal or systematic integrity search.",
+      "clinical_review": false,
+      "publish": false,
+      "automation_allowed": false
+    },
+    {
+      "id": "TH2-036",
+      "source": "https://pubmed.ncbi.nlm.nih.gov/36797354/",
+      "sources": [
+        "https://pubmed.ncbi.nlm.nih.gov/36797354/",
+        "https://pmc.ncbi.nlm.nih.gov/articles/PMC9935858/"
+      ],
+      "findings": "Review of Mexican traditional medicines using multiple databases and published texts, documenting 185 plant species in over 60 families across reproductive indications. Reported use and laboratory data are not pregnancy efficacy or safety evidence; no high-risk herbal instructions. Secondary metadata lists UIC-TEC Seed Fund, original declaration not yet verified. CC BY 4.0 article-level license; no automatic visual reuse.",
+      "scope": "Partial original-source identity/abstract checks; selected linked metadata where specified; no full independent appraisal or systematic integrity search.",
+      "clinical_review": false,
+      "publish": false,
+      "automation_allowed": false
+    },
+    {
+      "id": "TH2-037",
+      "source": "https://pubmed.ncbi.nlm.nih.gov/21569234/",
+      "sources": [
+        "https://pubmed.ncbi.nlm.nih.gov/21569234/"
+      ],
+      "findings": "Lao PDR Kry ethnobotanical survey documenting 49 species, expanding previously described ethnomedical inventory. No clinical evaluation or safety validation; possible overlap in participants/fieldwork with TH2-040 requires reconciliation. Funding pending.",
+      "scope": "Partial original-source identity/abstract checks; selected linked metadata where specified; no full independent appraisal or systematic integrity search.",
+      "clinical_review": false,
+      "publish": false,
+      "automation_allowed": false
+    },
+    {
+      "id": "TH2-039",
+      "source": "https://pubmed.ncbi.nlm.nih.gov/25449451/",
+      "sources": [
+        "https://pubmed.ncbi.nlm.nih.gov/25449451/"
+      ],
+      "findings": "Menoua, West Cameroon ethnobotanical survey of pregnancy-related plant use. Descriptive reports of local remedies, not tested treatment effects; no recipes or clinical advice. Full funding and methods pending.",
+      "scope": "Partial original-source identity/abstract checks; selected linked metadata where specified; no full independent appraisal or systematic integrity search.",
+      "clinical_review": false,
+      "publish": false,
+      "automation_allowed": false
+    },
+    {
+      "id": "TH2-040",
+      "source": "https://pubmed.ncbi.nlm.nih.gov/19737413/",
+      "sources": [
+        "https://pubmed.ncbi.nlm.nih.gov/19737413/"
+      ],
+      "findings": "Comparative ethnobotanical report of Brou, Saek and Kry groups in Lao PDR. Potential shared fieldwork with TH2-037; not independent clinical evidence even if samples differ. Full membership/funding pending; high-risk remedy hold retained.",
+      "scope": "Partial original-source identity/abstract checks; selected linked metadata where specified; no full independent appraisal or systematic integrity search.",
+      "clinical_review": false,
+      "publish": false,
+      "automation_allowed": false
+    },
+    {
+      "id": "TH2-042",
+      "source": "https://pubmed.ncbi.nlm.nih.gov/16419446/",
+      "sources": [
+        "https://pubmed.ncbi.nlm.nih.gov/16419446/"
+      ],
+      "findings": "Historical descriptive Mexican study based on training course for 160 traditional midwives in San Luis Potosi. Authors' conclusion that practices are harmless is not established by this sampling or design. No procedure or safety endorsement; funding unresolved.",
+      "scope": "Partial original-source identity/abstract checks; selected linked metadata where specified; no full independent appraisal or systematic integrity search.",
+      "clinical_review": false,
+      "publish": false,
+      "automation_allowed": false
+    },
+    {
+      "id": "TH2-043",
+      "source": "https://pubmed.ncbi.nlm.nih.gov/34429308/",
+      "sources": [
+        "https://pubmed.ncbi.nlm.nih.gov/34429308/",
+        "https://pmc.ncbi.nlm.nih.gov/articles/PMC8386214/"
+      ],
+      "findings": "Hospital-based cross-sectional study of medicinal plant use in pregnant women at Jimma, Ethiopia. Medical record and self-report data, restrictive herbal exposure definition and selection of admitted patients affect comparability. Adjustment does not establish causality; funding and complete results pending.",
+      "scope": "Partial original-source identity/abstract checks; selected linked metadata where specified; no full independent appraisal or systematic integrity search.",
+      "clinical_review": false,
+      "publish": false,
+      "automation_allowed": false
+    },
+    {
+      "id": "TH2-044",
+      "source": "https://pubmed.ncbi.nlm.nih.gov/21040536/",
+      "sources": [
+        "https://pubmed.ncbi.nlm.nih.gov/21040536/"
+      ],
+      "findings": "Ethnobotanical inventory of 105 species across 91 genera and 62 families in northern Peru for reproductive concerns. Catalog of reported use, not human clinical evaluation; no hazardous-use instructions, funding unresolved.",
+      "scope": "Partial original-source identity/abstract checks; selected linked metadata where specified; no full independent appraisal or systematic integrity search.",
+      "clinical_review": false,
+      "publish": false,
+      "automation_allowed": false
+    },
+    {
+      "id": "TH2-045",
+      "source": "https://pubmed.ncbi.nlm.nih.gov/36332962/",
+      "sources": [
+        "https://pubmed.ncbi.nlm.nih.gov/36332962/",
+        "https://pmc.ncbi.nlm.nih.gov/articles/PMC9639088/"
+      ],
+      "findings": "Southwest Ethiopia community cross-sectional survey of harmful traditional pregnancy practices and associated factors. Local operational definition and self-report affect prevalence; not a causal harm estimate for each individual practice. Funding/full results pending. Potential inclusion in food taboo review TH2-053 requires checking.",
+      "scope": "Partial original-source identity/abstract checks; selected linked metadata where specified; no full independent appraisal or systematic integrity search.",
+      "clinical_review": false,
+      "publish": false,
+      "automation_allowed": false
+    },
+    {
+      "id": "TH2-046",
+      "source": "https://pubmed.ncbi.nlm.nih.gov/37645589/",
+      "sources": [
+        "https://pubmed.ncbi.nlm.nih.gov/37645589/"
+      ],
+      "findings": "Qualitative East Gojjam, northwest Ethiopia report of cultural beliefs and practices around pregnancy, delivery and postpartum. Context for respectful counseling, not clinical effects. Full methods/disclosures pending.",
+      "scope": "Partial original-source identity/abstract checks; selected linked metadata where specified; no full independent appraisal or systematic integrity search.",
+      "clinical_review": false,
+      "publish": false,
+      "automation_allowed": false
+    },
+    {
+      "id": "TH2-047",
+      "source": "https://pubmed.ncbi.nlm.nih.gov/12342712/",
+      "sources": [
+        "https://pubmed.ncbi.nlm.nih.gov/12342712/"
+      ],
+      "findings": "Oaxaca, Mexico ethnobotanical report of Chinantec reproductive health beliefs and plants. Historical and community-specific descriptive evidence; no clinical safety or efficacy inference. Funding and overlap with later reviews unresolved.",
+      "scope": "Partial original-source identity/abstract checks; selected linked metadata where specified; no full independent appraisal or systematic integrity search.",
+      "clinical_review": false,
+      "publish": false,
+      "automation_allowed": false
+    }
+  ],
+  "cohort_candidates": [
+    [
+      "TH2-037",
+      "TH2-040"
+    ]
+  ],
+  "clinical_review": false,
+  "publish": false,
+  "automation_allowed": false
+}
