@@ -1,0 +1,886 @@
+{
+  "batch": "20",
+  "stage": 7,
+  "date": "2026-11-27",
+  "scope": "International breastfeeding, preconception, DHA and environmental longitudinal trial families; partial publication and correction/version screens",
+  "count": 48,
+  "counted_ids": [
+    "I1-B01-065",
+    "I1-B01-066",
+    "I1-B01-067",
+    "I1-B01-068",
+    "I1-B01-069",
+    "I1-B01-070",
+    "I1-B01-071",
+    "I1-B01-072",
+    "I1-B01-073",
+    "I1-B01-074",
+    "I1-B01-082",
+    "I1-B01-083",
+    "I1-B01-084",
+    "I1-B02-014",
+    "I1-B02-015",
+    "I1-B02-016",
+    "I1-B02-017",
+    "I1-B02-018",
+    "I1-B02-019",
+    "I1-B02-020",
+    "I1-B02-021",
+    "I1-B02-022",
+    "I1-B02-023",
+    "I1-B02-024",
+    "I1-B02-025",
+    "I1-B02-026",
+    "I1-B02-027",
+    "I1-B02-028",
+    "I1-B02-029",
+    "I1-B02-030",
+    "I1-B02-031",
+    "I1-B04-001",
+    "I1-B04-002",
+    "I1-B04-003",
+    "I1-B04-004",
+    "I1-B04-005",
+    "I1-B04-006",
+    "I1-B04-007",
+    "I1-B04-008",
+    "I1-B04-009",
+    "I1-B04-010",
+    "I1-B04-011",
+    "I1-B04-012",
+    "I1-B04-013",
+    "I1-B04-014",
+    "I1-B04-015",
+    "I1-B04-016",
+    "I1-B04-017"
+  ],
+  "records": [
+    {
+      "id": "I1-B01-065",
+      "source": "https://pubmed.ncbi.nlm.nih.gov/21752462/",
+      "sources": [
+        "https://pubmed.ncbi.nlm.nih.gov/21752462/"
+      ],
+      "cohort_family": "PROMISE-EBF",
+      "findings": "2579 dyads in three countries; peer counselling increased reported exclusive breastfeeding at 12 weeks, with large variation by country.",
+      "methodological_limitations": "Cluster design and 24-hour recall; feeding prevalence is not all downstream health outcomes.",
+      "funding": "EU FP6, Research Council Norway, Sida, NUFU, South African NRF, Rockefeller Brothers Foundation.",
+      "integrity": "Correction/retraction search incomplete; no clearance inferred.",
+      "article_applicability": "Research context only; all clinical and publication holds retained. No self-directed treatment, dosing, or safety guarantee.",
+      "scope": "Partial original publication indexed metadata/abstract or selected publisher/registry excerpts; no formal appraisal.",
+      "clinical_review": false,
+      "publish": false,
+      "automation_allowed": false
+    },
+    {
+      "id": "I1-B01-066",
+      "source": "https://pubmed.ncbi.nlm.nih.gov/24950759/",
+      "sources": [
+        "https://pubmed.ncbi.nlm.nih.gov/24950759/"
+      ],
+      "cohort_family": "PROMISE-EBF",
+      "findings": "Growth outcomes through six months from same cluster trial.",
+      "methodological_limitations": "Not an independent cohort; country-specific anthropometric results pending.",
+      "funding": "Publication-specific funding, product supply, COI and sponsor role unresolved.",
+      "integrity": "Correction/retraction search incomplete; no clearance inferred.",
+      "article_applicability": "Research context only; all clinical and publication holds retained. No self-directed treatment, dosing, or safety guarantee.",
+      "scope": "Partial original publication indexed metadata/abstract or selected publisher/registry excerpts; no formal appraisal.",
+      "clinical_review": false,
+      "publish": false,
+      "automation_allowed": false
+    },
+    {
+      "id": "I1-B01-067",
+      "source": "https://pubmed.ncbi.nlm.nih.gov/39854391/",
+      "sources": [
+        "https://pubmed.ncbi.nlm.nih.gov/39854391/"
+      ],
+      "cohort_family": "Uganda Lira 2018–19",
+      "findings": "Cluster trial combining peer counselling, texts and mama kits.",
+      "methodological_limitations": "Bundled intervention, 28-day EBF definition; distinct from PROMISE.",
+      "funding": "Publication-specific funding, product supply, COI and sponsor role unresolved.",
+      "integrity": "Correction/retraction search incomplete; no clearance inferred.",
+      "article_applicability": "Research context only; all clinical and publication holds retained. No self-directed treatment, dosing, or safety guarantee.",
+      "scope": "Partial original publication indexed metadata/abstract or selected publisher/registry excerpts; no formal appraisal.",
+      "clinical_review": false,
+      "publish": false,
+      "automation_allowed": false
+    },
+    {
+      "id": "I1-B01-068",
+      "source": "https://pubmed.ncbi.nlm.nih.gov/25784955/",
+      "sources": [
+        "https://pubmed.ncbi.nlm.nih.gov/25784955/"
+      ],
+      "cohort_family": "PROMISE-EBF",
+      "findings": "Feeding practices in same 2579 dyads; less prelacteal feeding in Burkina Faso and Uganda.",
+      "methodological_limitations": "Self-reported early practices; country heterogeneity.",
+      "funding": "Publication-specific funding, product supply, COI and sponsor role unresolved.",
+      "integrity": "Correction/retraction search incomplete; no clearance inferred.",
+      "article_applicability": "Research context only; all clinical and publication holds retained. No self-directed treatment, dosing, or safety guarantee.",
+      "scope": "Partial original publication indexed metadata/abstract or selected publisher/registry excerpts; no formal appraisal.",
+      "clinical_review": false,
+      "publish": false,
+      "automation_allowed": false
+    },
+    {
+      "id": "I1-B01-069",
+      "source": "https://pubmed.ncbi.nlm.nih.gov/29474479/",
+      "sources": [
+        "https://pubmed.ncbi.nlm.nih.gov/29474479/"
+      ],
+      "cohort_family": "PROMISE-EBF",
+      "findings": "Neuropsychological follow-up at ages 5–8; about 68–72% of original groups re-enrolled in two countries.",
+      "methodological_limitations": "Attrition and cluster design; not independent trial.",
+      "funding": "Publication-specific funding, product supply, COI and sponsor role unresolved.",
+      "integrity": "Correction/retraction search incomplete; no clearance inferred.",
+      "article_applicability": "Research context only; all clinical and publication holds retained. No self-directed treatment, dosing, or safety guarantee.",
+      "scope": "Partial original publication indexed metadata/abstract or selected publisher/registry excerpts; no formal appraisal.",
+      "clinical_review": false,
+      "publish": false,
+      "automation_allowed": false
+    },
+    {
+      "id": "I1-B01-070",
+      "source": "https://pubmed.ncbi.nlm.nih.gov/27473676/",
+      "sources": [
+        "https://pubmed.ncbi.nlm.nih.gov/27473676/"
+      ],
+      "cohort_family": "PROMISE-EBF",
+      "findings": "Ugandan socioeconomic equity secondary analysis.",
+      "methodological_limitations": "Subgroup comparisons and shared participants.",
+      "funding": "Publication-specific funding, product supply, COI and sponsor role unresolved.",
+      "integrity": "Correction/retraction search incomplete; no clearance inferred.",
+      "article_applicability": "Research context only; all clinical and publication holds retained. No self-directed treatment, dosing, or safety guarantee.",
+      "scope": "Partial original publication indexed metadata/abstract or selected publisher/registry excerpts; no formal appraisal.",
+      "clinical_review": false,
+      "publish": false,
+      "automation_allowed": false
+    },
+    {
+      "id": "I1-B01-071",
+      "source": "https://pubmed.ncbi.nlm.nih.gov/27405396/",
+      "sources": [
+        "https://pubmed.ncbi.nlm.nih.gov/27405396/"
+      ],
+      "cohort_family": "PROMISE-EBF",
+      "findings": "Ugandan growth follow-up at age 4–5.",
+      "methodological_limitations": "Longitudinal attrition and cluster adjustment; do not assume growth benefit.",
+      "funding": "Publication-specific funding, product supply, COI and sponsor role unresolved.",
+      "integrity": "Correction/retraction search incomplete; no clearance inferred.",
+      "article_applicability": "Research context only; all clinical and publication holds retained. No self-directed treatment, dosing, or safety guarantee.",
+      "scope": "Partial original publication indexed metadata/abstract or selected publisher/registry excerpts; no formal appraisal.",
+      "clinical_review": false,
+      "publish": false,
+      "automation_allowed": false
+    },
+    {
+      "id": "I1-B01-072",
+      "source": "https://pubmed.ncbi.nlm.nih.gov/25340337/",
+      "sources": [
+        "https://pubmed.ncbi.nlm.nih.gov/25340337/"
+      ],
+      "cohort_family": "Philani Cape Town",
+      "findings": "Matched cluster trial: 12 neighborhoods per arm, 594 vs 644 mothers.",
+      "methodological_limitations": "Same sample as 073; comprehensive home visits, not an isolated component.",
+      "funding": "Publication-specific funding, product supply, COI and sponsor role unresolved.",
+      "integrity": "Correction/retraction search incomplete; no clearance inferred.",
+      "article_applicability": "Research context only; all clinical and publication holds retained. No self-directed treatment, dosing, or safety guarantee.",
+      "scope": "Partial original publication indexed metadata/abstract or selected publisher/registry excerpts; no formal appraisal.",
+      "clinical_review": false,
+      "publish": false,
+      "automation_allowed": false
+    },
+    {
+      "id": "I1-B01-073",
+      "source": "https://pubmed.ncbi.nlm.nih.gov/23435303/",
+      "sources": [
+        "https://pubmed.ncbi.nlm.nih.gov/23435303/"
+      ],
+      "cohort_family": "Philani Cape Town",
+      "findings": "Six-month follow-up of 1238 mothers, including women living with HIV; 88% reassessed.",
+      "methodological_limitations": "Same 24 clusters as 072; HIV subgroup context and attrition.",
+      "funding": "Publication-specific funding, product supply, COI and sponsor role unresolved.",
+      "integrity": "Correction/retraction search incomplete; no clearance inferred.",
+      "article_applicability": "Research context only; all clinical and publication holds retained. No self-directed treatment, dosing, or safety guarantee.",
+      "scope": "Partial original publication indexed metadata/abstract or selected publisher/registry excerpts; no formal appraisal.",
+      "clinical_review": false,
+      "publish": false,
+      "automation_allowed": false
+    },
+    {
+      "id": "I1-B01-074",
+      "source": "https://pubmed.ncbi.nlm.nih.gov/27438294/",
+      "sources": [
+        "https://pubmed.ncbi.nlm.nih.gov/27438294/"
+      ],
+      "cohort_family": "Philani Cape Town candidate",
+      "findings": "36-month home visiting maternal/child follow-up; authors suggest longer duration may be needed.",
+      "methodological_limitations": "Likely same program trial; verify exact denominator before quantitative use.",
+      "funding": "Publication-specific funding, product supply, COI and sponsor role unresolved.",
+      "integrity": "Correction/retraction search incomplete; no clearance inferred.",
+      "article_applicability": "Research context only; all clinical and publication holds retained. No self-directed treatment, dosing, or safety guarantee.",
+      "scope": "Partial original publication indexed metadata/abstract or selected publisher/registry excerpts; no formal appraisal.",
+      "clinical_review": false,
+      "publish": false,
+      "automation_allowed": false
+    },
+    {
+      "id": "I1-B01-082",
+      "source": "https://pubmed.ncbi.nlm.nih.gov/25646337/",
+      "sources": [
+        "https://pubmed.ncbi.nlm.nih.gov/25646337/",
+        "https://ajcn.nutrition.org/article/S0002-9165%2822%2904985-1/fulltext"
+      ],
+      "cohort_family": "iLiNS Malawi",
+      "findings": "1391 women across three arms; newborn size trial.",
+      "methodological_limitations": "Independent geographic arm from Ghana; disclosed Nutriset author affiliation and product role require review.",
+      "funding": "Nutriset S.A.S. listed as author affiliation; funding and sponsor role pending.",
+      "integrity": "Correction/retraction search incomplete; no clearance inferred.",
+      "article_applicability": "Research context only; all clinical and publication holds retained. No self-directed treatment, dosing, or safety guarantee.",
+      "scope": "Partial original publication indexed metadata/abstract or selected publisher/registry excerpts; no formal appraisal.",
+      "clinical_review": false,
+      "publish": false,
+      "automation_allowed": false
+    },
+    {
+      "id": "I1-B01-083",
+      "source": "https://pubmed.ncbi.nlm.nih.gov/34543432/",
+      "sources": [
+        "https://pubmed.ncbi.nlm.nih.gov/34543432/"
+      ],
+      "cohort_family": "iLiNS Ghana + Malawi",
+      "findings": "Secondary infant plasma fatty acid analyses across both trials.",
+      "methodological_limitations": "Overlaps Ghana and Malawi parent samples; biochemical outcomes, not independent replication.",
+      "funding": "Publication-specific funding, product supply, COI and sponsor role unresolved.",
+      "integrity": "Correction/retraction search incomplete; no clearance inferred.",
+      "article_applicability": "Research context only; all clinical and publication holds retained. No self-directed treatment, dosing, or safety guarantee.",
+      "scope": "Partial original publication indexed metadata/abstract or selected publisher/registry excerpts; no formal appraisal.",
+      "clinical_review": false,
+      "publish": false,
+      "automation_allowed": false
+    },
+    {
+      "id": "I1-B01-084",
+      "source": "https://pubmed.ncbi.nlm.nih.gov/28237085/",
+      "sources": [
+        "https://pubmed.ncbi.nlm.nih.gov/28237085/"
+      ],
+      "cohort_family": "iLiNS Ghana + Malawi candidate",
+      "findings": "Two randomized trials; breast milk ALA increased in Ghana but not Malawi.",
+      "methodological_limitations": "Country-specific biochemical outcome; confirm exact sample overlap.",
+      "funding": "Publication-specific funding, product supply, COI and sponsor role unresolved.",
+      "integrity": "Correction/retraction search incomplete; no clearance inferred.",
+      "article_applicability": "Research context only; all clinical and publication holds retained. No self-directed treatment, dosing, or safety guarantee.",
+      "scope": "Partial original publication indexed metadata/abstract or selected publisher/registry excerpts; no formal appraisal.",
+      "clinical_review": false,
+      "publish": false,
+      "automation_allowed": false
+    },
+    {
+      "id": "I1-B02-014",
+      "source": "https://pubmed.ncbi.nlm.nih.gov/38417549/",
+      "sources": [
+        "https://pubmed.ncbi.nlm.nih.gov/38417549/"
+      ],
+      "cohort_family": "PRECONCEPT",
+      "findings": "Maternal postpartum BMI and body composition follow-up, 1599 live-birth cohort.",
+      "methodological_limitations": "Postpartum endpoint; confirm effects and attrition.",
+      "funding": "Publication-specific funding, product supply, COI and sponsor role unresolved.",
+      "integrity": "Correction/retraction search incomplete; no clearance inferred.",
+      "article_applicability": "Research context only; all clinical and publication holds retained. No self-directed treatment, dosing, or safety guarantee.",
+      "scope": "Partial original publication indexed metadata/abstract or selected publisher/registry excerpts; no formal appraisal.",
+      "clinical_review": false,
+      "publish": false,
+      "automation_allowed": false
+    },
+    {
+      "id": "I1-B02-015",
+      "source": "https://pubmed.ncbi.nlm.nih.gov/28615372/",
+      "sources": [
+        "https://pubmed.ncbi.nlm.nih.gov/28615372/"
+      ],
+      "cohort_family": "PRECONCEPT",
+      "findings": "Age-two linear growth and fine motor outcomes reported for IFA versus folic acid.",
+      "methodological_limitations": "Follow-up of same trial; domain and comparator specific.",
+      "funding": "Publication-specific funding, product supply, COI and sponsor role unresolved.",
+      "integrity": "Correction/retraction search incomplete; no clearance inferred.",
+      "article_applicability": "Research context only; all clinical and publication holds retained. No self-directed treatment, dosing, or safety guarantee.",
+      "scope": "Partial original publication indexed metadata/abstract or selected publisher/registry excerpts; no formal appraisal.",
+      "clinical_review": false,
+      "publish": false,
+      "automation_allowed": false
+    },
+    {
+      "id": "I1-B02-016",
+      "source": "https://pubmed.ncbi.nlm.nih.gov/41831611/",
+      "sources": [
+        "https://pubmed.ncbi.nlm.nih.gov/41831611/"
+      ],
+      "cohort_family": "PRECONCEPT",
+      "findings": "Age 10–11 follow-up reports perceptual reasoning/certain cognitive benefits.",
+      "methodological_limitations": "Not independent replication; confirm attrition, multiplicity and social factors.",
+      "funding": "Publication-specific funding, product supply, COI and sponsor role unresolved.",
+      "integrity": "Correction/retraction search incomplete; no clearance inferred.",
+      "article_applicability": "Research context only; all clinical and publication holds retained. No self-directed treatment, dosing, or safety guarantee.",
+      "scope": "Partial original publication indexed metadata/abstract or selected publisher/registry excerpts; no formal appraisal.",
+      "clinical_review": false,
+      "publish": false,
+      "automation_allowed": false
+    },
+    {
+      "id": "I1-B02-017",
+      "source": "https://pubmed.ncbi.nlm.nih.gov/33668050/",
+      "sources": [
+        "https://pubmed.ncbi.nlm.nih.gov/33668050/"
+      ],
+      "cohort_family": "PRECONCEPT",
+      "findings": "Certain intellectual functioning domains at 6–7 years improved with preconception MMS.",
+      "methodological_limitations": "Same parent cohort; no universal cognition or dosing claim.",
+      "funding": "Publication-specific funding, product supply, COI and sponsor role unresolved.",
+      "integrity": "Correction/retraction search incomplete; no clearance inferred.",
+      "article_applicability": "Research context only; all clinical and publication holds retained. No self-directed treatment, dosing, or safety guarantee.",
+      "scope": "Partial original publication indexed metadata/abstract or selected publisher/registry excerpts; no formal appraisal.",
+      "clinical_review": false,
+      "publish": false,
+      "automation_allowed": false
+    },
+    {
+      "id": "I1-B02-018",
+      "source": "https://pubmed.ncbi.nlm.nih.gov/36925072/",
+      "sources": [
+        "https://pubmed.ncbi.nlm.nih.gov/36925072/"
+      ],
+      "cohort_family": "PRECONCEPT candidate",
+      "findings": "Preconception Hb associated with child Hb through first 1000 days but not birth or cognitive outcomes at 6–7.",
+      "methodological_limitations": "Observational exposure within cohort; confounding possible.",
+      "funding": "Publication-specific funding, product supply, COI and sponsor role unresolved.",
+      "integrity": "Correction/retraction search incomplete; no clearance inferred.",
+      "article_applicability": "Research context only; all clinical and publication holds retained. No self-directed treatment, dosing, or safety guarantee.",
+      "scope": "Partial original publication indexed metadata/abstract or selected publisher/registry excerpts; no formal appraisal.",
+      "clinical_review": false,
+      "publish": false,
+      "automation_allowed": false
+    },
+    {
+      "id": "I1-B02-019",
+      "source": "https://pubmed.ncbi.nlm.nih.gov/30161206/",
+      "sources": [
+        "https://pubmed.ncbi.nlm.nih.gov/30161206/"
+      ],
+      "cohort_family": "Vietnam preconception cohort candidate",
+      "findings": "Maternal height, weight, BMI and child growth examined prospectively.",
+      "methodological_limitations": "Observational design; exact overlap with PRECONCEPT pending.",
+      "funding": "Publication-specific funding, product supply, COI and sponsor role unresolved.",
+      "integrity": "Correction/retraction search incomplete; no clearance inferred.",
+      "article_applicability": "Research context only; all clinical and publication holds retained. No self-directed treatment, dosing, or safety guarantee.",
+      "scope": "Partial original publication indexed metadata/abstract or selected publisher/registry excerpts; no formal appraisal.",
+      "clinical_review": false,
+      "publish": false,
+      "automation_allowed": false
+    },
+    {
+      "id": "I1-B02-020",
+      "source": "https://pubmed.ncbi.nlm.nih.gov/28623904/",
+      "sources": [
+        "https://pubmed.ncbi.nlm.nih.gov/28623904/"
+      ],
+      "cohort_family": "PRECONCEPT",
+      "findings": "Mental health secondary analysis of 5011 women randomized before conception; 1813 conceived.",
+      "methodological_limitations": "Selection into pregnancy and multiple timepoints; no mood treatment recommendation.",
+      "funding": "Publication-specific funding, product supply, COI and sponsor role unresolved.",
+      "integrity": "Correction/retraction search incomplete; no clearance inferred.",
+      "article_applicability": "Research context only; all clinical and publication holds retained. No self-directed treatment, dosing, or safety guarantee.",
+      "scope": "Partial original publication indexed metadata/abstract or selected publisher/registry excerpts; no formal appraisal.",
+      "clinical_review": false,
+      "publish": false,
+      "automation_allowed": false
+    },
+    {
+      "id": "I1-B02-021",
+      "source": "https://pubmed.ncbi.nlm.nih.gov/33693757/",
+      "sources": [
+        "https://pubmed.ncbi.nlm.nih.gov/33693757/"
+      ],
+      "cohort_family": "PRECONCEPT",
+      "findings": "Body size and child growth at 6–7 years follow-up; positive associations.",
+      "methodological_limitations": "Associational analysis, not randomized anthropometric exposure.",
+      "funding": "Publication-specific funding, product supply, COI and sponsor role unresolved.",
+      "integrity": "Correction/retraction search incomplete; no clearance inferred.",
+      "article_applicability": "Research context only; all clinical and publication holds retained. No self-directed treatment, dosing, or safety guarantee.",
+      "scope": "Partial original publication indexed metadata/abstract or selected publisher/registry excerpts; no formal appraisal.",
+      "clinical_review": false,
+      "publish": false,
+      "automation_allowed": false
+    },
+    {
+      "id": "I1-B02-022",
+      "source": "https://pubmed.ncbi.nlm.nih.gov/27918586/",
+      "sources": [
+        "https://pubmed.ncbi.nlm.nih.gov/27918586/"
+      ],
+      "cohort_family": "PRECONCEPT candidate",
+      "findings": "Randomized iron status and anemia analysis.",
+      "methodological_limitations": "Biochemical and clinical anemia outcomes separate; confirm sample.",
+      "funding": "Publication-specific funding, product supply, COI and sponsor role unresolved.",
+      "integrity": "Correction/retraction search incomplete; no clearance inferred.",
+      "article_applicability": "Research context only; all clinical and publication holds retained. No self-directed treatment, dosing, or safety guarantee.",
+      "scope": "Partial original publication indexed metadata/abstract or selected publisher/registry excerpts; no formal appraisal.",
+      "clinical_review": false,
+      "publish": false,
+      "automation_allowed": false
+    },
+    {
+      "id": "I1-B02-023",
+      "source": "https://pubmed.ncbi.nlm.nih.gov/20120792/",
+      "sources": [
+        "https://pubmed.ncbi.nlm.nih.gov/20120792/"
+      ],
+      "cohort_family": "Vietnam prenatal effectiveness",
+      "findings": "District-based MMS effectiveness study reports taller children around two years.",
+      "methodological_limitations": "District allocation and gender training co-intervention; distinct design from PRECONCEPT.",
+      "funding": "Publication-specific funding, product supply, COI and sponsor role unresolved.",
+      "integrity": "Correction/retraction search incomplete; no clearance inferred.",
+      "article_applicability": "Research context only; all clinical and publication holds retained. No self-directed treatment, dosing, or safety guarantee.",
+      "scope": "Partial original publication indexed metadata/abstract or selected publisher/registry excerpts; no formal appraisal.",
+      "clinical_review": false,
+      "publish": false,
+      "automation_allowed": false
+    },
+    {
+      "id": "I1-B02-024",
+      "source": "https://pubmed.ncbi.nlm.nih.gov/27281806/",
+      "sources": [
+        "https://pubmed.ncbi.nlm.nih.gov/27281806/",
+        "https://pmc.ncbi.nlm.nih.gov/articles/PMC3533960/"
+      ],
+      "cohort_family": "PRECONCEPT",
+      "findings": "5011 enrolled, 1813 conceived; no effect on birth size or gestational age versus folic acid alone.",
+      "methodological_limitations": "All arms received prenatal IFA; contrast is preconception regimen.",
+      "funding": "Parent protocol reports Mathile Institute for Advancement of Human Nutrition and Micronutrient Initiative; publication-specific COI/sponsor role pending.",
+      "integrity": "Correction/retraction search incomplete; no clearance inferred.",
+      "article_applicability": "Research context only; all clinical and publication holds retained. No self-directed treatment, dosing, or safety guarantee.",
+      "scope": "Partial original publication indexed metadata/abstract or selected publisher/registry excerpts; no formal appraisal.",
+      "clinical_review": false,
+      "publish": false,
+      "automation_allowed": false
+    },
+    {
+      "id": "I1-B02-025",
+      "source": "https://pubmed.ncbi.nlm.nih.gov/20715595/",
+      "sources": [
+        "https://pubmed.ncbi.nlm.nih.gov/20715595/"
+      ],
+      "cohort_family": "POSGRAD",
+      "findings": "1094 randomized; no overall differences in gestational age, birth weight, length or head circumference.",
+      "methodological_limitations": "Distinct from Danish fish oil RCT; same cohort as 026–031.",
+      "funding": "Publication-specific funding, product supply, COI and sponsor role unresolved.",
+      "integrity": "Correction/retraction search incomplete; no clearance inferred.",
+      "article_applicability": "Research context only; all clinical and publication holds retained. No self-directed treatment, dosing, or safety guarantee.",
+      "scope": "Partial original publication indexed metadata/abstract or selected publisher/registry excerpts; no formal appraisal.",
+      "clinical_review": false,
+      "publish": false,
+      "automation_allowed": false
+    },
+    {
+      "id": "I1-B02-026",
+      "source": "https://pubmed.ncbi.nlm.nih.gov/27604770/",
+      "sources": [
+        "https://pubmed.ncbi.nlm.nih.gov/27604770/",
+        "https://pmc.ncbi.nlm.nih.gov/articles/PMC5039806/"
+      ],
+      "cohort_family": "POSGRAD",
+      "findings": "Five-year attention report; 797 followed; same 1094 randomized cohort.",
+      "methodological_limitations": "Selective domain, attrition; no general IQ claim.",
+      "funding": "Algal DHA produced by Martek Biosciences and distributed by Mead Johnson as reported in methods; funding, supply terms and sponsor role pending.",
+      "integrity": "Correction/retraction search incomplete; no clearance inferred.",
+      "article_applicability": "Research context only; all clinical and publication holds retained. No self-directed treatment, dosing, or safety guarantee.",
+      "scope": "Partial original publication indexed metadata/abstract or selected publisher/registry excerpts; no formal appraisal.",
+      "clinical_review": false,
+      "publish": false,
+      "automation_allowed": false
+    },
+    {
+      "id": "I1-B02-027",
+      "source": "https://pubmed.ncbi.nlm.nih.gov/21807696/",
+      "sources": [
+        "https://pubmed.ncbi.nlm.nih.gov/21807696/"
+      ],
+      "cohort_family": "POSGRAD",
+      "findings": "Infant morbidity: fewer colds at one month; symptom duration varied by age.",
+      "methodological_limitations": "Reported symptoms and multiple outcomes; no blanket infection prevention claim.",
+      "funding": "Publication-specific funding, product supply, COI and sponsor role unresolved.",
+      "integrity": "Correction/retraction search incomplete; no clearance inferred.",
+      "article_applicability": "Research context only; all clinical and publication holds retained. No self-directed treatment, dosing, or safety guarantee.",
+      "scope": "Partial original publication indexed metadata/abstract or selected publisher/registry excerpts; no formal appraisal.",
+      "clinical_review": false,
+      "publish": false,
+      "automation_allowed": false
+    },
+    {
+      "id": "I1-B02-028",
+      "source": "https://pubmed.ncbi.nlm.nih.gov/34543890/",
+      "sources": [
+        "https://pubmed.ncbi.nlm.nih.gov/34543890/"
+      ],
+      "cohort_family": "POSGRAD",
+      "findings": "Post-hoc FADS2 genotype interaction analysis at age five, NCT00646360.",
+      "methodological_limitations": "Exploratory interaction; not basis for genetic testing or personalized dose.",
+      "funding": "Publication-specific funding, product supply, COI and sponsor role unresolved.",
+      "integrity": "Correction/retraction search incomplete; no clearance inferred.",
+      "article_applicability": "Research context only; all clinical and publication holds retained. No self-directed treatment, dosing, or safety guarantee.",
+      "scope": "Partial original publication indexed metadata/abstract or selected publisher/registry excerpts; no formal appraisal.",
+      "clinical_review": false,
+      "publish": false,
+      "automation_allowed": false
+    },
+    {
+      "id": "I1-B02-029",
+      "source": "https://pubmed.ncbi.nlm.nih.gov/26262896/",
+      "sources": [
+        "https://pubmed.ncbi.nlm.nih.gov/26262896/"
+      ],
+      "cohort_family": "POSGRAD",
+      "findings": "At 18 months, 730 followed (75% birth cohort); psychomotor, mental and behavior score intervals include zero.",
+      "methodological_limitations": "Contrasts with later attention-specific result; attrition.",
+      "funding": "Publication-specific funding, product supply, COI and sponsor role unresolved.",
+      "integrity": "Correction/retraction search incomplete; no clearance inferred.",
+      "article_applicability": "Research context only; all clinical and publication holds retained. No self-directed treatment, dosing, or safety guarantee.",
+      "scope": "Partial original publication indexed metadata/abstract or selected publisher/registry excerpts; no formal appraisal.",
+      "clinical_review": false,
+      "publish": false,
+      "automation_allowed": false
+    },
+    {
+      "id": "I1-B02-030",
+      "source": "https://pubmed.ncbi.nlm.nih.gov/36074245/",
+      "sources": [
+        "https://pubmed.ncbi.nlm.nih.gov/36074245/"
+      ],
+      "cohort_family": "POSGRAD",
+      "findings": "Arsenic exposure and atopic dermatitis analysis within Mexico trial.",
+      "methodological_limitations": "Environmental exposure not randomized; interaction/confounding and outcome definition need review.",
+      "funding": "Publication-specific funding, product supply, COI and sponsor role unresolved.",
+      "integrity": "Correction/retraction search incomplete; no clearance inferred.",
+      "article_applicability": "Research context only; all clinical and publication holds retained. No self-directed treatment, dosing, or safety guarantee.",
+      "scope": "Partial original publication indexed metadata/abstract or selected publisher/registry excerpts; no formal appraisal.",
+      "clinical_review": false,
+      "publish": false,
+      "automation_allowed": false
+    },
+    {
+      "id": "I1-B02-031",
+      "source": "https://pubmed.ncbi.nlm.nih.gov/25926416/",
+      "sources": [
+        "https://pubmed.ncbi.nlm.nih.gov/25926416/"
+      ],
+      "cohort_family": "POSGRAD",
+      "findings": "802 children; no growth effect through age 60 months.",
+      "methodological_limitations": "Same parent trial; growth outcomes not attention outcomes.",
+      "funding": "Publication-specific funding, product supply, COI and sponsor role unresolved.",
+      "integrity": "Correction/retraction search incomplete; no clearance inferred.",
+      "article_applicability": "Research context only; all clinical and publication holds retained. No self-directed treatment, dosing, or safety guarantee.",
+      "scope": "Partial original publication indexed metadata/abstract or selected publisher/registry excerpts; no formal appraisal.",
+      "clinical_review": false,
+      "publish": false,
+      "automation_allowed": false
+    },
+    {
+      "id": "I1-B04-001",
+      "source": "https://pubmed.ncbi.nlm.nih.gov/34218184/",
+      "sources": [
+        "https://pubmed.ncbi.nlm.nih.gov/34218184/"
+      ],
+      "cohort_family": "UGAAR",
+      "findings": "Child BMI at two years; 540 women in randomized filtration trial.",
+      "methodological_limitations": "Secondary outcomes; no independent replication.",
+      "funding": "Publication-specific funding, product supply, COI and sponsor role unresolved.",
+      "integrity": "Correction/retraction search incomplete; no clearance inferred.",
+      "article_applicability": "Research context only; all clinical and publication holds retained. No self-directed treatment, dosing, or safety guarantee.",
+      "scope": "Partial original publication indexed metadata/abstract or selected publisher/registry excerpts; no formal appraisal.",
+      "clinical_review": false,
+      "publish": false,
+      "automation_allowed": false
+    },
+    {
+      "id": "I1-B04-002",
+      "source": "https://pubmed.ncbi.nlm.nih.gov/36007302/",
+      "sources": [
+        "https://pubmed.ncbi.nlm.nih.gov/36007302/"
+      ],
+      "cohort_family": "UGAAR",
+      "findings": "Little impact on mean autism-related behavior scores at four years.",
+      "methodological_limitations": "Behavior scores not diagnoses; no autism prevention claim.",
+      "funding": "Publication-specific funding, product supply, COI and sponsor role unresolved.",
+      "integrity": "Correction/retraction search incomplete; no clearance inferred.",
+      "article_applicability": "Research context only; all clinical and publication holds retained. No self-directed treatment, dosing, or safety guarantee.",
+      "scope": "Partial original publication indexed metadata/abstract or selected publisher/registry excerpts; no formal appraisal.",
+      "clinical_review": false,
+      "publish": false,
+      "automation_allowed": false
+    },
+    {
+      "id": "I1-B04-003",
+      "source": "https://pubmed.ncbi.nlm.nih.gov/29751442/",
+      "sources": [
+        "https://pubmed.ncbi.nlm.nih.gov/29751442/"
+      ],
+      "cohort_family": "UGAAR",
+      "findings": "Randomized air cleaner effectiveness study with indoor PM and secondhand smoke exposure measures.",
+      "methodological_limitations": "Exposure endpoints separate from health outcomes.",
+      "funding": "Publication-specific funding, product supply, COI and sponsor role unresolved.",
+      "integrity": "Correction/retraction search incomplete; no clearance inferred.",
+      "article_applicability": "Research context only; all clinical and publication holds retained. No self-directed treatment, dosing, or safety guarantee.",
+      "scope": "Partial original publication indexed metadata/abstract or selected publisher/registry excerpts; no formal appraisal.",
+      "clinical_review": false,
+      "publish": false,
+      "automation_allowed": false
+    },
+    {
+      "id": "I1-B04-004",
+      "source": "https://pubmed.ncbi.nlm.nih.gov/37121346/",
+      "sources": [
+        "https://pubmed.ncbi.nlm.nih.gov/37121346/"
+      ],
+      "cohort_family": "UGAAR",
+      "findings": "Cognitive effect-modifier analysis; vitamin-use interaction p=0.07, CI includes zero.",
+      "methodological_limitations": "Exploratory interaction; no advice to stop vitamins.",
+      "funding": "Publication-specific funding, product supply, COI and sponsor role unresolved.",
+      "integrity": "Correction/retraction search incomplete; no clearance inferred.",
+      "article_applicability": "Research context only; all clinical and publication holds retained. No self-directed treatment, dosing, or safety guarantee.",
+      "scope": "Partial original publication indexed metadata/abstract or selected publisher/registry excerpts; no formal appraisal.",
+      "clinical_review": false,
+      "publish": false,
+      "automation_allowed": false
+    },
+    {
+      "id": "I1-B04-005",
+      "source": "https://pubmed.ncbi.nlm.nih.gov/34225757/",
+      "sources": [
+        "https://pubmed.ncbi.nlm.nih.gov/34225757/"
+      ],
+      "cohort_family": "UGAAR",
+      "findings": "Child behavior secondary analysis, caregiver-report outcomes.",
+      "methodological_limitations": "Potential reporting bias and shared 540-woman cohort.",
+      "funding": "Publication-specific funding, product supply, COI and sponsor role unresolved.",
+      "integrity": "Correction/retraction search incomplete; no clearance inferred.",
+      "article_applicability": "Research context only; all clinical and publication holds retained. No self-directed treatment, dosing, or safety guarantee.",
+      "scope": "Partial original publication indexed metadata/abstract or selected publisher/registry excerpts; no formal appraisal.",
+      "clinical_review": false,
+      "publish": false,
+      "automation_allowed": false
+    },
+    {
+      "id": "I1-B04-006",
+      "source": "https://pubmed.ncbi.nlm.nih.gov/42431301/",
+      "sources": [
+        "https://pubmed.ncbi.nlm.nih.gov/42431301/"
+      ],
+      "cohort_family": "UGAAR",
+      "findings": "Observational exposure–cognition analysis in 475 dyads.",
+      "methodological_limitations": "Measured exposure not randomized; residual confounding and selection.",
+      "funding": "Publication-specific funding, product supply, COI and sponsor role unresolved.",
+      "integrity": "Correction/retraction search incomplete; no clearance inferred.",
+      "article_applicability": "Research context only; all clinical and publication holds retained. No self-directed treatment, dosing, or safety guarantee.",
+      "scope": "Partial original publication indexed metadata/abstract or selected publisher/registry excerpts; no formal appraisal.",
+      "clinical_review": false,
+      "publish": false,
+      "automation_allowed": false
+    },
+    {
+      "id": "I1-B04-007",
+      "source": "https://pubmed.ncbi.nlm.nih.gov/36530934/",
+      "sources": [
+        "https://pubmed.ncbi.nlm.nih.gov/36530934/"
+      ],
+      "cohort_family": "UGAAR",
+      "findings": "Sensitivity analysis of live-birth selection bias.",
+      "methodological_limitations": "Methodology only; no direct intervention efficacy inference.",
+      "funding": "Publication-specific funding, product supply, COI and sponsor role unresolved.",
+      "integrity": "Correction/retraction search incomplete; no clearance inferred.",
+      "article_applicability": "Research context only; all clinical and publication holds retained. No self-directed treatment, dosing, or safety guarantee.",
+      "scope": "Partial original publication indexed metadata/abstract or selected publisher/registry excerpts; no formal appraisal.",
+      "clinical_review": false,
+      "publish": false,
+      "automation_allowed": false
+    },
+    {
+      "id": "I1-B04-008",
+      "source": "https://pubmed.ncbi.nlm.nih.gov/38169488/",
+      "sources": [
+        "https://pubmed.ncbi.nlm.nih.gov/38169488/",
+        "https://www.nejm.org/doi/full/10.1056/NEJMoa2305681"
+      ],
+      "cohort_family": "HAPIN",
+      "findings": "Severe infant pneumonia randomized endpoint, NCT02944682.",
+      "methodological_limitations": "Free fuel and unvented stove package; no independent cohort.",
+      "funding": "NIH and Bill & Melinda Gates Foundation reported; commercial supply and sponsor roles pending.",
+      "integrity": "Correction/retraction search incomplete; no clearance inferred.",
+      "article_applicability": "Research context only; all clinical and publication holds retained. No self-directed treatment, dosing, or safety guarantee.",
+      "scope": "Partial original publication indexed metadata/abstract or selected publisher/registry excerpts; no formal appraisal.",
+      "clinical_review": false,
+      "publish": false,
+      "automation_allowed": false
+    },
+    {
+      "id": "I1-B04-009",
+      "source": "https://pubmed.ncbi.nlm.nih.gov/37413928/",
+      "sources": [
+        "https://pubmed.ncbi.nlm.nih.gov/37413928/"
+      ],
+      "cohort_family": "HAPIN",
+      "findings": "Adverse maternal outcome analysis: wide confidence intervals for rare outcomes, including hemorrhage and hypertensive disorders.",
+      "methodological_limitations": "Not proof of safety or benefit for rare outcomes; no self-management guidance.",
+      "funding": "Publication-specific funding, product supply, COI and sponsor role unresolved.",
+      "integrity": "Correction/retraction search incomplete; no clearance inferred.",
+      "article_applicability": "Research context only; all clinical and publication holds retained. No self-directed treatment, dosing, or safety guarantee.",
+      "scope": "Partial original publication indexed metadata/abstract or selected publisher/registry excerpts; no formal appraisal.",
+      "clinical_review": false,
+      "publish": false,
+      "automation_allowed": false
+    },
+    {
+      "id": "I1-B04-010",
+      "source": "https://pubmed.ncbi.nlm.nih.gov/38614630/",
+      "sources": [
+        "https://pubmed.ncbi.nlm.nih.gov/38614630/",
+        "https://pmc.ncbi.nlm.nih.gov/articles/PMC11168937/"
+      ],
+      "cohort_family": "HAPIN",
+      "findings": "Fetal growth trial did not support unvented LPG as strategy to increase fetal growth.",
+      "methodological_limitations": "Published correction to figure 4 exposure-response CI at 33 weeks; hold numeric figure reuse until corrected source reconciled.",
+      "funding": "Publication-specific funding, product supply, COI and sponsor role unresolved.",
+      "integrity": "Correction located: corrected 98.75% CI -0.10 to -0.01 for 33-week exposure-response figure 4. Other integrity checks pending.",
+      "article_applicability": "Research context only; all clinical and publication holds retained. No self-directed treatment, dosing, or safety guarantee.",
+      "scope": "Partial original publication indexed metadata/abstract or selected publisher/registry excerpts; no formal appraisal.",
+      "clinical_review": false,
+      "publish": false,
+      "automation_allowed": false
+    },
+    {
+      "id": "I1-B04-011",
+      "source": "https://pubmed.ncbi.nlm.nih.gov/42241937/",
+      "sources": [
+        "https://pubmed.ncbi.nlm.nih.gov/42241937/"
+      ],
+      "cohort_family": "HAPIN",
+      "findings": "No effect on early child development at 12 months; caregiver-reported developmental instrument.",
+      "methodological_limitations": "Sex and timing subgroups exploratory; no general cognitive effect.",
+      "funding": "Publication-specific funding, product supply, COI and sponsor role unresolved.",
+      "integrity": "Correction/retraction search incomplete; no clearance inferred.",
+      "article_applicability": "Research context only; all clinical and publication holds retained. No self-directed treatment, dosing, or safety guarantee.",
+      "scope": "Partial original publication indexed metadata/abstract or selected publisher/registry excerpts; no formal appraisal.",
+      "clinical_review": false,
+      "publish": false,
+      "automation_allowed": false
+    },
+    {
+      "id": "I1-B04-012",
+      "source": "https://pubmed.ncbi.nlm.nih.gov/42270650/",
+      "sources": [
+        "https://pubmed.ncbi.nlm.nih.gov/42270650/",
+        "https://www.nature.com/articles/s41467-026-74114-9"
+      ],
+      "cohort_family": "HAPIN",
+      "findings": "Prespecified exploratory hemoglobin analysis reports positive effect.",
+      "methodological_limitations": "Hemoglobin not equivalent to proven prevention of anemia complications.",
+      "funding": "Publication-specific funding, product supply, COI and sponsor role unresolved.",
+      "integrity": "Correction/retraction search incomplete; no clearance inferred.",
+      "article_applicability": "Research context only; all clinical and publication holds retained. No self-directed treatment, dosing, or safety guarantee.",
+      "scope": "Partial original publication indexed metadata/abstract or selected publisher/registry excerpts; no formal appraisal.",
+      "clinical_review": false,
+      "publish": false,
+      "automation_allowed": false
+    },
+    {
+      "id": "I1-B04-013",
+      "source": "https://pubmed.ncbi.nlm.nih.gov/37164515/",
+      "sources": [
+        "https://pubmed.ncbi.nlm.nih.gov/37164515/"
+      ],
+      "cohort_family": "HAPIN",
+      "findings": "Observational exposure-response analysis of pollutants and birthweight in randomized trial population.",
+      "methodological_limitations": "Measured exposure associations are not randomized treatment effects.",
+      "funding": "Publication-specific funding, product supply, COI and sponsor role unresolved.",
+      "integrity": "Correction/retraction search incomplete; no clearance inferred.",
+      "article_applicability": "Research context only; all clinical and publication holds retained. No self-directed treatment, dosing, or safety guarantee.",
+      "scope": "Partial original publication indexed metadata/abstract or selected publisher/registry excerpts; no formal appraisal.",
+      "clinical_review": false,
+      "publish": false,
+      "automation_allowed": false
+    },
+    {
+      "id": "I1-B04-014",
+      "source": "https://pubmed.ncbi.nlm.nih.gov/37660633/",
+      "sources": [
+        "https://pubmed.ncbi.nlm.nih.gov/37660633/",
+        "https://pubmed.ncbi.nlm.nih.gov/37425899/"
+      ],
+      "cohort_family": "HAPIN",
+      "findings": "Indexed adherence/fidelity report; another PMID 37425899 points to same title.",
+      "methodological_limitations": "Identity/version relationship unresolved; hold independent count and numeric reuse until reconciled.",
+      "funding": "Publication-specific funding, product supply, COI and sponsor role unresolved.",
+      "integrity": "Same-title alternate PMID requires version reconciliation; no independent count.",
+      "article_applicability": "Research context only; all clinical and publication holds retained. No self-directed treatment, dosing, or safety guarantee.",
+      "scope": "Partial original publication indexed metadata/abstract or selected publisher/registry excerpts; no formal appraisal.",
+      "clinical_review": false,
+      "publish": false,
+      "automation_allowed": false
+    },
+    {
+      "id": "I1-B04-015",
+      "source": "https://pubmed.ncbi.nlm.nih.gov/41474812/",
+      "sources": [
+        "https://pubmed.ncbi.nlm.nih.gov/41474812/",
+        "https://pubmed.ncbi.nlm.nih.gov/40502604/"
+      ],
+      "cohort_family": "HAPIN",
+      "findings": "Linear growth trajectories through 12 months; 2802 children in models.",
+      "methodological_limitations": "Another PMID 40502604 has same title; version relationship unresolved; no independent count.",
+      "funding": "Publication-specific funding, product supply, COI and sponsor role unresolved.",
+      "integrity": "Same-title alternate PMID requires version reconciliation; no independent count.",
+      "article_applicability": "Research context only; all clinical and publication holds retained. No self-directed treatment, dosing, or safety guarantee.",
+      "scope": "Partial original publication indexed metadata/abstract or selected publisher/registry excerpts; no formal appraisal.",
+      "clinical_review": false,
+      "publish": false,
+      "automation_allowed": false
+    },
+    {
+      "id": "I1-B04-016",
+      "source": "https://pubmed.ncbi.nlm.nih.gov/39729872/",
+      "sources": [
+        "https://pubmed.ncbi.nlm.nih.gov/39729872/"
+      ],
+      "cohort_family": "HAPIN",
+      "findings": "Head circumference and length at birth; same 3200-woman open-label trial.",
+      "methodological_limitations": "Endpoint-specific analysis; no new cohort or universal stove recommendation.",
+      "funding": "Publication-specific funding, product supply, COI and sponsor role unresolved.",
+      "integrity": "Correction/retraction search incomplete; no clearance inferred.",
+      "article_applicability": "Research context only; all clinical and publication holds retained. No self-directed treatment, dosing, or safety guarantee.",
+      "scope": "Partial original publication indexed metadata/abstract or selected publisher/registry excerpts; no formal appraisal.",
+      "clinical_review": false,
+      "publish": false,
+      "automation_allowed": false
+    },
+    {
+      "id": "I1-B04-017",
+      "source": "https://pubmed.ncbi.nlm.nih.gov/42396264/",
+      "sources": [
+        "https://pubmed.ncbi.nlm.nih.gov/42396264/"
+      ],
+      "cohort_family": "HAPIN candidate",
+      "findings": "Food insecurity and dietary diversity intervention study in four settings, free LPG fuel.",
+      "methodological_limitations": "Bundled economic and exposure intervention; verify trial linkage and outcomes.",
+      "funding": "Publication-specific funding, product supply, COI and sponsor role unresolved.",
+      "integrity": "Correction/retraction search incomplete; no clearance inferred.",
+      "article_applicability": "Research context only; all clinical and publication holds retained. No self-directed treatment, dosing, or safety guarantee.",
+      "scope": "Partial original publication indexed metadata/abstract or selected publisher/registry excerpts; no formal appraisal.",
+      "clinical_review": false,
+      "publish": false,
+      "automation_allowed": false
+    }
+  ],
+  "clinical_review": false,
+  "publish": false,
+  "automation_allowed": false
+}
