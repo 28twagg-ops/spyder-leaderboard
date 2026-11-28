@@ -1,0 +1,507 @@
+{
+  "stage": 7,
+  "batch": "10",
+  "date": "2026-11-27",
+  "scope": "Remaining 37 Stage 5 counted publication identities located; partial original-source verification, not full appraisal. No clearance.",
+  "counted_ids": [
+    "CS5-003",
+    "CS5-026",
+    "CS5-028",
+    "CS5-029",
+    "CS5-030",
+    "CS5-031",
+    "CS5-033",
+    "CS5-035",
+    "CS5-036",
+    "CS5-037",
+    "CS5-041",
+    "CS5-043",
+    "CS5-044",
+    "CS5-045",
+    "CS5-046",
+    "CS5-047",
+    "CS5-048",
+    "CS5-049",
+    "CS5-051",
+    "CS5-052",
+    "CS5-053",
+    "CS5-054",
+    "CS5-055",
+    "CS5-060",
+    "CS5-064",
+    "CS5-066",
+    "CS5-068",
+    "CS5-070",
+    "CS5-071",
+    "CS5-072",
+    "CS5-074",
+    "CS5-075",
+    "CS5-077",
+    "CS5-079",
+    "CS5-080",
+    "CS5-081",
+    "CS5-083"
+  ],
+  "checks": [
+    {
+      "id": "CS5-003",
+      "pmid": "27225316",
+      "sources": [
+        "https://pubmed.ncbi.nlm.nih.gov/27225316/",
+        "https://pmc.ncbi.nlm.nih.gov/articles/PMC6003086/"
+      ],
+      "findings": "DOMInO allergy subgroup (706 children) six-year follow-up: no reduction in IgE-associated allergic disease. Same randomized trial family as other DOMInO reports; distinguish allergy outcomes from cognition. Funding for original trial documented separately in longitudinal companion; this article's specific disclosures unresolved.",
+      "scope": "Indexed publication identity checked; selected abstract/disclosure passages as explicitly described. No systematic correction or full risk-of-bias appraisal; unresolved dimensions remain held.",
+      "clinical_review": false,
+      "publish": false,
+      "automation_allowed": false
+    },
+    {
+      "id": "CS5-026",
+      "pmid": "32102827",
+      "sources": [
+        "https://pubmed.ncbi.nlm.nih.gov/32102827/"
+      ],
+      "findings": "Review of reviews and national guidance for manual therapy, probiotics, PPIs and simethicone. Overlap between reviews is likely; not an independent clinical trial. Compare crying, sleep and harms separately; exact estimates, funding and methods pending.",
+      "scope": "Indexed publication identity checked; selected abstract/disclosure passages as explicitly described. No systematic correction or full risk-of-bias appraisal; unresolved dimensions remain held.",
+      "clinical_review": false,
+      "publish": false,
+      "automation_allowed": false
+    },
+    {
+      "id": "CS5-028",
+      "pmid": "33315632",
+      "sources": [
+        "https://pubmed.ncbi.nlm.nih.gov/33315632/"
+      ],
+      "findings": "Systematic review reports favorable crying response in breastfed infants. Feeding population, probiotic strain and comparator must match; do not extrapolate to formula-fed infants or all preparations. Funding and harms unresolved.",
+      "scope": "Indexed publication identity checked; selected abstract/disclosure passages as explicitly described. No systematic correction or full risk-of-bias appraisal; unresolved dimensions remain held.",
+      "clinical_review": false,
+      "publish": false,
+      "automation_allowed": false
+    },
+    {
+      "id": "CS5-029",
+      "pmid": "33294117",
+      "sources": [
+        "https://pubmed.ncbi.nlm.nih.gov/33294117/"
+      ],
+      "findings": "Systematic review/meta-analysis of prenatal vitamin D trials and respiratory outcomes. Indexed abstract establishes scope; quantitative result and disclosures not freshly extracted. Cross-reference VDAART and newer Cochrane; avoid conflating nutritional adequacy with additional supplementation.",
+      "scope": "Indexed publication identity checked; selected abstract/disclosure passages as explicitly described. No systematic correction or full risk-of-bias appraisal; unresolved dimensions remain held.",
+      "clinical_review": false,
+      "publish": false,
+      "automation_allowed": false
+    },
+    {
+      "id": "CS5-030",
+      "pmid": "26840133",
+      "sources": [
+        "https://pubmed.ncbi.nlm.nih.gov/26840133/",
+        "https://pubmed.ncbi.nlm.nih.gov/27332918/"
+      ],
+      "findings": "Double-blind placebo RCT 450 pregnant women with BMI >35 without diabetes. Separate trial from GRoW and EMPOWaR; verify birthweight and secondary outcomes separately. Linked PMID 27332918 correspondence/related record requires adjudication; funding and full harms unresolved.",
+      "scope": "Indexed publication identity checked; selected abstract/disclosure passages as explicitly described. No systematic correction or full risk-of-bias appraisal; unresolved dimensions remain held.",
+      "clinical_review": false,
+      "publish": false,
+      "automation_allowed": false
+    },
+    {
+      "id": "CS5-031",
+      "pmid": "40792481",
+      "sources": [
+        "https://pubmed.ncbi.nlm.nih.gov/40792481/"
+      ],
+      "findings": "Cochrane CD013396: any vitamin D vs no supplementation in pregnant/breastfeeding women may reduce early childhood asthma (one study, 236 participants, low certainty); airway infection RR 1.00 (0.97–1.04), three studies, moderate certainty. Comparators and age windows differ from higher-vs-standard-dose trials. Full membership and funding pending.",
+      "scope": "Indexed publication identity checked; selected abstract/disclosure passages as explicitly described. No systematic correction or full risk-of-bias appraisal; unresolved dimensions remain held.",
+      "clinical_review": false,
+      "publish": false,
+      "automation_allowed": false
+    },
+    {
+      "id": "CS5-033",
+      "pmid": "29439395",
+      "sources": [
+        "https://pubmed.ncbi.nlm.nih.gov/29439395/",
+        "https://pmc.ncbi.nlm.nih.gov/articles/PMC5852771/"
+      ],
+      "findings": "Randomized double-blind Italian study: 53 exclusively breastfed infants completed treatment. Article describes branded multi-strain preparation and University of Bari funding for stool analyses/publication; authors declare no relevant conflicts. Product supply and complete sponsor roles need verification. Crying and microbiota endpoints distinct; small sample cannot exclude rare harm.",
+      "scope": "Indexed publication identity checked; selected abstract/disclosure passages as explicitly described. No systematic correction or full risk-of-bias appraisal; unresolved dimensions remain held.",
+      "clinical_review": false,
+      "publish": false,
+      "automation_allowed": false
+    },
+    {
+      "id": "CS5-035",
+      "pmid": "42371637",
+      "sources": [
+        "https://pubmed.ncbi.nlm.nih.gov/42371637/"
+      ],
+      "findings": "Hong Kong-affiliated sibling-matched study: initial 708,020 dyads, dispensing-based exposure; indexed disclosures include outside-work pharmaceutical grants and consulting and company director roles. Direct follow-up page CAPTCHA; results, full funding and complete sponsor role unresolved. Sibling design reduces shared-family confounding, not exposure misclassification or all non-shared confounding.",
+      "scope": "Indexed publication identity checked; selected abstract/disclosure passages as explicitly described. No systematic correction or full risk-of-bias appraisal; unresolved dimensions remain held.",
+      "clinical_review": false,
+      "publish": false,
+      "automation_allowed": false
+    },
+    {
+      "id": "CS5-036",
+      "pmid": "42773841",
+      "sources": [
+        "https://pubmed.ncbi.nlm.nih.gov/42773841/"
+      ],
+      "findings": "Spain-affiliated umbrella review CRD420251243790, seven meta-analyses. Unrestricted RR 1.17 ASD and 1.29 ADHD attenuated in quality-restricted analyses; substantial primary-study overlap and heterogeneity. Review assessed AMSTAR-2 and ROBINS-E. Does not support robust causality; funding and complete disclosures unresolved.",
+      "scope": "Indexed publication identity checked; selected abstract/disclosure passages as explicitly described. No systematic correction or full risk-of-bias appraisal; unresolved dimensions remain held.",
+      "clinical_review": false,
+      "publish": false,
+      "automation_allowed": false
+    },
+    {
+      "id": "CS5-037",
+      "pmid": "11165579",
+      "sources": [
+        "https://pubmed.ncbi.nlm.nih.gov/11165579/"
+      ],
+      "findings": "Randomized sham-controlled pregnancy nausea acupuncture trial. Indexed objective verified, not complete results. Distinguish nausea from mood and natural symptom improvement; funding and adverse events pending.",
+      "scope": "Indexed publication identity checked; selected abstract/disclosure passages as explicitly described. No systematic correction or full risk-of-bias appraisal; unresolved dimensions remain held.",
+      "clinical_review": false,
+      "publish": false,
+      "automation_allowed": false
+    },
+    {
+      "id": "CS5-041",
+      "pmid": "41207796",
+      "sources": [
+        "https://pubmed.ncbi.nlm.nih.gov/41207796/",
+        "https://www.bmj.com/content/391/bmj-2025-088141"
+      ],
+      "findings": "BMJ umbrella review 10.1136/bmj-2025-088141. Authors rate four overlapping reviews critically low quality, unlike previous umbrella review; same Norwegian cohort had divergent results using different follow-up and outcomes. Sibling control can reduce familial confounding but measurement error may attenuate contrasts. Funding and full appraisal pending.",
+      "scope": "Indexed publication identity checked; selected abstract/disclosure passages as explicitly described. No systematic correction or full risk-of-bias appraisal; unresolved dimensions remain held.",
+      "clinical_review": false,
+      "publish": false,
+      "automation_allowed": false
+    },
+    {
+      "id": "CS5-043",
+      "pmid": "12481955",
+      "sources": [
+        "https://pubmed.ncbi.nlm.nih.gov/12481955/"
+      ],
+      "findings": "Pregnancy outcome companion to Adelaide 593-person trial, same authors, setting and cohort as CS5-045. Not independent replication; rare harms power limited. Full adverse-event denominators and funding pending.",
+      "scope": "Indexed publication identity checked; selected abstract/disclosure passages as explicitly described. No systematic correction or full risk-of-bias appraisal; unresolved dimensions remain held.",
+      "clinical_review": false,
+      "publish": false,
+      "automation_allowed": false
+    },
+    {
+      "id": "CS5-044",
+      "pmid": "40898607",
+      "sources": [
+        "https://pubmed.ncbi.nlm.nih.gov/40898607/"
+      ],
+      "findings": "Japan nationwide birth cohort identity verified. Direct article reopen returned no text; archive reports attenuated associations after bias analyses, not newly verified. Funding, outcome estimates and sensitivity methods unresolved.",
+      "scope": "Indexed publication identity checked; selected abstract/disclosure passages as explicitly described. No systematic correction or full risk-of-bias appraisal; unresolved dimensions remain held.",
+      "clinical_review": false,
+      "publish": false,
+      "automation_allowed": false
+    },
+    {
+      "id": "CS5-045",
+      "pmid": "11843784",
+      "sources": [
+        "https://pubmed.ncbi.nlm.nih.gov/11843784/",
+        "https://pubmed.ncbi.nlm.nih.gov/12594971/"
+      ],
+      "findings": "Adelaide single-blind RCT, 593 women under 14 weeks, traditional acupuncture, P6, sham and no-treatment arms. Authors report nausea/dry-retching benefit; analyze sham contrasts and time effect separately (companion PMID 12594971). Same cohort as CS5-043. Funding and harms extraction pending.",
+      "scope": "Indexed publication identity checked; selected abstract/disclosure passages as explicitly described. No systematic correction or full risk-of-bias appraisal; unresolved dimensions remain held.",
+      "clinical_review": false,
+      "publish": false,
+      "automation_allowed": false
+    },
+    {
+      "id": "CS5-046",
+      "pmid": "29355951",
+      "sources": [
+        "https://pubmed.ncbi.nlm.nih.gov/29355951/"
+      ],
+      "findings": "Outpatient acupuncture evaluation identity verified. Indexed title alone does not establish study-level benefit or safety; review methods, condition-specific outcomes, funding and included studies pending.",
+      "scope": "Indexed publication identity checked; selected abstract/disclosure passages as explicitly described. No systematic correction or full risk-of-bias appraisal; unresolved dimensions remain held.",
+      "clinical_review": false,
+      "publish": false,
+      "automation_allowed": false
+    },
+    {
+      "id": "CS5-047",
+      "pmid": "42500177",
+      "sources": [
+        "https://pubmed.ncbi.nlm.nih.gov/42500177/"
+      ],
+      "findings": "Observational-study synthesis; publication discusses lack of conclusive causal relationship and clinician benefit-risk assessment. Dose-response associations cannot resolve confounding by indication or exposure error. Compare sibling-controlled cohorts; funding and exact estimates pending.",
+      "scope": "Indexed publication identity checked; selected abstract/disclosure passages as explicitly described. No systematic correction or full risk-of-bias appraisal; unresolved dimensions remain held.",
+      "clinical_review": false,
+      "publish": false,
+      "automation_allowed": false
+    },
+    {
+      "id": "CS5-048",
+      "pmid": "38298660",
+      "sources": [
+        "https://pubmed.ncbi.nlm.nih.gov/38298660/",
+        "https://pmc.ncbi.nlm.nih.gov/articles/PMC10828706/"
+      ],
+      "findings": "Review PMC10828706: funding marked not applicable and authors declare no known competing interests. Authors explicitly note possible publication bias, needling adverse events and insufficient trials to assess moxibustion safety. Do not infer safety from no detected severe-event increase; comparator heterogeneity and trial-level funding pending.",
+      "scope": "Indexed publication identity checked; selected abstract/disclosure passages as explicitly described. No systematic correction or full risk-of-bias appraisal; unresolved dimensions remain held.",
+      "clinical_review": false,
+      "publish": false,
+      "automation_allowed": false
+    },
+    {
+      "id": "CS5-049",
+      "pmid": "39214380",
+      "sources": [
+        "https://pubmed.ncbi.nlm.nih.gov/39214380/"
+      ],
+      "findings": "Acupuncture nausea/vomiting meta-analysis identity verified. Archive estimate and high heterogeneity not freshly re-extracted; distinguish adjunct-to-usual-care from sham comparison. Funding, harms and study overlap unresolved.",
+      "scope": "Indexed publication identity checked; selected abstract/disclosure passages as explicitly described. No systematic correction or full risk-of-bias appraisal; unresolved dimensions remain held.",
+      "clinical_review": false,
+      "publish": false,
+      "automation_allowed": false
+    },
+    {
+      "id": "CS5-051",
+      "pmid": "16521674",
+      "sources": [
+        "https://pubmed.ncbi.nlm.nih.gov/16521674/"
+      ],
+      "findings": "Single-blind pelvic pain acupuncture trial identity verified; authors report possible benefit. Archive comparison of stimulation depth not independently re-extracted; active comparator cannot establish sham-controlled effect. Funding and harms pending.",
+      "scope": "Indexed publication identity checked; selected abstract/disclosure passages as explicitly described. No systematic correction or full risk-of-bias appraisal; unresolved dimensions remain held.",
+      "clinical_review": false,
+      "publish": false,
+      "automation_allowed": false
+    },
+    {
+      "id": "CS5-052",
+      "pmid": "20207239",
+      "sources": [
+        "https://pubmed.ncbi.nlm.nih.gov/20207239/"
+      ],
+      "findings": "INTAPP multinational antioxidant prevention trial identity verified; direct PubMed reopen yielded no text. Exact preeclampsia and adverse-event results and sponsor disclosure require original access; compare VIP without counting review and trial independently.",
+      "scope": "Indexed publication identity checked; selected abstract/disclosure passages as explicitly described. No systematic correction or full risk-of-bias appraisal; unresolved dimensions remain held.",
+      "clinical_review": false,
+      "publish": false,
+      "automation_allowed": false
+    },
+    {
+      "id": "CS5-053",
+      "pmid": "40509803",
+      "sources": [
+        "https://pubmed.ncbi.nlm.nih.gov/40509803/"
+      ],
+      "findings": "Chinese network meta-analysis: eight studies, 864 patients, two high risk of bias. Active and sham acupuncture similar for primary pain outcome; secondary remission/QOL differed. Authors declare no potential conflicts; funding unresolved. Check network transitivity, subjective outcomes and multiplicity.",
+      "scope": "Indexed publication identity checked; selected abstract/disclosure passages as explicitly described. No systematic correction or full risk-of-bias appraisal; unresolved dimensions remain held.",
+      "clinical_review": false,
+      "publish": false,
+      "automation_allowed": false
+    },
+    {
+      "id": "CS5-054",
+      "pmid": "14995919",
+      "sources": [
+        "https://pubmed.ncbi.nlm.nih.gov/14995919/"
+      ],
+      "findings": "Swedish RCT 72 participants at three maternity wards, acupuncture vs control. Lack of matched sham and subjective pain outcomes limit causal attribution; exact adverse events and funding pending.",
+      "scope": "Indexed publication identity checked; selected abstract/disclosure passages as explicitly described. No systematic correction or full risk-of-bias appraisal; unresolved dimensions remain held.",
+      "clinical_review": false,
+      "publish": false,
+      "automation_allowed": false
+    },
+    {
+      "id": "CS5-055",
+      "pmid": "26365330",
+      "sources": [
+        "https://pubmed.ncbi.nlm.nih.gov/26365330/"
+      ],
+      "findings": "Iranian randomized trial comparing zinc addition to shared folate/iron supplementation. Indexed methods verified; full results, deficiency stratification and sponsor disclosure pending. No inference against correcting deficiency.",
+      "scope": "Indexed publication identity checked; selected abstract/disclosure passages as explicitly described. No systematic correction or full risk-of-bias appraisal; unresolved dimensions remain held.",
+      "clinical_review": false,
+      "publish": false,
+      "automation_allowed": false
+    },
+    {
+      "id": "CS5-060",
+      "pmid": "21121927",
+      "sources": [
+        "https://pubmed.ncbi.nlm.nih.gov/21121927/"
+      ],
+      "findings": "Prenatal-only LGG eczema prevention RCT identity and selected immunologic results verified. Separate infant eczema endpoint from cord and milk immune markers; exact primary result and funding not newly extracted. Compare maternal-plus-infant trials separately.",
+      "scope": "Indexed publication identity checked; selected abstract/disclosure passages as explicitly described. No systematic correction or full risk-of-bias appraisal; unresolved dimensions remain held.",
+      "clinical_review": false,
+      "publish": false,
+      "automation_allowed": false
+    },
+    {
+      "id": "CS5-064",
+      "pmid": "19691620",
+      "sources": [
+        "https://pubmed.ncbi.nlm.nih.gov/19691620/",
+        "https://www.ncbi.nlm.nih.gov/books/NBK78516/"
+      ],
+      "findings": "2009 chiropractic colic review identity verified, DOI 10.1111/j.1742-1241.2009.02133.x; DARE critical abstract located. Older review overlaps blinded and unblinded trials. Full appraisal and disclosure pending; no manipulation instruction.",
+      "scope": "Indexed publication identity checked; selected abstract/disclosure passages as explicitly described. No systematic correction or full risk-of-bias appraisal; unresolved dimensions remain held.",
+      "clinical_review": false,
+      "publish": false,
+      "automation_allowed": false
+    },
+    {
+      "id": "CS5-066",
+      "pmid": "26044853",
+      "sources": [
+        "https://pubmed.ncbi.nlm.nih.gov/26044853/",
+        "https://pubmed.ncbi.nlm.nih.gov/26329511/"
+      ],
+      "findings": "Review prepared to inform WAO allergy guidelines. Published critique PMID 26329511 challenges pooling different strains. Preserve strain/timing distinctions; funding, review membership and formal bias assessment unresolved.",
+      "scope": "Indexed publication identity checked; selected abstract/disclosure passages as explicitly described. No systematic correction or full risk-of-bias appraisal; unresolved dimensions remain held.",
+      "clinical_review": false,
+      "publish": false,
+      "automation_allowed": false
+    },
+    {
+      "id": "CS5-068",
+      "pmid": "28158597",
+      "sources": [
+        "https://pubmed.ncbi.nlm.nih.gov/28158597/"
+      ],
+      "findings": "Finnish prenatal licorice cohort later childhood follow-up identity verified. Possible same 1998 birth cohort as CS5-072; confirm participants and recruitment before counting independent evidence. Observational self-report confounding; funding and precise effects pending.",
+      "scope": "Indexed publication identity checked; selected abstract/disclosure passages as explicitly described. No systematic correction or full risk-of-bias appraisal; unresolved dimensions remain held.",
+      "clinical_review": false,
+      "publish": false,
+      "automation_allowed": false
+    },
+    {
+      "id": "CS5-070",
+      "pmid": "24947281",
+      "sources": [
+        "https://pubmed.ncbi.nlm.nih.gov/24947281/",
+        "https://pmc.ncbi.nlm.nih.gov/articles/PMC5955897/"
+      ],
+      "findings": "Multistrain probiotic prevention RCT; later electronic-health-record extension PMC5955897 explicitly follows same trial and did not find statistically significant eczema differences. Separate sensitization and eczema and avoid independent cohort count. Full primary trial and disclosures pending.",
+      "scope": "Indexed publication identity checked; selected abstract/disclosure passages as explicitly described. No systematic correction or full risk-of-bias appraisal; unresolved dimensions remain held.",
+      "clinical_review": false,
+      "publish": false,
+      "automation_allowed": false
+    },
+    {
+      "id": "CS5-071",
+      "pmid": "31856928",
+      "sources": [
+        "https://pubmed.ncbi.nlm.nih.gov/31856928/"
+      ],
+      "findings": "Pregnancy probiotic meta-analysis reports favorable atopic eczema RR 0.68 (0.58–0.81) and eczema RR 0.79 (0.68–0.91). Review-level pooling does not establish interchangeable strains or safety for GDM prevention; underlying membership and sponsor disclosures unresolved.",
+      "scope": "Indexed publication identity checked; selected abstract/disclosure passages as explicitly described. No systematic correction or full risk-of-bias appraisal; unresolved dimensions remain held.",
+      "clinical_review": false,
+      "publish": false,
+      "automation_allowed": false
+    },
+    {
+      "id": "CS5-072",
+      "pmid": "19808634",
+      "sources": [
+        "https://pubmed.ncbi.nlm.nih.gov/19808634/"
+      ],
+      "findings": "Finnish observational report: 321 children born 1998, examined at mean age 8.1. Possible overlap with later licorice cohort CS5-068; no causal exposure threshold. Funding and exposure measurement details unresolved.",
+      "scope": "Indexed publication identity checked; selected abstract/disclosure passages as explicitly described. No systematic correction or full risk-of-bias appraisal; unresolved dimensions remain held.",
+      "clinical_review": false,
+      "publish": false,
+      "automation_allowed": false
+    },
+    {
+      "id": "CS5-074",
+      "pmid": "12396997",
+      "sources": [
+        "https://pubmed.ncbi.nlm.nih.gov/12396997/"
+      ],
+      "findings": "Finnish licorice/preterm birth study identity verified. Archive case-control estimates not independently extracted; retrospective exposure and selection bias limit causal interpretation. Funding and safety applicability pending.",
+      "scope": "Indexed publication identity checked; selected abstract/disclosure passages as explicitly described. No systematic correction or full risk-of-bias appraisal; unresolved dimensions remain held.",
+      "clinical_review": false,
+      "publish": false,
+      "automation_allowed": false
+    },
+    {
+      "id": "CS5-075",
+      "pmid": "33227646",
+      "sources": [
+        "https://pubmed.ncbi.nlm.nih.gov/33227646/"
+      ],
+      "findings": "DHA trial language follow-up identity confirmed. Shared DOMInO family; archived no-effect findings at ages four/seven not independently re-extracted in this pass. Verify exploratory interactions, attrition and disclosures.",
+      "scope": "Indexed publication identity checked; selected abstract/disclosure passages as explicitly described. No systematic correction or full risk-of-bias appraisal; unresolved dimensions remain held.",
+      "clinical_review": false,
+      "publish": false,
+      "automation_allowed": false
+    },
+    {
+      "id": "CS5-077",
+      "pmid": "34578873",
+      "sources": [
+        "https://pubmed.ncbi.nlm.nih.gov/34578873/",
+        "https://pmc.ncbi.nlm.nih.gov/articles/PMC8472059/"
+      ],
+      "findings": "DOMInO seven-year behavioral secondary analysis, NHMRC original grant 349301 and follow-up 1048493. Authors acknowledge possible small adverse behavioral effect or chance due to numerous comparisons; parent-reported outcomes and multiplicity matter. Full competing-interest statement inaccessible on repeat open; do not infer causality.",
+      "scope": "Indexed publication identity checked; selected abstract/disclosure passages as explicitly described. No systematic correction or full risk-of-bias appraisal; unresolved dimensions remain held.",
+      "clinical_review": false,
+      "publish": false,
+      "automation_allowed": false
+    },
+    {
+      "id": "CS5-079",
+      "pmid": "23083673",
+      "sources": [
+        "https://pubmed.ncbi.nlm.nih.gov/23083673/",
+        "https://pubmed.ncbi.nlm.nih.gov/23538236/",
+        "https://pubmed.ncbi.nlm.nih.gov/23538235/"
+      ],
+      "findings": "Selected skin-prick-positive allergic mothers, maternal prenatal/postnatal probiotic trial reports reduced eczema. Linked correspondence PMIDs 23538236 and 23538235 require review. Population/strain-specific; no generalized safety or efficacy guarantee. Funding and sponsor role unresolved.",
+      "scope": "Indexed publication identity checked; selected abstract/disclosure passages as explicitly described. No systematic correction or full risk-of-bias appraisal; unresolved dimensions remain held.",
+      "clinical_review": false,
+      "publish": false,
+      "automation_allowed": false
+    },
+    {
+      "id": "CS5-080",
+      "pmid": "29415330",
+      "sources": [
+        "https://pubmed.ncbi.nlm.nih.gov/29415330/"
+      ],
+      "findings": "Maternal-only HN001 trial reports no reduction in infant eczema; earlier maternal-plus-infant regimen differed and reported benefit. Distinct exposure designs; do not treat results as interchangeable. Full funding, harms and membership pending.",
+      "scope": "Indexed publication identity checked; selected abstract/disclosure passages as explicitly described. No systematic correction or full risk-of-bias appraisal; unresolved dimensions remain held.",
+      "clinical_review": false,
+      "publish": false,
+      "automation_allowed": false
+    },
+    {
+      "id": "CS5-081",
+      "pmid": "24522442",
+      "sources": [
+        "https://pubmed.ncbi.nlm.nih.gov/24522442/"
+      ],
+      "findings": "DHA trial early-childhood attention and working-memory follow-up: mostly no differences, isolated task differences in opposing directions. Same trial family candidate; verify cohort and prespecified outcomes, attrition and sponsor disclosures before synthesis.",
+      "scope": "Indexed publication identity checked; selected abstract/disclosure passages as explicitly described. No systematic correction or full risk-of-bias appraisal; unresolved dimensions remain held.",
+      "clinical_review": false,
+      "publish": false,
+      "automation_allowed": false
+    },
+    {
+      "id": "CS5-083",
+      "pmid": "27935767",
+      "sources": [
+        "https://pubmed.ncbi.nlm.nih.gov/27935767/",
+        "https://pmc.ncbi.nlm.nih.gov/articles/PMC5460688/"
+      ],
+      "findings": "DALI healthy eating/activity randomized lifestyle study identity verified, PMC5460688. Direct full text reopen CAPTCHA; archived glycemia/weight results not newly extracted. Compare intervention arms and outcomes separately; funding and sponsor roles pending.",
+      "scope": "Indexed publication identity checked; selected abstract/disclosure passages as explicitly described. No systematic correction or full risk-of-bias appraisal; unresolved dimensions remain held.",
+      "clinical_review": false,
+      "publish": false,
+      "automation_allowed": false
+    }
+  ],
+  "clinical_review": false,
+  "publish": false,
+  "automation_allowed": false
+}
