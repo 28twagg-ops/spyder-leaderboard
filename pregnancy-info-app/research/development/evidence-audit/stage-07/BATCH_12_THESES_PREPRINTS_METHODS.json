@@ -1,0 +1,756 @@
+{
+  "stage": 7,
+  "batch": "12",
+  "date": "2026-11-27",
+  "scope": "49 remaining underpublished records individually checked at repository metadata/abstract level; explicit funding, cohort, date, methods and access restrictions where available. Partial external review only.",
+  "counted_ids": [
+    "UP4-002",
+    "UP4-003",
+    "UP4-004",
+    "UP4-005",
+    "UP4-006",
+    "UP4-007",
+    "UP4-008",
+    "UP4-009",
+    "UP4-010",
+    "UP4-011",
+    "UP4-012",
+    "UP4-013",
+    "UP4-014",
+    "UP4-015",
+    "UP4-016",
+    "UP4-017",
+    "UP4-018",
+    "UP4-019",
+    "UP4-020",
+    "UP4-021",
+    "UP4-022",
+    "UP4-023",
+    "UP4-024",
+    "UP4-025",
+    "UP4-026",
+    "UP4-027",
+    "UP4-028",
+    "UP4-029",
+    "UP4-030",
+    "UP4-031",
+    "UP4-032",
+    "UP4-033",
+    "UP4-034",
+    "UP4-035",
+    "UP4-036",
+    "UP4-037",
+    "UP4-038",
+    "UP4-039",
+    "UP4-040",
+    "UP4-041",
+    "UP4-042",
+    "UP4-069",
+    "UP4-070",
+    "UP4-071",
+    "UP4-072",
+    "UP4-073",
+    "UP4-074",
+    "UP4-075",
+    "UP4-076"
+  ],
+  "checks": [
+    {
+      "id": "UP4-002",
+      "type": "thesis",
+      "source": "https://etheses.whiterose.ac.uk/id/eprint/36594/",
+      "sources": [
+        "https://etheses.whiterose.ac.uk/id/eprint/36594/"
+      ],
+      "findings": "University of York 2024 Xiao Ge PhD; title and author verified on repository. Commercialization of postpartum confinement, cultural/gender context rather than treatment effectiveness. Funding, interview methods, commercial relationships and clinical safety not reviewed.",
+      "scope": "Original repository HTML/abstract or indexed original-source excerpt; exact access and evidence limitations noted. Full thesis PDFs not reviewed. No systematic integrity appraisal or original complete funding extraction.",
+      "clinical_review": false,
+      "publish": false,
+      "automation_allowed": false
+    },
+    {
+      "id": "UP4-003",
+      "type": "thesis",
+      "source": "https://etheses.whiterose.ac.uk/id/eprint/31842/",
+      "sources": [
+        "https://etheses.whiterose.ac.uk/id/eprint/31842/"
+      ],
+      "findings": "University of York historical thesis on childhood sleep in England/Scotland 1650–1830. Repository abstract confirms documentary analysis, including historical medical advice. Historical practice is not current clinical safety evidence; no sleep instruction from this source.",
+      "scope": "Original repository HTML/abstract or indexed original-source excerpt; exact access and evidence limitations noted. Full thesis PDFs not reviewed. No systematic integrity appraisal or original complete funding extraction.",
+      "clinical_review": false,
+      "publish": false,
+      "automation_allowed": false
+    },
+    {
+      "id": "UP4-004",
+      "type": "thesis",
+      "source": "https://etheses.whiterose.ac.uk/id/eprint/17030/",
+      "sources": [
+        "https://etheses.whiterose.ac.uk/id/eprint/17030/"
+      ],
+      "findings": "Nora Obid Alafif, Leeds 2016 PhD. Repository abstract indicates mixed sources and inadequate coverage of pregnancy sleep by existing self-report tools. Shared datasets and publication overlap require verification. Repository states CC BY-NC-SA 2.5; commercial reuse not approved.",
+      "scope": "Original repository HTML/abstract or indexed original-source excerpt; exact access and evidence limitations noted. Full thesis PDFs not reviewed. No systematic integrity appraisal or original complete funding extraction.",
+      "clinical_review": false,
+      "publish": false,
+      "automation_allowed": false
+    },
+    {
+      "id": "UP4-005",
+      "type": "thesis",
+      "source": "https://etheses.whiterose.ac.uk/id/eprint/38736/",
+      "sources": [
+        "https://etheses.whiterose.ac.uk/id/eprint/38736/"
+      ],
+      "findings": "Repository abstract confirms three studies: intervention review with inconsistent child-weight/eating outcomes despite improved self-reported responsive feeding; adult video-cue study N=198 and caregiver association study N=445. Self-report/association limitations; not evidence for a reliable baby translator.",
+      "scope": "Original repository HTML/abstract or indexed original-source excerpt; exact access and evidence limitations noted. Full thesis PDFs not reviewed. No systematic integrity appraisal or original complete funding extraction.",
+      "clinical_review": false,
+      "publish": false,
+      "automation_allowed": false
+    },
+    {
+      "id": "UP4-006",
+      "type": "thesis",
+      "source": "https://etheses.whiterose.ac.uk/id/eprint/39409/",
+      "sources": [
+        "https://etheses.whiterose.ac.uk/id/eprint/39409/"
+      ],
+      "findings": "York 2026 PhD on antenatal body experience, measurement validation, meta-analysis and cohort comparison. Full thesis embargoed until 2027-09-22; abstract only. No claims of treatment or appearance benefit. Funding and methods unresolved.",
+      "scope": "Original repository HTML/abstract or indexed original-source excerpt; exact access and evidence limitations noted. Full thesis PDFs not reviewed. No systematic integrity appraisal or original complete funding extraction.",
+      "clinical_review": false,
+      "publish": false,
+      "automation_allowed": false
+    },
+    {
+      "id": "UP4-007",
+      "type": "thesis",
+      "source": "https://etheses.whiterose.ac.uk/id/eprint/22131/",
+      "sources": [
+        "https://etheses.whiterose.ac.uk/id/eprint/22131/"
+      ],
+      "findings": "Leeds thesis: review, observation of 20 mother-infant dyads, interviews with 11 of these mothers and acceptability assessment by 23 parents/professionals. Shared participants; resource acceptability is not infant clinical efficacy. Funding unresolved.",
+      "scope": "Original repository HTML/abstract or indexed original-source excerpt; exact access and evidence limitations noted. Full thesis PDFs not reviewed. No systematic integrity appraisal or original complete funding extraction.",
+      "clinical_review": false,
+      "publish": false,
+      "automation_allowed": false
+    },
+    {
+      "id": "UP4-008",
+      "type": "thesis",
+      "source": "https://etheses.whiterose.ac.uk/id/eprint/4117/",
+      "sources": [
+        "https://etheses.whiterose.ac.uk/id/eprint/4117/"
+      ],
+      "findings": "Sheffield repository metadata verifies thesis, postnatal sleep, sleep beliefs, mood and attachment topic. No methods or findings newly extracted. Funding and publication overlap unresolved; identity-only.",
+      "scope": "Original repository HTML/abstract or indexed original-source excerpt; exact access and evidence limitations noted. Full thesis PDFs not reviewed. No systematic integrity appraisal or original complete funding extraction.",
+      "clinical_review": false,
+      "publish": false,
+      "automation_allowed": false
+    },
+    {
+      "id": "UP4-009",
+      "type": "thesis",
+      "source": "https://etheses.whiterose.ac.uk/id/eprint/34210/",
+      "sources": [
+        "https://etheses.whiterose.ac.uk/id/eprint/34210/"
+      ],
+      "findings": "Sheffield thesis on Saudi breastfeeding barriers, including review and cross-sectional healthcare-professional research. Institutional and sociocultural applicability distinct from efficacy. Full interviews, funding and competing interests not reviewed.",
+      "scope": "Original repository HTML/abstract or indexed original-source excerpt; exact access and evidence limitations noted. Full thesis PDFs not reviewed. No systematic integrity appraisal or original complete funding extraction.",
+      "clinical_review": false,
+      "publish": false,
+      "automation_allowed": false
+    },
+    {
+      "id": "UP4-010",
+      "type": "thesis",
+      "source": "https://etheses.whiterose.ac.uk/id/eprint/18998/",
+      "sources": [
+        "https://etheses.whiterose.ac.uk/id/eprint/18998/"
+      ],
+      "findings": "Amal Alghamdi 2017 Leeds PhD; title and repository version verified. Repository states CC BY-NC-SA 2.5. Observational sleep/obstetric associations per archive; exact datasets and estimates not freshly extracted.",
+      "scope": "Original repository HTML/abstract or indexed original-source excerpt; exact access and evidence limitations noted. Full thesis PDFs not reviewed. No systematic integrity appraisal or original complete funding extraction.",
+      "clinical_review": false,
+      "publish": false,
+      "automation_allowed": false
+    },
+    {
+      "id": "UP4-011",
+      "type": "thesis",
+      "source": "https://etheses.whiterose.ac.uk/id/eprint/26229/",
+      "sources": [
+        "https://etheses.whiterose.ac.uk/id/eprint/26229/"
+      ],
+      "findings": "Sukshma Sharma 2019 Leeds PhD: CARE, MoBa and DNBC cohort meta-analysis N=149927; observational associations, including 20g higher birthweight per additional 30g/day protein (CI 10–31g), no association with SGA/LGA in that analysis. Cohort overlap with other dietary studies; confounding, food measurement and small effect. Do not convert into intake prescription. CC BY-NC-SA 2.5.",
+      "scope": "Original repository HTML/abstract or indexed original-source excerpt; exact access and evidence limitations noted. Full thesis PDFs not reviewed. No systematic integrity appraisal or original complete funding extraction.",
+      "clinical_review": false,
+      "publish": false,
+      "automation_allowed": false
+    },
+    {
+      "id": "UP4-012",
+      "type": "thesis",
+      "source": "https://etheses.whiterose.ac.uk/id/eprint/32829/",
+      "sources": [
+        "https://etheses.whiterose.ac.uk/id/eprint/32829/"
+      ],
+      "findings": "Ugandan Batwa and Bakiga communities: participatory mixed methods, food composition database, interviews, surveys and secondary data. Context for seasonality and access, not nutrition intervention efficacy. Verify community consent and funding before adaptation.",
+      "scope": "Original repository HTML/abstract or indexed original-source excerpt; exact access and evidence limitations noted. Full thesis PDFs not reviewed. No systematic integrity appraisal or original complete funding extraction.",
+      "clinical_review": false,
+      "publish": false,
+      "automation_allowed": false
+    },
+    {
+      "id": "UP4-013",
+      "type": "thesis",
+      "source": "https://teses.usp.br/teses/disponiveis/5/5139/tde-10032026-114936/en.html",
+      "sources": [
+        "https://teses.usp.br/teses/disponiveis/5/5139/tde-10032026-114936/en.html",
+        "https://teses.usp.br/teses/disponiveis/5/5139/tde-10032026-114936/fr.html"
+      ],
+      "findings": "USP DOI 10.11606/D.5.2025.tde-10032026-114936, preliminary randomized short-cervix twin pregnancy thesis; abstract says pessary/progesterone not superior to placebo for spontaneous delivery before 34 weeks. Underpowered preliminary analysis not proof of equivalence; clinician-only, funding unresolved.",
+      "scope": "Original repository HTML/abstract or indexed original-source excerpt; exact access and evidence limitations noted. Full thesis PDFs not reviewed. No systematic integrity appraisal or original complete funding extraction.",
+      "clinical_review": false,
+      "publish": false,
+      "automation_allowed": false
+    },
+    {
+      "id": "UP4-014",
+      "type": "thesis",
+      "source": "https://teses.usp.br/teses/disponiveis/17/17145/tde-10052021-144436/pt-br.html",
+      "sources": [
+        "https://teses.usp.br/teses/disponiveis/17/17145/tde-10052021-144436/pt-br.html"
+      ],
+      "findings": "USP DOI 10.11606/D.17.2021.tde-10052021-144436. Pilot doula trial abstract reports within-group serotonin change; surrogate and within-group statistical significance do not establish comparative clinical benefit. Full methods and funding pending.",
+      "scope": "Original repository HTML/abstract or indexed original-source excerpt; exact access and evidence limitations noted. Full thesis PDFs not reviewed. No systematic integrity appraisal or original complete funding extraction.",
+      "clinical_review": false,
+      "publish": false,
+      "automation_allowed": false
+    },
+    {
+      "id": "UP4-015",
+      "type": "thesis",
+      "source": "https://teses.usp.br/teses/disponiveis/22/22133/tde-22112024-160927/en.html",
+      "sources": [
+        "https://teses.usp.br/teses/disponiveis/22/22133/tde-22112024-160927/en.html"
+      ],
+      "findings": "USP DOI 10.11606/D.22.2024.tde-22112024-160927. Pilot randomized breastfeeding pain photobiomodulation thesis identity verified. Archive within-arm estimates not independently re-extracted; comparator-adjusted effect, device funding and infant safety remain unresolved.",
+      "scope": "Original repository HTML/abstract or indexed original-source excerpt; exact access and evidence limitations noted. Full thesis PDFs not reviewed. No systematic integrity appraisal or original complete funding extraction.",
+      "clinical_review": false,
+      "publish": false,
+      "automation_allowed": false
+    },
+    {
+      "id": "UP4-016",
+      "type": "thesis",
+      "source": "https://teses.usp.br/teses/disponiveis/5/5139/tde-05092025-152010/",
+      "sources": [
+        "https://teses.usp.br/teses/disponiveis/5/5139/tde-05092025-152010/"
+      ],
+      "findings": "USP DOI 10.11606/T.5.2025.tde-05092025-152010. Randomized active-comparator singleton short cervix trial, author reports comparable prevention outcomes. Non-significant difference cannot establish equivalence without margin/design; compare TOPS and Quadruple P by population and comparator. No clinical instruction.",
+      "scope": "Original repository HTML/abstract or indexed original-source excerpt; exact access and evidence limitations noted. Full thesis PDFs not reviewed. No systematic integrity appraisal or original complete funding extraction.",
+      "clinical_review": false,
+      "publish": false,
+      "automation_allowed": false
+    },
+    {
+      "id": "UP4-017",
+      "type": "thesis",
+      "source": "https://teses.usp.br/teses/disponiveis/5/5176/tde-09112021-123814/pt-br.html",
+      "sources": [
+        "https://teses.usp.br/teses/disponiveis/5/5176/tde-09112021-123814/pt-br.html"
+      ],
+      "findings": "USP DOI 10.11606/T.5.2021.tde-09112021-123814. Randomized labor analgesia in pregnancy with comorbidities; catecholamines and fetal/uterine measures. Abstract title/keywords only; full outcomes and safety pending; clinician-only.",
+      "scope": "Original repository HTML/abstract or indexed original-source excerpt; exact access and evidence limitations noted. Full thesis PDFs not reviewed. No systematic integrity appraisal or original complete funding extraction.",
+      "clinical_review": false,
+      "publish": false,
+      "automation_allowed": false
+    },
+    {
+      "id": "UP4-018",
+      "type": "thesis",
+      "source": "https://teses.usp.br/teses/disponiveis/22/22133/tde-28112011-165347/pt-br.html",
+      "sources": [
+        "https://teses.usp.br/teses/disponiveis/22/22133/tde-28112011-165347/pt-br.html",
+        "https://teses.usp.br/teses/disponiveis/22/22133/tde-28112011-165347/en.html"
+      ],
+      "findings": "USP DOI 10.11606/T.22.2011.tde-28112011-165347. Randomized postpartum contraction pain electrostimulation trial identity verified; effect and safety not freshly extracted. No self-treatment device instructions.",
+      "scope": "Original repository HTML/abstract or indexed original-source excerpt; exact access and evidence limitations noted. Full thesis PDFs not reviewed. No systematic integrity appraisal or original complete funding extraction.",
+      "clinical_review": false,
+      "publish": false,
+      "automation_allowed": false
+    },
+    {
+      "id": "UP4-019",
+      "type": "thesis",
+      "source": "https://teses.usp.br/teses/disponiveis/17/17139/tde-22052026-150941/pt-br.html",
+      "sources": [
+        "https://teses.usp.br/teses/disponiveis/17/17139/tde-22052026-150941/pt-br.html",
+        "https://teses.usp.br/teses/disponiveis/17/17139/tde-22052026-150941/en.html"
+      ],
+      "findings": "USP DOI 10.11606/T.17.2026.tde-22052026-150941, prenatal nutrition intervention for women with overweight. Repository English record lists withheld files with release date 2028-02-27; clinical effect and funding not newly extracted. Do not use archived within-group changes as between-group benefit.",
+      "scope": "Original repository HTML/abstract or indexed original-source excerpt; exact access and evidence limitations noted. Full thesis PDFs not reviewed. No systematic integrity appraisal or original complete funding extraction.",
+      "clinical_review": false,
+      "publish": false,
+      "automation_allowed": false
+    },
+    {
+      "id": "UP4-020",
+      "type": "thesis",
+      "source": "https://teses.usp.br/teses/disponiveis/5/5131/tde-21052024-171902/pt-br.html",
+      "sources": [
+        "https://teses.usp.br/teses/disponiveis/5/5131/tde-21052024-171902/pt-br.html",
+        "https://bdtd.ibict.br/vufind/Record/USP_f4cbcae2b88c52a6ceed3c37cc9b8715/Details"
+      ],
+      "findings": "USP DOI 10.11606/T.5.2024.tde-21052024-171902. Single-blind randomized 172 postpartum women previously treated with methyldopa. Brazilian national thesis catalogue reports similar selected treatment adjustments and complications; no equivalence or dosing inference. Full funding and clinical review pending.",
+      "scope": "Original repository HTML/abstract or indexed original-source excerpt; exact access and evidence limitations noted. Full thesis PDFs not reviewed. No systematic integrity appraisal or original complete funding extraction.",
+      "clinical_review": false,
+      "publish": false,
+      "automation_allowed": false
+    },
+    {
+      "id": "UP4-021",
+      "type": "thesis",
+      "source": "https://teses.usp.br/teses/disponiveis/17/17145/tde-23042018-115625/pt-br.html",
+      "sources": [
+        "https://teses.usp.br/teses/disponiveis/17/17145/tde-23042018-115625/pt-br.html"
+      ],
+      "findings": "USP DOI 10.11606/T.17.2018.tde-23042018-115625. Randomized timing of postpartum etonogestrel implant and infant growth identity verified, results not re-extracted. Linked journal and funding search pending; no contraceptive recommendation.",
+      "scope": "Original repository HTML/abstract or indexed original-source excerpt; exact access and evidence limitations noted. Full thesis PDFs not reviewed. No systematic integrity appraisal or original complete funding extraction.",
+      "clinical_review": false,
+      "publish": false,
+      "automation_allowed": false
+    },
+    {
+      "id": "UP4-022",
+      "type": "thesis",
+      "source": "https://teses.usp.br/teses/disponiveis/7/7141/tde-23062010-092554/pt-br.html",
+      "sources": [
+        "https://teses.usp.br/teses/disponiveis/7/7141/tde-23062010-092554/pt-br.html"
+      ],
+      "findings": "USP DOI 10.11606/D.7.2010.tde-23062010-092554. Birth-ball practice survey describes staff-reported perceived benefits and contraindications, not direct measurement of delivery outcomes. No causal claim.",
+      "scope": "Original repository HTML/abstract or indexed original-source excerpt; exact access and evidence limitations noted. Full thesis PDFs not reviewed. No systematic integrity appraisal or original complete funding extraction.",
+      "clinical_review": false,
+      "publish": false,
+      "automation_allowed": false
+    },
+    {
+      "id": "UP4-023",
+      "type": "thesis",
+      "source": "https://teses.usp.br/teses/disponiveis/17/17145/tde-28052026-140133/en.html",
+      "sources": [
+        "https://teses.usp.br/teses/disponiveis/17/17145/tde-28052026-140133/en.html"
+      ],
+      "findings": "USP DOI 10.11606/D.17.1999.tde-28052026-140133. Corrected date: thesis 1999, online deposit 2026. Before/after ultrasound study of 52 clinically normal pregnancies; surrogate without concurrent comparator. Not treatment for low amniotic fluid or evidence of water-birth safety.",
+      "scope": "Original repository HTML/abstract or indexed original-source excerpt; exact access and evidence limitations noted. Full thesis PDFs not reviewed. No systematic integrity appraisal or original complete funding extraction.",
+      "clinical_review": false,
+      "publish": false,
+      "automation_allowed": false
+    },
+    {
+      "id": "UP4-024",
+      "type": "thesis",
+      "source": "https://teses.usp.br/teses/disponiveis/6/6143/tde-05022024-185340/pt-br.html",
+      "sources": [
+        "https://teses.usp.br/teses/disponiveis/6/6143/tde-05022024-185340/pt-br.html"
+      ],
+      "findings": "USP DOI 10.11606/T.6.2023.tde-05022024-185340. Episiotomy/perineal integrity thesis identity verified, focuses on teaching and care practices. No quantified tear-prevention efficacy re-extracted; funding and implementation methods pending.",
+      "scope": "Original repository HTML/abstract or indexed original-source excerpt; exact access and evidence limitations noted. Full thesis PDFs not reviewed. No systematic integrity appraisal or original complete funding extraction.",
+      "clinical_review": false,
+      "publish": false,
+      "automation_allowed": false
+    },
+    {
+      "id": "UP4-025",
+      "type": "thesis",
+      "source": "https://teses.usp.br/teses/disponiveis/5/5139/tde-12022008-141747/pt-br.html",
+      "sources": [
+        "https://teses.usp.br/teses/disponiveis/5/5139/tde-12022008-141747/pt-br.html"
+      ],
+      "findings": "USP DOI 10.11606/D.5.2007.tde-12022008-141747. Original-language abstract explicitly describes retrospectively selected medical-record controls. Nonrandomized comparison despite clinical-trial indexing. Selection/time confounding; do not code as RCT.",
+      "scope": "Original repository HTML/abstract or indexed original-source excerpt; exact access and evidence limitations noted. Full thesis PDFs not reviewed. No systematic integrity appraisal or original complete funding extraction.",
+      "clinical_review": false,
+      "publish": false,
+      "automation_allowed": false
+    },
+    {
+      "id": "UP4-026",
+      "type": "thesis",
+      "source": "https://researchspace.ukzn.ac.za/items/5dc0052f-8bc0-4cfb-b865-9991aa760a78",
+      "sources": [
+        "https://researchspace.ukzn.ac.za/items/5dc0052f-8bc0-4cfb-b865-9991aa760a78"
+      ],
+      "findings": "Kathleen Bridget Brookes 2004 UKZN thesis. Original repository describes laboratory chemical investigation and isolated rat uterine tissue bioassays. No human pregnancy safety established; uterotonic activity warrants specific hold. No preparation or use instructions.",
+      "scope": "Original repository HTML/abstract or indexed original-source excerpt; exact access and evidence limitations noted. Full thesis PDFs not reviewed. No systematic integrity appraisal or original complete funding extraction.",
+      "clinical_review": false,
+      "publish": false,
+      "automation_allowed": false
+    },
+    {
+      "id": "UP4-027",
+      "type": "thesis",
+      "source": "https://researchspace.ukzn.ac.za/items/15776af1-1583-4a5e-aa25-70ada95e1d7f/full",
+      "sources": [
+        "https://researchspace.ukzn.ac.za/items/15776af1-1583-4a5e-aa25-70ada95e1d7f/full"
+      ],
+      "findings": "Nokwethemba Monica Ngcobo UKZN master's, created 2025, issued 2026. Secondary analysis of 249 participants selected from larger randomized trial. Parent trial identification and selection bias review required; no new independent RCT count. Full results/funding and aspirin safety applicability unresolved.",
+      "scope": "Original repository HTML/abstract or indexed original-source excerpt; exact access and evidence limitations noted. Full thesis PDFs not reviewed. No systematic integrity appraisal or original complete funding extraction.",
+      "clinical_review": false,
+      "publish": false,
+      "automation_allowed": false
+    },
+    {
+      "id": "UP4-028",
+      "type": "thesis",
+      "source": "https://researchspace.ukzn.ac.za/items/4b47bfc9-b018-4b8c-8ad4-8740266300ec/full",
+      "sources": [
+        "https://researchspace.ukzn.ac.za/items/4b47bfc9-b018-4b8c-8ad4-8740266300ec/full"
+      ],
+      "findings": "UKZN original repository indexed abstract describes low-read placental microbiome data and no reported correlation between normotensive and preeclampsia samples. Direct retrieval timed out. Low biomass contamination, sampling after outcomes and confounding; not proof of microbial causation or treatment.",
+      "scope": "Original repository HTML/abstract or indexed original-source excerpt; exact access and evidence limitations noted. Full thesis PDFs not reviewed. No systematic integrity appraisal or original complete funding extraction.",
+      "clinical_review": false,
+      "publish": false,
+      "automation_allowed": false
+    },
+    {
+      "id": "UP4-029",
+      "type": "thesis",
+      "source": "https://researchspace.ukzn.ac.za/items/afa33648-28a6-4053-b1b1-973e4711dae5/full",
+      "sources": [
+        "https://researchspace.ukzn.ac.za/items/afa33648-28a6-4053-b1b1-973e4711dae5/full"
+      ],
+      "findings": "UKZN master's repository indexed abstract reports small 24-person subgroup adherence measurements with discordance in pill count and self-report; direct full record timed out. Context for access and adherence, not efficacy or dose evidence.",
+      "scope": "Original repository HTML/abstract or indexed original-source excerpt; exact access and evidence limitations noted. Full thesis PDFs not reviewed. No systematic integrity appraisal or original complete funding extraction.",
+      "clinical_review": false,
+      "publish": false,
+      "automation_allowed": false
+    },
+    {
+      "id": "UP4-030",
+      "type": "thesis",
+      "source": "https://researchspace.ukzn.ac.za/items/98701021-bdda-4b69-873e-01089a3f9fb3/full",
+      "sources": [
+        "https://researchspace.ukzn.ac.za/items/98701021-bdda-4b69-873e-01089a3f9fb3/full"
+      ],
+      "findings": "Anniegrace Mapangisana Hlatshwayo UKZN 2017 PhD on Ndau people of Zimbabwe, phenomenological case study in Indigenous research paradigm. Cultural and care context, not a trial of safety/effectiveness; no generalized practice instructions.",
+      "scope": "Original repository HTML/abstract or indexed original-source excerpt; exact access and evidence limitations noted. Full thesis PDFs not reviewed. No systematic integrity appraisal or original complete funding extraction.",
+      "clinical_review": false,
+      "publish": false,
+      "automation_allowed": false
+    },
+    {
+      "id": "UP4-031",
+      "type": "thesis",
+      "source": "https://researchspace.ukzn.ac.za/items/61823618-d7c3-4ce8-8f8e-982551a2359d/full",
+      "sources": [
+        "https://researchspace.ukzn.ac.za/items/61823618-d7c3-4ce8-8f8e-982551a2359d/full"
+      ],
+      "findings": "Naeera Abdul UKZN master's 2025. Original abstract investigates serum magnesium and hypertensive disorders, with HIV/obesity context. Biomarker relationship not a supplement trial; distinguish clinical magnesium sulphate indications from dietary supplements. Funding, methods and numerical results pending.",
+      "scope": "Original repository HTML/abstract or indexed original-source excerpt; exact access and evidence limitations noted. Full thesis PDFs not reviewed. No systematic integrity appraisal or original complete funding extraction.",
+      "clinical_review": false,
+      "publish": false,
+      "automation_allowed": false
+    },
+    {
+      "id": "UP4-032",
+      "type": "thesis",
+      "source": "https://repository.up.ac.za/items/ed0f599b-8da6-4b69-a768-2460a3f9f874",
+      "sources": [
+        "https://repository.up.ac.za/items/ed0f599b-8da6-4b69-a768-2460a3f9f874"
+      ],
+      "findings": "Ashley Tafadzwa Nerwande, University of Pretoria 2024 thesis on maternal HIV, breast milk profiles and infant growth. Repository identity and ART context confirmed; no outcome extraction, causal advice or medication/feeding changes.",
+      "scope": "Original repository HTML/abstract or indexed original-source excerpt; exact access and evidence limitations noted. Full thesis PDFs not reviewed. No systematic integrity appraisal or original complete funding extraction.",
+      "clinical_review": false,
+      "publish": false,
+      "automation_allowed": false
+    },
+    {
+      "id": "UP4-033",
+      "type": "thesis",
+      "source": "https://ourarchive.otago.ac.nz/esploro/outputs/doctoral/Infant-feeding-in-food-insecure-households/9926527379101891",
+      "sources": [
+        "https://ourarchive.otago.ac.nz/esploro/outputs/doctoral/Infant-feeding-in-food-insecure-households/9926527379101891",
+        "https://hdl.handle.net/10523/36234"
+      ],
+      "findings": "Ioanna Katiforis Otago PhD 2024, handle 10523/36234. Repository indexed abstract mentions wider First Foods New Zealand (FFNZ) study. Food insecurity qualitative/diet context; sampling and cohort membership need confirmation before counts. No universal reassurance on infant nutrition.",
+      "scope": "Original repository HTML/abstract or indexed original-source excerpt; exact access and evidence limitations noted. Full thesis PDFs not reviewed. No systematic integrity appraisal or original complete funding extraction.",
+      "clinical_review": false,
+      "publish": false,
+      "automation_allowed": false
+    },
+    {
+      "id": "UP4-034",
+      "type": "thesis",
+      "source": "https://ourarchive.otago.ac.nz/esploro/outputs/doctoral/Complementary-feeding-and-appetite-regulation-in/9926565078501891",
+      "sources": [
+        "https://ourarchive.otago.ac.nz/esploro/outputs/doctoral/Complementary-feeding-and-appetite-regulation-in/9926565078501891",
+        "https://hdl.handle.net/10523/42292"
+      ],
+      "findings": "Alice Cox Otago PhD 2024, handle 10523/42292. FFNZ 625 infants; observational pouch/feeding comparisons, video subsample 204. No significant pouch BMI-z difference (0.09, CI -0.09 to 0.27). Shared sample with UP4-037; parent report/confounding and cross-sectional nature limit claims.",
+      "scope": "Original repository HTML/abstract or indexed original-source excerpt; exact access and evidence limitations noted. Full thesis PDFs not reviewed. No systematic integrity appraisal or original complete funding extraction.",
+      "clinical_review": false,
+      "publish": false,
+      "automation_allowed": false
+    },
+    {
+      "id": "UP4-035",
+      "type": "thesis",
+      "source": "https://ourarchive.otago.ac.nz/esploro/outputs/graduate/Does-a-baby-led-approach-to-complementary/9926479958401891",
+      "sources": [
+        "https://ourarchive.otago.ac.nz/esploro/outputs/graduate/Does-a-baby-led-approach-to-complementary/9926479958401891",
+        "https://hdl.handle.net/10523/6820"
+      ],
+      "findings": "Louise Joan Fangupo Otago MSc 2016, handle 10523/6820. BLISS parent trial 206 randomized; no observed difference in choking or growth faltering, relatively small sample and caregiver reports. Modified supported BLISS regimen, not universal safety of baby-led feeding. Same cohort as UP4-036/039; funding not verified.",
+      "scope": "Original repository HTML/abstract or indexed original-source excerpt; exact access and evidence limitations noted. Full thesis PDFs not reviewed. No systematic integrity appraisal or original complete funding extraction.",
+      "clinical_review": false,
+      "publish": false,
+      "automation_allowed": false
+    },
+    {
+      "id": "UP4-036",
+      "type": "thesis",
+      "source": "https://ourarchive.otago.ac.nz/esploro/outputs/graduate/Acceptability-to-Parents-of-a-Baby-Led/9926478521801891",
+      "sources": [
+        "https://ourarchive.otago.ac.nz/esploro/outputs/graduate/Acceptability-to-Parents-of-a-Baby-Led/9926478521801891",
+        "https://hdl.handle.net/10523/9915"
+      ],
+      "findings": "Sabina Bacchus Otago MSc 2020, handle 10523/9915. Same 206 BLISS participants; parent acceptability questionnaire, not clinical efficacy. Repository copyright all rights reserved; link only.",
+      "scope": "Original repository HTML/abstract or indexed original-source excerpt; exact access and evidence limitations noted. Full thesis PDFs not reviewed. No systematic integrity appraisal or original complete funding extraction.",
+      "clinical_review": false,
+      "publish": false,
+      "automation_allowed": false
+    },
+    {
+      "id": "UP4-037",
+      "type": "thesis",
+      "source": "https://ourarchive.otago.ac.nz/esploro/outputs/doctoral/Baby-food-pouches-and-baby-led-weaning/9926480118201891",
+      "sources": [
+        "https://ourarchive.otago.ac.nz/esploro/outputs/doctoral/Baby-food-pouches-and-baby-led-weaning/9926480118201891",
+        "https://hdl.handle.net/10523/16230"
+      ],
+      "findings": "Neve Helena McLean Otago PhD 2023, handle 10523/16230. FFNZ observational study of 625 infants, nutrient recall and blood iron measures; shared cohort with UP4-034. Parent-defined feeding categories and estimated milk intake constrain inference. Repository all rights reserved; no blanket nutrition or safety claim.",
+      "scope": "Original repository HTML/abstract or indexed original-source excerpt; exact access and evidence limitations noted. Full thesis PDFs not reviewed. No systematic integrity appraisal or original complete funding extraction.",
+      "clinical_review": false,
+      "publish": false,
+      "automation_allowed": false
+    },
+    {
+      "id": "UP4-038",
+      "type": "thesis",
+      "source": "https://ourarchive.otago.ac.nz/esploro/outputs/doctoral/Vitamin-D-during-pregnancy-lactation-and/9926479607601891",
+      "sources": [
+        "https://ourarchive.otago.ac.nz/esploro/outputs/doctoral/Vitamin-D-during-pregnancy-lactation-and/9926479607601891"
+      ],
+      "findings": "Benjamin John Wheeler Otago PhD 2018. Indexed repository confirms deficiency/rickets and maternal supplementation RCT chapters, not a single homogeneous study. Trial identification, dosing safety and funding pending; no supplementation instructions. All rights reserved.",
+      "scope": "Original repository HTML/abstract or indexed original-source excerpt; exact access and evidence limitations noted. Full thesis PDFs not reviewed. No systematic integrity appraisal or original complete funding extraction.",
+      "clinical_review": false,
+      "publish": false,
+      "automation_allowed": false
+    },
+    {
+      "id": "UP4-039",
+      "type": "thesis",
+      "source": "https://ourarchive.otago.ac.nz/esploro/outputs/doctoral/Impact-of-a-baby-led-approach-to/9926479903001891",
+      "sources": [
+        "https://ourarchive.otago.ac.nz/esploro/outputs/doctoral/Impact-of-a-baby-led-approach-to/9926479903001891",
+        "https://hdl.handle.net/10523/7709"
+      ],
+      "findings": "Lisa Daniels Otago PhD 2017, handle 10523/7709. Same BLISS trial family; nutrient/iron/zinc outcomes and exploratory predictor analyses must be separated. Full estimates and funding pending. All rights reserved.",
+      "scope": "Original repository HTML/abstract or indexed original-source excerpt; exact access and evidence limitations noted. Full thesis PDFs not reviewed. No systematic integrity appraisal or original complete funding extraction.",
+      "clinical_review": false,
+      "publish": false,
+      "automation_allowed": false
+    },
+    {
+      "id": "UP4-040",
+      "type": "thesis",
+      "source": "https://www.researchbank.ac.nz/items/40030078-19c4-4f04-b06b-795015fa1d28",
+      "sources": [
+        "https://www.researchbank.ac.nz/items/40030078-19c4-4f04-b06b-795015fa1d28"
+      ],
+      "findings": "ResearchBank indexed abstract confirms Seeking safe harbour, seven semi-structured interviews about complex pregnancy and water immersion. Direct page returned 403. Qualitative experience, no evidence of obstetric safety equivalence or eligibility.",
+      "scope": "Original repository HTML/abstract or indexed original-source excerpt; exact access and evidence limitations noted. Full thesis PDFs not reviewed. No systematic integrity appraisal or original complete funding extraction.",
+      "clinical_review": false,
+      "publish": false,
+      "automation_allowed": false
+    },
+    {
+      "id": "UP4-041",
+      "type": "thesis",
+      "source": "https://www.researchbank.ac.nz/items/33d1a38b-c3c7-4075-aac8-6c703c5c69be",
+      "sources": [
+        "https://www.researchbank.ac.nz/items/33d1a38b-c3c7-4075-aac8-6c703c5c69be"
+      ],
+      "findings": "Jade Wratten Otago Polytechnic Master of Midwifery 2021, DOI 10.34074/thes.5483. Repository metadata confirms midwives' perspectives on care at higher BMI. Qualitative context; avoid stigma and causal clinical inference. No funding extracted.",
+      "scope": "Original repository HTML/abstract or indexed original-source excerpt; exact access and evidence limitations noted. Full thesis PDFs not reviewed. No systematic integrity appraisal or original complete funding extraction.",
+      "clinical_review": false,
+      "publish": false,
+      "automation_allowed": false
+    },
+    {
+      "id": "UP4-042",
+      "type": "thesis",
+      "source": "https://www.researchbank.ac.nz/items/3323c15b-c25a-4841-94ae-290d0954fd09",
+      "sources": [
+        "https://www.researchbank.ac.nz/items/3323c15b-c25a-4841-94ae-290d0954fd09"
+      ],
+      "findings": "ResearchBank indexed abstract confirms ten wāhine Māori mothers, five first-time and five experienced, digital interviews/group research during COVID restrictions. Direct page 403. Community-specific care perspectives, not clinical efficacy; consent and funding unresolved.",
+      "scope": "Original repository HTML/abstract or indexed original-source excerpt; exact access and evidence limitations noted. Full thesis PDFs not reviewed. No systematic integrity appraisal or original complete funding extraction.",
+      "clinical_review": false,
+      "publish": false,
+      "automation_allowed": false
+    },
+    {
+      "id": "UP4-069",
+      "type": "preprint",
+      "source": "https://www.medrxiv.org/content/10.1101/2022.05.28.22275719v3",
+      "sources": [
+        "https://www.medrxiv.org/content/10.1101/2022.05.28.22275719v3",
+        "https://www.mdpi.com/2072-6643/14/21/4687",
+        "https://pubmed.ncbi.nlm.nih.gov/36364949/",
+        "https://pmc.ncbi.nlm.nih.gov/articles/PMC5724074/"
+      ],
+      "findings": "Balanced Plate Bangladesh preprint v3 linked to peer-reviewed PMID 36364949 and earlier protocol PMC5724074. 36 clusters, 893 participants in published report; positive birthweight outcome reported, use peer-reviewed estimates only after full appraisal. Preprint versions, protocol, abstract and article not independent studies. Funding/sponsor role not extracted.",
+      "scope": "Original repository HTML/abstract or indexed original-source excerpt; exact access and evidence limitations noted. Full thesis PDFs not reviewed. No systematic integrity appraisal or original complete funding extraction.",
+      "clinical_review": false,
+      "publish": false,
+      "automation_allowed": false
+    },
+    {
+      "id": "UP4-070",
+      "type": "preprint",
+      "source": "https://www.medrxiv.org/content/10.64898/2026.08.28.26361604v1",
+      "sources": [
+        "https://www.medrxiv.org/content/10.64898/2026.08.28.26361604v1",
+        "https://www.medrxiv.org/content/10.64898/2026.08.28.26361604v1.full"
+      ],
+      "findings": "NEON v1 preprint DOI 10.64898/2026.08.28.26361604, cluster pilot East London South Asian community groups. Indexed full-text acknowledgment lists NIHR Academy and NIHR CLAHRC North Thames. Pilot feasibility does not establish clinical efficacy; peer-review version search and sponsor role pending.",
+      "scope": "Original repository HTML/abstract or indexed original-source excerpt; exact access and evidence limitations noted. Full thesis PDFs not reviewed. No systematic integrity appraisal or original complete funding extraction.",
+      "clinical_review": false,
+      "publish": false,
+      "automation_allowed": false
+    },
+    {
+      "id": "UP4-071",
+      "type": "preprint",
+      "source": "https://www.medrxiv.org/content/10.64898/2026.11.22.26368693v1",
+      "sources": [
+        "https://www.medrxiv.org/content/10.64898/2026.11.22.26368693v1"
+      ],
+      "findings": "Preprint DOI 10.64898/2026.11.22.26368693 v1; observational placental inflammation and maternal BMI/chorioamnionitis comparisons. Not causal evidence, no weight-blaming narrative; full confounder adjustment, funding, peer-reviewed version and clinical safety pending.",
+      "scope": "Original repository HTML/abstract or indexed original-source excerpt; exact access and evidence limitations noted. Full thesis PDFs not reviewed. No systematic integrity appraisal or original complete funding extraction.",
+      "clinical_review": false,
+      "publish": false,
+      "automation_allowed": false
+    },
+    {
+      "id": "UP4-072",
+      "type": "preprint",
+      "source": "https://www.medrxiv.org/content/10.64898/2026.04.16.26351041v1",
+      "sources": [
+        "https://www.medrxiv.org/content/10.64898/2026.04.16.26351041v1",
+        "https://www.medrxiv.org/content/10.64898/2026.04.16.26351041v1.full"
+      ],
+      "findings": "Preprint DOI 10.64898/2026.04.16.26351041 v1; Meals4Moms randomized pilot with bundled food/activity/education and implementation endpoints. Not clinical efficacy proof. Funding, conflicts, sample flow and peer-reviewed version pending.",
+      "scope": "Original repository HTML/abstract or indexed original-source excerpt; exact access and evidence limitations noted. Full thesis PDFs not reviewed. No systematic integrity appraisal or original complete funding extraction.",
+      "clinical_review": false,
+      "publish": false,
+      "automation_allowed": false
+    },
+    {
+      "id": "UP4-073",
+      "type": "methods",
+      "source": "https://pubmed.ncbi.nlm.nih.gov/37419451/",
+      "sources": [
+        "https://pubmed.ncbi.nlm.nih.gov/37419451/"
+      ],
+      "findings": "PMID 37419451: 647 completed obstetric registered trials, 378 published (58%), 269 unpublished (42%) at original study search. Time-bounded cohort; cannot infer intentional suppression or direction of missing effects. Review methods and sponsorship pending.",
+      "scope": "Original repository HTML/abstract or indexed original-source excerpt; exact access and evidence limitations noted. Full thesis PDFs not reviewed. No systematic integrity appraisal or original complete funding extraction.",
+      "clinical_review": false,
+      "publish": false,
+      "automation_allowed": false
+    },
+    {
+      "id": "UP4-074",
+      "type": "methods",
+      "source": "https://pubmed.ncbi.nlm.nih.gov/32559607/",
+      "sources": [
+        "https://pubmed.ncbi.nlm.nih.gov/32559607/"
+      ],
+      "findings": "PMID 32559607: compared with unpublished registrations, publication associated with federal/NIH funding RR 3.36 (1.46–7.74) and nonindustry funding RR 2.41 (1.07–5.38). Observational associations, not proof of sponsor causality or trial quality. Full methods/disclosure pending.",
+      "scope": "Original repository HTML/abstract or indexed original-source excerpt; exact access and evidence limitations noted. Full thesis PDFs not reviewed. No systematic integrity appraisal or original complete funding extraction.",
+      "clinical_review": false,
+      "publish": false,
+      "automation_allowed": false
+    },
+    {
+      "id": "UP4-075",
+      "type": "methods",
+      "source": "https://pubmed.ncbi.nlm.nih.gov/27769265/",
+      "sources": [
+        "https://pubmed.ncbi.nlm.nih.gov/27769265/"
+      ],
+      "findings": "PMID 27769265: systematic review of pregnancy/childbirth review registry-search reporting; supports registry searching as a way to address missing evidence, not proof all missing evidence is negative. Funding and full estimates unresolved.",
+      "scope": "Original repository HTML/abstract or indexed original-source excerpt; exact access and evidence limitations noted. Full thesis PDFs not reviewed. No systematic integrity appraisal or original complete funding extraction.",
+      "clinical_review": false,
+      "publish": false,
+      "automation_allowed": false
+    },
+    {
+      "id": "UP4-076",
+      "type": "methods",
+      "source": "https://pubmed.ncbi.nlm.nih.gov/40902861/",
+      "sources": [
+        "https://pubmed.ncbi.nlm.nih.gov/40902861/",
+        "https://ora.ox.ac.uk/objects/uuid%3Af619d890-01e8-4e66-a161-8869c7732a8f"
+      ],
+      "findings": "PMID 40902861, preregistration/nonreporting study of Cochrane intervention reviews. Oxford repository reports median preregistered proportion 16% (IQR 0–79.6%). Not pregnancy-specific; distinguish nonregistration from nonpublication and sponsor bias. Funding pending.",
+      "scope": "Original repository HTML/abstract or indexed original-source excerpt; exact access and evidence limitations noted. Full thesis PDFs not reviewed. No systematic integrity appraisal or original complete funding extraction.",
+      "clinical_review": false,
+      "publish": false,
+      "automation_allowed": false
+    }
+  ],
+  "cohort_updates": [
+    {
+      "family": "FFNZ",
+      "ids": [
+        "UP4-034",
+        "UP4-037"
+      ],
+      "related_candidate": "UP4-033",
+      "rule": "625-infant observational cohort shared; confirm food-insecurity subsample membership separately."
+    },
+    {
+      "family": "BLISS",
+      "ids": [
+        "UP4-035",
+        "UP4-036",
+        "UP4-039"
+      ],
+      "rule": "Same modified baby-led feeding trial; choking, acceptability and nutrient outcomes distinct, not independent replications."
+    },
+    {
+      "family": "Balanced Plate Bangladesh",
+      "ids": [
+        "UP4-069"
+      ],
+      "related": [
+        "PMID36364949",
+        "PMC5724074"
+      ],
+      "rule": "Preprint, final report and protocol not independent studies."
+    }
+  ],
+  "access_holds": [
+    {
+      "id": "UP4-006",
+      "reason": "Embargo until 2027-09-22"
+    },
+    {
+      "id": "UP4-019",
+      "reason": "Withheld file release listed 2028-02-27"
+    }
+  ],
+  "clinical_review": false,
+  "publish": false,
+  "automation_allowed": false
+}
