@@ -20,8 +20,8 @@
     "hold_entries": 18,
     "exceptions": [],
     "full_external_appraisals": 0,
-    "partial_external_audit_records": 395,
-    "pending_without_new_external_audit": 1042,
+    "partial_external_audit_records": 443,
+    "pending_without_new_external_audit": 994,
     "uncounted_integrity_holds_rechecked": 4,
     "archive_dispositions_complete": 1437,
     "archive_dispositions_pending": 0,
@@ -63,9 +63,9 @@
       "visual_reuse_approved": 0,
       "missing": 0
     },
-    "partial_original_source_checks": 339,
+    "partial_original_source_checks": 387,
     "visual_publisher_policy_checks": 57,
-    "additional_correction_holds": 1,
+    "additional_correction_holds": 2,
     "visual_reuse_approved": 0,
     "additional_safety_flags": 1,
     "contradictory_inventory_partial_checks": 83,
@@ -74,7 +74,8 @@
     "underpublished_inventory_total": 75,
     "additional_access_holds": 2,
     "traditional_inventory_partial_checks": 111,
-    "international_inventory_partial_checks": 56
+    "international_inventory_partial_checks": 104,
+    "additional_version_holds": 2
   },
   "manifest": [
     {
@@ -20401,7 +20402,7 @@
       "index": 64,
       "url": "https://pubmed.ncbi.nlm.nih.gov/21752462/",
       "family": "PROMISE-EBF",
-      "status": "archive_disposition_complete_external_audit_unresolved",
+      "status": "partial_external_original_source_check",
       "clinical_review": false,
       "publish": false,
       "automation_allowed": false,
@@ -20411,7 +20412,8 @@
       "identity_group": null,
       "cohort_family_candidates": [
         "PROMISE-EBF"
-      ]
+      ],
+      "audit_batch": "20"
     },
     {
       "id": "I1-B01-066",
@@ -20420,7 +20422,7 @@
       "index": 65,
       "url": "https://pubmed.ncbi.nlm.nih.gov/24950759/",
       "family": "PROMISE-EBF",
-      "status": "archive_disposition_complete_external_audit_unresolved",
+      "status": "partial_external_original_source_check",
       "clinical_review": false,
       "publish": false,
       "automation_allowed": false,
@@ -20430,7 +20432,8 @@
       "identity_group": null,
       "cohort_family_candidates": [
         "PROMISE-EBF"
-      ]
+      ],
+      "audit_batch": "20"
     },
     {
       "id": "I1-B01-067",
@@ -20438,7 +20441,7 @@
       "file": 7,
       "index": 66,
       "url": "https://pubmed.ncbi.nlm.nih.gov/39854391/",
-      "status": "archive_disposition_complete_external_audit_unresolved",
+      "status": "partial_external_original_source_check",
       "clinical_review": false,
       "publish": false,
       "automation_allowed": false,
@@ -20446,7 +20449,8 @@
       "disposition": "international_research_original_source_hold",
       "disposition_batch": "03",
       "identity_group": null,
-      "cohort_family_candidates": []
+      "cohort_family_candidates": [],
+      "audit_batch": "20"
     },
     {
       "id": "I1-B01-068",
@@ -20455,7 +20459,7 @@
       "index": 67,
       "url": "https://pubmed.ncbi.nlm.nih.gov/25784955/",
       "family": "PROMISE-EBF",
-      "status": "archive_disposition_complete_external_audit_unresolved",
+      "status": "partial_external_original_source_check",
       "clinical_review": false,
       "publish": false,
       "automation_allowed": false,
@@ -20465,7 +20469,8 @@
       "identity_group": null,
       "cohort_family_candidates": [
         "PROMISE-EBF"
-      ]
+      ],
+      "audit_batch": "20"
     },
     {
       "id": "I1-B01-069",
@@ -20474,7 +20479,7 @@
       "index": 68,
       "url": "https://pubmed.ncbi.nlm.nih.gov/29474479/",
       "family": "PROMISE-EBF",
-      "status": "archive_disposition_complete_external_audit_unresolved",
+      "status": "partial_external_original_source_check",
       "clinical_review": false,
       "publish": false,
       "automation_allowed": false,
@@ -20484,7 +20489,8 @@
       "identity_group": null,
       "cohort_family_candidates": [
         "PROMISE-EBF"
-      ]
+      ],
+      "audit_batch": "20"
     },
     {
       "id": "I1-B01-070",
@@ -20493,7 +20499,7 @@
       "index": 69,
       "url": "https://pubmed.ncbi.nlm.nih.gov/27473676/",
       "family": "PROMISE-EBF",
-      "status": "archive_disposition_complete_external_audit_unresolved",
+      "status": "partial_external_original_source_check",
       "clinical_review": false,
       "publish": false,
       "automation_allowed": false,
@@ -20503,7 +20509,8 @@
       "identity_group": null,
       "cohort_family_candidates": [
         "PROMISE-EBF"
-      ]
+      ],
+      "audit_batch": "20"
     },
     {
       "id": "I1-B01-071",
@@ -20512,7 +20519,7 @@
       "index": 70,
       "url": "https://pubmed.ncbi.nlm.nih.gov/27405396/",
       "family": "PROMISE-EBF",
-      "status": "archive_disposition_complete_external_audit_unresolved",
+      "status": "partial_external_original_source_check",
       "clinical_review": false,
       "publish": false,
       "automation_allowed": false,
@@ -20522,7 +20529,8 @@
       "identity_group": null,
       "cohort_family_candidates": [
         "PROMISE-EBF"
-      ]
+      ],
+      "audit_batch": "20"
     },
     {
       "id": "I1-B01-072",
@@ -20531,7 +20539,7 @@
       "index": 71,
       "url": "https://pubmed.ncbi.nlm.nih.gov/25340337/",
       "family": "Philani",
-      "status": "archive_disposition_complete_external_audit_unresolved",
+      "status": "partial_external_original_source_check",
       "clinical_review": false,
       "publish": false,
       "automation_allowed": false,
@@ -20541,7 +20549,8 @@
       "identity_group": null,
       "cohort_family_candidates": [
         "Philani"
-      ]
+      ],
+      "audit_batch": "20"
     },
     {
       "id": "I1-B01-073",
@@ -20550,7 +20559,7 @@
       "index": 72,
       "url": "https://pubmed.ncbi.nlm.nih.gov/23435303/",
       "family": "Philani",
-      "status": "archive_disposition_complete_external_audit_unresolved",
+      "status": "partial_external_original_source_check",
       "clinical_review": false,
       "publish": false,
       "automation_allowed": false,
@@ -20560,7 +20569,8 @@
       "identity_group": null,
       "cohort_family_candidates": [
         "Philani"
-      ]
+      ],
+      "audit_batch": "20"
     },
     {
       "id": "I1-B01-074",
@@ -20569,7 +20579,7 @@
       "index": 73,
       "url": "https://pubmed.ncbi.nlm.nih.gov/27438294/",
       "family": "Philani",
-      "status": "archive_disposition_complete_external_audit_unresolved",
+      "status": "partial_external_original_source_check",
       "clinical_review": false,
       "publish": false,
       "automation_allowed": false,
@@ -20579,7 +20589,8 @@
       "identity_group": null,
       "cohort_family_candidates": [
         "Philani"
-      ]
+      ],
+      "audit_batch": "20"
     },
     {
       "id": "I1-B01-075",
@@ -20728,7 +20739,7 @@
       "index": 81,
       "url": "https://pubmed.ncbi.nlm.nih.gov/25646337/",
       "family": "iLiNS-DYAD Malawi",
-      "status": "archive_disposition_complete_external_audit_unresolved",
+      "status": "partial_external_original_source_check",
       "clinical_review": false,
       "publish": false,
       "automation_allowed": false,
@@ -20738,7 +20749,8 @@
       "identity_group": null,
       "cohort_family_candidates": [
         "iLiNS-DYAD Malawi"
-      ]
+      ],
+      "audit_batch": "20"
     },
     {
       "id": "I1-B01-083",
@@ -20747,7 +20759,7 @@
       "index": 82,
       "url": "https://pubmed.ncbi.nlm.nih.gov/34543432/",
       "family": "iLiNS-DYAD Ghana/Malawi",
-      "status": "archive_disposition_complete_external_audit_unresolved",
+      "status": "partial_external_original_source_check",
       "clinical_review": false,
       "publish": false,
       "automation_allowed": false,
@@ -20757,7 +20769,8 @@
       "identity_group": null,
       "cohort_family_candidates": [
         "iLiNS-DYAD Ghana/Malawi"
-      ]
+      ],
+      "audit_batch": "20"
     },
     {
       "id": "I1-B01-084",
@@ -20766,7 +20779,7 @@
       "index": 83,
       "url": "https://pubmed.ncbi.nlm.nih.gov/28237085/",
       "family": "iLiNS-DYAD Ghana/Malawi",
-      "status": "archive_disposition_complete_external_audit_unresolved",
+      "status": "partial_external_original_source_check",
       "clinical_review": false,
       "publish": false,
       "automation_allowed": false,
@@ -20776,7 +20789,8 @@
       "identity_group": null,
       "cohort_family_candidates": [
         "iLiNS-DYAD Ghana/Malawi"
-      ]
+      ],
+      "audit_batch": "20"
     },
     {
       "id": "I1-B01-085",
@@ -21162,7 +21176,7 @@
       "index": 13,
       "url": "https://pubmed.ncbi.nlm.nih.gov/38417549/",
       "family": "PRECONCEPT Vietnam",
-      "status": "archive_disposition_complete_external_audit_unresolved",
+      "status": "partial_external_original_source_check",
       "clinical_review": false,
       "publish": false,
       "automation_allowed": false,
@@ -21172,7 +21186,8 @@
       "identity_group": null,
       "cohort_family_candidates": [
         "PRECONCEPT Vietnam"
-      ]
+      ],
+      "audit_batch": "20"
     },
     {
       "id": "I1-B02-015",
@@ -21181,7 +21196,7 @@
       "index": 14,
       "url": "https://pubmed.ncbi.nlm.nih.gov/28615372/",
       "family": "PRECONCEPT Vietnam",
-      "status": "archive_disposition_complete_external_audit_unresolved",
+      "status": "partial_external_original_source_check",
       "clinical_review": false,
       "publish": false,
       "automation_allowed": false,
@@ -21191,7 +21206,8 @@
       "identity_group": null,
       "cohort_family_candidates": [
         "PRECONCEPT Vietnam"
-      ]
+      ],
+      "audit_batch": "20"
     },
     {
       "id": "I1-B02-016",
@@ -21200,7 +21216,7 @@
       "index": 15,
       "url": "https://pubmed.ncbi.nlm.nih.gov/41831611/",
       "family": "PRECONCEPT Vietnam",
-      "status": "archive_disposition_complete_external_audit_unresolved",
+      "status": "partial_external_original_source_check",
       "clinical_review": false,
       "publish": false,
       "automation_allowed": false,
@@ -21210,7 +21226,8 @@
       "identity_group": null,
       "cohort_family_candidates": [
         "PRECONCEPT Vietnam"
-      ]
+      ],
+      "audit_batch": "20"
     },
     {
       "id": "I1-B02-017",
@@ -21219,7 +21236,7 @@
       "index": 16,
       "url": "https://pubmed.ncbi.nlm.nih.gov/33668050/",
       "family": "PRECONCEPT Vietnam",
-      "status": "archive_disposition_complete_external_audit_unresolved",
+      "status": "partial_external_original_source_check",
       "clinical_review": false,
       "publish": false,
       "automation_allowed": false,
@@ -21229,7 +21246,8 @@
       "identity_group": null,
       "cohort_family_candidates": [
         "PRECONCEPT Vietnam"
-      ]
+      ],
+      "audit_batch": "20"
     },
     {
       "id": "I1-B02-018",
@@ -21238,7 +21256,7 @@
       "index": 17,
       "url": "https://pubmed.ncbi.nlm.nih.gov/36925072/",
       "family": "PRECONCEPT Vietnam",
-      "status": "archive_disposition_complete_external_audit_unresolved",
+      "status": "partial_external_original_source_check",
       "clinical_review": false,
       "publish": false,
       "automation_allowed": false,
@@ -21248,7 +21266,8 @@
       "identity_group": null,
       "cohort_family_candidates": [
         "PRECONCEPT Vietnam"
-      ]
+      ],
+      "audit_batch": "20"
     },
     {
       "id": "I1-B02-019",
@@ -21257,7 +21276,7 @@
       "index": 18,
       "url": "https://pubmed.ncbi.nlm.nih.gov/30161206/",
       "family": "PRECONCEPT Vietnam",
-      "status": "archive_disposition_complete_external_audit_unresolved",
+      "status": "partial_external_original_source_check",
       "clinical_review": false,
       "publish": false,
       "automation_allowed": false,
@@ -21267,7 +21286,8 @@
       "identity_group": null,
       "cohort_family_candidates": [
         "PRECONCEPT Vietnam"
-      ]
+      ],
+      "audit_batch": "20"
     },
     {
       "id": "I1-B02-020",
@@ -21276,7 +21296,7 @@
       "index": 19,
       "url": "https://pubmed.ncbi.nlm.nih.gov/28623904/",
       "family": "PRECONCEPT Vietnam",
-      "status": "archive_disposition_complete_external_audit_unresolved",
+      "status": "partial_external_original_source_check",
       "clinical_review": false,
       "publish": false,
       "automation_allowed": false,
@@ -21286,7 +21306,8 @@
       "identity_group": null,
       "cohort_family_candidates": [
         "PRECONCEPT Vietnam"
-      ]
+      ],
+      "audit_batch": "20"
     },
     {
       "id": "I1-B02-021",
@@ -21295,7 +21316,7 @@
       "index": 20,
       "url": "https://pubmed.ncbi.nlm.nih.gov/33693757/",
       "family": "PRECONCEPT Vietnam",
-      "status": "archive_disposition_complete_external_audit_unresolved",
+      "status": "partial_external_original_source_check",
       "clinical_review": false,
       "publish": false,
       "automation_allowed": false,
@@ -21305,7 +21326,8 @@
       "identity_group": null,
       "cohort_family_candidates": [
         "PRECONCEPT Vietnam"
-      ]
+      ],
+      "audit_batch": "20"
     },
     {
       "id": "I1-B02-022",
@@ -21314,7 +21336,7 @@
       "index": 21,
       "url": "https://pubmed.ncbi.nlm.nih.gov/27918586/",
       "family": "PRECONCEPT Vietnam",
-      "status": "archive_disposition_complete_external_audit_unresolved",
+      "status": "partial_external_original_source_check",
       "clinical_review": false,
       "publish": false,
       "automation_allowed": false,
@@ -21324,7 +21346,8 @@
       "identity_group": null,
       "cohort_family_candidates": [
         "PRECONCEPT Vietnam"
-      ]
+      ],
+      "audit_batch": "20"
     },
     {
       "id": "I1-B02-023",
@@ -21332,7 +21355,7 @@
       "file": 8,
       "index": 22,
       "url": "https://pubmed.ncbi.nlm.nih.gov/20120792/",
-      "status": "archive_disposition_complete_external_audit_unresolved",
+      "status": "partial_external_original_source_check",
       "clinical_review": false,
       "publish": false,
       "automation_allowed": false,
@@ -21340,7 +21363,8 @@
       "disposition": "international_research_original_source_hold",
       "disposition_batch": "03",
       "identity_group": null,
-      "cohort_family_candidates": []
+      "cohort_family_candidates": [],
+      "audit_batch": "20"
     },
     {
       "id": "I1-B02-024",
@@ -21349,7 +21373,7 @@
       "index": 23,
       "url": "https://pubmed.ncbi.nlm.nih.gov/27281806/",
       "family": "PRECONCEPT Vietnam",
-      "status": "archive_disposition_complete_external_audit_unresolved",
+      "status": "partial_external_original_source_check",
       "clinical_review": false,
       "publish": false,
       "automation_allowed": false,
@@ -21359,7 +21383,8 @@
       "identity_group": null,
       "cohort_family_candidates": [
         "PRECONCEPT Vietnam"
-      ]
+      ],
+      "audit_batch": "20"
     },
     {
       "id": "I1-B02-025",
@@ -21368,7 +21393,7 @@
       "index": 24,
       "url": "https://pubmed.ncbi.nlm.nih.gov/20715595/",
       "family": "POSGRAD",
-      "status": "archive_disposition_complete_external_audit_unresolved",
+      "status": "partial_external_original_source_check",
       "clinical_review": false,
       "publish": false,
       "automation_allowed": false,
@@ -21378,7 +21403,8 @@
       "identity_group": null,
       "cohort_family_candidates": [
         "POSGRAD"
-      ]
+      ],
+      "audit_batch": "20"
     },
     {
       "id": "I1-B02-026",
@@ -21387,7 +21413,7 @@
       "index": 25,
       "url": "https://pubmed.ncbi.nlm.nih.gov/27604770/",
       "family": "POSGRAD",
-      "status": "archive_disposition_complete_external_audit_unresolved",
+      "status": "partial_external_original_source_check",
       "clinical_review": false,
       "publish": false,
       "automation_allowed": false,
@@ -21397,7 +21423,8 @@
       "identity_group": null,
       "cohort_family_candidates": [
         "POSGRAD"
-      ]
+      ],
+      "audit_batch": "20"
     },
     {
       "id": "I1-B02-027",
@@ -21406,7 +21433,7 @@
       "index": 26,
       "url": "https://pubmed.ncbi.nlm.nih.gov/21807696/",
       "family": "POSGRAD",
-      "status": "archive_disposition_complete_external_audit_unresolved",
+      "status": "partial_external_original_source_check",
       "clinical_review": false,
       "publish": false,
       "automation_allowed": false,
@@ -21416,7 +21443,8 @@
       "identity_group": null,
       "cohort_family_candidates": [
         "POSGRAD"
-      ]
+      ],
+      "audit_batch": "20"
     },
     {
       "id": "I1-B02-028",
@@ -21425,7 +21453,7 @@
       "index": 27,
       "url": "https://pubmed.ncbi.nlm.nih.gov/34543890/",
       "family": "POSGRAD",
-      "status": "archive_disposition_complete_external_audit_unresolved",
+      "status": "partial_external_original_source_check",
       "clinical_review": false,
       "publish": false,
       "automation_allowed": false,
@@ -21435,7 +21463,8 @@
       "identity_group": null,
       "cohort_family_candidates": [
         "POSGRAD"
-      ]
+      ],
+      "audit_batch": "20"
     },
     {
       "id": "I1-B02-029",
@@ -21444,7 +21473,7 @@
       "index": 28,
       "url": "https://pubmed.ncbi.nlm.nih.gov/26262896/",
       "family": "POSGRAD",
-      "status": "archive_disposition_complete_external_audit_unresolved",
+      "status": "partial_external_original_source_check",
       "clinical_review": false,
       "publish": false,
       "automation_allowed": false,
@@ -21454,7 +21483,8 @@
       "identity_group": null,
       "cohort_family_candidates": [
         "POSGRAD"
-      ]
+      ],
+      "audit_batch": "20"
     },
     {
       "id": "I1-B02-030",
@@ -21463,7 +21493,7 @@
       "index": 29,
       "url": "https://pubmed.ncbi.nlm.nih.gov/36074245/",
       "family": "POSGRAD",
-      "status": "archive_disposition_complete_external_audit_unresolved",
+      "status": "partial_external_original_source_check",
       "clinical_review": false,
       "publish": false,
       "automation_allowed": false,
@@ -21473,7 +21503,8 @@
       "identity_group": null,
       "cohort_family_candidates": [
         "POSGRAD"
-      ]
+      ],
+      "audit_batch": "20"
     },
     {
       "id": "I1-B02-031",
@@ -21482,7 +21513,7 @@
       "index": 30,
       "url": "https://pubmed.ncbi.nlm.nih.gov/25926416/",
       "family": "POSGRAD",
-      "status": "archive_disposition_complete_external_audit_unresolved",
+      "status": "partial_external_original_source_check",
       "clinical_review": false,
       "publish": false,
       "automation_allowed": false,
@@ -21492,7 +21523,8 @@
       "identity_group": null,
       "cohort_family_candidates": [
         "POSGRAD"
-      ]
+      ],
+      "audit_batch": "20"
     },
     {
       "id": "I1-B02-032",
@@ -22189,7 +22221,7 @@
       "index": 0,
       "url": "https://pubmed.ncbi.nlm.nih.gov/34218184/",
       "family": "UGAAR",
-      "status": "archive_disposition_complete_external_audit_unresolved",
+      "status": "partial_external_original_source_check",
       "clinical_review": false,
       "publish": false,
       "automation_allowed": false,
@@ -22199,7 +22231,8 @@
       "identity_group": null,
       "cohort_family_candidates": [
         "UGAAR"
-      ]
+      ],
+      "audit_batch": "20"
     },
     {
       "id": "I1-B04-002",
@@ -22208,7 +22241,7 @@
       "index": 1,
       "url": "https://pubmed.ncbi.nlm.nih.gov/36007302/",
       "family": "UGAAR",
-      "status": "archive_disposition_complete_external_audit_unresolved",
+      "status": "partial_external_original_source_check",
       "clinical_review": false,
       "publish": false,
       "automation_allowed": false,
@@ -22218,7 +22251,8 @@
       "identity_group": null,
       "cohort_family_candidates": [
         "UGAAR"
-      ]
+      ],
+      "audit_batch": "20"
     },
     {
       "id": "I1-B04-003",
@@ -22227,7 +22261,7 @@
       "index": 2,
       "url": "https://pubmed.ncbi.nlm.nih.gov/29751442/",
       "family": "UGAAR",
-      "status": "archive_disposition_complete_external_audit_unresolved",
+      "status": "partial_external_original_source_check",
       "clinical_review": false,
       "publish": false,
       "automation_allowed": false,
@@ -22237,7 +22271,8 @@
       "identity_group": null,
       "cohort_family_candidates": [
         "UGAAR"
-      ]
+      ],
+      "audit_batch": "20"
     },
     {
       "id": "I1-B04-004",
@@ -22246,7 +22281,7 @@
       "index": 3,
       "url": "https://pubmed.ncbi.nlm.nih.gov/37121346/",
       "family": "UGAAR",
-      "status": "archive_disposition_complete_external_audit_unresolved",
+      "status": "partial_external_original_source_check",
       "clinical_review": false,
       "publish": false,
       "automation_allowed": false,
@@ -22256,7 +22291,8 @@
       "identity_group": null,
       "cohort_family_candidates": [
         "UGAAR"
-      ]
+      ],
+      "audit_batch": "20"
     },
     {
       "id": "I1-B04-005",
@@ -22265,7 +22301,7 @@
       "index": 4,
       "url": "https://pubmed.ncbi.nlm.nih.gov/34225757/",
       "family": "UGAAR",
-      "status": "archive_disposition_complete_external_audit_unresolved",
+      "status": "partial_external_original_source_check",
       "clinical_review": false,
       "publish": false,
       "automation_allowed": false,
@@ -22275,7 +22311,8 @@
       "identity_group": null,
       "cohort_family_candidates": [
         "UGAAR"
-      ]
+      ],
+      "audit_batch": "20"
     },
     {
       "id": "I1-B04-006",
@@ -22284,7 +22321,7 @@
       "index": 5,
       "url": "https://pubmed.ncbi.nlm.nih.gov/42431301/",
       "family": "UGAAR",
-      "status": "archive_disposition_complete_external_audit_unresolved",
+      "status": "partial_external_original_source_check",
       "clinical_review": false,
       "publish": false,
       "automation_allowed": false,
@@ -22294,7 +22331,8 @@
       "identity_group": null,
       "cohort_family_candidates": [
         "UGAAR"
-      ]
+      ],
+      "audit_batch": "20"
     },
     {
       "id": "I1-B04-007",
@@ -22303,7 +22341,7 @@
       "index": 6,
       "url": "https://pubmed.ncbi.nlm.nih.gov/36530934/",
       "family": "UGAAR",
-      "status": "archive_disposition_complete_external_audit_unresolved",
+      "status": "partial_external_original_source_check",
       "clinical_review": false,
       "publish": false,
       "automation_allowed": false,
@@ -22313,7 +22351,8 @@
       "identity_group": null,
       "cohort_family_candidates": [
         "UGAAR"
-      ]
+      ],
+      "audit_batch": "20"
     },
     {
       "id": "I1-B04-008",
@@ -22322,7 +22361,7 @@
       "index": 7,
       "url": "https://pubmed.ncbi.nlm.nih.gov/38169488/",
       "family": "HAPIN",
-      "status": "archive_disposition_complete_external_audit_unresolved",
+      "status": "partial_external_original_source_check",
       "clinical_review": false,
       "publish": false,
       "automation_allowed": false,
@@ -22332,7 +22371,8 @@
       "identity_group": null,
       "cohort_family_candidates": [
         "HAPIN"
-      ]
+      ],
+      "audit_batch": "20"
     },
     {
       "id": "I1-B04-009",
@@ -22341,7 +22381,7 @@
       "index": 8,
       "url": "https://pubmed.ncbi.nlm.nih.gov/37413928/",
       "family": "HAPIN",
-      "status": "archive_disposition_complete_external_audit_unresolved",
+      "status": "partial_external_original_source_check",
       "clinical_review": false,
       "publish": false,
       "automation_allowed": false,
@@ -22351,7 +22391,8 @@
       "identity_group": null,
       "cohort_family_candidates": [
         "HAPIN"
-      ]
+      ],
+      "audit_batch": "20"
     },
     {
       "id": "I1-B04-010",
@@ -22360,7 +22401,7 @@
       "index": 9,
       "url": "https://pubmed.ncbi.nlm.nih.gov/38614630/",
       "family": "HAPIN",
-      "status": "archive_disposition_complete_external_audit_unresolved",
+      "status": "partial_external_original_source_check",
       "clinical_review": false,
       "publish": false,
       "automation_allowed": false,
@@ -22370,7 +22411,9 @@
       "identity_group": null,
       "cohort_family_candidates": [
         "HAPIN"
-      ]
+      ],
+      "audit_batch": "20",
+      "batch20_integrity_hold": "Correction located: corrected 98.75% CI -0.10 to -0.01 for 33-week exposure-response figure 4. Other integrity checks pending."
     },
     {
       "id": "I1-B04-011",
@@ -22379,7 +22422,7 @@
       "index": 10,
       "url": "https://pubmed.ncbi.nlm.nih.gov/42241937/",
       "family": "HAPIN",
-      "status": "archive_disposition_complete_external_audit_unresolved",
+      "status": "partial_external_original_source_check",
       "clinical_review": false,
       "publish": false,
       "automation_allowed": false,
@@ -22389,7 +22432,8 @@
       "identity_group": null,
       "cohort_family_candidates": [
         "HAPIN"
-      ]
+      ],
+      "audit_batch": "20"
     },
     {
       "id": "I1-B04-012",
@@ -22398,7 +22442,7 @@
       "index": 11,
       "url": "https://pubmed.ncbi.nlm.nih.gov/42270650/",
       "family": "HAPIN",
-      "status": "archive_disposition_complete_external_audit_unresolved",
+      "status": "partial_external_original_source_check",
       "clinical_review": false,
       "publish": false,
       "automation_allowed": false,
@@ -22408,7 +22452,8 @@
       "identity_group": null,
       "cohort_family_candidates": [
         "HAPIN"
-      ]
+      ],
+      "audit_batch": "20"
     },
     {
       "id": "I1-B04-013",
@@ -22417,7 +22462,7 @@
       "index": 12,
       "url": "https://pubmed.ncbi.nlm.nih.gov/37164515/",
       "family": "HAPIN",
-      "status": "archive_disposition_complete_external_audit_unresolved",
+      "status": "partial_external_original_source_check",
       "clinical_review": false,
       "publish": false,
       "automation_allowed": false,
@@ -22427,7 +22472,8 @@
       "identity_group": null,
       "cohort_family_candidates": [
         "HAPIN"
-      ]
+      ],
+      "audit_batch": "20"
     },
     {
       "id": "I1-B04-014",
@@ -22436,7 +22482,7 @@
       "index": 13,
       "url": "https://pubmed.ncbi.nlm.nih.gov/37660633/",
       "family": "HAPIN",
-      "status": "archive_disposition_complete_external_audit_unresolved",
+      "status": "partial_external_original_source_check",
       "clinical_review": false,
       "publish": false,
       "automation_allowed": false,
@@ -22446,7 +22492,9 @@
       "identity_group": null,
       "cohort_family_candidates": [
         "HAPIN"
-      ]
+      ],
+      "audit_batch": "20",
+      "batch20_integrity_hold": "Same-title alternate PMID requires version reconciliation; no independent count."
     },
     {
       "id": "I1-B04-015",
@@ -22455,7 +22503,7 @@
       "index": 14,
       "url": "https://pubmed.ncbi.nlm.nih.gov/41474812/",
       "family": "HAPIN",
-      "status": "archive_disposition_complete_external_audit_unresolved",
+      "status": "partial_external_original_source_check",
       "clinical_review": false,
       "publish": false,
       "automation_allowed": false,
@@ -22465,7 +22513,9 @@
       "identity_group": null,
       "cohort_family_candidates": [
         "HAPIN"
-      ]
+      ],
+      "audit_batch": "20",
+      "batch20_integrity_hold": "Same-title alternate PMID requires version reconciliation; no independent count."
     },
     {
       "id": "I1-B04-016",
@@ -22474,7 +22524,7 @@
       "index": 15,
       "url": "https://pubmed.ncbi.nlm.nih.gov/39729872/",
       "family": "HAPIN",
-      "status": "archive_disposition_complete_external_audit_unresolved",
+      "status": "partial_external_original_source_check",
       "clinical_review": false,
       "publish": false,
       "automation_allowed": false,
@@ -22484,7 +22534,8 @@
       "identity_group": null,
       "cohort_family_candidates": [
         "HAPIN"
-      ]
+      ],
+      "audit_batch": "20"
     },
     {
       "id": "I1-B04-017",
@@ -22493,7 +22544,7 @@
       "index": 16,
       "url": "https://pubmed.ncbi.nlm.nih.gov/42396264/",
       "family": "HAPIN",
-      "status": "archive_disposition_complete_external_audit_unresolved",
+      "status": "partial_external_original_source_check",
       "clinical_review": false,
       "publish": false,
       "automation_allowed": false,
@@ -22503,7 +22554,8 @@
       "identity_group": null,
       "cohort_family_candidates": [
         "HAPIN"
-      ]
+      ],
+      "audit_batch": "20"
     },
     {
       "id": "I1-B04-018",
@@ -32165,6 +32217,12 @@
       "scope": "International prenatal nutrition and overlapping trial populations; preliminary source, outcome, funding and applicability screening",
       "commit": "902c64d19b65c70b301056ca6eba655016e4c797",
       "file": "BATCH_19_INTERNATIONAL_NUTRITION_COHORTS.json"
+    },
+    {
+      "batch": "20",
+      "scope": "International breastfeeding, preconception, DHA and environmental longitudinal trial families; partial publication and correction/version screens",
+      "commit": "1e928c568bc08110d41528e04c9ad180edef14bc",
+      "file": "BATCH_20_INTERNATIONAL_LONGITUDINAL_AND_ENVIRONMENT.json"
     }
   ],
   "next_batches": {
@@ -32183,7 +32241,7 @@
     "archive_disposition_pass": "complete",
     "full_original_source_verification": "incomplete",
     "clinical_release": "held",
-    "note": "Stage 7 remains in progress. 395 unique records have partial external checks, including 339 original-source or indexed-metadata checks and 57 visual publisher-policy checks (one overlapping record). International preliminary coverage 56/201. Full appraisals, funding and sponsor verification, cohort reconciliation, retraction searches, clinical review and reuse clearance remain pending. All existing holds remain in force.",
+    "note": "Stage 7 in progress. 443 unique records partially externally checked, including 387 original-source or indexed-metadata checks and 57 visual publisher-policy checks (one overlapping). International coverage 104/201. Batch 20 records a published HAPIN fetal-growth figure correction and two alternate-PMID version holds. Full appraisals and all clinical/reuse clearance pending. All existing holds retained.",
     "visual_publisher_policy_pass": "complete_for_57_expansion_visuals",
     "contradictory_evidence_identity_screen": "83 of 83 publication records have partial external checks; not formal appraisals",
     "underpublished_identity_screen": "75 of 75 records have partial external checks; two embargo/withheld access holds recorded; not formal appraisals"
