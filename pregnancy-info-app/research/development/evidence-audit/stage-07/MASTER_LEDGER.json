@@ -20,8 +20,8 @@
     "hold_entries": 18,
     "exceptions": [],
     "full_external_appraisals": 0,
-    "partial_external_audit_records": 582,
-    "pending_without_new_external_audit": 855,
+    "partial_external_audit_records": 612,
+    "pending_without_new_external_audit": 825,
     "uncounted_integrity_holds_rechecked": 4,
     "archive_dispositions_complete": 1437,
     "archive_dispositions_pending": 0,
@@ -63,9 +63,9 @@
       "visual_reuse_approved": 0,
       "missing": 0
     },
-    "partial_original_source_checks": 526,
+    "partial_original_source_checks": 556,
     "visual_publisher_policy_checks": 57,
-    "additional_correction_holds": 2,
+    "additional_correction_holds": 3,
     "visual_reuse_approved": 0,
     "additional_safety_flags": 1,
     "contradictory_inventory_partial_checks": 83,
@@ -1266,7 +1266,7 @@
         "C-BREAST-001"
       ],
       "outcomes": [],
-      "status": "archive_disposition_complete_external_audit_unresolved",
+      "status": "partial_external_original_source_check",
       "clinical_review": false,
       "publish": false,
       "automation_allowed": false,
@@ -1274,7 +1274,8 @@
       "disposition": "hold_identity_overlap_review",
       "disposition_batch": "02",
       "identity_group": "IDG-011",
-      "cohort_family_candidates": []
+      "cohort_family_candidates": [],
+      "audit_batch": "25"
     },
     {
       "id": "S045",
@@ -1289,7 +1290,7 @@
         "C-BREAST-001"
       ],
       "outcomes": [],
-      "status": "archive_disposition_complete_external_audit_unresolved",
+      "status": "partial_external_original_source_check",
       "clinical_review": false,
       "publish": false,
       "automation_allowed": false,
@@ -1297,7 +1298,8 @@
       "disposition": "hold_claim_verification",
       "disposition_batch": "02",
       "identity_group": null,
-      "cohort_family_candidates": []
+      "cohort_family_candidates": [],
+      "audit_batch": "25"
     },
     {
       "id": "S046",
@@ -1312,7 +1314,7 @@
         "C-BREAST-001"
       ],
       "outcomes": [],
-      "status": "archive_disposition_complete_external_audit_unresolved",
+      "status": "partial_external_original_source_check",
       "clinical_review": false,
       "publish": false,
       "automation_allowed": false,
@@ -1320,7 +1322,8 @@
       "disposition": "hold_claim_verification",
       "disposition_batch": "02",
       "identity_group": null,
-      "cohort_family_candidates": []
+      "cohort_family_candidates": [],
+      "audit_batch": "25"
     },
     {
       "id": "S047",
@@ -1333,7 +1336,7 @@
       "candidates": [],
       "claims": [],
       "outcomes": [],
-      "status": "archive_disposition_complete_external_audit_unresolved",
+      "status": "partial_external_original_source_check",
       "clinical_review": false,
       "publish": false,
       "automation_allowed": false,
@@ -1341,7 +1344,8 @@
       "disposition": "hold_relevance_and_source_appraisal",
       "disposition_batch": "02",
       "identity_group": null,
-      "cohort_family_candidates": []
+      "cohort_family_candidates": [],
+      "audit_batch": "25"
     },
     {
       "id": "S048",
@@ -1354,7 +1358,7 @@
       "candidates": [],
       "claims": [],
       "outcomes": [],
-      "status": "archive_disposition_complete_external_audit_unresolved",
+      "status": "partial_external_original_source_check",
       "clinical_review": false,
       "publish": false,
       "automation_allowed": false,
@@ -1362,7 +1366,8 @@
       "disposition": "hold_relevance_and_source_appraisal",
       "disposition_batch": "02",
       "identity_group": null,
-      "cohort_family_candidates": []
+      "cohort_family_candidates": [],
+      "audit_batch": "25"
     },
     {
       "id": "S049",
@@ -1377,7 +1382,7 @@
         "C-FIT-001"
       ],
       "outcomes": [],
-      "status": "archive_disposition_complete_external_audit_unresolved",
+      "status": "partial_external_original_source_check",
       "clinical_review": false,
       "publish": false,
       "automation_allowed": false,
@@ -1385,7 +1390,8 @@
       "disposition": "hold_claim_verification",
       "disposition_batch": "02",
       "identity_group": null,
-      "cohort_family_candidates": []
+      "cohort_family_candidates": [],
+      "audit_batch": "25"
     },
     {
       "id": "S050",
@@ -1403,7 +1409,7 @@
       "outcomes": [
         "O004"
       ],
-      "status": "archive_disposition_complete_external_audit_unresolved",
+      "status": "partial_external_original_source_check",
       "clinical_review": false,
       "publish": false,
       "automation_allowed": false,
@@ -1411,7 +1417,8 @@
       "disposition": "hold_claim_verification",
       "disposition_batch": "02",
       "identity_group": null,
-      "cohort_family_candidates": []
+      "cohort_family_candidates": [],
+      "audit_batch": "25"
     },
     {
       "id": "S051",
@@ -1424,7 +1431,7 @@
       "candidates": [],
       "claims": [],
       "outcomes": [],
-      "status": "archive_disposition_complete_external_audit_unresolved",
+      "status": "partial_external_original_source_check",
       "clinical_review": false,
       "publish": false,
       "automation_allowed": false,
@@ -1432,7 +1439,8 @@
       "disposition": "hold_relevance_and_source_appraisal",
       "disposition_batch": "02",
       "identity_group": null,
-      "cohort_family_candidates": []
+      "cohort_family_candidates": [],
+      "audit_batch": "25"
     },
     {
       "id": "S052",
@@ -1447,7 +1455,7 @@
         "C-FIT-001"
       ],
       "outcomes": [],
-      "status": "archive_disposition_complete_external_audit_unresolved",
+      "status": "partial_external_original_source_check",
       "clinical_review": false,
       "publish": false,
       "automation_allowed": false,
@@ -1455,7 +1463,8 @@
       "disposition": "hold_claim_verification",
       "disposition_batch": "02",
       "identity_group": null,
-      "cohort_family_candidates": []
+      "cohort_family_candidates": [],
+      "audit_batch": "25"
     },
     {
       "id": "S053",
@@ -1468,7 +1477,7 @@
       "candidates": [],
       "claims": [],
       "outcomes": [],
-      "status": "archive_disposition_complete_external_audit_unresolved",
+      "status": "partial_external_original_source_check",
       "clinical_review": false,
       "publish": false,
       "automation_allowed": false,
@@ -1476,7 +1485,8 @@
       "disposition": "hold_relevance_and_source_appraisal",
       "disposition_batch": "02",
       "identity_group": null,
-      "cohort_family_candidates": []
+      "cohort_family_candidates": [],
+      "audit_batch": "25"
     },
     {
       "id": "S054",
@@ -1489,7 +1499,7 @@
       "candidates": [],
       "claims": [],
       "outcomes": [],
-      "status": "archive_disposition_complete_external_audit_unresolved",
+      "status": "partial_external_original_source_check",
       "clinical_review": false,
       "publish": false,
       "automation_allowed": false,
@@ -1497,7 +1507,8 @@
       "disposition": "hold_relevance_and_source_appraisal",
       "disposition_batch": "02",
       "identity_group": null,
-      "cohort_family_candidates": []
+      "cohort_family_candidates": [],
+      "audit_batch": "25"
     },
     {
       "id": "S055",
@@ -1512,7 +1523,7 @@
         "C-FIT-001"
       ],
       "outcomes": [],
-      "status": "archive_disposition_complete_external_audit_unresolved",
+      "status": "partial_external_original_source_check",
       "clinical_review": false,
       "publish": false,
       "automation_allowed": false,
@@ -1520,7 +1531,8 @@
       "disposition": "hold_claim_verification",
       "disposition_batch": "02",
       "identity_group": null,
-      "cohort_family_candidates": []
+      "cohort_family_candidates": [],
+      "audit_batch": "25"
     },
     {
       "id": "S056",
@@ -1535,7 +1547,7 @@
         "C-FIT-001"
       ],
       "outcomes": [],
-      "status": "archive_disposition_complete_external_audit_unresolved",
+      "status": "partial_external_original_source_check",
       "clinical_review": false,
       "publish": false,
       "automation_allowed": false,
@@ -1543,7 +1555,9 @@
       "disposition": "hold_claim_verification",
       "disposition_batch": "02",
       "identity_group": null,
-      "cohort_family_candidates": []
+      "cohort_family_candidates": [],
+      "audit_batch": "25",
+      "batch25_integrity_hold": "2018 correction DOI 10.1056/NEJMx180013; PMID 31442370. Current article notes June 14, 2018 update; correction text inaccessible in this session; hold numerical reuse."
     },
     {
       "id": "S057",
@@ -1558,7 +1572,7 @@
         "C-FIT-002"
       ],
       "outcomes": [],
-      "status": "archive_disposition_complete_external_audit_unresolved",
+      "status": "partial_external_original_source_check",
       "clinical_review": false,
       "publish": false,
       "automation_allowed": false,
@@ -1566,7 +1580,8 @@
       "disposition": "hold_claim_verification",
       "disposition_batch": "02",
       "identity_group": null,
-      "cohort_family_candidates": []
+      "cohort_family_candidates": [],
+      "audit_batch": "25"
     },
     {
       "id": "S058",
@@ -1584,7 +1599,7 @@
       "outcomes": [
         "O005"
       ],
-      "status": "archive_disposition_complete_external_audit_unresolved",
+      "status": "partial_external_original_source_check",
       "clinical_review": false,
       "publish": false,
       "automation_allowed": false,
@@ -1592,7 +1607,8 @@
       "disposition": "hold_claim_verification",
       "disposition_batch": "02",
       "identity_group": null,
-      "cohort_family_candidates": []
+      "cohort_family_candidates": [],
+      "audit_batch": "25"
     },
     {
       "id": "S059",
@@ -1608,7 +1624,7 @@
         "C-FIT-002"
       ],
       "outcomes": [],
-      "status": "archive_disposition_complete_external_audit_unresolved",
+      "status": "partial_external_original_source_check",
       "clinical_review": false,
       "publish": false,
       "automation_allowed": false,
@@ -1616,7 +1632,8 @@
       "disposition": "hold_identity_overlap_review",
       "disposition_batch": "02",
       "identity_group": "IDG-012",
-      "cohort_family_candidates": []
+      "cohort_family_candidates": [],
+      "audit_batch": "25"
     },
     {
       "id": "S060",
@@ -1629,7 +1646,7 @@
       "candidates": [],
       "claims": [],
       "outcomes": [],
-      "status": "archive_disposition_complete_external_audit_unresolved",
+      "status": "partial_external_original_source_check",
       "clinical_review": false,
       "publish": false,
       "automation_allowed": false,
@@ -1637,7 +1654,8 @@
       "disposition": "hold_relevance_and_source_appraisal",
       "disposition_batch": "02",
       "identity_group": null,
-      "cohort_family_candidates": []
+      "cohort_family_candidates": [],
+      "audit_batch": "25"
     },
     {
       "id": "S061",
@@ -1650,7 +1668,7 @@
       "candidates": [],
       "claims": [],
       "outcomes": [],
-      "status": "archive_disposition_complete_external_audit_unresolved",
+      "status": "partial_external_original_source_check",
       "clinical_review": false,
       "publish": false,
       "automation_allowed": false,
@@ -1658,7 +1676,8 @@
       "disposition": "hold_relevance_and_source_appraisal",
       "disposition_batch": "02",
       "identity_group": null,
-      "cohort_family_candidates": []
+      "cohort_family_candidates": [],
+      "audit_batch": "25"
     },
     {
       "id": "S062",
@@ -1673,7 +1692,7 @@
         "C-FIT-002"
       ],
       "outcomes": [],
-      "status": "archive_disposition_complete_external_audit_unresolved",
+      "status": "partial_external_original_source_check",
       "clinical_review": false,
       "publish": false,
       "automation_allowed": false,
@@ -1681,7 +1700,8 @@
       "disposition": "hold_claim_verification",
       "disposition_batch": "02",
       "identity_group": null,
-      "cohort_family_candidates": []
+      "cohort_family_candidates": [],
+      "audit_batch": "25"
     },
     {
       "id": "S063",
@@ -1694,7 +1714,7 @@
       "candidates": [],
       "claims": [],
       "outcomes": [],
-      "status": "archive_disposition_complete_external_audit_unresolved",
+      "status": "partial_external_original_source_check",
       "clinical_review": false,
       "publish": false,
       "automation_allowed": false,
@@ -1702,7 +1722,8 @@
       "disposition": "hold_relevance_and_source_appraisal",
       "disposition_batch": "02",
       "identity_group": null,
-      "cohort_family_candidates": []
+      "cohort_family_candidates": [],
+      "audit_batch": "25"
     },
     {
       "id": "S064",
@@ -1719,7 +1740,7 @@
         "C-FIT-003"
       ],
       "outcomes": [],
-      "status": "archive_disposition_complete_external_audit_unresolved",
+      "status": "partial_external_original_source_check",
       "clinical_review": false,
       "publish": false,
       "automation_allowed": false,
@@ -1727,7 +1748,8 @@
       "disposition": "hold_identity_overlap_review",
       "disposition_batch": "02",
       "identity_group": "IDG-013",
-      "cohort_family_candidates": []
+      "cohort_family_candidates": [],
+      "audit_batch": "25"
     },
     {
       "id": "S065",
@@ -1742,7 +1764,7 @@
       ],
       "claims": [],
       "outcomes": [],
-      "status": "archive_disposition_complete_external_audit_unresolved",
+      "status": "partial_external_original_source_check",
       "clinical_review": false,
       "publish": false,
       "automation_allowed": false,
@@ -1750,7 +1772,8 @@
       "disposition": "hold_relevance_and_source_appraisal",
       "disposition_batch": "02",
       "identity_group": null,
-      "cohort_family_candidates": []
+      "cohort_family_candidates": [],
+      "audit_batch": "25"
     },
     {
       "id": "S066",
@@ -1767,7 +1790,7 @@
         "C-FIT-003"
       ],
       "outcomes": [],
-      "status": "archive_disposition_complete_external_audit_unresolved",
+      "status": "partial_external_original_source_check",
       "clinical_review": false,
       "publish": false,
       "automation_allowed": false,
@@ -1775,7 +1798,8 @@
       "disposition": "hold_claim_verification",
       "disposition_batch": "02",
       "identity_group": null,
-      "cohort_family_candidates": []
+      "cohort_family_candidates": [],
+      "audit_batch": "25"
     },
     {
       "id": "S067",
@@ -1792,7 +1816,7 @@
         "C-FIT-003"
       ],
       "outcomes": [],
-      "status": "archive_disposition_complete_external_audit_unresolved",
+      "status": "partial_external_original_source_check",
       "clinical_review": false,
       "publish": false,
       "automation_allowed": false,
@@ -1800,7 +1824,8 @@
       "disposition": "hold_claim_verification",
       "disposition_batch": "02",
       "identity_group": null,
-      "cohort_family_candidates": []
+      "cohort_family_candidates": [],
+      "audit_batch": "25"
     },
     {
       "id": "S068",
@@ -1817,7 +1842,7 @@
         "C-FIT-003"
       ],
       "outcomes": [],
-      "status": "archive_disposition_complete_external_audit_unresolved",
+      "status": "partial_external_original_source_check",
       "clinical_review": false,
       "publish": false,
       "automation_allowed": false,
@@ -1825,7 +1850,8 @@
       "disposition": "hold_claim_verification",
       "disposition_batch": "02",
       "identity_group": null,
-      "cohort_family_candidates": []
+      "cohort_family_candidates": [],
+      "audit_batch": "25"
     },
     {
       "id": "S069",
@@ -1847,7 +1873,7 @@
         "O007",
         "O008"
       ],
-      "status": "archive_disposition_complete_external_audit_unresolved",
+      "status": "partial_external_original_source_check",
       "clinical_review": false,
       "publish": false,
       "automation_allowed": false,
@@ -1855,7 +1881,8 @@
       "disposition": "hold_claim_verification",
       "disposition_batch": "02",
       "identity_group": null,
-      "cohort_family_candidates": []
+      "cohort_family_candidates": [],
+      "audit_batch": "25"
     },
     {
       "id": "S070",
@@ -1870,7 +1897,7 @@
         "C-PELV-001"
       ],
       "outcomes": [],
-      "status": "archive_disposition_complete_external_audit_unresolved",
+      "status": "partial_external_original_source_check",
       "clinical_review": false,
       "publish": false,
       "automation_allowed": false,
@@ -1878,7 +1905,8 @@
       "disposition": "hold_claim_verification",
       "disposition_batch": "02",
       "identity_group": null,
-      "cohort_family_candidates": []
+      "cohort_family_candidates": [],
+      "audit_batch": "25"
     },
     {
       "id": "S071",
@@ -1893,7 +1921,7 @@
         "C-PELV-001"
       ],
       "outcomes": [],
-      "status": "archive_disposition_complete_external_audit_unresolved",
+      "status": "partial_external_original_source_check",
       "clinical_review": false,
       "publish": false,
       "automation_allowed": false,
@@ -1901,7 +1929,8 @@
       "disposition": "hold_claim_verification",
       "disposition_batch": "02",
       "identity_group": null,
-      "cohort_family_candidates": []
+      "cohort_family_candidates": [],
+      "audit_batch": "25"
     },
     {
       "id": "S072",
@@ -1916,7 +1945,7 @@
         "C-PELV-001"
       ],
       "outcomes": [],
-      "status": "archive_disposition_complete_external_audit_unresolved",
+      "status": "partial_external_original_source_check",
       "clinical_review": false,
       "publish": false,
       "automation_allowed": false,
@@ -1924,7 +1953,8 @@
       "disposition": "hold_claim_verification",
       "disposition_batch": "02",
       "identity_group": null,
-      "cohort_family_candidates": []
+      "cohort_family_candidates": [],
+      "audit_batch": "25"
     },
     {
       "id": "S073",
@@ -1937,7 +1967,7 @@
       "candidates": [],
       "claims": [],
       "outcomes": [],
-      "status": "archive_disposition_complete_external_audit_unresolved",
+      "status": "partial_external_original_source_check",
       "clinical_review": false,
       "publish": false,
       "automation_allowed": false,
@@ -1945,7 +1975,8 @@
       "disposition": "hold_relevance_and_source_appraisal",
       "disposition_batch": "02",
       "identity_group": null,
-      "cohort_family_candidates": []
+      "cohort_family_candidates": [],
+      "audit_batch": "25"
     },
     {
       "id": "S074",
@@ -32386,6 +32417,12 @@
       "scope": "Baseline skin and postpartum studies: indexed source identity/design and selected outcome checks, contradictory findings and review overlap",
       "commit": "0b40896e9794022cc9aaa87080ec10f114ec562c",
       "file": "BATCH_24_BASELINE_SKIN_POSTPARTUM_EVIDENCE.json"
+    },
+    {
+      "batch": "25",
+      "scope": "Baseline breast changes, fertility, exercise and pelvic floor; indexed source checks, select disclosures and correction hold",
+      "commit": "0098de55711a5423eaf0bd37227f1e0c03a0a595",
+      "file": "BATCH_25_BASELINE_FERTILITY_EXERCISE_BREAST.json"
     }
   ],
   "next_batches": {
@@ -32404,7 +32441,7 @@
     "archive_disposition_pass": "complete",
     "full_original_source_verification": "incomplete",
     "clinical_release": "held",
-    "note": "Ledger records 582/1437 partial external checks (including identity-only screens), zero full appraisals; all safety and release holds retained.",
+    "note": "Ledger records 612/1437 partial external checks (including identity-only screens), zero full appraisals; all safety and release holds retained.",
     "visual_publisher_policy_pass": "complete_for_57_expansion_visuals",
     "contradictory_evidence_identity_screen": "83 of 83 publication records have partial external checks; not formal appraisals",
     "underpublished_identity_screen": "75 of 75 records have partial external checks; two embargo/withheld access holds recorded; not formal appraisals"
