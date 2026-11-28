@@ -1,0 +1,257 @@
+{
+  "stage": 7,
+  "batch": "14",
+  "date": "2026-11-27",
+  "scope": "17 additional traditional-practice source checks on postpartum confinement, culturally safe maternity care and midwifery; study-family linkage and selected funding verification.",
+  "counted_ids": [
+    "TH2-027",
+    "TH2-028",
+    "TH2-033",
+    "TH2-062",
+    "TH2-076",
+    "TH2-077",
+    "TH2-078",
+    "TH2-079",
+    "TH2-080",
+    "TH2-081",
+    "TH2-082",
+    "TH2-083",
+    "TH2-084",
+    "TH2-085",
+    "TH2-086",
+    "TH2-087",
+    "TH2-088"
+  ],
+  "checks": [
+    {
+      "id": "TH2-027",
+      "source": "https://pubmed.ncbi.nlm.nih.gov/19135261/",
+      "sources": [
+        "https://pubmed.ncbi.nlm.nih.gov/19135261/"
+      ],
+      "findings": "English-language systematic review of confinement practices and postpartum depression in Chinese cultures. Language restriction, historical search cutoff and observational confounding limit inference; full included-study membership and disclosures not reviewed.",
+      "scope": "Indexed source identity and selected original abstract/publisher passages; secondary metadata explicitly qualified; no full independent appraisal or systematic retraction checks.",
+      "clinical_review": false,
+      "publish": false,
+      "automation_allowed": false
+    },
+    {
+      "id": "TH2-028",
+      "source": "https://pubmed.ncbi.nlm.nih.gov/37903136/",
+      "sources": [
+        "https://pubmed.ncbi.nlm.nih.gov/37903136/",
+        "https://journals.plos.org/plosone/article?id=10.1371%2Fjournal.pone.0293667"
+      ],
+      "findings": "2023 systematic review (DOI 10.1371/journal.pone.0293667): 15 cross-sectional studies and one randomized study; four suggested lower depression risk, two the opposite and ten no significant association. No established protective effect of the whole confinement practice. Publisher reports no specific funding and no competing interests; primary-study funding/overlap and full quality assessment pending.",
+      "scope": "Indexed source identity and selected original abstract/publisher passages; secondary metadata explicitly qualified; no full independent appraisal or systematic retraction checks.",
+      "clinical_review": false,
+      "publish": false,
+      "automation_allowed": false
+    },
+    {
+      "id": "TH2-033",
+      "source": "https://pubmed.ncbi.nlm.nih.gov/20047722/",
+      "sources": [
+        "https://pubmed.ncbi.nlm.nih.gov/20047722/"
+      ],
+      "findings": "Systematic review of postpartum rituals and mood/depression using qualitative and quantitative studies. Social support and individual practices cannot be attributed to the entire ritual package; potential overlap with TH2-027/028. Funding and full methods pending.",
+      "scope": "Indexed source identity and selected original abstract/publisher passages; secondary metadata explicitly qualified; no full independent appraisal or systematic retraction checks.",
+      "clinical_review": false,
+      "publish": false,
+      "automation_allowed": false
+    },
+    {
+      "id": "TH2-062",
+      "source": "https://pubmed.ncbi.nlm.nih.gov/43069103/",
+      "sources": [
+        "https://pubmed.ncbi.nlm.nih.gov/43069103/"
+      ],
+      "findings": "Malaysian nationwide observational survey of postnatal massage use; associations with parity, income, ethnicity, locality, place of confinement and mode of delivery. Use/preference is not evidence of benefit or clinical safety. Ethical approval reported; funding and interests not extracted.",
+      "scope": "Indexed source identity and selected original abstract/publisher passages; secondary metadata explicitly qualified; no full independent appraisal or systematic retraction checks.",
+      "clinical_review": false,
+      "publish": false,
+      "automation_allowed": false
+    },
+    {
+      "id": "TH2-076",
+      "source": "https://pubmed.ncbi.nlm.nih.gov/32726727/",
+      "sources": [
+        "https://pubmed.ncbi.nlm.nih.gov/32726727/",
+        "https://www.sciencedirect.com/science/article/abs/pii/S0266613820301686"
+      ],
+      "findings": "Randomized health education program among Chinese women practicing postpartum confinement: 124 recruited, 108 completed (54 in each group). Tests evidence-informed education, not confinement versus no confinement; missing outcomes and full effect estimates require review. Publisher abstract confirms intervention; direct PubMed body unavailable. OpenAlex indicates Ministry of Education of China, not verified against original funding declaration.",
+      "scope": "Indexed source identity and selected original abstract/publisher passages; secondary metadata explicitly qualified; no full independent appraisal or systematic retraction checks.",
+      "clinical_review": false,
+      "publish": false,
+      "automation_allowed": false
+    },
+    {
+      "id": "TH2-077",
+      "source": "https://pubmed.ncbi.nlm.nih.gov/23132403/",
+      "sources": [
+        "https://pubmed.ncbi.nlm.nih.gov/23132403/"
+      ],
+      "findings": "Identity confirmed: study of doing-the-month practices and Chinese women's postpartum physical and psychological health. Methods, individual outcomes and funding not freshly extracted. No causal benefit assigned.",
+      "scope": "Indexed source identity and selected original abstract/publisher passages; secondary metadata explicitly qualified; no full independent appraisal or systematic retraction checks.",
+      "clinical_review": false,
+      "publish": false,
+      "automation_allowed": false
+    },
+    {
+      "id": "TH2-078",
+      "source": "https://pubmed.ncbi.nlm.nih.gov/31060983/",
+      "sources": [
+        "https://pubmed.ncbi.nlm.nih.gov/31060983/"
+      ],
+      "findings": "Shanghai Birth Cohort, 2,615 postpartum women, 2013–2016. Indexed abstract indicates not all confinement activities were protective against postpartum depression. Prospective observational design cannot eliminate confounding or reverse causation; direct PubMed body unavailable. OpenAlex lists Chinese national science/research funders, original declaration pending.",
+      "scope": "Indexed source identity and selected original abstract/publisher passages; secondary metadata explicitly qualified; no full independent appraisal or systematic retraction checks.",
+      "clinical_review": false,
+      "publish": false,
+      "automation_allowed": false
+    },
+    {
+      "id": "TH2-079",
+      "source": "https://pubmed.ncbi.nlm.nih.gov/36189713/",
+      "sources": [
+        "https://pubmed.ncbi.nlm.nih.gov/36189713/"
+      ],
+      "findings": "Narrative companion to Guerrero randomized intervention (TH2-080/087): accounts from 26 traditional midwives, 28 apprentices, 12 intercultural brokers and 20 women. Describes implementation and perceived effects, not a second randomized estimate. Authors declare no potential conflicts; article-specific funding pending.",
+      "scope": "Indexed source identity and selected original abstract/publisher passages; secondary metadata explicitly qualified; no full independent appraisal or systematic retraction checks.",
+      "clinical_review": false,
+      "publish": false,
+      "automation_allowed": false
+    },
+    {
+      "id": "TH2-080",
+      "source": "https://pubmed.ncbi.nlm.nih.gov/35038990/",
+      "sources": [
+        "https://pubmed.ncbi.nlm.nih.gov/35038990/",
+        "https://link.springer.com/article/10.1186/s12884-021-04344-w"
+      ],
+      "findings": "Guerrero pragmatic cluster randomized noninferiority trial in 80 communities across four municipalities; 872 completed pregnancies. Composite perinatal death/childbirth/neonatal complications RD -0.06 (95% CI -0.09 to -0.02); traditional childbirth RD +0.10 (0.02 to 0.18). Retrospective registration ISRCTN12397283, fixed population and mortality uncertainty; not home-birth equivalence or evidence for isolated techniques. Mexican National Council of Science and Technology grant PDCPN-2013-214858; pilot UBS Optimus Foundation; fieldwork Quebec Population Health Research Network and McGill medicine faculty; analysis CeiBA Foundation, Colombian Center of Intercultural Medical Studies and FRQS 255253. Authors declare independence from funders and no competing interests. Full risk-of-bias appraisal pending.",
+      "scope": "Indexed source identity and selected original abstract/publisher passages; secondary metadata explicitly qualified; no full independent appraisal or systematic retraction checks.",
+      "clinical_review": false,
+      "publish": false,
+      "automation_allowed": false
+    },
+    {
+      "id": "TH2-081",
+      "source": "https://pubmed.ncbi.nlm.nih.gov/34949629/",
+      "sources": [
+        "https://pubmed.ncbi.nlm.nih.gov/34949629/"
+      ],
+      "findings": "Contextualized scoping review on Indigenous traditional midwives in southern Mexico; reported perspectives differ regarding institutional access and cultural safety. Not clinical efficacy or pooled mortality estimate. Direct abstract page unavailable; indexed source only, funding and review overlap pending.",
+      "scope": "Indexed source identity and selected original abstract/publisher passages; secondary metadata explicitly qualified; no full independent appraisal or systematic retraction checks.",
+      "clinical_review": false,
+      "publish": false,
+      "automation_allowed": false
+    },
+    {
+      "id": "TH2-082",
+      "source": "https://pubmed.ncbi.nlm.nih.gov/29524774/",
+      "sources": [
+        "https://pubmed.ncbi.nlm.nih.gov/29524774/"
+      ],
+      "findings": "Guatemalan traditional birth attendant obstetric emergency teaching publication identity verified. Direct page CAPTCHA; training effectiveness, design and funding not independently extracted. No procedural equivalence claim.",
+      "scope": "Indexed source identity and selected original abstract/publisher passages; secondary metadata explicitly qualified; no full independent appraisal or systematic retraction checks.",
+      "clinical_review": false,
+      "publish": false,
+      "automation_allowed": false
+    },
+    {
+      "id": "TH2-083",
+      "source": "https://pubmed.ncbi.nlm.nih.gov/9037932/",
+      "sources": [
+        "https://pubmed.ncbi.nlm.nih.gov/9037932/"
+      ],
+      "findings": "Historical study of beliefs and birthing practices of rural Guatemalan traditional midwives. Indexed title verified; archive account not freshly appraised. Local historical context, not current safety or clinical efficacy.",
+      "scope": "Indexed source identity and selected original abstract/publisher passages; secondary metadata explicitly qualified; no full independent appraisal or systematic retraction checks.",
+      "clinical_review": false,
+      "publish": false,
+      "automation_allowed": false
+    },
+    {
+      "id": "TH2-084",
+      "source": "https://pubmed.ncbi.nlm.nih.gov/36069564/",
+      "sources": [
+        "https://pubmed.ncbi.nlm.nih.gov/36069564/"
+      ],
+      "findings": "Ethnographic critical case study of NGO efforts to integrate midwives in Chiapas, Mexico. Findings concern local incentives, acceptability and ethics, not comparative clinical effects. One author affiliated with Partners in Health Mexico; non-US government research support indexing not full disclosure. Funding and implementation role pending.",
+      "scope": "Indexed source identity and selected original abstract/publisher passages; secondary metadata explicitly qualified; no full independent appraisal or systematic retraction checks.",
+      "clinical_review": false,
+      "publish": false,
+      "automation_allowed": false
+    },
+    {
+      "id": "TH2-085",
+      "source": "https://pubmed.ncbi.nlm.nih.gov/32524605/",
+      "sources": [
+        "https://pubmed.ncbi.nlm.nih.gov/32524605/",
+        "https://doi.org/10.1002/ijgo.13262"
+      ],
+      "findings": "Guatemala stepped-wedge cluster randomized trial of integrated maternal/newborn service package. Indexed original abstract verifies design and scope; publisher 403 and direct PubMed body unavailable. OpenAlex lists USAID, Gates Foundation, NIHR and Fogarty International Center as funders, primary declaration and sponsor role not verified. Full effect estimates and intervention-specific attribution unresolved.",
+      "scope": "Indexed source identity and selected original abstract/publisher passages; secondary metadata explicitly qualified; no full independent appraisal or systematic retraction checks.",
+      "clinical_review": false,
+      "publish": false,
+      "automation_allowed": false
+    },
+    {
+      "id": "TH2-086",
+      "source": "https://pubmed.ncbi.nlm.nih.gov/8844924/",
+      "sources": [
+        "https://pubmed.ncbi.nlm.nih.gov/8844924/"
+      ],
+      "findings": "Historical observational report of traditional birth attendants in Mexico. Author descriptions of possible advantages such as perineal care are not randomized clinical evidence; no procedural recommendations. Full methods, confounding and funding unresolved.",
+      "scope": "Indexed source identity and selected original abstract/publisher passages; secondary metadata explicitly qualified; no full independent appraisal or systematic retraction checks.",
+      "clinical_review": false,
+      "publish": false,
+      "automation_allowed": false
+    },
+    {
+      "id": "TH2-087",
+      "source": "https://pubmed.ncbi.nlm.nih.gov/29973241/",
+      "sources": [
+        "https://pubmed.ncbi.nlm.nih.gov/29973241/"
+      ],
+      "findings": "Guerrero trial protocol, linked to TH2-080 primary trial and TH2-079 narrative evaluation. Protocol not an outcome report; compare planned versus actual conduct and retrospective registration. Full funding and protocol deviations pending.",
+      "scope": "Indexed source identity and selected original abstract/publisher passages; secondary metadata explicitly qualified; no full independent appraisal or systematic retraction checks.",
+      "clinical_review": false,
+      "publish": false,
+      "automation_allowed": false
+    },
+    {
+      "id": "TH2-088",
+      "source": "https://pubmed.ncbi.nlm.nih.gov/39293822/",
+      "sources": [
+        "https://pubmed.ncbi.nlm.nih.gov/39293822/"
+      ],
+      "findings": "Descriptive Guatemala birthing-center implementation report: 4,322 births through 2023, no maternal deaths at centers and four deaths after referral. No causal comparison with home or hospital births; referral outcomes must remain included. Authors include program implementers (Curamericas) and an Optum affiliation; affiliations alone are not proof of financial conflicts. Funding and full disclosure pending. Figure captions identify individual copyright holders, reuse not approved.",
+      "scope": "Indexed source identity and selected original abstract/publisher passages; secondary metadata explicitly qualified; no full independent appraisal or systematic retraction checks.",
+      "clinical_review": false,
+      "publish": false,
+      "automation_allowed": false
+    }
+  ],
+  "study_family_updates": [
+    {
+      "ids": [
+        "TH2-079",
+        "TH2-080",
+        "TH2-087"
+      ],
+      "status": "linked protocol, primary trial, and narrative companion; one trial, not three replications",
+      "registration": "ISRCTN12397283"
+    },
+    {
+      "ids": [
+        "TH2-027",
+        "TH2-028",
+        "TH2-033"
+      ],
+      "status": "review overlap candidate; primary membership not fully reconciled"
+    }
+  ],
+  "clinical_review": false,
+  "publish": false,
+  "automation_allowed": false
+}
