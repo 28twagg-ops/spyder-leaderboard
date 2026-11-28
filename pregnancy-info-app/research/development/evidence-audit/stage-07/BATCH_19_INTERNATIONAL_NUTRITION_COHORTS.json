@@ -1,0 +1,795 @@
+{
+  "batch": "19",
+  "stage": 7,
+  "date": "2026-11-27",
+  "scope": "International prenatal nutrition and overlapping trial populations; preliminary source, outcome, funding and applicability screening",
+  "count": 43,
+  "counted_ids": [
+    "I1-B01-005",
+    "I1-B01-006",
+    "I1-B01-007",
+    "I1-B01-008",
+    "I1-B01-009",
+    "I1-B01-010",
+    "I1-B01-011",
+    "I1-B01-012",
+    "I1-B01-013",
+    "I1-B01-014",
+    "I1-B01-025",
+    "I1-B01-026",
+    "I1-B01-027",
+    "I1-B01-028",
+    "I1-B01-029",
+    "I1-B01-030",
+    "I1-B01-031",
+    "I1-B01-032",
+    "I1-B01-050",
+    "I1-B01-051",
+    "I1-B01-052",
+    "I1-B01-053",
+    "I1-B01-054",
+    "I1-B01-055",
+    "I1-B01-056",
+    "I1-B01-057",
+    "I1-B01-058",
+    "I1-B01-059",
+    "I1-B01-075",
+    "I1-B01-076",
+    "I1-B01-077",
+    "I1-B01-078",
+    "I1-B01-079",
+    "I1-B01-080",
+    "I1-B01-081",
+    "I1-B01-085",
+    "I1-B01-086",
+    "I1-B01-087",
+    "I1-B01-088",
+    "I1-B01-089",
+    "I1-B01-090",
+    "I1-B01-091",
+    "I1-B01-092"
+  ],
+  "records": [
+    {
+      "id": "I1-B01-005",
+      "source": "https://pubmed.ncbi.nlm.nih.gov/42957052/",
+      "sources": [
+        "https://pubmed.ncbi.nlm.nih.gov/42957052/"
+      ],
+      "cohort_family": "MINT Nepal",
+      "findings": "Household-randomized unblinded 2×2 prenatal/lactation fortified balanced energy-protein trial; separate timing arms and infant growth endpoints.",
+      "methodological_limitations": "Outcome estimates pending; performance bias and nutritional context.",
+      "funding": "Publication-specific funding, product supply, author interests and sponsor role not verified.",
+      "integrity": "Correction/retraction search incomplete; no clearance inferred.",
+      "article_applicability": "Research context only; no individualized prenatal dosing, diagnosis or treatment claim. Maintain global clinical hold.",
+      "scope": "Partial indexed original-publication metadata/abstract or selected publisher text; not full appraisal.",
+      "clinical_review": false,
+      "publish": false,
+      "automation_allowed": false
+    },
+    {
+      "id": "I1-B01-006",
+      "source": "https://pubmed.ncbi.nlm.nih.gov/42349909/",
+      "sources": [
+        "https://pubmed.ncbi.nlm.nih.gov/42349909/"
+      ],
+      "cohort_family": "Bangladesh BEP",
+      "findings": "Cluster-randomized effectiveness trial of targeted versus universal fortified BEP; birth outcomes.",
+      "methodological_limitations": "Cluster allocation and targeting eligibility; effects not extracted.",
+      "funding": "Publication-specific funding, product supply, author interests and sponsor role not verified.",
+      "integrity": "Correction/retraction search incomplete; no clearance inferred.",
+      "article_applicability": "Research context only; no individualized prenatal dosing, diagnosis or treatment claim. Maintain global clinical hold.",
+      "scope": "Partial indexed original-publication metadata/abstract or selected publisher text; not full appraisal.",
+      "clinical_review": false,
+      "publish": false,
+      "automation_allowed": false
+    },
+    {
+      "id": "I1-B01-007",
+      "source": "https://pubmed.ncbi.nlm.nih.gov/18326610/",
+      "sources": [
+        "https://pubmed.ncbi.nlm.nih.gov/18326610/"
+      ],
+      "cohort_family": "MINIMat",
+      "findings": "Infant development substudy of prenatal food timing and micronutrient trial.",
+      "methodological_limitations": "Same family as 008–010; developmental scores not extracted.",
+      "funding": "Publication-specific funding, product supply, author interests and sponsor role not verified.",
+      "integrity": "Correction/retraction search incomplete; no clearance inferred.",
+      "article_applicability": "Research context only; no individualized prenatal dosing, diagnosis or treatment claim. Maintain global clinical hold.",
+      "scope": "Partial indexed original-publication metadata/abstract or selected publisher text; not full appraisal.",
+      "clinical_review": false,
+      "publish": false,
+      "automation_allowed": false
+    },
+    {
+      "id": "I1-B01-008",
+      "source": "https://pubmed.ncbi.nlm.nih.gov/22665104/",
+      "sources": [
+        "https://pubmed.ncbi.nlm.nih.gov/22665104/",
+        "https://jamanetwork.com/journals/jama/fullarticle/1157489"
+      ],
+      "cohort_family": "MINIMat",
+      "findings": "Combination of early food and multiple micronutrients reduced mortality versus standard program; birth size not improved; early food alone mortality HR 0.82 (0.58–1.15).",
+      "methodological_limitations": "Factorial arms and contrast-specific interpretation.",
+      "funding": "ICDDR,B, UNICEF, Sida, UK MRC, Swedish Research Council, DFID, JSPS, CHNRI, Uppsala University, USAID; authors state funders had no design, analysis or publication role.",
+      "integrity": "Correction/retraction search incomplete; no clearance inferred.",
+      "article_applicability": "Research context only; no individualized prenatal dosing, diagnosis or treatment claim. Maintain global clinical hold.",
+      "scope": "Partial indexed original-publication metadata/abstract or selected publisher text; not full appraisal.",
+      "clinical_review": false,
+      "publish": false,
+      "automation_allowed": false
+    },
+    {
+      "id": "I1-B01-009",
+      "source": "https://pubmed.ncbi.nlm.nih.gov/22152147/",
+      "sources": [
+        "https://pubmed.ncbi.nlm.nih.gov/22152147/",
+        "https://pmc.ncbi.nlm.nih.gov/articles/PMC3274449/"
+      ],
+      "cohort_family": "MINIMat",
+      "findings": "4436 enrolled; early food reduced stunting in boys but not girls; MMS increased stunting in boys.",
+      "methodological_limitations": "Sex-specific results require interaction/multiplicity checks; not a general claim.",
+      "funding": "Public, university and development-agency support disclosed; see primary trial for reported sponsor role.",
+      "integrity": "Correction/retraction search incomplete; no clearance inferred.",
+      "article_applicability": "Research context only; no individualized prenatal dosing, diagnosis or treatment claim. Maintain global clinical hold.",
+      "scope": "Partial indexed original-publication metadata/abstract or selected publisher text; not full appraisal.",
+      "clinical_review": false,
+      "publish": false,
+      "automation_allowed": false
+    },
+    {
+      "id": "I1-B01-010",
+      "source": "https://pubmed.ncbi.nlm.nih.gov/28779492/",
+      "sources": [
+        "https://pubmed.ncbi.nlm.nih.gov/28779492/"
+      ],
+      "cohort_family": "MINIMat",
+      "findings": "No effect on common childhood infections despite previously reported survival benefit.",
+      "methodological_limitations": "Outcome-specific disagreement; not independent replication.",
+      "funding": "Publication-specific funding, product supply, author interests and sponsor role not verified.",
+      "integrity": "Correction/retraction search incomplete; no clearance inferred.",
+      "article_applicability": "Research context only; no individualized prenatal dosing, diagnosis or treatment claim. Maintain global clinical hold.",
+      "scope": "Partial indexed original-publication metadata/abstract or selected publisher text; not full appraisal.",
+      "clinical_review": false,
+      "publish": false,
+      "automation_allowed": false
+    },
+    {
+      "id": "I1-B01-011",
+      "source": "https://pubmed.ncbi.nlm.nih.gov/31006806/",
+      "sources": [
+        "https://pubmed.ncbi.nlm.nih.gov/31006806/"
+      ],
+      "cohort_family": "Bangladesh MMS",
+      "findings": "Randomized micronutrient status comparison: MMS did not eliminate deficiencies.",
+      "methodological_limitations": "Biomarkers do not establish clinical benefits; exact trial family pending.",
+      "funding": "Publication-specific funding, product supply, author interests and sponsor role not verified.",
+      "integrity": "Correction/retraction search incomplete; no clearance inferred.",
+      "article_applicability": "Research context only; no individualized prenatal dosing, diagnosis or treatment claim. Maintain global clinical hold.",
+      "scope": "Partial indexed original-publication metadata/abstract or selected publisher text; not full appraisal.",
+      "clinical_review": false,
+      "publish": false,
+      "automation_allowed": false
+    },
+    {
+      "id": "I1-B01-012",
+      "source": "https://pubmed.ncbi.nlm.nih.gov/26607935/",
+      "sources": [
+        "https://pubmed.ncbi.nlm.nih.gov/26607935/"
+      ],
+      "cohort_family": "Bangladesh LNS",
+      "findings": "Cluster-randomized effectiveness study reports lower newborn stunting.",
+      "methodological_limitations": "Verify cluster-adjusted estimates, product composition and family.",
+      "funding": "Publication-specific funding, product supply, author interests and sponsor role not verified.",
+      "integrity": "Correction/retraction search incomplete; no clearance inferred.",
+      "article_applicability": "Research context only; no individualized prenatal dosing, diagnosis or treatment claim. Maintain global clinical hold.",
+      "scope": "Partial indexed original-publication metadata/abstract or selected publisher text; not full appraisal.",
+      "clinical_review": false,
+      "publish": false,
+      "automation_allowed": false
+    },
+    {
+      "id": "I1-B01-013",
+      "source": "https://pubmed.ncbi.nlm.nih.gov/37031691/",
+      "sources": [
+        "https://pubmed.ncbi.nlm.nih.gov/37031691/"
+      ],
+      "cohort_family": "Nepal B12 placebo",
+      "findings": "Community-based double-blind placebo-controlled trial examining infant growth and development.",
+      "methodological_limitations": "Compare distinct dosing/population with MATCOBIND; full outcome extraction pending.",
+      "funding": "Publication-specific funding, product supply, author interests and sponsor role not verified.",
+      "integrity": "Correction/retraction search incomplete; no clearance inferred.",
+      "article_applicability": "Research context only; no individualized prenatal dosing, diagnosis or treatment claim. Maintain global clinical hold.",
+      "scope": "Partial indexed original-publication metadata/abstract or selected publisher text; not full appraisal.",
+      "clinical_review": false,
+      "publish": false,
+      "automation_allowed": false
+    },
+    {
+      "id": "I1-B01-014",
+      "source": "https://pubmed.ncbi.nlm.nih.gov/42421698/",
+      "sources": [
+        "https://pubmed.ncbi.nlm.nih.gov/42421698/",
+        "https://pmc.ncbi.nlm.nih.gov/articles/PMC13342945/"
+      ],
+      "cohort_family": "Mumta Pakistan",
+      "findings": "Secondary analysis of prenatal interventions and infant growth through 12 months.",
+      "methodological_limitations": "Multi-intervention arms including antibiotic; no self-directed antibiotic or supplement inference.",
+      "funding": "Publication-specific funding, product supply, author interests and sponsor role not verified.",
+      "integrity": "Correction/retraction search incomplete; no clearance inferred.",
+      "article_applicability": "Research context only; no individualized prenatal dosing, diagnosis or treatment claim. Maintain global clinical hold.",
+      "scope": "Partial indexed original-publication metadata/abstract or selected publisher text; not full appraisal.",
+      "clinical_review": false,
+      "publish": false,
+      "automation_allowed": false
+    },
+    {
+      "id": "I1-B01-025",
+      "source": "https://pubmed.ncbi.nlm.nih.gov/33123091/",
+      "sources": [
+        "https://pubmed.ncbi.nlm.nih.gov/33123091/",
+        "https://clinicaltrials.gov/study/NCT00791466"
+      ],
+      "cohort_family": "MITCH",
+      "findings": "Secondary analysis of India/Thailand trial found no improvement in thyroid function or child development in mild deficiency.",
+      "methodological_limitations": "Does not apply to severe deficiency; do not override standard iodine guidance.",
+      "funding": "Publication-specific funding, product supply, author interests and sponsor role not verified.",
+      "integrity": "Correction/retraction search incomplete; no clearance inferred.",
+      "article_applicability": "Research context only; no individualized prenatal dosing, diagnosis or treatment claim. Maintain global clinical hold.",
+      "scope": "Partial indexed original-publication metadata/abstract or selected publisher text; not full appraisal.",
+      "clinical_review": false,
+      "publish": false,
+      "automation_allowed": false
+    },
+    {
+      "id": "I1-B01-026",
+      "source": "https://pubmed.ncbi.nlm.nih.gov/32160632/",
+      "sources": [
+        "https://pubmed.ncbi.nlm.nih.gov/32160632/"
+      ],
+      "cohort_family": "Thailand iodine targeting",
+      "findings": "Randomized universal versus targeted iodine supplementation study.",
+      "methodological_limitations": "Verify baseline iodine status and clinical endpoints; no individualized dose.",
+      "funding": "Publication-specific funding, product supply, author interests and sponsor role not verified.",
+      "integrity": "Correction/retraction search incomplete; no clearance inferred.",
+      "article_applicability": "Research context only; no individualized prenatal dosing, diagnosis or treatment claim. Maintain global clinical hold.",
+      "scope": "Partial indexed original-publication metadata/abstract or selected publisher text; not full appraisal.",
+      "clinical_review": false,
+      "publish": false,
+      "automation_allowed": false
+    },
+    {
+      "id": "I1-B01-027",
+      "source": "https://pubmed.ncbi.nlm.nih.gov/29049303/",
+      "sources": [
+        "https://pubmed.ncbi.nlm.nih.gov/29049303/"
+      ],
+      "cohort_family": "St Carlos",
+      "findings": "RCT reported lower GDM incidence with Mediterranean diet plus olive oil and pistachios.",
+      "methodological_limitations": "Dietary package, not isolated ingredient efficacy; overlapping secondary reports.",
+      "funding": "Publication-specific funding, product supply, author interests and sponsor role not verified.",
+      "integrity": "Correction/retraction search incomplete; no clearance inferred.",
+      "article_applicability": "Research context only; no individualized prenatal dosing, diagnosis or treatment claim. Maintain global clinical hold.",
+      "scope": "Partial indexed original-publication metadata/abstract or selected publisher text; not full appraisal.",
+      "clinical_review": false,
+      "publish": false,
+      "automation_allowed": false
+    },
+    {
+      "id": "I1-B01-028",
+      "source": "https://pubmed.ncbi.nlm.nih.gov/31335871/",
+      "sources": [
+        "https://pubmed.ncbi.nlm.nih.gov/31335871/",
+        "https://pmc.ncbi.nlm.nih.gov/articles/PMC6650045/"
+      ],
+      "cohort_family": "ESTEEM",
+      "findings": "1252 randomized; GDM adjusted OR 0.65 (0.47–0.91); maternal and offspring composite endpoints not significantly reduced.",
+      "methodological_limitations": "Unblinded diet, self-reported adherence; no guarantee of GDM prevention.",
+      "funding": "Barts Charity 212563; California Walnut Commission and Blue Diamond Growers donated walnuts and almonds; authors report no funder role and no competing interests.",
+      "integrity": "Correction/retraction search incomplete; no clearance inferred.",
+      "article_applicability": "Research context only; no individualized prenatal dosing, diagnosis or treatment claim. Maintain global clinical hold.",
+      "scope": "Partial indexed original-publication metadata/abstract or selected publisher text; not full appraisal.",
+      "clinical_review": false,
+      "publish": false,
+      "automation_allowed": false
+    },
+    {
+      "id": "I1-B01-029",
+      "source": "https://pubmed.ncbi.nlm.nih.gov/33202607/",
+      "sources": [
+        "https://pubmed.ncbi.nlm.nih.gov/33202607/"
+      ],
+      "cohort_family": "St Carlos related",
+      "findings": "Hispanic subgroup and routine-care implementation report; GDM adjusted RR 0.72 (0.50–0.97) intervention and 0.77 (0.61–0.97) real-world.",
+      "methodological_limitations": "Separate randomized and real-world comparisons; shared controls/recruitment require reconciliation.",
+      "funding": "Publication-specific funding, product supply, author interests and sponsor role not verified.",
+      "integrity": "Correction/retraction search incomplete; no clearance inferred.",
+      "article_applicability": "Research context only; no individualized prenatal dosing, diagnosis or treatment claim. Maintain global clinical hold.",
+      "scope": "Partial indexed original-publication metadata/abstract or selected publisher text; not full appraisal.",
+      "clinical_review": false,
+      "publish": false,
+      "automation_allowed": false
+    },
+    {
+      "id": "I1-B01-030",
+      "source": "https://pubmed.ncbi.nlm.nih.gov/39064649/",
+      "sources": [
+        "https://pubmed.ncbi.nlm.nih.gov/39064649/"
+      ],
+      "cohort_family": "St Carlos related",
+      "findings": "Post-hoc analysis in 735 overweight/obese women, 2015–2018.",
+      "methodological_limitations": "Post-hoc and potentially overlapping periods; do not count independent.",
+      "funding": "Publication-specific funding, product supply, author interests and sponsor role not verified.",
+      "integrity": "Correction/retraction search incomplete; no clearance inferred.",
+      "article_applicability": "Research context only; no individualized prenatal dosing, diagnosis or treatment claim. Maintain global clinical hold.",
+      "scope": "Partial indexed original-publication metadata/abstract or selected publisher text; not full appraisal.",
+      "clinical_review": false,
+      "publish": false,
+      "automation_allowed": false
+    },
+    {
+      "id": "I1-B01-031",
+      "source": "https://pubmed.ncbi.nlm.nih.gov/32414066/",
+      "sources": [
+        "https://pubmed.ncbi.nlm.nih.gov/32414066/"
+      ],
+      "cohort_family": "St Carlos",
+      "findings": "Two-year offspring hospital admission follow-up reports subgroup-dependent association.",
+      "methodological_limitations": "Follow-up of parent trial; attrition and multiplicity pending.",
+      "funding": "Publication-specific funding, product supply, author interests and sponsor role not verified.",
+      "integrity": "Correction/retraction search incomplete; no clearance inferred.",
+      "article_applicability": "Research context only; no individualized prenatal dosing, diagnosis or treatment claim. Maintain global clinical hold.",
+      "scope": "Partial indexed original-publication metadata/abstract or selected publisher text; not full appraisal.",
+      "clinical_review": false,
+      "publish": false,
+      "automation_allowed": false
+    },
+    {
+      "id": "I1-B01-032",
+      "source": "https://pubmed.ncbi.nlm.nih.gov/31141972/",
+      "sources": [
+        "https://pubmed.ncbi.nlm.nih.gov/31141972/"
+      ],
+      "cohort_family": "St Carlos implementation",
+      "findings": "Prospective single-group implementation study.",
+      "methodological_limitations": "No concurrent randomized control; potential confounding; compare shared historical controls.",
+      "funding": "Publication-specific funding, product supply, author interests and sponsor role not verified.",
+      "integrity": "Correction/retraction search incomplete; no clearance inferred.",
+      "article_applicability": "Research context only; no individualized prenatal dosing, diagnosis or treatment claim. Maintain global clinical hold.",
+      "scope": "Partial indexed original-publication metadata/abstract or selected publisher text; not full appraisal.",
+      "clinical_review": false,
+      "publish": false,
+      "automation_allowed": false
+    },
+    {
+      "id": "I1-B01-050",
+      "source": "https://pubmed.ncbi.nlm.nih.gov/24598885/",
+      "sources": [
+        "https://pubmed.ncbi.nlm.nih.gov/24598885/"
+      ],
+      "cohort_family": "Bangalore B12",
+      "findings": "Placebo-controlled trial reports improved maternal, milk and infant B12 markers.",
+      "methodological_limitations": "Biochemical outcomes only; linked developmental reports 051–053.",
+      "funding": "Publication-specific funding, product supply, author interests and sponsor role not verified.",
+      "integrity": "Correction/retraction search incomplete; no clearance inferred.",
+      "article_applicability": "Research context only; no individualized prenatal dosing, diagnosis or treatment claim. Maintain global clinical hold.",
+      "scope": "Partial indexed original-publication metadata/abstract or selected publisher text; not full appraisal.",
+      "clinical_review": false,
+      "publish": false,
+      "automation_allowed": false
+    },
+    {
+      "id": "I1-B01-051",
+      "source": "https://pubmed.ncbi.nlm.nih.gov/27356547/",
+      "sources": [
+        "https://pubmed.ncbi.nlm.nih.gov/27356547/"
+      ],
+      "cohort_family": "Bangalore B12",
+      "findings": "178 infants evaluated at nine months; no intervention effect on early neurocognition.",
+      "methodological_limitations": "Attrition and multiple domains; same parent trial as 050.",
+      "funding": "Publication-specific funding, product supply, author interests and sponsor role not verified.",
+      "integrity": "Correction/retraction search incomplete; no clearance inferred.",
+      "article_applicability": "Research context only; no individualized prenatal dosing, diagnosis or treatment claim. Maintain global clinical hold.",
+      "scope": "Partial indexed original-publication metadata/abstract or selected publisher text; not full appraisal.",
+      "clinical_review": false,
+      "publish": false,
+      "automation_allowed": false
+    },
+    {
+      "id": "I1-B01-052",
+      "source": "https://pubmed.ncbi.nlm.nih.gov/30003521/",
+      "sources": [
+        "https://pubmed.ncbi.nlm.nih.gov/30003521/"
+      ],
+      "cohort_family": "Bangalore B12",
+      "findings": "At 30 months higher expressive language scores reported.",
+      "methodological_limitations": "Domain-specific follow-up; do not extrapolate to overall IQ or independent replication.",
+      "funding": "Publication-specific funding, product supply, author interests and sponsor role not verified.",
+      "integrity": "Correction/retraction search incomplete; no clearance inferred.",
+      "article_applicability": "Research context only; no individualized prenatal dosing, diagnosis or treatment claim. Maintain global clinical hold.",
+      "scope": "Partial indexed original-publication metadata/abstract or selected publisher text; not full appraisal.",
+      "clinical_review": false,
+      "publish": false,
+      "automation_allowed": false
+    },
+    {
+      "id": "I1-B01-053",
+      "source": "https://pubmed.ncbi.nlm.nih.gov/28402324/",
+      "sources": [
+        "https://pubmed.ncbi.nlm.nih.gov/28402324/"
+      ],
+      "cohort_family": "Bangalore B12",
+      "findings": "Prospective biomarker association within randomized trial; infant sample 77 at six weeks.",
+      "methodological_limitations": "Associational subset; not independent trial.",
+      "funding": "Publication-specific funding, product supply, author interests and sponsor role not verified.",
+      "integrity": "Correction/retraction search incomplete; no clearance inferred.",
+      "article_applicability": "Research context only; no individualized prenatal dosing, diagnosis or treatment claim. Maintain global clinical hold.",
+      "scope": "Partial indexed original-publication metadata/abstract or selected publisher text; not full appraisal.",
+      "clinical_review": false,
+      "publish": false,
+      "automation_allowed": false
+    },
+    {
+      "id": "I1-B01-054",
+      "source": "https://pubmed.ncbi.nlm.nih.gov/41850742/",
+      "sources": [
+        "https://pubmed.ncbi.nlm.nih.gov/41850742/"
+      ],
+      "cohort_family": "MATCOBIND",
+      "findings": "Higher versus lower B12 dose in predominantly vegetarian participants; improved mental developmental quotient and maternal status.",
+      "methodological_limitations": "Active comparator, high-risk diet population; not universal dosing.",
+      "funding": "Publication-specific funding, product supply, author interests and sponsor role not verified.",
+      "integrity": "Correction/retraction search incomplete; no clearance inferred.",
+      "article_applicability": "Research context only; no individualized prenatal dosing, diagnosis or treatment claim. Maintain global clinical hold.",
+      "scope": "Partial indexed original-publication metadata/abstract or selected publisher text; not full appraisal.",
+      "clinical_review": false,
+      "publish": false,
+      "automation_allowed": false
+    },
+    {
+      "id": "I1-B01-055",
+      "source": "https://pubmed.ncbi.nlm.nih.gov/43022896/",
+      "sources": [
+        "https://pubmed.ncbi.nlm.nih.gov/43022896/"
+      ],
+      "cohort_family": "MATCOBIND",
+      "findings": "Exploratory secondary analysis of 531 dyads; difference concentrated in language-related domains.",
+      "methodological_limitations": "Same trial as 054; multiplicity and developmental age limitations.",
+      "funding": "Publication-specific funding, product supply, author interests and sponsor role not verified.",
+      "integrity": "Correction/retraction search incomplete; no clearance inferred.",
+      "article_applicability": "Research context only; no individualized prenatal dosing, diagnosis or treatment claim. Maintain global clinical hold.",
+      "scope": "Partial indexed original-publication metadata/abstract or selected publisher text; not full appraisal.",
+      "clinical_review": false,
+      "publish": false,
+      "automation_allowed": false
+    },
+    {
+      "id": "I1-B01-056",
+      "source": "https://pubmed.ncbi.nlm.nih.gov/23587190/",
+      "sources": [
+        "https://pubmed.ncbi.nlm.nih.gov/23587190/"
+      ],
+      "cohort_family": "AViDD",
+      "findings": "High-dose third-trimester vitamin D placebo-controlled biochemical trial.",
+      "methodological_limitations": "Distinct from MDIG; supervised dose not a general recommendation.",
+      "funding": "Publication-specific funding, product supply, author interests and sponsor role not verified.",
+      "integrity": "Correction/retraction search incomplete; no clearance inferred.",
+      "article_applicability": "Research context only; no individualized prenatal dosing, diagnosis or treatment claim. Maintain global clinical hold.",
+      "scope": "Partial indexed original-publication metadata/abstract or selected publisher text; not full appraisal.",
+      "clinical_review": false,
+      "publish": false,
+      "automation_allowed": false
+    },
+    {
+      "id": "I1-B01-057",
+      "source": "https://pubmed.ncbi.nlm.nih.gov/30089075/",
+      "sources": [
+        "https://pubmed.ncbi.nlm.nih.gov/30089075/"
+      ],
+      "cohort_family": "MDIG",
+      "findings": "Randomized dose-ranging trial: no improvement in fetal or infant growth through one year.",
+      "methodological_limitations": "Deficiency setting; no inference that correction of deficiency is unnecessary.",
+      "funding": "Publication-specific funding, product supply, author interests and sponsor role not verified.",
+      "integrity": "Correction/retraction search incomplete; no clearance inferred.",
+      "article_applicability": "Research context only; no individualized prenatal dosing, diagnosis or treatment claim. Maintain global clinical hold.",
+      "scope": "Partial indexed original-publication metadata/abstract or selected publisher text; not full appraisal.",
+      "clinical_review": false,
+      "publish": false,
+      "automation_allowed": false
+    },
+    {
+      "id": "I1-B01-058",
+      "source": "https://pubmed.ncbi.nlm.nih.gov/32773651/",
+      "sources": [
+        "https://pubmed.ncbi.nlm.nih.gov/32773651/"
+      ],
+      "cohort_family": "MDIG candidate",
+      "findings": "Randomized vitamin D trial analysis of mid-to-late gestational blood pressure.",
+      "methodological_limitations": "Cohort relationship to MDIG to confirm from methods; results pending.",
+      "funding": "Publication-specific funding, product supply, author interests and sponsor role not verified.",
+      "integrity": "Correction/retraction search incomplete; no clearance inferred.",
+      "article_applicability": "Research context only; no individualized prenatal dosing, diagnosis or treatment claim. Maintain global clinical hold.",
+      "scope": "Partial indexed original-publication metadata/abstract or selected publisher text; not full appraisal.",
+      "clinical_review": false,
+      "publish": false,
+      "automation_allowed": false
+    },
+    {
+      "id": "I1-B01-059",
+      "source": "https://pubmed.ncbi.nlm.nih.gov/33226277/",
+      "sources": [
+        "https://pubmed.ncbi.nlm.nih.gov/33226277/",
+        "https://pmc.ncbi.nlm.nih.gov/articles/PMC7682582/"
+      ],
+      "cohort_family": "MDIG",
+      "findings": "Secondary analysis of maternal and cord blood metals, NCT01924013.",
+      "methodological_limitations": "Same MDIG family; biomarkers not clinical toxicity endpoints.",
+      "funding": "Publication-specific funding, product supply, author interests and sponsor role not verified.",
+      "integrity": "Correction/retraction search incomplete; no clearance inferred.",
+      "article_applicability": "Research context only; no individualized prenatal dosing, diagnosis or treatment claim. Maintain global clinical hold.",
+      "scope": "Partial indexed original-publication metadata/abstract or selected publisher text; not full appraisal.",
+      "clinical_review": false,
+      "publish": false,
+      "automation_allowed": false
+    },
+    {
+      "id": "I1-B01-075",
+      "source": "https://pubmed.ncbi.nlm.nih.gov/25833980/",
+      "sources": [
+        "https://pubmed.ncbi.nlm.nih.gov/25833980/"
+      ],
+      "cohort_family": "iLiNS Ghana",
+      "findings": "Randomized prenatal lipid supplement report on birth size in primiparous women.",
+      "methodological_limitations": "Parity-specific finding; not all pregnant populations.",
+      "funding": "Publication-specific funding, product supply, author interests and sponsor role not verified.",
+      "integrity": "Correction/retraction search incomplete; no clearance inferred.",
+      "article_applicability": "Research context only; no individualized prenatal dosing, diagnosis or treatment claim. Maintain global clinical hold.",
+      "scope": "Partial indexed original-publication metadata/abstract or selected publisher text; not full appraisal.",
+      "clinical_review": false,
+      "publish": false,
+      "automation_allowed": false
+    },
+    {
+      "id": "I1-B01-076",
+      "source": "https://pubmed.ncbi.nlm.nih.gov/28275100/",
+      "sources": [
+        "https://pubmed.ncbi.nlm.nih.gov/28275100/"
+      ],
+      "cohort_family": "iLiNS Ghana",
+      "findings": "1320 randomized; lower low-weight-gain prevalence versus MMS but not iron-folate.",
+      "methodological_limitations": "Comparator-specific secondary outcome; no generalized weight gain benefit.",
+      "funding": "Publication-specific funding, product supply, author interests and sponsor role not verified.",
+      "integrity": "Correction/retraction search incomplete; no clearance inferred.",
+      "article_applicability": "Research context only; no individualized prenatal dosing, diagnosis or treatment claim. Maintain global clinical hold.",
+      "scope": "Partial indexed original-publication metadata/abstract or selected publisher text; not full appraisal.",
+      "clinical_review": false,
+      "publish": false,
+      "automation_allowed": false
+    },
+    {
+      "id": "I1-B01-077",
+      "source": "https://pubmed.ncbi.nlm.nih.gov/33704494/",
+      "sources": [
+        "https://pubmed.ncbi.nlm.nih.gov/33704494/"
+      ],
+      "cohort_family": "iLiNS Ghana",
+      "findings": "Randomized supplement comparison plus cohort association of BP with birth outcomes.",
+      "methodological_limitations": "Distinguish randomized comparison from observational BP analysis.",
+      "funding": "Publication-specific funding, product supply, author interests and sponsor role not verified.",
+      "integrity": "Correction/retraction search incomplete; no clearance inferred.",
+      "article_applicability": "Research context only; no individualized prenatal dosing, diagnosis or treatment claim. Maintain global clinical hold.",
+      "scope": "Partial indexed original-publication metadata/abstract or selected publisher text; not full appraisal.",
+      "clinical_review": false,
+      "publish": false,
+      "automation_allowed": false
+    },
+    {
+      "id": "I1-B01-078",
+      "source": "https://pubmed.ncbi.nlm.nih.gov/42435808/",
+      "sources": [
+        "https://pubmed.ncbi.nlm.nih.gov/42435808/"
+      ],
+      "cohort_family": "Ghana MMS zinc",
+      "findings": "Randomized pregnancy zinc biomarker study comparing MMS and IFA.",
+      "methodological_limitations": "Trial family and commercial supply unresolved; biomarker endpoint.",
+      "funding": "Publication-specific funding, product supply, author interests and sponsor role not verified.",
+      "integrity": "Correction/retraction search incomplete; no clearance inferred.",
+      "article_applicability": "Research context only; no individualized prenatal dosing, diagnosis or treatment claim. Maintain global clinical hold.",
+      "scope": "Partial indexed original-publication metadata/abstract or selected publisher text; not full appraisal.",
+      "clinical_review": false,
+      "publish": false,
+      "automation_allowed": false
+    },
+    {
+      "id": "I1-B01-079",
+      "source": "https://pubmed.ncbi.nlm.nih.gov/29210520/",
+      "sources": [
+        "https://pubmed.ncbi.nlm.nih.gov/29210520/"
+      ],
+      "cohort_family": "iLiNS Ghana",
+      "findings": "Planned secondary urinary iodine outcome increased with LNS or MMS versus IFA.",
+      "methodological_limitations": "Same 1320-woman cohort; no clinical thyroid or neurodevelopment conclusion.",
+      "funding": "Publication-specific funding, product supply, author interests and sponsor role not verified.",
+      "integrity": "Correction/retraction search incomplete; no clearance inferred.",
+      "article_applicability": "Research context only; no individualized prenatal dosing, diagnosis or treatment claim. Maintain global clinical hold.",
+      "scope": "Partial indexed original-publication metadata/abstract or selected publisher text; not full appraisal.",
+      "clinical_review": false,
+      "publish": false,
+      "automation_allowed": false
+    },
+    {
+      "id": "I1-B01-080",
+      "source": "https://pubmed.ncbi.nlm.nih.gov/28698916/",
+      "sources": [
+        "https://pubmed.ncbi.nlm.nih.gov/28698916/"
+      ],
+      "cohort_family": "iLiNS Ghana candidate",
+      "findings": "No reduction in six-month postpartum depressive symptoms versus IFA or MMS.",
+      "methodological_limitations": "No mood treatment recommendation; confirm cohort identity.",
+      "funding": "Publication-specific funding, product supply, author interests and sponsor role not verified.",
+      "integrity": "Correction/retraction search incomplete; no clearance inferred.",
+      "article_applicability": "Research context only; no individualized prenatal dosing, diagnosis or treatment claim. Maintain global clinical hold.",
+      "scope": "Partial indexed original-publication metadata/abstract or selected publisher text; not full appraisal.",
+      "clinical_review": false,
+      "publish": false,
+      "automation_allowed": false
+    },
+    {
+      "id": "I1-B01-081",
+      "source": "https://pubmed.ncbi.nlm.nih.gov/30753625/",
+      "sources": [
+        "https://pubmed.ncbi.nlm.nih.gov/30753625/"
+      ],
+      "cohort_family": "iLiNS Ghana",
+      "findings": "Child BP at 4–6 years unaffected; follow-up 858 (70% of live births).",
+      "methodological_limitations": "Attrition and bundled infant supplementation; same cohort.",
+      "funding": "Publication-specific funding, product supply, author interests and sponsor role not verified.",
+      "integrity": "Correction/retraction search incomplete; no clearance inferred.",
+      "article_applicability": "Research context only; no individualized prenatal dosing, diagnosis or treatment claim. Maintain global clinical hold.",
+      "scope": "Partial indexed original-publication metadata/abstract or selected publisher text; not full appraisal.",
+      "clinical_review": false,
+      "publish": false,
+      "automation_allowed": false
+    },
+    {
+      "id": "I1-B01-085",
+      "source": "https://pubmed.ncbi.nlm.nih.gov/28029926/",
+      "sources": [
+        "https://pubmed.ncbi.nlm.nih.gov/28029926/"
+      ],
+      "cohort_family": "COPSAC2010",
+      "findings": "Fish oil trial of childhood wheeze/asthma, strongest reported effect in lowest baseline EPA/DHA subgroup.",
+      "methodological_limitations": "Subgroup-specific finding; assess interaction, safety and dose before application.",
+      "funding": "Publication-specific funding, product supply, author interests and sponsor role not verified.",
+      "integrity": "Correction/retraction search incomplete; no clearance inferred.",
+      "article_applicability": "Research context only; no individualized prenatal dosing, diagnosis or treatment claim. Maintain global clinical hold.",
+      "scope": "Partial indexed original-publication metadata/abstract or selected publisher text; not full appraisal.",
+      "clinical_review": false,
+      "publish": false,
+      "automation_allowed": false
+    },
+    {
+      "id": "I1-B01-086",
+      "source": "https://pubmed.ncbi.nlm.nih.gov/33506965/",
+      "sources": [
+        "https://pubmed.ncbi.nlm.nih.gov/33506965/"
+      ],
+      "cohort_family": "COPSAC2010",
+      "findings": "Double-blind prenatal fish oil trial within 736 mother-child cohort; neurodevelopment report.",
+      "methodological_limitations": "Same trial family; estimates and domains pending.",
+      "funding": "Publication-specific funding, product supply, author interests and sponsor role not verified.",
+      "integrity": "Correction/retraction search incomplete; no clearance inferred.",
+      "article_applicability": "Research context only; no individualized prenatal dosing, diagnosis or treatment claim. Maintain global clinical hold.",
+      "scope": "Partial indexed original-publication metadata/abstract or selected publisher text; not full appraisal.",
+      "clinical_review": false,
+      "publish": false,
+      "automation_allowed": false
+    },
+    {
+      "id": "I1-B01-087",
+      "source": "https://pubmed.ncbi.nlm.nih.gov/37696621/",
+      "sources": [
+        "https://pubmed.ncbi.nlm.nih.gov/37696621/"
+      ],
+      "cohort_family": "COPSAC2010 candidate",
+      "findings": "Atopic and non-atopic effects of prenatal fish oil; COPSAC affiliations.",
+      "methodological_limitations": "Verify exact sample and outcome estimates before counting independent.",
+      "funding": "Publication-specific funding, product supply, author interests and sponsor role not verified.",
+      "integrity": "Correction/retraction search incomplete; no clearance inferred.",
+      "article_applicability": "Research context only; no individualized prenatal dosing, diagnosis or treatment claim. Maintain global clinical hold.",
+      "scope": "Partial indexed original-publication metadata/abstract or selected publisher text; not full appraisal.",
+      "clinical_review": false,
+      "publish": false,
+      "automation_allowed": false
+    },
+    {
+      "id": "I1-B01-088",
+      "source": "https://pubmed.ncbi.nlm.nih.gov/39196551/",
+      "sources": [
+        "https://pubmed.ncbi.nlm.nih.gov/39196551/"
+      ],
+      "cohort_family": "COPSAC2010",
+      "findings": "Secondary analysis of prenatal fish oil, maternal COX1 genotype and dermatitis through age 10.",
+      "methodological_limitations": "Genotype subgroup; no universal dermatitis claim.",
+      "funding": "Publication-specific funding, product supply, author interests and sponsor role not verified.",
+      "integrity": "Correction/retraction search incomplete; no clearance inferred.",
+      "article_applicability": "Research context only; no individualized prenatal dosing, diagnosis or treatment claim. Maintain global clinical hold.",
+      "scope": "Partial indexed original-publication metadata/abstract or selected publisher text; not full appraisal.",
+      "clinical_review": false,
+      "publish": false,
+      "automation_allowed": false
+    },
+    {
+      "id": "I1-B01-089",
+      "source": "https://pubmed.ncbi.nlm.nih.gov/30181143/",
+      "sources": [
+        "https://pubmed.ncbi.nlm.nih.gov/30181143/"
+      ],
+      "cohort_family": "COPSAC2010 candidate",
+      "findings": "At age six, proportional lean, bone and fat mass increase reported.",
+      "methodological_limitations": "Not evidence of obesity prevention; confirm cohort.",
+      "funding": "Publication-specific funding, product supply, author interests and sponsor role not verified.",
+      "integrity": "Correction/retraction search incomplete; no clearance inferred.",
+      "article_applicability": "Research context only; no individualized prenatal dosing, diagnosis or treatment claim. Maintain global clinical hold.",
+      "scope": "Partial indexed original-publication metadata/abstract or selected publisher text; not full appraisal.",
+      "clinical_review": false,
+      "publish": false,
+      "automation_allowed": false
+    },
+    {
+      "id": "I1-B01-090",
+      "source": "https://pubmed.ncbi.nlm.nih.gov/30418579/",
+      "sources": [
+        "https://pubmed.ncbi.nlm.nih.gov/30418579/"
+      ],
+      "cohort_family": "COPSAC2010 candidate",
+      "findings": "RCT reports greater gestational age and birth size with fish oil.",
+      "methodological_limitations": "Do not equate increased birthweight with universal benefit; verify cohort.",
+      "funding": "Publication-specific funding, product supply, author interests and sponsor role not verified.",
+      "integrity": "Correction/retraction search incomplete; no clearance inferred.",
+      "article_applicability": "Research context only; no individualized prenatal dosing, diagnosis or treatment claim. Maintain global clinical hold.",
+      "scope": "Partial indexed original-publication metadata/abstract or selected publisher text; not full appraisal.",
+      "clinical_review": false,
+      "publish": false,
+      "automation_allowed": false
+    },
+    {
+      "id": "I1-B01-091",
+      "source": "https://pubmed.ncbi.nlm.nih.gov/24111502/",
+      "sources": [
+        "https://pubmed.ncbi.nlm.nih.gov/24111502/"
+      ],
+      "cohort_family": "Australia fish oil",
+      "findings": "Randomized trial of prenatal fish oil and childhood allergies.",
+      "methodological_limitations": "Exact cohort and clinical allergy results pending; not inferred from Danish trial.",
+      "funding": "Publication-specific funding, product supply, author interests and sponsor role not verified.",
+      "integrity": "Correction/retraction search incomplete; no clearance inferred.",
+      "article_applicability": "Research context only; no individualized prenatal dosing, diagnosis or treatment claim. Maintain global clinical hold.",
+      "scope": "Partial indexed original-publication metadata/abstract or selected publisher text; not full appraisal.",
+      "clinical_review": false,
+      "publish": false,
+      "automation_allowed": false
+    },
+    {
+      "id": "I1-B01-092",
+      "source": "https://pubmed.ncbi.nlm.nih.gov/41771441/",
+      "sources": [
+        "https://pubmed.ncbi.nlm.nih.gov/41771441/",
+        "https://pmc.ncbi.nlm.nih.gov/articles/PMC13197902/"
+      ],
+      "cohort_family": "HEDIMED",
+      "findings": "Three Nordic cohorts: MoBa 76026, DIPP 560, COPSAC2010 680; dietary questionnaires in first two, randomized exposure in third.",
+      "methodological_limitations": "COPSAC overlaps prior papers; observational confounding and exposure heterogeneity; no pooled independent count.",
+      "funding": "Publication-specific funding, product supply, author interests and sponsor role not verified.",
+      "integrity": "Correction/retraction search incomplete; no clearance inferred.",
+      "article_applicability": "Research context only; no individualized prenatal dosing, diagnosis or treatment claim. Maintain global clinical hold.",
+      "scope": "Partial indexed original-publication metadata/abstract or selected publisher text; not full appraisal.",
+      "clinical_review": false,
+      "publish": false,
+      "automation_allowed": false
+    }
+  ],
+  "clinical_review": false,
+  "publish": false,
+  "automation_allowed": false
+}
